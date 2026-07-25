@@ -137,6 +137,10 @@ To be populated.
 
 ---
 
+## Proposing new features
+
+You can propose a feature using issues. You can also submit passages in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context are approved and added to the engine sourcing. The submission of passages is intended to highlight intentional, high level, or sophisticated human-written literature.
+
 ## Proposing Features
 
 You can propose new features by starting a new issue and using the feature flag.
