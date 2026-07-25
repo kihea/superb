@@ -47,12 +47,19 @@ except ImportError:  # pragma: no cover
 CLASSES_DIR = pathlib.Path(__file__).resolve().parent.parent / "classes"
 
 # Coarse pos -> WordNet pos codes that satisfy it. Adjective satellite senses
-# ('s', e.g. "waxen") count as adjectives.
+# ('s', e.g. "waxen") count as adjectives. Written as the raw single-letter
+# codes rather than wn.ADJ / wn.NOUN / etc: `wn` is a LazyCorpusLoader, and
+# reading *any* attribute off it — including a constant — triggers a corpus
+# load. Touching that at import time, before ensure_wordnet() has had a
+# chance to download the corpus, is exactly the failure a fresh CI runner
+# hit: a LookupError on the very first attribute access, nowhere near a
+# synsets() call. The codes themselves are stable, documented WordNet
+# convention ('a' 's' 'r' 'n' 'v'), not the loader's business.
 WORDNET_POS = {
-    "adj": [wn.ADJ, wn.ADJ_SAT],
-    "adv": [wn.ADV],
-    "noun": [wn.NOUN],
-    "verb": [wn.VERB],
+    "adj": ["a", "s"],
+    "adv": ["r"],
+    "noun": ["n"],
+    "verb": ["v"],
 }
 
 
@@ -88,7 +95,7 @@ def check_class(path: pathlib.Path) -> list[str]:
 
         # 2. pos agreement, via WordNet's sense inventory for the word
         if not any(wn.synsets(word, pos=p) for p in wordnet_pos):
-            found = [p for p in [wn.ADJ, wn.ADJ_SAT, wn.NOUN, wn.VERB, wn.ADV] if wn.synsets(word, pos=p)]
+            found = [p for p in ["a", "s", "n", "v", "r"] if wn.synsets(word, pos=p)]
             errors.append(
                 f"{class_id}/{word}: no WordNet sense tagged {pos} "
                 f"(found: {found or 'no senses at all'})"
