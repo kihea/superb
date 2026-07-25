@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://superb.app/schema/class.schema.json",
+  "title": "Slot class",
+  "description": "A semantic-and-POS bucket a word may fill. See docs/seams.md §Seam 2, 'Slot classes'.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "pos", "description", "fixture", "members"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(adj|adv|noun|verb)(\\.[a-z]+){2,3}$",
+      "description": "e.g. adj.quality.light, or a further-split noun.abstract.emotion.dread when one semantic bucket needs two siblings. Must match the filename."
+    },
+    "pos": {
+      "type": "string",
+      "enum": ["adj", "adv", "noun", "verb"],
+      "description": "Coarse part of speech every member must satisfy when substituted into fixture."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The editorial boundary of this bucket — why a word is in it and what would put a word outside it."
+    },
+    "fixture": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\{word\\}",
+      "description": "A sentence with a single {word} placeholder, in a syntactic position that disambiguates pos. The class's only real defence: every member must substitute in and stay grammatical."
+    },
+    "members": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 25,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+$"
+      },
+      "uniqueItems": true
+    }
+  }
+}

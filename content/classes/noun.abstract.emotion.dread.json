@@ -1,0 +1,18 @@
+{
+  "id": "noun.abstract.emotion.dread",
+  "pos": "noun",
+  "description": "An anticipatory unease about what is coming, not fear of what is already present.",
+  "fixture": "A quiet {word} settled over the room.",
+  "members": [
+    "dread",
+    "foreboding",
+    "unease",
+    "apprehension",
+    "disquiet",
+    "misgiving",
+    "trepidation",
+    "anxiety",
+    "dismay",
+    "wariness"
+  ]
+}

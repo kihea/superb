@@ -1,0 +1,18 @@
+{
+  "id": "verb.motion.slow",
+  "pos": "verb",
+  "description": "Unhurried self-propelled motion, on foot.",
+  "fixture": "They chose to {word} along the shore.",
+  "members": [
+    "amble",
+    "trudge",
+    "plod",
+    "shuffle",
+    "meander",
+    "dawdle",
+    "saunter",
+    "wander",
+    "drift",
+    "straggle"
+  ]
+}

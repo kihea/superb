@@ -1,0 +1,18 @@
+{
+  "id": "adj.quality.cold",
+  "pos": "adj",
+  "description": "Cold read in weather or air as a physical bite, not as emotional distance.",
+  "fixture": "It was a {word} morning, the kind that bites at the fingers.",
+  "members": [
+    "chilly",
+    "frigid",
+    "bitter",
+    "raw",
+    "icy",
+    "wintry",
+    "glacial",
+    "nipping",
+    "arctic",
+    "keen"
+  ]
+}

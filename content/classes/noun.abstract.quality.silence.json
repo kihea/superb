@@ -1,0 +1,17 @@
+{
+  "id": "noun.abstract.quality.silence",
+  "pos": "noun",
+  "description": "An absence of sound thick enough to be noticed as a presence.",
+  "fixture": "A heavy {word} filled the hall.",
+  "members": [
+    "silence",
+    "stillness",
+    "hush",
+    "quiet",
+    "calm",
+    "quietude",
+    "tranquility",
+    "muteness",
+    "lull"
+  ]
+}

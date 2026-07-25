@@ -1,0 +1,16 @@
+{
+  "id": "adv.degree.slightly",
+  "pos": "adv",
+  "description": "A small margin of change or difference — modifies a comparative or a change, not a verb of motion.",
+  "fixture": "The room had grown {word} colder.",
+  "members": [
+    "faintly",
+    "slightly",
+    "marginally",
+    "barely",
+    "scarcely",
+    "imperceptibly",
+    "minutely",
+    "nominally"
+  ]
+}

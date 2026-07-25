@@ -1,0 +1,18 @@
+{
+  "id": "adj.speed.slow",
+  "pos": "adj",
+  "description": "A pace read as unhurried or reluctant — not merely low velocity, but the manner of moving slowly.",
+  "fixture": "It was a {word} pace, in no hurry to arrive.",
+  "members": [
+    "sluggish",
+    "languid",
+    "unhurried",
+    "plodding",
+    "leisurely",
+    "deliberate",
+    "ponderous",
+    "torpid",
+    "lumbering",
+    "gradual"
+  ]
+}

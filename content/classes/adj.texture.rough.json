@@ -1,0 +1,20 @@
+{
+  "id": "adj.texture.rough",
+  "pos": "adj",
+  "description": "A surface that resists the hand — irregular, unworked, or worn coarse.",
+  "fixture": "It was a {word} surface, unfit for bare feet.",
+  "members": [
+    "coarse",
+    "jagged",
+    "rugged",
+    "craggy",
+    "gritty",
+    "knotted",
+    "weathered",
+    "flinty",
+    "calloused",
+    "gnarled",
+    "uneven",
+    "abrasive"
+  ]
+}

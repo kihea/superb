@@ -1,0 +1,18 @@
+{
+  "id": "adj.quality.dark",
+  "pos": "adj",
+  "description": "The character of failing or absent light over a scene, not a mood.",
+  "fixture": "It was a {word} sky before the rain.",
+  "members": [
+    "gloomy",
+    "murky",
+    "sombre",
+    "shadowed",
+    "dusky",
+    "inky",
+    "sooty",
+    "dim",
+    "overcast",
+    "bleak"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "verb.state.change.fade",
+  "pos": "verb",
+  "description": "To lessen gradually toward absence.",
+  "fixture": "The light began to {word} behind the hills.",
+  "members": [
+    "fade",
+    "dwindle",
+    "wane",
+    "diminish",
+    "ebb",
+    "recede",
+    "dissolve",
+    "wither",
+    "subside",
+    "dissipate"
+  ]
+}

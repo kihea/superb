@@ -1,0 +1,18 @@
+{
+  "id": "adj.emotion.content",
+  "pos": "adj",
+  "description": "An settled, untroubled ease — not excitement, not relief from something.",
+  "fixture": "It was a {word} afternoon, and nobody hurried.",
+  "members": [
+    "serene",
+    "content",
+    "tranquil",
+    "placid",
+    "untroubled",
+    "unruffled",
+    "composed",
+    "settled",
+    "peaceful",
+    "mellow"
+  ]
+}

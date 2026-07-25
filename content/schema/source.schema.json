@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://superb.app/schema/source.schema.json",
+  "title": "Sourced excerpt",
+  "description": "A cited public-domain excerpt. See docs/seams.md §Seam 2. Provenance is complete or the row does not exist — every field below is required, no exceptions (law 4, ADR-008).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "pool", "text", "words", "provenance"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^src-[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable id, e.g. src-melville-0031."
+    },
+    "pool": {
+      "const": "sourced"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The excerpt itself, 80-200 words."
+    },
+    "words": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Only the words the excerpt carries in informative context — not every word present."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["work", "author", "year", "source", "url", "licence", "retrieved"],
+      "properties": {
+        "work": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "year": { "type": "integer" },
+        "source": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "licence": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

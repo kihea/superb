@@ -1,0 +1,18 @@
+{
+  "id": "noun.abstract.sound",
+  "pos": "noun",
+  "description": "A sudden, disordered noise — not a single tone and not music.",
+  "fixture": "A sudden {word} broke the quiet.",
+  "members": [
+    "clamor",
+    "din",
+    "clatter",
+    "racket",
+    "uproar",
+    "tumult",
+    "hubbub",
+    "commotion",
+    "rustle",
+    "patter"
+  ]
+}

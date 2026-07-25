@@ -1,0 +1,16 @@
+{
+  "id": "adv.frequency.rarely",
+  "pos": "adv",
+  "description": "How seldom something recurs — a frequency judgment, not a probability one.",
+  "fixture": "They {word} spoke of the matter again.",
+  "members": [
+    "rarely",
+    "seldom",
+    "infrequently",
+    "sporadically",
+    "intermittently",
+    "fitfully",
+    "irregularly",
+    "uncommonly"
+  ]
+}

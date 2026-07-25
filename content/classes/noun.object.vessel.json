@@ -1,0 +1,17 @@
+{
+  "id": "noun.object.vessel",
+  "pos": "noun",
+  "description": "A small-to-mid craft that travels on water, named by type.",
+  "fixture": "A small {word} rocked gently at the pier.",
+  "members": [
+    "vessel",
+    "skiff",
+    "schooner",
+    "dinghy",
+    "barge",
+    "sloop",
+    "ketch",
+    "trawler",
+    "longboat"
+  ]
+}

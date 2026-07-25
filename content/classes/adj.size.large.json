@@ -1,0 +1,20 @@
+{
+  "id": "adj.size.large",
+  "pos": "adj",
+  "description": "Scale that overwhelms the ordinary — not merely 'big', but large enough to be remarked on.",
+  "fixture": "It was a {word} structure, built to be seen from the road.",
+  "members": [
+    "vast",
+    "immense",
+    "colossal",
+    "monumental",
+    "sprawling",
+    "expansive",
+    "cavernous",
+    "towering",
+    "boundless",
+    "prodigious",
+    "mammoth",
+    "gargantuan"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "noun.place.dwelling",
+  "pos": "noun",
+  "description": "A modest, lived-in structure a person calls home — not a public or grand building.",
+  "fixture": "They came at last to a small {word} at the road's end.",
+  "members": [
+    "cottage",
+    "dwelling",
+    "homestead",
+    "tenement",
+    "lodging",
+    "abode",
+    "hovel",
+    "manor",
+    "farmhouse",
+    "shanty"
+  ]
+}

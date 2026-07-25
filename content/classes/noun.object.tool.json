@@ -1,0 +1,17 @@
+{
+  "id": "noun.object.tool",
+  "pos": "noun",
+  "description": "A handheld thing made to do a task — generic enough to fit many hands.",
+  "fixture": "He reached for the nearest {word}.",
+  "members": [
+    "implement",
+    "tool",
+    "instrument",
+    "apparatus",
+    "contrivance",
+    "device",
+    "mechanism",
+    "appliance",
+    "contraption"
+  ]
+}

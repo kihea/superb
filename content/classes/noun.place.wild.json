@@ -1,0 +1,17 @@
+{
+  "id": "noun.place.wild",
+  "pos": "noun",
+  "description": "Land unshaped by cultivation — open, untended country.",
+  "fixture": "The path gave out onto open {word}.",
+  "members": [
+    "wilderness",
+    "moor",
+    "thicket",
+    "marsh",
+    "heath",
+    "woodland",
+    "tundra",
+    "scrubland",
+    "hinterland"
+  ]
+}

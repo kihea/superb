@@ -1,0 +1,22 @@
+{
+  "id": "adj.quality.light",
+  "pos": "adj",
+  "description": "The character of ambient light itself (a grey light, an amber light) — not the colour of an object lit by it.",
+  "fixture": "It was a {word} light over the harbour.",
+  "members": [
+    "grey",
+    "pale",
+    "amber",
+    "silver",
+    "hazy",
+    "milky",
+    "leaden",
+    "wan",
+    "ashen",
+    "coppery",
+    "ruddy",
+    "waxen",
+    "ochre",
+    "bronze"
+  ]
+}

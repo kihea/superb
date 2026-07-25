@@ -1,0 +1,17 @@
+{
+  "id": "adv.manner.forceful",
+  "pos": "adv",
+  "description": "How an action lands when carried out with unchecked force.",
+  "fixture": "He shut the door {word}.",
+  "members": [
+    "forcefully",
+    "fiercely",
+    "violently",
+    "roughly",
+    "savagely",
+    "brutally",
+    "relentlessly",
+    "ferociously",
+    "vehemently"
+  ]
+}
