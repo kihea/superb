@@ -55,6 +55,7 @@ fn composed(id: &str, slot_count: u32) -> Candidate {
             })
             .collect(),
         words: Vec::new(),
+        topics: Vec::new(),
     }
 }
 
@@ -64,6 +65,7 @@ fn sourced(id: &str, words: &[&str]) -> Candidate {
         pool: Pool::Sourced,
         slots: Vec::new(),
         words: words.iter().map(|word| (*word).to_string()).collect(),
+        topics: Vec::new(),
     }
 }
 

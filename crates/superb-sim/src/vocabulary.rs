@@ -28,6 +28,8 @@
 //!   (`ability::update_theta`'s own doc comment: "there is no difficulty for
 //!   one to be evaluated against").
 
+use std::collections::BTreeMap;
+
 use crate::rng::Rng;
 
 /// One real word: an id `superb-core` treats as an opaque string, and the
@@ -51,6 +53,12 @@ pub struct Vocabulary {
     pub reading: Vec<WordSpec>,
     pub calibration: Vec<WordSpec>,
     pub pseudowords: Vec<String>,
+    /// This synthetic reader's hidden liking for each topic, 0.0 to 1.0
+    /// (ADR-022). Ground truth for the recommender the same way
+    /// `true_difficulty` is ground truth for the estimator: invented here,
+    /// read only by `oracle::finishes_passage`, and never visible to
+    /// `superb-core`, which sees only whether a passage was finished.
+    pub topic_taste: BTreeMap<String, f64>,
 }
 
 impl Vocabulary {
@@ -87,6 +95,11 @@ pub fn generate(
         })
         .collect();
 
+    let topic_taste = crate::library::TOPICS
+        .iter()
+        .map(|topic| ((*topic).to_string(), rng.next_unit()))
+        .collect();
+
     let calibration = (0..calibration_size)
         .map(|i| WordSpec {
             id: format!("cal-{i:04}"),
@@ -103,6 +116,7 @@ pub fn generate(
         reading,
         calibration,
         pseudowords,
+        topic_taste,
     }
 }
 

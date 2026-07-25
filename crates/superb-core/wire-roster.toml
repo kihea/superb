@@ -193,3 +193,11 @@ tier = "boundary"
 derives = ["Serialize", "Deserialize"]
 consumer = "the reference-data half of engine-contract §2's Frame — candidates plus the word-class table, fetched by the host in answer to Needs::PassageCandidates"
 authorized_by = "engine-contract §2, §4"
+
+[[type]]
+name = "TopicRecord"
+tier = "durable"
+derives = ["Serialize", "Deserialize"]
+consumer = "LearnerState.topic_affinities — what one reader has done with one topic, two counts rather than a rate so the exploration bonus has a denominator to read (ADR-022 D1, D3)"
+authorized_by = "ADR-022"
+note = "replaces the bare f64 the field carried since BRIEF-008, which was written by nothing; a durable shape change made before v1 has ever shipped, the same licence BRIEF-009's field rename used"

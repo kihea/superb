@@ -21,7 +21,7 @@ use superb_core::{Effect, Frame, LearnerState, Needs, Request, Timestamp, Tuning
 use superb_core::{decide, due_words, plan};
 
 use crate::library::{Library, band_words, word_classes};
-use crate::oracle::{claims_pseudoword, knows_real_item, knows_real_item_after};
+use crate::oracle::{claims_pseudoword, finishes_passage, knows_real_item, knows_real_item_after};
 use crate::rng::Rng;
 use crate::vocabulary::{Vocabulary, generate};
 use superb_core::composer::{ContentFrame, Pool};
@@ -73,7 +73,13 @@ impl Default for SimConfig {
             // ADVISORY-005 named "a longer horizon at fixed seeds" as the
             // measurement M2 owed anyway; this is it, taken early because the
             // composer forced the question.
-            sessions: 180,
+            //
+            // 240 rather than 180 since ADR-022: a reader now abandons some
+            // passages, and an abandoned passage schedules nothing and logs no
+            // clean frame, so a quarter of reading sessions no longer carry a
+            // word forward. Modelling taste costs throughput, and the horizon
+            // is where that cost is paid rather than hidden.
+            sessions: 240,
             reading_vocabulary_size: 240,
             calibration_pool_size: 40,
             pseudoword_pool_size: 40,
@@ -96,6 +102,10 @@ pub struct PoolTally {
     pub composed_sessions: usize,
     pub sourced_sessions: usize,
     pub idle_sessions: usize,
+    /// Sessions whose passage the reader stayed with, and sessions they left
+    /// (ADR-022). The denominator the recommender's assertion is read against.
+    pub finished_sessions: usize,
+    pub abandoned_sessions: usize,
 }
 
 /// Everything one full run produced, for `report.rs` to read the five
@@ -119,6 +129,10 @@ pub struct SimulationOutcome {
     /// distinct-clean-frame count, is what Assertion 2 reports.
     pub encounters_to_automatic: Vec<usize>,
     pub pools: PoolTally,
+    /// The engine's learned finish-rate per topic at the end of the run, beside
+    /// this reader's hidden true taste for it (ADR-022). One row per topic the
+    /// reader ever met — the recommender's assertion is read off this.
+    pub topic_estimates: Vec<(String, f64, f64)>,
     /// How many words ended the run in each `WordState`, in declaration order:
     /// Unseen, Seeded, Learning, Consolidating, Automatic.
     ///
@@ -229,6 +243,15 @@ pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> SimulationOutcome 
         due_list_sizes,
         encounters_to_automatic: state.encounters_to_automatic,
         pools: state.pools,
+        topic_estimates: learner
+            .topic_affinities
+            .iter()
+            .filter_map(|(topic, record)| {
+                let rate = record.rate()?;
+                let truth = *vocabulary.topic_taste.get(topic)?;
+                Some((topic.clone(), rate, truth))
+            })
+            .collect(),
         state_histogram: learner.words.values().fold([0; 5], |mut counts, record| {
             let slot = match record.state {
                 WordState::Unseen => 0,
@@ -308,8 +331,8 @@ pub(crate) fn dispatch_deck_swipe(
         // A DeckSwipe never asks for candidates. Enumerated rather than
         // wildcarded so a new Needs variant has to be answered here, not
         // silently dropped into Frame::Nothing.
-        Needs::PassageCandidates { .. } => {
-            unreachable!("a DeckSwipe never asks for passage candidates")
+        Needs::PassageCandidates { .. } | Needs::PassageTopics { .. } => {
+            unreachable!("a DeckSwipe never asks for candidates or topics")
         }
     };
     let _ = decide(learner, request, frame, now, tuning);
@@ -431,11 +454,42 @@ fn run_reading_session(
         let _ = decide(learner, request, Frame::Nothing, now, world.tuning);
     }
 
-    let request = Request::ProcessEvent(Event::PassageFinished {
-        passage: frame_id,
-        words_seen: clean_words,
-    });
-    let outcome = decide(learner, request, Frame::Nothing, now, world.tuning);
+    // Whether this reader stays with the passage at all (ADR-022). Drawn from
+    // their hidden taste for its topic — the engine never sees that number, only
+    // which of the two events arrives, which is the whole point of the
+    // assertion the recommender is judged by.
+    let taste = passage
+        .topics
+        .iter()
+        .filter_map(|topic| world.vocabulary.topic_taste.get(topic))
+        .copied()
+        .fold((0.0, 0usize), |(sum, n), t| (sum + t, n + 1));
+    let mean_taste = if taste.1 == 0 {
+        0.5
+    } else {
+        taste.0 / taste.1 as f64
+    };
+    let finished = finishes_passage(rng, mean_taste);
+
+    let request = if finished {
+        state.pools.finished_sessions += 1;
+        Request::ProcessEvent(Event::PassageFinished {
+            passage: frame_id,
+            words_seen: clean_words,
+        })
+    } else {
+        state.pools.abandoned_sessions += 1;
+        Request::ProcessEvent(Event::PassageAbandoned {
+            passage: frame_id,
+            words_seen: clean_words,
+        })
+    };
+    // The host answers `Needs::PassageTopics` from the same content index the
+    // candidates came from (ADR-022 D2) — a lookup, not a claim.
+    let topics_frame = Frame::Topics {
+        topics: passage.topics.clone(),
+    };
+    let outcome = decide(learner, request, topics_frame, now, world.tuning);
 
     for effect in &outcome.effects {
         if let Effect::WordStateChanged {

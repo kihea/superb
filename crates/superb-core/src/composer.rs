@@ -43,7 +43,7 @@ use std::collections::{BTreeMap, BTreeSet};
 
 use serde::{Deserialize, Serialize};
 
-use crate::learner::{LearnerState, Timestamp};
+use crate::learner::{LearnerState, Timestamp, TopicRecord};
 use crate::scheduler::{backlog_active, due_words};
 use crate::state::WordState;
 use crate::tuning::Tuning;
@@ -103,6 +103,10 @@ pub struct Candidate {
     /// — the host's index, not every word in the text. Empty for a composed
     /// template, whose words are decided here.
     pub words: Vec<String>,
+    /// What this passage is about (ADR-022). Opaque ids from the content
+    /// pipeline; this crate never interprets them, only counts what the reader
+    /// did with them. May be empty, and an empty list is not penalised.
+    pub topics: Vec<String>,
 }
 
 /// What stands in one slot of the passage the host is about to render.
@@ -124,6 +128,10 @@ pub struct Passage {
     /// Which pool it came from. The host does not act on this; it is here so a
     /// captured decision can be read back and explained.
     pub pool: Pool,
+    /// What this passage is about — carried through from the winning candidate
+    /// so the host can report it back on `PassageFinished` without a second
+    /// lookup.
+    pub topics: Vec<String>,
     /// Every slot, in index order, with the word that stands in it. Empty for
     /// a sourced excerpt: its text is fixed and there is nothing to fill.
     pub fills: Vec<SlotFill>,
@@ -461,10 +469,12 @@ fn resolve(
             Some(Scored {
                 coverage: filled.targets.len(),
                 reach: filled.targets.len() + filled.seeded.len(),
-                score: score(&filled.targets, Pool::Composed, learner, tuning),
+                score: score(&filled.targets, Pool::Composed, learner, tuning)
+                    * taste(candidate, learner, tuning, backlogged),
                 passage: Passage {
                     id: candidate.id.clone(),
                     pool: Pool::Composed,
+                    topics: candidate.topics.clone(),
                     fills: filled.fills,
                     targets: filled.targets,
                     seeded: filled.seeded,
@@ -490,10 +500,12 @@ fn resolve(
             Some(Scored {
                 coverage: targets.len(),
                 reach: targets.len(),
-                score: score(&targets, Pool::Sourced, learner, tuning),
+                score: score(&targets, Pool::Sourced, learner, tuning)
+                    * taste(candidate, learner, tuning, backlogged),
                 passage: Passage {
                     id: candidate.id.clone(),
                     pool: Pool::Sourced,
+                    topics: candidate.topics.clone(),
                     fills: Vec::new(),
                     targets,
                     // A sourced excerpt is fixed text: there is no empty slot
@@ -580,4 +592,80 @@ pub fn compose(
     });
 
     scored.into_iter().next().map(|winner| winner.passage)
+}
+
+/// A topic's value to the composer: the share of passages about it this reader
+/// finished, raised by how little is known about it (ADR-022 D3).
+///
+/// This is UCB1, and the optimism is the point rather than a refinement. A
+/// recommender that acts on its observed rate alone collapses onto whatever the
+/// reader happened to finish first: one good session about the sea and the sea
+/// is all they ever see again, which narrows the vocabulary they meet and makes
+/// the product worse at its actual job while looking like it is working. The
+/// bonus term decays as `1/sqrt(trials)`, so a topic tried twice is still worth
+/// investigating and a topic tried forty times is judged on its record.
+///
+/// **Deterministic, and that is why it is this and not epsilon-greedy.** The
+/// engine has no RNG (engine-contract §1). Optimism explores without one, so a
+/// reader's entire history still replays byte for byte from a timestamp.
+///
+/// A topic with no trials returns 1.0 — the maximum — so a topic never tried
+/// outranks one tried and disliked. `total_trials` is the reader's whole
+/// history across every topic, which is what makes the bonus grow slowly as
+/// evidence accumulates elsewhere.
+fn topic_value(record: Option<&TopicRecord>, total_trials: u32, tuning: &Tuning) -> f64 {
+    let Some(record) = record else {
+        return 1.0;
+    };
+    let (Some(rate), trials) = (record.rate(), record.trials()) else {
+        return 1.0;
+    };
+    if trials == 0 {
+        return 1.0;
+    }
+    let bonus = tuning.topic_exploration_bonus
+        * (f64::from(total_trials.max(1)).ln() / f64::from(trials)).sqrt();
+    (rate + bonus).clamp(0.0, 1.0)
+}
+
+/// How much this reader's taste should tilt a candidate's score (ADR-022 D4).
+///
+/// Returns a bounded multiplier — `[1 - w, 1 + w]` for
+/// `w = topic_affinity_weight` — so taste can move the ranking and can never
+/// veto a scheduled encounter. A candidate carrying no topics scores 1.0: an
+/// unlabelled passage is not penalised for the content pipeline's silence.
+///
+/// A candidate's value is the mean over its topics, not the best of them, so a
+/// passage cannot buy its way up the ranking by listing every topic it touches.
+fn taste_multiplier(topics: &[String], learner: &LearnerState, tuning: &Tuning) -> f64 {
+    if topics.is_empty() {
+        return 1.0;
+    }
+    let total_trials: u32 = learner
+        .topic_affinities
+        .values()
+        .map(TopicRecord::trials)
+        .fold(0, u32::saturating_add);
+
+    let sum: f64 = topics
+        .iter()
+        .map(|topic| topic_value(learner.topic_affinities.get(topic), total_trials, tuning))
+        .sum();
+    let mean = sum / topics.len() as f64;
+
+    1.0 + tuning.topic_affinity_weight * (2.0 * mean - 1.0)
+}
+
+/// [`taste_multiplier`], suspended under backlog (ADR-022 D4).
+///
+/// The same guard, for the same reason, as the sourced preference: when a
+/// reader is far enough behind that coverage has to win, what they enjoy stops
+/// being the question. Two preferences yielding to one guard is deliberate —
+/// a guard that only some preferences respect is not a guard.
+fn taste(candidate: &Candidate, learner: &LearnerState, tuning: &Tuning, backlogged: bool) -> f64 {
+    if backlogged {
+        1.0
+    } else {
+        taste_multiplier(&candidate.topics, learner, tuning)
+    }
 }

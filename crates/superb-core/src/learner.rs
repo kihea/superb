@@ -284,8 +284,52 @@ pub struct LearnerState {
     theta_information: f64,
     /// Word id (opaque to this crate) to that word's record.
     pub words: BTreeMap<String, WordRecord>,
-    /// Topic id (opaque to this crate) to the learner's affinity for it.
-    pub topic_affinities: BTreeMap<String, f64>,
+    /// Topic id (opaque to this crate) to what this reader has done with it.
+    ///
+    /// Written only by `engine::decide`, from `PassageFinished` and
+    /// `PassageAbandoned` — the two signals engine-contract §3 names and
+    /// nothing else (ADR-022 D1).
+    pub topic_affinities: BTreeMap<String, TopicRecord>,
+}
+
+/// What one reader has done with one topic: how many passages about it they
+/// read to the end, and how many they left.
+///
+/// **Two counts rather than one rate, and the reason is the whole of ADR-022
+/// D3.** A stored rate cannot tell "they loved this, twelve for twelve" from
+/// "they finished the one we tried" — and the difference between those is
+/// exactly what decides whether the composer should lean on the signal or go
+/// looking for more. The denominator has to survive into the record or the
+/// exploration bonus has nothing to compute from.
+///
+/// Deliberately not a score, a rating, or anything the reader ever sees. Law 3:
+/// this is honest evidence only because they have no idea it is being kept.
+#[derive(Debug, Clone, Copy, Default, PartialEq, Eq, Serialize, Deserialize)]
+pub struct TopicRecord {
+    /// Passages about this topic the reader read to the end.
+    pub finished: u32,
+    /// Passages about this topic the reader left.
+    pub abandoned: u32,
+}
+
+impl TopicRecord {
+    /// How many passages about this topic the reader has met at all.
+    pub fn trials(&self) -> u32 {
+        self.finished.saturating_add(self.abandoned)
+    }
+
+    /// The share read to the end, or `None` for a topic never tried.
+    ///
+    /// `None` rather than a default of 0.0 or 0.5, because "never tried" is a
+    /// different claim from "tried and disliked" and the caller has to handle
+    /// it differently — ADR-022 D3 gives an untried topic the *maximum* value,
+    /// which a silent default would quietly turn into the average one.
+    pub fn rate(&self) -> Option<f64> {
+        match self.trials() {
+            0 => None,
+            trials => Some(f64::from(self.finished) / f64::from(trials)),
+        }
+    }
 }
 
 /// The sentence written into every exported document, in the reader's own
@@ -437,7 +481,7 @@ impl LearnerState {
         theta: f64,
         theta_information: f64,
         words: BTreeMap<String, WordRecord>,
-        topic_affinities: BTreeMap<String, f64>,
+        topic_affinities: BTreeMap<String, TopicRecord>,
     ) -> Self {
         Self {
             seed,
