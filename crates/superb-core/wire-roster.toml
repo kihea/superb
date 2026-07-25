@@ -99,3 +99,11 @@ derives = ["Serialize", "Deserialize"]
 consumer = "nested inside Affinity; same simulator-override and round-trip-test consumer"
 authorized_by = "BRIEF-007"
 note = "not reachable from LearnerState; carries no migration obligation"
+
+[[type]]
+name = "Event"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "engine-contract §3's event stream in — the host constructs and sends these across FFI; never reachable from LearnerState"
+authorized_by = "BRIEF-011, engine-contract §3"
+note = "Signal, this module's output, carries no tracked derive and has no entry here — it is never serialized or persisted in this brief's scope"

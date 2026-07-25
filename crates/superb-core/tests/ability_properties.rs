@@ -62,11 +62,11 @@ proptest! {
             let update = update_theta(theta, se, difficulty, knew, is_pseudoword, &tuning);
             prop_assert!(update.theta.is_finite(), "θ was not finite: {}", update.theta);
             prop_assert!(
-                update.theta >= tuning.theta_min && update.theta <= tuning.theta_max,
+                update.theta >= tuning.theta_min() && update.theta <= tuning.theta_max(),
                 "θ {} left [{}, {}]",
                 update.theta,
-                tuning.theta_min,
-                tuning.theta_max
+                tuning.theta_min(),
+                tuning.theta_max()
             );
             prop_assert!(update.theta_se.is_finite(), "se was not finite: {}", update.theta_se);
             theta = update.theta;
@@ -86,7 +86,7 @@ proptest! {
     fn band_width_is_constant_for_any_theta(theta in -1_000.0..=1_000.0f64) {
         let tuning = Tuning::default();
         let (low, high) = superb_core::band(theta, &tuning);
-        prop_assert!((high - low - (tuning.band_high - tuning.band_low)).abs() < 1e-9);
+        prop_assert!((high - low - (tuning.band_high() - tuning.band_low())).abs() < 1e-9);
     }
 }
 
