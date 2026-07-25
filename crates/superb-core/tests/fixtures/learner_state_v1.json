@@ -9,19 +9,26 @@
     "aperture": {
       "state": "SEEDED",
       "due_epoch_ms": 1735689600000,
-      "encounters": 1,
       "context_frames": [
-        "passage-042"
+        {
+          "frame_id": "passage-042",
+          "clean": true
+        }
       ],
       "interval_days": 1.0
     },
     "verisimilitude": {
       "state": "CONSOLIDATING",
       "due_epoch_ms": 1738368000000,
-      "encounters": 9,
       "context_frames": [
-        "excerpt-poe-1839-cask",
-        "excerpt-withdrawn-687"
+        {
+          "frame_id": "excerpt-poe-1839-cask",
+          "clean": true
+        },
+        {
+          "frame_id": "excerpt-withdrawn-687",
+          "clean": true
+        }
       ],
       "interval_days": 45.0
     }

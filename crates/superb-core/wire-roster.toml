@@ -30,8 +30,15 @@ name = "WordRecord"
 tier = "durable"
 derives = ["Serialize", "Deserialize"]
 consumer = "LearnerState.words, the per-word record"
-authorized_by = "ADR-016, BRIEF-008, BRIEF-009"
-note = "gained interval_days: Option<f64> in BRIEF-009 (ARCHITECT'S ANSWER) — the interval that produced due_epoch_ms, stored rather than derived; None, and absent from the exported document, for a word never scheduled"
+authorized_by = "ADR-016, BRIEF-008, BRIEF-009, BRIEF-013"
+note = "gained interval_days: Option<f64> in BRIEF-009 (ARCHITECT'S ANSWER) — the interval that produced due_epoch_ms, stored rather than derived; None, and absent from the exported document, for a word never scheduled. context_frames changed from Vec<String> to Vec<ContextEncounter> in BRIEF-013 round 3 (ARCHITECT'S ANSWER) — one list now answers both the variation guarantee (every frame_id) and the progression thresholds (only the distinct frame_ids where clean is true), so the two questions cannot disagree. encounters — a separate raw count, not derivable from context_frames — was removed in BRIEF-013 round 4 (review finding F1): it was written on every scheduled encounter and read by nothing in the crate, and a durable field nobody reads is state every future migration has to carry; it returns, defined by a real reader, if something ever needs it"
+
+[[type]]
+name = "ContextEncounter"
+tier = "durable"
+derives = ["Serialize", "Deserialize"]
+consumer = "WordRecord.context_frames, inside LearnerState — one word's one encounter in one context, and whether it was clean"
+authorized_by = "BRIEF-013 round 3"
 
 [[type]]
 name = "LearnerState"
@@ -107,3 +114,39 @@ derives = ["Serialize", "Deserialize"]
 consumer = "engine-contract §3's event stream in — the host constructs and sends these across FFI; never reachable from LearnerState"
 authorized_by = "BRIEF-011, engine-contract §3"
 note = "Signal, this module's output, carries no tracked derive and has no entry here — it is never serialized or persisted in this brief's scope"
+
+[[type]]
+name = "Request"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "engine-contract §2's plan/decide pattern — what the host asks the core to do; never reachable from LearnerState"
+authorized_by = "BRIEF-013, engine-contract §2"
+
+[[type]]
+name = "Needs"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "engine-contract §2 step 1 — what plan() says the host must fetch; serializable so a decision can be replayed from a captured (Needs, Frame) pair; never reachable from LearnerState"
+authorized_by = "BRIEF-013, engine-contract §2"
+
+[[type]]
+name = "Frame"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "engine-contract §2 step 2 — the host's answer to a Needs; serializable so a decision can be replayed from a captured (Needs, Frame) pair; never reachable from LearnerState"
+authorized_by = "BRIEF-013, engine-contract §2"
+
+[[type]]
+name = "Effect"
+tier = "boundary"
+derives = ["Serialize"]
+consumer = "engine-contract §3's effect stream out, unified across the state machine, scheduler, ability estimator, and this module's own context-frame log; the expected side of a golden vector; never reachable from LearnerState"
+authorized_by = "BRIEF-013, engine-contract §3"
+note = "ProbeEligible is declared for the contract's sake and never constructed in this brief — see BRIEF-013's UNRESOLVED"
+
+[[type]]
+name = "Outcome"
+tier = "boundary"
+derives = ["Serialize"]
+consumer = "what decide() returns — an ordered list of Effect; order is part of the contract a golden vector compares byte-exactly; never reachable from LearnerState"
+authorized_by = "BRIEF-013, engine-contract §2"

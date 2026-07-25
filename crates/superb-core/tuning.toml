@@ -37,6 +37,15 @@ encounter_target_min = 6
 # adding more value by repetition alone.
 encounter_target_max = 20
 
+# How many distinct-context clean encounters move a word from Learning to
+# Consolidating — the earlier of the schedule's two progression edges;
+# encounter_target is the later one, for Consolidating -> Automatic
+# (src/engine.rs's ARCHITECT'S ANSWER, BRIEF-013 round 2). Counted in
+# distinct context frames, never raw encounters, for the same reason
+# encounter_target is: ten meetings inside one passage must not promote a
+# word that has only ever been understood in one sentence.
+consolidating_threshold = 4
+
 # --- θ band (engine-contract §4): which due words are worth serving now ---
 
 # How far below the learner's estimated ability a word may sit and still be

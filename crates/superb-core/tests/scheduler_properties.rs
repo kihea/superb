@@ -33,7 +33,6 @@ fn learner_with_word(
         WordRecord::new(
             state,
             Timestamp::from_millis_since_epoch(due_millis),
-            1,
             Vec::new(),
             interval_days,
         ),

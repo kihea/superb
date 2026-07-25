@@ -70,6 +70,37 @@ impl Timestamp {
     }
 }
 
+/// One encounter with a word, in one context: the frame id it was met in,
+/// and whether that encounter was clean.
+///
+/// Both questions live on one entry because they must never be able to
+/// disagree (`src/engine.rs`'s ARCHITECT'S ANSWER, BRIEF-013 round 3, on the
+/// contradiction in round 2's own answer — "counting raw `context_frames`
+/// would advance a word on precisely the encounters the same answer forbade
+/// from advancing it"). [`WordRecord::context_frames`] reads every
+/// `frame_id`, regardless of `clean`, for engine-contract §4's variation
+/// guarantee — a reader who has already met a word in a context should not
+/// meet it there again, whether or not that meeting went well. `src/engine.rs`'s
+/// progression thresholds (`consolidating_threshold`, `encounter_target`)
+/// count only the distinct `frame_id`s where `clean` is `true`: a gloss tap
+/// still proves the word was served in a new context, but it is this crate's
+/// strongest negative signal, and letting it also advance a word toward
+/// automaticity would make the schedule reward confusion.
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ContextEncounter {
+    /// The passage or excerpt id the word was met in. Opaque to this crate:
+    /// the content catalogue lives in the host's data, not here, and a
+    /// passage or excerpt this build no longer ships (ADR-018 — content is
+    /// revocable at any time) is still a context this word was genuinely met
+    /// in, so its id is kept rather than dropped.
+    pub frame_id: String,
+    /// Whether this encounter was a clean pass
+    /// (`crate::scheduler::EncounterOutcome::Clean`) — never a gloss tap, a
+    /// failed probe, or a passage abandoned before it finished.
+    pub clean: bool,
+}
+
 /// Everything a learner's history holds about one word.
 ///
 /// Deciding what any of this *means* — whether the word is due, which
@@ -90,23 +121,18 @@ pub struct WordRecord {
     /// see [`WordRecord::due_epoch_ms`] to read it and
     /// [`WordRecord::set_due_and_interval`] for the one way to change it.
     due_epoch_ms: Timestamp,
-    /// How many times the learner has met this word.
-    pub encounters: u32,
-    /// Ids of the context frames this word has already been met in
+    /// Every context this word has been met in, most recent last
     /// (engine-contract §2 and §4 — a word never reuses one of its previous
-    /// contexts). Opaque strings to this crate: the content catalogue lives
-    /// in the host's data, not here, and a passage or excerpt this build no
-    /// longer ships (ADR-018 — content is revocable at any time) is still a
-    /// context this word was genuinely met in, so its id is kept rather than
-    /// dropped.
-    pub context_frames: Vec<String>,
+    /// contexts). See [`ContextEncounter`] for why one entry carries both the
+    /// variation guarantee's question and the progression thresholds'.
+    pub context_frames: Vec<ContextEncounter>,
     /// The interval, in days, that produced `due_epoch_ms` — stored rather
     /// than derived (BRIEF-009's ARCHITECT'S ANSWER: deriving it from
     /// `due_epoch_ms - now` compresses the schedule for every reader who
-    /// reads ahead of it, and deriving it from `state` and `encounters`
-    /// makes every interval a function of whichever `tuning.toml` happens to
-    /// be shipping today, turning an ordinary constant edit into a silent
-    /// retroactive migration).
+    /// reads ahead of it, and deriving it from `state` and how many times the
+    /// word has been met makes every interval a function of whichever
+    /// `tuning.toml` happens to be shipping today, turning an ordinary
+    /// constant edit into a silent retroactive migration).
     ///
     /// `None` for a word that has never been scheduled, rather than `0.0`:
     /// zero is not a valid interval (every scheduled interval is strictly
@@ -140,14 +166,12 @@ impl WordRecord {
     pub fn new(
         state: WordState,
         due_epoch_ms: Timestamp,
-        encounters: u32,
-        context_frames: Vec<String>,
+        context_frames: Vec<ContextEncounter>,
         interval_days: Option<f64>,
     ) -> Self {
         Self {
             state,
             due_epoch_ms,
-            encounters,
             context_frames,
             interval_days,
         }
@@ -197,7 +221,6 @@ mod tests {
         let mut record = WordRecord::new(
             WordState::Learning,
             Timestamp::from_millis_since_epoch(0),
-            1,
             Vec::new(),
             None,
         );
