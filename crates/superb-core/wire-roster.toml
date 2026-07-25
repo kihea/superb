@@ -56,6 +56,13 @@ consumer = "engine-contract §3's effect stream — the host persists the due da
 authorized_by = "BRIEF-009, engine-contract §3"
 
 [[type]]
+name = "ThetaUpdated"
+tier = "boundary"
+derives = ["Serialize"]
+consumer = "engine-contract §3's ability effect stream — the host persists theta and se and re-renders; never reachable from LearnerState, since theta and theta_se are already fields of LearnerState itself"
+authorized_by = "BRIEF-010, engine-contract §3"
+
+[[type]]
 name = "Transition"
 tier = "boundary"
 derives = ["Serialize", "Deserialize"]

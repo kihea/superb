@@ -46,6 +46,7 @@ use core::fmt;
 use serde::{Deserialize, Serialize};
 
 use crate::state::WordState;
+use crate::tuning::Tuning;
 
 /// Milliseconds since the Unix epoch, supplied by the host.
 ///
@@ -229,9 +230,26 @@ pub struct LearnerState {
     /// how the core spends a draw instead of calling an RNG (purity law 2).
     pub draw_count: u64,
     /// The learner's estimated ability.
-    pub theta: f64,
+    ///
+    /// Private to this module (docs/engine-contract.md law 6, added after
+    /// this brief's own review — round two). `theta` used to be `pub`, and
+    /// [`crate::ability::update_theta`] clamps it to `[tuning.theta_min,
+    /// tuning.theta_max]` before it ever hands a new value back — but a
+    /// `pub` field lets any caller walk around that clamp: writing
+    /// `state.theta = 500.0;` compiled, and emptied the theta band exactly
+    /// as a `NaN` would, the failure the crate's own no-NaN property test
+    /// exists to prevent, arriving through the front door instead. See
+    /// [`LearnerState::theta`] to read it and
+    /// [`LearnerState::set_theta_and_se`] for the one way to change it.
+    theta: f64,
     /// θ's standard error.
-    pub theta_se: f64,
+    ///
+    /// Private to this module for the same reason as `theta`: the
+    /// non-increasing property [`crate::ability::update_theta`] maintains
+    /// (engine-contract §5) is a guarantee a public field lets a caller
+    /// write around. See [`LearnerState::theta_se`] and
+    /// [`LearnerState::set_theta_and_se`].
+    theta_se: f64,
     /// Word id (opaque to this crate) to that word's record.
     pub words: BTreeMap<String, WordRecord>,
     /// Topic id (opaque to this crate) to the learner's affinity for it.
@@ -321,7 +339,123 @@ impl fmt::Display for LoadError {
 
 impl core::error::Error for LoadError {}
 
+/// Why [`LearnerState::set_theta_and_se`] refused to write θ and its
+/// standard error (docs/engine-contract.md law 6).
+///
+/// One variant per boundary the mutator checks, so a failing test — or a
+/// caller — can assert on exactly what was refused rather than on "it
+/// errored." Neither case is silently repaired here: `theta` is already
+/// clamped once, inside [`crate::ability::update_theta`], and `theta_se` is
+/// already kept non-increasing there; a second, silent clamp or floor at
+/// this boundary would hide a caller's bug — a value that did not come from
+/// `update_theta` — instead of reporting it.
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum SetThetaError {
+    /// `theta` was outside `[min, max]`, or was not finite (including
+    /// `NaN`, which compares false against every bound and would otherwise
+    /// slip through a plain `<`/`>` check).
+    ThetaOutOfRange { theta: f64, min: f64, max: f64 },
+    /// `theta_se` was negative, or was not finite — a standard error this
+    /// crate maintains is never negative and never widens
+    /// (engine-contract §5), so either means the value did not come from
+    /// [`crate::ability::update_theta`].
+    StandardErrorNotNonNegative { theta_se: f64 },
+}
+
+impl fmt::Display for SetThetaError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            SetThetaError::ThetaOutOfRange { theta, min, max } => {
+                write!(f, "theta {theta} is outside [{min}, {max}]")
+            }
+            SetThetaError::StandardErrorNotNonNegative { theta_se } => {
+                write!(f, "theta_se {theta_se} is not non-negative")
+            }
+        }
+    }
+}
+
+impl core::error::Error for SetThetaError {}
+
 impl LearnerState {
+    /// Build a `LearnerState` from its whole content at once — the same
+    /// shape [`WordRecord::new`] takes, for the same reason: every field is
+    /// a parameter, so nothing is ever assembled with `theta` written and
+    /// `theta_se` left stale, or the reverse.
+    ///
+    /// This does not range-check `theta` against `tuning.theta_min` /
+    /// `theta_max` — building a whole learner history by hand (a test, a
+    /// simulator seeding a synthetic learner) is not the boundary
+    /// docs/engine-contract.md law 6 is about; the guarantee that matters is
+    /// that nothing can change `theta` or `theta_se` on a `LearnerState`
+    /// that already exists except through
+    /// [`LearnerState::set_theta_and_se`]. See that method for the one call
+    /// that does validate.
+    pub fn new(
+        seed: u64,
+        draw_count: u64,
+        theta: f64,
+        theta_se: f64,
+        words: BTreeMap<String, WordRecord>,
+        topic_affinities: BTreeMap<String, f64>,
+    ) -> Self {
+        Self {
+            seed,
+            draw_count,
+            theta,
+            theta_se,
+            words,
+            topic_affinities,
+        }
+    }
+
+    /// The learner's current ability estimate. Read-only outside this
+    /// module — see [`LearnerState::set_theta_and_se`] to change it.
+    pub fn theta(&self) -> f64 {
+        self.theta
+    }
+
+    /// θ's current standard error. Read-only outside this module — see
+    /// [`LearnerState::set_theta_and_se`] to change it.
+    pub fn theta_se(&self) -> f64 {
+        self.theta_se
+    }
+
+    /// The one way to change `theta` or `theta_se` after a `LearnerState` is
+    /// built. Validates rather than clamps (docs/engine-contract.md law 6):
+    /// `theta` must already lie in `[tuning.theta_min, tuning.theta_max]`
+    /// and `theta_se` must already be non-negative and finite, or this
+    /// returns a [`SetThetaError`] and writes nothing — both fields are left
+    /// exactly as they were.
+    ///
+    /// [`crate::ability::update_theta`] always produces values that satisfy
+    /// both checks, so its caller writing `ThetaUpdate::theta` and
+    /// `ThetaUpdate::theta_se` straight back through this method never sees
+    /// an error in practice; the error exists for the caller who did not go
+    /// through `update_theta` at all, which this method is the one place
+    /// that can still catch.
+    pub fn set_theta_and_se(
+        &mut self,
+        theta: f64,
+        theta_se: f64,
+        tuning: &Tuning,
+    ) -> Result<(), SetThetaError> {
+        if !theta.is_finite() || theta < tuning.theta_min || theta > tuning.theta_max {
+            return Err(SetThetaError::ThetaOutOfRange {
+                theta,
+                min: tuning.theta_min,
+                max: tuning.theta_max,
+            });
+        }
+        if !theta_se.is_finite() || theta_se < 0.0 {
+            return Err(SetThetaError::StandardErrorNotNonNegative { theta_se });
+        }
+
+        self.theta = theta;
+        self.theta_se = theta_se;
+        Ok(())
+    }
+
     /// Read a persisted document, total over every version this build
     /// supports and every one it does not (ADR-016 Decision 2). Never
     /// panics.
@@ -371,5 +505,69 @@ impl LearnerState {
         let pretty =
             serde_json::to_string_pretty(&envelope).expect("LearnerState always serializes");
         format!("{pretty}\n")
+    }
+}
+
+#[cfg(test)]
+mod theta_privacy_tests {
+    use super::*;
+    use crate::tuning::Tuning;
+    use std::collections::BTreeMap;
+
+    /// docs/engine-contract.md law 6: the accessors must read back exactly
+    /// what `set_theta_and_se` wrote, together, in one call — the same call
+    /// that is now the only way to change either field.
+    #[test]
+    fn accessors_agree_with_what_set_theta_and_se_wrote() {
+        let tuning = Tuning::default();
+        let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
+        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_se(), 1.0);
+
+        state
+            .set_theta_and_se(0.42, 0.18, &tuning)
+            .expect("0.42 is inside the shipped theta range and 0.18 is non-negative");
+
+        assert_eq!(state.theta(), 0.42);
+        assert_eq!(state.theta_se(), 0.18);
+    }
+
+    /// The mutator refuses an out-of-band θ rather than clamping it
+    /// silently — `update_theta` already clamps once, and a second silent
+    /// clamp here would hide a caller's bug instead of reporting it.
+    #[test]
+    fn set_theta_and_se_rejects_an_out_of_band_theta() {
+        let tuning = Tuning::default();
+        let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
+
+        let result = state.set_theta_and_se(500.0, 1.0, &tuning);
+
+        assert_eq!(
+            result,
+            Err(SetThetaError::ThetaOutOfRange {
+                theta: 500.0,
+                min: tuning.theta_min,
+                max: tuning.theta_max,
+            })
+        );
+        // Refused, so nothing was written.
+        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_se(), 1.0);
+    }
+
+    /// The same refusal, for a negative standard error.
+    #[test]
+    fn set_theta_and_se_rejects_a_negative_standard_error() {
+        let tuning = Tuning::default();
+        let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
+
+        let result = state.set_theta_and_se(0.0, -0.5, &tuning);
+
+        assert_eq!(
+            result,
+            Err(SetThetaError::StandardErrorNotNonNegative { theta_se: -0.5 })
+        );
+        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_se(), 1.0);
     }
 }

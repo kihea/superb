@@ -12,12 +12,14 @@
 
 #![forbid(unsafe_code)]
 
+pub mod ability;
 pub mod learner;
 pub mod scheduler;
 pub mod state;
 pub mod tuning;
 
-pub use learner::{LearnerState, LoadError, Timestamp, WordRecord};
+pub use ability::{ThetaUpdate, ThetaUpdated, band, update_theta};
+pub use learner::{LearnerState, LoadError, SetThetaError, Timestamp, WordRecord};
 pub use scheduler::{
     EncounterOutcome, IntervalSet, ScheduleDecision, backlog_active, due_words, schedule_encounter,
 };

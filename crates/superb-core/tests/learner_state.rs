@@ -46,14 +46,7 @@ fn sample_state() -> LearnerState {
     topic_affinities.insert("nature".to_string(), 0.62);
     topic_affinities.insert("cooking".to_string(), -0.1);
 
-    LearnerState {
-        seed: 20_260_722,
-        draw_count: 214,
-        theta: 0.35,
-        theta_se: 0.18,
-        words,
-        topic_affinities,
-    }
+    LearnerState::new(20_260_722, 214, 0.35, 0.18, words, topic_affinities)
 }
 
 // --- Two-pass load: the probe works even when the payload does not ---
@@ -363,13 +356,8 @@ fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
         prop::collection::btree_map(id_strategy(), -5.0..5.0f64, 0..6),
     )
         .prop_map(
-            |(seed, draw_count, theta, theta_se, words, topic_affinities)| LearnerState {
-                seed,
-                draw_count,
-                theta,
-                theta_se,
-                words,
-                topic_affinities,
+            |(seed, draw_count, theta, theta_se, words, topic_affinities)| {
+                LearnerState::new(seed, draw_count, theta, theta_se, words, topic_affinities)
             },
         )
 }

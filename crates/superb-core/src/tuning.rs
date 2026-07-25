@@ -58,6 +58,17 @@ pub struct Tuning {
     /// How far the online ability estimate steps toward a single
     /// encounter's residual, as a fraction of it (engine-contract §4).
     pub theta_update_rate: f64,
+    /// The lower bound θ is clamped to (BRIEF-010; engine-contract §5 — "θ
+    /// stays bounded"). Symmetric with `theta_max` by convention, not by
+    /// requirement: validation only refuses the pair if they are inverted.
+    pub theta_min: f64,
+    /// The upper bound θ is clamped to. See `theta_min`.
+    pub theta_max: f64,
+    /// How far a single pseudoword over-claim steps θ down (BRIEF-010's
+    /// pseudoword correction — `src/ability.rs`'s `update_theta`). Strictly
+    /// positive: this constant exists to buy a downward correction, and a
+    /// non-positive value would buy nothing or the wrong sign.
+    pub pseudoword_penalty: f64,
     /// How many due words waiting before the composer stops choosing for
     /// taste and starts choosing for coverage (ADR-015's backlog guard).
     pub backlog_override_due: u32,
@@ -278,6 +289,25 @@ impl Tuning {
             });
         }
 
+        // Same shape as the band check just above: `update_theta` clamps
+        // with `theta.max(theta_min).min(theta_max)`, which silently
+        // produces `theta_min` for any input if the range is inverted or
+        // collapsed, rather than failing loudly at the one call site that
+        // could still refuse it.
+        if self.theta_min >= self.theta_max {
+            return Err(TuningError::ThetaRangeInverted {
+                min: self.theta_min,
+                max: self.theta_max,
+            });
+        }
+
+        let pseudoword_penalty_is_positive = self.pseudoword_penalty > 0.0;
+        if !pseudoword_penalty_is_positive {
+            return Err(TuningError::PseudowordPenaltyNotPositive {
+                value: self.pseudoword_penalty,
+            });
+        }
+
         let dwell_anomaly_z_is_positive = self.dwell_anomaly_z > 0.0;
         if !dwell_anomaly_z_is_positive {
             return Err(TuningError::DwellAnomalyZNotPositive {
@@ -351,6 +381,11 @@ pub enum TuningError {
     },
     /// `theta_update_rate` was not strictly between 0 and 1.
     ThetaUpdateRateOutOfRange { value: f64 },
+    /// `theta_min` was not strictly less than `theta_max`, inverting or
+    /// collapsing the clamp range `update_theta` enforces.
+    ThetaRangeInverted { min: f64, max: f64 },
+    /// `pseudoword_penalty` was not strictly positive.
+    PseudowordPenaltyNotPositive { value: f64 },
     /// `dwell_anomaly_z` was not strictly positive.
     DwellAnomalyZNotPositive { value: f64 },
     /// `probe_frequency_cap` was below 1.
@@ -420,6 +455,15 @@ impl fmt::Display for TuningError {
                     "theta_update_rate {value} is not strictly between 0 and 1"
                 )
             }
+            TuningError::ThetaRangeInverted { min, max } => {
+                write!(
+                    f,
+                    "theta_min {min} is not strictly less than theta_max {max}"
+                )
+            }
+            TuningError::PseudowordPenaltyNotPositive { value } => {
+                write!(f, "pseudoword_penalty {value} is not strictly positive")
+            }
             TuningError::DwellAnomalyZNotPositive { value } => {
                 write!(f, "dwell_anomaly_z {value} is not strictly positive")
             }
@@ -454,6 +498,9 @@ mod tests {
         band_low = -0.2
         band_high = 0.6
         theta_update_rate = 0.15
+        theta_min = -4.0
+        theta_max = 4.0
+        pseudoword_penalty = 0.3
         backlog_override_due = 40
         backlog_override_age_days = 7
         dwell_anomaly_z = 2.0
@@ -644,6 +691,29 @@ mod tests {
         assert_eq!(
             Tuning::from_toml_str(&bad),
             Err(TuningError::ThetaUpdateRateOutOfRange { value: 1.0 })
+        );
+    }
+
+    #[test]
+    fn theta_range_inverted_is_rejected() {
+        let bad = VALID
+            .replace("theta_min = -4.0", "theta_min = 4.0")
+            .replace("theta_max = 4.0", "theta_max = -4.0");
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::ThetaRangeInverted {
+                min: 4.0,
+                max: -4.0,
+            })
+        );
+    }
+
+    #[test]
+    fn pseudoword_penalty_not_positive_is_rejected() {
+        let bad = VALID.replace("pseudoword_penalty = 0.3", "pseudoword_penalty = 0.0");
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::PseudowordPenaltyNotPositive { value: 0.0 })
         );
     }
 
