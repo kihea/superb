@@ -12,8 +12,10 @@
 
 #![forbid(unsafe_code)]
 
+pub mod learner;
 pub mod state;
 pub mod tuning;
 
+pub use learner::{LearnerState, LoadError, Timestamp, WordRecord};
 pub use state::{IllegalTransition, Transition, WordState, WordStateChanged};
 pub use tuning::{Affinity, PoolAffinity, Tuning, TuningError};

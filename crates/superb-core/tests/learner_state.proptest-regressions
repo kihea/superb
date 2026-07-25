@@ -1,0 +1,7 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 5cc512e16ca5ff5840629730a86f888480516a1a3e7461e22a7a6e3a5722a8a4 # shrinks to state = LearnerState { seed: 0, draw_count: 0, theta: 0.0, theta_se: 0.0, words: {}, topic_affinities: {"a": 3.9141132334985276} }
