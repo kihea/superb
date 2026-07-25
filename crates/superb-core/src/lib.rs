@@ -13,5 +13,7 @@
 #![forbid(unsafe_code)]
 
 pub mod state;
+pub mod tuning;
 
 pub use state::{IllegalTransition, Transition, WordState, WordStateChanged};
+pub use tuning::{Affinity, PoolAffinity, Tuning, TuningError};

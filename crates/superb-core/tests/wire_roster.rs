@@ -337,22 +337,25 @@ fn normal_closure(metadata: &Value, root_id: &str) -> BTreeSet<String> {
 }
 
 /// The shipped library's runtime dependency closure is exactly what `serde`
-/// itself requires — no more (engine-contract §1, CLAUDE.md law 2). A new
-/// normal dependency, direct or transitive, is not read off a hand-maintained
-/// list of permitted crate names; it is computed from the same graph `cargo`
-/// builds from, so a dependency this test has never heard of still fails,
-/// and names itself.
+/// and `toml` themselves require — no more (engine-contract §1, CLAUDE.md
+/// law 2). `toml` is the one direct runtime dependency BRIEF-007 authorizes,
+/// to parse `tuning.toml` at compile time. A new normal dependency, direct or
+/// transitive, is not read off a hand-maintained list of permitted crate
+/// names; it is computed from the same graph `cargo` builds from, so a
+/// dependency this test has never heard of still fails, and names itself.
 #[test]
-fn superb_core_ships_no_runtime_dependency_beyond_serde() {
+fn superb_core_ships_no_runtime_dependency_beyond_serde_and_toml() {
     let crate_root = Path::new(env!("CARGO_MANIFEST_DIR"));
     let metadata = cargo_metadata(crate_root);
 
     let superb_core_id = package_id(&metadata, "superb-core").to_string();
     let serde_id = package_id(&metadata, "serde").to_string();
+    let toml_id = package_id(&metadata, "toml").to_string();
 
     let mut shipped = normal_closure(&metadata, &superb_core_id);
     shipped.remove(&superb_core_id);
-    let permitted = normal_closure(&metadata, &serde_id);
+    let mut permitted = normal_closure(&metadata, &serde_id);
+    permitted.extend(normal_closure(&metadata, &toml_id));
 
     let extra: Vec<String> = shipped
         .difference(&permitted)
@@ -361,8 +364,8 @@ fn superb_core_ships_no_runtime_dependency_beyond_serde() {
 
     assert!(
         extra.is_empty(),
-        "superb-core's normal (runtime) dependency closure has grown beyond what serde \
-         requires: {extra:?}. A new runtime dependency needs an ADR (engine-contract §1, \
+        "superb-core's normal (runtime) dependency closure has grown beyond what serde and \
+         toml require: {extra:?}. A new runtime dependency needs an ADR (engine-contract §1, \
          CLAUDE.md law 2), not a Cargo.toml edit."
     );
 }
