@@ -19,6 +19,7 @@
 use std::collections::BTreeMap;
 
 use proptest::prelude::*;
+use superb_core::TopicRecord;
 use superb_core::engine::{self, Frame, Outcome, Request};
 use superb_core::signals::Event;
 use superb_core::state::WordState;
@@ -75,7 +76,14 @@ fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
         -3.0..3.0f64,
         0.0..2.0f64,
         prop::collection::btree_map(word_id_strategy(), word_record_strategy(), 0..4),
-        prop::collection::btree_map(word_id_strategy(), -2.0..2.0f64, 0..3),
+        prop::collection::btree_map(
+            word_id_strategy(),
+            (0u32..20, 0u32..20).prop_map(|(finished, abandoned)| TopicRecord {
+                finished,
+                abandoned,
+            }),
+            0..3,
+        ),
     )
         .prop_map(
             |(seed, draw_count, theta, theta_information, words, topic_affinities)| {

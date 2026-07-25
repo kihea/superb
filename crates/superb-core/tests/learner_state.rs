@@ -14,7 +14,7 @@ use std::path::Path;
 
 use proptest::prelude::*;
 use superb_core::state::WordState;
-use superb_core::{ContextEncounter, LearnerState, LoadError, Timestamp, WordRecord};
+use superb_core::{ContextEncounter, LearnerState, LoadError, Timestamp, TopicRecord, WordRecord};
 
 fn clean_encounter(frame_id: &str) -> ContextEncounter {
     ContextEncounter {
@@ -48,8 +48,20 @@ fn sample_state() -> LearnerState {
     );
 
     let mut topic_affinities = BTreeMap::new();
-    topic_affinities.insert("nature".to_string(), 0.62);
-    topic_affinities.insert("cooking".to_string(), -0.1);
+    topic_affinities.insert(
+        "nature".to_string(),
+        TopicRecord {
+            finished: 5,
+            abandoned: 3,
+        },
+    );
+    topic_affinities.insert(
+        "cooking".to_string(),
+        TopicRecord {
+            finished: 0,
+            abandoned: 2,
+        },
+    );
 
     LearnerState::new(20_260_722, 214, 0.35, 30.0, words, topic_affinities)
 }
@@ -359,7 +371,14 @@ fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
         -10.0..10.0f64,
         0.0..5.0f64,
         prop::collection::btree_map(id_strategy(), word_record_strategy(), 0..6),
-        prop::collection::btree_map(id_strategy(), -5.0..5.0f64, 0..6),
+        prop::collection::btree_map(
+            id_strategy(),
+            (0u32..50, 0u32..50).prop_map(|(finished, abandoned)| TopicRecord {
+                finished,
+                abandoned,
+            }),
+            0..6,
+        ),
     )
         .prop_map(
             |(seed, draw_count, theta, theta_information, words, topic_affinities)| {

@@ -61,6 +61,11 @@ pub struct Tuning {
     /// never met, before the due list is allowed to fill them. See
     /// `tuning.toml`.
     pub(crate) seed_slots_per_passage: u32,
+    /// How far the reader's taste may tilt a candidate's score (ADR-022 D4).
+    pub(crate) topic_affinity_weight: f64,
+    /// How strongly a little-tried topic is favoured over its record
+    /// (ADR-022 D3).
+    pub(crate) topic_exploration_bonus: f64,
     /// How far below the learner's estimated ability a word may sit and
     /// still be worth serving (engine-contract §4).
     pub(crate) band_low: f64,
@@ -359,6 +364,24 @@ impl Tuning {
             }
         }
 
+        // Strictly between 0 and 1: at 0 the reader's taste is never
+        // consulted, and at 1 the multiplier's lower bound reaches zero, which
+        // would let taste veto a scheduled encounter outright — the exact thing
+        // ADR-022 D4 makes it a bounded multiplier to prevent.
+        let topic_weight_in_range =
+            self.topic_affinity_weight > 0.0 && self.topic_affinity_weight < 1.0;
+        if !topic_weight_in_range {
+            return Err(TuningError::TopicAffinityWeightOutOfRange {
+                value: self.topic_affinity_weight,
+            });
+        }
+
+        if self.topic_exploration_bonus <= 0.0 {
+            return Err(TuningError::TopicExplorationBonusNotPositive {
+                value: self.topic_exploration_bonus,
+            });
+        }
+
         if self.seed_slots_per_passage < 1 {
             return Err(TuningError::SeedSlotsPerPassageTooLow {
                 value: self.seed_slots_per_passage,
@@ -527,6 +550,11 @@ pub enum TuningError {
     /// An affinity table entry, named by its dotted key, was not strictly
     /// positive.
     AffinityNotPositive { field: String, value: f64 },
+    /// `topic_affinity_weight` was not strictly between 0 and 1.
+    TopicAffinityWeightOutOfRange { value: f64 },
+    /// `topic_exploration_bonus` was not strictly positive — a recommender
+    /// that never explores collapses onto its first data point.
+    TopicExplorationBonusNotPositive { value: f64 },
     /// `seed_slots_per_passage` was below 1 — a passage that may introduce
     /// no new word at all means vocabulary can never grow through reading,
     /// which is the whole product.
@@ -613,6 +641,18 @@ impl fmt::Display for TuningError {
             }
             TuningError::MinSourcedCoverageTooLow { value } => {
                 write!(f, "min_sourced_coverage {value} is below 1")
+            }
+            TuningError::TopicAffinityWeightOutOfRange { value } => {
+                write!(
+                    f,
+                    "topic_affinity_weight {value} is not strictly between 0 and 1"
+                )
+            }
+            TuningError::TopicExplorationBonusNotPositive { value } => {
+                write!(
+                    f,
+                    "topic_exploration_bonus {value} is not strictly positive"
+                )
             }
             TuningError::SeedSlotsPerPassageTooLow { value } => {
                 write!(f, "seed_slots_per_passage {value} is below 1")
@@ -708,6 +748,8 @@ mod tests {
         sourced_preference = 2.4
         min_sourced_coverage = 2
         seed_slots_per_passage = 2
+        topic_affinity_weight = 0.4
+        topic_exploration_bonus = 0.5
         band_low = -0.2
         band_high = 0.6
         theta_min = -4.0

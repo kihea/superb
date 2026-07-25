@@ -34,7 +34,13 @@
     }
   },
   "topic_affinities": {
-    "cooking": -0.1,
-    "nature": 0.62
+    "cooking": {
+      "finished": 0,
+      "abandoned": 2
+    },
+    "nature": {
+      "finished": 5,
+      "abandoned": 3
+    }
   }
 }

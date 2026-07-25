@@ -139,6 +139,17 @@ pub enum Needs {
         /// context.
         band_high: f64,
     },
+    /// A `PassageFinished` or `PassageAbandoned` needs to know what the
+    /// passage was about before the reader's taste can be updated (ADR-022 D2).
+    ///
+    /// Looked up rather than carried on the event, deliberately: the host
+    /// already owns the passage's topics as reference data, and a host that
+    /// mislabelled one on the way in would corrupt durable state with no way to
+    /// correct it.
+    PassageTopics {
+        /// The passage whose topics are needed.
+        passage: String,
+    },
 }
 
 /// The host's answer to a [`Needs`] (engine-contract §2, step 2).
@@ -153,6 +164,12 @@ pub enum Frame {
     },
     /// Answers [`Needs::PassageCandidates`].
     Content(ContentFrame),
+    /// Answers [`Needs::PassageTopics`].
+    Topics {
+        /// What the passage was about. Empty is legal — an unlabelled passage
+        /// teaches this crate nothing about taste and is not made to.
+        topics: Vec<String>,
+    },
 }
 
 /// One effect, spelled and shaped exactly as engine-contract §3 names it:
@@ -207,6 +224,19 @@ pub enum Effect {
         /// The passage to render, slots already filled.
         passage: Passage,
     },
+    /// The reader's taste for a topic moved (engine-contract §3's promised
+    /// topic-affinity update, delivered by ADR-022).
+    ///
+    /// Carries the whole tally rather than a delta, so a host that dropped an
+    /// effect cannot end up with a record that disagrees with the engine's.
+    TopicAffinityUpdated {
+        /// The topic whose tally moved.
+        topic: String,
+        /// Passages about it the reader has now read to the end.
+        finished: u32,
+        /// Passages about it the reader has now left.
+        abandoned: u32,
+    },
     /// A word was served in a context — the passage or excerpt id it was
     /// met in — logged so the composer can honour "no word reuses one of its
     /// previous contexts" (engine-contract §4).
@@ -245,6 +275,11 @@ pub fn plan(learner: &LearnerState, request: &Request, now: Timestamp, tuning: &
             ..
         }) => Needs::ItemDifficulty {
             item_id: item_id.clone(),
+        },
+        Request::ProcessEvent(
+            Event::PassageFinished { passage, .. } | Event::PassageAbandoned { passage, .. },
+        ) => Needs::PassageTopics {
+            passage: passage.clone(),
         },
         Request::ProcessEvent(_) => Needs::Nothing,
         Request::NextPassage => {
@@ -371,6 +406,7 @@ pub fn decide(
             passage,
             words_seen,
         } => {
+            record_taste(learner, &frame, true, &mut effects);
             for word in &words_seen {
                 ensure_record(learner, word, now);
                 if current_state(learner, word) == WordState::Unseen {
@@ -404,6 +440,7 @@ pub fn decide(
             // as a `scheduler::EncounterOutcome::Clean` encounter either —
             // this keeps `ContextEncounter::clean`'s meaning the same
             // question in both places.
+            record_taste(learner, &frame, false, &mut effects);
             for word in &words_seen {
                 ensure_record(learner, word, now);
                 log_context(learner, word, &passage, false, &mut effects);
@@ -651,7 +688,7 @@ fn decide_deck_swipe(
         // need — falls back to the logit scale's neutral point rather than
         // panicking. Enumerated rather than wildcarded so that the next
         // `Frame` variant has to be considered here, not silently absorbed.
-        Frame::Nothing | Frame::Content(_) => 0.0,
+        Frame::Nothing | Frame::Content(_) | Frame::Topics { .. } => 0.0,
     };
 
     let update: ThetaUpdate = ability::update_theta(
@@ -673,6 +710,42 @@ fn decide_deck_swipe(
         theta: update.effect.theta,
         se: update.effect.se,
     });
+}
+
+/// Move the reader's taste for every topic the passage carried (ADR-022 D1).
+///
+/// `finished` is the whole signal: they read it to the end, or they left. No
+/// weighting by how far they got, no credit for a long dwell, no rating. Those
+/// were all considered and rejected in ADR-022's *Rejects* — dwell conflates
+/// interest with difficulty, and anything the reader is asked directly stops
+/// being honest evidence the moment they know it is being counted (law 3).
+///
+/// A frame that is not [`Frame::Topics`] records nothing at all rather than
+/// guessing. A host that did not honour `plan` should lose the taste update,
+/// not have one invented for it — a wrong tally is worse than a missing one,
+/// because it is durable and nothing downstream can tell it was made up.
+fn record_taste(
+    learner: &mut LearnerState,
+    frame: &Frame,
+    finished: bool,
+    effects: &mut Vec<Effect>,
+) {
+    let Frame::Topics { topics } = frame else {
+        return;
+    };
+    for topic in topics {
+        let record = learner.topic_affinities.entry(topic.clone()).or_default();
+        if finished {
+            record.finished = record.finished.saturating_add(1);
+        } else {
+            record.abandoned = record.abandoned.saturating_add(1);
+        }
+        effects.push(Effect::TopicAffinityUpdated {
+            topic: topic.clone(),
+            finished: record.finished,
+            abandoned: record.abandoned,
+        });
+    }
 }
 
 #[cfg(test)]

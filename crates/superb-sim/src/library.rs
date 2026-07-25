@@ -61,6 +61,17 @@ pub const COMPOSED_PASSAGES: usize = 150;
 /// `sourced_preference` is set to.
 pub const SOURCED_EXCERPTS: usize = 400;
 
+/// The topics this synthetic corpus is written about (ADR-022).
+///
+/// Eight, against engine-contract §4's "~12 topic clusters" for the real
+/// library. Fewer, deliberately: with 550 candidates and 180 sessions, eight
+/// gives each topic enough passages for the reader's taste to be discoverable
+/// within a run at all. Twelve would test the same mechanism on a thinner
+/// sample and tell us less.
+pub const TOPICS: [&str; 8] = [
+    "sea", "money", "war", "gardens", "machines", "law", "music", "hunger",
+];
+
 /// A fixed library of candidates, built once per run from the run's own seed.
 #[derive(Debug, Clone)]
 pub struct Library {
@@ -93,6 +104,7 @@ impl Library {
             .map(|index| Candidate {
                 id: format!("comp-{index:04}"),
                 pool: Pool::Composed,
+                topics: vec![TOPICS[index % TOPICS.len()].to_string()],
                 slots: (0..composed_cap as u32)
                     .map(|slot| Slot {
                         index: slot,
@@ -135,6 +147,7 @@ impl Library {
                 Candidate {
                     id: format!("src-{index:04}"),
                     pool: Pool::Sourced,
+                    topics: vec![TOPICS[index % TOPICS.len()].to_string()],
                     slots: Vec::new(),
                     words,
                 }

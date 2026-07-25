@@ -176,6 +176,29 @@ interval_lapse = 0.4
 # interval is a guess, not a prediction.
 interval_max_days = 180.0
 
+# --- The reader's taste (ADR-022) ---
+
+# How far what the reader enjoys may tilt the composer's choice. The score is
+# multiplied by 1 + weight * (2 * topic_value - 1), so at 0.4 the factor lies
+# between 0.6 and 1.4.
+#
+# Bounded on both sides on purpose, and strictly below 1.0 by validation: at
+# 1.0 the lower bound would reach zero and taste could veto a scheduled
+# encounter outright. Taste tilts the ranking. It never overrules the schedule,
+# and it is suspended entirely while the backlog guard is active.
+topic_affinity_weight = 0.4
+
+# How strongly a topic the reader has barely tried is favoured over one they
+# have. Added to the topic's finish rate as bonus * sqrt(ln(total) / trials) —
+# UCB1 — so a topic tried twice is still worth investigating and one tried
+# forty times is judged on its record.
+#
+# This is the constant that stops the recommender from collapsing. Without it,
+# one good session about the sea and the sea is all the reader ever sees again,
+# which narrows the vocabulary they meet — the product failing at its real job
+# while looking like it is working.
+topic_exploration_bonus = 0.5
+
 # --- State-by-pool affinity (ADR-015, ADR-009's judgment made numeric) ---
 # How much a word in this state is worth meeting in this pool. A word met
 # early is served by a context built to teach; a word nearing automaticity is

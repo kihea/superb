@@ -112,6 +112,35 @@ pub fn knows_real_item_after(
     knows_real_item(rng, true_theta + gained, difficulty)
 }
 
+/// Draw whether the learner reads a passage about a topic they like `taste`
+/// much to the end (ADR-022).
+///
+/// `taste` is this synthetic reader's hidden liking, 0.0 to 1.0, invented by
+/// `vocabulary::generate` and never shown to the engine. The engine learns only
+/// what ADR-022 lets it learn — that a passage was finished, or that it was
+/// left. Whether its estimate comes to resemble this number is the
+/// recommender's whole assertion, and it would be worth nothing if the engine
+/// could see it.
+///
+/// **0.55 at total indifference, 0.95 at total enthusiasm**, and the floor
+/// matters as much as the slope. Two constraints pin it.
+///
+/// Floored well above zero because a reader who *never* finishes a disliked
+/// topic hands the recommender a noiseless signal any estimator would recover.
+/// The interesting question is whether taste survives noise, so the model keeps
+/// plenty of it: even a topic this reader is indifferent to gets finished more
+/// often than not.
+///
+/// Floored *high* because an abandonment rate near half is not a taste model,
+/// it is a broken product — and it behaves like one. At 0.15/0.85 the simulator
+/// stopped producing automatic words entirely: an abandoned passage schedules
+/// nothing and logs no clean frame, so half the reading sessions taught nothing
+/// and the schedule could not keep up. A reader who walks out of one passage in
+/// two has a problem the recommender cannot fix.
+pub fn finishes_passage(rng: &mut Rng, taste: f64) -> bool {
+    rng.chance(0.55 + 0.4 * taste.clamp(0.0, 1.0))
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

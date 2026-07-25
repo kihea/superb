@@ -25,7 +25,7 @@ pub use ability::{ThetaUpdate, ThetaUpdated, band, update_theta};
 pub use composer::{Candidate, ContentFrame, Passage, Pool, Slot, SlotFill, compose};
 pub use engine::{Effect, Frame, Needs, Outcome, Request, decide, plan};
 pub use learner::{
-    ContextEncounter, LearnerState, LoadError, SetThetaError, Timestamp, WordRecord,
+    ContextEncounter, LearnerState, LoadError, SetThetaError, Timestamp, TopicRecord, WordRecord,
 };
 pub use scheduler::{
     EncounterOutcome, IntervalSet, ScheduleDecision, backlog_active, due_words, schedule_encounter,
