@@ -1,5 +1,6 @@
 {
   "v": 1,
+  "_note": "This is your Superb data — the words you've encountered and when each is due again — and it belongs entirely to you to open, read, or copy.",
   "seed": 20260722,
   "draw_count": 214,
   "theta": 0.35,
@@ -7,20 +8,22 @@
   "words": {
     "aperture": {
       "state": "SEEDED",
-      "due": 1735689600000,
+      "due_epoch_ms": 1735689600000,
       "encounters": 1,
       "context_frames": [
         "passage-042"
-      ]
+      ],
+      "interval_days": 1.0
     },
     "verisimilitude": {
       "state": "CONSOLIDATING",
-      "due": 1738368000000,
+      "due_epoch_ms": 1738368000000,
       "encounters": 9,
       "context_frames": [
         "excerpt-poe-1839-cask",
         "excerpt-withdrawn-687"
-      ]
+      ],
+      "interval_days": 45.0
     }
   },
   "topic_affinities": {

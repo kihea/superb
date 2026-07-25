@@ -20,24 +20,26 @@ fn sample_state() -> LearnerState {
     let mut words = BTreeMap::new();
     words.insert(
         "aperture".to_string(),
-        WordRecord {
-            state: WordState::Seeded,
-            due: Timestamp::from_millis_since_epoch(1_735_689_600_000),
-            encounters: 1,
-            context_frames: vec!["passage-042".to_string()],
-        },
+        WordRecord::new(
+            WordState::Seeded,
+            Timestamp::from_millis_since_epoch(1_735_689_600_000),
+            1,
+            vec!["passage-042".to_string()],
+            Some(1.0),
+        ),
     );
     words.insert(
         "verisimilitude".to_string(),
-        WordRecord {
-            state: WordState::Consolidating,
-            due: Timestamp::from_millis_since_epoch(1_738_368_000_000),
-            encounters: 9,
-            context_frames: vec![
+        WordRecord::new(
+            WordState::Consolidating,
+            Timestamp::from_millis_since_epoch(1_738_368_000_000),
+            9,
+            vec![
                 "excerpt-poe-1839-cask".to_string(),
                 "excerpt-withdrawn-687".to_string(),
             ],
-        },
+            Some(45.0),
+        ),
     );
 
     let mut topic_affinities = BTreeMap::new();
@@ -165,7 +167,7 @@ fn unknown_field_nested_three_levels_deep_is_a_typed_error() {
         "words": {
             "obscure": {
                 "state": "SEEDED",
-                "due": 100,
+                "due_epoch_ms": 100,
                 "encounters": 1,
                 "context_frames": [],
                 "extra_field_inside_a_word_record": "should error"
@@ -195,7 +197,7 @@ fn unknown_context_frame_id_round_trips_unchanged() {
         "words": {
             "lighthouse": {
                 "state": "LEARNING",
-                "due": 100,
+                "due_epoch_ms": 100,
                 "encounters": 2,
                 "context_frames": ["excerpt-this-build-has-never-heard-of"]
             }
@@ -218,6 +220,57 @@ fn unknown_context_frame_id_round_trips_unchanged() {
         resaved.contains("excerpt-this-build-has-never-heard-of"),
         "the unknown context frame id must survive re-serialization:\n{resaved}"
     );
+}
+
+// --- The reader-facing `_note` field (BRIEF-009's addendum to ADR-016 D2) ---
+
+/// `_note` is declared, not unknown: a document that carries it loads, and
+/// what `to_document` writes back out carries the same sentence — the note
+/// round-trips because it is fixed, not because this crate remembers what a
+/// caller happened to write in.
+#[test]
+fn note_field_is_declared_and_round_trips() {
+    let document = r#"{
+        "v": 1,
+        "_note": "whatever a future build once wrote here",
+        "seed": 1,
+        "draw_count": 0,
+        "theta": 0.0,
+        "theta_se": 1.0,
+        "words": {},
+        "topic_affinities": {}
+    }"#;
+
+    let loaded = LearnerState::load(document).expect("a document with _note loads");
+    let resaved = loaded.to_document();
+
+    assert!(
+        resaved.contains("\"_note\""),
+        "the note must still be present on re-export:\n{resaved}"
+    );
+}
+
+/// The `_note` tolerance is narrow: it does not loosen `deny_unknown_fields`
+/// for any other field. A document carrying both `_note` and a genuinely
+/// unknown field still fails to load.
+#[test]
+fn an_unrelated_unknown_field_still_fails_even_though_note_is_tolerated() {
+    let document = r#"{
+        "v": 1,
+        "_note": "this is fine",
+        "seed": 1,
+        "draw_count": 0,
+        "theta": 0.0,
+        "theta_se": 1.0,
+        "words": {},
+        "topic_affinities": {},
+        "extra_top_level_field": true
+    }"#;
+
+    match LearnerState::load(document) {
+        Err(LoadError::Malformed { version, .. }) => assert_eq!(version, 1),
+        other => panic!("expected Malformed{{version: 1, ..}}, got {other:?}"),
+    }
 }
 
 // --- The frozen fixture (ADR-016 Decision 2) ---
@@ -269,19 +322,33 @@ fn id_strategy() -> impl Strategy<Value = String> {
     "[a-z][a-z0-9-]{0,23}"
 }
 
+/// Any interval, or none at all — this is the generic envelope round-trip
+/// property, not the scheduler's arithmetic (`tests/scheduler_properties.rs`
+/// owns the range invariant), so the strategy is deliberately wider than a
+/// valid interval: it exists to prove the field survives serialize -> load
+/// -> serialize regardless of what it holds, including `None`, which must
+/// survive as a genuinely absent key rather than a written-out `null`.
+fn interval_days_strategy() -> impl Strategy<Value = Option<f64>> {
+    prop_oneof![Just(None), (-1_000.0..1_000.0f64).prop_map(Some)]
+}
+
 fn word_record_strategy() -> impl Strategy<Value = WordRecord> {
     (
         word_state_strategy(),
         any::<u64>(),
         any::<u32>(),
         prop::collection::vec(id_strategy(), 0..5),
+        interval_days_strategy(),
     )
         .prop_map(
-            |(state, due_millis, encounters, context_frames)| WordRecord {
-                state,
-                due: Timestamp::from_millis_since_epoch(due_millis),
-                encounters,
-                context_frames,
+            |(state, due_millis, encounters, context_frames, interval_days)| {
+                WordRecord::new(
+                    state,
+                    Timestamp::from_millis_since_epoch(due_millis),
+                    encounters,
+                    context_frames,
+                    interval_days,
+                )
             },
         )
 }

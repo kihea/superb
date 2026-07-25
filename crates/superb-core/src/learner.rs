@@ -25,6 +25,15 @@
 //!    check them against — so nothing in this module *can* drop one; the
 //!    tests exist to keep that true on purpose rather than by accident.
 //!
+//! A fourth thing this module writes but does not decide: every export
+//! carries a one-sentence `_note` field saying in plain words what the
+//! document is and that it belongs to its reader (BRIEF-008's review,
+//! finding F3). It is declared and stripped by [`LearnerState::load`] by
+//! name, the same way `v` is, so its presence never trips
+//! `deny_unknown_fields` and its content is never read back by the app
+//! (law 3) — an export is not a surface, it is what a reader gets when they
+//! ask for their own data.
+//!
 //! What this module deliberately does not do: decide anything. No function
 //! here computes a due date, chooses a word, or updates θ — that is the
 //! scheduler's brief, not this one. This module stores state; it does not
@@ -70,8 +79,16 @@ impl Timestamp {
 pub struct WordRecord {
     /// Where the word stands (`src/state.rs`).
     pub state: WordState,
-    /// When the word is next due.
-    pub due: Timestamp,
+    /// When the word is next due, in milliseconds since the Unix epoch. Named
+    /// with its unit rather than plain `due`: read cold, in an export a
+    /// learner opened themselves, a bare `due: 1785024000000` names nothing
+    /// (BRIEF-008's review, finding F3; ASK-004 promises the export is
+    /// legible to its owner, not just parseable).
+    ///
+    /// Private to this module, on purpose (BRIEF-009's review, finding F3):
+    /// see [`WordRecord::due_epoch_ms`] to read it and
+    /// [`WordRecord::set_due_and_interval`] for the one way to change it.
+    due_epoch_ms: Timestamp,
     /// How many times the learner has met this word.
     pub encounters: u32,
     /// Ids of the context frames this word has already been met in
@@ -82,6 +99,116 @@ pub struct WordRecord {
     /// context this word was genuinely met in, so its id is kept rather than
     /// dropped.
     pub context_frames: Vec<String>,
+    /// The interval, in days, that produced `due_epoch_ms` — stored rather
+    /// than derived (BRIEF-009's ARCHITECT'S ANSWER: deriving it from
+    /// `due_epoch_ms - now` compresses the schedule for every reader who
+    /// reads ahead of it, and deriving it from `state` and `encounters`
+    /// makes every interval a function of whichever `tuning.toml` happens to
+    /// be shipping today, turning an ordinary constant edit into a silent
+    /// retroactive migration).
+    ///
+    /// `None` for a word that has never been scheduled, rather than `0.0`:
+    /// zero is not a valid interval (every scheduled interval is strictly
+    /// positive) and would read as a real, if minimal, spacing decision
+    /// instead of the absence of one. `#[serde(skip_serializing_if)]` carries
+    /// that choice into the exported document too — a word with no interval
+    /// simply has no `interval_days` key, which is legible to a learner
+    /// reading their own export (ASK-004) without a sentinel value to
+    /// decode.
+    ///
+    /// Private to this module, same reason and same fix as `due_epoch_ms`:
+    /// see [`WordRecord::interval_days`] and
+    /// [`WordRecord::set_due_and_interval`]. BRIEF-009's review (finding F3)
+    /// constructed a compiling, two-line violation — `record.due_epoch_ms =
+    /// x;` alone, leaving the old interval in place — of the rule directly
+    /// below this comment, back when both fields were `pub` and the rule
+    /// lived only in this sentence. It is enforced by the type now: there is
+    /// no method on `WordRecord` that sets one of these two fields without
+    /// the other, so that line no longer compiles anywhere outside this
+    /// module.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    interval_days: Option<f64>,
+}
+
+impl WordRecord {
+    /// Build a record from its whole content at once. `due_epoch_ms` and
+    /// `interval_days` are parameters here for the same reason
+    /// [`WordRecord::set_due_and_interval`] is the only way to change them
+    /// later: a record is never assembled with one written and the other
+    /// left stale.
+    pub fn new(
+        state: WordState,
+        due_epoch_ms: Timestamp,
+        encounters: u32,
+        context_frames: Vec<String>,
+        interval_days: Option<f64>,
+    ) -> Self {
+        Self {
+            state,
+            due_epoch_ms,
+            encounters,
+            context_frames,
+            interval_days,
+        }
+    }
+
+    /// When the word is next due. Read-only outside this module — see
+    /// [`WordRecord::set_due_and_interval`] to change it.
+    pub fn due_epoch_ms(&self) -> Timestamp {
+        self.due_epoch_ms
+    }
+
+    /// The interval, in days, that produced [`WordRecord::due_epoch_ms`], or
+    /// `None` for a word that has never been scheduled. Read-only outside
+    /// this module — see [`WordRecord::set_due_and_interval`] to change it.
+    pub fn interval_days(&self) -> Option<f64> {
+        self.interval_days
+    }
+
+    /// The one way to change `due_epoch_ms` or `interval_days` after a
+    /// record is built. `src/scheduler.rs` is the only caller, and it calls
+    /// this with both halves of a `ScheduleDecision` on every scheduling
+    /// decision.
+    ///
+    /// This is the fix for BRIEF-009's review, finding F3: the two fields
+    /// used to be `pub`, and "the two are written together or the record is
+    /// inconsistent" (the ARCHITECT'S ANSWER) lived in a doc comment a
+    /// caller could ignore by writing `record.due_epoch_ms = x` alone — which
+    /// the review did, and it compiled. With both fields private to this
+    /// module and no other mutator, that line has no field to write to
+    /// anymore: the guarantee is carried by privacy, not by a comment.
+    pub fn set_due_and_interval(&mut self, due_epoch_ms: Timestamp, interval_days: f64) {
+        self.due_epoch_ms = due_epoch_ms;
+        self.interval_days = Some(interval_days);
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::state::WordState;
+
+    /// F3: the accessors must read back exactly what
+    /// `set_due_and_interval` wrote, together, in one call — the same call
+    /// that is now the only way to change either field.
+    #[test]
+    fn accessors_agree_with_what_set_due_and_interval_wrote() {
+        let mut record = WordRecord::new(
+            WordState::Learning,
+            Timestamp::from_millis_since_epoch(0),
+            1,
+            Vec::new(),
+            None,
+        );
+        assert_eq!(record.due_epoch_ms(), Timestamp::from_millis_since_epoch(0));
+        assert_eq!(record.interval_days(), None);
+
+        let due = Timestamp::from_millis_since_epoch(123_456);
+        record.set_due_and_interval(due, 7.5);
+
+        assert_eq!(record.due_epoch_ms(), due);
+        assert_eq!(record.interval_days(), Some(7.5));
+    }
 }
 
 /// One learner's whole history — the persisted root engine-contract §1.5
@@ -111,18 +238,30 @@ pub struct LearnerState {
     pub topic_affinities: BTreeMap<String, f64>,
 }
 
-/// The version-1 write shape: `v` first, the rest of [`LearnerState`]
-/// flattened beside it (ADR-016 Decision 1 — the version is the persisted
-/// document's first field, readable without parsing the payload).
+/// The sentence written into every exported document, in the reader's own
+/// words rather than the engine's: what the file is, and that it is theirs
+/// (ASK-004; BRIEF-008's review, finding F3). Fixed rather than authored per
+/// document — the app never reads an export back to its owner (law 3;
+/// ADR-016's ADVISORY-001 §4 amendment), so there is nothing for the note to
+/// vary with.
+const EXPORT_NOTE: &str = "This is your Superb data — the words you've encountered and when \
+    each is due again — and it belongs entirely to you to open, read, or copy.";
+
+/// The version-1 write shape: `v` first, then the reader-facing note, then
+/// the rest of [`LearnerState`] flattened beside them (ADR-016 Decision 1 —
+/// the version is the persisted document's first field, readable without
+/// parsing the payload).
 ///
 /// Serialize-only, and deliberately never the type [`LearnerState::load`]
 /// deserializes through: `#[serde(flatten)]` cannot be combined with
 /// `#[serde(deny_unknown_fields)]`, and the loader's deny-unknown-fields
-/// promise has to hold on the payload itself. The loader reads `v` from
-/// generic JSON by hand instead — see [`LearnerState::load`].
+/// promise has to hold on the payload itself. The loader reads `v` and
+/// `_note` from generic JSON by hand instead — see [`LearnerState::load`].
 #[derive(Debug, Serialize)]
 struct EnvelopeV1<'a> {
     v: u32,
+    #[serde(rename = "_note")]
+    note: &'static str,
     #[serde(flatten)]
     state: &'a LearnerState,
 }
@@ -200,6 +339,13 @@ impl LearnerState {
         let v_value = object.remove("v").ok_or(LoadError::MissingVersion)?;
         let version = v_value.as_u64().ok_or(LoadError::VersionNotAnInteger)?;
 
+        // `_note` is declared, not unknown (ADR-016 Decision 2): it explains
+        // the document to a reader who opened it by hand and carries no data
+        // this crate acts on, so it is dropped here — exactly like `v` — by
+        // name, rather than being parsed into `LearnerState` or falling
+        // through to `deny_unknown_fields` and rejecting the document.
+        object.remove("_note");
+
         match version {
             1 => serde_json::from_value(root).map_err(|error| LoadError::Malformed {
                 version: 1,
@@ -217,7 +363,11 @@ impl LearnerState {
     /// not a rendering of it (ADR-016's ADVISORY-001 §4 amendment) — so the
     /// formatting is not cosmetic.
     pub fn to_document(&self) -> String {
-        let envelope = EnvelopeV1 { v: 1, state: self };
+        let envelope = EnvelopeV1 {
+            v: 1,
+            note: EXPORT_NOTE,
+            state: self,
+        };
         let pretty =
             serde_json::to_string_pretty(&envelope).expect("LearnerState always serializes");
         format!("{pretty}\n")
