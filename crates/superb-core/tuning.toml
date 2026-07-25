@@ -53,6 +53,20 @@ band_high = 0.6
 # twenty-item deck.
 theta_update_rate = 0.15
 
+# The symmetric logit range θ is clamped to (BRIEF-010). ±4.0 is the
+# conventional bound for a one-parameter logistic ability scale — past it, a
+# claim stops being informative, so nothing is lost by refusing to track it
+# further in either direction.
+theta_min = -4.0
+theta_max = 4.0
+
+# How far a single pseudoword over-claim steps θ down, baked into the same
+# per-observation update the ordinary evidence goes through (BRIEF-010's
+# pseudoword correction) rather than a second event a caller could forget to
+# send. Buys: a learner who claims to know words that do not exist gets
+# their estimate corrected downward instead of flattered.
+pseudoword_penalty = 0.3
+
 # --- Backlog override (ADR-015): when coverage must beat taste ---
 
 # How many due words waiting before the composer stops choosing for taste

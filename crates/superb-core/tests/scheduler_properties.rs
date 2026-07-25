@@ -38,14 +38,7 @@ fn learner_with_word(
             interval_days,
         ),
     );
-    LearnerState {
-        seed: 0,
-        draw_count: 0,
-        theta: 0.0,
-        theta_se: 1.0,
-        words,
-        topic_affinities: BTreeMap::new(),
-    }
+    LearnerState::new(0, 0, 0.0, 1.0, words, BTreeMap::new())
 }
 
 /// A valid, in-range interval — the domain the "never shortens" and
@@ -173,14 +166,7 @@ proptest! {
         outcome_is_clean in any::<bool>(),
     ) {
         let tuning = Tuning::default();
-        let learner = LearnerState {
-            seed: 0,
-            draw_count: 0,
-            theta: 0.0,
-            theta_se: 1.0,
-            words: BTreeMap::new(),
-            topic_affinities: BTreeMap::new(),
-        };
+        let learner = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
         let now = Timestamp::from_millis_since_epoch(now_millis);
         let outcome = if outcome_is_clean {
             EncounterOutcome::Clean

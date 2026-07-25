@@ -246,14 +246,7 @@ mod tests {
     use std::collections::BTreeMap;
 
     fn learner_with(words: BTreeMap<String, WordRecord>) -> LearnerState {
-        LearnerState {
-            seed: 0,
-            draw_count: 0,
-            theta: 0.0,
-            theta_se: 1.0,
-            words,
-            topic_affinities: BTreeMap::new(),
-        }
+        LearnerState::new(0, 0, 0.0, 1.0, words, BTreeMap::new())
     }
 
     fn record_due_at(millis: u64) -> WordRecord {
