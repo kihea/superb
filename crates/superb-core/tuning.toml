@@ -24,6 +24,23 @@ sourced_preference = 2.4
 # must not bump a word out of a scheduled encounter.
 min_sourced_coverage = 2
 
+# How many of a passage's slots are held back for words the reader has never
+# met, before the due list is allowed to fill them. A reservation, not a cap,
+# and the difference is the whole constant: in steady state the due list is
+# always longer than one passage, so seeding into leftovers means there are
+# never any leftovers, and the reader stops meeting new words the moment the
+# schedule gets busy.
+#
+# This is the dial between "the reader meets new words" and "the reader can
+# read the sentence." Set high, every passage fills up with unknowns: the text
+# stops being readable, and — measurably — no word is ever met often enough to
+# become automatic, because every slot goes to a stranger instead of to a word
+# the schedule is trying to consolidate. The simulator found that at the
+# uncapped setting: sixty sessions produced a single automatic word, at 39
+# encounters against a target band of 8-12. Set to 2, vocabulary still grows
+# through reading and the schedule keeps most of its slots.
+seed_slots_per_passage = 2
+
 # --- Encounter target: how many varied contexts carry a word to automatic ---
 
 # The number of varied-context encounters the schedule aims a word toward

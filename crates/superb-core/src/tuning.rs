@@ -57,6 +57,10 @@ pub struct Tuning {
     /// The fewest due words a sourced excerpt must cover in informative
     /// context before it is a candidate at all (ADR-015's coverage floor).
     pub(crate) min_sourced_coverage: u32,
+    /// How many of a passage's slots are held back for words the reader has
+    /// never met, before the due list is allowed to fill them. See
+    /// `tuning.toml`.
+    pub(crate) seed_slots_per_passage: u32,
     /// How far below the learner's estimated ability a word may sit and
     /// still be worth serving (engine-contract §4).
     pub(crate) band_low: f64,
@@ -355,6 +359,12 @@ impl Tuning {
             }
         }
 
+        if self.seed_slots_per_passage < 1 {
+            return Err(TuningError::SeedSlotsPerPassageTooLow {
+                value: self.seed_slots_per_passage,
+            });
+        }
+
         if self.min_sourced_coverage < 1 {
             return Err(TuningError::MinSourcedCoverageTooLow {
                 value: self.min_sourced_coverage,
@@ -517,6 +527,10 @@ pub enum TuningError {
     /// An affinity table entry, named by its dotted key, was not strictly
     /// positive.
     AffinityNotPositive { field: String, value: f64 },
+    /// `seed_slots_per_passage` was below 1 — a passage that may introduce
+    /// no new word at all means vocabulary can never grow through reading,
+    /// which is the whole product.
+    SeedSlotsPerPassageTooLow { value: u32 },
     /// `min_sourced_coverage` was below 1.
     MinSourcedCoverageTooLow { value: u32 },
     /// `band_low` was not strictly less than `band_high`, inverting or
@@ -599,6 +613,9 @@ impl fmt::Display for TuningError {
             }
             TuningError::MinSourcedCoverageTooLow { value } => {
                 write!(f, "min_sourced_coverage {value} is below 1")
+            }
+            TuningError::SeedSlotsPerPassageTooLow { value } => {
+                write!(f, "seed_slots_per_passage {value} is below 1")
             }
             TuningError::BandInverted { low, high } => {
                 write!(
@@ -690,6 +707,7 @@ mod tests {
         coverage_decay = 0.75
         sourced_preference = 2.4
         min_sourced_coverage = 2
+        seed_slots_per_passage = 2
         band_low = -0.2
         band_high = 0.6
         theta_min = -4.0

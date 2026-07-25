@@ -10,8 +10,12 @@
 //! answers, and this crate's own module docs for how each of its two halves
 //! — the oracle (`oracle.rs`) and the host (`simulation.rs`, `composer.rs`)
 //! — is kept from reading the other's information.
+//!
+//! **The composer is not here.** It lives in `superb-core`, where the
+//! shipping path reads it. This crate only offers candidates
+//! (`library.rs`); every choice made from them is the engine's.
 
-pub mod composer;
+pub mod library;
 pub mod oracle;
 pub mod pseudoword_comparison;
 pub mod report;

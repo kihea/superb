@@ -17,7 +17,7 @@ use crate::tuning_extract::AdrConstants;
 use superb_core::Tuning;
 
 /// Assertion 1 — θ̂ converges to the learner's true θ within its own
-/// reported standard error, over sixty sessions. Run across several seeds
+/// reported standard error, over the run's full horizon. Run across several seeds
 /// and several true θ values, extremes included, and report the spread, not
 /// just a pass.
 pub struct Assertion1 {
@@ -135,7 +135,7 @@ impl Assertion2 {
     }
 }
 
-/// Assertion 3 — the due list stays bounded over sixty sessions. Report the
+/// Assertion 3 — the due list stays bounded over the run's full horizon. Report the
 /// maximum reached and the session it peaked in.
 pub struct Assertion3 {
     pub per_run: Vec<RunPeak>,
@@ -334,7 +334,7 @@ impl FullReport {
              Same discipline as a golden vector: a future change's effect on the curve is a \
              diff against this file, not an argument.\n\n\
              **What this report is not.** The response model, the vocabulary, and the \
-             composer stand-in were all written by the project whose scheduler they test. They \
+             composer were all written by the project whose scheduler they test. They \
              share its assumptions. This is the strongest instrument available before real \
              readers, and its numbers are evidence, not proof \
              (`docs/engine-contract.md` §5's own caveat, and BRIEF-014's).\n\n",
@@ -390,7 +390,7 @@ impl FullReport {
              information, and only calibration draws move θ at all; a session's \
              `PassageFinished` and `GlossTap` events never call `update_theta`. With \
              `calibration_items_per_session` = {calibration_items_per_session} and \
-             `calibration_real_rate` = {calibration_real_rate:.0}%, sixty sessions carry roughly \
+             `calibration_real_rate` = {calibration_real_rate:.0}%, the run carries roughly \
              {approx_real_draws:.0} real-word observations, and the reported se now lands \
              between {min_se:.3} and {max_se:.3}. {converged}/{total} runs now land within that \
              band — up from 3/{total} under the fixed-rate step — and mean absolute error fell \
@@ -404,11 +404,11 @@ impl FullReport {
              θ̂ = 1.9333, 3.1047, 2.4647, well inside the ±4.0 bound; a clamp that never engages \
              cannot bias the estimates it never touches. Three candidates remain and this run \
              cannot separate them: the response model's own sampling noise (Bernoulli draws are \
-             noisy at any θ, clamp or not); the 60-session horizon (roughly 42 real-word \
+             noisy at any θ, clamp or not); the horizon (real-word \
              observations per run may not be enough for Fisher scoring's asymptotics to bite); \
              and the Cramér-Rao bound the derived SE reads, which is a lower bound on variance \
              across repeated draws at the same θ, not a prediction of how far any single \
-             60-session run lands — a wide standard error and a wide miss are not the same claim. \
+             single run lands — a wide standard error and a wide miss are not the same claim. \
              Separating them needs a different measurement than this report makes: many more \
              seeds at each θ, to see whether the per-θ miss rate above is stable or sampling \
              noise in a 3-seed sample; or more sessions at fixed seeds, to see whether a longer \

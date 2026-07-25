@@ -60,6 +60,58 @@ pub fn claims_pseudoword(rng: &mut Rng, overclaim_rate: f64) -> bool {
     rng.chance(overclaim_rate)
 }
 
+/// How much one prior clean encounter with a word raises the learner's
+/// effective ability *on that word*, in logits.
+///
+/// **Why this constant has to exist, said plainly: without it the synthetic
+/// learner cannot learn.** Every function above models recall as a fixed
+/// property of `(true_theta, difficulty)`, so a word harder than the reader is
+/// a word they will fail forever, no matter how many times they meet it. That
+/// is not a small idealisation in a vocabulary app — it is the denial of the
+/// product's entire claim. It stayed invisible while a stand-in composer kept
+/// the simulated vocabulary from growing; the moment a real composer started
+/// introducing words, the consequence arrived in one line of output: every
+/// tracked word permanently due, the backlog guard permanently active, and
+/// ADR-015's literature preference therefore permanently suspended.
+///
+/// 0.35 logits per clean encounter means the ten encounters
+/// `encounter_target` aims at are worth about 3.5 logits — enough to carry a
+/// word from "reliably failed" to "reliably known" across the band this
+/// crate's difficulties are drawn from. It is a modelling assumption of this
+/// crate and nothing else reads it: the engine has no such constant and must
+/// not, because how fast a real reader acquires a word is the thing the
+/// product is trying to find out, not something it may assume.
+pub const ACQUISITION_PER_CLEAN_ENCOUNTER: f64 = 0.35;
+
+/// The most any amount of exposure can raise effective ability on one word.
+///
+/// A ceiling rather than an unbounded sum, because an unbounded one would let
+/// enough repetitions make any word certain, and "met it twenty times" is not
+/// the same as "knows it." It also keeps the model from quietly guaranteeing
+/// the assertions it is being used to check.
+pub const ACQUISITION_CEILING: f64 = 4.0;
+
+/// Draw whether the learner knows a real item they have met cleanly
+/// `clean_encounters` times before.
+///
+/// The exposure count comes from the *host's* own record of what it has put in
+/// front of this reader — the simulator counts its own passages
+/// (`simulation::RunState`) — never from `LearnerState`, and never from
+/// anything `superb_core` computed. That distinction is the whole oracle
+/// boundary: how often a reader has met a word is a fact about the world, and
+/// the host is entitled to it; what the *engine believes* about that word is
+/// not, and is what an oracle reading it would be cheating with.
+pub fn knows_real_item_after(
+    rng: &mut Rng,
+    true_theta: f64,
+    difficulty: f64,
+    clean_encounters: usize,
+) -> bool {
+    let gained =
+        (clean_encounters as f64 * ACQUISITION_PER_CLEAN_ENCOUNTER).min(ACQUISITION_CEILING);
+    knows_real_item(rng, true_theta + gained, difficulty)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
