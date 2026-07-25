@@ -3,9 +3,9 @@ name: core
 on:
   push:
     branches: [main]
-    paths: ["crates/**", "Cargo.toml", "rust-toolchain.toml", ".github/workflows/core.yml"]
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", ".github/workflows/core.yml"]
   pull_request:
-    paths: ["crates/**", "Cargo.toml", "rust-toolchain.toml", ".github/workflows/core.yml"]
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", ".github/workflows/core.yml"]
 
 concurrency:
   group: core-${{ github.ref }}
