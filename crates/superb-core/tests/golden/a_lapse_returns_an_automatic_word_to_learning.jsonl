@@ -1,4 +1,4 @@
-{"initial_state":{"seed":0,"draw_count":0,"theta":1.0,"theta_se":0.3,"words":{"aperture":{"state":"AUTOMATIC","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"passage-001","clean":true},{"frame_id":"excerpt-poe-1839-cask","clean":true}],"interval_days":90.0}},"topic_affinities":{}},"now":1735862400000,"event":{"GLOSS_TAP":{"word":"aperture","passage":"passage-003","position":4}},"frame":"Nothing"}
+{"initial_state":{"seed":0,"draw_count":0,"theta":1.0,"theta_information":5.0,"words":{"aperture":{"state":"AUTOMATIC","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"passage-001","clean":true},{"frame_id":"excerpt-poe-1839-cask","clean":true}],"interval_days":90.0}},"topic_affinities":{}},"now":1735862400000,"event":{"GLOSS_TAP":{"word":"aperture","passage":"passage-003","position":4}},"frame":"Nothing"}
 {"WordStateChanged":{"word":"aperture","from":"AUTOMATIC","to":"LEARNING"}}
 {"IntervalSet":{"word":"aperture","due":1738972800000}}
 {"ContextFrameLogged":{"word":"aperture","frame_id":"passage-003"}}

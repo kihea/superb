@@ -64,8 +64,8 @@ fn word_record_strategy() -> impl Strategy<Value = WordRecord> {
         })
 }
 
-/// A `LearnerState` sampled broadly — seed, draw count, θ, its standard
-/// error, and up to four words in arbitrary states — so a hidden
+/// A `LearnerState` sampled broadly — seed, draw count, θ, its accumulated
+/// information, and up to four words in arbitrary states — so a hidden
 /// dependency on any of them would show up as a failure rather than
 /// staying invisible.
 fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
@@ -78,8 +78,15 @@ fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
         prop::collection::btree_map(word_id_strategy(), -2.0..2.0f64, 0..3),
     )
         .prop_map(
-            |(seed, draw_count, theta, theta_se, words, topic_affinities)| {
-                LearnerState::new(seed, draw_count, theta, theta_se, words, topic_affinities)
+            |(seed, draw_count, theta, theta_information, words, topic_affinities)| {
+                LearnerState::new(
+                    seed,
+                    draw_count,
+                    theta,
+                    theta_information,
+                    words,
+                    topic_affinities,
+                )
             },
         )
 }

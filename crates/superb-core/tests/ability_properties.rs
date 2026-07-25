@@ -15,51 +15,68 @@ fn observation_strategy() -> impl Strategy<Value = (f64, bool, bool)> {
 }
 
 proptest! {
-    /// Engine-contract §5: "θ's standard error is non-increasing across a
-    /// session." A generated-length sequence of generated observations,
-    /// applied in order from a generated starting θ and se, with the bound
-    /// checked after *every* step rather than only the last — the same
-    /// multi-step shape `scheduler_properties.rs`'s own sequence property
-    /// uses.
+    /// Engine-contract §5's amendment: accumulated Fisher information only
+    /// ever grows, and the standard error derived from it — `1 /
+    /// sqrt(information)` — is therefore non-increasing, for the reason the
+    /// contract now states explicitly: evidence arrived. A generated-length
+    /// sequence of generated observations, applied in order from a generated
+    /// starting θ and information, with both bounds checked after *every*
+    /// step rather than only the last — the same multi-step shape
+    /// `scheduler_properties.rs`'s own sequence property uses.
     #[test]
-    fn standard_error_never_widens_over_any_generated_sequence(
+    fn information_never_shrinks_and_standard_error_never_widens_over_any_generated_sequence(
         starting_theta in -4.0..=4.0f64,
-        starting_se in 0.0..=5.0f64,
+        starting_information in 0.1..=5.0f64,
         observations in prop::collection::vec(observation_strategy(), 0..50),
     ) {
         let tuning = Tuning::default();
         let mut theta = starting_theta;
-        let mut se = starting_se;
+        let mut information = starting_information;
+        let mut se = 1.0 / starting_information.sqrt();
 
         for (difficulty, knew, is_pseudoword) in observations {
-            let update = update_theta(theta, se, difficulty, knew, is_pseudoword, &tuning);
+            let update = update_theta(theta, information, difficulty, knew, is_pseudoword, &tuning);
             prop_assert!(
-                update.theta_se <= se,
-                "se widened: {se} -> {}",
-                update.theta_se
+                update.theta_information >= information,
+                "information shrank: {information} -> {}",
+                update.theta_information
             );
-            prop_assert!(update.theta_se >= 0.0, "se went negative: {}", update.theta_se);
+            prop_assert!(
+                update.theta_information > 0.0,
+                "information was not strictly positive: {}",
+                update.theta_information
+            );
+            prop_assert!(
+                update.effect.se <= se + 1e-9,
+                "se widened: {se} -> {}",
+                update.effect.se
+            );
+            prop_assert!(update.effect.se >= 0.0, "se went negative: {}", update.effect.se);
             theta = update.theta;
-            se = update.theta_se;
+            information = update.theta_information;
+            se = update.effect.se;
         }
     }
 
     /// Done clause 8: θ never becomes `NaN` or infinite, for any generated
     /// sequence of claims — sampled broadly here; the three named shapes
     /// (all-correct, all-wrong, alternating) are covered explicitly below as
-    /// concrete unit tests.
+    /// concrete unit tests. `theta_information` and its derived `se` are
+    /// sampled from a hostile starting value (`any::<f64>()`, including
+    /// `NaN`, negative, and infinite) precisely to exercise
+    /// `update_theta`'s sanitize-to-prior-floor step.
     #[test]
     fn theta_never_becomes_nan_or_infinite_over_any_generated_sequence(
         starting_theta in any::<f64>(),
-        starting_se in any::<f64>(),
+        starting_information in any::<f64>(),
         observations in prop::collection::vec(observation_strategy(), 0..50),
     ) {
         let tuning = Tuning::default();
         let mut theta = starting_theta;
-        let mut se = starting_se;
+        let mut information = starting_information;
 
         for (difficulty, knew, is_pseudoword) in observations {
-            let update = update_theta(theta, se, difficulty, knew, is_pseudoword, &tuning);
+            let update = update_theta(theta, information, difficulty, knew, is_pseudoword, &tuning);
             prop_assert!(update.theta.is_finite(), "θ was not finite: {}", update.theta);
             prop_assert!(
                 update.theta >= tuning.theta_min() && update.theta <= tuning.theta_max(),
@@ -68,9 +85,18 @@ proptest! {
                 tuning.theta_min(),
                 tuning.theta_max()
             );
-            prop_assert!(update.theta_se.is_finite(), "se was not finite: {}", update.theta_se);
+            prop_assert!(
+                update.theta_information.is_finite() && update.theta_information > 0.0,
+                "information was not finite and strictly positive: {}",
+                update.theta_information
+            );
+            prop_assert!(
+                update.effect.se.is_finite(),
+                "se was not finite: {}",
+                update.effect.se
+            );
             theta = update.theta;
-            se = update.theta_se;
+            information = update.theta_information;
         }
     }
 
@@ -96,13 +122,13 @@ proptest! {
 fn all_correct_sequence_keeps_theta_finite() {
     let tuning = Tuning::default();
     let mut theta = 0.0;
-    let mut se = 1.0;
+    let mut information = 1.0;
 
     for _ in 0..20 {
-        let update = update_theta(theta, se, 0.0, true, false, &tuning);
+        let update = update_theta(theta, information, 0.0, true, false, &tuning);
         assert!(update.theta.is_finite());
         theta = update.theta;
-        se = update.theta_se;
+        information = update.theta_information;
     }
 }
 
@@ -112,13 +138,13 @@ fn all_correct_sequence_keeps_theta_finite() {
 fn all_wrong_sequence_keeps_theta_finite() {
     let tuning = Tuning::default();
     let mut theta = 0.0;
-    let mut se = 1.0;
+    let mut information = 1.0;
 
     for _ in 0..20 {
-        let update = update_theta(theta, se, 0.0, false, false, &tuning);
+        let update = update_theta(theta, information, 0.0, false, false, &tuning);
         assert!(update.theta.is_finite());
         theta = update.theta;
-        se = update.theta_se;
+        information = update.theta_information;
     }
 }
 
@@ -128,13 +154,13 @@ fn all_wrong_sequence_keeps_theta_finite() {
 fn alternating_sequence_keeps_theta_finite() {
     let tuning = Tuning::default();
     let mut theta = 0.0;
-    let mut se = 1.0;
+    let mut information = 1.0;
 
     for step in 0..20 {
         let knew = step % 2 == 0;
-        let update = update_theta(theta, se, 0.0, knew, false, &tuning);
+        let update = update_theta(theta, information, 0.0, knew, false, &tuning);
         assert!(update.theta.is_finite());
         theta = update.theta;
-        se = update.theta_se;
+        information = update.theta_information;
     }
 }

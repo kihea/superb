@@ -63,15 +63,34 @@ pub struct Tuning {
     /// How far above the learner's estimated ability a word may sit and
     /// still be worth serving (engine-contract §4).
     pub(crate) band_high: f64,
-    /// How far the online ability estimate steps toward a single
-    /// encounter's residual, as a fraction of it (engine-contract §4).
-    pub(crate) theta_update_rate: f64,
     /// The lower bound θ is clamped to (BRIEF-010; engine-contract §5 — "θ
     /// stays bounded"). Symmetric with `theta_max` by convention, not by
     /// requirement: validation only refuses the pair if they are inverted.
     pub(crate) theta_min: f64,
     /// The upper bound θ is clamped to. See `theta_min`.
     pub(crate) theta_max: f64,
+    /// The starting accumulated Fisher information a brand-new learner's θ
+    /// estimate carries, before any observation (engine-contract §5's
+    /// Fisher-information amendment, BRIEF-014 round 2). `theta_se` is
+    /// derived, never stored, as `1 / sqrt(total_information)`; without a
+    /// positive floor here, a single observation's own information would be
+    /// the entire denominator, reporting a certainty no lone Bernoulli trial
+    /// earns. Since BRIEF-014 round 3, this same floor also bounds
+    /// `update_theta`'s Fisher-scoring step: the denominator a first
+    /// observation's residual is divided by can never be near zero, so θ
+    /// can never move by an unbounded amount on a single draw. Strictly
+    /// positive, checked by `Tuning::validate`: zero or non-finite would
+    /// make a fresh learner's `theta_se` infinite before a single
+    /// observation has arrived, and would let that same first observation's
+    /// step divide by (near) zero.
+    ///
+    /// `theta_update_rate` — the fixed-size step `update_theta` scaled every
+    /// residual by before round 3 — is retired, not renamed: Fisher scoring
+    /// already shrinks the step as `theta_information` grows, on its own,
+    /// with no separate damping constant needed. A field that no longer
+    /// changes anything is worse than a missing one — it invites tuning
+    /// that does nothing.
+    pub(crate) theta_prior_information: f64,
     /// How far a single pseudoword over-claim steps θ down (BRIEF-010's
     /// pseudoword correction — `src/ability.rs`'s `update_theta`). Strictly
     /// positive: this constant exists to buy a downward correction, and a
@@ -190,6 +209,16 @@ impl Tuning {
     /// The upper bound θ is clamped to. See [`Tuning::theta_min`].
     pub fn theta_max(&self) -> f64 {
         self.theta_max
+    }
+
+    /// The starting accumulated Fisher information a brand-new learner's θ
+    /// estimate carries. Read by `superb-sim`
+    /// (`crates/superb-sim/src/simulation.rs`) to seed a fresh
+    /// `LearnerState`'s θ information honestly, from the same value driving
+    /// `engine::decide` in the same run, rather than a hand-copied literal
+    /// that could silently drift from `tuning.toml`.
+    pub fn theta_prior_information(&self) -> f64 {
+        self.theta_prior_information
     }
 
     /// How far below the learner's estimated ability a word may sit and
@@ -382,14 +411,6 @@ impl Tuning {
             });
         }
 
-        let theta_update_rate_in_range =
-            self.theta_update_rate > 0.0 && self.theta_update_rate < 1.0;
-        if !theta_update_rate_in_range {
-            return Err(TuningError::ThetaUpdateRateOutOfRange {
-                value: self.theta_update_rate,
-            });
-        }
-
         // Same shape as the band check just above: `update_theta` clamps
         // with `theta.max(theta_min).min(theta_max)`, which silently
         // produces `theta_min` for any input if the range is inverted or
@@ -399,6 +420,13 @@ impl Tuning {
             return Err(TuningError::ThetaRangeInverted {
                 min: self.theta_min,
                 max: self.theta_max,
+            });
+        }
+
+        let theta_prior_information_is_positive = self.theta_prior_information > 0.0;
+        if !theta_prior_information_is_positive {
+            return Err(TuningError::ThetaPriorInformationNotPositive {
+                value: self.theta_prior_information,
             });
         }
 
@@ -509,11 +537,11 @@ pub enum TuningError {
         consolidating: f64,
         automatic: f64,
     },
-    /// `theta_update_rate` was not strictly between 0 and 1.
-    ThetaUpdateRateOutOfRange { value: f64 },
     /// `theta_min` was not strictly less than `theta_max`, inverting or
     /// collapsing the clamp range `update_theta` enforces.
     ThetaRangeInverted { min: f64, max: f64 },
+    /// `theta_prior_information` was not strictly positive.
+    ThetaPriorInformationNotPositive { value: f64 },
     /// `pseudoword_penalty` was not strictly positive.
     PseudowordPenaltyNotPositive { value: f64 },
     /// `dwell_anomaly_z` was not strictly positive.
@@ -600,16 +628,16 @@ impl fmt::Display for TuningError {
                     "interval multipliers do not widen with confidence: interval_learning {learning}, interval_consolidating {consolidating}, interval_automatic {automatic}"
                 )
             }
-            TuningError::ThetaUpdateRateOutOfRange { value } => {
-                write!(
-                    f,
-                    "theta_update_rate {value} is not strictly between 0 and 1"
-                )
-            }
             TuningError::ThetaRangeInverted { min, max } => {
                 write!(
                     f,
                     "theta_min {min} is not strictly less than theta_max {max}"
+                )
+            }
+            TuningError::ThetaPriorInformationNotPositive { value } => {
+                write!(
+                    f,
+                    "theta_prior_information {value} is not strictly positive"
                 )
             }
             TuningError::PseudowordPenaltyNotPositive { value } => {
@@ -664,9 +692,9 @@ mod tests {
         min_sourced_coverage = 2
         band_low = -0.2
         band_high = 0.6
-        theta_update_rate = 0.15
         theta_min = -4.0
         theta_max = 4.0
+        theta_prior_information = 1.0
         pseudoword_penalty = 0.3
         backlog_override_due = 40
         backlog_override_age_days = 7
@@ -871,15 +899,6 @@ mod tests {
     }
 
     #[test]
-    fn theta_update_rate_out_of_range_is_rejected() {
-        let bad = VALID.replace("theta_update_rate = 0.15", "theta_update_rate = 1.0");
-        assert_eq!(
-            Tuning::from_toml_str(&bad),
-            Err(TuningError::ThetaUpdateRateOutOfRange { value: 1.0 })
-        );
-    }
-
-    #[test]
     fn theta_range_inverted_is_rejected() {
         let bad = VALID
             .replace("theta_min = -4.0", "theta_min = 4.0")
@@ -890,6 +909,18 @@ mod tests {
                 min: 4.0,
                 max: -4.0,
             })
+        );
+    }
+
+    #[test]
+    fn theta_prior_information_not_positive_is_rejected() {
+        let bad = VALID.replace(
+            "theta_prior_information = 1.0",
+            "theta_prior_information = 0.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::ThetaPriorInformationNotPositive { value: 0.0 })
         );
     }
 

@@ -51,7 +51,7 @@ fn sample_state() -> LearnerState {
     topic_affinities.insert("nature".to_string(), 0.62);
     topic_affinities.insert("cooking".to_string(), -0.1);
 
-    LearnerState::new(20_260_722, 214, 0.35, 0.18, words, topic_affinities)
+    LearnerState::new(20_260_722, 214, 0.35, 30.0, words, topic_affinities)
 }
 
 // --- Two-pass load: the probe works even when the payload does not ---
@@ -74,7 +74,7 @@ fn probe_reads_the_version_even_when_the_payload_is_unparseable_garbage() {
 /// `v` is a typed error carrying the number it saw, never a panic.
 #[test]
 fn unknown_version_is_a_typed_error_carrying_the_number() {
-    let document = r#"{"v": 999, "seed": 1, "draw_count": 0, "theta": 0.0, "theta_se": 1.0, "words": {}, "topic_affinities": {}}"#;
+    let document = r#"{"v": 999, "seed": 1, "draw_count": 0, "theta": 0.0, "theta_information": 1.0, "words": {}, "topic_affinities": {}}"#;
 
     assert_eq!(
         LearnerState::load(document),
@@ -96,7 +96,7 @@ fn truncated_document_is_a_typed_error_not_a_panic() {
 
 #[test]
 fn version_as_a_string_is_a_typed_error() {
-    let document = r#"{"v": "1", "seed": 1, "draw_count": 0, "theta": 0.0, "theta_se": 1.0, "words": {}, "topic_affinities": {}}"#;
+    let document = r#"{"v": "1", "seed": 1, "draw_count": 0, "theta": 0.0, "theta_information": 1.0, "words": {}, "topic_affinities": {}}"#;
 
     assert_eq!(
         LearnerState::load(document),
@@ -106,7 +106,7 @@ fn version_as_a_string_is_a_typed_error() {
 
 #[test]
 fn version_absent_is_a_typed_error() {
-    let document = r#"{"seed": 1, "draw_count": 0, "theta": 0.0, "theta_se": 1.0, "words": {}, "topic_affinities": {}}"#;
+    let document = r#"{"seed": 1, "draw_count": 0, "theta": 0.0, "theta_information": 1.0, "words": {}, "topic_affinities": {}}"#;
 
     assert_eq!(LearnerState::load(document), Err(LoadError::MissingVersion));
 }
@@ -131,7 +131,7 @@ fn non_object_top_level_is_a_typed_error_not_a_panic() {
 fn valid_version_with_wrong_shaped_payload_is_a_typed_error() {
     // `theta` is a string where the schema expects a number: the version
     // probes fine, and the payload fails to match v1's shape.
-    let document = r#"{"v": 1, "seed": 1, "draw_count": 0, "theta": "not a number", "theta_se": 1.0, "words": {}, "topic_affinities": {}}"#;
+    let document = r#"{"v": 1, "seed": 1, "draw_count": 0, "theta": "not a number", "theta_information": 1.0, "words": {}, "topic_affinities": {}}"#;
 
     match LearnerState::load(document) {
         Err(LoadError::Malformed { version, .. }) => assert_eq!(version, 1),
@@ -143,7 +143,7 @@ fn valid_version_with_wrong_shaped_payload_is_a_typed_error() {
 /// ignored (ADR-016 Decision 2).
 #[test]
 fn unknown_field_at_the_top_level_is_a_typed_error() {
-    let document = r#"{"v": 1, "seed": 1, "draw_count": 0, "theta": 0.0, "theta_se": 1.0, "words": {}, "topic_affinities": {}, "extra_top_level_field": true}"#;
+    let document = r#"{"v": 1, "seed": 1, "draw_count": 0, "theta": 0.0, "theta_information": 1.0, "words": {}, "topic_affinities": {}, "extra_top_level_field": true}"#;
 
     match LearnerState::load(document) {
         Err(LoadError::Malformed { version, .. }) => assert_eq!(version, 1),
@@ -161,7 +161,7 @@ fn unknown_field_nested_three_levels_deep_is_a_typed_error() {
         "seed": 1,
         "draw_count": 0,
         "theta": 0.0,
-        "theta_se": 1.0,
+        "theta_information": 1.0,
         "words": {
             "obscure": {
                 "state": "SEEDED",
@@ -190,7 +190,7 @@ fn unknown_context_frame_id_round_trips_unchanged() {
         "seed": 1,
         "draw_count": 0,
         "theta": 0.0,
-        "theta_se": 1.0,
+        "theta_information": 1.0,
         "words": {
             "lighthouse": {
                 "state": "LEARNING",
@@ -234,7 +234,7 @@ fn note_field_is_declared_and_round_trips() {
         "seed": 1,
         "draw_count": 0,
         "theta": 0.0,
-        "theta_se": 1.0,
+        "theta_information": 1.0,
         "words": {},
         "topic_affinities": {}
     }"#;
@@ -259,7 +259,7 @@ fn an_unrelated_unknown_field_still_fails_even_though_note_is_tolerated() {
         "seed": 1,
         "draw_count": 0,
         "theta": 0.0,
-        "theta_se": 1.0,
+        "theta_information": 1.0,
         "words": {},
         "topic_affinities": {},
         "extra_top_level_field": true
@@ -362,8 +362,15 @@ fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {
         prop::collection::btree_map(id_strategy(), -5.0..5.0f64, 0..6),
     )
         .prop_map(
-            |(seed, draw_count, theta, theta_se, words, topic_affinities)| {
-                LearnerState::new(seed, draw_count, theta, theta_se, words, topic_affinities)
+            |(seed, draw_count, theta, theta_information, words, topic_affinities)| {
+                LearnerState::new(
+                    seed,
+                    draw_count,
+                    theta,
+                    theta_information,
+                    words,
+                    topic_affinities,
+                )
             },
         )
 }

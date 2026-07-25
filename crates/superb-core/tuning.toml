@@ -56,18 +56,30 @@ band_low = -0.2
 # worth serving — stretch that is still readable in context.
 band_high = 0.6
 
-# How far the online ability estimate steps toward a single encounter's
-# residual, as a fraction of it. Slow enough that one lucky swipe does not
-# move the θ band under the learner's feet; fast enough to converge inside a
-# twenty-item deck.
-theta_update_rate = 0.15
-
 # The symmetric logit range θ is clamped to (BRIEF-010). ±4.0 is the
 # conventional bound for a one-parameter logistic ability scale — past it, a
 # claim stops being informative, so nothing is lost by refusing to track it
 # further in either direction.
 theta_min = -4.0
 theta_max = 4.0
+
+# The accumulated Fisher information a brand-new learner's θ estimate starts
+# with, before any observation (engine-contract §5's Fisher-information
+# amendment, BRIEF-014 round 2). theta_se is derived, never stored, as
+# 1 / sqrt(total_information); without a positive floor here, a single
+# observation's own information (p(1-p), at most 0.25) would be the entire
+# denominator, reporting a certainty no lone Bernoulli trial earns. 1.0 keeps
+# a fresh learner's starting se at 1.0 — the same value this crate hand-set
+# theta_se to before this round made it derived rather than stored. Strictly
+# positive: zero or negative would make a fresh learner's theta_se infinite
+# before a single observation has arrived. Since BRIEF-014 round 3 this same
+# floor also sizes θ's own first step: update_theta now moves θ by Fisher
+# scoring (a residual divided by this same accumulated total), so a low
+# floor here also means a large step on a learner's very first observation.
+# theta_update_rate — the fixed step Fisher scoring replaced — is retired:
+# it bought nothing this scheme still needs, since the step already shrinks
+# as theta_information grows on its own.
+theta_prior_information = 1.0
 
 # How far a single pseudoword over-claim steps θ down, baked into the same
 # per-observation update the ordinary evidence goes through (BRIEF-010's
