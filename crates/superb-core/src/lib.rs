@@ -15,6 +15,7 @@
 pub mod ability;
 pub mod learner;
 pub mod scheduler;
+pub mod signals;
 pub mod state;
 pub mod tuning;
 
@@ -23,5 +24,6 @@ pub use learner::{LearnerState, LoadError, SetThetaError, Timestamp, WordRecord}
 pub use scheduler::{
     EncounterOutcome, IntervalSet, ScheduleDecision, backlog_active, due_words, schedule_encounter,
 };
+pub use signals::{Direction, Event, Signal, rank};
 pub use state::{IllegalTransition, Transition, WordState, WordStateChanged};
 pub use tuning::{Affinity, PoolAffinity, Tuning, TuningError};

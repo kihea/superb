@@ -49,7 +49,7 @@ fn learner_with_word(
 /// enforces.
 fn valid_interval_days_strategy() -> impl Strategy<Value = f64> {
     let tuning = Tuning::default();
-    tuning.interval_initial_days..=tuning.interval_max_days
+    tuning.interval_initial_days()..=tuning.interval_max_days()
 }
 
 proptest! {
@@ -102,14 +102,14 @@ proptest! {
         let decision = schedule_encounter(&learner, "w", EncounterOutcome::GlossTap, now, &tuning);
 
         prop_assert!(decision.interval_days <= previous_interval_days);
-        if previous_interval_days > tuning.interval_initial_days {
+        if previous_interval_days > tuning.interval_initial_days() {
             prop_assert!(
                 decision.interval_days < previous_interval_days,
                 "state {state:?}: {previous_interval_days} should have shortened, got {}",
                 decision.interval_days
             );
         } else {
-            prop_assert_eq!(decision.interval_days, tuning.interval_initial_days);
+            prop_assert_eq!(decision.interval_days, tuning.interval_initial_days());
         }
     }
 
@@ -150,7 +150,7 @@ proptest! {
         );
         prop_assert!(decision.interval_days.is_finite());
         prop_assert!(
-            decision.interval_days <= tuning.interval_max_days,
+            decision.interval_days <= tuning.interval_max_days(),
             "interval exceeded the ceiling: {}",
             decision.interval_days
         );
@@ -178,7 +178,7 @@ proptest! {
 
         prop_assert!(decision.interval_days > 0.0);
         prop_assert!(decision.interval_days.is_finite());
-        prop_assert!(decision.interval_days <= tuning.interval_max_days);
+        prop_assert!(decision.interval_days <= tuning.interval_max_days());
     }
 
     /// The ARCHITECT'S ANSWER's range-invariant bullet, read literally: "a
@@ -232,7 +232,7 @@ proptest! {
                 decision.interval_days
             );
             prop_assert!(
-                decision.interval_days <= tuning.interval_max_days,
+                decision.interval_days <= tuning.interval_max_days(),
                 "interval exceeded the ceiling: {}",
                 decision.interval_days
             );

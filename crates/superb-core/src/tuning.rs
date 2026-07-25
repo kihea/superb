@@ -33,69 +33,86 @@ const SHIPPED_TUNING_TOML: &str = include_str!("../tuning.toml");
 pub struct Tuning {
     /// Varied-context encounters the schedule aims a word toward before it
     /// is treated as understood without deliberate retrieval.
-    pub encounter_target: u32,
+    pub(crate) encounter_target: u32,
     /// The fewest encounters that can still count as demonstrated mastery.
-    pub encounter_target_min: u32,
+    pub(crate) encounter_target_min: u32,
     /// The most encounters a word is scheduled for before repetition alone
     /// stops adding value.
-    pub encounter_target_max: u32,
+    pub(crate) encounter_target_max: u32,
     /// How fast a passage's later due words lose value in the coverage
     /// score: the i-th most valuable word is worth `coverage_decay^(i-1)`
     /// of the first (ADR-015).
-    pub coverage_decay: f64,
+    pub(crate) coverage_decay: f64,
     /// Multiplies a sourced excerpt's score against a composed passage's
     /// (ADR-015).
-    pub sourced_preference: f64,
+    pub(crate) sourced_preference: f64,
     /// The fewest due words a sourced excerpt must cover in informative
     /// context before it is a candidate at all (ADR-015's coverage floor).
-    pub min_sourced_coverage: u32,
+    pub(crate) min_sourced_coverage: u32,
     /// How far below the learner's estimated ability a word may sit and
     /// still be worth serving (engine-contract §4).
-    pub band_low: f64,
+    pub(crate) band_low: f64,
     /// How far above the learner's estimated ability a word may sit and
     /// still be worth serving (engine-contract §4).
-    pub band_high: f64,
+    pub(crate) band_high: f64,
     /// How far the online ability estimate steps toward a single
     /// encounter's residual, as a fraction of it (engine-contract §4).
-    pub theta_update_rate: f64,
+    pub(crate) theta_update_rate: f64,
     /// The lower bound θ is clamped to (BRIEF-010; engine-contract §5 — "θ
     /// stays bounded"). Symmetric with `theta_max` by convention, not by
     /// requirement: validation only refuses the pair if they are inverted.
-    pub theta_min: f64,
+    pub(crate) theta_min: f64,
     /// The upper bound θ is clamped to. See `theta_min`.
-    pub theta_max: f64,
+    pub(crate) theta_max: f64,
     /// How far a single pseudoword over-claim steps θ down (BRIEF-010's
     /// pseudoword correction — `src/ability.rs`'s `update_theta`). Strictly
     /// positive: this constant exists to buy a downward correction, and a
     /// non-positive value would buy nothing or the wrong sign.
-    pub pseudoword_penalty: f64,
+    pub(crate) pseudoword_penalty: f64,
     /// How many due words waiting before the composer stops choosing for
     /// taste and starts choosing for coverage (ADR-015's backlog guard).
-    pub backlog_override_due: u32,
+    pub(crate) backlog_override_due: u32,
     /// How many days a word may sit due before waiting for a better
     /// passage stops paying for itself (ADR-015's backlog guard).
-    pub backlog_override_age_days: u32,
+    pub(crate) backlog_override_age_days: u32,
     /// Standard deviations from a word's own dwell distribution before a
     /// slow read counts as evidence rather than noise (engine-contract §3).
-    pub dwell_anomaly_z: f64,
+    pub(crate) dwell_anomaly_z: f64,
     /// The most probes the schedule will spend in one session before
     /// reading starts to feel like testing (engine-contract §3).
-    pub probe_frequency_cap: u32,
+    pub(crate) probe_frequency_cap: u32,
+    /// How strongly a correctly assembled probe counts as evidence the
+    /// reader knows the word (BRIEF-011; engine-contract §3 — `ProbeResult`
+    /// is the strongest positive signal). Strictly greater than
+    /// `signal_strength_negative_strong`.
+    pub(crate) signal_strength_probe_positive: f64,
+    /// How strongly a gloss tap, or a failed probe, counts as evidence the
+    /// word is not yet automatic (BRIEF-011; engine-contract §3 —
+    /// `GlossTap` is the strongest negative signal, and
+    /// `crate::scheduler::EncounterOutcome`'s own doc comment treats a
+    /// failed probe identically). Strictly between
+    /// `signal_strength_dwell_negative` and `signal_strength_probe_positive`.
+    pub(crate) signal_strength_negative_strong: f64,
+    /// How strongly a slow read counts as evidence, on a screen where it
+    /// can be pinned to exactly one target word (BRIEF-011; engine-contract
+    /// §3 — `ScreenDwell` is a weak negative signal). Strictly positive and
+    /// strictly the smallest of the three signal strengths.
+    pub(crate) signal_strength_dwell_negative: f64,
     /// The first interval, in days, after a word leaves Unseen.
-    pub interval_initial_days: f64,
+    pub(crate) interval_initial_days: f64,
     /// Multiplier on a clean pass while a word is in Learning.
-    pub interval_learning: f64,
+    pub(crate) interval_learning: f64,
     /// Multiplier on a clean pass while a word is Consolidating.
-    pub interval_consolidating: f64,
+    pub(crate) interval_consolidating: f64,
     /// Multiplier on a clean pass while a word is Automatic.
-    pub interval_automatic: f64,
+    pub(crate) interval_automatic: f64,
     /// Multiplier applied on a lapse — never a reset to the initial
     /// interval.
-    pub interval_lapse: f64,
+    pub(crate) interval_lapse: f64,
     /// The longest interval the schedule will ever set.
-    pub interval_max_days: f64,
+    pub(crate) interval_max_days: f64,
     /// How much a word in each state is worth, met in each pool (ADR-015).
-    pub affinity: Affinity,
+    pub(crate) affinity: Affinity,
 }
 
 /// The state-by-pool affinity table (ADR-015, ADR-009's judgment made
@@ -104,10 +121,10 @@ pub struct Tuning {
 /// pool.
 #[derive(Debug, Clone, Copy, PartialEq, Serialize, Deserialize)]
 pub struct Affinity {
-    pub seeded: PoolAffinity,
-    pub learning: PoolAffinity,
-    pub consolidating: PoolAffinity,
-    pub automatic: PoolAffinity,
+    pub(crate) seeded: PoolAffinity,
+    pub(crate) learning: PoolAffinity,
+    pub(crate) consolidating: PoolAffinity,
+    pub(crate) automatic: PoolAffinity,
 }
 
 impl Affinity {
@@ -136,8 +153,8 @@ impl Affinity {
 /// at this state, is worth to the composer's score (ADR-015).
 #[derive(Debug, Clone, Copy, PartialEq, Serialize, Deserialize)]
 pub struct PoolAffinity {
-    pub composed: f64,
-    pub sourced: f64,
+    pub(crate) composed: f64,
+    pub(crate) sourced: f64,
 }
 
 impl Default for Tuning {
@@ -153,6 +170,70 @@ impl Default for Tuning {
 }
 
 impl Tuning {
+    /// The lower bound θ is clamped to. Read by property tests outside this
+    /// crate (`tests/ability_properties.rs`) as the oracle for "θ never
+    /// leaves its clamp range" — the bound must come from here rather than
+    /// be restated as a literal, or a future edit to `tuning.toml` could
+    /// make the test quietly check the wrong range.
+    pub fn theta_min(&self) -> f64 {
+        self.theta_min
+    }
+
+    /// The upper bound θ is clamped to. See [`Tuning::theta_min`].
+    pub fn theta_max(&self) -> f64 {
+        self.theta_max
+    }
+
+    /// How far below the learner's estimated ability a word may sit and
+    /// still be worth serving. Read by property tests outside this crate
+    /// (`tests/ability_properties.rs`) to confirm `band`'s width against the
+    /// same source `crate::ability::band` itself reads.
+    pub fn band_low(&self) -> f64 {
+        self.band_low
+    }
+
+    /// How far above the learner's estimated ability a word may sit and
+    /// still be worth serving. See [`Tuning::band_low`].
+    pub fn band_high(&self) -> f64 {
+        self.band_high
+    }
+
+    /// The first interval, in days, after a word leaves Unseen. Read by
+    /// property tests outside this crate (`tests/scheduler_properties.rs`)
+    /// as the floor a lapsed interval can fall to, and as one end of the
+    /// valid-interval sampling range those tests generate against.
+    pub fn interval_initial_days(&self) -> f64 {
+        self.interval_initial_days
+    }
+
+    /// The longest interval the schedule will ever set. Read by property
+    /// tests outside this crate (`tests/scheduler_properties.rs`) as the
+    /// ceiling `schedule_encounter`'s own output is checked against.
+    pub fn interval_max_days(&self) -> f64 {
+        self.interval_max_days
+    }
+
+    /// Every signal strength paired with the key that names it in
+    /// `tuning.toml`, in file order. Used by validation to report exactly
+    /// which entry is out of range, and by tests to construct one bad entry
+    /// at a time.
+    fn signal_strength_entries(&self) -> [(&'static str, f64); 3] {
+        [
+            (
+                "signal_strength_probe_positive",
+                self.signal_strength_probe_positive,
+            ),
+            (
+                "signal_strength_negative_strong",
+                self.signal_strength_negative_strong,
+            ),
+            (
+                "signal_strength_dwell_negative",
+                self.signal_strength_dwell_negative,
+            ),
+        ]
+    }
+
     /// Every interval multiplier paired with the key that names it in
     /// `tuning.toml`, in file order. Used by validation to report exactly
     /// which entry is out of range, and by tests to construct one bad entry
@@ -321,6 +402,30 @@ impl Tuning {
             });
         }
 
+        for (field, value) in self.signal_strength_entries() {
+            let is_positive = value > 0.0;
+            if !is_positive {
+                return Err(TuningError::SignalStrengthNotPositive {
+                    field: field.to_string(),
+                    value,
+                });
+            }
+        }
+
+        // BRIEF-011's whole guarantee: `ProbeResult` outranks `GlossTap`
+        // outranks `ScreenDwell`, structurally (engine-contract §1 law 6) —
+        // no legal edit to this file can invert the ordering
+        // `crate::signals::rank` reads these three constants to produce.
+        if !(self.signal_strength_probe_positive > self.signal_strength_negative_strong
+            && self.signal_strength_negative_strong > self.signal_strength_dwell_negative)
+        {
+            return Err(TuningError::SignalStrengthNotStrictlyOrdered {
+                probe_positive: self.signal_strength_probe_positive,
+                negative_strong: self.signal_strength_negative_strong,
+                dwell_negative: self.signal_strength_dwell_negative,
+            });
+        }
+
         if self.backlog_override_due < 1 {
             return Err(TuningError::BacklogOverrideDueTooLow {
                 value: self.backlog_override_due,
@@ -390,6 +495,17 @@ pub enum TuningError {
     DwellAnomalyZNotPositive { value: f64 },
     /// `probe_frequency_cap` was below 1.
     ProbeFrequencyCapTooLow { value: u32 },
+    /// A signal strength, named by its dotted key, was not strictly
+    /// positive.
+    SignalStrengthNotPositive { field: String, value: f64 },
+    /// `signal_strength_probe_positive`, `signal_strength_negative_strong`,
+    /// and `signal_strength_dwell_negative` did not strictly descend in
+    /// that order.
+    SignalStrengthNotStrictlyOrdered {
+        probe_positive: f64,
+        negative_strong: f64,
+        dwell_negative: f64,
+    },
     /// `backlog_override_due` was below 1.
     BacklogOverrideDueTooLow { value: u32 },
     /// `backlog_override_age_days` was below 1.
@@ -470,6 +586,21 @@ impl fmt::Display for TuningError {
             TuningError::ProbeFrequencyCapTooLow { value } => {
                 write!(f, "probe_frequency_cap {value} is below 1")
             }
+            TuningError::SignalStrengthNotPositive { field, value } => {
+                write!(f, "{field} is {value}, which is not strictly positive")
+            }
+            TuningError::SignalStrengthNotStrictlyOrdered {
+                probe_positive,
+                negative_strong,
+                dwell_negative,
+            } => {
+                write!(
+                    f,
+                    "signal strengths do not strictly descend: signal_strength_probe_positive \
+                     {probe_positive}, signal_strength_negative_strong {negative_strong}, \
+                     signal_strength_dwell_negative {dwell_negative}"
+                )
+            }
             TuningError::BacklogOverrideDueTooLow { value } => {
                 write!(f, "backlog_override_due {value} is below 1")
             }
@@ -505,6 +636,9 @@ mod tests {
         backlog_override_age_days = 7
         dwell_anomaly_z = 2.0
         probe_frequency_cap = 3
+        signal_strength_probe_positive = 3.0
+        signal_strength_negative_strong = 2.0
+        signal_strength_dwell_negative = 0.5
         interval_initial_days = 1.0
         interval_learning = 2.0
         interval_consolidating = 2.5
@@ -732,6 +866,89 @@ mod tests {
         assert_eq!(
             Tuning::from_toml_str(&bad),
             Err(TuningError::ProbeFrequencyCapTooLow { value: 0 })
+        );
+    }
+
+    #[test]
+    fn signal_strength_probe_positive_not_positive_is_rejected() {
+        let bad = VALID.replace(
+            "signal_strength_probe_positive = 3.0",
+            "signal_strength_probe_positive = 0.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::SignalStrengthNotPositive {
+                field: "signal_strength_probe_positive".to_string(),
+                value: 0.0,
+            })
+        );
+    }
+
+    #[test]
+    fn signal_strength_negative_strong_not_positive_is_rejected() {
+        let bad = VALID.replace(
+            "signal_strength_negative_strong = 2.0",
+            "signal_strength_negative_strong = -1.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::SignalStrengthNotPositive {
+                field: "signal_strength_negative_strong".to_string(),
+                value: -1.0,
+            })
+        );
+    }
+
+    #[test]
+    fn signal_strength_dwell_negative_not_positive_is_rejected() {
+        let bad = VALID.replace(
+            "signal_strength_dwell_negative = 0.5",
+            "signal_strength_dwell_negative = 0.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::SignalStrengthNotPositive {
+                field: "signal_strength_dwell_negative".to_string(),
+                value: 0.0,
+            })
+        );
+    }
+
+    /// The ordering check, defeated the direct way: a `dwell_negative` that
+    /// meets or exceeds `negative_strong` — a legal-looking file that would
+    /// silently invert `ScreenDwell` past `GlossTap` if this check did not
+    /// exist.
+    #[test]
+    fn signal_strength_not_strictly_ordered_is_rejected_when_dwell_meets_negative_strong() {
+        let bad = VALID.replace(
+            "signal_strength_dwell_negative = 0.5",
+            "signal_strength_dwell_negative = 2.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::SignalStrengthNotStrictlyOrdered {
+                probe_positive: 3.0,
+                negative_strong: 2.0,
+                dwell_negative: 2.0,
+            })
+        );
+    }
+
+    /// The same check, defeated from the other end: a `probe_positive` that
+    /// falls to or below `negative_strong`.
+    #[test]
+    fn signal_strength_not_strictly_ordered_is_rejected_when_probe_meets_negative_strong() {
+        let bad = VALID.replace(
+            "signal_strength_probe_positive = 3.0",
+            "signal_strength_probe_positive = 2.0",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::SignalStrengthNotStrictlyOrdered {
+                probe_positive: 2.0,
+                negative_strong: 2.0,
+                dwell_negative: 0.5,
+            })
         );
     }
 
