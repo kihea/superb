@@ -30,3 +30,27 @@ tier = "boundary"
 derives = ["Serialize"]
 consumer = "the expected side of a golden vector; the host persists effects (engine-contract §3)"
 authorized_by = "BRIEF-001, ADR-016 D4"
+
+[[type]]
+name = "Tuning"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "the simulator overrides tuning.toml wholesale (engine-contract §3); Deserialize also parses the shipped file and Serialize backs the round-trip stability test"
+authorized_by = "BRIEF-007"
+note = "not reachable from LearnerState; carries no migration obligation"
+
+[[type]]
+name = "Affinity"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "nested inside Tuning; same simulator-override and round-trip-test consumer"
+authorized_by = "BRIEF-007"
+note = "not reachable from LearnerState; carries no migration obligation"
+
+[[type]]
+name = "PoolAffinity"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "nested inside Affinity; same simulator-override and round-trip-test consumer"
+authorized_by = "BRIEF-007"
+note = "not reachable from LearnerState; carries no migration obligation"
