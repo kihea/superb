@@ -6,13 +6,13 @@ Welcome, and thank you for your interest in contributing to Superb!
 
 ## Table of Contents
 
-1. (Code of Conduct)[#code-of-conduct]
-2. (Overview)[#overview]
-3. (Vision)[#vision]
-4. (Setting up the development environment)[#setting-up-the-development-environment]
-5. (Testing)[#testing]
-6. (Conventions)[#conventions]
-7. (Proposing features)[#proposing-features]
+1. [Code of Conduct](#code-of-conduct)
+2. [Overview](#overview)
+3. [Vision](#vision)
+4. [Setting up the development environment](#setting-up-the-development-environment)
+5. [Testing](#testing)
+6. [Conventions](#conventions)
+7. [Proposing features](#proposing-features)
 
 ---
 
