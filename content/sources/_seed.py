@@ -12,6 +12,11 @@ content/scripts/check_sources.py, but informativeness is the editorial
 judgment spent here, by hand, once.
 
 Run: python content/sources/_seed.py
+
+DECISION PENDING: https://github.com/kihea/superb/issues/23 — this directory
+is many files (content/sources/*.json), matching the frozen
+docs/seams.md §Seam 2; ADR-018 Decision 4 names a single content/excerpts/
+file instead. Built to the seam, which is what T3-content.md instructs.
 """
 
 from __future__ import annotations
