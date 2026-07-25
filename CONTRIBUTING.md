@@ -12,19 +12,22 @@ Welcome, and thank you for your interest in contributing to Superb!
 4. [Setting up the development environment](#setting-up-the-development-environment)
 5. [Testing](#testing)
 6. [Conventions](#conventions)
-7. [Proposing features](#proposing-features)
+7. [Proposing new features](#proposing-new-features)
+   - [Sourced excerpts from existing literature](#sourced-excerpts-from-existing-literature)
 
 ---
 
 ## Code of Conduct
 
-The project follows the Contributer Covenant v3 outlined in `CODE_OF_CONDUCT.md`. You can report violations or harmful behavior to **kihea@icloud.com**.
+The project follows the Contributor Covenant v3 outlined in `CODE_OF_CONDUCT.md`. You can report
+violations or harmful behavior to **kihea@icloud.com**.
 
 ---
 
 ## Overview
 
-This project is governed by the principles of education for all. Meaning, anything that doesn't cost to supply doesn't cost to the user. THe architecure is outlined below:
+This project is governed by the principles of education for all. Meaning, anything that doesn't
+cost to supply doesn't cost to the user. The architecture is outlined below:
 ```
 superb/                      PRIVATE · the working root
 ├─ CLAUDE.md                     project constitution — read first
@@ -92,24 +95,28 @@ superb/                      PRIVATE · the working root
 ## Vision
 
 It is woefully apparent that there is an ongoing literacy crisis among the working class. The gap between understanding english and to using it masterfully is widening fast especially among the generation eclipsed by the attention economy. This app hopes to lessen this gap in an engaging way.
-The app has 3 modes planned: learning mode, word association mode, and rhyming mode. Each targeting the bases of linguistic utlization. A daily user of this app should be eloquent and able to deploy the english language with advanced fluency.
+The app has 3 modes planned: learning mode, word association mode, and rhyming mode. Each targeting
+the bases of linguistic utilization. A daily user of this app should be eloquent and able to deploy
+the english language with advanced fluency.
 
 ---
 
-# Setting up the development environment
+## Setting up the development environment
 
 ### Prerequisites
 
 | Tool | Version | Notes |
 |------|---------|-------|
-| Rust | 1.88+ | Install via [rustup](https://rustup.rs/) |
+| Rust | 1.96.0 | Install via [rustup](https://rustup.rs/) |
 
 Build using
 ```sh
 cargo test -p superb-core     # the engine and its property tests
 ```
 
-One pure Rust engine, three thin shells, no server.
+One pure Rust engine, three thin shells, no server. Today, only
+`crates/superb-core` exists in this repository — the rest of the list below is
+the planned shape, not a directory you can clone and open yet.
 
 - `crates/superb-core` — the engine. Word state machine, scheduler, ability
   estimator, passage composer. Pure: no clock, no RNG, no I/O. `now` and seeds
@@ -127,22 +134,69 @@ One pure Rust engine, three thin shells, no server.
 
 ## Testing
 
-Testing should be built into your contributions. `See app/**/tests`
+Testing should be built into your contributions. A test lands in the same
+commit as the behaviour it covers.
+
+- `cargo test -p superb-core` — the engine and its property tests.
+- `cargo test --workspace --all-features --locked` — the full suite, exactly
+  as CI runs it; run this before opening a pull request.
+
+Tests live in `crates/superb-core/tests/`. Behaviour there is pinned by
+property tests over a generated domain, not by a handful of hand-picked
+examples — see `crates/superb-core/tests/state_properties.rs` for what that
+looks like in practice.
 
 ---
 
 ## Conventions
 
-To be populated.
+- Pull requests target `dev`, never `main`.
+- `cargo fmt --all --check` and
+  `cargo clippy --all-targets --all-features --locked -- -D warnings` must
+  pass.
+- Dependencies are added with `--locked`, and every new crate must satisfy
+  `deny.toml`.
+- Code is MIT and content is CC0, and no GPL dependency can be accepted at
+  any tier.
+- Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
+  `superb-core` requires a matching entry in `wire-roster.toml`, or the build
+  fails.
 
 ---
 
 ## Proposing new features
 
-You can propose a feature using issues. You can also submit passages in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context are approved and added to the engine sourcing. The submission of passages is intended to highlight intentional, high level, or sophisticated human-written literature.
+You can propose a feature using issues, tagged with the feature label. You can also submit passages
+in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context
+are approved and added to the engine sourcing. The submission of passages is intended to highlight
+intentional, high level, or sophisticated human-written literature.
 
-## Proposing Features
+A submitted passage lands in `passages/` as prose — the schema is not
+published yet, so it is not validated against a format. It may be judged by
+people or by automated reviewers, and it can be removed later by anyone —
+maintainer, reviewer, or contributor — with a one-line reason in the commit.
+Removal is deliberately cheap: a weak passage costs one commit to take back
+out, so the bar for accepting one can stay generous without the project being
+stuck with it.
 
-You can propose new features by starting a new issue and using the feature flag.
+### Sourced excerpts from existing literature
+
+A sourced excerpt is a different thing from an authored passage: it is
+existing text, not new writing, and it carries the one hard rule this section
+has. The source must be **Standard Ebooks**, **Project Gutenberg**, or
+**Wikisource** — Wikisource cited by revision permalink, not a live page that
+can change under the citation. Any other source is a change to this file,
+never a contributor's judgment call.
+
+The citation must state:
+
+- the work and its author
+- the year of the cited edition
+- the edition or a stable URL
+- the public-domain basis
+- the exact excerpt boundaries
+
+An excerpt without a checkable citation does not enter a build, whatever its
+quality.
 
 ---
