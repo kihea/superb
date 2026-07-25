@@ -71,6 +71,7 @@
 use serde::{Deserialize, Serialize};
 
 use crate::ability::{self, ThetaUpdate};
+use crate::composer::{self, ContentFrame, Passage};
 use crate::learner::{ContextEncounter, LearnerState, Timestamp, WordRecord};
 use crate::scheduler::{self, EncounterOutcome};
 use crate::signals::Event;
@@ -88,15 +89,20 @@ struct Ctx<'a> {
     tuning: &'a Tuning,
 }
 
-/// What the host is asking the core to do (engine-contract §2). One variant
-/// today: turn a single observed event into effects. A `NextPassage`-shaped
-/// variant belongs to the composer, out of this brief's scope by design —
-/// see the brief's own "Out of scope."
+/// What the host is asking the core to do (engine-contract §2).
+///
+/// Two things, which are the whole conversation between a shell and this
+/// engine: *here is something the reader did*, and *what should they read
+/// next*. Everything else a shell might want to know — what state a word is
+/// in, when it is due, what θ is — it is not entitled to ask, because acting
+/// on the answer would be deciding (`docs/architecture.md` §3).
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub enum Request {
     /// Turn one host-observed event (engine-contract §3's event stream in)
     /// into effects.
     ProcessEvent(Event),
+    /// Choose the passage the reader meets next (engine-contract §4).
+    NextPassage,
 }
 
 /// What the core needs fetched before it can decide `request`
@@ -115,6 +121,24 @@ pub enum Needs {
         /// The deck item whose difficulty is needed.
         item_id: String,
     },
+    /// A [`Request::NextPassage`] needs passages to choose between, and the
+    /// slot classes of the words that might fill them.
+    ///
+    /// This is deliberately a *query description*, not a query: it names the
+    /// due words and the θ band, and the host answers from whatever index it
+    /// has — a bundled SQLite table on Android, a content-hashed shard on
+    /// web. Neither shell shares code, and neither is told how to search.
+    PassageCandidates {
+        /// Every word waiting, oldest first. A candidate is worth offering if
+        /// it can serve any of these.
+        due_words: Vec<String>,
+        /// The lower edge of the θ band (engine-contract §4) — how far below
+        /// the reader's ability a word may sit and still be worth serving.
+        band_low: f64,
+        /// The upper edge of the θ band: stretch that is still readable in
+        /// context.
+        band_high: f64,
+    },
 }
 
 /// The host's answer to a [`Needs`] (engine-contract §2, step 2).
@@ -127,6 +151,8 @@ pub enum Frame {
         /// The difficulty the host fetched.
         difficulty: f64,
     },
+    /// Answers [`Needs::PassageCandidates`].
+    Content(ContentFrame),
 }
 
 /// One effect, spelled and shaped exactly as engine-contract §3 names it:
@@ -170,9 +196,20 @@ pub enum Effect {
         /// The word that would be eligible.
         word: String,
     },
+    /// The composer chose what the reader meets next (engine-contract §4).
+    ///
+    /// Unlike its neighbours this effect describes no change to
+    /// [`LearnerState`] — nothing is recorded until the reader actually meets
+    /// the passage and the host sends `PassageFinished`. It is an effect
+    /// rather than a return value because the host's rule is the same either
+    /// way: persist it, render it, do not interpret it.
+    PassageComposed {
+        /// The passage to render, slots already filled.
+        passage: Passage,
+    },
     /// A word was served in a context — the passage or excerpt id it was
-    /// met in — logged so a later brief's composer can honour "no word
-    /// reuses one of its previous contexts" (engine-contract §4).
+    /// met in — logged so the composer can honour "no word reuses one of its
+    /// previous contexts" (engine-contract §4).
     ContextFrameLogged {
         /// The word that was served.
         word: String,
@@ -195,11 +232,12 @@ pub struct Outcome {
 /// Say what the core needs fetched before it can decide `request`
 /// (engine-contract §2, step 1).
 ///
-/// Pure (engine-contract §1): `request` is the whole input that matters
-/// here; `learner` and `now` are accepted for symmetry with [`decide`] and
-/// for a future request this brief does not add, and are not read by this
-/// brief's one variant.
-pub fn plan(_learner: &LearnerState, request: &Request, _now: Timestamp) -> Needs {
+/// Pure (engine-contract §1), and the reason the whole pattern exists: hosts
+/// have asynchronous, platform-specific storage and this crate is
+/// synchronous. Making the data need explicit is what lets web read from a
+/// sharded cache and Android from bundled SQLite with no shared code and no
+/// callback into the engine.
+pub fn plan(learner: &LearnerState, request: &Request, now: Timestamp, tuning: &Tuning) -> Needs {
     match request {
         Request::ProcessEvent(Event::DeckSwipe {
             item_id,
@@ -209,6 +247,14 @@ pub fn plan(_learner: &LearnerState, request: &Request, _now: Timestamp) -> Need
             item_id: item_id.clone(),
         },
         Request::ProcessEvent(_) => Needs::Nothing,
+        Request::NextPassage => {
+            let (band_low, band_high) = ability::band(learner.theta(), tuning);
+            Needs::PassageCandidates {
+                due_words: scheduler::due_words(learner, now),
+                band_low,
+                band_high,
+            }
+        }
     }
 }
 
@@ -227,9 +273,28 @@ pub fn decide(
     now: Timestamp,
     tuning: &Tuning,
 ) -> Outcome {
-    let Request::ProcessEvent(event) = request;
     let mut effects = Vec::new();
     let ctx = Ctx { now, tuning };
+
+    let event = match request {
+        Request::ProcessEvent(event) => event,
+        // The composer reads `learner` and decides; it writes nothing. A
+        // passage becomes part of a word's history when the reader actually
+        // meets it — `Event::PassageFinished` — not when it is chosen.
+        Request::NextPassage => {
+            let Frame::Content(content) = frame else {
+                // A host that did not honour `plan` gets no passage rather
+                // than a passage chosen from nothing. Silent, because there
+                // is no reader-facing failure here: the shell simply has
+                // nothing new to render yet.
+                return Outcome { effects };
+            };
+            if let Some(passage) = composer::compose(learner, &content, now, tuning) {
+                effects.push(Effect::PassageComposed { passage });
+            }
+            return Outcome { effects };
+        }
+    };
 
     match event {
         Event::DeckSwipe {
@@ -510,6 +575,22 @@ fn advance_progression(
     loop {
         let count = distinct_clean_frame_count(learner, word) as u32;
         let transition = match current_state(learner, word) {
+            // A word met cleanly in context has begun to be acquired.
+            //
+            // This edge was missing until BRIEF-015, and the gap is worth
+            // recording rather than quietly closing: `Transition::LearningBegun`
+            // was reachable only from `negative_transition`, so the *only* way
+            // out of `Seeded` was a gloss tap or a failed probe. A word the
+            // reader understood every single time it appeared stayed `Seeded`
+            // forever and could never become `AUTOMATIC` — the schedule
+            // rewarded confusion and had no path for success. It stayed
+            // invisible because the simulator's synthetic reader failed about
+            // half of everything it met, so almost every word took the
+            // negative edge within a session or two; a reader who is simply
+            // good at this would have hit it immediately. engine-contract §3
+            // draws the progression as `SEEDED -> LEARNING -> CONSOLIDATING ->
+            // AUTOMATIC` and never said that first arrow was failure-only.
+            WordState::Seeded if count >= 1 => Transition::LearningBegun,
             WordState::Learning if count >= tuning.consolidating_threshold => {
                 Transition::Consolidated
             }
@@ -566,9 +647,11 @@ fn decide_deck_swipe(
         // A pseudoword ignores difficulty entirely
         // (`ability::update_theta`'s own doc comment); a real word whose
         // frame did not answer `Needs::ItemDifficulty` — a host that did
-        // not honour `plan`'s request — falls back to the logit scale's
-        // neutral point rather than panicking.
-        Frame::Nothing => 0.0,
+        // not honour `plan`'s request, or answered a different request's
+        // need — falls back to the logit scale's neutral point rather than
+        // panicking. Enumerated rather than wildcarded so that the next
+        // `Frame` variant has to be considered here, not silently absorbed.
+        Frame::Nothing | Frame::Content(_) => 0.0,
     };
 
     let update: ThetaUpdate = ability::update_theta(

@@ -272,7 +272,7 @@ fn replaying_a_captured_needs_frame_pair_produces_the_same_outcome() {
         knew: true,
     });
 
-    let needs = engine::plan(&learner, &request, now);
+    let needs = engine::plan(&learner, &request, now, &tuning);
     let frame = Frame::ItemDifficulty { difficulty: 0.4 };
 
     // Capture, exactly as a host debugging a production decision would:

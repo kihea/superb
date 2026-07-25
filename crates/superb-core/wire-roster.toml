@@ -150,3 +150,46 @@ tier = "boundary"
 derives = ["Serialize"]
 consumer = "what decide() returns — an ordered list of Effect; order is part of the contract a golden vector compares byte-exactly; never reachable from LearnerState"
 authorized_by = "BRIEF-013, engine-contract §2"
+
+[[type]]
+name = "Pool"
+tier = "boundary"
+derives = ["Serialize", "Deserialize", "PartialOrd", "Ord"]
+consumer = "which of ADR-009's two pools a candidate or a chosen passage is drawn from; crosses FFI inside Candidate and Passage; never reachable from LearnerState"
+authorized_by = "ADR-009, ADR-015, engine-contract §4"
+note = "Ord is derived so a candidate list has a total order independent of the score — the composer's tiebreaks are on id, but a stable Pool ordering keeps any future grouping deterministic too"
+
+[[type]]
+name = "Slot"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "one fillable position in a composed template, inside Candidate — the host reads it out of its content index and hands it over; never reachable from LearnerState"
+authorized_by = "engine-contract §4, ADR-015"
+
+[[type]]
+name = "Candidate"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "one passage the host offers for a NextPassage request, inside ContentFrame; serializable so a composer decision replays byte for byte from a captured (Needs, Frame) pair"
+authorized_by = "engine-contract §2, §4"
+
+[[type]]
+name = "SlotFill"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "what stands in one slot of the passage the host renders, inside Passage"
+authorized_by = "engine-contract §4"
+
+[[type]]
+name = "Passage"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "the composer's output, carried by Effect::PassageComposed — the host renders it and reports its id back as a frame_id on PassageFinished; never reachable from LearnerState, because nothing is recorded until the reader actually meets the passage"
+authorized_by = "engine-contract §3, §4, ADR-015"
+
+[[type]]
+name = "ContentFrame"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "the reference-data half of engine-contract §2's Frame — candidates plus the word-class table, fetched by the host in answer to Needs::PassageCandidates"
+authorized_by = "engine-contract §2, §4"
