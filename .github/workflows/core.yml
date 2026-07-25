@@ -43,7 +43,7 @@ jobs:
         uses: Swatinem/rust-cache@v2
 
       - name: Install cargo-deny
-        run: cargo install cargo-deny --locked
+        run: cargo install cargo-deny --locked --version 0.20.2
 
       - name: Licences, bans, sources
         run: cargo deny --locked check licenses bans sources

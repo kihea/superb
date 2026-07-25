@@ -9,13 +9,24 @@
 //! This parses source with `syn` rather than scanning lines, so it sees a
 //! derive list `cargo fmt` wraps across lines, a type of any visibility in
 //! any file under `src/`, a derive spelled as a fully qualified path, and a
-//! hand-written `impl Serialize for X` with no derive at all. What it still
-//! cannot see: a trait impl produced by a macro this parser does not expand,
-//! `#[serde(remote = "...")]`, a blanket impl arriving from another crate, an
-//! aliased import (`use serde::Serialize as Ser`), and anything a `build.rs`
-//! generates. It reads `src/` in the repository, not the compiled artifact —
-//! default-deny against everything written in this crate's own source, not
-//! default-deny in the absolute sense.
+//! hand-written `impl Serialize for X` with no derive at all.
+//!
+//! What it still cannot see, enumerated because an understated blind spot is
+//! worse than a known one. The walk descends into `mod` and nothing else, so
+//! an item is invisible when it sits inside a function body, inside a method
+//! body, or inside an anonymous `const _: () = { ... };` — that last being
+//! the exact shape `serde_derive` expands into, so the mechanism is blind to
+//! the construction it most exists to police. A `#[path = "../outside.rs"]`
+//! module escapes the `src/` walk. Nested `cfg_attr` is not unwrapped past
+//! one level. An aliased import (`use serde::Serialize as Ser`) reads as an
+//! unrelated trait. Beyond the walk: an impl produced by a macro this parser
+//! does not expand, `#[serde(remote = "...")]`, a blanket impl arriving from
+//! another crate, and anything `build.rs` generates.
+//!
+//! It reads `src/` in the repository, not the compiled artifact. The honest
+//! statement of the guarantee is **default-deny against declaration-position
+//! items in this crate's own source** — not default-deny in the absolute
+//! sense, and not yet default-deny over all of its source.
 //!
 //! The second confirms the crate's *runtime* dependency graph — a different
 //! and wider-reaching kind of promise — has not grown past what `serde`
