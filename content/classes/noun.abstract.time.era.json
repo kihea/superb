@@ -1,0 +1,17 @@
+{
+  "id": "noun.abstract.time.era",
+  "pos": "noun",
+  "description": "A stretch of time long enough to be named as a period, not a moment.",
+  "fixture": "It belonged to another {word} entirely.",
+  "members": [
+    "epoch",
+    "era",
+    "age",
+    "interval",
+    "span",
+    "interlude",
+    "aeon",
+    "chapter",
+    "season"
+  ]
+}

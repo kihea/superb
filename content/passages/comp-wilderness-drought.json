@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-drought",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "By August the creek had shrunk to a {0} trickle threading between stones that hadn't seen open air in years, and the whole valley had taken on the {1} colour of a summer that refused to end. Farmers who normally kept to themselves had started meeting at the feed store just to compare notes, trading rumours about which wells had gone dry and whose herd was thinning fastest. Old Petrie, who had farmed this land longer than anyone, watched the sky {2} each morning for cloud that never quite arrived, the habit worn into him by seventy summers of doing exactly this. The grass had gone {3} weeks ago, and now even the hardy scrub along the fence line was starting to give up, leaves curling in on themselves against the heat. Everyone kept saying it would break soon, the way droughts always did eventually, and everyone kept watching a horizon that {4} offered anything different.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.small",
+      "defaultWord": "meagre"
+    },
+    {
+      "index": 1,
+      "class": "adj.quality.dark",
+      "defaultWord": "bleak"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "warily"
+    },
+    {
+      "index": 3,
+      "class": "adj.quality.dark",
+      "defaultWord": "sombre"
+    },
+    {
+      "index": 4,
+      "class": "adv.frequency.rarely",
+      "defaultWord": "rarely"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-letter",
+  "pool": "composed",
+  "topic": "household",
+  "text": "The letter had been sitting unopened on the hall table for three days before Constance finally worked up the nerve to deal with it, the {0} handwriting on the envelope enough to tell her exactly who it was from before she'd even touched it. She carried it to the kitchen and sat with it {1} for a while, turning it over, reading nothing but the postmark, putting off the moment a person can only put off for so long. When she finally opened it, her hands were {2}, not from cold but from something closer to old habit, a decade of bracing for whatever this particular handwriting tended to bring. The letter itself, when she'd read it twice, turned out to hold no {3} at all — an ordinary update, a question about the garden, nothing that explained three days of dread. She laughed once, {4}, at her own theatrics, and put the kettle on to write back properly, the way she always meant to and usually did.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.old",
+      "defaultWord": "faded"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "nervous"
+    },
+    {
+      "index": 3,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "foreboding"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.grimly",
+      "defaultWord": "grimly"
+    }
+  ]
+}

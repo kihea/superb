@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-cabin",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "The {0} stood exactly where the map said it would, though nothing about its condition matched the confident line drawn on the page. One shutter hung by a single hinge, and the porch boards, {1} from years of weather, gave a complaint under every step, but the roof, when they checked it, was sound. They spent the first hour clearing a winter's worth of leaves and dust, working {2} through rooms that had not been opened in a season, letting the place breathe. By evening a fire was going in the old stove, and the cabin had begun, {3}, to feel less like a ruin and more like a place someone might choose to be. Outside, the woodland had gone {4} the way it always did after dark, every sound suddenly enormous against the silence. Inside, though, with the fire lit and the door latched, it was easy enough to forget how far they were from anyone at all.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "noun.place.dwelling",
+      "defaultWord": "cabin"
+    },
+    {
+      "index": 1,
+      "class": "adj.texture.rough",
+      "defaultWord": "weathered"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 3,
+      "class": "adv.degree.slightly",
+      "defaultWord": "slightly"
+    },
+    {
+      "index": 4,
+      "class": "adj.quality.dark",
+      "defaultWord": "sombre"
+    }
+  ]
+}

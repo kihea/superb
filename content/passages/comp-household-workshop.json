@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-workshop",
+  "pool": "composed",
+  "topic": "household",
+  "text": "The workshop out back was Grandpa's domain absolutely, a {0} space smelling of sawdust and machine oil that none of the grandchildren were allowed into without an invitation. He kept every {1} in its own marked place along the wall, a system that looked chaotic to anyone else and made perfect sense to him alone. When he worked, he worked {2}, entirely absorbed, the radio playing to an audience of exactly one. Occasionally a grandchild would be granted entry to watch some particular operation, usually {3} at first, keeping well back from the tools until curiosity won out over caution. He never explained more than was asked, believing a person learned more by watching {4} than by being told, and most of what the grandchildren knew about patience, they had learned exactly that way, standing quietly at the edge of his bench.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.small",
+      "defaultWord": "modest"
+    },
+    {
+      "index": 1,
+      "class": "noun.object.tool",
+      "defaultWord": "implement"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.still",
+      "defaultWord": "silently"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "hesitantly"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    }
+  ]
+}

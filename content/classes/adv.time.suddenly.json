@@ -1,0 +1,16 @@
+{
+  "id": "adv.time.suddenly",
+  "pos": "adv",
+  "description": "An event's arrival with no lead time — how abruptly it happens, not how it feels.",
+  "fixture": "The door opened {word}.",
+  "members": [
+    "abruptly",
+    "suddenly",
+    "unexpectedly",
+    "instantly",
+    "immediately",
+    "precipitously",
+    "startlingly",
+    "unaccountably"
+  ]
+}

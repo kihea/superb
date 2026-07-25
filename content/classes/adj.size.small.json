@@ -1,0 +1,18 @@
+{
+  "id": "adj.size.small",
+  "pos": "adj",
+  "description": "Small enough to be dismissed or overlooked — quantity or scale read as insignificant, not merely compact.",
+  "fixture": "It was a {word} sum, hardly worth mentioning.",
+  "members": [
+    "slight",
+    "meagre",
+    "scant",
+    "modest",
+    "diminutive",
+    "puny",
+    "paltry",
+    "minute",
+    "trifling",
+    "negligible"
+  ]
+}

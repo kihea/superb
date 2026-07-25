@@ -1,0 +1,33 @@
+{
+  "id": "comp-harbour-winter",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "In winter the harbour kept a {0} kind of company — fewer boats, fewer voices, the whole place drawn in on itself against the cold. The water itself stayed {1} in colour, never quite lifting even at noon, and the men who still went out did their work {2}, hoods up, hardly a word between them. Ice rimmed the edges of the quay some mornings, thin enough to break underfoot but hard enough to make the ropes stiff and difficult to coil. The harbourmaster's office kept its light on later than usual, a small {3} against the early dark, and the few gulls that stayed through the season seemed to huddle rather than wheel. Even so, the boats went out, because the fish did not know it was winter, and by February the worst of the cold would {4}, the way it always did, leaving the harbour looking, for a week or two, faintly surprised to still be standing.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.small",
+      "defaultWord": "meagre"
+    },
+    {
+      "index": 1,
+      "class": "adj.quality.dark",
+      "defaultWord": "gloomy"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.still",
+      "defaultWord": "silently"
+    },
+    {
+      "index": 3,
+      "class": "noun.abstract.emotion.joy",
+      "defaultWord": "gladness"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "ebb"
+    }
+  ]
+}

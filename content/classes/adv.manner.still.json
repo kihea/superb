@@ -1,0 +1,17 @@
+{
+  "id": "adv.manner.still",
+  "pos": "adv",
+  "description": "Without motion or sound — how a thing rests, not how it feels.",
+  "fixture": "They lay {word} at their moorings.",
+  "members": [
+    "quietly",
+    "silently",
+    "motionlessly",
+    "soundlessly",
+    "placidly",
+    "tranquilly",
+    "peacefully",
+    "languorously",
+    "listlessly"
+  ]
+}

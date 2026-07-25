@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-market-town",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The market town sat at the junction of three roads, and on market day itself the whole place turned properly {0}, carts and buyers filling every street that led toward the square. Farmers who normally kept to themselves the rest of the year greeted each other {1}, the market being one of the few occasions that reliably brought the whole district together in one place. Prices were argued over {2}, the way they always were, a ritual both sides seemed to enjoy more than the actual sums involved. Some {3} had set up as a fiddler near the well and was doing steady business in coins tossed his way by people who could clearly spare it and some who clearly couldn't. By late afternoon the crowd had begun to {4}, carts turning homeward loaded with whatever the day's trading had produced, and the square slowly returned to being just a square again.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.large",
+      "defaultWord": "sprawling"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.gracefully",
+      "defaultWord": "buoyantly"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.forceful",
+      "defaultWord": "fiercely"
+    },
+    {
+      "index": 3,
+      "class": "noun.person.stranger",
+      "defaultWord": "itinerant"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "dwindle"
+    }
+  ]
+}

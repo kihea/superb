@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-quiet-house",
+  "pool": "composed",
+  "topic": "household",
+  "text": "The house had gone properly {0} since the last of the children left, a quiet that Deshi had expected and still, somehow, hadn't prepared for. Rooms that used to hold constant {1} now held only the sound of his own footsteps, and he found himself leaving the radio on more than he used to, simply to have something else moving through the air. He had taken up small projects {2}, fixing things around the house that had waited years for his attention, less because they needed doing and more because his hands seemed to want a task. In the evenings he sat in a chair by the window and watched the street go {3}, the neighbourhood settling into its own version of the same quiet. It was not, he had decided, an unhappy way to live, only one that had grown {4}, and he was still learning the difference between the two.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "noun.abstract.quality.silence",
+      "defaultWord": "quiet"
+    },
+    {
+      "index": 1,
+      "class": "noun.abstract.sound",
+      "defaultWord": "racket"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 3,
+      "class": "adj.quality.dark",
+      "defaultWord": "dusky"
+    },
+    {
+      "index": 4,
+      "class": "adj.emotion.content",
+      "defaultWord": "settled"
+    }
+  ]
+}

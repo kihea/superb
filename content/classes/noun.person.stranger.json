@@ -1,0 +1,18 @@
+{
+  "id": "noun.person.stranger",
+  "pos": "noun",
+  "description": "A person read as not belonging to the place they are in — unfamiliarity as the whole content of the word.",
+  "fixture": "A {word} stood at the edge of the yard.",
+  "members": [
+    "stranger",
+    "wanderer",
+    "vagrant",
+    "wayfarer",
+    "drifter",
+    "itinerant",
+    "transient",
+    "interloper",
+    "newcomer",
+    "outsider"
+  ]
+}

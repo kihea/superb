@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-flood",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "The river had been rising for two days before anyone thought to worry about it, and by the third it had swallowed the {0} where the cattle usually grazed. Halloran stood at the edge of his land watching brown water move {1} across ground that had never once, in his memory, been anything but dry. He'd moved the animals up to higher pasture the night before, more out of {2} than certainty, and was glad of it now, watching fence posts disappear one by one beneath the surface. Neighbours further down the valley had it worse, their fields turned to a single {3} sheet of water that reflected the sky like something out of a different, stranger world. It would take a week for the water to properly recede, and rather longer than that for the memory of it to {4}, but for now everyone simply stood at their fences, watching the river do as it pleased.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "noun.place.wild",
+      "defaultWord": "marsh"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.gracefully",
+      "defaultWord": "smoothly"
+    },
+    {
+      "index": 2,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "misgiving"
+    },
+    {
+      "index": 3,
+      "class": "adj.texture.smooth",
+      "defaultWord": "glassy"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "fade"
+    }
+  ]
+}

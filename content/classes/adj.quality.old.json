@@ -1,0 +1,19 @@
+{
+  "id": "adj.quality.old",
+  "pos": "adj",
+  "description": "Age that shows as wear on a thing, not a person's years.",
+  "fixture": "It was a {word} building, long past its best years.",
+  "members": [
+    "weathered",
+    "timeworn",
+    "ancient",
+    "venerable",
+    "decrepit",
+    "antiquated",
+    "threadbare",
+    "faded",
+    "rickety",
+    "battered",
+    "dilapidated"
+  ]
+}

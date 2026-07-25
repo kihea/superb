@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-inn",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The inn at the crossroads had stood there longer than anyone could say for certain, {0} enough to have absorbed a century of travelers without much changing its character. The landlord greeted new arrivals {1}, sizing them up in the time it took to cross the threshold, a skill worn into him by decades of the same doorway. A fire kept the main room properly {2} against whatever the road had done to a person's spirits, and the smell of something roasting promised better things than the weather had. In the corner, a traveler sat {3}, nursing a single drink and watching the door more than the fire, the look of someone waiting on news that hadn't arrived yet. Talk moved {4} around the room, picking up news from the last town and passing it to whoever was headed toward the next one, the whole inn functioning, in its way, as a kind of exchange nobody had ever formally organized.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.old",
+      "defaultWord": "weathered"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "warily"
+    },
+    {
+      "index": 2,
+      "class": "adj.quality.warm",
+      "defaultWord": "temperate"
+    },
+    {
+      "index": 3,
+      "class": "adj.emotion.wary",
+      "defaultWord": "anxious"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    }
+  ]
+}

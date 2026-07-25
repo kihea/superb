@@ -1,0 +1,16 @@
+{
+  "id": "verb.motion.approach",
+  "pos": "verb",
+  "description": "To close distance toward something, on foot or by craft.",
+  "fixture": "They began to {word} across the field.",
+  "members": [
+    "approach",
+    "near",
+    "advance",
+    "edge",
+    "creep",
+    "steal",
+    "press",
+    "loom"
+  ]
+}

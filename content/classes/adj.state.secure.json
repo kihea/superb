@@ -1,0 +1,19 @@
+{
+  "id": "adj.state.secure",
+  "pos": "adj",
+  "description": "Held fast against a force (tide, strain, weather) — not merely 'safe' in the abstract.",
+  "fixture": "It was a {word} knot, fit for the weather.",
+  "members": [
+    "steady",
+    "secure",
+    "firm",
+    "taut",
+    "snug",
+    "braced",
+    "fixed",
+    "tethered",
+    "fast",
+    "wedged",
+    "stable"
+  ]
+}

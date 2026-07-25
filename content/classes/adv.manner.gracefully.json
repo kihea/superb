@@ -1,0 +1,16 @@
+{
+  "id": "adv.manner.gracefully",
+  "pos": "adv",
+  "description": "Motion that reads as unforced and well-formed.",
+  "fixture": "She crossed the room {word}.",
+  "members": [
+    "gracefully",
+    "elegantly",
+    "smoothly",
+    "daintily",
+    "effortlessly",
+    "buoyantly",
+    "airily",
+    "nimbly"
+  ]
+}

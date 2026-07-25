@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-spring-thaw",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "The thaw came {0} this year, a week of warm rain that took the snowpack down almost overnight and left the whole hillside running with water that had nowhere sanctioned to go. Streams that had been silent all winter woke up {1}, filling their old channels and finding a few new ones besides, and the sound of moving water was, for a few days, everywhere at once. Bardo walked the fence line each morning checking for washouts, boots sinking into ground that had gone {2} almost without warning after months of being frozen solid. The first green showed itself in {3} patches along the south-facing slopes, easy to miss unless a person knew exactly where to look, which Bardo, after forty years on this land, did. By the second week the worst of the melt had begun to {4}, and the mountain, for a little while longer, belonged to mud and noise and the particular hope that came with both.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.time.suddenly",
+      "defaultWord": "unexpectedly"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.forceful",
+      "defaultWord": "fiercely"
+    },
+    {
+      "index": 2,
+      "class": "adj.texture.rough",
+      "defaultWord": "uneven"
+    },
+    {
+      "index": 3,
+      "class": "adj.size.small",
+      "defaultWord": "meagre"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "subside"
+    }
+  ]
+}

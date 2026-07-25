@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-ridge",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "The climb to the ridge took most of the morning, longer than either of them had planned for, but the view from the top made the {0} legs worth it. Below them the {1} spread out in every direction, unbroken but for a single thread of smoke rising from a chimney too far off to name. Neither of them spoke for a while, content to let the wind do what talking needed doing. It was the kind of quiet that pressed on the ears after a life spent in town, {2} at first and then, gradually, something closer to relief. Somewhere below, a hawk rode a thermal in {3} circles, barely moving its wings, and they watched it until it dropped out of sight behind an outcrop. They would need to {4} back down before the light went, but for now neither of them made a move to leave. The whole valley belonged to them, for as long as they chose to stay up there and pretend it did.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.speed.slow",
+      "defaultWord": "ponderous"
+    },
+    {
+      "index": 1,
+      "class": "noun.place.wild",
+      "defaultWord": "wilderness"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "guarded"
+    },
+    {
+      "index": 3,
+      "class": "adj.texture.smooth",
+      "defaultWord": "even"
+    },
+    {
+      "index": 4,
+      "class": "verb.motion.slow",
+      "defaultWord": "trudge"
+    }
+  ]
+}

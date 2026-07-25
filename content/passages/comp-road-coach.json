@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-coach",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The coach left at first light, {0} loaded with more passengers than it strictly had room for, everyone arranging elbows and bags with the {1} patience of people who had done this before and knew complaint changed nothing. Across from Verity sat some {2}, coat buttoned wrong in his haste to catch the departure, who spent the first hour recovering his breath before attempting any conversation. The road out of town was {3}, rutted from a wet season, and the coach made slower progress than the timetable promised, pitching everyone gently against each other at every hole. Villages passed at long intervals, each one announced by smoke rising {4} from chimneys before the buildings themselves came into view. By the time they stopped to change horses, Verity had learned three strangers' entire life stories and told very little of her own, which struck her as a fair exchange for a day spent this way.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.degree.slightly",
+      "defaultWord": "barely"
+    },
+    {
+      "index": 1,
+      "class": "adj.speed.slow",
+      "defaultWord": "unhurried"
+    },
+    {
+      "index": 2,
+      "class": "noun.person.stranger",
+      "defaultWord": "stranger"
+    },
+    {
+      "index": 3,
+      "class": "adj.texture.rough",
+      "defaultWord": "rugged"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    }
+  ]
+}

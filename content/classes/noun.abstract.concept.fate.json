@@ -1,0 +1,17 @@
+{
+  "id": "noun.abstract.concept.fate",
+  "pos": "noun",
+  "description": "An outcome attributed to forces beyond the actor's control.",
+  "fixture": "It was, perhaps, a matter of {word}.",
+  "members": [
+    "fate",
+    "destiny",
+    "providence",
+    "fortune",
+    "chance",
+    "circumstance",
+    "happenstance",
+    "doom",
+    "reckoning"
+  ]
+}
