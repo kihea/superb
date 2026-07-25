@@ -1,0 +1,30 @@
+{
+  "v": 1,
+  "seed": 20260722,
+  "draw_count": 214,
+  "theta": 0.35,
+  "theta_se": 0.18,
+  "words": {
+    "aperture": {
+      "state": "SEEDED",
+      "due": 1735689600000,
+      "encounters": 1,
+      "context_frames": [
+        "passage-042"
+      ]
+    },
+    "verisimilitude": {
+      "state": "CONSOLIDATING",
+      "due": 1738368000000,
+      "encounters": 9,
+      "context_frames": [
+        "excerpt-poe-1839-cask",
+        "excerpt-withdrawn-687"
+      ]
+    }
+  },
+  "topic_affinities": {
+    "cooking": -0.1,
+    "nature": 0.62
+  }
+}

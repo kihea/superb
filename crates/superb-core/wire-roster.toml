@@ -7,15 +7,43 @@
 # `tier` is `durable` (reachable from the persisted root `LearnerState`,
 # authorized by an ADR) or `boundary` (crosses FFI or lands in a committed
 # fixture, never persisted, authorized by the brief that introduces it).
-# Nothing is `durable` yet — `LearnerState` does not exist.
+# `LearnerState` landed in BRIEF-008; the durable tier is no longer empty.
 
 [[type]]
 name = "WordState"
-tier = "boundary"
+tier = "durable"
 derives = ["Serialize", "Deserialize", "PartialOrd", "Ord"]
-consumer = "golden-vector alphabet; crosses WASM, JNI and Swift FFI"
+consumer = "golden-vector alphabet; crosses WASM, JNI and Swift FFI; a field of WordRecord inside LearnerState"
 authorized_by = "BRIEF-001, ADR-016 D4"
-note = "becomes durable the day LearnerState lands"
+note = "durable as of BRIEF-008 — reachable from LearnerState, inside the frozen v1 fixture"
+
+[[type]]
+name = "Timestamp"
+tier = "durable"
+derives = ["Serialize", "Deserialize"]
+consumer = "WordRecord.due, inside LearnerState"
+authorized_by = "ADR-016, BRIEF-008"
+
+[[type]]
+name = "WordRecord"
+tier = "durable"
+derives = ["Serialize", "Deserialize"]
+consumer = "LearnerState.words, the per-word record"
+authorized_by = "ADR-016, BRIEF-008"
+
+[[type]]
+name = "LearnerState"
+tier = "durable"
+derives = ["Serialize", "Deserialize"]
+consumer = "the persisted root itself (engine-contract §1.5); read by LearnerState::load and written by LearnerState::to_document"
+authorized_by = "ADR-016, BRIEF-008"
+
+[[type]]
+name = "EnvelopeV1"
+tier = "durable"
+derives = ["Serialize"]
+consumer = "LearnerState::to_document — pins v as the document's first key on write (ADR-016 D1). load never deserializes through it; see the loader's own doc comment"
+authorized_by = "ADR-016, BRIEF-008"
 
 [[type]]
 name = "Transition"
