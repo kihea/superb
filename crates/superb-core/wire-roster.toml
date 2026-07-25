@@ -1,7 +1,8 @@
 # The roster of every type in superb-core carrying Serialize, Deserialize,
-# PartialOrd, or Ord (ADR-016 D3, D4). A serde or ordering derive on a type
-# not listed here does not land — tests/wire_roster.rs enforces this by
-# reading src/state.rs and asserting the two agree exactly.
+# PartialOrd, or Ord (ADR-016 D3, D4). A serde or ordering derive — or a
+# hand-written impl of one of these traits — on a type not listed here does
+# not land — tests/wire_roster.rs enforces this by parsing every .rs file
+# under src/ and asserting the two agree exactly.
 #
 # `tier` is `durable` (reachable from the persisted root `LearnerState`,
 # authorized by an ADR) or `boundary` (crosses FFI or lands in a committed

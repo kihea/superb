@@ -3,9 +3,9 @@ name: core
 on:
   push:
     branches: [main]
-    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", ".github/workflows/core.yml"]
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]
   pull_request:
-    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", ".github/workflows/core.yml"]
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]
 
 concurrency:
   group: core-${{ github.ref }}
@@ -21,9 +21,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Toolchain
-        run: rustup component add rustfmt clippy
-
       - name: Cache
         uses: Swatinem/rust-cache@v2
 
@@ -31,7 +28,22 @@ jobs:
         run: cargo fmt --all --check
 
       - name: Clippy
-        run: cargo clippy --all-targets --all-features -- -D warnings
+        run: cargo clippy --all-targets --all-features --locked -- -D warnings
 
       - name: Test
-        run: cargo test --workspace --all-features
+        run: cargo test --workspace --all-features --locked
+
+  licenses:
+    name: cargo deny
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install cargo-deny
+        run: cargo install cargo-deny --locked --version 0.20.2
+
+      - name: Licences, bans, sources
+        run: cargo deny --locked check licenses bans sources

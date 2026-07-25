@@ -1,0 +1,15 @@
+# Makes CLAUDE.md law 5 — no GPL anywhere in the dependency tree — a CI job
+# instead of a sentence. Run as `cargo deny check licenses bans sources`
+# (core.yml), which covers the whole graph, dev-dependencies included; that
+# is wider than the runtime-purity assertion in `tests/wire_roster.rs`, which
+# is about the shipped library only. Two rules, two scopes, on purpose.
+
+[graph]
+all-features = true
+
+[licenses]
+allow = [
+    "MIT",
+    "Apache-2.0",
+    "Unicode-3.0",
+]
