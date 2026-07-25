@@ -13,6 +13,7 @@
 #![forbid(unsafe_code)]
 
 pub mod ability;
+pub mod engine;
 pub mod learner;
 pub mod scheduler;
 pub mod signals;
@@ -20,7 +21,10 @@ pub mod state;
 pub mod tuning;
 
 pub use ability::{ThetaUpdate, ThetaUpdated, band, update_theta};
-pub use learner::{LearnerState, LoadError, SetThetaError, Timestamp, WordRecord};
+pub use engine::{Effect, Frame, Needs, Outcome, Request, decide, plan};
+pub use learner::{
+    ContextEncounter, LearnerState, LoadError, SetThetaError, Timestamp, WordRecord,
+};
 pub use scheduler::{
     EncounterOutcome, IntervalSet, ScheduleDecision, backlog_active, due_words, schedule_encounter,
 };

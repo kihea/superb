@@ -39,6 +39,14 @@ pub struct Tuning {
     /// The most encounters a word is scheduled for before repetition alone
     /// stops adding value.
     pub(crate) encounter_target_max: u32,
+    /// Distinct-context clean encounters that move a word from `Learning` to
+    /// `Consolidating` — the earlier of the schedule's two progression
+    /// edges; `encounter_target` is the later one, for `Consolidating ->
+    /// Automatic` (`src/engine.rs`'s ARCHITECT'S ANSWER, BRIEF-013 round 2).
+    /// Strictly less than `encounter_target`: a word cannot need fewer
+    /// varied encounters to reach `Automatic` than it needed to leave
+    /// `Learning`.
+    pub(crate) consolidating_threshold: u32,
     /// How fast a passage's later due words lose value in the coverage
     /// score: the i-th most valuable word is worth `coverage_decay^(i-1)`
     /// of the first (ADR-015).
@@ -279,6 +287,18 @@ impl Tuning {
             });
         }
 
+        // The Learning -> Consolidating edge must sit strictly earlier than
+        // the Consolidating -> Automatic edge, or the second transition
+        // could never fire (a word would already have met encounter_target
+        // by the time it left Learning, or worse, never leave Learning at
+        // the threshold this config claims).
+        if self.consolidating_threshold >= self.encounter_target {
+            return Err(TuningError::ConsolidatingThresholdNotBelowEncounterTarget {
+                consolidating_threshold: self.consolidating_threshold,
+                encounter_target: self.encounter_target,
+            });
+        }
+
         // Named booleans rather than `!(a > b)` directly: strict range checks
         // on `f64` must still refuse NaN, and a bare negated comparison reads
         // as though it does when it silently would not (clippy::neg_cmp_op_on_partial_ord).
@@ -457,6 +477,11 @@ pub enum TuningError {
     /// `encounter_target_min` was greater than `encounter_target_max`,
     /// inverting the range `encounter_target` is checked against.
     EncounterTargetRangeInverted { min: u32, max: u32 },
+    /// `consolidating_threshold` was not strictly less than `encounter_target`.
+    ConsolidatingThresholdNotBelowEncounterTarget {
+        consolidating_threshold: u32,
+        encounter_target: u32,
+    },
     /// `coverage_decay` was not strictly between 0 and 1.
     CoverageDecayOutOfRange { value: f64 },
     /// `sourced_preference` was not strictly positive.
@@ -523,6 +548,16 @@ impl fmt::Display for TuningError {
                 write!(
                     f,
                     "encounter_target_min {min} is greater than encounter_target_max {max}"
+                )
+            }
+            TuningError::ConsolidatingThresholdNotBelowEncounterTarget {
+                consolidating_threshold,
+                encounter_target,
+            } => {
+                write!(
+                    f,
+                    "consolidating_threshold {consolidating_threshold} is not strictly less \
+                     than encounter_target {encounter_target}"
                 )
             }
             TuningError::CoverageDecayOutOfRange { value } => {
@@ -623,6 +658,7 @@ mod tests {
         encounter_target = 10
         encounter_target_min = 6
         encounter_target_max = 20
+        consolidating_threshold = 4
         coverage_decay = 0.75
         sourced_preference = 2.4
         min_sourced_coverage = 2
@@ -712,6 +748,21 @@ mod tests {
         assert_eq!(
             Tuning::from_toml_str(&bad),
             Err(TuningError::EncounterTargetRangeInverted { min: 20, max: 6 })
+        );
+    }
+
+    #[test]
+    fn consolidating_threshold_not_below_encounter_target_is_rejected() {
+        let bad = VALID.replace(
+            "consolidating_threshold = 4",
+            "consolidating_threshold = 10",
+        );
+        assert_eq!(
+            Tuning::from_toml_str(&bad),
+            Err(TuningError::ConsolidatingThresholdNotBelowEncounterTarget {
+                consolidating_threshold: 10,
+                encounter_target: 10,
+            })
         );
     }
 

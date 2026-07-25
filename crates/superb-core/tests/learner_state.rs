@@ -14,7 +14,14 @@ use std::path::Path;
 
 use proptest::prelude::*;
 use superb_core::state::WordState;
-use superb_core::{LearnerState, LoadError, Timestamp, WordRecord};
+use superb_core::{ContextEncounter, LearnerState, LoadError, Timestamp, WordRecord};
+
+fn clean_encounter(frame_id: &str) -> ContextEncounter {
+    ContextEncounter {
+        frame_id: frame_id.to_string(),
+        clean: true,
+    }
+}
 
 fn sample_state() -> LearnerState {
     let mut words = BTreeMap::new();
@@ -23,8 +30,7 @@ fn sample_state() -> LearnerState {
         WordRecord::new(
             WordState::Seeded,
             Timestamp::from_millis_since_epoch(1_735_689_600_000),
-            1,
-            vec!["passage-042".to_string()],
+            vec![clean_encounter("passage-042")],
             Some(1.0),
         ),
     );
@@ -33,10 +39,9 @@ fn sample_state() -> LearnerState {
         WordRecord::new(
             WordState::Consolidating,
             Timestamp::from_millis_since_epoch(1_738_368_000_000),
-            9,
             vec![
-                "excerpt-poe-1839-cask".to_string(),
-                "excerpt-withdrawn-687".to_string(),
+                clean_encounter("excerpt-poe-1839-cask"),
+                clean_encounter("excerpt-withdrawn-687"),
             ],
             Some(45.0),
         ),
@@ -161,7 +166,6 @@ fn unknown_field_nested_three_levels_deep_is_a_typed_error() {
             "obscure": {
                 "state": "SEEDED",
                 "due_epoch_ms": 100,
-                "encounters": 1,
                 "context_frames": [],
                 "extra_field_inside_a_word_record": "should error"
             }
@@ -191,8 +195,9 @@ fn unknown_context_frame_id_round_trips_unchanged() {
             "lighthouse": {
                 "state": "LEARNING",
                 "due_epoch_ms": 100,
-                "encounters": 2,
-                "context_frames": ["excerpt-this-build-has-never-heard-of"]
+                "context_frames": [
+                    {"frame_id": "excerpt-this-build-has-never-heard-of", "clean": true}
+                ]
             }
         },
         "topic_affinities": {}
@@ -205,7 +210,7 @@ fn unknown_context_frame_id_round_trips_unchanged() {
         .expect("the word is preserved");
     assert_eq!(
         record.context_frames,
-        vec!["excerpt-this-build-has-never-heard-of".to_string()]
+        vec![clean_encounter("excerpt-this-build-has-never-heard-of")]
     );
 
     let resaved = loaded.to_document();
@@ -325,25 +330,26 @@ fn interval_days_strategy() -> impl Strategy<Value = Option<f64>> {
     prop_oneof![Just(None), (-1_000.0..1_000.0f64).prop_map(Some)]
 }
 
+fn context_encounter_strategy() -> impl Strategy<Value = ContextEncounter> {
+    (id_strategy(), any::<bool>())
+        .prop_map(|(frame_id, clean)| ContextEncounter { frame_id, clean })
+}
+
 fn word_record_strategy() -> impl Strategy<Value = WordRecord> {
     (
         word_state_strategy(),
         any::<u64>(),
-        any::<u32>(),
-        prop::collection::vec(id_strategy(), 0..5),
+        prop::collection::vec(context_encounter_strategy(), 0..5),
         interval_days_strategy(),
     )
-        .prop_map(
-            |(state, due_millis, encounters, context_frames, interval_days)| {
-                WordRecord::new(
-                    state,
-                    Timestamp::from_millis_since_epoch(due_millis),
-                    encounters,
-                    context_frames,
-                    interval_days,
-                )
-            },
-        )
+        .prop_map(|(state, due_millis, context_frames, interval_days)| {
+            WordRecord::new(
+                state,
+                Timestamp::from_millis_since_epoch(due_millis),
+                context_frames,
+                interval_days,
+            )
+        })
 }
 
 fn learner_state_strategy() -> impl Strategy<Value = LearnerState> {

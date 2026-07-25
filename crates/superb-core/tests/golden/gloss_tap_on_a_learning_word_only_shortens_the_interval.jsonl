@@ -1,0 +1,3 @@
+{"initial_state":{"seed":0,"draw_count":0,"theta":0.0,"theta_se":1.0,"words":{"aperture":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"passage-001","clean":true}],"interval_days":2.0}},"topic_affinities":{}},"now":1735776000000,"event":{"GLOSS_TAP":{"word":"aperture","passage":"passage-002","position":12}},"frame":"Nothing"}
+{"IntervalSet":{"word":"aperture","due":1735862400000}}
+{"ContextFrameLogged":{"word":"aperture","frame_id":"passage-002"}}

@@ -253,7 +253,6 @@ mod tests {
         WordRecord::new(
             WordState::Learning,
             Timestamp::from_millis_since_epoch(millis),
-            1,
             Vec::new(),
             Some(1.0),
         )
@@ -273,7 +272,6 @@ mod tests {
             WordRecord::new(
                 state,
                 Timestamp::from_millis_since_epoch(due_millis),
-                1,
                 Vec::new(),
                 interval_days,
             ),

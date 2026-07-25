@@ -1,0 +1,4 @@
+{"initial_state":{"seed":0,"draw_count":0,"theta":0.0,"theta_se":1.0,"words":{},"topic_affinities":{}},"now":1735689600000,"event":{"DECK_SWIPE":{"item_id":"aperture","is_pseudoword":false,"knew":true}},"frame":{"ItemDifficulty":{"difficulty":0.2}}}
+{"WordStateChanged":{"word":"aperture","from":"UNSEEN","to":"SEEDED"}}
+{"IntervalSet":{"word":"aperture","due":1735776000000}}
+{"ThetaUpdated":{"theta":0.08247509959687167,"se":0.85}}
