@@ -1,0 +1,31 @@
+# The roster of every type in superb-core carrying Serialize, Deserialize,
+# PartialOrd, or Ord (ADR-016 D3, D4). A serde or ordering derive on a type
+# not listed here does not land — tests/wire_roster.rs enforces this by
+# reading src/state.rs and asserting the two agree exactly.
+#
+# `tier` is `durable` (reachable from the persisted root `LearnerState`,
+# authorized by an ADR) or `boundary` (crosses FFI or lands in a committed
+# fixture, never persisted, authorized by the brief that introduces it).
+# Nothing is `durable` yet — `LearnerState` does not exist.
+
+[[type]]
+name = "WordState"
+tier = "boundary"
+derives = ["Serialize", "Deserialize", "PartialOrd", "Ord"]
+consumer = "golden-vector alphabet; crosses WASM, JNI and Swift FFI"
+authorized_by = "BRIEF-001, ADR-016 D4"
+note = "becomes durable the day LearnerState lands"
+
+[[type]]
+name = "Transition"
+tier = "boundary"
+derives = ["Serialize", "Deserialize"]
+consumer = "engine-contract §5 golden vectors; the event stream in"
+authorized_by = "BRIEF-001, ADR-016 D4"
+
+[[type]]
+name = "WordStateChanged"
+tier = "boundary"
+derives = ["Serialize"]
+consumer = "the expected side of a golden vector; the host persists effects (engine-contract §3)"
+authorized_by = "BRIEF-001, ADR-016 D4"

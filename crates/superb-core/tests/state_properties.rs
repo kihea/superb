@@ -23,6 +23,21 @@ const TRANSITIONS: [Transition; 5] = [
     Transition::Lapsed,
 ];
 
+/// The ordinal `superb-core` no longer states. BRIEF-002 deletes
+/// `WordState::rank()` because the derived `Ord` on `WordState` is the single
+/// source of the progression order (ADR-016 D4); this is the test-only oracle
+/// that order must agree with. Exhaustive and without a wildcard arm, so a
+/// sixth variant breaks this test's build rather than silently going stale.
+fn rank(state: WordState) -> u8 {
+    match state {
+        WordState::Unseen => 0,
+        WordState::Seeded => 1,
+        WordState::Learning => 2,
+        WordState::Consolidating => 3,
+        WordState::Automatic => 4,
+    }
+}
+
 /// The oracle: the transition table exactly as BRIEF-001 tables it.
 fn expected(from: WordState, transition: Transition) -> Option<WordState> {
     match (from, transition) {
@@ -77,8 +92,8 @@ fn forward_transitions_advance_exactly_one_rank() {
             }
             if let Ok(change) = from.apply(transition) {
                 assert_eq!(
-                    change.to().rank(),
-                    change.from().rank() + 1,
+                    rank(change.to()),
+                    rank(change.from()) + 1,
                     "{from:?} + {transition:?}"
                 );
             }
@@ -127,6 +142,26 @@ fn word_state_serde_roundtrips_as_its_screaming_snake_name() {
     }
 }
 
+/// `WordState`'s derived `Ord` is the single source of the progression order
+/// (ADR-016 D4); this pins it against the test's own oracle so the two cannot
+/// silently drift apart. Checked over all twenty-five ordered pairs — the
+/// domain is finite and smaller than a generator, so it is exhaustive rather
+/// than sampled.
+#[test]
+fn ord_agrees_with_rank_over_every_ordered_pair() {
+    for a in STATES {
+        for b in STATES {
+            assert_eq!(
+                a < b,
+                rank(a) < rank(b),
+                "a={a:?} (rank {}), b={b:?} (rank {})",
+                rank(a),
+                rank(b)
+            );
+        }
+    }
+}
+
 proptest! {
     /// A refusal reports what was actually asked, so a scheduler bug is
     /// diagnosable from the error alone.
@@ -153,10 +188,10 @@ proptest! {
 
         for index in stream {
             if let Ok(change) = state.apply(TRANSITIONS[index]) {
-                let advanced = change.to().rank() as i16 - change.from().rank() as i16;
+                let advanced = rank(change.to()) as i16 - rank(change.from()) as i16;
                 prop_assert!(advanced <= 1, "advanced {} ranks", advanced);
                 state = change.to();
-                visited[state.rank() as usize] = true;
+                visited[rank(state) as usize] = true;
             }
         }
 
