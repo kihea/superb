@@ -1,0 +1,50 @@
+name: data-license
+
+# The CI gate ADR-008 requires: every content file validates against its
+# schema, every slot class passes its substitution test, every passage and
+# sourced excerpt passes its structural checks, and data/MANIFEST.md is
+# complete with no forbidden licence. data/pipeline/tests/test_check_license_gate.py
+# proves check_license_gate.py actually fails on a broken fixture before this
+# job ever trusts it to pass on the real tree.
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+  pull_request:
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+
+concurrency:
+  group: data-license-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    name: schema, classes, passages, sources, manifest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install content tooling
+        run: pip install -r content/scripts/requirements.txt
+
+      - name: Schema — every content file validates (Seam 2)
+        run: python content/scripts/validate_schema.py
+
+      - name: Classes — substitution test (30-50 classes, WordNet-checked)
+        run: python content/scripts/check_classes.py
+
+      - name: Passages — structural checks (40+, 120-220 words, 5-8 slots)
+        run: python content/scripts/check_passages.py
+
+      - name: Sources — structural checks and allow-listed provenance (60+)
+        run: python content/scripts/check_sources.py
+
+      - name: Prove the licence gate fails on a broken fixture, then run it for real
+        run: python data/pipeline/tests/test_check_license_gate.py
