@@ -1,0 +1,20 @@
+# generated data artifacts — rebuilt from data/pipeline
+data/out/
+
+# rust
+target/
+**/*.rs.bk
+
+# node
+node_modules/
+dist/
+.vite/
+
+# android
+.gradle/
+build/
+local.properties
+
+# os
+.DS_Store
+Thumbs.db
