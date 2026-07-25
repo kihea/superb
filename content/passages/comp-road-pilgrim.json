@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-pilgrim",
+  "pool": "composed",
+  "topic": "road",
+  "text": "She had been walking for eleven days by the time the shrine came into view, and the sight of it, {0} on the hillside, did not produce the feeling she had expected after so much effort to reach it. Other pilgrims on the road had spoken of the {1} that came the moment the destination appeared, some rush of purpose fulfilled, but what she felt instead was closer to a {2} kind of emptiness, the specific letdown of arrival after a journey that had become, somewhere along the way, more the point than the shrine itself. She sat on a low wall near the entrance and watched other travelers approach {3}, faces arranged for the moment they'd clearly rehearsed, and wondered whether any of them felt what she was feeling or if the gap between expectation and arrival was hers alone. Eventually she went in anyway, because eleven days was eleven days, and a person did not walk that far only to {4} at the door.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.light",
+      "defaultWord": "pale"
+    },
+    {
+      "index": 1,
+      "class": "noun.abstract.emotion.joy",
+      "defaultWord": "elation"
+    },
+    {
+      "index": 2,
+      "class": "adj.size.small",
+      "defaultWord": "meagre"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.grimly",
+      "defaultWord": "solemnly"
+    },
+    {
+      "index": 4,
+      "class": "verb.motion.slow",
+      "defaultWord": "dawdle"
+    }
+  ]
+}

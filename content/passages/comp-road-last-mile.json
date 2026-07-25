@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-last-mile",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The last mile was always the hardest, a rule Cassius had proven true on every long walk he'd ever undertaken and this one was no exception. His pack, {0} at the start of the day, had somehow grown heavier with every step despite containing exactly what it had that morning. The road here ran {1} downhill toward the village, which should have made things easier and somehow didn't, his legs having settled into a rhythm that resisted any change at all. A lamp came into view first, {2} against the dark, marking the edge of town before any of the buildings themselves did, and he fixed his eyes on it the way a sailor might fix on a lighthouse. He forced himself to keep his pace {3} rather than break into the run his body was suddenly, unreasonably, suggesting, saving what little dignity remained after a day like this one. When he finally reached the inn, he lowered himself into the nearest chair with a groan of pure {4} and did not attempt to move again for a considerable while.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.small",
+      "defaultWord": "modest"
+    },
+    {
+      "index": 1,
+      "class": "adj.speed.fast",
+      "defaultWord": "swift"
+    },
+    {
+      "index": 2,
+      "class": "adj.quality.light",
+      "defaultWord": "amber"
+    },
+    {
+      "index": 3,
+      "class": "adj.speed.slow",
+      "defaultWord": "deliberate"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.emotion.joy",
+      "defaultWord": "contentment"
+    }
+  ]
+}

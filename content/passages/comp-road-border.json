@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-border",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The border post was little more than a hut and a barrier, manned by an official who looked at every passport with the same {0} thoroughness regardless of how simple the case in front of him actually was. Behind Teodor in the queue, a family argued {1} about paperwork one of them had apparently forgotten, the conversation rising and falling in a language he didn't recognize. The official's office was {2}, a single lamp and a stack of forms that had clearly not been updated in some time, and the whole procedure took longer than the actual distance being crossed seemed to justify. When his turn finally came, Teodor answered the questions {3}, aware that any hesitation might invite more of them, and was waved through with a stamp and no further comment. On the other side of the barrier the road looked exactly the same as it had a hundred yards back, and yet something in him registered the crossing as a small, private {4} regardless.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.emotion.wary",
+      "defaultWord": "suspicious"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.forceful",
+      "defaultWord": "fiercely"
+    },
+    {
+      "index": 2,
+      "class": "adj.size.small",
+      "defaultWord": "modest"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.concept.fate",
+      "defaultWord": "reckoning"
+    }
+  ]
+}

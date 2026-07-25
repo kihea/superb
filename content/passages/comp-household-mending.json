@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-mending",
+  "pool": "composed",
+  "topic": "household",
+  "text": "Every Sunday evening without fail, Agnes brought the mending basket out to the kitchen table and worked through it {0}, a small mountain of torn hems and missing buttons that never seemed to shrink no matter how much she managed each week. Her husband read the paper across from her, offering the {1} comment whenever a headline seemed to demand one, and neither of them expected much conversation beyond that. She had learned to sew from a mother for whom the skill itself was {2}, not decoration, and her stitches still carried that same no-nonsense economy, {3} and precise, nothing wasted. The lamp above the table cast a {4} light over the work, the same light it had cast every Sunday for as long as either of them could remember, and by nine the basket was empty again, ready to slowly refill over the coming week.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.manner.still",
+      "defaultWord": "placidly"
+    },
+    {
+      "index": 1,
+      "class": "adj.size.small",
+      "defaultWord": "meagre"
+    },
+    {
+      "index": 2,
+      "class": "adj.quality.old",
+      "defaultWord": "venerable"
+    },
+    {
+      "index": 3,
+      "class": "adj.texture.smooth",
+      "defaultWord": "even"
+    },
+    {
+      "index": 4,
+      "class": "adj.quality.warm",
+      "defaultWord": "mild"
+    }
+  ]
+}

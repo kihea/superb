@@ -141,7 +141,7 @@ CLASSES = [
      "change, not a verb of motion.",
      "The room had grown {word} colder.",
      ["faintly", "slightly", "marginally", "barely", "scarcely",
-      "imperceptibly", "minutely", "nominally"]),
+      "imperceptibly", "minutely", "somewhat"]),
 
     ("adv.time.suddenly", "adv",
      "An event's arrival with no lead time — how abruptly it happens, not how "

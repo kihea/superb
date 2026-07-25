@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-return-journey",
+  "pool": "composed",
+  "topic": "road",
+  "text": "The road home always felt shorter than the road out, though Halvard could never decide whether that was a fact about the world or simply a trick of {0} that played out after every trip. He'd left three weeks ago feeling {1} enough about the road ahead, a feeling that had, somewhere around the second week, quietly given way to an equally strong wish to sleep in his own bed. The last stretch of road ran {2} along the river, familiar enough now that he barely needed to watch it, his mind already several miles ahead at the house he was returning to. He'd sent word he was coming but couldn't be sure the letter would {3} him home, and the uncertainty of it added an odd nervousness to what should have been simple relief. When the house finally came into view, smoke rising {4} from the chimney, he found he'd picked up his pace without quite deciding to, the last half mile going faster than any of the rest.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "noun.abstract.concept.fate",
+      "defaultWord": "circumstance"
+    },
+    {
+      "index": 1,
+      "class": "adj.emotion.content",
+      "defaultWord": "untroubled"
+    },
+    {
+      "index": 2,
+      "class": "adj.speed.slow",
+      "defaultWord": "unhurried"
+    },
+    {
+      "index": 3,
+      "class": "verb.motion.fast",
+      "defaultWord": "race"
+    },
+    {
+      "index": 4,
+      "class": "adv.degree.slightly",
+      "defaultWord": "faintly"
+    }
+  ]
+}

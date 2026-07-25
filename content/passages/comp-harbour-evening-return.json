@@ -1,0 +1,33 @@
+{
+  "id": "comp-harbour-evening-return",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "The boats came in {0}, one after another, low in the water with the day's catch. From the harbour wall, a small crowd had gathered to watch, the way they always did, though nobody could say exactly what they were waiting for. A woman in a shawl gone {1} with years shielded her eyes against the last of the light, searching the line of hulls for one boat in particular. When she found it, something in her shoulders let go — the {2} she had been carrying all afternoon without quite admitting it. The men on deck moved {3} now that the work was nearly done, calling to each other across the water in voices roughened by salt and weather. Somewhere behind the crowd, a rope creaked against a bollard, and gulls wheeled low over the sterns hoping for scraps. The {4} evening drew in over the harbour the way it always had, unremarkable and complete, and one by one the boats found their places along the wall.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.manner.gracefully",
+      "defaultWord": "smoothly"
+    },
+    {
+      "index": 1,
+      "class": "adj.quality.old",
+      "defaultWord": "faded"
+    },
+    {
+      "index": 2,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "unease"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 4,
+      "class": "adj.emotion.content",
+      "defaultWord": "settled"
+    }
+  ]
+}

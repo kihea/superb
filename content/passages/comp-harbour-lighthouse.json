@@ -1,0 +1,33 @@
+{
+  "id": "comp-harbour-lighthouse",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "The lighthouse stood at the {0} edge of the point, where the land gave up and the sea began in earnest. Every evening at the same hour, the keeper climbed the {1} stairs to light the lamp, a ritual so old to her now that her hands barely needed her eyes to guide them. From up there she could {2} the whole coastline, the scattered lights of the town, the black stretch of water beyond it, indifferent and enormous. She had taken the position after her husband died, when the {3} of the empty house had become harder to bear than the isolation of the rock. Ships passed rarely now, the trade having moved to bigger ports up the coast, but she kept the light burning anyway, out of habit as much as duty. On clear nights she could see weather building far out to sea long before it reached the coast, and she would stand at the rail and watch it {4} toward the coast, unhurried, the way everything out here seemed to move. It was, she had decided, a good enough life.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.dark",
+      "defaultWord": "bleak"
+    },
+    {
+      "index": 1,
+      "class": "adj.quality.old",
+      "defaultWord": "rickety"
+    },
+    {
+      "index": 2,
+      "class": "verb.perception.notice",
+      "defaultWord": "observe"
+    },
+    {
+      "index": 3,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "disquiet"
+    },
+    {
+      "index": 4,
+      "class": "verb.motion.slow",
+      "defaultWord": "drift"
+    }
+  ]
+}
