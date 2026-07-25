@@ -40,20 +40,6 @@ pub enum WordState {
 }
 
 impl WordState {
-    /// Position in the progression, counted from [`WordState::Unseen`].
-    ///
-    /// Exists so a caller can say "this advanced by exactly one" without
-    /// restating the transition table it is checking against.
-    pub const fn rank(self) -> u8 {
-        match self {
-            WordState::Unseen => 0,
-            WordState::Seeded => 1,
-            WordState::Learning => 2,
-            WordState::Consolidating => 3,
-            WordState::Automatic => 4,
-        }
-    }
-
     /// Apply a transition, or refuse it.
     ///
     /// This is the only way to produce a [`WordStateChanged`], which is what
@@ -143,7 +129,7 @@ impl WordState {
 /// observed and the state machine decides what that means, which is the only
 /// arrangement in which the transition table can stay the single place the
 /// progression is defined.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum Transition {
     /// First contact — the deck or a first passage put the word in front of
@@ -193,7 +179,7 @@ impl WordStateChanged {
 ///
 /// Refusal is information: a scheduler that keeps producing these is reasoning
 /// about a word from stale state, and this is where that shows up first.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct IllegalTransition {
     /// The state the word was actually in.
     pub from: WordState,
