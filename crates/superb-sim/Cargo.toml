@@ -1,0 +1,29 @@
+[package]
+name = "superb-sim"
+version = "0.0.0"
+description = "The headless simulator (docs/engine-contract.md §5): synthetic learners with known ground-truth vocabularies run superb-core through sixty sessions and check the five assertions M1 closes on. Not pure — it prints and writes a report — but deterministic: the same seed produces the same output, byte for byte."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[dependencies]
+# superb-core is the surface under test: plan, decide, and the public
+# effect/state types this crate reads back. No other engine access exists —
+# see src/oracle.rs and src/composer.rs for the one boundary this crate
+# enforces on itself (the oracle never reads theta, the due list, or word
+# states).
+superb-core = { path = "../superb-core" }
+# Already a workspace dependency of superb-core itself (BRIEF-008), not a
+# new one. Used for exactly one thing: reading tuning.toml's ADR-015
+# constants (coverage_decay, sourced_preference, min_sourced_coverage, the
+# affinity table) generically through Tuning's own already-authorized
+# `Serialize` impl (wire-roster.toml: "the simulator overrides tuning.toml
+# wholesale"), rather than through a new pub accessor on superb-core's
+# public API — see src/tuning_extract.rs's own doc comment for why.
+serde_json = { workspace = true }
+
+[[bin]]
+name = "superb-sim"
+path = "src/main.rs"

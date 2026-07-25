@@ -1,12 +1,43 @@
-//! θ, its standard error, and the pseudoword correction (BRIEF-010).
+//! θ, its standard error, and the pseudoword correction (BRIEF-010; the
+//! standard-error model replaced in BRIEF-014 round 2; the θ update itself
+//! replaced in BRIEF-014 round 3).
 //!
 //! `docs/engine-contract.md` §3 names `ThetaUpdated { theta, se }` as the
-//! ability effect and reserves `theta_update_rate` and the band offsets in
-//! `tuning.toml` for this module to spend. §4 defines the θ band the
-//! composer will one day select against: `[θ + band_low, θ + band_high]`.
-//! §5 states the two properties any implementation has to hold no matter
-//! how the arithmetic inside changes: θ stays bounded, and its standard
-//! error never widens across a session.
+//! ability effect and reserves the band offsets in `tuning.toml` for this
+//! module to spend. §4 defines the θ band the composer will one day select
+//! against: `[θ + band_low, θ + band_high]`. §5 states the two properties
+//! any implementation has to hold no matter how the arithmetic inside
+//! changes: θ stays bounded, and its standard error never widens across a
+//! session.
+//!
+//! **The standard error is derived from accumulated Fisher information, not
+//! stored and decayed.** BRIEF-014's simulator found the original model —
+//! `theta_se` multiplied by a fixed decay factor on every observation —
+//! satisfies "non-increasing" trivially, by construction, regardless of how
+//! informative any observation was, and reports a certainty (±0.00006 after
+//! sixty draws) no sequence of Bernoulli observations could justify. The fix
+//! is standard IRT: each real-word observation contributes
+//! `p * (1 - p)` of Fisher information, `p` being [`response_probability`]'s
+//! own expectation for that observation *before* θ moves — maximal (0.25)
+//! when an item sits exactly at the learner's current ability, vanishing as
+//! a claim becomes a foregone conclusion either way. Information only ever
+//! grows; `theta_se` is `1 / sqrt(total_information)`, computed fresh on
+//! every read from whatever total is current, never stored as a second
+//! number that could disagree with it.
+//!
+//! **θ itself now moves by Fisher scoring, the same information the
+//! standard error reads.** Round 2 fixed how uncertainty was *reported* and
+//! left how θ *moved* alone: a fixed-size step (`theta_update_rate` times
+//! the residual) toward each observation's residual, sized the same whether
+//! it was the first observation or the fiftieth. BRIEF-014 round 3's
+//! simulator found the two could not be reconciled — an estimate and its
+//! reported uncertainty must come from one mechanism, or the uncertainty is
+//! decoration. [`update_theta`] now divides the residual by the very total
+//! `theta_se` is about to be derived from: a large step while accumulated
+//! information is still thin, vanishing toward zero as it grows.
+//! `theta_update_rate` bought nothing this scheme still needs and is
+//! retired — from `tuning.toml`, from [`crate::tuning::Tuning`], and from
+//! its range check.
 //!
 //! What's here: [`update_theta`], the pure per-observation update that moves
 //! θ toward the evidence one `DeckSwipe` carries — a claim of "knew" or not,
@@ -31,11 +62,13 @@ use crate::tuning::Tuning;
 /// approximated.
 ///
 /// Boundary tier in `wire-roster.toml`, not durable: this type is never
-/// reachable from [`crate::LearnerState`]. `LearnerState.theta` and
-/// `.theta_se` are what this effect describes the host having just written
-/// there; the effect itself is only ever the host's cue to persist and
-/// re-render (engine-contract §3 — "effects are a description of what
-/// changed, not commands").
+/// reachable from [`crate::LearnerState`]. `LearnerState.theta` is what this
+/// effect's `theta` describes the host having just written there, and `se`
+/// describes what `LearnerState::theta_se` now reads back — derived from the
+/// `theta_information` the host actually wrote, not a second stored field;
+/// the effect itself is only ever the host's cue to persist and re-render
+/// (engine-contract §3 — "effects are a description of what changed, not
+/// commands").
 #[derive(Debug, Clone, Copy, PartialEq, Serialize)]
 pub struct ThetaUpdated {
     /// The learner's ability estimate after this observation.
@@ -46,19 +79,22 @@ pub struct ThetaUpdated {
 
 /// What [`update_theta`] decided.
 ///
-/// `theta` and `theta_se` are always equal to `effect.theta` and
-/// `effect.se` — both are exposed so a caller writing
-/// `LearnerState.theta` / `.theta_se` does not have to reach into the effect
-/// payload to get them (the same shape `scheduler::ScheduleDecision` uses
-/// for `due` / `interval_days` against `IntervalSet`).
+/// `theta` is always equal to `effect.theta`, and `effect.se` is always
+/// `1 / sqrt(theta_information)` — exposed as its own field so a caller
+/// writing `LearnerState`'s stored information does not have to reach into
+/// the effect payload to get it (the same shape `scheduler::ScheduleDecision`
+/// uses for `due` / `interval_days` against `IntervalSet`).
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct ThetaUpdate {
     /// The learner's ability estimate after this observation. Write this
     /// into `LearnerState.theta`.
     pub theta: f64,
-    /// θ's standard error after this observation. Write this into
-    /// `LearnerState.theta_se`.
-    pub theta_se: f64,
+    /// θ's accumulated Fisher information after this observation — always
+    /// greater than the input, evidence only ever adds. Write this into
+    /// `LearnerState`'s stored information
+    /// (`LearnerState::set_theta_and_information`); `effect.se` is derived
+    /// from this same number, not a second one to keep in sync.
+    pub theta_information: f64,
     /// The effect to persist and re-render (engine-contract §3).
     pub effect: ThetaUpdated,
 }
@@ -80,35 +116,50 @@ fn response_probability(theta: f64, difficulty: f64) -> f64 {
     1.0 / (1.0 + (-logit).exp())
 }
 
-/// Move θ and its standard error by one observation — one `DeckSwipe`'s
-/// worth of evidence (engine-contract §3).
+/// Move θ and its accumulated Fisher information by one observation — one
+/// `DeckSwipe`'s worth of evidence (engine-contract §3).
 ///
-/// Pure (engine-contract §1): `theta`, `theta_se`, `difficulty`, `knew`,
-/// `is_pseudoword`, and `tuning` are the whole input; nothing else is read
-/// and nothing is mutated in place.
+/// Pure (engine-contract §1): `theta`, `theta_information`, `difficulty`,
+/// `knew`, `is_pseudoword`, and `tuning` are the whole input; nothing else is
+/// read and nothing is mutated in place.
 ///
-/// **Real words** (`is_pseudoword` false) move θ by the response model
-/// (Done clause 2): the residual between the claim — `1.0` for "knew",
-/// `0.0` otherwise — and [`response_probability`]'s expectation, scaled by
-/// `tuning.theta_update_rate`. A correct claim on a hard item (high
+/// **Real words** (`is_pseudoword` false) move θ by Fisher scoring (Done
+/// clause 2; BRIEF-014 round 3): the residual between the claim — `1.0` for
+/// "knew", `0.0` otherwise — and [`response_probability`]'s expectation,
+/// divided by the total accumulated Fisher information this same
+/// observation is about to bring `theta_se` to (`sanitized_information +
+/// this observation's own p * (1 - p)`) — the same total, not a second one,
+/// so the step and the reported uncertainty can never disagree about how
+/// much evidence has arrived. A correct claim on a hard item (high
 /// `difficulty`, relative to `theta`) sits far below what the model already
-/// expected, so its residual — and its step — is larger than the same claim
-/// on an easy item, whose expectation was already close to certain. This
-/// asymmetry is the whole reason to run a response model instead of a
-/// running average (the brief's own framing).
+/// expected, so its residual is larger than the same claim on an easy item,
+/// whose expectation was already close to certain — that asymmetry is the
+/// whole reason to run a response model instead of a running average (the
+/// brief's own framing). Dividing by accumulated information adds a second
+/// asymmetry, across time rather than difficulty: a learner's first
+/// observation, with only `theta_prior_information` behind it, moves θ a
+/// long way on the same residual that the fiftieth — with forty-nine
+/// observations' worth of information already accumulated — moves it
+/// hardly at all. The same expectation also *is* the observation's Fisher
+/// information, `p * (1 - p)` — standard for a Bernoulli trial under a
+/// logistic model, and maximal (0.25) exactly when the item was most
+/// informative: at `p = 0.5`, an item pitched right at the learner's
+/// current ability, where the answer was least predictable in advance.
 ///
 /// **Pseudowords** (`is_pseudoword` true) do not exist, so there is no
 /// difficulty for one to be evaluated against — `difficulty` is ignored on
-/// this branch entirely. Claiming to know one (`knew` true) is over-claiming
-/// by definition and steps θ down by `tuning.pseudoword_penalty` (Done
-/// clause 5): folded into this same per-observation call rather than a
-/// second event a caller could forget to send, so a session where a learner
-/// over-claims on pseudowords accumulates the correction one observation at
-/// a time, without this function or its caller ever having to compute a
-/// session-wide claim rate. Honestly saying "don't know" to a pseudoword is
-/// the expected response and moves θ by nothing — there is nothing to
-/// correct for and nothing to reward, since a pseudoword carries no real
-/// vocabulary evidence either way.
+/// this branch entirely, and so is the response model: there is no `p` to
+/// compute a Fisher information from, so a pseudoword observation
+/// contributes none. Claiming to know one (`knew` true) is over-claiming by
+/// definition and steps θ down by `tuning.pseudoword_penalty` (Done clause
+/// 5): folded into this same per-observation call rather than a second event
+/// a caller could forget to send, so a session where a learner over-claims
+/// on pseudowords accumulates the correction one observation at a time,
+/// without this function or its caller ever having to compute a session-wide
+/// claim rate. Honestly saying "don't know" to a pseudoword is the expected
+/// response and moves θ by nothing — there is nothing to correct for and
+/// nothing to reward, since a pseudoword carries no real vocabulary evidence
+/// either way.
 ///
 /// **θ is clamped last**, to `[tuning.theta_min, tuning.theta_max]`, with
 /// `f64::max` then `f64::min` rather than a branch — both return their
@@ -118,47 +169,67 @@ fn response_probability(theta: f64, difficulty: f64) -> f64 {
 /// bound instead of propagating (Done clause 8: θ never becomes `NaN` or
 /// infinite).
 ///
-/// **The standard error only ever shrinks** (Done clause 4; engine-contract
-/// §5). `theta_se` is sanitized first — a `NaN`, negative, or infinite input
-/// collapses to `0.0`, already the tightest a standard error can be — then
-/// multiplied by `1.0 - tuning.theta_update_rate`, a factor
-/// `Tuning::from_toml_str` has already checked is strictly between 0 and 1.
-/// Multiplying a non-negative number by a factor strictly between 0 and 1
-/// can only shrink it, or, at `theta_se == 0.0`, hold it there — never widen
-/// it, on either the real-word or the pseudoword branch, and independent of
-/// how informative this particular observation was: the arithmetic this
-/// brief is scoped to is deliberately this simple (the brief's own
-/// constraint — no `statrs`, no `nalgebra` — rules out an
-/// information-weighted shrinkage that would need one to get right).
+/// **Accumulated information only ever grows** (Done clause 4;
+/// engine-contract §5's amendment), so the derived standard error is
+/// non-increasing for the reason engine-contract §5 now states explicitly:
+/// evidence arrived. `theta_information` is sanitized first — a `NaN`,
+/// non-positive, or infinite input falls back to `tuning.theta_prior_information`
+/// rather than to `0.0`: the old model's floor was the tightest a *stored*
+/// standard error could legally be, but here `0.0` is the one value that
+/// would make the *derived* standard error infinite, so the sanitized floor
+/// is instead the same starting point a brand-new learner gets
+/// (`LearnerState::new`, seeded from that same constant) — adversarial or
+/// corrupted input is treated as "no evidence yet," never as "unlimited
+/// evidence." The observation's own information (`0.0` for a pseudoword,
+/// `p * (1 - p)` for a real word, both never negative) is added on top, and
+/// `theta_se` is recomputed fresh from that new total — `1 / sqrt(total)` —
+/// rather than decayed independently of it, so there is exactly one number
+/// this function can disagree with itself about.
 pub fn update_theta(
     theta: f64,
-    theta_se: f64,
+    theta_information: f64,
     difficulty: f64,
     knew: bool,
     is_pseudoword: bool,
     tuning: &Tuning,
 ) -> ThetaUpdate {
-    let delta = if is_pseudoword {
-        if knew {
+    let sanitized_information = if theta_information.is_finite() && theta_information > 0.0 {
+        theta_information
+    } else {
+        tuning.theta_prior_information
+    };
+
+    let (delta, observation_information) = if is_pseudoword {
+        let delta = if knew {
             -tuning.pseudoword_penalty
         } else {
             0.0
-        }
+        };
+        (delta, 0.0)
     } else {
         let claim = if knew { 1.0 } else { 0.0 };
         let expected = response_probability(theta, difficulty);
-        tuning.theta_update_rate * (claim - expected)
+        let score = claim - expected;
+        let information = (expected * (1.0 - expected)).max(0.0);
+        // Fisher scoring: the step is the score divided by the total
+        // information the observation itself is about to bring the
+        // estimate to — the same total `theta_se` below is derived from,
+        // never a second number that could disagree with it. Early on,
+        // `sanitized_information` sits at (or near) `theta_prior_information`
+        // and the step is large; by the fiftieth observation the
+        // denominator has grown and the same-sized residual moves θ very
+        // little. `sanitized_information` is always strictly positive
+        // (the floor just above), so this division can never blow up from
+        // a near-zero denominator.
+        let delta = score / (sanitized_information + information);
+        (delta, information)
     };
 
     let raw_theta = theta + delta;
     let new_theta = raw_theta.max(tuning.theta_min).min(tuning.theta_max);
 
-    let sanitized_se = if theta_se.is_finite() {
-        theta_se.max(0.0)
-    } else {
-        0.0
-    };
-    let new_se = sanitized_se * (1.0 - tuning.theta_update_rate);
+    let new_information = sanitized_information + observation_information;
+    let new_se = 1.0 / new_information.sqrt();
 
     let effect = ThetaUpdated {
         theta: new_theta,
@@ -167,7 +238,7 @@ pub fn update_theta(
 
     ThetaUpdate {
         theta: new_theta,
-        theta_se: new_se,
+        theta_information: new_information,
         effect,
     }
 }
@@ -194,10 +265,10 @@ mod tests {
     fn correct_claim_moves_theta_more_on_a_hard_item_than_an_easy_one() {
         let tuning = Tuning::default();
         let theta = 0.0;
-        let se = 1.0;
+        let information = 1.0;
 
-        let hard = update_theta(theta, se, theta + 3.0, true, false, &tuning);
-        let easy = update_theta(theta, se, theta - 3.0, true, false, &tuning);
+        let hard = update_theta(theta, information, theta + 3.0, true, false, &tuning);
+        let easy = update_theta(theta, information, theta - 3.0, true, false, &tuning);
 
         let hard_step = hard.theta - theta;
         let easy_step = easy.theta - theta;
@@ -213,6 +284,65 @@ mod tests {
         );
     }
 
+    /// BRIEF-014 round 3's whole point: Fisher scoring means the step for an
+    /// *identical* residual shrinks as accumulated information grows, so an
+    /// early observation moves θ further than a later one does, even with
+    /// the same claim against the same difficulty (`docs/engine-contract.md`
+    /// §5's amendment — "the estimate and its reported uncertainty must be
+    /// produced by the same mechanism").
+    #[test]
+    fn a_correct_claim_moves_theta_less_once_more_information_has_accumulated() {
+        let tuning = Tuning::default();
+        let theta = 0.0;
+        let difficulty = 0.0;
+
+        let early = update_theta(
+            theta,
+            tuning.theta_prior_information,
+            difficulty,
+            true,
+            false,
+            &tuning,
+        );
+        let later = update_theta(theta, 50.0, difficulty, true, false, &tuning);
+
+        let early_step = early.theta - theta;
+        let later_step = later.theta - theta;
+
+        assert!(
+            early_step > 0.0 && later_step > 0.0,
+            "a correct claim should move θ up regardless of how much information has \
+             accumulated: early {early_step}, later {later_step}"
+        );
+        assert!(
+            early_step > later_step,
+            "the same claim against the same item should move θ less once more information \
+             has accumulated: early {early_step}, later {later_step}"
+        );
+    }
+
+    /// Fisher scoring's numerator and the derived standard error's
+    /// denominator read the same accumulated-information total — the rule
+    /// engine-contract §5's round-3 amendment states: an estimate and its
+    /// reported uncertainty come from one mechanism, not two that could
+    /// disagree.
+    #[test]
+    fn theta_step_and_the_derived_standard_error_read_the_same_accumulated_information() {
+        let tuning = Tuning::default();
+        let theta = 0.0;
+        let starting_information = 3.0;
+
+        let update = update_theta(theta, starting_information, 0.5, true, false, &tuning);
+
+        let expected = response_probability(theta, 0.5);
+        let observation_information = expected * (1.0 - expected);
+        let total_information = starting_information + observation_information;
+        let expected_step = (1.0 - expected) / total_information;
+
+        assert!((update.theta - theta - expected_step).abs() < 1e-12);
+        assert!((update.effect.se - 1.0 / total_information.sqrt()).abs() < 1e-12);
+    }
+
     /// Done clause 3 / 8: one hundred consecutive identical claims in the
     /// same direction is the only way to reach the clamp — an extremely hard
     /// item claimed known, over and over, walks θ straight to `theta_max`
@@ -222,11 +352,18 @@ mod tests {
      {
         let tuning = Tuning::default();
         let mut theta = 0.0;
-        let se = 1.0;
+        let information = 1.0;
         let extremely_hard_difficulty = 1000.0;
 
         for step in 0..100 {
-            let update = update_theta(theta, se, extremely_hard_difficulty, true, false, &tuning);
+            let update = update_theta(
+                theta,
+                information,
+                extremely_hard_difficulty,
+                true,
+                false,
+                &tuning,
+            );
             assert!(
                 update.theta <= tuning.theta_max,
                 "step {step}: θ {} exceeded theta_max {}",
@@ -246,10 +383,10 @@ mod tests {
     fn theta_clamps_at_theta_min_after_one_hundred_consecutive_pseudoword_overclaims() {
         let tuning = Tuning::default();
         let mut theta = 0.0;
-        let se = 1.0;
+        let information = 1.0;
 
         for step in 0..100 {
-            let update = update_theta(theta, se, 0.0, true, true, &tuning);
+            let update = update_theta(theta, information, 0.0, true, true, &tuning);
             assert!(
                 update.theta >= tuning.theta_min,
                 "step {step}: θ {} fell below theta_min {}",
@@ -285,9 +422,9 @@ mod tests {
         ];
 
         let mut overclaimer_theta = 0.0;
-        let mut overclaimer_se = 1.0;
+        let mut overclaimer_information = 1.0;
         let mut honest_theta = 0.0;
-        let mut honest_se = 1.0;
+        let mut honest_information = 1.0;
 
         for (difficulty, is_pseudoword) in items {
             // The over-claimer says "knew" to everything, real or not. The
@@ -298,25 +435,25 @@ mod tests {
 
             let overclaimer_update = update_theta(
                 overclaimer_theta,
-                overclaimer_se,
+                overclaimer_information,
                 difficulty,
                 overclaimer_knew,
                 is_pseudoword,
                 &tuning,
             );
             overclaimer_theta = overclaimer_update.theta;
-            overclaimer_se = overclaimer_update.theta_se;
+            overclaimer_information = overclaimer_update.theta_information;
 
             let honest_update = update_theta(
                 honest_theta,
-                honest_se,
+                honest_information,
                 difficulty,
                 honest_knew,
                 is_pseudoword,
                 &tuning,
             );
             honest_theta = honest_update.theta;
-            honest_se = honest_update.theta_se;
+            honest_information = honest_update.theta_information;
         }
 
         assert!(
@@ -327,30 +464,84 @@ mod tests {
     }
 
     /// Honestly rejecting a pseudoword is the expected response and moves θ
-    /// by nothing — only the standard-error shrink (shared by every
-    /// observation) changes it.
+    /// by nothing. It also carries no Fisher information — a pseudoword has
+    /// no response model to compute one from — so only the sanitize floor
+    /// (shared by every observation) is what `theta_information` reflects.
     #[test]
     fn honest_pseudoword_rejection_does_not_move_theta() {
         let tuning = Tuning::default();
         let theta = 0.3;
-        let se = 1.0;
+        let information = 1.0;
 
-        let update = update_theta(theta, se, 0.0, false, true, &tuning);
+        let update = update_theta(theta, information, 0.0, false, true, &tuning);
 
         assert_eq!(update.theta, theta);
+        assert_eq!(update.theta_information, information);
     }
 
-    /// Done clause 4 / engine-contract §5: the standard error never widens,
-    /// checked at the boundary the Verifier names explicitly — a session
-    /// that starts with `se` already at zero holds it there rather than
-    /// somehow producing a positive one.
+    /// Done clause 4 / engine-contract §5's amendment: accumulated
+    /// information only ever grows, checked across both branches —
+    /// pseudowords contribute `0.0` (still non-negative, so information
+    /// never *falls*) and real words contribute `p * (1 - p)`, which is
+    /// exactly zero only at the extremes and otherwise strictly positive.
     #[test]
-    fn standard_error_already_at_zero_stays_at_zero() {
+    fn accumulated_information_never_decreases_on_either_branch() {
+        let tuning = Tuning::default();
+        let starting_information = 2.0;
+
+        let real = update_theta(0.0, starting_information, 0.0, true, false, &tuning);
+        assert!(real.theta_information >= starting_information);
+
+        let pseudoword_claimed = update_theta(0.0, starting_information, 0.0, true, true, &tuning);
+        assert_eq!(pseudoword_claimed.theta_information, starting_information);
+
+        let pseudoword_rejected =
+            update_theta(0.0, starting_information, 0.0, false, true, &tuning);
+        assert_eq!(pseudoword_rejected.theta_information, starting_information);
+    }
+
+    /// The engine-contract §5 amendment's own worked number: an item pitched
+    /// exactly at the learner's current ability (`difficulty == theta`) has
+    /// response probability `0.5`, so its Fisher information is
+    /// `0.5 * 0.5 == 0.25` — the maximum a single observation can contribute,
+    /// added on top of whatever information the learner already carried.
+    #[test]
+    fn an_item_at_the_learners_own_ability_contributes_a_quarter_of_information() {
+        let tuning = Tuning::default();
+        let theta = 0.7;
+        let starting_information = tuning.theta_prior_information;
+
+        let update = update_theta(theta, starting_information, theta, true, false, &tuning);
+
+        assert!(
+            (update.theta_information - (starting_information + 0.25)).abs() < 1e-9,
+            "expected information {}, got {}",
+            starting_information + 0.25,
+            update.theta_information
+        );
+    }
+
+    /// Done clause 4 / engine-contract §5: a `theta_information` a caller
+    /// could not legitimately have produced — `NaN`, negative, or zero —
+    /// is sanitized to `tuning.theta_prior_information`, the same starting
+    /// point a brand-new learner gets, never to `0.0` (which would make the
+    /// derived standard error infinite before this call even adds its own
+    /// observation).
+    #[test]
+    fn non_finite_or_non_positive_information_input_falls_back_to_the_prior_floor() {
         let tuning = Tuning::default();
 
-        let update = update_theta(0.0, 0.0, 0.0, true, false, &tuning);
-
-        assert_eq!(update.theta_se, 0.0);
+        for adversarial in [f64::NAN, f64::INFINITY, f64::NEG_INFINITY, -1.0, 0.0] {
+            // A pseudoword rejection contributes no observation information,
+            // so the output is exactly the sanitized floor with nothing
+            // added — the cleanest read of what the sanitize step alone did.
+            let update = update_theta(0.0, adversarial, 0.0, false, true, &tuning);
+            assert_eq!(
+                update.theta_information, tuning.theta_prior_information,
+                "adversarial input {adversarial} did not fall back to the prior floor"
+            );
+            assert!(update.effect.se.is_finite());
+        }
     }
 
     /// Done clause 7: the band's width is exactly `band_high - band_low`
@@ -405,6 +596,10 @@ mod tests {
                 );
                 assert!(update.theta >= tuning.theta_min);
                 assert!(update.theta <= tuning.theta_max);
+                assert!(
+                    update.effect.se.is_finite(),
+                    "difficulty {difficulty}, knew {knew}: se was not finite"
+                );
             }
         }
     }

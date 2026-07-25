@@ -4,7 +4,7 @@
   "seed": 20260722,
   "draw_count": 214,
   "theta": 0.35,
-  "theta_se": 0.18,
+  "theta_information": 30.0,
   "words": {
     "aperture": {
       "state": "SEEDED",

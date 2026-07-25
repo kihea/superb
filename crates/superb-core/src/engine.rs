@@ -10,7 +10,7 @@
 //! in this crate mutates a [`LearnerState`]** (engine-contract §1 law 6):
 //! [`decide`] is the only function that does, and it does so through the
 //! same validating mutators every other module already exposed —
-//! [`WordRecord::set_due_and_interval`], [`LearnerState::set_theta_and_se`],
+//! [`WordRecord::set_due_and_interval`], [`LearnerState::set_theta_and_information`],
 //! [`WordState::apply`] — never around them.
 //!
 //! **What this module wires, read off `src/state.rs`'s own doc comments
@@ -219,7 +219,7 @@ pub fn plan(_learner: &LearnerState, request: &Request, _now: Timestamp) -> Need
 /// (engine-contract §1 law 6), and it does so only through the mutators
 /// each field's own module already validates with:
 /// [`WordState::apply`], [`WordRecord::set_due_and_interval`], and
-/// [`LearnerState::set_theta_and_se`].
+/// [`LearnerState::set_theta_and_information`].
 pub fn decide(
     learner: &mut LearnerState,
     request: Request,
@@ -573,15 +573,18 @@ fn decide_deck_swipe(
 
     let update: ThetaUpdate = ability::update_theta(
         learner.theta(),
-        learner.theta_se(),
+        learner.theta_information(),
         difficulty,
         knew,
         is_pseudoword,
         ctx.tuning,
     );
     learner
-        .set_theta_and_se(update.theta, update.theta_se, ctx.tuning)
-        .expect("update_theta always produces a theta and theta_se set_theta_and_se accepts");
+        .set_theta_and_information(update.theta, update.theta_information, ctx.tuning)
+        .expect(
+            "update_theta always produces a theta and theta_information \
+             set_theta_and_information accepts",
+        );
 
     effects.push(Effect::ThetaUpdated {
         theta: update.effect.theta,

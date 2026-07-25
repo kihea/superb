@@ -241,8 +241,8 @@ mod tests {
 /// At v1: the seed and draw counter that make every random draw this
 /// learner has ever received explicit and replayable (purity law 2 — the
 /// core never owns an RNG; a draw is a counter advancing in state, not a
-/// call to one), θ and its standard error, one record per word the learner
-/// has met, and an affinity per topic.
+/// call to one), θ and the accumulated Fisher information behind it, one
+/// record per word the learner has met, and an affinity per topic.
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(deny_unknown_fields)]
 pub struct LearnerState {
@@ -265,14 +265,23 @@ pub struct LearnerState {
     /// [`LearnerState::theta`] to read it and
     /// [`LearnerState::set_theta_and_se`] for the one way to change it.
     theta: f64,
-    /// θ's standard error.
+    /// θ's accumulated Fisher information — how much evidence has sharpened
+    /// this estimate, not the uncertainty itself. `theta_se()` derives the
+    /// standard error from this on every read, as `1 / sqrt(theta_information)`,
+    /// rather than this crate storing both: two fields that must agree by
+    /// construction are two fields that can silently disagree, and a stored
+    /// `theta_se` that decayed by a constant factor on every observation
+    /// (independent of this same total) was exactly that disagreement —
+    /// engine-contract §5's amendment (BRIEF-014 round 2) closes it by
+    /// keeping only the one number that is actually evidence.
     ///
     /// Private to this module for the same reason as `theta`: the
     /// non-increasing property [`crate::ability::update_theta`] maintains
     /// (engine-contract §5) is a guarantee a public field lets a caller
-    /// write around. See [`LearnerState::theta_se`] and
-    /// [`LearnerState::set_theta_and_se`].
-    theta_se: f64,
+    /// write around. See [`LearnerState::theta_information`],
+    /// [`LearnerState::theta_se`], and
+    /// [`LearnerState::set_theta_and_information`].
+    theta_information: f64,
     /// Word id (opaque to this crate) to that word's record.
     pub words: BTreeMap<String, WordRecord>,
     /// Topic id (opaque to this crate) to the learner's affinity for it.
@@ -362,27 +371,29 @@ impl fmt::Display for LoadError {
 
 impl core::error::Error for LoadError {}
 
-/// Why [`LearnerState::set_theta_and_se`] refused to write θ and its
-/// standard error (docs/engine-contract.md law 6).
+/// Why [`LearnerState::set_theta_and_information`] refused to write θ and
+/// its accumulated Fisher information (docs/engine-contract.md law 6).
 ///
 /// One variant per boundary the mutator checks, so a failing test — or a
 /// caller — can assert on exactly what was refused rather than on "it
 /// errored." Neither case is silently repaired here: `theta` is already
-/// clamped once, inside [`crate::ability::update_theta`], and `theta_se` is
-/// already kept non-increasing there; a second, silent clamp or floor at
-/// this boundary would hide a caller's bug — a value that did not come from
-/// `update_theta` — instead of reporting it.
+/// clamped once, inside [`crate::ability::update_theta`], and
+/// `theta_information` is already kept positive and non-decreasing there; a
+/// second, silent clamp or floor at this boundary would hide a caller's bug
+/// — a value that did not come from `update_theta` — instead of reporting
+/// it.
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub enum SetThetaError {
     /// `theta` was outside `[min, max]`, or was not finite (including
     /// `NaN`, which compares false against every bound and would otherwise
     /// slip through a plain `<`/`>` check).
     ThetaOutOfRange { theta: f64, min: f64, max: f64 },
-    /// `theta_se` was negative, or was not finite — a standard error this
-    /// crate maintains is never negative and never widens
-    /// (engine-contract §5), so either means the value did not come from
-    /// [`crate::ability::update_theta`].
-    StandardErrorNotNonNegative { theta_se: f64 },
+    /// `theta_information` was not strictly positive, or was not finite —
+    /// this crate's own derived standard error is `1 / sqrt(theta_information)`,
+    /// so a non-positive or non-finite value here would make that division
+    /// undefined or infinite, which no accumulated evidence
+    /// [`crate::ability::update_theta`] produces ever is.
+    InformationNotPositive { theta_information: f64 },
 }
 
 impl fmt::Display for SetThetaError {
@@ -391,8 +402,11 @@ impl fmt::Display for SetThetaError {
             SetThetaError::ThetaOutOfRange { theta, min, max } => {
                 write!(f, "theta {theta} is outside [{min}, {max}]")
             }
-            SetThetaError::StandardErrorNotNonNegative { theta_se } => {
-                write!(f, "theta_se {theta_se} is not non-negative")
+            SetThetaError::InformationNotPositive { theta_information } => {
+                write!(
+                    f,
+                    "theta_information {theta_information} is not strictly positive"
+                )
             }
         }
     }
@@ -404,21 +418,24 @@ impl LearnerState {
     /// Build a `LearnerState` from its whole content at once — the same
     /// shape [`WordRecord::new`] takes, for the same reason: every field is
     /// a parameter, so nothing is ever assembled with `theta` written and
-    /// `theta_se` left stale, or the reverse.
+    /// `theta_information` left stale, or the reverse.
     ///
     /// This does not range-check `theta` against `tuning.theta_min` /
-    /// `theta_max` — building a whole learner history by hand (a test, a
-    /// simulator seeding a synthetic learner) is not the boundary
-    /// docs/engine-contract.md law 6 is about; the guarantee that matters is
-    /// that nothing can change `theta` or `theta_se` on a `LearnerState`
-    /// that already exists except through
-    /// [`LearnerState::set_theta_and_se`]. See that method for the one call
-    /// that does validate.
+    /// `theta_max`, nor `theta_information` for strict positivity — building
+    /// a whole learner history by hand (a test, a simulator seeding a
+    /// synthetic learner) is not the boundary docs/engine-contract.md law 6
+    /// is about; the guarantee that matters is that nothing can change
+    /// `theta` or `theta_information` on a `LearnerState` that already
+    /// exists except through [`LearnerState::set_theta_and_information`]. See
+    /// that method for the one call that does validate. A caller building a
+    /// genuinely fresh learner should pass `tuning.theta_prior_information()`
+    /// here — the constant that exists expressly so a brand-new estimate is
+    /// never mistaken for a certain one.
     pub fn new(
         seed: u64,
         draw_count: u64,
         theta: f64,
-        theta_se: f64,
+        theta_information: f64,
         words: BTreeMap<String, WordRecord>,
         topic_affinities: BTreeMap<String, f64>,
     ) -> Self {
@@ -426,41 +443,54 @@ impl LearnerState {
             seed,
             draw_count,
             theta,
-            theta_se,
+            theta_information,
             words,
             topic_affinities,
         }
     }
 
     /// The learner's current ability estimate. Read-only outside this
-    /// module — see [`LearnerState::set_theta_and_se`] to change it.
+    /// module — see [`LearnerState::set_theta_and_information`] to change
+    /// it.
     pub fn theta(&self) -> f64 {
         self.theta
     }
 
-    /// θ's current standard error. Read-only outside this module — see
-    /// [`LearnerState::set_theta_and_se`] to change it.
-    pub fn theta_se(&self) -> f64 {
-        self.theta_se
+    /// θ's raw accumulated Fisher information — how much evidence
+    /// [`crate::ability::update_theta`] has folded into this estimate so
+    /// far. Read-only outside this module; most callers want
+    /// [`LearnerState::theta_se`] instead. See
+    /// [`LearnerState::set_theta_and_information`] to change it.
+    pub fn theta_information(&self) -> f64 {
+        self.theta_information
     }
 
-    /// The one way to change `theta` or `theta_se` after a `LearnerState` is
-    /// built. Validates rather than clamps (docs/engine-contract.md law 6):
-    /// `theta` must already lie in `[tuning.theta_min, tuning.theta_max]`
-    /// and `theta_se` must already be non-negative and finite, or this
-    /// returns a [`SetThetaError`] and writes nothing — both fields are left
-    /// exactly as they were.
+    /// θ's standard error, derived on every read as
+    /// `1 / sqrt(theta_information)` (engine-contract §5's amendment,
+    /// BRIEF-014 round 2) — never stored as its own field, so there is
+    /// nothing here that can disagree with `theta_information`.
+    pub fn theta_se(&self) -> f64 {
+        1.0 / self.theta_information.sqrt()
+    }
+
+    /// The one way to change `theta` or `theta_information` after a
+    /// `LearnerState` is built. Validates rather than clamps
+    /// (docs/engine-contract.md law 6): `theta` must already lie in
+    /// `[tuning.theta_min, tuning.theta_max]` and `theta_information` must
+    /// already be strictly positive and finite, or this returns a
+    /// [`SetThetaError`] and writes nothing — both fields are left exactly
+    /// as they were.
     ///
     /// [`crate::ability::update_theta`] always produces values that satisfy
     /// both checks, so its caller writing `ThetaUpdate::theta` and
-    /// `ThetaUpdate::theta_se` straight back through this method never sees
-    /// an error in practice; the error exists for the caller who did not go
-    /// through `update_theta` at all, which this method is the one place
-    /// that can still catch.
-    pub fn set_theta_and_se(
+    /// `ThetaUpdate::theta_information` straight back through this method
+    /// never sees an error in practice; the error exists for the caller who
+    /// did not go through `update_theta` at all, which this method is the
+    /// one place that can still catch.
+    pub fn set_theta_and_information(
         &mut self,
         theta: f64,
-        theta_se: f64,
+        theta_information: f64,
         tuning: &Tuning,
     ) -> Result<(), SetThetaError> {
         if !theta.is_finite() || theta < tuning.theta_min || theta > tuning.theta_max {
@@ -470,12 +500,12 @@ impl LearnerState {
                 max: tuning.theta_max,
             });
         }
-        if !theta_se.is_finite() || theta_se < 0.0 {
-            return Err(SetThetaError::StandardErrorNotNonNegative { theta_se });
+        if !theta_information.is_finite() || theta_information <= 0.0 {
+            return Err(SetThetaError::InformationNotPositive { theta_information });
         }
 
         self.theta = theta;
-        self.theta_se = theta_se;
+        self.theta_information = theta_information;
         Ok(())
     }
 
@@ -538,32 +568,35 @@ mod theta_privacy_tests {
     use std::collections::BTreeMap;
 
     /// docs/engine-contract.md law 6: the accessors must read back exactly
-    /// what `set_theta_and_se` wrote, together, in one call — the same call
-    /// that is now the only way to change either field.
+    /// what `set_theta_and_information` wrote, together, in one call — the
+    /// same call that is now the only way to change either field. `theta_se`
+    /// is checked too, derived from the same write rather than a second one.
     #[test]
-    fn accessors_agree_with_what_set_theta_and_se_wrote() {
+    fn accessors_agree_with_what_set_theta_and_information_wrote() {
         let tuning = Tuning::default();
         let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
         assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_information(), 1.0);
         assert_eq!(state.theta_se(), 1.0);
 
         state
-            .set_theta_and_se(0.42, 0.18, &tuning)
-            .expect("0.42 is inside the shipped theta range and 0.18 is non-negative");
+            .set_theta_and_information(0.42, 4.0, &tuning)
+            .expect("0.42 is inside the shipped theta range and 4.0 is strictly positive");
 
         assert_eq!(state.theta(), 0.42);
-        assert_eq!(state.theta_se(), 0.18);
+        assert_eq!(state.theta_information(), 4.0);
+        assert_eq!(state.theta_se(), 0.5);
     }
 
     /// The mutator refuses an out-of-band θ rather than clamping it
     /// silently — `update_theta` already clamps once, and a second silent
     /// clamp here would hide a caller's bug instead of reporting it.
     #[test]
-    fn set_theta_and_se_rejects_an_out_of_band_theta() {
+    fn set_theta_and_information_rejects_an_out_of_band_theta() {
         let tuning = Tuning::default();
         let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
 
-        let result = state.set_theta_and_se(500.0, 1.0, &tuning);
+        let result = state.set_theta_and_information(500.0, 1.0, &tuning);
 
         assert_eq!(
             result,
@@ -575,22 +608,33 @@ mod theta_privacy_tests {
         );
         // Refused, so nothing was written.
         assert_eq!(state.theta(), 0.0);
-        assert_eq!(state.theta_se(), 1.0);
+        assert_eq!(state.theta_information(), 1.0);
     }
 
-    /// The same refusal, for a negative standard error.
+    /// The same refusal, for a non-positive accumulated information — the
+    /// value that would make the derived `theta_se` undefined or infinite.
     #[test]
-    fn set_theta_and_se_rejects_a_negative_standard_error() {
+    fn set_theta_and_information_rejects_a_non_positive_information() {
         let tuning = Tuning::default();
         let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
 
-        let result = state.set_theta_and_se(0.0, -0.5, &tuning);
+        let result = state.set_theta_and_information(0.0, -0.5, &tuning);
 
         assert_eq!(
             result,
-            Err(SetThetaError::StandardErrorNotNonNegative { theta_se: -0.5 })
+            Err(SetThetaError::InformationNotPositive {
+                theta_information: -0.5
+            })
         );
         assert_eq!(state.theta(), 0.0);
-        assert_eq!(state.theta_se(), 1.0);
+        assert_eq!(state.theta_information(), 1.0);
+
+        let zero_result = state.set_theta_and_information(0.0, 0.0, &tuning);
+        assert_eq!(
+            zero_result,
+            Err(SetThetaError::InformationNotPositive {
+                theta_information: 0.0
+            })
+        );
     }
 }
