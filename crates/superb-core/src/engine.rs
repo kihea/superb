@@ -60,10 +60,24 @@
 //! against a future reader; if one arrives, its definition comes from that
 //! reader, not from this brief's guess.
 //!
+//! **The probe path, wired.** [`maybe_probe_eligible`] constructs
+//! [`Effect::ProbeEligible`] the moment a word crosses `Learning ->
+//! Consolidating` ([`Transition::Consolidated`]) — the instant the
+//! schedule's own confidence in a word crosses from "still teaching" to
+//! "believes it is understood," which is exactly the claim a probe (active
+//! recall, engine-contract §3's strongest signal in either direction) exists
+//! to check before the schedule starts trusting it with wider intervals.
+//! Not `Transition::Automated`: by then the word has already survived
+//! `encounter_target` distinct clean contexts, a stronger claim than one
+//! probe would add. Not `Transition::LearningBegun`: the schedule is still
+//! teaching, not yet claiming mastery to verify. See
+//! [`maybe_probe_eligible`]'s own doc comment for why `probe_frequency_cap`
+//! is enforced per `decide` call rather than across a host session — the
+//! event stream has no event marking a session boundary, so that half of the
+//! cap is necessarily the host's to keep.
+//!
 //! **What this module still deliberately does not decide.** Nothing here
-//! ever constructs [`Effect::ProbeEligible`]: no function this crate has
-//! built decides probe eligibility. Nothing here updates
-//! `LearnerState::topic_affinities` from a `PassageAbandoned`:
+//! updates `LearnerState::topic_affinities` from a `PassageAbandoned`:
 //! engine-contract §3 promises one, but no event payload names which topic a
 //! passage belongs to, or by how much — ratified as a known gap by this
 //! brief's round 2, not debt.
@@ -177,9 +191,9 @@ pub enum Frame {
 /// `ContextFrameLogged` — the names and payloads are a public contract, not
 /// a naming preference.
 ///
-/// Every variant but one is constructed in this brief; [`Effect::ProbeEligible`]
-/// is declared for the contract's sake and is never constructed here — see
-/// this module's own doc comment and the brief's `UNRESOLVED`.
+/// Every variant is constructed somewhere in this crate — see this module's
+/// own doc comment for [`Effect::ProbeEligible`]'s own construction site
+/// ([`maybe_probe_eligible`]), the last one to be wired.
 #[derive(Debug, Clone, PartialEq, Serialize)]
 pub enum Effect {
     /// From the state machine (`crate::state::WordState::apply`): a word
@@ -208,7 +222,8 @@ pub enum Effect {
         /// θ's standard error after this observation.
         se: f64,
     },
-    /// Never constructed in this brief — see this type's own doc comment.
+    /// Constructed by [`maybe_probe_eligible`] the moment a word crosses
+    /// `Learning -> Consolidating` — see this module's own doc comment.
     ProbeEligible {
         /// The word that would be eligible.
         word: String,
@@ -635,6 +650,41 @@ fn advance_progression(
             _ => return,
         };
         apply_transition(learner, word, transition, effects);
+        if transition == Transition::Consolidated {
+            maybe_probe_eligible(word, tuning, effects);
+        }
+    }
+}
+
+/// Nominate `word` for a probe the moment it crosses `Learning ->
+/// Consolidating` — see this module's own doc comment for why that
+/// transition and no other.
+///
+/// **Why `probe_frequency_cap` is enforced here, per `decide` call, rather
+/// than across a host "session."** `docs/engine-contract.md` §3's event
+/// stream has no event that marks a session boundary — the host is the only
+/// party that knows when a sitting starts or ends, so a true cross-passage
+/// session cap needs either a new event (a contract change) or host-side
+/// bookkeeping the engine cannot see. What this crate *can* own, purely and
+/// statelessly (engine-contract §1: no clock, no hidden knowledge), is not
+/// letting one `decide` call propose more interruption than the cap allows
+/// in one go — a `PassageFinished` that happens to graduate several words
+/// through `Consolidating` in the same breath should not surface a probe for
+/// every one of them. Counting `effects` itself rather than adding new
+/// `LearnerState` is deliberate: the cap is a property of *this call's*
+/// output, not of the reader's history, so nothing needs to be persisted or
+/// migrated to enforce it. A host still owns pacing probes across a longer
+/// sitting; this is the part of the cap the engine can enforce without
+/// inventing session state it has no way to observe.
+fn maybe_probe_eligible(word: &str, tuning: &Tuning, effects: &mut Vec<Effect>) {
+    let already_proposed = effects
+        .iter()
+        .filter(|effect| matches!(effect, Effect::ProbeEligible { .. }))
+        .count();
+    if (already_proposed as u32) < tuning.probe_frequency_cap {
+        effects.push(Effect::ProbeEligible {
+            word: word.to_string(),
+        });
     }
 }
 
@@ -982,5 +1032,123 @@ mod progression_tests {
             outcome.effects
         );
         assert_eq!(learner.words["w"].state, WordState::Learning);
+    }
+
+    /// The `Learning -> Consolidating` edge is exactly where
+    /// [`maybe_probe_eligible`] fires — the moment worth checking with active
+    /// recall, per this module's own doc comment. `ProbeEligible` comes right
+    /// after the `WordStateChanged` it rides on, not before or detached from
+    /// it.
+    #[test]
+    fn crossing_into_consolidating_makes_the_word_probe_eligible() {
+        let tuning = Tuning::default();
+        let mut learner = learner_with_word(
+            WordState::Learning,
+            vec![clean("p1"), clean("p2"), clean("p3")],
+        );
+
+        let outcome = finish_passage(&mut learner, "p4", &tuning);
+
+        let state_changed_at = outcome
+            .effects
+            .iter()
+            .position(|effect| matches!(effect, Effect::WordStateChanged { .. }))
+            .expect("the word crosses Learning -> Consolidating here");
+        assert_eq!(
+            outcome.effects.get(state_changed_at + 1),
+            Some(&Effect::ProbeEligible {
+                word: "w".to_string()
+            }),
+            "ProbeEligible should follow the transition it rides on: {:?}",
+            outcome.effects
+        );
+    }
+
+    /// Crossing straight through to `Automatic` in one call (the case
+    /// [`a_count_already_past_both_thresholds_advances_through_both_in_one_call`]
+    /// covers for state) still nominates the word for a probe exactly once —
+    /// at `Consolidated`, not again at `Automated`, which is a stronger claim
+    /// already (this module's own doc comment).
+    #[test]
+    fn probe_eligible_fires_once_even_when_both_edges_fire_in_one_call() {
+        let tuning = Tuning::default();
+        let nine_clean_frames = (1..=9).map(|n| clean(&format!("p{n}"))).collect();
+        let mut learner = learner_with_word(WordState::Learning, nine_clean_frames);
+
+        let outcome = finish_passage(&mut learner, "p10", &tuning);
+
+        assert_eq!(
+            outcome
+                .effects
+                .iter()
+                .filter(|effect| matches!(effect, Effect::ProbeEligible { .. }))
+                .count(),
+            1,
+            "expected exactly one ProbeEligible, got {:?}",
+            outcome.effects
+        );
+    }
+
+    /// `probe_frequency_cap` bounds how many words one `decide` call can
+    /// nominate — see [`maybe_probe_eligible`]'s own doc comment for why the
+    /// cap is enforced per call rather than per host session. Three words
+    /// crossing the same edge in the same `PassageFinished`, capped to one.
+    #[test]
+    fn probe_frequency_cap_bounds_probe_eligible_within_one_call() {
+        let shipped = include_str!("../tuning.toml");
+        let capped_at_one = shipped.replace("probe_frequency_cap = 3", "probe_frequency_cap = 1");
+        assert_ne!(
+            shipped, capped_at_one,
+            "the shipped tuning.toml's probe_frequency_cap line must still read 3 for this \
+             replacement to have done anything"
+        );
+        let tuning = Tuning::from_toml_str(&capped_at_one)
+            .expect("only probe_frequency_cap changed, and 1 is a legal value");
+
+        let mut words = BTreeMap::new();
+        for id in ["w1", "w2", "w3"] {
+            words.insert(
+                id.to_string(),
+                WordRecord::new(
+                    WordState::Learning,
+                    Timestamp::from_millis_since_epoch(0),
+                    vec![clean("p1"), clean("p2"), clean("p3")],
+                    None,
+                ),
+            );
+        }
+        let mut learner = LearnerState::new(0, 0, 0.0, 1.0, words, BTreeMap::new());
+
+        let outcome = decide(
+            &mut learner,
+            Request::ProcessEvent(Event::PassageFinished {
+                passage: "p4".to_string(),
+                words_seen: vec!["w1".to_string(), "w2".to_string(), "w3".to_string()],
+            }),
+            Frame::Nothing,
+            Timestamp::from_millis_since_epoch(0),
+            &tuning,
+        );
+
+        assert_eq!(
+            outcome
+                .effects
+                .iter()
+                .filter(|effect| matches!(effect, Effect::ProbeEligible { .. }))
+                .count(),
+            1,
+            "expected the cap of 1 to hold even though all three words crossed the edge: {:?}",
+            outcome.effects
+        );
+        // All three still consolidate — the cap bounds *interruption*, never
+        // the schedule's own state.
+        assert_eq!(
+            outcome
+                .effects
+                .iter()
+                .filter(|effect| matches!(effect, Effect::WordStateChanged { .. }))
+                .count(),
+            3
+        );
     }
 }
