@@ -21,13 +21,24 @@
 //! serde half it actually uses. Deriving both on everything would let a type
 //! meant to go one way compile for a call that sends it the other, silently.
 //!
-//! **Three fields beyond what `docs/seams.md` currently freezes.**
-//! `Needs::PassageTopics`, `Frame::Topics`, and `Effect::TopicAffinityUpdated`
-//! (ADR-022's topic-affinity update) exist in `superb-core::engine` and are
-//! not yet in the seam document — it predates that ADR. Binding the whole
-//! real API rather than a stale snapshot of it is this track's own call; the
-//! seam document itself is not this crate's to edit. Likewise
-//! `Candidate.topics` and `Passage.topics`.
+//! **`Needs::PassageTopics`, `Frame::Topics`, `Effect::TopicAffinityUpdated`
+//! (ADR-022's topic-affinity update) are part of the seam.** `docs/seams.md`
+//! froze before ADR-022 landed and was missing all three; amended
+//! 2026-07-25 ("the seam catches up with ADR-022") to add them, ratified —
+//! not reopened — because ADR-022 itself was already accepted (ADVISORY-006
+//! §1). `Effect::TopicAffinityUpdated` crosses this boundary and is never
+//! rendered (the seam's own words); this module's job stops at binding it
+//! faithfully — see `WireEffect::TopicAffinityUpdated`'s own doc comment.
+//!
+//! **`Candidate.topics` and `Passage.topics` are not (yet) in the seam, and
+//! this module carries them anyway.** `superb-core::composer`'s
+//! `taste_multiplier` reads `candidate.topics` to score ADR-022's own taste
+//! signal (`src/composer.rs` line ~640) — a host that could never supply a
+//! candidate's topics could never feed that scoring, which would leave
+//! ADR-022's composer-side effect permanently inert on web specifically,
+//! the same gap the seam's own amendment names as worse than a document
+//! being briefly wrong. Flagged back to the seam's owner rather than
+//! decided here.
 //! DECISION PENDING: https://github.com/kihea/superb/issues/28
 
 use std::collections::BTreeMap;
@@ -162,7 +173,8 @@ pub enum WireFrame {
     Content {
         content: WireContentFrame,
     },
-    /// ADR-022, beyond the frozen seam — see this module's doc comment.
+    /// ADR-022 (docs/seams.md's 2026-07-25 amendment) — see this module's
+    /// doc comment.
     Topics {
         topics: Vec<String>,
     },
@@ -204,8 +216,10 @@ impl From<WireContentFrame> for core_composer::ContentFrame {
     }
 }
 
-/// `docs/seams.md`'s `Candidate`. Carries `topics` beyond the frozen seam
-/// (ADR-022) — see this module's doc comment.
+/// `docs/seams.md`'s `Candidate`. Carries `topics`, not yet in the seam
+/// document — see this module's doc comment for why this crate binds it
+/// anyway (`composer::taste_multiplier` reads it) and the open question
+/// that leaves.
 #[derive(Debug, Clone, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct WireCandidate {
@@ -296,7 +310,8 @@ pub enum WireNeeds {
         band_low: f64,
         band_high: f64,
     },
-    /// ADR-022, beyond the frozen seam — see this module's doc comment.
+    /// ADR-022 (docs/seams.md's 2026-07-25 amendment) — see this module's
+    /// doc comment.
     PassageTopics {
         passage: String,
     },
@@ -363,7 +378,13 @@ pub enum WireEffect {
     PassageComposed {
         passage: WirePassage,
     },
-    /// ADR-022, beyond the frozen seam — see this module's doc comment.
+    /// ADR-022 (docs/seams.md's 2026-07-25 amendment) — see this module's
+    /// doc comment. **Crosses the boundary and is never rendered** (the
+    /// seam's own words): filtering it out here would be this crate
+    /// deciding what the host may know, the exact violation the seam exists
+    /// to prevent. `finished`/`abandoned` are counts of the reader's own
+    /// behaviour; a host that displays them is law 3's most tempting
+    /// violation, not this crate's.
     TopicAffinityUpdated {
         topic: String,
         finished: u32,
@@ -408,8 +429,11 @@ impl From<core_engine::Effect> for WireEffect {
     }
 }
 
-/// `docs/seams.md`'s `Passage`. Carries `topics` beyond the frozen seam
-/// (ADR-022) — see this module's doc comment.
+/// `docs/seams.md`'s `Passage`. Carries `topics`, not yet in the seam
+/// document — see this module's doc comment for the open question this
+/// leaves (unlike `Candidate.topics`, nothing in this crate reads
+/// `Passage.topics` back; it is carried through only because
+/// `composer::Passage` already has it).
 #[derive(Debug, Clone, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct WirePassage {
