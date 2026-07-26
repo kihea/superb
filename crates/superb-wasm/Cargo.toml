@@ -4,7 +4,7 @@ version = "0.0.0"
 description = "The wasm-bindgen surface for web (docs/seams.md, Seam 1: the shell's view of the engine). Translates superb-core's own JSON shape into exactly the EnginePort TypeScript shape docs/seams.md freezes, and nothing else."
 edition.workspace = true
 rust-version.workspace = true
-license.workspace = true
+license-file.workspace = true
 repository.workspace = true
 publish = false
 
