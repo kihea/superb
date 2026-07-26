@@ -21,25 +21,29 @@
 //! serde half it actually uses. Deriving both on everything would let a type
 //! meant to go one way compile for a call that sends it the other, silently.
 //!
-//! **`Needs::PassageTopics`, `Frame::Topics`, `Effect::TopicAffinityUpdated`
-//! (ADR-022's topic-affinity update) are part of the seam.** `docs/seams.md`
-//! froze before ADR-022 landed and was missing all three; amended
-//! 2026-07-25 ("the seam catches up with ADR-022") to add them, ratified —
-//! not reopened — because ADR-022 itself was already accepted (ADVISORY-006
-//! §1). `Effect::TopicAffinityUpdated` crosses this boundary and is never
+//! **`Needs::PassageTopics`, `Frame::Topics`, `Effect::TopicAffinityUpdated`,
+//! and `topics` on both `Candidate` and `Passage` are all part of the seam.**
+//! `docs/seams.md` froze before ADR-022 landed and was missing every one of
+//! them; amended in two passes on 2026-07-25 ("the seam catches up with
+//! ADR-022", then a second pass adding `Candidate.topics`/`Passage.topics`)
+//! once the missing pieces were shown to leave ADR-022's composer-side
+//! scoring (`taste_multiplier`, `src/composer.rs` line ~640) permanently
+//! inert on web with every test still green — the exact failure shape that
+//! voided the M1 milestone gate, a mechanism silently inert while looking
+//! installed. Neither amendment reopened the seam: ADR-022 itself was
+//! already accepted (ADVISORY-006 §1), and the seam had simply lagged it.
+//! `Effect::TopicAffinityUpdated` crosses this boundary and is never
 //! rendered (the seam's own words); this module's job stops at binding it
 //! faithfully — see `WireEffect::TopicAffinityUpdated`'s own doc comment.
 //!
-//! **`Candidate.topics` and `Passage.topics` are not (yet) in the seam, and
-//! this module carries them anyway.** `superb-core::composer`'s
-//! `taste_multiplier` reads `candidate.topics` to score ADR-022's own taste
-//! signal (`src/composer.rs` line ~640) — a host that could never supply a
-//! candidate's topics could never feed that scoring, which would leave
-//! ADR-022's composer-side effect permanently inert on web specifically,
-//! the same gap the seam's own amendment names as worse than a document
-//! being briefly wrong. Flagged back to the seam's owner rather than
-//! decided here.
-//! DECISION PENDING: https://github.com/kihea/superb/issues/28
+//! Two more things the second amendment settled, that this module does not
+//! need to act on but a reader of it should know: a composed passage's
+//! single `topic` string (`docs/seams.md` §Seam 2) becomes a one-element
+//! `Candidate.topics` list when the host answers `PassageCandidates` — the
+//! host's job, not this crate's, since `Candidate` only ever arrives here
+//! already built. And a content pipeline that ships passages with no topic
+//! labels at all makes the recommender go quiet with nothing to report it —
+//! T1/T3b's failure mode to assert against, not a wire-shape question.
 
 use std::collections::BTreeMap;
 
@@ -216,10 +220,9 @@ impl From<WireContentFrame> for core_composer::ContentFrame {
     }
 }
 
-/// `docs/seams.md`'s `Candidate`. Carries `topics`, not yet in the seam
-/// document — see this module's doc comment for why this crate binds it
-/// anyway (`composer::taste_multiplier` reads it) and the open question
-/// that leaves.
+/// `docs/seams.md`'s `Candidate`, `topics` included — see this module's
+/// doc comment for why that field matters (`composer::taste_multiplier`
+/// reads it for ADR-022's real scoring).
 #[derive(Debug, Clone, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct WireCandidate {
@@ -429,11 +432,11 @@ impl From<core_engine::Effect> for WireEffect {
     }
 }
 
-/// `docs/seams.md`'s `Passage`. Carries `topics`, not yet in the seam
-/// document — see this module's doc comment for the open question this
-/// leaves (unlike `Candidate.topics`, nothing in this crate reads
+/// `docs/seams.md`'s `Passage`, `topics` included — see this module's doc
+/// comment. Unlike `Candidate.topics`, nothing in this crate reads
 /// `Passage.topics` back; it is carried through only because
-/// `composer::Passage` already has it).
+/// `composer::Passage` already has it, and a wire type that dropped a field
+/// `superb-core` actually carries would be this crate deciding what exists.
 #[derive(Debug, Clone, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct WirePassage {

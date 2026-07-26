@@ -4,13 +4,16 @@
 // return type it emits is `any`. This file is what a TypeScript caller
 // should import instead.
 //
-// `docs/seams.md` §Seam 1, as amended 2026-07-25 ("the seam catches up with
-// ADR-022"), is this file's source of truth. `Needs.PassageTopics`,
-// `Frame.Topics`, and `Effect.TopicAffinityUpdated` below are that
-// amendment, not an extension past it: docs/seams.md froze before ADR-022
-// landed, was missing all three, and was corrected once ADR-022 itself was
-// ratified (ADVISORY-006 §1) — a document catching up to an already-decided
-// ADR, not a new decision made here.
+// `docs/seams.md` §Seam 1, as amended twice on 2026-07-25 ("the seam
+// catches up with ADR-022"), is this file's source of truth.
+// `Needs.PassageTopics`, `Frame.Topics`, `Effect.TopicAffinityUpdated`, and
+// `topics` on both `Candidate` and `Passage` are that amendment, not an
+// extension past it: docs/seams.md froze before ADR-022 landed and was
+// missing every one of them. The second pass (adding `Candidate.topics`/
+// `Passage.topics`) followed evidence that omitting them left ADR-022's
+// composer-side scoring (`taste_multiplier`) permanently inert on web with
+// every test green — silently inert while looking installed, not a new
+// decision made here.
 //
 // **`TopicAffinityUpdated` crosses this boundary and must never be
 // rendered.** It is in the stream because filtering it out inside the
@@ -21,16 +24,10 @@
 // nothing else with it: no display, no "you've been enjoying…", no topic
 // chips, no Settings readout, no debug overlay that survives to production.
 //
-// Everything below the "--- OPEN ---" marker is real wire shape this crate
-// emits and accepts but is *not yet* in `docs/seams.md`:
-// `superb-core::composer::taste_multiplier` reads `Candidate.topics` to
-// score ADR-022's own taste signal, so a host that could never supply it
-// could never feed that scoring — filed at
-// https://github.com/kihea/superb/issues/28, DECISION PENDING. `tests/
-// port-dts.test.mjs` is what keeps this file and the generated one from
-// silently drifting apart on method names and arity; keeping this file's
-// *types* aligned with `docs/seams.md` is a human review, the same as any
-// other change to a frozen seam.
+// `tests/port-dts.test.mjs` is what keeps this file and the generated one
+// from silently drifting apart on method names and arity; keeping this
+// file's *types* aligned with `docs/seams.md` is a human review, the same
+// as any other change to a frozen seam.
 
 export type Pool = "Composed" | "Sourced";
 
@@ -74,7 +71,8 @@ export interface Candidate {
   pool: Pool;
   slots: { index: number; class: string; defaultWord: string }[];
   words: string[];
-  // --- OPEN --- not yet in docs/seams.md; see this file's header comment.
+  // ADR-022 — see this file's header comment. taste_multiplier's real
+  // scoring reads this; a host that can't supply it leaves ADR-022 inert.
   topics: string[];
 }
 
@@ -95,9 +93,9 @@ export interface Passage {
   fills: { index: number; word: string }[];
   targets: string[];
   seeded: string[];
-  // --- OPEN --- not yet in docs/seams.md; see this file's header comment.
-  // Carried through only because superb-core's own Passage already has it —
-  // nothing on the host side reads this back.
+  // ADR-022 — see this file's header comment. Carried through only because
+  // superb-core's own Passage already has it; nothing on the host side
+  // reads this back.
   topics: string[];
 }
 
