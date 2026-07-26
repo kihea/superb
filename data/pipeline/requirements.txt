@@ -2,3 +2,7 @@
 # the licence of every dataset these scripts touch.
 wordfreq==3.1.1
 jsonschema==4.26.0
+# excerpts.py: sentence segmentation only (nltk's punkt tokenizer), same
+# dependency content/scripts/requirements.txt already carries for
+# check_classes.py's WordNet lookup — Apache-2.0, no new licence surface.
+nltk==3.9.1

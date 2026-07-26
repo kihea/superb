@@ -66,10 +66,14 @@ def check_source(path: pathlib.Path) -> list[str]:
 
 
 def main() -> int:
-    files = sorted(SOURCES_DIR.glob("*.json"))
+    files = sorted(p for p in SOURCES_DIR.glob("*.json") if not p.stem.startswith("_"))
     errors: list[str] = []
-    if len(files) < 60:
-        errors.append(f"expected at least 60 sourced excerpts, found {len(files)}")
+    # Track T3b (workspace/tracks/T3-corpus-scale.md): the 60 hand-authored
+    # excerpts could never clear min_sourced_coverage at any tuning, so the
+    # real floor is the corpus scale that target requires, not the original
+    # seed count.
+    if len(files) < 1500:
+        errors.append(f"expected at least 1500 sourced excerpts, found {len(files)}")
 
     ids = set()
     for path in files:
