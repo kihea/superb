@@ -10,6 +10,24 @@ async function currentPassageId(page: Page): Promise<string | null> {
   return page.locator(".passage-page").getAttribute("data-passage-id");
 }
 
+/** The pull-up bar starts at opacity 0 / pointer-events: none and only
+ *  becomes interactive once its IntersectionObserver fires (nearEnd) and
+ *  the CSS transition to --visible settles. `scrollIntoViewIfNeeded` does
+ *  not wait for that -- it is a layout/visibility check, not a
+ *  transition-complete check -- so clicking immediately after it raced the
+ *  transition under heavy parallel-worker CPU load and intermittently
+ *  clicked whatever was underneath instead (the article, since the button
+ *  can legitimately overlap the card's own bottom padding at some viewport
+ *  sizes). Waiting for the class directly, rather than a fixed timeout, is
+ *  what makes this reliable regardless of how loaded the machine is. */
+async function clickKeepReading(page: Page): Promise<void> {
+  await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
+  await expect(page.locator(".passage-continue")).toHaveClass(/passage-continue--visible/, {
+    timeout: 15_000,
+  });
+  await page.locator(".passage-continue-button").click();
+}
+
 interface TopicTally {
   finished: number;
   abandoned: number;
@@ -66,7 +84,9 @@ for (const register of registers) {
 
       await page.goto(`/read?register=${register}`);
       await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
-      await page.waitForTimeout(300); // let the entrance animation finish and settle.
+      await expect(page.locator(".passage-continue")).toHaveClass(/passage-continue--visible/, {
+        timeout: 15_000,
+      });
 
       const buttonBox = await page.locator(".passage-continue-button").boundingBox();
       expect(buttonBox).not.toBeNull();
@@ -123,8 +143,7 @@ for (const register of registers) {
       await page.goto(`/read?register=${register}`);
       const before = await currentPassageId(page);
 
-      await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
-      await page.locator(".passage-continue-button").click();
+      await clickKeepReading(page);
       await expect(page.locator(".passage-page")).toBeVisible();
 
       const after = await currentPassageId(page);
@@ -163,8 +182,7 @@ for (const register of registers) {
     // own vocabulary, are things a passage would never legitimately say.
     test("topic affinity tally never reaches any rendered surface", async ({ page }) => {
       await page.goto(`/read?register=${register}`);
-      await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
-      await page.locator(".passage-continue-button").click();
+      await clickKeepReading(page);
       await expect(page.locator(".passage-page")).toBeVisible();
 
       const tally = await readTopicTally(page);

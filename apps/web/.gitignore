@@ -36,3 +36,7 @@ public/content
 
 # Generated from ../../design/tokens.json by scripts/tokens-to-css.mjs.
 src/design/tokens.css
+
+
+# Review-only screenshots for a PR body, never part of what ships (see PR #31).
+.pr-review/
