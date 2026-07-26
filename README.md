@@ -52,9 +52,17 @@ More arrives as the milestones do.
 
 ## Licensing
 
-**Code is MIT. Content is CC0.** Attribution is encouraged and never required
-— the project claims the infrastructure that serves the content, not the
-content itself.
+**Code is source-available: MIT + Commons Clause. Content is CC0.**
+
+You may read the code, run it, change it, and pass it on — including changed
+versions — as long as it is free. You may not sell it, or sell a product or
+service whose value comes substantially from it. That one restriction is what
+makes this source-available rather than open source, and the project says so
+plainly rather than borrowing a word it is no longer entitled to.
+
+The content is unrestricted. Attribution is encouraged and never required —
+the project claims the infrastructure that serves the content, not the content
+itself.
 
 No GPL enters the dependency tree. Every dataset has a row in
 `data/MANIFEST.md` with its source, licence, and redistribution basis, and CI

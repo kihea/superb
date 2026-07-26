@@ -32,7 +32,7 @@ cost to supply doesn't cost to the user. The architecture is outlined below:
 superb/                      PRIVATE · the working root
 ├─ CLAUDE.md                     project constitution — read first
 │
-└─ app/  ─────────────────────▶  PUBLIC · MIT · github.com/kihea/superb
+└─ app/  ──────────▶  PUBLIC · source-available · github.com/kihea/superb
    │                             a git submodule. everything a person needs to
    │                             build and run Superb, and nothing else.
    │
@@ -156,11 +156,45 @@ looks like in practice.
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT and content is CC0, and no GPL dependency can be accepted at
-  any tier.
+- Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
+  be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
   `superb-core` requires a matching entry in `wire-roster.toml`, or the build
   fails.
+
+---
+
+## Licensing, and what you are agreeing to
+
+Superb's code is **source-available, not open source**: MIT with the
+[Commons Clause](https://commonsclause.com/) on top. You may read it, run it,
+change it, and pass it on — including changed versions — as long as it is
+free. What you may not do is sell it, or sell a product or service whose value
+comes substantially from it. The full text is in `LICENSE`, and the reasoning
+is in the project's decision record.
+
+The **content** is different and unchanged: passages and excerpts are CC0,
+dedicated to the public domain. Attribution is encouraged and never required.
+
+**When you contribute code, you license it to the project under MIT**, and the
+project distributes it under the licence above. This is deliberate and it is
+in your interest as much as ours: permissive inbound is what keeps the project
+able to change its own outbound licence later without hunting down every past
+contributor for a signature.
+
+Sign off your commits to say so:
+
+```
+git commit -s -m "your message"
+```
+
+That adds a `Signed-off-by:` line, which is your assertion of the
+[Developer Certificate of Origin](https://developercertificate.org/) — that
+you wrote the change, or have the right to submit it. There is no CLA to sign
+and no account to create.
+
+**Contributed passages and excerpts are CC0** under the provenance rules
+above, not MIT — content and code are separate throughout this project.
 
 ---
 
