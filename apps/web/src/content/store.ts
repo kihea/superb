@@ -9,11 +9,36 @@ type Record_ = ComposedPassage | SourceExcerpt;
 
 let byId: Map<string, Record_> | null = null;
 
+// A corpus-sized JSON file (T3b's 2,600-excerpt sources.json is 2.79 MB, and
+// workspace/contract.md targets it growing further) is too large to rely on
+// the service worker's precache for, and workbox's runtime caching only
+// intercepts requests once the worker is actively controlling the page --
+// which the very first load, before anyone has gone offline, is not
+// guaranteed to be. Caching it here instead, explicitly, with the Cache API
+// directly: no dependency on service-worker timing, works the moment this
+// module has run once online, regardless of whether a worker exists at all.
+const CONTENT_CACHE = "superb-content-v1";
+
+async function fetchJson<T>(url: string): Promise<T> {
+  if (!("caches" in window)) return fetch(url).then((r) => r.json() as Promise<T>);
+
+  const cache = await caches.open(CONTENT_CACHE);
+  try {
+    const response = await fetch(url);
+    if (response.ok) await cache.put(url, response.clone());
+    return (await response.json()) as T;
+  } catch (networkError) {
+    const cached = await cache.match(url);
+    if (cached) return (await cached.json()) as T;
+    throw networkError;
+  }
+}
+
 async function ensureLoaded(): Promise<Map<string, Record_>> {
   if (byId) return byId;
   const [passages, sources] = await Promise.all([
-    fetch("/content/passages.json").then((r) => r.json() as Promise<ComposedPassage[]>),
-    fetch("/content/sources.json").then((r) => r.json() as Promise<SourceExcerpt[]>),
+    fetchJson<ComposedPassage[]>("/content/passages.json"),
+    fetchJson<SourceExcerpt[]>("/content/sources.json"),
   ]);
   const map = new Map<string, Record_>();
   for (const p of passages) map.set(p.id, p);
