@@ -321,11 +321,57 @@ test("topic affinity tally never reaches any rendered surface", async ({ page })
   expect(numericLeak).toBeNull();
 });
 
+interface AuraSnapshot {
+  beforeAnimation: string;
+  afterAnimation: string;
+  beforeOpacity: string;
+  afterOpacity: string;
+  beforeFilter: string;
+  afterFilter: string;
+}
+
+/** `before`/`after` name the aura's own `::before`/`::after` pseudo-elements
+ *  (the two lights, ReadingScreen.css) -- not a point in time. `opacity`
+ *  and `filter` are the two properties that CSS actually varies on this
+ *  element if it is ever made to move; `animationName` is read alongside
+ *  them rather than instead, because it catches a different failure mode
+ *  (see the two assertions this feeds, below). */
+async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
+  return page.evaluate(() => {
+    const el = document.querySelector(".reading-screen-aura");
+    if (!el) throw new Error("no .reading-screen-aura in the DOM");
+    const before = getComputedStyle(el, "::before");
+    const after = getComputedStyle(el, "::after");
+    return {
+      beforeAnimation: before.animationName,
+      afterAnimation: after.animationName,
+      beforeOpacity: before.opacity,
+      afterOpacity: after.opacity,
+      beforeFilter: before.filter,
+      afterFilter: after.filter,
+    };
+  });
+}
+
 // ADVISORY-008 §5's seam audit, made mechanical: with a passage on screen,
 // nothing in the periphery is animating a moment after it settles -- in
 // both colour schemes, with reduced-motion both off and on. This is what
 // makes ADR-019's amended seam ("material persists, events stop while a
 // passage is on screen") checkable rather than asserted.
+//
+// An earlier version of this test read `backgroundPosition` and `transform`
+// on the aura's `::before` only -- two properties this element's CSS never
+// touches, sampled twice and compared. It could not fail: an independent
+// review injected a continuous opacity-pulse onto the aura and this test
+// still passed four-for-four. Fixed two ways, deliberately redundant with
+// each other because they catch different failure modes: `animationName`
+// is a direct claim about whether motion is *configured* at all -- it
+// cannot be fooled by a two-sample check landing on a phase where a loop
+// happens to look still, the way sampling can -- while `opacity`/`filter`,
+// sampled twice 500ms apart, catch a style mutation that never touches a
+// CSS animation in the first place (a rAF loop writing inline styles
+// directly, which `animationName` can't see). Checked on both pseudo-
+// elements, not only `::before`.
 for (const scheme of ["dark", "light"] as const) {
   for (const reducedMotion of [null, "reduce"] as const) {
     test(`seam holds while reading: ${scheme}, reduced-motion=${reducedMotion ?? "no-preference"}`, async ({
@@ -340,18 +386,18 @@ for (const scheme of ["dark", "light"] as const) {
       // gloss card's entrance) finish settling.
       await page.waitForTimeout(1200);
 
-      const auraBox = await page.locator(".reading-screen-aura").boundingBox();
-      const before = await page.evaluate(() => {
-        const el = document.querySelector(".reading-screen-aura");
-        return el ? getComputedStyle(el, "::before").backgroundPosition + getComputedStyle(el, "::before").transform : "";
-      });
+      await expect(page.locator(".reading-screen-aura")).toBeAttached();
+
+      const t0 = await auraSnapshot(page);
+      expect(t0.beforeAnimation).toBe("none");
+      expect(t0.afterAnimation).toBe("none");
+
       await page.waitForTimeout(500);
-      const after = await page.evaluate(() => {
-        const el = document.querySelector(".reading-screen-aura");
-        return el ? getComputedStyle(el, "::before").backgroundPosition + getComputedStyle(el, "::before").transform : "";
-      });
-      expect(auraBox).not.toBeNull();
-      expect(after).toBe(before);
+      const t1 = await auraSnapshot(page);
+      expect(t1.beforeOpacity).toBe(t0.beforeOpacity);
+      expect(t1.afterOpacity).toBe(t0.afterOpacity);
+      expect(t1.beforeFilter).toBe(t0.beforeFilter);
+      expect(t1.afterFilter).toBe(t0.afterFilter);
     });
   }
 }
