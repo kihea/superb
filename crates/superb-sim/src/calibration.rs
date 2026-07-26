@@ -66,7 +66,12 @@ const SHIPPED_TUNING_TOML: &str = include_str!("../../superb-core/tuning.toml");
 /// a calibration run that silently skipped an invalid point in its own sweep
 /// would misreport the sweep's shape, so this fails loudly instead, exactly
 /// like every other `Tuning::from_toml_str` call site in this crate.
-fn tuning_with_sourced_preference(value: f64) -> Tuning {
+///
+/// `pub(crate)` rather than private: `src/battery.rs` (issue #35) reuses this
+/// exact helper to sweep the *real* corpus's reachable sourced-share ceiling
+/// (directive 4) — the identical need this module already names in its own
+/// doc comment, pointed at real content instead of the synthetic library.
+pub(crate) fn tuning_with_sourced_preference(value: f64) -> Tuning {
     let line = format!("sourced_preference = {value}\n");
     let replaced = replace_toml_line(SHIPPED_TUNING_TOML, "sourced_preference", &line);
     Tuning::from_toml_str(&replaced)
