@@ -28,6 +28,62 @@ HERE = pathlib.Path(__file__).parent
 RETRIEVED = "2026-07-25"
 LICENCE = "Public Domain (US, life+70 expired)"
 
+# ADR-022: the engine's topic-affinity table looks up a topic for every
+# passage id it finished or abandoned, sourced or composed alike, so these
+# 47 hand-picked excerpts need one too — added here, at generation time,
+# rather than patched onto the JSON files directly, so re-running this
+# script never drops it. One topic per *work* (see data/pipeline/excerpts.py
+# for why a whole-book topic, not a per-excerpt one, is the honest unit).
+WORK_TOPICS: dict[str, str] = {
+    "A Tale of Two Cities": "war",
+    "Adventures of Huckleberry Finn": "travel",
+    "Alice's Adventures in Wonderland": "childhood",
+    "Anna Karenina": "courtship",
+    "Anne of Green Gables": "childhood",
+    "Around the World in Eighty Days": "travel",
+    "Crime and Punishment": "mystery",
+    "David Copperfield": "city",
+    "Dracula": "supernatural",
+    "Emma": "household",
+    "Ethan Frome": "rural",
+    "Frankenstein; or, The Modern Prometheus": "invention",
+    "Great Expectations": "city",
+    "Gulliver's Travels": "travel",
+    "Heart of Darkness": "wilderness",
+    "Jane Eyre": "courtship",
+    "Little Women": "household",
+    "Middlemarch": "society",
+    "Moby-Dick; or, The Whale": "sea",
+    "My Ántonia": "wilderness",
+    "Narrative of the Life of Frederick Douglass, an American Slave": "society",
+    "Notes from Underground": "reflection",
+    "Oliver Twist": "city",
+    "Persuasion": "courtship",
+    "Pride and Prejudice": "household",
+    "Robinson Crusoe": "sea",
+    "Silas Marner": "rural",
+    "Strange Case of Dr Jekyll and Mr Hyde": "invention",
+    "The Adventures of Sherlock Holmes": "mystery",
+    "The Adventures of Tom Sawyer": "childhood",
+    "The Awakening": "society",
+    "The Call of the Wild": "wilderness",
+    "The House of Mirth": "society",
+    "The Picture of Dorian Gray": "supernatural",
+    "The Scarlet Letter": "mourning",
+    "The Secret Garden": "childhood",
+    "The Souls of Black Folk": "society",
+    "The Time Machine": "invention",
+    "The Turn of the Screw": "supernatural",
+    "The War of the Worlds": "invention",
+    "The Yellow Wallpaper": "reflection",
+    "Treasure Island": "sea",
+    "Twenty Thousand Leagues Under the Sea": "sea",
+    "Vanity Fair": "war",
+    "Walden": "reflection",
+    "White Fang": "wilderness",
+    "Wuthering Heights": "courtship",
+}
+
 
 def gutenberg(n: int) -> tuple[str, str]:
     return f"Project Gutenberg #{n}", f"https://www.gutenberg.org/ebooks/{n}"
@@ -1121,9 +1177,11 @@ def main() -> None:
         wc = len(text.split())
         assert 80 <= wc <= 200, f"{sid} is {wc} words"
         source_name, url = gutenberg(gid)
+        assert work in WORK_TOPICS, f"{sid}: {work!r} has no entry in WORK_TOPICS"
         doc = {
             "id": sid,
             "pool": "sourced",
+            "topic": WORK_TOPICS[work],
             "text": text,
             "words": words,
             "provenance": {
