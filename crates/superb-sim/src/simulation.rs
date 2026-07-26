@@ -56,6 +56,16 @@ pub struct SimConfig {
     pub composed_cap: usize,
     pub sourced_cap: usize,
     pub session_length_days: f64,
+    /// How many composed templates the library holds. Defaults to
+    /// [`crate::library::COMPOSED_PASSAGES`]; only `src/calibration.rs`
+    /// overrides it, and only to hold the composed side fixed while it
+    /// varies `sourced_library_size`.
+    pub composed_library_size: usize,
+    /// How many sourced excerpts the library holds. Defaults to
+    /// [`crate::library::SOURCED_EXCERPTS`]; `src/calibration.rs` sweeps this
+    /// to answer what corpus size the sourced-share target actually needs —
+    /// a question about the library, not about `sourced_preference`.
+    pub sourced_library_size: usize,
 }
 
 impl Default for SimConfig {
@@ -90,6 +100,8 @@ impl Default for SimConfig {
             composed_cap: 6,
             sourced_cap: 3,
             session_length_days: 1.0,
+            composed_library_size: crate::library::COMPOSED_PASSAGES,
+            sourced_library_size: crate::library::SOURCED_EXCERPTS,
         }
     }
 }
@@ -178,8 +190,36 @@ struct RunState {
 
 /// Run one synthetic learner's whole simulation and return everything
 /// `report.rs` needs. Deterministic in `seed` and `true_theta` — nothing
-/// else varies the output.
+/// else varies the output. Runs against the shipped [`Tuning`]; see
+/// [`run_with_tuning`] for the one caller (`src/calibration.rs`) that needs
+/// a different one.
 pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> SimulationOutcome {
+    run_with_tuning(seed, true_theta, config, &Tuning::default())
+}
+
+/// [`run`], against a caller-supplied [`Tuning`] rather than the shipped
+/// one.
+///
+/// **Why this exists as a separate function instead of a `Tuning` field on
+/// `SimConfig`.** Every other run in this crate — the committed report, the
+/// five assertions, `tests/assertions.rs` — must run against the *shipped*
+/// tuning, because that is what "the engine" means for a golden-vector-style
+/// artifact: a report whose own tuning silently drifted from
+/// `tuning.toml` would stop being a report about the product. Only
+/// `src/calibration.rs` genuinely needs a different one — it exists to
+/// search over `sourced_preference`, which is exactly the one thing a
+/// calibration instrument may vary without that being "tuning the constant
+/// against the synthetic corpus" (ADVISORY-005 §2's own prohibition; the
+/// search here never writes its answer back into `tuning.toml`). Keeping
+/// that need on a second function rather than a field on `SimConfig` makes
+/// it impossible for a future caller of `run` to pass a nonstandard tuning
+/// by accident.
+pub fn run_with_tuning(
+    seed: u64,
+    true_theta: f64,
+    config: &SimConfig,
+    tuning: &Tuning,
+) -> SimulationOutcome {
     let mut rng = Rng::new(seed);
     let vocabulary = generate(
         &mut rng,
@@ -188,7 +228,6 @@ pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> SimulationOutcome 
         config.pseudoword_pool_size,
         config.sourced_eligible_rate,
     );
-    let tuning = Tuning::default();
     // Built from the same `rng` the rest of the run draws from, before any
     // session runs: the library is part of the world, so it must be fixed by
     // the seed like everything else.
@@ -197,10 +236,12 @@ pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> SimulationOutcome 
         &vocabulary,
         config.composed_cap,
         config.sourced_cap,
+        config.composed_library_size,
+        config.sourced_library_size,
     );
     let world = World {
         vocabulary: &vocabulary,
-        tuning: &tuning,
+        tuning,
         config,
         library: &library,
         word_classes: word_classes(&vocabulary),
