@@ -20,10 +20,11 @@ use superb_core::state::WordState;
 use superb_core::{Effect, Frame, LearnerState, Needs, Request, Timestamp, Tuning};
 use superb_core::{decide, due_words, plan};
 
+use crate::corpus::RealCorpus;
 use crate::library::{Library, band_words, word_classes};
 use crate::oracle::{claims_pseudoword, finishes_passage, knows_real_item, knows_real_item_after};
 use crate::rng::Rng;
-use crate::vocabulary::{Vocabulary, generate};
+use crate::vocabulary::{Vocabulary, generate, generate_real};
 use superb_core::composer::{ContentFrame, Pool};
 
 const MILLIS_PER_DAY: u64 = 24 * 60 * 60 * 1000;
@@ -120,6 +121,92 @@ pub struct PoolTally {
     pub abandoned_sessions: usize,
 }
 
+/// Issue #35's four-class encounter report (M2 DONE item 3, ADVISORY-007 §1
+/// and its addendum A3(c)): every real-word encounter this run produced,
+/// classified by where the reader met the word. Counted at the *word* level
+/// — one passage can carry several encounters — because the gate item 3
+/// names ("the majority of word encounters... occur inside passages rather
+/// than in the deck") is about how many words were met where, not how many
+/// sessions chose which pool ([`PoolTally`], already above, keeps that
+/// session-level count for the assertions that were already reading it).
+#[derive(Debug, Clone, Copy, Default)]
+pub struct EncounterTally {
+    /// A real-word `DeckSwipe`. Pseudoword draws are excluded on purpose —
+    /// a pseudoword is not a vocabulary word and teaches nothing, so
+    /// counting it here would inflate the deck's own share of a gate about
+    /// what the reader is actually learning.
+    pub deck: usize,
+    /// A word shown inside a composed passage. Every composed encounter
+    /// this simulator can currently produce lands here — see
+    /// `composed_for_support`'s own doc comment for why.
+    pub composed_for_gap: usize,
+    /// **Unreachable by construction, and expected to read zero.**
+    /// ADVISORY-007 addendum A2.3/A3(c): "support" is a second precedence
+    /// arm — composing a gentler passage for a reader who is struggling even
+    /// though an adequate sourced excerpt exists — that requires the
+    /// sourced/composed *precedence* ADR-015's third amendment describes.
+    /// That precedence is not implemented on `dev` as of issue #35 (the
+    /// composer still scores both pools with a `sourced_preference`
+    /// multiplier, `crates/superb-core/src/composer.rs`'s own doc comment);
+    /// there is no "adequate sourced candidate existed but composed served
+    /// this reader anyway" branch for a composed encounter to be logged
+    /// against. This field exists so the schema does not change the day
+    /// that precedence lands and a pedagogy decision defines what "support"
+    /// selects for (`docs/open-questions.md`) — until then, every composed
+    /// encounter is `composed_for_gap` and this reads zero. **A reader
+    /// seeing this column at zero is reading the mechanism correctly, not
+    /// finding a bug.**
+    pub composed_for_support: usize,
+    /// A word shown inside a sourced excerpt.
+    pub sourced: usize,
+}
+
+impl EncounterTally {
+    pub fn passages(&self) -> usize {
+        self.composed_for_gap + self.composed_for_support + self.sourced
+    }
+
+    pub fn total(&self) -> usize {
+        self.deck + self.passages()
+    }
+
+    /// M2 DONE item 3's gate: strictly more encounters inside passages than
+    /// in the deck. `false` on a tie or on zero encounters — a gate that
+    /// reads green on no evidence is not a gate.
+    pub fn passages_are_the_majority(&self) -> bool {
+        self.passages() > self.deck
+    }
+}
+
+/// Directive 3's band coverage, aggregated over one run's own due lists —
+/// see `crate::corpus::coverage_of`'s own doc comment for what "coverage"
+/// means here (existence in the corpus, not selection by the composer).
+#[derive(Debug, Clone, Copy, Default)]
+pub struct DueListCoverageTally {
+    /// Sessions with a nonempty due list — the denominator.
+    pub sessions: usize,
+    pub at_least_1: usize,
+    pub at_least_2: usize,
+}
+
+impl DueListCoverageTally {
+    pub fn at_least_1_rate(&self) -> f64 {
+        if self.sessions == 0 {
+            0.0
+        } else {
+            self.at_least_1 as f64 / self.sessions as f64
+        }
+    }
+
+    pub fn at_least_2_rate(&self) -> f64 {
+        if self.sessions == 0 {
+            0.0
+        } else {
+            self.at_least_2 as f64 / self.sessions as f64
+        }
+    }
+}
+
 /// Everything one full run produced, for `report.rs` to read the five
 /// assertions off without re-deriving them from raw effects.
 #[derive(Debug, Clone)]
@@ -141,6 +228,12 @@ pub struct SimulationOutcome {
     /// distinct-clean-frame count, is what Assertion 2 reports.
     pub encounters_to_automatic: Vec<usize>,
     pub pools: PoolTally,
+    /// Issue #35's four-class word-encounter report — see
+    /// [`EncounterTally`]'s own doc comment.
+    pub encounters: EncounterTally,
+    /// Directive 3's band coverage, this run's own due lists against the
+    /// sourced pool it was offered — see [`DueListCoverageTally`].
+    pub due_list_coverage: DueListCoverageTally,
     /// The engine's learned finish-rate per topic at the end of the run, beside
     /// this reader's hidden true taste for it (ADR-022). One row per topic the
     /// reader ever met — the recommender's assertion is read off this.
@@ -186,6 +279,14 @@ struct RunState {
     clean_exposures: BTreeMap<String, usize>,
     encounters_to_automatic: Vec<usize>,
     already_recorded_automatic: BTreeMap<String, ()>,
+    /// Issue #35's word-encounter tally — see [`EncounterTally`].
+    encounters: EncounterTally,
+    /// Sessions whose due list was nonempty — the denominator for
+    /// `due_list_coverage_at_least_1`/`_2` below (directive 3's band
+    /// coverage).
+    due_list_sessions: usize,
+    due_list_coverage_at_least_1: usize,
+    due_list_coverage_at_least_2: usize,
 }
 
 /// Run one synthetic learner's whole simulation and return everything
@@ -246,12 +347,79 @@ pub fn run_with_tuning(
         library: &library,
         word_classes: word_classes(&vocabulary),
     };
+    run_world(seed, true_theta, config, &mut rng, world)
+}
 
+/// [`run_with_tuning`], against the real content corpus (issue #35) instead
+/// of the synthetic library — everything downstream of `World` is identical,
+/// which is the point: the session loop, the oracle boundary, and every
+/// determinism guarantee are exactly the same code the golden-path runs
+/// through, only the candidates and the vocabulary they are drawn from
+/// differ.
+///
+/// **Behind an explicit call, not a `SimConfig` flag.** `REPORT.md`,
+/// `tests/assertions.rs`, and every other existing caller keep calling
+/// [`run`]/[`run_with_tuning`] exactly as before — this function is additive,
+/// so the synthetic golden path's bytes cannot move by a line this function
+/// adds. `RealCorpus::load` does the one piece of I/O this crate's purity
+/// note already discloses (`src/lib.rs`'s own doc comment: "not pure...
+/// but deterministic"); loading is itself deterministic (same files in, same
+/// `Candidate`s out — `corpus.rs`'s own test), so the run stays reproducible
+/// from `(seed, true_theta, content_root)`.
+pub fn run_real(
+    seed: u64,
+    true_theta: f64,
+    config: &SimConfig,
+    tuning: &Tuning,
+    corpus: &RealCorpus,
+) -> SimulationOutcome {
+    let mut rng = Rng::new(seed);
+    let vocabulary = generate_real(
+        &mut rng,
+        &corpus.reading_words,
+        &corpus.sourced_words,
+        &corpus.topics,
+        config.pseudoword_pool_size,
+    );
+    // No rng draw here, unlike the synthetic `Library::build`: the real
+    // library is fixed content, not generated, so cloning it consumes no
+    // randomness and every seed sees the identical candidate set — only the
+    // learner's own draws (calibration outcomes, oracle responses) vary.
+    let library = Library {
+        composed: corpus.composed.clone(),
+        sourced: corpus.sourced.clone(),
+    };
+    let world = World {
+        vocabulary: &vocabulary,
+        tuning,
+        config,
+        library: &library,
+        word_classes: corpus.word_classes.clone(),
+    };
+    run_world(seed, true_theta, config, &mut rng, world)
+}
+
+/// The session loop shared by [`run_with_tuning`] and [`run_real`] — every
+/// line here ran, unmodified, inside `run_with_tuning` before issue #35
+/// split it out, so the synthetic golden path's byte-for-byte output is
+/// unchanged (`tests::a_run_is_deterministic_from_its_seed` below, and
+/// `REPORT.md`'s own committed bytes, both still pass unmodified). `rng` is
+/// already partway through its sequence (vocabulary and, for the synthetic
+/// path, library construction already drew from it) and continues from
+/// there — a fresh `Rng::new(seed)` here would replay draws the caller
+/// already made and desynchronize the two paths' streams.
+fn run_world(
+    seed: u64,
+    true_theta: f64,
+    config: &SimConfig,
+    rng: &mut Rng,
+    world: World,
+) -> SimulationOutcome {
     let mut learner = LearnerState::new(
         seed,
         0,
         0.0,
-        tuning.theta_prior_information(),
+        world.tuning.theta_prior_information(),
         BTreeMap::new(),
         BTreeMap::new(),
     );
@@ -264,10 +432,10 @@ pub fn run_with_tuning(
 
         due_list_sizes.push(due_words(&learner, now).len());
 
-        run_calibration(&mut learner, &mut rng, &world, now, true_theta);
+        run_calibration(&mut learner, rng, &world, &mut state, now, true_theta);
         run_reading_session(
             &mut learner,
-            &mut rng,
+            rng,
             &world,
             &mut state,
             now,
@@ -284,12 +452,18 @@ pub fn run_with_tuning(
         due_list_sizes,
         encounters_to_automatic: state.encounters_to_automatic,
         pools: state.pools,
+        encounters: state.encounters,
+        due_list_coverage: DueListCoverageTally {
+            sessions: state.due_list_sessions,
+            at_least_1: state.due_list_coverage_at_least_1,
+            at_least_2: state.due_list_coverage_at_least_2,
+        },
         topic_estimates: learner
             .topic_affinities
             .iter()
             .filter_map(|(topic, record)| {
                 let rate = record.rate()?;
-                let truth = *vocabulary.topic_taste.get(topic)?;
+                let truth = *world.vocabulary.topic_taste.get(topic)?;
                 Some((topic.clone(), rate, truth))
             })
             .collect(),
@@ -314,6 +488,7 @@ fn run_calibration(
     learner: &mut LearnerState,
     rng: &mut Rng,
     world: &World,
+    state: &mut RunState,
     now: Timestamp,
     true_theta: f64,
 ) {
@@ -330,6 +505,14 @@ fn run_calibration(
             let knew = knows_real_item(rng, true_theta, word.true_difficulty);
             (word.id.clone(), knew)
         };
+
+        // A deck encounter of a real word — issue #35's encounter tally.
+        // Pseudoword draws are a calibration-honesty check, not a vocabulary
+        // encounter, so they are excluded (`EncounterTally::deck`'s own doc
+        // comment).
+        if !is_pseudoword {
+            state.encounters.deck += 1;
+        }
 
         dispatch_deck_swipe(
             learner,
@@ -431,6 +614,21 @@ fn run_reading_session(
         return;
     }
 
+    // Directive 3's band coverage, read straight off this session's real due
+    // list rather than a separately sampled one — see
+    // `crate::corpus::coverage_of`'s own doc comment. Computed on *every*
+    // session with a nonempty due list, independent of what the composer
+    // goes on to choose below: this answers what the corpus offers, not
+    // what got picked.
+    state.due_list_sessions += 1;
+    let coverage = crate::corpus::coverage_of(&world.library.sourced, due_words);
+    if coverage.at_least_1 {
+        state.due_list_coverage_at_least_1 += 1;
+    }
+    if coverage.at_least_2 {
+        state.due_list_coverage_at_least_2 += 1;
+    }
+
     let mut candidates = world.library.composed.clone();
     candidates.extend(world.library.sourced.iter().cloned());
     let content = ContentFrame {
@@ -471,6 +669,15 @@ fn run_reading_session(
     // introduced. The host does not recompute it from the fills, because the
     // fills also contain untracked prose the schedule has no opinion about.
     let words_on_screen = passage.words_on_page();
+
+    // Issue #35's word-encounter tally: every word this passage put on the
+    // page, whichever pool it came from. `composed_for_support` is never
+    // written here — see its own doc comment on [`EncounterTally`] for why
+    // the current mechanism cannot produce it.
+    match passage.pool {
+        Pool::Composed => state.encounters.composed_for_gap += words_on_screen.len(),
+        Pool::Sourced => state.encounters.sourced += words_on_screen.len(),
+    }
 
     let mut clean_words = Vec::new();
     let mut gloss_words = Vec::new();
