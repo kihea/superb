@@ -141,14 +141,31 @@ def build(words: set[str], source) -> dict[str, str]:
             continue
         if entry.get("pos") not in CONTENT_POS:
             continue
-        for sense in entry.get("senses", []):
-            tags = sense.get("tags", [])
-            target = redirect_target(sense, tags)
-            if target and word not in redirect:
-                redirect[word] = target
-            if word in redirect:
-                break  # a redirect beats any homograph sense in this entry too
-            gloss = best_gloss(result.get(word), tags, sense.get("glosses", []))
+        senses = entry.get("senses", [])
+        # Scan every sense in this entry for a form-of/alt-of redirect
+        # *before* considering any of them as a substantive gloss. Found by
+        # running this against the real snapshot rather than a synthetic
+        # fixture (M2 item 5b): "shook"'s etymology-1 verb entry has one
+        # ordinary sense ("to pack ... in a shook", no tags) and nothing
+        # else; a separate etymology-2 verb entry has only the form-of-shake
+        # sense. Scanning sense-by-sense and breaking on the first
+        # substantive gloss (the original approach) accepts the ordinary
+        # sense the moment it is seen and never looks far enough ahead — in
+        # this snapshot the redirect sense sits in a *different* entry, but
+        # the same failure reproduces just as easily within one entry (an
+        # ordinary sense at senses[0], a form-of sense at senses[1]), so the
+        # fix has to be entry-wide, not just cross-entry.
+        entry_redirect = None
+        for sense in senses:
+            entry_redirect = redirect_target(sense, sense.get("tags", []))
+            if entry_redirect:
+                break
+        if entry_redirect:
+            if word not in redirect:
+                redirect[word] = entry_redirect
+            continue  # a redirect from any sense in this entry wins outright
+        for sense in senses:
+            gloss = best_gloss(result.get(word), sense.get("tags", []), sense.get("glosses", []))
             if gloss is not None:
                 result[word] = gloss
                 break
