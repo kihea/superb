@@ -142,33 +142,51 @@ def build(words: set[str], source) -> dict[str, str]:
         if entry.get("pos") not in CONTENT_POS:
             continue
         senses = entry.get("senses", [])
-        # Scan every sense in this entry for a form-of/alt-of redirect
-        # *before* considering any of them as a substantive gloss. Found by
-        # running this against the real snapshot rather than a synthetic
-        # fixture (M2 item 5b): "shook"'s etymology-1 verb entry has one
-        # ordinary sense ("to pack ... in a shook", no tags) and nothing
-        # else; a separate etymology-2 verb entry has only the form-of-shake
-        # sense. Scanning sense-by-sense and breaking on the first
-        # substantive gloss (the original approach) accepts the ordinary
-        # sense the moment it is seen and never looks far enough ahead — in
-        # this snapshot the redirect sense sits in a *different* entry, but
-        # the same failure reproduces just as easily within one entry (an
-        # ordinary sense at senses[0], a form-of sense at senses[1]), so the
-        # fix has to be entry-wide, not just cross-entry.
+        # Within *this one entry*, the first sense in order that is either a
+        # redirect or a substantive gloss decides the entry's contribution —
+        # the original priority, just scoped to one entry rather than the
+        # whole word. Scoping matters both ways, and both were caught by
+        # running against real snapshot data rather than trusting a
+        # synthetic fixture (M2 item 5b):
+        #
+        # - too narrow (the original bug): "shook"'s "to pack ... in a
+        #   shook" verb sense and its "simple past of shake" form-of sense
+        #   sit in two *separate* entries, so a same-entry-only redirect
+        #   check never sees the redirect before the pack-sense's own entry
+        #   already committed a gloss. Fixed by letting a redirect found in
+        #   *any* entry override a gloss set from another entry (below).
+        # - too wide (a regression this same fix introduced first): "tommy"
+        #   is one *single* noun entry with eight senses — senses[0] is the
+        #   ordinary "British infantryman" meaning, but senses[5] is a rare
+        #   abbreviation ("Short for Tommy gun", tags include "alt-of").
+        #   Scanning every sense in the entry for a redirect before
+        #   accepting any gloss let senses[5]'s tag hijack senses[0]'s
+        #   correct, common answer. The fix is this loop: stop at the FIRST
+        #   sense with either signal, so a rare redirect deep in one entry's
+        #   sense list can never preempt an earlier ordinary sense in that
+        #   same entry.
         entry_redirect = None
+        entry_gloss = None
         for sense in senses:
-            entry_redirect = redirect_target(sense, sense.get("tags", []))
-            if entry_redirect:
+            tags = sense.get("tags", [])
+            target = redirect_target(sense, tags)
+            if target:
+                entry_redirect = target
+                break
+            gloss = best_gloss(None, tags, sense.get("glosses", []))
+            if gloss is not None:
+                entry_gloss = gloss
                 break
         if entry_redirect:
+            # A redirect from *any* entry beats a gloss already set from a
+            # *different* entry — this is the cross-entry override "shook"
+            # needs, and it is safe from the "tommy" regression because it
+            # only ever compares across entries, never within one.
             if word not in redirect:
                 redirect[word] = entry_redirect
-            continue  # a redirect from any sense in this entry wins outright
-        for sense in senses:
-            gloss = best_gloss(result.get(word), sense.get("tags", []), sense.get("glosses", []))
-            if gloss is not None:
-                result[word] = gloss
-                break
+            continue
+        if entry_gloss is not None and result.get(word) is None:
+            result[word] = entry_gloss
 
     for surface, lemma in redirect.items():
         # Drop whatever homograph gloss a same-spelling entry set for

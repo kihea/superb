@@ -62,6 +62,48 @@ SHAKE_LEMMA = {
     "senses": [{"glosses": ["To move quickly back and forth or up and down with short, jerky movements."]}],
 }
 
+# The *exact* real kaikki.org entries for "shook" (2026-07-26 snapshot,
+# fetched via https://kaikki.org/dictionary/English/meaning/s/sh/shook.jsonl),
+# reproduced verbatim rather than trimmed. This is the fixture that caught a
+# second bug the trimmed fixtures above did not: the noun entry above has
+# one sense; the real noun entry has *two* ("cask" and "furniture parts"),
+# and the real "to pack ... in a shook" verb sense sits in its own entry,
+# separate from the form-of-shake verb entry. Feeding the real shape through
+# an earlier version of this fix (entry-wide redirect scan missing) still
+# glossed "shook" as the cask noun in a full pipeline run, even though every
+# check above passed — the trimmed fixtures happened not to exercise the
+# exact multi-sense/multi-entry interaction. This fixture is the one that
+# does.
+SHOOK_REAL_NOUN = {
+    "pos": "noun", "word": "shook", "lang_code": "en",
+    "senses": [
+        {"glosses": ["A set of pieces for making a cask or box, usually wood."]},
+        {"glosses": ["The parts of a piece of house furniture, as a bedstead, packed together."]},
+    ],
+}
+SHOOK_REAL_VERB_PACK = {
+    "pos": "verb", "word": "shook", "lang_code": "en",
+    "senses": [{"glosses": ["To pack (staves, etc.) in a shook."]}],
+}
+SHOOK_REAL_VERB_FORM_OF = {
+    "pos": "verb", "word": "shook", "lang_code": "en",
+    "senses": [
+        {"glosses": ["simple past of shake."], "tags": ["form-of", "past"], "form_of": [{"word": "shake"}]},
+        {"glosses": ["past participle of shake"], "tags": ["form-of", "informal", "participle", "past"], "form_of": [{"word": "shake"}]},
+    ],
+}
+SHOOK_REAL_ADJ = {
+    "pos": "adj", "word": "shook", "lang_code": "en",
+    "senses": [
+        {"glosses": ["Shaken up; rattled; shocked or surprised."], "tags": ["slang"]},
+        {"glosses": ["Emotionally upset or disturbed; scared."], "tags": ["slang"]},
+    ],
+}
+SHAKE_REAL_LEMMA = {
+    "pos": "verb", "word": "shake", "lang_code": "en",
+    "senses": [{"glosses": ["To cause (something) to move rapidly in opposite directions alternatingly."]}],
+}
+
 
 def lines(*entries: dict) -> list[str]:
     return [json.dumps(e) for e in entries]
@@ -147,13 +189,62 @@ def main() -> int:
         problems,
     )
 
+    # 6. The exact real-world shape: an ordinary sense sharing an entry with
+    # nothing else (the "to pack ... in a shook" verb), *and* a separate
+    # entry holding only form-of senses, *and* a noun entry with two
+    # ordinary senses ahead of both. The redirect sense sits in its own
+    # entry here, so it must win over the gloss an earlier, different entry
+    # already set.
+    result_real = gl.build(
+        {"shook", "shake"},
+        lines(SHOOK_REAL_NOUN, SHOOK_REAL_VERB_PACK, SHOOK_REAL_VERB_FORM_OF, SHOOK_REAL_ADJ, SHAKE_REAL_LEMMA),
+    )
+    check(
+        "the real multi-entry, multi-sense shape resolves shook via shake",
+        result_real.get("shook") == result_real.get("shake") == SHAKE_REAL_LEMMA["senses"][0]["glosses"][0],
+        f"got shook={result_real.get('shook')!r}, shake={result_real.get('shake')!r}",
+        problems,
+    )
+
+    # 7. The opposite shape, found only by testing the fix above against
+    # real data: a *single* entry whose senses are ordinary throughout,
+    # except one buried deep in the list carries a redirect tag. "tommy"
+    # is exactly this: one noun entry, eight senses — senses[0] is the
+    # ordinary "British infantryman" meaning; senses[5] is a rare
+    # abbreviation ("Short for Tommy gun", tags include "alt-of"). A fix
+    # that scans every sense in an entry for a redirect before accepting
+    # any gloss (the first version of this fix) let senses[5] hijack
+    # senses[0]'s correct, common answer — the redirect must only ever
+    # win *across* entries, never pre-empt an earlier sense *within* the
+    # same one.
+    tommy_common = {
+        "pos": "noun", "word": "tommy", "lang_code": "en",
+        "senses": [
+            {"glosses": ["A British infantryman, especially one from World War I."], "tags": ["UK", "slang"]},
+            {"glosses": ["Bread or breadlike foodstuff."], "tags": ["UK", "obsolete", "slang"]},
+            {"glosses": ["The supply of food carried by workmen as their daily allowance."], "tags": ["UK", "obsolete", "slang"]},
+            {"glosses": ["A truck, or barter of labour for goods."], "tags": ["UK", "obsolete", "slang"]},
+            {"glosses": ["A tommy bar."], "tags": []},
+            {"glosses": ["Short for Tommy gun"], "tags": ["abbreviation", "alt-of"], "alt_of": [{"word": "Tommy gun"}]},
+            {"glosses": ["Tommyrot; nonsense."], "tags": ["dated", "slang"]},
+            {"glosses": ["Synonym of dicky."], "tags": ["obsolete", "slang"]},
+        ],
+    }
+    result_tommy = gl.build({"tommy"}, lines(tommy_common))
+    check(
+        "a rare redirect sense deep in one entry does not preempt an earlier ordinary sense",
+        result_tommy.get("tommy") == "A British infantryman, especially one from World War I.",
+        f"got {result_tommy.get('tommy')!r}",
+        problems,
+    )
+
     if problems:
         print(f"{len(problems)} failure(s):", file=sys.stderr)
         for p in problems:
             print(f"  - {p}", file=sys.stderr)
         return 1
 
-    print("glosses.py resolves form-of/alt-of redirects correctly (5/5 checks).")
+    print("glosses.py resolves form-of/alt-of redirects correctly (7/7 checks).")
     return 0
 
 
