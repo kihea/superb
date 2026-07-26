@@ -96,7 +96,13 @@ async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> 
 
 test("renders a real passage from content/", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator(".passage-page")).toBeVisible();
+  // The same class of infrastructure variance clickKeepReading() already
+  // guards against (see its own comment below): six workers hitting one
+  // preview server at once can starve the very first paint past the
+  // default 5s expect timeout under CI-level CPU contention, with nothing
+  // in the app or test logic differing between a passing and failing run.
+  // Isolated (one worker), this resolves in about a second.
+  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   const words = page.locator(".passage-word");
   await expect(words.first()).toBeVisible();
   expect(await words.count()).toBeGreaterThan(20);
@@ -327,7 +333,9 @@ for (const scheme of ["dark", "light"] as const) {
     }) => {
       await page.emulateMedia({ colorScheme: scheme, reducedMotion });
       await page.goto("/");
-      await expect(page.locator(".passage-page")).toBeVisible();
+      // Same parallel-worker contention window as the first test in this
+      // file -- see its comment.
+      await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
       // Let every legitimate crossing animation (the passage arriving, the
       // gloss card's entrance) finish settling.
       await page.waitForTimeout(1200);
