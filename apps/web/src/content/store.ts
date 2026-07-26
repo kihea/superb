@@ -31,6 +31,23 @@ export async function resolve(id: string): Promise<Record_> {
   return record;
 }
 
+/** ADR-022, docs/seams.md's second same-day amendment: Seam 2 gives a
+ *  record a single topic string; Seam 1 wants a list. This is the one
+ *  place that mapping happens, so three tracks do not each invent it
+ *  differently. A composed passage always has one; a sourced excerpt might
+ *  not yet (T3b is backfilling) -- missing is legal, not an error. */
+function topicsOf(record: Record_): string[] {
+  return record.topic ? [record.topic] : [];
+}
+
+/** Answers a PassageTopics Needs -- what a PassageFinished/PassageAbandoned
+ *  needs looked up before the engine can update its affinity tally. */
+export async function topicsFor(id: string): Promise<string[]> {
+  const map = await ensureLoaded();
+  const record = map.get(id);
+  return record ? topicsOf(record) : [];
+}
+
 // This mock's fixture glosses (src/fixtures/glosses.ts) were hand-written
 // for these ids first, so a fresh session sees fully-glossed content before
 // it ever reaches the long tail where a gloss tap falls back to a generic
@@ -103,8 +120,8 @@ export async function candidatesFor(exclude: Set<string>): Promise<ContentFrame>
 
   const candidates: Candidate[] = [...curated, ...rest].map((r) =>
     r.pool === "composed"
-      ? { id: r.id, pool: "Composed", slots: r.slots, words: [] }
-      : { id: r.id, pool: "Sourced", slots: [], words: r.words },
+      ? { id: r.id, pool: "Composed", slots: r.slots, words: [], topics: topicsOf(r) }
+      : { id: r.id, pool: "Sourced", slots: [], words: r.words, topics: topicsOf(r) },
   );
 
   return {

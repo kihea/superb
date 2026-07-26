@@ -57,5 +57,41 @@ for (const register of registers) {
       const afterReload = await currentPassageId(page);
       expect(afterReload).toBe(after);
     });
+
+    // ADR-022 / docs/seams.md's amendment: TopicAffinityUpdated crosses the
+    // seam on every PassageFinished and must never reach the reader --
+    // "no display, no 'you've been enjoying...', no topic chips, no
+    // Settings readout, no debug overlay that survives to production." This
+    // asserts both halves: the plumbing actually ran (the tally is really
+    // in the persisted, opaque engine state) and nothing about it is on
+    // screen anywhere.
+    test("topic affinity updates land in persisted state, never on screen", async ({ page }) => {
+      await page.goto(`/read?register=${register}`);
+      await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
+      await page.locator(".passage-continue-button").click();
+      await expect(page.locator(".passage-page")).toBeVisible();
+
+      const bodyText = await page.locator("body").innerText();
+      expect(bodyText.toLowerCase()).not.toContain("topic");
+      expect(bodyText.toLowerCase()).not.toContain("affinity");
+
+      const stateHasTally = await page.evaluate(async () => {
+        const db = await new Promise<IDBDatabase>((resolve, reject) => {
+          const req = indexedDB.open("superb-web", 1);
+          req.onsuccess = () => resolve(req.result);
+          req.onerror = () => reject(req.error);
+        });
+        const raw = await new Promise<string | undefined>((resolve, reject) => {
+          const tx = db.transaction("engine", "readonly");
+          const req = tx.objectStore("engine").get("state");
+          req.onsuccess = () => resolve(req.result);
+          req.onerror = () => reject(req.error);
+        });
+        if (!raw) return false;
+        const parsed = JSON.parse(raw) as { topicTally?: Record<string, unknown> };
+        return Object.keys(parsed.topicTally ?? {}).length > 0;
+      });
+      expect(stateHasTally).toBe(true);
+    });
   });
 }

@@ -1,6 +1,8 @@
 // Copied verbatim from docs/seams.md §"Seam 1 -- the shell's view of the
-// engine". Frozen. If this drifts from the seam, the seam is what's right --
-// fix this file, not the other way around.
+// engine", including both same-day amendments (ADR-022's three enum
+// members, then the topics fields on Candidate and Passage the first
+// amendment missed). Frozen. If this drifts from the seam, the seam is
+// what's right -- fix this file, not the other way around.
 
 export type Pool = "Composed" | "Sourced";
 
@@ -22,12 +24,19 @@ export type Event =
 export type Needs =
   | { kind: "Nothing" }
   | { kind: "ItemDifficulty"; itemId: string }
-  | { kind: "PassageCandidates"; dueWords: string[]; bandLow: number; bandHigh: number };
+  | { kind: "PassageCandidates"; dueWords: string[]; bandLow: number; bandHigh: number }
+  /** ADR-022. A PassageFinished or PassageAbandoned needs to know what the
+   *  passage was about. The topics are looked up rather than carried on the
+   *  event, so a host that mislabels a passage cannot corrupt durable state. */
+  | { kind: "PassageTopics"; passage: string };
 
 export type Frame =
   | { kind: "Nothing" }
   | { kind: "ItemDifficulty"; difficulty: number }
-  | { kind: "Content"; content: ContentFrame };
+  | { kind: "Content"; content: ContentFrame }
+  /** Empty is legal -- an unlabelled passage teaches the engine nothing about
+   *  taste, and is not made to. */
+  | { kind: "Topics"; topics: string[] };
 
 export interface ContentFrame {
   candidates: Candidate[];
@@ -46,6 +55,11 @@ export interface Candidate {
   slots: { index: number; class: string; defaultWord: string }[];
   /** Sourced only: words the excerpt carries in informative context. */
   words: string[];
+  /** ADR-022. What this passage is about -- opaque ids from the content
+   *  pipeline. The engine never interprets them, only counts what the reader
+   *  did with them. Empty is legal and is not penalised -- but see the note
+   *  below, because empty is also how this feature fails silently. */
+  topics: string[];
 }
 
 export type Effect =
@@ -54,7 +68,16 @@ export type Effect =
   | { kind: "ThetaUpdated"; theta: number; se: number }
   | { kind: "ProbeEligible"; word: string }
   | { kind: "ContextFrameLogged"; word: string; frameId: string }
-  | { kind: "PassageComposed"; passage: Passage };
+  | { kind: "PassageComposed"; passage: Passage }
+  /** ADR-022. A topic's tally moved. NEVER RENDERED -- see
+   *  useEngineSession.ts and docs/seams.md's same-day amendment. This effect
+   *  crosses the seam because filtering it out at the binding would be the
+   *  binding deciding what the host may know; the host persists it and does
+   *  nothing else with it. finished/abandoned are counts of the reader's own
+   *  behaviour, and a screen that shows them is the app telling the reader
+   *  what it has noticed about them -- law 3, and the single most tempting
+   *  violation in this codebase because the data is right there. */
+  | { kind: "TopicAffinityUpdated"; topic: string; finished: number; abandoned: number };
 
 export interface Passage {
   id: string;
@@ -67,6 +90,10 @@ export interface Passage {
    *  cleanly. targets are scheduled encounters; seeded are first contact. */
   targets: string[];
   seeded: string[];
+  /** ADR-022, carried through from the chosen Candidate. Nothing on the host
+   *  side reads this back -- it is here because the engine's own Passage
+   *  carries it, and a wire type that drops a field is a wire type that lies. */
+  topics: string[];
 }
 
 export interface EnginePort {

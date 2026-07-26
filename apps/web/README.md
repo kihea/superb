@@ -26,6 +26,19 @@ see the screen's actual inert-without-an-engine state). It is deleted
 whole the day the real binding exists; nothing in it should survive that
 day (`docs/seams.md` §Seam 1).
 
+## Topic affinity (ADR-022) is wired, and it is invisible on purpose
+
+The mock populates `Candidate.topics` and `Passage.topics`, and answers a
+`PassageTopics` need on every `PassageFinished`/`PassageAbandoned` so the
+tally in `mockEngine.ts`'s own state is real, not a stub -- a mock that
+left `topics` empty would silently make the real engine's scoring
+multiplier permanently neutral the day the binding replaces it, with every
+test still green (`docs/seams.md`'s second same-day amendment). `useEngineSession.ts`
+reads the resulting `TopicAffinityUpdated` effect only far enough to persist
+it and stops -- nothing renders it, and `e2e/reading.spec.ts` asserts both
+halves: the tally really lands in the persisted, opaque engine state, and
+the word "topic" never appears on screen.
+
 ## Scripts
 
 | Command | What it does |

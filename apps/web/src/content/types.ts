@@ -17,6 +17,12 @@ export interface SourceExcerpt {
   pool: "sourced";
   text: string;
   words: string[];
+  /** T3b is backfilling this onto the 60 existing excerpts (docs/seams.md's
+   *  second same-day amendment: "a sourced excerpt its own topic labelling").
+   *  Optional here because it has not landed on dev as of this build --
+   *  content/store.ts treats a missing one exactly as the seam says an
+   *  unlabelled passage should be treated: legal, and not penalised. */
+  topic?: string;
   provenance: {
     work: string;
     author: string;

@@ -6,7 +6,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { EnginePort, Passage, Request } from "./port";
 import { createMockEngine, seenIds } from "./mockEngine";
-import { candidatesFor, resolve } from "../content/store";
+import { candidatesFor, resolve, topicsFor } from "../content/store";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
 import { loadState, saveState } from "../storage/db";
 
@@ -42,6 +42,10 @@ async function fetchFrame(engine: EnginePort, request: Request, now: number) {
     const content = await candidatesFor(excluded);
     return { kind: "Content" as const, content };
   }
+  if (needs.kind === "PassageTopics") {
+    const topics = await topicsFor(needs.passage);
+    return { kind: "Topics" as const, topics };
+  }
   // ItemDifficulty is not needed by anything this build's screens ask for.
   return { kind: "Nothing" as const };
 }
@@ -58,6 +62,12 @@ export function useEngineSession(): EngineSession {
     const effects = engine.decide(request, frame, now);
     await saveState(engine.save());
 
+    // Only PassageComposed ever reaches the screen. TopicAffinityUpdated
+    // (ADR-022) is in `effects` too whenever a passage finishes or is
+    // abandoned, and it stops here, on purpose -- docs/seams.md's amendment:
+    // "no display, no 'you've been enjoying...', no topic chips, no Settings
+    // readout, no debug overlay that survives to production." The engine
+    // cannot enforce that; this line is where the surface does.
     const composed = effects.find((e) => e.kind === "PassageComposed");
     if (composed && composed.kind === "PassageComposed") {
       const record = await resolve(composed.passage.id);

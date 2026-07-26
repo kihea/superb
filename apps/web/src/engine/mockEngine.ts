@@ -1,13 +1,18 @@
 // A stand-in for superb-wasm, built off fixture content (docs/seams.md:
 // "Until superb-wasm exists, T4 builds against a hand-written mock
-// implementing EnginePort"). It never ships -- see main.tsx, where it is
-// only wired up behind import.meta.env.DEV. Delete this file whole the day
-// the real binding lands; nothing here should survive that.
+// implementing EnginePort"). It never ships -- see useEngineSession.ts,
+// where it is only wired up behind the VITE_MOCK_ENGINE flag. Delete this
+// file whole the day the real binding lands; nothing here should survive
+// that.
 //
 // It does not simulate scheduling, ability, or spaced repetition -- that is
 // the whole point of leaving it to the real engine. What it proves is the
 // loop: plan -> fetch -> decide -> save -> render, with a real passage on
-// the other end of it.
+// the other end of it. The one piece of state it does simulate honestly is
+// the topic-affinity tally (ADR-022) -- not because this mock recommends
+// anything, but because a mock that leaves Candidate.topics empty is
+// indistinguishable, by every test, from one that wires it correctly, and
+// docs/seams.md's second same-day amendment names exactly that failure.
 import type {
   ContentFrame,
   Effect,
@@ -18,13 +23,23 @@ import type {
   Request,
 } from "./port";
 
+interface TopicTally {
+  finished: number;
+  abandoned: number;
+}
+
 interface MockState {
   seen: string[];
   current: Passage | null;
+  /** ADR-022. Persisted, and -- see useEngineSession.ts -- never read back
+   *  by anything that renders. If you are here to add a screen that shows
+   *  this, read docs/seams.md's amendment first; it is arguing with you
+   *  specifically. */
+  topicTally: Record<string, TopicTally>;
 }
 
 function emptyState(): MockState {
-  return { seen: [], current: null };
+  return { seen: [], current: null, topicTally: {} };
 }
 
 function pickPassage(frame: ContentFrame): Passage {
@@ -38,6 +53,7 @@ function pickPassage(frame: ContentFrame): Passage {
       fills: candidate.slots.map((s) => ({ index: s.index, word: s.defaultWord })),
       targets: candidate.slots.map((s) => s.defaultWord),
       seeded: [],
+      topics: candidate.topics,
     };
   }
   return {
@@ -46,6 +62,7 @@ function pickPassage(frame: ContentFrame): Passage {
     fills: [],
     targets: candidate.words,
     seeded: [],
+    topics: candidate.topics,
   };
 }
 
@@ -59,8 +76,12 @@ export function createMockEngine(): EnginePort {
         return;
       }
       try {
-        const parsed = JSON.parse(document) as MockState;
-        state = { seen: parsed.seen ?? [], current: parsed.current ?? null };
+        const parsed = JSON.parse(document) as Partial<MockState>;
+        state = {
+          seen: parsed.seen ?? [],
+          current: parsed.current ?? null,
+          topicTally: parsed.topicTally ?? {},
+        };
       } catch {
         state = emptyState();
       }
@@ -76,6 +97,10 @@ export function createMockEngine(): EnginePort {
         // below just hands it back so a reload resumes mid-passage.
         if (state.current) return { kind: "Nothing" };
         return { kind: "PassageCandidates", dueWords: [], bandLow: 5000, bandHigh: 25000 };
+      }
+      const event = request.event;
+      if (event.kind === "PassageFinished" || event.kind === "PassageAbandoned") {
+        return { kind: "PassageTopics", passage: event.passage };
       }
       return { kind: "Nothing" };
     },
@@ -96,12 +121,28 @@ export function createMockEngine(): EnginePort {
         case "GlossTap":
           return [{ kind: "ContextFrameLogged", word: event.word, frameId: event.passage }];
         case "PassageFinished":
+        case "PassageAbandoned": {
           if (state.current) state.seen = [...state.seen, state.current.id].slice(-20);
           state.current = null;
-          return [];
-        case "PassageAbandoned":
-          state.current = null;
-          return [];
+          if (frame.kind !== "Topics") return [];
+          const finished = event.kind === "PassageFinished";
+          const effects: Effect[] = [];
+          for (const topic of frame.topics) {
+            const tally = state.topicTally[topic] ?? { finished: 0, abandoned: 0 };
+            const updated: TopicTally = {
+              finished: tally.finished + (finished ? 1 : 0),
+              abandoned: tally.abandoned + (finished ? 0 : 1),
+            };
+            state.topicTally[topic] = updated;
+            effects.push({
+              kind: "TopicAffinityUpdated",
+              topic,
+              finished: updated.finished,
+              abandoned: updated.abandoned,
+            });
+          }
+          return effects;
+        }
         // Not surfaced by this build's screens (no deck or probe view yet
         // -- see workspace/tracks/T4-surface.md's "what to build" list).
         // The seam still declares them, so they still type-check here.
