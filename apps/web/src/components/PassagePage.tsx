@@ -57,10 +57,10 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
         )}
       </p>
 
-      {/* DECISION PENDING: https://github.com/kihea/superb/issues/30 -- a
-         publication year is a number on the reading screen (law 3 says none
-         outside Settings), reasoned here as a citation rather than a
-         pedagogy metric. Kept until Kihea says otherwise. */}
+      {/* Resolved: ADR-023 -- a publication year is a property of the text,
+         not a measurement of the reader, so it is not the kind of number
+         law 3 exists to stop. Byline ships under sourced excerpts only;
+         composed passages have no author to cite. */}
       {record.pool === "sourced" && (
         <p className="passage-citation">
           — {record.provenance.author}, <em>{record.provenance.work}</em> ({record.provenance.year})
