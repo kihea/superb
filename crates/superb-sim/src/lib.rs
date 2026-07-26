@@ -15,6 +15,8 @@
 //! shipping path reads it. This crate only offers candidates
 //! (`library.rs`); every choice made from them is the engine's.
 
+pub mod calibration;
+pub mod coverage;
 pub mod library;
 pub mod oracle;
 pub mod pseudoword_comparison;

@@ -1,0 +1,16 @@
+{"initial_state":{"seed":0,"draw_count":0,"theta":0.0,"theta_information":1.0,"words":{"w1":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"p1","clean":true},{"frame_id":"p2","clean":true},{"frame_id":"p3","clean":true}],"interval_days":2.0},"w2":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"p1","clean":true},{"frame_id":"p2","clean":true},{"frame_id":"p3","clean":true}],"interval_days":2.0},"w3":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"p1","clean":true},{"frame_id":"p2","clean":true},{"frame_id":"p3","clean":true}],"interval_days":2.0},"w4":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"p1","clean":true},{"frame_id":"p2","clean":true},{"frame_id":"p3","clean":true}],"interval_days":2.0}},"topic_affinities":{}},"now":1735776000000,"event":{"PASSAGE_FINISHED":{"passage":"passage-quad","words_seen":["w1","w2","w3","w4"]}},"frame":{"Topics":{"topics":[]}}}
+{"IntervalSet":{"word":"w1","due":1736121600000}}
+{"ContextFrameLogged":{"word":"w1","frame_id":"passage-quad"}}
+{"WordStateChanged":{"word":"w1","from":"LEARNING","to":"CONSOLIDATING"}}
+{"ProbeEligible":{"word":"w1"}}
+{"IntervalSet":{"word":"w2","due":1736121600000}}
+{"ContextFrameLogged":{"word":"w2","frame_id":"passage-quad"}}
+{"WordStateChanged":{"word":"w2","from":"LEARNING","to":"CONSOLIDATING"}}
+{"ProbeEligible":{"word":"w2"}}
+{"IntervalSet":{"word":"w3","due":1736121600000}}
+{"ContextFrameLogged":{"word":"w3","frame_id":"passage-quad"}}
+{"WordStateChanged":{"word":"w3","from":"LEARNING","to":"CONSOLIDATING"}}
+{"ProbeEligible":{"word":"w3"}}
+{"IntervalSet":{"word":"w4","due":1736121600000}}
+{"ContextFrameLogged":{"word":"w4","frame_id":"passage-quad"}}
+{"WordStateChanged":{"word":"w4","from":"LEARNING","to":"CONSOLIDATING"}}
