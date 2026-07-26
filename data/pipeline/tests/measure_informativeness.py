@@ -24,6 +24,39 @@ The sample is drawn once and checked into
 data/pipeline/tests/informativeness_sample.json so the measurement is
 reproducible; the key lives beside it, also checked in, so the number in the
 PR can be re-derived rather than taken on faith.
+
+**M2 item 5b's finding: the two commands above answer a *diagnostic*
+question, never a corpus-wide one.** `sample` stratifies its positive arm
+evenly across the three gating signals (~30 each) "so a single loud signal
+cannot dominate the sample and hide a weak one" — right for finding which
+signal is weak, wrong for characterizing the corpus, because the signals do
+not fire anywhere near equally often (apposition and definition-marker
+together are a few percent of real claims; gloss-overlap is the rest). PR #34
+reported the stratified blend (56%) as the corpus's precision; the PR #34
+verifier reweighted the same per-signal numbers by real incidence and got
+≈44%. Reweighting a diagnostic sample after the fact is one way to correct
+for this. **The commands below are the corrected instrument**: they draw
+uniformly from the corpus's actual shipped claims, so incidence-weighting is
+a property of the draw, not an arithmetic correction applied afterward.
+
+    python data/pipeline/tests/measure_informativeness.py sample-corpus
+        Draws a *uniform* random sample of (word, excerpt) pairs from every
+        claim the shipped corpus actually makes (every `words` entry in
+        every content/sources/*.json file) and writes it to
+        corpus_precision_sample.json. No stratification by signal — a word
+        claimed thousands of times by gloss-overlap and one claimed a few
+        dozen times by definition-marker appear in the sample in roughly
+        that same proportion, because that is the corpus a reader actually
+        receives. (The already-committed corpus_precision_sample.json /
+        _key.json are the frozen, hand-judged baseline this track's PR
+        reports against — see PRECISION-STANDARD.md; re-running this command
+        draws a fresh sample and does not overwrite them unless you choose
+        to.)
+
+    python data/pipeline/tests/measure_informativeness.py judge-corpus
+        Same shape as `judge`, against corpus_precision_key.json. The
+        reported overall precision is the corpus-wide number by
+        construction — no reweighting step, nothing to get backwards.
 """
 
 from __future__ import annotations
@@ -42,12 +75,16 @@ import excerpts as ex  # noqa: E402
 HERE = pathlib.Path(__file__).parent
 SAMPLE_PATH = HERE / "informativeness_sample.json"
 KEY_PATH = HERE / "informativeness_key.json"
+CORPUS_SAMPLE_PATH = HERE / "corpus_precision_sample.json"
+CORPUS_KEY_PATH = HERE / "corpus_precision_key.json"
+SOURCES_DIR = ROOT / "content" / "sources"
 
 SEED = 20260725  # fixed, same convention as pseudowords.py — never rolled
 SAMPLE_SIZE = 120
 BOOKS_TO_SWEEP = 24  # a cross-section, not the whole catalog — this is a spot-check, not a census
 POSITIVE_TARGET = 90  # sample mostly from what the heuristic would ship...
 NEGATIVE_TARGET = 30  # ...and a smaller arm of what it would reject, for a recall spot-check
+CORPUS_SAMPLE_SIZE = 60  # matches the already-frozen corpus_precision_sample.json — see PRECISION-STANDARD.md
 
 
 def collect_candidate_pairs() -> list[dict]:
@@ -196,15 +233,122 @@ def cmd_judge() -> int:
     return 0
 
 
+def collect_corpus_pairs() -> list[dict]:
+    """Every (word, excerpt) claim the shipped corpus actually makes — one
+    entry per `words[i]` in every content/sources/*.json file, hand-authored
+    and generated alike. This *is* the population `Candidate.words` draws
+    from at read time, so a uniform sample of it is a corpus-wide estimate
+    by construction, with no reweighting step afterward to get wrong.
+    """
+    glosses = ex.load_glosses()
+    pairs: list[dict] = []
+    for path in sorted(SOURCES_DIR.glob("*.json")):
+        if path.stem.startswith("_"):
+            continue
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        text = doc.get("text", "")
+        work = doc.get("provenance", {}).get("work", "")
+        for word in doc.get("words", []):
+            ok, reason = ex.is_informative(word, text, glosses)
+            pairs.append({
+                "word": word, "text": text, "excerpt_id": doc.get("id", path.stem),
+                "work": work, "verdict": ok, "reason": reason,
+            })
+    return pairs
+
+
+def cmd_sample_corpus() -> int:
+    pairs = collect_corpus_pairs()
+    print(f"shipped claim population: {len(pairs)} (word, excerpt) pairs", file=sys.stderr)
+
+    rng = random.Random(SEED)
+    shuffled = list(pairs)
+    rng.shuffle(shuffled)
+    sample = shuffled[:CORPUS_SAMPLE_SIZE]
+
+    hidden: dict[str, dict] = {}
+    visible: list[dict] = []
+    for i, p in enumerate(sample):
+        sid = f"c{i:03d}"
+        hidden[sid] = {"verdict": p["verdict"], "reason": p["reason"]}
+        visible.append({"id": sid, "excerpt_id": p["excerpt_id"], "word": p["word"], "text": p["text"], "work": p["work"]})
+
+    CORPUS_SAMPLE_PATH.write_text(json.dumps(visible, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (HERE / ".corpus_precision_hidden.json").write_text(
+        json.dumps(hidden, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"wrote {len(visible)} unlabelled, uniformly-drawn samples to {CORPUS_SAMPLE_PATH}")
+    print("Write data/pipeline/tests/corpus_precision_key.json next, reading only "
+          "the sample file — then run `judge-corpus`.")
+    return 0
+
+
+def cmd_judge_corpus() -> int:
+    if not CORPUS_SAMPLE_PATH.exists():
+        raise SystemExit("run `sample-corpus` first")
+    if not CORPUS_KEY_PATH.exists():
+        raise SystemExit(
+            f"{CORPUS_KEY_PATH} does not exist — write the key by hand first, "
+            "reading only corpus_precision_sample.json, against PRECISION-STANDARD.md"
+        )
+    sample = json.loads(CORPUS_SAMPLE_PATH.read_text(encoding="utf-8"))
+    key_doc = json.loads(CORPUS_KEY_PATH.read_text(encoding="utf-8"))
+    key = key_doc["verdicts"] if "verdicts" in key_doc else key_doc
+    glosses = ex.load_glosses()
+
+    missing = [s["id"] for s in sample if s["id"] not in key]
+    if missing:
+        raise SystemExit(f"key is missing entries for: {missing}")
+
+    rows = []
+    for s in sample:
+        ok, reason = ex.is_informative(s["word"], s["text"], glosses)
+        entry = key[s["id"]]
+        verdict = entry["informative"] if isinstance(entry, dict) else entry
+        rows.append({"id": s["id"], "word": s["word"], "heuristic": ok, "reason": reason, "key": verdict})
+
+    # Every shipped claim was, by construction, a heuristic-positive at the
+    # time the corpus was built. A row that recomputes False here means the
+    # code or the glosses changed since — expected and wanted after this
+    # track's fix, worth surfacing rather than silently dropping.
+    stale = [r for r in rows if not r["heuristic"]]
+    positives = [r for r in rows if r["heuristic"]]
+    tp = sum(1 for r in positives if r["key"])
+    precision = tp / len(positives) if positives else float("nan")
+
+    print(f"n = {len(rows)} shipped claims sampled uniformly (no stratification)")
+    if stale:
+        print(f"  {len(stale)} no longer recompute as informative under the current code/glosses "
+              "(the corpus predates this run — regenerate it, or note the drift)")
+    print(f"corpus-wide precision (uniform sample, incidence-weighted by construction): "
+          f"{tp}/{len(positives)} = {precision:.1%}")
+
+    print("\nprecision by signal (diagnostic — n's here reflect real incidence, not a stratified target):")
+    by_reason: dict[str, list[dict]] = {}
+    for r in positives:
+        by_reason.setdefault(r["reason"], []).append(r)
+    for reason, group in sorted(by_reason.items(), key=lambda kv: -len(kv[1])):
+        tp_r = sum(1 for r in group if r["key"])
+        print(f"  {reason}: {tp_r}/{len(group)} = {tp_r/len(group):.0%}  (n={len(group)})")
+
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("sample")
     sub.add_parser("judge")
+    sub.add_parser("sample-corpus")
+    sub.add_parser("judge-corpus")
     args = parser.parse_args()
     if args.command == "sample":
         return cmd_sample()
-    return cmd_judge()
+    if args.command == "judge":
+        return cmd_judge()
+    if args.command == "sample-corpus":
+        return cmd_sample_corpus()
+    return cmd_judge_corpus()
 
 
 if __name__ == "__main__":

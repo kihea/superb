@@ -302,9 +302,37 @@ def _looks_like_proper_noun(text: str, match: re.Match) -> bool:
     return not SENTENCE_BOUNDARY_RE.search(before)
 
 
+def _confident_proper_noun_forms(text: str) -> set[str]:
+    """Case-sensitive surface forms that `_looks_like_proper_noun` already
+    trusts at least once in this window (capitalised, mid-sentence, no
+    title-abbreviation ambiguity) — and therefore, on that same evidence,
+    are a name everywhere else they recur here too, including a
+    sentence-initial occurrence the per-occurrence check alone declines to
+    call (a capital there is not evidence by itself; an ordinary word can
+    open a sentence just as well as a name can).
+
+    M2 item 5b's manual pass: "Tommy Beresford was one of those young
+    Englishmen..." opens a window with the character's name in the one
+    position `_looks_like_proper_noun` cannot use — but the same excerpt
+    also carries "Tommy realized perfectly..." and "...replied Tommy with
+    the same urbanity", both confidently mid-sentence. `tommy` is also a
+    common noun (dated slang for a British soldier), so the old per-
+    occurrence check let the sentence-initial mention through as a
+    vocabulary claim on a name. This is not a wrong dictionary sense (item
+    5b's `glosses.py` fix) — it is not a vocabulary claim at all, and no
+    sense selection can repair a claim on a token that was never used as
+    the common noun in this window.
+    """
+    return {
+        match.group(0)
+        for match in TOKEN_RE.finditer(text)
+        if _looks_like_proper_noun(text, match)
+    }
+
+
 def band_words_in(text: str, band: dict[str, int]) -> list[str]:
     """Which band words this window's own tokens carry — surface forms,
-    filtered against two failure modes the hand-measured sample found:
+    filtered against three failure modes the hand-measured sample found:
 
     - an ordinal suffix ("5th") gets split by TOKEN_RE into digits (dropped)
       and letters ("th"), and "th" happens to sit in the band; skip any
@@ -312,11 +340,19 @@ def band_words_in(text: str, band: dict[str, int]) -> list[str]:
     - a capitalised mid-sentence token is treated as a likely proper noun
       (see `_looks_like_proper_noun`) and excluded — a character's name
       that happens to spell a common word is not that word, in context.
+    - the same name recurring at the *start* of a sentence, which the
+      per-occurrence check above cannot tell apart from an ordinary
+      capitalised word on its own — resolved by asking, window-wide,
+      whether this exact capitalised spelling is already confidently a name
+      somewhere else in the same window (see `_confident_proper_noun_forms`).
     """
     seen: list[str] = []
+    confident_names = _confident_proper_noun_forms(text)
     for match in TOKEN_RE.finditer(text):
         start = match.start()
         if start > 0 and text[start - 1].isdigit():
+            continue
+        if match.group(0) in confident_names:
             continue
         if _looks_like_proper_noun(text, match):
             continue

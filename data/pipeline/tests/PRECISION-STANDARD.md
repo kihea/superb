@@ -126,3 +126,83 @@ distinguishable** at this sample size — the two numbers agree, they do not
 merely fail to disagree loudly. Any precision figure quoted from a
 60-sample judging pass must carry this interval; a bare point estimate is a
 number wearing a decimal point it has not earned.
+
+## After the fix: what moved, and what did not
+
+`data/pipeline/glosses.py` now resolves an inflected surface form (`shook`,
+`dashed`, ...) to its lemma's own sense when wiktextract marks it `form-of`/
+`alt-of`, instead of falling through to whichever unrelated homograph
+happens to sit earlier in the snapshot — see `glosses.py`'s
+`redirect_target` docstring for the full reasoning and `test_glosses.py`
+for the regression this fix is graded against. The corpus was regenerated
+in full (`python data/pipeline/excerpts.py --per-book-cap 20`, matching the
+original build) against the corrected glosses.
+
+A second uniform sample (n=40, seed 20260726, distinct from this file's
+frozen n=60 baseline above), judged by hand against the same standard,
+against `corpus_precision_key_after.json`:
+
+- **18/40 = 45.0% informative**, 95% CI roughly 29.6%–60.4%.
+- This overlaps almost completely with the before-fix interval (37.3%–
+  62.7%). **No statistically distinguishable change in headline
+  precision.**
+- Band coverage moved slightly the right direction: 2+ excerpts 4.8% → 5.5%,
+  1 excerpt 6.7% → 8.7%, 0 excerpts 88.5% → 85.8% — a side effect of 22,650
+  of 30,000 target words now resolving to *some* correct gloss, against
+  18,452 before (more words correctly glossed, not merely fewer glossed
+  wrong).
+- The fix does verifiably close the diagnosed case: `dashed` — this file's
+  own worked example of a wrong-sense claim competing with a more available
+  sense — no longer registers as a gloss-overlap candidate at all under the
+  corrected code, confirming the mechanism works on the failure it targets.
+
+**Why the headline number does not move even though the mechanism works.**
+This file's own provisional breakdown (above) already predicted it: the
+wrong-sense failure was ~7% of false claims (2/30) on the before-sample; the
+dominant failure (~93%, 28/30) is gloss-overlap treating topical/lexical
+proximity as if it were explanation — a *sense-correct*, coherent use with
+no actual teaching cue (`ceiling`, `growl`, `lamp`, `nearest` in the
+after-sample: ordinary words, right sense, nothing wrong to fix, nothing
+explaining them either). Fixing which sense gets picked cannot repair a
+claim whose defect was never the sense.
+
+**Two further levers considered and measured, not shipped — recorded so
+they are not re-proposed at full price:**
+
+1. **Restrict gloss-overlap to a local window near the candidate word**,
+   mirroring how apposition/definition-marker are already forward-window
+   restricted. Measured directly against the before-sample's 28 rejected
+   gloss-overlap claims and their true-positive counterparts: **13/28 (46%)
+   of false claims** have their overlapping word within 100 characters of
+   the candidate — but so do **13/28 (46%) of true positives** (this file's
+   own `compliment` example supplies its cue 450 characters away, well
+   outside any tight window a real definition-carrying sentence needs). A
+   locality cutoff removes true and false claims at a statistically
+   indistinguishable rate — the same cliff-not-dial shape as the two
+   already-refuted cross-signal plans, measured before anything was built.
+2. **A structural rewrite of gloss-overlap into a stronger cue detector**
+   (e.g. requiring the overlap to sit inside an explanatory clause, not
+   merely anywhere in the window) is plausible and likely the real fix —
+   but it is a signal redesign, not a pipeline bug fix, and is out of this
+   track's scope. Named as the honest next lever, not attempted here.
+
+**The floor this track states: 40% informative-context precision**, stated
+with its reasoning rather than as a round number:
+
+- It sits below both measured intervals' lower bounds (37.3% before, 29.6%
+  after) at the sample sizes measured here, so it is a floor the corpus can
+  be checked against without a wider sample first — a floor above what has
+  actually been measured would be unfalsifiable at this n.
+- It is **not** a claim that the fix raised precision to a new plateau —
+  the honest reading of both samples is that precision did not move in a
+  way this instrument can detect. The floor states what the corpus can
+  currently be held to, not a target achieved.
+- **Item 5b's tripwire should not be disarmed on this floor.** The
+  dominant failure mode — coherent, correctly-sensed claims with no real
+  teaching cue — is unaddressed by any change authorized in this track's
+  scope, and the two candidate fixes for it (above) are either a measured
+  cliff or a genuine redesign. `Candidate.words` is more honestly measured
+  than before this PR, and one real, verified defect closed — but "more
+  honestly measured" is not "measured above a floor a scheduling consumer
+  should trust." That is this PR's answer to the DONE clause's own
+  question, stated plainly rather than implied by a number.
