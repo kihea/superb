@@ -1,0 +1,20 @@
+{
+  "id": "adj.emotion.wary",
+  "pos": "adj",
+  "description": "A guarded, uneasy disposition toward something not yet trusted — not fear itself.",
+  "fixture": "She gave a {word} glance toward the door.",
+  "members": [
+    "uneasy",
+    "apprehensive",
+    "wary",
+    "guarded",
+    "suspicious",
+    "distrustful",
+    "hesitant",
+    "nervous",
+    "anxious",
+    "watchful",
+    "timid",
+    "skittish"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "comp-harbour-departure",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "The ferry was due out at noon, and by eleven the quay had filled with the {0} business of leaving — trunks stacked, tickets checked twice, farewells said and then said again because nobody wanted to be the one who let go first. Among the crowd stood a young man with a single case, watching the gangway with an expression he was trying hard to keep {1}. He had told everyone he was ready to go, and mostly he believed it, except for the small, {2} pull he felt every time he looked back at the town behind him. His mother had said her goodbyes {3} an hour ago and gone home rather than watch the boat leave, which he understood better than he let on. When the horn finally sounded, he did not {4} the faces on the quay for as long as he meant to. The land fell away quickly after that, and the {5} that had followed him all morning eased, just slightly, once there was nothing left to leave.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.speed.fast",
+      "defaultWord": "brisk"
+    },
+    {
+      "index": 1,
+      "class": "adj.emotion.content",
+      "defaultWord": "composed"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "nervous"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.grimly",
+      "defaultWord": "gravely"
+    },
+    {
+      "index": 4,
+      "class": "verb.perception.notice",
+      "defaultWord": "glimpse"
+    },
+    {
+      "index": 5,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "unease"
+    }
+  ]
+}

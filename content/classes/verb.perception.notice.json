@@ -1,0 +1,18 @@
+{
+  "id": "verb.perception.notice",
+  "pos": "verb",
+  "description": "To become aware of something faint or easy to miss, by sight.",
+  "fixture": "It was easy to {word} the change in her face.",
+  "members": [
+    "glimpse",
+    "discern",
+    "detect",
+    "spy",
+    "perceive",
+    "espy",
+    "observe",
+    "notice",
+    "descry",
+    "remark"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "verb.communication.murmur",
+  "pos": "verb",
+  "description": "To speak at low volume, half to oneself.",
+  "fixture": "She began to {word} something under her breath.",
+  "members": [
+    "murmur",
+    "whisper",
+    "mutter",
+    "mumble",
+    "intone",
+    "drawl",
+    "croon",
+    "drone"
+  ]
+}

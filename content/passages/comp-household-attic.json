@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-attic",
+  "pool": "composed",
+  "topic": "household",
+  "text": "Nobody had been up to the attic in years, and it showed the moment Renata lifted the hatch and let light spill down onto the landing, {0} and thin. Dust had settled over everything in a fine, {1} layer, undisturbed by anything but the occasional bird that found its way in through the gable vent. She worked through the boxes {2}, unsure what she was looking for exactly, only that her mother had said it would be up here somewhere. Old furniture stood shrouded in sheets, each one a patient {3} waiting to be introduced, and a trunk in the corner held nothing but photographs of people nobody in the family could name anymore. By the time she found the box she wanted, the light through the gable had begun to {4}, and she carried it down the ladder before the attic went properly dark around her.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.light",
+      "defaultWord": "hazy"
+    },
+    {
+      "index": 1,
+      "class": "adj.texture.smooth",
+      "defaultWord": "even"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "cautiously"
+    },
+    {
+      "index": 3,
+      "class": "noun.person.stranger",
+      "defaultWord": "stranger"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "fade"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-inheritance",
+  "pool": "composed",
+  "topic": "household",
+  "text": "The lawyer's letter arrived on a {0} Tuesday, the kind of ordinary day that made the news inside it feel almost like a joke in poor taste. Wilhelmina read it twice at the kitchen table, certain she'd misunderstood, before accepting that her great-aunt had, in fact, left her the {1} at the edge of town nobody in the family had visited in a decade. She drove out that weekend feeling {2}, half sure she was trespassing, even with the deed in her bag, and let herself in through a door that stuck the way doors do when nobody has opened them in a while. The rooms held the {3} of a life she barely remembered, furniture arranged for a person who was no longer there to use it, and she moved through them {4}, unwilling yet to touch anything or decide what any of it would become. It would take months to work out what to do with the place. For now she simply sat in her great-aunt's kitchen and let the strangeness of owning it settle in.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.small",
+      "defaultWord": "modest"
+    },
+    {
+      "index": 1,
+      "class": "noun.place.dwelling",
+      "defaultWord": "farmhouse"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "guarded"
+    },
+    {
+      "index": 3,
+      "class": "noun.abstract.time.era",
+      "defaultWord": "chapter"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "warily"
+    }
+  ]
+}

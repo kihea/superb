@@ -1,0 +1,17 @@
+{
+  "id": "adv.manner.hesitant",
+  "pos": "adv",
+  "description": "How an action is carried out when trust or confidence is missing.",
+  "fixture": "She reached for the handle {word}.",
+  "members": [
+    "warily",
+    "cautiously",
+    "hesitantly",
+    "gingerly",
+    "tentatively",
+    "uneasily",
+    "guardedly",
+    "timidly",
+    "reluctantly"
+  ]
+}

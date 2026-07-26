@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-night-in-the-woods",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "By the time they realized how far they'd walked, the light under the trees had already gone {0}, and every trunk had started to look like every other trunk. Nobody said the word lost, not yet, though the thought sat between them plainly enough. Dovey checked the compass again, {1} this time, turning it over as if a second look might change what it said. The woodland at night made sounds it never made by day, some {2} of small movement in the undergrowth that was probably nothing, was almost certainly nothing, and yet. They agreed, without much discussion, to walk {3} downhill, on the theory that downhill eventually found water and water eventually found people. It took another hour, moving {4} between the trees with a torch that was dimmer than either of them wanted to admit, before they saw a light that wasn't the moon.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.dark",
+      "defaultWord": "murky"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "warily"
+    },
+    {
+      "index": 2,
+      "class": "noun.abstract.sound",
+      "defaultWord": "rustle"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "cautiously"
+    }
+  ]
+}

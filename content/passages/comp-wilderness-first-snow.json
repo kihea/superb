@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-first-snow",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "The first snow of the season came {0}, overnight, so that the world outside the window looked entirely rearranged by morning. The children were out before breakfast, eager to {1} through drifts that reached their knees, shouting to each other about nothing in particular except the sheer fact of it. Their grandfather watched from the porch with a mug going cold in his hands, remembering {2} how the first snow used to feel before it meant shovelling and cold engines and a dozen small inconveniences. The dog, for its part, had no complicated feelings about any of it and simply ran {3} circles in the yard until it collapsed, satisfied, in a drift of its own making. By noon the {4} of the morning had settled into the ordinary business of winter, but for an hour or two, at least, the whole yard had belonged to something like wonder.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.time.suddenly",
+      "defaultWord": "unexpectedly"
+    },
+    {
+      "index": 1,
+      "class": "verb.motion.slow",
+      "defaultWord": "trudge"
+    },
+    {
+      "index": 2,
+      "class": "adv.degree.slightly",
+      "defaultWord": "vaguely"
+    },
+    {
+      "index": 3,
+      "class": "adj.speed.fast",
+      "defaultWord": "headlong"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.emotion.joy",
+      "defaultWord": "delight"
+    }
+  ]
+}

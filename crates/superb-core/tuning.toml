@@ -1,0 +1,221 @@
+# Every constant the science calls a tendency rather than a law
+# (engine-contract §3). Named honestly, even though the app's interface never
+# speaks any of them. The simulator can override this file at runtime;
+# nothing else in the product can — see engine-contract §3 and ADR-015.
+#
+# Every number here is provisional until the simulator has run (ADR-015).
+# Changing one on the evidence of a single reader is a CHECKPOINT
+# (workspace/contract.md); changing one on simulator output is ordinary work.
+
+# --- Composer scoring (ADR-015) ---
+
+# How fast a passage's later due words lose value: the i-th most valuable due
+# word in a passage is worth coverage_decay^(i-1) of the first. Keeps a
+# six-word passage from beating a well-chosen two-word one just by density.
+coverage_decay = 0.75
+
+# Multiplies a sourced excerpt's total score against a composed passage's.
+# The one number that carries the "shine light on literature" answer
+# (ADR-015), separate from the affinity table below on purpose.
+sourced_preference = 2.4
+
+# The fewest due words a sourced excerpt must cover in informative context
+# before it is even a candidate. Below this, a sourced hit is decoration and
+# must not bump a word out of a scheduled encounter.
+min_sourced_coverage = 2
+
+# How many of a passage's slots are held back for words the reader has never
+# met, before the due list is allowed to fill them. A reservation, not a cap,
+# and the difference is the whole constant: in steady state the due list is
+# always longer than one passage, so seeding into leftovers means there are
+# never any leftovers, and the reader stops meeting new words the moment the
+# schedule gets busy.
+#
+# This is the dial between "the reader meets new words" and "the reader can
+# read the sentence." Set high, every passage fills up with unknowns: the text
+# stops being readable, and — measurably — no word is ever met often enough to
+# become automatic, because every slot goes to a stranger instead of to a word
+# the schedule is trying to consolidate. The simulator found that at the
+# uncapped setting: sixty sessions produced a single automatic word, at 39
+# encounters against a target band of 8-12. Set to 2, vocabulary still grows
+# through reading and the schedule keeps most of its slots.
+seed_slots_per_passage = 2
+
+# --- Encounter target: how many varied contexts carry a word to automatic ---
+
+# The number of varied-context encounters the schedule aims a word toward
+# before it is treated as understood without deliberate retrieval.
+encounter_target = 10
+
+# The fewest encounters that can still count as having demonstrated mastery.
+encounter_target_min = 6
+
+# The most encounters a word is scheduled for before the schedule gives up on
+# adding more value by repetition alone.
+encounter_target_max = 20
+
+# How many distinct-context clean encounters move a word from Learning to
+# Consolidating — the earlier of the schedule's two progression edges;
+# encounter_target is the later one, for Consolidating -> Automatic
+# (src/engine.rs's ARCHITECT'S ANSWER, BRIEF-013 round 2). Counted in
+# distinct context frames, never raw encounters, for the same reason
+# encounter_target is: ten meetings inside one passage must not promote a
+# word that has only ever been understood in one sentence.
+consolidating_threshold = 4
+
+# --- θ band (engine-contract §4): which due words are worth serving now ---
+
+# How far below the learner's estimated ability a word may sit and still be
+# worth serving — reinforcement of what is nearly automatic.
+band_low = -0.2
+
+# How far above the learner's estimated ability a word may sit and still be
+# worth serving — stretch that is still readable in context.
+band_high = 0.6
+
+# The symmetric logit range θ is clamped to (BRIEF-010). ±4.0 is the
+# conventional bound for a one-parameter logistic ability scale — past it, a
+# claim stops being informative, so nothing is lost by refusing to track it
+# further in either direction.
+theta_min = -4.0
+theta_max = 4.0
+
+# The accumulated Fisher information a brand-new learner's θ estimate starts
+# with, before any observation (engine-contract §5's Fisher-information
+# amendment, BRIEF-014 round 2). theta_se is derived, never stored, as
+# 1 / sqrt(total_information); without a positive floor here, a single
+# observation's own information (p(1-p), at most 0.25) would be the entire
+# denominator, reporting a certainty no lone Bernoulli trial earns. 1.0 keeps
+# a fresh learner's starting se at 1.0 — the same value this crate hand-set
+# theta_se to before this round made it derived rather than stored. Strictly
+# positive: zero or negative would make a fresh learner's theta_se infinite
+# before a single observation has arrived. Since BRIEF-014 round 3 this same
+# floor also sizes θ's own first step: update_theta now moves θ by Fisher
+# scoring (a residual divided by this same accumulated total), so a low
+# floor here also means a large step on a learner's very first observation.
+# theta_update_rate — the fixed step Fisher scoring replaced — is retired:
+# it bought nothing this scheme still needs, since the step already shrinks
+# as theta_information grows on its own.
+theta_prior_information = 1.0
+
+# How far a single pseudoword over-claim steps θ down, baked into the same
+# per-observation update the ordinary evidence goes through (BRIEF-010's
+# pseudoword correction) rather than a second event a caller could forget to
+# send. Buys: a learner who claims to know words that do not exist gets
+# their estimate corrected downward instead of flattered.
+pseudoword_penalty = 0.3
+
+# --- Backlog override (ADR-015): when coverage must beat taste ---
+
+# How many due words waiting before the composer stops choosing for taste
+# and starts choosing for coverage — the guard that makes the bounded-due-
+# list assertion provable.
+backlog_override_due = 40
+
+# How many days a word may sit due before waiting for a better passage stops
+# paying for itself — the spacing benefit it protected is already spent.
+backlog_override_age_days = 7
+
+# --- Signal reliability guards (engine-contract §3) ---
+
+# Standard deviations from a word's own dwell distribution before a slow
+# read counts as evidence rather than noise. Dwell is a weak signal,
+# attributed only on single-target screens.
+dwell_anomaly_z = 2.0
+
+# The most probes — the strongest positive signal, and the most intrusive
+# thing the app does — the schedule will spend in one session before
+# reading starts to feel like testing.
+probe_frequency_cap = 3
+
+# --- Signal ranking (BRIEF-011): how much each event's evidence is worth ---
+# The engine's whole vocabulary of evidence, in three numbers. The ordering
+# — probe > negative_strong > dwell_negative > 0 — is enforced by
+# Tuning::validate, not merely by these values, so no legal edit to this
+# file can invert it (engine-contract §1 law 6).
+
+# How strongly a correctly assembled probe counts as evidence the reader
+# knows the word. The strongest positive signal the schedule ever reads.
+signal_strength_probe_positive = 3.0
+
+# How strongly a gloss tap, or a failed probe, counts as evidence the word
+# is not yet automatic. Shared by both, on purpose: "the reader tapped the
+# gloss, or a probe failed" is one sentence in engine-contract §3, and this
+# is why — asking for help mid-read and failing an assembly are the same
+# admission, made two different ways. The strongest negative signal.
+signal_strength_negative_strong = 2.0
+
+# How strongly a slow read counts as evidence, on the rare screen where it
+# can be pinned to exactly one word. Deliberately the weakest of the three:
+# it is inferred from timing, never an explicit admission the way a gloss
+# tap or a failed probe is.
+signal_strength_dwell_negative = 0.5
+
+# --- Interval multipliers: the schedule is the pedagogy ---
+
+# The first interval, in days, after a word leaves Unseen.
+interval_initial_days = 1.0
+
+# Multiplier on a clean pass while a word is in Learning.
+interval_learning = 2.0
+
+# Multiplier on a clean pass while a word is Consolidating — slightly wider,
+# the word is mostly known.
+interval_consolidating = 2.5
+
+# Multiplier on a clean pass while a word is Automatic — widest, since an
+# encounter here is confirmation rather than teaching.
+interval_automatic = 3.0
+
+# Multiplier applied on a lapse, never a reset to the initial interval — a
+# lapsed word is not an unknown word, so the schedule should lose ground,
+# not all of it.
+interval_lapse = 0.4
+
+# The longest interval the schedule will ever set. Past six months an
+# interval is a guess, not a prediction.
+interval_max_days = 180.0
+
+# --- The reader's taste (ADR-022) ---
+
+# How far what the reader enjoys may tilt the composer's choice. The score is
+# multiplied by 1 + weight * (2 * topic_value - 1), so at 0.4 the factor lies
+# between 0.6 and 1.4.
+#
+# Bounded on both sides on purpose, and strictly below 1.0 by validation: at
+# 1.0 the lower bound would reach zero and taste could veto a scheduled
+# encounter outright. Taste tilts the ranking. It never overrules the schedule,
+# and it is suspended entirely while the backlog guard is active.
+topic_affinity_weight = 0.4
+
+# How strongly a topic the reader has barely tried is favoured over one they
+# have. Added to the topic's finish rate as bonus * sqrt(ln(total) / trials) —
+# UCB1 — so a topic tried twice is still worth investigating and one tried
+# forty times is judged on its record.
+#
+# This is the constant that stops the recommender from collapsing. Without it,
+# one good session about the sea and the sea is all the reader ever sees again,
+# which narrows the vocabulary they meet — the product failing at its real job
+# while looking like it is working.
+topic_exploration_bonus = 0.5
+
+# --- State-by-pool affinity (ADR-015, ADR-009's judgment made numeric) ---
+# How much a word in this state is worth meeting in this pool. A word met
+# early is served by a context built to teach; a word nearing automaticity is
+# served by meeting it in the wild.
+
+[affinity.seeded]
+composed = 1.0
+sourced = 0.5
+
+[affinity.learning]
+composed = 1.0
+sourced = 0.7
+
+[affinity.consolidating]
+composed = 0.8
+sourced = 1.3
+
+[affinity.automatic]
+composed = 0.5
+sourced = 1.5

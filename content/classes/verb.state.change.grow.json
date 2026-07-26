@@ -1,0 +1,16 @@
+{
+  "id": "verb.state.change.grow",
+  "pos": "verb",
+  "description": "To increase gradually in force or presence.",
+  "fixture": "The wind began to {word} as the afternoon wore on.",
+  "members": [
+    "swell",
+    "intensify",
+    "mount",
+    "deepen",
+    "thicken",
+    "freshen",
+    "quicken",
+    "gather"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "adj.texture.smooth",
+  "pos": "adj",
+  "description": "A surface that yields easily to the hand or the eye — polished, even, unbroken.",
+  "fixture": "It was a {word} surface, cool beneath the hand.",
+  "members": [
+    "sleek",
+    "glassy",
+    "polished",
+    "silken",
+    "burnished",
+    "glossy",
+    "unblemished",
+    "satiny",
+    "lustrous",
+    "even",
+    "flawless"
+  ]
+}

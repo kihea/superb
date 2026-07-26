@@ -1,0 +1,33 @@
+{
+  "id": "comp-road-long-walk",
+  "pool": "composed",
+  "topic": "road",
+  "text": "It was a two-day walk to the market town if a person kept a {0} pace, and Innes had committed to doing it in one, a decision he was already regretting somewhere around the tenth mile. The road climbed and dropped {1}, offering no long flat stretch where a person could simply switch off and let the miles pass unnoticed. He passed some {2} around noon and considered, briefly, asking for water, but pride and momentum both argued against stopping now that he'd come this far. By late afternoon his legs had gone past aching into something more like {3} agreement with whatever he asked of them, a kind of truce between will and body that he suspected wouldn't last past tomorrow. He reached the market town just as the last stalls began to {4}, footsore and thoroughly pleased with himself, already composing the version of this story he'd tell at the inn.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.speed.fast",
+      "defaultWord": "brisk"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.forceful",
+      "defaultWord": "relentlessly"
+    },
+    {
+      "index": 2,
+      "class": "noun.place.dwelling",
+      "defaultWord": "farmhouse"
+    },
+    {
+      "index": 3,
+      "class": "adj.emotion.content",
+      "defaultWord": "settled"
+    },
+    {
+      "index": 4,
+      "class": "verb.state.change.fade",
+      "defaultWord": "dwindle"
+    }
+  ]
+}

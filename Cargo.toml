@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/superb-core"]
+members = ["crates/superb-core", "crates/superb-sim"]
 resolver = "3"
 
 [workspace.package]
@@ -11,6 +11,6 @@ repository = "https://github.com/kihea/superb"
 [workspace.dependencies]
 serde = { version = "1", features = ["derive"] }
 proptest = "1"
-serde_json = "1"
+serde_json = { version = "1", features = ["float_roundtrip"] }
 toml = "0.8"
 syn = { version = "2", features = ["full"] }

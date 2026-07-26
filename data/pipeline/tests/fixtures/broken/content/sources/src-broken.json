@@ -1,0 +1,14 @@
+{
+  "id": "src-broken",
+  "pool": "sourced",
+  "text": "This fixture exists only so data/pipeline/tests/test_check_license_gate.py can prove the licence gate fails loudly on an incomplete provenance record, which is exactly the violation law 4 and ADR-008 exist to catch before it ever reaches a build. Eighty words is the floor the real schema enforces, so this sentence keeps going a while longer, padding out the count with plain, unremarkable prose that carries no sourced vocabulary at all, deliberately, because the only thing under test here is the missing licence field two lines below this one, not the excerpt's literary merit or its informativeness for any particular word a learner might one day encounter while reading.",
+  "words": ["fixture"],
+  "provenance": {
+    "work": "A Deliberately Broken Fixture",
+    "author": "Nobody",
+    "year": 2026,
+    "source": "Project Gutenberg #0",
+    "url": "https://www.gutenberg.org/ebooks/0",
+    "retrieved": "2026-07-25"
+  }
+}

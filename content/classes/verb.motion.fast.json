@@ -1,0 +1,17 @@
+{
+  "id": "verb.motion.fast",
+  "pos": "verb",
+  "description": "Urgent self-propelled motion, on foot.",
+  "fixture": "They had to {word} across the yard.",
+  "members": [
+    "dash",
+    "bolt",
+    "sprint",
+    "hurtle",
+    "race",
+    "dart",
+    "scramble",
+    "careen",
+    "rush"
+  ]
+}

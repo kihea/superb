@@ -1,0 +1,18 @@
+{
+  "id": "adj.speed.fast",
+  "pos": "adj",
+  "description": "A pace read as urgent or eager — the manner of moving quickly.",
+  "fixture": "It was a {word} pace, set to outrun the weather.",
+  "members": [
+    "brisk",
+    "swift",
+    "hasty",
+    "nimble",
+    "fleet",
+    "rapid",
+    "headlong",
+    "breakneck",
+    "quick",
+    "spry"
+  ]
+}

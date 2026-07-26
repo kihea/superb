@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://superb.app/schema/passage.schema.json",
+  "title": "Composed passage",
+  "description": "An authored slot-library passage. See docs/seams.md §Seam 2.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "pool", "topic", "text", "slots"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^comp-[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable id, e.g. comp-harbour-dawn."
+    },
+    "pool": {
+      "const": "composed"
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The topic cluster this passage belongs to, e.g. sea."
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Prose carrying {n} placeholders matching slots[].index."
+    },
+    "slots": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["index", "class", "defaultWord"],
+        "properties": {
+          "index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "class": {
+            "type": "string",
+            "pattern": "^(adj|adv|noun|verb)(\\.[a-z]+){2,3}$",
+            "description": "A slot class id from content/classes/*.json."
+          },
+          "defaultWord": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The word that renders when nothing is scheduled into this slot. Must read naturally on its own."
+          }
+        }
+      },
+      "description": "Every index in text's {n} placeholders must appear exactly once here, and vice versa."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-moving-day",
+  "pool": "composed",
+  "topic": "household",
+  "text": "By ten the van was half full and the house had already begun to look {0}, rooms echoing in a way they never had with furniture still in them. Priya stood in the empty kitchen for a moment before the next box, trying to place exactly which corner the table used to occupy, a detail that seemed suddenly and uselessly important. The movers worked {1}, wrapping and carrying with the practiced indifference of people who did this every week, while the family trailed after them {2}, uncertain what to do with hands that had nothing left to pack. Her son sat on the stairs holding a single {3}, refusing to let it go into any box, insisting he would carry it himself the whole way to the new house. By early afternoon the rooms had gone properly {4}, nothing left but marks on the carpet where furniture used to stand, and Priya took one last walk through before locking the door on a house that no longer, in any real sense, belonged to them.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.large",
+      "defaultWord": "cavernous"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.gracefully",
+      "defaultWord": "smoothly"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "uneasily"
+    },
+    {
+      "index": 3,
+      "class": "noun.object.tool",
+      "defaultWord": "contraption"
+    },
+    {
+      "index": 4,
+      "class": "adj.quality.dark",
+      "defaultWord": "bleak"
+    }
+  ]
+}

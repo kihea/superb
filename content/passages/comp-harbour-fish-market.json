@@ -1,0 +1,38 @@
+{
+  "id": "comp-harbour-fish-market",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "By six the market was already {0}, stalls filling with crates that still smelled of the sea. Buyers moved between the tables at a {1} pace, testing the firmness of a herring or the clarity of an eye before they'd part with a coin. A boy from one of the boats stood guard over a barrow of mackerel, {2} of anyone who lingered too long without buying. Somewhere near the back, an old woman haggled over the price of a {3} in a voice that carried over everything else, undefeated by forty years of the same argument. The gulls kept up a steady {4} overhead, diving whenever a crate was tipped or a fish slipped free of careless hands. By eight the best of the catch was gone, and the market began to {5}, stalls folding away as quickly as they had opened, until only the smell of it remained on the cobblestones.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.large",
+      "defaultWord": "sprawling"
+    },
+    {
+      "index": 1,
+      "class": "adj.speed.fast",
+      "defaultWord": "brisk"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "watchful"
+    },
+    {
+      "index": 3,
+      "class": "noun.object.vessel",
+      "defaultWord": "trawler"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.sound",
+      "defaultWord": "racket"
+    },
+    {
+      "index": 5,
+      "class": "verb.state.change.fade",
+      "defaultWord": "dwindle"
+    }
+  ]
+}

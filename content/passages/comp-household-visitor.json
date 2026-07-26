@@ -1,0 +1,33 @@
+{
+  "id": "comp-household-visitor",
+  "pool": "composed",
+  "topic": "household",
+  "text": "A knock at the door came {0}, interrupting supper, unusual enough at that hour that the whole table went quiet before anyone had even stood to answer it. On the step stood some {1}, hat in hand, explaining in a rush that the car had broken down half a mile up the road and could he possibly trouble them for a telephone. Mother, ever {2} of strangers arriving after dark, kept the chain on a moment longer than strictly necessary before deciding he looked harmless enough and letting him in. He sat {3} at the edge of the good chair while the call was made, clearly uncomfortable at having interrupted a family mid-meal, and declined every offer of food twice before finally accepting a cup of tea. By the time his ride arrived, the children had lost all their {4} and were peppering him with questions about where he'd come from and where he was going, questions he answered with more patience than the evening had any right to expect of him.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adv.time.suddenly",
+      "defaultWord": "unexpectedly"
+    },
+    {
+      "index": 1,
+      "class": "noun.person.stranger",
+      "defaultWord": "stranger"
+    },
+    {
+      "index": 2,
+      "class": "adj.emotion.wary",
+      "defaultWord": "wary"
+    },
+    {
+      "index": 3,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "cautiously"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "wariness"
+    }
+  ]
+}

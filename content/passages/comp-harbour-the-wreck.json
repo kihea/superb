@@ -1,0 +1,33 @@
+{
+  "id": "comp-harbour-the-wreck",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "Nobody in the village talked much about the wreck anymore, though everyone over fifty could point to the exact spot on the point where it had gone down. The night itself had turned properly {0}, the story went, the kind of storm that came once in a working life, and the {1} of the wind against the cliffs had kept half the village awake without anyone knowing why. By morning the {2} was scattered across the rocks in pieces too small to salvage, and three men who had gone out that evening did not come home. The {3} of it had faded with the decades, the way these things do, until it became a story told to children more as caution than grief. Still, on certain evenings, when the light went {4} early and the wind picked up off the point, the older fishermen would grow quiet for no reason they cared to name, and glance, just once, toward the rocks.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.dark",
+      "defaultWord": "sombre"
+    },
+    {
+      "index": 1,
+      "class": "noun.abstract.sound",
+      "defaultWord": "clamor"
+    },
+    {
+      "index": 2,
+      "class": "noun.object.vessel",
+      "defaultWord": "schooner"
+    },
+    {
+      "index": 3,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "dismay"
+    },
+    {
+      "index": 4,
+      "class": "adj.quality.dark",
+      "defaultWord": "dim"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "comp-harbour-dawn",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "The {0} light came up over the water, and the boats lay {1} at their moorings, each one {2} against the pull of the tide. Down on the quay, an old man in a coat gone {3} with years was already sorting nets, his hands moving with a patience the morning did not ask of him. A gull cried once, and then again, and the sound carried {4} across the harbour before it was lost among the masts. Further out, past the breakwater, the sea kept its own hours, indifferent to the little town waking behind him. He had watched this water for longer than he cared to say, and still it gave him nothing he could name — only this, the {5} hour before the boats went out, when the whole harbour seemed to hold its breath. By the time the sun cleared the headland, the {6} of the morning would be gone, replaced by voices and rope and the ordinary business of the day. For now, though, it was his alone.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.quality.light",
+      "defaultWord": "grey"
+    },
+    {
+      "index": 1,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    },
+    {
+      "index": 2,
+      "class": "adj.state.secure",
+      "defaultWord": "steady"
+    },
+    {
+      "index": 3,
+      "class": "adj.quality.old",
+      "defaultWord": "weathered"
+    },
+    {
+      "index": 4,
+      "class": "adv.degree.slightly",
+      "defaultWord": "faintly"
+    },
+    {
+      "index": 5,
+      "class": "adj.emotion.content",
+      "defaultWord": "tranquil"
+    },
+    {
+      "index": 6,
+      "class": "noun.abstract.quality.silence",
+      "defaultWord": "hush"
+    }
+  ]
+}

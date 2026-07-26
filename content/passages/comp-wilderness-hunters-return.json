@@ -1,0 +1,33 @@
+{
+  "id": "comp-wilderness-hunters-return",
+  "pool": "composed",
+  "topic": "wilderness",
+  "text": "Jory came down off the mountain a day later than he'd said he would, which nobody at the lodge took as cause for alarm since he always came down a day later than he'd said he would. He looked {0}, his boots caked to the ankle and his face burned {1} by wind he hadn't much noticed while it was happening. The others crowded round with the usual questions, and he answered them {2}, more interested in the fire than in the story everyone wanted from him. Truth was, the trip had gone about as well as these things ever did — no great tale in it, just three days of {3} weather and one good sighting he didn't feel like sharing yet, in case saying it aloud somehow spoiled it. He ate more than any one man reasonably should, said little else, and was asleep in his chair by nine, boots still on, entirely unbothered by the {4} that had followed him down every mountain he'd ever climbed.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.speed.slow",
+      "defaultWord": "lumbering"
+    },
+    {
+      "index": 1,
+      "class": "adj.speed.fast",
+      "defaultWord": "quick"
+    },
+    {
+      "index": 2,
+      "class": "adv.degree.slightly",
+      "defaultWord": "barely"
+    },
+    {
+      "index": 3,
+      "class": "adj.quality.cold",
+      "defaultWord": "raw"
+    },
+    {
+      "index": 4,
+      "class": "noun.abstract.emotion.dread",
+      "defaultWord": "wariness"
+    }
+  ]
+}

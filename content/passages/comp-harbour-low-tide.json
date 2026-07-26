@@ -1,0 +1,33 @@
+{
+  "id": "comp-harbour-low-tide",
+  "pool": "composed",
+  "topic": "harbour",
+  "text": "At low tide the harbour gave up a different shape entirely, its mudflats {0} and exposed where the water had been only hours before. Two children picked their way across the {1} stones, hunting for crabs in the pools left behind by the retreating sea. The younger one held a jar with the seriousness of a scientist, peering {2} at every shell and stranded weed as though it might reveal something important. Her brother, older and less patient, had already given up twice and come back twice, unable to leave the {3} pools alone for long. Further along, an old dog picked through the wrack line at its own pace, {4} nosing at whatever the tide had left. Above them all, the gulls waited on the harbour wall, watching the mud for whatever the children missed. By the time the tide turned, both children were soaked to the knee and entirely unbothered by it, already planning the next low water.",
+  "slots": [
+    {
+      "index": 0,
+      "class": "adj.size.large",
+      "defaultWord": "vast"
+    },
+    {
+      "index": 1,
+      "class": "adj.texture.rough",
+      "defaultWord": "uneven"
+    },
+    {
+      "index": 2,
+      "class": "adv.manner.hesitant",
+      "defaultWord": "cautiously"
+    },
+    {
+      "index": 3,
+      "class": "adj.size.small",
+      "defaultWord": "diminutive"
+    },
+    {
+      "index": 4,
+      "class": "adv.manner.still",
+      "defaultWord": "quietly"
+    }
+  ]
+}

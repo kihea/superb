@@ -1,0 +1,18 @@
+{
+  "id": "noun.abstract.emotion.joy",
+  "pos": "noun",
+  "description": "A settled gladness, not a burst of excitement.",
+  "fixture": "A quiet {word} settled over the room.",
+  "members": [
+    "delight",
+    "elation",
+    "gladness",
+    "mirth",
+    "exuberance",
+    "jubilation",
+    "rapture",
+    "contentment",
+    "gaiety",
+    "buoyancy"
+  ]
+}

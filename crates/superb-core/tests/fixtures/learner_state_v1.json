@@ -1,0 +1,46 @@
+{
+  "v": 1,
+  "_note": "This is your Superb data — the words you've encountered and when each is due again — and it belongs entirely to you to open, read, or copy.",
+  "seed": 20260722,
+  "draw_count": 214,
+  "theta": 0.35,
+  "theta_information": 30.0,
+  "words": {
+    "aperture": {
+      "state": "SEEDED",
+      "due_epoch_ms": 1735689600000,
+      "context_frames": [
+        {
+          "frame_id": "passage-042",
+          "clean": true
+        }
+      ],
+      "interval_days": 1.0
+    },
+    "verisimilitude": {
+      "state": "CONSOLIDATING",
+      "due_epoch_ms": 1738368000000,
+      "context_frames": [
+        {
+          "frame_id": "excerpt-poe-1839-cask",
+          "clean": true
+        },
+        {
+          "frame_id": "excerpt-withdrawn-687",
+          "clean": true
+        }
+      ],
+      "interval_days": 45.0
+    }
+  },
+  "topic_affinities": {
+    "cooking": {
+      "finished": 0,
+      "abandoned": 2
+    },
+    "nature": {
+      "finished": 5,
+      "abandoned": 3
+    }
+  }
+}

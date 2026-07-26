@@ -1,0 +1,18 @@
+{
+  "id": "adv.manner.grimly",
+  "pos": "adv",
+  "description": "How something is said or done when the mood is severe or resigned.",
+  "fixture": "He spoke {word} of what he had seen.",
+  "members": [
+    "grimly",
+    "sternly",
+    "gravely",
+    "solemnly",
+    "dourly",
+    "stonily",
+    "coldly",
+    "severely",
+    "harshly",
+    "bleakly"
+  ]
+}

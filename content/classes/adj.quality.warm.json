@@ -1,0 +1,18 @@
+{
+  "id": "adj.quality.warm",
+  "pos": "adj",
+  "description": "Comfortable heat, in weather or air — not emotional warmth.",
+  "fixture": "It was a {word} evening, the kind that invites a walk.",
+  "members": [
+    "balmy",
+    "mild",
+    "temperate",
+    "sultry",
+    "tepid",
+    "summery",
+    "torrid",
+    "sweltering",
+    "clement",
+    "humid"
+  ]
+}
