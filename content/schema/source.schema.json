@@ -2,10 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://superb.app/schema/source.schema.json",
   "title": "Sourced excerpt",
-  "description": "A cited public-domain excerpt. See docs/seams.md §Seam 2. Provenance is complete or the row does not exist — every field below is required, no exceptions (law 4, ADR-008).",
+  "description": "A cited public-domain excerpt. See docs/seams.md §Seam 2. Provenance is complete or the row does not exist — every field below is required, no exceptions (law 4, ADR-008). `topic` is required per ADR-022 (workspace/decisions/README.md): the engine's topic-affinity table looks up a topic for every passage id it finished or abandoned, sourced or composed, so a sourced excerpt with no topic is one the recommender cannot learn from.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "pool", "text", "words", "provenance"],
+  "required": ["id", "pool", "topic", "text", "words", "provenance"],
   "properties": {
     "id": {
       "type": "string",
@@ -14,6 +14,11 @@
     },
     "pool": {
       "const": "sourced"
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The topic cluster this excerpt belongs to, e.g. sea. Same open vocabulary as passage.schema.json's topic field."
     },
     "text": {
       "type": "string",
