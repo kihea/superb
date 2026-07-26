@@ -3,6 +3,7 @@
 // the only thing that ever changes is whether the gloss card is open.
 import { useEffect, useRef, useState } from "react";
 import "./PassagePage.css";
+import { createPortal } from "react-dom";
 import type { Passage } from "../engine/port";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
 import { fillTemplate, tokenize } from "../content/render";
@@ -69,11 +70,22 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
 
       <div ref={sentinelRef} aria-hidden="true" />
 
-      <div className={`passage-continue${nearEnd ? " passage-continue--visible" : ""}`}>
-        <button type="button" className="passage-continue-button" onClick={onFinish}>
-          Keep reading
-        </button>
-      </div>
+      {/* Portalled for the same reason GlossCard is: this article carries a
+         lingering identity transform from its own entrance animation once
+         it finishes (animation-fill-mode: both), which silently makes it
+         the containing block for any position: fixed descendant instead of
+         the viewport. In the glass register that landed the button on the
+         card's own surface, styled for the dark ground behind it -- pale
+         text on a pale card, unreadable. Escaping to document.body is the
+         fix that holds regardless of how tall the passage or its card is. */}
+      {createPortal(
+        <div className={`passage-continue${nearEnd ? " passage-continue--visible" : ""}`}>
+          <button type="button" className="passage-continue-button" onClick={onFinish}>
+            Keep reading
+          </button>
+        </div>,
+        document.body,
+      )}
 
       {activeWord && <GlossCard word={activeWord} onDismiss={() => setActiveWord(null)} />}
     </article>

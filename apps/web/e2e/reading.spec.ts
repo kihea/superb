@@ -48,6 +48,58 @@ for (const register of registers) {
       expect(await words.count()).toBeGreaterThan(20);
     });
 
+    // A screenshot review caught this, not a code review: the passage's own
+    // entrance animation (passage-arrive) leaves a lingering identity
+    // transform on .passage-page after it finishes (animation-fill-mode:
+    // both keeps the final keyframe applied at rest). Any non-`none`
+    // transform on an ancestor creates a new containing block for
+    // position: fixed descendants, so the pull-up button and the gloss
+    // card's backdrop stopped being fixed to the viewport and became fixed
+    // to the card instead -- invisible in paper (card and ground are the
+    // same tone there) and a real contrast failure in glass, where the
+    // button landed pale-on-pale on the card. Both are now portalled to
+    // document.body specifically to escape this; these two checks are the
+    // regression guard for the geometry half of that fix.
+    test("fixed-position overlays anchor to the real viewport, not the card", async ({ page }) => {
+      const viewport = page.viewportSize();
+      if (!viewport) throw new Error("no viewport");
+
+      await page.goto(`/read?register=${register}`);
+      await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
+      await page.waitForTimeout(300); // let the entrance animation finish and settle.
+
+      const buttonBox = await page.locator(".passage-continue-button").boundingBox();
+      expect(buttonBox).not.toBeNull();
+      // Within a few px of the true viewport bottom -- if an ancestor's
+      // lingering transform hijacked the containing block again, this
+      // would land wherever that ancestor's box happens to end instead.
+      expect(Math.abs(viewport.height - (buttonBox!.y + buttonBox!.height))).toBeLessThan(30);
+
+      await page.locator(".passage-word").first().click();
+      const backdropBox = await page.locator(".gloss-backdrop").boundingBox();
+      expect(backdropBox).toEqual({ x: 0, y: 0, width: viewport.width, height: viewport.height });
+    });
+
+    // The token half of the same fix: wherever the button ends up, it has
+    // to be legible. It is always styled from the passage's own page
+    // tokens (dark ink on warm paper) rather than the surrounding
+    // register's chrome tokens, specifically because "wherever it ends up"
+    // is not fully controlled by this app -- a long passage that scrolls
+    // can legitimately put a viewport-fixed bottom bar over the card even
+    // with correct positioning.
+    test("the pull-up button is always page-toned, not register-toned", async ({ page }) => {
+      await page.goto(`/read?register=${register}`);
+      const styles = await page.locator(".passage-continue-button").evaluate((el) => {
+        const cs = getComputedStyle(el);
+        return { color: cs.color, background: cs.backgroundColor };
+      });
+      // rgb(33, 28, 21) / rgb(251, 248, 240) -- design/tokens.json's
+      // page.light.ink / page.light.cardGround. Same values in both
+      // registers is the point: this control never reads the register.
+      expect(styles.color).toBe("rgb(33, 28, 21)");
+      expect(styles.background).toBe("rgb(251, 248, 240)");
+    });
+
     test("gloss tap arrives and dismisses", async ({ page }) => {
       await page.goto(`/read?register=${register}`);
       const firstWord = page.locator(".passage-word").first();

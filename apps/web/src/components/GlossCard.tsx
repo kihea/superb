@@ -5,6 +5,7 @@
 // edge answers to the register underneath it.
 import "./GlossCard.css";
 import { useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 import { glossFor } from "../fixtures/glosses";
 
 export interface GlossCardProps {
@@ -24,7 +25,16 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
     return () => window.removeEventListener("keydown", onKey);
   }, [onDismiss]);
 
-  return (
+  // Portalled to document.body rather than rendered in place. This card is
+  // a child of PassagePage, and PassagePage's own entrance animation
+  // (`passage-arrive`) leaves a lingering identity transform on its root
+  // element after it finishes (animation-fill-mode: both keeps the final
+  // keyframe's `transform: translateY(0)` applied at rest). Any non-`none`
+  // transform on an ancestor creates a new containing block for
+  // `position: fixed` descendants -- so `.gloss-backdrop`'s `inset: 0`
+  // would resolve against that ancestor's box instead of the viewport
+  // without this. Found via the same class of bug as the pull-up button.
+  return createPortal(
     <div className="gloss-backdrop" onClick={onDismiss}>
       <div
         ref={cardRef}
@@ -37,6 +47,7 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
         <p className="gloss-definition">{entry.definition}</p>
         <p className="gloss-elsewhere">{entry.elsewhere}</p>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
