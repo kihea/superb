@@ -1,0 +1,34 @@
+[package]
+name = "superb-wasm"
+version = "0.0.0"
+description = "The wasm-bindgen surface for web (docs/seams.md, Seam 1: the shell's view of the engine). Translates superb-core's own JSON shape into exactly the EnginePort TypeScript shape docs/seams.md freezes, and nothing else."
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# The engine this crate binds. Track T2's own law: no other engine access
+# exists than plan/decide/load/save and the wire translation around them
+# (src/wire.rs's own doc comment).
+superb-core = { path = "../superb-core" }
+serde = { workspace = true }
+wasm-bindgen = "0.2"
+# JsValue <-> our own serde-derived wire types (src/wire.rs), so the
+# TypeScript surface is exactly docs/seams.md's shape rather than whatever
+# superb-core's own Serialize impls happen to produce for their own purposes
+# (golden vectors, FFI to Kotlin/Swift) — those do not match this seam, and
+# are not supposed to; see wire.rs's own doc comment.
+serde-wasm-bindgen = "0.6"
+
+[dev-dependencies]
+# Only src/wire.rs's own #[cfg(test)] module reads or writes JSON strings
+# directly (pinning the exact wire spelling docs/seams.md promises); the
+# shipped crate itself never touches serde_json — plan/decide/load/save all
+# go through serde-wasm-bindgen's JsValue conversion instead.
+serde_json = { workspace = true }
+wasm-bindgen-test = "0.3"

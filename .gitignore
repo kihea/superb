@@ -22,3 +22,6 @@ Thumbs.db
 # python (content/scripts, data/pipeline)
 __pycache__/
 *.pyc
+
+# generated wasm-bindgen output (crates/superb-wasm) — rebuilt by the wasm CI job
+crates/superb-wasm/pkg/
