@@ -1,0 +1,75 @@
+.gloss-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: transparent;
+}
+
+.gloss-card {
+  width: min(100%, 40rem);
+  margin: 0 var(--space-3) var(--space-3);
+  padding: var(--space-5) var(--space-5) var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--page-card-ground);
+  border: 1px solid var(--page-card-border);
+  box-shadow: 0 -8px 32px var(--page-shadow);
+  font-family: var(--font-serif);
+  color: var(--page-ink);
+  animation: gloss-rise var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+@keyframes gloss-rise {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.gloss-word {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-sm);
+  font-weight: var(--type-ui-weight-medium);
+  letter-spacing: var(--type-ui-letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--page-ink-muted);
+}
+
+.gloss-definition {
+  margin: 0 0 var(--space-3);
+  font-size: var(--type-ui-size-xl);
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.gloss-elsewhere {
+  margin: 0;
+  font-size: var(--type-ui-size-md);
+  font-style: italic;
+  color: var(--page-ink-muted);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+/* The seam: in the glass register the card keeps its paper heart but gets
+   the room's edge -- a thin metal highlight and a wider, softer shadow so
+   it still reads as an object arriving into a glass room. */
+[data-register="glass"] .gloss-card {
+  border-top-color: var(--chrome-metal-highlight);
+  box-shadow:
+    0 -16px 48px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-highlight) inset;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gloss-card {
+    animation: none;
+  }
+}

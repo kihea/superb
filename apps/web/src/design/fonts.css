@@ -1,0 +1,19 @@
+/* Self-hosted, subset to Latin (docs/build-plan.md, ADR-004: no third-party
+   fetch at read time). Both are OFL, variable-weight single files -- one
+   file per family covers the whole weight axis instead of shipping a
+   handful of static cuts. */
+@font-face {
+  font-family: "Source Serif 4 Variable";
+  src: url("/fonts/source-serif-4-variable-latin.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Variable";
+  src: url("/fonts/inter-variable-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "sync-content": "node scripts/sync-content.mjs",
+    "sync-tokens": "node scripts/tokens-to-css.mjs",
+    "predev": "npm run sync-content && npm run sync-tokens",
+    "dev": "vite",
+    "prebuild": "npm run sync-content && npm run sync-tokens",
+    "build": "tsc -b && vite build",
+    "pretypecheck": "npm run sync-tokens",
+    "typecheck": "tsc -b",
+    "lint": "oxlint",
+    "test:e2e": "playwright test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vite-plugin-pwa": "^1.3.0"
+  }
+}

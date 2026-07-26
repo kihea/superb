@@ -1,0 +1,61 @@
+.reading-screen {
+  min-height: 100dvh;
+  background: var(--chrome-ground);
+  position: relative;
+  isolation: isolate;
+}
+
+[data-register="glass"] .reading-screen {
+  background-image: var(--chrome-ground-gradient);
+}
+
+.reading-screen-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    60% 40% at 50% 0%,
+    color-mix(in srgb, var(--chrome-accent) 14%, transparent),
+    transparent 70%
+  );
+}
+
+.reading-page {
+  position: relative;
+}
+
+/* Even on a phone the dark ground has to stay visible -- a full-bleed card
+   would quietly turn variant A into variant B the moment someone picks up
+   their phone, which is most of the audience. The margin and radius only
+   get more generous at wider viewports, never appear from nothing. */
+[data-register="glass"] .reading-page {
+  background: var(--page-ground);
+  color: var(--page-ink);
+  margin: var(--space-5) var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--chrome-panel-border);
+  box-shadow:
+    0 16px 40px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-highlight) inset;
+  overflow: hidden;
+}
+
+@media (min-width: 45rem) {
+  [data-register="glass"] .reading-page {
+    max-width: 52rem;
+    margin: var(--space-7) auto var(--space-8);
+    border-radius: var(--radius-lg);
+    box-shadow:
+      0 32px 80px var(--chrome-shadow),
+      0 1px 0 var(--chrome-metal-highlight) inset;
+  }
+}
+
+.reading-status {
+  padding: var(--space-8) var(--space-4);
+  max-width: var(--type-passage-measure);
+  margin: 0 auto;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-md);
+  color: var(--chrome-ink-muted);
+}

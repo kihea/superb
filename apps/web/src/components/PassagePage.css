@@ -1,0 +1,121 @@
+.passage-page {
+  max-width: var(--type-passage-measure);
+  margin: 0 auto;
+  padding: var(--space-9) var(--space-4) var(--space-9);
+}
+
+.passage-text {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--type-passage-size);
+  line-height: var(--type-passage-line-height);
+  letter-spacing: var(--type-passage-letter-spacing);
+  text-wrap: pretty;
+  color: var(--page-ink);
+}
+
+.passage-word {
+  all: unset;
+  cursor: pointer;
+  border-radius: 0.2em;
+  transition: background-color var(--motion-duration-fast) var(--motion-easing-standard);
+}
+
+.passage-word:hover {
+  background-color: color-mix(in srgb, var(--page-ink) 8%, transparent);
+}
+
+.passage-word:focus-visible {
+  outline: 2px solid var(--page-accent);
+  outline-offset: 2px;
+}
+
+.passage-citation {
+  margin: var(--space-6) 0 0;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-sm);
+  color: var(--page-ink-muted);
+}
+
+.passage-continue {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--space-4);
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity var(--motion-duration-base) var(--motion-easing-decelerate),
+    transform var(--motion-duration-base) var(--motion-easing-decelerate);
+}
+
+.passage-continue--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.passage-continue-button {
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-md);
+  font-weight: var(--type-ui-weight-medium);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--chrome-panel-border, var(--chrome-card-border));
+  background: var(--chrome-panel-fill, var(--chrome-card-ground));
+  color: var(--chrome-ink);
+  backdrop-filter: blur(var(--chrome-panel-blur, 0px));
+  -webkit-backdrop-filter: blur(var(--chrome-panel-blur, 0px));
+  box-shadow: 0 4px 24px var(--chrome-shadow);
+  cursor: pointer;
+}
+
+.passage-continue-button:focus-visible {
+  outline: 2px solid var(--chrome-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passage-word,
+  .passage-continue {
+    transition: none;
+  }
+}
+
+/* The passage-to-passage transition -- one of ADR-019's two named
+   crossings. Mass varies: the passage (the big thing) glides in; the
+   citation (the small thing) follows quickly rather than in lockstep with
+   it (superb-craft: "nothing arrives in lockstep"). */
+.passage-page {
+  animation: passage-arrive var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+[data-register="glass"] .passage-page {
+  animation-duration: var(--motion-duration-slower);
+}
+
+.passage-citation {
+  animation: passage-arrive var(--motion-duration-fast) var(--motion-easing-decelerate) both;
+  animation-delay: var(--motion-duration-fast);
+}
+
+@keyframes passage-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passage-page,
+  .passage-citation {
+    animation: none;
+  }
+}
