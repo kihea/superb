@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/superb-core", "crates/superb-sim"]
+members = ["crates/superb-core", "crates/superb-sim", "crates/superb-wasm"]
 resolver = "3"
 
 [workspace.package]
