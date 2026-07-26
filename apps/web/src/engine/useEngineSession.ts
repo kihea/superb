@@ -1,8 +1,7 @@
 // The loop, exactly as docs/seams.md states it:
 //   plan -> content.fetch -> decide -> storage.put -> render
-// This hook is the only place that loop is wired. Everything downstream
-// (the two register screens) only ever sees the passage that comes out the
-// other end of it.
+// This hook is the only place that loop is wired. The reading screen
+// downstream only ever sees the passage that comes out the other end of it.
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { EnginePort, Passage, Request } from "./port";
 import { createMockEngine, seenIds } from "./mockEngine";

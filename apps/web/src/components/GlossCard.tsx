@@ -38,7 +38,7 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
     <div className="gloss-backdrop" onClick={onDismiss}>
       <div
         ref={cardRef}
-        className="gloss-card"
+        className="gloss-card metal"
         role="dialog"
         aria-label={word}
         onClick={(e) => e.stopPropagation()}
@@ -46,6 +46,12 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
         <p className="gloss-word">{word}</p>
         <p className="gloss-definition">{entry.definition}</p>
         <p className="gloss-elsewhere">{entry.elsewhere}</p>
+        {/* A one-shot light run around the edge as the card lands --
+           re-derived from the doodle-intake prototype's .beam (border-beam,
+           interface-inspiration/border-beam.png; ADR-019 Decision 4).
+           Reader-initiated (it only exists because a word was tapped) and
+           it runs once, then stops -- material at rest, not a loop. */}
+        <span className="gloss-beam" aria-hidden="true" />
       </div>
     </div>,
     document.body,

@@ -9,13 +9,16 @@
 }
 
 .gloss-card {
+  --metal-fill: var(--page-card-ground);
+  background-color: var(--page-card-ground);
+  position: relative;
   width: min(100%, 40rem);
   margin: 0 var(--space-3) var(--space-3);
   padding: var(--space-5) var(--space-5) var(--space-6);
   border-radius: var(--radius-lg);
-  background: var(--page-card-ground);
-  border: 1px solid var(--page-card-border);
-  box-shadow: 0 -8px 32px var(--page-shadow);
+  box-shadow:
+    0 -16px 48px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-edge1) inset;
   font-family: var(--font-serif);
   color: var(--page-ink);
   animation: gloss-rise var(--motion-duration-slow) var(--motion-easing-decelerate) both;
@@ -23,11 +26,13 @@
 
 @keyframes gloss-rise {
   from {
-    transform: translateY(16px);
+    transform: translateY(20px);
+    filter: blur(5px);
     opacity: 0;
   }
   to {
     transform: translateY(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
@@ -58,18 +63,64 @@
   text-wrap: pretty;
 }
 
-/* The seam: in the glass register the card keeps its paper heart but gets
-   the room's edge -- a thin metal highlight and a wider, softer shadow so
-   it still reads as an object arriving into a glass room. */
-[data-register="glass"] .gloss-card {
-  border-top-color: var(--chrome-metal-highlight);
-  box-shadow:
-    0 -16px 48px var(--chrome-shadow),
-    0 1px 0 var(--chrome-metal-highlight) inset;
+/* The one-shot border beam: a light run around the machined edge as the
+   card lands, then gone. Conic gradient in a mask, one lap. Reader-
+   initiated (only exists because a word was tapped), so it is legal
+   alongside the reading state it interrupts for a moment. */
+@property --gloss-beam-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.gloss-beam {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--gloss-beam-angle, 0deg),
+    transparent 0deg,
+    transparent 300deg,
+    var(--chrome-accent) 340deg,
+    var(--page-card-ground) 352deg,
+    var(--chrome-accent) 356deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: gloss-beam var(--motion-duration-beam) linear 1;
+  animation-delay: var(--motion-duration-fast);
+  opacity: 0;
+}
+
+@keyframes gloss-beam {
+  0% {
+    opacity: 1;
+    --gloss-beam-angle: 0deg;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    --gloss-beam-angle: 360deg;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .gloss-card {
     animation: none;
+  }
+  .gloss-beam {
+    animation: none;
+    opacity: 0;
   }
 }

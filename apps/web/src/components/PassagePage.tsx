@@ -80,14 +80,21 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          fix that holds regardless of how tall the passage or its card is. */}
       {createPortal(
         <div className={`passage-continue${nearEnd ? " passage-continue--visible" : ""}`}>
-          <button type="button" className="passage-continue-button" onClick={onFinish}>
+          <button type="button" className="passage-continue-button metal" onClick={onFinish}>
             Keep reading
+            <span className="passage-continue-arrow" aria-hidden="true">
+              →
+            </span>
           </button>
         </div>,
         document.body,
       )}
 
-      {activeWord && <GlossCard word={activeWord} onDismiss={() => setActiveWord(null)} />}
+      {/* Keyed so a tap on a second word while the card is already open is a
+         fresh arrival rather than a prop update on the same instance --
+         every gloss gets its own entrance (GlossCard.css), not just the
+         first one of a session. */}
+      {activeWord && <GlossCard key={activeWord} word={activeWord} onDismiss={() => setActiveWord(null)} />}
     </article>
   );
 }
