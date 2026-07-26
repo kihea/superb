@@ -1,0 +1,179 @@
+.passage-page {
+  max-width: var(--type-passage-measure);
+  margin: 0 auto;
+  padding: var(--space-9) var(--space-4) var(--space-9);
+}
+
+.passage-text {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--type-passage-size);
+  line-height: var(--type-passage-line-height);
+  letter-spacing: var(--type-passage-letter-spacing);
+  text-wrap: pretty;
+  color: var(--page-ink);
+}
+
+.passage-word {
+  all: unset;
+  cursor: pointer;
+  border-radius: 0.2em;
+  transition: background-color var(--motion-duration-fast) var(--motion-easing-standard);
+}
+
+.passage-word:hover {
+  background-color: color-mix(in srgb, var(--page-ink) 8%, transparent);
+}
+
+.passage-word:focus-visible {
+  outline: 2px solid var(--page-accent);
+  outline-offset: 2px;
+}
+
+.passage-citation {
+  margin: var(--space-6) 0 0;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-sm);
+  color: var(--page-ink-muted);
+}
+
+.passage-continue {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--space-4);
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity var(--motion-duration-base) var(--motion-easing-decelerate),
+    transform var(--motion-duration-base) var(--motion-easing-decelerate);
+}
+
+.passage-continue--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Paper heart, same as the gloss card (GlossCard.css) and for the same
+   reason: this bar sits at the bottom of the viewport, and on a long
+   passage that scrolls it can legitimately end up overlapping the card
+   itself, not just the room beneath it. Chrome-toned text would read fine
+   in the gap and go unreadable the moment it lands on the card -- which is
+   exactly the defect a screenshot review caught once already. Always
+   page-toned, so it is readable wherever it actually lands; the metal edge
+   (--metal-fill below) is the only place chrome touches it, and only at the
+   rim. */
+.passage-continue-button {
+  --metal-fill: var(--page-card-ground);
+  background-color: var(--page-card-ground);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-md);
+  font-weight: var(--type-ui-weight-medium);
+  padding: var(--space-3) var(--space-5) var(--space-3) var(--space-6);
+  border-radius: var(--radius-pill);
+  color: var(--page-ink);
+  box-shadow:
+    0 8px 32px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-edge1) inset;
+  cursor: pointer;
+  transition:
+    transform var(--motion-duration-fast) var(--motion-easing-standard),
+    box-shadow var(--motion-duration-fast) var(--motion-easing-standard);
+}
+
+/* The one control on this screen, and the floor's own micro-interaction
+   (ADVISORY-008 §1 item 2): brass only ever shows up when the reader's own
+   attention lands on this button -- nothing here moves until they hover,
+   focus, or press it. */
+.passage-continue-button:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 36px var(--chrome-shadow),
+    0 0 0 3px color-mix(in srgb, var(--chrome-accent) 22%, transparent),
+    0 1px 0 var(--chrome-metal-edge1) inset;
+}
+
+.passage-continue-button:active {
+  transform: translateY(0) scale(0.97);
+  transition-duration: var(--motion-duration-instant);
+}
+
+.passage-continue-button:focus-visible {
+  outline: 2px solid var(--chrome-accent);
+  outline-offset: 2px;
+}
+
+.passage-continue-arrow {
+  display: inline-block;
+  transition: transform var(--motion-duration-fast) var(--motion-easing-standard);
+}
+
+.passage-continue-button:hover .passage-continue-arrow {
+  transform: translateX(3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passage-word,
+  .passage-continue,
+  .passage-continue-button,
+  .passage-continue-arrow {
+    transition: none;
+  }
+}
+
+/* The passage-to-passage transition -- one of ADR-019's two named
+   crossings, and legal to spend amplitude on precisely because it happens
+   between reading states, not during one. Mass varies: the passage (the
+   big thing) glides and softens into focus; the citation (the small thing)
+   follows quickly rather than in lockstep with it (superb-craft: "nothing
+   arrives in lockstep"). Re-derived from interface-inspiration's text-swap
+   and side-slide primitives -- translate, blur, fade together, never
+   pasted (ADR-019 Decision 4). */
+.passage-page {
+  animation: passage-arrive var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+.passage-citation {
+  animation: passage-arrive-small var(--motion-duration-fast) var(--motion-easing-decelerate) both;
+  animation-delay: var(--motion-duration-fast);
+}
+
+@keyframes passage-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes passage-arrive-small {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passage-page,
+  .passage-citation {
+    animation: none;
+  }
+}

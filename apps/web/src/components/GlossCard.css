@@ -1,0 +1,126 @@
+.gloss-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: transparent;
+}
+
+.gloss-card {
+  --metal-fill: var(--page-card-ground);
+  background-color: var(--page-card-ground);
+  position: relative;
+  width: min(100%, 40rem);
+  margin: 0 var(--space-3) var(--space-3);
+  padding: var(--space-5) var(--space-5) var(--space-6);
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0 -16px 48px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-edge1) inset;
+  font-family: var(--font-serif);
+  color: var(--page-ink);
+  animation: gloss-rise var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+@keyframes gloss-rise {
+  from {
+    transform: translateY(20px);
+    filter: blur(5px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.gloss-word {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-sm);
+  font-weight: var(--type-ui-weight-medium);
+  letter-spacing: var(--type-ui-letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--page-ink-muted);
+}
+
+.gloss-definition {
+  margin: 0 0 var(--space-3);
+  font-size: var(--type-ui-size-xl);
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.gloss-elsewhere {
+  margin: 0;
+  font-size: var(--type-ui-size-md);
+  font-style: italic;
+  color: var(--page-ink-muted);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+/* The one-shot border beam: a light run around the machined edge as the
+   card lands, then gone. Conic gradient in a mask, one lap. Reader-
+   initiated (only exists because a word was tapped), so it is legal
+   alongside the reading state it interrupts for a moment. */
+@property --gloss-beam-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.gloss-beam {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--gloss-beam-angle, 0deg),
+    transparent 0deg,
+    transparent 300deg,
+    var(--chrome-accent) 340deg,
+    var(--page-card-ground) 352deg,
+    var(--chrome-accent) 356deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: gloss-beam var(--motion-duration-beam) linear 1;
+  animation-delay: var(--motion-duration-fast);
+  opacity: 0;
+}
+
+@keyframes gloss-beam {
+  0% {
+    opacity: 1;
+    --gloss-beam-angle: 0deg;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    --gloss-beam-angle: 360deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gloss-card {
+    animation: none;
+  }
+  .gloss-beam {
+    animation: none;
+    opacity: 0;
+  }
+}
