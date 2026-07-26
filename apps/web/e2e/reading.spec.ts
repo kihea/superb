@@ -28,6 +28,49 @@ async function clickKeepReading(page: Page): Promise<void> {
   await page.locator(".passage-continue-button").click();
 }
 
+// WCAG 2.x contrast, computed from the specified colours rather than
+// sampled pixels -- the standard method (axe-core and Lighthouse both work
+// this way) and the right one here, since what is being guarded against is
+// a *token* pointed at the wrong palette, not a rendering artefact.
+function relativeLuminance([r, g, b]: number[]): number {
+  const channel = [r, g, b].map((c) => {
+    const s = c / 255;
+    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * channel[0] + 0.7152 * channel[1] + 0.0722 * channel[2];
+}
+function contrastRatio(a: number[], b: number[]): number {
+  const [l1, l2] = [relativeLuminance(a), relativeLuminance(b)].sort((x, y) => y - x);
+  return (l1 + 0.05) / (l2 + 0.05);
+}
+function parseRgb(value: string): number[] {
+  const match = value.match(/rgba?\(([^)]+)\)/);
+  if (!match) throw new Error(`not an rgb()/rgba() colour: ${value}`);
+  return match[1].split(",").slice(0, 3).map(Number);
+}
+const AA_BODY_TEXT = 4.5;
+
+/** What a reader's eye actually resolves an element's background to --
+ *  walks up from the element until it finds a non-transparent
+ *  background-color, the way a browser's own paint does. Reading a single
+ *  element's own backgroundColor is not safe in this app: .reading-page
+ *  carries no background of its own in the paper register (its parent,
+ *  .reading-screen, does -- paper and its ground are the same tokens, so
+ *  the page never needed one), and treating "transparent" as an RGB colour
+ *  parses to black, which is not what is actually on screen. */
+async function effectiveBackground(page: Page, selector: string): Promise<string> {
+  return page.locator(selector).evaluate((start) => {
+    let el: Element | null = start;
+    while (el) {
+      const bg = getComputedStyle(el).backgroundColor;
+      const isTransparent = bg === "rgba(0, 0, 0, 0)" || bg === "transparent";
+      if (!isTransparent) return bg;
+      el = el.parentElement;
+    }
+    return "rgb(255, 255, 255)"; // browser default, if nothing ever painted one.
+  });
+}
+
 interface TopicTally {
   finished: number;
   abandoned: number;
@@ -118,6 +161,53 @@ for (const register of registers) {
       // registers is the point: this control never reads the register.
       expect(styles.color).toBe("rgb(33, 28, 21)");
       expect(styles.background).toBe("rgb(251, 248, 240)");
+    });
+
+    // The general form of the same bug: any chrome text left pointed at the
+    // wrong palette. Found once already while investigating the button --
+    // .reading-status (the loading and error text) used
+    // --chrome-ink-muted, a dark-ground colour, while rendering inside
+    // .reading-page, the light card in glass. Real WCAG contrast, computed
+    // from the specified colours (not a token-equality check, so it holds
+    // even if the token values themselves change later), against every
+    // chrome-drawn text this build ships: the pull-up button, the ink-muted
+    // pairing .reading-status and .passage-citation both use, and the gloss
+    // card (asserted directly rather than trusted by convention).
+    test("every chrome text on the reading surface meets WCAG AA contrast", async ({ page }) => {
+      await page.goto(`/read?register=${register}`);
+
+      const buttonContrast = await page.locator(".passage-continue-button").evaluate((el) => {
+        const cs = getComputedStyle(el);
+        return { fg: cs.color, bg: cs.backgroundColor };
+      });
+      expect(contrastRatio(parseRgb(buttonContrast.fg), parseRgb(buttonContrast.bg))).toBeGreaterThanOrEqual(
+        AA_BODY_TEXT,
+      );
+
+      // .reading-status and .passage-citation both read --page-ink-muted
+      // and both live inside .reading-page; the pairing is asserted
+      // against .reading-page's real effective background rather than
+      // chasing .reading-status's own transient mount.
+      const readingPageBg = await effectiveBackground(page, ".reading-page");
+      const pageInkMutedRgb = await page.evaluate(() => {
+        const probe = document.createElement("div");
+        probe.style.color = "var(--page-ink-muted)";
+        document.body.appendChild(probe);
+        const rgb = getComputedStyle(probe).color;
+        probe.remove();
+        return rgb;
+      });
+      expect(contrastRatio(parseRgb(pageInkMutedRgb), parseRgb(readingPageBg))).toBeGreaterThanOrEqual(AA_BODY_TEXT);
+
+      await page.locator(".passage-word").first().click();
+      const glossContrast = await page.locator(".gloss-definition").evaluate((el) => {
+        const cs = getComputedStyle(el);
+        const card = el.closest(".gloss-card") as HTMLElement;
+        return { fg: cs.color, bg: getComputedStyle(card).backgroundColor };
+      });
+      expect(contrastRatio(parseRgb(glossContrast.fg), parseRgb(glossContrast.bg))).toBeGreaterThanOrEqual(
+        AA_BODY_TEXT,
+      );
     });
 
     test("gloss tap arrives and dismisses", async ({ page }) => {

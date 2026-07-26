@@ -51,11 +51,19 @@
   }
 }
 
+/* Rendered inside .reading-page -- the card -- in every register, so it
+   takes the card's own page.* tokens rather than the surrounding
+   register's chrome.* ones. Found the same way the pull-up button's bug
+   was: chrome-ink-muted is a dark-ground colour, and this text lives on a
+   light surface in glass. The rule going forward: a register colours the
+   ground and the chrome around the reading surface; the reading surface
+   (and everything drawn on it, in both registers) takes the surface's own
+   inks. */
 .reading-status {
   padding: var(--space-8) var(--space-4);
   max-width: var(--type-passage-measure);
   margin: 0 auto;
   font-family: var(--font-sans);
   font-size: var(--type-ui-size-md);
-  color: var(--chrome-ink-muted);
+  color: var(--page-ink-muted);
 }
