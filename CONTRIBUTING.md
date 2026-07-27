@@ -1,6 +1,29 @@
 ## Contributing to Superb
 
-Welcome, and thank you for your interest in contributing to Superb! 
+Welcome, and thank you for your interest in contributing to Superb!
+
+**One thing before anything else: the person reading comes first, and you come
+second.** That is not politeness — it decides pull requests. Superb is a
+vocabulary app that never admits it is teaching, so a change that makes the
+project nicer to work on but puts one number, one badge or one explanation in
+front of a reader is rejected, and a change that makes your life harder while
+leaving the reading surface silent is the one that gets merged.
+
+In practice that means a few things you would not guess from the code:
+
+- **The surface never explains itself.** No review queue, no streak, no level,
+  no score, no congratulation, and no numbers facing the reader outside
+  Settings. Target words are never marked. If a feature has to be explained to
+  a reader, it is wrong by definition, however well it is built.
+- **Convenience for us is not a reason.** "It was easier to expose the
+  schedule" is not an argument; it is the failure this whole project is
+  arranged to prevent.
+- **Where the two genuinely conflict, say so in the pull request** rather than
+  quietly picking one. Most of the time they do not conflict, and the times
+  they do are worth a sentence.
+
+Everything below — the setup, the conventions, the tests — exists to make that
+ordering cheap to hold rather than a thing you have to remember.
 
 ---
 
