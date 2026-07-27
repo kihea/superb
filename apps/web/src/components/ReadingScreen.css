@@ -46,6 +46,34 @@
   z-index: 1;
 }
 
+/* How much the drawn register asserts itself against the glass-and-metal
+   chrome (the team's own framing of what these candidates vary). "drawn" is
+   the chrome untouched, with the doodle motifs present at a modest reading;
+   "inked" pulls the chrome back -- the aura dims, so paper and ink read as
+   the dominant material and the room recedes behind them. Neither touches
+   the aura's static-ness (ADVISORY-008 §3's seam): only opacity changes,
+   never animation. */
+.reading-screen--inked .reading-screen-aura {
+  opacity: 0.55;
+}
+
+/* The doodle motifs' own custom properties (read by MarginMark.css and
+   BreakChain.css) -- set here, once, per candidate, and inherited down
+   through both the aura's siblings and the passage card beneath it. "bare"
+   sets nothing: the motifs are unmounted in that candidate, not merely
+   invisible (ReadingScreen.tsx, PassagePage.tsx). */
+.reading-screen--drawn {
+  --margin-mark-opacity: 0.16;
+  --break-chain-opacity: 0.4;
+  --break-chain-height: 22px;
+}
+
+.reading-screen--inked {
+  --margin-mark-opacity: 0.32;
+  --break-chain-opacity: 0.62;
+  --break-chain-height: 32px;
+}
+
 /* Even on a phone the room has to stay visible -- a full-bleed card would
    quietly erase the material the moment someone picks up their phone,
    which is most of the audience. The margin and radius only get more

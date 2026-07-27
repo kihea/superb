@@ -6,12 +6,18 @@
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
+import { getCandidate } from "../register-candidates";
+import { MarginMark } from "./doodle/MarginMark";
 
 export function ReadingScreen() {
   const session = useEngineSession();
+  // Item 7's picker (workspace/decisions, ADVISORY-012 Directive 2) -- see
+  // register-candidates.ts. "bare" (no query param) is byte-for-byte the
+  // screen PR #31 already merged.
+  const candidate = getCandidate();
 
   return (
-    <div className="reading-screen">
+    <div className={`reading-screen reading-screen--${candidate}`}>
       {/* Glass needs something behind it or it is a grey box (ADVISORY-008
          §3). Two large, diffuse lights so the metal edge below has
          something to refract. Deliberately not animated: ADR-019 as
@@ -19,6 +25,10 @@ export function ReadingScreen() {
          stop, and this build is the reading state end to end. A future
          non-reading surface may let these drift; this one does not. */}
       <div className="reading-screen-aura" aria-hidden="true" />
+      {/* The margin mark (DERIVATION-001, superb-hand-margin.svg): full-
+         height, static, in the room rather than on the page. Absent in
+         "bare"; present at rising presence in "drawn" and "inked". */}
+      {candidate !== "bare" && <MarginMark side="left" />}
       <div className="reading-page metal">
         {session.status === "loading" && (
           <p className="reading-status" data-text="Finding something to read.">
@@ -40,6 +50,7 @@ export function ReadingScreen() {
             passage={session.passage}
             onWordTap={session.tapWord}
             onFinish={session.finish}
+            candidate={candidate}
           />
         )}
       </div>

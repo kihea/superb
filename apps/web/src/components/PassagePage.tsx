@@ -8,15 +8,18 @@ import type { Passage } from "../engine/port";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
 import { fillTemplate, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
+import type { Candidate } from "../register-candidates";
+import { BreakChain } from "./doodle/BreakChain";
 
 export interface PassagePageProps {
   record: ComposedPassage | SourceExcerpt;
   passage: Passage;
   onWordTap: (word: string, position: number) => void;
   onFinish: () => void;
+  candidate: Candidate;
 }
 
-export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePageProps) {
+export function PassagePage({ record, passage, onWordTap, onFinish, candidate }: PassagePageProps) {
   const [activeWord, setActiveWord] = useState<string | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
@@ -67,6 +70,13 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
           — {record.provenance.author}, <em>{record.provenance.work}</em> ({record.provenance.year})
         </p>
       )}
+
+      {/* The passage-break chain (DERIVATION-001, superb-hand-break.svg),
+         used here as the mark that a passage has ended -- a property of the
+         whole passage, never of where a target word happens to sit within
+         it, so its position on screen carries no information about which
+         word the engine cared about (law 3). Absent in "bare". */}
+      {candidate !== "bare" && <BreakChain />}
 
       <div ref={sentinelRef} aria-hidden="true" />
 
