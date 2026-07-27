@@ -14,8 +14,10 @@
 //
 // Where it may sit: on the one real navigation action this screen has (the
 // pull-up affordance), which lives in the chrome, outside the text column,
-// and is not attached to any word. It replaces the plain "->" only in
-// "drawn" and "inked" -- "bare" keeps today's shipped glyph unchanged.
+// and is not attached to any word. It replaces the plain "->" glyph the
+// screen used to ship (item 7's "bare" candidate) unconditionally now --
+// the register decision, receipted 2026-07-27, chose the candidate this
+// icon belongs to.
 import "./DoodleArrow.css";
 
 export function DoodleArrow({ className }: { className?: string }) {

@@ -46,40 +46,19 @@
   z-index: 1;
 }
 
-/* How much the drawn register asserts itself against the glass-and-metal
-   chrome (the team's own framing of what these candidates vary). "drawn" is
-   the chrome untouched, with the doodle motifs present at a modest reading;
-   "inked" pulls the chrome back -- the aura dims, so paper and ink read as
-   the dominant material and the room recedes behind them. Neither touches
-   the aura's static-ness (ADVISORY-008 §3's seam): only opacity changes,
-   never animation. */
-.reading-screen--inked .reading-screen-aura {
-  opacity: 0.55;
-}
-
-/* The doodle motifs' own custom properties (read by MarginMark.css,
-   BreakChain.css, DoodleArrow.css) -- set on the root, once per candidate,
-   via a data attribute (ReadingScreen.tsx) rather than the `.reading-
-   screen--x` class those elements would otherwise need to inherit through.
-   That distinction matters for exactly one of the three: the pull-up
-   button carrying DoodleArrow is portalled to document.body (see the
-   portal comment in PassagePage.tsx) specifically to escape this
-   component's own DOM subtree, so a class-scoped variable on
-   `.reading-screen` would never reach it. Root-scoped avoids the bug rather
-   than working around it. "bare" sets nothing: the motifs are unmounted in
-   that candidate, not merely invisible (ReadingScreen.tsx, PassagePage.tsx). */
-:root[data-candidate="drawn"] {
+/* The register decision, receipted 2026-07-27 (workspace/decisions/
+   README.md): Kihea chose "a little of his own hand" -- these are the
+   values his choice picked, item 7's `drawn` candidate, now the only
+   values that exist. Root-scoped (read by MarginMark.css, BreakChain.css,
+   DoodleArrow.css) because the pull-up button carrying DoodleArrow is
+   portalled to document.body (see the portal comment in PassagePage.tsx),
+   outside `.reading-screen`'s own DOM subtree -- a class-scoped variable
+   would never reach it. */
+:root {
   --margin-mark-opacity: 0.16;
   --break-chain-opacity: 0.4;
   --break-chain-height: 22px;
   --doodle-arrow-weight: 4;
-}
-
-:root[data-candidate="inked"] {
-  --margin-mark-opacity: 0.32;
-  --break-chain-opacity: 0.62;
-  --break-chain-height: 32px;
-  --doodle-arrow-weight: 5.5;
 }
 
 /* Even on a phone the room has to stay visible -- a full-bleed card would
