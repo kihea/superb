@@ -79,3 +79,43 @@ pre-registered outcome: no point on this frontier yields a subset both
 above the stated floor and large enough to select against.** See this
 track's PR body for what that means for issue #36 and the proposed next
 step; this file states only the measurement, not the ruling.
+
+**This table is under-powered to choose an operating point, full stop —
+that is the finding, not a caveat on it.** Judged n shrinks fast as the
+floor rises (92 → 48 → 38 → 26 → 19 → 14 → 10) and the intervals grow
+correspondingly enormous — floor 2000's [38.9%, 74.5%] contains coin-flip
+odds. ADVISORY-010 Directive 1 asked specifically for structural precision
+at **n≈100+**, in writing, because the earlier 56% figure was small-sample
+flattery and the project should not be fooled the same way in the opposite
+direction. A table whose largest cell is 92 and whose decision-relevant
+cells (any floor above 0) are 10–48 does not meet that bar. Enlarging the
+judged sample per floor — drawing new claims, committing the key before
+judging, hand-scoring under the standard — is real, separate work this PR
+does not attempt; it ships the measurement and declines to choose a point
+from it, rather than picking the best-looking cell in a table this
+under-powered.
+
+## A gap this table does not cover: the hand-picked lane
+
+`content/sources/` holds 60 hand-authored excerpts (101 word claims, ADR-018's
+separate contribution lane) alongside the 2,539 pipeline-generated ones. This
+table's census reads every file's `words` uniformly, so those 101 claims sit
+inside the 5,704-claim population above. But `is_informative()` was built
+for, and only ever run against, the generated lane. Re-applied to the
+hand-authored 101: **only 7 register under any known signal (1 apposition, 6
+gloss-overlap); the other 94 score `none`** — consistent with ADR-026
+Amendment 1's own finding (accepted the same day this table was measured)
+that the algorithmic signals recognise almost nothing in that lane, and that
+a fourth signal class, `hand-picked`, has been accepted to represent it but
+has not yet migrated into the schema or this corpus.
+
+This does not touch the precision numbers above — the pooled 100-claim
+sample contains zero hand-authored excerpt ids, checked directly rather than
+assumed. It does mean the coverage/surviving-claims columns currently fold
+the hand-authored lane's 94 non-firing claims into "does not survive," when
+the honest description is "was never subject to this heuristic to begin
+with." Once ADR-026's migration lands, re-run this table with the
+hand-picked lane reported as its own category, or excluded from the
+gloss-overlap sweep's denominator entirely — a rank floor on gloss-overlap's
+overlapping word has no meaning for a claim that was never selected via
+gloss-overlap.
