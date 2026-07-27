@@ -3,6 +3,7 @@
 // it 2026-07-25). The room the passage floats in is dark-first glass and
 // metal; the passage card itself stays ink-and-paper regardless (ADR-019
 // Decision 1) -- see design/tokens.json.
+import { useEffect } from "react";
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
@@ -15,6 +16,18 @@ export function ReadingScreen() {
   // register-candidates.ts. "bare" (no query param) is byte-for-byte the
   // screen PR #31 already merged.
   const candidate = getCandidate();
+
+  // Root-scoped, not just the class below: the pull-up button carrying
+  // DoodleArrow is portalled to document.body (PassagePage.tsx), outside
+  // this component's own DOM subtree, so its candidate-scoped CSS
+  // variables (ReadingScreen.css) have to live somewhere a portal can still
+  // see them.
+  useEffect(() => {
+    document.documentElement.dataset.candidate = candidate;
+    return () => {
+      delete document.documentElement.dataset.candidate;
+    };
+  }, [candidate]);
 
   return (
     <div className={`reading-screen reading-screen--${candidate}`}>

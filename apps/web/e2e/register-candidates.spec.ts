@@ -23,7 +23,11 @@ for (const candidate of CANDIDATES) {
       // The doodle motifs, when present, are marked aria-hidden and are not
       // focusable or clickable -- a drawn register must not add a fourth
       // interaction to a screen law 3 says has exactly one kind of target.
-      for (const selector of [".margin-mark", ".break-chain"]) {
+      // .doodle-arrow lives inside the one real nav control (the pull-up
+      // button) rather than being its own target, which is exactly the
+      // boundary Kihea's nav-icon direction (2026-07-27) draws: the icon
+      // decorates an existing action, it never becomes a second one.
+      for (const selector of [".margin-mark", ".break-chain", ".doodle-arrow"]) {
         const nodes = page.locator(selector);
         const count = await nodes.count();
         if (candidate === "bare") {
@@ -75,13 +79,38 @@ for (const candidate of CANDIDATES) {
         await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
         await page.waitForTimeout(600);
 
-        for (const selector of [".margin-mark-stroke", ".break-chain-link"]) {
+        for (const selector of [".margin-mark-stroke", ".break-chain-link", ".doodle-arrow-stroke"]) {
           const nodes = page.locator(selector);
           const count = await nodes.count();
           if (count === 0) continue;
           const animationName = await nodes.first().evaluate((el) => getComputedStyle(el).animationName);
           expect(animationName).toBe("none");
         }
+      }
+    });
+
+    // The nav-icon boundary from Kihea's own direction (2026-07-27): a
+    // drawn icon may decorate an existing chrome action, but it must never
+    // sit inside the text column or become a second interactive target of
+    // its own -- the same law-3 line the passage-break chain's placement
+    // already has to hold.
+    test("the doodle nav icon decorates the pull-up button, never the passage text", async ({ page }) => {
+      await page.goto(`/?candidate=${candidate}`);
+      await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+
+      const inPassageText = await page.locator(".passage-text .doodle-arrow").count();
+      expect(inPassageText).toBe(0);
+
+      const icon = page.locator(".passage-continue-button .doodle-arrow");
+      if (candidate === "bare") {
+        expect(await icon.count()).toBe(0);
+      } else {
+        await expect(icon).toHaveCount(1);
+        await expect(icon).toHaveAttribute("aria-hidden", "true");
+        // Decoration, not a second control: the icon itself is never the
+        // click/focus target -- the button around it still is.
+        const tabIndex = await icon.evaluate((el) => el.getAttribute("tabindex"));
+        expect(tabIndex).toBeNull();
       }
     });
   });

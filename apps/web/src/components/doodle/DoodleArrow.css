@@ -1,0 +1,16 @@
+/* Sits inside the pull-up button, which is always page-toned regardless of
+   theme (PassagePage.css's own rule for that control) -- so this icon takes
+   the same page ink, not the surrounding chrome's. */
+.doodle-arrow {
+  display: inline-block;
+  width: 1.35em;
+  height: 1.2em;
+  vertical-align: -0.15em;
+  overflow: visible;
+}
+
+.doodle-arrow-stroke {
+  stroke: var(--page-ink);
+  stroke-width: var(--doodle-arrow-weight, 4.5);
+  opacity: 0.86;
+}

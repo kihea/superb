@@ -10,6 +10,7 @@ import { fillTemplate, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
 import type { Candidate } from "../register-candidates";
 import { BreakChain } from "./doodle/BreakChain";
+import { DoodleArrow } from "./doodle/DoodleArrow";
 
 export interface PassagePageProps {
   record: ComposedPassage | SourceExcerpt;
@@ -93,7 +94,7 @@ export function PassagePage({ record, passage, onWordTap, onFinish, candidate }:
           <button type="button" className="passage-continue-button metal" onClick={onFinish}>
             Keep reading
             <span className="passage-continue-arrow" aria-hidden="true">
-              →
+              {candidate === "bare" ? "→" : <DoodleArrow />}
             </span>
           </button>
         </div>,
