@@ -37,6 +37,13 @@ public/content
 # Generated from ../../design/tokens.json by scripts/tokens-to-css.mjs.
 src/design/tokens.css
 
+# Generated from crates/superb-wasm by scripts/build-wasm.mjs (docs/seams.md
+# Seam 1). One compiled crate, two wasm-bindgen targets -- "web" for the app
+# itself, "nodejs" for tests/engine-persistence.test.ts, which runs under
+# Node and cannot use the "web" target's fetch()-based instantiation.
+src/engine/wasm-pkg
+tests/wasm-node-pkg
+
 
 # Review-only screenshots for a PR body, never part of what ships (see PR #31).
 .pr-review/

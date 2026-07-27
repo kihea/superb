@@ -40,11 +40,8 @@ export function ReadingScreen() {
           </p>
         )}
         {session.status === "error" && (
-          <p
-            className="reading-status"
-            data-text="No engine wired up for a production build yet — T2's superb-wasm binding lands here."
-          >
-            No engine wired up for a production build yet — T2&apos;s superb-wasm binding lands here.
+          <p className="reading-status" data-text="Something went wrong loading this session.">
+            Something went wrong loading this session.
           </p>
         )}
         {session.status === "ready" && session.record && session.passage && (
