@@ -71,9 +71,15 @@ interface TopicTally {
   abandoned: number;
 }
 
-/** Reads the mock engine's persisted state straight out of IndexedDB --
- *  not through the app's own code, so this cannot pass just because the
- *  app agrees with itself about what it wrote. */
+/** Reads the real engine's persisted `LearnerState` document straight out of
+ *  IndexedDB -- not through the app's own code, so this cannot pass just
+ *  because the app agrees with itself about what it wrote. `topic_affinities`
+ *  is superb-core's own field name for this (ADR-016's v1 envelope,
+ *  crates/superb-core/tests/fixtures/learner_state_v1.json), snake_case
+ *  because it is the wire shape `Engine.save()` actually produces -- the
+ *  mock engine this test used to read used its own private `topicTally`
+ *  shape instead, which does not exist once the mock is gone (ADVISORY-014
+ *  §1: "the e2e suite exercises the real engine path"). */
 async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> {
   return page.evaluate(async () => {
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
@@ -88,8 +94,8 @@ async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> 
       req.onerror = () => reject(req.error);
     });
     if (!raw) return null;
-    const parsed = JSON.parse(raw) as { topicTally?: Record<string, { finished: number; abandoned: number }> };
-    const entries = Object.entries(parsed.topicTally ?? {});
+    const parsed = JSON.parse(raw) as { topic_affinities?: Record<string, { finished: number; abandoned: number }> };
+    const entries = Object.entries(parsed.topic_affinities ?? {});
     return entries.length > 0 ? entries[0] : null;
   });
 }

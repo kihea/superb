@@ -25,6 +25,18 @@ export interface SourceExcerptWord {
   signals: ExcerptSignal[];
 }
 
+/** `content/classes/*.json` -- the lexicon docs/seams.md's `wordClasses`
+ *  comes from. A word may belong to more than one class in principle,
+ *  though `content/classes/_seed.py`'s own table assigns each word to
+ *  exactly one today. */
+export interface WordClass {
+  id: string;
+  pos: string;
+  description: string;
+  fixture: string;
+  members: string[];
+}
+
 export interface SourceExcerpt {
   id: string;
   pool: "sourced";

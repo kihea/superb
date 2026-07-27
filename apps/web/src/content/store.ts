@@ -3,11 +3,12 @@
 // filters on the engine's behalf -- it just knows what exists and can fetch
 // a record by id.
 import type { Candidate, ContentFrame } from "../engine/port";
-import type { ComposedPassage, SourceExcerpt } from "./types";
+import type { ComposedPassage, SourceExcerpt, WordClass } from "./types";
 
-type Record_ = ComposedPassage | SourceExcerpt;
+export type Record_ = ComposedPassage | SourceExcerpt;
 
 let byId: Map<string, Record_> | null = null;
+let lexicon: { wordClasses: Record<string, string[]>; bandWords: string[] } | null = null;
 
 // A corpus-sized JSON file (T3b's 2,600-excerpt sources.json is 2.79 MB, and
 // workspace/contract.md targets it growing further) is too large to rely on
@@ -45,6 +46,43 @@ async function ensureLoaded(): Promise<Map<string, Record_>> {
   for (const s of sources) map.set(s.id, s);
   byId = map;
   return map;
+}
+
+/** `ContentFrame.wordClasses`/`bandWords` -- straight from
+ *  `content/classes/*.json`, docs/seams.md's own words for where this comes
+ *  from. Without it, `superb-core::composer::fill_slots` cannot place any
+ *  word into a composed slot at all (no due list, no band words to seed
+ *  with), and a fresh reader's first passage never resolves -- exactly the
+ *  gap the mock engine hid, because the mock filled every slot with
+ *  `defaultWord` and never asked the lexicon anything.
+ *
+ *  **`bandWords`'s order is not yet calibrated to θ.** docs/seams.md says
+ *  this ranking is "a corpus property (frequency, how informative the
+ *  contexts are)" -- it is not, today: each class's own member list reads
+ *  roughly common-to-rare (`content/classes/_seed.py`'s own ordering), but
+ *  nothing maps that to the numeric `[bandLow, bandHigh]` window `Needs
+ *  ::PassageCandidates` carries, and this store does not read that window
+ *  at all yet. Flattening every class in id order, preserving each list's
+ *  own internal order, is a real ranking (not arbitrary) but an
+ *  admittedly crude stand-in for the frequency-calibrated one T3b's
+ *  content pipeline should eventually own. Recorded here rather than
+ *  smoothed over: this is real friction the mock engine hid, not a
+ *  finished feature. */
+async function ensureLexiconLoaded(): Promise<{ wordClasses: Record<string, string[]>; bandWords: string[] }> {
+  if (lexicon) return lexicon;
+  const classes = await fetchJson<WordClass[]>("/content/classes.json");
+  const sorted = [...classes].sort((a, b) => a.id.localeCompare(b.id));
+
+  const wordClasses: Record<string, string[]> = {};
+  const bandWords: string[] = [];
+  for (const cls of sorted) {
+    for (const word of cls.members) {
+      (wordClasses[word] ??= []).push(cls.id);
+      bandWords.push(word);
+    }
+  }
+  lexicon = { wordClasses, bandWords };
+  return lexicon;
 }
 
 /** Resolve a Passage effect's id back into the full record the shell needs
@@ -128,43 +166,55 @@ function shuffled<T>(items: T[]): T[] {
   return copy;
 }
 
-/** Answers a PassageCandidates Needs. `exclude` keeps a session from
- *  immediately repeating what was just read. The band and due-word
- *  parameters are the engine's; this mock store does not use them to rank
- *  (that is a corpus-frequency judgment the real content pipeline owns) --
- *  it returns curated-first, best first, matching what the seam says a real
- *  content store's ranking is for. */
-export async function candidatesFor(exclude: Set<string>): Promise<ContentFrame> {
-  const map = await ensureLoaded();
-  const remaining = [...map.values()].filter((r) => !exclude.has(r.id));
-  const pool = remaining.length > 0 ? remaining : [...map.values()];
+/** The ranking itself, pulled out of `candidatesFor` so it can be tested
+ *  without a network fetch (`tests/candidates-ranking.test.ts`) -- and so
+ *  that test can hold the M2 contract's item 5b tripwire to something more
+ *  than a comment: **curated-then-shuffled order depends only on `id`,
+ *  never on a record's `words` or `slots` content.** That is the property
+ *  this function must keep true for the real corpus, since nothing else
+ *  downstream checks it -- `superb-core`'s composer is the only thing
+ *  allowed to read `Candidate.words` as a scheduling input, and only this
+ *  function decides what order the engine ever sees candidates in. */
+export function rankCandidates(records: Record_[], exclude: Set<string>): Record_[] {
+  const remaining = records.filter((r) => !exclude.has(r.id));
+  const pool = remaining.length > 0 ? remaining : records;
 
   const curated = pool.filter((r) => CURATED_FIRST.includes(r.id));
   curated.sort((a, b) => CURATED_FIRST.indexOf(a.id) - CURATED_FIRST.indexOf(b.id));
   const rest = shuffled(pool.filter((r) => !CURATED_FIRST.includes(r.id)));
 
-  const candidates: Candidate[] = [...curated, ...rest].map((r) =>
-    r.pool === "composed"
-      ? { id: r.id, pool: "Composed", slots: r.slots, words: [], topics: topicsOf(r) }
-      : {
-          id: r.id,
-          pool: "Sourced",
-          slots: [],
-          // ADR-026: content/sources' `words` carries {word, signals}
-          // objects now. The engine's Candidate only ever needed the word
-          // itself -- signals are an audit-trail concern downstream of
-          // scheduling, not a scheduling input.
-          words: r.words.map((w) => w.word),
-          topics: topicsOf(r),
-        },
-  );
+  return [...curated, ...rest];
+}
+
+function toCandidate(r: Record_): Candidate {
+  return r.pool === "composed"
+    ? { id: r.id, pool: "Composed", slots: r.slots, words: [], topics: topicsOf(r) }
+    : {
+        id: r.id,
+        pool: "Sourced",
+        slots: [],
+        // ADR-026: content/sources' `words` carries {word, signals}
+        // objects now. The engine's Candidate only ever needed the word
+        // itself -- signals are an audit-trail concern downstream of
+        // scheduling, not a scheduling input.
+        words: r.words.map((w) => w.word),
+        topics: topicsOf(r),
+      };
+}
+
+/** Answers a PassageCandidates Needs. `exclude` keeps a session from
+ *  immediately repeating what was just read. The band and due-word
+ *  parameters are the engine's; this store does not use them to rank
+ *  (that is a corpus-frequency judgment the real content pipeline owns) --
+ *  it returns curated-first, best first, matching what the seam says a real
+ *  content store's ranking is for. */
+export async function candidatesFor(exclude: Set<string>): Promise<ContentFrame> {
+  const [map, { wordClasses, bandWords }] = await Promise.all([ensureLoaded(), ensureLexiconLoaded()]);
+  const ranked = rankCandidates([...map.values()], exclude);
 
   return {
-    candidates,
-    // The mock always fills composed slots with defaultWord (seams.md: it
-    // "must read naturally with any legal fill"), so it never needs the
-    // class->word lexicon a real scheduler would consult here.
-    wordClasses: {},
-    bandWords: [],
+    candidates: ranked.map(toCandidate),
+    wordClasses,
+    bandWords,
   };
 }

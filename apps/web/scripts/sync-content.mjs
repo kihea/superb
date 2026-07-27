@@ -1,6 +1,13 @@
-// Bundles content/passages/*.json and content/sources/*.json (owned by T3, one
-// level up from this repo's apps/) into two arrays this app can fetch as
-// static assets. Read-only against content/ -- never writes there.
+// Bundles content/passages/*.json, content/sources/*.json, and
+// content/classes/*.json (owned by T3, one level up from this repo's apps/)
+// into arrays this app can fetch as static assets. Read-only against
+// content/ -- never writes there.
+//
+// classes.json is the lexicon docs/seams.md's ContentFrame.wordClasses
+// promises ("straight from the lexicon"): the real composer needs it to fill
+// a composed template's slots at all (src/composer.rs::fill_slots), so this
+// was already load-bearing the day the mock engine stopped standing in for
+// that logic -- it just had nowhere to be fetched from until now.
 //
 // Regenerated before every dev server start and every build; its output
 // (public/content/) is gitignored so there is exactly one copy of the
@@ -25,11 +32,13 @@ function loadJsonDir(sub) {
 
 const passages = loadJsonDir("passages");
 const sources = loadJsonDir("sources");
+const classes = loadJsonDir("classes");
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "passages.json"), JSON.stringify(passages));
 writeFileSync(join(outDir, "sources.json"), JSON.stringify(sources));
+writeFileSync(join(outDir, "classes.json"), JSON.stringify(classes));
 
 console.log(
-  `synced ${passages.length} passages, ${sources.length} sources -> public/content/`,
+  `synced ${passages.length} passages, ${sources.length} sources, ${classes.length} classes -> public/content/`,
 );
