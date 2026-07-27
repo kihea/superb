@@ -1,0 +1,72 @@
+[
+  {
+    "rank_floor": 0,
+    "precision": 0.4782608695652174,
+    "n": 92,
+    "ci_low": 0.3791196487621324,
+    "ci_high": 0.5791448209462198,
+    "band_coverage_1plus": 0.14139293035348233,
+    "band_coverage_2plus": 0.05524723763811809,
+    "surviving_claims": 5610
+  },
+  {
+    "rank_floor": 500,
+    "precision": 0.5208333333333334,
+    "n": 48,
+    "ci_low": 0.38328995635984375,
+    "ci_high": 0.6552890998421254,
+    "band_coverage_1plus": 0.08484575771211439,
+    "band_coverage_2plus": 0.023398830058497074,
+    "surviving_claims": 2615
+  },
+  {
+    "rank_floor": 1000,
+    "precision": 0.5526315789473685,
+    "n": 38,
+    "ci_low": 0.3970602917908942,
+    "ci_high": 0.6985383468844911,
+    "band_coverage_1plus": 0.06679666016699165,
+    "band_coverage_2plus": 0.015799210039498024,
+    "surviving_claims": 1896
+  },
+  {
+    "rank_floor": 2000,
+    "precision": 0.5769230769230769,
+    "n": 26,
+    "ci_low": 0.3894829692111983,
+    "ci_high": 0.7445581009727059,
+    "band_coverage_1plus": 0.04934753262336883,
+    "band_coverage_2plus": 0.009299535023248838,
+    "surviving_claims": 1288
+  },
+  {
+    "rank_floor": 3000,
+    "precision": 0.47368421052631576,
+    "n": 19,
+    "ci_low": 0.2732950548744854,
+    "ci_high": 0.6829251748817489,
+    "band_coverage_1plus": 0.03564821758912055,
+    "band_coverage_2plus": 0.006149692515374231,
+    "surviving_claims": 908
+  },
+  {
+    "rank_floor": 5000,
+    "precision": 0.42857142857142855,
+    "n": 14,
+    "ci_low": 0.21380509930400526,
+    "ci_high": 0.6740973309713064,
+    "band_coverage_1plus": 0.025248737563121845,
+    "band_coverage_2plus": 0.0035498225088745564,
+    "surviving_claims": 602
+  },
+  {
+    "rank_floor": 10000,
+    "precision": 0.4,
+    "n": 10,
+    "ci_low": 0.16817758120350967,
+    "ci_high": 0.6873304525498135,
+    "band_coverage_1plus": 0.01654917254137293,
+    "band_coverage_2plus": 0.0016499175041247937,
+    "surviving_claims": 374
+  }
+]

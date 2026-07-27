@@ -1,0 +1,930 @@
+{
+  "summary": {
+    "n_sample": 100,
+    "n_measured": 79,
+    "n_no_examples": 18,
+    "n_no_gloss": 3,
+    "n_fired": 47,
+    "tp": 25,
+    "precision": 0.5319148936170213,
+    "source": "C:/Users/kihea/.claude/jobs/767ed246/tmp/kaikki_dump.jsonl"
+  },
+  "results": [
+    {
+      "word": "lad",
+      "text": "“Sibyl has a mother,” she murmured; “I had none.” The lad was touched. He went towards her, and stooping down, he kissed her. “I am sorry if I have pained you by asking about my father,” he said, “but I could not help it. I must go now. Don’t forget that you will have only one child now to look after, and believe me that if this man wrongs my sister, I will find out who he is, track him down, and kill him like a dog.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "now"
+      ]
+    },
+    {
+      "word": "barrel",
+      "text": "The only difficulty in it was the entrance—which, however, as it was a place of security, and such a retreat as I wanted; I thought was a convenience; so that I was really rejoiced at the discovery, and resolved, without any delay, to bring some of those things which I was most anxious about to this place: particularly, I resolved to bring hither my magazine of powder, and all my spare arms—viz. two fowling-pieces—for I had three in all—and three muskets—for of them I had eight in all; so I kept in my castle only five, which stood ready mounted like pieces of cannon on my outmost fence, and were ready also to take out upon any expedition. Upon this occasion of removing my ammunition I happened to open the barrel of powder which I took up out of the sea, and which had been wet, and I found that the water had penetrated about three or four inches into the powder on every side, which caking and growing hard, had preserved the inside like a kernel in the shell, so that I had near sixty pounds of very good powder in the centre of the cask.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "cask",
+        "near"
+      ]
+    },
+    {
+      "word": "betray",
+      "text": "The water was long out; and this posture of running on the hands and knees brings an overmastering weakness and weariness, so that the joints ache and the wrists faint under your weight. Now and then, indeed, where was a big bush of heather, we lay awhile, and panted, and putting aside the leaves, looked back at the dragoons. They had not spied us, for they held straight on; a half-troop, I think, covering about two miles of ground, and beating it mighty thoroughly as they went. I had awakened just in time; a little later, and we must have fled in front of them, instead of escaping on one side. Even as it was, the least misfortune might betray us; and now and again, when a grouse rose out of the heather with a clap of wings, we lay as still as the dead and were afraid to breathe.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "distant",
+      "text": "Outside Dorlcote Mill A wide plain, where the broadening Floss hurries on between its green banks to the sea, and the loving tide, rushing to meet it, checks its passage with an impetuous embrace. On this mighty tide the black ships—laden with the fresh-scented fir-planks, with rounded sacks of oil-bearing seed, or with the dark glitter of coal—are borne along to the town of St Ogg’s, which shows its aged, fluted red roofs and the broad gables of its wharves between the low wooded hill and the river-brink, tingeing the water with a soft purple hue under the transient glance of this February sun. Far away on each hand stretch the rich pastures, and the patches of dark earth made ready for the seed of broad-leaved green crops, or touched already with the tint of the tender-bladed autumn-sown corn. There is a remnant still of last year’s golden clusters of beehive-ricks rising at intervals beyond the hedgerows; and everywhere the hedgerows are studded with trees; the distant ships seem to be lifting their masts and stretching their red-brown sails close among the branches of the spreading ash.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "hand",
+        "town"
+      ]
+    },
+    {
+      "word": "cottage",
+      "text": "But it was Adam’s strength, not its correlative hardness, that influenced his meditations this morning. He had long made up his mind that it would be wrong as well as foolish for him to marry a blooming young girl, so long as he had no other prospect than that of growing poverty with a growing family. And his savings had been so constantly drawn upon (besides the terrible sweep of paying for Seth’s substitute in the militia) that he had not enough money beforehand to furnish even a small cottage, and keep something in reserve against a rainy day. He had good hope that he should be “firmer on his legs” by and by; but he could not be satisfied with a vague confidence in his arm and brain; he must have definite plans, and set about them at once.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "altogether",
+      "text": "Yet thus much I may be allowed to say in my own vindication, that I artfully eluded many of his questions, and gave to every point a more favourable turn, by many degrees, than the strictness of truth would allow. For I have always borne that laudable partiality to my own country, which Dionysius Halicarnassensis, with so much justice, recommends to an historian: I would hide the frailties and deformities of my political mother, and place her virtues and beauties in the most advantageous light. This was my sincere endeavour in those many discourses I had with that monarch, although it unfortunately failed of success. But great allowances should be given to a king, who lives wholly secluded from the rest of the world, and must therefore be altogether unacquainted with the manners and customs that most prevail in other nations: the want of which knowledge will ever produce many prejudices, and a certain narrowness of thinking, from which we, and the politer countries of Europe, are wholly exempted. And it would be hard indeed, if so remote a prince’s notions of virtue and vice were to be offered as a standard for all mankind.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "certain",
+        "offered",
+        "will"
+      ]
+    },
+    {
+      "word": "servants",
+      "text": "But the only very definite conclusion he came to was that he should enjoy deucedly “going off” with her somewhere. Two days afterward he went off with her to the Castle of Chillon. He waited for her in the large hall of the hotel, where the couriers, the servants, the foreign tourists, were lounging about and staring. It was not the place he should have chosen, but she had appointed it. She came tripping downstairs, buttoning her long gloves, squeezing her folded parasol against her pretty figure, dressed in the perfection of a soberly elegant traveling costume.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "two"
+      ]
+    },
+    {
+      "word": "madman",
+      "text": "A man does not like to prove such a truth; Byron excepted from the category, jealousy. “And prove the very truth he most abhorred.” He saw my hesitation, and spoke:-- “The logic is simple, no madman’s logic this time, jumping from tussock to tussock in a misty bog. If it be not true, then proof will be relief; at worst it will not harm. If it be true! Ah, there is the dread; yet very dread should help my cause, for in it is some need of belief.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "sympathy",
+      "text": "And I tell you there are not many who would—not many, my dear.” “Some way I don’t feel moved to speak of things that trouble me. Don’t think I am ungrateful or that I don’t appreciate your sympathy. There are periods of despondency and suffering which take possession of me. But I don’t want anything but my own way. That is wanting a good deal, of course, when you have to trample upon the lives, the hearts, the prejudices of others—but no matter—still, I shouldn’t want to trample upon the little lives.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "good",
+        "take",
+        "want"
+      ]
+    },
+    {
+      "word": "papa",
+      "text": "After dressing in the hay, I washed my face in cold water at the windmill. Breakfast was ready when I entered the kitchen, and Yulka was baking griddle-cakes. The three older boys set off for the fields early. Leo and Yulka were to drive to town to meet their father, who would return from Wilber on the noon train. ‘We’ll only have a lunch at noon,’ Ántonia said, and cook the geese for supper, when our papa will be here.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "tommy",
+      "text": "I rather believe in them myself.” His manner was nonchalant to the last degree. Tommy Beresford was one of those young Englishmen not distinguished by any special intellectual ability, but who are emphatically at their best in what is known as a “tight place.” Their natural diffidence and caution fall from them like a glove. Tommy realized perfectly that in his own wits lay the only chance of escape, and behind his casual manner he was racking his brains furiously. The cold accents of the German took up the conversation: “Have you anything to say before you are put to death as a spy?” “Simply lots of things,” replied Tommy with the same urbanity as before. “Do you deny that you were listening at that door?” “I do not.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "owing",
+      "text": "“I said to my wife,” he continued more rapidly—“I said to Mrs. Bast, ‘I have to pay a call on some friends,’ and Mrs. Bast said to me, ‘Do go.’ While I was gone, however, she wanted me on important business, and thought I had come here, owing to the card, and so came after me, and I beg to tender my apologies, and hers as well, for any inconvenience we may have inadvertently caused you.” “No inconvenience,” said Helen; “but I still don’t understand.” An air of evasion characterized Mr. Bast. He explained again, but was obviously lying, and Helen didn’t see why he should get off. She had the cruelty of youth. Neglecting her sister’s pressure, she said, “I still don’t understand. When did you say you paid this call?” “Call?",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "came",
+        "get"
+      ]
+    },
+    {
+      "word": "thrive",
+      "text": "A Disappointment Mr. Attorney-General had to inform the jury, that the prisoner before them, though young in years, was old in the treasonable practices which claimed the forfeit of his life. That this correspondence with the public enemy was not a correspondence of to-day, or of yesterday, or even of last year, or of the year before. That, it was certain the prisoner had, for longer than that, been in the habit of passing and repassing between France and England, on secret business of which he could give no honest account. That, if it were in the nature of traitorous ways to thrive (which happily it never was), the real wickedness and guilt of his business might have remained undiscovered. That Providence, however, had put it into the heart of a person who was beyond fear and beyond reproach, to ferret out the nature of the prisoner’s schemes, and, struck with horror, to disclose them to his Majesty’s Chief Secretary of State and most honourable Privy Council.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "nature",
+        "never",
+        "secret",
+        "year",
+        "years"
+      ]
+    },
+    {
+      "word": "sandy",
+      "text": "I spent many a day to find out a great stone big enough to cut hollow, and make fit for a mortar, and could find none at all, except what was in the solid rock, and which I had no way to dig or cut out; nor indeed were the rocks in the island of hardness sufficient, but were all of a sandy, crumbling stone, which neither would bear the weight of a heavy pestle, nor would break the corn without filling it with sand. So, after a great deal of time lost in searching for a stone, I gave it over, and resolved to look out for a great block of hard wood, which I found, indeed, much easier; and getting one as big as I had strength to stir, I rounded it, and formed it on the outside with my axe and hatchet, and then with the help of fire and infinite labour, made a hollow place in it, as the Indians in Brazil make their canoes.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "resurrection",
+      "text": "To-morrow. We, that are alive, may rise betimes to-morrow. As for him that has died to-day, his morrow will be the resurrection morn. Meanwhile the twilight is glooming upward out of the corners of the room. The shadows of the tall furniture grow deeper, and at first become more definite; then, spreading wider, they lose their distinctness of outline in the dark gray tide of oblivion, as it were, that creeps slowly over the various objects, and the one human figure sitting in the midst of them.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "missy",
+      "text": "You see one forgets to particularize an old woman and her boy.” “Dr. and Mrs. Bretton were at M. de Bassompierre’s this evening?” “Ay, ay! as large as life; and missy played the hostess. What a conceited doll it is!” Soured and listless, Miss Fanshawe was beginning to disclose the causes of her prostrate condition. There had been a retrenchment of incense, a diversion or a total withholding of homage and attention coquetry had failed of effect, vanity had undergone mortification.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-gloss"
+    },
+    {
+      "word": "instruction",
+      "text": "Whilst I was saddened by the thought of losing the aid of my kind mistress, I was gladdened by the invaluable instruction which, by the merest accident, I had gained from my master. Though conscious of the difficulty of learning without a teacher, I set out with high hope, and a fixed purpose, at whatever cost of trouble, to learn how to read. The very decided manner with which he spoke, and strove to impress his wife with the evil consequences of giving me instruction, served to convince me that he was deeply sensible of the truths he was uttering. It gave me the best assurance that I might rely with the utmost confidence on the results which, he said, would flow from teaching me to read. What he most dreaded, that I most desired.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "emotion",
+      "text": "Dinah stood still for a minute, hesitating to speak because Hetty might be asleep, and looking at the motionless heap with a yearning heart. Then she said, softly, “Hetty!” There was a slight movement perceptible in Hetty’s frame—a start such as might have been produced by a feeble electrical shock—but she did not look up. Dinah spoke again, in a tone made stronger by irrepressible emotion, “Hetty... it’s Dinah.” Again there was a slight startled movement through Hetty’s frame, and without uncovering her face, she raised her head a little, as if listening. “Hetty... Dinah is come to you.” After a moment’s pause, Hetty lifted her head slowly and timidly from her knees and raised her eyes. The two pale faces were looking at each other: one with a wild hard despair in it, the other full of sad yearning love.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "steep",
+      "text": "I ran over the white space and down a steep slope, through a scattered growth of trees, and came to a low-lying stretch of tall reeds, through which I pushed into a dark, thick undergrowth that was black and succulent under foot. As I plunged into the reeds, my foremost pursuers emerged from the gap. I broke my way through this undergrowth for some minutes. The air behind me and about me was soon full of threatening cries. I heard the tumult of my pursuers in the gap up the slope, then the crashing of the reeds, and every now and then the crackling crash of a branch.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "affectionate",
+      "text": "“Have I ever been so hard with you that you ask me such a cruel question?” “Then hold your meddlesome tongue,” said Solomon, “and come out, if you want to speak to me. Pay for your wine, and come out. Who’s this man?” Miss Pross, shaking her loving and dejected head at her by no means affectionate brother, said through her tears, “Mr. Cruncher.” “Let him come out too,” said Solomon. “Does he think me a ghost?” Apparently, Mr. Cruncher did, to judge from his looks.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "brother"
+      ]
+    },
+    {
+      "word": "deer",
+      "text": "You should never whip a horse for shying; he shies because he is frightened, and you only frighten him more and make the habit worse.' So I suppose all men don't do so. I am sure I don't want to shy for the sake of it; but how should one know what is dangerous and what is not, if one is never allowed to get used to anything? I am never afraid of what I know. Now I was brought up in a park where there were deer; of course I knew them as well as I did a sheep or a cow, but they are not common, and I know many sensible horses who are frightened at them, and who kick up quite a shindy before they will pass a paddock where there are deer.” I knew what my companion said was true, and I wished that every young horse had as good masters as Farmer Grey and Squire Gordon.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "many",
+        "now",
+        "used"
+      ]
+    },
+    {
+      "word": "o'clock",
+      "text": "\"And now, Mrs. Miller,\" he said, \"I'll come here at ten in the morning, and see to our patient. She'll be nicely by that time. And--(listen to those brutes in the street!--twelve o'clock, too--ah! there's the bell),--as I was saying, my offence to you being occasioned by your debt to me, I feel my receipt for your debt should commence my reparation to you; and I'll bring it to-morrow. Mrs. Miller you don't quite come at me--what I mean is--you owe me, under a notice to quit, three months' rent.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "morning"
+      ]
+    },
+    {
+      "word": "necessity",
+      "text": "My heart broke again, for it was plain that I had got to learn this troublesome river both ways. The pilot-house was full of pilots, going down to 'look at the river.' What is called the 'upper river' (the two hundred miles between St. Louis and Cairo, where the Ohio comes in) was low; and the Mississippi changes its channel so constantly that the pilots used to always find it necessary to run down to Cairo to take a fresh look, when their boats were to lie in port a week; that is, when the water was at a low stage. A deal of this 'looking at the river' was done by poor fellows who seldom had a berth, and whose only hope of getting one lay in their being always freshly posted and therefore ready to drop into the shoes of some reputable pilot, for a single trip, on account of such pilot's sudden illness, or some other necessity.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "one"
+      ]
+    },
+    {
+      "word": "shadowy",
+      "text": "the chair to the light, and began raising and lowering it, letting down the seat, setting the back at various angles, and adjusting the foot-rest. It looked comfortable enough, and Clarke passed his hand over the soft green velvet, as the doctor manipulated the levers. “Now, Clarke, make yourself quite comfortable. I have a couple hours’ work before me; I was obliged to leave certain matters to the last.” Raymond went to the stone slab, and Clarke watched him drearily as he bent over a row of phials and lit the flame under the crucible. The doctor had a small hand-lamp, shaded as the larger one, on a ledge above his apparatus, and Clarke, who sat in the shadows, looked down at the great shadowy room, wondering at the bizarre effects of brilliant light and undefined darkness contrasting with one another.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "sat"
+      ]
+    },
+    {
+      "word": "glare",
+      "text": "What fearful shapes and shadows beset his path, amidst the dim and ghastly glare of a snowy night! With what wistful look did he eye every trembling ray of light streaming across the waste fields from some distant window! How often was he appalled by some shrub covered with snow, which, like a sheeted spectre, beset his very path! How often did he shrink with curdling awe at the sound of his own steps on the frosty crust beneath his feet; and dread to look over his shoulder, lest he should behold some uncouth being tramping close behind him! And how often was he thrown into complete dismay by some rushing blast, howling among the trees, in the idea that it was the Galloping Hessian on one of his nightly scourings!",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "cherish",
+      "text": "I will protect and cherish you with all my strength—I will indeed. You shall have no cares—be worried by no household affairs, and live quite at ease, Miss Everdene. The dairy superintendence shall be done by a man—I can afford it well—you shall never have so much as to look out of doors at hay-making time, or to think of weather in the harvest. I rather cling to the chaise, because it is he same my poor father and mother drove, but if you don’t like it I will sell it, and you shall have a pony-carriage of your own. I cannot say how far above every other idea and object on earth you seem to me—nobody knows—God only knows—how much you are to me!” Bathsheba’s heart was young, and it swelled with sympathy for the deep-natured man who spoke so simply.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "mother",
+        "protect",
+        "will"
+      ]
+    },
+    {
+      "word": "spruce",
+      "text": "THE TRAIL OF THE MEAT Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the fading light. A vast silence reigned over the land. The land itself was a desolation, lifeless, without movement, so lone and cold that the spirit of it was not even that of sadness. There was a hint in it of laughter, but of a laughter more terrible than any sadness—a laughter that was mirthless as the smile of the sphinx, a laughter cold as the frost and partaking of the grimness of infallibility.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "landmark",
+      "text": "In the centre of the road stood an enormous tulip-tree, which towered like a giant above all the other trees of the neighborhood, and formed a kind of landmark. Its limbs were gnarled and fantastic, large enough to form trunks for ordinary trees, twisting down almost to the earth, and rising again into the air. It was connected with the tragical story of the unfortunate André, who had been taken prisoner hard by; and was universally known by the name of Major André’s tree. The common people regarded it with a mixture of respect and superstition, partly out of sympathy for the fate of its ill-starred namesake, and partly from the tales of strange sights, and doleful lamentations, told concerning it. As Ichabod approached this fearful tree, he began to whistle; he thought his whistle was answered; it was but a blast sweeping sharply through the dry branches.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "pursuit",
+      "text": "More and more, with every fresh mischance befalling her, did the pursuing furies seem to take the shape of Bertha Dorset; and close at hand, safely locked among her papers, lay the means of ending their pursuit. The temptation, which her scorn of Rosedale had once enabled her to reject, now insistently returned upon her; and how much strength was left her to oppose it? What little there was must at any rate be husbanded to the utmost; she could not trust herself again to the perils of a sleepless night. Through the long hours of silence the dark spirit of fatigue and loneliness crouched upon her breast, leaving her so drained of bodily strength that her morning thoughts swam in a haze of weakness. The only hope of renewal lay in the little bottle at her bed-side; and how much longer that hope would last she dared not conjecture.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "every",
+        "trust"
+      ]
+    },
+    {
+      "word": "schemes",
+      "text": "Whatever might be the extent of the self-delusion of his enemies, and however it had tended to assist his schemes, the slightest cause of suspicion, acting on the subtle nature of an Indian, would be likely to prove fatal. Taking the path, therefore, that was most likely to avoid observation, he rather skirted than entered the village. The warriors were still to be seen in the distance, by the fading light of the fires, stalking from lodge to lodge. But the children had abandoned their sports for their beds of skins, and the quiet of night was already beginning to prevail over the turbulence and excitement of so busy and important an evening. Alice revived under the renovating influence of the open air, and, as her physical rather than her mental powers had been the subject of weakness, she stood in no need of any explanation of that which had occurred.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "hammer",
+      "text": "The gallant Ichabod now spent at least an extra half hour at his toilet, brushing and furbishing up his best, and indeed only suit of rusty black, and arranging his locks by a bit of broken looking-glass that hung up in the schoolhouse. That he might make his appearance before his mistress in the true style of a cavalier, he borrowed a horse from the farmer with whom he was domiciliated, a choleric old Dutchman of the name of Hans Van Ripper, and, thus gallantly mounted, issued forth like a knight-errant in quest of adventures. But it is meet I should, in the true spirit of romantic story, give some account of the looks and equipments of my hero and his steed. The animal he bestrode was a broken-down plow-horse, that had outlived almost everything but its viciousness. He was gaunt and shagged, with a ewe neck, and a head like a hammer; his rusty mane and tail were tangled and knotted with burs; one eye had lost its pupil, and was glaring and spectral, but the other had the gleam of a genuine devil in it.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "glazed",
+      "text": "To sit, staring at those fixed glazed eyes, in silence for a moment, would play, Scrooge felt, the very deuce with him. There was something very awful, too, in the spectre's being provided with an infernal atmosphere of its own. Scrooge could not feel it himself, but this was clearly the case; for though the Ghost sat perfectly motionless, its hair, and skirts, and tassels, were still agitated as by the hot vapour from an oven. \"You see this toothpick?\" said Scrooge, returning quickly to the charge, for the reason just assigned; and wishing, though it were only for a second, to divert the vision's stony gaze from himself.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "silk",
+      "text": "In the long cedar chests that lined the west gallery of his house, he had stored away many rare and beautiful specimens of what is really the raiment of the Bride of Christ, who must wear purple and jewels and fine linen that she may hide the pallid macerated body that is worn by the suffering that she seeks for and wounded by self-inflicted pain. He possessed a gorgeous cope of crimson silk and gold-thread damask, figured with a repeating pattern of golden pomegranates set in six-petalled formal blossoms, beyond which on either side was the pine-apple device wrought in seed-pearls. The orphreys were divided into panels representing scenes from the life of the Virgin, and the coronation of the Virgin was figured in coloured silks upon the hood. This was Italian work of the fifteenth century. Another cope was of green velvet, embroidered with heart-shaped groups of acanthus-leaves, from which spread long-stemmed white blossoms, the details of which were picked out with silver thread and coloured crystals.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "unexplained",
+      "text": "Bellevue Avenue was empty at that hour, and after dropping the stable-lad at the corner of Mill Street Archer turned down the Old Beach Road and drove across Eastman's Beach. He had the feeling of unexplained excitement with which, on half-holidays at school, he used to start off into the unknown. Taking his pair at an easy gait, he counted on reaching the stud-farm, which was not far beyond Paradise Rocks, before three o'clock; so that, after looking over the horse (and trying him if he seemed promising) he would still have four golden hours to dispose of. As soon as he heard of the Sillerton's party he had said to himself that the Marchioness Manson would certainly come to Newport with the Blenkers, and that Madame Olenska might again take the opportunity of spending the day with her grandmother. At any rate, the Blenker habitation would probably be deserted, and he would be able, without indiscretion, to satisfy a vague curiosity concerning it.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "still"
+      ]
+    },
+    {
+      "word": "dull",
+      "text": "The rolling wheels were noiseless, and the sharp ring and clatter of the horses’ hoofs, became a dull, muffled tramp. The life of their progress seemed to be slowly hushed, and something death-like to usurp its place. Shading his eyes from the falling snow, which froze upon their lashes and obscured his sight, Kit often tried to catch the earliest glimpse of twinkling lights, denoting their approach to some not distant town. He could descry objects enough at such times, but none correctly. Now, a tall church spire appeared in view, which presently became a tree, a barn, a shadow on the ground, thrown on it by their own bright lamps.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "overboard",
+      "text": "No use sterning all, then; but as I was groping at midday, with a blinding sun, all crown-jewels; as I was groping, I say, after the second iron, to toss it overboard—down comes the tail like a Lima tower, cutting my boat in two, leaving each half in splinters; and, flukes first, the white hump backed through the wreck, as though it was all chips. We all struck out. To escape his terrible flailings, I seized hold of my harpoon-pole sticking in him, and for a moment clung to that like a sucking fish.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "mansion",
+      "text": "The present owner, Gervayse Pyncheon, was said to have contracted a dislike to the house, in consequence of a shock to his sensibility, in early childhood, from the sudden death of his grandfather. In the very act of running to climb Colonel Pyncheon’s knee, the boy had discovered the old Puritan to be a corpse. On arriving at manhood, Mr. Pyncheon had visited England, where he married a lady of fortune, and had subsequently spent many years, partly in the mother country, and partly in various cities on the continent of Europe. During this period, the family mansion had been consigned to the charge of a kinsman, who was allowed to make it his home for the time being, in consideration of keeping the premises in thorough repair. So faithfully had this contract been fulfilled, that now, as the carpenter approached the house, his practised eye could detect nothing to criticise in its condition.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "pond",
+      "text": "Still, that misdemeanour must be committed; and poor Silas, after peering all round the hedgerows, traversed the grass, beginning with perturbed vision to see Eppie behind every group of red sorrel, and to see her moving always farther off as he approached. The meadow was searched in vain; and he got over the stile into the next field, looking with dying hope towards a small pond which was now reduced to its summer shallowness, so as to leave a wide margin of good adhesive mud. Here, however, sat Eppie, discoursing cheerfully to her own small boot, which she was using as a bucket to convey the water into a deep hoof-mark, while her little naked foot was planted comfortably on a cushion of olive-green mud. A red-headed calf was observing her with alarmed doubt through the opposite hedge. Here was clearly a case of aberration in a christened child which demanded severe treatment; but Silas, overcome with convulsive joy at finding his treasure again, could do nothing but snatch her up, and cover her with half-sobbing kisses.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "water"
+      ]
+    },
+    {
+      "word": "violin",
+      "text": "Boy and scarf were both soaked through. The lady in black made a great fuss, but Christine laughed merrily and kissed the little boy, who was none other than the Vicomte Raoul de Chagny, staying at Lannion with his aunt. During the season, they saw each other and played together almost every day. At the aunt's request, seconded by Professor Valerius, Daae consented to give the young viscount some violin lessons. In this way, Raoul learned to love the same airs that had charmed Christine's childhood.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "give"
+      ]
+    },
+    {
+      "word": "flattered",
+      "text": "Aside from all interested motives, she wished for their own sakes that they were better off. Their personal requirements were pathetically limited, but renewed prosperity would at least have procured them the happiness of giving her what she wanted. Moffatt lingered on; but he began to speak more definitely of sailing, and Undine foresaw the day when, strong as her attraction was, stronger influences would snap it like a thread. She knew she interested and amused him, and that it flattered his vanity to be seen with her, and to hear that rumour coupled their names; but he gave her, more than any one she had ever known, the sense of being detached from his life, in control of it, and able, without weakness or uncertainty, to choose which of its calls he should obey. If the call were that of business--of any of the great perilous affairs he handled like a snake-charmer spinning the deadly reptiles about his head--she knew she would drop from his life like a loosened leaf.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "tow",
+      "text": "\"All hands to the pumps!\" \"Daown jib an' pole her!\" Here the skipper lost his temper and said things. Instantly fishing was suspended to answer him, and he heard many curious facts about his boat and her next port of call. They asked him if he were insured; and whence he had stolen his anchor, because, they said, it belonged to the Carrie Pitman; they called his boat a mud-scow, and accused him of dumping garbage to frighten the fish; they offered to tow him and charge it to his wife; and one audacious youth slipped up almost under the counter, smacked it with his open palm, and yelled: \"Gid up, Buck!\"",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "glow",
+      "text": "Mrs. Hall agreed, and then noticed he had his bag with him. “Now you’re here, Mr. Teddy,” said she, “I’d be glad if you’d give th’ old clock in the parlour a bit of a look. ’Tis going, and it strikes well and hearty; but the hour-hand won’t do nuthin’ but point at six.” And leading the way, she went across to the parlour door and rapped and entered. Her visitor, she saw as she opened the door, was seated in the armchair before the fire, dozing it would seem, with his bandaged head drooping on one side. The only light in the room was the red glow from the fire—which lit his eyes like adverse railway signals, but left his downcast face in darkness—and the scanty vestiges of the day that came in through the open door.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "point",
+        "red"
+      ]
+    },
+    {
+      "word": "mastery",
+      "text": "Thus, I must look only to myself. Imprimis—it was clear as the day that this swinish multitude were not to be driven by force. They were to be humoured, borne with very patiently: a courteous though sedate manner impressed them; a very rare flash of raillery did good. Severe or continuous mental application they could not, or would not, bear: heavy demand on the memory, the reason, the attention, they rejected point-blank. Where an English girl of not more than average capacity and docility would quietly take a theme and bind herself to the task of comprehension and mastery, a Labassecourienne would laugh in your face, and throw it back to you with the phrase,—“Dieu, que c’est difficile!",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "distant",
+      "text": "Moved by a sudden thought, I looked northward, and there I perceived a third of these cloudy black kopjes had risen. Everything had suddenly become very still. Far away to the southeast, marking the quiet, we heard the Martians hooting to one another, and then the air quivered again with the distant thud of their guns. But the earthly artillery made no reply. Now at the time we could not understand these things, but later I was to learn the meaning of these ominous kopjes that gathered in the twilight.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "heard"
+      ]
+    },
+    {
+      "word": "shilling",
+      "text": "I slept uneasily that night, fearing I should be robbed; but I might have spared myself the pain; for my host was no robber, only miserably poor and a great cheat. He was not alone in his poverty; for the next morning, we must go five miles about to the house of what he called a rich man to have one of my guineas changed. This was perhaps a rich man for Mull; he would have scarce been thought so in the south; for it took all he had--the whole house was turned upside down, and a neighbour brought under contribution, before he could scrape together twenty shillings in silver. The odd shilling he kept for himself, protesting he could ill afford to have so great a sum of money lying “locked up.” For all that he was very courteous and well spoken, made us both sit down with his family to dinner, and brewed punch in a fine china bowl, over which my rascal guide grew so merry that he refused to start.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-gloss"
+    },
+    {
+      "word": "selfishness",
+      "text": "Sadly did the Old South err in human education, despising the education of the masses, and niggardly in the support of colleges. Her ancient university foundations dwindled and withered under the foul breath of slavery; and even since the war they have fought a failing fight for life in the tainted air of social unrest and commercial selfishness, stunted by the death of criticism, and starving for lack of broadly cultured men. And if this is the white South’s need and danger, how much heavier the danger and need of the freedmen’s sons! how pressing here the need of broad ideals and true culture, the conservation of soul from sordid aims and petty passions! Let us build the Southern university—William and Mary, Trinity, Georgia, Texas, Tulane, Vanderbilt, and the others—fit to live; let us build, too, the Negro universities:—Fisk, whose foundation was ever broad; Howard, at the heart of the Nation; Atlanta at Atlanta, whose ideal of scholarship has been held above the temptation of numbers.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "compliment",
+      "text": "When I had crept within four yards of the throne, I raised myself gently upon my knees, and then striking my forehead seven times against the ground, I pronounced the following words, as they had been taught me the night before, Ickpling gloffthrobb squutserumm blhiop mlashnalt zwin tnodbalkguffh slhiophad gurdlubh asht. This is the compliment, established by the laws of the land, for all persons admitted to the king’s presence. It may be rendered into English thus: “May your celestial majesty outlive the sun, eleven moons and a half!” To this the king returned some answer, which, although I could not understand, yet I replied as I had been directed: Fluft drin yalerick dwuldom prastrad mirpush, which properly signifies, “My tongue is in the mouth of my friend;” and by this expression was meant, that I desired leave to bring my interpreter; whereupon the young man already mentioned was accordingly introduced, by whose intervention I answered as many questions as his majesty could put in above an hour. I spoke in the Balnibarbian tongue, and my interpreter delivered my meaning in that of Luggnagg.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "friend",
+        "many",
+        "thus"
+      ]
+    },
+    {
+      "word": "bee",
+      "text": "Principal towns—why, what are those creatures, making honey down there? They can’t be bees—nobody ever saw bees a mile off, you know—” and for some time she stood silent, watching one of them that was bustling about among the flowers, poking its proboscis into them, “just as if it was a regular bee,” thought Alice. However, this was anything but a regular bee: in fact it was an elephant—as Alice soon found out, though the idea quite took her breath away at first. “And what enormous flowers they must be!” was her next idea. “Something like cottages with the roofs taken off, and stalks put to them—and what quantities of honey they must make!",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "sensible",
+      "text": "You should never whip a horse for shying; he shies because he is frightened, and you only frighten him more and make the habit worse.' So I suppose all men don't do so. I am sure I don't want to shy for the sake of it; but how should one know what is dangerous and what is not, if one is never allowed to get used to anything? I am never afraid of what I know. Now I was brought up in a park where there were deer; of course I knew them as well as I did a sheep or a cow, but they are not common, and I know many sensible horses who are frightened at them, and who kick up quite a shindy before they will pass a paddock where there are deer.” I knew what my companion said was true, and I wished that every young horse had as good masters as Farmer Grey and Squire Gordon.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "auditor",
+      "text": "the corn-market at Casterbridge. The low though extensive hall, supported by Tuscan pillars, and latterly dignified by the name of Corn-Exchange, was thronged with hot men who talked among each other in twos and threes, the speaker of the minute looking sideways into his auditor’s face and concentrating his argument by a contraction of one eyelid during delivery. The greater number carried in their hands ground-ash saplings, using them partly as walking-sticks and partly for poking up pigs, sheep, neighbours with their backs turned, and restful things in general, which seemed to require such treatment in the course of their peregrinations.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "dashed",
+      "text": "I think my pity was more for Jem, of the two; but both Miss Matty and I appreciated to the full the kindness of the honest couple, although we said little about this, and a good deal about the chances and dangers of matrimony. The next morning, very early, I received a note from Miss Pole, so mysteriously wrapped up, and with so many seals on it to secure secrecy, that I had to tear the paper before I could unfold it. And when I came to the writing I could hardly understand the meaning, it was so involved and oracular. I made out, however, that I was to go to Miss Pole’s at eleven o’clock; the number eleven being written in full length as well as in numerals, and A.M. twice dashed under, as if I were very likely to come at eleven at night, when all Cranford was usually abed and asleep by ten. There was no signature except Miss Pole’s initials reversed, P.E.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "glue",
+      "text": "You also came through the air, being carried by a cyclone. So I believe the best way to get across the desert will be through the air. Now, it is quite beyond my powers to make a cyclone; but I’ve been thinking the matter over, and I believe I can make a balloon.” “How?” asked Dorothy. “A balloon,” said Oz, “is made of silk, which is coated with glue to keep the gas in it. I have plenty of silk in the Palace, so it will be no trouble to make the balloon.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "coated",
+        "made"
+      ]
+    },
+    {
+      "word": "threshold",
+      "text": "“We Shall Have to Eat Red Meat—Now” The Donjon Inn was of no imposing appearance; but I like these buildings with their rafters blackened with age and the smoke of their hearths—these inns of the coaching-days, crumbling erections that will soon exist in the memory only. They belong to the bygone days, they are linked with history. They make us think of the Road, of those days when highwaymen rode. I saw at once that the Donjon Inn was at least two centuries old—perhaps older. Under its sign-board, over the threshold, a man with a crabbed-looking face was standing, seemingly plunged in unpleasant thought, if the wrinkles on his forehead and the knitting of his brows were any indication.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "creature",
+      "text": "But that did not altogether press me so much as the possibility that there might be yet some living creature on board, whose life I might not only save, but might, by saving that life, comfort my own to the last degree; and this thought clung so to my heart that I could not be quiet night or day, but I must venture out in my boat on board this wreck; and committing the rest to God’s providence, I thought the impression was so strong upon my mind that it could not be resisted—that it must come from some invisible direction, and that I should be wanting to myself if I did not go. Under the power of this impression, I hastened back to my castle, prepared everything for my voyage, took a quantity of bread, a great pot of fresh water, a compass to steer by, a bottle of rum (for I had still a great deal of that left), and a basket of raisins; and thus, loading myself with everything necessary.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "great",
+        "still"
+      ]
+    },
+    {
+      "word": "traveller",
+      "text": "One or two persons, in brushing past them, lingered to look; for Miss Bart was a figure to arrest even the suburban traveller rushing to his last train. Selden had never seen her more radiant. Her vivid head, relieved against the dull tints of the crowd, made her more conspicuous than in a ball-room, and under her dark hat and veil she regained the girlish smoothness, the purity of tint, that she was beginning to lose after eleven years of late hours and indefatigable dancing. Was it really eleven years, Selden found himself wondering, and had she indeed reached the nine-and-twentieth birthday with which her rivals credited her? “What luck!” she repeated.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "even",
+        "one"
+      ]
+    },
+    {
+      "word": "brownie",
+      "text": "“That is hard to tell,” said the man thoughtfully. “You see, Oz is a Great Wizard, and can take on any form he wishes. So that some say he looks like a bird; and some say he looks like an elephant; and some say he looks like a cat. To others he appears as a beautiful fairy, or a brownie, or in any other form that pleases him. But who the real Oz is, when he is in his own form, no living person can tell.” “That is very strange,” said Dorothy, “but we must try, in some way, to see him, or we shall have made our journey for nothing.” “Why do you wish to see the terrible Oz?” asked the man.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "said",
+        "take"
+      ]
+    },
+    {
+      "word": "clap",
+      "text": "‘Dos pou sto,’ said Archimedes. ‘Give me a fulcrum, and I shall move the world!’ To do once, is the fulcrum whereby child-brain become man-brain; and until he have the purpose to do more, he continue to do the same again every time, just as he have done before! Oh, my dear, I see that your eyes are opened, and that to you the lightning flash show all the leagues,” for Mrs. Harker began to clap her hands and her eyes sparkled. He went on:-- “Now you shall speak. Tell us two dry men of science what you see with those so bright eyes.” He took her hand and held it whilst she spoke.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "aunt",
+      "text": "I don’t know what you are trying to fasten on me, and I have never had less need of any one’s explanations in my life.” In this way the girl delivered herself, and from hour to hour kept her aunt at bay. From hour to hour Mrs. Penniman’s curiosity grew. She would have given her little finger to know what Morris had said and done, what tone he had taken, what pretext he had found. She wrote to him, naturally, to request an interview; but she received, as naturally, no answer to her petition. Morris was not in a writing mood; for Catherine had addressed him two short notes which met with no acknowledgment.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "diamonds",
+      "text": "“Come on.” Off we started again in the direction from which the faint murmur seemed to come, groping our way as before along the rocky walls. I remember that I laid down the basket full of diamonds, wishing to be rid of its weight, but on second thoughts took it up again. One might as well die rich as poor, I reflected. As we went the sound became more and more audible, till at last it seemed quite loud in the quiet. On, yet on; now we could distinctly make out the unmistakable swirl of rushing water.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "envy",
+      "text": "The delight he had experienced in the work itself, and the consequent greater intimacy with the peasants, the envy he felt of them, of their life, the desire to adopt that life, which had been to him that night not a dream but an intention, the execution of which he had thought out in detail—all this had so transformed his view of the farming of the land as he had managed it, that he could not take his former interest in it, and could not help seeing that unpleasant relation between him and the workpeople which was the foundation of it all. The herd of improved cows such as Pava, the whole land ploughed over and enriched, the nine level fields surrounded with hedges, the two hundred and forty acres heavily manured, the seed sown in drills, and all the rest of it—it was all splendid if only the work had been done for themselves, or for themselves and comrades—people in sympathy with them.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "melting",
+      "text": "As soon as the sun had climbed above our girdle of trees, it fell with all its force upon the clearing and drank up the vapours at a draught. Soon the sand was baking and the resin melting in the logs of the block house. Jackets and coats were flung aside, shirts thrown open at the neck and rolled up to the shoulders; and we stood there, each at his post, in a fever of heat and anxiety. An hour passed away. “Hang them!” said the captain.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "glamour",
+      "text": "How often had she looked at the well-dressed actresses on the stage and wondered how she would look, how delightful she would feel if only she were in their place. The glamour, the tense situation, the fine clothes, the applause, these had lured her until she felt that she, too, could act--that she, too, could compel acknowledgment of power. Now she was told that she really could--that little things she had done about the house had made even him feel her power. It was a delightful sensation while it lasted. When Drouet was gone, she sat down in her rocking-chair by the window to think about it.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "often"
+      ]
+    },
+    {
+      "word": "scorn",
+      "text": "“That the Signor, my master, is going to be—a great robber—that is—he is going to rob on his own account;—to be, (but I am sure I don’t understand what he means) to be a—captain of—robbers.” “Art thou in thy senses, Annette?” said Madame Montoni; “or is this a trick to deceive me? Tell me, this instant, what Ludovico did say to thee;—no equivocation;—this instant.” “Nay, madam,” cried Annette, “if this is all I am to get for having told the secret—” Her mistress thus continued to insist, and Annette to protest, till Montoni, himself, appeared, who bade the latter leave the room, and she withdrew, trembling for the fate of her story. Emily also was retiring, but her aunt desired she would stay; and Montoni had so often made her a witness of their contention, that he no longer had scruples on that account. “I insist upon knowing this instant, Signor, what all this means:” said his wife—“what are all these armed men, whom they tell me of, gone out about?” Montoni answered her only with a look of scorn; and Emily whispered something to her.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "baked",
+      "text": "See if ’tis warm, Jacob.” Jacob stooped to the God-forgive-me, which was a two-handled tall mug standing in the ashes, cracked and charred with heat, rather furred with extraneous matter about the outside, especially in the crevices of the handles, the innermost curves of which may not have seen daylight for several years by reason of this encrustation thereon—formed of ashes accidentally wetted with cider and baked hard; but to the mind of any sensible drinker the cup was no worse for that, being incontestably clean on the inside and about the rim. It may be observed that such a class of mug is called a God-forgive-me in Weatherbury and its vicinity for uncertain reasons; probably because its size makes any given toper feel ashamed of himself when he sees its bottom in drinking it empty: this idea is, however, a mere guess.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "nod",
+      "text": "“Yes,” said my father, who had just come in, “ugly, hang-dog looking fellows as ever I beheld in my life. I hope they mayn’t rob the poor lady in the forest. They are clever rogues, however; they got everything to rights in a minute.” “I dare say they are worn out with too long traveling,” said Madame. “Besides looking wicked, their faces were so strangely lean, and dark, and sullen. I am very curious, I own; but I dare say the young lady will tell you all about it tomorrow, if she is sufficiently recovered.” “I don’t think she will,” said my father, with a mysterious smile, and a little nod of his head, as if he knew more about it than he cared to tell us.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "said",
+        "yes"
+      ]
+    },
+    {
+      "word": "betraying",
+      "text": "Nothing, therefore, was to prevent his following her; and once he had taken the irrevocable step, and had proved to her that it was irrevocable, he believed she would not send him away. This confidence in the future had steadied him to play his part in the present. It had kept him from writing to her, or betraying, by any sign or act, his misery and mortification. It seemed to him that in the deadly silent game between them the trumps were still in his hands; and he waited. There had been, nevertheless, moments sufficiently difficult to pass; as when Mr. Letterblair, the day after Madame Olenska's departure, had sent for him to go over the details of the trust which Mrs. Manson Mingott wished to create for her granddaughter.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "despised",
+      "text": "I can think of nothing. I firmly believe there is nothing. I hardly understand even what you mean.’ As she still stood looking fixedly at me, a twitching or throbbing, from which I could not dissociate the idea of pain, came into that cruel mark; and lifted up the corner of her lip as if with scorn, or with a pity that despised its object. She put her hand upon it hurriedly--a hand so thin and delicate, that when I had seen her hold it up before the fire to shade her face, I had compared it in my thoughts to fine porcelain--and saying, in a quick, fierce, passionate way, ‘I swear you to secrecy about this!’ said not a word more. Mrs. Steerforth was particularly happy in her son’s society, and Steerforth was, on this occasion, particularly attentive and respectful to her.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "still"
+      ]
+    },
+    {
+      "word": "stitch",
+      "text": "Some memory of pain, I found, still made that place the safest from the Beast Folk. It would be impossible to detail every step of the lapsing of these monsters,—to tell how, day by day, the human semblance left them; how they gave up bandagings and wrappings, abandoned at last every stitch of clothing; how the hair began to spread over the exposed limbs; how their foreheads fell away and their faces projected; how the quasi-human intimacy I had permitted myself with some of them in the first month of my loneliness became a shuddering horror to recall. The change was slow and inevitable. For them and for me it came without any definite shock. I still went among them in safety, because no jolt in the downward glide had released the increasing charge of explosive animalism that ousted the human day by day.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "traitor",
+      "text": "‘But oh, my friends and brothers! Oh, men and Englishmen, the down-trodden operatives of Coketown! What shall we say of that man—that working-man, that I should find it necessary so to libel the glorious name—who, being practically and well acquainted with the grievances and wrongs of you, the injured pith and marrow of this land, and having heard you, with a noble and majestic unanimity that will make Tyrants tremble, resolve for to subscribe to the funds of the United Aggregate Tribunal, and to abide by the injunctions issued by that body for your benefit, whatever they may be—what, I ask you, will you say of that working-man, since such I must acknowledge him to be, who, at such a time, deserts his post, and sells his flag; who, at such a time, turns a traitor and a craven and a recreant, who, at such a time, is not ashamed to make to you the dastardly and humiliating avowal that he will hold himself aloof, and will not be one of those associated in the gallant stand for Freedom and for Right?’ The assembly was divided at this point.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "man",
+        "name",
+        "right"
+      ]
+    },
+    {
+      "word": "slap",
+      "text": "account with a grin, “people will not understand it either who have never received a slap in the face,” and in that way you will politely hint to me that I, too, perhaps, have had the experience of a slap in the face in my life, and so I speak as one who knows. I bet that you are thinking that. But set your minds at rest, gentlemen, I have not received a slap in the face, though it is absolutely a matter of indifference to me what you may think about it. Possibly, I even regret, myself, that I have given so few slaps in the face during my life. But enough ... not another word on that subject of such extreme interest to you.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "unhappy",
+      "text": "Is that so much that he deserves this praise?\" \"It isn't that,\" said Scrooge, heated by the remark, and speaking unconsciously like his former, not his latter, self. \"It isn't that, Spirit. He has the power to render us happy or unhappy; to make our service light or burdensome; a pleasure or a toil. Say that his power lies in words and looks; in things so slight and insignificant that it is impossible to add and count 'em up: what then?",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "make"
+      ]
+    },
+    {
+      "word": "elevation",
+      "text": "‘They’ll come in three weeks,’ I said confidently. “But they didn’t. Instead of rivets there came an invasion, an infliction, a visitation. It came in sections during the next three weeks, each section headed by a donkey carrying a white man in new clothes and tan shoes, bowing from that elevation right and left to the impressed pilgrims. A quarrelsome band of footsore sulky niggers trod on the heels of the donkey; a lot of tents, camp-stools, tin boxes, white cases, brown bales would be shot down in the courtyard, and the air of mystery would deepen a little over the muddle of the station.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "reminded",
+      "text": "Edna had discovered it accidentally one day when the high-board gate stood ajar. She caught sight of a little green table, blotched with the checkered sunlight that filtered through the quivering leaves overhead. Within she had found the slumbering mulatresse, the drowsy cat, and a glass of milk which reminded her of the milk she had tasted in Iberville. She often stopped there during her perambulations; sometimes taking a book with her, and sitting an hour or two under the trees when she found the place deserted. Once or twice she took a quiet dinner there alone, having instructed Celestine beforehand to prepare no dinner at home.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "cat",
+        "day",
+        "green"
+      ]
+    },
+    {
+      "word": "indicating",
+      "text": "Take care, Hepzibah, take care! Clifford is on the brink of as black a ruin as ever befell him yet! But why do I talk with you, woman as you are? Make way!—I must see Clifford!” Hepzibah spread out her gaunt figure across the door, and seemed really to increase in bulk; looking the more terrible, also, because there was so much terror and agitation in her heart. But Judge Pyncheon’s evident purpose of forcing a passage was interrupted by a voice from the inner room; a weak, tremulous, wailing voice, indicating helpless alarm, with no more energy for self-defence than belongs to a frightened infant.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "also",
+        "black"
+      ]
+    },
+    {
+      "word": "curtains",
+      "text": "And the fire got into such a spasm of glowing indignation over the injury, that it lit a whole tier of black coals with a series of little explosions, before it could cool down, and sent a crimson gleam over the moody figure of its owner in the easy chair, and over the solemn furniture, and into the shadowy corner filled by the ghost. The spectre did not move when Dr. Renton arose and lit the chandelier. It stood there, still and gray, in the flood of mellow light. The curtains were drawn, and the twilight without had deepened into darkness. The fire was now burning in despite of itself, fanned by the wintry gusts, which found their way down the chimney.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "chair",
+        "drawn",
+        "fire",
+        "now"
+      ]
+    },
+    {
+      "word": "balcony",
+      "text": "“It pains me,” said Catherine. “I was afraid you would say that. But don’t you think you could get used to it? He wants so much to see you.” “Please don’t, Aunt Lavinia,” said Catherine, getting up from her seat. She moved quickly away, and went to the other window, which stood open to the balcony; and here, in the embrasure, concealed from her aunt by the white curtains, she remained a long time, looking out into the warm darkness.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "stood",
+        "went",
+        "white"
+      ]
+    },
+    {
+      "word": "clever",
+      "text": "“Now, don’t ye take on so, shepherd, and sit down!” said Henery, with a deprecating peacefulness equal to anything of the kind in Christianity. “We hear that ye be a extraordinary good and clever man, shepherd,” said Joseph Poorgrass with considerable anxiety from behind the maltster’s bedstead whither he had retired for safety. “’Tis a great thing to be clever, I’m sure,” he added, making small movements associated with states of mind rather than body; “we wish we were, don’t we, neighbours?” “Ay, that we do, sure,” said Matthew Moon, with a small anxious laugh towards Oak, to show how very friendly disposed he was likewise. “Who’s been telling you I’m clever?” said Oak. “’Tis blowed about from pillar to post quite common,” said Matthew.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "quite"
+      ]
+    },
+    {
+      "word": "reasoning",
+      "text": "Here I, for instance, quite naturally want to live, in order to satisfy all my capacities for life, and not simply my capacity for reasoning, that is, not simply one twentieth of my capacity for life. What does reason know? Reason only knows what it has succeeded in learning (some things, perhaps, it will never learn; this is a poor comfort, but why not say so frankly?) and human nature acts as a whole, with everything that is in it, consciously or unconsciously, and, even if it goes wrong, it lives. I suspect, gentlemen, that you are looking at me with compassion; you tell me again that an enlightened and developed man, such, in short, as the future man will be, cannot consciously desire anything disadvantageous to himself, that that can be proved mathematically.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "reason"
+      ]
+    },
+    {
+      "word": "barred",
+      "text": "As soon as he found he could not escape by the door of the pavilion his only way out was by the window in the vestibule, unless he could pass through a grated window. The window of The Yellow Room is secured by iron bars, because it looks out upon the open country; the two windows of the laboratory have to be protected in like manner for the same reason. As the murderer got away, I conceive that he found a window that was not barred,—that of the vestibule, which opens on to the park,—that is to say, into the interior of the estate. There’s not much magic in all that.” “Yes,” said Monsieur de Marquet, “but what you have not guessed is that this single window in the vestibule, though it has no iron bars, has solid iron blinds. Now these iron blinds have remained fastened by their iron latch; and yet we have proof that the murderer made his escape from the pavilion by that window!",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "bars",
+        "protected",
+        "window"
+      ]
+    },
+    {
+      "word": "guineas",
+      "text": "Mr. Fogg and his partners had resumed their game; no one—not even the dummy—complained of the length of the trip. Fix had begun by winning several guineas, which he seemed likely to lose; but he showed himself a not less eager whist-player than Mr. Fogg. During the morning, chance distinctly favoured that gentleman. Trumps and honours were showered upon his hands. Once, having resolved on a bold stroke, he was on the point of playing a spade, when a voice behind him said, “I should play a diamond.” Mr. Fogg, Aouda, and Fix raised their heads, and beheld Colonel Proctor.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "one"
+      ]
+    },
+    {
+      "word": "continent",
+      "text": "As soon as I found water enough—for my raft drew about a foot of water—I thrust her upon that flat piece of ground, and there fastened or moored her, by sticking my two broken oars into the ground, one on one side near one end, and one on the other side near the other end; and thus I lay till the water ebbed away, and left my raft and all my cargo safe on shore. My next work was to view the country, and seek a proper place for my habitation, and where to stow my goods to secure them from whatever might happen. Where I was, I yet knew not; whether on the continent or on an island; whether inhabited or not inhabited; whether in danger of wild beasts or not. There was a hill not above a mile from me, which rose up very steep and high, and which seemed to overtop some other hills, which lay as in a ridge from it northward.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "hills"
+      ]
+    },
+    {
+      "word": "ulster",
+      "text": "I guessed the door would be locked, but I didn’t try it. There were some battered old pictures on the walls, representing scenes from Faust.” Jane’s two listeners gave a simultaneous “Ah!” The girl nodded. “Yes--it was the place in Soho where Mr. Beresford was imprisoned. Of course, at the time I didn’t even know if I was in London. One thing was worrying me dreadfully, but my heart gave a great throb of relief when I saw my ulster lying carelessly over the back of a chair.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "back",
+        "heart"
+      ]
+    },
+    {
+      "word": "weary",
+      "text": "At first, I was delighted with the novelty and excitement of our London life; but soon I began to weary of its mingled turbulence and constraint, and sigh for the freshness and freedom of home. My new acquaintances, both male and female, disappointed my expectations, and vexed and depressed me by turns; for I soon grew tired of studying their peculiarities, and laughing at their foibles—particularly as I was obliged to keep my criticisms to myself, for my aunt would not hear them—and they—the ladies especially—appeared so provokingly mindless, and heartless, and artificial. The gentlemen seemed better, but, perhaps, it was because I knew them less—perhaps, because they flattered me; but I did not fall in love with any of them; and, if their attentions pleased me one moment, they provoked me the next, because they put me out of humour with myself, by revealing my vanity and making me fear I was becoming like some of the ladies I so heartily despised.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "put"
+      ]
+    },
+    {
+      "word": "gentlemen",
+      "text": "Now the ants have quite a different taste. They have a marvellous edifice of that pattern which endures for ever—the ant-heap. With the ant-heap the respectable race of ants began and with the ant-heap they will probably end, which does the greatest credit to their perseverance and good sense. But man is a frivolous and incongruous creature, and perhaps, like a chess player, loves the process of the game, not the end of it. And who knows (there is no saying with certainty), perhaps the only goal on earth to which mankind is striving lies in this incessant process of attaining, in other words, in life itself, and not in the thing to be attained, which must always be expressed as a formula, as positive as twice two makes four, and such positiveness is not life, gentlemen, but is the beginning of death.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "life",
+        "like"
+      ]
+    },
+    {
+      "word": "folded",
+      "text": "Nothing but the strength of his purpose enables him to make it. “Therefore, Volumnia, I desire to say in your presence—and in the presence of my old retainer and friend, Mrs. Rouncewell, whose truth and fidelity no one can question, and in the presence of her son George, who comes back like a familiar recollection of my youth in the home of my ancestors at Chesney Wold—in case I should relapse, in case I should not recover, in case I should lose both my speech and the power of writing, though I hope for better things—” The old housekeeper weeping silently; Volumnia in the greatest agitation, with the freshest bloom on her cheeks; the trooper with his arms folded and his head a little bent, respectfully attentive. “Therefore I desire to say, and to call you all to witness—beginning, Volumnia, with yourself, most solemnly—that I am on unaltered terms with Lady Dedlock. That I assert no cause whatever of complaint against her. That I have ever had the strongest affection for her, and that I retain it undiminished.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "foremost",
+      "text": "The foremost thing I saw there by the light of the candle I had left burning was that Flora’s little bed was empty; and on this I caught my breath with all the terror that, five minutes before, I had been able to resist. I dashed at the place in which I had left her lying and over which (for the small silk counterpane and the sheets were disarranged) the white curtains had been deceivingly pulled forward; then my step, to my unutterable relief, produced an answering sound: I perceived an agitation of the window blind, and the child, ducking down, emerged rosily from the other side of it. She stood there in so much of her candor and so little of her nightgown, with her pink bare feet and the golden glow of her curls. She looked intensely grave, and I had never had such a sense of losing an advantage acquired (the thrill of which had just been so prodigious) as on my consciousness that she addressed me with a reproach. “You naughty: where have you been?”—instead of challenging her own irregularity I found myself arraigned and explaining.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "emerged",
+        "side"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "text": "With these he constructed a sort of Eastern divan, upon which he perched himself cross-legged, with an ounce of shag tobacco and a box of matches laid out in front of him. In the dim light of the lamp I saw him sitting there, an old briar pipe between his lips, his eyes fixed vacantly upon the corner of the ceiling, the blue smoke curling up from him, silent, motionless, with the light shining upon his strong-set aquiline features. So he sat as I dropped off to sleep, and so he sat when a sudden ejaculation caused me to wake up, and I found the summer sun shining into the apartment. The pipe was still between his lips, the smoke still curled upward, and the room was full of a dense tobacco haze, but nothing remained of the heap of shag which I had seen upon the previous night. “Awake, Watson?” he asked.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-gloss"
+    },
+    {
+      "word": "precinct",
+      "text": "The Ring at Casterbridge was merely the local name of one of the finest Roman Amphitheatres, if not the very finest, remaining in Britain. Casterbridge announced old Rome in every street, alley, and precinct. It looked Roman, bespoke the art of Rome, concealed dead men of Rome. It was impossible to dig more than a foot or two deep about the town fields and gardens without coming upon some tall soldier or other of the Empire, who had lain there in his silent unobtrusive rest for a space of fifteen hundred years. He was mostly found lying on his side, in an oval scoop in the chalk, like a chicken in its shell; his knees drawn up to his chest; sometimes with the remains of his spear against his arm, a fibula or brooch of bronze on his breast or forehead, an urn at his knees, a jar at his throat, a bottle at his mouth; and mystified conjecture pouring down upon him from the eyes of Casterbridge street boys and men, who had turned a moment to gaze at the familiar spectacle as they passed by.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "growl",
+      "text": "When he was rolled on his side he ceased to growl, when the fingers pressed and prodded at the base of his ears the pleasurable sensation increased; and when, with a final rub and scratch, the man left him alone and went away, all fear had died out of White Fang. He was to know fear many times in his dealing with man; yet it was a token of the fearless companionship with man that was ultimately to be his. After a time, White Fang heard strange noises approaching. He was quick in his classification, for he knew them at once for man-animal noises. A few minutes later the remainder of the tribe, strung out as it was on the march, trailed in.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "away"
+      ]
+    },
+    {
+      "word": "weeping",
+      "text": "The parents of Rachel were therefore not averse from their daughter’s friendship with the girl, and even encouraged the intimacy, though they now bitterly regret having done so. Helen still retained her extraordinary fondness for the forest, and on several occasions Rachel accompanied her, the two friends setting out early in the morning, and remaining in the wood until dusk. Once or twice after these excursions Mrs. M. thought her daughter’s manner rather peculiar; she seemed languid and dreamy, and as it has been expressed, “different from herself,” but these peculiarities seem to have been thought too trifling for remark. One evening, however, after Rachel had come home, her mother heard a noise which sounded like suppressed weeping in the girl’s room, and on going in found her lying, half undressed, upon the bed, evidently in the greatest distress. As soon as she saw her mother, she exclaimed, “Ah, mother, mother, why did you let me go to the forest with Helen?” Mrs. M. was astonished at so strange a question, and proceeded to make inquiries.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "lamp",
+      "text": "A long frontage of lamp-lit quays was on our left, with here and there the vague hull of a steamer alongside. We passed the last of the lights and came out into a broader stretch of water, when a light breeze was blowing and dark hills could be seen on either shore. “I’m lying a little way down the fiord, you see,” said Davies. “I hate to be too near a town, and I found a carpenter handy here— There she is! I wonder how you’ll like her!” I roused myself.",
+      "hand": false,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "jaw",
+      "text": "Always accompanied with an incapable motion of the head, but with no change of face. Always proceeding from a rigid mouth and closed teeth, as if the jaw were locked and the face frozen up in pain. ‘Do you remember when he did this?’ she proceeded. ‘Do you remember when, in his inheritance of your nature, and in your pampering of his pride and passion, he did this, and disfigured me for life? Look at me, marked until I die with his high displeasure; and moan and groan for what you made him!’ ‘Miss Dartle,’ I entreated her.",
+      "hand": true,
+      "usage_fired": null,
+      "reason": "no-examples"
+    },
+    {
+      "word": "basket",
+      "text": "Aunt Izzie had put up lunches for Paradise before, you see, and knew pretty well what to expect in the way of appetite. Oh, how good everything tasted in that bower, with the fresh wind rustling the poplar leaves, sunshine and sweet wood-smells about them, and birds singing overhead! No grown-up dinner party ever had half so much fun. Each mouthful was a pleasure; and when the last crumb had vanished, Katy produced the second basket, and there, oh, delightful surprise! were seven little pies--molasses pies, baked in saucers--each with a brown top and crisp candified edge, which tasted like toffy and lemon-peel, and all sorts of good things mixed up together.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "nearest",
+      "text": "Then there would be an inquiry, the sacking of my room. “At the thought of the possibility of my work being exposed or interrupted at its very climax, I became very angry and active. I hurried out with my three books of notes, my cheque-book—the tramp has them now—and directed them from the nearest Post Office to a house of call for letters and parcels in Great Portland Street. I tried to go out noiselessly. Coming in, I found my landlord going quietly upstairs; he had heard the door close, I suppose.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "abused",
+      "text": "“But as I was saying,” said Aunt Polly, “he warn’t bad, so to say—only mischeevous. Only just giddy, and harum-scarum, you know. He warn’t any more responsible than a colt. He never meant any harm, and he was the best-hearted boy that ever was”—and she began to cry. “It was just so with my Joe—always full of his devilment, and up to every kind of mischief, but he was just as unselfish and kind as he could be—and laws bless me, to think I went and whipped him for taking that cream, never once recollecting that I throwed it out myself because it was sour, and I never to see him again in this world, never, never, never, poor abused boy!” And Mrs. Harper sobbed as if her heart would break.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "bad"
+      ]
+    },
+    {
+      "word": "servant",
+      "text": "So if Mary had not chosen to really want to know how to read books she would never have learned her letters at all. One frightfully hot morning, when she was about nine years old, she awakened feeling very cross, and she became crosser still when she saw that the servant who stood by her bedside was not her Ayah. “Why did you come?” she said to the strange woman. “I will not let you stay. Send my Ayah to me.” The woman looked frightened, but she only stammered that the Ayah could not come and when Mary threw herself into a passion and beat and kicked her, she looked only more frightened and repeated that it was not possible for the Ayah to come to Missie Sahib.",
+      "hand": false,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "formidable",
+      "text": "Poor Huck was in the same state of wretchedness and terror, for Tom had told the whole story to the lawyer the night before the great day of the trial, and Huck was sore afraid that his share in the business might leak out, yet, notwithstanding Injun Joe’s flight had saved him the suffering of testifying in court. The poor fellow had got the attorney to promise secrecy, but what of that? Since Tom’s harassed conscience had managed to drive him to the lawyer’s house by night and wring a dread tale from lips that had been sealed with the dismalest and most formidable of oaths, Huck’s confidence in the human race was wellnigh obliterated. Daily Muff Potter’s gratitude made Tom glad he had spoken; but nightly he wished he had sealed up his tongue. Half the time Tom was afraid Injun Joe would never be captured; the other half he was afraid he would be.",
+      "hand": false,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "afraid",
+        "since",
+        "time"
+      ]
+    },
+    {
+      "word": "glowing",
+      "text": "And the fire got into such a spasm of glowing indignation over the injury, that it lit a whole tier of black coals with a series of little explosions, before it could cool down, and sent a crimson gleam over the moody figure of its owner in the easy chair, and over the solemn furniture, and into the shadowy corner filled by the ghost. The spectre did not move when Dr. Renton arose and lit the chandelier. It stood there, still and gray, in the flood of mellow light. The curtains were drawn, and the twilight without had deepened into darkness. The fire was now burning in despite of itself, fanned by the wintry gusts, which found their way down the chimney.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    },
+    {
+      "word": "remnants",
+      "text": "Your daughter would never care for a milksop; and I will take the liberty of saying that you would like one quite as little. Besides, between my money and hers there is a great difference. I spent my own; it was because it was my own that I spent it. And I made no debts; when it was gone I stopped. I don’t owe a penny in the world.” “Allow me to inquire what you are living on now—though I admit,” the Doctor added, “that the question, on my part, is inconsistent.” “I am living on the remnants of my property,” said Morris Townsend.",
+      "hand": true,
+      "usage_fired": true,
+      "reason": "measured",
+      "overlap": [
+        "one",
+        "said",
+        "though"
+      ]
+    },
+    {
+      "word": "flattened",
+      "text": "And what was that scratching, scraping, grating sound which it brought with it? The Persian and Raoul could retreat no farther and flattened themselves against the wall, not knowing what was going to happen because of that incomprehensible head of fire, and especially now, because of the more intense, swarming, living, \"numerous\" sound, for the sound was certainly made up of hundreds of little sounds that moved in the darkness, under the fiery face. And the fiery face came on ... with its noise ... came level with them! ... And the two companions, flat against their wall, felt their hair stand on end with horror, for they now knew what the thousand noises meant. They came in a troop, hustled along in the shadow by innumerable little hurried waves, swifter than the waves that rush over the sands at high tide, little night-waves foaming under the moon, under the fiery head that was like a moon.",
+      "hand": true,
+      "usage_fired": false,
+      "reason": "measured",
+      "overlap": []
+    }
+  ]
+}
