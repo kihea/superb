@@ -60,11 +60,64 @@ def best_gloss(existing: str | None, candidate_tags: list[str], candidate_glosse
     return existing if existing is not None else gloss
 
 
+def redirect_target(sense: dict, tags: list[str]) -> str | None:
+    """The lemma a `form-of` or `alt-of` sense points at, e.g. "shook" ->
+    "shake" ("simple past of shake", tags ["form-of", "past"]).
+
+    M2 item 5b's diagnosis: this pipeline's target words are drawn purely by
+    *surface-form frequency* (frequency.py's own comment: "running" is its own
+    entry, distinct from "run"), so a huge share of them are inflections —
+    and wiktextract lists an inflected form's entry as its own dictionary
+    headword, sitting in the same file, at the same POS tier, as any
+    unrelated word that happens to share the spelling. "shook" is the
+    concrete case that surfaced this: etymology 1 gives a rare dialectal
+    noun/verb ("a set of pieces for making a cask or box, usually wood" /
+    "to pack ... in a shook") and etymology 2 gives the ordinary "simple past
+    of shake" — in this snapshot the rare pair is listed first, so the old
+    first-substantive-sense rule glossed the frequency band's "shook" as a
+    cask term, and `excerpts.py`'s gloss-overlap signal fired on excerpts
+    where a passage's own unrelated words ("wood", "set") happened to
+    coincide with that wrong gloss's vocabulary — a false claim of teaching,
+    not a merely-lossy one (docs/seams.md §Seam 2).
+
+    A `tags` entry of "form-of"/"alt-of" is wiktextract's own annotation that
+    a surface form is (at least also) an inflection or alternate spelling of
+    a more basic word. For a frequency-drawn surface form that is close to
+    certain to be the dominant real-world reading, and it is a *structural*
+    signal already present in the data — not a guess about which sense a
+    given excerpt intends — so `build()` below lets it override any homograph
+    entry for the same spelling, wherever in the file that homograph sits.
+    """
+    if "form-of" in tags:
+        refs = sense.get("form_of") or []
+    elif "alt-of" in tags:
+        refs = sense.get("alt_of") or []
+    else:
+        return None
+    for ref in refs:
+        target = ref.get("word") if isinstance(ref, dict) else None
+        if target:
+            return target
+    return None
+
+
+def resolve_redirect(word: str, result: dict[str, str], redirect: dict[str, str], depth: int = 0) -> str | None:
+    """Follow `word`'s redirect chain (capped, in case a lemma is itself
+    redirected — not observed but cheap to guard) to a substantive gloss."""
+    if word in result:
+        return result[word]
+    if depth < 5 and word in redirect:
+        return resolve_redirect(redirect[word], result, redirect, depth + 1)
+    return None
+
+
 def build(words: set[str], source) -> dict[str, str]:
     result: dict[str, str] = {}
+    # Surface word -> the lemma its form-of/alt-of sense names. Populated
+    # from whichever entry names it first (deterministic: line order is
+    # stable within a snapshot) and never overwritten once set.
+    redirect: dict[str, str] = {}
     for raw_line in source:
-        if len(result) >= len(words):
-            break
         line = raw_line.decode("utf-8", errors="ignore") if isinstance(raw_line, bytes) else raw_line
         line = line.strip()
         if not line:
@@ -76,15 +129,84 @@ def build(words: set[str], source) -> dict[str, str]:
         if entry.get("lang_code") != "en":
             continue
         word = entry.get("word", "")
-        if word not in words or word in result:
+        # No early-exit on len(result) >= len(words): a word already holding
+        # a substantive gloss from one homograph entry can still be
+        # overridden by a redirect discovered in a later entry (see
+        # redirect_target's docstring), so every entry for a target word
+        # must be seen. This never shortened a real run anyway — the shipped
+        # snapshot never reached the old break condition (18,452 of 30,000
+        # target words found after a full pass), so nothing measured is
+        # given up by removing it.
+        if word not in words or word in redirect:
             continue
         if entry.get("pos") not in CONTENT_POS:
             continue
-        for sense in entry.get("senses", []):
-            gloss = best_gloss(result.get(word), sense.get("tags", []), sense.get("glosses", []))
-            if gloss is not None:
-                result[word] = gloss
+        senses = entry.get("senses", [])
+        # Within *this one entry*, the first sense in order that is either a
+        # redirect or a substantive gloss decides the entry's contribution —
+        # the original priority, just scoped to one entry rather than the
+        # whole word. Scoping matters both ways, and both were caught by
+        # running against real snapshot data rather than trusting a
+        # synthetic fixture (M2 item 5b):
+        #
+        # - too narrow (the original bug): "shook"'s "to pack ... in a
+        #   shook" verb sense and its "simple past of shake" form-of sense
+        #   sit in two *separate* entries, so a same-entry-only redirect
+        #   check never sees the redirect before the pack-sense's own entry
+        #   already committed a gloss. Fixed by letting a redirect found in
+        #   *any* entry override a gloss set from another entry (below).
+        # - too wide (a regression this same fix introduced first): "tommy"
+        #   is one *single* noun entry with eight senses — senses[0] is the
+        #   ordinary "British infantryman" meaning, but senses[5] is a rare
+        #   abbreviation ("Short for Tommy gun", tags include "alt-of").
+        #   Scanning every sense in the entry for a redirect before
+        #   accepting any gloss let senses[5]'s tag hijack senses[0]'s
+        #   correct, common answer. The fix is this loop: stop at the FIRST
+        #   sense with either signal, so a rare redirect deep in one entry's
+        #   sense list can never preempt an earlier ordinary sense in that
+        #   same entry.
+        entry_redirect = None
+        entry_gloss = None
+        for sense in senses:
+            tags = sense.get("tags", [])
+            target = redirect_target(sense, tags)
+            if target:
+                entry_redirect = target
                 break
+            gloss = best_gloss(None, tags, sense.get("glosses", []))
+            if gloss is not None:
+                entry_gloss = gloss
+                break
+        if entry_redirect:
+            # A redirect from *any* entry beats a gloss already set from a
+            # *different* entry — this is the cross-entry override "shook"
+            # needs, and it is safe from the "tommy" regression because it
+            # only ever compares across entries, never within one.
+            if word not in redirect:
+                redirect[word] = entry_redirect
+            continue
+        if entry_gloss is not None and result.get(word) is None:
+            result[word] = entry_gloss
+
+    for surface, lemma in redirect.items():
+        # Drop whatever homograph gloss a same-spelling entry set for
+        # `surface` before its redirect was discovered ("shook" picked up
+        # the cask noun's gloss from the entry that precedes "simple past
+        # of shake" in this snapshot). Once a redirect exists, that leftover
+        # value must not survive as a silent fallback — it is exactly the
+        # wrong-sense claim item 5b diagnosed, and resolve_redirect below
+        # looks the lemma up under its own key, which `pop` does not touch.
+        result.pop(surface, None)
+        resolved = resolve_redirect(lemma, result, redirect)
+        if resolved is not None:
+            result[surface] = resolved
+        # else: the lemma never resolved to a substantive gloss either.
+        # Leave `surface` unglossed rather than fall back to the homograph
+        # the redirect exists to reject — an absent gloss only disables the
+        # gloss-overlap signal for this word (a coverage cost
+        # `is_informative` already tolerates via its other two gating
+        # signals); a wrong one corrupts a claim, which is item 5b's whole
+        # subject.
     return result
 
 
