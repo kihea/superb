@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I will; so the end of my action be to do good unto men. Doth anything by way of cross or adversity happen unto me? I accept it, with reference unto the Gods, and their providence; the fountain of all things, from which whatsoever comes to pass, doth hang and depend. By one action judge of the rest: this bathing which usually takes up so much of our time, what is it? Oil, sweat, filth; or the sordes of the body: an excrementitious viscosity, the excrements of oil and other ointments used about the body, and mixed with the sordes of the body: all base and loathsome.",
   "words": [
-    "providence",
-    "whatsoever",
-    "sweat",
-    "viscosity"
+    {
+      "word": "providence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whatsoever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sweat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "viscosity",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

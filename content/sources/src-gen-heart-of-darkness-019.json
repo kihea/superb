@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I was within a hair’s breadth of the last opportunity for pronouncement, and I found with humiliation that probably I would have nothing to say. This is the reason why I affirm that Kurtz was a remarkable man. He had something to say. He said it. Since I had peeped over the edge myself, I understand better the meaning of his stare, that could not see the flame of the candle, but was wide enough to embrace the whole universe, piercing enough to penetrate all the hearts that beat in the darkness.",
   "words": [
-    "breadth",
-    "stare"
+    {
+      "word": "breadth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

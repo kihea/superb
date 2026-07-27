@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In the steady buzz of flies the homeward-bound agent was lying finished and insensible; the other, bent over his books, was making correct entries of perfectly correct transactions; and fifty feet below the doorstep I could see the still tree-tops of the grove of death. “Next day I left that station at last, with a caravan of sixty men, for a two-hundred-mile tramp. “No use telling you much about that. Paths, paths, everywhere; a stamped-in network of paths spreading over the empty land, through the long grass, through burnt grass, through thickets, down and up chilly ravines, up and down stony hills ablaze with heat; and a solitude, a solitude, nobody, not a hut. The population had cleared out a long time ago.",
   "words": [
-    "paths",
-    "burnt",
-    "solitude"
+    {
+      "word": "paths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "burnt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

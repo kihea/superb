@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I can think of nothing. I firmly believe there is nothing. I hardly understand even what you mean.’ As she still stood looking fixedly at me, a twitching or throbbing, from which I could not dissociate the idea of pain, came into that cruel mark; and lifted up the corner of her lip as if with scorn, or with a pity that despised its object. She put her hand upon it hurriedly--a hand so thin and delicate, that when I had seen her hold it up before the fire to shade her face, I had compared it in my thoughts to fine porcelain--and saying, in a quick, fierce, passionate way, ‘I swear you to secrecy about this!’ said not a word more. Mrs. Steerforth was particularly happy in her son’s society, and Steerforth was, on this occasion, particularly attentive and respectful to her.",
   "words": [
-    "despised",
-    "shade",
-    "fierce"
+    {
+      "word": "despised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fierce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

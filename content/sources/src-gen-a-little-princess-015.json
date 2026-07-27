@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "On the rare occasions that she could reach Sara's room she only saw the side of it which was made exciting by things which were \"pretended\" and stories which were told. Her visits partook of the character of adventures; and though sometimes Sara looked rather pale, and it was not to be denied that she had grown very thin, her proud little spirit would not admit of complaints. She had never confessed that at times she was almost ravenous with hunger, as she was tonight. She was growing rapidly, and her constant walking and running about would have given her a keen appetite even if she had had abundant and regular meals of a much more nourishing nature than the unappetizing, inferior food snatched at such odd times as suited the kitchen convenience. She was growing used to a certain gnawing feeling in her young stomach.",
   "words": [
-    "adventures",
-    "confessed",
-    "hunger",
-    "appetite",
-    "meals"
+    {
+      "word": "adventures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confessed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hunger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "appetite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meals",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

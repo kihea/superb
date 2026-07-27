@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But we may still be in time to catch him if we go there in a motor-cab.” Nothing more could be got out of him until the cab swept round the corner by the Hotel Saint Louis, where they got out, and he led the party up a side lane already in deep shadow with the growing dusk. Once, when the Duke impatiently asked whether Hirsch was guilty of treason or not, he answered rather absently: “No; only of ambition--like Caesar.” Then he somewhat inconsequently added: “He lives a very lonely life; he has had to do everything for himself.” “Well, if he’s ambitious, he ought to be satisfied now,” said Flambeau rather bitterly. “All Paris will cheer him now our cursed Colonel has turned tail.” “Don’t talk so loud,” said Father Brown, lowering his voice, “your cursed Colonel is just in front.” The other two started and shrank farther back into the shadow of the wall, for the sturdy figure of their runaway principal could indeed be seen shuffling along in the twilight in front, a bag in each hand.",
   "words": [
-    "ambitious",
-    "cheer",
-    "twilight"
+    {
+      "word": "ambitious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

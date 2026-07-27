@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The sweetness of the picture, and the relief of knowing that his fears of “trouble” with Zeena were unfounded, sent up his spirits with a rush, and he, who was usually so silent, whistled and sang aloud as he drove through the snowy fields. There was in him a slumbering spark of sociability which the long Starkfield winters had not yet extinguished. By nature grave and inarticulate, he admired recklessness and gaiety in others and was warmed to the marrow by friendly human intercourse. At Worcester, though he had the name of keeping to himself and not being much of a hand at a good time, he had secretly gloried in being clapped on the back and hailed as “Old Ethe” or “Old Stiff”; and the cessation of such familiarities had increased the chill of his return to Starkfield. There the silence had deepened about him year by year.",
   "words": [
-    "winters"
+    {
+      "word": "winters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

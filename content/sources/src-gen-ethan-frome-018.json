@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Then, toward sunset, coming down from the mountain where he had been felling timber, he had been caught by some strayed revellers and drawn into the group by the lake, where Mattie, encircled by facetious youths, and bright as a blackberry under her spreading hat, was brewing coffee over a gipsy fire. He remembered the shyness he had felt at approaching her in his uncouth clothes, and then the lighting up of her face, and the way she had broken through the group to come to him with a cup in her hand. They had sat for a few minutes on the fallen log by the pond, and she had missed her gold locket, and set the young men searching for it; and it was Ethan who had spied it in the moss.... That was all; but all their intercourse had been made up of just such inarticulate flashes, when they seemed to come suddenly upon happiness as if they had surprised a butterfly in the winter woods.... “It was right there I found your locket,” he said, pushing his foot into a dense tuft of blueberry bushes. “I never saw anybody with such sharp eyes!” she answered.",
   "words": [
-    "youths",
-    "brewing",
-    "approaching",
-    "pond",
-    "blueberry"
+    {
+      "word": "youths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brewing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blueberry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

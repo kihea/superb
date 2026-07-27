@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Now, your inclinations are to be consulted. I don’t think that wise, mind, but it’s my trust. Have you ever heard of any tutor whom you would prefer to another?” I had never heard of any tutor but Biddy and Mr. Wopsle’s great-aunt; so, I replied in the negative. “There is a certain tutor, of whom I have some knowledge, who I think might suit the purpose,” said Mr. Jaggers. “I don’t recommend him, observe; because I never recommend anybody.",
   "words": [
-    "tutor"
+    {
+      "word": "tutor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

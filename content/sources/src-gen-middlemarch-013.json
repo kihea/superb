@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But I must just go and look at baby,” Celia added, without the least change of tone, throwing a light shawl over her, and tripping away. Dorothea by this time had turned cold again, and now threw herself back helplessly in her chair. She might have compared her experience at that moment to the vague, alarmed consciousness that her life was taking on a new form, that she was undergoing a metamorphosis in which memory would not adjust itself to the stirring of new organs. Everything was changing its aspect: her husband’s conduct, her own duteous feeling towards him, every struggle between them—and yet more, her whole relation to Will Ladislaw. Her world was in a state of convulsive change; the only thing she could say distinctly to herself was, that she must wait and think anew.",
   "words": [
-    "consciousness",
-    "undergoing",
-    "anew"
+    {
+      "word": "consciousness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "undergoing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

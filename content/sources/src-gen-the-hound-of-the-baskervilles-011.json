@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The naturalist’s angry gestures showed that the lady was included in his displeasure. The baronet stood for a minute looking after them, and then he walked slowly back the way that he had come, his head hanging, the very picture of dejection. What all this meant I could not imagine, but I was deeply ashamed to have witnessed so intimate a scene without my friend’s knowledge. I ran down the hill therefore and met the baronet at the bottom. His face was flushed with anger and his brows were wrinkled, like one who is at his wit’s ends what to do.",
   "words": [
-    "gestures"
+    {
+      "word": "gestures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I did not forget the mixed blood and marine pursuits of the cult-members in Louisiana, and would not be surprized to learn of secret methods and poison needles as ruthless and as anciently known as the cryptic rites and beliefs. Legrasse and his men, it is true, have been let alone; but in Norway a certain seaman who saw things is dead. Might not the deeper inquiries of my uncle after encountering the sculptor's data have come to sinister ears? I think Professor Angell died because he knew too much, or because he was likely to learn too much. Whether I shall go as he did remains to be seen, for I have learned much now.",
   "words": [
-    "cult"
+    {
+      "word": "cult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

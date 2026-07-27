@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The artillery booming, forward, rearward, and on the flanks made jumble of ideas of direction. Landmarks had vanished into the gathered gloom. The youth began to imagine that he had got into the center of the tremendous quarrel, and he could perceive no way out of it. From the mouths of the fleeing men came a thousand wild questions, but no one made answers. The youth, after rushing about and throwing interrogations at the heedless bands of retreating infantry, finally clutched a man by the arm.",
   "words": [
-    "quarrel",
-    "rushing"
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rushing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

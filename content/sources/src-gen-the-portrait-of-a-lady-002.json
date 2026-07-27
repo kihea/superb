@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I should like very much to show it to you,” he added. “Don’t believe him,” cried the old man; “don’t look at it! It’s a wretched old barrack--not to be compared with this.” “I don’t know--I can’t judge,” said the girl, smiling at Lord Warburton. In this discussion Ralph Touchett took no interest whatever; he stood with his hands in his pockets, looking greatly as if he should like to renew his conversation with his new-found cousin. “Are you very fond of dogs?” he enquired by way of beginning.",
   "words": [
-    "renew"
+    {
+      "word": "renew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

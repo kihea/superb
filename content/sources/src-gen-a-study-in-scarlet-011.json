@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Loud as it was, it was not sufficient to rouse the two tired wayfarers above them. At the head of the column there rode a score or more of grave ironfaced men, clad in sombre homespun garments and armed with rifles. On reaching the base of the bluff they halted, and held a short council among themselves. “The wells are to the right, my brothers,” said one, a hard-lipped, clean-shaven man with grizzly hair. “To the right of the Sierra Blanco—so we shall reach the Rio Grande,” said another.",
   "words": [
-    "bluff"
+    {
+      "word": "bluff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

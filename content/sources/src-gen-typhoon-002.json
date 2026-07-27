@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Nothing could be more simple; but to make sure he brought the book out on the bridge for the purpose of comparing the coloured drawing with the real thing at the flagstaff astern. When next Jukes, who was carrying on the duty that day with a sort of suppressed fierceness, happened on the bridge, his commander observed: “There's nothing amiss with that flag.” “Isn't there?” mumbled Jukes, falling on his knees before a deck-locker and jerking therefrom viciously a spare lead-line. I looked up the book. Length twice the breadth and the elephant exactly in the middle. I thought the people ashore would know how to make the local flag.",
   "words": [
-    "knees"
+    {
+      "word": "knees",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

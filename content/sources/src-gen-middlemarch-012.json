@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I suppose no doctor ever came newly to a place without making cures that surprised somebody—cures which may be called fortune’s testimonials, and deserve as much credit as the written or printed kind. Various patients got well while Lydgate was attending them, some even of dangerous illnesses; and it was remarked that the new doctor with his new ways had at least the merit of bringing people back from the brink of death. The trash talked on such occasions was the more vexatious to Lydgate, because it gave precisely the sort of prestige which an incompetent and unscrupulous man would desire, and was sure to be imputed to him by the simmering dislike of the other medical men as an encouragement on his own part of ignorant puffing. But even his proud outspokenness was checked by the discernment that it was as useless to fight against the interpretations of ignorance as to whip the fog; and “good fortune” insisted on using those interpretations.",
   "words": [
-    "cures",
-    "brink",
-    "prestige",
-    "ignorant"
+    {
+      "word": "cures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prestige",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ignorant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

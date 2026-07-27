@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I got the first hint in an inn on the Achensee in Tyrol. That set me inquiring, and I collected my other clues in a fur-shop in the Galician quarter of Buda, in a Strangers’ Club in Vienna, and in a little bookshop off the Racknitzstrasse in Leipsig. I completed my evidence ten days ago in Paris. I can’t tell you the details now, for it’s something of a history. When I was quite sure in my own mind I judged it my business to disappear, and I reached this city by a mighty queer circuit.",
   "words": [
-    "clues",
-    "bookshop"
+    {
+      "word": "clues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bookshop",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

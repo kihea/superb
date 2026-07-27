@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“She means vampire, not seaweed, but it doesn’t matter. It’s too warm to be particular about one’s parts of speech,” murmured Jo. “What shall you do all your vacation?” asked Amy, changing the subject with tact. “I shall lie abed late, and do nothing,” replied Meg, from the depths of the rocking chair. “I’ve been routed up early all winter and had to spend my days working for other people, so now I’m going to rest and revel to my heart’s content.” “No,” said Jo, “that dozy way wouldn’t suit me.",
   "words": [
-    "vampire"
+    {
+      "word": "vampire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And can we be sure that the figure was that of the Opera ghost himself? Who would venture to assert as much? I mention the incident, not because I wish for a second to make the reader believe--or even to try to make him believe--that the ghost was capable of such a sublime piece of impudence; but because, after all, the thing is impossible. M. Armand Moncharmin, in chapter eleven of his Memoirs, says: \"When I think of this first evening, I can not separate the secret confided to us by MM. Debienne and Poligny in their office from the presence at our supper of that GHOSTLY person whom none of us knew.\"",
   "words": [
-    "eleven"
+    {
+      "word": "eleven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

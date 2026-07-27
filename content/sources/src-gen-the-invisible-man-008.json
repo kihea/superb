@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You’ll do it all right. You’re a fool and all that, but you’ll do—” “I tell you, sir, I’m not the man for it. Respectfully—but it is so—” “If you don’t shut up I shall twist your wrist again,” said the Invisible Man. “I want to think.” Presently two oblongs of yellow light appeared through the trees, and the square tower of a church loomed through the gloaming. “I shall keep my hand on your shoulder,” said the Voice, “all through the village.",
   "words": [
-    "wrist"
+    {
+      "word": "wrist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

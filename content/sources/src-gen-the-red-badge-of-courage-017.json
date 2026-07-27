@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "The smoke lately generated was in confusing clouds that made it difficult for the regiment to proceed with intelligence. As he passed through each curling mass the youth wondered what would confront him on the farther side. The command went painfully forward until an open space interposed between them and the lurid lines. Here, crouching and cowering behind some trees, the men clung with desperation, as if threatened by a wave. They looked wild-eyed, and as if amazed at this furious disturbance they had stirred.",
   "words": [
-    "confusing",
-    "clouds",
-    "regiment",
-    "proceed",
-    "farther"
+    {
+      "word": "confusing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proceed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farther",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

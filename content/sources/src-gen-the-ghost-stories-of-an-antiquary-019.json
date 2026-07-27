@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Here comes Rollins in his shirt sleeves, with an apron on. Thick-set, muscular man--frizzled head, low forehead, sharp, black eyes, flabby face, with a false, greasy smile on it now, oiling over a curious, stealthy expression of mingled surprise and inquiry, as he sees his landlord here at this unusual hour. \"Come in here, Mr. Rollins; I want to speak to you.\" Jim\" (to the waiter), \"go and tend bar.\" They sat down in one of the booths, and lowered the curtain.",
   "words": [
-    "forehead",
-    "lowered"
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lowered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

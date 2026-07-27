@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Had she felt, which she did not, any wish whatever for the married state in the abstract, she could not reasonably have rejected him as a woman who frequently appealed to her understanding for deliverance from her whims. Boldwood as a means to marriage was unexceptionable: she esteemed and liked him: yet she did not want him. It appears that men take wives because possession is not possible without marriage, and that women accept husbands because marriage is not possible without possession; with totally differing aims the method is the same on both sides. But the understood incentive on the woman’s part was wanting here. Besides, Bathsheba’s position as absolute mistress of a farm and house was a novel one, and the novelty had not yet begun to wear off.",
   "words": [
-    "wives",
-    "husbands",
-    "mistress",
-    "novelty"
+    {
+      "word": "wives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "husbands",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "novelty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

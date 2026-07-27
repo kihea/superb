@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Scarcely a leaf moved. Sounds from a distant farm came faintly, the shrill cock-crow and dull baying. Now and then a steam-tug with big raking smoke-pipe, bearing the name “Guêpe 27,” ploughed up the river dragging its interminable train of barges, or a sailboat dropped down with the current toward sleepy Rouen. A faint fresh odour of earth and water hung in the air, and through the sunlight, orange-tipped butterflies danced above the marsh grass, soft velvety butterflies flapped through the mossy woods. Hastings was thinking of Valentine.",
   "words": [
-    "sunlight",
-    "marsh"
+    {
+      "word": "sunlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marsh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

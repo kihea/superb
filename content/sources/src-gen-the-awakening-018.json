@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The roof came down steep and black like a cowl, reaching out beyond the wide galleries that encircled the yellow stuccoed house. Big, solemn oaks grew close to it, and their thick-leaved, far-reaching branches shadowed it like a pall. Young Aubigny’s rule was a strict one, too, and under it his negroes had forgotten how to be gay, as they had been during the old master’s easy-going and indulgent lifetime. The young mother was recovering slowly, and lay full length, in her soft white muslins and laces, upon a couch. The baby was beside her, upon her arm, where he had fallen asleep, at her breast.",
   "words": [
-    "couch"
+    {
+      "word": "couch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

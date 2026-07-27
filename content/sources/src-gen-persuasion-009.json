@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "The varieties in the fitting-up of the rooms, where the common necessaries provided by the owner, in the common indifferent plight, were contrasted with some few articles of a rare species of wood, excellently worked up, and with something curious and valuable from all the distant countries Captain Harville had visited, were more than amusing to Anne; connected as it all was with his profession, the fruit of its labours, the effect of its influence on his habits, the picture of repose and domestic happiness it presented, made it to her a something more, or less, than gratification. Captain Harville was no reader; but he had contrived excellent accommodations, and fashioned very pretty shelves, for a tolerable collection of well-bound volumes, the property of Captain Benwick. His lameness prevented him from taking much exercise; but a mind of usefulness and ingenuity seemed to furnish him with constant employment within. He drew, he varnished, he carpentered, he glued; he made toys for the children; he fashioned new netting-needles and pins with improvements; and if everything else was done, sat down to his large fishing-net at one corner of the room.",
   "words": [
-    "contrasted",
-    "amusing",
-    "profession",
-    "habits",
-    "gratification",
-    "prevented",
-    "glued"
+    {
+      "word": "contrasted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amusing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "profession",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "habits",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "gratification",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prevented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glued",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Persuasion",

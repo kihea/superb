@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "However, he had enough strength in him—factitious no doubt—to very nearly make an end of us, as you shall hear directly. “The manager appeared silently in the doorway; I stepped out at once and he drew the curtain after me. The Russian, eyed curiously by the pilgrims, was staring at the shore. I followed the direction of his glance. “Dark human shapes could be made out in the distance, flitting indistinctly against the gloomy border of the forest, and near the river two bronze figures, leaning on tall spears, stood in the sunlight under fantastic head-dresses of spotted skins, warlike and still in statuesque repose.",
   "words": [
-    "stepped",
-    "bronze",
-    "spears",
-    "skins"
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bronze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spears",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

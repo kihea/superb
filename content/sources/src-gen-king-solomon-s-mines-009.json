@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Together with the rest of the party, he had been overawed by our white appearance and by our magic properties; but it seemed to me that, on discovering that we ate, drank, and slept like other mortals, his awe was beginning to wear off, and to be replaced by a sullen suspicion—which made me feel rather uncomfortable. In the course of our meal Sir Henry suggested to me that it might be well to try to discover if our hosts knew anything of his brother’s fate, or if they had ever seen or heard of him; but, on the whole, I thought that it would be wiser to say nothing of the matter at this time. It was difficult to explain a relative lost from “the Stars.” After supper we produced our pipes and lit them; a proceeding which filled Infadoos and Scragga with astonishment. The Kukuanas were evidently unacquainted with the divine delights of tobacco-smoke. The herb is grown among them extensively; but, like the Zulus, they use it for snuff only, and quite failed to identify it in its new form.",
   "words": [
-    "discovering",
-    "slept",
-    "supper",
-    "snuff"
+    {
+      "word": "discovering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slept",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snuff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

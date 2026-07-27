@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "But I must owe something. Find what I owe, Watson. I am all off colour. I can do nothing for myself.” I walked down the narrow passage between the double row of sleepers, holding my breath to keep out the vile, stupefying fumes of the drug, and looking about for the manager. As I passed the tall man who sat by the brazier I felt a sudden pluck at my skirt, and a low voice whispered, “Walk past me, and then look back at me.” The words fell quite distinctly upon my ear.",
   "words": [
-    "owe",
-    "vile",
-    "pluck",
-    "whispered"
+    {
+      "word": "owe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pluck",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

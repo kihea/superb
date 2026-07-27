@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the words were hardly uttered, before the smile was struck out of his face and succeeded by an expression of such abject terror and despair, as froze the very blood of the two gentlemen below. They saw it but for a glimpse for the window was instantly thrust down; but that glimpse had been sufficient, and they turned and left the court without a word. In silence, too, they traversed the by-street; and it was not until they had come into a neighbouring thoroughfare, where even upon a Sunday there were still some stirrings of life, that Mr. Utterson at last turned and looked at his companion. They were both pale; and there was an answering horror in their eyes. “God forgive us, God forgive us,” said Mr. Utterson.",
   "words": [
-    "answering"
+    {
+      "word": "answering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

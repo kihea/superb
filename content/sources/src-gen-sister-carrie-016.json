@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"It's going to be awful bad, so the papers say.\" \"The man hasn't brought my coal, either,\" said Carrie, who ordered by the bushel. \"I'll go over and see about it,\" said Hurstwood. This was the first time he had ever suggested doing an errand, but, somehow, the wish to sit about the house prompted it as a sort of compensation for the privilege. All day and all night it snowed, and the city began to suffer from a general blockade of traffic.",
   "words": [
-    "blockade"
+    {
+      "word": "blockade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

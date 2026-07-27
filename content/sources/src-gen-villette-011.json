@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "What was near me? Something in that vast solitary garret sounded strangely. Most surely and certainly I heard, as it seemed, a stealthy foot on that floor: a sort of gliding out from the direction of the black recess haunted by the malefactor cloaks. I turned: my light was dim; the room was long—but as I live! I saw in the middle of that ghostly chamber a figure all black and white; the skirts straight, narrow, black; the head bandaged, veiled, white.",
   "words": [
-    "veiled"
+    {
+      "word": "veiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

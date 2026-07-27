@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"Where is the key?\" I asked, signing to M. de Chagny not to speak and to leave the business to me, for we had not a moment to lose. \"In the next room, near the organ, with another little bronze key, which he also forbade me to touch. They are both in a little leather bag which he calls the bag of life and death... Raoul! Everything is mysterious and terrible here, and Erik will soon have gone quite mad, and you are in the torture-chamber!",
   "words": [
-    "bronze"
+    {
+      "word": "bronze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

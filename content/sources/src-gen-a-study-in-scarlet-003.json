@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The reasoning was close and intense, but the deductions appeared to me to be far-fetched and exaggerated. The writer claimed by a momentary expression, a twitch of a muscle or a glance of an eye, to fathom a man’s inmost thoughts. Deceit, according to him, was an impossibility in the case of one trained to observation and analysis. His conclusions were as infallible as so many propositions of Euclid. So startling would his results appear to the uninitiated that until they learned the processes by which he had arrived at them they might well consider him as a necromancer.",
   "words": [
-    "conclusions"
+    {
+      "word": "conclusions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

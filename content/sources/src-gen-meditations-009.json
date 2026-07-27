@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Induce her not to any such opinion or persuasion. The understanding is of itself sufficient unto itself, and needs not (if itself doth not bring itself to need) any other thing besides itself, and by consequent as it needs nothing, so neither can it be troubled or hindered by anything, if itself doth not trouble and hinder itself. What is εὐδαιμονία, or happiness: but ἀγαθὸς δαίμων, or, a good dæmon, or spirit? What then dost thou do here, O opinion? By the Gods I adjure thee, that thou get thee gone, as thou earnest: for I need thee not.",
   "words": [
-    "induce"
+    {
+      "word": "induce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

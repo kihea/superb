@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "rest you?” I asked. “It used to.” “There are one or two rather new things in the book: there have been some big strides lately in that particular line of research.” I waited a moment for an answer that did not come; then I said: “If you’d like to look the book through I’d be glad to leave it with you.” He hesitated, and I had the impression that he felt himself about to yield to a stealing tide of inertia; then, “Thank you—I’ll take it,” he answered shortly. I hoped that this incident might set up some more direct communication between us. Frome was so simple and straightforward that I was sure his curiosity about the book was based on a genuine interest in its subject. Such tastes and acquirements in a man of his condition made the contrast more poignant between his outer situation and his inner needs, and I hoped that the chance of giving expression to the latter might at least unseal his lips.",
   "words": [
-    "curiosity"
+    {
+      "word": "curiosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "At that, though I was faint and horribly fatigued, I gathered together all my strength, and began running again towards the light. I thought I heard a voice calling me. As I drew near the house I saw that the light shone from the open door of my room; and then I heard coming from out of the darkness at the side of that orange oblong of light, the voice of Montgomery shouting, “Prendick!” I continued running. Presently I heard him again. I replied by a feeble “Hullo!” and in another moment had staggered up to him.",
   "words": [
-    "faint",
-    "shone",
-    "shouting",
-    "feeble"
+    {
+      "word": "faint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feeble",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

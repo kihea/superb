@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Friday the Twenty-first I have this morning found out why Olga won't eat mushrooms. It was very cold again last night, for this time of year. Percy came over, and we had a ripping fire and popped Ontario pop-corn with Ontario maple sirup poured over it. Olga and Olie and Terry all came in and sat about the stove. And being absolutely happy and contented and satisfied with life in general, we promptly fell to talking horrors, the same as a cook stirs lemon juice into her pudding-sauce, I suppose, to keep its sweetness from being too cloying.",
   "words": [
-    "horrors"
+    {
+      "word": "horrors",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

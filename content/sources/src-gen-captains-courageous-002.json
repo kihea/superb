@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Dan opened his eyes as the size and beauty of this joke dawned on him. he shouted up the foc'sle hatch, \"he says you kin slip down an' see him ef you're anxious that way. The answer came back in the deepest voice Harvey had ever heard from a human chest: \"Quit foolin', Dan, and send him to me.\" Dan sniggered, and threw Harvey his warped bicycle shoes. There was something in the tones on the deck that made the boy dissemble his extreme rage and console himself with the thought of gradually unfolding the tale of his own and his father's wealth on the voyage home.",
   "words": [
-    "shouted",
-    "console"
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "console",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

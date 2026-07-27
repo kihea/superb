@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Even supposing that da Silvestra had marked the pool correctly, what was there to prevent its having been dried up by the sun generations ago, or trampled in by game, or filled with the drifting sand? On we tramped silently as shades through the night and in the heavy sand. The karoo bushes caught our feet and retarded us, and the sand worked into our veldtschoons and Good’s shooting-boots, so that every few miles we had to stop and empty them; but still the night kept fairly cool, though the atmosphere was thick and heavy, giving a sort of creamy feel to the air, and we made fair progress. It was very silent and lonely there in the desert, oppressively so indeed. Good felt this, and once began to whistle “The Girl I left behind me,” but the notes sounded lugubrious in that vast place, and he gave it up.",
   "words": [
-    "silently"
+    {
+      "word": "silently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

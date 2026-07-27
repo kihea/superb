@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“I am afraid he is in great affliction; the letter appears to me to have been written very nearly in distraction.” We sat down on a rude bench, under a group of magnificent lime trees. The sun was setting with all its melancholy splendor behind the sylvan horizon, and the stream that flows beside our home, and passes under the steep old bridge I have mentioned, wound through many a group of noble trees, almost at our feet, reflecting in its current the fading crimson of the sky. General Spielsdorf’s letter was so extraordinary, so vehement, and in some places so self-contradictory, that I read it twice over—the second time aloud to my father—and was still unable to account for it, except by supposing that grief had unsettled his mind. It said “I have lost my darling daughter, for as such I loved her. During the last days of dear Bertha’s illness I was not able to write to you.",
   "words": [
-    "horizon",
-    "aloud",
-    "darling"
+    {
+      "word": "horizon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "You have not yet realized that it was Miss Howard who went to the chemist’s shop?” “Miss Howard?” “But, certainly. It was most easy for her. She is of a good height, her voice is deep and manly; moreover, remember, she and Inglethorp are cousins, and there is a distinct resemblance between them, especially in their gait and bearing. It was simplicity itself. They are a clever pair!” “I am still a little fogged as to how exactly the bromide business was done,” I remarked.",
   "words": [
-    "chemist",
-    "cousins"
+    {
+      "word": "chemist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cousins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

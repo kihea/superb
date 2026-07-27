@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But older even than this old hall is perhaps the bit of wall now built into the belfry of the parish church, and said to be a remnant of the original chapel dedicated to St Ogg, the patron saint of this ancient town, of whose history I possess several manuscript versions. I incline to the briefest, since, if it should not be wholly true, it is at least likely to contain the least falsehood. “Ogg the son of Beorl,” says my private hagiographer, “was a boatman who gained a scanty living by ferrying passengers across the river Floss. And it came to pass, one evening when the winds were high, that there sat moaning by the brink of the river a woman with a child in her arms; and she was clad in rags, and had a worn and withered look, and she craved to be rowed across the river. And the men thereabout questioned her, and said, ‘Wherefore dost thou desire to cross the river?",
   "words": [
-    "chapel",
-    "patron"
+    {
+      "word": "chapel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

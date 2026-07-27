@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Here I, for instance, quite naturally want to live, in order to satisfy all my capacities for life, and not simply my capacity for reasoning, that is, not simply one twentieth of my capacity for life. What does reason know? Reason only knows what it has succeeded in learning (some things, perhaps, it will never learn; this is a poor comfort, but why not say so frankly?) and human nature acts as a whole, with everything that is in it, consciously or unconsciously, and, even if it goes wrong, it lives. I suspect, gentlemen, that you are looking at me with compassion; you tell me again that an enlightened and developed man, such, in short, as the future man will be, cannot consciously desire anything disadvantageous to himself, that that can be proved mathematically.",
   "words": [
-    "reasoning",
-    "gentlemen"
+    {
+      "word": "reasoning",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "gentlemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

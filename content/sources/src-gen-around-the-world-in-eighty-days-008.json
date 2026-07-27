@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "What was detective Fix, so unluckily drawn on from country to country, doing all this while? He had managed to embark on the “Rangoon” at Calcutta without being seen by Passepartout, after leaving orders that, if the warrant should arrive, it should be forwarded to him at Hong Kong; and he hoped to conceal his presence to the end of the voyage. It would have been difficult to explain why he was on board without awakening Passepartout’s suspicions, who thought him still at Bombay. But necessity impelled him, nevertheless, to renew his acquaintance with the worthy servant, as will be seen. All the detective’s hopes and wishes were now centred on Hong Kong; for the steamer’s stay at Singapore would be too brief to enable him to take any steps there.",
   "words": [
-    "acquaintance"
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Around the World in Eighty Days",

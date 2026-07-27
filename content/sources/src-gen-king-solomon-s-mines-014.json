@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“So, Macumazahn, thou seest we have no water here, and but a little food, and we must choose between these three things—to languish like a starving lion in his den, or to strive to break away towards the north, or”—and here he rose and pointed towards the dense mass of our foes—“to launch ourselves straight at Twala’s throat. Incubu, the great warrior—for to-day he fought like a buffalo in a net, and Twala’s soldiers went down before his axe like young corn before the hail; with these eyes I saw it—Incubu says ‘Charge’; but the Elephant is ever prone to charge. Now what says Macumazahn, the wily old fox, who has seen much, and loves to bite his enemy from behind? The last word is in Ignosi the king, for it is a king’s right to speak of war; but let us hear thy voice, O Macumazahn, who watchest by night, and the voice too of him of the transparent eye.” “What sayest thou, Ignosi,” I asked.",
   "words": [
-    "starving",
-    "buffalo"
+    {
+      "word": "starving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buffalo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

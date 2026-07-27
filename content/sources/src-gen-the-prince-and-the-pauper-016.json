@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Then they will scourge thee, the stony-hearted wretches! But oh, thou must not weep, I cannot bear it. Keep up thy courage--I shall come to my own in time to save thee from this bitter thing, and I will do it!” When the King awoke in the morning, the women were gone. “They are saved!” he said, joyfully; then added, despondently, “but woe is me!--for they were my comforters.” Each of them had left a shred of ribbon pinned to his clothing, in token of remembrance. He said he would keep these things always; and that soon he would seek out these dear good friends of his and take them under his protection.",
   "words": [
-    "thee",
-    "ribbon"
+    {
+      "word": "thee",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

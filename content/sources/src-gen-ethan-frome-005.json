@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A moment later he heard the jingle of departing sleigh bells and discerned a figure advancing alone toward the empty expanse of snow before the church. In the black shade of the Varnum spruces he caught up with her and she turned with a quick “Oh!” “Think I’d forgotten you, Matt?” he asked with sheepish glee. She answered seriously: “I thought maybe you couldn’t come back for me.” “Couldn’t? What on earth could stop me?” “I knew Zeena wasn’t feeling any too good to-day.” “Oh, she’s in bed long ago.” He paused, a question struggling in him. “Then you meant to walk home all alone?” “Oh, I ain’t afraid!” she laughed.",
   "words": [
-    "glee"
+    {
+      "word": "glee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

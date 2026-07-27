@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The lady came in, cool, pale, and venomous as ever. “Amuse Mr. Hartright, my angel,” said the Count. He placed a chair for her, kissed her hand for the second time, withdrew to a sofa, and, in three minutes, was as peacefully and happily asleep as the most virtuous man in existence. Madame Fosco took a book from the table, sat down, and looked at me, with the steady vindictive malice of a woman who never forgot and never forgave. “I have been listening to your conversation with my husband,” she said.",
   "words": [
-    "madame"
+    {
+      "word": "madame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And here, miles and miles away from them, here I must remain—held, doubly held, at the disposal of the law! I hardly know to what forgetfulness of my obligations anxiety and alarm might not have tempted me, but for the quieting influence of my faith in Marian. My absolute reliance on her was the one earthly consideration which helped me to restrain myself, and gave me courage to wait. The inquest was the first of the impediments in the way of my freedom of action. I attended it at the appointed time, the legal formalities requiring my presence in the room, but as it turned out, not calling on me to repeat my evidence.",
   "words": [
-    "obligations",
-    "inquest"
+    {
+      "word": "obligations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

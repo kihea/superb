@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I would have given the world to take back what I had said; but a word once spoken, who can recapture it? I minded me of all Alan’s kindness and courage in the past, how he had helped and cheered and borne with me in our evil days; and then recalled my own insults, and saw that I had lost for ever that doughty friend. At the same time, the sickness that hung upon me seemed to redouble, and the pang in my side was like a sword for sharpness. I thought I must have swooned where I stood. This it was that gave me a thought.",
   "words": [
-    "minded",
-    "cheered"
+    {
+      "word": "minded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

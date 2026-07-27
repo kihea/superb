@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Let me look at you. Yes; hands, feet, head, shoulders—just the same. You’ve grown no older. You can’t say as much for me, can you?” She was standing in the middle of the room, in a white silk shirtwaist and a short black velvet skirt, which somehow suggested that they had ‘cut off her petticoats all round about.’ She looked distinctly clipped and plucked. Her hair was parted in the middle and done very close to her head, as she had worn it under the wig.",
   "words": [
-    "velvet",
-    "skirt",
-    "wig"
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skirt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

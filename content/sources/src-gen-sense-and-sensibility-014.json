@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"Undoubtedly, if they had known your engagement,\" said she, \"nothing could be more flattering than their treatment of you;--but as that was not the case--\" \"I guessed you would say so,\" replied Lucy quickly--\"but there was no reason in the world why Mrs. Ferrars should seem to like me, if she did not, and her liking me is every thing. You shan't talk me out of my satisfaction. I am sure it will all end well, and there will be no difficulties at all, to what I used to think. Mrs. Ferrars is a charming woman, and so is your sister. They are both delightful women, indeed!--I wonder I should never hear you say how agreeable Mrs. Dashwood was!\"",
   "words": [
-    "delightful"
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

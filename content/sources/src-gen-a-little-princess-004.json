@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "How poor Becky stared at her! In fact, she had never heard such a nice, friendly sound in anyone's voice before. She was used to being ordered about and scolded, and having her ears boxed. And this one--in her rose-colored dancing afternoon splendor--was looking at her as if she were not a culprit at all--as if she had a right to be tired--even to fall asleep! The touch of the soft, slim little paw on her shoulder was the most amazing thing she had ever known.",
   "words": [
-    "culprit"
+    {
+      "word": "culprit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

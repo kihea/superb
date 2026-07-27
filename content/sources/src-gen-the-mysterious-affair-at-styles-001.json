@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Mrs. Cavendish, however, was a lady who liked to make her own plans, and expected other people to fall in with them, and in this case she certainly had the whip hand, namely: the purse strings. John noticed my surprise at the news of his mother’s remarriage and smiled rather ruefully. “Rotten little bounder too!” he said savagely. “I can tell you, Hastings, it’s making life jolly difficult for us. As for Evie—you remember Evie?” “No.” “Oh, I suppose she was after your time.",
   "words": [
-    "whip"
+    {
+      "word": "whip",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

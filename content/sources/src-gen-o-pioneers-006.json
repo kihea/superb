@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Never mind; when she comes to visit me, she can do all the old things in the old way, and have as much beer as she wants. We’ll start an asylum for old-time people, Ivar.” Ivar folded his big handkerchief carefully and thrust it back into his blouse. “This is always the way, mistress. I come to you sorrowing, and you send me away with a light heart. And will you be so good as to tell the Irishman that he is not to work the brown gelding until the sore on its shoulder is healed?” “That I will.",
   "words": [
-    "folded"
+    {
+      "word": "folded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

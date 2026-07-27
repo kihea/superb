@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Out of her hearing there was a view largely entertained that he was a criminal trying to escape from justice by wrapping himself up so as to conceal himself altogether from the eye of the police. This idea sprang from the brain of Mr. Teddy Henfrey. No crime of any magnitude dating from the middle or end of February was known to have occurred. Elaborated in the imagination of Mr. Gould, the probationary assistant in the National School, this theory took the form that the stranger was an Anarchist in disguise, preparing explosives, and he resolved to undertake such detective operations as his time permitted. These consisted for the most part in looking very hard at the stranger whenever they met, or in asking people who had never seen the stranger, leading questions about him.",
   "words": [
-    "wrapping",
-    "conceal",
-    "detective"
+    {
+      "word": "wrapping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detective",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

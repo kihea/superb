@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be obsequious and conciliating abroad, who are under the discipline of shrews at home. Their tempers, doubtless, are rendered pliant and malleable in the fiery furnace of domestic tribulation; and a curtain-lecture is worth all the sermons in the world for teaching the virtues of patience and long-suffering. A termagant wife may, therefore, in some respects, be considered a tolerable blessing; and if so, Rip Van Winkle was thrice blessed. Certain it is that he was a great favourite among all the good wives of the village, who, as usual with the amiable sex, took his part in all family squabbles; and never failed, whenever they talked those matters over in their evening gossipings, to lay all the blame on Dame Van Winkle. The children of the village, too, would shout with joy whenever he approached.",
   "words": [
-    "apt",
-    "virtues",
-    "shout"
+    {
+      "word": "apt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

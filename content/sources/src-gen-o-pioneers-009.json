@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Carl had never forgotten little Marie Tovesky’s eyes, and he was glad to have an opportunity to study them. The brown iris, he found, was curiously slashed with yellow, the color of sunflower honey, or of old amber. In each eye one of these streaks must have been larger than the others, for the effect was that of two dancing points of light, two little yellow bubbles, such as rise in a glass of champagne. Sometimes they seemed like the sparks from a forge. She seemed so easily excited, to kindle with a fierce little flame if one but breathed upon her.",
   "words": [
-    "sunflower",
-    "kindle",
-    "flame"
+    {
+      "word": "sunflower",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kindle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

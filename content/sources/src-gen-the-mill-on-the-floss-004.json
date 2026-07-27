@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I mean to put him to some business as he can go into without capital, and I want to give him an eddication as he’ll be even wi’ the lawyers and folks, and put me up to a notion now an’ then.” Mrs Glegg emitted a long sort of guttural sound with closed lips, that smiled in mingled pity and scorn. “It ’ud be a fine deal better for some people,” she said, after that introductory note, “if they’d let the lawyers alone.” “Is he at the head of a grammar school, then, this clergyman, such as that at Market Bewley?” said Mr Deane. “No, nothing of that,” said Mr Tulliver. “He won’t take more than two or three pupils, and so he’ll have the more time to attend to ’em, you know.” “Ah, and get his eddication done the sooner; they can’t learn much at a time when there’s so many of ’em,” said uncle Pullet, feeling that he was getting quite an insight into this difficult matter. “But he’ll want the more pay, I doubt,” said Mr Glegg.",
   "words": [
-    "emitted",
-    "smiled",
-    "pity",
-    "pupils"
+    {
+      "word": "emitted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pupils",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

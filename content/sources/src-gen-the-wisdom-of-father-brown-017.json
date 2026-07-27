@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The result of them was that Putnam wants it broken off, and even Audrey keeps it hanging on--and I know what they mean. I know what they think I am. “Well, these are the facts. The last day we were in an Indian city I asked Putnam if I could get some Trichinopoli cigars, he directed me to a little place opposite his lodgings. I have since found he was quite right; but ‘opposite’ is a dangerous word when one decent house stands opposite five or six squalid ones; and I must have mistaken the door.",
   "words": [
-    "mistaken"
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

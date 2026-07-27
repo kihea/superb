@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In the mean time, Ichabod would carry on his suit with the daughter by the side of the spring under the great elm, or sauntering along in the twilight, that hour so favorable to the lover’s eloquence. I profess not to know how women’s hearts are wooed and won. To me they have always been matters of riddle and admiration. Some seem to have but one vulnerable point, or door of access; while others have a thousand avenues, and may be captured in a thousand different ways. It is a great triumph of skill to gain the former, but a still greater proof of generalship to maintain possession of the latter, for man must battle for his fortress at every door and window.",
   "words": [
-    "admiration",
-    "avenues"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "avenues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

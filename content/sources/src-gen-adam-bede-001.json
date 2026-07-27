@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The Workshop With a single drop of ink for a mirror, the Egyptian sorcerer undertakes to reveal to any chance comer far-reaching visions of the past. This is what I undertake to do for you, reader. With this drop of ink at the end of my pen, I will show you the roomy workshop of Mr. Jonathan Burge, carpenter and builder, in the village of Hayslope, as it appeared on the eighteenth of June, in the year of our Lord 1799. The afternoon sun was warm on the five workmen there, busy upon doors and window-frames and wainscoting. A scent of pine-wood from a tentlike pile of planks outside the open door mingled itself with the scent of the elder-bushes which were spreading their summer snow close to the open window opposite; the slanting sunbeams shone through the transparent shavings that flew before the steady plane, and lit up the fine grain of the oak panelling which stood propped against the wall.",
   "words": [
-    "frames",
-    "spreading",
-    "oak"
+    {
+      "word": "frames",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spreading",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

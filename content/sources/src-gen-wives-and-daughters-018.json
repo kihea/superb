@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Mrs. Gibson did not exactly mean to visit this one discomfort upon Cynthia, nor did she quite mean to upbraid her daughter for conduct as yet unexplained, and which might have some justification; but, finding her quietly sitting in the drawing-room, she sate down despondingly in her own little easy chair, and in reply to Cynthia's quick pleasant greeting of-- \"Well, mamma, how are you? We didn't expect you so early! Let me take off your bonnet and shawl!\" she replied dolefully,-- \"It has not been such a happy visit that I should wish to prolong it.\" Her eyes were fixed on the carpet, and her face was as irresponsive to the welcome offered as she could make it.",
   "words": [
-    "quietly",
-    "greeting"
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "greeting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

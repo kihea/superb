@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "For the same reason I don’t make all my journey in one day, but divide it into two days, and get a bed to-night at the Travellers’ Coffee House down by the railroad (a nice clean house), and go back Parliamentary, at six in the morning. Well, but what has this to do with this good lass, says you? I’m going to tell you. I have heard of Mr. Bounderby being married. I read it in the paper, where it looked grand—oh, it looked fine!’ the old woman dwelt on it with strange enthusiasm: ‘and I want to see his wife.",
   "words": [
-    "divide"
+    {
+      "word": "divide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Hard Times",

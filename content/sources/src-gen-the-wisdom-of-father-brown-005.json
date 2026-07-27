@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Cutler had indeed risen stiffly and suddenly, and walked towards the door, hatless, as if at a word of command. But perhaps there was something ostentatiously elegant about the languid figure of Seymour leaning against one of the looking-glasses that brought him up short at the entrance, turning his head this way and that like a bewildered bulldog. “I must show this stupid man where to go,” said Aurora in a whisper to Seymour, and ran out to the threshold to speed the parting guest. Seymour seemed to be listening, elegant and unconscious as was his posture, and he seemed relieved when he heard the lady call out some last instructions to the Captain, and then turn sharply and run laughing down the passage towards the other end, the end on the terrace above the Thames. Yet a second or two after Seymour’s brow darkened again.",
   "words": [
-    "cutler",
-    "threshold",
-    "unconscious",
-    "posture"
+    {
+      "word": "cutler",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "threshold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unconscious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "posture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

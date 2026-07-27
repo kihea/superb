@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The eastern sky above the firs was flushed faintly pink from the reflection of the west, and Anne was wondering dreamily if the spirit of color looked like that, when she saw Diana come flying down through the firs, over the log bridge, and up the slope, with a fluttering newspaper in her hand. Anne sprang to her feet, knowing at once what that paper contained. The pass list was out! Her head whirled and her heart beat until it hurt her. She could not move a step.",
   "words": [
-    "sprang"
+    {
+      "word": "sprang",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

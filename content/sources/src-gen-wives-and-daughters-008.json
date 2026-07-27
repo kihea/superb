@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Sometimes she wondered if it was a dream--that short half-hour in the library at Hamley Hall--when she had learnt a fact which seemed so all-important to Osborne, yet which made so little difference in his way of life--either in speech or action. During the twelve or fourteen hours that she had remained at the Hall afterwards, no further allusion had been made to his marriage, either by himself or by Roger. It was, indeed, very like a dream. Probably Molly would have been rendered much more uncomfortable in the possession of her secret if Osborne had struck her as particularly attentive in his devotion to Cynthia. She evidently amused and attracted him, but not in any lively or passionate kind of way.",
   "words": [
-    "wondered",
-    "evidently",
-    "lively",
-    "passionate"
+    {
+      "word": "wondered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "passionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

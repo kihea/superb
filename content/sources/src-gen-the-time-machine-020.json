@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I hesitated—I felt so sick and weak. Then I sniffed good wholesome meat, and opened the door on you. You know the rest. I washed, and dined, and now I am telling you the story. After the Story “I know,” he said, after a pause, “that all this will be absolutely incredible to you, but to me the one incredible thing is that I am here tonight in this old familiar room looking into your friendly faces and telling you these strange adventures.” He looked at the Medical Man.",
   "words": [
-    "wholesome",
-    "pause"
+    {
+      "word": "wholesome",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

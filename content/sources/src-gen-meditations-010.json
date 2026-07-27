@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Whether of those things that happened unto him by God's appointment, he neither did wonder at any when it did happen, or thought it intolerable in the trial of it. And lastly, whether he never did suffer his mind to sympathise with the senses, and affections of the body. For we must not think that Nature hath so mixed and tempered it with the body, as that she hath not power to circumscribe herself, and by herself to intend her own ends and occasions. For it is a thing very possible, that a man should be a very divine man, and yet be altogether unknown. This thou must ever be mindful of, as of this also, that a man's true happiness doth consist in very few things.",
   "words": [
-    "intend"
+    {
+      "word": "intend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I could go at the work with a will, writing and everything, if it were not for this.” “For this? for what?” said Mary, imagining now that something specific must have been said or done. “This dreadful certainty that I shall be bowled out by Farebrother.” Mary was appeased by her inclination to laugh. “Fred,” she said, peeping round to catch his eyes, which were sulkily turned away from her, “you are too delightfully ridiculous. If you were not such a charming simpleton, what a temptation this would be to play the wicked coquette, and let you suppose that somebody besides you has made love to me.” “Do you really like me best, Mary?” said Fred, turning eyes full of affection on her, and trying to take her hand.",
   "words": [
-    "imagining",
-    "dreadful",
-    "wicked"
+    {
+      "word": "imagining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

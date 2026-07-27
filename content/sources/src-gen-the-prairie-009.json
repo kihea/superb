@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"I never did want one, for I don't believe they were as exciting as we imagine. And I hate literary people almost as much as I hate actors. I always felt they were like stage-scenery, not made for close inspection. For after five winters in New York and a couple in London you can't help bumping into the Bohemian type, not to mention an occasional collision with 'em up and down the Continent. When they're female they always seem to wear the wrong kind of corsets.",
   "words": [
-    "bumping"
+    {
+      "word": "bumping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

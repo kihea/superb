@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "‘I tell you, you aggravating vagabond,’ said the angry Sampson, ‘that I’d stake my life upon his honesty. Am I never to hear the last of this? Am I always to be baited, and beset, by your mean suspicions? Have you no regard for true merit, you malignant fellow? If you come to that, I’d sooner suspect your honesty than his.’ Miss Sally pulled out the tin snuff-box, and took a long, slow pinch, regarding her brother with a steady gaze all the time.",
   "words": [
-    "stake"
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

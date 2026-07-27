@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Miss Matty and I sat assenting to accounts, and schemes, and reports, and documents, of which I do not believe we either of us understood a word; for my father was clear-headed and decisive, and a capital man of business, and if we made the slightest inquiry, or expressed the slightest want of comprehension, he had a sharp way of saying, “Eh? it’s as clear as daylight. What’s your objection?” And as we had not comprehended anything of what he had proposed, we found it rather difficult to shape our objections; in fact, we never were sure if we had any. So presently Miss Matty got into a nervously acquiescent state, and said “Yes,” and “Certainly,” at every pause, whether required or not; but when I once joined in as chorus to a “Decidedly,” pronounced by Miss Matty in a tremblingly dubious tone, my father fired round at me and asked me “What there was to decide?” And I am sure to this day I have never known.",
   "words": [
-    "daylight"
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

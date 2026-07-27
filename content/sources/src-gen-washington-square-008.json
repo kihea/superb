@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I confess I have nothing but my impression to go by; but I am in the habit of trusting my impression. Of course you are at liberty to contradict it flat. He strikes me as selfish and shallow.” Mrs. Montgomery’s eyes expanded a little, and the Doctor fancied he saw the light of admiration in them. “I wonder you have discovered he is selfish!” she exclaimed. “Do you think he hides it so well?” “Very well indeed,” said Mrs. Montgomery.",
   "words": [
-    "shallow",
-    "admiration"
+    {
+      "word": "shallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

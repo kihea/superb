@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "At the time that Eustacia was listening to the rick-makers’ conversation on Clym’s return, Thomasin was climbing into a loft over her aunt’s fuelhouse, where the store-apples were kept, to search out the best and largest of them for the coming holiday-time. The loft was lighted by a semicircular hole, through which the pigeons crept to their lodgings in the same high quarters of the premises; and from this hole the sun shone in a bright yellow patch upon the figure of the maiden as she knelt and plunged her naked arms into the soft brown fern, which, from its abundance, was used on Egdon in packing away stores of all kinds. The pigeons were flying about her head with the greatest unconcern, and the face of her aunt was just visible above the floor of the loft, lit by a few stray motes of light, as she stood halfway up the ladder, looking at a spot into which she was not climber enough to venture. “Now a few russets, Tamsin.",
   "words": [
-    "lighted",
-    "shone",
-    "patch",
-    "lit",
-    "ladder"
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ladder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

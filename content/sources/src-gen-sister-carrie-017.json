@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Carrie was ashamed to say that she was married. She had talked so much about getting more salary and confessed to so much anxiety about her future, that now, when the direct question of fact was waiting, she could not tell this girl. \"With some relatives,\" she answered. Miss Osborne took it for granted that, like herself, Carrie's time was her own. She invariably asked her to stay, proposing little outings and other things of that sort until Carrie began neglecting her dinner hours.",
   "words": [
-    "invariably"
+    {
+      "word": "invariably",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

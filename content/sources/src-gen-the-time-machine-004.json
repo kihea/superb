@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "For a moment I felt that I had built the Time Machine in vain. “I nodded, pointed to the sun, and gave them such a vivid rendering of a thunderclap as startled them. They all withdrew a pace or so and bowed. Then came one laughing towards me, carrying a chain of beautiful flowers altogether new to me, and put it about my neck. The idea was received with melodious applause; and presently they were all running to and fro for flowers, and laughingly flinging them upon me until I was almost smothered with blossom.",
   "words": [
-    "blossom"
+    {
+      "word": "blossom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

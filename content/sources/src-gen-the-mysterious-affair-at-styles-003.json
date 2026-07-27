@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“What’s the matter?” I asked, sitting up in bed, and trying to collect my scattered thoughts. “We are afraid my mother is very ill. She seems to be having some kind of fit. Unfortunately she has locked herself in.” “I’ll come at once.” I sprang out of bed; and, pulling on a dressing-gown, followed Lawrence along the passage and the gallery to the right wing of the house. John Cavendish joined us, and one or two of the servants were standing round in a state of awe-stricken excitement. Lawrence turned to his brother.",
   "words": [
-    "servants",
-    "excitement"
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excitement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

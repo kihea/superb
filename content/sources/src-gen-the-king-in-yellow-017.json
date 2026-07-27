@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "The sun hung, a purple globe, above the misty hills of Meudon. Long streamers of clouds touched with rose swept low on the western sky, and the dome of the distant Invalides burned like an opal through the haze. Behind the Palace the smoke from a high chimney mounted straight into the air, purple until it crossed the sun, where it changed to a bar of smouldering fire. High above the darkening foliage of the chestnuts the twin towers of St. Sulpice rose, an ever-deepening silhouette. A sleepy blackbird was carolling in some near thicket, and pigeons passed and repassed with the whisper of soft winds in their wings.",
   "words": [
-    "hung",
-    "clouds",
-    "opal",
-    "haze"
+    {
+      "word": "hung",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "opal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

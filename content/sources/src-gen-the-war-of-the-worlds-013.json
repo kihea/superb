@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We stopped there all Sunday night and all the next day—the day of the panic—in a little island of daylight, cut off by the Black Smoke from the rest of the world. We could do nothing but wait in aching inactivity during those two weary days. My mind was occupied by anxiety for my wife. I figured her at Leatherhead, terrified, in danger, mourning me already as a dead man. I paced the rooms and cried aloud when I thought of how I was cut off from her, of all that might happen to her in my absence.",
   "words": [
-    "daylight"
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

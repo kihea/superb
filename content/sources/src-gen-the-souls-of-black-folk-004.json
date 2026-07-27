@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I was haunted by a New England vision of neat little desks and chairs, but, alas! the reality was rough plank benches without backs, and at times without legs. They had the one virtue of making naps dangerous,—possibly fatal, for the floor was not to be trusted. It was a hot morning late in July when the school opened. I trembled when I heard the patter of little feet down the dusty road, and saw the growing row of dark solemn faces and bright eager eyes facing me.",
   "words": [
-    "chairs"
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

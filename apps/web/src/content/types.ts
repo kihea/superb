@@ -12,11 +12,24 @@ export interface ComposedPassage {
   slots: { index: number; class: string; defaultWord: string }[];
 }
 
+/** ADR-026: the signal class(es) that claimed a sourced word — the same
+ *  enum `content/schema/source.schema.json` fixes. */
+export type ExcerptSignal =
+  | "apposition"
+  | "definition-marker"
+  | "gloss-overlap"
+  | "hand-picked";
+
+export interface SourceExcerptWord {
+  word: string;
+  signals: ExcerptSignal[];
+}
+
 export interface SourceExcerpt {
   id: string;
   pool: "sourced";
   text: string;
-  words: string[];
+  words: SourceExcerptWord[];
   /** T3b is backfilling this onto the 60 existing excerpts (docs/seams.md's
    *  second same-day amendment: "a sourced excerpt its own topic labelling").
    *  Optional here because it has not landed on dev as of this build --

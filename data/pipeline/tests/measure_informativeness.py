@@ -111,14 +111,19 @@ def collect_candidate_pairs() -> list[dict]:
         for window in ex.windows_from_book(body):
             band_words = ex.band_words_in(window, band)
             for w in band_words:
-                ok, reason = ex.is_informative(w, window, glosses)
+                ok, signals = ex.is_informative(w, window, glosses)
                 pairs.append(
                     {
                         "word": w,
                         "text": window,
                         "work": entry["work"],
                         "verdict": ok,
-                        "reason": reason,
+                        # Joined into one grouping key for this diagnostic's
+                        # by-reason stratification (ADR-026's co-firing
+                        # signals are rare enough — 0.6% of firings — that a
+                        # joined string is fine for a report; the schema
+                        # itself keeps the list, see source.schema.json.
+                        "reason": "+".join(signals),
                     }
                 )
     return pairs
@@ -200,8 +205,8 @@ def cmd_judge() -> int:
 
     rows = []
     for s in sample:
-        ok, reason = ex.is_informative(s["word"], s["text"], glosses)
-        rows.append({"id": s["id"], "word": s["word"], "heuristic": ok, "reason": reason, "key": key[s["id"]]["informative"]})
+        ok, signals = ex.is_informative(s["word"], s["text"], glosses)
+        rows.append({"id": s["id"], "word": s["word"], "heuristic": ok, "reason": "+".join(signals), "key": key[s["id"]]["informative"]})
 
     positives = [r for r in rows if r["heuristic"]]
     negatives = [r for r in rows if not r["heuristic"]]
@@ -248,11 +253,15 @@ def collect_corpus_pairs() -> list[dict]:
         doc = json.loads(path.read_text(encoding="utf-8"))
         text = doc.get("text", "")
         work = doc.get("provenance", {}).get("work", "")
-        for word in doc.get("words", []):
-            ok, reason = ex.is_informative(word, text, glosses)
+        # ADR-026: words is an array of {word, signals} objects, not bare
+        # strings. This reads the word out; the signals already on the
+        # record are not consulted here — the diagnostic recomputes fresh.
+        for entry in doc.get("words", []):
+            word = entry["word"] if isinstance(entry, dict) else entry
+            ok, signals = ex.is_informative(word, text, glosses)
             pairs.append({
                 "word": word, "text": text, "excerpt_id": doc.get("id", path.stem),
-                "work": work, "verdict": ok, "reason": reason,
+                "work": work, "verdict": ok, "reason": "+".join(signals),
             })
     return pairs
 
@@ -302,10 +311,10 @@ def cmd_judge_corpus() -> int:
 
     rows = []
     for s in sample:
-        ok, reason = ex.is_informative(s["word"], s["text"], glosses)
+        ok, signals = ex.is_informative(s["word"], s["text"], glosses)
         entry = key[s["id"]]
         verdict = entry["informative"] if isinstance(entry, dict) else entry
-        rows.append({"id": s["id"], "word": s["word"], "heuristic": ok, "reason": reason, "key": verdict})
+        rows.append({"id": s["id"], "word": s["word"], "heuristic": ok, "reason": "+".join(signals), "key": verdict})
 
     # Every shipped claim was, by construction, a heuristic-positive at the
     # time the corpus was built. A row that recomputes False here means the

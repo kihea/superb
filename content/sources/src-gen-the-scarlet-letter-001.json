@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "epose, even in such decay as had crept untimely over him at the period of which I speak. But I could imagine, even then, that, under some excitement which should go deeply into his consciousness—roused by a trumpet’s peal, loud enough to awaken all of his energies that were not dead, but only slumbering—he was yet capable of flinging off his infirmities like a sick man’s gown, dropping the staff of age to seize a battle-sword, and starting up once more a warrior. And, in so intense a moment his demeanour would have still been calm. Such an exhibition, however, was but to be pictured in fancy; not to be anticipated, nor desired.",
   "words": [
-    "warrior"
+    {
+      "word": "warrior",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

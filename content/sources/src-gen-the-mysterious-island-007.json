@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the joiners had soon to be replaced by carpenters. In fact, the waterfall created by the explosion rendered the construction of two bridges necessary, one on Prospect Heights, the other on the shore. Now the plateau and the shore were transversely divided by a watercourse, which had to be crossed to reach the northern part of the island. To avoid it the colonists had been obliged to make a considerable detour, by climbing up to the source of the Red Creek. The simplest thing was to establish on the plateau, and on the shore, two bridges from twenty to five and twenty feet in length.",
   "words": [
-    "bridges"
+    {
+      "word": "bridges",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

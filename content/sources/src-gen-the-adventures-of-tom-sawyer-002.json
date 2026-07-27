@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You see, Aunt Polly’s awful particular about this fence—right here on the street, you know—but if it was the back fence I wouldn’t mind and she wouldn’t. Yes, she’s awful particular about this fence; it’s got to be done very careful; I reckon there ain’t one boy in a thousand, maybe two thousand, that can do it the way it’s got to be done.” “No—is that so? Oh come, now—lemme just try. Only just a little—I’d let you, if you was me, Tom.” “Ben, I’d like to, honest injun; but Aunt Polly—well, Jim wanted to do it, but she wouldn’t let him; Sid wanted to do it, and she wouldn’t let Sid. Now don’t you see how I’m fixed?",
   "words": [
-    "fence"
+    {
+      "word": "fence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

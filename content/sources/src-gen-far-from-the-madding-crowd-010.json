@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": ".” She paused. Capitulation—that was the purport of the simple reply, guarded as it was—capitulation, unknown to herself. Never did a fragile tailless sentence convey a more perfect meaning. The careless sergeant smiled within himself, and probably the devil smiled from a loop-hole in Tophet, for the moment was the turning-point of a career. Her tone and mien signified beyond mistake that the seed which was to lift the foundation had taken root in the chink: the remainder was a mere question of time and natural seriate changes.",
   "words": [
-    "fragile",
-    "convey"
+    {
+      "word": "fragile",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "convey",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

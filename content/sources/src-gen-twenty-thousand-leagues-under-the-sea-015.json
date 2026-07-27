@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Its level (the manometer showed) could only be the same as the outside level, for there must necessarily be a communication between the lake and the sea. The high partitions, leaning forward on their base, grew into a vaulted roof bearing the shape of an immense funnel turned upside down, the height being about five or six hundred yards. At the summit was a circular orifice, by which I had caught the slight gleam of light, evidently daylight. “Where are we?” I asked. “In the very heart of an extinct volcano, the interior of which has been invaded by the sea, after some great convulsion of the earth.",
   "words": [
-    "daylight",
-    "extinct",
-    "volcano"
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "extinct",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "volcano",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

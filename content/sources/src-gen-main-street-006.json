@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And some of the merchants say you're too flip when you talk to them in the store and----” “Poor me, when I was trying to be friendly!” “----every housewife in town is doubtful about your being so chummy with your Bea. All right to be kind, but they say you act as though she were your cousin. There's plenty more.) And they think you were eccentric in furnishing this room--they think the broad couch and that Japanese dingus are absurd. I know they're silly.)",
   "words": [
-    "absurd"
+    {
+      "word": "absurd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

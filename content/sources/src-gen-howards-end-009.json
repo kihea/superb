@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Wickham Place had been so safe. She feared, fantastically, that her own little flock might be moving into turmoil and squalor, into nearer contact with such episodes as these. “Tibby and I have again been wondering where we’ll live next September,” she said at last. “Tibby had better first wonder what he’ll do,” retorted Helen; and that topic was resumed, but with acrimony. Then tea came, and after tea Helen went on preparing her speech, and Margaret prepared one, too, for they were going out to a discussion society on the morrow.",
   "words": [
-    "morrow"
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

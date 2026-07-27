@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“I have to see Luke.” I had not yet reduced him to quite so vulgar a lie, and I felt proportionately ashamed. But, horrible as it was, his lies made up my truth. I achieved thoughtfully a few loops of my knitting. “Well, then, go to Luke, and I’ll wait for what you promise. Only, in return for that, satisfy, before you leave me, one very much smaller request.” He looked as if he felt he had succeeded enough to be able still a little to bargain.",
   "words": [
-    "knitting",
-    "satisfy",
-    "bargain"
+    {
+      "word": "knitting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Turn of the Screw",

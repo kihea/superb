@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "A cry followed; he reeled, staggered, clutched at the table and held on, staring with injected eyes, gasping with open mouth; and as I looked there came, I thought, a change—he seemed to swell—his face became suddenly black and the features seemed to melt and alter—and the next moment, I had sprung to my feet and leaped back against the wall, my arms raised to shield me from that prodigy, my mind submerged in terror. “O God!” I screamed, and “O God!” again and again; for there before my eyes—pale and shaken, and half fainting, and groping before him with his hands, like a man restored from death—there stood Henry Jekyll! What he told me in the next hour, I cannot bring my mind to set on paper. I saw what I saw, I heard what I heard, and my soul sickened at it; and yet now when that sight has faded from my eyes, I ask myself if I believe it, and I cannot answer.",
   "words": [
-    "melt",
-    "alter",
-    "restored"
+    {
+      "word": "melt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "restored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

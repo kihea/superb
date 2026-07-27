@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Strange to say, there were hairs in the centre of the palm. The nails were long and fine, and cut to a sharp point. As the Count leaned over me and his hands touched me, I could not repress a shudder. It may have been that his breath was rank, but a horrible feeling of nausea came over me, which, do what I would, I could not conceal. The Count, evidently noticing it, drew back; and with a grim sort of smile, which showed more than he had yet done his protuberant teeth, sat himself down again on his own side of the fireplace.",
   "words": [
-    "nausea",
-    "evidently"
+    {
+      "word": "nausea",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

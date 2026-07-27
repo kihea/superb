@@ -3,9 +3,25 @@
   "pool": "sourced",
   "text": "If the occupants of both flats answered to the whistle of the janitor at the same time, they would stand face to face when they opened the dumb-waiter doors. One morning, when Carrie went to remove her paper, the newcomer, a handsome brunette of perhaps twenty-three years of age, was there for a like purpose. She was in a night-robe and dressing-gown, with her hair very much tousled, but she looked so pretty and good-natured that Carrie instantly conceived a liking for her. The newcomer did no more than smile shamefacedly, but it was sufficient. Carrie felt that she would like to know her, and a similar feeling stirred in the mind of the other, who admired Carrie's innocent face.",
   "words": [
-    "waiter",
-    "newcomer",
-    "stirred"
+    {
+      "word": "waiter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "newcomer",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stirred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "My father, who enjoyed the picturesque, and I, stood looking in silence over the expanse beneath us. The two good governesses, standing a little way behind us, discoursed upon the scene, and were eloquent upon the moon. Madame Perrodon was fat, middle-aged, and romantic, and talked and sighed poetically. Mademoiselle De Lafontaine—in right of her father who was a German, assumed to be psychological, metaphysical, and something of a mystic—now declared that when the moon shone with a light so intense it was well known that it indicated a special spiritual activity. The effect of the full moon in such a state of brilliancy was manifold.",
   "words": [
-    "shone"
+    {
+      "word": "shone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

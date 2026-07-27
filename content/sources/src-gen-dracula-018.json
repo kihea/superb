@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Even Mrs. Harker seems to lose sight of her trouble for whole spells; it is only now and again, when something recalls it to her mind, that she thinks of her terrible scar. We are to meet here in my study in half an hour and decide on our course of action. I see only one immediate difficulty, I know it by instinct rather than reason: we shall all have to speak frankly; and yet I fear that in some mysterious way poor Mrs. Harker’s tongue is tied. I know that she forms conclusions of her own, and from all that has been I can guess how brilliant and how true they must be; but she will not, or cannot, give them utterance. I have mentioned this to Van Helsing, and he and I are to talk it over when we are alone.",
   "words": [
-    "frankly",
-    "conclusions"
+    {
+      "word": "frankly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conclusions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

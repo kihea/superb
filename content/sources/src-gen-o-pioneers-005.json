@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The three pretty young Swedish girls who did Alexandra’s housework were cutting pies, refilling coffeecups, placing platters of bread and meat and potatoes upon the red tablecloth, and continually getting in each other’s way between the table and the stove. To be sure they always wasted a good deal of time getting in each other’s way and giggling at each other’s mistakes. But, as Alexandra had pointedly told her sisters-in-law, it was to hear them giggle that she kept three young things in her kitchen; the work she could do herself, if it were necessary. These girls, with their long letters from home, their finery, and their love-affairs, afforded her a great deal of entertainment, and they were company for her when Emil was away at school. Of the youngest girl, Signa, who has a pretty figure, mottled pink cheeks, and yellow hair, Alexandra is very fond, though she keeps a sharp eye upon her.",
   "words": [
-    "youngest"
+    {
+      "word": "youngest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

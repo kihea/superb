@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "By degrees I learnt, and chiefly from Herbert, that Mr. Pocket had been educated at Harrow and at Cambridge, where he had distinguished himself; but that when he had had the happiness of marrying Mrs. Pocket very early in life, he had impaired his prospects and taken up the calling of a Grinder. After grinding a number of dull blades,—of whom it was remarkable that their fathers, when influential, were always going to help him to preferment, but always forgot to do it when the blades had left the Grindstone,—he had wearied of that poor work and had come to London. Here, after gradually failing in loftier hopes, he had “read” with divers who had lacked opportunities or neglected them, and had refurbished divers others for special occasions, and had turned his acquirements to the account of literary compilation and correction, and on such means, added to some very moderate private resources, still maintained the house I saw. Mr. and Mrs. Pocket had a toady neighbour; a widow lady of that highly sympathetic nature that she agreed with everybody, blessed everybody, and shed smiles and tears on everybody, according to circumstances.",
   "words": [
-    "distinguished",
-    "smiles"
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

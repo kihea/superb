@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The dear fellow wanted to see if the missing piece were at the scene of the struggle. How cruelly I have misjudged him!” “When I arrived at the house,” continued Holmes, “I at once went very carefully round it to observe if there were any traces in the snow which might help me. I knew that none had fallen since the evening before, and also that there had been a strong frost to preserve impressions. I passed along the tradesmen’s path, but found it all trampled down and indistinguishable. Just beyond it, however, at the far side of the kitchen door, a woman had stood and talked with a man, whose round impressions on one side showed that he had a wooden leg.",
   "words": [
-    "observe",
-    "impressions"
+    {
+      "word": "observe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impressions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

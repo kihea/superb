@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "How glad they had been to hear papa invite him to stay dinner, how sorry when he said it was quite out of his power, and how glad again when he had promised in reply to papa and mamma’s farther pressing invitations to come and dine with them on the morrow—actually on the morrow; and he had promised it in so pleasant a manner, as if he felt all the motive of their attention just as he ought. And in short, he had looked and said everything with such exquisite grace, that they could assure them all, their heads were both turned by him; and off they ran, quite as full of glee as of love, and apparently more full of Captain Wentworth than of little Charles.",
   "words": [
-    "dine"
+    {
+      "word": "dine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Persuasion",

@@ -3,11 +3,37 @@
   "pool": "sourced",
   "text": "Not ten minutes, my dear.” Laying his skinny forefinger upon his lip, the Jew carried a candle to the door, as a man’s step was heard upon the stairs without. He reached it, at the same moment as the visitor, who, coming hastily into the room, was close upon the girl before he observed her. It was Monks. “Only one of my young people,” said Fagin, observing that Monks drew back, on beholding a stranger. “Don’t move, Nancy.” The girl drew closer to the table, and glancing at Monks with an air of careless levity, withdrew her eyes; but as he turned towards Fagin, she stole another look; so keen and searching, and full of purpose, that if there had been any bystander to observe the change, he could hardly have believed the two looks to have proceeded from the same person.",
   "words": [
-    "lip",
-    "stairs",
-    "withdrew",
-    "stole",
-    "proceeded"
+    {
+      "word": "lip",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withdrew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proceeded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

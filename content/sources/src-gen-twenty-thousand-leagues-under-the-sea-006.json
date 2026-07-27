@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Was this singular man ill?—had he altered his intentions with regard to us? After all, as Conseil said, we enjoyed perfect liberty, we were delicately and abundantly fed. Our host kept to his terms of the treaty. We could not complain, and, indeed, the singularity of our fate reserved such wonderful compensation for us, that we had no right to accuse it as yet. That day I commenced the journal of these adventures which has enabled me to relate them with more scrupulous exactitude and minute detail.",
   "words": [
-    "singularity"
+    {
+      "word": "singularity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

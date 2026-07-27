@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“And now,” continued the butler, addressing the knife-boy, “reach me a candle, and we’ll get this through hands at once.” And then he begged Mr. Utterson to follow him, and led the way to the back garden. “Now, sir,” said he, “you come as gently as you can. I want you to hear, and I don’t want you to be heard. And see here, sir, if by any chance he was to ask you in, don’t go.” Mr. Utterson’s nerves, at this unlooked-for termination, gave a jerk that nearly threw him from his balance; but he recollected his courage and followed the butler into the laboratory building through the surgical theatre, with its lumber of crates and bottles, to the foot of the stair. Here Poole motioned him to stand on one side and listen; while he himself, setting down the candle and making a great and obvious call on his resolution, mounted the steps and knocked with a somewhat uncertain hand on the red baize of the cabinet door.",
   "words": [
-    "lumber"
+    {
+      "word": "lumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

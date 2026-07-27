@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Warmer, eh? What'd the doc's thermometer say it was? Say, you folks better come round and visit with us, one of these evenings. Don't be so dog-gone proud, staying by yourselves.” Champ Perry the pioneer, wheat-buyer at the elevator, stopped her in the post-office, held her hand in his withered paws, peered at her with faded eyes, and chuckled, “You are so fresh and blooming, my dear. Mother was saying t'other day that a sight of you was better 'n a dose of medicine.” In the Bon Ton Store she found Guy Pollock tentatively buying a modest gray scarf.",
   "words": [
-    "pioneer",
-    "buyer"
+    {
+      "word": "pioneer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buyer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

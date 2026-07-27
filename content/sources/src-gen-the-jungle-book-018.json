@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "A camel had blundered into it, and wet and angry as I was, I could not help laughing. Then I ran on, because I did not know how many camels might have got loose, and before long I was out of sight of the camp, plowing my way through the mud. At last I fell over the tail-end of a gun, and by that knew I was somewhere near the artillery lines where the cannon were stacked at night. As I did not want to plowter about any more in the drizzle and the dark, I put my waterproof over the muzzle of one gun, and made a sort of wigwam with two or three rammers that I found, and lay along the tail of another gun, wondering where Vixen had got to, and where I might be. Just as I was getting ready to go to sleep I heard a jingle of harness and a grunt, and a mule passed me shaking his wet ears.",
   "words": [
-    "harness",
-    "grunt"
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Jungle Book",

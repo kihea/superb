@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Reed, my uncle’s wife. My uncle is dead, and he left me to her care.” “Did she not, then, adopt you of her own accord?” “No, ma’am; she was sorry to have to do it: but my uncle, as I have often heard the servants say, got her to promise before he died that she would always keep me.” “Well now, Jane, you know, or at least I will tell you, that when a criminal is accused, he is always allowed to speak in his own defence. You have been charged with falsehood; defend yourself to me as well as you can. Say whatever your memory suggests is true; but add nothing and exaggerate nothing.” I resolved, in the depth of my heart, that I would be most moderate—most correct; and, having reflected a few minutes in order to arrange coherently what I had to say, I told her all the story of my sad childhood. Exhausted by emotion, my language was more subdued than it generally was when it developed that sad theme; and mindful of Helen’s warnings against the indulgence of resentment, I infused into the narrative far less of gall and wormwood than ordinary.",
   "words": [
-    "accord"
+    {
+      "word": "accord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

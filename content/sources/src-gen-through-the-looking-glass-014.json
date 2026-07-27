@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“This young lady loves you with an H,” the King said, introducing Alice in the hope of turning off the Messenger’s attention from himself—but it was no use—the Anglo-Saxon attitudes only got more extraordinary every moment, while the great eyes rolled wildly from side to side. “You alarm me!” said the King. “I feel faint—Give me a ham sandwich!” On which the Messenger, to Alice’s great amusement, opened a bag that hung round his neck, and handed a sandwich to the King, who devoured it greedily. “Another sandwich!” said the King. “There’s nothing but hay left now,” the Messenger said, peeping into the bag.",
   "words": [
-    "rolled",
-    "hay"
+    {
+      "word": "rolled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Through the Looking-Glass",

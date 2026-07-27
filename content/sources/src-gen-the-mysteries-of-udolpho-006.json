@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In the eye of fancy, she perceived the gleam of arms through the duskiness of night, the glitter of spears and helmets, and the banners floating dimly on the twilight; while now and then the blast of a distant trumpet echoed along the defile, and the signal was answered by a momentary clash of arms. She looked with horror upon the mountaineers, perched on the higher cliffs, assailing the troops below with broken fragments of the mountain; on soldiers and elephants tumbling headlong down the lower precipices; and, as she listened to the rebounding rocks, that followed their fall, the terrors of fancy yielded to those of reality, and she shuddered to behold herself on the dizzy height, whence she had pictured the descent of others. Madame Montoni, meantime, as she looked upon Italy, was contemplating in imagination the splendour of palaces and the grandeur of castles, such as she believed she was going to be mistress of at Venice and in the Apennine, and she became, in idea, little less than a princess.",
   "words": [
-    "fragments",
-    "tumbling"
+    {
+      "word": "fragments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tumbling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“When I first determined to make this communication to you,” said he, “I might have given you my address, but I feared that you might disregard my request and bring unpleasant people with you. I took the liberty, therefore, of making an appointment in such a way that my man Williams might be able to see you first. I have complete confidence in his discretion, and he had orders, if he were dissatisfied, to proceed no further in the matter. You will excuse these precautions, but I am a man of somewhat retiring, and I might even say refined, tastes, and there is nothing more unæsthetic than a policeman. I have a natural shrinking from all forms of rough materialism.",
   "words": [
-    "feared"
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sign of the Four",

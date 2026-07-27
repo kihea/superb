@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "If you will send him here to-morrow I will attend to the hoof, and I will direct your man how to apply the liniment which I will give him.” The next day I had my feet thoroughly cleansed and stuffed with tow soaked in some strong lotion; and an unpleasant business it was. The farrier ordered all the litter to be taken out of my box day by day, and the floor kept very clean. Then I was to have bran mashes, a little green food, and not so much corn, till my feet were well again. With this treatment I soon regained my spirits; but Mr. Barry was so much disgusted at being twice deceived by his grooms that he determined to give up keeping a horse, and to hire when he wanted one. I was therefore kept till my feet were quite sound, and was then sold again.",
   "words": [
-    "morrow",
-    "tow"
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Black Beauty",

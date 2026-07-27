@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "And there was an old gentleman who shall be nameless, being too rich a mynheer to be lightly mentioned, who, in the battle of White Plains, being an excellent master of defence, parried a musket-ball with a small sword, insomuch that he absolutely felt it whiz round the blade, and glance off at the hilt; in proof of which he was ready at any time to show the sword, with the hilt a little bent. There were several more that had been equally great in the field, not one of whom but was persuaded that he had a considerable hand in bringing the war to a happy termination. But all these were nothing to the tales of ghosts and apparitions that succeeded. The neighborhood is rich in legendary treasures of the kind. Local tales and superstitions thrive best in these sheltered, long-settled retreats; but are trampled under foot by the shifting throng that forms the population of most of our country places.",
   "words": [
-    "blade",
-    "thrive",
-    "sheltered"
+    {
+      "word": "blade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sheltered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

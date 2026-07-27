@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "My companion was in the best of spirits, and prattled away about Cremona fiddles, and the difference between a Stradivarius and an Amati. As for myself, I was silent, for the dull weather and the melancholy business upon which we were engaged, depressed my spirits. “You don’t seem to give much thought to the matter in hand,” I said at last, interrupting Holmes’ musical disquisition. “No data yet,” he answered. “It is a capital mistake to theorize before you have all the evidence.",
   "words": [
-    "melancholy"
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

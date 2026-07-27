@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I know by now, if he wins he comes back early to brag about it, but if he stays out till morning it means he’s lost and will come back in a rage. Will you have coffee?” “Yes, bring some.” Ten minutes later Lavrúshka brought the coffee. “He’s coming!” said he. “Now for trouble!” Rostóv looked out of the window and saw Denísov coming home. Denísov was a small man with a red face, sparkling black eyes, and black tousled mustache and hair.",
   "words": [
-    "mustache"
+    {
+      "word": "mustache",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

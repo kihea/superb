@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The grandmother had a lot of pretty dolls, and she showed Heidi how to make dresses and pinafores for them, so that Heidi learnt how to sew and to make all sorts of beautiful clothes for the little people out of a wonderful collection of pieces that grandmother had by her of every describable and lovely color. And then grandmother liked to hear her read aloud, and the oftener Heidi read her tales the fonder she grew of them. She entered into the lives of all the people she read about so that they became like dear friends to her, and it delighted her more and more to be with them. But still Heidi never looked really happy, and her bright eyes were no longer to be seen. It was the last week of the grandmother's visit.",
   "words": [
-    "dresses",
-    "sew"
+    {
+      "word": "dresses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

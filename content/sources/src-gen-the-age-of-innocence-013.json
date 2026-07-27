@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But now it was the Welland house, and the life he was expected to lead in it, that had become unreal and irrelevant, and the brief scene on the shore, when he had stood irresolute, halfway down the bank, was as close to him as the blood in his veins. All night he lay awake in the big chintz bedroom at May's side, watching the moonlight slant along the carpet, and thinking of Ellen Olenska driving home across the gleaming beaches behind Beaufort's trotters. \"A party for the Blenkers--the Blenkers?\" Mr. Welland laid down his knife and fork and looked anxiously and incredulously across the luncheon-table at his wife, who, adjusting her gold eye-glasses, read aloud, in the tone of high comedy: \"Professor and Mrs. Emerson Sillerton request the pleasure of Mr. and Mrs. Welland's company at the meeting of the Wednesday Afternoon Club on August 25th at 3 o'clock punctually. To meet Mrs. and the Misses Blenker.",
   "words": [
-    "veins",
-    "beaches"
+    {
+      "word": "veins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beaches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Age of Innocence",

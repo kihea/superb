@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "\"Dr. Renton,\" she said faintly, \"I have a sick child--how can I move now? sir, it's Christmas eve--don't be hard with us!\" Instead of touching him, this speech irritated him beyond measure. Passing all considerations of her difficult position involved in her piteous statement, his anger flashed at once on her implication that he was unjust and unkind. So violent was his excitement that it whirled away the words that rushed to his lips, and only fanned the fury that sparkled from the whiteness of his face in his eyes.",
   "words": [
-    "irritated",
-    "fury"
+    {
+      "word": "irritated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fury",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

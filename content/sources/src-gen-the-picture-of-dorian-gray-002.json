@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I am sure of that. Dorian told me so afterwards. He, too, felt that we were destined to know each other.” “And how did Lady Brandon describe this wonderful young man?” asked his companion. “I know she goes in for giving a rapid précis of all her guests. I remember her bringing me up to a truculent and red-faced old gentleman covered all over with orders and ribbons, and hissing into my ear, in a tragic whisper which must have been perfectly audible to everybody in the room, the most astounding details.",
   "words": [
-    "gentleman"
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "My father’s heart is set on it; and gifts like mine, you know”—here Stephen drew himself up, and rubbed his large white hands over his hair with playful self-admiration—“gifts like mine involve great responsibilities. Don’t you think so, Miss Tulliver?” “Yes,” said Maggie, smiling, but not looking up; “so much fluency and self-possession should not be wasted entirely on private occasions.” “Ah, I see how much penetration you have,” said Stephen. “You have discovered already that I am talkative and impudent. Now superficial people never discern that, owing to my manner, I suppose.” “She doesn’t look at me when I talk of myself,” he thought, while his listeners were laughing. “I must try other subjects.” Did Lucy intend to be present at the meeting of the Book Club next week?",
   "words": [
-    "playful",
-    "admiration"
+    {
+      "word": "playful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

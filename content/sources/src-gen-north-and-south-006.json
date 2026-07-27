@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "If he comes to England he will be hung. I shall never see his face again—for if he comes to England he will be hung.” There was no comfort to be given. Mrs. Hale turned her face to the wall, and lay perfectly still in her mother’s despair. Nothing could be said to console her. She took her hand out of Margaret’s with a little impatient movement, as if she would fain be left alone with the recollection of her son.",
   "words": [
-    "console"
+    {
+      "word": "console",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

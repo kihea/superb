@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Coming up from Laramie, the old man had told them that he was in Brownsville, Nebraska, when the first telegraph wires were put across the Missouri River, and that the first message that ever crossed the river was “Westward the course of Empire takes its way.” He had been in the room when the instrument began to click, and all the men there had, without thinking what they were doing, taken off their hats, waiting bareheaded to hear the message translated. Thea remembered that message when she sighted down the wagon tracks toward the blue mountains. She told herself she would never, never forget it. The spirit of human courage seemed to live up there with the eagles. For long after, when she was moved by a Fourth-of-July oration, or a band, or a circus parade, she was apt to remember that windy ridge.",
   "words": [
-    "telegraph"
+    {
+      "word": "telegraph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

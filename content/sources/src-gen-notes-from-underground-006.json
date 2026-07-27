@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Now the ants have quite a different taste. They have a marvellous edifice of that pattern which endures for ever—the ant-heap. With the ant-heap the respectable race of ants began and with the ant-heap they will probably end, which does the greatest credit to their perseverance and good sense. But man is a frivolous and incongruous creature, and perhaps, like a chess player, loves the process of the game, not the end of it. And who knows (there is no saying with certainty), perhaps the only goal on earth to which mankind is striving lies in this incessant process of attaining, in other words, in life itself, and not in the thing to be attained, which must always be expressed as a formula, as positive as twice two makes four, and such positiveness is not life, gentlemen, but is the beginning of death.",
   "words": [
-    "frivolous",
-    "chess",
-    "mankind",
-    "striving",
-    "attaining",
-    "gentlemen"
+    {
+      "word": "frivolous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mankind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "striving",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "attaining",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "gentlemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I have seen a wonderfuller thing,” he cried, as they gathered round him eagerly. “A great white bird. It is flying this way.” “What kind of a bird, do you think?” “I don’t know,” Nibs said, awestruck, “but it looks so weary, and as it flies it moans, ‘Poor Wendy.’” “Poor Wendy?” “I remember,” said Slightly instantly, “there are birds called Wendies.” “See, it comes!” cried Curly, pointing to Wendy in the heavens. Wendy was now almost overhead, and they could hear her plaintive cry. But more distinct came the shrill voice of Tinker Bell.",
   "words": [
-    "moans"
+    {
+      "word": "moans",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

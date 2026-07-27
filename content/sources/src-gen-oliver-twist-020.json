@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But if Oliver, under these influences, had remained silent while they journeyed towards his birth-place by a road he had never seen, how the whole current of his recollections ran back to old times, and what a crowd of emotions were wakened up in his breast, when they turned into that which he had traversed on foot: a poor houseless, wandering boy, without a friend to help him, or a roof to shelter his head. “See there, there!” cried Oliver, eagerly clasping the hand of Rose, and pointing out at the carriage window; “that’s the stile I came over; there are the hedges I crept behind, for fear any one should overtake me and force me back! Yonder is the path across the fields, leading to the old house where I was a little child! Oh Dick, Dick, my dear old friend, if I could only see you now!” “You will see him soon,” replied Rose, gently taking his folded hands between her own.",
   "words": [
-    "wandering",
-    "hedges"
+    {
+      "word": "wandering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hedges",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

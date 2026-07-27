@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"Expect the second on the next night at the same hour. The third upon the next night when the last stroke of Twelve has ceased to vibrate. Look to see me no more; and look that, for your own sake, you remember what has passed between us!\" When it had said these words, the spectre took its wrapper from the table, and bound it round its head, as before. Scrooge knew this, by the smart sound its teeth made, when the jaws were brought together by the bandage.",
   "words": [
-    "jaws"
+    {
+      "word": "jaws",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

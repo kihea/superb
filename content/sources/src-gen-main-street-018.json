@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I managed to keep him away while I drove--such a rickety buggy. I didn't feel like a girl; I felt like a scrubwoman--no, I guess I was too scared to have any feelings at all. It was terribly dark. I got home, somehow. But it was hard, the time I had to get out, and it was quite muddy, to read a sign-post--I lit matches that I took from Cy's coat pocket, and he followed me--he fell off the buggy step into the mud, and got up and tried to make love to me, and----I was scared.",
   "words": [
-    "muddy"
+    {
+      "word": "muddy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

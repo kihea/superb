@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I’ll be as quiet as a mouse,” Gerty urged affectionately. “No—no; don’t be quiet; talk to me—keep me awake! I don’t sleep at night, and in the afternoon a dreadful drowsiness creeps over me.” “You don’t sleep at night? Since when?” “I don’t know—I can’t remember.” She rose and put the empty cup on the tea-tray. “Another, and stronger, please; if I don’t keep awake now I shall see horrors tonight—perfect horrors!” “But they’ll be worse if you drink too much tea.” “No, no—give it to me; and don’t preach, please,” Lily returned imperiously.",
   "words": [
-    "preach"
+    {
+      "word": "preach",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

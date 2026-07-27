@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "As a cousin of the bridegroom, Miss Bart had been asked to act as bridesmaid; but she had declined on the plea that, since she was much taller than the other attendant virgins, her presence might mar the symmetry of the group. The truth was, she had attended too many brides to the altar: when next seen there she meant to be the chief figure in the ceremony. She knew the pleasantries made at the expense of young girls who have been too long before the public, and she was resolved to avoid such assumptions of youthfulness as might lead people to think her older than she really was. The Van Osburgh marriage was celebrated in the village church near the paternal estate on the Hudson. It was the “simple country wedding” to which guests are convoyed in special trains, and from which the hordes of the uninvited have to be fended off by the intervention of the police.",
   "words": [
-    "mar",
-    "brides",
-    "assumptions",
-    "hordes"
+    {
+      "word": "mar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brides",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assumptions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hordes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

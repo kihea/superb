@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then he said that he would do his utmost to obtain an interview with you without my help. He assured me that his passion for you was a passing infatuation, now he has no feeling for you. He doesn’t want you to marry Luzhin.... His talk was altogether rather muddled.” “How do you explain him to yourself, Rodya? How did he strike you?” “I must confess I don’t quite understand him. He offers you ten thousand, and yet says he is not well off.",
   "words": [
-    "altogether"
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Crime and Punishment",

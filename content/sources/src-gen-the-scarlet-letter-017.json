@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "THE MINISTER IN A MAZE As the minister departed, in advance of Hester Prynne and little Pearl, he threw a backward glance, half expecting that he should discover only some faintly traced features or outline of the mother and the child, slowly fading into the twilight of the woods. So great a vicissitude in his life could not at once be received as real. But there was Hester, clad in her gray robe, still standing beside the tree-trunk, which some blast had overthrown a long antiquity ago, and which time had ever since been covering with moss, so that these two fated ones, with earth’s heaviest burden on them, might there sit down together, and find a single hour’s rest and solace. And there was Pearl, too, lightly dancing from the margin of the brook—now that the intrusive third person was gone—and taking her old place by her mother’s side. So the minister had not fallen asleep and dreamed!",
   "words": [
-    "twilight",
-    "robe",
-    "moss",
-    "heaviest",
-    "solace"
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "robe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heaviest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

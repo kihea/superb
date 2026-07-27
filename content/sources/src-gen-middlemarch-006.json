@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "And this cruel outward accuser was there in the shape of a wife—nay, of a young bride, who, instead of observing his abundant pen-scratches and amplitude of paper with the uncritical awe of an elegant-minded canary-bird, seemed to present herself as a spy watching everything with a malign power of inference. Here, towards this particular point of the compass, Mr. Casaubon had a sensitiveness to match Dorothea’s, and an equal quickness to imagine more than the fact. He had formerly observed with approbation her capacity for worshipping the right object; he now foresaw with sudden terror that this capacity might be replaced by presumption, this worship by the most exasperating of all criticism,—that which sees vaguely a great many fine ends, and has not the least notion what it costs to reach them. For the first time since Dorothea had known him, Mr. Casaubon’s face had a quick angry flush upon it. “My love,” he said, with irritation reined in by propriety, “you may rely upon me for knowing the times and the seasons, adapted to the different stages of a work which is not to be measured by the facile conjectures of ignorant onlookers.",
   "words": [
-    "outward",
-    "abundant",
-    "scratches",
-    "notion"
+    {
+      "word": "outward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abundant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scratches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

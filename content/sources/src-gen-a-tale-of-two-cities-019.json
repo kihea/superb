@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Ask my husband, is that so.” “It is so,” assented Defarge, without being asked. “In the beginning of the great days, when the Bastille falls, he finds this paper of to-day, and he brings it home, and in the middle of the night when this place is clear and shut, we read it, here on this spot, by the light of this lamp. Ask him, is that so.” “It is so,” assented Defarge. “That night, I tell him, when the paper is read through, and the lamp is burnt out, and the day is gleaming in above those shutters and between those iron bars, that I have now a secret to communicate. Ask him, is that so.” “It is so,” assented Defarge again.",
   "words": [
-    "lamp"
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

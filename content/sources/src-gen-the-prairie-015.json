@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "As for Percy, he seemed a little constrained, but looked ever so much better. He is quite sunburned, likes California and says we ought to have a winter bungalow there (and Dinky-Dunk just warning me to save on the pantry pennies!) He's brought a fastidious little old English woman back with him as a housekeeper, a Mrs. Watson, and she looks both capable and practical. Notwithstanding the fact that she seems to have stepped right out of Dickens, and carries a huge Manx cat about with her, Percy said he thought they'd muddle along in some way. Thoughtful boy that he was, he brought me a portmanteau packed full of the newer novels and magazines, and a two-pound jar of smoking tobacco for Dinky-Dunk.",
   "words": [
-    "pennies",
-    "housekeeper",
-    "thoughtful",
-    "jar"
+    {
+      "word": "pennies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thoughtful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

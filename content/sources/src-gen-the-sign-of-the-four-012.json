@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“This is just the case where they might be invaluable. If they fail, I have other resources; but I shall try them first. That wire was to my dirty little lieutenant, Wiggins, and I expect that he and his gang will be with us before we have finished our breakfast.” It was between eight and nine o’clock now, and I was conscious of a strong reaction after the successive excitements of the night. I was limp and weary, befogged in mind and fatigued in body. I had not the professional enthusiasm which carried my companion on, nor could I look at the matter as a mere abstract intellectual problem.",
   "words": [
-    "weary"
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sign of the Four",

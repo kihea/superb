@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "ell me how glad she was I had come. We raced off toward Squaw Creek and did not stop until the ground itself stopped—fell away before us so abruptly that the next step would have been out into the tree-tops. We stood panting on the edge of the ravine, looking down at the trees and bushes that grew below us. The wind was so strong that I had to hold my hat on, and the girls’ skirts were blown out before them. Ántonia seemed to like it; she held her little sister by the hand and chattered away in that language which seemed to me spoken so much more rapidly than mine.",
   "words": [
-    "bushes",
-    "skirts"
+    {
+      "word": "bushes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skirts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

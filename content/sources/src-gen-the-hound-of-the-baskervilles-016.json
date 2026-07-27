@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In that case, regarding Stapleton as an unmarried man, she counted no doubt upon becoming his wife.” “And when she is undeceived?” “Why, then we may find the lady of service. It must be our first duty to see her—both of us—tomorrow. Don’t you think, Watson, that you are away from your charge rather long? Your place should be at Baskerville Hall.” The last red streaks had faded away in the west and night had settled upon the moor. A few faint stars were gleaming in a violet sky.",
   "words": [
-    "unmarried"
+    {
+      "word": "unmarried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

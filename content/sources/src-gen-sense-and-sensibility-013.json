@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The ivory, the gold, and the pearls, all received their appointment, and the gentleman having named the last day on which his existence could be continued without the possession of the toothpick-case, drew on his gloves with leisurely care, and bestowing another glance on the Miss Dashwoods, but such a one as seemed rather to demand than express admiration, walked off with a happy air of real conceit and affected indifference. Elinor lost no time in bringing her business forward, was on the point of concluding it, when another gentleman presented himself at her side. She turned her eyes towards his face, and found him with some surprise to be her brother. Their affection and pleasure in meeting was just enough to make a very creditable appearance in Mr. Gray's shop. John Dashwood was really far from being sorry to see his sisters again; it rather gave them satisfaction; and his inquiries after their mother were respectful and attentive.",
   "words": [
-    "ivory",
-    "pearls",
-    "admiration"
+    {
+      "word": "ivory",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "pearls",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The young man’s conduct, and his sister’s, seemed the result of real feeling, and she could not but pity them. As Harriet described it, there had been an interesting mixture of wounded affection and genuine delicacy in their behaviour. But she had believed them to be well-meaning, worthy people before; and what difference did this make in the evils of the connexion? It was folly to be disturbed by it. Of course, he must be sorry to lose her—they must be all sorry.",
   "words": [
-    "pity"
+    {
+      "word": "pity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

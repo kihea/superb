@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Had not Mr. Osmond remarked that she was a respectable person? To have proceeded from Gilbert Osmond this was a crude proposition, but Madame Merle bestowed upon it a certain improving polish. She told Isabel more about the poor Countess than Mr. Osmond had done, and related the history of her marriage and its consequences. The Count was a member of an ancient Tuscan family, but of such small estate that he had been glad to accept Amy Osmond, in spite of the questionable beauty which had yet not hampered her career, with the modest dowry her mother was able to offer--a sum about equivalent to that which had already formed her brother’s share of their patrimony. Count Gemini since then, however, had inherited money, and now they were well enough off, as Italians went, though Amy was horribly extravagant.",
   "words": [
-    "hampered",
-    "dowry"
+    {
+      "word": "hampered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dowry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

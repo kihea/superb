@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But there were forced delays, and when Mr. Fogg stepped from the train at the terminus, all the clocks in London were striking ten minutes before nine. Having made the tour of the world, he was behind-hand five minutes. He had lost the wager! A somewhat remarkable eccentricity on the part of the London clocks!—TRANSLATOR. IN WHICH PHILEAS FOGG DOES NOT HAVE TO REPEAT HIS ORDERS TO PASSEPARTOUT TWICE The dwellers in Saville Row would have been surprised the next day, if they had been told that Phileas Fogg had returned home.",
   "words": [
-    "stepped",
-    "clocks"
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clocks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Around the World in Eighty Days",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "When the momentary surprise had passed, his expression changed to a silencing imperious gaze. “I will not kiss you,” he said, pushing her away. Had the wife now but gone no further. Yet, perhaps, under the harrowing circumstances, to speak out was the one wrong act which can be better understood, if not forgiven in her, than the right and politic one. All the feeling she had been betrayed into showing she drew back to herself again by a strenuous effort of self-command.",
   "words": [
-    "forgiven"
+    {
+      "word": "forgiven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

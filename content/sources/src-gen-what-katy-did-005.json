@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Hurrying in, she threw open the door, and there, to her dismay, was the whole room in a frightful state of confusion and uproar: chairs flung down, desks upset, ink streaming on the floor; while in the midst of the ruin the frantic rivers raced and screamed, and old Father Ocean, with a face as red as fire, capered like a lunatic on the platform. \"What does this mean?\" gasped poor Mrs. Knight, almost unable to speak for horror. At the sound of her voice the Rivers stood still, Father Ocean brought his prances to an abrupt close, and slunk down from the platform. All of a sudden, each girl seemed to realize what a condition the room was in, and what a horrible thing she had done.",
   "words": [
-    "screamed"
+    {
+      "word": "screamed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

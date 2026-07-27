@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Thy foolish reading hath wrought its woeful work at last, and ta’en thy wit away. why did’st thou cleave to it when I so warned thee ‘gainst it? Thou’st broke thy mother’s heart.” The Prince looked into her face, and said gently-- “Thy son is well, and hath not lost his wits, good dame. Comfort thee: let me to the palace where he is, and straightway will the King my father restore him to thee.” “The King thy father! Oh, my child!",
   "words": [
-    "foolish"
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

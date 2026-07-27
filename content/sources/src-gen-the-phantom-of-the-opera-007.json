@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then she opened the door ajar, looked out into the corridor and, in a low voice, said: \"He must have gone up higher.\" Suddenly she exclaimed: \"He is coming down again!\" She tried to close the door, but Raoul prevented her; for he had seen, on the top step of the staircase that led to the floor above, A RED FOOT, followed by another ... and slowly, majestically, the whole scarlet dress of Red Death met his eyes. And he once more saw the death's head of Perros-Guirec. he exclaimed.",
   "words": [
-    "scarlet"
+    {
+      "word": "scarlet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

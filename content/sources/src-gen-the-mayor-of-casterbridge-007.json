@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Indoors she fell to conjecturing the meaning of Farfrae’s enigmatic words about not daring to ask her what he fain would. Elizabeth, that silent observing woman, had long noted how he was rising in favour among the townspeople; and knowing Henchard’s nature now she had feared that Farfrae’s days as manager were numbered, so that the announcement gave her little surprise. Would Mr. Farfrae stay in Casterbridge despite his words and her father’s dismissal? His occult breathings to her might be solvable by his course in that respect. The next day was windy—so windy that walking in the garden she picked up a portion of the draft of a letter on business in Donald Farfrae’s writing, which had flown over the wall from the office.",
   "words": [
-    "indoors"
+    {
+      "word": "indoors",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mayor of Casterbridge",

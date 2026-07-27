@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Lucy and her father would fain have rested longer, but Jefferson Hope was inexorable. “They will be upon our track by this time,” he said. “Everything depends upon our speed. Once safe in Carson we may rest for the remainder of our lives.” During the whole of that day they struggled on through the defiles, and by evening they calculated that they were more than thirty miles from their enemies. At night-time they chose the base of a beetling crag, where the rocks offered some protection from the chill wind, and there huddled together for warmth, they enjoyed a few hours’ sleep.",
   "words": [
-    "rested"
+    {
+      "word": "rested",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

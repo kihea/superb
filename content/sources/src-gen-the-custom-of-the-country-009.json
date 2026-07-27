@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Raymond de Chelles stroked his handsome brown moustache. \"I should have said, on the contrary, that one enjoyed it for the contrast. It's such a refreshing change from our institutions--which are, nevertheless, the necessary foundations of society. But just as one may have an infinite admiration for one's wife, and yet occasionally--\" he waved a light hand toward the spectacle. \"This, in the social order, is the diversion, the permitted diversion, that your original race has devised: a kind of superior Bohemia, where one may be respectable without being bored.\"",
   "words": [
-    "admiration",
-    "diversion",
-    "devised"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diversion",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "devised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

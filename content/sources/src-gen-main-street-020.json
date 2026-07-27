@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Why don't you tell me about the Dear Lord? Auntie Bogart says I'm going to be a preacher. Can I be a preacher? Can I preach about the Dear Lord?” “Oh, please wait till my generation has stopped rebelling before yours starts in!” “What's a generation?” “It's a ray in the illumination of the spirit.” “That's foolish.” He was a serious and literal person, and rather humorless. She kissed his frown, and marveled: “I am running away from my husband, after liking a Swedish ne'er-do-well and expressing immoral opinions, just as in a romantic story.",
   "words": [
-    "literal"
+    {
+      "word": "literal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

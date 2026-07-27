@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Yet I began to take some courage, some comfort; it seemed to me that I felt a pulse of his heart beating yet true to the whole throb of mine. I waited my champion. Apollyon came trailing his Hell behind him. I think if Eternity held torment, its form would not be fiery rack, nor its nature despair. I think that on a certain day amongst those days which never dawned, and will not set, an angel entered Hades—stood, shone, smiled, delivered a prophecy of conditional pardon, kindled a doubtful hope of bliss to come, not now, but at a day and hour unlooked for, revealed in his own glory and grandeur the height and compass of his promise: spoke thus—then towering, became a star, and vanished into his own Heaven.",
   "words": [
-    "pulse",
-    "trailing",
-    "despair",
-    "compass"
+    {
+      "word": "pulse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compass",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

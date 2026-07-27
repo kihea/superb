@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A. S. Mtg--Notes on Same, & Prof. Webb's Acct.\" The other manuscript papers were all brief notes, some of them accounts of the queer dreams of different persons, some of them citations from theosophical books and magazines (notably W. Scott-Eliott's Atlantis and the Lost Lemuria), and the rest comments on long-surviving secret societies and hidden cults, with references to passages in such mythological and anthropological source-books as Frazer's Golden Bough and Miss Murray's Witch-Cult in Western Europe. The cuttings largely alluded to outré mental illnesses and outbreaks of group folly or mania in the spring of 1925. * * * * * The first half of the principal manuscript told a very peculiar tale. It appears that on March 1st, 1925, a thin, dark young man of neurotic and excited aspect had called upon Professor Angell bearing the singular clay bas-relief, which was then exceedingly damp and fresh.",
   "words": [
-    "societies"
+    {
+      "word": "societies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

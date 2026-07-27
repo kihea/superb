@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The Diana went out of the bay in company with us, but parted from us off Point Pinos, being bound to the Sandwich Islands. We had a smacking breeze for several hours, and went along at a great rate, until night, when it died away, as usual, and the land-breeze set in, which brought us upon a taut bowline. Among our passengers was a young man who was the best representation of a decayed gentleman I had ever seen. He reminded me much of some of the characters in Gil Blas. He was of the aristocracy of the country, his family being of pure Spanish blood, and once of great importance in Mexico.",
   "words": [
-    "gentleman"
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

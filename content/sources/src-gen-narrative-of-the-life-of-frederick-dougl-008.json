@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The crouching servility, usually so acceptable a quality in a slave, did not answer when manifested toward her. Her favor was not gained by it; she seemed to be disturbed by it. She did not deem it impudent or unmannerly for a slave to look her in the face. The meanest slave was put fully at ease in her presence, and none left without feeling better for having seen her. Her face was made of heavenly smiles, and her voice of tranquil music.",
   "words": [
-    "smiles"
+    {
+      "word": "smiles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

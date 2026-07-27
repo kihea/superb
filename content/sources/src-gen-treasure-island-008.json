@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "What I mean is, would he be likely to come down to the toon of, say one thousand pounds out of money that’s as good as a man’s own already?” “I am sure he would,” said I. “As it was, all hands were to share.” “AND a passage home?” he added with a look of great shrewdness. “Why,” I cried, “the squire’s a gentleman. And besides, if we got rid of the others, we should want you to help work the vessel home.” “Ah,” said he, “so you would.” And he seemed very much relieved. “Now, I’ll tell you what,” he went on.",
   "words": [
-    "gentleman"
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

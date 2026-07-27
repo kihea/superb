@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Oh Monsieur heretofore the Marquis, I pray you be you true to me! “From this prison here of horror, whence I every hour tend nearer and nearer to destruction, I send you, Monsieur heretofore the Marquis, the assurance of my dolorous and unhappy service. “Your afflicted, “Gabelle.” The latent uneasiness in Darnay’s mind was roused to vigourous life by this letter. The peril of an old servant and a good one, whose only crime was fidelity to himself and his family, stared him so reproachfully in the face, that, as he walked to and fro in the Temple considering what to do, he almost hid his face from the passersby. He knew very well, that in his horror of the deed which had culminated the bad deeds and bad reputation of the old family house, in his resentful suspicions of his uncle, and in the aversion with which his conscience regarded the crumbling fabric that he was supposed to uphold, he had acted imperfectly.",
   "words": [
-    "servant",
-    "aversion"
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aversion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

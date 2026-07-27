@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then they went, fighting cold and starvation, shut out of hotels, and cheerfully sneered at, ever northward; and ever the magic of their song kept thrilling hearts, until a burst of applause in the Congregational Council at Oberlin revealed them to the world. They came to New York and Henry Ward Beecher dared to welcome them, even though the metropolitan dailies sneered at his “Nigger Minstrels.” So their songs conquered till they sang across the land and across the sea, before Queen and Kaiser, in Scotland and Ireland, Holland and Switzerland. Seven years they sang, and brought back a hundred and fifty thousand dollars to found Fisk University. Since their day they have been imitated—sometimes well, by the singers of Hampton and Atlanta, sometimes ill, by straggling quartettes. Caricature has sought again to spoil the quaint beauty of the music, and has filled the air with many debased melodies which vulgar ears scarce know from the real.",
   "words": [
-    "vulgar"
+    {
+      "word": "vulgar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

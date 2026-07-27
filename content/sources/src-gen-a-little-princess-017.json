@@ -3,9 +3,25 @@
   "pool": "sourced",
   "text": "When she was scolded she stood still and listened politely with a grave face; when she was punished she performed her extra tasks or went without her meals, making no complaint or outward sign of rebellion. The very fact that she never made an impudent answer seemed to Miss Minchin a kind of impudence in itself. But after yesterday's deprivation of meals, the violent scene of last night, the prospect of hunger today, she must surely have broken down. It would be strange indeed if she did not come downstairs with pale cheeks and red eyes and an unhappy, humbled face. Miss Minchin saw her for the first time when she entered the schoolroom to hear the little French class recite its lessons and superintend its exercises.",
   "words": [
-    "meals",
-    "prospect",
-    "cheeks"
+    {
+      "word": "meals",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

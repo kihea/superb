@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Silas now found himself and his cottage suddenly beset by mothers who wanted him to charm away the whooping-cough, or bring back the milk, and by men who wanted stuff against the rheumatics or the knots in the hands; and, to secure themselves against a refusal, the applicants brought silver in their palms. Silas might have driven a profitable trade in charms as well as in his small list of drugs; but money on this condition was no temptation to him: he had never known an impulse towards falsity, and he drove one after another away with growing irritation, for the news of him as a wise man had spread even to Tarley, and it was long before people ceased to take long walks for the sake of asking his aid. But the hope in his wisdom was at length changed into dread, for no one believed him when he said he knew no charms and could work no cures, and every man and woman who had an accident or a new attack after applying to him, set the misfortune down to Master Marner’s ill-will and irritated glances.",
   "words": [
-    "cottage",
-    "charm",
-    "knots",
-    "applicants",
-    "palms",
-    "charms"
+    {
+      "word": "cottage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "charm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knots",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "applicants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "palms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "charms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

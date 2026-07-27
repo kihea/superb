@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Do let’s pretend that I’m a hungry hyaena, and you’re a bone.” But this is taking us away from Alice’s speech to the kitten. “Let’s pretend that you’re the Red Queen, Kitty! Do you know, I think if you sat up and folded your arms, you’d look exactly like her. Now do try, there’s a dear!” And Alice got the Red Queen off the table, and set it up before the kitten as a model for it to imitate: however, the thing didn’t succeed, principally, Alice said, because the kitten wouldn’t fold its arms properly. So, to punish it, she held it up to the Looking-glass, that it might see how sulky it was—“and if you’re not good directly,” she added, “I’ll put you through into Looking-glass House.",
   "words": [
-    "imitate"
+    {
+      "word": "imitate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Through the Looking-Glass",

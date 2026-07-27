@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Well, I have been indiscreet, formerly; but I think I have got over it. I am very steady now.” And he stood a moment, looking down at his remarkably neat shoes. Then at last, “Were you kindly intending to propose something for my advantage?” he inquired, looking up and smiling. “Damn his impudence!” the Doctor exclaimed privately. But in a moment he reflected that he himself had, after all, touched first upon this delicate point, and that his words might have been construed as an offer of assistance.",
   "words": [
-    "intending"
+    {
+      "word": "intending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

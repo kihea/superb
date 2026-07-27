@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "To plunge into society meant to visit my superior at the office, Anton Antonitch Syetotchkin. He was the only permanent acquaintance I have had in my life, and I wonder at the fact myself now. But I only went to see him when that phase came over me, and when my dreams had reached such a point of bliss that it became essential at once to embrace my fellows and all mankind; and for that purpose I needed, at least, one human being, actually existing. I had to call on Anton Antonitch, however, on Tuesday—his at-home day; so I had always to time my passionate desire to embrace humanity so that it might fall on a Tuesday. This Anton Antonitch lived on the fourth storey in a house in Five Corners, in four low-pitched rooms, one smaller than the other, of a particularly frugal and sallow appearance.",
   "words": [
-    "acquaintance",
-    "mankind"
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mankind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

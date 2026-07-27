@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And, with a strange pang, I now reflected that, long as I had been shut up here, no message had been sent to ask how I was, or to invite me to come down: not even little Adèle had tapped at the door; not even Mrs. Fairfax had sought me. “Friends always forget those whom fortune forsakes,” I murmured, as I undrew the bolt and passed out. I stumbled over an obstacle: my head was still dizzy, my sight was dim, and my limbs were feeble. I could not soon recover myself. I fell, but not on to the ground: an outstretched arm caught me.",
   "words": [
-    "bolt",
-    "limbs"
+    {
+      "word": "bolt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "limbs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

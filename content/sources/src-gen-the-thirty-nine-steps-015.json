@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In the afternoon I got to Reading, and changed into a local train which journeyed into the deeps of Berkshire. Presently I was in a land of lush water-meadows and slow reedy streams. About eight o’clock in the evening, a weary and travel-stained being—a cross between a farm-labourer and a vet—with a checked black-and-white plaid over his arm (for I did not dare to wear it south of the Border), descended at the little station of Artinswell. There were several people on the platform, and I thought I had better wait to ask my way till I was clear of the place. The road led through a wood of great beeches and then into a shallow valley, with the green backs of downs peeping over the distant trees.",
   "words": [
-    "meadows",
-    "streams",
-    "shallow"
+    {
+      "word": "meadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "streams",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "All this I had, of course, heard tell of; and now I had a man under my eyes whose life was forfeit on all these counts and upon one more, for he was not only a rebel and a smuggler of rents, but had taken service with King Louis of France. And as if all this were not enough, he had a belt full of golden guineas round his loins. Whatever my opinions, I could not look on such a man without a lively interest. “And so you’re a Jacobite?” said I, as I set meat before him. “Ay,” said he, beginning to eat.",
   "words": [
-    "guineas",
-    "lively"
+    {
+      "word": "guineas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "But Mary, you understand, could do no such thing—would not be handling his iron chest, and so on. Now, you see, the will he wanted burnt was this last, so that if Mary had done what he wanted, Fred Vincy would have had ten thousand pounds. The old man did turn to him at the last. That touches poor Mary close; she couldn’t help it—she was in the right to do what she did, but she feels, as she says, much as if she had knocked down somebody’s property and broken it against her will, when she was rightfully defending herself. I feel with her, somehow, and if I could make any amends to the poor lad, instead of bearing him a grudge for the harm he did us, I should be glad to do it.",
   "words": [
-    "rightfully",
-    "amends",
-    "lad",
-    "grudge"
+    {
+      "word": "rightfully",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grudge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

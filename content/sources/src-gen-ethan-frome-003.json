@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Seen thus, from the pure and frosty darkness in which he stood, it seemed to be seething in a mist of heat. The metal reflectors of the gas-jets sent crude waves of light against the whitewashed walls, and the iron flanks of the stove at the end of the hall looked as though they were heaving with volcanic fires. The floor was thronged with girls and young men. Down the side wall facing the window stood a row of kitchen chairs from which the older women had just risen. By this time the music had stopped, and the musicians—a fiddler, and the young lady who played the harmonium on Sundays—were hastily refreshing themselves at one corner of the supper-table which aligned its devastated pie-dishes and ice-cream saucers on the platform at the end of the hall.",
   "words": [
-    "jets",
-    "stove",
-    "fires",
-    "chairs",
-    "musicians",
-    "supper"
+    {
+      "word": "jets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fires",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "musicians",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

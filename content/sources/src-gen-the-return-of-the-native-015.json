@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "By this time she had risen; and they involuntarily sauntered on together, without speaking, for two or three minutes; when Eustacia broke silence by saying, “I assume I must congratulate you.” “On what? O yes; on my eleven thousand pounds, you mean. Well, since I didn’t get something else, I must be content with getting that.” “You seem very indifferent about it. Why didn’t you tell me today when you came?” she said in the tone of a neglected person. “I heard of it quite by accident.” “I did mean to tell you,” said Wildeve.",
   "words": [
-    "congratulate",
-    "neglected"
+    {
+      "word": "congratulate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neglected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

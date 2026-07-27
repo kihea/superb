@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The sword again, you see.” A half-light broke through the network of boughs above them, flinging the ghost of a net about their feet; for they were mounting again to the faint luminosity of the naked night. Flambeau felt truth all round him as an atmosphere, but not as an idea. He answered with bewildered brain: “Well, what’s the matter with the sword? Officers generally have swords, don’t they?” “They are not often mentioned in modern war,” said the other dispassionately; “but in this affair one falls over the blessed sword everywhere.” “Well, what is there in that?” growled Flambeau; “it was a twopence coloured sort of incident; the old man’s blade breaking in his last battle. Anyone might bet the papers would get hold of it, as they have.",
   "words": [
-    "coloured",
-    "blade"
+    {
+      "word": "coloured",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

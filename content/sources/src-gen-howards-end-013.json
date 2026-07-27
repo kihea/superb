@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "A short-frocked edition of Charles also regards them placidly; a perambulator edition is squeaking; a third edition is expected shortly. Nature is turning out Wilcoxes in this peaceful abode, so that they may inherit the earth. Margaret greeted her lord with peculiar tenderness on the morrow. Mature as he was, she might yet be able to help him to the building of the rainbow bridge that should connect the prose in us with the passion. Without it we are meaningless fragments, half monks, half beasts, unconnected arches that have never joined into a man.",
   "words": [
-    "abode",
-    "prose"
+    {
+      "word": "abode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prose",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

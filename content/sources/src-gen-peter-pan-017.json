@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "What arrested him was this reflection: “To claw a man because he is good form, what would that be?” “Bad form!” The unhappy Hook was as impotent as he was damp, and he fell forward like a cut flower. His dogs thinking him out of the way for a time, discipline instantly relaxed; and they broke into a bacchanalian dance, which brought him to his feet at once, all traces of human weakness gone, as if a bucket of water had passed over him. “Quiet, you scugs,” he cried, “or I’ll cast anchor in you;” and at once the din was hushed. “Are all the children chained, so that they cannot fly away?” “Ay, ay.” “Then hoist them up.” The wretched prisoners were dragged from the hold, all except Wendy, and ranged in line in front of him. For a time he seemed unconscious of their presence.",
   "words": [
-    "din",
-    "ranged"
+    {
+      "word": "din",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ranged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "God will punish you hereafter, but I will punish you here!” “Ah, this is too much!” cried Buckingham, making a step toward the door. Felton barred his passage. “I ask it humbly of you, my Lord,” said he; “sign the order for the liberation of Milady de Winter. Remember that she is a woman whom you have dishonored.” “Withdraw, sir,” said Buckingham, “or I will call my attendant, and have you placed in irons.” “You shall not call,” said Felton, throwing himself between the duke and the bell placed on a stand encrusted with silver. “Beware, my Lord, you are in the hands of God!” “In the hands of the devil, you mean!” cried Buckingham, raising his voice so as to attract the notice of his people, without absolutely shouting.",
   "words": [
-    "irons",
-    "attract",
-    "shouting"
+    {
+      "word": "irons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attract",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

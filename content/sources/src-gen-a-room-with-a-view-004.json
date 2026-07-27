@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The commonplace person begins to play, and shoots into the empyrean without effort, whilst we look up, marvelling how he has escaped us, and thinking how we could worship him and love him, would he but translate his visions into human words, and his experiences into human actions. Perhaps he cannot; certainly he does not, or does so very seldom. Lucy had done so never. She was no dazzling exécutante; her runs were not at all like strings of pearls, and she struck no more right notes than was suitable for one of her age and situation. Nor was she the passionate young lady, who performs so tragically on a summer’s evening with the window open.",
   "words": [
-    "translate"
+    {
+      "word": "translate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

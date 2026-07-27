@@ -4,9 +4,25 @@
   "topic": "invention",
   "text": "man is not truly one, but truly two. I say two, because the state of my own knowledge does not pass beyond that point. Others will follow, others will outstrip me on the same lines; and I hazard the guess that man will be ultimately known for a mere polity of multifarious, incongruous and independent denizens. I, for my part, from the nature of my life, advanced infallibly in one direction and in one direction only. It was on the moral side, and in my own person, that I learned to recognise the thorough and primitive duality of man; I saw that, of the two natures that contended in the field of my consciousness, even if I could rightly be said to be either, it was only because I was radically both.",
   "words": [
-    "multifarious",
-    "denizens",
-    "duality"
+    {
+      "word": "multifarious",
+      "signals": [
+        "hand-picked"
+      ]
+    },
+    {
+      "word": "denizens",
+      "signals": [
+        "hand-picked"
+      ]
+    },
+    {
+      "word": "duality",
+      "signals": [
+        "gloss-overlap",
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

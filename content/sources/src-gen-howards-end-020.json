@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Nor did purity mean peace. The use of the knife can become a habit as hard to shake off as passion itself, and Leonard continued to start with a cry out of dreams. He built up a situation that was far enough from the truth. It never occurred to him that Helen was to blame. He forgot the intensity of their talk, the charm that had been lent him by sincerity, the magic of Oniton under darkness and of the whispering river.",
   "words": [
-    "charm"
+    {
+      "word": "charm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

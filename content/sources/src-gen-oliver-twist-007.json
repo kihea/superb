@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Where is he?” “I’ll bring him to you in one minute, sir,” replied Mrs. Mann. “Here, you Dick!” After some calling, Dick was discovered. Having had his face put under the pump, and dried upon Mrs. Mann’s gown, he was led into the awful presence of Mr. Bumble, the beadle. The child was pale and thin; his cheeks were sunken; and his eyes large and bright. The scanty parish dress, the livery of his misery, hung loosely on his feeble body; and his young limbs had wasted away, like those of an old man.",
   "words": [
-    "cheeks",
-    "parish",
-    "misery"
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

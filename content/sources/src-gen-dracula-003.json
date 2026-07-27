@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I start at my own shadow, and am full of all sorts of horrible imaginings. God knows that there is ground for my terrible fear in this accursed place! I looked out over the beautiful expanse, bathed in soft yellow moonlight till it was almost as light as day. In the soft light the distant hills became melted, and the shadows in the valleys and gorges of velvety blackness. The mere beauty seemed to cheer me; there was peace and comfort in every breath I drew.",
   "words": [
-    "moonlight",
-    "shadows",
-    "valleys"
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "valleys",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

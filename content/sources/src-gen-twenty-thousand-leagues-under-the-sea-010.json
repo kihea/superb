@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“This man does not understand French.” I gave a last look at the wounded man. “He will be dead in two hours.” “Can nothing save him?” “Nothing.” Captain Nemo’s hand contracted, and some tears glistened in his eyes, which I thought incapable of shedding any. For some moments I still watched the dying man, whose life ebbed slowly. His pallor increased under the electric light that was shed over his death-bed. I looked at his intelligent forehead, furrowed with premature wrinkles, produced probably by misfortune and sorrow.",
   "words": [
-    "contracted"
+    {
+      "word": "contracted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

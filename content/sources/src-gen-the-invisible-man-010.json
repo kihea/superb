@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Certain minor facts were added to the Iping story, notably the cutting of the village telegraph-wire. But there was nothing to throw light on the connexion between the Invisible Man and the Tramp; for Mr. Marvel had supplied no information about the three books, or the money with which he was lined. The incredulous tone had vanished and a shoal of reporters and inquirers were already at work elaborating the matter. Kemp read every scrap of the report and sent his housemaid out to get every one of the morning papers she could. These also he devoured.",
   "words": [
-    "vanished"
+    {
+      "word": "vanished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

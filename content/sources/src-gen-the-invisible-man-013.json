@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I staggered out of the way of the cab, avoided a perambulator by a convulsive movement, and found myself behind the hansom. A happy thought saved me, and as this drove slowly along I followed in its immediate wake, trembling and astonished at the turn of my adventure. And not only trembling, but shivering. It was a bright day in January and I was stark naked and the thin slime of mud that covered the road was freezing. Foolish as it seems to me now, I had not reckoned that, transparent or not, I was still amenable to the weather and all its consequences.",
   "words": [
-    "slime"
+    {
+      "word": "slime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

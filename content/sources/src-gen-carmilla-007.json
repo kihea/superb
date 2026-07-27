@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "On coming in he told us that there had been another case very similar to the two fatal ones which had lately occurred. The sister of a young peasant on his estate, only a mile away, was very ill, had been, as she described it, attacked very nearly in the same way, and was now slowly but steadily sinking. “All this,” said my father, “is strictly referable to natural causes. These poor people infect one another with their superstitions, and so repeat in imagination the images of terror that have infested their neighbors.” “But that very circumstance frightens one horribly,” said Carmilla. “How so?” inquired my father.",
   "words": [
-    "infect",
-    "circumstance",
-    "horribly"
+    {
+      "word": "infect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horribly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

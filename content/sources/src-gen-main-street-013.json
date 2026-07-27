@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "With nine-tenths of her emotion concentrated upon Hugh, she did not criticize shops, streets, acquaintances . this year or two. She hurried to Uncle Whittier's store for a package of corn-flakes, she abstractedly listened to Uncle Whittier's denunciation of Martin Mahoney for asserting that the wind last Tuesday had been south and not southwest, she came back along streets that held no surprises nor the startling faces of strangers. Thinking of Hugh's teething all the way, she did not reflect that this store, these drab blocks, made up all her background. She did her work, and she triumphed over winning from the Clarks at five hundred.",
   "words": [
-    "listened",
-    "southwest"
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "southwest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

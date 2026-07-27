@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Two days later—that is, on Wednesday last—there is a curt announcement that the wedding had taken place, and that the honeymoon would be passed at Lord Backwater’s place, near Petersfield. Those are all the notices which appeared before the disappearance of the bride.” “Before the what?” asked Holmes with a start. “The vanishing of the lady.” “When did she vanish, then?” “At the wedding breakfast.” “Indeed. This is more interesting than it promised to be; quite dramatic, in fact.” “Yes; it struck me as being a little out of the common.” “They often vanish before the ceremony, and occasionally during the honeymoon; but I cannot call to mind anything quite so prompt as this. Pray let me have the details.” “I warn you that they are very incomplete.” “Perhaps we may make them less so.” “Such as they are, they are set forth in a single article of a morning paper of yesterday, which I will read to you.",
   "words": [
-    "disappearance",
-    "bride",
-    "warn"
+    {
+      "word": "disappearance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bride",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

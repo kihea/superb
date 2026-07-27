@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Mary took him in hand, and when she was done with him he was a man and a brother, without distinction of color, and his saturated hair was neatly brushed, and its short curls wrought into a dainty and symmetrical general effect. He privately smoothed out the curls, with labor and difficulty, and plastered his hair close down to his head; for he held curls to be effeminate, and his own filled his life with bitterness. Then Mary got out a suit of his clothing that had been used only on Sundays during two years—they were simply called his “other clothes”—and so by that we know the size of his wardrobe. The girl “put him to rights” after he had dressed himself; she buttoned his neat roundabout up to his chin, turned his vast shirt collar down over his shoulders, brushed him off and crowned him with his speckled straw hat. He now looked exceedingly improved and uncomfortable.",
   "words": [
-    "neatly",
-    "brushed",
-    "curls",
-    "wardrobe",
-    "collar"
+    {
+      "word": "neatly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curls",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "collar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

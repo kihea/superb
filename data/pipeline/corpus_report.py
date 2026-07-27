@@ -44,7 +44,10 @@ def load_excerpts() -> list[dict]:
 def build_index(docs: list[dict]) -> dict[str, list[str]]:
     index: dict[str, list[str]] = defaultdict(list)
     for doc in docs:
-        for word in doc.get("words", []):
+        # ADR-026: words is an array of {word, signals} objects, not bare
+        # strings. The index only ever needed the word itself.
+        for entry in doc.get("words", []):
+            word = entry["word"] if isinstance(entry, dict) else entry
             index[word.lower()].append(doc["id"])
     return dict(sorted(index.items()))
 

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Physiology says, and says truly, that some men are born with female constitutions—and I am one of them!” He made that bitterly professional apology for his tears, speaking quietly and unaffectedly, as he had spoken throughout. His tone and manner, from beginning to end, showed him to be especially, almost morbidly, anxious not to set himself up as an object of interest to me. “You may well ask, why I have wearied you with all these details?” he went on. “It is the only way I can see, Mr. Blake, of properly introducing to you what I have to say next. Now you know exactly what my position was, at the time of Mr. Candy’s illness, you will the more readily understand the sore need I had of lightening the burden on my mind by giving it, at intervals, some sort of relief.",
   "words": [
-    "bitterly",
-    "apology"
+    {
+      "word": "bitterly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

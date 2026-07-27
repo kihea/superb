@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Only two are needed as agents.” “What can you mean?” asked the other. “Why shouldn’t a blackmailer,” asked Brown, in a low voice, “threaten his victim with himself? Suppose a wife became a rigid teetotaller in order to frighten her husband into concealing his pub-frequenting, and then wrote him blackmailing letters in another hand, threatening to tell his wife! Why shouldn’t it work? Suppose a father forbade a son to gamble and then, following him in a good disguise, threatened the boy with his own sham paternal strictness!",
   "words": [
-    "disguise",
-    "paternal"
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paternal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

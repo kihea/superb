@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I heard answering shouts from the people in the water about me. I could have leaped out of the water with that momentary exultation. The decapitated colossus reeled like a drunken giant; but it did not fall over. It recovered its balance by a miracle, and, no longer heeding its steps and with the camera that fired the Heat-Ray now rigidly upheld, it reeled swiftly upon Shepperton. The living intelligence, the Martian within the hood, was slain and splashed to the four winds of heaven, and the Thing was now but a mere intricate device of metal whirling to destruction.",
   "words": [
-    "shouts"
+    {
+      "word": "shouts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

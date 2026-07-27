@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Only, when I came to mention that good friend of mine, Mr. Campbell the minister, Alan fired up and cried out that he hated all that were of that name. “Why,” said I, “he is a man you should be proud to give your hand to.” “I know nothing I would help a Campbell to,” says he, “unless it was a leaden bullet. I would hunt all of that name like blackcocks. If I lay dying, I would crawl upon my knees to my chamber window for a shot at one.” “Why, Alan,” I cried, “what ails ye at the Campbells?” “Well,” says he, “ye ken very well that I am an Appin Stewart, and the Campbells have long harried and wasted those of my name; ay, and got lands of us by treachery--but never with the sword,” he cried loudly, and with the word brought down his fist upon the table. But I paid the less attention to this, for I knew it was usually said by those who have the underhand.",
   "words": [
-    "crawl",
-    "ken",
-    "fist"
+    {
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

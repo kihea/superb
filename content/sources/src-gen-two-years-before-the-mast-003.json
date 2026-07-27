@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The latter are said to have been planted by Lord Anson. The soldiers were miserably clad, and asked with some interest whether we had any shoes to sell on board. I doubt very much if they had the means of buying them. They were very eager to get tobacco, for which they gave shells, fruits, etc. Knives also were in demand, but we were forbidden by the governor to let any one have them, as he told us that all the people there, except the soldiers and a few officers, were convicts sent from Valparaiso, and that it was necessary to keep all weapons from their hands.",
   "words": [
-    "knives"
+    {
+      "word": "knives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

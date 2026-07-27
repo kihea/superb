@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But how about the foresight and the moral retrogression?” Sherlock Holmes laughed. “Here is the foresight,” said he putting his finger upon the little disc and loop of the hat-securer. “They are never sold upon hats. If this man ordered one, it is a sign of a certain amount of foresight, since he went out of his way to take this precaution against the wind. But since we see that he has broken the elastic and has not troubled to replace it, it is obvious that he has less foresight now than formerly, which is a distinct proof of a weakening nature.",
   "words": [
-    "weakening"
+    {
+      "word": "weakening",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

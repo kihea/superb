@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Mattie followed him out of the door and helped him to lift the trunk into the back of the sleigh. When it was in place they stood side by side on the door-step, watching Daniel Byrne plunge off behind his fidgety horse. It seemed to Ethan that his heart was bound with cords which an unseen hand was tightening with every tick of the clock. Twice he opened his lips to speak to Mattie and found no breath. At length, as she turned to re-enter the house, he laid a detaining hand on her.",
   "words": [
-    "cords"
+    {
+      "word": "cords",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

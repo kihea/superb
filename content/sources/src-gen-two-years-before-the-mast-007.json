@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "said he, with a singular expression to his face; \"I had a little daughter die the other day, and that's the custom of the country.\" Here I felt a little strangely, not knowing what to say, or whether to offer consolation or no, and was beginning to retire, when he opened a side door and told us to walk in. Here I was no less astonished; for I found a large room, filled with young girls, from three or four years of age up to fifteen and sixteen, dressed all in white, with wreaths of flowers on their heads, and bouquets in their hands. Following our conductor through all these girls, who were playing about in high spirits, we came to a table, at the end of the room, covered with a white cloth, on which lay a coffin, about three feet long, with the body of his child. The coffin was lined on the outside with white cloth, and on the inside with white satin, and was strewed with flowers.",
   "words": [
-    "retire",
-    "coffin",
-    "satin"
+    {
+      "word": "retire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

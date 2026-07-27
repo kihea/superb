@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the next morning a note most fearfully and wonderfully twisted and folded, and a small parcel were passed across to Anne. “Dear Anne, ran the former, “Mother says I’m not to play with you or talk to you even in school. It isn’t my fault and don’t be cross at me, because I love you as much as ever. I miss you awfully to tell all my secrets to and I don’t like Gertie Pye one bit. I made you one of the new bookmarkers out of red tissue paper.",
   "words": [
-    "folded"
+    {
+      "word": "folded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

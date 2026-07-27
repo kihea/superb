@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "When he grew tired, he found his way back to the cave and slept. And every day thereafter found him out and ranging a wider area. He began to get accurate measurement of his strength and his weakness, and to know when to be bold and when to be cautious. He found it expedient to be cautious all the time, except for the rare moments, when, assured of his own intrepidity, he abandoned himself to petty rages and lusts. He was always a little demon of fury when he chanced upon a stray ptarmigan.",
   "words": [
-    "thereafter",
-    "petty"
+    {
+      "word": "thereafter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "petty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "White Fang",

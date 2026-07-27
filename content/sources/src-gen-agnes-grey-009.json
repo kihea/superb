@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Think of any woman asking that!” “Well, I should think one conquest would be enough; and too much, unless the subjugation were mutual.” “Oh, but you know I never agree with you on those points. Now, wait a bit, and I’ll tell you my principal admirers—those who made themselves very conspicuous that night and after: for I’ve been to two parties since. Unfortunately the two noblemen, Lord G—— and Lord F——, were married, or I might have condescended to be particularly gracious to them; as it was, I did not: though Lord F——, who hates his wife, was evidently much struck with me. He asked me to dance with him twice—he is a charming dancer, by-the-by, and so am I: you can’t think how well I did—I was astonished at myself. My lord was very complimentary too—rather too much so in fact—and I thought proper to be a little haughty and repellent; but I had the pleasure of seeing his nasty, cross wife ready to perish with spite and vexation—” “Oh, Miss Murray!",
   "words": [
-    "conquest",
-    "admirers",
-    "evidently"
+    {
+      "word": "conquest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admirers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Agnes Grey",

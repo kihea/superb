@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The sun had disappeared twenty minutes ago behind Granite House. Consequently the Eastern horizon was becoming obscured. In the meanwhile the brig continued to advance towards Union Bay. She was now not more than two miles off, and exactly opposite the plateau of Prospect Heights, for after having tacked off Claw Cape, she had drifted towards the north in the current of the rising tide. One might have said that at this distance she had already entered the vast bay, for a straight line drawn from Claw Cape to Cape Mandible would have rested on her starboard quarter.",
   "words": [
-    "horizon",
-    "brig",
-    "tide"
+    {
+      "word": "horizon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

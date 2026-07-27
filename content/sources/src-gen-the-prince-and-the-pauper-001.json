@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "ver for poor and forsaken children, and new-named it Christ’s Church. Right gladly will they serve the son of him who hath done so generously by them--and the more that that son is himself as poor and as forlorn as any that be sheltered here this day, or ever shall be.” He was soon in the midst of a crowd of boys who were running, jumping, playing at ball and leap-frog, and otherwise disporting themselves, and right noisily, too. They were all dressed alike, and in the fashion which in that day prevailed among serving-men and ‘prentices{1}--that is to say, each had on the crown of his head a flat black cap about the size of a saucer, which was not useful as a covering, it being of such scanty dimensions, neither was it ornamental; from beneath it the hair fell, unparted, to the middle of the forehead, and was cropped straight around; a clerical band at the neck; a blue gown that fitted closely and hung as low as the knees or lower; full sleeves; a broad red belt; bright yellow stockings, gartered above the knees; low shoes with large metal buckles. It was a sufficiently ugly costume.",
   "words": [
-    "midst",
-    "prevailed",
-    "ornamental",
-    "knees"
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prevailed",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "ornamental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knees",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

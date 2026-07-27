@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But we nailed him in Antwerp—thanks to Mr. Poirot here.” As these friendly reminiscences were being indulged in, I drew nearer, and was introduced to Detective-Inspector Japp, who, in his turn, introduced us both to his companion, Superintendent Summerhaye. “I need hardly ask what you are doing here, gentlemen,” remarked Poirot. Japp closed one eye knowingly. “No, indeed. Pretty clear case I should say.” But Poirot answered gravely: “There I differ from you.” “Oh, come!” said Summerhaye, opening his lips for the first time.",
   "words": [
-    "companion",
-    "knowingly"
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knowingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

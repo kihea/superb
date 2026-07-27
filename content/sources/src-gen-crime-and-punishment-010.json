@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Yes, the lodging had a great deal to do with it.... I thought that, too.... If only you knew, though, what a strange thing you said just now, mother,” he said, laughing strangely. A little more, and their companionship, this mother and this sister, with him after three years’ absence, this intimate tone of conversation, in face of the utter impossibility of really speaking about anything, would have been beyond his power of endurance. But there was one urgent matter which must be settled one way or the other that day--so he had decided when he woke.",
   "words": [
-    "strangely"
+    {
+      "word": "strangely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Crime and Punishment",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I wondered at first idly and then wildly why a man should act these two parts at once. One walk I knew; it was just like yours, colonel. It was the walk of a well-fed gentleman waiting for something, who strolls about rather because he is physically alert than because he is mentally impatient. I knew that I knew the other walk, too, but I could not remember what it was. What wild creature had I met on my travels that tore along on tiptoe in that extraordinary style?",
   "words": [
-    "wildly",
-    "gentleman",
-    "travels",
-    "tore"
+    {
+      "word": "wildly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

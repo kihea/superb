@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“La Folle done cross de bayer!” Quickly the cry passed down the line of cabins. “Yonda, La Folle done cross de bayou!” Children, old men, old women, young ones with infants in their arms, flocked to doors and windows to see this awe-inspiring spectacle. Most of them shuddered with superstitious dread of what it might portend. “She totin’ Chéri!” some of them shouted. Some of the more daring gathered about her, and followed at her heels, only to fall back with new terror when she turned her distorted face upon them.",
   "words": [
-    "infants"
+    {
+      "word": "infants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

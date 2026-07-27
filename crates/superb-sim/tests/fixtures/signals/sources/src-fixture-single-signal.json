@@ -1,0 +1,18 @@
+{
+  "id": "src-fixture-single-signal",
+  "pool": "sourced",
+  "topic": "fixture",
+  "text": "A thin mist, that gray haze which blurs the line between sea and sky, settled over the harbour before the tide turned.",
+  "words": [
+    { "word": "mist", "signals": ["gloss-overlap"] }
+  ],
+  "provenance": {
+    "work": "ADR-026 golden-vector fixture",
+    "author": "n/a",
+    "year": 2026,
+    "source": "Project Gutenberg #0",
+    "url": "https://www.gutenberg.org/ebooks/0",
+    "licence": "Public Domain (fixture, not a real work)",
+    "retrieved": "2026-07-27"
+  }
+}

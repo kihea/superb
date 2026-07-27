@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "In his victrix he required all that was here visible—the imprint of high cultivation, the consecration of a careful and authoritative protection, the adjuncts that Fashion decrees, Wealth purchases, and Taste adjusts; for these conditions his spirit stipulated ere it surrendered: they were here to the utmost fulfilled; and now, proud, impassioned, yet fearing, he did homage to Paulina as his sovereign. As for her, the smile of feeling, rather than of conscious power, slept soft in her eyes. They parted. He passed me at speed, hardly feeling the earth he skimmed, and seeing nothing on either hand. He looked very handsome; mettle and purpose were roused in him fully.",
   "words": [
-    "cultivation",
-    "surrendered",
-    "fearing",
-    "sovereign"
+    {
+      "word": "cultivation",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "surrendered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sovereign",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

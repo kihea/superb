@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I never saw a man I so disliked, and yet I scarce know why. He must be deformed somewhere; he gives a strong feeling of deformity, although I couldn’t specify the point. He’s an extraordinary looking man, and yet I really can name nothing out of the way. No, sir; I can make no hand of it; I can’t describe him. And it’s not want of memory; for I declare I can see him this moment.” Mr. Utterson again walked some way in silence and obviously under a weight of consideration.",
   "words": [
-    "disliked",
-    "declare"
+    {
+      "word": "disliked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "declare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

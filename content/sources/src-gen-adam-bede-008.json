@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Have you got nothing better to think on this good Sunday as poor old Thias Bede’s to be put into the ground, and him drownded i’ th’ dead o’ the night, as it’s enough to make one’s back run cold, but you must be ’dizening yourself as if there was a wedding i’stid of a funeral?” “Well, Aunt,” said Hetty, “I can’t be ready so soon as everybody else, when I’ve got Totty’s things to put on. And I’d ever such work to make her stand still.” Hetty was coming downstairs, and Mrs. Poyser, in her plain bonnet and shawl, was standing below. If ever a girl looked as if she had been made of roses, that girl was Hetty in her Sunday hat and frock. For her hat was trimmed with pink, and her frock had pink spots, sprinkled on a white ground. There was nothing but pink and white about her, except in her dark hair and eyes and her little buckled shoes.",
   "words": [
-    "bonnet",
-    "roses"
+    {
+      "word": "bonnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "roses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

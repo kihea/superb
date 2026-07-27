@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The consequence is the dinner gets cold, and I have dyspepsia. That silly ass Silverton brings them to the house—he writes poetry, you know, and Bertha and he are getting tremendously thick. She could write better than any of ’em if she chose, and I don’t blame her for wanting clever fellows about; all I say is: ‘Don’t let me see ’em eat!’” The gist of this strange communication gave Lily a distinct thrill of pleasure. Under ordinary circumstances, there would have been nothing surprising in an invitation from Bertha Dorset; but since the Bellomont episode an unavowed hostility had kept the two women apart. Now, with a start of inner wonder, Lily felt that her thirst for retaliation had died out.",
   "words": [
-    "thrill"
+    {
+      "word": "thrill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

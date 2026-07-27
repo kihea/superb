@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Clear and cold, with such heaps of sunshine you'd never dream it was zero weather. But you have to be careful, and always wear furs when you're driving, or out for any length of time. Three hours in this open air is as good as a pint of Chinkie's best champagne. It makes me tingle. We are living high, with several barrels of frozen game--geese, duck and prairie-chicken--and also an old tin trunk stuffed full of beef-roasts, cut the right size.",
   "words": [
-    "barrels"
+    {
+      "word": "barrels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

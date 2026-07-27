@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "We went through the yard so as to see what the hounds would do. They knowed us, and didn’t make no more noise than country dogs is always doing when anything comes by in the night. When we got to the cabin we took a look at the front and the two sides; and on the side I warn’t acquainted with—which was the north side—we found a square window-hole, up tolerable high, with just one stout board nailed across it. I says: “Here’s the ticket. This hole’s big enough for Jim to get through if we wrench off the board.” Tom says: “It’s as simple as tit-tat-toe, three-in-a-row, and as easy as playing hooky.",
   "words": [
-    "cabin",
-    "warn"
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

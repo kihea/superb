@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The chair rolled swiftly forward and in another minute had disappeared. Peter now sped up the mountain as if on wings, not pausing till he was well in shelter of a large blackberry bush, for he had no wish to be seen by Uncle. But he was anxious to see what had become of the chair, and his bush was well placed for that. Himself hidden, he could watch what happened below and see what Uncle did without being discovered himself. So he looked, and there he saw his enemy running faster and faster down hill, then it turned head over heels several times, and finally, after one great bound, rolled over and over to its complete destruction.",
   "words": [
-    "rolled"
+    {
+      "word": "rolled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

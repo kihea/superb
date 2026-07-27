@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Freddy was at his wittiest, referring to Cecil as the “Fiasco”—family honoured pun on fiance. Mrs. Honeychurch, amusing and portly, promised well as a mother-in-law. As for Lucy and Cecil, for whom the temple had been built, they also joined in the merry ritual, but waited, as earnest worshippers should, for the disclosure of some holier shrine of joy. Lucy As a Work of Art A few days after the engagement was announced Mrs. Honeychurch made Lucy and her Fiasco come to a little garden-party in the neighbourhood, for naturally she wanted to show people that her daughter was marrying a presentable man. Cecil was more than presentable; he looked distinguished, and it was very pleasant to see his slim figure keeping step with Lucy, and his long, fair face responding when Lucy spoke to him.",
   "words": [
-    "pun",
-    "fiance",
-    "amusing",
-    "shrine"
+    {
+      "word": "pun",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fiance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amusing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

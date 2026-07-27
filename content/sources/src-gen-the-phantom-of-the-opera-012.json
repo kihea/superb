@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Moncharmin understood what he meant, for, with a distracted gesture, he said: \"Oh, tell everything and have done with it!\" As for Mifroid, he looked at the managers and at Raoul by turns and wondered whether he had strayed into a lunatic asylum. He passed his hand through his hair. \"A ghost,\" he said, \"who, on the same evening, carries off an opera-singer and steals twenty-thousand francs is a ghost who must have his hands very full! If you don't mind, we will take the questions in order.",
   "words": [
-    "steals"
+    {
+      "word": "steals",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

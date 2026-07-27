@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Is there any enjoyment in it, if his opinion is that he is aggrieved? If you are cheated out of a single dollar by your neighbor, you do not rest satisfied with knowing you are cheated, or with saying that you are cheated, or even with petitioning him to pay you your due; but you take effectual steps at once to obtain the full amount, and see that you are never cheated again. Action from principle,—the perception and the performance of right,—changes things and relations; it is essentially revolutionary, and does not consist wholly with anything which was. It not only divided states and churches, it divides families; aye, it divides the individual, separating the diabolical in him from the divine. Unjust laws exist: shall we be content to obey them, or shall we endeavor to amend them, and obey them until we have succeeded, or shall we transgress them at once?",
   "words": [
-    "enjoyment",
-    "neighbor",
-    "unjust"
+    {
+      "word": "enjoyment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unjust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

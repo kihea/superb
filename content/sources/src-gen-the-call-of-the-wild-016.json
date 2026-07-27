@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Men were holding their breaths, intensely unconscious of the fact. “Now, MUSH!” Thornton’s command cracked out like a pistol-shot. Buck threw himself forward, tightening the traces with a jarring lunge. His whole body was gathered compactly together in the tremendous effort, the muscles writhing and knotting like live things under the silky fur. His great chest was low to the ground, his head forward and down, while his feet were flying like mad, the claws scarring the hard-packed snow in parallel grooves.",
   "words": [
-    "unconscious",
-    "grooves"
+    {
+      "word": "unconscious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grooves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

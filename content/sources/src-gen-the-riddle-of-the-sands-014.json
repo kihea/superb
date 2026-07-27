@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "For an hour we were at the extreme strain, I of physical exertion, he of mental. I could not get into a steady swing, for little checks were constant. My right scull was for ever skidding on mud or weeds, and the backward suck of shoal water clogged our progress. Once we were both of us out in the slime tugging at the dinghy’s sides; then in again, blundering on. I found the fog bemusing, lost all idea of time and space, and felt like a senseless marionette kicking and jerking to a mad music without tune or time.",
   "words": [
-    "mud",
-    "weeds",
-    "slime",
-    "senseless"
+    {
+      "word": "mud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weeds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "senseless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

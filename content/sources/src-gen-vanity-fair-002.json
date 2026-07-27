@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"Why, your friend has worked miracles.\" \"The more the better,\" said Miss Amelia; who, like almost all women who are worth a pin, was a match-maker in her heart, and would have been delighted that Joseph should carry back a wife to India. She had, too, in the course of this few days' constant intercourse, warmed into a most tender friendship for Rebecca, and discovered a million of virtues and amiable qualities in her which she had not perceived when they were at Chiswick together. For the affection of young ladies is of as rapid growth as Jack's bean-stalk, and reaches up to the sky in a night. It is no blame to them that after marriage this Sehnsucht nach der Liebe subsides.",
   "words": [
-    "der"
+    {
+      "word": "der",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

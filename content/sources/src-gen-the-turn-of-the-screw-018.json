@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Flora was so markedly feverish that an illness was perhaps at hand; she had passed a night of extreme unrest, a night agitated above all by fears that had for their subject not in the least her former, but wholly her present, governess. It was not against the possible re-entrance of Miss Jessel on the scene that she protested—it was conspicuously and passionately against mine. I was promptly on my feet of course, and with an immense deal to ask; the more that my friend had discernibly now girded her loins to meet me once more. This I felt as soon as I had put to her the question of her sense of the child’s sincerity as against my own. “She persists in denying to you that she saw, or has ever seen, anything?” My visitor’s trouble, truly, was great.",
   "words": [
-    "markedly",
-    "unrest"
+    {
+      "word": "markedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unrest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Turn of the Screw",

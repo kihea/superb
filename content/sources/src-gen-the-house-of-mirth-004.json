@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The sight restored Lily’s good humour, and knowing the peculiar disguise which Mr. Dorset’s marital fears assumed, she asked gaily: “Aren’t you horribly jealous of her?” Dorset greeted the sally with delight. “Oh, abominably—you’ve just hit it—keeps me awake at night. The doctors tell me that’s what has knocked my digestion out—being so infernally jealous of her.—I can’t eat a mouthful of this stuff, you know,” he added suddenly, pushing back his plate with a clouded countenance; and Lily, unfailingly adaptable, accorded her radiant attention to his prolonged denunciation of other people’s cooks, with a supplementary tirade on the toxic qualities of melted butter. It was not often that he found so ready an ear; and, being a man as well as a dyspeptic, it may be that as he poured his grievances into it he was not insensible to its rosy symmetry. At any rate he engaged Lily so long that the sweets were being handed when she caught a phrase on her other side, where Miss Corby, the comic woman of the company, was bantering Jack Stepney on his approaching engagement.",
   "words": [
-    "restored",
-    "supplementary",
-    "symmetry"
+    {
+      "word": "restored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supplementary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "symmetry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "So when Jozef was fifteen years old he went to the coast to make his fortune. And the old father and mother had a hard time of it, for old Andrei found it no easy thing to get about, having had his feet frozen years before. He stumped around like a hen with frost-bitten claws, Olga said, and his wife, old as she was, had to help him in the fields. One whole winter, he told Olga's father, they had lived on turnips. But season after season dragged on, and still they existed, God knows how.",
   "words": [
-    "hen"
+    {
+      "word": "hen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

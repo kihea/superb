@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Your friend will not take it amiss I hope. Of course I have not transcribed beyond the first eight lines.” Mr. Elton certainly did not very well know what to say. He looked rather doubtingly—rather confused; said something about “honour,”—glanced at Emma and at Harriet, and then seeing the book open on the table, took it up, and examined it very attentively. With the view of passing off an awkward moment, Emma smilingly said, “You must make my apologies to your friend; but so good a charade must not be confined to one or two. He may be sure of every woman’s approbation while he writes with such gallantry.” “I have no hesitation in saying,” replied Mr. Elton, though hesitating a good deal while he spoke; “I have no hesitation in saying—at least if my friend feels at all as I do—I have not the smallest doubt that, could he see his little effusion honoured as I see it, (looking at the book again, and replacing it on the table), he would consider it as the proudest moment of his life.” After this speech he was gone as soon as possible.",
   "words": [
-    "examined",
-    "apologies",
-    "hesitation"
+    {
+      "word": "examined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apologies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hesitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

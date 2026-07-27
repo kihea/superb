@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In the dingiest and dreariest of them our driver suddenly came to a stand. “That’s Audley Court in there,” he said, pointing to a narrow slit in the line of dead-coloured brick. “You’ll find me here when you come back.” Audley Court was not an attractive locality. The narrow passage led us into a quadrangle paved with flags and lined by sordid dwellings. We picked our way among groups of dirty children, and through lines of discoloured linen, until we came to Number 46, the door of which was decorated with a small slip of brass on which the name Rance was engraved.",
   "words": [
-    "pointing",
-    "slit",
-    "flags"
+    {
+      "word": "pointing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flags",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

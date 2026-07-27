@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“There was one of the Munchkin girls who was so beautiful that I soon grew to love her with all my heart. She, on her part, promised to marry me as soon as I could earn enough money to build a better house for her; so I set to work harder than ever. But the girl lived with an old woman who did not want her to marry anyone, for she was so lazy she wished the girl to remain with her and do the cooking and the housework. So the old woman went to the Wicked Witch of the East, and promised her two sheep and a cow if she would prevent the marriage. Thereupon the Wicked Witch enchanted my axe, and when I was chopping away at my best one day, for I was anxious to get the new house and my wife as soon as possible, the axe slipped all at once and cut off my left leg.",
   "words": [
-    "cow",
-    "chopping",
-    "slipped"
+    {
+      "word": "cow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chopping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

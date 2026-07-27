@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "No doubt she told him her opinion of it, when, another blind-man being in office, they were so very confidential together, behind the curtains. Scrooge's niece was not one of the blind-man's buff party, but was made comfortable with a large chair and a footstool, in a snug corner, where the Ghost and Scrooge were close behind her. But she joined in the forfeits, and loved her love to admiration with all the letters of the alphabet. Likewise at the game of How, When, and Where, she was very great, and to the secret joy of Scrooge's nephew, beat her sisters hollow: though they were sharp girls too, as Topper could have told you. There might have been twenty people there, young and old, but they all played, and so did Scrooge; for wholly forgetting in the interest he had in what was going on, that his voice made no sound in their ears, he sometimes came out with his guess quite loud, and very often guessed quite right, too; for the sharpest needle, best Whitechapel, warranted not to cut in the eye, was not sharper than Scrooge; blunt as he took it in his head to be.",
   "words": [
-    "confidential",
-    "niece",
-    "admiration",
-    "alphabet",
-    "needle",
-    "sharper",
-    "blunt"
+    {
+      "word": "confidential",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alphabet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "needle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sharper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "Over and above the darkness and the mystery of the procession, Harvey could feel the land close round him once more, with all its thousands of people asleep, and the smell of earth after rain, and the familiar noise of a switching-engine coughing to herself in a freight-yard; and all those things made his heart beat and his throat dry up as he stood by the foresheet. They heard the anchor-watch snoring on a lighthouse-tug, nosed into a pocket of darkness where a lantern glimmered on either side; somebody waked with a grunt, threw them a rope, and they made fast to a silent wharf flanked with great iron-roofed sheds fall of warm emptiness, and lay there without a sound. Then Harvey sat down by the wheel, and sobbed and sobbed as though his heart would break, and a tall woman who had been sitting on a weigh-scale dropped down into the schooner and kissed Dan once on the cheek; for she was his mother, and she had seen the We're Here by the lightning flashes. She took no notice of Harvey till he had recovered himself a little and Disko had told her his story.",
   "words": [
-    "coughing",
-    "freight",
-    "tug",
-    "nosed",
-    "lantern",
-    "grunt",
-    "cheek"
+    {
+      "word": "coughing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "freight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nosed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

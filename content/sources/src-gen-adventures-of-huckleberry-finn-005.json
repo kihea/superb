@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Chickens knows when it’s gwyne to rain, en so do de birds, chile.” The river went on raising and raising for ten or twelve days, till at last it was over the banks. The water was three or four foot deep on the island in the low places and on the Illinois bottom. On that side it was a good many miles wide, but on the Missouri side it was the same old distance across—a half a mile—because the Missouri shore was just a wall of high bluffs. Daytimes we paddled all over the island in the canoe, It was mighty cool and shady in the deep woods, even if the sun was blazing outside. We went winding in and out amongst the trees, and sometimes the vines hung so thick we had to back away and go some other way.",
   "words": [
-    "canoe"
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

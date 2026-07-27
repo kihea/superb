@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Heretofore, the mother, while loving her child with the intensity of a sole affection, had schooled herself to hope for little other return than the waywardness of an April breeze, which spends its time in airy sport, and has its gusts of inexplicable passion, and is petulant in its best of moods, and chills oftener than caresses you, when you take it to your bosom; in requital of which misdemeanours it will sometimes, of its own vague purpose, kiss your cheek with a kind of doubtful tenderness, and play gently with your hair, and then be gone about its other idle business, leaving a dreamy pleasure at your heart. And this, moreover, was a mother’s estimate of the child’s disposition. Any other observer might have seen few but unamiable traits, and have given them a far darker colouring. But now the idea came strongly into Hester’s mind, that Pearl, with her remarkable precocity and acuteness, might already have approached the age when she could have been made a friend, and intrusted with as much of her mother’s sorrows as could be imparted, without irreverence either to the parent or the child.",
   "words": [
-    "approached"
+    {
+      "word": "approached",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

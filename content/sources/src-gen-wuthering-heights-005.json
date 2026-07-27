@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Don’t take on, and fret about it too much: it can’t be helped. And besides, you should have known better than to choose such a rush of a lass!’” “And what did the master answer?” I inquired. “I think he swore: but I didn’t mind him, I was straining to see the bairn,” and she began again to describe it rapturously. I, as zealous as herself, hurried eagerly home to admire, on my part; though I was very sad for Hindley’s sake. He had room in his heart only for two idols—his wife and himself: he doted on both, and adored one, and I couldn’t conceive how he would bear the loss.",
   "words": [
-    "swore"
+    {
+      "word": "swore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

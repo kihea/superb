@@ -3,7 +3,13 @@
   "pool": "sourced",
   "text": "“Undoubtedly.” “You consider it, undoubtedly, a handsome sum of money. Now, that handsome sum of money, Pip, is your own. It is a present to you on this day, in earnest of your expectations. And at the rate of that handsome sum of money per annum, and at no higher rate, you are to live until the donor of the whole appears. That is to say, you will now take your money affairs entirely into your own hands, and you will draw from Wemmick one hundred and twenty-five pounds per quarter, until you are in communication with the fountain-head, and no longer with the mere agent.",
   "words": [
-    "donor"
+    {
+      "word": "donor",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

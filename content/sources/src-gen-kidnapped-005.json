@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Here he is; here he shall bide.” “Admitting that you have been paid in a proportion,” said the other, “I will crave leave humbly to say that I have not. Paid I am, and none too much, to be the second officer of this old tub, and you ken very well if I do my best to earn it. But I was paid for nothing more.” “If ye could hold back your hand from the tin-pan, Mr. Riach, I would have no complaint to make of ye,” returned the skipper; “and instead of asking riddles, I make bold to say that ye would keep your breath to cool your porridge. We’ll be required on deck,” he added, in a sharper note, and set one foot upon the ladder. But Mr. Riach caught him by the sleeve.",
   "words": [
-    "sharper"
+    {
+      "word": "sharper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The price of it made no difference. She counted the money out to the waiter and left an extra coin on his tray, whereupon he bowed before her as before a princess of royal blood. There was still money in her purse, and her next temptation presented itself in the shape of a matinee poster. It was a little later when she entered the theatre, the play had begun and the house seemed to her to be packed. But there were vacant seats here and there, and into one of them she was ushered, between brilliantly dressed women who had gone there to kill time and eat candy and display their gaudy attire.",
   "words": [
-    "coin",
-    "purse",
-    "attire"
+    {
+      "word": "coin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "purse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

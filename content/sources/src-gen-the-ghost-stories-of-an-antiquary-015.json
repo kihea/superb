@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Flanagan anxious to the last, and trying to peer up at him with the lamp-light in his eyes. That'll do. Thank you!\" in the same whisper. Before he could tap at the door, then darkening in the receding light, it opened suddenly, and a big Irish woman bounced out, and then whisked in again, calling to some one in an inner room: \"Here he is, Mrs. Mill'r,\" and then bounced out again, with a \"Walk royt in, if you plaze; here's the choild\"--and whisked in again, with a \"Sure an' Jehms was quick;\" never once looking at him, and utterly unconscious of the presence of her landlord.",
   "words": [
-    "lamp"
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

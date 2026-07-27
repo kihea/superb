@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I won’t say a word until I get some peptone into my arteries. And the salt.” “One word,” said I. “Have you been time travelling?” “Yes,” said the Time Traveller, with his mouth full, nodding his head. “I’d give a shilling a line for a verbatim note,” said the Editor. The Time Traveller pushed his glass towards the Silent Man and rang it with his fingernail; at which the Silent Man, who had been staring at his face, started convulsively, and poured him wine.",
   "words": [
-    "travelling",
-    "nodding"
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nodding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

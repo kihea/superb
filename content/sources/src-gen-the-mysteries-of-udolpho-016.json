@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "On the Count’s repeating his action, and accompanying it with words, Valancourt answered him with a look of deep resentment, and refused to leave the place, till she should revive, or to resign her for a moment to the care of any person. In the next instant, his conscience seemed to inform him of what had been the subject of the Count’s conversation with Emily, and indignation flashed in his eyes; but it was quickly repressed, and succeeded by an expression of serious anguish, that induced the Count to regard him with more pity than resentment, and the view of which so much affected Emily, when she again revived, that she yielded to the weakness of tears. But she soon restrained them, and, exerting her resolution to appear recovered, she rose, thanked the Count and Henri, with whom Valancourt had entered the garden, for their care, and moved towards the château, without noticing Valancourt, who, heart-struck by her manner, exclaimed in a low voice—“Good God! how have I deserved this?—what has been said, to occasion this change?” Emily, without replying, but with increased emotion, quickened her steps.",
   "words": [
-    "resentment",
-    "revive",
-    "conscience",
-    "revived",
-    "thanked"
+    {
+      "word": "resentment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thanked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

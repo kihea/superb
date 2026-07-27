@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But I am here, and no person touches this paper but me—not alive! She tried to get me out of the room—it was too patent! But I said it was so quiet and empty and clean now that I believed I would lie down again and sleep all I could; and not to wake me even for dinner—I would call when I woke. So now she is gone, and the servants are gone, and the things are gone, and there is nothing left but that great bedstead nailed down, with the canvas mattress we found on it. We shall sleep downstairs to-night, and take the boat home to-morrow.",
   "words": [
-    "mattress"
+    {
+      "word": "mattress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Yellow Wallpaper",

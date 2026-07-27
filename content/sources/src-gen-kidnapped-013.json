@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Do you wish to hang your father?” and forgetful of my presence, carried on at him a long time together in the Gaelic, the young man answering nothing; only the wife, at the name of hanging, throwing her apron over her face and sobbing out louder than before. This was all wretched for a stranger like myself to hear and see; and I was right glad when Alan returned, looking like himself in his fine French clothes, though (to be sure) they were now grown almost too battered and withered to deserve the name of fine. I was then taken out in my turn by another of the sons, and given that change of clothing of which I had stood so long in need, and a pair of Highland brogues made of deer-leather, rather strange at first, but after a little practice very easy to the feet. By the time I came back Alan must have told his story; for it seemed understood that I was to fly with him, and they were all busy upon our equipment.",
   "words": [
-    "apron"
+    {
+      "word": "apron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Now he’s crying for an axe. It would be a shame to break down that beautiful door! “John dear!” said I in the gentlest voice, “the key is down by the front steps, under a plantain leaf!” That silenced him for a few moments. Then he said—very quietly indeed, “Open the door, my darling!” “I can’t,” said I. “The key is down by the front door under a plantain leaf!” And then I said it again, several times, very gently and slowly, and said it so often that he had to go and see, and he got it, of course, and came in.",
   "words": [
-    "darling"
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Yellow Wallpaper",

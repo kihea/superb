@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then I stood and waited. The house had fallen into a dead silence; a whole minute passed away, and nothing stirred but the bats overhead. I knocked again, and hearkened again. By this time my ears had grown so accustomed to the quiet, that I could hear the ticking of the clock inside as it slowly counted out the seconds; but whoever was in that house kept deadly still, and must have held his breath. I was in two minds whether to run away; but anger got the upper hand, and I began instead to rain kicks and buffets on the door, and to shout out aloud for Mr. Balfour.",
   "words": [
-    "shout"
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And it had something that looked like long hair.” “Thank you,” said Mr Butler, K.C., and sat down suddenly, as if he had got what he wanted. Captain Cutler was a far less plausible and composed witness than Sir Wilson, but his account of the opening incidents was solidly the same. He described the return of Bruno to his dressing-room, the dispatching of himself to buy a bunch of lilies-of-the-valley, his return to the upper end of the passage, the thing he saw in the passage, his suspicion of Seymour, and his struggle with Bruno. But he could give little artistic assistance about the black figure that he and Seymour had seen. Asked about its outline, he said he was no art critic--with a somewhat too obvious sneer at Seymour.",
   "words": [
-    "suspicion",
-    "outline"
+    {
+      "word": "suspicion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outline",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

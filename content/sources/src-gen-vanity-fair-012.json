@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Rawdon minor had made up his face for a tremendous howl--the severity of the blow indeed authorized that indulgence; but just as he was going to begin, the father interposed. \"For God's sake, Rawdy, don't wake Mamma,\" he cried. And the child, looking in a very hard and piteous way at his father, bit his lips, clenched his hands, and didn't cry a bit. Rawdon told that story at the clubs, at the mess, to everybody in town. \"By Gad, sir,\" he explained to the public in general, \"what a good plucked one that boy of mine is--what a trump he is!",
   "words": [
-    "howl"
+    {
+      "word": "howl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

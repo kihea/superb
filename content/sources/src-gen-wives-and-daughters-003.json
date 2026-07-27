@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Then he turned into the surgery, and found Mr. Coxe had had his watching too, and had, indeed, remained at the window gazing, moonstruck, at the empty road, up which the young lady had disappeared. Mr. Gibson startled him from his reverie by a sharp, almost venomous, speech about some small neglect of duty a day or two before. That night Mr. Gibson insisted on passing by the bedside of a poor girl whose parents were worn-out by many wakeful anxious nights succeeding to hard-working days. Molly cried a little, but checked her tears as soon as she remembered how annoyed her father would have been at the sight of them. It was very pleasant driving quickly along in the luxurious carriage, through the pretty green lanes, with dog-roses and honeysuckles so plentiful and rathe in the hedges, that she once or twice was tempted to ask the coachman to stop till she had gathered a nosegay.",
   "words": [
-    "molly",
-    "cried",
-    "lanes",
-    "hedges"
+    {
+      "word": "molly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lanes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hedges",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

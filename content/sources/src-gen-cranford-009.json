@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Oh, she’s the widow of Mr Jamieson—that’s Mrs Jamieson’s late husband, you know—widow of his eldest brother. Mrs Jamieson was a Miss Walker, daughter of Governor Walker. ‘Your ladyship.’ My dear, if they fix on that way of speaking, you must just let me practice a little on you first, for I shall feel so foolish and hot saying it the first time to Lady Glenmire.” It was really a relief to Miss Matty when Mrs Jamieson came on a very unpolite errand. I notice that apathetic people have more quiet impertinence than others; and Mrs Jamieson came now to insinuate pretty plainly that she did not particularly wish that the Cranford ladies should call upon her sister-in-law. I can hardly say how she made this clear; for I grew very indignant and warm, while with slow deliberation she was explaining her wishes to Miss Matty, who, a true lady herself, could hardly understand the feeling which made Mrs Jamieson wish to appear to her noble sister-in-law as if she only visited “county” families.",
   "words": [
-    "eldest"
+    {
+      "word": "eldest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

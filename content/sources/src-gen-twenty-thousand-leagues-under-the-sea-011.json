@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As for myself, I passed my hand over my forehead, on which stood large drops of cold perspiration. “Let us reflect,” said I, “and take our time. Hunting otters in submarine forests, as we did in the Island of Crespo, will pass; but going up and down at the bottom of the sea, where one is almost certain to meet sharks, is quite another thing! I know well that in certain countries, particularly in the Andaman Islands, the negroes never hesitate to attack them with a dagger in one hand and a running noose in the other; but I also know that few who affront those creatures ever return alive. However, I am not a negro, and if I were I think a little hesitation in this case would not be ill-timed.” At this moment Conseil and the Canadian entered, quite composed, and even joyous.",
   "words": [
-    "submarine"
+    {
+      "word": "submarine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

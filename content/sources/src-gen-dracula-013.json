@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Besides, I know you loved my poor Lucy--” Here he turned away and covered his face with his hands. I could hear the tears in his voice. Mr. Morris, with instinctive delicacy, just laid a hand for a moment on his shoulder, and then walked quietly out of the room. I suppose there is something in woman’s nature that makes a man free to break down before her and express his feelings on the tender or emotional side without feeling it derogatory to his manhood; for when Lord Godalming found himself alone with me he sat down on the sofa and gave way utterly and openly. I sat down beside him and took his hand.",
   "words": [
-    "sofa",
-    "beside"
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

@@ -3,12 +3,43 @@
   "pool": "sourced",
   "text": "Then the falcons on the circlet borne by the falconer ahead began to beat their wings and scream, and from somewhere out of sight the notes of a hunting-horn floated across the moor. The hounds sprang away before us and vanished in the twilight, the falcons flapped and squealed upon their perch, and the girl, taking up the song of the horn, began to hum. Clear and mellow her voice sounded in the night air. “Chasseur, chasseur, chassez encore, Quittez Rosette et Jeanneton, Tonton, tonton, tontaine, tonton, Ou, pour, rabattre, dès l’aurore, Que les Amours soient de planton, Tonton, tontaine, tonton.” As I listened to her lovely voice a grey mass which rapidly grew more distinct loomed up in front, and the horn rang out joyously through the tumult of the hounds and falcons. A torch glimmered at a gate, a light streamed through an opening door, and we stepped upon a wooden bridge which trembled under our feet and rose creaking and straining behind us as we passed over the moat and into a small stone court, walled on every side.",
   "words": [
-    "moor",
-    "hounds",
-    "twilight",
-    "pour",
-    "torch",
-    "streamed"
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hounds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "streamed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

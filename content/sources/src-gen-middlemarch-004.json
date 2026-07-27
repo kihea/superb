@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And I understand he is a naturalist.” “Mr. Farebrother, my dear sir, is a man deeply painful to contemplate. I suppose there is not a clergyman in this country who has greater talents.” Mr. Bulstrode paused and looked meditative. “I have not yet been pained by finding any excessive talent in Middlemarch,” said Lydgate, bluntly. “What I desire,” Mr. Bulstrode continued, looking still more serious, “is that Mr. Farebrother’s attendance at the hospital should be superseded by the appointment of a chaplain—of Mr. Tyke, in fact—and that no other spiritual aid should be called in.” “As a medical man I could have no opinion on such a point unless I knew Mr. Tyke, and even then I should require to know the cases in which he was applied.” Lydgate smiled, but he was bent on being circumspect.",
   "words": [
-    "contemplate"
+    {
+      "word": "contemplate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Two dived into the glen and began to climb my ridge, while the others kept their own side of the hill. I felt as if I were taking part in a schoolboy game of hare and hounds. But very soon it began to seem less of a game. Those fellows behind were hefty men on their native heath. Looking back I saw that only three were following direct, and I guessed that the others had fetched a circuit to cut me off.",
   "words": [
-    "ridge"
+    {
+      "word": "ridge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But as nott cows will keep it back as well as the horned ones, I don’t quite agree to it. Do ye know that riddle about the nott cows, Jonathan? Why do nott cows give less milk in a year than horned?” “I don’t!” interposed the milkmaid, “Why do they?” “Because there bain’t so many of ’em,” said the dairyman. “Howsomever, these gam’sters do certainly keep back their milk to-day. Folks, we must lift up a stave or two—that’s the only cure for’t.” Songs were often resorted to in dairies hereabout as an enticement to the cows when they showed signs of withholding their usual yield; and the band of milkers at this request burst into melody—in purely business-like tones, it is true, and with no great spontaneity; the result, according to their own belief, being a decided improvement during the song’s continuance.",
   "words": [
-    "withholding",
-    "yield"
+    {
+      "word": "withholding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yield",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

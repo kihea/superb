@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Twelve miles his plantation used to run,—a regular barony. It is nearly all gone now; only straggling bits belong to the family, and the rest has passed to Jews and Negroes. Even the bits which are left are heavily mortgaged, and, like the rest of the land, tilled by tenants. Here is one of them now,—a tall brown man, a hard worker and a hard drinker, illiterate, but versed in farmlore, as his nodding crops declare. This distressingly new board house is his, and he has just moved out of yonder moss-grown cabin with its one square room.",
   "words": [
-    "plantation",
-    "versed",
-    "crops",
-    "moss"
+    {
+      "word": "plantation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "versed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crops",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Turned out for Sunday by his uncle’s tailor, who had had a free hand and a notion of pretty waistcoats and of his grand little air, Miles’s whole title to independence, the rights of his sex and situation, were so stamped upon him that if he had suddenly struck for freedom I should have had nothing to say. I was by the strangest of chances wondering how I should meet him when the revolution unmistakably occurred. I call it a revolution because I now see how, with the word he spoke, the curtain rose on the last act of my dreadful drama, and the catastrophe was precipitated. “Look here, my dear, you know,” he charmingly said, “when in the world, please, am I going back to school?” Transcribed here the speech sounds harmless enough, particularly as uttered in the sweet, high, casual pipe with which, at all interlocutors, but above all at his eternal governess, he threw off intonations as if he were tossing roses.",
   "words": [
-    "stamped",
-    "tossing"
+    {
+      "word": "stamped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tossing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Turn of the Screw",

@@ -3,9 +3,25 @@
   "pool": "sourced",
   "text": "“Come, sir, come!” cried Frankland, rushing upstairs. “You will see with your own eyes and judge for yourself.” The telescope, a formidable instrument mounted upon a tripod, stood upon the flat leads of the house. Frankland clapped his eye to it and gave a cry of satisfaction. “Quick, Dr. Watson, quick, before he passes over the hill!” There he was, sure enough, a small urchin with a little bundle upon his shoulder, toiling slowly up the hill. When he reached the crest I saw the ragged uncouth figure outlined for an instant against the cold blue sky.",
   "words": [
-    "telescope",
-    "crest",
-    "outlined"
+    {
+      "word": "telescope",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outlined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

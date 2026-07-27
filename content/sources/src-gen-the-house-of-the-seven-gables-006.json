@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The early sunshine—as fresh as that which peeped into Eve’s bower while she and Adam sat at breakfast there—came twinkling through the branches of the pear-tree, and fell quite across the table. All was now ready. There were chairs and plates for three. A chair and plate for Hepzibah,—the same for Phœbe,—but what other guest did her cousin look for? Throughout this preparation there had been a constant tremor in Hepzibah’s frame; an agitation so powerful that Phœbe could see the quivering of her gaunt shadow, as thrown by the firelight on the kitchen wall, or by the sunshine on the parlor floor.",
   "words": [
-    "branches",
-    "pear"
+    {
+      "word": "branches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

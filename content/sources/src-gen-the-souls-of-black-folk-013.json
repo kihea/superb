@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Left by the best elements of the South with little protection or oversight, he has been made in law and custom the victim of the worst and most unscrupulous men in each community. The crop-lien system which is depopulating the fields of the South is not simply the result of shiftlessness on the part of Negroes, but is also the result of cunningly devised laws as to mortgages, liens, and misdemeanors, which can be made by conscienceless men to entrap and snare the unwary until escape is impossible, further toil a farce, and protest a crime. I have seen, in the Black Belt of Georgia, an ignorant, honest Negro buy and pay for a farm in installments three separate times, and then in the face of law and decency the enterprising American who sold it to him pocketed the money and deed and left the black man landless, to labor on his own land at thirty cents a day.",
   "words": [
-    "oversight",
-    "snare",
-    "farce",
-    "installments"
+    {
+      "word": "oversight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "installments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

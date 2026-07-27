@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I admired its strange aspect, surrounded by black rocks upon which its white houses and forts stood in relief. I saw the rounded domes of its mosques, the elegant points of its minarets, its fresh and verdant terraces. But it was only a vision! The Nautilus soon sank under the waves of that part of the sea. We passed along the Arabian coast of Mahrah and Hadramaut, for a distance of six miles, its undulating line of mountains being occasionally relieved by some ancient ruin.",
   "words": [
-    "mosques"
+    {
+      "word": "mosques",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "The grandmother was silent, and Heidi now began to give her a lively description of her life with the grandfather, and of the days she spent on the mountain with the goats, and then went on to tell her of what she did now during the winter, and how her grandfather was able to make all sorts of things, seats and stools, and mangers where the hay was put for Little Swan and Little Bear, besides a new large water-tub for her to bathe in when the summer came, and a new milk-bowl and spoon, and Heidi grew more and more animated as she enumerated all the beautiful things which were made so magically out of pieces of wood; she then told the grandmother how she stood by him and watched all he did, and how she hoped some day to be able to make the same herself. The grandmother listened with the greatest attention, only from time to time addressing her daughter, \"Do you hear that, Brigitta? Do you hear what she is saying about Uncle?\"",
   "words": [
-    "lively",
-    "tub",
-    "bathe",
-    "listened"
+    {
+      "word": "lively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tub",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bathe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

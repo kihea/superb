@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“What did you mean by that?” “Perhaps I may kiss your hand?” “No, you may not.” “Then I may shake your hand?” “No.” “Then I wish you good night without caring for either. Good-bye, good-bye.” She returned no answer, and with the bow of a dancing-master he vanished on the other side of the pool as he had come. Eustacia sighed—it was no fragile maiden sigh, but a sigh which shook her like a shiver. Whenever a flash of reason darted like an electric light upon her lover—as it sometimes would—and showed his imperfections, she shivered thus. But it was over in a second, and she loved on.",
   "words": [
-    "sighed",
-    "sigh"
+    {
+      "word": "sighed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

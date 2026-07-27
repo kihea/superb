@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Meanwhile, it was clear that active preparations were being made by Twala to subdue us. Already strong bodies of armed men were patrolling round and round the foot of the hill, and there were other signs also of coming assault. Infadoos and the chiefs, however, were of opinion that no attack would take place that day, which would be devoted to preparation and to the removal of every available means of the moral effect produced upon the minds of the soldiery by the supposed magical darkening of the moon. The onslaught would be on the morrow, they said, and they proved to be right. Meanwhile, we set to work to strengthen the position in all ways possible.",
   "words": [
-    "patrolling",
-    "onslaught",
-    "morrow",
-    "strengthen"
+    {
+      "word": "patrolling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "onslaught",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strengthen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Upon the whole, I got very little by this voyage that was of any use to me; for, as to the money, I had no manner of occasion for it; it was to me as the dirt under my feet, and I would have given it all for three or four pair of English shoes and stockings, which were things I greatly wanted, but had had none on my feet for many years. I had, indeed, got two pair of shoes now, which I took off the feet of two drowned men whom I saw in the wreck, and I found two pair more in one of the chests, which were very welcome to me; but they were not like our English shoes, either for ease or service, being rather what we call pumps than shoes. I found in this seaman’s chest about fifty pieces of eight, in rials, but no gold: I supposed this belonged to a poorer man than the other, which seemed to belong to some officer.",
   "words": [
-    "chests",
-    "poorer"
+    {
+      "word": "chests",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "poorer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

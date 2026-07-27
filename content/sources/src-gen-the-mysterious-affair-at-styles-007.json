@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I wish we could have spared you the pain and publicity of an inquest, but of course it’s quite unavoidable in the absence of a doctor’s certificate.” “Yes, I suppose so.” “Clever man, Bauerstein. Great authority on toxicology, I believe.” “Indeed,” said John with a certain stiffness in his manner. Then he added rather hesitatingly: “Shall we have to appear as witnesses—all of us, I mean?” “You, of course—and ah—er—Mr.—er—Inglethorp.” A slight pause ensued before the lawyer went on in his soothing manner: “Any other evidence will be simply confirmatory, a mere matter of form.” “I see.” A faint expression of relief swept over John’s face. It puzzled me, for I saw no occasion for it. “If you know of nothing to the contrary,” pursued Mr. Wells, “I had thought of Friday.",
   "words": [
-    "puzzled"
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

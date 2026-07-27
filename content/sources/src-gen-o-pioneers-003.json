@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Carl came quietly and slowly up the garden path, looking intently at Alexandra. She did not hear him. She was standing perfectly still, with that serious ease so characteristic of her. Her thick, reddish braids, twisted about her head, fairly burned in the sunlight. The air was cool enough to make the warm sun pleasant on one’s back and shoulders, and so clear that the eye could follow a hawk up and up, into the blazing blue depths of the sky.",
   "words": [
-    "sunlight"
+    {
+      "word": "sunlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

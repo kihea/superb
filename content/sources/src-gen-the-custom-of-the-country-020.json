@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Mrs. Spragg's letters gave the impression that the days of big strokes were over for her husband, that he had gone down in the conflict with forces beyond his measure. If he had remained in Apex the tide of its new prosperity might have carried him to wealth; but New York's huge waves of success had submerged instead of floating him, and Rolliver's enmity was a hand perpetually stretched out to strike him lower. At most, Mr. Spragg's tenacity would keep him at the level he now held, and though he and his wife had still further simplified their way of living Undine understood that their self-denial would not increase her opportunities. She felt no compunction in continuing to accept an undiminished allowance: it was the hereditary habit of the parent animal to despoil himself for his progeny. But this conviction did not seem incompatible with a sentimental pity for her parents.",
   "words": [
-    "tide",
-    "conviction"
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conviction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

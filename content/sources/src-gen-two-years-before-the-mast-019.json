@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The same form is usually gone through in every case. In the first place, as to the previous good character of the party. Witnesses are brought from the town in which he resides, to testify to his good character, and to his unexceptionable conduct when on shore. They say that he is a good father, or husband, or son, or neighbor, and that they never saw in him any signs of a cruel or tyrannical disposition. I have even known evidence admitted to show the character he bore when a boy at school.",
   "words": [
-    "testify"
+    {
+      "word": "testify",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

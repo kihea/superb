@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "To be obedient to them was to escape hurt and make for happiness. He did not reason the question out in this man fashion. He merely classified the things that hurt and the things that did not hurt. And after such classification he avoided the things that hurt, the restrictions and restraints, in order to enjoy the satisfactions and the remunerations of life. Thus it was that in obedience to the law laid down by his mother, and in obedience to the law of that unknown and nameless thing, fear, he kept away from the mouth of the cave.",
   "words": [
-    "obedience"
+    {
+      "word": "obedience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "White Fang",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Newland Archer arrived at the Chiverses' on Friday evening, and on Saturday went conscientiously through all the rites appertaining to a week-end at Highbank. In the morning he had a spin in the ice-boat with his hostess and a few of the hardier guests; in the afternoon he \"went over the farm\" with Reggie, and listened, in the elaborately appointed stables, to long and impressive disquisitions on the horse; after tea he talked in a corner of the firelit hall with a young lady who had professed herself broken-hearted when his engagement was announced, but was now eager to tell him of her own matrimonial hopes; and finally, about midnight, he assisted in putting a gold-fish in one visitor's bed, dressed up a burglar in the bath-room of a nervous aunt, and saw in the small hours by joining in a pillow-fight that ranged from the nurseries to the basement. But on Sunday after luncheon he borrowed a cutter, and drove over to Skuytercliff. People had always been told that the house at Skuytercliff was an Italian villa. Those who had never been to Italy believed it; so did some who had.",
   "words": [
-    "rites",
-    "aunt",
-    "pillow",
-    "villa"
+    {
+      "word": "rites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "villa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Age of Innocence",

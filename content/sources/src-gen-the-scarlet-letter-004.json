@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Very soon, however, his look became keen and penetrative. A writhing horror twisted itself across his features, like a snake gliding swiftly over them, and making one little pause, with all its wreathed intervolutions in open sight. His face darkened with some powerful emotion, which, nevertheless, he so instantaneously controlled by an effort of his will, that, save at a single moment, its expression might have passed for calmness. After a brief space, the convulsion grew almost imperceptible, and finally subsided into the depths of his nature. When he found the eyes of Hester Prynne fastened on his own, and saw that she appeared to recognize him, he slowly and calmly raised his finger, made a gesture with it in the air, and laid it on his lips.",
   "words": [
-    "pause",
-    "gesture"
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

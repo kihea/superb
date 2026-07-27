@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "We drifted fairly into the Loriotte, her larboard bow into our starboard quarter, carrying away a part of our starboard quarter railing, and breaking off her larboard bumpkin, and one or two stanchions above the deck. We saw our handsome sailor, Jackson, on the forecastle, with the Sandwich Islanders, working away to get us clear. After paying out chain, we swung clear, but our anchors were no doubt afoul of hers. We manned the windlass, and hove, and hove away, but to no purpose. Sometimes we got a little upon the cable, but a good surge would take it all back again.",
   "words": [
-    "starboard",
-    "sailor"
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

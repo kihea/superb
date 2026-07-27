@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Only have to wait ten years—they’d all come up after you. But Marian says she wants some neighbours—she doesn’t want to be a pioneer. She says that if she’s got to be the first settler she had better go out to Minnesota. I guess we’ll move up little by little; when we get tired of one street we’ll go higher. So you see we’ll always have a new house; it’s a great advantage to have a new house; you get all the latest improvements.",
   "words": [
-    "pioneer",
-    "settler"
+    {
+      "word": "pioneer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "settler",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

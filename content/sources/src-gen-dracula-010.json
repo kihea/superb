@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Death had given back part of her beauty, for her brow and cheeks had recovered some of their flowing lines; even the lips had lost their deadly pallor. It was as if the blood, no longer needed for the working of the heart, had gone to make the harshness of death as little rude as might be. “We thought her dying whilst she slept, And sleeping when she died.” I stood beside Van Helsing, and said:-- “Ah, well, poor girl, there is peace for her at last. It is the end!” He turned to me, and said with grave solemnity:-- “Not so; alas! It is only the beginning!” When I asked him what he meant, he only shook his head and answered:-- “We can do nothing as yet.",
   "words": [
-    "deadly"
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

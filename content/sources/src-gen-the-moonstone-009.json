@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I waved my hand as much as to say, “You’re heartily welcome, sir.” Some of the other female servants appeared, peeping after him round the corner. He was one of those men whom the women all like. At the last moment, I stopped the pony-chaise, and begged as a favour that he would let us hear from him by letter. He didn’t seem to heed what I said—he was looking round from one thing to another, taking a sort of farewell of the old house and grounds. “Tell us where you are going to, sir!” I said, holding on by the chaise, and trying to get at his future plans in that way.",
   "words": [
-    "servants"
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

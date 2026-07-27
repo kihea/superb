@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "No doubt their chief aim was artistic torture, but some at least of the inquisitors must have had a touch of scientific curiosity.” “But,” said I, “these things—these animals talk!” He said that was so, and proceeded to point out that the possibility of vivisection does not stop at a mere physical metamorphosis. A pig may be educated. The mental structure is even less determinate than the bodily. In our growing science of hypnotism we find the promise of a possibility of superseding old inherent instincts by new suggestions, grafting upon or replacing the inherited fixed ideas. Very much indeed of what we call moral education, he said, is such an artificial modification and perversion of instinct; pugnacity is trained into courageous self-sacrifice, and suppressed sexuality into religious emotion.",
   "words": [
-    "curiosity",
-    "instincts",
-    "instinct"
+    {
+      "word": "curiosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "instincts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "instinct",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

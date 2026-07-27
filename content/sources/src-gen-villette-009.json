@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You have sought for her the costliest flowers; you have busied your brain in devising gifts the most delicate: such, one would have thought, as only a woman could have imagined; and in addition, Miss Fanshawe owns a set of ornaments, to purchase which your generosity must have verged on extravagance.” The modesty Ginevra herself had never evinced in this matter, now flushed all over the face of her admirer. “Nonsense!” he said, destructively snipping a skein of silk with my scissors.",
   "words": [
-    "admirer"
+    {
+      "word": "admirer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

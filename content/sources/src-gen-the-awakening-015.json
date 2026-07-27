@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And I tell you there are not many who would—not many, my dear.” “Some way I don’t feel moved to speak of things that trouble me. Don’t think I am ungrateful or that I don’t appreciate your sympathy. There are periods of despondency and suffering which take possession of me. But I don’t want anything but my own way. That is wanting a good deal, of course, when you have to trample upon the lives, the hearts, the prejudices of others—but no matter—still, I shouldn’t want to trample upon the little lives.",
   "words": [
-    "sympathy"
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

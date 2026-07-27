@@ -26,13 +26,19 @@
       "description": "The excerpt itself, 80-200 words."
     },
     "words": {
-      "type": "array",
-      "minItems": 1,
+      "type": "array", "minItems": 1,
       "items": {
-        "type": "string",
-        "minLength": 1
+        "type": "object", "additionalProperties": false,
+        "required": ["word", "signals"],
+        "properties": {
+          "word":    { "type": "string", "minLength": 1 },
+          "signals": {
+            "type": "array", "minItems": 1, "uniqueItems": true,
+            "items": { "enum": ["apposition", "definition-marker", "gloss-overlap", "hand-picked"] }
+          }
+        }
       },
-      "description": "Only the words the excerpt carries in informative context — not every word present."
+      "description": "Only the words the excerpt carries in informative context — not every word present. Each word carries the signal class(es) that claimed it (ADR-026, workspace/decisions/README.md) so contamination is auditable rather than silent."
     },
     "provenance": {
       "type": "object",

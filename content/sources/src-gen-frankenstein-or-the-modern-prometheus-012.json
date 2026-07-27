@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge. I could with pleasure have destroyed the cottage and its inhabitants and have glutted myself with their shrieks and misery. “When night came I quitted my retreat and wandered in the wood; and now, no longer restrained by the fear of discovery, I gave vent to my anguish in fearful howlings. I was like a wild beast that had broken the toils, destroying the objects that obstructed me and ranging through the wood with a stag-like swiftness. What a miserable night I passed!",
   "words": [
-    "anguish",
-    "fearful",
-    "miserable"
+    {
+      "word": "anguish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fearful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Frankenstein; or, The Modern Prometheus",

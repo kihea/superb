@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Good-night.” He thought me over for a moment, then went out by the inner door. I immediately turned the key in the outer one. I sat down again; sat for a time in a kind of stagnant mood, so weary, emotionally, mentally, and physically, that I could not think beyond the point at which he had left me. The black window stared at me like an eye. At last with an effort I put out the light and got into the hammock.",
   "words": [
-    "mentally"
+    {
+      "word": "mentally",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

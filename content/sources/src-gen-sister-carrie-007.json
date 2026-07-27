@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "At her window, she thought it over, rocking to and fro, and gazing out across the lamp-lit park toward the lamp-lit houses on Warren and Ashland avenues. She was too wrought up to care to go down to eat, too pensive to do aught but rock and sing. Some old tunes crept to her lips, and, as she sang them, her heart sank. She longed and longed and longed. It was now for the old cottage room in Columbia City, now the mansion upon the Shore Drive, now the fine dress of some lady, now the elegance of some scene.",
   "words": [
-    "avenues"
+    {
+      "word": "avenues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

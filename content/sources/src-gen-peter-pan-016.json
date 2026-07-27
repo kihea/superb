@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "The first thing he did on finding himself alone in the fast falling night was to tiptoe to Slightly’s tree, and make sure that it provided him with a passage. Then for long he remained brooding; his hat of ill omen on the sward, so that any gentle breeze which had arisen might play refreshingly through his hair. Dark as were his thoughts his blue eyes were as soft as the periwinkle. Intently he listened for any sound from the nether world, but all was as silent below as above; the house under the ground seemed to be but one more empty tenement in the void. Was that boy asleep, or did he stand waiting at the foot of Slightly’s tree, with his dagger in his hand?",
   "words": [
-    "brooding",
-    "breeze",
-    "listened",
-    "void"
+    {
+      "word": "brooding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "void",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

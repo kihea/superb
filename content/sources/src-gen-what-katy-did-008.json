@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "screamed Miss Petingill, tapping loudly on the glass. \"Don't you see that it's raining? you ought to be ashamed to let your little brothers and sisters go out and get wet in such a way!\" But nobody heard her, and the children vanished into the shed, where nothing could be seen but a distant flapping of pantalettes and frilled trousers, going up what seemed to be a ladder, farther back in the shed. So, with a dissatisfied cluck, Miss Petingill drew back her head, perched the spectacles on her nose, and went to work again on Katy's plaid alpaca, which had two immense zigzag rents across the middle of the front breadth.",
   "words": [
-    "ladder"
+    {
+      "word": "ladder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

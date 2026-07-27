@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "One could easily believe that in that dead landscape the germs of life and fruitfulness were extinct forever. Alexandra has settled back into her old routine. There are weekly letters from Emil. Lou and Oscar she has not seen since Carl went away. To avoid awkward encounters in the presence of curious spectators, she has stopped going to the Norwegian Church and drives up to the Reform Church at Hanover, or goes with Marie Shabata to the Catholic Church, locally known as “the French Church.” She has not told Marie about Carl, or her differences with her brothers.",
   "words": [
-    "spectators"
+    {
+      "word": "spectators",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

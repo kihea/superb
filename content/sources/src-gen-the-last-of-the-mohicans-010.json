@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Delicacy, no less than prudence, now urged him to retire; and he had moved cautiously round the body of the tree for that purpose, when another sound drew his attention, and once more arrested his footsteps. It was a low and almost inaudible movement of the water, and was succeeded by a grating of pebbles one against the other. In a moment he saw a dark form rise, as it were, out of the lake, and steal without further noise to the land, within a few feet of the place where he himself stood. A rifle next slowly rose between his eyes and the watery mirror; but before it could be discharged his own hand was on the lock. “Hugh!” exclaimed the savage, whose treacherous aim was so singularly and so unexpectedly interrupted.",
   "words": [
-    "pebbles",
-    "watery"
+    {
+      "word": "pebbles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "watery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

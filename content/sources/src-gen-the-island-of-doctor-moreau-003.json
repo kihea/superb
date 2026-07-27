@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The other two men were with Montgomery, erecting a pile of smaller packages on a low-wheeled truck. The llama was still on the launch with the rabbit hutches; the staghounds were still lashed to the thwarts. The pile of things completed, all three men laid hold of the truck and began shoving the ton-weight or so upon it after the puma. Presently Montgomery left them, and coming back to me held out his hand. “I’m glad,” said he, “for my own part.",
   "words": [
-    "pile"
+    {
+      "word": "pile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

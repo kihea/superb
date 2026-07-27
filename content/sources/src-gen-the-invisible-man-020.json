@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Help—hold! Hold his feet!” In another second there was a simultaneous rush upon the struggle, and a stranger coming into the road suddenly might have thought an exceptionally savage game of Rugby football was in progress. And there was no shouting after Kemp’s cry—only a sound of blows and feet and heavy breathing. Then came a mighty effort, and the Invisible Man threw off a couple of his antagonists and rose to his knees. Kemp clung to him in front like a hound to a stag, and a dozen hands gripped, clutched, and tore at the Unseen.",
   "words": [
-    "shouting",
-    "gripped"
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gripped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

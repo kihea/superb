@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "All I say to you, Miss Lucy Snowe, is—that you ought to treat Professor Paul Emanuel decently.” I could not, and did not contradict such a sentiment. “Tell me,” he pursued, “when it is your fête-day, and I will not grudge a few centimes for a small offering.” “You will be like me, Monsieur: this cost more than a few centimes, and I did not grudge its price.” And taking from the open desk the little box, I put it into his hand. “It lay ready in my lap this morning,” I continued; “and if Monsieur had been rather more patient, and Mademoiselle St. Pierre less interfering—perhaps I should say, too, if I had been calmer and wiser—I should have given it then.” He looked at the box: I saw its clear warm tint and bright azure circlet pleased his eyes. I told him to open it. “My initials!” said he, indicating the letters in the lid.",
   "words": [
-    "grudge",
-    "azure"
+    {
+      "word": "grudge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "azure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

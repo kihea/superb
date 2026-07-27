@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And now, having a full supply of food for all the guests I expected, I gave the Spaniard leave to go over to the main, to see what he could do with those he had left behind him there. I gave him a strict charge not to bring any man who would not first swear in the presence of himself and the old savage that he would in no way injure, fight with, or attack the person he should find in the island, who was so kind as to send for them in order to their deliverance; but that they would stand by him and defend him against all such attempts, and wherever they went would be entirely under and subjected to his command; and that this should be put in writing, and signed in their hands. How they were to have done this, when I knew they had neither pen nor ink, was a question which we never asked.",
   "words": [
-    "ink"
+    {
+      "word": "ink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

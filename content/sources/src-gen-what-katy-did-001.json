@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "THE LITTLE CARRS I was sitting in the meadows one day, not long ago, at a place where there was a small brook. It was a hot day. The sky was very blue, and white clouds, like great swans, went floating over it to and fro. Just opposite me was a clump of green rushes, with dark velvety spikes, and among them one single tall, red cardinal flower, which was bending over the brook as if to see its own beautiful face in the water. But the cardinal did not seem to be vain.",
   "words": [
-    "meadows",
-    "clouds",
-    "swans"
+    {
+      "word": "meadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swans",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

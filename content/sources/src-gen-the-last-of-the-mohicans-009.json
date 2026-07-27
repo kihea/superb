@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I hope there is no reason to distrust his fidelity?” “The fidelity of ‘The Long Rifle’ is well known to me,” returned Munro, “and is above suspicion; though his usual good fortune seems, at last, to have failed. Montcalm has got him, and with the accursed politeness of his nation, he has sent him in with a doleful tale, of ‘knowing how I valued the fellow, he could not think of retaining him.’ A Jesuitical way that, Major Duncan Heyward, of telling a man of his misfortunes!” “But the general and his succor?” “Did ye look to the south as ye entered, and could ye not see them?” said the old soldier, laughing bitterly. you’re an impatient boy, sir, and cannot give the gentlemen leisure for their march!” “They are coming, then? The scout has said as much?” “When? and by what path?",
   "words": [
-    "gentlemen",
-    "scout"
+    {
+      "word": "gentlemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

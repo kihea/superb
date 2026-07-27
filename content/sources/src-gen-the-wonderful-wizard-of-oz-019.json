@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“We must cross this strange place in order to get to the other side,” said Dorothy, “for it would be unwise for us to go any other way except due South.” They began walking through the country of the china people, and the first thing they came to was a china milkmaid milking a china cow. As they drew near, the cow suddenly gave a kick and kicked over the stool, the pail, and even the milkmaid herself, and all fell on the china ground with a great clatter. Dorothy was shocked to see that the cow had broken her leg off, and that the pail was lying in several small pieces, while the poor milkmaid had a nick in her left elbow. “There!” cried the milkmaid angrily. “See what you have done!",
   "words": [
-    "stool"
+    {
+      "word": "stool",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

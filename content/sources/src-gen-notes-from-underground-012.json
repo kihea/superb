@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“How twenty-one roubles?” I asked in some agitation, with a show of being offended; “if you count me it will not be twenty-one, but twenty-eight roubles.” It seemed to me that to invite myself so suddenly and unexpectedly would be positively graceful, and that they would all be conquered at once and would look at me with respect. “Do you want to join, too?” Simonov observed, with no appearance of pleasure, seeming to avoid looking at me. He knew me through and through. It infuriated me that he knew me so thoroughly. I am an old schoolfellow of his, too, I believe, and I must own I feel hurt that you have left me out,” I said, boiling over again.",
   "words": [
-    "offended",
-    "seeming"
+    {
+      "word": "offended",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seeming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

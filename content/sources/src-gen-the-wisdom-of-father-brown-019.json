@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Please do not think I mean that Boulnois could not be so wicked. Anybody can be wicked--as wicked as he chooses. We can direct our moral wills; but we can’t generally change our instinctive tastes and ways of doing things. Boulnois might commit a murder, but not this murder. He would not snatch Romeo’s sword from its romantic scabbard; or slay his foe on the sundial as on a kind of altar; or leave his body among the roses, or fling the sword away among the pines.",
   "words": [
-    "wicked"
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Any open assertion of the infinitely superior importance of such a ministry as mine, compared with the ministry of the medical man, would only have provoked the doctor to practise on the human weakness of his patient, and to threaten to throw up the case. Happily, there are more ways than one of sowing the good seed, and few persons are better versed in those ways than myself. “You might feel stronger, dear, in an hour or two,” I said. “Or you might wake, tomorrow morning, with a sense of something wanting, and even this unpretending volume might be able to supply it. You will let me leave the book, aunt?",
   "words": [
-    "aunt"
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

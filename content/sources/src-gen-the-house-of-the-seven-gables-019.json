@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Again and again, however, and half a dozen other agains, with the inexorable pertinacity of a child intent upon some object important to itself, did he renew his efforts for admittance. He had, doubtless, set his heart upon an elephant; or, possibly, with Hamlet, he meant to eat a crocodile. In response to his more violent attacks, the bell gave, now and then, a moderate tinkle, but could not be stirred into clamor by any exertion of the little fellow’s childish and tiptoe strength. Holding by the door-handle, he peeped through a crevice of the curtain, and saw that the inner door, communicating with the passage towards the parlor, was closed. “Miss Pyncheon!” screamed the child, rapping on the window-pane, “I want an elephant!” There being no answer to several repetitions of the summons, Ned began to grow impatient; and his little pot of passion quickly boiling over, he picked up a stone, with a naughty purpose to fling it through the window; at the same time blubbering and sputtering with wrath.",
   "words": [
-    "stirred",
-    "curtain",
-    "naughty"
+    {
+      "word": "stirred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "naughty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

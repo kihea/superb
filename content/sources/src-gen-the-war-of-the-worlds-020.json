@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I remember, clearly and coldly and vividly, all that I did that day until the time that I stood weeping and praising God upon the summit of Primrose Hill. And then I forget. Of the next three days I know nothing. I have learned since that, so far from my being the first discoverer of the Martian overthrow, several such wanderers as myself had already discovered this on the previous night. One man—the first—had gone to St. Martin’s-le-Grand, and, while I sheltered in the cabmen’s hut, had contrived to telegraph to Paris.",
   "words": [
-    "wanderers",
-    "sheltered",
-    "hut"
+    {
+      "word": "wanderers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sheltered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

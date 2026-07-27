@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "On the other hand, Mrs. Ladbrook was standing in skull-cap and front, with her turban in her hand, curtsying and smiling blandly and saying, “After you, ma’am,” to another lady in similar circumstances, who had politely offered the precedence at the looking-glass. But Miss Nancy had no sooner made her curtsy than an elderly lady came forward, whose full white muslin kerchief, and mob-cap round her curls of smooth grey hair, were in daring contrast with the puffed yellow satins and top-knotted caps of her neighbours. She approached Miss Nancy with much primness, and said, with a slow, treble suavity— “Niece, I hope I see you well in health.” Miss Nancy kissed her aunt’s cheek dutifully, and answered, with the same sort of amiable primness, “Quite well, I thank you, aunt; and I hope I see you the same.” “Thank you, niece; I keep my health for the present.",
   "words": [
-    "smiling",
-    "curls"
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curls",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

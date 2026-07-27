@@ -3,9 +3,25 @@
   "pool": "sourced",
   "text": "No adequate expression of the beauty and profound pathos with which it impresses us is attainable. This being, made only for happiness, and heretofore so miserably failing to be happy,—his tendencies so hideously thwarted, that, some unknown time ago, the delicate springs of his character, never morally or intellectually strong, had given way, and he was now imbecile,—this poor, forlorn voyager from the Islands of the Blest, in a frail bark, on a tempestuous sea, had been flung, by the last mountain-wave of his shipwreck, into a quiet harbor. There, as he lay more than half lifeless on the strand, the fragrance of an earthly rose-bud had come to his nostrils, and, as odors will, had summoned up reminiscences or visions of all the living and breathing beauty amid which he should have had his home. With his native susceptibility of happy influences, he inhales the slight, ethereal rapture into his soul, and expires! And how did Phœbe regard Clifford?",
   "words": [
-    "tendencies",
-    "strand",
-    "rapture"
+    {
+      "word": "tendencies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strand",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rapture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

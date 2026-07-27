@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "“The hawk which comes from the clouds can return when he will,” he said; “give them the guns.” This time the scout seized the rifle with avidity; nor had Magua, though he watched the movements of the marksman with jealous eyes, any further cause for apprehension. “Now let it be proved, in the face of this tribe of Delawares, which is the better man,” cried the scout, tapping the butt of his piece with that finger which had pulled so many fatal triggers. “You see that gourd hanging against yonder tree, major; if you are a marksman fit for the borders, let me see you break its shell!” Duncan noted the object, and prepared himself to renew the trial. The gourd was one of the usual little vessels used by the Indians, and it was suspended from a dead branch of a small pine, by a thong of deerskin, at the full distance of a hundred yards. So strangely compounded is the feeling of self-love, that the young soldier, while he knew the utter worthlessness of the suffrages of his savage umpires, forgot the sudden motives of the contest in a wish to excel.",
   "words": [
-    "clouds",
-    "scout",
-    "tapping",
-    "pine",
-    "thong",
-    "motives",
-    "excel"
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tapping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thong",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "motives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

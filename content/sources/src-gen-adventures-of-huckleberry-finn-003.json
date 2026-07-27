@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I don’t know how long I was asleep, but all of a sudden there was an awful scream and I was up. There was pap looking wild, and skipping around every which way and yelling about snakes. He said they was crawling up his legs; and then he would give a jump and scream, and say one had bit him on the cheek—but I couldn’t see no snakes. He started and run round and round the cabin, hollering “Take him off! take him off!",
   "words": [
-    "snakes"
+    {
+      "word": "snakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

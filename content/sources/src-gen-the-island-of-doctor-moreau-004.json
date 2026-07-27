@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I heard the puma growling through the wall, and one of the dogs yelped as though it had been struck. Yet surely, and especially to another scientific man, there was nothing so horrible in vivisection as to account for this secrecy; and by some odd leap in my thoughts the pointed ears and luminous eyes of Montgomery’s attendant came back again before me with the sharpest definition. I stared before me out at the green sea, frothing under a freshening breeze, and let these and other strange memories of the last few days chase one another through my mind. What could it all mean? A locked enclosure on a lonely island, a notorious vivisector, and these crippled and distorted men?",
   "words": [
-    "attendant"
+    {
+      "word": "attendant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

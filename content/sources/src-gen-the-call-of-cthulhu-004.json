@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "A dispatch from California describes a theosophist colony as donning white robes en masse for some \"glorious fulfilment\" which never arrives, whilst items from India speak guardedly of serious native unrest toward the end of March. Voodoo orgies multiply in Haiti, and African outposts report ominous mutterings. American officers in the Philippines find certain tribes bothersome about this time, and New York policemen are mobbed by hysterical Levantines on the night of March 22-23. The west of Ireland, too, is full of wild rumor and legendry, and a fantastic painter named Ardois-Bonnot hangs a blasphemous Dream Landscape in the Paris spring salon of 1926. And so numerous are the recorded troubles in insane asylums that only a miracle can have stopped the medical fraternity from noting strange parallelisms and drawing mystified conclusions.",
   "words": [
-    "arrives",
-    "unrest",
-    "voodoo",
-    "conclusions"
+    {
+      "word": "arrives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unrest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voodoo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conclusions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

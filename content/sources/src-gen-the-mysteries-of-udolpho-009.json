@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The man answered, that his servants were then removing him, on a couch, to a neighbouring cottage. Montoni seemed somewhat appeased, on hearing this; and, when Ludovico appeared, a few moments after, and said, that Morano was gone, he told Emily she might retire to her apartment. She withdrew willingly from his presence; but the thought of passing the remainder of the night in a chamber, which the door from the staircase made liable to the intrusion of any person, now alarmed her more than ever, and she determined to call at Madame Montoni’s room, and request, that Annette might be permitted to be with her. On reaching the great gallery, she heard voices seemingly in dispute, and, her spirits now apt to take alarm, she paused, but soon distinguished some words of Cavigni and Verezzi, and went towards them, in the hope of conciliating their difference. They were alone.",
   "words": [
-    "couch",
-    "spirits",
-    "paused"
+    {
+      "word": "couch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spirits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

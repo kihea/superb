@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Quick!” whispered Braith. “Jump!” and West hung dangling until Colette grasped him by the collar, and he was dragged out. Then her nerves gave way and she wept hysterically, but West threw his arm around her and led her across the gardens into the next street, where Braith, after replacing the man-hole cover and piling some stone slabs from the wall over it, rejoined them. It was almost dark. They hurried through the street, now only lighted by burning buildings, or the swift glare of the shells.",
   "words": [
-    "swift"
+    {
+      "word": "swift",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

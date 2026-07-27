@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I only wonder that I am alive after what I have suffered for Edward's sake these last four years. Every thing in such suspense and uncertainty; and seeing him so seldom--we can hardly meet above twice a-year. I am sure I wonder my heart is not quite broke.\" Here she took out her handkerchief; but Elinor did not feel very compassionate. \"Sometimes,\" continued Lucy, after wiping her eyes, \"I think whether it would not be better for us both to break off the matter entirely.\"",
   "words": [
-    "handkerchief"
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

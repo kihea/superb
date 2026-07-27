@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But there was no getting at the place of sojourn of the future abbé; the defiles of the chamber of Aramis were as well guarded as the gardens of Armida. Bazin was stationed in the corridor, and barred his passage with the more intrepidity that, after many years of trial, Bazin found himself near a result of which he had ever been ambitious. In fact, the dream of poor Bazin had always been to serve a churchman; and he awaited with impatience the moment, always in the future, when Aramis would throw aside the uniform and assume the cassock. The daily-renewed promise of the young man that the moment would not long be delayed, had alone kept him in the service of a Musketeer—a service in which, he said, his soul was in constant jeopardy. Bazin was then at the height of joy.",
   "words": [
-    "stationed",
-    "corridor",
-    "barred"
+    {
+      "word": "stationed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corridor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

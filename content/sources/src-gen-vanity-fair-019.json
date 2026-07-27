@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Jos himself, who had looked on her as a good-natured harmless pauper, to whom it was his duty to give victuals and shelter, paid her and the rich little boy, his nephew, the greatest respect--was anxious that she should have change and amusement after her troubles and trials, \"poor dear girl\"--and began to appear at the breakfast-table, and most particularly to ask how she would like to dispose of the day. In her capacity of guardian to Georgy, she, with the consent of the Major, her fellow-trustee, begged Miss Osborne to live in the Russell Square house as long as ever she chose to dwell there; but that lady, with thanks, declared that she never could think of remaining alone in that melancholy mansion, and departed in deep mourning to Cheltenham, with a couple of her old domestics. The rest were liberally paid and dismissed, the faithful old butler, whom Mrs. Osborne proposed to retain, resigning and preferring to invest his savings in a public-house, where, let us hope, he was not unprosperous. Miss Osborne not choosing to live in Russell Square, Mrs. Osborne also, after consultation, declined to occupy the gloomy old mansion there.",
   "words": [
-    "trustee",
-    "mansion",
-    "dismissed",
-    "preferring"
+    {
+      "word": "trustee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dismissed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "preferring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

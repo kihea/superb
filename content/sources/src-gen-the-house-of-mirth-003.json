@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The dinginess of her present life threw into enchanting relief the existence to which she felt herself entitled. To a less illuminated intelligence Mrs. Bart’s counsels might have been dangerous; but Lily understood that beauty is only the raw material of conquest, and that to convert it into success other arts are required. She knew that to betray any sense of superiority was a subtler form of the stupidity her mother denounced, and it did not take her long to learn that a beauty needs more tact than the possessor of an average set of features. Her ambitions were not as crude as Mrs. Bart’s. It had been among that lady’s grievances that her husband—in the early days, before he was too tired—had wasted his evenings in what she vaguely described as “reading poetry”; and among the effects packed off to auction after his death were a score or two of dingy volumes which had struggled for existence among the boots and medicine bottles of his dressing-room shelves.",
   "words": [
-    "convert",
-    "ambitions",
-    "wasted"
+    {
+      "word": "convert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ambitions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wasted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

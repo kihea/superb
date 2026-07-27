@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The old gentleman could not be decoyed outside of his grounds at night. Several times Stapleton lurked about with his hound, but without avail. It was during these fruitless quests that he, or rather his ally, was seen by peasants, and that the legend of the demon dog received a new confirmation. He had hoped that his wife might lure Sir Charles to his ruin, but here she proved unexpectedly independent. She would not endeavour to entangle the old gentleman in a sentimental attachment which might deliver him over to his enemy.",
   "words": [
-    "hound",
-    "sentimental"
+    {
+      "word": "hound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentimental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

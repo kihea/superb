@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The two leaned forward at the same moment and their hands met on the handle of the jug. Mattie’s hand was underneath, and Ethan kept his clasped on it a moment longer than was necessary. The cat, profiting by this unusual demonstration, tried to effect an unnoticed retreat, and in doing so backed into the pickle-dish, which fell to the floor with a crash. Mattie, in an instant, had sprung from her chair and was down on her knees by the fragments. “Oh, Ethan, Ethan—it’s all to pieces!",
   "words": [
-    "jug"
+    {
+      "word": "jug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

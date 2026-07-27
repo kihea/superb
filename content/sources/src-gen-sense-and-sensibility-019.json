@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "At the end of another day or two, Marianne growing visibly stronger every twelve hours, Mrs. Dashwood, urged equally by her own and her daughter's wishes, began to talk of removing to Barton. On her measures depended those of her two friends; Mrs. Jennings could not quit Cleveland during the Dashwoods' stay; and Colonel Brandon was soon brought, by their united request, to consider his own abode there as equally determinate, if not equally indispensable. At his and Mrs. Jennings's united request in return, Mrs. Dashwood was prevailed on to accept the use of his carriage on her journey back, for the better accommodation of her sick child; and the Colonel, at the joint invitation of Mrs. Dashwood and Mrs. Jennings, whose active good-nature made her friendly and hospitable for other people as well as herself, engaged with pleasure to redeem it by a visit at the cottage, in the course of a few weeks.",
   "words": [
-    "redeem"
+    {
+      "word": "redeem",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

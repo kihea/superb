@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The doctor went in, and after a few minutes returned to the landing again, where Oak and the parson still waited. “It is all done, indeed, as she says,” remarked Mr. Granthead, in a subdued voice. “The body has been undressed and properly laid out in grave clothes. Gracious heaven—this mere girl! She must have the nerve of a stoic!” “The heart of a wife merely,” floated in a whisper about the ears of the three, and turning they saw Bathsheba in the midst of them.",
   "words": [
-    "whisper"
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

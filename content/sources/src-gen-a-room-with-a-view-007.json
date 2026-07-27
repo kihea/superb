@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The result is, they mix up towns, rivers, palaces in one inextricable whirl. You know the American girl in Punch who says: ‘Say, poppa, what did we see at Rome?’ And the father replies: ‘Why, guess Rome was the place where we saw the yaller dog.’ There’s travelling for you. ha!” “I quite agree,” said Miss Lavish, who had several times tried to interrupt his mordant wit. “The narrowness and superficiality of the Anglo-Saxon tourist is nothing less than a menace.” “Quite so. Now, the English colony at Florence, Miss Honeychurch—and it is of considerable size, though, of course, not all equally—a few are here for trade, for example.",
   "words": [
-    "travelling"
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

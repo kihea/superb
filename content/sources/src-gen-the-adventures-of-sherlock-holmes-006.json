@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "“I am afraid that I am still a sceptic,” he said. “Theories are all very well, but we have to deal with a hard-headed British jury.” “Nous verrons,” answered Holmes calmly. “You work your own method, and I shall work mine. I shall be busy this afternoon, and shall probably return to London by the evening train.” “And leave your case unfinished?” “No, finished.” “But the mystery?” “It is solved.” “Who was the criminal, then?” “The gentleman I describe.” “But who is he?” “Surely it would not be difficult to find out. This is not such a populous neighbourhood.” Lestrade shrugged his shoulders.",
   "words": [
-    "unfinished",
-    "solved",
-    "gentleman",
-    "neighbourhood",
-    "shrugged"
+    {
+      "word": "unfinished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbourhood",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrugged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

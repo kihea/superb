@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And then their talk began; and he was still more curiously moved, and more and more puzzled. In the first place, he was so used to seeing people rather afraid and embarrassed before him, that he had expected nothing else but that his grandson would be timid or shy. But Cedric was no more afraid of the Earl than he had been of Dougal. He was not bold; he was only innocently friendly, and he was not conscious that there could be any reason why he should be awkward or afraid. The Earl could not help seeing that the little boy took him for a friend and treated him as one, without having any doubt of him at all.",
   "words": [
-    "puzzled",
-    "shy"
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

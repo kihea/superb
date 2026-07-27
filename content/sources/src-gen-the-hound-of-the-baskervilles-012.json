@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Watson,” said the baronet, “it was the cry of a hound.” My blood ran cold in my veins, for there was a break in his voice which told of the sudden horror which had seized him. “What do they call this sound?” he asked. “Who?” “The folk on the countryside.” “Oh, they are ignorant people. Why should you mind what they call it?” “Tell me, Watson. What do they say of it?” I hesitated but could not escape the question.",
   "words": [
-    "veins"
+    {
+      "word": "veins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Such things may seem incredible; but, however wondrous, they are true. Nor is the history of fanatics half so striking in respect to the measureless self-deception of the fanatic himself, as his measureless power of deceiving and bedevilling so many others. But it is time to return to the Pequod. “I fear not thy epidemic, man,” said Ahab from the bulwarks, to Captain Mayhew, who stood in the boat’s stern; “come on board.” But now Gabriel started to his feet. “Think, think of the fevers, yellow and bilious!",
   "words": [
-    "epidemic"
+    {
+      "word": "epidemic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

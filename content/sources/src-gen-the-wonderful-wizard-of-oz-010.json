@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The Lion would have preferred a bed of dried leaves in the forest, and did not like being shut up in a room; but he had too much sense to let this worry him, so he sprang upon the bed and rolled himself up like a cat and purred himself asleep in a minute. The next morning, after breakfast, the green maiden came to fetch Dorothy, and she dressed her in one of the prettiest gowns, made of green brocaded satin. Dorothy put on a green silk apron and tied a green ribbon around Toto’s neck, and they started for the Throne Room of the Great Oz. First they came to a great hall in which were many ladies and gentlemen of the court, all dressed in rich costumes. These people had nothing to do but talk to each other, but they always came to wait outside the Throne Room every morning, although they were never permitted to see Oz.",
   "words": [
-    "satin",
-    "costumes"
+    {
+      "word": "satin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "costumes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

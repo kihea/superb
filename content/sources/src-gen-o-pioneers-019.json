@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "When Alexandra was in bed, wrapped in hot blankets, Ivar came in with his tea and saw that she drank it. Signa asked permission to sleep on the slat lounge outside her door. Alexandra endured their attentions patiently, but she was glad when they put out the lamp and left her. As she lay alone in the dark, it occurred to her for the first time that perhaps she was actually tired of life. All the physical operations of life seemed difficult and painful.",
   "words": [
-    "lounge"
+    {
+      "word": "lounge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

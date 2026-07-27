@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Here he will come presently, and here he will find Mahomet Singh and myself awaiting him. The place is lonely, and none shall know of his coming. The world shall know of the merchant Achmet no more, but the great treasure of the rajah shall be divided among us. What say you to it, Sahib?’ “In Worcestershire the life of a man seems a great and a sacred thing; but it is very different when there is fire and blood all round you and you have been used to meeting death at every turn. Whether Achmet the merchant lived or died was a thing as light as air to me, but at the talk about the treasure my heart turned to it, and I thought of what I might do in the old country with it, and how my folk would stare when they saw their ne’er-do-well coming back with his pockets full of gold moidores.",
   "words": [
-    "pockets"
+    {
+      "word": "pockets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sign of the Four",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I go home in a state of unspeakable bliss, and waltz in imagination, all night long, with my arm round the blue waist of my dear divinity. For some days afterwards, I am lost in rapturous reflections; but I neither see her in the street, nor when I call. I am imperfectly consoled for this disappointment by the sacred pledge, the perished flower. ‘Trotwood,’ says Agnes, one day after dinner. ‘Who do you think is going to be married tomorrow?",
   "words": [
-    "divinity",
-    "reflections",
-    "disappointment"
+    {
+      "word": "divinity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflections",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

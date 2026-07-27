@@ -3,10 +3,31 @@
   "pool": "sourced",
   "text": "The red eastern sky, the northward blackness, the salt Dead Sea, the stony beach crawling with these foul, slow-stirring monsters, the uniform poisonous-looking green of the lichenous plants, the thin air that hurts one’s lungs: all contributed to an appalling effect. I moved on a hundred years, and there was the same red sun—a little larger, a little duller—the same dying sea, the same chill air, and the same crowd of earthy crustacea creeping in and out among the green weed and the red rocks. And in the westward sky, I saw a curved pale line like a vast new moon. “So I travelled, stopping ever and again, in great strides of a thousand years or more, drawn on by the mystery of the earth’s fate, watching with a strange fascination the sun grow larger and duller in the westward sky, and the life of the old earth ebb away. At last, more than thirty million years hence, the huge red-hot dome of the sun had come to obscure nearly a tenth part of the darkling heavens.",
   "words": [
-    "crawling",
-    "monsters",
-    "travelled",
-    "heavens"
+    {
+      "word": "crawling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monsters",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travelled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heavens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

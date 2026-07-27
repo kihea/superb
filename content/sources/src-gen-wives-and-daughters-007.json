@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "\"Why, you say she sleeps a great deal, and doesn't talk much when she's awake, and there's not the slightest hope for her. And yet, at such times, people are kept on the tenter-hooks with watching and waiting. I know it by my dear Kirkpatrick. There really were days when I thought it never would end. But we won't talk any more of such dismal things; you've had quite enough of them, I'm sure, and it always makes me melancholy to hear of illness and death; and yet your papa seems sometimes as if he could talk of nothing else.",
   "words": [
-    "hooks",
-    "melancholy"
+    {
+      "word": "hooks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

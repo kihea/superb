@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "To music, indeed, she devoted too much of her time, as, governess though I was, I frequently told her; but her mother thought that if she liked it, she could not give too much time to the acquisition of so attractive an art. Of fancy-work I knew nothing but what I gathered from my pupil and my own observation; but no sooner was I initiated, than she made me useful in twenty different ways: all the tedious parts of her work were shifted on to my shoulders; such as stretching the frames, stitching in the canvas, sorting the wools and silks, putting in the grounds, counting the stitches, rectifying mistakes, and finishing the pieces she was tired of. At sixteen, Miss Murray was something of a romp, yet not more so than is natural and allowable for a girl of that age, but at seventeen, that propensity, like all other things, began to give way to the ruling passion, and soon was swallowed up in the all-absorbing ambition to attract and dazzle the other sex. But enough of her: now let us turn to her sister. Miss Matilda Murray was a veritable hoyden, of whom little need be said.",
   "words": [
-    "devoted",
-    "tedious",
-    "shifted",
-    "stitching",
-    "stitches"
+    {
+      "word": "devoted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tedious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shifted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stitching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stitches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Agnes Grey",

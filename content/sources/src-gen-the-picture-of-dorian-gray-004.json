@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I am awfully obliged to you.” “That is entirely due to me,” broke in Lord Henry. “Isn’t it, Mr. Gray?” Dorian made no answer, but passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words.",
   "words": [
-    "cheeks",
-    "catching"
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "catching",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Having nothing to do at home, and being arrived at that happy age when a man can be idle with impunity, he took his place once more on the bench at the inn-door, and was reverenced as one of the patriarchs of the village, and a chronicle of the old times “before the war.” It was some time before he could get into the regular track of gossip, or could be made to comprehend the strange events that had taken place during his torpor. How that there had been a revolutionary war,--that the country had thrown off the yoke of old England,--and that, instead of being a subject of his Majesty George the Third, he was now a free citizen of the United States. Rip, in fact, was no politician; the changes of states and empires made but little impression on him; but there was one species of despotism under which he had long groaned, and that was--petticoat government. Happily that was at an end; he had got his neck out of the yoke of matrimony, and could go in and out whenever he pleased, without dreading the tyranny of Dame Van Winkle.",
   "words": [
-    "chronicle",
-    "revolutionary",
-    "politician",
-    "happily",
-    "tyranny"
+    {
+      "word": "chronicle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revolutionary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "politician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "happily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tyranny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

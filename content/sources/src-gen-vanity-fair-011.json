@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The landlord, fearing lest the account should be refused altogether, swore solemnly that the young gent had consumed personally every farthing's worth of the liquor: and Bowls paid the bill finally, and showed it on his return home to Mrs. Firkin, who was shocked at the frightful prodigality of gin; and took the bill to Miss Briggs as accountant-general; who thought it her duty to mention the circumstance to her principal, Miss Crawley. Had he drunk a dozen bottles of claret, the old spinster could have pardoned him. Mr. Fox and Mr. Sheridan drank claret. Gentlemen drank claret. But eighteen glasses of gin consumed among boxers in an ignoble pot-house--it was an odious crime and not to be pardoned readily.",
   "words": [
-    "swore",
-    "gin",
-    "accountant"
+    {
+      "word": "swore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accountant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

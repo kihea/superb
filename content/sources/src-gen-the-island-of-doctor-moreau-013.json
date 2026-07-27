@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Sometimes he would notice it, pat it, call it half-mocking, half-jocular names, and so make it caper with extraordinary delight; sometimes he would ill-treat it, especially after he had been at the whiskey, kicking it, beating it, pelting it with stones or lighted fusees. But whether he treated it well or ill, it loved nothing so much as to be near him. I say I became habituated to the Beast People, that a thousand things which had seemed unnatural and repulsive speedily became natural and ordinary to me. I suppose everything in existence takes its colour from the average hue of our surroundings. Montgomery and Moreau were too peculiar and individual to keep my general impressions of humanity well defined.",
   "words": [
-    "unnatural",
-    "peculiar"
+    {
+      "word": "unnatural",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peculiar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

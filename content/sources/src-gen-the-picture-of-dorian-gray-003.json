@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Your influence would be bad. The world is wide, and has many marvellous people in it. Don’t take away from me the one person who gives to my art whatever charm it possesses: my life as an artist depends on him. Mind, Harry, I trust you.” He spoke very slowly, and the words seemed wrung out of him almost against his will. “What nonsense you talk!” said Lord Henry, smiling, and taking Hallward by the arm, he almost led him into the house.",
   "words": [
-    "charm",
-    "nonsense"
+    {
+      "word": "charm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nonsense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And never smelt anything like it. It was like an insurrection in a gasometer. THE PILGRIMS When I did get to bed at last I was unspeakably tired; the stretching out, and the relaxing of the long-tense muscles, how luxurious, how delicious! but that was as far as I could get--sleep was out of the question for the present. The ripping and tearing and squealing of the nobility up and down the halls and corridors was pandemonium come again, and kept me broad awake.",
   "words": [
-    "ripping"
+    {
+      "word": "ripping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

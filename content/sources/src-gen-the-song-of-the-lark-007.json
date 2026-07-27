@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Dr. Evans said he could easily tell him who was the best piano teacher in Chicago, but that most students’ boarding-houses were “abominable places, where girls got poor food for body and mind.” He gave Dr. Archie several addresses, however, and the doctor went to look the places over. He left Thea in her room, for she seemed tired and was not at all like herself. His inspection of boardinghouses was not encouraging. The only place that seemed to him at all desirable was full, and the mistress of the house could not give Thea a room in which she could have a piano. She said Thea might use the piano in her parlor; but when Dr. Archie went to look at the parlor he found a girl talking to a young man on one of the corner sofas.",
   "words": [
-    "boarding",
-    "encouraging",
-    "mistress",
-    "parlor"
+    {
+      "word": "boarding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "encouraging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

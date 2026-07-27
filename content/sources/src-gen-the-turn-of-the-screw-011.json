@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Their uncle must do the preventing. He must take them away.” “And who’s to make him?” She had been scanning the distance, but she now dropped on me a foolish face. “You, miss.” “By writing to him that his house is poisoned and his little nephew and niece mad?” “But if they are, miss?” “And if I am myself, you mean? That’s charming news to be sent him by a governess whose prime undertaking was to give him no worry.” Mrs. Grose considered, following the children again. “Yes, he do hate worry.",
   "words": [
-    "undertaking"
+    {
+      "word": "undertaking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Turn of the Screw",

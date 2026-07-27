@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Germany’s a thundering great nation,” he said; “I wonder if we shall ever fight her.” A little incident that happened after we anchored deepened the impression left by this conversation. We crept at dusk into a shaded back-water, where our keel almost touched the gravel bed. Opposite us on the Alsen shore there showed, clean-cut against the sky, the spire of a little monument rising from a leafy hollow. “I wonder what that is,” I said. It was scarcely a minute’s row in the dinghy, and when the anchor was down we sculled over to it.",
   "words": [
-    "monument",
-    "leafy",
-    "hollow"
+    {
+      "word": "monument",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "leafy",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "hollow",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

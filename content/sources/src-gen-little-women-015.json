@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Presently Jo said very soberly, as she sat down on the step of the stile, “Laurie, I want to tell you something.” He started as if he had been shot, threw up his head, and cried out in a fierce tone, “Don’t tell me that, Jo, I can’t bear it now!” “Tell what?” she asked, wondering at his violence. “That you love that old man.” “What old man?” demanded Jo, thinking he must mean his grandfather. “That devilish Professor you were always writing about. If you say you love him, I know I shall do something desperate;” and he looked as if he would keep his word, as he clenched his hands with a wrathful spark in his eyes. Jo wanted to laugh, but restrained herself and said warmly, for she too, was getting excited with all this, “Don’t swear, Teddy!",
   "words": [
-    "restrained"
+    {
+      "word": "restrained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As her once elastic walk had become deadened by time, so had her natural pride of life been hindered in its blooming by her necessities. The next slight touch in the shaping of Clym’s destiny occurred a few days after. A barrow was opened on the heath, and Yeobright attended the operation, remaining away from his study during several hours. In the afternoon Christian returned from a journey in the same direction, and Mrs. Yeobright questioned him. “They have dug a hole, and they have found things like flowerpots upside down, Mis’ess Yeobright; and inside these be real charnel bones.",
   "words": [
-    "dug"
+    {
+      "word": "dug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In the one case a man lies dead-alive four generations--mummified in ignorance and sloth--and that qualifies him to command live people, and take their weal and woe into his impotent hands; and in the other case, a man lies bedded with death and worms four generations, and that qualifies him for office in the celestial camp. Does the king's grace approve of this strange law?” The king said: “Why, truly I see naught about it that is strange. All places of honor and of profit do belong, by natural right, to them that be of noble blood, and so these dignities in the army are their property and would be so without this or any rule. The rule is but to mark a limit. Its purpose is to keep out too recent blood, which would bring into contempt these offices, and men of lofty lineage would turn their backs and scorn to take them.",
   "words": [
-    "contempt",
-    "scorn"
+    {
+      "word": "contempt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

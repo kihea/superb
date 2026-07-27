@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“You have told us,” said the President, “that it was impossible to escape from the end of the court. Since Larsan was leaning out of his window, he had left the court. How did he do that?” “He escaped by a most unusual way. He climbed the wall, sprang onto the terrace, and, while we were engaged with the keeper’s body, reached the gallery by the window. He then had little else to do than to open the window, get in and call out to us, as if he had just come from his own room.",
   "words": [
-    "escaped",
-    "terrace"
+    {
+      "word": "escaped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

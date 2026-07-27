@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "‘I ain’t got no call to go and tell her so. I never said six words to her myself, I ain’t a-goin’ to tell her so.’ ‘Would you like me to do it, Mr. Barkis?’ said I, doubtfully. ‘You might tell her, if you would,’ said Mr. Barkis, with another slow look at me, ‘that Barkis was a-waitin’ for a answer. Says you--what name is it?’ ‘Her name?’ ‘Ah!’ said Mr. Barkis, with a nod of his head. ‘Peggotty.’ ‘Chrisen name?",
   "words": [
-    "nod"
+    {
+      "word": "nod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

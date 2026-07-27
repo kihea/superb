@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I did indeed try for a moment to break off the branches, which I would have lit with my dark lantern, but I knocked myself also against the mirrors and remembered, in time, that we had only images of branches to do with. The heat did not go with the daylight; on the contrary, it was now still hotter under the blue rays of the moon. I urged the viscount to hold our weapons ready to fire and not to stray from camp, while I went on looking for my spring. Suddenly, we heard a lion roaring a few yards away. \"Oh,\" whispered the viscount, \"he is quite close!",
   "words": [
-    "hotter"
+    {
+      "word": "hotter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

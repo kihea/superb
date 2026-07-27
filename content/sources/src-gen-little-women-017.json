@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Now I take it all back, for I don’t think you half so nice as when I left you at home. You have grown abominably lazy, you like gossip, and waste time on frivolous things, you are contented to be petted and admired by silly people, instead of being loved and respected by wise ones. With money, talent, position, health, and beauty, ah you like that old Vanity! But it’s the truth, so I can’t help saying it, with all these splendid things to use and enjoy, you can find nothing to do but dawdle, and instead of being the man you ought to be, you are only...” there she stopped, with a look that had both pain and pity in it. “Saint Laurence on a gridiron,” added Laurie, blandly finishing the sentence.",
   "words": [
-    "frivolous"
+    {
+      "word": "frivolous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

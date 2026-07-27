@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But whether I despised them or thought them superior I dropped my eyes almost every time I met anyone. I even made experiments whether I could face so and so’s looking at me, and I was always the first to drop my eyes. This worried me to distraction. I had a sickly dread, too, of being ridiculous, and so had a slavish passion for the conventional in everything external. I loved to fall into the common rut, and had a whole-hearted terror of any kind of eccentricity in myself.",
   "words": [
-    "experiments",
-    "hearted"
+    {
+      "word": "experiments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "One dial records days, and another thousands of days, another millions of days, and another thousands of millions. Now, instead of reversing the levers, I had pulled them over so as to go forward with them, and when I came to look at these indicators I found that the thousands hand was sweeping round as fast as the seconds hand of a watch—into futurity. “As I drove on, a peculiar change crept over the appearance of things. The palpitating greyness grew darker; then—though I was still travelling with prodigious velocity—the blinking succession of day and night, which was usually indicative of a slower pace, returned, and grew more and more marked. This puzzled me very much at first.",
   "words": [
-    "travelling",
-    "velocity",
-    "puzzled"
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velocity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

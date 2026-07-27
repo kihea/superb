@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Across the furthest corner was stretched a ragged sheet. Behind it probably was the bed. There was nothing in the room except two chairs and a sofa covered with American leather, full of holes, before which stood an old deal kitchen-table, unpainted and uncovered. At the edge of the table stood a smoldering tallow-candle in an iron candlestick. It appeared that the family had a room to themselves, not part of a room, but their room was practically a passage.",
   "words": [
-    "sofa",
-    "candle"
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Crime and Punishment",

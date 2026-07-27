@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I don't always spell quite right when I haven't a dictionary, and nobody tells me.” “It will do,” answered the Earl. “Higgins will not complain of the spelling. I'm not the philanthropist; you are. Dip your pen in the ink.” Fauntleroy took up the pen and dipped it in the ink-bottle, then he arranged himself in position, leaning on the table. “Now,” he inquired, “what must I say?” “You may say, 'Higgins is not to be interfered with, for the present,' and sign it, 'Fauntleroy,'” said the Earl.",
   "words": [
-    "leaning"
+    {
+      "word": "leaning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

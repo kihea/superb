@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Clarence dropped in from time to time and said the public excitement was growing and growing all the time, and the whole country filling up with human masses as far as one could see from the battlements. At last the wind sprang up and a cloud appeared--in the right quarter, too, and just at nightfall. For a little while I watched that distant cloud spread and blacken, then I judged it was time for me to appear. I ordered the torch-baskets to be lit, and Merlin liberated and sent to me. A quarter of an hour later I ascended the parapet and there found the king and the court assembled and gazing off in the darkness toward Merlin's Tower.",
   "words": [
-    "distant",
-    "judged",
-    "torch",
-    "baskets",
-    "lit"
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "judged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "baskets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

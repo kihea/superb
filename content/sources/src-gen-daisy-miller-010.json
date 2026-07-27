@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Is it Mr. Giovanelli?” asked the hostess. Winterbourne was watching the young girl; at this question his attention quickened. She stood there, smiling and smoothing her bonnet ribbons; she glanced at Winterbourne. Then, while she glanced and smiled, she answered, without a shade of hesitation, “Mr. Giovanelli--the beautiful Giovanelli.” “My dear young friend,” said Mrs. Walker, taking her hand pleadingly, “don’t walk off to the Pincio at this hour to meet a beautiful Italian.” “Well, he speaks English,” said Mrs. Miller.",
   "words": [
-    "smiling",
-    "bonnet",
-    "smiled"
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bonnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

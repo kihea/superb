@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Scudder would never have left them in that state, for he was the tidiest of mortals. Someone must have been searching for something—perhaps for the pocket-book. I went round the flat and found that everything had been ransacked—the inside of books, drawers, cupboards, boxes, even the pockets of the clothes in my wardrobe, and the sideboard in the dining-room. There was no trace of the book. Most likely the enemy had found it, but they had not found it on Scudder’s body.",
   "words": [
-    "wardrobe"
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

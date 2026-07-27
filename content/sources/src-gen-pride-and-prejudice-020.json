@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The recollection of what I then said, of my conduct, my manners, my expressions during the whole of it, is now, and has been many months, inexpressibly painful to me. Your reproof, so well applied, I shall never forget: ‘Had you behaved in a more gentlemanlike manner.’ Those were your words. You know not, you can scarcely conceive, how they have tortured me; though it was some time, I confess, before I was reasonable enough to allow their justice.” “I was certainly very far from expecting them to make so strong an impression. I had not the smallest idea of their being ever felt in such a way.” “I can easily believe it. You thought me then devoid of every proper feeling, I am sure you did.",
   "words": [
-    "manners",
-    "behaved"
+    {
+      "word": "manners",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behaved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Pride and Prejudice",

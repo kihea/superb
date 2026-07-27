@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "We shall see.’ The tremendous rain occasioned infinite confusion, when the train stopped at its destination. Gutters and pipes had burst, drains had overflowed, and streets were under water. In the first instant of alighting, Mrs. Sparsit turned her distracted eyes towards the waiting coaches, which were in great request. ‘She will get into one,’ she considered, ‘and will be away before I can follow in another. At all risks of being run over, I must see the number, and hear the order given to the coachman.’ But, Mrs. Sparsit was wrong in her calculation.",
   "words": [
-    "infinite",
-    "confusion"
+    {
+      "word": "infinite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confusion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Hard Times",

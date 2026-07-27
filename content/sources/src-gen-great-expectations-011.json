@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We walked round the ruined garden twice or thrice more, and it was all in bloom for me. If the green and yellow growth of weed in the chinks of the old wall had been the most precious flowers that ever blew, it could not have been more cherished in my remembrance. There was no discrepancy of years between us to remove her far from me; we were of nearly the same age, though of course the age told for more in her case than in mine; but the air of inaccessibility which her beauty and her manner gave her, tormented me in the midst of my delight, and at the height of the assurance I felt that our patroness had chosen us for one another. Wretched boy! At last we went back into the house, and there I heard, with surprise, that my guardian had come down to see Miss Havisham on business, and would come back to dinner.",
   "words": [
-    "blew"
+    {
+      "word": "blew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

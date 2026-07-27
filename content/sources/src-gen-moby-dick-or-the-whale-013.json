@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Every one knows the fine story of Perseus and Andromeda; how the lovely Andromeda, the daughter of a king, was tied to a rock on the sea-coast, and as Leviathan was in the very act of carrying her off, Perseus, the prince of whalemen, intrepidly advancing, harpooned the monster, and delivered and married the maid. It was an admirable artistic exploit, rarely achieved by the best harpooneers of the present day; inasmuch as this Leviathan was slain at the very first dart. And let no man doubt this Arkite story; for in the ancient Joppa, now Jaffa, on the Syrian coast, in one of the Pagan temples, there stood for many ages the vast skeleton of a whale, which the city’s legends and all the inhabitants asserted to be the identical bones of the monster that Perseus slew. When the Romans took Joppa, the same skeleton was carried to Italy in triumph. What seems most singular and suggestively important in this story, is this: it was from Joppa that Jonah set sail.",
   "words": [
-    "skeleton",
-    "legends",
-    "identical",
-    "singular"
+    {
+      "word": "skeleton",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "legends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "identical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“How was that?” “This poor wretch was dressed in your clothes. I fear your servant who gave them to him may get into trouble with the police.” “That is unlikely. There was no mark on any of them, as far as I know.” “That’s lucky for him—in fact, it’s lucky for all of you, since you are all on the wrong side of the law in this matter. I am not sure that as a conscientious detective my first duty is not to arrest the whole household. Watson’s reports are most incriminating documents.” “But how about the case?” asked the baronet.",
   "words": [
-    "servant",
-    "detective"
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detective",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

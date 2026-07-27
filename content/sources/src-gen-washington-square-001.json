@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "ns disported themselves in the gutter. These elements of rural picturesqueness have now wholly departed from New York street scenery; but they were to be found within the memory of middle-aged persons, in quarters which now would blush to be reminded of them. Catherine had a great many cousins, and with her Aunt Almond’s children, who ended by being nine in number, she lived on terms of considerable intimacy. When she was younger they had been rather afraid of her; she was believed, as the phrase is, to be highly educated, and a person who lived in the intimacy of their Aunt Penniman had something of reflected grandeur. Mrs. Penniman, among the little Almonds, was an object of more admiration than sympathy.",
   "words": [
-    "ns",
-    "reminded"
+    {
+      "word": "ns",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reminded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Everything had to be interpreted for Anna. Her opinions about the smallest and most commonplace things were gleaned from the Denver papers, the church weeklies, from sermons and Sunday-School addresses. Scarcely anything was attractive to her in its natural state—indeed, scarcely anything was decent until it was clothed by the opinion of some authority. Her ideas about habit, character, duty, love, marriage, were grouped under heads, like a book of popular quotations, and were totally unrelated to the emergencies of human living. She discussed all these subjects with other Methodist girls of her age.",
   "words": [
-    "grouped",
-    "quotations"
+    {
+      "word": "grouped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quotations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

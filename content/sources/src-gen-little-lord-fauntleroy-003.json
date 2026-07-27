@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "So she, too, went out of the room and Mr. Havisham was left alone for a while. He went to the window and stood looking out into the street reflectively. He was thinking of the old Earl of Dorincourt, sitting in his great, splendid, gloomy library at the castle, gouty and lonely, surrounded by grandeur and luxury, but not really loved by any one, because in all his long life he had never really loved any one but himself; he had been selfish and self-indulgent and arrogant and passionate; he had cared so much for the Earl of Dorincourt and his pleasures that there had been no time for him to think of other people; all his wealth and power, all the benefits from his noble name and high rank, had seemed to him to be things only to be used to amuse and give pleasure to the Earl of Dorincourt; and now that he was an old man, all this excitement and self-indulgence had only brought him ill health and irritability and a dislike of the world, which certainly disliked him.",
   "words": [
-    "grandeur",
-    "selfish"
+    {
+      "word": "grandeur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "selfish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

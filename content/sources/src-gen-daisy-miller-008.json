@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Well, I hope you know enough!” she said to her companion, after he had told her the history of the unhappy Bonivard. “I never saw a man that knew so much!” The history of Bonivard had evidently, as they say, gone into one ear and out of the other. But Daisy went on to say that she wished Winterbourne would travel with them and “go round” with them; they might know something, in that case. “Don’t you want to come and teach Randolph?” she asked. Winterbourne said that nothing could possibly please him so much, but that he had unfortunately other occupations.",
   "words": [
-    "companion",
-    "wished",
-    "occupations"
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occupations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

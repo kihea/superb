@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "If it be not true, speak it not. Ever maintain thine own purpose and resolution free from all compulsion and necessity. Of everything that presents itself unto thee, to consider what the true nature of it is, and to unfold it, as it were, by dividing it into that which is formal: that which is material: the true use or end of it, and the just time that it is appointed to last. It is high time for thee, to understand that there is somewhat in thee, better and more divine than either thy passions, or thy sensual appetites and affections. What is now the object of my mind, is it fear, or suspicion, or lust, or any such thing?",
   "words": [
-    "passions"
+    {
+      "word": "passions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

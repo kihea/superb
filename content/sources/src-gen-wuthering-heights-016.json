@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“It may be very possible that I should love her; but would she love me? I doubt it too much to venture my tranquillity by running into temptation: and then my home is not here. I’m of the busy world, and to its arms I must return. Was Catherine obedient to her father’s commands?” “She was,” continued the housekeeper. “Her affection for him was still the chief sentiment in her heart; and he spoke without anger: he spoke in the deep tenderness of one about to leave his treasure amid perils and foes, where his remembered words would be the only aid that he could bequeath to guide her.",
   "words": [
-    "obedient",
-    "housekeeper"
+    {
+      "word": "obedient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

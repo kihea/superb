@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The reception of his request seems to have been varied; but he must, at the very least, have received more responses than any ordinary man could have handled without a secretary. This original correspondence was not preserved, but his notes formed a thorough and really significant digest. Average people in society and business--New England's traditional \"salt of the earth\"--gave an almost completely negative result, though scattered cases of uneasy but formless nocturnal impressions appear here and there, always between March 23rd and April 2nd--the period of young Wilcox's delirium. Scientific men were little more affected, though four cases of vague description suggest fugitive glimpses of strange landscapes, and in one case there is mentioned a dread of something abnormal. It was from the artists and poets that the pertinent answers came, and I know that panic would have broken loose had they been able to compare notes.",
   "words": [
-    "impressions",
-    "glimpses"
+    {
+      "word": "impressions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glimpses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

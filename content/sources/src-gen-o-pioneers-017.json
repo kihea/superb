@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Like one man the boys swung off their hats in a broad salute, and bowed their heads as the handsome old man lifted his two fingers in the episcopal blessing. The horsemen closed about the carriage like a guard, and whenever a restless horse broke from control and shot down the road ahead of the body, the bishop laughed and rubbed his plump hands together. “What fine boys!” he said to his priests. “The Church still has her cavalry.” As the troop swept past the graveyard half a mile east of the town,—the first frame church of the parish had stood there,—old Pierre Seguin was already out with his pick and spade, digging Amédée’s grave. He knelt and uncovered as the bishop passed.",
   "words": [
-    "salute",
-    "episcopal",
-    "horsemen",
-    "priests",
-    "digging"
+    {
+      "word": "salute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "episcopal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horsemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "priests",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "digging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

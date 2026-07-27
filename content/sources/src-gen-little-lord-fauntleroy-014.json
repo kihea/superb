@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The people will be so glad when they see you! They'll know you have come to help them!” And his eyes shone like stars in his glowing face. The Earl rose from his chair and put his hand on the child's shoulder. “Let us go out and take our walk on the terrace,” he said, with a short laugh; “and we can talk it over.” And though he laughed two or three times again, as they walked to and fro on the broad stone terrace, where they walked together almost every fine evening, he seemed to be thinking of something which did not displease him, and still he kept his hand on his small companion's shoulder. X The truth was that Mrs. Errol had found a great many sad things in the course of her work among the poor of the little village that appeared so picturesque when it was seen from the moor-sides.",
   "words": [
-    "moor"
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

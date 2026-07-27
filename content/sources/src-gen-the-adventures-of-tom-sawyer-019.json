@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But if there had been no stony obstruction there the labor would have been useless still, for if the beam had been wholly cut away Injun Joe could not have squeezed his body under the door, and he knew it. So he had only hacked that place in order to be doing something—in order to pass the weary time—in order to employ his tortured faculties. Ordinarily one could find half a dozen bits of candle stuck around in the crevices of this vestibule, left there by tourists; but there were none now. The prisoner had searched them out and eaten them. He had also contrived to catch a few bats, and these, also, he had eaten, leaving only their claws.",
   "words": [
-    "hacked",
-    "bits",
-    "searched"
+    {
+      "word": "hacked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "searched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

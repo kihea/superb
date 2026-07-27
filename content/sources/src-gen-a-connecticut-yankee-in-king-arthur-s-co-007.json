@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly me: the rest may land in Sheol and welcome for all I care. No, confound her, her intellect was good, she had brains enough, but her training made her an ass--that is, from a many-centuries-later point of view. To kill the page was no crime--it was her right; and upon her right she stood, serenely and unconscious of offense. She was a result of generations of training in the unexamined and unassailed belief that the law which permitted her to kill a subject when she chose was a perfectly right and righteous one. Well, we must give even Satan his due.",
   "words": [
-    "pilgrimage",
-    "brains",
-    "unconscious",
-    "permitted"
+    {
+      "word": "pilgrimage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brains",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "unconscious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "permitted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

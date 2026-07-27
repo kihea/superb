@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "What was his attitude toward the World and Life? What seemed to him good and evil,—God and Devil? Whither went his longings and strivings, and wherefore were his heart-burnings and disappointments? Answers to such questions can come only from a study of Negro religion as a development, through its gradual changes from the heathenism of the Gold Coast to the institutional Negro church of Chicago. Moreover, the religious growth of millions of men, even though they be slaves, cannot be without potent influence upon their contemporaries.",
   "words": [
-    "disappointments",
-    "moreover",
-    "slaves"
+    {
+      "word": "disappointments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moreover",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "slaves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Townsend ought to have told me.” “He means to tell you to-morrow.” “After I know all about it from you? He ought to have told me before. Does he think I didn’t care—because I left you so much liberty?” “Oh no,” said Catherine; “he knew you would care. And we have been so much obliged to you for—for the liberty.” The Doctor gave a short laugh. “You might have made a better use of it, Catherine.” “Please don’t say that, father,” the girl urged softly, fixing her dull and gentle eyes upon him.",
   "words": [
-    "obliged"
+    {
+      "word": "obliged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

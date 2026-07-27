@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "On such days the windows of the house of the Large Family always looked delightfully cozy and alluring, and the study in which the Indian gentleman sat glowed with warmth and rich color. But the attic was dismal beyond words. There were no longer sunsets or sunrises to look at, and scarcely ever any stars, it seemed to Sara. The clouds hung low over the skylight and were either gray or mud-color, or dropping heavy rain. At four o'clock in the afternoon, even when there was no special fog, the daylight was at an end.",
   "words": [
-    "cozy",
-    "attic",
-    "daylight"
+    {
+      "word": "cozy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

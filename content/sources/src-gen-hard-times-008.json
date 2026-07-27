@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I am very glad to be so. It has long been my wish to be so. I have watched her bringing-up, and I believe she is worthy of me. At the same time—not to deceive you—I believe I am worthy of her. So, I thank you, on both our parts, for the good-will you have shown towards us; and the best wish I can give the unmarried part of the present company, is this: I hope every bachelor may find as good a wife as I have found.",
   "words": [
-    "unmarried"
+    {
+      "word": "unmarried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Hard Times",

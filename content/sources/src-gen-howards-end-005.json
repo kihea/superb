@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "One evening they may forget to draw their blinds down, and you’ll see them; and the next, you yours, and they’ll see you. Impossible to sit out on the balconies. Impossible to water the plants, or even speak. Imagine going out of the front-door, and they come out opposite at the same moment. And yet you tell me that plans are unnecessary, and you’d rather risk it.” “I hope to risk things all my life.” “Oh, Margaret, most dangerous.” “But after all,” she continued with a smile, “there’s never any great risk as long as you have money.” “Oh, shame!",
   "words": [
-    "blinds"
+    {
+      "word": "blinds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

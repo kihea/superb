@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Shall I give ye the rest of the name, then?” said Alan. There was a pause; and then, “I’m thinking I’ll better let ye in,” says my uncle, doubtfully. “I dare say that,” said Alan; “but the point is, Would I go? Now I will tell you what I am thinking. I am thinking that it is here upon this doorstep that we must confer upon this business; and it shall be here or nowhere at all whatever; for I would have you to understand that I am as stiffnecked as yoursel’, and a gentleman of better family.” This change of note disconcerted Ebenezer; he was a little while digesting it, and then says he, “Weel, weel, what must be must,” and shut the window.",
   "words": [
-    "pause"
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

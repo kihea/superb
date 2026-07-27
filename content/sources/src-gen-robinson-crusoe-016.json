@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Can you fight, Friday?” “Me shoot,” says he, “but there come many great number.” “No matter for that,” said I again; “our guns will fright them that we do not kill.” So I asked him whether, if I resolved to defend him, he would defend me, and stand by me, and do just as I bid him. He said, “Me die when you bid die, master.” So I went and fetched a good dram of rum and gave him; for I had been so good a husband of my rum that I had a great deal left. When we had drunk it, I made him take the two fowling-pieces, which we always carried, and loaded them with large swan-shot, as big as small pistol-bullets. Then I took four muskets, and loaded them with two slugs and five small bullets each; and my two pistols I loaded with a brace of bullets each. I hung my great sword, as usual, naked by my side, and gave Friday his hatchet.",
   "words": [
-    "swan",
-    "bullets"
+    {
+      "word": "swan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bullets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

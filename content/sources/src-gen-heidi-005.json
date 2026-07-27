@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Even then she could not see what she longed for. In vain she went first to one and then the other of the windows--she could see nothing but walls and windows and again walls and windows. Heidi felt quite frightened. It was still early, for Heidi was accustomed to get up early and run out at once to see how everything was looking, if the sky was blue and if the sun was already above the mountains, or if the fir trees were waving and the flowers had opened their eyes. As a bird, when it first finds itself in its bright new cage, darts hither and thither, trying the bars in turn to see if it cannot get through them and fly again into the open, so Heidi continued to run backwards and forwards, trying to open first one and then the other of the windows, for she felt she could not bear to see nothing but walls and windows, and somewhere outside there must be the green grass, and the last unmelted snows on the mountain slopes, which Heidi so longed to see.",
   "words": [
-    "cage"
+    {
+      "word": "cage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

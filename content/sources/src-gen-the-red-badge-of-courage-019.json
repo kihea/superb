@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“An’ I’d break th’ feller’s neck if he was as big as a church. But we’re all right, anyhow, for I heard one feller say that we two fit th’ best in th’ reg’ment, an’ they had a great argument ’bout it. Another feller, ’a course, he had t’ up an’ say it was a lie—he seen all what was goin’ on an’ he never seen us from th’ beginnin’ t’ th’ end. An’ a lot more stuck in an’ ses it wasn’t a lie—we did fight like thunder, an’ they give us quite a sendoff. But this is what I can’t stand—these everlastin’ ol’ soldiers, titterin’ an’ laughin’, an then that general, he’s crazy.” The youth exclaimed with sudden exasperation: “He’s a lunkhead!",
   "words": [
-    "bout"
+    {
+      "word": "bout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

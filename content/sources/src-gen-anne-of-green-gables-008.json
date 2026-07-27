@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“She is very well, thank you. I suppose Mr. Cuthbert is hauling potatoes to the lily sands this afternoon, is he?” said Diana, who had ridden down to Mr. Harmon Andrews’s that morning in Matthew’s cart. Our potato crop is very good this year. I hope your father’s crop is good too.” “It is fairly good, thank you. Have you picked many of your apples yet?” “Oh, ever so many,” said Anne forgetting to be dignified and jumping up quickly.",
   "words": [
-    "lily"
+    {
+      "word": "lily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

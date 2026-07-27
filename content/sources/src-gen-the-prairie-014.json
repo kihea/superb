@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The gophers aren't going to get ahead of me! Monday the Twelfth What would you say if you saw Brunhild drive up to your back door? What would you do if you discovered a Norse goddess placidly surveying you from a green wagon-seat? How would you act if you beheld a big blonde Valkyr suddenly introducing herself into your little earthly affairs? Well, can you wonder that I stared, all eyes, when Dinky-Dunk brought home a figure like this, in the shape of a Finn girl named Olga Sarristo?",
   "words": [
-    "surveying"
+    {
+      "word": "surveying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

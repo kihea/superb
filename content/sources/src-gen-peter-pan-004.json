@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I don’t know,” he replied uneasily, “but I am quite young.” He really knew nothing about it, he had merely suspicions, but he said at a venture, “Wendy, I ran away the day I was born.” Wendy was quite surprised, but interested; and she indicated in the charming drawing-room manner, by a touch on her night-gown, that he could sit nearer her. “It was because I heard father and mother,” he explained in a low voice, “talking about what I was to be when I became a man.” He was extraordinarily agitated now. “I don’t want ever to be a man,” he said with passion. “I want always to be a little boy and to have fun. So I ran away to Kensington Gardens and lived a long long time among the fairies.” She gave him a look of the most intense admiration, and he thought it was because he had run away, but it was really because he knew fairies.",
   "words": [
-    "extraordinarily",
-    "admiration"
+    {
+      "word": "extraordinarily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

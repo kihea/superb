@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "We have killed two izards, and that, you will say, is pretty well.” “You mistake, friend,” said the Count, “we are not hunters, but travellers; but, if you will admit us to hunters’ fare, we shall be well contented, and will repay your kindness.” “Sit down then, brother,” said one of the men: “Jacques, lay more fuel on the fire, the kid will soon be ready; bring a seat for the lady too. Ma’amselle, will you taste our brandy? it is true Barcelona, and as bright as ever flowed from a keg.” Blanche timidly smiled, and was going to refuse, when her father prevented her, by taking, with a good humoured air, the glass offered to his daughter; and Mons. St. Foix, who was seated next her, pressed her hand, and gave her an encouraging look, but her attention was engaged by a man, who sat silently by the fire, observing St. Foix, with a steady and earnest eye. “You lead a jolly life here,” said the Count.",
   "words": [
-    "hunters",
-    "travellers",
-    "fare",
-    "seated",
-    "observing"
+    {
+      "word": "hunters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "observing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

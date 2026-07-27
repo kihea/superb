@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A lad who had been at work at the royal mast-head, came down upon the deck, and took a turn round the long-boat; and looking very pale, said he was so sick that he could stay aloft no longer, but was ashamed to acknowledge it to the officer. He went up again, but soon gave out and came down, and leaned over the rail, \"as sick as a lady passenger.\" He had been to sea several years, and had, he said, never been sick before. He was made so by the irregular, pitching motion of the vessel, increased by the height to which he had been above the hull, which is like the fulcrum of the lever. An old sailor, who was at work on the top-gallant yard, said he felt disagreeably all the time, and was glad, when his job was done, to get down into the top, or upon the deck.",
   "words": [
-    "lever"
+    {
+      "word": "lever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

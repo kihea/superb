@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And with Dr. Renton's \"good-night\" he stole up to bed, thoroughly happy, and determined to obey Miss Renton's future instructions to the letter. The shower of golden light which had been raining for the last two hours, had fallen, even on him. It would fall all day to-morrow in many places, and the day after, and for long years to come. Would that it could broaden and increase to a general deluge, and submerge the world! Now the whole house was still, and its master was weary.",
   "words": [
-    "morrow"
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

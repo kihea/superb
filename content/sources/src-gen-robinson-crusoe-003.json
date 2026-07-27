@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "As soon as I found water enough—for my raft drew about a foot of water—I thrust her upon that flat piece of ground, and there fastened or moored her, by sticking my two broken oars into the ground, one on one side near one end, and one on the other side near the other end; and thus I lay till the water ebbed away, and left my raft and all my cargo safe on shore. My next work was to view the country, and seek a proper place for my habitation, and where to stow my goods to secure them from whatever might happen. Where I was, I yet knew not; whether on the continent or on an island; whether inhabited or not inhabited; whether in danger of wild beasts or not. There was a hill not above a mile from me, which rose up very steep and high, and which seemed to overtop some other hills, which lay as in a ridge from it northward.",
   "words": [
-    "sticking",
-    "continent",
-    "steep",
-    "northward"
+    {
+      "word": "sticking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "steep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "northward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

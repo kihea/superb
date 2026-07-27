@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "We were always good friends, and now we are better.” “True. Are the others coming out?” “I do not know. Mrs. Bennet and Lydia are going in the carriage to Meryton. And so, my dear sister, I find, from our uncle and aunt, that you have actually seen Pemberley.” She replied in the affirmative. “I almost envy you the pleasure, and yet I believe it would be too much for me, or else I could take it in my way to Newcastle.",
   "words": [
-    "aunt",
-    "envy"
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "envy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Pride and Prejudice",

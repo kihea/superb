@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Until it was too late, I did not clearly know what I had inflicted upon her when I left her. Nor until it was too late did I clearly understand what she was to me. For, by merely seeming fond of me, and showing in her weak, futile way that she cared for me, the little doll of a creature presently gave my return to the neighbourhood of the White Sphinx almost the feeling of coming home; and I would watch for her tiny figure of white and gold so soon as I came over the hill. “It was from her, too, that I learnt that fear had not yet left the world. She was fearless enough in the daylight, and she had the oddest confidence in me; for once, in a foolish moment, I made threatening grimaces at her, and she simply laughed at them.",
   "words": [
-    "fearless"
+    {
+      "word": "fearless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

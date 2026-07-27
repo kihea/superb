@@ -3,8 +3,19 @@
   "pool": "sourced",
   "text": "I realised I was invisible and inaudible, that overwhelming forces had their grip on me. I struggled in vain, I was forced over the brink, the coffin rang hollow as I fell upon it, and the gravel came flying after me in spadefuls. Nobody heeded me, nobody was aware of me. I made convulsive struggles and awoke. “The pale London dawn had come, the place was full of a chilly grey light that filtered round the edges of the window blinds.",
   "words": [
-    "brink",
-    "pale"
+    {
+      "word": "brink",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

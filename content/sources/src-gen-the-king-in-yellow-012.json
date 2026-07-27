@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I’m glad I’m not going.” The street was almost deserted. A few women muffled in tattered military capes crept along the frozen pavement, and a wretchedly clad gamin hovered over the sewer-hole on the corner of the Boulevard. A rope around his waist held his rags together. From the rope hung a rat, still warm and bleeding. “There’s another in there,” he yelled at Trent; “I hit him but he got away.” Trent crossed the street and asked: “How much?” “Two francs for a quarter of a fat one; that’s what they give at the St. Germain Market.” A violent fit of coughing interrupted him, but he wiped his face with the palm of his hand and looked cunningly at Trent.",
   "words": [
-    "rope",
-    "rags"
+    {
+      "word": "rope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rags",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

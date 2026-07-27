@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Then, with a confidential wink, a dropping of the voice, and an impressive laying of his hand on my arm; 'Look here; there's one thing in this world which isn't ever cheap. That's a coffin. There's one thing in this world which a person don't ever try to jew you down on. That's a coffin. There's one thing in this world which a person don't say--“I'll look around a little, and if I find I can't do better I'll come back and take it.” That's a coffin.",
   "words": [
-    "wink",
-    "coffin"
+    {
+      "word": "wink",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

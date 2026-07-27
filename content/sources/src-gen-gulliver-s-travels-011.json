@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I was four hours under these circumstances, expecting, and indeed wishing, every moment to be my last. I have already told the reader that there were two strong staples fixed upon that side of my box which had no window, and into which the servant, who used to carry me on horseback, would put a leathern belt, and buckle it about his waist. Being in this disconsolate state, I heard, or at least thought I heard, some kind of grating noise on that side of my box where the staples were fixed; and soon after I began to fancy that the box was pulled or towed along the sea; for I now and then felt a sort of tugging, which made the waves rise near the tops of my windows, leaving me almost in the dark. This gave me some faint hopes of relief, although I was not able to imagine how it could be brought about.",
   "words": [
-    "buckle"
+    {
+      "word": "buckle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

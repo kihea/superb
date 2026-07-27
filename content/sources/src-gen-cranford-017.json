@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I dare say I shan’t mind it after it’s once over.” “Please, ma’am,” said Martha—who had plucked at his sleeve, and nudged him with her elbow, and otherwise tried to interrupt him all the time he had been speaking—“don’t mind him, he’ll come to; ’twas only last night he was an-axing me, and an-axing me, and all the more because I said I could not think of it for years to come, and now he’s only taken aback with the suddenness of the joy; but you know, Jem, you are just as full as me about wanting a lodger.” (Another great nudge.) if Miss Matty would lodge with us—otherwise I’ve no mind to be cumbered with strange folk in the house,” said Jem, with a want of tact which I could see enraged Martha, who was trying to represent a lodger as the great object they wished to obtain, and that, in fact, Miss Matty would be smoothing their path and conferring a favour, if she would only come and live with them.",
   "words": [
-    "interrupt"
+    {
+      "word": "interrupt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

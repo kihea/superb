@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I’m hungry, too. We’ll eat and smoke when we get to the skiff.” They presently emerged into the clump of sumach bushes, looked warily out, found the coast clear, and were soon lunching and smoking in the skiff. As the sun dipped toward the horizon they pushed out and got under way. Tom skimmed up the shore through the long twilight, chatting cheerily with Huck, and landed shortly after dark. “Now, Huck,” said Tom, “we’ll hide the money in the loft of the widow’s woodshed, and I’ll come up in the morning and we’ll count it and divide, and then we’ll hunt up a place out in the woods for it where it will be safe.",
   "words": [
-    "emerged",
-    "twilight"
+    {
+      "word": "emerged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

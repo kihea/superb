@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Presently the smoke cleared, and revealed—oh, joy!—a great buck lying on its back and kicking furiously in its death agony. We gave a yell of triumph—we were saved—we should not starve. Weak as we were, we rushed down the intervening slope of snow, and in ten minutes from the time of shooting, that animal’s heart and liver were lying before us. But now a new difficulty arose, we had no fuel, and therefore could make no fire to cook them. We gazed at each other in dismay.",
   "words": [
-    "yell",
-    "dismay"
+    {
+      "word": "yell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dismay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

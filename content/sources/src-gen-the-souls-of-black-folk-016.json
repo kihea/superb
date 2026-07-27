@@ -3,16 +3,67 @@
   "pool": "sourced",
   "text": "On the other hand, another type of mind, shrewder and keener and more tortuous too, sees in the very strength of the anti-Negro movement its patent weaknesses, and with Jesuitic casuistry is deterred by no ethical considerations in the endeavor to turn this weakness to the black man’s strength. Thus we have two great and hardly reconcilable streams of thought and ethical strivings; the danger of the one lies in anarchy, that of the other in hypocrisy. The one type of Negro stands almost ready to curse God and die, and the other is too often found a traitor to right and a coward before force; the one is wedded to ideals remote, whimsical, perhaps impossible of realization; the other forgets that life is more than meat and the body more than raiment. But, after all, is not this simply the writhing of the age translated into black,—the triumph of the Lie which today, with its false culture, faces the hideousness of the anarchist assassin? To-day the two groups of Negroes, the one in the North, the other in the South, represent these divergent ethical tendencies, the first tending toward radicalism, the other toward hypocritical compromise.",
   "words": [
-    "patent",
-    "considerations",
-    "streams",
-    "anarchy",
-    "hypocrisy",
-    "traitor",
-    "translated",
-    "anarchist",
-    "tendencies",
-    "hypocritical"
+    {
+      "word": "patent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "considerations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "streams",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anarchy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hypocrisy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "translated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anarchist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tendencies",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hypocritical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

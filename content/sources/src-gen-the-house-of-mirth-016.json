@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "“Louisa Bry is a stern task-master: I often used to wish myself back with the Gormers. Talk of love making people jealous and suspicious—it’s nothing to social ambition! Louisa used to lie awake at night wondering whether the women who called on us called on ME because I was with her, or on HER because she was with me; and she was always laying traps to find out what I thought. Of course I had to disown my oldest friends, rather than let her suspect she owed me the chance of making a single acquaintance—when, all the while, that was what she had me there for, and what she wrote me a handsome cheque for when the season was over!” Mrs. Fisher was not a woman who talked of herself without cause, and the practice of direct speech, far from precluding in her an occasional resort to circuitous methods, served rather, at crucial moments, the purpose of the juggler’s chatter while he shifts the contents of his sleeves.",
   "words": [
-    "ambition",
-    "owed",
-    "occasional",
-    "chatter"
+    {
+      "word": "ambition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "owed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occasional",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chatter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

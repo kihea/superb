@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Like other men, they passed out of Buck’s life for good. A Scotch half-breed took charge of him and his mates, and in company with a dozen other dog-teams he started back over the weary trail to Dawson. It was no light running now, nor record time, but heavy toil each day, with a heavy load behind; for this was the mail train, carrying word from the world to the men who sought gold under the shadow of the Pole. Buck did not like it, but he bore up well to the work, taking pride in it after the manner of Dave and Sol-leks, and seeing that his mates, whether they prided in it or not, did their fair share. It was a monotonous life, operating with machine-like regularity.",
   "words": [
-    "weary"
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

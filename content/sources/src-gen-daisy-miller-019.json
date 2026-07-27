@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "One-half of the gigantic circus was in deep shade, the other was sleeping in the luminous dusk. As he stood there he began to murmur Byron’s famous lines, out of “Manfred,” but before he had finished his quotation he remembered that if nocturnal meditations in the Colosseum are recommended by the poets, they are deprecated by the doctors. The historic atmosphere was there, certainly; but the historic atmosphere, scientifically considered, was no better than a villainous miasma. Winterbourne walked to the middle of the arena, to take a more general glance, intending thereafter to make a hasty retreat. The great cross in the center was covered with shadow; it was only as he drew near it that he made it out distinctly.",
   "words": [
-    "quotation"
+    {
+      "word": "quotation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

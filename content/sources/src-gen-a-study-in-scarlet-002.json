@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The proportion of blood cannot be more than one in a million. I have no doubt, however, that we shall be able to obtain the characteristic reaction.” As he spoke, he threw into the vessel a few white crystals, and then added some drops of a transparent fluid. In an instant the contents assumed a dull mahogany colour, and a brownish dust was precipitated to the bottom of the glass jar. ha!” he cried, clapping his hands, and looking as delighted as a child with a new toy. “What do you think of that?” “It seems to be a very delicate test,” I remarked.",
   "words": [
-    "transparent",
-    "brownish",
-    "clapping"
+    {
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brownish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clapping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Then the frigate, following the coast of New Jersey along the right bank of the beautiful river, covered with villas, passed between the forts, which saluted her with their heaviest guns. The Abraham Lincoln answered by hoisting the American colours three times, whose thirty-nine stars shone resplendent from the mizzen-peak; then modifying its speed to take the narrow channel marked by buoys placed in the inner bay formed by Sandy Hook Point, it coasted the long sandy beach, where some thousands of spectators gave it one final cheer. The escort of boats and tenders still followed the frigate, and did not leave her until they came abreast of the lightship, whose two lights marked the entrance of New York Channel. Six bells struck, the pilot got into his boat, and rejoined the little schooner which was waiting under our lee, the fires were made up, the screw beat the waves more rapidly, the frigate skirted the low yellow coast of Long Island; and at eight bells, after having lost sight in the north-west of the lights of Fire Island, she ran at full steam on to the dark waters of the Atlantic.",
   "words": [
-    "villas",
-    "sandy",
-    "spectators",
-    "cheer",
-    "bells"
+    {
+      "word": "villas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sandy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spectators",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

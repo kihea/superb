@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Still, new symptoms may arise. I shall come again to-morrow morning.” After waiting for the note to be carried to Mrs. Bulstrode, Lydgate rode away, forming no conjectures, in the first instance, about the history of Raffles, but rehearsing the whole argument, which had lately been much stirred by the publication of Dr. Ware’s abundant experience in America, as to the right way of treating cases of alcoholic poisoning such as this. Lydgate, when abroad, had already been interested in this question: he was strongly convinced against the prevalent practice of allowing alcohol and persistently administering large doses of opium; and he had repeatedly acted on this conviction with a favorable result. “The man is in a diseased state,” he thought, “but there’s a good deal of wear in him still. I suppose he is an object of charity to Bulstrode.",
   "words": [
-    "arise",
-    "stirred",
-    "alcoholic"
+    {
+      "word": "arise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stirred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alcoholic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

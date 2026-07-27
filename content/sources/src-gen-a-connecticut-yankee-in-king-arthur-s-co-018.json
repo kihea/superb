@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Sir Sagramore, ye will grant him leave to borrow.” “And I will lend!” said Sir Launcelot, limping up. “He is as brave a knight of his hands as any that be on live, and he shall have mine.” He put his hand on his sword to draw it, but Sir Sagramor said: “Stay, it may not be. He shall fight with his own weapons; it was his privilege to choose them and bring them. If he has erred, on his head be it.” “Knight!” said the king. “Thou'rt overwrought with passion; it disorders thy mind.",
   "words": [
-    "lend"
+    {
+      "word": "lend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

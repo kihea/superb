@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "), and anything else you can think of.” While they were shyly rustling the paper costumes she disappeared. Ten minutes after she gazed down from the stairs upon grotesquely ruddy Yankee heads above Oriental robes, and cried to them, “The Princess Winky Poo salutes her court!” As they looked up she caught their suspense of admiration. They saw an airy figure in trousers and coat of green brocade edged with gold; a high gold collar under a proud chin; black hair pierced with jade pins; a languid peacock fan in an out-stretched hand; eyes uplifted to a vision of pagoda towers. When she dropped her pose and smiled down she discovered Kennicott apoplectic with domestic pride--and gray Guy Pollock staring beseechingly. For a second she saw nothing in all the pink and brown mass of their faces save the hunger of the two men.",
   "words": [
-    "jade"
+    {
+      "word": "jade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

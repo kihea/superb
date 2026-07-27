@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "“Is ea id, ejus, ejus, ejus!” shouted Grisha, skipping along the avenue. “And someone else too! Papa, of course!” cried Levin, stopping at the entrance of the avenue. “Kitty, don’t come down the steep staircase, go round.” But Levin had been mistaken in taking the person sitting in the carriage for the old prince. As he got nearer to the carriage he saw beside Stepan Arkadyevitch not the prince but a handsome, stout young man in a Scotch cap, with long ends of ribbon behind.",
   "words": [
-    "papa",
-    "mistaken",
-    "beside",
-    "ribbon"
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anna Karenina",

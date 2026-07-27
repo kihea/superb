@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "The aged group, under care of sons or daughters, themselves worn and grey, passed on along the least-winding carriage-road towards the house, where a special table was prepared for them; while the Poyser party wisely struck across the grass under the shade of the great trees, but not out of view of the house-front, with its sloping lawn and flower-beds, or of the pretty striped marquee at the edge of the lawn, standing at right angles with two larger marquees on each side of the open green space where the games were to be played. The house would have been nothing but a plain square mansion of Queen Anne’s time, but for the remnant of an old abbey to which it was united at one end, in much the same way as one may sometimes see a new farmhouse rising high and prim at the end of older and lower farm-offices. The fine old remnant stood a little backward and under the shadow of tall beeches, but the sun was now on the taller and more advanced front, the blinds were all down, and the house seemed asleep in the hot midday.",
   "words": [
-    "lawn",
-    "marquee",
-    "angles",
-    "mansion",
-    "remnant",
-    "farmhouse",
-    "blinds"
+    {
+      "word": "lawn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marquee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "angles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remnant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farmhouse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blinds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

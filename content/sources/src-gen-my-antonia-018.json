@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I found myself telling her everything: why I had decided to study law and to go into the law office of one of my mother’s relatives in New York City; about Gaston Cleric’s death from pneumonia last winter, and the difference it had made in my life. She wanted to know about my friends, and my way of living, and my dearest hopes. ‘Of course it means you are going away from us for good,’ she said with a sigh. ‘But that don’t mean I’ll lose you. Look at my papa here; he’s been dead all these years, and yet he is more real to me than almost anybody else.",
   "words": [
-    "papa"
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

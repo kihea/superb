@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Some poor, broken-down horses, whose mouths have been made hard and insensible by just such drivers as these, may, perhaps, find some support in it; but for a horse who can depend upon his own legs, and who has a tender mouth and is easily guided, it is not only tormenting, but it is stupid. Then there are the loose-rein drivers, who let the reins lie easily on our backs, and their own hand rest lazily on their knees. Of course, such gentlemen have no control over a horse, if anything happens suddenly. If a horse shies, or starts, or stumbles, they are nowhere, and cannot help the horse or themselves till the mischief is done. Of course, for myself I had no objection to it, as I was not in the habit either of starting or stumbling, and had only been used to depend on my driver for guidance and encouragement.",
   "words": [
-    "rein",
-    "reins"
+    {
+      "word": "rein",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Black Beauty",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I have always found them; and more,—I repeat it with joy, with triumph,—I have always found some proof of human perversity or error. Every criminal I condemn seems to me living evidence that I am not a hideous exception to the rest. Alas, alas, alas; all the world is wicked; let us therefore strike at wickedness!” Villefort pronounced these last words with a feverish rage, which gave a ferocious eloquence to his words. “But”’ said Madame Danglars, resolving to make a last effort, “this young man, though a murderer, is an orphan, abandoned by everybody.” “So much the worse, or rather, so much the better; it has been so ordained that he may have none to weep his fate.” “But this is trampling on the weak, sir.” “The weakness of a murderer!” “His dishonor reflects upon us.” “Is not death in my house?” “Oh, sir,” exclaimed the baroness, “you are without pity for others, well, then, I tell you they will have no mercy on you!” “Be it so!” said Villefort, raising his arms to heaven with a threatening gesture.",
   "words": [
-    "triumph",
-    "weep",
-    "weakness",
-    "threatening"
+    {
+      "word": "triumph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weakness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "threatening",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

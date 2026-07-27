@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And there’s a headless man stalks up and down the path and skeletons glower at you between the boughs. Oh, Marilla, I wouldn’t go through the Haunted Wood after dark now for anything. I’d be sure that white things would reach out from behind the trees and grab me.” “Did ever anyone hear the like!” ejaculated Marilla, who had listened in dumb amazement. “Anne Shirley, do you mean to tell me you believe all that wicked nonsense of your own imagination?” “Not believe exactly,” faltered Anne. “At least, I don’t believe it in daylight.",
   "words": [
-    "wicked"
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

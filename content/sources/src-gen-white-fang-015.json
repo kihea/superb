@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A cry of startled admiration went up. He had covered the distance and gone in more like a cat than a dog; and with the same cat-like swiftness he had slashed with his fangs and leaped clear. The bull-dog was bleeding back of one ear from a rip in his thick neck. He gave no sign, did not even snarl, but turned and followed after White Fang. The display on both sides, the quickness of the one and the steadiness of the other, had excited the partisan spirit of the crowd, and the men were making new bets and increasing original bets.",
   "words": [
-    "admiration"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "White Fang",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I went on with my sewing as long as I could see, and then bade Nancy good-evening; checking her too lively gratitude by the undeniable assurance that I had only done for her what she would have done for me, if she had been in my place and I in hers. I hastened back to Horton Lodge, where, having entered the schoolroom, I found the tea-table all in confusion, the tray flooded with slops, and Miss Matilda in a most ferocious humour. “Miss Grey, whatever have you been about? I’ve had tea half an hour ago, and had to make it myself, and drink it all alone! I wish you would come in sooner!” “I’ve been to see Nancy Brown.",
   "words": [
-    "confusion"
+    {
+      "word": "confusion",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Agnes Grey",

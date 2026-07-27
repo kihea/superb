@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I read these words over and over again: I felt that an explanation belonged to them, and was unable fully to penetrate their import. I was still pondering the signification of “Institution,” and endeavouring to make out a connection between the first words and the verse of Scripture, when the sound of a cough close behind me made me turn my head. I saw a girl sitting on a stone bench near; she was bent over a book, on the perusal of which she seemed intent: from where I stood I could see the title—it was “Rasselas;” a name that struck me as strange, and consequently attractive. In turning a leaf she happened to look up, and I said to her directly— “Is your book interesting?” I had already formed the intention of asking her to lend it to me some day. “I like it,” she answered, after a pause of a second or two, during which she examined me.",
   "words": [
-    "penetrate",
-    "cough"
+    {
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cough",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

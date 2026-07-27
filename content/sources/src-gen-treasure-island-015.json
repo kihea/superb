@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I had stolen back to the cabin, slipped once more into my shoes, and laid my hand at random on a bottle of wine, and now, with this for an excuse, I made my reappearance on the deck. Hands lay as I had left him, all fallen together in a bundle and with his eyelids lowered as though he were too weak to bear the light. He looked up, however, at my coming, knocked the neck off the bottle like a man who had done the same thing often, and took a good swig, with his favourite toast of “Here’s luck!” Then he lay quiet for a little, and then, pulling out a stick of tobacco, begged me to cut him a quid. “Cut me a junk o’ that,” says he, “for I haven’t no knife and hardly strength enough, so be as I had. Ah, Jim, Jim, I reckon I’ve missed stays!",
   "words": [
-    "bundle",
-    "junk"
+    {
+      "word": "bundle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "junk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

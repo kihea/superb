@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Em’ly, my darling, come here! Come here, my little witch! There’s Mas’r Davy’s friend, my dear! There’s the gent’lman as you’ve heerd on, Em’ly. He comes to see you, along with Mas’r Davy, on the brightest night of your uncle’s life as ever was or will be, Gorm the t’other one, and horroar for it!’ After delivering this speech all in a breath, and with extraordinary animation and pleasure, Mr. Peggotty put one of his large hands rapturously on each side of his niece’s face, and kissing it a dozen times, laid it with a gentle pride and love upon his broad chest, and patted it as if his hand had been a lady’s.",
   "words": [
-    "darling",
-    "witch",
-    "animation",
-    "niece",
-    "kissing"
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "witch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "animation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kissing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

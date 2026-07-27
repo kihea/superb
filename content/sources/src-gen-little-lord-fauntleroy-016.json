@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the beautiful young lady--her name was Miss Vivian Herbert--put out her hand and drew Cedric to her side, looking prettier than before, if possible. “Lord Fauntleroy shall say what he thinks,” she said; “and I am much obliged to him. I am sure he thinks what he says.” And she kissed him on his cheek. “I think you are prettier than any one I ever saw,” said Fauntleroy, looking at her with innocent, admiring eyes, “except Dearest. Of course, I couldn't think any one QUITE as pretty as Dearest.",
   "words": [
-    "cheek"
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

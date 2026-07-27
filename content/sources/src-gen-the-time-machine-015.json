@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But as it was, the thing that struck me with keenest force was the enormous waste of labour to which this sombre wilderness of rotting paper testified. At the time I will confess that I thought chiefly of the Philosophical Transactions and my own seventeen papers upon physical optics. “Then, going up a broad staircase, we came to what may once have been a gallery of technical chemistry. And here I had not a little hope of useful discoveries. Except at one end where the roof had collapsed, this gallery was well preserved.",
   "words": [
-    "wilderness"
+    {
+      "word": "wilderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

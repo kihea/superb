@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The clerk, observing my bewilderment, favoured me with the result of his own observation of the stranger who was waiting downstairs. “He is rather a remarkable-looking man, sir. So dark in the complexion that we all set him down in the office for an Indian, or something of that sort.” Associating the clerk’s idea with the line inscribed on the card in my hand, I thought it possible that the Moonstone might be at the bottom of Mr. Luker’s recommendation, and of the stranger’s visit at my office. To the astonishment of my clerk, I at once decided on granting an interview to the gentleman below. In justification of the highly unprofessional sacrifice to mere curiosity which I thus made, permit me to remind anybody who may read these lines, that no living person (in England, at any rate) can claim to have had such an intimate connexion with the romance of the Indian Diamond as mine has been.",
   "words": [
-    "clerk",
-    "observation",
-    "gentleman"
+    {
+      "word": "clerk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "observation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

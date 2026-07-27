@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Surely by now you must realise that I shall never forgive you for having found me in this wretched dressing-gown, just as I was flying at Apollon like a spiteful cur. The saviour, the former hero, was flying like a mangy, unkempt sheep-dog at his lackey, and the lackey was jeering at him! And I shall never forgive you for the tears I could not help shedding before you just now, like some silly woman put to shame! And for what I am confessing to you now, I shall never forgive you either! Yes—you must answer for it all because you turned up like this, because I am a blackguard, because I am the nastiest, stupidest, absurdest and most envious of all the worms on earth, who are not a bit better than I am, but, the devil knows why, are never put to confusion; while I shall always be insulted by every louse, that is my doom!",
   "words": [
-    "dressing",
-    "saviour"
+    {
+      "word": "dressing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saviour",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

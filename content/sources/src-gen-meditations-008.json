@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "How able to endure labour, how patient; able through his spare diet to continue from morning to evening without any necessity of withdrawing before his accustomed hours to the necessities of nature: his uniformity and constancy in matter of friendship. How he would bear with them that with all boldness and liberty opposed his opinions; and even rejoice if any man could better advise him: and lastly, how religious he was without superstition. All these things of him remember, that whensoever thy last hour shall come upon thee, it may find thee, as it did him, ready for it in the possession of a good conscience. Stir up thy mind, and recall thy wits again from thy natural dreams, and visions, and when thou art perfectly awoken, and canst perceive that they were but dreams that troubled thee, as one newly awakened out of another kind of sleep look upon these worldly things with the same mind as thou didst upon those, that thou sawest in thy sleep. I consist of body and soul.",
   "words": [
-    "endure",
-    "lastly",
-    "worldly"
+    {
+      "word": "endure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lastly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "worldly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Necessity, which spares our betters, has no pity on us. We learn to put our feelings back into ourselves, and to jog on with our duties as patiently as may be. I don’t complain of this—I only notice it. Penelope and I were ready for the Sergeant, as soon as the Sergeant was ready on his side. Asked if she knew what had led her fellow-servant to destroy herself, my daughter answered (as you will foresee) that it was for love of Mr. Franklin Blake.",
   "words": [
-    "servant"
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

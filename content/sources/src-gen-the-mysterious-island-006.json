@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The combustion of these plants was kept up for several days, and the result was a compact gray mass, which has been long known under the name of “natural soda.” This obtained, the engineer treated the fat with soda, which gave both a soluble soap and that neutral substance, glycerine. But this was not all. Cyrus Harding still needed, in view of his future preparation, another substance, nitrate of potash, which is better known under the name of salt niter, or of saltpeter. Cyrus Harding could have manufactured this substance by treating the carbonate of potash, which would be easily extracted from the cinders of the vegetables, by azotic acid. But this acid was wanting, and he would have been in some difficulty, if nature had not happily furnished the saltpeter, without giving them any other trouble than that of picking it up.",
   "words": [
-    "soap",
-    "nitrate",
-    "carbonate"
+    {
+      "word": "soap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nitrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carbonate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

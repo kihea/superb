@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "For indeed what answer could be made? But after a while he heard with amazement the frail and resisting voice in his ear, the dwarf sound, unconquered in the giant tumult. “She may!” It was a dull yell, more difficult to seize than a whisper. And presently the voice returned again, half submerged in the vast crashes, like a ship battling against the waves of an ocean. “Let's hope so!” it cried--small, lonely and unmoved, a stranger to the visions of hope or fear; and it flickered into disconnected words: “Ship.",
   "words": [
-    "yell",
-    "whisper",
-    "crashes"
+    {
+      "word": "yell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crashes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And I shan’t live through it. Don’t interrupt me!” and she made haste to speak. “I know it; I know for certain. I shall die; and I’m very glad I shall die, and release myself and you.” Tears dropped from her eyes; he bent down over her hand and began kissing it, trying to hide his emotion, which, he knew, had no sort of grounds, though he could not control it. “Yes, it’s better so,” she said, tightly gripping his hand.",
   "words": [
-    "gripping"
+    {
+      "word": "gripping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anna Karenina",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I’ve left her a legacy--five thousand pounds.” “That’s capital; it’s very kind of you. But I should like to do a little more.” Something of that veiled acuteness with which it had been on Daniel Touchett’s part the habit of a lifetime to listen to a financial proposition still lingered in the face in which the invalid had not obliterated the man of business. “I shall be happy to consider it,” he said softly. “Isabel’s poor then. My mother tells me that she has but a few hundred dollars a year.",
   "words": [
-    "veiled"
+    {
+      "word": "veiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

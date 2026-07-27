@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But then all at once he wanted to have his own goods and money and to be his own master, and so he asked his father to give him his portion, and he left his home and went and wasted all his substance. And when he had nothing left he hired himself out to a master who had no flocks and fields like his father, but only swine to keep; and so he was obliged to watch these, and he only had rags to wear and a few husks to eat such as the swine fed upon. And then he thought of his old happy life at home and of how kindly his father had treated him and how ungrateful he had been, and he wept for sorrow and longing. And he thought to himself, \"I will arise and go to my father, and will say to him, 'Father, I am not worthy to be called thy son; make me as one of thy hired servants.'\" And when he was yet a great way off his father saw him .",
   "words": [
-    "servants"
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

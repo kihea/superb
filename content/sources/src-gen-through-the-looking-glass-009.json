@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Tweedledum looked round him with a satisfied smile. “I don’t suppose,” he said, “there’ll be a tree left standing, for ever so far round, by the time we’ve finished!” “And all about a rattle!” said Alice, still hoping to make them a little ashamed of fighting for such a trifle. “I shouldn’t have minded it so much,” said Tweedledum, “if it hadn’t been a new one.” “I wish the monstrous crow would come!” thought Alice. “There’s only one sword, you know,” Tweedledum said to his brother: “but you can have the umbrella—it’s quite as sharp. Only we must begin quick.",
   "words": [
-    "minded"
+    {
+      "word": "minded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Through the Looking-Glass",

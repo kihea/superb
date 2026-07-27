@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I MEET SIR HENRY CURTIS It is a curious thing that at my age—fifty-five last birthday—I should find myself taking up a pen to try to write a history. I wonder what sort of a history it will be when I have finished it, if ever I come to the end of the trip! I have done a good many things in my life, which seems a long one to me, owing to my having begun work so young, perhaps. At an age when other boys are at school I was earning my living as a trader in the old Colony. I have been trading, hunting, fighting, or mining ever since.",
   "words": [
-    "trader"
+    {
+      "word": "trader",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "A few stifled rats were found; and what bugs, cockroaches, fleas, and other vermin, there might have been on board, must have unrove their life-lines before the hatches were opened. The ship being now ready, we covered the bottom of the hold over, fore and aft, with dried brush for dunnage, and having levelled everything away, we were ready to take in our cargo. All the hides that had been collected since the California left the coast, (a little more than two years,) amounting to about forty thousand, were cured, dried, and stowed away in the house, waiting for our good ship to take them to Boston. Now began the operation of taking in our cargo, which kept us hard at work, from the grey of the morning till star-light, for six weeks, with the exception of Sundays, and of just time to swallow our meals. To carry the work on quicker, a division of labor was made.",
   "words": [
-    "cargo",
-    "cured",
-    "swallow",
-    "meals"
+    {
+      "word": "cargo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cured",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meals",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

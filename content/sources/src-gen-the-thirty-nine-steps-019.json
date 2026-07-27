@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I wanted half a dozen men, and I directed them to divide themselves among different specified hotels. Then Scaife set out to prospect the house at the head of the thirty-nine steps. He came back with news that both puzzled and reassured me. The house was called Trafalgar Lodge, and belonged to an old gentleman called Appleton—a retired stockbroker, the house-agent said. Mr Appleton was there a good deal in the summer time, and was in residence now—had been for the better part of a week.",
   "words": [
-    "prospect"
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

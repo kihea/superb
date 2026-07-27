@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "While she was conjecturing with Annette what could thus occasion his absence, they heard a key turn in the lock of the gate near them, and presently saw a man advancing. It was Barnardine, of whom Emily hastily enquired what he had to communicate, and desired, that he would tell her quickly, “for I am chilled with this evening air,” said she. “You must dismiss your maid, lady,” said the man in a voice, the deep tone of which shocked her, “what I have to tell is to you only.” Emily, after some hesitation, desired Annette to withdraw to a little distance. “Now, my friend, what would you say?” He was silent a moment, as if considering, and then said,— “That which would cost me my place, at least, if it came to the Signor’s ears. You must promise, lady, that nothing shall ever make you tell a syllable of the matter; I have been trusted in this affair, and, if it was known, that I betrayed my trust, my life, perhaps, might answer it.",
   "words": [
-    "presently",
-    "hastily",
-    "betrayed"
+    {
+      "word": "presently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hastily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "betrayed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Of every five dollars spent for public education in the State of Georgia, the white schools get four dollars and the Negro one dollar; and even then the white public-school system, save in the cities, is bad and cries for reform. If this is true of the whites, what of the blacks? I am becoming more and more convinced, as I look upon the system of common-school training in the South, that the national government must soon step in and aid popular education in some way. To-day it has been only by the most strenuous efforts on the part of the thinking men of the South that the Negro’s share of the school fund has not been cut down to a pittance in some half-dozen States; and that movement not only is not dead, but in many communities is gaining strength. What in the name of reason does this nation expect of a people, poorly trained and hard pressed in severe economic competition, without political rights, and with ludicrously inadequate common-school facilities?",
   "words": [
-    "poorly"
+    {
+      "word": "poorly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

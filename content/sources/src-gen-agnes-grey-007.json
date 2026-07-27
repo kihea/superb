@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The unknown lady, in her reply, made no objection to this, and stated that, as to my acquirements, she had no doubt I should be able to give satisfaction; but in the engagement of governesses she considered those things as but subordinate points; as being situated in the neighbourhood of O——, she could get masters to supply any deficiencies in that respect: but, in her opinion, next to unimpeachable morality, a mild and cheerful temper and obliging disposition were the most essential requisities. My mother did not relish this at all, and now made many objections to my accepting the situation; in which my sister warmly supported her: but, unwilling to be balked again, I overruled them all; and, having first obtained the consent of my father (who had, a short time previously, been apprised of these transactions), I wrote a most obliging epistle to my unknown correspondent, and, finally, the bargain was concluded.",
   "words": [
-    "morality",
-    "accepting"
+    {
+      "word": "morality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accepting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Agnes Grey",

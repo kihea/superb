@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Do you know what sleep is? Do you know that every man who sleeps believes in God? It is a sacrament; for it is an act of faith and it is a food. And we need a sacrament, if only a natural one. Something has fallen on us that falls very seldom on men; perhaps the worst thing that can fall on them.” Craven’s parted lips came together to say, “What do you mean?” The priest had turned his face to the castle as he answered: “We have found the truth; and the truth makes no sense.” He went down the path in front of them with a plunging and reckless step very rare with him, and when they reached the castle again he threw himself upon sleep with the simplicity of a dog.",
   "words": [
-    "sacrament"
+    {
+      "word": "sacrament",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

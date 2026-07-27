@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "As we reached the davits there was a report like a pistol-shot from the port-side—the tow-rope parting, I believe, as the lighter with her shallower draught swung on past the tug. Fresh tumult arose, in which I heard: “Lower the boat,” from Grimm; but the order was already executed. My ally the Passenger and I had each cast off a tackle, and slacked away with a run; that done, I promptly clutched the wire guy to steady myself, and tumbled in. (It was not far to tumble, for the tug listed heavily to starboard; think of our course, and the set of the ebb stream, and you will see why.) The forward fall unhooked sweetly; but the after one lost play.",
   "words": [
-    "tow",
-    "arose",
-    "ally",
-    "tackle",
-    "tumble",
-    "starboard"
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "arose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ally",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tackle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tumble",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

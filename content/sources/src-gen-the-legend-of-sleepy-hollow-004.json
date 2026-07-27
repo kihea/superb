@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "What fearful shapes and shadows beset his path, amidst the dim and ghastly glare of a snowy night! With what wistful look did he eye every trembling ray of light streaming across the waste fields from some distant window! How often was he appalled by some shrub covered with snow, which, like a sheeted spectre, beset his very path! How often did he shrink with curdling awe at the sound of his own steps on the frosty crust beneath his feet; and dread to look over his shoulder, lest he should behold some uncouth being tramping close behind him! And how often was he thrown into complete dismay by some rushing blast, howling among the trees, in the idea that it was the Galloping Hessian on one of his nightly scourings!",
   "words": [
-    "shadows",
-    "glare",
-    "snowy",
-    "behold",
-    "nightly"
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snowy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

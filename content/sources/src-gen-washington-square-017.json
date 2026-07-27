@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the room remained perfectly still; and accordingly, the last thing before retiring to her own couch, she applied for admittance. Catherine was sitting up, and had a book that she pretended to be reading. She had no wish to go to bed, for she had no expectation of sleeping. After Mrs. Penniman had left her she sat up half the night, and she offered her visitor no inducement to remain. Her aunt came stealing in very gently, and approached her with great solemnity.",
   "words": [
-    "accordingly"
+    {
+      "word": "accordingly",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

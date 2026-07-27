@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Dr. Simon, you have examined it. Do you think that to cut a man’s throat like that would need great force? Or, perhaps, only a very sharp knife?” “I should say that it could not be done with a knife at all,” said the pale doctor. “Have you any thought,” resumed Valentin, “of a tool with which it could be done?” “Speaking within modern probabilities, I really haven’t,” said the doctor, arching his painful brows. “It’s not easy to hack a neck through even clumsily, and this was a very clean cut.",
   "words": [
-    "hack"
+    {
+      "word": "hack",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

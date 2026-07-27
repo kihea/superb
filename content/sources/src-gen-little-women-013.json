@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Next week we are off to Germany and Switzerland, and as we shall travel fast, I shall only be able to give you hasty letters. I keep my diary, and try to ‘remember correctly and describe clearly all that I see and admire’, as Father advised. It is good practice for me, and with my sketchbook will give you a better idea of my tour than these scribbles. Adieu, I embrace you tenderly. “Votre Amie.” HEIDELBERG My dear Mamma, Having a quiet hour before we leave for Berne, I’ll try to tell you what has happened, for some of it is very important, as you will see.",
   "words": [
-    "advised"
+    {
+      "word": "advised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

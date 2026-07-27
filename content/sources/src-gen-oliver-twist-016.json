@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But you have not told me where he is now, Miss Maylie. You must pardon my finding fault with you,—but why not have brought him?” “He is waiting in a coach at the door,” replied Rose. “At this door!” cried the old gentleman. With which he hurried out of the room, down the stairs, up the coachsteps, and into the coach, without another word. When the room-door closed behind him, Mr. Grimwig lifted up his head, and converting one of the hind legs of his chair into a pivot, described three distinct circles with the assistance of his stick and the table; sitting in it all the time.",
   "words": [
-    "converting"
+    {
+      "word": "converting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

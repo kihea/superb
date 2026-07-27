@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“What I want to know,” said the young mule, who had been quiet for a long time--“what I want to know is, why we have to fight at all.” “Because we’re told to,” said the troop-horse, with a snort of contempt. “Orders,” said Billy the mule, and his teeth snapped. “Hukm hai!” (It is an order! ), said the camel with a gurgle, and Two Tails and the bullocks repeated, “Hukm hai!” “Yes, but who gives the orders?” said the recruit-mule. “The man who walks at your head--Or sits on your back--Or holds the nose rope--Or twists your tail,” said Billy and the troop-horse and the camel and the bullocks one after the other.",
   "words": [
-    "mule"
+    {
+      "word": "mule",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Jungle Book",

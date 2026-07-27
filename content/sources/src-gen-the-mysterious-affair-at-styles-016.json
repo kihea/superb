@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I saw a strange look come into Dorcas’s eyes. Not Mr. Lawrence—Mr. John.” Behind me, with a wild cry, Mary Cavendish fell heavily against me, and as I turned to catch her I met the quiet triumph in Poirot’s eyes. THE CASE FOR THE PROSECUTION The trial of John Cavendish for the murder of his stepmother took place two months later. Of the intervening weeks I will say little, but my admiration and sympathy went out unfeignedly to Mary Cavendish.",
   "words": [
-    "admiration"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

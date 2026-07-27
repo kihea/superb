@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "First signing them to hide, Peter cut Wendy’s bonds, and then nothing could have been easier than for them all to fly off together; but one thing barred the way, an oath, “Hook or me this time.” So when he had freed Wendy, he whispered for her to conceal herself with the others, and himself took her place by the mast, her cloak around him so that he should pass for her. Then he took a great breath and crowed. To the pirates it was a voice crying that all the boys lay slain in the cabin; and they were panic-stricken. Hook tried to hearten them; but like the dogs he had made them they showed him their fangs, and he knew that if he took his eyes off them now they would leap at him. “Lads,” he said, ready to cajole or strike as need be, but never quailing for an instant, “I’ve thought it out.",
   "words": [
-    "whispered",
-    "conceal"
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Come into the parlour. Come into the parlour.\" The parlour was the space behind the screen of rags. The old man raked the fire together with an old stair-rod, and having trimmed his smoky lamp (for it was night), with the stem of his pipe, put it in his mouth again. While he did this, the woman who had already spoken threw her bundle on the floor, and sat down in a flaunting manner on a stool; crossing her elbows on her knees, and looking with a bold defiance at the other two.",
   "words": [
-    "bundle"
+    {
+      "word": "bundle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

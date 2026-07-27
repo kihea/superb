@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I was distressed therefore when another member of the family came down to live here, and I felt that he should be warned of the danger which he will run. That was all which I intended to convey.” “But what is the danger?” “You know the story of the hound?” “I do not believe in such nonsense.” “But I do. If you have any influence with Sir Henry, take him away from a place which has always been fatal to his family. The world is wide. Why should he wish to live at the place of danger?” “Because it is the place of danger.",
   "words": [
-    "convey"
+    {
+      "word": "convey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

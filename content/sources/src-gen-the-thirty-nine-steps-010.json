@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We ran eight miles down the valley, through a village or two, and I could not help noticing several strange-looking folk lounging by the roadside. These were the watchers who would have had much to say to me if I had come in other garb or company. As it was, they looked incuriously on. One touched his cap in salute, and I responded graciously. As the dark fell I turned up a side glen which, as I remember from the map, led into an unfrequented corner of the hills.",
   "words": [
-    "glen"
+    {
+      "word": "glen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

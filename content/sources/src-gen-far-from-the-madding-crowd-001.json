@@ -3,13 +3,49 @@
   "pool": "sourced",
   "text": "DESCRIPTION OF FARMER OAK—AN INCIDENT When Farmer Oak smiled, the corners of his mouth spread till they were within an unimportant distance of his ears, his eyes were reduced to mere chinks, and diverging wrinkles appeared round them, extending upon his countenance like the rays in a rudimentary sketch of the rising sun. His Christian name was Gabriel, and on working days he was a young man of sound judgment, easy motions, proper dress, and general good character. On Sundays he was a man of misty views, rather given to a postponing treatment of things, whose best clothes and seven-and-sixpenny umbrella were always hampering him: upon the whole, one who felt himself to occupy morally that vast middle space of Laodicean neutrality which lay between the Sacrament people of the parish and the drunken division of its inhabitants—that is, he went to church, but yawned privately by the time the congegation reached the Nicene creed, and thought of what there would be for dinner when he meant to be listening to the sermon.",
   "words": [
-    "smiled",
-    "rudimentary",
-    "motions",
-    "umbrella",
-    "parish",
-    "drunken",
-    "inhabitants"
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rudimentary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "motions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "umbrella",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parish",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "drunken",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inhabitants",
+      "signals": [
+        "definition-marker"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

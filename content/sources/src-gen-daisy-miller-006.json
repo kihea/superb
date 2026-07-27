@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“If you will do me the honor to accept my arm, we will go and select one of them.” Daisy stood there smiling; she threw back her head and gave a little, light laugh. “I like a gentleman to be formal!” she declared. “I assure you it’s a formal offer.” “I was bound I would make you say something,” Daisy went on. “You see, it’s not very difficult,” said Winterbourne. “But I am afraid you are chaffing me.” “I think not, sir,” remarked Mrs. Miller very gently.",
   "words": [
-    "assure"
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

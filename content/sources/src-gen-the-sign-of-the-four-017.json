@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I only know what I saw with my own eyes. Our plantation was at a place called Muttra, near the border of the Northwest Provinces. Night after night the whole sky was alight with the burning bungalows, and day after day we had small companies of Europeans passing through our estate with their wives and children, on their way to Agra, where were the nearest troops. Mr. Abel White was an obstinate man. He had it in his head that the affair had been exaggerated, and that it would blow over as suddenly as it had sprung up.",
   "words": [
-    "plantation"
+    {
+      "word": "plantation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sign of the Four",

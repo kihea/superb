@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I see that ye are dogs. I go from you to my own people--if they be my own people. The jungle is shut to me, and I must forget your talk and your companionship. But I will be more merciful than ye are. Because I was all but your brother in blood, I promise that when I am a man among men I will not betray ye to men as ye have betrayed me.” He kicked the fire with his foot, and the sparks flew up.",
   "words": [
-    "sparks"
+    {
+      "word": "sparks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Jungle Book",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You and I are the only men on this ship who know its meaning.” “At one time in my life,” he continued, after another pause, “I dreamed that I might some day talk with men who used such language, that I might lift myself out of the place in life in which I had been born, and hold conversation and mingle with men who talked about just such things as ethics. And this is the first time I have ever heard the word pronounced. Which is all by the way, for you are wrong. It is a question neither of grammar nor ethics, but of fact.” “I understand,” I said. “The fact is that you have the money.” His face brightened.",
   "words": [
-    "grammar"
+    {
+      "word": "grammar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

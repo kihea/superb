@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Some day I show you, Harvey.\" The moon was beginning to walk on the still sea before the elder men came aft. The cook had no need to cry \"second half.\" Dan and Manuel were down the hatch and at table ere Tom Platt, last and most deliberate of the elders, had finished wiping his mouth with the back of his hand. Harvey followed Penn, and sat down before a tin pan of cod's tongues and sounds, mixed with scraps of pork and fried potato, a loaf of hot bread, and some black and powerful coffee.",
   "words": [
-    "aft",
-    "tongues",
-    "potato",
-    "loaf"
+    {
+      "word": "aft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tongues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "potato",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "loaf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

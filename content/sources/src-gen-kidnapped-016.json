@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "By these, I gathered the Prince was a gracious, spirited boy, like the son of a race of polite kings, but not so wise as Solomon. I gathered, too, that while he was in the Cage, he was often drunk; so the fault that has since, by all accounts, made such a wreck of him, had even then begun to show itself. We were no sooner done eating than Cluny brought out an old, thumbed, greasy pack of cards, such as you may find in a mean inn; and his eyes brightened in his face as he proposed that we should fall to playing. Now this was one of the things I had been brought up to eschew like disgrace; it being held by my father neither the part of a Christian nor yet of a gentleman to set his own livelihood and fish for that of others, on the cast of painted pasteboard. To be sure, I might have pleaded my fatigue, which was excuse enough; but I thought it behoved that I should bear a testimony.",
   "words": [
-    "testimony"
+    {
+      "word": "testimony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

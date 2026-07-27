@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“That’s right!” said the Tiger-lily. “The daisies are worst of all. When one speaks, they all begin together, and it’s enough to make one wither to hear the way they go on!” “How is it you can all talk so nicely?” Alice said, hoping to get it into a better temper by a compliment. “I’ve been in many gardens before, but none of the flowers could talk.” “Put your hand down, and feel the ground,” said the Tiger-lily. “Then you’ll know why.” Alice did so.",
   "words": [
-    "lily",
-    "temper"
+    {
+      "word": "lily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Through the Looking-Glass",

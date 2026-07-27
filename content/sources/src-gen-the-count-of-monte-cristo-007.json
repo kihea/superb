@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Well, yes, and I had good reason to be so,” replied Château-Renaud. “I was retreating on foot, for my horse was dead. Six Arabs came up, full gallop, to cut off my head. I shot two with my double-barrelled gun, and two more with my pistols, but I was then disarmed, and two were still left; one seized me by the hair (that is why I now wear it so short, for no one knows what may happen), the other swung a yataghan, and I already felt the cold steel on my neck, when this gentleman whom you see here charged them, shot the one who held me by the hair, and cleft the skull of the other with his sabre. He had assigned himself the task of saving a man’s life that day; chance caused that man to be myself.",
   "words": [
-    "gentleman"
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

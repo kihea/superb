@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Why, it’s just the other way; you may be all the use in the world.” He became absent. We were following the inward trend of a small bay towards a cleft in the low shore. “That’s Ekken Sound,” said Davies; “let’s look into it,” and a minute or two later we were drifting through a dainty little strait, with a peep of open water at the end of it. Cottages bordered either side, some overhanging the very water, some connecting with it by a rickety wooden staircase or a miniature landing-stage. Creepers and roses rioted over the walls and tiny porches.",
   "words": [
-    "cottages"
+    {
+      "word": "cottages",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

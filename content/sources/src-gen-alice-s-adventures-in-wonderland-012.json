@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Then it wasn’t very civil of you to offer it,” said Alice angrily. “It wasn’t very civil of you to sit down without being invited,” said the March Hare. “I didn’t know it was your table,” said Alice; “it’s laid for a great many more than three.” “Your hair wants cutting,” said the Hatter. He had been looking at Alice for some time with great curiosity, and this was his first speech. “You should learn not to make personal remarks,” Alice said with some severity; “it’s very rude.” The Hatter opened his eyes very wide on hearing this; but all he said was, “Why is a raven like a writing-desk?” “Come, we shall have some fun now!” thought Alice.",
   "words": [
-    "curiosity"
+    {
+      "word": "curiosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Alice's Adventures in Wonderland",

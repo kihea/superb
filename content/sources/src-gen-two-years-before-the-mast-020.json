@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "As we changed horses twice, we did not slacken our speed until we turned into the streets of the Pueblo. The Pueblo de los Angeles I found a large and flourishing town of about twenty thousand inhabitants, with brick sidewalks, and blocks of stone or brick houses. The three principal traders when we were here for hides in the Pilgrim and Alert are still among the chief traders of the place,--Stearns, Temple, and Warner, the two former being reputed very rich. I dined with Mr. Stearns, now a very old man, and met there Don Juan Bandini, to whom I had given a good deal of notice in my book. From him, as indeed from every one in this town, I met with the kindest attentions.",
   "words": [
-    "traders",
-    "hides"
+    {
+      "word": "traders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hides",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Monday was apt to be rather a stormy day at the Carrs'. There was the big wash to be done, and Aunt Izzie always seemed a little harder to please, and the servants a good deal crosser than on common days. But I think it was also, in part, the fault of the children, who, after the quiet of Sunday, were specially frisky and uproarious, and readier than usual for all sorts of mischief. To Clover and Elsie, Sunday seemed to begin at Saturday's bed-time, when their hair was wet, and screwed up in papers, that it might curl next day. Elsie's waved naturally, so Aunt Izzie didn't think it necessary to pin her papers very tight; but Clover's thick, straight locks required to be pinched hard before they would give even the least twirl, and to her, Saturday night was one of misery.",
   "words": [
-    "apt",
-    "servants",
-    "curl",
-    "waved"
+    {
+      "word": "apt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

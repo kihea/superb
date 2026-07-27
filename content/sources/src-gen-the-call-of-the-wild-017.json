@@ -3,8 +3,19 @@
   "pool": "sourced",
   "text": "The salient thing of this other world seemed fear. When he watched the hairy man sleeping by the fire, head between his knees and hands clasped above, Buck saw that he slept restlessly, with many starts and awakenings, at which times he would peer fearfully into the darkness and fling more wood upon the fire. Did they walk by the beach of a sea, where the hairy man gathered shellfish and ate them as he gathered, it was with eyes that roved everywhere for hidden danger and with legs prepared to run like the wind at its first appearance. Through the forest they crept noiselessly, Buck at the hairy man’s heels; and they were alert and vigilant, the pair of them, ears twitching and moving and nostrils quivering, for the man heard and smelled as keenly as Buck. The hairy man could spring up into the trees and travel ahead as fast as on the ground, swinging by the arms from limb to limb, sometimes a dozen feet apart, letting go and catching, never falling, never missing his grip.",
   "words": [
-    "crept",
-    "vigilant"
+    {
+      "word": "crept",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vigilant",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

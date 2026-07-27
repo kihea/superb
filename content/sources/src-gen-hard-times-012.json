@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "‘Acquit me of impertinent curiosity, my dear Mrs. Bounderby. I think Tom may be gradually falling into trouble, and I wish to stretch out a helping hand to him from the depths of my wicked experience.—Shall I say again, for his sake? Is that necessary?’ She seemed to try to answer, but nothing came of it. ‘Candidly to confess everything that has occurred to me,’ said James Harthouse, again gliding with the same appearance of effort into his more airy manner; ‘I will confide to you my doubt whether he has had many advantages. Whether—forgive my plainness—whether any great amount of confidence is likely to have been established between himself and his most worthy father.’ ‘I do not,’ said Louisa, flushing with her own great remembrance in that wise, ‘think it likely.’ ‘Or, between himself, and—I may trust to your perfect understanding of my meaning, I am sure—and his highly esteemed brother-in-law.’ She flushed deeper and deeper, and was burning red when she replied in a fainter voice, ‘I do not think that likely, either.’ ‘Mrs.",
   "words": [
-    "gradually"
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Hard Times",

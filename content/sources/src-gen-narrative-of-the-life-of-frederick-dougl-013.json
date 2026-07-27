@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "After threatening me thus, he gave me a very large dose of salts, telling me that I might remain in St. Michael’s that night, (it being quite late,) but that I must be off back to Mr. Covey’s early in the morning; and that if I did not, he would get hold of me, which meant that he would whip me. I remained all night, and, according to his orders, I started off to Covey’s in the morning, (Saturday morning,) wearied in body and broken in spirit. I got no supper that night, or breakfast that morning. I reached Covey’s about nine o’clock; and just as I was getting over the fence that divided Mrs. Kemp’s fields from ours, out ran Covey with his cowskin, to give me another whipping. Before he could reach me, I succeeded in getting to the cornfield; and as the corn was very high, it afforded me the means of hiding.",
   "words": [
-    "afforded"
+    {
+      "word": "afforded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

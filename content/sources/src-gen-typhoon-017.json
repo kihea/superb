@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": ",” and left off unexpectedly. “What could I do with them, sir?” A harsh, abrupt, imperious clang exploded suddenly. The three pairs of eyes flew up to the telegraph dial to see the hand jump from FULL to STOP, as if snatched by a devil. And then these three men in the engineroom had the intimate sensation of a check upon the ship, of a strange shrinking, as if she had gathered herself for a desperate leap. “Stop her!” bellowed Mr. Rout.",
   "words": [
-    "leap"
+    {
+      "word": "leap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“All hands on board,” shouted Pencroft; but breakfast was first necessary, and it was thought best to take provisions on board, in the event of their excursion being prolonged until the evening. Cyrus Harding was equally anxious to try the vessel, the model of which had originated with him, although on the sailor’s advice he had altered some parts of it, but he did not share Pencroft’s confidence in her, and as the latter had not again spoken of the voyage to Tabor Island, Harding hoped he had given it up. He would have indeed great reluctance in letting two or three of his companions venture so far in so small a boat, which was not of more than fifteen tons’ burden. At half-past ten everybody was on board, even Top and Jup, and Herbert weighed the anchor, which was fast in the sand near the mouth of the Mercy. The sail was hoisted, the Lincolnian flag floated from the masthead, and the “Bonadventure,” steered by Pencroft, stood out to sea.",
   "words": [
-    "shouted",
-    "sail",
-    "steered"
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "steered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

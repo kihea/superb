@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "My best friends point out danger, and whisper caution.” “You do right to listen to your friends. By all means be cautious.” “It is your religion—your strange, self-reliant, invulnerable creed, whose influence seems to clothe you in, I know not what, unblessed panoply. You are good—Père Silas calls you good, and loves you—but your terrible, proud, earnest Protestantism, there is the danger. It expresses itself by your eye at times; and again, it gives you certain tones and certain gestures that make my flesh creep. You are not demonstrative, and yet, just now—when you handled that tract—my God!",
   "words": [
-    "caution",
-    "cautious"
+    {
+      "word": "caution",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cautious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

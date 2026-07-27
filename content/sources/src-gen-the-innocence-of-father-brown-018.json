@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Everyone knew, of course, that St. Clare had some of the eccentricities of puritan piety. The second incident was much more arresting. In the luckless and unsupported regiment which made that rash attempt at the Black River there was a certain Captain Keith, who was at that time engaged to St. Clare’s daughter, and who afterwards married her. He was one of those who were captured by Olivier, and, like all the rest except the general, appears to have been bounteously treated and promptly set free. Some twenty years afterwards this man, then Lieutenant-Colonel Keith, published a sort of autobiography called ‘A British Officer in Burmah and Brazil.’ In the place where the reader looks eagerly for some account of the mystery of St. Clare’s disaster may be found the following words: ‘Everywhere else in this book I have narrated things exactly as they occurred, holding as I do the old-fashioned opinion that the glory of England is old enough to take care of itself.",
   "words": [
-    "regiment"
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

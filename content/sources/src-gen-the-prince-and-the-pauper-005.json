@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "So the banquet began. By midnight the revelry was at its height. Now came one of those picturesque spectacles so admired in that old day. A description of it is still extant in the quaint wording of a chronicler who witnessed it: ‘Space being made, presently entered a baron and an earl appareled after the Turkish fashion in long robes of bawdkin powdered with gold; hats on their heads of crimson velvet, with great rolls of gold, girded with two swords, called scimitars, hanging by great bawdricks of gold. Next came yet another baron and another earl, in two long gowns of yellow satin, traversed with white satin, and in every bend of white was a bend of crimson satin, after the fashion of Russia, with furred hats of gray on their heads; either of them having an hatchet in their hands, and boots with pykes’ (points a foot long), ’turned up.",
   "words": [
-    "extant",
-    "earl",
-    "robes",
-    "velvet",
-    "swords"
+    {
+      "word": "extant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "earl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "robes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swords",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "So were the Pope and the Derby Winner; but the idea of their intimate acquaintanceship would have struck Kidd as equally incongruous. He had heard of (and written about, nay, falsely pretended to know) Sir Claude Champion, as “one of the brightest and wealthiest of England’s Upper Ten”; as the great sportsman who raced yachts round the world; as the great traveller who wrote books about the Himalayas, as the politician who swept constituencies with a startling sort of Tory Democracy, and as the great dabbler in art, music, literature, and, above all, acting. Sir Claude was really rather magnificent in other than American eyes. There was something of the Renascence Prince about his omnivorous culture and restless publicity--, he was not only a great amateur, but an ardent one. There was in him none of that antiquarian frivolity that we convey by the word “dilettante”.",
   "words": [
-    "traveller",
-    "politician",
-    "constituencies",
-    "publicity",
-    "convey"
+    {
+      "word": "traveller",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "politician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constituencies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "publicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "convey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

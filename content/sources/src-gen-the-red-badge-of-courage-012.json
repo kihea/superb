@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We thought we’d lost forty-two men by straight count, but if they keep on a-comin’ this way, we’ll git th’ comp’ny all back by mornin’ yit. Where was yeh?” “Over on th’ right. I got separated”—began the youth with considerable glibness. But his friend had interrupted hastily. “Yes, an’ he got shot in th’ head an’ he’s in a fix, an’ we must see t’ him right away.” He rested his rifle in the hollow of his left arm and his right around the youth’s shoulder.",
   "words": [
-    "rifle"
+    {
+      "word": "rifle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

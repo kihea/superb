@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Well, after his astonishment was a little over at this, I pointed to him to run and fetch the bird I had shot, which he did, but stayed some time; for the parrot, not being quite dead, had fluttered away a good distance from the place where she fell: however, he found her, took her up, and brought her to me; and as I had perceived his ignorance about the gun before, I took this advantage to charge the gun again, and not to let him see me do it, that I might be ready for any other mark that might present; but nothing more offered at that time: so I brought home the kid, and the same evening I took the skin off, and cut it out as well as I could; and having a pot fit for that purpose, I boiled or stewed some of the flesh, and made some very good broth. After I had begun to eat some I gave some to my man, who seemed very glad of it, and liked it very well; but that which was strangest to him was to see me eat salt with it.",
   "words": [
-    "parrot",
-    "perceived",
-    "boiled",
-    "broth"
+    {
+      "word": "parrot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perceived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "broth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And if I had loved him less I should have thought his accent and look of exultation savage; but, sitting by him, roused from the nightmare of parting—called to the paradise of union—I thought only of the bliss given me to drink in so abundant a flow. Again and again he said, “Are you happy, Jane?” And again and again I answered, “Yes.” After which he murmured, “It will atone—it will atone. Have I not found her friendless, and cold, and comfortless? Will I not guard, and cherish, and solace her? Is there not love in my heart, and constancy in my resolves?",
   "words": [
-    "abundant"
+    {
+      "word": "abundant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

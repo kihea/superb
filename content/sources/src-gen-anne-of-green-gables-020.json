@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You must read the announcements and then come and tell me, Jane. And I implore you in the name of our old friendship to do it as quickly as possible. If I have failed just say so, without trying to break it gently; and whatever you do don’t sympathize with me. Promise me this, Jane.” Jane promised solemnly; but, as it happened, there was no necessity for such a promise. When they went up the entrance steps of Queen’s they found the hall full of boys who were carrying Gilbert Blythe around on their shoulders and yelling at the tops of their voices, “Hurrah for Blythe, Medalist!” For a moment Anne felt one sickening pang of defeat and disappointment.",
   "words": [
-    "disappointment"
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

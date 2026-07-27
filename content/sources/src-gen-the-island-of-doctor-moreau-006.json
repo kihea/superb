@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Whatever it was, the Thing either lacked the courage to attack me, or it was waiting to take me at some disadvantage. I kept studiously to the open. At times I would turn and listen; and presently I had half persuaded myself that my pursuer had abandoned the chase, or was a mere creation of my disordered imagination. Then I heard the sound of the sea. I quickened my footsteps almost into a run, and immediately there was a stumble in my rear.",
   "words": [
-    "presently"
+    {
+      "word": "presently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

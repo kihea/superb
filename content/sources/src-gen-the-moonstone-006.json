@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I stared at him, instead of answering him. “I saw Rosanna Spearman hiding in the shrubbery as we went by,” said the Sergeant. “When you said ‘Hullo’?” “Yes—when I said ‘Hullo!’ If there’s a sweetheart in the case, the hiding doesn’t much matter. If there isn’t—as things are in this house—the hiding is a highly suspicious circumstance, and it will be my painful duty to act on it accordingly.” What, in God’s name, was I to say to him? I knew the shrubbery was Mr. Franklin’s favourite walk; I knew he would most likely turn that way when he came back from the station; I knew that Penelope had over and over again caught her fellow-servant hanging about there, and had always declared to me that Rosanna’s object was to attract Mr. Franklin’s attention.",
   "words": [
-    "answering",
-    "sweetheart",
-    "circumstance"
+    {
+      "word": "answering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sweetheart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Hold on a minute, my servant ’ll he’p you with them bags. Jump out and he’p the gentleman, Adolphus”—meaning me, I see. I done so, and then we all three started on again. The young chap was mighty thankful; said it was tough work toting his baggage such weather. He asked the king where he was going, and the king told him he’d come down the river and landed at the other village this morning, and now he was going up a few mile to see an old friend on a farm up there.",
   "words": [
-    "gentleman",
-    "baggage"
+    {
+      "word": "gentleman",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "baggage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

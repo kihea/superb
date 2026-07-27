@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "No trace has ever been found of the great dog; at which there is much mourning, for, with public opinion in its present state, he would, I believe, be adopted by the town. To-morrow will see the funeral; and so will end this one more “mystery of the sea.” Mina Murray’s Journal. 8 August.--Lucy was very restless all night, and I, too, could not sleep. The storm was fearful, and as it boomed loudly among the chimney-pots, it made me shudder. When a sharp puff came it seemed to be like a distant gun.",
   "words": [
-    "puff"
+    {
+      "word": "puff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

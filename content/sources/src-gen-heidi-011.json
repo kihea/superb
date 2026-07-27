@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "\"You can have it if you like; I do not want it; I have my own still.\" And Heidi so saying undid her red bundle and took out her own old hat, which had become a little more battered still during the journey. But this was no trouble to Heidi; she had not forgotten how her grandfather had called out to Dete that he never wished to see her and her hat and feathers again, and this was the reason she had so anxiously preserved her old hat, for she had never ceased to think about going home to her grandfather. But Brigitta told her not to be so foolish as to give it away; she would not think of taking such a beautiful hat; if Heidi did not want to wear it she might sell it to the schoolmaster's daughter in Dorfli and get a good deal of money for it. But Heidi stuck to her intention and hid the hat quietly in a corner behind the grandmother's chair.",
   "words": [
-    "feathers",
-    "foolish",
-    "quietly"
+    {
+      "word": "feathers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

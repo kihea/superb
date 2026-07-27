@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Colonel, I do not know what you and I shall do without the Miss Dashwoods;\"--was Mrs. Jennings's address to him when he first called on her, after their leaving her was settled--\"for they are quite resolved upon going home from the Palmers;--and how forlorn we shall be, when I come back!--Lord! we shall sit and gape at one another as dull as two cats.\" Perhaps Mrs. Jennings was in hopes, by this vigorous sketch of their future ennui, to provoke him to make that offer, which might give himself an escape from it; and if so, she had soon afterwards good reason to think her object gained; for, on Elinor's moving to the window to take more expeditiously the dimensions of a print, which she was going to copy for her friend, he followed her to it with a look of particular meaning, and conversed with her there for several minutes.",
   "words": [
-    "sketch"
+    {
+      "word": "sketch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

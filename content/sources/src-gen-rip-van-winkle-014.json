@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The dogs, too, not one of whom he recognised for an old acquaintance, barked at him as he passed. The very village was altered; it was larger and more populous. There were rows of houses which he had never seen before, and those which had been his familiar haunts had disappeared. Strange names were over the doors--strange faces at the windows--everything was strange. His mind now misgave him; he began to doubt whether both he and the world around him were not bewitched.",
   "words": [
-    "recognised",
-    "acquaintance"
+    {
+      "word": "recognised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

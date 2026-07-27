@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You people who go in for being consistent have just as many moods as others have. The only difference is that your moods are rather meaningless. You can’t have forgotten that you assured me most solemnly that nothing in the world would induce you to send it to any exhibition. You told Harry exactly the same thing.” He stopped suddenly, and a gleam of light came into his eyes. He remembered that Lord Henry had said to him once, half seriously and half in jest, “If you want to have a strange quarter of an hour, get Basil to tell you why he won’t exhibit your picture.",
   "words": [
-    "exhibit"
+    {
+      "word": "exhibit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

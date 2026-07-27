@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“But not to the degree to contaminate—” “To contaminate?”—my big word left her at a loss. I explained it. “To corrupt.” She stared, taking my meaning in; but it produced in her an odd laugh. “Are you afraid he’ll corrupt you?” She put the question with such a fine bold humor that, with a laugh, a little silly doubtless, to match her own, I gave way for the time to the apprehension of ridicule. But the next day, as the hour for my drive approached, I cropped up in another place.",
   "words": [
-    "corrupt",
-    "stared",
-    "approached"
+    {
+      "word": "corrupt",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "stared",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "approached",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Turn of the Screw",

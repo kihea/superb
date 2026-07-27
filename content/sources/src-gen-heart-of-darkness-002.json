@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Good heavens! and I was going to take charge of a two-penny-half-penny river-steamboat with a penny whistle attached! It appeared, however, I was also one of the Workers, with a capital—you know. Something like an emissary of light, something like a lower sort of apostle. There had been a lot of such rot let loose in print and talk just about that time, and the excellent woman, living right in the rush of all that humbug, got carried off her feet.",
   "words": [
-    "apostle"
+    {
+      "word": "apostle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

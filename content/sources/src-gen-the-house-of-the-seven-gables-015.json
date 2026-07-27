@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“He looked upon me as his enemy. He considered me as the cause of his overwhelming disgrace, his imminent peril of death, his irretrievable ruin. There was no great probability, therefore, of his volunteering information, out of his dungeon, that should elevate me still higher on the ladder of prosperity. But the moment has now come when he must give up his secret.” “And what if he should refuse?” inquired Hepzibah. “Or,—as I steadfastly believe,—what if he has no knowledge of this wealth?” “My dear cousin,” said Judge Pyncheon, with a quietude which he had the power of making more formidable than any violence, “since your brother’s return, I have taken the precaution (a highly proper one in the near kinsman and natural guardian of an individual so situated) to have his deportment and habits constantly and carefully overlooked.",
   "words": [
-    "volunteering",
-    "elevate"
+    {
+      "word": "volunteering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elevate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

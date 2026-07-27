@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“What’s the matter? Do you need some?” Thea shrugged. “Oh, I can get along, in a little way.” She looked intently out of the window at the arc streetlamp that was just beginning to sputter. “But it’s silly to live at all for little things,” she added quietly. “Living’s too much trouble unless one can get something big out of it.” Dr. Archie rested his elbows on the arms of his chair, dropped his chin on his clasped hands and looked at her.",
   "words": [
-    "quietly"
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

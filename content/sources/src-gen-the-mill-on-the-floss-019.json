@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But across that stealing influence came the terrible shadow of past thoughts; and the sudden horror lest now, at last, the moment of fatal intoxication was close upon her, called up feelings of angry resistance toward Stephen. “Let me go!” she said, in an agitated tone, flashing an indignant look at him, and trying to get her hands free. “You have wanted to deprive me of any choice. You knew we were come too far; you have dared to take advantage of my thoughtlessness. It is unmanly to bring me into such a position.” Stung by this reproach, he released her hands, moved back to his former place, and folded his arms, in a sort of desperation at the difficulty Maggie’s words had made present to him.",
   "words": [
-    "deprive"
+    {
+      "word": "deprive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

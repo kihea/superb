@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We covered them with such rags as we could find, and started away, fastening the door behind us. Their home must be these people's grave, for they could not have Christian burial, or be admitted to consecrated ground. They were as dogs, wild beasts, lepers, and no soul that valued its hope of eternal life would throw it away by meddling in any sort with these rebuked and smitten outcasts. We had not moved four steps when I caught a sound as of footsteps upon gravel. My heart flew to my throat.",
   "words": [
-    "beasts"
+    {
+      "word": "beasts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

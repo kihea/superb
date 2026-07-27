@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I saw her, the other day, bespatter the Governor himself with water at the cattle-trough in Spring Lane. What, in heaven’s name, is she? Is the imp altogether evil? Hath she affections? Hath she any discoverable principle of being?” “None, save the freedom of a broken law,” answered Mr. Dimmesdale, in a quiet way, as if he had been discussing the point within himself, “Whether capable of good, I know not.” The child probably overheard their voices, for, looking up to the window with a bright, but naughty smile of mirth and intelligence, she threw one of the prickly burrs at the Rev.",
   "words": [
-    "imp",
-    "naughty"
+    {
+      "word": "imp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "naughty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

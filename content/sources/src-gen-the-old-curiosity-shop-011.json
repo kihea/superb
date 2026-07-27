@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "‘The old man and his grandchild who travelled with you--where are they? It will be worth your while to speak out, I assure you; much better worth your while than you believe. They left you, you say--at those races, as I understand. They have been traced to that place, and there lost sight of. Have you no clue, can you suggest no clue, to their recovery?’ ‘Did I always say, Thomas,’ cried Short, turning with a look of amazement to his friend, ‘that there was sure to be an inquiry after them two travellers?’ ‘YOU said!’ returned Mr Codlin.",
   "words": [
-    "travelled",
-    "assure"
+    {
+      "word": "travelled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

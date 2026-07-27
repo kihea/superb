@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "For, reasoning from their daylight behaviour, I thought that fear must be forgotten. “Abruptly, I dashed down the match, and knocking one of the people over in my course, went blundering across the big dining-hall again, out under the moonlight. I heard cries of terror and their little feet running and stumbling this way and that. I do not remember all I did as the moon crept up the sky. I suppose it was the unexpected nature of my loss that maddened me.",
   "words": [
-    "moonlight"
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

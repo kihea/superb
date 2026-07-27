@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Particular wickedness doth not hurt any other: only unto him it is hurtful, whosoever he be that offends, unto whom in great favour and mercy it is granted, that whensoever he himself shall but first desire it, he may be presently delivered of it. Unto my free-will my neighbour's free-will, whoever he be, (as his life, or his bode), is altogether indifferent. For though we are all made one for another, yet have our minds and understandings each of them their own proper and limited jurisdiction. For else another man's wickedness might be my evil which God would not have, that it might not be in another man's power to make me unhappy: which nothing now can do but mine own wickedness. The sun seemeth to be shed abroad.",
   "words": [
-    "jurisdiction"
+    {
+      "word": "jurisdiction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

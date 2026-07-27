@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I wanted to think that out; and moreover I wanted to think out some way to reform this evil and persuade the people to let the foolish fashion die out; but thinking was out of the question in the circumstances. You couldn't think, where Sandy was. She was a quite biddable creature and good-hearted, but she had a flow of talk that was as steady as a mill, and made your head sore like the drays and wagons in a city. If she had had a cork she would have been a comfort. But you can't cork that kind; they would die.",
   "words": [
-    "foolish",
-    "wagons"
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wagons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

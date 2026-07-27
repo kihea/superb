@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As Olie had disappeared from the scene and was nowhere to be found, I went in and got my own breakfast. It was supper over again, only I scrambled my eggs instead of frying them. And all the while I was eating that meal I studied those shack-walls and made mental note of what should be changed and what should be done. There was so much, that it rather overwhelmed me. I sat at the table, littered with its dirty dishes, wondering where to begin.",
   "words": [
-    "supper"
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

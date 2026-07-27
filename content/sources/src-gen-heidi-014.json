@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But Heidi understood that her grandfather was near and so said good-bye to grandmother. The old man now never passed the door without going in to wish the old woman good-day, and she liked to hear his footstep approaching, for he always had a cheery word for her. But to-day it was growing late for Heidi, who was always up with the lark, and the grandfather would never let her go to bed after hours; so this evening he only called good-night through the open door and started home at once with the child, and the two climbed under the starlit sky back to their peaceful dwelling. A COMPENSATION The next morning the doctor climbed up from Dorfli with Peter and the goats. The kindly gentleman tried now and then to enter into conversation with the boy, but his attempts failed, for he could hardly get a word out of Peter in answer to his questions.",
   "words": [
-    "approaching",
-    "gentleman"
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

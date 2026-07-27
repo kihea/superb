@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Presently we caught sight of the herd, which numbered, as Ventvögel had said, between twenty and thirty, standing in a hollow, having finished their morning meal, and flapping their great ears. It was a splendid sight, for they were only about two hundred yards from us. Taking a handful of dry grass, I threw it into the air to see how the wind was; for if once they winded us I knew they would be off before we could get a shot. Finding that, if anything, it blew from the elephants to us, we crept on stealthily, and thanks to the cover managed to get within forty yards or so of the great brutes. Just in front of us, and broadside on, stood three splendid bulls, one of them with enormous tusks.",
   "words": [
-    "blew"
+    {
+      "word": "blew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

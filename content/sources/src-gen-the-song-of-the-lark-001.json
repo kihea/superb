@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "can’t do anything with him. When he’s mad he’s lots stronger than me, aren’t you, Thor?” Thea spoke with pride, and the idol was appeased. He grunted approvingly as his sister began to kick rapidly behind her, and the wagon rattled off and soon disappeared in the flying currents of sand. That evening Dr. Archie was seated in his office, his desk chair tilted back, reading by the light of a hot coal-oil lamp. All the windows were open, but the night was breathless after the sandstorm, and his hair was moist where it hung over his forehead.",
   "words": [
-    "idol",
-    "lamp"
+    {
+      "word": "idol",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

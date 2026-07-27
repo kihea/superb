@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Under the general principle that the local slope of a river is the result and measure of the resistance of its bed, it is evident that a narrow and deep stream should have less slope, because it has less frictional surface in proportion to capacity; i.e., less perimeter in proportion to area of cross section. The ultimate effect of levees and revetments confining the floods and bringing all the stages of the river into register is to deepen the channel and let down the slope. The first effect of the levees is to raise the surface; but this, by inducing greater velocity of flow, inevitably causes an enlargement of section, and if this enlargement is prevented from being made at the expense of the banks, the bottom must give way and the form of the waterway be so improved as to admit this flow with less rise.",
   "words": [
-    "slope",
-    "deepen",
-    "waterway"
+    {
+      "word": "slope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deepen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waterway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

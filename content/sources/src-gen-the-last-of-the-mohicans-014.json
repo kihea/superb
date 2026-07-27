@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Well informed of the approach of every danger, while it is yet at a distance, the Indian generally rests secure under his knowledge of the signs of the forest, and the long and difficult paths that separate him from those he has most reason to dread. But the enemy who, by any lucky concurrence of accidents, has found means to elude the vigilance of the scouts, will seldom meet with sentinels nearer home to sound the alarm. In addition to this general usage, the tribes friendly to the French knew too well the weight of the blow that had just been struck, to apprehend any immediate danger from the hostile nations that were tributary to the crown of Britain. When Duncan and David, therefore, found themselves in the center of the children, who played the antics already mentioned, it was without the least previous intimation of their approach. But so soon as they were observed the whole of the juvenile pack raised, by common consent, a shrill and warning whoop; and then sank, as it were, by magic, from before the sight of their visitors.",
   "words": [
-    "accidents",
-    "scouts",
-    "hostile"
+    {
+      "word": "accidents",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scouts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hostile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

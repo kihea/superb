@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "For, I am not a bad witness.” The Vengeance and Jacques Three vied with each other in their fervent protestations that she was the most admirable and marvellous of witnesses. The little citizen, not to be outdone, declared her to be a celestial witness. “He must take his chance,” said Madame Defarge. “No, I cannot spare him! You are engaged at three o’clock; you are going to see the batch of to-day executed.--You?” The question was addressed to the wood-sawyer, who hurriedly replied in the affirmative: seizing the occasion to add that he was the most ardent of Republicans, and that he would be in effect the most desolate of Republicans, if anything prevented him from enjoying the pleasure of smoking his afternoon pipe in the contemplation of the droll national barber.",
   "words": [
-    "seizing"
+    {
+      "word": "seizing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

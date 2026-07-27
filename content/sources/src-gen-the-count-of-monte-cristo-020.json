@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Monte Cristo took her hand and imprinted a kiss on it; but she herself felt that it was a kiss of no greater warmth than he would have bestowed on the hand of some marble statue of a saint. “It often happens,” continued she, “that a first fault destroys the prospects of a whole life. I believed you dead; why did I survive you? What good has it done me to mourn for you eternally in the secret recesses of my heart?—only to make a woman of thirty-nine look like a woman of fifty. Why, having recognized you, and I the only one to do so—why was I able to save my son alone?",
   "words": [
-    "monte",
-    "bestowed",
-    "prospects"
+    {
+      "word": "monte",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bestowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospects",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

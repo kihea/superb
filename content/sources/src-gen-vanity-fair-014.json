@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The house had been much improved even since the Baronet's brief reign, and was pronounced by Becky to be perfect, charming, delightful, when she surveyed it in his company. As for little Rawdon, who examined it with the children for his guides, it seemed to him a perfect palace of enchantment and wonder. There were long galleries, and ancient state bedrooms, there were pictures and old China, and armour. There were the rooms in which Grandpapa died, and by which the children walked with terrified looks. \"Who was Grandpapa?\"",
   "words": [
-    "bedrooms"
+    {
+      "word": "bedrooms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

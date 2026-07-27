@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Little shivers ran over it, and the sun went away and shadows stole across the water, turning it cold. Wendy could no longer see to thread her needle, and when she looked up, the lagoon that had always hitherto been such a laughing place seemed formidable and unfriendly. It was not, she knew, that night had come, but something as dark as night had come. No, worse than that. It had not come, but it had sent that shiver through the sea to say that it was coming.",
   "words": [
-    "shadows",
-    "stole",
-    "lagoon"
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lagoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

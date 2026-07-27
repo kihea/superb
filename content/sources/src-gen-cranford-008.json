@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Believe me, I do not forget the situation my father held under yours.” “And Mrs Forrester, of course?” “And Mrs Forrester. I thought, in fact, of going to her before I went to Miss Pole. Although her circumstances are changed, madam, she was born a Tyrrell, and we can never forget her alliance to the Bigges, of Bigelow Hall.” Miss Matty cared much more for the little circumstance of her being a very good card-player. “Mrs Fitz-Adam—I suppose”— “No, madam. I must draw a line somewhere.",
   "words": [
-    "circumstance"
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

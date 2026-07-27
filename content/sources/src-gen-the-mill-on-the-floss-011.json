@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "As for uncle Glegg, the thing lay quite beyond his imagination; the good-natured man felt sincere pity for the Tulliver family, but his money was all locked up in excellent mortgages, and he could run no risk; that would be unfair to his own relatives; but he had made up his mind that Tulliver should have some new flannel waistcoats which he had himself renounced in favour of a more elastic commodity, and that he would buy Mrs Tulliver a pound of tea now and then; it would be a journey which his benevolence delighted in beforehand, to carry the tea and see her pleasure on being assured it was the best black. Still, it was clear that Mr Deane was kindly disposed toward the Tullivers. One day he had brought Lucy, who was come home for the Christmas holidays, and the little blond angel-head had pressed itself against Maggie’s darker cheek with many kisses and some tears.",
   "words": [
-    "sincere",
-    "commodity",
-    "delighted"
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "commodity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

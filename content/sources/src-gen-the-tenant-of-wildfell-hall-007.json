@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "At length, however, he restored it to me, saying,—“Well, well, since you value it so much, I’ll not deprive you of it.” To show him how I valued it, I tore it in two and threw it into the fire. He was not prepared for this. His merriment suddenly ceasing, he stared in mute amazement at the consuming treasure; and then, with a careless “Humph! I’ll go and shoot now,” he turned on his heel and vacated the apartment by the window as he came, and setting on his hat with an air, took up his gun and walked away, whistling as he went—and leaving me not too much agitated to finish my picture, for I was glad, at the moment, that I had vexed him. When I returned to the drawing-room, I found Mr. Boarham had ventured to follow his comrades to the field; and shortly after lunch, to which they did not think of returning, I volunteered to accompany the ladies in a walk, and show Annabella and Milicent the beauties of the country.",
   "words": [
-    "deprive",
-    "tore"
+    {
+      "word": "deprive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

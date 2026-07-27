@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And suddenly, not by design but by accident, I made a discovery in physiology.” “Yes?” “You know the red colouring matter of blood; it can be made white—colourless—and remain with all the functions it has now!” Kemp gave a cry of incredulous amazement. The Invisible Man rose and began pacing the little study. “You may well exclaim. I remember that night. It was late at night—in the daytime one was bothered with the gaping, silly students—and I worked then sometimes till dawn.",
   "words": [
-    "physiology"
+    {
+      "word": "physiology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

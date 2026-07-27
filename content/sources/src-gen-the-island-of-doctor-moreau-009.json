@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Are we not Men?’” “None escape,” said a dappled brute standing in the doorway. “For every one the want is bad,” said the grey Sayer of the Law. “Some want to go tearing with teeth and hands into the roots of things, snuffing into the earth. It is bad.” “None escape,” said the men in the door. “Some go clawing trees; some go scratching at the graves of the dead; some go fighting with foreheads or feet or claws; some bite suddenly, none giving occasion; some love uncleanness.” “None escape,” said the Ape-man, scratching his calf.",
   "words": [
-    "doorway",
-    "scratching",
-    "graves"
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scratching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "graves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

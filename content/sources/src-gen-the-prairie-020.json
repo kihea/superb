@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And I gave them one Parthian shot as I turned away. \"The last prize-fight I saw was in a sort of souteneur's cabaret in the Avenue des Tilleuls,\" I sweetly explained to them. \"But that was nearly three years ago. So if there is going to be a bout in my back yard, I trust you gentlemen will be so good as to call me!\" And smiling up into their somewhat puzzled faces, I turned on my heel and went into the house.",
   "words": [
-    "bout",
-    "puzzled"
+    {
+      "word": "bout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

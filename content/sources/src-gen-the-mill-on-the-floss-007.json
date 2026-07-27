@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Amen.” The fact that he got through his supines without mistake the next day, encouraged him to persevere in this appendix to his prayers, and neutralised any scepticism that might have arisen from Mr Stelling’s continued demand for Euclid. But his faith broke down under the apparent absence of all help when he got into the irregular verbs. It seemed clear that Tom’s despair under the caprices of the present tense did not constitute a nodus worthy of interference, and since this was the climax of his difficulties, where was the use of praying for help any longer? He made up his mind to this conclusion in one of his dull, lonely evenings, which he spent in the study, preparing his lessons for the morrow. His eyes were apt to get dim over the page, though he hated crying, and was ashamed of it; he couldn’t help thinking with some affection even of Spouncer, whom he used to fight and quarrel with; he would have felt at home with Spouncer, and in a condition of superiority.",
   "words": [
-    "praying",
-    "morrow",
-    "apt",
-    "quarrel"
+    {
+      "word": "praying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

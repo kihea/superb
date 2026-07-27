@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "At first I started back, unable to believe that it was indeed I who was reflected in the mirror; and when I became fully convinced that I was in reality the monster that I am, I was filled with the bitterest sensations of despondence and mortification. I did not yet entirely know the fatal effects of this miserable deformity. “As the sun became warmer and the light of day longer, the snow vanished, and I beheld the bare trees and the black earth. From this time Felix was more employed, and the heart-moving indications of impending famine disappeared. Their food, as I afterwards found, was coarse, but it was wholesome; and they procured a sufficiency of it.",
   "words": [
-    "reflected",
-    "famine"
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "famine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Frankenstein; or, The Modern Prometheus",
