@@ -20,12 +20,20 @@ test("renders the real passage, decorative motifs never become tap targets", asy
 
   // The doodle motifs are marked aria-hidden and are not focusable or
   // clickable -- a drawn register must not add a fourth interaction to a
-  // screen law 3 says has exactly one kind of target.
+  // screen law 3 says has exactly one kind of target. And -- the
+  // containment half, not just the interaction half -- none of them is
+  // ever inside .passage-text: a mark's *position* connecting to a
+  // particular word is exactly what law 3 forbids, independent of whether
+  // the mark is itself tappable. A verifier mutation test caught this gap
+  // for BreakChain specifically (moved it inside .passage-text, all tests
+  // still passed) -- DoodleArrow already had this assertion on its own
+  // (below); MarginMark and BreakChain did not, until now.
   for (const selector of [".margin-mark", ".break-chain", ".doodle-arrow"]) {
     const nodes = page.locator(selector);
     await expect(nodes.first()).toHaveAttribute("aria-hidden", "true");
     const tabIndex = await nodes.first().evaluate((el) => el.getAttribute("tabindex"));
     expect(tabIndex).toBeNull();
+    expect(await page.locator(`.passage-text ${selector}`).count()).toBe(0);
   }
 });
 
