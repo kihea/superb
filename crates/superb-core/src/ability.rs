@@ -39,12 +39,24 @@
 //! retired — from `tuning.toml`, from [`crate::tuning::Tuning`], and from
 //! its range check.
 //!
+//! **The pseudoword correction is no longer folded into the θ recursion,
+//! and that is this module's most recent and most expensive lesson.** It
+//! used to step θ down by a flat `pseudoword_penalty` per over-claim — a
+//! fixed-size step sitting next to a real-word step that shrinks with
+//! accumulated information. The two scales diverge, so past a few dozen
+//! observations the penalty overwhelmed anything the real evidence could
+//! still say, and θ̂ was dragged to the clamp while its reported standard
+//! error went on shrinking. Measured, before it was understood: **13.0% of
+//! runs within 1 SE against an implied 68%, and 0.0% at three times the
+//! horizon** (`superb-sim/COVERAGE.md`). The correction is now keyed to the
+//! observed over-claim *rate* and bounded by it ([`overclaim_correction`]),
+//! which is what BRIEF-010's own prose always said it was.
+//!
 //! What's here: [`update_theta`], the pure per-observation update that moves
-//! θ toward the evidence one `DeckSwipe` carries — a claim of "knew" or not,
-//! against an item's difficulty — with the pseudoword correction folded into
-//! the same call rather than a second event a caller could forget to send
-//! (Done clause 5); and [`band`], the one place engine-contract §4's
-//! interval is computed from θ.
+//! θ toward the evidence one *real-word* `DeckSwipe` carries — a claim of
+//! "knew" or not, against an item's difficulty; [`overclaim_correction`],
+//! the bounded offset the pseudoword counters buy (Done clause 5); and
+//! [`band`], the one place engine-contract §4's interval is computed from θ.
 //!
 //! What this module deliberately does not do: decide whether θ has
 //! *converged* to a learner's true ability. That is the simulator's
@@ -77,26 +89,46 @@ pub struct ThetaUpdated {
     pub se: f64,
 }
 
-/// What [`update_theta`] decided.
+/// What [`update_theta`] decided: the *raw* estimate and the evidence
+/// behind it, and nothing else.
 ///
-/// `theta` is always equal to `effect.theta`, and `effect.se` is always
-/// `1 / sqrt(theta_information)` — exposed as its own field so a caller
-/// writing `LearnerState`'s stored information does not have to reach into
-/// the effect payload to get it (the same shape `scheduler::ScheduleDecision`
-/// uses for `due` / `interval_days` against `IntervalSet`).
+/// **It deliberately no longer carries the [`ThetaUpdated`] effect.** The
+/// reported ability estimate is the raw θ below minus the over-claim
+/// correction ([`LearnerState::theta`]), and that correction is computed
+/// from the pseudoword counters this function cannot see — it is handed one
+/// observation, not a learner's history. A function that cannot compute the
+/// reported number must not return a field claiming to be it: that is the
+/// two-fields-that-must-agree defect this module already paid for once, when
+/// `theta_se` was stored beside the information it was supposed to be
+/// derived from. `engine::decide` builds the effect from `LearnerState`
+/// after writing, so there is exactly one place the reported estimate is
+/// derived.
+///
+/// [`LearnerState::theta`]: crate::LearnerState::theta
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct ThetaUpdate {
-    /// The learner's ability estimate after this observation. Write this
-    /// into `LearnerState.theta`.
+    /// The learner's **raw** ability estimate after this observation —
+    /// before the over-claim correction. Write this into `LearnerState`'s
+    /// stored θ via `set_theta_and_information`; read it back for the next
+    /// observation's recursion with `LearnerState::theta_raw`, never with
+    /// `LearnerState::theta`, or the correction compounds once per swipe.
     pub theta: f64,
     /// θ's accumulated Fisher information after this observation — always
-    /// greater than the input, evidence only ever adds. Write this into
-    /// `LearnerState`'s stored information
-    /// (`LearnerState::set_theta_and_information`); `effect.se` is derived
-    /// from this same number, not a second one to keep in sync.
+    /// greater than or equal to the input, evidence only ever adds. Write
+    /// this into `LearnerState`'s stored information
+    /// (`LearnerState::set_theta_and_information`); the standard error is
+    /// derived from this same number, not a second one to keep in sync.
     pub theta_information: f64,
-    /// The effect to persist and re-render (engine-contract §3).
-    pub effect: ThetaUpdated,
+}
+
+impl ThetaUpdate {
+    /// θ's standard error after this observation, derived from
+    /// [`ThetaUpdate::theta_information`] on every read — the same one
+    /// derivation [`crate::LearnerState::theta_se`] performs, so the two can
+    /// never disagree about what a given amount of evidence is worth.
+    pub fn se(&self) -> f64 {
+        1.0 / self.theta_information.sqrt()
+    }
 }
 
 /// The one-parameter logistic response probability: how likely a learner at
@@ -150,16 +182,20 @@ fn response_probability(theta: f64, difficulty: f64) -> f64 {
 /// difficulty for one to be evaluated against — `difficulty` is ignored on
 /// this branch entirely, and so is the response model: there is no `p` to
 /// compute a Fisher information from, so a pseudoword observation
-/// contributes none. Claiming to know one (`knew` true) is over-claiming by
-/// definition and steps θ down by `tuning.pseudoword_penalty` (Done clause
-/// 5): folded into this same per-observation call rather than a second event
-/// a caller could forget to send, so a session where a learner over-claims
-/// on pseudowords accumulates the correction one observation at a time,
-/// without this function or its caller ever having to compute a session-wide
-/// claim rate. Honestly saying "don't know" to a pseudoword is the expected
-/// response and moves θ by nothing — there is nothing to correct for and
-/// nothing to reward, since a pseudoword carries no real vocabulary evidence
-/// either way.
+/// contributes none. It also moves the raw θ by nothing, whether the learner
+/// claimed it or not. A pseudoword carries no evidence about *vocabulary*
+/// in either direction; what claiming one carries evidence about is the
+/// learner's willingness to claim, which is a different quantity and is
+/// estimated as one — recorded on `LearnerState`'s pseudoword counters by
+/// `engine::decide` and spent through [`overclaim_correction`] when the
+/// estimate is read.
+///
+/// **That separation is the point, not an implementation detail.** Folding
+/// a response-bias correction into the θ recursion left θ̂ the maximiser of
+/// nothing, so `1 / sqrt(information)` — which is the standard error of a
+/// maximum-likelihood estimate — stopped describing it. Keeping the
+/// recursion pure real-word evidence is what makes the reported standard
+/// error true again, and the coverage measurement is where that shows up.
 ///
 /// **θ is clamped last**, to `[tuning.theta_min, tuning.theta_max]`, with
 /// `f64::max` then `f64::min` rather than a branch — both return their
@@ -200,12 +236,33 @@ pub fn update_theta(
     };
 
     let (delta, observation_information) = if is_pseudoword {
-        let delta = if knew {
-            -tuning.pseudoword_penalty
-        } else {
-            0.0
-        };
-        (delta, 0.0)
+        // A pseudoword moves the raw estimate by NOTHING, in either
+        // direction, and contributes no information.
+        //
+        // It used to step θ down by a flat `-tuning.pseudoword_penalty` per
+        // over-claim. That is the defect this module was fixed for, and it
+        // is worth stating exactly, because the shape recurs: the real-word
+        // step beside it is divided by accumulated information and so
+        // shrinks toward zero as evidence arrives, while the penalty was
+        // the same -0.3 on the thousandth over-claim as on the first. Two
+        // update rules on diverging scales cannot both be right. Past a few
+        // dozen observations the penalty was an order of magnitude larger
+        // than any correction the real-word evidence could still apply, so
+        // it dragged θ̂ down without bound until the clamp caught it — and
+        // because the standard error kept shrinking as 1/sqrt(information)
+        // the whole time, the reported interval marched away from the truth
+        // while getting narrower. `COVERAGE.md` measured the consequence
+        // before the cause was named: 13.0% of runs within 1 SE at the
+        // default horizon against an implied 68%, and 0.0% at three times
+        // that horizon.
+        //
+        // The evidence itself is not thrown away — it is recorded on
+        // `LearnerState`'s two pseudoword counters and spent as a bounded,
+        // rate-keyed offset when the estimate is read
+        // (`LearnerState::theta`). That is what BRIEF-010's own prose
+        // always described ("claim rate"); only the implementation ever
+        // said otherwise.
+        (0.0, 0.0)
     } else {
         let claim = if knew { 1.0 } else { 0.0 };
         let expected = response_probability(theta, difficulty);
@@ -229,18 +286,53 @@ pub fn update_theta(
     let new_theta = raw_theta.max(tuning.theta_min).min(tuning.theta_max);
 
     let new_information = sanitized_information + observation_information;
-    let new_se = 1.0 / new_information.sqrt();
-
-    let effect = ThetaUpdated {
-        theta: new_theta,
-        se: new_se,
-    };
 
     ThetaUpdate {
         theta: new_theta,
         theta_information: new_information,
-        effect,
     }
+}
+
+/// The over-claim correction, as a proportion of `tuning.pseudoword_penalty`
+/// — the one place the pseudoword counters are turned into logits.
+///
+/// **Keyed to the rate, not the count, and that is the whole fix.** A
+/// correction that accumulates per observation has no fixed point: it grows
+/// without bound with session length, so θ̂ cannot converge and any interval
+/// around it eventually excludes the truth. A correction keyed to the
+/// observed proportion converges as soon as the proportion does, which is
+/// what lets `1 / sqrt(information)` go on being an honest standard error
+/// for the estimate it is attached to.
+///
+/// Bounded by construction to `[0, tuning.pseudoword_penalty]`: a learner
+/// who has never met a pseudoword is corrected by nothing (`seen == 0`
+/// returns `0.0` rather than dividing by zero), and one who claims every
+/// pseudoword they meet is corrected by the full penalty. Monotone in the
+/// rate, so an over-claimer is always estimated below an otherwise identical
+/// honest learner — the property `REPORT.md`'s Assertion 4 checks, which now
+/// holds by construction rather than by accumulation happening to get there.
+///
+/// **The magnitude is not calibrated, and this is the honest place to say
+/// so.** `pseudoword_penalty` sets how far a total over-claimer is marked
+/// down, and no measurement in this repository fixes that number: the
+/// simulator's over-claimer answers *real* words honestly
+/// (`superb-sim`'s `oracle::knows_real_item` reads only `true_theta` and
+/// `difficulty`), so in simulation a learner's real-word evidence is already
+/// unbiased and the correct correction there is zero. Calibrating it needs a
+/// synthetic learner whose over-claiming also inflates real-word responses —
+/// named as owed work rather than guessed at here. What *is* measured is the
+/// shape: unbounded accumulation breaks the estimator, and a bounded rate
+/// does not.
+pub fn overclaim_correction(
+    pseudowords_seen: u64,
+    pseudowords_overclaimed: u64,
+    tuning: &Tuning,
+) -> f64 {
+    if pseudowords_seen == 0 {
+        return 0.0;
+    }
+    let rate = (pseudowords_overclaimed.min(pseudowords_seen) as f64) / (pseudowords_seen as f64);
+    tuning.pseudoword_penalty * rate
 }
 
 /// engine-contract §4's θ band: `[θ + band_low, θ + band_high]` — the only
@@ -340,7 +432,7 @@ mod tests {
         let expected_step = (1.0 - expected) / total_information;
 
         assert!((update.theta - theta - expected_step).abs() < 1e-12);
-        assert!((update.effect.se - 1.0 / total_information.sqrt()).abs() < 1e-12);
+        assert!((update.se() - 1.0 / total_information.sqrt()).abs() < 1e-12);
     }
 
     /// Done clause 3 / 8: one hundred consecutive identical claims in the
@@ -376,27 +468,76 @@ mod tests {
         assert_eq!(theta, tuning.theta_max);
     }
 
-    /// The same clamp, from the other direction: one hundred consecutive
-    /// pseudoword over-claims walk θ straight to `theta_min` and hold it
-    /// there.
+    /// **This test used to assert the defect.** It read: one hundred
+    /// consecutive pseudoword over-claims walk θ straight to `theta_min`
+    /// and hold it there — and it passed, for years of commits, because
+    /// that is exactly what the code did. Walking the estimate to the floor
+    /// on a hundred observations that carry no vocabulary evidence at all
+    /// is not a clamp working; it is an unbounded drag being caught by a
+    /// clamp, and the clamp was the only thing standing between the
+    /// estimator and negative infinity.
+    ///
+    /// Inverted rather than deleted, because the inverted form is the
+    /// property that was actually wanted: a hundred pseudowords, claimed or
+    /// not, move the raw estimate by **nothing**, because a word that does
+    /// not exist carries no evidence about how many real words a reader
+    /// knows. What over-claiming buys is a bounded correction, and that is
+    /// [`overclaim_correction`]'s test below.
     #[test]
-    fn theta_clamps_at_theta_min_after_one_hundred_consecutive_pseudoword_overclaims() {
+    fn one_hundred_pseudoword_overclaims_do_not_move_the_raw_estimate_at_all() {
         let tuning = Tuning::default();
-        let mut theta = 0.0;
+        let starting_theta = 0.0;
+        let mut theta = starting_theta;
         let information = 1.0;
 
         for step in 0..100 {
             let update = update_theta(theta, information, 0.0, true, true, &tuning);
-            assert!(
-                update.theta >= tuning.theta_min,
-                "step {step}: θ {} fell below theta_min {}",
-                update.theta,
-                tuning.theta_min
+            assert_eq!(
+                update.theta, starting_theta,
+                "step {step}: a pseudoword moved the raw θ to {}",
+                update.theta
+            );
+            assert_eq!(
+                update.theta_information, information,
+                "step {step}: a pseudoword contributed information"
             );
             theta = update.theta;
         }
 
-        assert_eq!(theta, tuning.theta_min);
+        assert_eq!(theta, starting_theta);
+    }
+
+    /// The correction is bounded by `pseudoword_penalty` no matter how many
+    /// pseudowords are over-claimed — the property whose absence broke the
+    /// estimator. A learner who claims ten thousand pseudowords is marked
+    /// down by exactly as much as one who claims two out of two, because
+    /// both claim everything they are shown.
+    #[test]
+    fn the_overclaim_correction_is_bounded_by_the_penalty_however_many_are_claimed() {
+        let tuning = Tuning::default();
+
+        assert_eq!(overclaim_correction(0, 0, &tuning), 0.0);
+        assert_eq!(overclaim_correction(2, 2, &tuning), tuning.pseudoword_penalty);
+        assert_eq!(
+            overclaim_correction(10_000, 10_000, &tuning),
+            tuning.pseudoword_penalty
+        );
+
+        // Monotone in the rate, and never outside [0, penalty].
+        let mut previous = 0.0;
+        for overclaimed in 0..=100u64 {
+            let correction = overclaim_correction(100, overclaimed, &tuning);
+            assert!(
+                (0.0..=tuning.pseudoword_penalty).contains(&correction),
+                "correction {correction} left [0, {}]",
+                tuning.pseudoword_penalty
+            );
+            assert!(
+                correction >= previous,
+                "correction fell as the over-claim rate rose"
+            );
+            previous = correction;
+        }
     }
 
     /// Done clause 5, read literally: construct the over-claiming learner —
@@ -456,11 +597,30 @@ mod tests {
             honest_information = honest_update.theta_information;
         }
 
-        assert!(
-            overclaimer_theta < honest_theta,
-            "the over-claimer's θ ({overclaimer_theta}) should be strictly lower than the \
-             honest learner's ({honest_theta})"
+        // The raw recursions are now identical — the two learners answered
+        // every *real* word the same way, and pseudowords no longer touch
+        // the raw estimate. That is the point: the real-word evidence says
+        // one thing about these two learners, and it should not be
+        // contaminated by a correction for a different quantity.
+        assert_eq!(
+            overclaimer_theta, honest_theta,
+            "identical real-word evidence should produce an identical raw θ"
         );
+
+        // The whole difference lives in the correction, where it can be
+        // seen, bounded, and reasoned about.
+        let overclaimer = overclaimer_theta - overclaim_correction(4, 4, &tuning);
+        let honest = honest_theta - overclaim_correction(4, 0, &tuning);
+
+        assert!(
+            overclaimer < honest,
+            "the over-claimer's estimate ({overclaimer}) should be strictly lower than the \
+             honest learner's ({honest})"
+        );
+        // And by exactly the penalty, since one claimed every pseudoword
+        // and the other claimed none — a bounded, statable amount rather
+        // than however far a hundred fixed steps happened to walk.
+        assert!((honest - overclaimer - tuning.pseudoword_penalty).abs() < 1e-12);
     }
 
     /// Honestly rejecting a pseudoword is the expected response and moves θ
@@ -540,7 +700,7 @@ mod tests {
                 update.theta_information, tuning.theta_prior_information,
                 "adversarial input {adversarial} did not fall back to the prior floor"
             );
-            assert!(update.effect.se.is_finite());
+            assert!(update.se().is_finite());
         }
     }
 
@@ -597,7 +757,7 @@ mod tests {
                 assert!(update.theta >= tuning.theta_min);
                 assert!(update.theta <= tuning.theta_max);
                 assert!(
-                    update.effect.se.is_finite(),
+                    update.se().is_finite(),
                     "difficulty {difficulty}, knew {knew}: se was not finite"
                 );
             }

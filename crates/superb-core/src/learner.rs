@@ -282,6 +282,43 @@ pub struct LearnerState {
     /// [`LearnerState::theta_se`], and
     /// [`LearnerState::set_theta_and_information`].
     theta_information: f64,
+    /// How many pseudowords this learner has been shown, and how many of
+    /// those they claimed to know. Together they are the over-claim rate
+    /// [`crate::ability::overclaim_correction`] spends.
+    ///
+    /// **Two counts rather than one stored rate, for the same reason
+    /// [`TopicRecord`] keeps two.** A stored rate cannot tell "claimed the
+    /// only pseudoword they have ever seen" from "claimed twenty of
+    /// twenty," and the correction those two deserve is not the same
+    /// confidence. Keeping the counts means the rate is derived on every
+    /// read and there is no second number that can drift from the evidence
+    /// it summarises.
+    ///
+    /// **`serde(default)` on purpose.** A v1 document written before these
+    /// existed loads with both at zero, which is exactly right rather than
+    /// merely convenient: a learner with no recorded pseudoword history
+    /// earns no correction, so an old state's θ reads back unchanged. The
+    /// v1 fixture round-trips without a migration step.
+    ///
+    /// Private for the same reason `theta` is (engine-contract law 6): the
+    /// invariant `overclaimed <= seen` is one a public field lets a caller
+    /// write around. See [`LearnerState::record_pseudoword`] and
+    /// [`LearnerState::overclaim_rate`].
+    /// **`skip_serializing_if` as well as `default`, and that pair is what
+    /// keeps ADR-016 at v1.** A counter at zero writes no key at all, so a
+    /// learner who has never met a pseudoword — every learner persisted
+    /// before these fields existed, and every fresh one — serializes to
+    /// exactly the bytes v1 always produced. The frozen v1 fixture
+    /// round-trips byte-identically, which is the check that would
+    /// otherwise have demanded a version bump and a migration for two
+    /// counters that start at zero and mean "nothing has happened yet."
+    /// Same judgment `WordRecord::interval_days` already makes for the same
+    /// reason: absence is the honest encoding of "there is nothing here,"
+    /// and it reads that way in an export its owner opens (ASK-004).
+    #[serde(default, skip_serializing_if = "is_zero")]
+    pseudowords_seen: u64,
+    #[serde(default, skip_serializing_if = "is_zero")]
+    pseudowords_overclaimed: u64,
     /// Word id (opaque to this crate) to that word's record.
     pub words: BTreeMap<String, WordRecord>,
     /// Topic id (opaque to this crate) to what this reader has done with it.
@@ -290,6 +327,13 @@ pub struct LearnerState {
     /// `PassageAbandoned` — the two signals engine-contract §3 names and
     /// nothing else (ADR-022 D1).
     pub topic_affinities: BTreeMap<String, TopicRecord>,
+}
+
+/// `serde`'s `skip_serializing_if` wants a predicate over a reference; this
+/// is that predicate for the pseudoword counters, whose zero means "nothing
+/// has happened yet" rather than a measured zero.
+fn is_zero(count: &u64) -> bool {
+    *count == 0
 }
 
 /// What one reader has done with one topic: how many passages about it they
@@ -488,16 +532,84 @@ impl LearnerState {
             draw_count,
             theta,
             theta_information,
+            pseudowords_seen: 0,
+            pseudowords_overclaimed: 0,
             words,
             topic_affinities,
         }
     }
 
-    /// The learner's current ability estimate. Read-only outside this
-    /// module — see [`LearnerState::set_theta_and_information`] to change
-    /// it.
-    pub fn theta(&self) -> f64 {
+    /// The learner's ability estimate: the raw θ the estimator maintains,
+    /// less the over-claim correction the pseudoword counters have earned,
+    /// clamped back into `[tuning.theta_min, tuning.theta_max]`.
+    ///
+    /// **This is the number every consumer wants**, and it takes `tuning`
+    /// precisely so that it cannot be confused with
+    /// [`LearnerState::theta_raw`] by anyone reaching for the shorter name.
+    /// Derived on every read rather than stored, the same discipline
+    /// [`LearnerState::theta_se`] follows and for the same reason: a stored
+    /// corrected θ would be a second number that could disagree with the
+    /// counters it was computed from.
+    ///
+    /// The one caller that must *not* use this is the estimator's own
+    /// recursion — feeding a corrected θ back into
+    /// [`crate::ability::update_theta`] would apply the correction again on
+    /// every swipe, compounding it into exactly the runaway this fix
+    /// removed. That caller uses [`LearnerState::theta_raw`], and the
+    /// asymmetry in the names is the guard.
+    pub fn theta(&self, tuning: &crate::tuning::Tuning) -> f64 {
+        let corrected = self.theta
+            - crate::ability::overclaim_correction(
+                self.pseudowords_seen,
+                self.pseudowords_overclaimed,
+                tuning,
+            );
+        corrected.max(tuning.theta_min).min(tuning.theta_max)
+    }
+
+    /// The raw ability estimate, before the over-claim correction — what
+    /// [`crate::ability::update_theta`] wrote and what it must read back for
+    /// the next observation. Almost every other caller wants
+    /// [`LearnerState::theta`].
+    pub fn theta_raw(&self) -> f64 {
         self.theta
+    }
+
+    /// How many pseudowords this learner has met, and how many they claimed.
+    pub fn pseudowords_seen(&self) -> u64 {
+        self.pseudowords_seen
+    }
+
+    /// See [`LearnerState::pseudowords_seen`].
+    pub fn pseudowords_overclaimed(&self) -> u64 {
+        self.pseudowords_overclaimed
+    }
+
+    /// The observed over-claim rate, derived from the two counters — `0.0`
+    /// for a learner who has never met a pseudoword, never a division by
+    /// zero.
+    pub fn overclaim_rate(&self) -> f64 {
+        if self.pseudowords_seen == 0 {
+            0.0
+        } else {
+            (self.pseudowords_overclaimed as f64) / (self.pseudowords_seen as f64)
+        }
+    }
+
+    /// Record one pseudoword having been put in front of this learner, and
+    /// whether they claimed to know it.
+    ///
+    /// The only way either counter changes, so `overclaimed <= seen` holds
+    /// by construction rather than by every caller remembering to bump both.
+    /// Saturating rather than wrapping: a `u64` of pseudoword swipes is not
+    /// reachable by a reader, but wrapping to zero would silently erase a
+    /// learner's whole over-claim history, and saturating merely stops
+    /// counting.
+    pub fn record_pseudoword(&mut self, overclaimed: bool) {
+        self.pseudowords_seen = self.pseudowords_seen.saturating_add(1);
+        if overclaimed {
+            self.pseudowords_overclaimed = self.pseudowords_overclaimed.saturating_add(1);
+        }
     }
 
     /// θ's raw accumulated Fisher information — how much evidence
@@ -619,7 +731,7 @@ mod theta_privacy_tests {
     fn accessors_agree_with_what_set_theta_and_information_wrote() {
         let tuning = Tuning::default();
         let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
-        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_raw(), 0.0);
         assert_eq!(state.theta_information(), 1.0);
         assert_eq!(state.theta_se(), 1.0);
 
@@ -627,7 +739,7 @@ mod theta_privacy_tests {
             .set_theta_and_information(0.42, 4.0, &tuning)
             .expect("0.42 is inside the shipped theta range and 4.0 is strictly positive");
 
-        assert_eq!(state.theta(), 0.42);
+        assert_eq!(state.theta_raw(), 0.42);
         assert_eq!(state.theta_information(), 4.0);
         assert_eq!(state.theta_se(), 0.5);
     }
@@ -651,7 +763,7 @@ mod theta_privacy_tests {
             })
         );
         // Refused, so nothing was written.
-        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_raw(), 0.0);
         assert_eq!(state.theta_information(), 1.0);
     }
 
@@ -670,7 +782,7 @@ mod theta_privacy_tests {
                 theta_information: -0.5
             })
         );
-        assert_eq!(state.theta(), 0.0);
+        assert_eq!(state.theta_raw(), 0.0);
         assert_eq!(state.theta_information(), 1.0);
 
         let zero_result = state.set_theta_and_information(0.0, 0.0, &tuning);

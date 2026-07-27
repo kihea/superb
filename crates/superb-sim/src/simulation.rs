@@ -447,7 +447,7 @@ fn run_world(
     SimulationOutcome {
         seed,
         true_theta,
-        final_theta: learner.theta(),
+        final_theta: learner.theta(world.tuning),
         final_theta_se: learner.theta_se(),
         due_list_sizes,
         encounters_to_automatic: state.encounters_to_automatic,

@@ -160,7 +160,7 @@ mod tests {
         let learner = fresh_learner(&tuning);
         assert_eq!(learner.seed, 0);
         assert_eq!(learner.draw_count, 0);
-        assert_eq!(learner.theta(), 0.0);
+        assert_eq!(learner.theta(&tuning), 0.0);
         assert_eq!(
             learner.theta_information(),
             tuning.theta_prior_information()

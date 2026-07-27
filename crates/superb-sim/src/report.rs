@@ -396,23 +396,30 @@ impl FullReport {
              band — up from 3/{total} under the fixed-rate step — and mean absolute error fell \
              from 1.0448 (rounds 1-2) to {mean_abs_error:.4}, well below the no-update baseline \
              (mean |true θ| over the sweep), so θ̂ is both closer to the truth and better \
-             calibrated to its own reported uncertainty than either earlier round. It is not \
-             15/{total}. Per the brief: three rounds is enough for one brief, and the remaining \
-             gap is **unexplained, not diagnosed**. It is not the θ clamp: misses occur at every \
-             θ in the sweep — θ=-1.5 misses at the same rate as θ=-3.5 — and the three θ=3.5 \
-             runs, which carry the two largest errors in the table (1.5667, 1.0353), land at \
-             θ̂ = 1.9333, 3.1047, 2.4647, well inside the ±4.0 bound; a clamp that never engages \
-             cannot bias the estimates it never touches. Three candidates remain and this run \
-             cannot separate them: the response model's own sampling noise (Bernoulli draws are \
-             noisy at any θ, clamp or not); the horizon (real-word \
-             observations per run may not be enough for Fisher scoring's asymptotics to bite); \
-             and the Cramér-Rao bound the derived SE reads, which is a lower bound on variance \
-             across repeated draws at the same θ, not a prediction of how far any single \
-             single run lands — a wide standard error and a wide miss are not the same claim. \
-             Separating them needs a different measurement than this report makes: many more \
-             seeds at each θ, to see whether the per-θ miss rate above is stable or sampling \
-             noise in a 3-seed sample; or more sessions at fixed seeds, to see whether a longer \
-             horizon closes the gap, which would point at the horizon rather than the model.\n\n",
+             calibrated to its own reported uncertainty than either earlier round.\n\n\
+             **Round 4, 2026-07-27 — the gap this paragraph used to call \
+             \"unexplained, not diagnosed\" is now diagnosed, and it was not any of the three \
+             candidates listed here.** Those were the response model's sampling noise, the \
+             horizon, and the Cramér-Rao bound; the wider sweep in `COVERAGE.md` ruled out the \
+             horizon by making coverage *worse* at 3x, and the real answer was a fourth thing \
+             nobody had listed: θ̂ was biased downward by the pseudoword correction. An \
+             over-claimed pseudoword stepped θ down by a flat `pseudoword_penalty` that never \
+             shrank, while the real-word step beside it was divided by accumulated Fisher \
+             information and did — so past a few dozen observations the penalty dominated the \
+             real evidence and dragged the estimate toward the clamp, while the reported \
+             standard error went on tightening around it. The correction is now keyed to the \
+             observed over-claim *rate* and bounded by `pseudoword_penalty` \
+             (`ability::overclaim_correction`), applied where the estimate is read rather than \
+             inside the recursion. Assertion 4 below still holds, now by construction and by \
+             an exactly statable amount rather than by however far a run of fixed steps \
+             happened to walk.\n\n\
+             **What made it hard to see, recorded because it generalises:** this report and \
+             `COVERAGE.md` both reported *absolute* error, which cannot tell an estimator \
+             scattering around the truth from one being dragged to one side of it. \
+             `COVERAGE.md` now reports mean signed error beside it. The per-run figures this \
+             paragraph used to quote by hand were removed at the same time — hand-copied \
+             numbers inside a generated report are the same drift this crate's own gate \
+             exists to prevent, and they had already gone stale.\n\n",
             total = self.assertion1.runs.len(),
             calibration_items_per_session = self.config.calibration_items_per_session,
             calibration_real_rate = self.config.calibration_real_rate * 100.0,
