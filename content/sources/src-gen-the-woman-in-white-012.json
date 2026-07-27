@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Our faith in Mr. Dawson revived. He appeared to be very confident about the case, and he assured Lady Glyde, when she spoke to him on the subject, that he would himself propose to send for a physician the moment he felt so much as the shadow of a doubt crossing his own mind. The only person among us who did not appear to be relieved by these words was the Countess. She said to me privately, that she could not feel easy about Miss Halcombe on Mr. Dawson’s authority, and that she should wait anxiously for her husband’s opinion on his return. That return, his letters informed her, would take place in three days’ time.",
   "words": [
-    "revived",
-    "relieved"
+    {
+      "word": "revived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "relieved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I had vague perceptions of space traversed, of the rolling of a carriage, of a horrible dream in which my strength had become exhausted; but all this was so dark and so indistinct in my mind that these events seemed to belong to another life than mine, and yet mixed with mine in fantastic duality. “At times the state into which I had fallen appeared so strange that I believed myself dreaming. I arose trembling. My clothes were near me on a chair; I neither remembered having undressed myself nor going to bed. Then by degrees the reality broke upon me, full of chaste terrors.",
   "words": [
-    "dreaming"
+    {
+      "word": "dreaming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

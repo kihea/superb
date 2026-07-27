@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "However, I travelled along the shore of the sea towards the east, I suppose about twelve miles, and then setting up a great pole upon the shore for a mark, I concluded I would go home again, and that the next journey I took should be on the other side of the island east from my dwelling, and so round till I came to my post again. I took another way to come back than that I went, thinking I could easily keep all the island so much in my view that I could not miss finding my first dwelling by viewing the country; but I found myself mistaken, for being come about two or three miles, I found myself descended into a very large valley, but so surrounded with hills, and those hills covered with wood, that I could not see which was my way by any direction but that of the sun, nor even then, unless I knew very well the position of the sun at that time of the day.",
   "words": [
-    "travelled",
-    "dwelling",
-    "mistaken",
-    "descended"
+    {
+      "word": "travelled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "descended",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

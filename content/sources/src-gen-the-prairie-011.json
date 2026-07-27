@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But he's a gentleman, almost too \"Gentle,\" I sometimes feel, a Laodicean, mentally over-refined until it leaves him unable to cope with real life. He's one of those men made for being a \"spectator,\" and not an actor, in life. And there's something so absurd about his being where he is that I feel sorry for him. I slept like a log. Once I fell asleep, I forgot about the hard ground, and the smell of the horse-blankets, and the fact that I'd lost my poor Dinky-Dunk's team.",
   "words": [
-    "cope",
-    "spectator"
+    {
+      "word": "cope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spectator",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

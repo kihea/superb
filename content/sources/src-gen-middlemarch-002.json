@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Such, my dear Miss Brooke, is the accurate statement of my feelings; and I rely on your kind indulgence in venturing now to ask you how far your own are of a nature to confirm my happy presentiment. To be accepted by you as your husband and the earthly guardian of your welfare, I should regard as the highest of providential gifts. In return I can at least offer you an affection hitherto unwasted, and the faithful consecration of a life which, however short in the sequel, has no backward pages whereon, if you choose to turn them, you will find records such as might justly cause you either bitterness or shame. I await the expression of your sentiments with an anxiety which it would be the part of wisdom (were it possible) to divert by a more arduous labor than usual. But in this order of experience I am still young, and in looking forward to an unfavorable possibility I cannot but feel that resignation to solitude will be more difficult after the temporary illumination of hope.",
   "words": [
-    "faithful",
-    "divert"
+    {
+      "word": "faithful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "divert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

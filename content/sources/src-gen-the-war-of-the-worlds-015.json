@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The last salient point in which the systems of these creatures differed from ours was in what one might have thought a very trivial particular. Micro-organisms, which cause so much disease and pain on earth, have either never appeared upon Mars or Martian sanitary science eliminated them ages ago. A hundred diseases, all the fevers and contagions of human life, consumption, cancers, tumours and such morbidities, never enter the scheme of their life. And speaking of the differences between the life on Mars and terrestrial life, I may allude here to the curious suggestions of the red weed. Apparently the vegetable kingdom in Mars, instead of having green for a dominant colour, is of a vivid blood-red tint.",
   "words": [
-    "cancers"
+    {
+      "word": "cancers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

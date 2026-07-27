@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But we hold several threads in our hands, and the odds are that one or other of them guides us to the truth. We may waste time in following the wrong one, but sooner or later we must come upon the right.” We had a pleasant luncheon in which little was said of the business which had brought us together. It was in the private sitting-room to which we afterwards repaired that Holmes asked Baskerville what were his intentions. “To go to Baskerville Hall.” “And when?” “At the end of the week.” “On the whole,” said Holmes, “I think that your decision is a wise one. I have ample evidence that you are being dogged in London, and amid the millions of this great city it is difficult to discover who these people are or what their object can be.",
   "words": [
-    "threads",
-    "guides",
-    "ample"
+    {
+      "word": "threads",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "guides",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ample",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

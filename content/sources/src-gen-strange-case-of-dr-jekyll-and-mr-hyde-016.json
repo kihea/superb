@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Enough then, that I not only recognised my natural body from the mere aura and effulgence of certain of the powers that made up my spirit, but managed to compound a drug by which these powers should be dethroned from their supremacy, and a second form and countenance substituted, none the less natural to me because they were the expression, and bore the stamp, of lower elements in my soul. I hesitated long before I put this theory to the test of practice. I knew well that I risked death; for any drug that so potently controlled and shook the very fortress of identity, might, by the least scruple of an overdose or at the least inopportunity in the moment of exhibition, utterly blot out that immaterial tabernacle which I looked to it to change. But the temptation of a discovery so singular and profound at last overcame the suggestions of alarm.",
   "words": [
-    "overdose"
+    {
+      "word": "overdose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

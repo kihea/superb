@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "After this Daisy was never at home, and Winterbourne ceased to meet her at the houses of their common acquaintances, because, as he perceived, these shrewd people had quite made up their minds that she was going too far. They ceased to invite her; and they intimated that they desired to express to observant Europeans the great truth that, though Miss Daisy Miller was a young American lady, her behavior was not representative--was regarded by her compatriots as abnormal. Winterbourne wondered how she felt about all the cold shoulders that were turned toward her, and sometimes it annoyed him to suspect that she did not feel at all. He said to himself that she was too light and childish, too uncultivated and unreasoning, too provincial, to have reflected upon her ostracism, or even to have perceived it. Then at other moments he believed that she carried about in her elegant and irresponsible little organism a defiant, passionate, perfectly observant consciousness of the impression she produced.",
   "words": [
-    "wondered",
-    "reflected",
-    "passionate"
+    {
+      "word": "wondered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "passionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

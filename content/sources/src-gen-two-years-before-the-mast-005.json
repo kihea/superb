@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "We had now got well settled down into our harbor duties, which, as they are a good deal different from those at sea, it may be well enough to describe. In the first place, all hands are called at daylight, or rather--especially if the days are short--before daylight, as soon as the first grey of the morning. The cook makes his fire in the galley; the steward goes about his work in the cabin; and the crew rig the head pump, and wash down the decks. The chief mate is always on deck, but takes no active part, all the duty coming upon the second mate, who has to roll up his trowsers and paddle about decks barefooted, like the rest of the crew. The washing, swabbing, squilgeeing, etc., lasts, or is made to last, until eight o'clock, when breakfast is ordered, fore and aft.",
   "words": [
-    "harbor",
-    "daylight",
-    "cabin",
-    "paddle",
-    "lasts",
-    "aft"
+    {
+      "word": "harbor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lasts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

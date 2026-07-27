@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "With this he won. Won back his coat, won back his hat, won back his umbrella, his watch, his money, and went out of the door a rich man.” “Oh, ’tis too good—it takes away my breath! Mr. Wildeve, I think I will try another shilling with you, as I am one of that sort; no danger can come o’t, and you can afford to lose.” “Very well,” said Wildeve, rising. Searching about with the lantern, he found a large flat stone, which he placed between himself and Christian, and sat down again. The lantern was opened to give more light, and its rays directed upon the stone.",
   "words": [
-    "lantern"
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

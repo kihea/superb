@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But I would not give up. Fate and the fog had brought me here, the one solitary soul perhaps who by the chain of circumstances had both the will and the opportunity to wrest their secret from these four men. The marlin-spike! Where the lower half of the window met the sill it sank into a shallow groove. I thrust the point of the spike down into the interstice between sash and frame and heaved with a slowly increasing force, which I could regulate to the fraction of an ounce, on this powerful lever.",
   "words": [
-    "thrust",
-    "lever"
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

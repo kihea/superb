@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "So the younger children adored Sara. More than once she had been known to have a tea party, made up of these despised ones, in her own room. And Emily had been played with, and Emily's own tea service used--the one with cups which held quite a lot of much-sweetened weak tea and had blue flowers on them. No one had seen such a very real doll's tea set before. From that afternoon Sara was regarded as a goddess and a queen by the entire alphabet class.",
   "words": [
-    "cups",
-    "alphabet"
+    {
+      "word": "cups",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alphabet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

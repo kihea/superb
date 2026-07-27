@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I see him!” At that the murderer gave a little, quick look over his shoulder, and began to run. The next moment he was lost in a fringe of birches; then he came out again on the upper side, where I could see him climbing like a jackanapes, for that part was again very steep; and then he dipped behind a shoulder, and I saw him no more. All this time I had been running on my side, and had got a good way up, when a voice cried upon me to stand. I was at the edge of the upper wood, and so now, when I halted and looked back, I saw all the open part of the hill below me. The lawyer and the sheriff’s officer were standing just above the road, crying and waving on me to come back; and on their left, the red-coats, musket in hand, were beginning to struggle singly out of the lower wood.",
   "words": [
-    "coats"
+    {
+      "word": "coats",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Yes, that would be a wise course--he would practise on this boy, and see what sort of success he might achieve. So he stroked his brow perplexedly a moment or two, and presently said-- “Now I seem to remember thee somewhat--but my wit is clogged and dim with suffering--” “Alack, my poor master!” ejaculated the whipping-boy, with feeling; adding, to himself, “In truth ’tis as they said--his mind is gone--alas, poor soul! But misfortune catch me, how am I forgetting! They said one must not seem to observe that aught is wrong with him.” “‘Tis strange how my memory doth wanton with me these days,” said Tom. “But mind it not--I mend apace--a little clue doth often serve to bring me back again the things and names which had escaped me.",
   "words": [
-    "clogged",
-    "clue"
+    {
+      "word": "clogged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

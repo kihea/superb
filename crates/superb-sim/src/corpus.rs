@@ -26,6 +26,9 @@ use std::path::Path;
 use serde_json::Value;
 use superb_core::composer::{Candidate, Pool, Slot};
 
+/// Excerpt id -> word -> the signal class(es) that claimed it (ADR-026).
+type SignalsByExcerpt = BTreeMap<String, BTreeMap<String, Vec<String>>>;
+
 /// Everything the real corpus offers: the composer's own candidates, the
 /// word->class index a real shell would answer `wordClasses` with
 /// (`docs/seams.md` §Seam 1), and the two word populations this crate's own
@@ -65,6 +68,14 @@ pub struct RealCorpus {
     /// analogue of `library::TOPICS`, for `vocabulary::generate_real`'s
     /// taste table.
     pub topics: BTreeSet<String>,
+    /// Excerpt id -> word -> the signal class(es) that claimed it, straight
+    /// from `words[].signals` (ADR-026, `workspace/decisions/README.md`).
+    /// Not consumed by the composer or scheduler — an audit-trail input for
+    /// whatever groups encounters by signal class later. Issue #36's
+    /// coverage trial is named in the ADR as the first likely consumer;
+    /// parsed here so the data exists rather than being re-derived by
+    /// whichever trial needs it first.
+    pub sourced_signals: SignalsByExcerpt,
 }
 
 impl RealCorpus {
@@ -74,7 +85,8 @@ impl RealCorpus {
     /// under-report the corpus it claims to measure.
     pub fn load(content_root: &Path) -> RealCorpus {
         let (composed, mut topics) = load_composed(&content_root.join("passages"));
-        let (sourced, sourced_topics, sourced_words) = load_sourced(&content_root.join("sources"));
+        let (sourced, sourced_topics, sourced_words, sourced_signals) =
+            load_sourced(&content_root.join("sources"));
         topics.extend(sourced_topics);
         let word_classes = load_classes(&content_root.join("classes"));
 
@@ -88,6 +100,7 @@ impl RealCorpus {
             reading_words: reading.into_iter().collect(),
             sourced_words,
             topics,
+            sourced_signals,
         }
     }
 
@@ -224,26 +237,57 @@ fn load_composed(dir: &Path) -> (Vec<Candidate>, BTreeSet<String>) {
     (composed, topics)
 }
 
-fn load_sourced(dir: &Path) -> (Vec<Candidate>, BTreeSet<String>, BTreeSet<String>) {
+fn load_sourced(
+    dir: &Path,
+) -> (
+    Vec<Candidate>,
+    BTreeSet<String>,
+    BTreeSet<String>,
+    SignalsByExcerpt,
+) {
     let mut topics = BTreeSet::new();
     let mut sourced_words = BTreeSet::new();
+    let mut sourced_signals: SignalsByExcerpt = BTreeMap::new();
     let sourced = read_json_files(dir)
         .into_iter()
         .map(|doc| {
             let id = str_field(&doc, "id", dir).to_string();
             let topic = str_field(&doc, "topic", dir).to_string();
             topics.insert(topic.clone());
-            let words: Vec<String> = doc["words"]
+            // ADR-026: `words` is an array of `{word, signals}` objects, not
+            // bare strings — each word carries the signal class(es) that
+            // claimed it. The composer and scheduler only ever needed the
+            // word itself (that is still all `Candidate.words` carries);
+            // the signals are pulled aside into `sourced_signals` for the
+            // audit trail the ADR exists to make possible.
+            let mut words: Vec<String> = Vec::new();
+            let mut signals_by_word: BTreeMap<String, Vec<String>> = BTreeMap::new();
+            for entry in doc["words"]
                 .as_array()
                 .unwrap_or_else(|| panic!("{id}: missing `words`"))
-                .iter()
-                .map(|word| {
-                    word.as_str()
-                        .unwrap_or_else(|| panic!("{id}: a `words` entry is not a string"))
-                        .to_string()
-                })
-                .collect();
+            {
+                let word = entry["word"]
+                    .as_str()
+                    .unwrap_or_else(|| panic!("{id}: a `words` entry is missing `word`"))
+                    .to_string();
+                let signals: Vec<String> = entry["signals"]
+                    .as_array()
+                    .unwrap_or_else(|| panic!("{id}: `{word}` is missing `signals`"))
+                    .iter()
+                    .map(|s| {
+                        s.as_str()
+                            .unwrap_or_else(|| panic!("{id}: `{word}` has a non-string signal"))
+                            .to_string()
+                    })
+                    .collect();
+                if signals.is_empty() {
+                    panic!("{id}: `{word}` has an empty `signals` array");
+                }
+                signals_by_word.insert(word.clone(), signals);
+                words.push(word);
+            }
             sourced_words.extend(words.iter().cloned());
+            sourced_signals.insert(id.clone(), signals_by_word);
             Candidate {
                 id,
                 pool: Pool::Sourced,
@@ -253,7 +297,7 @@ fn load_sourced(dir: &Path) -> (Vec<Candidate>, BTreeSet<String>, BTreeSet<Strin
             }
         })
         .collect();
-    (sourced, topics, sourced_words)
+    (sourced, topics, sourced_words, sourced_signals)
 }
 
 fn load_classes(dir: &Path) -> BTreeMap<String, BTreeSet<String>> {
@@ -391,6 +435,98 @@ mod tests {
         ]);
         assert!(!coverage.at_least_1);
         assert!(!coverage.at_least_2);
+    }
+
+    #[test]
+    fn every_sourced_signal_is_non_empty_and_a_known_class() {
+        // ADR-026: every word a sourced excerpt claims carries at least one
+        // signal, drawn from the fixed three-value enum. A word present in
+        // `sourced_signals` with an empty list, or a value outside the enum,
+        // is exactly the corruption the ADR exists to make auditable rather
+        // than silent -- so this is checked once here rather than trusted.
+        const KNOWN: [&str; 4] = [
+            "apposition",
+            "definition-marker",
+            "gloss-overlap",
+            "hand-picked",
+        ];
+        let corpus = live();
+        assert!(
+            !corpus.sourced_signals.is_empty(),
+            "expected at least one sourced excerpt with signals"
+        );
+        for (excerpt_id, by_word) in &corpus.sourced_signals {
+            for (word, signals) in by_word {
+                assert!(
+                    !signals.is_empty(),
+                    "{excerpt_id}: {word} has an empty signals list"
+                );
+                for s in signals {
+                    assert!(
+                        KNOWN.contains(&s.as_str()),
+                        "{excerpt_id}: {word} has an unrecognised signal {s:?}"
+                    );
+                }
+            }
+        }
+    }
+
+    /// ADR-026's `signals` field is new on a frozen seam (Seam 2), and issue
+    /// #33's finding is exactly that a field only ever exercised by the live
+    /// corpus is pinned by nothing — the live corpus can drift or be
+    /// regenerated and a silent field rename would still pass. These two
+    /// fixtures are the golden vector for `signals`: one word with exactly
+    /// one signal, one word with two (the co-firing case ADR-026 Decision 2
+    /// keeps the array for), loaded end to end from JSON on disk through
+    /// `RealCorpus::load` into `sourced_signals`. Renaming `"signals"` to
+    /// anything else in either fixture, or in `load_sourced`'s field name,
+    /// fails this test loudly rather than silently.
+    #[test]
+    fn signals_golden_vector_single_and_cofiring() {
+        let fixture_root = Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures/signals");
+        let corpus = RealCorpus::load(&fixture_root);
+
+        let single = corpus
+            .sourced_signals
+            .get("src-fixture-single-signal")
+            .expect("fixture excerpt missing from sourced_signals");
+        assert_eq!(
+            single.get("mist").map(Vec::as_slice),
+            Some(["gloss-overlap".to_string()].as_slice())
+        );
+
+        let cofiring = corpus
+            .sourced_signals
+            .get("src-fixture-cofiring")
+            .expect("fixture excerpt missing from sourced_signals");
+        assert_eq!(
+            cofiring.get("alacrity").map(Vec::as_slice),
+            Some(["apposition".to_string(), "gloss-overlap".to_string()].as_slice())
+        );
+    }
+
+    #[test]
+    fn sourced_signals_covers_exactly_the_words_each_candidate_carries() {
+        // The two views of a sourced excerpt -- `Candidate.words` (what the
+        // composer schedules against) and `sourced_signals` (the audit
+        // trail) -- must never disagree about which words an excerpt
+        // claims. Keeping them as two separately-populated collections is
+        // exactly the "two artifacts that must agree, maintained by care"
+        // shape ADR-026 rejected for the content schema itself; this test
+        // is the guard that the in-memory mirror of that decision holds too.
+        let corpus = live();
+        for candidate in &corpus.sourced {
+            let by_word = corpus
+                .sourced_signals
+                .get(&candidate.id)
+                .unwrap_or_else(|| panic!("{}: missing from sourced_signals", candidate.id));
+            assert_eq!(
+                by_word.keys().collect::<BTreeSet<_>>(),
+                candidate.words.iter().collect::<BTreeSet<_>>(),
+                "{}: sourced_signals words disagree with Candidate.words",
+                candidate.id
+            );
+        }
     }
 
     #[test]

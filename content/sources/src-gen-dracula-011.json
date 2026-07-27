@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "So true, so sweet, so noble, so little an egoist--and that, let me tell you, is much in this age, so sceptical and selfish. And you, sir--I have read all the letters to poor Miss Lucy, and some of them speak of you, so I know you since some days from the knowing of others; but I have seen your true self since last night. You will give me your hand, will you not? And let us be friends for all our lives.” We shook hands, and he was so earnest and so kind that it made me quite choky. “And now,” he said, “may I ask you for some more help?",
   "words": [
-    "selfish"
+    {
+      "word": "selfish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

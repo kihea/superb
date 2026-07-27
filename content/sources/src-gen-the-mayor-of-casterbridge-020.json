@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Very often, as his hay-knife crunched down among the sweet-smelling grassy stems, he would survey mankind and say to himself: “Here and everywhere be folk dying before their time like frosted leaves, though wanted by their families, the country, and the world; while I, an outcast, an encumberer of the ground, wanted by nobody, and despised by all, live on against my will!” He often kept an eager ear upon the conversation of those who passed along the road—not from a general curiosity by any means—but in the hope that among these travellers between Casterbridge and London some would, sooner or later, speak of the former place. The distance, however, was too great to lend much probability to his desire; and the highest result of his attention to wayside words was that he did indeed hear the name “Casterbridge” uttered one day by the driver of a road-waggon. Henchard ran to the gate of the field he worked in, and hailed the speaker, who was a stranger. “Yes—I’ve come from there, maister,” he said, in answer to Henchard’s inquiry.",
   "words": [
-    "travellers",
-    "lend",
-    "hailed"
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mayor of Casterbridge",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "No, the only thing worth calling a difficulty is how he killed him. The skull seems broken as with some big weapon, but there’s no weapon at all lying about, and the murderer would have found it awkward to carry it away, unless the weapon was too small to be noticed.” “Perhaps the weapon was too big to be noticed,” said the priest, with an odd little giggle. Gilder looked round at this wild remark, and rather sternly asked Brown what he meant. “Silly way of putting it, I know,” said Father Brown apologetically. “Sounds like a fairy tale.",
   "words": [
-    "fairy"
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

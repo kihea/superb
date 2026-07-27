@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"Old lamps for new,\" said Cynthia, smiling as she gave it to him. \"I wish one could always buy nosegays such as you have brought us, as cheaply.\" \"You forget the waste of time that, I think, we must reckon as part of the payment,\" said her mother. \"Really, Mr. Hamley, we must learn to shut our doors on you if you come so often, and at such early hours! I settle myself to my own employment regularly after breakfast till lunch-time; and it is my wish to keep Cynthia and Molly to a course of improving reading and study--so desirable for young people of their age, if they are ever to become intelligent, companionable women; but with early visitors it is quite impossible to observe any regularity of habits.\"",
   "words": [
-    "smiling"
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

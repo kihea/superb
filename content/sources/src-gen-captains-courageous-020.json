@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "And there were ministers of many creeds,--pastors of great, gilt-edged congregations, at the seaside for a rest, with shepherds of the regular work,--from the priests of the Church on the Hill to bush-bearded ex-sailor Lutherans, hail-fellow with the men of a score of boats. There were owners of lines of schooners, large contributors to the societies, and small men, their few craft pawned to the mastheads, with bankers and marine-insurance agents, captains of tugs and water-boats, riggers, fitters, lumpers, salters, boat-builders, and coopers, and all the mixed population of the water-front. They drifted along the line of seats made gay with the dresses of the summer boarders, and one of the town officials patrolled and perspired till he shone all over with pure civic pride. Cheyne had met him for five minutes a few days before, and between the two there was entire understanding. \"Well, Mr. Cheyne, and what d'you think of our city?--Yes, madam, you can sit anywhere you please.--You have this kind of thing out West, I presume?\"",
   "words": [
-    "edged",
-    "priests",
-    "sailor",
-    "bankers",
-    "builders",
-    "civic"
+    {
+      "word": "edged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "priests",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bankers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "builders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "civic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

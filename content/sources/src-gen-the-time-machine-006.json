@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "“But with this change in condition comes inevitably adaptations to the change. What, unless biological science is a mass of errors, is the cause of human intelligence and vigour? Hardship and freedom: conditions under which the active, strong, and subtle survive and the weaker go to the wall; conditions that put a premium upon the loyal alliance of capable men, upon self-restraint, patience, and decision. And the institution of the family, and the emotions that arise therein, the fierce jealousy, the tenderness for offspring, parental self-devotion, all found their justification and support in the imminent dangers of the young. Now, where are these imminent dangers?",
   "words": [
-    "loyal",
-    "therein",
-    "jealousy",
-    "tenderness",
-    "justification"
+    {
+      "word": "loyal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "therein",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "jealousy",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "tenderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "justification",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

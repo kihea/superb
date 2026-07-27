@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Beheld through such a medium the future looked less near and implacable, and Ralph, when he had received a reassuring letter from his sister, let his conscience sleep and slipped forth on the high tide of pleasure. After all, in New York amusements would be fewer, and their life, for a time, perhaps more quiet. Moreover, Ralph's dim glimpses of Mr. Spragg's past suggested that the latter was likely to be on his feet again at any moment, and atoning by redoubled prodigalities for his temporary straits; and beyond all these possibilities there was the book to be written--the book on which Ralph was sure he should get a real hold as soon as they settled down in New York. Meanwhile the daily cost of living, and the bills that could not be deferred, were eating deep into Laura's subsidy. Ralph's anxieties returned, and his plight was brought home to him with a shock when, on going one day to engage passages, he learned that the prices were that of the \"rush season,\" and one of the conditions immediate payment.",
   "words": [
-    "conscience",
-    "slipped",
-    "tide"
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

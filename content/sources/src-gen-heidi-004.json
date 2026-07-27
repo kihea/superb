@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As to going to live below that is far from my thoughts; the people despise me and I them; it is therefore best for all of us that we live apart.\" \"No, no, it is not best for you; I know what it is you lack,\" said the pastor in an earnest voice. \"As to the people down there looking on you with dislike, it is not as bad as you think. Believe me, neighbor; seek to make your peace with God, pray for forgiveness where you need it, and then come and see how differently people will look upon you, and how happy you may yet be.\" The pastor had risen and stood holding out his hand to the old man as he added with renewed earnestness, \"I will wager, neighbor, that next winter you will be down among us again, and we shall be good neighbors as of old.",
   "words": [
-    "renewed"
+    {
+      "word": "renewed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

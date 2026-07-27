@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Aunt Izzie had put up lunches for Paradise before, you see, and knew pretty well what to expect in the way of appetite. Oh, how good everything tasted in that bower, with the fresh wind rustling the poplar leaves, sunshine and sweet wood-smells about them, and birds singing overhead! No grown-up dinner party ever had half so much fun. Each mouthful was a pleasure; and when the last crumb had vanished, Katy produced the second basket, and there, oh, delightful surprise! were seven little pies--molasses pies, baked in saucers--each with a brown top and crisp candified edge, which tasted like toffy and lemon-peel, and all sorts of good things mixed up together.",
   "words": [
-    "basket",
-    "delightful",
-    "pies"
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

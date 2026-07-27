@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "One hears and one notices--one has one's feelings and ideas. And of course, long before you told me that you cared for me, I'd known that there was some one else you were interested in; every one was talking about it two years ago at Newport. And once I saw you sitting together on the verandah at a dance--and when she came back into the house her face was sad, and I felt sorry for her; I remembered it afterward, when we were engaged.\" Her voice had sunk almost to a whisper, and she sat clasping and unclasping her hands about the handle of her sunshade. The young man laid his upon them with a gentle pressure; his heart dilated with an inexpressible relief.",
   "words": [
-    "whisper"
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Age of Innocence",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“He was as firm—ah! pretty near as firm as I was.” “I should have died at once, I’m sure, if it had been me,” observed the housemaid. “You’re a woman,” retorted Brittles, plucking up a little. “Brittles is right,” said Mr. Giles, nodding his head, approvingly; “from a woman, nothing else was to be expected. We, being men, took a dark lantern that was standing on Brittle’s hob, and groped our way downstairs in the pitch dark,—as it might be so.” Mr. Giles had risen from his seat, and taken two steps with his eyes shut, to accompany his description with appropriate action, when he started violently, in common with the rest of the company, and hurried back to his chair.",
   "words": [
-    "nodding",
-    "accompany",
-    "hurried"
+    {
+      "word": "nodding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accompany",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hurried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

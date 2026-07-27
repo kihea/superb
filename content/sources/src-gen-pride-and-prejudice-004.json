@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "My good opinion once lost is lost for ever.” “That is a failing, indeed!” cried Elizabeth. “Implacable resentment is a shade in a character. But you have chosen your fault well. I really cannot laugh at it. You are safe from me.” “There is, I believe, in every disposition a tendency to some particular evil, a natural defect, which not even the best education can overcome.” “And your defect is a propensity to hate everybody.” “And yours,” he replied, with a smile, “is wilfully to misunderstand them.” “Do let us have a little music,” cried Miss Bingley, tired of a conversation in which she had no share.",
   "words": [
-    "tendency",
-    "defect",
-    "propensity"
+    {
+      "word": "tendency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "defect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "propensity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Pride and Prejudice",

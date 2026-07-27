@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Why are you not at Versailles?” she said, with an almost imperceptible acknowledgment of Hastings’ presence. “I—I’m going,” murmured Clifford. For a moment they faced each other, and then Clifford, very red, stammered, “With your permission I have the honour of presenting to you my friend, Monsieur Hastings.” Hastings bowed low. She smiled very sweetly, but there was something of malice in the quiet inclination of her small Parisienne head. “I could have wished,” she said, “that Monsieur Clifford might spare me more time when he brings with him so charming an American.” “Must—must I go, Valentine?” began Clifford.",
   "words": [
-    "wished"
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

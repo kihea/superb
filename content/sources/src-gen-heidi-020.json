@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Peter gave a contrite nod of the head, as one who knew all about it, for grandmamma had described his own feelings exactly. \"And you calculated wrongly also in another way,\" continued grandmamma, \"for you see the harm you intended has turned out for the best for those you wished to hurt. As Clara had no chair to go in and yet wanted so much to see the flowers, she made the effort to walk, and every day since she has been walking better and better, and if she remains up here she will in time be able to go up the mountain every day, much oftener than she would have done in her chair. So you see, Peter, God is able to bring good out of evil for those whom you meant to injure, and you who did the evil were left to suffer the unhappy consequences of it. Do you thoroughly understand all I have said to you, Peter?",
   "words": [
-    "nod",
-    "injure"
+    {
+      "word": "nod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "injure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heidi",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I would have gone through this meeting if it was necessary, but after Aunt Juley recovered, it was not necessary. Planning my life, as I now have to do—” “Come away from those books,” called Margaret. “Helen, do talk to me.” “I was just saying that I have stopped living haphazard. One can’t go through a great deal of”—she missed out the noun—“without planning one’s actions in advance. I am going to have a child in June, and in the first place conversations, discussions, excitement, are not good for me.",
   "words": [
-    "noun"
+    {
+      "word": "noun",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

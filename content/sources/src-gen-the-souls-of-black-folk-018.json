@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But Alexander Crummell it gave back. Out of the temptation of Hate, and burned by the fire of Despair, triumphant over Doubt, and steeled by Sacrifice against Humiliation, he turned at last home across the waters, humble and strong, gentle and determined. He bent to all the gibes and prejudices, to all hatred and discrimination, with that rare courtesy which is the armor of pure souls. He fought among his own, the low, the grasping, and the wicked, with that unbending righteousness which is the sword of the just. He never faltered, he seldom complained; he simply worked, inspiring the young, rebuking the old, helping the weak, guiding the strong.",
   "words": [
-    "hatred"
+    {
+      "word": "hatred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

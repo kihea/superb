@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "You would think the women had spread out their linen,” said one of the men, gazing with admiration at the Milky Way. “That’s a sign of a good harvest next year.” “We shall want some more wood.” “You warm your back and your belly gets frozen. That’s queer.” “O Lord!” “What are you pushing for? Is the fire only for you? Look how he’s sprawling!” In the silence that ensued, the snoring of those who had fallen asleep could be heard.",
   "words": [
-    "admiration",
-    "belly",
-    "sprawling"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "belly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sprawling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

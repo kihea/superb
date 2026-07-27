@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "None of my business, but I must say you young folks that'd rather have cakes than potatoes get me riled.” She reached her room before she became savage. Below, dreadfully near, she could hear the broom-swish of Aunt Bessie's voice, and the mop-pounding of Uncle Whittier's grumble. She had a reasonless dread that they would intrude on her, then a fear that she would yield to Gopher Prairie's conception of duty toward an Aunt Bessie and go down-stairs to be “nice.” She felt the demand for standardized behavior coming in waves from all the citizens who sat in their sitting-rooms watching her with respectable eyes, waiting, demanding, unyielding. She snarled, “Oh, all right, I'll go!” She powdered her nose, straightened her collar, and coldly marched down-stairs. The three elders ignored her.",
   "words": [
-    "dread",
-    "powdered"
+    {
+      "word": "dread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "powdered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

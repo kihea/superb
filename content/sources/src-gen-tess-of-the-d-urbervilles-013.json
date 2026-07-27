@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“O Angel—my mother says that it sometimes happens so!—she knows several cases where they were worse than I, and the husband has not minded it much—has got over it at least. And yet the woman had not loved him as I do you!” “Don’t, Tess; don’t argue. Different societies, different manners. You almost make me say you are an unapprehending peasant woman, who have never been initiated into the proportions of social things. You don’t know what you say.” “I am only a peasant by position, not by nature!” She spoke with an impulse to anger, but it went as it came.",
   "words": [
-    "peasant"
+    {
+      "word": "peasant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

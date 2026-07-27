@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Do you know Truth?” “I hope so,” said Meg soberly. “The game, I mean?” “What is it?” said Fred. “Why, you pile up your hands, choose a number, and draw out in turn, and the person who draws at the number has to answer truly any question put by the rest. It’s great fun.” “Let’s try it,” said Jo, who liked new experiments. Miss Kate and Mr. Brooke, Meg, and Ned declined, but Fred, Sallie, Jo, and Laurie piled and drew, and the lot fell to Laurie.",
   "words": [
-    "experiments"
+    {
+      "word": "experiments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

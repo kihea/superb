@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Consequently, he never rose above the drudgery of some employment on newspapers. Then he was terribly passionate, not without cause, I allow; but it wasn't wise. What I mean is this: if he saw, or if he fancied he saw, any wrong or injury done to any one, it was enough to throw him into a frenzy; he would get black in the face and absolutely shriek out his denunciations of the wrongdoer. I do believe he would have visited his own brother with the most unsparing invective, if that brother had laid a harming finger on a street-beggar, or a colored man, or a poor person of any kind. I don't blame the feeling; though with a man like him, it was very apt to be a false or mistaken one; but, at any rate, its exhibition wasn't sensible.",
   "words": [
-    "terribly",
-    "passionate",
-    "harming",
-    "beggar",
-    "apt",
-    "mistaken"
+    {
+      "word": "terribly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "passionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beggar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

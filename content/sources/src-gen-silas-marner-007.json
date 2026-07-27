@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Give it me back, and I’ll let you—I’ll let you have a guinea.” “Me stole your money!” said Jem, angrily. “I’ll pitch this can at your eye if you talk o’ my stealing your money.” “Come, come, Master Marner,” said the landlord, now rising resolutely, and seizing Marner by the shoulder, “if you’ve got any information to lay, speak it out sensible, and show as you’re in your right mind, if you expect anybody to listen to you. You’re as wet as a drownded rat. Sit down and dry yourself, and speak straight forrard.” “Ah, to be sure, man,” said the farrier, who began to feel that he had not been quite on a par with himself and the occasion. “Let’s have no more staring and screaming, else we’ll have you strapped for a madman.",
   "words": [
-    "stole",
-    "madman"
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "madman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

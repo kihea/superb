@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I know,” she answered faintly, “Boris has gone to Ept with Mr. Scott. I did not remember when I sent you for him just now.” “But he can’t get back in that case before to-morrow afternoon, and—are you hurt? Did I frighten you into falling? What an awful fool I am, but I was only half awake.” “Boris thought you had gone home before dinner. Do please excuse us for letting you stay here all this time.” “I have had a long nap,” I laughed, “so sound that I did not know whether I was still asleep or not when I found myself staring at a figure that was moving toward me, and called out your name.",
   "words": [
-    "awake",
-    "nap"
+    {
+      "word": "awake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

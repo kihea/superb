@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "I stopped short in the doorway. The thunderstorm had passed. The towers of the Oriental College and the pine trees about it had gone, and very far away, lit by a vivid red glare, the common about the sand-pits was visible. Across the light huge black shapes, grotesque and strange, moved busily to and fro. It seemed indeed as if the whole country in that direction was on fire—a broad hillside set with minute tongues of flame, swaying and writhing with the gusts of the dying storm, and throwing a red reflection upon the cloud scud above.",
   "words": [
-    "thunderstorm",
-    "lit",
-    "glare",
-    "tongues",
-    "flame"
+    {
+      "word": "thunderstorm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tongues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

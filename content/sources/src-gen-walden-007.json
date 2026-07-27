@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I could always tell if visitors had called in my absence, either by the bended twigs or grass, or the print of their shoes, and generally of what sex or age or quality they were by some slight trace left, as a flower dropped, or a bunch of grass plucked and thrown away, even as far off as the railroad, half a mile distant, or by the lingering odor of a cigar or pipe. Nay, I was frequently notified of the passage of a traveller along the highway sixty rods off by the scent of his pipe. There is commonly sufficient space about us. Our horizon is never quite at our elbows. The thick wood is not just at our door, nor the pond, but somewhat is always clearing, familiar and worn by us, appropriated and fenced in some way, and reclaimed from Nature.",
   "words": [
-    "distant",
-    "traveller",
-    "pond"
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traveller",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

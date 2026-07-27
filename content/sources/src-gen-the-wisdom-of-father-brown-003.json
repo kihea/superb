@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Such a substantial head is generally based on a bull neck; but this was hidden by a big coloured scarf, swathed round up the man’s ears and falling in front inside his jacket like a sort of fancy waistcoat. It was a scarf of strong dead colours, dark red and old gold and purple, probably of Oriental fabrication. Altogether the man had something a shade barbaric about him; more like a Hungarian squire than an ordinary French officer. His French, however, was obviously that of a native; and his French patriotism was so impulsive as to be slightly absurd. His first act when he burst out of the archway was to call in a clarion voice down the street: “Are there any Frenchmen here?” as if he were calling for Christians in Mecca.",
   "words": [
-    "fabrication",
-    "absurd"
+    {
+      "word": "fabrication",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absurd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

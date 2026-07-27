@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "at him again, Child of Calamity!' 'Bully for you, little Davy!' Well, it was a perfect pow-wow for a while. Bob and the Child had red noses and black eyes when they got through. Little Davy made them own up that they were sneaks and cowards and not fit to eat with a dog or drink with a nigger; then Bob and the Child shook hands with each other, very solemn, and said they had always respected each other and was willing to let bygones be bygones.",
   "words": [
-    "nigger"
+    {
+      "word": "nigger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

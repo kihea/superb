@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "And by the time he reached the part where he so artfully blended the thirst of vengeance with the desire of gain, he had, at least, obtained a command of the deepest attention of the savage. The question put by Le Renard had been calm, and with all the dignity of an Indian; but it was quite apparent, by the thoughtful expression of the listener’s countenance, that the answer was most cunningly devised. The Huron mused a few moments, and then laying his hand on the rude bandages of his wounded shoulder, he said, with some energy: “Do friends make such marks?” “Would ‘La Longue Carbine’ cut one so slight on an enemy?” “Do the Delawares crawl upon those they love like snakes, twisting themselves to strike?” “Would ‘Le Gros Serpent’ have been heard by the ears of one he wished to be deaf?” “Does the white chief burn his powder in the faces of his brothers?” “Does he ever miss his aim, when seriously bent to kill?” returned Duncan, smiling with well acted sincerity. Another long and deliberate pause succeeded these sententious questions and ready replies. Duncan saw that the Indian hesitated.",
   "words": [
-    "devised",
-    "crawl",
-    "snakes",
-    "wished",
-    "smiling",
-    "replies"
+    {
+      "word": "devised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "replies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

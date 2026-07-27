@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The sailor was a surly sort of chap, and there was a good long delay while I waited on deck, feeling more and more uncomfortable. Presently a steward came up and showed me down the companion and into the saloon, which, after this, looked—well, horribly gorgeous—you know what I mean, plush lounges, silk cushions, and that sort of thing. Dinner seemed to be just over, and wine and fruit were on the table. Herr Dollmann was there at his coffee. I introduced myself somehow——” “Stop a moment,” I said; “what was he like?” “Oh, a tall, thin chap, in evening dress; about fifty I suppose, with greyish hair and a short beard.",
   "words": [
-    "beard"
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

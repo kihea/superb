@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Remember what Phil's sister reads you when she gits his letters.\" \"I've never known as Phil told lies, but he's too venturesome (like most of 'em that use the sea). If Dan sees fit, Mr. Cheyne, he can go--fer all o' me.\" \"She jest despises the ocean,\" Disko explained, \"an' I--I dunno haow to act polite, I guess, er I'd thank you better.\" \"My father--my own eldest brother--two nephews--an' my second sister's man,\" she said, dropping her head on her hand.",
   "words": [
-    "nephews"
+    {
+      "word": "nephews",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

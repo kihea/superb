@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Moreover, I could see he now treated me as if I was myself beyond a doubt; so that first point of my identity seemed fully granted. “Sir,” said I, “if I tell you my story, I must commit a friend’s life to your discretion. Pass me your word it shall be sacred; and for what touches myself, I will ask no better guarantee than just your face.” He passed me his word very seriously. “But,” said he, “these are rather alarming prolocutions; and if there are in your story any little jostles to the law, I would beg you to bear in mind that I am a lawyer, and pass lightly.” Thereupon I told him my story from the first, he listening with his spectacles thrust up and his eyes closed, so that I sometimes feared he was asleep. But no such matter!",
   "words": [
-    "moreover",
-    "thrust"
+    {
+      "word": "moreover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

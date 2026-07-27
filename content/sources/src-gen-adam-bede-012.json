@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Great was the shouting of the crowd, radiant the grinning of Bill Downes the stone-sawyer and the fortunate rider of this superior beast, which stood calm and stiff-legged in the midst of its triumph. Arthur himself had provided the prizes for the men, and Bill was made happy with a splendid pocket-knife, supplied with blades and gimlets enough to make a man at home on a desert island. He had hardly returned from the marquee with the prize in his hand, when it began to be understood that Wiry Ben proposed to amuse the company, before the gentry went to dinner, with an impromptu and gratuitous performance—namely, a hornpipe, the main idea of which was doubtless borrowed; but this was to be developed by the dancer in so peculiar and complex a manner that no one could deny him the praise of originality.",
   "words": [
-    "shouting",
-    "sawyer",
-    "blades",
-    "amuse",
-    "impromptu",
-    "namely"
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sawyer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blades",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amuse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impromptu",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "namely",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But you will strengthen me—you will not hinder me in seeking to obey to the uttermost.” “Let us go out into the sunshine, Dinah, and walk together. I’ll speak no word to disturb you.” They went out and walked towards the fields, where they would meet the family coming from church. Adam said, “Take my arm, Dinah,” and she took it. That was the only change in their manner to each other since they were last walking together. But no sadness in the prospect of her going away—in the uncertainty of the issue—could rob the sweetness from Adam’s sense that Dinah loved him.",
   "words": [
-    "hinder"
+    {
+      "word": "hinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

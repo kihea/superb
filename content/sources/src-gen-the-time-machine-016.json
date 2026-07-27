@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I laughed at that, and turned again to the dark trees before me. It was very black, and Weena clung to me convulsively, but there was still, as my eyes grew accustomed to the darkness, sufficient light for me to avoid the stems. Overhead it was simply black, except where a gap of remote blue sky shone down upon us here and there. I lit none of my matches because I had no hand free. Upon my left arm I carried my little one, in my right hand I had my iron bar.",
   "words": [
-    "shone",
-    "lit"
+    {
+      "word": "shone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

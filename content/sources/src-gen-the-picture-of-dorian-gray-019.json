@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Of your shield, Harry, not of your spear.” “I never tilt against beauty,” he said, with a wave of his hand. “That is your error, Harry, believe me. You value beauty far too much.” “How can you say that? I admit that I think that it is better to be beautiful than to be good. But on the other hand, no one is more ready than I am to acknowledge that it is better to be good than to be ugly.” “Ugliness is one of the seven deadly sins, then?” cried the duchess.",
   "words": [
-    "acknowledge"
+    {
+      "word": "acknowledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

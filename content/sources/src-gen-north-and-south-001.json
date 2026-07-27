@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“HASTE TO THE WEDDING.” “Wooed and married and a’.” “Edith!” said Margaret, gently, “Edith!” But as Margaret half suspected, Edith had fallen asleep. She lay curled up on the sofa in the back drawing-room in Harley Street looking very lovely in her white muslin and blue ribbons. If Titania had ever been dressed in white muslin and blue ribbons, and had fallen asleep on a crimson damask sofa in a back drawing-room, Edith might have been taken for her. Margaret was struck afresh by her cousin’s beauty. They had grown up together from childhood, and all along Edith had been remarked upon by every one, except Margaret, for her prettiness; but Margaret had never thought about it until the last few days, when the prospect of soon losing her companion seemed to give force to every sweet quality and charm which Edith possessed.",
   "words": [
-    "prospect",
-    "companion"
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "“That, of course, I cannot say, but—shall I tell you my own private opinion, Hastings?” “Yes.” “Well, it is this: that Mrs. Cavendish does not care, and never has cared one little jot about Dr. Bauerstein!” “Do you really think so?” I could not disguise my pleasure. “I am quite sure of it. And I will tell you why.” “Yes?” “Because she cares for someone else, mon ami.” “Oh!” What did he mean? In spite of myself, an agreeable warmth spread over me. I am not a vain man where women are concerned, but I remembered certain evidences, too lightly thought of at the time, perhaps, but which certainly seemed to indicate—— My pleasing thoughts were interrupted by the sudden entrance of Miss Howard.",
   "words": [
-    "disguise",
-    "spite",
-    "vain",
-    "pleasing"
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pleasing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

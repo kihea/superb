@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Laurie says he is fast, and I don’t consider him a desirable acquaintance, so I let him alone.” “You might treat him civilly, at least. You gave him a cool nod, and just now you bowed and smiled in the politest way to Tommy Chamberlain, whose father keeps a grocery store. If you had just reversed the nod and the bow, it would have been right,” said Amy reprovingly. “No, it wouldn’t,” returned Jo, “I neither like, respect, nor admire Tudor, though his grandfather’s uncle’s nephew’s niece was a third cousin to a lord. Tommy is poor and bashful and good and very clever.",
   "words": [
-    "acquaintance"
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

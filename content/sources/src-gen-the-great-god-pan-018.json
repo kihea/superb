@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I paid what he asked, and stood leaning by the counter, with a strange reluctance to take up my goods and go. I asked about the business, and learnt that trade was bad and the profits cut down sadly; but then the street was not what it was before traffic had been diverted, but that was done forty years ago, ‘just before my father died,’ he said. I got away at last, and walked along sharply; it was a dismal street indeed, and I was glad to return to the bustle and the noise. Would you like to see my purchase?” Austin said nothing, but nodded his head slightly; he still looked white and sick. Villiers pulled out a drawer in the bamboo table, and showed Austin a long coil of cord, hard and new; and at one end was a running noose.",
   "words": [
-    "nodded",
-    "cord"
+    {
+      "word": "nodded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Great God Pan",

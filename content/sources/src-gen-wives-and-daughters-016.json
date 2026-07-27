@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"She will never marry you,\" said Molly, firmly. \"Then if she ever honours any one else with her preference, he shall be allowed the perusal of her letters to me.\" Molly almost could have laughed, she was so secure and certain that Roger would never read letters offered to him under these circumstances; but then she thought that he would feel such pain at the whole affair, and at the contact with Mr. Preston, especially if he had not heard of it from Cynthia first, and if she, Molly, could save him pain she would. Before she could settle what to say, Mr. Preston spoke again. \"You said the other day that Cynthia was engaged.",
   "words": [
-    "preference"
+    {
+      "word": "preference",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

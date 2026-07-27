@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“If it had not been for Liza nothing of this would have happened,” I decided inwardly. Then, after waiting a minute, I went myself behind his screen with a dignified and solemn air, though my heart was beating slowly and violently. “Apollon,” I said quietly and emphatically, though I was breathless, “go at once without a minute’s delay and fetch the police-officer.” He had meanwhile settled himself at his table, put on his spectacles and taken up some sewing. But, hearing my order, he burst into a guffaw. “At once, go this minute!",
   "words": [
-    "sewing"
+    {
+      "word": "sewing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

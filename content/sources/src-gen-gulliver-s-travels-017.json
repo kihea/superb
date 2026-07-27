@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I pointed to every thing, and inquired the name of it, which I wrote down in my journal-book when I was alone, and corrected my bad accent by desiring those of the family to pronounce it often. In this employment, a sorrel nag, one of the under-servants, was very ready to assist me. In speaking, they pronounced through the nose and throat, and their language approaches nearest to the High-Dutch, or German, of any I know in Europe; but is much more graceful and significant. The emperor Charles V. made almost the same observation, when he said “that if he were to speak to his horse, it should be in High-Dutch.” The curiosity and impatience of my master were so great, that he spent many hours of his leisure to instruct me. He was convinced (as he afterwards told me) that I must be a Yahoo; but my teachableness, civility, and cleanliness, astonished him; which were qualities altogether opposite to those animals.",
   "words": [
-    "servants"
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

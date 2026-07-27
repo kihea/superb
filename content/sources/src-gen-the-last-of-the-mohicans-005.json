@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“There is reason in her words!” at length broke from his compressed and trembling lips; “ay, and they bear the spirit of Christianity; what might be right and proper in a red-skin, may be sinful in a man who has not even a cross in blood to plead for his ignorance. Chingachgook! hear you the talk of the dark-eyed woman?” He now spoke in Delaware to his companions, and his address, though calm and deliberate, seemed very decided. The elder Mohican heard with deep gravity, and appeared to ponder on his words, as though he felt the importance of their import. After a moment of hesitation, he waved his hand in assent, and uttered the English word “Good!” with the peculiar emphasis of his people.",
   "words": [
-    "waved"
+    {
+      "word": "waved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

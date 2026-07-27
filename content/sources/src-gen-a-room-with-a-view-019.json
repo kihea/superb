@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The feeling was very subtle and quite undogmatic, and he never imparted it to any other of the characters in this entanglement. Yet it existed, and it alone explains his action subsequently, and his influence on the action of others. The compact that he made with Miss Bartlett in the tavern, was to help not only Lucy, but religion also. They hurried home through a world of black and grey. He conversed on indifferent topics: the Emersons’ need of a housekeeper; servants; Italian servants; novels about Italy; novels with a purpose; could literature influence life?",
   "words": [
-    "hurried",
-    "housekeeper",
-    "novels"
+    {
+      "word": "hurried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "novels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Sir Percival slowly drew his shoulder from under the Count’s hand, slowly turned his face away from the Count’s eyes, doggedly looked down for a little while at the parchment on the table, and then spoke, with the sullen submission of a tamed animal, rather than the becoming resignation of a convinced man. “I don’t want to offend anybody,” he said, “but my wife’s obstinacy is enough to try the patience of a saint. I have told her this is merely a formal document—and what more can she want? You may say what you please, but it is no part of a woman’s duty to set her husband at defiance. Once more, Lady Glyde, and for the last time, will you sign or will you not?” Laura returned to his side of the table, and took up the pen again.",
   "words": [
-    "parchment"
+    {
+      "word": "parchment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

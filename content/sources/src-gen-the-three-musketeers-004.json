@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“There are four men come to arrest me. Save me!” Porthos and Aramis arose. “A moment,” cried D’Artagnan, making them a sign to replace in the scabbard their half-drawn swords. “It is not courage that is needed; it is prudence.” “And yet,” cried Porthos, “we will not leave—” “You will leave D’Artagnan to act as he thinks proper,” said Athos. “He has, I repeat, the longest head of the four, and for my part I declare that I will obey him.",
   "words": [
-    "arose",
-    "obey"
+    {
+      "word": "arose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

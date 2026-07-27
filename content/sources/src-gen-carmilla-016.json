@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“‘She is gone,’ I repeated to myself, for the first time—in the hurried moments that had elapsed since my consent—reflecting upon the folly of my act. “‘She did not look up,’ said the young lady, plaintively. “‘The Countess had taken off her mask, perhaps, and did not care to show her face,’ I said; ‘and she could not know that you were in the window.’ “She sighed, and looked in my face. She was so beautiful that I relented. I was sorry I had for a moment repented of my hospitality, and I determined to make her amends for the unavowed churlishness of my reception.",
   "words": [
-    "sighed",
-    "hospitality",
-    "amends"
+    {
+      "word": "sighed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hospitality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

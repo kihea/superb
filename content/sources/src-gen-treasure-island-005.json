@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "As for Mr. Arrow, I believe him thoroughly honest; some of the men are the same; all may be for what I know. But I am responsible for the ship’s safety and the life of every man Jack aboard of her. I see things going, as I think, not quite right. And I ask you to take certain precautions or let me resign my berth. And that’s all.” “Captain Smollett,” began the doctor with a smile, “did ever you hear the fable of the mountain and the mouse?",
   "words": [
-    "aboard",
-    "berth"
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "berth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

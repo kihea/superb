@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "oulder-blades. Then the whole population cleared into the forest, expecting all kinds of calamities to happen, while, on the other hand, the steamer Fresleven commanded left also in a bad panic, in charge of the engineer, I believe. Afterwards nobody seemed to trouble much about Fresleven’s remains, till I got out and stepped into his shoes. I couldn’t let it rest, though; but when an opportunity offered at last to meet my predecessor, the grass growing through his ribs was tall enough to hide his bones. They were all there.",
   "words": [
-    "ribs"
+    {
+      "word": "ribs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A great uproar was raised, but he was unsuspected; while Dub, an awkward blunderer who was always getting caught, was punished for Buck’s misdeed. This first theft marked Buck as fit to survive in the hostile Northland environment. It marked his adaptability, his capacity to adjust himself to changing conditions, the lack of which would have meant swift and terrible death. It marked, further, the decay or going to pieces of his moral nature, a vain thing and a handicap in the ruthless struggle for existence. It was all well enough in the Southland, under the law of love and fellowship, to respect private property and personal feelings; but in the Northland, under the law of club and fang, whoso took such things into account was a fool, and in so far as he observed them he would fail to prosper.",
   "words": [
-    "theft"
+    {
+      "word": "theft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

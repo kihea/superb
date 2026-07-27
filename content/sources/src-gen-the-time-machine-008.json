@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Yet a certain feeling, you may understand, tethered me in a circle of a few miles round the point of my arrival. Explanation “So far as I could see, all the world displayed the same exuberant richness as the Thames valley. From every hill I climbed I saw the same abundance of splendid buildings, endlessly varied in material and style, the same clustering thickets of evergreens, the same blossom-laden trees and tree ferns. Here and there water shone like silver, and beyond, the land rose into blue undulating hills, and so faded into the serenity of the sky. A peculiar feature, which presently attracted my attention, was the presence of certain circular wells, several, as it seemed to me, of a very great depth.",
   "words": [
-    "blossom",
-    "circular"
+    {
+      "word": "blossom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

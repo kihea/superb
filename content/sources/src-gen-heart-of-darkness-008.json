@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The air was warm, thick, heavy, sluggish. There was no joy in the brilliance of sunshine. The long stretches of the waterway ran on, deserted, into the gloom of overshadowed distances. On silvery sand-banks hippos and alligators sunned themselves side by side. The broadening waters flowed through a mob of wooded islands; you lost your way on that river as you would in a desert, and butted all day long against shoals, trying to find the channel, till you thought yourself bewitched and cut off for ever from everything you had known once—somewhere—far away—in another existence perhaps.",
   "words": [
-    "waterway"
+    {
+      "word": "waterway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

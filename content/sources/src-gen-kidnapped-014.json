@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "My surprise was all the greater to hear that manner of speaking in the mouth of a grown man; and indeed I have never grown used to it; nor yet altogether with the English grammar, as perhaps a very critical eye might here and there spy out even in these memoirs. The tediousness and pain of these hours upon the rock grew only the greater as the day went on; the rock getting still the hotter and the sun fiercer. There were giddiness, and sickness, and sharp pangs like rheumatism, to be supported. I minded then, and have often minded since, on the lines in our Scotch psalm:-- “The moon by night thee shall not smite, Nor yet the sun by day;” and indeed it was only by God’s blessing that we were neither of us sun-smitten. At last, about two, it was beyond men’s bearing, and there was now temptation to resist, as well as pain to thole.",
   "words": [
-    "psalm"
+    {
+      "word": "psalm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "So common is this that one-half think it normal; so unquestioned, that we almost fear to question if the end of racing is not gold, if the aim of man is not rightly to be rich. And if this is the fault of America, how dire a danger lies before a new land and a new city, lest Atlanta, stooping for mere gold, shall find that gold accursed! It was no maiden’s idle whim that started this hard racing; a fearful wilderness lay about the feet of that city after the War,—feudalism, poverty, the rise of the Third Estate, serfdom, the re-birth of Law and Order, and above and between all, the Veil of Race. How heavy a journey for weary feet! what wings must Atalanta have to flit over all this hollow and hill, through sour wood and sullen water, and by the red waste of sun-baked clay!",
   "words": [
-    "fearful",
-    "wilderness"
+    {
+      "word": "fearful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wilderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

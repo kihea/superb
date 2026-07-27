@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "See if ’tis warm, Jacob.” Jacob stooped to the God-forgive-me, which was a two-handled tall mug standing in the ashes, cracked and charred with heat, rather furred with extraneous matter about the outside, especially in the crevices of the handles, the innermost curves of which may not have seen daylight for several years by reason of this encrustation thereon—formed of ashes accidentally wetted with cider and baked hard; but to the mind of any sensible drinker the cup was no worse for that, being incontestably clean on the inside and about the rim. It may be observed that such a class of mug is called a God-forgive-me in Weatherbury and its vicinity for uncertain reasons; probably because its size makes any given toper feel ashamed of himself when he sees its bottom in drinking it empty: this idea is, however, a mere guess.",
   "words": [
-    "mug",
-    "baked",
-    "sensible",
-    "rim"
+    {
+      "word": "mug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "baked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rim",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

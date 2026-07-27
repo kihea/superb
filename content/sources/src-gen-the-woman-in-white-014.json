@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Both were brought in by the foreign-looking man with the beard. The water, when Lady Glyde attempted to drink it, had so strange a taste that it increased her faintness, and she hastily took the bottle of salts from Count Fosco, and smelt at it. Her head became giddy on the instant. The Count caught the bottle as it dropped out of her hand, and the last impression of which she was conscious was that he held it to her nostrils again. From this point her recollections were found to be confused, fragmentary, and difficult to reconcile with any reasonable probability.",
   "words": [
-    "giddy"
+    {
+      "word": "giddy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

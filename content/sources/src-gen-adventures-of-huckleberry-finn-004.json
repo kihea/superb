@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I took out the plug and shook out the little dab of quicksilver, and set my teeth in. It was “baker’s bread”—what the quality eat; none of your low-down corn-pone. I got a good place amongst the leaves, and set there on a log, munching the bread and watching the ferry-boat, and very well satisfied. And then something struck me. I says, now I reckon the widow or the parson or somebody prayed that this bread would find me, and here it has gone and done it.",
   "words": [
-    "shook"
+    {
+      "word": "shook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

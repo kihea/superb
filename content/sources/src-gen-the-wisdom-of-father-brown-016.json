@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I dare say he has some Italians with him, but our amiable friends are not Italians. They are octoroons and African half-bloods of various shades, but I fear we English think all foreigners are much the same so long as they are dark and dirty. Also,” he added, with a smile, “I fear the English decline to draw any fine distinction between the moral character produced by my religion and that which blooms out of Voodoo.” The blaze of the spring season had burst upon Seawood, littering its foreshore with famines and bathing-machines, with nomadic preachers and nigger minstrels, before the two friends saw it again, and long before the storm of pursuit after the strange secret society had died away. Almost on every hand the secret of their purpose perished with them. The man of the hotel was found drifting dead on the sea like so much seaweed; his right eye was closed in peace, but his left eye was wide open, and glistened like glass in the moon.",
   "words": [
-    "preachers",
-    "nigger",
-    "perished"
+    {
+      "word": "preachers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nigger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

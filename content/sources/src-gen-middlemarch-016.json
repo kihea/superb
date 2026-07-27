@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The Lord pity you!” The events were comparatively small, but the essential condition was there—namely, that they were in favor of his own ends. It was easy for him to settle what was due from him to others by inquiring what were God’s intentions with regard to himself. Could it be for God’s service that this fortune should in any considerable proportion go to a young woman and her husband who were given up to the lightest pursuits, and might scatter it abroad in triviality—people who seemed to lie outside the path of remarkable providences? Bulstrode had never said to himself beforehand, “The daughter shall not be found”—nevertheless when the moment came he kept her existence hidden; and when other moments followed, he soothed the mother with consolation in the probability that the unhappy young woman might be no more. There were hours in which Bulstrode felt that his action was unrighteous; but how could he go back?",
   "words": [
-    "comparatively",
-    "intentions",
-    "consolation"
+    {
+      "word": "comparatively",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "intentions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consolation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

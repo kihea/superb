@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In the afternoon the storm held off, and the clearness in the west seemed to my inexperienced eye the pledge of a fair evening. I finished my business as quickly as possible, and we set out for Starkfield with a good chance of getting there for supper. But at sunset the clouds gathered again, bringing an earlier night, and the snow began to fall straight and steadily from a sky without wind, in a soft universal diffusion more confusing than the gusts and eddies of the morning. It seemed to be a part of the thickening darkness, to be the winter night itself descending on us layer by layer. The small ray of Frome’s lantern was soon lost in this smothering medium, in which even his sense of direction, and the bay’s homing instinct, finally ceased to serve us.",
   "words": [
-    "sunset",
-    "gusts"
+    {
+      "word": "sunset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gusts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

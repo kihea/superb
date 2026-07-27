@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "A jeweller’s window had been broken open in one place, but apparently the thief had been disturbed, and a number of gold chains and a watch lay scattered on the pavement. I did not trouble to touch them. Farther on was a tattered woman in a heap on a doorstep; the hand that hung over her knee was gashed and bled down her rusty brown dress, and a smashed magnum of champagne formed a pool across the pavement. She seemed asleep, but she was dead. The farther I penetrated into London, the profounder grew the stillness.",
   "words": [
-    "thief",
-    "heap"
+    {
+      "word": "thief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

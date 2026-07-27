@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "A man must have something to grumble about; and if he can’t complain that his wife harries him to death with her perversity and ill-humour, he must complain that she wears him out with her kindness and gentleness.” “But why complain at all, unless because you are tired and dissatisfied?” “To excuse my own failings, to be sure. Do you think I’ll bear all the burden of my sins on my own shoulders, as long as there’s another ready to help me, with none of her own to carry?” “There is no such one on earth,” said she seriously; and then, taking his hand from her head, she kissed it with an air of genuine devotion, and tripped away to the door. “What now?” said he. “Where are you going?” “To tidy my hair,” she answered, smiling through her disordered locks; “you’ve made it all come down.” “Off with you then!—An excellent little woman,” he remarked when she was gone, “but a thought too soft—she almost melts in one’s hands. I positively think I ill-use her sometimes, when I’ve taken too much—but I can’t help it, for she never complains, either at the time or after.",
   "words": [
-    "devotion",
-    "locks"
+    {
+      "word": "devotion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "locks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

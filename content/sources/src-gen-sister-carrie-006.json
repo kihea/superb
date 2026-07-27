@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Look at the good girls; how will they draw away from such as you when they know you have been weak. You had not tried before you failed.\" It was when Carrie was alone, looking out across the park, that she would be listening to this. It would come infrequently--when something else did not interfere, when the pleasant side was not too apparent, when Drouet was not there. It was somewhat clear in utterance at first, but never wholly convincing.",
   "words": [
-    "convincing"
+    {
+      "word": "convincing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

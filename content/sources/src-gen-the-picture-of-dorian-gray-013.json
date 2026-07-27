@@ -3,16 +3,66 @@
   "pool": "sourced",
   "text": "At another time he devoted himself entirely to music, and in a long latticed room, with a vermilion-and-gold ceiling and walls of olive-green lacquer, he used to give curious concerts in which mad gipsies tore wild music from little zithers, or grave, yellow-shawled Tunisians plucked at the strained strings of monstrous lutes, while grinning Negroes beat monotonously upon copper drums and, crouching upon scarlet mats, slim turbaned Indians blew through long pipes of reed or brass and charmed—or feigned to charm—great hooded snakes and horrible horned adders. The harsh intervals and shrill discords of barbaric music stirred him at times when Schubert’s grace, and Chopin’s beautiful sorrows, and the mighty harmonies of Beethoven himself, fell unheeded on his ear. He collected together from all parts of the world the strangest instruments that could be found, either in the tombs of dead nations or among the few savage tribes that have survived contact with Western civilizations, and loved to touch and try them.",
   "words": [
-    "devoted",
-    "olive",
-    "concerts",
-    "strings",
-    "brass",
-    "snakes",
-    "harsh",
-    "mighty",
-    "tombs",
-    "savage"
+    {
+      "word": "devoted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "olive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "concerts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brass",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harsh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tombs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "savage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

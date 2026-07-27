@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Half a ton! The enormousness of it appalled him. He had great faith in Buck’s strength and had often thought him capable of starting such a load; but never, as now, had he faced the possibility of it, the eyes of a dozen men fixed upon him, silent and waiting. Further, he had no thousand dollars; nor had Hans or Pete. “I’ve got a sled standing outside now, with twenty fiftypound sacks of flour on it,” Matthewson went on with brutal directness; “so don’t let that hinder you.” Thornton did not reply.",
   "words": [
-    "brutal",
-    "hinder"
+    {
+      "word": "brutal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I shall not be happy till we go!” he protested. “And you are staying in this hotel?” she went on. “And you are really an American?” The courier stood looking at Winterbourne offensively. The young man, at least, thought his manner of looking an offense to Miss Miller; it conveyed an imputation that she “picked up” acquaintances. “I shall have the honor of presenting to you a person who will tell you all about me,” he said, smiling and referring to his aunt.",
   "words": [
-    "courier",
-    "acquaintances"
+    {
+      "word": "courier",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintances",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

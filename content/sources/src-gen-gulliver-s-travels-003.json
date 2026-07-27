@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Two days after this adventure, the emperor, having ordered that part of his army which quarters in and about his metropolis, to be in readiness, took a fancy of diverting himself in a very singular manner. He desired I would stand like a Colossus, with my legs as far asunder as I conveniently could. He then commanded his general (who was an old experienced leader, and a great patron of mine) to draw up the troops in close order, and march them under me; the foot by twenty-four abreast, and the horse by sixteen, with drums beating, colours flying, and pikes advanced. This body consisted of three thousand foot, and a thousand horse. His majesty gave orders, upon pain of death, that every soldier in his march should observe the strictest decency with regard to my person; which however could not prevent some of the younger officers from turning up their eyes as they passed under me: and, to confess the truth, my breeches were at that time in so ill a condition, that they afforded some opportunities for laughter and admiration.",
   "words": [
-    "conveniently",
-    "commanded",
-    "majesty",
-    "confess",
-    "afforded"
+    {
+      "word": "conveniently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "commanded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "majesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "afforded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

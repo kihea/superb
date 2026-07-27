@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "After the meal, the boy, who was about seven years old at the time, left his father at work, and, as he said, went to look for flowers in the wood, and the man, who could hear him shouting with delight at his discoveries, felt no uneasiness. Suddenly, however, he was horrified at hearing the most dreadful screams, evidently the result of great terror, proceeding from the direction in which his son had gone, and he hastily threw down his tools and ran to see what had happened. Tracing his path by the sound, he met the little boy, who was running headlong, and was evidently terribly frightened, and on questioning him the man elicited that after picking a posy of flowers he felt tired, and lay down on the grass and fell asleep. He was suddenly awakened, as he stated, by a peculiar noise, a sort of singing he called it, and on peeping through the branches he saw Helen V. playing on the grass with a “strange naked man,” who he seemed unable to describe more fully. He said he felt dreadfully frightened and ran away crying for his father.",
   "words": [
-    "shouting",
-    "screams",
-    "terribly",
-    "peculiar"
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "screams",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terribly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peculiar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Great God Pan",

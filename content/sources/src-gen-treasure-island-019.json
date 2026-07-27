@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But for some disarray (the work, perhaps, of the birds that had fed upon him or of the slow-growing creeper that had gradually enveloped his remains) the man lay perfectly straight--his feet pointing in one direction, his hands, raised above his head like a diver’s, pointing directly in the opposite. “I’ve taken a notion into my old numbskull,” observed Silver. “Here’s the compass; there’s the tip-top p’int o’ Skeleton Island, stickin’ out like a tooth. Just take a bearing, will you, along the line of them bones.” It was done. The body pointed straight in the direction of the island, and the compass read duly E.S.E.",
   "words": [
-    "gradually"
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

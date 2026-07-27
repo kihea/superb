@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A smell like an eating-house and a pastrycook's next door to each other, with a laundress's next door to that! That was the pudding! In half a minute Mrs. Cratchit entered--flushed, but smiling proudly--with the pudding, like a speckled cannon-ball, so hard and firm, blazing in half of half-a-quartern of ignited brandy, and bedight with Christmas holly stuck into the top. Oh, a wonderful pudding! Bob Cratchit said, and calmly too, that he regarded it as the greatest success achieved by Mrs. Cratchit since their marriage.",
   "words": [
-    "holly"
+    {
+      "word": "holly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

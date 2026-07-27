@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Our owner was a practical person and he perceived that this defect must be mended if he hoped to find a purchaser for the king. So he went to work to take the style out of his sacred majesty. I could have given the man some valuable advice, but I didn't; you mustn't volunteer advice to a slave-driver unless you want to damage the cause you are arguing for. I had found it a sufficiently difficult job to reduce the king's style to a peasant's style, even when he was a willing and anxious pupil; now then, to undertake to reduce the king's style to a slave's style--and by force--go to! it was a stately contract.",
   "words": [
-    "undertake"
+    {
+      "word": "undertake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

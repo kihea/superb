@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You’ve always had your own way. But you can’t expect us to sit like stumps and see you done out of the property by any loafer who happens along, and making yourself ridiculous into the bargain.” Oscar rose. “Yes,” he broke in, “everybody’s laughing to see you get took in; at your age, too. Everybody knows he’s nearly five years younger than you, and is after your money. Why, Alexandra, you are forty years old!” “All that doesn’t concern anybody but Carl and me.",
   "words": [
-    "bargain"
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

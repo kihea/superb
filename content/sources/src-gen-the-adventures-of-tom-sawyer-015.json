@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Shortly afterward they slipped out of the house in the deepening twilight, and moved toward the river with their precious box. Tom and Huck rose up, weak but vastly relieved, and stared after them through the chinks between the logs of the house. They were content to reach ground again without broken necks, and take the townward track over the hill. They did not talk much. They were too much absorbed in hating themselves—hating the ill luck that made them take the spade and the pick there.",
   "words": [
-    "absorbed"
+    {
+      "word": "absorbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

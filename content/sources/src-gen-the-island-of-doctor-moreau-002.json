@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In a passion of despair I struck with my fists at the water in the bottom of the boat, and kicked savagely at the gunwale. I prayed aloud for God to let me die. But the islanders, seeing that I was really adrift, took pity on me. I drifted very slowly to the eastward, approaching the island slantingly; and presently I saw, with hysterical relief, the launch come round and return towards me. She was heavily laden, and I could make out as she drew nearer Montgomery’s white-haired, broad-shouldered companion sitting cramped up with the dogs and several packing-cases in the stern sheets.",
   "words": [
-    "islanders",
-    "approaching"
+    {
+      "word": "islanders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

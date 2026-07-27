@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But I would rather not talk about the creature, Mr. Holmes, and, indeed, he has little to do with my story.” “I am glad of all details,” remarked my friend, “whether they seem to you to be relevant or not.” “I shall try not to miss anything of importance. The one unpleasant thing about the house, which struck me at once, was the appearance and conduct of the servants. There are only two, a man and his wife. Toller, for that is his name, is a rough, uncouth man, with grizzled hair and whiskers, and a perpetual smell of drink. Twice since I have been with them he has been quite drunk, and yet Mr. Rucastle seemed to take no notice of it.",
   "words": [
-    "servants"
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“No, he didn’t. For I’d ’a’ been ashamed to tell him that you grudged me the money to get back my health, when I lost it nursing your own mother!” “You lost your health nursing mother?” “Yes; and my folks all told me at the time you couldn’t do no less than marry me after—” “Zeena!” Through the obscurity which hid their faces their thoughts seemed to dart at each other like serpents shooting venom. Ethan was seized with horror of the scene and shame at his own share in it. It was as senseless and savage as a physical fight between two enemies in the darkness. He turned to the shelf above the chimney, groped for matches and lit the one candle in the room.",
   "words": [
-    "obscurity"
+    {
+      "word": "obscurity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

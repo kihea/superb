@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Lucy’s heart beat a trifle more audibly to the stethoscope, and her lungs had a perceptible movement. Van Helsing’s face almost beamed, and as we lifted her from the bath and rolled her in a hot sheet to dry her he said to me:-- “The first gain is ours! Check to the King!” We took Lucy into another room, which had by now been prepared, and laid her in bed and forced a few drops of brandy down her throat. I noticed that Van Helsing tied a soft silk handkerchief round her throat. She was still unconscious, and was quite as bad as, if not worse than, we had ever seen her.",
   "words": [
-    "handkerchief"
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

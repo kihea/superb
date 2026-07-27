@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But what at another time would have been intolerable to Lisbeth’s habits of order and cleanliness seemed to her now just what should be: it was right that things should look strange and disordered and wretched, now the old man had come to his end in that sad way; the kitchen ought not to look as if nothing had happened. Adam, overcome with the agitations and exertions of the day after his night of hard work, had fallen asleep on a bench in the workshop; and Seth was in the back kitchen making a fire of sticks that he might get the kettle to boil, and persuade his mother to have a cup of tea, an indulgence which she rarely allowed herself. There was no one in the kitchen when Lisbeth entered and threw herself into the chair.",
   "words": [
-    "workshop"
+    {
+      "word": "workshop",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

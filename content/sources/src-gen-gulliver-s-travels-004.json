@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "And it must be confessed, that from the great intercourse of trade and commerce between both realms, from the continual reception of exiles which is mutual among them, and from the custom, in each empire, to send their young nobility and richer gentry to the other, in order to polish themselves by seeing the world, and understanding men and manners; there are few persons of distinction, or merchants, or seamen, who dwell in the maritime parts, but what can hold conversation in both tongues; as I found some weeks after, when I went to pay my respects to the emperor of Blefuscu, which, in the midst of great misfortunes, through the malice of my enemies, proved a very happy adventure to me, as I shall relate in its proper place. The reader may remember, that when I signed those articles upon which I recovered my liberty, there were some which I disliked, upon account of their being too servile; neither could anything but an extreme necessity have forced me to submit.",
   "words": [
-    "intercourse",
-    "manners",
-    "maritime",
-    "tongues",
-    "midst"
+    {
+      "word": "intercourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "manners",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maritime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tongues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

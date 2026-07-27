@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "My godmother lived in a handsome house in the clean and ancient town of Bretton. Her husband’s family had been residents there for generations, and bore, indeed, the name of their birthplace—Bretton of Bretton: whether by coincidence, or because some remote ancestor had been a personage of sufficient importance to leave his name to his neighbourhood, I know not. When I was a girl I went to Bretton about twice a year, and well I liked the visit. The house and its inmates specially suited me. The large peaceful rooms, the well-arranged furniture, the clear wide windows, the balcony outside, looking down on a fine antique street, where Sundays and holidays seemed always to abide—so quiet was its atmosphere, so clean its pavement—these things pleased me well.",
   "words": [
-    "ancestor",
-    "balcony",
-    "antique"
+    {
+      "word": "ancestor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "balcony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "antique",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

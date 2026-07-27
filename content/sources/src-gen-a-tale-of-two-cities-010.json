@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Saving for a mysterious dread of madame by which he was constantly haunted, his life was very new and agreeable. But, madame sat all day at her counter, so expressly unconscious of him, and so particularly determined not to perceive that his being there had any connection with anything below the surface, that he shook in his wooden shoes whenever his eye lighted on her. For, he contended with himself that it was impossible to foresee what that lady might pretend next; and he felt assured that if she should take it into her brightly ornamented head to pretend that she had seen him do a murder and afterwards flay the victim, she would infallibly go through with it until the play was played out. Therefore, when Sunday came, the mender of roads was not enchanted (though he said he was) to find that madame was to accompany monsieur and himself to Versailles.",
   "words": [
-    "madame",
-    "unconscious",
-    "lighted",
-    "foresee"
+    {
+      "word": "madame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unconscious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foresee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

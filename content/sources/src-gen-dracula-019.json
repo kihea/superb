@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "let me speak, and you shall learn. Oh, John, my friend, we are in awful straits. I fear, as I never feared before. We can only trust the good God. here she comes!” I thought that the Professor was going to break down and have hysterics, just as he had when Lucy died, but with a great effort he controlled himself and was at perfect nervous poise when Mrs. Harker tripped into the room, bright and happy-looking and, in the doing of work, seemingly forgetful of her misery.",
   "words": [
-    "straits",
-    "misery"
+    {
+      "word": "straits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

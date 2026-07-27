@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "an’ you consated his body lay under! Why, I could name ye a dozen whose bones lie in the Greenland seas above”--he pointed northwards--“or where the currents may have drifted them. There be the steans around ye. Ye can, with your young eyes, read the small-print of the lies from here. This Braithwaite Lowrey--I knew his father, lost in the Lively off Greenland in ’20; or Andrew Woodhouse, drowned in the same seas in 1777; or John Paxton, drowned off Cape Farewell a year later; or old John Rawlings, whose grandfather sailed with me, drowned in the Gulf of Finland in ’50.",
   "words": [
-    "seas",
-    "sailed"
+    {
+      "word": "seas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

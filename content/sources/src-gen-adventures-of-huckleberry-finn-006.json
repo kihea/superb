@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A tow-head is a sandbar that has cottonwoods on it as thick as harrow-teeth. We had mountains on the Missouri shore and heavy timber on the Illinois side, and the channel was down the Missouri shore at that place, so we warn’t afraid of anybody running across us. We laid there all day, and watched the rafts and steamboats spin down the Missouri shore, and up-bound steamboats fight the big river in the middle. I told Jim all about the time I had jabbering with that woman; and Jim said she was a smart one, and if she was to start after us herself she wouldn’t set down and watch a camp fire—no, sir, she’d fetch a dog. Well, then, I said, why couldn’t she tell her husband to fetch a dog?",
   "words": [
-    "tow"
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

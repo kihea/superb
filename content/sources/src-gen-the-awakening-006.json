@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The voice, the notes, the whole refrain haunted her memory. XV When Edna entered the dining-room one evening a little late, as was her habit, an unusually animated conversation seemed to be going on. Several persons were talking at once, and Victor’s voice was predominating, even over that of his mother. Edna had returned late from her bath, had dressed in some haste, and her face was flushed. Her head, set off by her dainty white gown, suggested a rich, rare blossom.",
   "words": [
-    "blossom"
+    {
+      "word": "blossom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

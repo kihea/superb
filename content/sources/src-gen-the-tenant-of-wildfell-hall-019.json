@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "To talk of the past was to torture him with vain remorse; to refer to the future was to increase his anguish; and yet to be silent was to leave him a prey to his own regrets and apprehensions. Often he dwelt with shuddering minuteness on the fate of his perishing clay—the slow, piecemeal dissolution already invading his frame: the shroud, the coffin, the dark, lonely grave, and all the horrors of corruption. “If I try,” said his afflicted wife, “to divert him from these things—to raise his thoughts to higher themes, it is no better:—‘Worse and worse!’ he groans. ‘If there be really life beyond the tomb, and judgment after death, how can I face it?’—I cannot do him any good; he will neither be enlightened, nor roused, nor comforted by anything I say; and yet he clings to me with unrelenting pertinacity—with a kind of childish desperation, as if I could save him from the fate he dreads. He keeps me night and day beside him.",
   "words": [
-    "torture",
-    "shroud",
-    "coffin",
-    "themes"
+    {
+      "word": "torture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shroud",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "themes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

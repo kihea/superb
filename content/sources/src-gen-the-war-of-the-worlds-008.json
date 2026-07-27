@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The Martians, alarmed by the approach of a crowd, had killed a number of people with a quick-firing gun, so the story ran. The telegram concluded with the words: “Formidable as they seem to be, the Martians have not moved from the pit into which they have fallen, and, indeed, seem incapable of doing so. Probably this is due to the relative strength of the earth’s gravitational energy.” On that last text their leader-writer expanded very comfortingly. Of course all the students in the crammer’s biology class, to which my brother went that day, were intensely interested, but there were no signs of any unusual excitement in the streets. The afternoon papers puffed scraps of news under big headlines.",
   "words": [
-    "alarmed"
+    {
+      "word": "alarmed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

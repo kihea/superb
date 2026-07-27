@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I think Montgomery might have left him then, seeing the brute was drunk; but he only turned a shade paler, and followed the captain to the bulwarks. “Look you here, Captain,” he said; “that man of mine is not to be ill-treated. He has been hazed ever since he came aboard.” For a minute, alcoholic fumes kept the captain speechless. “Blasted Sawbones!” was all he considered necessary. I could see that Montgomery had one of those slow, pertinacious tempers that will warm day after day to a white heat, and never again cool to forgiveness; and I saw too that this quarrel had been some time growing.",
   "words": [
-    "quarrel"
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

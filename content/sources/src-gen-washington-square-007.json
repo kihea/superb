@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Your daughter would never care for a milksop; and I will take the liberty of saying that you would like one quite as little. Besides, between my money and hers there is a great difference. I spent my own; it was because it was my own that I spent it. And I made no debts; when it was gone I stopped. I don’t owe a penny in the world.” “Allow me to inquire what you are living on now—though I admit,” the Doctor added, “that the question, on my part, is inconsistent.” “I am living on the remnants of my property,” said Morris Townsend.",
   "words": [
-    "debts",
-    "remnants"
+    {
+      "word": "debts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remnants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

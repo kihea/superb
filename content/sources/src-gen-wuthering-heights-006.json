@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“And the gate is open: he is somewhere out of hearing; for he would not reply, though I shouted at the top of the fold as loud as I could.” Joseph objected at first; she was too much in earnest, however, to suffer contradiction; and at last he placed his hat on his head, and walked grumbling forth. Meantime, Catherine paced up and down the floor, exclaiming—“I wonder where he is—I wonder where he can be! What did I say, Nelly? I’ve forgotten. Was he vexed at my bad humour this afternoon?",
   "words": [
-    "shouted"
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Shall I say Madame la Comtesse?’ “She laughed, and she would, no doubt, have met me with another evasion—if, indeed, I can treat any occurrence in an interview every circumstance of which was prearranged, as I now believe, with the profoundest cunning, as liable to be modified by accident. “‘As to that,’ she began; but she was interrupted, almost as she opened her lips, by a gentleman, dressed in black, who looked particularly elegant and distinguished, with this drawback, that his face was the most deadly pale I ever saw, except in death. He was in no masquerade—in the plain evening dress of a gentleman; and he said, without a smile, but with a courtly and unusually low bow:— “‘Will Madame la Comtesse permit me to say a very few words which may interest her?’ “The lady turned quickly to him, and touched her lip in token of silence; she then said to me, ‘Keep my place for me, General; I shall return when I have said a few words.’ “And with this injunction, playfully given, she walked a little aside with the gentleman in black, and talked for some minutes, apparently very earnestly.",
   "words": [
-    "evasion",
-    "deadly"
+    {
+      "word": "evasion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

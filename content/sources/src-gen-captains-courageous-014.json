@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The cook emptied a pan of ashes on him, and he replied with cod-heads. The bark's crew fired small coal from the galley, and the dories threatened to come aboard and \"razee\" her. They would have warned her at once had she been in real peril; but, seeing her well clear of the Virgin, they made the most of their chances. The fun was spoilt when the rock spoke again, a half-mile to windward, and the tormented bark set everything that would draw and went her ways; but the dories felt that the honours lay with them. All that night the Virgin roared hoarsely; and next morning, over an angry, white-headed sea, Harvey saw the Fleet with flickering masts waiting for a lead.",
   "words": [
-    "cod",
-    "galley"
+    {
+      "word": "cod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "galley",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

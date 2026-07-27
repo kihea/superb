@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "On another occasion, as Drebber passed under a cliff a great boulder crashed down on him, and he only escaped a terrible death by throwing himself upon his face. The two young Mormons were not long in discovering the reason of these attempts upon their lives, and led repeated expeditions into the mountains in the hope of capturing or killing their enemy, but always without success. Then they adopted the precaution of never going out alone or after nightfall, and of having their houses guarded. After a time they were able to relax these measures, for nothing was either heard or seen of their opponent, and they hoped that time had cooled his vindictiveness. Far from doing so, it had, if anything, augmented it.",
   "words": [
-    "discovering",
-    "expeditions",
-    "opponent"
+    {
+      "word": "discovering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expeditions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "opponent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Lena and Norwegian Anna dropped in to help her with her work, so that she could get away early. The boys who brought her home after the dances sometimes laughed at the back gate and wakened Mr. Harling from his first sleep. A crisis was inevitable. One Saturday night Mr. Harling had gone down to the cellar for beer. As he came up the stairs in the dark, he heard scuffling on the back porch, and then the sound of a vigorous slap.",
   "words": [
-    "slap"
+    {
+      "word": "slap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

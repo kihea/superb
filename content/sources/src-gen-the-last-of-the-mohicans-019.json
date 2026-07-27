@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Magua paused, and for an anxious moment, it might be said, he doubted; then, casting his eyes on Cora, with an expression in which ferocity and admiration were strangely mingled, his purpose became fixed forever. He intimated his contempt of the offer with a backward motion of his head, and said, in a steady and settled voice: “Le Renard Subtil is a great chief; he has but one mind. Come,” he added, laying his hand too familiarly on the shoulder of his captive to urge her onward; “a Huron is no tattler; we will go.” The maiden drew back in lofty womanly reserve, and her dark eye kindled, while the rich blood shot, like the passing brightness of the sun, into her very temples, at the indignity. “I am your prisoner, and, at a fitting time shall be ready to follow, even to my death. But violence is unnecessary,” she coldly said; and immediately turning to Hawkeye, added: “Generous hunter!",
   "words": [
-    "admiration",
-    "captive",
-    "lofty"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "captive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

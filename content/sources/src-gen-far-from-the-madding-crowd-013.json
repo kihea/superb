@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "With all her faults, she was candour itself. Could she have been entrapped? The union was not only an unutterable grief to him: it amazed him, notwithstanding that he had passed the preceding week in a suspicion that such might be the issue of Troy’s meeting her away from home. Her quiet return with Liddy had to some extent dispersed the dread. Just as that imperceptible motion which appears like stillness is infinitely divided in its properties from stillness itself, so had struggling hopes against the imagined deed differentiated it entirely from the thing actually done.",
   "words": [
-    "deed"
+    {
+      "word": "deed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

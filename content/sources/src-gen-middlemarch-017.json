@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I could not have imagined then that you would want to sell our furniture, and take a house in Bride Street, where the rooms are like cages. If we are to live in that way let us at least leave Middlemarch.” “These would be very strong considerations,” said Lydgate, half ironically—still there was a withered paleness about his lips as he looked at his coffee, and did not drink—“these would be very strong considerations if I did not happen to be in debt.” “Many persons must have been in debt in the same way, but if they are respectable, people trust them. I am sure I have heard papa say that the Torbits were in debt, and they went on very well. It cannot be good to act rashly,” said Rosamond, with serene wisdom. Lydgate sat paralyzed by opposing impulses: since no reasoning he could apply to Rosamond seemed likely to conquer her assent, he wanted to smash and grind some object on which he could at least produce an impression, or else to tell her brutally that he was master, and she must obey.",
   "words": [
-    "ironically",
-    "obey"
+    {
+      "word": "ironically",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

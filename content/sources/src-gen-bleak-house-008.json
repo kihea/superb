@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“For two good names, hey?” says Mr. George, shaking his head and still composedly smoking. That’s not my sort either.” Grandfather Smallweed has been gradually sliding down in his chair since his last adjustment and is now a bundle of clothes with a voice in it calling for Judy. That houri, appearing, shakes him up in the usual manner and is charged by the old gentleman to remain near him. For he seems chary of putting his visitor to the trouble of repeating his late attentions. “Ha!” he observes when he is in trim again.",
   "words": [
-    "gradually"
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Bleak House",

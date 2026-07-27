@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“My dear Miss Summerson, here is our friend Richard,” said Mr. Skimpole, “full of the brightest visions of the future, which he evokes out of the darkness of Chancery. Now that’s delightful, that’s inspiriting, that’s full of poetry! In old times the woods and solitudes were made joyous to the shepherd by the imaginary piping and dancing of Pan and the nymphs. This present shepherd, our pastoral Richard, brightens the dull Inns of Court by making Fortune and her train sport through them to the melodious notes of a judgment from the bench. That’s very pleasant, you know!",
   "words": [
-    "delightful",
-    "joyous"
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "joyous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Bleak House",

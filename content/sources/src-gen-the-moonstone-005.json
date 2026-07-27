@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The first sound of his voice informed me that we now had the resolute side of him uppermost once more. The man made of cotton had disappeared; and the man made of iron sat before me again. “Going to London, sir?” I asked. “Going to telegraph to London,” says Mr. Franklin. “I have convinced my aunt that we must have a cleverer head than Superintendent Seegrave’s to help us; and I have got her permission to despatch a telegram to my father.",
   "words": [
-    "telegram"
+    {
+      "word": "telegram",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

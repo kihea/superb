@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Are you sorry that destiny has thrown us into Captain Nemo’s hands?” The Canadian remained some moments without answering. Then, crossing his arms, he said: “Frankly, I do not regret this journey under the seas. I shall be glad to have made it; but, now that it is made, let us have done with it. That is my idea.” “It will come to an end, Ned.” “Where and when?” “Where I do not know—when I cannot say; or, rather, I suppose it will end when these seas have nothing more to teach us.” “Then what do you hope for?” demanded the Canadian. “That circumstances may occur as well six months hence as now by which we may and ought to profit.” “Oh!” said Ned Land, “and where shall we be in six months, if you please, Sir Naturalist?” “Perhaps in China; you know the Nautilus is a rapid traveller.",
   "words": [
-    "destiny",
-    "answering"
+    {
+      "word": "destiny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "answering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

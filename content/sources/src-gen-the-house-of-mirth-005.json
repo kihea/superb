@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Isn’t it fairer to look at them both as opportunities, which may be used either stupidly or intelligently, according to the capacity of the user?” “That is certainly the sane view; but the queer thing about society is that the people who regard it as an end are those who are in it, and not the critics on the fence. It’s just the other way with most shows—the audience may be under the illusion, but the actors know that real life is on the other side of the footlights. The people who take society as an escape from work are putting it to its proper use; but when it becomes the thing worked for it distorts all the relations of life.” Selden raised himself on his elbow. “Good heavens!” he went on, “I don’t underrate the decorative side of life. It seems to me the sense of splendour has justified itself by what it has produced.",
   "words": [
-    "illusion"
+    {
+      "word": "illusion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

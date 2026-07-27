@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Just at this moment he passed us on the stairs, making such a graceful bow! in reply to which I dropped a curtsey—all foreigners have such polite manners, one catches something of it. But when he had gone downstairs, I bethought me that I had dropped my glove in the Assembly Room (it was safe in my muff all the time, but I never found it till afterwards); so I went back, and, just as I was creeping up the passage left on one side of the great screen that goes nearly across the room, who should I see but the very same gentleman that had met me before, and passed me on the stairs, coming now forwards from the inner part of the room, to which there is no entrance—you remember, Miss Matty—and just repeating, in his pretty broken English, the inquiry if I had any business there—I don’t mean that he put it quite so bluntly, but he seemed very determined that I should not pass the screen—so, of course, I explained about my glove, which, curiously enough, I found at that very moment.” Miss Pole, then, had seen the conjuror—the real, live conjuror!",
   "words": [
-    "glove",
-    "forwards"
+    {
+      "word": "glove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

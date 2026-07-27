@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I had quite depended upon meeting you there. Anne and me are to go the latter end of January to some relations who have been wanting us to visit them these several years! But I only go for the sake of seeing Edward. He will be there in February, otherwise London would have no charms for me; I have not spirits for it.\" Elinor was soon called to the card-table by the conclusion of the first rubber, and the confidential discourse of the two ladies was therefore at an end, to which both of them submitted without any reluctance, for nothing had been said on either side to make them dislike each other less than they had done before; and Elinor sat down to the card table with the melancholy persuasion that Edward was not only without affection for the person who was to be his wife; but that he had not even the chance of being tolerably happy in marriage, which sincere affection on her side would have given, for self-interest alone could induce a woman to keep a man to an engagement, of which she seemed so thoroughly aware that he was weary.",
   "words": [
-    "spirits",
-    "induce"
+    {
+      "word": "spirits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "induce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

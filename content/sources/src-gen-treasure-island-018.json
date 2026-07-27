@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And I take it I’ve found a way as’ll suit all. Hawkins, will you give me your word of honour as a young gentleman--for a young gentleman you are, although poor born--your word of honour not to slip your cable?” I readily gave the pledge required. “Then, doctor,” said Silver, “you just step outside o’ that stockade, and once you’re there I’ll bring the boy down on the inside, and I reckon you can yarn through the spars. Good day to you, sir, and all our dooties to the squire and Cap’n Smollett.” The explosion of disapproval, which nothing but Silver’s black looks had restrained, broke out immediately the doctor had left the house. Silver was roundly accused of playing double--of trying to make a separate peace for himself, of sacrificing the interests of his accomplices and victims, and, in one word, of the identical, exact thing that he was doing.",
   "words": [
-    "pledge"
+    {
+      "word": "pledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

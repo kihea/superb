@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "‘The cloud is past from my mind. Mutual confidence, so long preserved between us once, is restored, to know no further interruption. Now, welcome poverty!’ cried Mr. Micawber, shedding tears. ‘Welcome misery, welcome houselessness, welcome hunger, rags, tempest, and beggary! Mutual confidence will sustain us to the end!’ With these expressions, Mr. Micawber placed Mrs. Micawber in a chair, and embraced the family all round; welcoming a variety of bleak prospects, which appeared, to the best of my judgement, to be anything but welcome to them; and calling upon them to come out into Canterbury and sing a chorus, as nothing else was left for their support.",
   "words": [
-    "preserved",
-    "cried",
-    "misery"
+    {
+      "word": "preserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "A moment after Caderousse’s face appeared at the grating in the door. you are punctual,” said he, as he drew back the door. “Confound you and your punctuality!” said Andrea, throwing himself into a chair in a manner which implied that he would rather have flung it at the head of his host. “Come, come, my little fellow, don’t be angry. See, I have thought about you—look at the good breakfast we are going to have; nothing but what you are fond of.” Andrea, indeed, inhaled the scent of something cooking which was not unwelcome to him, hungry as he was; it was that mixture of fat and garlic peculiar to Provençal kitchens of an inferior order, added to that of dried fish, and above all, the pungent smell of musk and cloves.",
   "words": [
-    "implied",
-    "flung",
-    "scent",
-    "garlic"
+    {
+      "word": "implied",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flung",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "garlic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

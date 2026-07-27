@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "No, no, not in that sense. Only human beings have names, Villiers; I can’t say anymore. Good-bye; yes, I will not fail to call if I see any way in which you can help me. Good-night.” The man went out into the bitter night, and Villiers returned to his fireside. There was something about Herbert which shocked him inexpressibly; not his poor rags nor the marks which poverty had set upon his face, but rather an indefinite terror which hung about him like a mist.",
   "words": [
-    "mist"
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Great God Pan",

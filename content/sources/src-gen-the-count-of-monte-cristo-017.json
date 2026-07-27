@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "You have hastened to me—can I have the happiness of being useful to you?” 40286m “Yes, I need your help: that is I thought like a madman that you could lend me your assistance in a case where God alone can succor me.” “Tell me what it is,” replied Monte Cristo. “Oh,” said Morrel, “I know not, indeed, if I may reveal this secret to mortal ears, but fatality impels me, necessity constrains me, count——” Morrel hesitated. “Do you think I love you?” said Monte Cristo, taking the young man’s hand affectionately in his. “Oh, you encourage me, and something tells me there,” placing his hand on his heart, “that I ought to have no secret from you.” “You are right, Morrel; God is speaking to your heart, and your heart speaks to you. Tell me what it says.” “Count, will you allow me to send Baptistin to inquire after someone you know?” “I am at your service, and still more my servants.” “Oh, I cannot live if she is not better.” “Shall I ring for Baptistin?” “No, I will go and speak to him myself.” Morrel went out, called Baptistin, and whispered a few words to him.",
   "words": [
-    "madman",
-    "lend",
-    "fatality",
-    "inquire",
-    "whispered"
+    {
+      "word": "madman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fatality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

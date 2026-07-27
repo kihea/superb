@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Nevertheless, I was sure--quite sure, quite confident. I had a clue--a clue which you would not have valued--a clue which would not have greatly helped even a detective, since he would lack the secret of how to apply it. I shall come to that, presently--you shall see. Let us go on, now, taking things in their due order. There was one circumstance which gave me a slant in a definite direction to begin with: Those two robbers were manifestly soldiers in tramp disguise; and not new to military service, but old in it--regulars, perhaps; they did not acquire their soldierly attitude, gestures, carriage, in a day, nor a month, nor yet in a year.",
   "words": [
-    "clue",
-    "detective",
-    "disguise",
-    "regulars",
-    "gestures"
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detective",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regulars",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gestures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

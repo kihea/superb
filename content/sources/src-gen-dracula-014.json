@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Each of the others was similarly equipped. “Now,” he said, “friend John, where are the skeleton keys? If so that we can open the door, we need not break house by the window, as before at Miss Lucy’s.” Dr. Seward tried one or two skeleton keys, his mechanical dexterity as a surgeon standing him in good stead. Presently he got one to suit; after a little play back and forward the bolt yielded, and, with a rusty clang, shot back. We pressed on the door, the rusty hinges creaked, and it slowly opened.",
   "words": [
-    "surgeon",
-    "bolt",
-    "hinges"
+    {
+      "word": "surgeon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bolt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hinges",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

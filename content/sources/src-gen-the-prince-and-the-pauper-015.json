@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The face was unspeakably sad. Miles Hendon sprang forward, crying out-- “Oh, my Edith, my darling--” But Hugh waved him back, gravely, and said to the lady-- “Look upon him. Do you know him?” At the sound of Miles’s voice the woman had started slightly, and her cheeks had flushed; she was trembling now. She stood still, during an impressive pause of several moments; then slowly lifted up her head and looked into Hendon’s eyes with a stony and frightened gaze; the blood sank out of her face, drop by drop, till nothing remained but the grey pallor of death; then she said, in a voice as dead as the face, “I know him not!” and turned, with a moan and a stifled sob, and tottered out of the room. Miles Hendon sank into a chair and covered his face with his hands.",
   "words": [
-    "cheeks",
-    "flushed"
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

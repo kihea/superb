@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Sometimes his voice could be heard in a wild, incomprehensible laugh. When he had a particularly profound thought upon the science of war he always unconsciously addressed himself to the youth. There was some grim rejoicing by the men. “By thunder, I bet this army’ll never see another new reg’ment like us!” “You bet!” “A dog, a woman, an’ a walnut tree Th’ more yeh beat ’em, th’ better they be! That’s like us.” “Lost a piler men, they did.",
   "words": [
-    "walnut"
+    {
+      "word": "walnut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

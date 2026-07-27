@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "The occasion was not long to seek. One afternoon, walking with Pearl in a retired part of the peninsula, she beheld the old physician with a basket on one arm and a staff in the other hand, stooping along the ground in quest of roots and herbs to concoct his medicine withal. HESTER AND THE PHYSICIAN Hester bade little Pearl run down to the margin of the water, and play with the shells and tangled sea-weed, until she should have talked awhile with yonder gatherer of herbs. So the child flew away like a bird, and, making bare her small white feet went pattering along the moist margin of the sea. Here and there she came to a full stop, and peeped curiously into a pool, left by the retiring tide as a mirror for Pearl to see her face in.",
   "words": [
-    "peninsula",
-    "physician",
-    "retiring",
-    "tide"
+    {
+      "word": "peninsula",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "physician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retiring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

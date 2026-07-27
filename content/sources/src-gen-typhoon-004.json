@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Captain MacWhirr had sailed over the surface of the oceans as some men go skimming over the years of existence to sink gently into a placid grave, ignorant of life to the last, without ever having been made to see all it may contain of perfidy, of violence, and of terror. There are on sea and land such men thus fortunate--or thus disdained by destiny or by the sea. II Observing the steady fall of the barometer, Captain MacWhirr thought, “There's some dirty weather knocking about.” This is precisely what he thought. He had had an experience of moderately dirty weather--the term dirty as applied to the weather implying only moderate discomfort to the seaman. Had he been informed by an indisputable authority that the end of the world was to be finally accomplished by a catastrophic disturbance of the atmosphere, he would have assimilated the information under the simple idea of dirty weather, and no other, because he had no experience of cataclysms, and belief does not necessarily imply comprehension.",
   "words": [
-    "sailed",
-    "moderately"
+    {
+      "word": "sailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moderately",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

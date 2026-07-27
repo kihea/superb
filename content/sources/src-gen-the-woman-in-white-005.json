@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“You have always treated me with the same delicacy and the same forbearance. You have deserved my trust, and, what is of far more importance in my estimation, you have deserved my father’s trust, out of which mine grew. You have given me no excuse, even if I had wanted to find one, for asking to be released from my pledge. What I have said so far has been spoken with the wish to acknowledge my whole obligation to you. My regard for that obligation, my regard for my father’s memory, and my regard for my own promise, all forbid me to set the example, on my side, of withdrawing from our present position.",
   "words": [
-    "pledge",
-    "withdrawing"
+    {
+      "word": "pledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withdrawing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

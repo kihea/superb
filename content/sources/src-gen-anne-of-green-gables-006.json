@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But Anne was not at her window. When Marilla took her breakfast up to her she found the child sitting primly on her bed, pale and resolute, with tight-shut lips and gleaming eyes. “Marilla, I’m ready to confess.” “Ah!” Marilla laid down her tray. Once again her method had succeeded; but her success was very bitter to her. “Let me hear what you have to say then, Anne.” “I took the amethyst brooch,” said Anne, as if repeating a lesson she had learned.",
   "words": [
-    "repeating"
+    {
+      "word": "repeating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

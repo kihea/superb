@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then I became a young vagabond; and instead of one old woman knocking me about and starving me, everybody of all ages knocked me about and starved me. They were right; they had no business to do anything else. I was a nuisance, an incumbrance, and a pest. I know that very well.’ His pride in having at any time of his life achieved such a great social distinction as to be a nuisance, an incumbrance, and a pest, was only to be satisfied by three sonorous repetitions of the boast. ‘I was to pull through it, I suppose, Mrs. Gradgrind.",
   "words": [
-    "nuisance"
+    {
+      "word": "nuisance",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "Hard Times",

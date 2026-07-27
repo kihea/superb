@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Now, don’t ye take on so, shepherd, and sit down!” said Henery, with a deprecating peacefulness equal to anything of the kind in Christianity. “We hear that ye be a extraordinary good and clever man, shepherd,” said Joseph Poorgrass with considerable anxiety from behind the maltster’s bedstead whither he had retired for safety. “’Tis a great thing to be clever, I’m sure,” he added, making small movements associated with states of mind rather than body; “we wish we were, don’t we, neighbours?” “Ay, that we do, sure,” said Matthew Moon, with a small anxious laugh towards Oak, to show how very friendly disposed he was likewise. “Who’s been telling you I’m clever?” said Oak. “’Tis blowed about from pillar to post quite common,” said Matthew.",
   "words": [
-    "clever",
-    "neighbours",
-    "pillar"
+    {
+      "word": "clever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbours",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

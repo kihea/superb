@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Conversation however was not wanted, for Sir John was very chatty, and Lady Middleton had taken the wise precaution of bringing with her their eldest child, a fine little boy about six years old, by which means there was one subject always to be recurred to by the ladies in case of extremity, for they had to enquire his name and age, admire his beauty, and ask him questions which his mother answered for him, while he hung about her and held down his head, to the great surprise of her ladyship, who wondered at his being so shy before company, as he could make noise enough at home. On every formal visit a child ought to be of the party, by way of provision for discourse. In the present case it took up ten minutes to determine whether the boy were most like his father or mother, and in what particular he resembled either, for of course every body differed, and every body was astonished at the opinion of the others.",
   "words": [
-    "admire",
-    "wondered",
-    "discourse",
-    "resembled"
+    {
+      "word": "admire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wondered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resembled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

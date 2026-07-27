@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And sister was taking her forty winks; and I was sitting with my gown up above my knees and my feet on the fender, pulling out my grandmother's lace which I'd been washing. The worst has yet to be told. I'd taken off my cap, for I thought it was getting dusk and no one would come, and there was I in my black silk skull-cap, when Nancy put her head in, and whispered, 'There's a lady downstairs--a real grand one, by her talk;' and in there came my Lady Harriet, so sweet and pretty in her ways, it was some time before I remembered I had never a cap on. Sister never wakened; or never roused up, so to say.",
   "words": [
-    "dusk"
+    {
+      "word": "dusk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Weak or strong,” repeated Milady, “that man has, then, a spark of pity in his soul; of that spark I will make a flame that shall devour him. As to the other, he knows me, he fears me, and knows what he has to expect of me if ever I escape from his hands. It is useless, then, to attempt anything with him. But Felton—that’s another thing. He is a young, ingenuous, pure man who seems virtuous; him there are means of destroying.” And Milady went to bed and fell asleep with a smile upon her lips.",
   "words": [
-    "fears"
+    {
+      "word": "fears",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

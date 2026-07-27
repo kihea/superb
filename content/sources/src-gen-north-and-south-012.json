@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Martha was gone. Dixon sat with Mrs. Hale while she slept. The house was very still and quiet, and darkness came on, without any movement to procure candles. Margaret sat at the window, looking out at the lamps and the street, but seeing nothing,—only alive to her father’s heavy sighs. She did not like to go down for lights, lest the tacit restraint of her presence being withdrawn, he might give way to more violent emotion, without her being at hand to comfort him.",
   "words": [
-    "sighs",
-    "emotion"
+    {
+      "word": "sighs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "emotion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

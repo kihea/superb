@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "On the fifteenth, when young Rostóv, in his dressing gown, looked out of the window, he saw it was an unsurpassable morning for hunting: it was as if the sky were melting and sinking to the earth without any wind. The only motion in the air was that of the dripping, microscopic particles of drizzling mist. The bare twigs in the garden were hung with transparent drops which fell on the freshly fallen leaves. The earth in the kitchen garden looked wet and black and glistened like poppy seed and at a short distance merged into the dull, moist veil of mist. Nicholas went out into the wet and muddy porch.",
   "words": [
-    "moist",
-    "veil",
-    "muddy",
-    "porch"
+    {
+      "word": "moist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "muddy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "porch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

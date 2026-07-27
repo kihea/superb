@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "However, if you can catch him I don’t see how I can refuse you an interview with him.” “That is understood, then?” “Perfectly. Is there anything else?” “Only that I insist upon your dining with us. It will be ready in half an hour. I have oysters and a brace of grouse, with something a little choice in white wines.—Watson, you have never yet recognised my merits as a housekeeper.” The End of the Islander Our meal was a merry one. Holmes could talk exceedingly well when he chose, and that night he did choose.",
   "words": [
-    "recognised"
+    {
+      "word": "recognised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sign of the Four",

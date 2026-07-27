@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "May I see to it? May I?...” asked Natásha. “We will still take all the most necessary things.” The count nodded affirmatively, and Natásha, at the rapid pace at which she used to run when playing at tag, ran through the ballroom to the anteroom and downstairs into the yard. The servants gathered round Natásha, but could not believe the strange order she brought them until the count himself, in his wife’s name, confirmed the order to give up all the carts to the wounded and take the trunks to the storerooms. When they understood that order the servants set to work at this new task with pleasure and zeal.",
   "words": [
-    "ballroom",
-    "carts"
+    {
+      "word": "ballroom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

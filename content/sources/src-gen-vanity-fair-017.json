@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Mrs. Rawdon Crawley rang many times in vain; and though, on the last occasion, she rang with such vehemence as to pull down the bell-rope, Mademoiselle Fifine did not make her appearance--no, not though her mistress, in a great pet, and with the bell-rope in her hand, came out to the landing-place with her hair over her shoulders and screamed out repeatedly for her attendant. The truth is, she had quitted the premises for many hours, and upon that permission which is called French leave among us. After picking up the trinkets in the drawing-room, Mademoiselle had ascended to her own apartments, packed and corded her own boxes there, tripped out and called a cab for herself, brought down her trunks with her own hand, and without ever so much as asking the aid of any of the other servants, who would probably have refused it, as they hated her cordially, and without wishing any one of them good-bye, had made her exit from Curzon Street. The game, in her opinion, was over in that little domestic establishment.",
   "words": [
-    "vain",
-    "mistress",
-    "repeatedly",
-    "attendant",
-    "apartments",
-    "servants"
+    {
+      "word": "vain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repeatedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attendant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apartments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

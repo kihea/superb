@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And then she knows a great many gentlemen. Oh, she thinks there’s nothing like Rome. Of course, it’s a great deal pleasanter for a young lady if she knows plenty of gentlemen.” By this time Daisy had turned her attention again to Winterbourne. “I’ve been telling Mrs. Walker how mean you were!” the young girl announced. “And what is the evidence you have offered?” asked Winterbourne, rather annoyed at Miss Miller’s want of appreciation of the zeal of an admirer who on his way down to Rome had stopped neither at Bologna nor at Florence, simply because of a certain sentimental impatience.",
   "words": [
-    "sentimental"
+    {
+      "word": "sentimental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

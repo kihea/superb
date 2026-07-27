@@ -3,17 +3,74 @@
   "pool": "sourced",
   "text": "And on this dazzling sheet, spread under the blackness of the clouds and emitting a bluish glow, Captain MacWhirr could catch a desolate glimpse of a few tiny specks black as ebony, the tops of the hatches, the battened companions, the heads of the covered winches, the foot of a mast. This was all he could see of his ship. Her middle structure, covered by the bridge which bore him, his mate, the closed wheelhouse where a man was steering shut up with the fear of being swept overboard together with the whole thing in one great crash--her middle structure was like a half-tide rock awash upon a coast. It was like an outlying rock with the water boiling up, streaming over, pouring off, beating round--like a rock in the surf to which shipwrecked people cling before they let go--only it rose, it sank, it rolled continuously, without respite and rest, like a rock that should have miraculously struck adrift from a coast and gone wallowing upon the sea.",
   "words": [
-    "clouds",
-    "glow",
-    "glimpse",
-    "ebony",
-    "companions",
-    "mast",
-    "overboard",
-    "tide",
-    "pouring",
-    "continuously",
-    "respite"
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glimpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ebony",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companions",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pouring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continuously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "respite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

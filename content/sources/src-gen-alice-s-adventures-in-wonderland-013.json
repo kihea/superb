@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Yes, it is his business!” said Five, “and I’ll tell him—it was for bringing the cook tulip-roots instead of onions.” Seven flung down his brush, and had just begun “Well, of all the unjust things—” when his eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low. “Would you tell me,” said Alice, a little timidly, “why you are painting those roses?” Five and Seven said nothing, but looked at Two. Two began in a low voice, “Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know. So you see, Miss, we’re doing our best, afore she comes, to—” At this moment Five, who had been anxiously looking across the garden, called out “The Queen! The Queen!” and the three gardeners instantly threw themselves flat upon their faces.",
   "words": [
-    "unjust",
-    "gardeners"
+    {
+      "word": "unjust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gardeners",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Alice's Adventures in Wonderland",

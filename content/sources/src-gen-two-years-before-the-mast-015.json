@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I soon found that it was getting strong hold, and running over all parts of my face; and before the watch was out I went aft to the mate, who had charge of the medicine-chest, to get something for it. But the chest showed like the end of a long voyage, for there was nothing that would answer but a few drops of laudanum, which must be saved for any emergency; so I had only to bear the pain as well as I could. When we went on deck at eight bells, it had stopped snowing, and there were a few stars out, but the clouds were still black, and it was blowing a steady gale. Just before midnight, I went aloft and sent down the mizen royal yard, and had the good luck to do it to the satisfaction of the mate, who said it was done \"out of hand and ship-shape.\"",
   "words": [
-    "voyage",
-    "bells"
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Two Years Before the Mast",

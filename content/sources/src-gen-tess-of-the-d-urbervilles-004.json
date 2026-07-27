@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Sometimes a wheel was off the ground, it seemed, for many yards; sometimes a stone was sent spinning over the hedge, and flinty sparks from the horse’s hoofs outshone the daylight. The aspect of the straight road enlarged with their advance, the two banks dividing like a splitting stick; one rushing past at each shoulder. The wind blew through Tess’s white muslin to her very skin, and her washed hair flew out behind. She was determined to show no open fear, but she clutched d’Urberville’s rein-arm. “Don’t touch my arm!",
   "words": [
-    "hedge",
-    "dividing",
-    "splitting",
-    "rein"
+    {
+      "word": "hedge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dividing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "splitting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rein",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

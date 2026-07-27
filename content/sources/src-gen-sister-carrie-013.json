@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A craving is set up which, if gratified, shall eternally result in dreams and death. dreams unfulfilled--gnawing, luring, idle phantoms which beckon and lead, beckon and lead, until death and dissolution dissolve their power and restore us blind to nature's heart. A man of Hurstwood's age and temperament is not subject to the illusions and burning desires of youth, but neither has he the strength of hope which gushes as a fountain in the heart of youth. Such an atmosphere could not incite in him the cravings of a boy of eighteen, but in so far as they were excited, the lack of hope made them proportionately bitter. He could not fail to notice the signs of affluence and luxury on every hand.",
   "words": [
-    "illusions"
+    {
+      "word": "illusions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

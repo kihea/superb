@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I wish ye were a wee thing paler; but apart from that ye’ll do fine for my purpose--ye have a fine, hang-dog, rag-and-tatter, clappermaclaw kind of a look to ye, as if ye had stolen the coat from a potato-bogle. Come; right about, and back to the change-house for that boat of ours.” I followed him, laughing. “David Balfour,” said he, “ye’re a very funny gentleman by your way of it, and this is a very funny employ for ye, no doubt. For all that, if ye have any affection for my neck (to say nothing of your own) ye will perhaps be kind enough to take this matter responsibly. I am going to do a bit of play-acting, the bottom ground of which is just exactly as serious as the gallows for the pair of us.",
   "words": [
-    "affection"
+    {
+      "word": "affection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Toto ate a little of everything, and was glad to get a good supper again. The woman now gave Dorothy a bed to sleep in, and Toto lay down beside her, while the Lion guarded the door of her room so she might not be disturbed. The Scarecrow and the Tin Woodman stood up in a corner and kept quiet all night, although of course they could not sleep. The next morning, as soon as the sun was up, they started on their way, and soon saw a beautiful green glow in the sky just before them. “That must be the Emerald City,” said Dorothy.",
   "words": [
-    "supper",
-    "disturbed"
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disturbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

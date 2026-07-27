@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then there would be an inquiry, the sacking of my room. “At the thought of the possibility of my work being exposed or interrupted at its very climax, I became very angry and active. I hurried out with my three books of notes, my cheque-book—the tramp has them now—and directed them from the nearest Post Office to a house of call for letters and parcels in Great Portland Street. I tried to go out noiselessly. Coming in, I found my landlord going quietly upstairs; he had heard the door close, I suppose.",
   "words": [
-    "nearest"
+    {
+      "word": "nearest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

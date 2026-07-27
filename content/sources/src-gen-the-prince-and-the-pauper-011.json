@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“There, poor lad, take them and most welcome. Now come hither, my boy, and help me carry thy stricken brother to yon house, where--” “I am not his brother,” said the King, interrupting. not his brother?” “Oh, hear him!” groaned Hugo, then privately ground his teeth. “He denies his own brother--and he with one foot in the grave!” “Boy, thou art indeed hard of heart, if this is thy brother. For shame!--and he scarce able to move hand or foot.",
   "words": [
-    "lad"
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

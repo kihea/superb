@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "And what was that scratching, scraping, grating sound which it brought with it? The Persian and Raoul could retreat no farther and flattened themselves against the wall, not knowing what was going to happen because of that incomprehensible head of fire, and especially now, because of the more intense, swarming, living, \"numerous\" sound, for the sound was certainly made up of hundreds of little sounds that moved in the darkness, under the fiery face. And the fiery face came on ... with its noise ... came level with them! ... And the two companions, flat against their wall, felt their hair stand on end with horror, for they now knew what the thousand noises meant. They came in a troop, hustled along in the shadow by innumerable little hurried waves, swifter than the waves that rush over the sands at high tide, little night-waves foaming under the moon, under the fiery head that was like a moon.",
   "words": [
-    "scratching",
-    "scraping",
-    "flattened",
-    "fiery",
-    "noises",
-    "tide"
+    {
+      "word": "scratching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scraping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flattened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fiery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noises",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

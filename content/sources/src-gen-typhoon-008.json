@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "“There's a lot of weight in this,” he muttered. As soon as he attempted to open the door the wind caught it. Clinging to the handle, he was dragged out over the doorstep, and at once found himself engaged with the wind in a sort of personal scuffle whose object was the shutting of that door. At the last moment a tongue of air scurried in and licked out the flame of the lamp. Ahead of the ship he perceived a great darkness lying upon a multitude of white flashes; on the starboard beam a few amazing stars drooped, dim and fitful, above an immense waste of broken seas, as if seen through a mad drift of smoke.",
   "words": [
-    "clinging",
-    "doorstep",
-    "licked",
-    "multitude",
-    "starboard"
+    {
+      "word": "clinging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorstep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "licked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "multitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

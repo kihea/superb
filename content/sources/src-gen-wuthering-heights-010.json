@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Heathcliff guessed the meaning of her manœuvres, and said—“If you have got anything for Isabella (as no doubt you have, Nelly), give it to her. You needn’t make a secret of it: we have no secrets between us.” “Oh, I have nothing,” I replied, thinking it best to speak the truth at once. “My master bid me tell his sister that she must not expect either a letter or a visit from him at present. He sends his love, ma’am, and his wishes for your happiness, and his pardon for the grief you have occasioned; but he thinks that after this time his household and the household here should drop intercommunication, as nothing could come of keeping it up.” Mrs. Heathcliff’s lip quivered slightly, and she returned to her seat in the window. Her husband took his stand on the hearthstone, near me, and began to put questions concerning Catherine.",
   "words": [
-    "guessed",
-    "sends",
-    "lip"
+    {
+      "word": "guessed",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "sends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

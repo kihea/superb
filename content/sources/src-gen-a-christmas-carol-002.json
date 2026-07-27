@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Marley's face. It was not in impenetrable shadow as the other objects in the yard were, but had a dismal light about it, like a bad lobster in a dark cellar. It was not angry or ferocious, but looked at Scrooge as Marley used to look: with ghostly spectacles turned up on its ghostly forehead. The hair was curiously stirred, as if by breath or hot air; and, though the eyes were wide open, they were perfectly motionless. That, and its livid colour, made it horrible; but its horror seemed to be in spite of the face and beyond its control, rather than a part of its own expression.",
   "words": [
-    "lobster",
-    "cellar",
-    "forehead"
+    {
+      "word": "lobster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cellar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

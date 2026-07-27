@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Passepartout started off forthwith, and found himself in the streets of Allahabad, that is, the City of God, one of the most venerated in India, being built at the junction of the two sacred rivers, Ganges and Jumna, the waters of which attract pilgrims from every part of the peninsula. The Ganges, according to the legends of the Ramayana, rises in heaven, whence, owing to Brahma’s agency, it descends to the earth. Passepartout made it a point, as he made his purchases, to take a good look at the city. It was formerly defended by a noble fort, which has since become a state prison; its commerce has dwindled away, and Passepartout in vain looked about him for such a bazaar as he used to frequent in Regent Street. At last he came upon an elderly, crusty Jew, who sold second-hand articles, and from whom he purchased a dress of Scotch stuff, a large mantle, and a fine otter-skin pelisse, for which he did not hesitate to pay seventy-five pounds.",
   "words": [
-    "junction",
-    "pilgrims",
-    "rises"
+    {
+      "word": "junction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pilgrims",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rises",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Around the World in Eighty Days",

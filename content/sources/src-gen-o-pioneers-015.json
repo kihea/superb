@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Perhaps he got more satisfaction out of feeling himself abused than he would have got out of being loved. If he could once have made Marie thoroughly unhappy, he might have relented and raised her from the dust. But she had never humbled herself. In the first days of their love she had been his slave; she had admired him abandonedly. But the moment he began to bully her and to be unjust, she began to draw away; at first in tearful amazement, then in quiet, unspoken disgust.",
   "words": [
-    "abused"
+    {
+      "word": "abused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

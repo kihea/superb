@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Suddenly, in the midst of the noise, came a sound--the sharp distinct slam of the carryall-door at the side entrance. Aunt Izzie had returned from her Lecture. The dismay and confusion of that moment! Cecy slipped down stairs like an eel, and fled on the wings of fear along the path which led to her home. Mrs. Hall, as she bade Aunt Izzie good-night, and shut Dr. Carr's front door behind her with a bang, might have been struck with the singular fact that a distant bang came from her own front door like a sort of echo.",
   "words": [
-    "slam",
-    "dismay",
-    "echo"
+    {
+      "word": "slam",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dismay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "echo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

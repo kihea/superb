@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“These rapping spirits, that little Phœbe told us of, the other day,” said Clifford,—“what are these but the messengers of the spiritual world, knocking at the door of substance? And it shall be flung wide open!” “A humbug, again!” cried the old gentleman, growing more and more testy at these glimpses of Clifford’s metaphysics. “I should like to rap with a good stick on the empty pates of the dolts who circulate such nonsense!” “Then there is electricity,—the demon, the angel, the mighty physical power, the all-pervading intelligence!” exclaimed Clifford. “Is that a humbug, too? Is it a fact—or have I dreamt it—that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?",
   "words": [
-    "knocking",
-    "demon",
-    "mighty"
+    {
+      "word": "knocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "demon",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

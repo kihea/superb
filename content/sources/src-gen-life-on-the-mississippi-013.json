@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Two years later, the same stockholders increased their capital to $225,000; added a third story to the mill, increased its length to 317 feet; added machinery to increase the capacity to 10,300 spindles and 304 looms. The company now employ 250 operatives, many of whom are citizens of Natchez. 'The mill works 5,000 bales of cotton annually and manufactures the best standard quality of brown shirtings and sheetings and drills, turning out 5,000,000 yards of these goods per year. '{footnote } A close corporation--stock held at $5,000 per share, but none in the market. The changes in the Mississippi River are great and strange, yet were to be expected; but I was not expecting to live to see Natchez and these other river towns become manufacturing strongholds and railway centers.",
   "words": [
-    "annually",
-    "manufactures"
+    {
+      "word": "annually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "manufactures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

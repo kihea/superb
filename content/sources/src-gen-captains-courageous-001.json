@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "\"Guess we've slowed down a little, haven't we? I'll skip out and see what the log says.\" \"I might if I vhas you,\" said the German. Harvey staggered over the wet decks to the nearest rail. He was very unhappy; but he saw the deck-steward lashing chairs together, and, since he had boasted before the man that he was never seasick, his pride made him go aft to the second-saloon deck at the stern, which was finished in a turtle-back.",
   "words": [
-    "chairs",
-    "turtle"
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turtle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

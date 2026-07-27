@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "What the devil did the coolies matter to anybody? And when he came out, the extremity of the ship made what went on inside of her appear of little moment. At first he thought he had left the alleyway in the very moment of her sinking. The bridge ladders had been washed away, but an enormous sea filling the after-deck floated him up. After that he had to lie on his stomach for some time, holding to a ring-bolt, getting his breath now and then, and swallowing salt water.",
   "words": [
-    "washed",
-    "swallowing"
+    {
+      "word": "washed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swallowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Velly good,” he murmured, in a disconsolate undertone, and hastened smoothly along the decks, dodging obstacles in his course. He disappeared, ducking low under a sling of ten dirty gunny-bags full of some costly merchandise and exhaling a repulsive smell. Captain MacWhirr meantime had gone on the bridge, and into the chart-room, where a letter, commenced two days before, awaited termination. These long letters began with the words, “My darling wife,” and the steward, between the scrubbing of the floors and the dusting of chronometer-boxes, snatched at every opportunity to read them. They interested him much more than they possibly could the woman for whose eye they were intended; and this for the reason that they related in minute detail each successive trip of the Nan-Shan.",
   "words": [
-    "merchandise",
-    "floors"
+    {
+      "word": "merchandise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "floors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Typhoon",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "And secondly, if any man that is present shall be able to rectify thee or to turn thee from some erroneous persuasion, that thou be always ready to change thy mind, and this change to proceed, not from any respect of any pleasure or credit thereon depending, but always from some probable apparent ground of justice, or of some public good thereby to be furthered; or from some other such inducement. Hast thou reason? Why then makest thou not use of it? For if thy reason do her part, what more canst thou require? As a part hitherto thou hast had a particular subsistence: and now shalt thou vanish away into the common substance of Him, who first begot thee, or rather thou shalt be resumed again into that original rational substance, out of which all others have issued, and are propagated.",
   "words": [
-    "rectify",
-    "persuasion",
-    "shalt"
+    {
+      "word": "rectify",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "persuasion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shalt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Meditations",

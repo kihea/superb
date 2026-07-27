@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Above the bush the trees stood in serried ranks. The twigs overhung the current thickly, and from distance to distance a large limb of some tree projected rigidly over the stream. It was then well on in the afternoon, the face of the forest was gloomy, and a broad strip of shadow had already fallen on the water. In this shadow we steamed up—very slowly, as you may imagine. I sheered her well inshore—the water being deepest near the bank, as the sounding-pole informed me.",
   "words": [
-    "twigs",
-    "steamed"
+    {
+      "word": "twigs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "steamed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

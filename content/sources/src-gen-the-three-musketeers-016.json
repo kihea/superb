@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Milady looked at this man, and hesitated. “Who are you, sir,” asked she, “who has the kindness to trouble yourself so particularly on my account?” “You may perceive, madame, by my uniform, that I am an officer in the English navy,” replied the young man. “But is it the custom for the officers in the English navy to place themselves at the service of their female compatriots when they land in a port of Great Britain, and carry their gallantry so far as to conduct them ashore?” “Yes, madame, it is the custom, not from gallantry but prudence, that in time of war foreigners should be conducted to particular hôtels, in order that they may remain under the eye of the government until full information can be obtained about them.” These words were pronounced with the most exact politeness and the most perfect calmness. Nevertheless, they had not the power of convincing Milady.",
   "words": [
-    "ashore"
+    {
+      "word": "ashore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

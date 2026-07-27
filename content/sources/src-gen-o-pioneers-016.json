@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I hope he can rent it to the neighbors, it cost so much. He and his cousins bought a steam thresher on shares. You ought to go out and see that header work. I watched it an hour this morning, busy as I am with all the men to feed. He has a lot of hands, but he’s the only one that knows how to drive the header or how to run the engine, so he has to be everywhere at once.",
   "words": [
-    "cousins"
+    {
+      "word": "cousins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

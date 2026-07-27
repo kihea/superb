@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“That fiend!” Mr. Darling would cry, and Nana’s bark was the echo of it, but Mrs. Darling never upbraided Peter; there was something in the right-hand corner of her mouth that wanted her not to call Peter names. They would sit there in the empty nursery, recalling fondly every smallest detail of that dreadful evening. It had begun so uneventfully, so precisely like a hundred other evenings, with Nana putting on the water for Michael’s bath and carrying him to it on her back.",
   "words": [
-    "dreadful"
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

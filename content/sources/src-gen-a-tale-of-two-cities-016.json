@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "On a lightly-snowing afternoon she arrived at the usual corner. It was a day of some wild rejoicing, and a festival. She had seen the houses, as she came along, decorated with little pikes, and with little red caps stuck upon them; also, with tricoloured ribbons; also, with the standard inscription (tricoloured letters were the favourite), Republic One and Indivisible. Liberty, Equality, Fraternity, or Death! The miserable shop of the wood-sawyer was so small, that its whole surface furnished very indifferent space for this legend.",
   "words": [
-    "sawyer"
+    {
+      "word": "sawyer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

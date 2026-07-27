@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Gets finer as she gets on. I never saw the old girl’s equal. But I never own to it before her. Discipline must be maintained!” Proceeding to converse on indifferent matters, they walk up and down the little street, keeping step and time, until summoned by Quebec and Malta to do justice to the pork and greens, over which Mrs. Bagnet, like a military chaplain, says a short grace. In the distribution of these comestibles, as in every other household duty, Mrs. Bagnet develops an exact system, sitting with every dish before her, allotting to every portion of pork its own portion of pot-liquor, greens, potatoes, and even mustard, and serving it out complete.",
   "words": [
-    "dish"
+    {
+      "word": "dish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Bleak House",

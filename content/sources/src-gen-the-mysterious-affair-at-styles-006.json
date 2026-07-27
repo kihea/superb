@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I don’t think I can have noticed it.” “It does not matter,” said Poirot, not betraying any sign of disappointment. “Now I want to ask you about something else. There is a saucepan in Mrs. Inglethorp’s room with some cocoa in it. Did she have that every night?” “Yes, sir, it was put in her room every evening, and she warmed it up in the night—whenever she fancied it.” “What was it? Plain cocoa?” “Yes, sir, made with milk, with a teaspoonful of sugar, and two teaspoonfuls of rum in it.” “Who took it to her room?” “I did, sir.” “Always?” “Yes, sir.” “At what time?” “When I went to draw the curtains, as a rule, sir.” “Did you bring it straight up from the kitchen then?” “No, sir, you see there’s not much room on the gas stove, so cook used to make it early, before putting the vegetables on for supper.",
   "words": [
-    "disappointment",
-    "warmed",
-    "rum"
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warmed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Clifford came in a little later, fell over a box of sweet peas, swore a little, apologized, and then, as the full splendour of the floral fête burst upon him, sat down in astonishment upon a geranium. The geranium was a wreck, but Selby said, “Don’t mind,” and glared at the cactus. “Are you going to give a ball?” demanded Clifford. “N—no,—I’m very fond of flowers,” said Selby, but the statement lacked enthusiasm. “I should imagine so.” Then, after a silence, “That’s a fine cactus.” Selby contemplated the cactus, touched it with the air of a connoisseur, and pricked his thumb.",
   "words": [
-    "floral"
+    {
+      "word": "floral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

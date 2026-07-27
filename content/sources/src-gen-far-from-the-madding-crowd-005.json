@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“It is hardly likely, either,” continued Bathsheba. “For any lover of hers might have come to the house if he had been a respectable lad. The most mysterious matter connected with her absence—indeed, the only thing which gives me serious alarm—is that she was seen to go out of the house by Maryann with only her indoor working gown on—not even a bonnet.” “And you mean, ma’am, excusing my words, that a young woman would hardly go to see her young man without dressing up,” said Jacob, turning his mental vision upon past experiences. “That’s true—she would not, ma’am.” “She had, I think, a bundle, though I couldn’t see very well,” said a female voice from another window, which seemed to belong to Maryann. “But she had no young man about here.",
   "words": [
-    "hers",
-    "lad"
+    {
+      "word": "hers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

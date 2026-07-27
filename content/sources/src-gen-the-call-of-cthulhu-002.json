@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "My uncle blamed his old age, Wilcox afterward said, for his slowness in recognizing both hieroglyphics and pictorial design. Many of his questions seemed highly out of place to his visitor, especially those which tried to connect the latter with strange cults or societies; and Wilcox could not understand the repeated promises of silence which he was offered in exchange for an admission of membership in some widespread mystical or paganly religious body. When Professor Angell became convinced that the sculptor was indeed ignorant of any cult or system of cryptic lore, he besieged his visitor with demands for future reports of dreams. This bore regular fruit, for after the first interview the manuscript records daily calls of the young man, during which he related startling fragments of nocturnal imagery whose burden was always some terrible Cyclopean vista of dark and dripping stone, with a subterrene voice or intelligence shouting monotonously in enigmatical sense-impacts uninscribable save as gibberish. The two sounds most frequently repeated are those rendered by the letters \"Cthulhu\" and \"R'lyeh\".",
   "words": [
-    "cults",
-    "widespread",
-    "cult",
-    "vista",
-    "shouting",
-    "impacts"
+    {
+      "word": "cults",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "widespread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vista",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impacts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

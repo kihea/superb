@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The strength of the song falls on the second.” Mr. Knightley grew angry. “That fellow,” said he, indignantly, “thinks of nothing but shewing off his own voice. This must not be.” And touching Miss Bates, who at that moment passed near—“Miss Bates, are you mad, to let your niece sing herself hoarse in this manner? Go, and interfere. They have no mercy on her.” Miss Bates, in her real anxiety for Jane, could hardly stay even to be grateful, before she stept forward and put an end to all farther singing.",
   "words": [
-    "farther"
+    {
+      "word": "farther",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

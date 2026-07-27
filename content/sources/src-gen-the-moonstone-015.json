@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "In this suspense, I felt it would be a relief to me to get the meeting between us over, and to know the worst of it at once. “He looked at me as if I was a stranger, when I handed him the washing-book; and he was very specially polite in thanking me for bringing it. I thought those were both bad signs. There was no knowing what he might say of me behind my back; there was no knowing how soon I might not find myself taken in custody on suspicion, and searched. It was then time for your return from seeing Mr. Godfrey Ablewhite off by the railway; and I went to your favourite walk in the shrubbery, to try for another chance of speaking to you—the last chance, for all I knew to the contrary, that I might have.",
   "words": [
-    "suspense",
-    "searched"
+    {
+      "word": "suspense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "searched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

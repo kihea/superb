@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“You could say nothing more true. I’m absorbed in myself--I look at life too much as a doctor’s prescription. Why indeed should we perpetually be thinking whether things are good for us, as if we were patients lying in a hospital? Why should I be so afraid of not doing right? As if it mattered to the world whether I do right or wrong!” “You’re a capital person to advise,” said Ralph; “you take the wind out of my sails!” She looked at him as if she had not heard him--though she was following out the train of reflexion which he himself had kindled.",
   "words": [
-    "absorbed",
-    "sails"
+    {
+      "word": "absorbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

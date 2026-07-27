@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I am English!” “Yes, yes. Well, what do you say to my proposal?” For the first time in their acquaintance Lucetta had the move; and yet she was backward. “For the present let things be,” she said with some embarrassment. “Treat me as an acquaintance, and I’ll treat you as one. Time will—” She stopped; and he said nothing to fill the gap for awhile, there being no pressure of half acquaintance to drive them into speech if they were not minded for it.",
   "words": [
-    "awhile"
+    {
+      "word": "awhile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mayor of Casterbridge",

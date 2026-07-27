@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In half an hour the arrowroot was returned, with a thousand thanks from Miss Bates, but “dear Jane would not be satisfied without its being sent back; it was a thing she could not take—and, moreover, she insisted on her saying, that she was not at all in want of any thing.” When Emma afterwards heard that Jane Fairfax had been seen wandering about the meadows, at some distance from Highbury, on the afternoon of the very day on which she had, under the plea of being unequal to any exercise, so peremptorily refused to go out with her in the carriage, she could have no doubt—putting every thing together—that Jane was resolved to receive no kindness from her. She was sorry, very sorry.",
   "words": [
-    "wandering"
+    {
+      "word": "wandering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

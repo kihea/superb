@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "One of them held a large paper in his hand. “This pretty little nest where we are all picnicking,” went on the courier-brigand, with the same easy yet sinister smile, “is, together with some caves underneath it, known by the name of the Paradise of Thieves. It is my principal stronghold on these hills; for (as you have doubtless noticed) the eyrie is invisible both from the road above and from the valley below. It is something better than impregnable; it is unnoticeable. Here I mostly live, and here I shall certainly die, if the gendarmes ever track me here.",
   "words": [
-    "caves"
+    {
+      "word": "caves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

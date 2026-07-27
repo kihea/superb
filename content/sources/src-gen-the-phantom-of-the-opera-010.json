@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But all those death's heads were motionless and their dumb horror was not alive. But imagine, if you can, Red Death's mask suddenly coming to life in order to express, with the four black holes of its eyes, its nose, and its mouth, the extreme anger, the mighty fury of a demon; AND NOT A RAY OF LIGHT FROM THE SOCKETS, for, as I learned later, you can not see his blazing eyes except in the dark. \"I fell back against the wall and he came up to me, grinding his teeth, and, as I fell upon my knees, he hissed mad, incoherent words and curses at me. Leaning over me, he cried, 'Look! You want to see!",
   "words": [
-    "fury",
-    "blazing",
-    "cried"
+    {
+      "word": "fury",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blazing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

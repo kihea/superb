@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "(The same tree is still standing, and excites universal curiosity and interest.) For fear of being detected, they talked almost in a whisper, and now, that they might get back to camp in good time and thereby avoid suspicion, they were just rising to return, when the maiden uttered a shriek which was heard at the camp, and bounding toward the young brave, she caught his blanket, but missed the direction of her foot and fell, bearing the blanket with her into the great arms of the ferocious monster. Instantly every man, woman, and child of the band were upon the bank, but all unarmed. Cries and wailings went up from every mouth. What was to be done'?",
   "words": [
-    "maiden"
+    {
+      "word": "maiden",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

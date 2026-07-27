@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Or the pink lady, kind and nice as she is, so stout and short that you’d really no figure at all? Or even Mrs. Evans, with that sad, sad look in her eyes? She must have been dreadfully unhappy sometime to have such a look. You know you wouldn’t, Jane Andrews!” “I don’t know--exactly,” said Jane unconvinced. “I think diamonds would comfort a person for a good deal.” “Well, I don’t want to be anyone but myself, even if I go uncomforted by diamonds all my life,” declared Anne.",
   "words": [
-    "unhappy"
+    {
+      "word": "unhappy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

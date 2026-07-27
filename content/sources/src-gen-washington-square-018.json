@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "“You mean you don’t care? You are rather cruel, after encouraging him and playing with him for so long!” The Doctor had his revenge, after all. XXXII OUR story has hitherto moved with very short steps, but as it approaches its termination it must take a long stride. As time went on, it might have appeared to the Doctor that his daughter’s account of her rupture with Morris Townsend, mere bravado as he had deemed it, was in some degree justified by the sequel. Morris remained as rigidly and unremittingly absent as if he had died of a broken heart, and Catherine had apparently buried the memory of this fruitless episode as deep as if it had terminated by her own choice.",
   "words": [
-    "hitherto",
-    "termination",
-    "stride",
-    "deemed"
+    {
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "termination",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stride",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deemed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

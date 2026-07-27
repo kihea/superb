@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I was frightened, and slipped down upon the ground, and, it seemed to me, lost consciousness for a moment; and when I came to myself, I was again in my nursery at home. Your face I have never forgotten since. I could not be misled by mere resemblance. You are the lady whom I saw then.” It was now my turn to relate my corresponding vision, which I did, to the undisguised wonder of my new acquaintance. “I don’t know which should be most afraid of the other,” she said, again smiling—“If you were less pretty I think I should be very much afraid of you, but being as you are, and you and I both so young, I feel only that I have made your acquaintance twelve years ago, and have already a right to your intimacy; at all events it does seem as if we were destined, from our earliest childhood, to be friends.",
   "words": [
-    "frightened",
-    "acquaintance"
+    {
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

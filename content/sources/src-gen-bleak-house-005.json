@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "As Richard still continued to say that he was fixed in his choice after repeated periods for consideration had been recommended by Mr. Jarndyce and had expired, and he still continued to assure Ada and me in the same final manner that it was “all right,” it became advisable to take Mr. Kenge into council. Mr. Kenge, therefore, came down to dinner one day, and leaned back in his chair, and turned his eye-glasses over and over, and spoke in a sonorous voice, and did exactly what I remembered to have seen him do when I was a little girl. “Ah!” said Mr. Kenge. A very good profession, Mr. Jarndyce, a very good profession.” “The course of study and preparation requires to be diligently pursued,” observed my guardian with a glance at Richard. “Oh, no doubt,” said Mr. Kenge.",
   "words": [
-    "advisable",
-    "diligently"
+    {
+      "word": "advisable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diligently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Bleak House",

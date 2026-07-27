@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Mr. Hale got into the habit of quoting his opinions so frequently, and with such regard, that it became a little domestic joke to wonder what time, during the hour appointed for instruction, could be given to absolute learning, so much of it appeared to have been spent in conversation. Margaret rather encouraged this light, merry way of viewing her father’s acquaintance with Mr. Thornton, because she felt that her mother was inclined to look upon this new friendship of her husband’s with jealous eyes. As long as his time had been solely occupied with his books and his parishioners, as at Helstone, she had appeared to care little whether she saw much of him or not; but now that he looked eagerly forward to each renewal of his intercourse with Mr. Thornton, she seemed hurt and annoyed, as if he were slighting her companionship for the first time. Mr. Hale’s over-praise had the usual effect of over-praise upon his auditors; they were a little inclined to rebel against Aristides being always called the Just.",
   "words": [
-    "acquaintance",
-    "inclined",
-    "intercourse"
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inclined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intercourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

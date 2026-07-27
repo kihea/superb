@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Are you afraid you’ll get lost--or run over? But there’s Giovanelli, leaning against that tree. He’s staring at the women in the carriages: did you ever see anything so cool?” Winterbourne perceived at some distance a little man standing with folded arms nursing his cane. He had a handsome face, an artfully poised hat, a glass in one eye, and a nosegay in his buttonhole. Winterbourne looked at him a moment and then said, “Do you mean to speak to that man?” “Do I mean to speak to him?",
   "words": [
-    "perceived"
+    {
+      "word": "perceived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

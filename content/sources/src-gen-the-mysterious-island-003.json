@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“And did you not bring me to this cave?” “No.” “At what distance is this cave from the sea?” “About a mile,” replied Pencroft; “and if you are astonished, captain, we are not less surprised ourselves at seeing you in this place!” “Indeed,” said the engineer, who was recovering gradually, and who took great interest in these details, “indeed it is very singular!” “But,” resumed the sailor, “can you tell us what happened after you were carried off by the sea?” Cyrus Harding considered. He knew very little. The wave had torn him from the balloon net. He sank at first several fathoms. On returning to the surface, in the half light, he felt a living creature struggling near him.",
   "words": [
-    "creature"
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

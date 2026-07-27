@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“We will do that gladly,” returned the tiger; and all the other beasts roared with a mighty roar: “We will!” “Where is this great spider of yours now?” asked the Lion. “Yonder, among the oak trees,” said the tiger, pointing with his forefoot. “Take good care of these friends of mine,” said the Lion, “and I will go at once to fight the monster.” He bade his comrades good-bye and marched proudly away to do battle with the enemy. The great spider was lying asleep when the Lion found him, and it looked so ugly that its foe turned up his nose in disgust. Its legs were quite as long as the tiger had said, and its body covered with coarse black hair.",
   "words": [
-    "mighty"
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

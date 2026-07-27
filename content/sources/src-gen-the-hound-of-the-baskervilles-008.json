@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Is it not the very picture of an old family home? To think that this should be the same hall in which for five hundred years my people have lived. It strikes me solemn to think of it.” I saw his dark face lit up with a boyish enthusiasm as he gazed about him. The light beat upon him where he stood, but long shadows trailed down the walls and hung like a black canopy above him. Barrymore had returned from taking our luggage to our rooms.",
   "words": [
-    "lit",
-    "shadows"
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

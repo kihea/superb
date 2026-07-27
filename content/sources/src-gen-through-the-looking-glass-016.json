@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“It was all kinds of fastness with me, I can assure you!” he said. He raised his hands in some excitement as he said this, and instantly rolled out of the saddle, and fell headlong into a deep ditch. Alice ran to the side of the ditch to look for him. She was rather startled by the fall, as for some time he had kept on very well, and she was afraid that he really was hurt this time. However, though she could see nothing but the soles of his feet, she was much relieved to hear that he was talking on in his usual tone.",
   "words": [
-    "saddle"
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Through the Looking-Glass",

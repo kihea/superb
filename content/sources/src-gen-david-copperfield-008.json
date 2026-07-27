@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "When I came home in the afternoon, and saw the bottles drawn up in a square on the pantry floor, they looked so numerous (though there were two missing, which made Mrs. Crupp very uncomfortable), that I was absolutely frightened at them. One of Steerforth’s friends was named Grainger, and the other Markham. They were both very gay and lively fellows; Grainger, something older than Steerforth; Markham, youthful-looking, and I should say not more than twenty. I observed that the latter always spoke of himself indefinitely, as ‘a man’, and seldom or never in the first person singular. ‘A man might get on very well here, Mr. Copperfield,’ said Markham--meaning himself.",
   "words": [
-    "bottles",
-    "singular"
+    {
+      "word": "bottles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "David Copperfield",

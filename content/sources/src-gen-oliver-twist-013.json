@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "If I did not feel this, and know, besides, that a changed behaviour in one she loved would break her heart, I should not feel my task so difficult of performance, or have to encounter so many struggles in my own bosom, when I take what seems to me to be the strict line of duty.” “This is unkind, mother,” said Harry. “Do you still suppose that I am a boy ignorant of my own mind, and mistaking the impulses of my own soul?” “I think, my dear son,” returned Mrs. Maylie, laying her hand upon his shoulder, “that youth has many generous impulses which do not last; and that among them are some, which, being gratified, become only the more fleeting.",
   "words": [
-    "struggles",
-    "generous"
+    {
+      "word": "struggles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

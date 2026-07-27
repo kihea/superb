@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“No, it’s this poisonous atmosphere.” “I suppose it is pretty thick, now that you mention it.” “Thick! It is intolerable.” “Open the window, then! You have been at your club all day, I perceive.” “My dear Holmes!” “Am I right?” “Certainly, but how?” He laughed at my bewildered expression. “There is a delightful freshness about you, Watson, which makes it a pleasure to exercise any small powers which I possess at your expense. A gentleman goes forth on a showery and miry day.",
   "words": [
-    "delightful"
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

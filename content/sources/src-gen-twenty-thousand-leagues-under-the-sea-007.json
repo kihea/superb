@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I noticed that vegetable life disappeared sooner than animal life. The medusæ had already abandoned the arid soil, from which a great number of animals, zoophytes, articulata, molluscs, and fishes, still obtained sustenance. As we walked, I thought the light of our Ruhmkorff apparatus could not fail to draw some inhabitant from its dark couch. But if they did approach us, they at least kept at a respectful distance from the hunters. Several times I saw Captain Nemo stop, put his gun to his shoulder, and after some moments drop it and walk on.",
   "words": [
-    "fishes"
+    {
+      "word": "fishes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Wouldst sit in the presence of the King?” This blow staggered Hendon to his foundations. He muttered to himself, “Lo, the poor thing’s madness is up with the time! It hath changed with the great change that is come to the realm, and now in fancy is he king! Good lack, I must humour the conceit, too--there is no other way--faith, he would order me to the Tower, else!” And pleased with this jest, he removed the chair from the table, took his stand behind the King, and proceeded to wait upon him in the courtliest way he was capable of. While the King ate, the rigour of his royal dignity relaxed a little, and with his growing contentment came a desire to talk.",
   "words": [
-    "realm"
+    {
+      "word": "realm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

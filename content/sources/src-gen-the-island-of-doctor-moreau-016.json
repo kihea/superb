@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "“Hul-lo!” suddenly shouted Montgomery, “Hullo, there!” “Confound you!” said I, and gripped my pistol. There was a silence, then a crashing among the interlacing vegetation, first here, then there, and then half-a-dozen faces appeared,—strange faces, lit by a strange light. M’ling made a growling noise in his throat. I recognised the Ape-man: I had indeed already identified his voice, and two of the white-swathed brown-featured creatures I had seen in Montgomery’s boat. With these were the two dappled brutes and that grey, horribly crooked creature who said the Law, with grey hair streaming down its cheeks, heavy grey eyebrows, and grey locks pouring off from a central parting upon its sloping forehead,—a heavy, faceless thing, with strange red eyes, looking at us curiously from amidst the green.",
   "words": [
-    "shouted",
-    "crashing",
-    "lit",
-    "recognised",
-    "cheeks",
-    "eyebrows",
-    "forehead"
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crashing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recognised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eyebrows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

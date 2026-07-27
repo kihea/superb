@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“If ever there was a woman who made small claims--!” “You put your finger on it,” Ralph interrupted. “Her modesty’s exaggerated. She has no business with small claims--she has a perfect right to make large ones.” “Her merits are large then. You contradict yourself.” “Her merits are immense,” said Ralph. “She’s indescribably blameless; a pathless desert of virtue; the only woman I know who never gives one a chance.” “A chance for what?” “Well, say to call her a fool!",
   "words": [
-    "immense"
+    {
+      "word": "immense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

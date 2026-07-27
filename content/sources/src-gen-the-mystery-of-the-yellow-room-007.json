@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“The murderer, with his rough boots, mounted a bicycle. His accomplice, the wearer of the neat boots, had come to wait for him on the edge of the lake with the bicycle. It might be supposed that the murderer was working for the other.” “No, no!” replied Rouletabille with a strange smile. “I have expected to find these footmarks from the very beginning. These are not the footmarks of the murderer!” “Then there were two?” “No—there was but one, and he had no accomplice.” “Very good!—Very good!” cried Frédéric Larsan.",
   "words": [
-    "bicycle",
-    "accomplice"
+    {
+      "word": "bicycle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accomplice",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

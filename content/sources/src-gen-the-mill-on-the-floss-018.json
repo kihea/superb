@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A woman’s arm touched the soul of a great sculptor two thousand years ago, so that he wrought an image of it for the Parthenon which moves us still as it clasps lovingly the timeworn marble of a headless trunk. Maggie’s was such an arm as that, and it had the warm tints of life. A mad impulse seized on Stephen; he darted toward the arm, and showered kisses on it, clasping the wrist. But the next moment Maggie snatched it from him, and glared at him like a wounded war-goddess, quivering with rage and humiliation. “How dare you?” She spoke in a deeply shaken, half-smothered voice.",
   "words": [
-    "wrist"
+    {
+      "word": "wrist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Elizabeth honestly and heartily expressed her delight in the prospect of their relationship. They shook hands with great cordiality; and then, till her sister came down, she had to listen to all he had to say of his own happiness, and of Jane’s perfections; and in spite of his being a lover, Elizabeth really believed all his expectations of felicity to be rationally founded, because they had for basis the excellent understanding and super-excellent disposition of Jane, and a general similarity of feeling and taste between her and himself. It was an evening of no common delight to them all; the satisfaction of Miss Bennet’s mind gave such a glow of sweet animation to her face, as made her look handsomer than ever. Kitty simpered and smiled, and hoped her turn was coming soon. Mrs. Bennet could not give her consent, or speak her approbation in terms warm enough to satisfy her feelings, though she talked to Bingley of nothing else, for half an hour; and when Mr. Bennet joined them at supper, his voice and manner plainly showed how really happy he was.",
   "words": [
-    "felicity",
-    "disposition",
-    "similarity",
-    "smiled",
-    "satisfy",
-    "plainly"
+    {
+      "word": "felicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disposition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "similarity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plainly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Pride and Prejudice",

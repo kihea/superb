@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "I have never seen the sea quiet round Treasure Island. The sun might blaze overhead, the air be without a breath, the surface smooth and blue, but still these great rollers would be running along all the external coast, thundering and thundering by day and night; and I scarce believe there is one spot in the island where a man would be out of earshot of their noise. I walked along beside the surf with great enjoyment, till, thinking I was now got far enough to the south, I took the cover of some thick bushes and crept warily up to the ridge of the spit. Behind me was the sea, in front the anchorage. The sea breeze, as though it had the sooner blown itself out by its unusual violence, was already at an end; it had been succeeded by light, variable airs from the south and south-east, carrying great banks of fog; and the anchorage, under lee of Skeleton Island, lay still and leaden as when first we entered it.",
   "words": [
-    "blaze",
-    "overhead",
-    "breeze",
-    "blown",
-    "fog"
+    {
+      "word": "blaze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overhead",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

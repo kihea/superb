@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Was there ever such a boy as this!” from my sister,) I found Joe telling them about the convict’s confession, and all the visitors suggesting different ways by which he had got into the pantry. Mr. Pumblechook made out, after carefully surveying the premises, that he had first got upon the roof of the forge, and had then got upon the roof of the house, and had then let himself down the kitchen chimney by a rope made of his bedding cut into strips; and as Mr. Pumblechook was very positive and drove his own chaise-cart—over everybody—it was agreed that it must be so. Mr. Wopsle, indeed, wildly cried out, “No!” with the feeble malice of a tired man; but, as he had no theory, and no coat on, he was unanimously set at naught,—not to mention his smoking hard behind, as he stood with his back to the kitchen fire to draw the damp out: which was not calculated to inspire confidence.",
   "words": [
-    "pantry"
+    {
+      "word": "pantry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

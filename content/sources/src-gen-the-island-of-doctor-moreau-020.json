@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "All day I watched that sail, eating or drinking nothing, so that my head reeled; and the Beasts came and glared at me, and seemed to wonder, and went away. It was still distant when night came and swallowed it up; and all night I toiled to keep my blaze bright and high, and the eyes of the Beasts shone out of the darkness, marvelling. In the dawn the sail was nearer, and I saw it was the dirty lug-sail of a small boat. But it sailed strangely. My eyes were weary with watching, and I peered and could not believe them.",
   "words": [
-    "sail",
-    "nearer",
-    "sailed"
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

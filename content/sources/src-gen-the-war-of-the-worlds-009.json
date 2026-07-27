@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The whole population of the great six-million city was stirring, slipping, running; presently it would be pouring en masse northward. “Black Smoke!” the voices cried. “Fire!” The bells of the neighbouring church made a jangling tumult, a cart carelessly driven smashed, amid shrieks and curses, against the water trough up the street. Sickly yellow lights went to and fro in the houses, and some of the passing cabs flaunted unextinguished lamps. And overhead the dawn was growing brighter, clear and steady and calm.",
   "words": [
-    "stirring",
-    "bells"
+    {
+      "word": "stirring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I can help to get the articles together, but I do not understand the art of stowing them into the boxes, so as to take up the smallest possible space; and there are her own things to do, as well as mine and Arthur’s. I can ill afford to leave anything behind, since I have no money, except a few guineas in my purse; and besides, as Rachel observed, whatever I left would most likely become the property of Miss Myers, and I should not relish that. But what trouble I have had throughout these two days, struggling to appear calm and collected, to meet him and her as usual, when I was obliged to meet them, and forcing myself to leave my little Arthur in her hands for hours together! But I trust these trials are over now: I have laid him in my bed for better security, and never more, I trust, shall his innocent lips be defiled by their contaminating kisses, or his young ears polluted by their words. But shall we escape in safety?",
   "words": [
-    "purse",
-    "kisses"
+    {
+      "word": "purse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kisses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

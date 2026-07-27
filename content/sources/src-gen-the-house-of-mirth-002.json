@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Lily, with the flavour of Selden’s caravan tea on her lips, had no great fancy to drown it in the railway brew which seemed such nectar to her companion; but, rightly judging that one of the charms of tea is the fact of drinking it together, she proceeded to give the last touch to Mr. Gryce’s enjoyment by smiling at him across her lifted cup. “Is it quite right—I haven’t made it too strong?” she asked solicitously; and he replied with conviction that he had never tasted better tea. “I daresay it is true,” she reflected; and her imagination was fired by the thought that Mr. Gryce, who might have sounded the depths of the most complex self-indulgence, was perhaps actually taking his first journey alone with a pretty woman. It struck her as providential that she should be the instrument of his initiation. Some girls would not have known how to manage him.",
   "words": [
-    "lily",
-    "brew",
-    "companion",
-    "rightly"
+    {
+      "word": "lily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

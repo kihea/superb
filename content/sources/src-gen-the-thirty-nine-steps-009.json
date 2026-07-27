@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I opened the collar of my shirt—it was a vulgar blue-and-white check such as ploughmen wear—and revealed a neck as brown as any tinker’s. I rolled up my sleeves, and there was a forearm which might have been a blacksmith’s, sunburnt and rough with old scars. I got my boots and trouser-legs all white from the dust of the road, and hitched up my trousers, tying them with string below the knee. Then I set to work on my face. With a handful of dust I made a water-mark round my neck, the place where Mr Turnbull’s Sunday ablutions might be expected to stop.",
   "words": [
-    "collar",
-    "tinker",
-    "scars"
+    {
+      "word": "collar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tinker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scars",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Thirty-Nine Steps",

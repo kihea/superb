@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Thesiger has always countenanced him,” said Mrs. Hackbutt. “I think he must be sorry now.” “But he was never fond of him in his heart—that every one knows,” said Mrs. Tom Toller. Thesiger never goes into extremes. He keeps to the truth in what is evangelical. It is only clergymen like Mr. Tyke, who want to use Dissenting hymn-books and that low kind of religion, who ever found Bulstrode to their taste.” “I understand, Mr. Tyke is in great distress about him,” said Mrs. Hackbutt.",
   "words": [
-    "hymn"
+    {
+      "word": "hymn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Middlemarch",

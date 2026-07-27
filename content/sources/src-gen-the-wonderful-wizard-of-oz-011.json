@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I came to you to beg that you give me courage, so that in reality I may become the King of Beasts, as men call me.” “Why should I give you courage?” demanded Oz. “Because of all Wizards you are the greatest, and alone have power to grant my request,” answered the Lion. The Ball of Fire burned fiercely for a time, and the voice said, “Bring me proof that the Wicked Witch is dead, and that moment I will give you courage. But as long as the Witch lives, you must remain a coward.” The Lion was angry at this speech, but could say nothing in reply, and while he stood silently gazing at the Ball of Fire it became so furiously hot that he turned tail and rushed from the room. He was glad to find his friends waiting for him, and told them of his terrible interview with the Wizard.",
   "words": [
-    "coward"
+    {
+      "word": "coward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

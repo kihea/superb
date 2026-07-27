@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "At first, I was delighted with the novelty and excitement of our London life; but soon I began to weary of its mingled turbulence and constraint, and sigh for the freshness and freedom of home. My new acquaintances, both male and female, disappointed my expectations, and vexed and depressed me by turns; for I soon grew tired of studying their peculiarities, and laughing at their foibles—particularly as I was obliged to keep my criticisms to myself, for my aunt would not hear them—and they—the ladies especially—appeared so provokingly mindless, and heartless, and artificial. The gentlemen seemed better, but, perhaps, it was because I knew them less—perhaps, because they flattered me; but I did not fall in love with any of them; and, if their attentions pleased me one moment, they provoked me the next, because they put me out of humour with myself, by revealing my vanity and making me fear I was becoming like some of the ladies I so heartily despised.",
   "words": [
-    "novelty",
-    "weary",
-    "sigh",
-    "acquaintances",
-    "aunt"
+    {
+      "word": "novelty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintances",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

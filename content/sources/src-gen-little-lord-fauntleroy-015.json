@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The old Earl winced a little. “But you see her almost every day,” he said. “Is not that enough?” “I used to see her all the time,” said Fauntleroy. “She used to kiss me when I went to sleep at night, and in the morning she was always there, and we could tell each other things without waiting.” The old eyes and the young ones looked into each other through a moment of silence. Then the Earl knitted his brows.",
   "words": [
-    "brows"
+    {
+      "word": "brows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

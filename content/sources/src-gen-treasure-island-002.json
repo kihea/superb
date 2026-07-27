@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "My mother pulled it up with impatience, and there lay before us, the last things in the chest, a bundle tied up in oilcloth, and looking like papers, and a canvas bag that gave forth, at a touch, the jingle of gold. “I’ll show these rogues that I’m an honest woman,” said my mother. “I’ll have my dues, and not a farthing over. Hold Mrs. Crossley’s bag.” And she began to count over the amount of the captain’s score from the sailor’s bag into the one that I was holding. It was a long, difficult business, for the coins were of all countries and sizes--doubloons, and louis d’ors, and guineas, and pieces of eight, and I know not what besides, all shaken together at random.",
   "words": [
-    "bundle",
-    "sailor",
-    "guineas"
+    {
+      "word": "bundle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "guineas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Treasure Island",

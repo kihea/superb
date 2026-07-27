@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Much of it was red with heather; much of the rest broken up with bogs and hags and peaty pools; some had been burnt black in a heath fire; and in another place there was quite a forest of dead firs, standing like skeletons. A wearier-looking desert man never saw; but at least it was clear of troops, which was our point. We went down accordingly into the waste, and began to make our toilsome and devious travel towards the eastern verge. There were the tops of mountains all round (you are to remember) from whence we might be spied at any moment; so it behoved us to keep in the hollow parts of the moor, and when these turned aside from our direction to move upon its naked face with infinite care. Sometimes, for half an hour together, we must crawl from one heather bush to another, as hunters do when they are hard upon the deer.",
   "words": [
-    "pools",
-    "hollow",
-    "moor",
-    "crawl",
-    "hunters",
-    "deer"
+    {
+      "word": "pools",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hollow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hunters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Covey was constantly addicted. The one was open and frank, and we always knew where to find him. The other was a most artful deceiver, and could be understood only by such as were skilful enough to detect his cunningly-devised frauds. Another advantage I gained in my new master was, he made no pretensions to, or profession of, religion; and this, in my opinion, was truly a great advantage. I assert most unhesitatingly, that the religion of the south is a mere covering for the most horrid crimes,—a justifier of the most appalling barbarity,—a sanctifier of the most hateful frauds,—and a dark shelter under, which the darkest, foulest, grossest, and most infernal deeds of slaveholders find the strongest protection.",
   "words": [
-    "detect",
-    "devised",
-    "strongest"
+    {
+      "word": "detect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "devised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strongest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

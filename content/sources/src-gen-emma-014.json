@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "And such a noble fire!—I am quite roasted. No coffee, I thank you, for me—never take coffee.—A little tea if you please, sir, by and bye,—no hurry—Oh! here it comes. Every thing so good!” Frank Churchill returned to his station by Emma; and as soon as Miss Bates was quiet, she found herself necessarily overhearing the discourse of Mrs. Elton and Miss Fairfax, who were standing a little way behind her.—He was thoughtful. Whether he were overhearing too, she could not determine.",
   "words": [
-    "roasted"
+    {
+      "word": "roasted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

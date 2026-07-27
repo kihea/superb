@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Hil-lo, hol-lo, hel-lo!” Dorothy went on, standing this time on her right foot. “Hello!” replied the Tin Woodman calmly. “Ziz-zy, zuz-zy, zik!” said Dorothy, who was now standing on both feet. This ended the saying of the charm, and they heard a great chattering and flapping of wings, as the band of Winged Monkeys flew up to them. The King bowed low before Dorothy, and asked, “What is your command?” “We wish to go to the Emerald City,” said the child, “and we have lost our way.” “We will carry you,” replied the King, and no sooner had he spoken than two of the Monkeys caught Dorothy in their arms and flew away with her.",
   "words": [
-    "lo"
+    {
+      "word": "lo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

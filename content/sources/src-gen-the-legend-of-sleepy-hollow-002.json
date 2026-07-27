@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Indeed, it behooved him to keep on good terms with his pupils. The revenue arising from his school was small, and would have been scarcely sufficient to furnish him with daily bread, for he was a huge feeder, and, though lank, had the dilating powers of an anaconda; but to help out his maintenance, he was, according to country custom in those parts, boarded and lodged at the houses of the farmers whose children he instructed. With these he lived successively a week at a time, thus going the rounds of the neighborhood, with all his worldly effects tied up in a cotton handkerchief. That all this might not be too onerous on the purses of his rustic patrons, who are apt to consider the costs of schooling a grievous burden, and schoolmasters as mere drones, he had various ways of rendering himself both useful and agreeable. He assisted the farmers occasionally in the lighter labors of their farms, helped to make hay, mended the fences, took the horses to water, drove the cows from pasture, and cut wood for the winter fire.",
   "words": [
-    "pupils",
-    "boarded",
-    "rustic",
-    "assisted",
-    "hay"
+    {
+      "word": "pupils",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boarded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rustic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

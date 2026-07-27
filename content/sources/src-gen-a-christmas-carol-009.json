@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "The scaling him with chairs for ladders to dive into his pockets, despoil him of brown-paper parcels, hold on tight by his cravat, hug him round his neck, pommel his back, and kick his legs in irrepressible affection! The shouts of wonder and delight with which the development of every package was received! The terrible announcement that the baby had been taken in the act of putting a doll's frying-pan into his mouth, and was more than suspected of having swallowed a fictitious turkey, glued on a wooden platter! The immense relief of finding this a false alarm! The joy, and gratitude, and ecstasy!",
   "words": [
-    "chairs",
-    "parcels",
-    "hug",
-    "affection",
-    "shouts",
-    "delight",
-    "swallowed"
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parcels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "affection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swallowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

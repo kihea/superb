@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In all the rainy desert of autumnal London there were only two people whom the Newland Archers knew; and these two they had sedulously avoided, in conformity with the old New York tradition that it was not \"dignified\" to force one's self on the notice of one's acquaintances in foreign countries. Mrs. Archer and Janey, in the course of their visits to Europe, had so unflinchingly lived up to this principle, and met the friendly advances of their fellow-travellers with an air of such impenetrable reserve, that they had almost achieved the record of never having exchanged a word with a \"foreigner\" other than those employed in hotels and railway-stations. Their own compatriots--save those previously known or properly accredited--they treated with an even more pronounced disdain; so that, unless they ran across a Chivers, a Dagonet or a Mingott, their months abroad were spent in an unbroken tête-à-tête. But the utmost precautions are sometimes unavailing; and one night at Botzen one of the two English ladies in the room across the passage (whose names, dress and social situation were already intimately known to Janey) had knocked on the door and asked if Mrs. Archer had a bottle of liniment.",
   "words": [
-    "travellers",
-    "foreigner",
-    "precautions"
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foreigner",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "precautions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Age of Innocence",

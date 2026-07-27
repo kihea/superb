@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "So then, all the love that Jesus showed to the poor is the same love that God has for us. We can understand what Jesus felt, because he came in a body like ours and spoke words such as we speak to each other. We were afraid to think what God was before—the God who made the world and the sky and the thunder and lightning. We could never see him; we could only see the things he had made; and some of these things was very terrible, so as we might well tremble when we thought of him. But our blessed Saviour has showed us what God is in a way us poor ignorant people can understand; he has showed us what God’s heart is, what are his feelings towards us.",
   "words": [
-    "thunder"
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

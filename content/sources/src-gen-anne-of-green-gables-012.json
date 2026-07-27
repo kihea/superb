@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I suppose it’s partly my fault--I should have warned you--but for pity’s sake why couldn’t you have smelled it?” Anne dissolved into tears under this double disgrace. “I couldn’t--I had such a cold!” and with this she fairly fled to the gable chamber, where she cast herself on the bed and wept as one who refuses to be comforted. Presently a light step sounded on the stairs and somebody entered the room. “Oh, Marilla,” sobbed Anne, without looking up, “I’m disgraced forever. I shall never be able to live this down.",
   "words": [
-    "wept",
-    "stairs"
+    {
+      "word": "wept",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anne of Green Gables",

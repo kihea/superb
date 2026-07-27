@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "and in that case, can we venture to declare this suicide? O, we must be careful. I foresee that we may yet involve your master in some dire catastrophe.” “Why don’t you read it, sir?” asked Poole. “Because I fear,” replied the lawyer solemnly. “God grant I have no cause for it!” And with that he brought the paper to his eyes and read as follows: “My dear Utterson,—When this shall fall into your hands, I shall have disappeared, under what circumstances I have not the penetration to foresee, but my instinct and all the circumstances of my nameless situation tell me that the end is sure and must be early.",
   "words": [
-    "foresee"
+    {
+      "word": "foresee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

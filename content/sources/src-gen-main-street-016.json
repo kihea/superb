@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Men with highly plastered hair, so painfully shaved that their faces looked sore, removed their coats, sighed, and unbuttoned two buttons of their uncreased Sunday vests. Large-bosomed, white-bloused, hot-necked, spectacled matrons--the Mothers in Israel, pioneers and friends of Mrs. Champ Perry--waved their palm-leaf fans in a steady rhythm. Abashed boys slunk into the rear pews and giggled, while milky little girls, up front with their mothers, self-consciously kept from turning around. The church was half barn and half Gopher Prairie parlor.",
   "words": [
-    "shaved",
-    "sore",
-    "vests"
+    {
+      "word": "shaved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vests",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Main Street",

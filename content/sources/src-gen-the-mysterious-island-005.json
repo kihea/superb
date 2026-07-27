@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Cyrus Harding concluded, therefore, that Lincoln Island was situated on the thirty-seventh degree of the southern latitude, or taking into consideration through the imperfection of the performance, an error of five degrees, that it must be situated between the thirty-fifth and the fortieth parallel. There was only the longitude to be obtained, and the position of the island would be determined, The engineer hoped to attempt this the same day, at twelve o’clock, at which moment the sun would pass the meridian. It was decided that Sunday should be spent in a walk, or rather an exploring expedition, to that side of the island between the north of the lake and Shark Gulf, and if there was time they would push their discoveries to the northern side of Cape South Mandible. They would breakfast on the downs, and not return till evening. At half-past eight the little band was following the edge of the channel.",
   "words": [
-    "latitude",
-    "longitude",
-    "downs"
+    {
+      "word": "latitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "longitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

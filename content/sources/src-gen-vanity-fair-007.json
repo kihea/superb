@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Sometimes it is towards the ocean--smiling with countless dimples, speckled with white sails, with a hundred bathing-machines kissing the skirt of his blue garment--that the Londoner looks enraptured: sometimes, on the contrary, a lover of human nature rather than of prospects of any kind, it is towards the bow windows that he turns, and that swarm of human life which they exhibit. From one issue the notes of a piano, which a young lady in ringlets practises six hours daily, to the delight of the fellow-lodgers: at another, lovely Polly, the nurse-maid, may be seen dandling Master Omnium in her arms: whilst Jacob, his papa, is beheld eating prawns, and devouring the Times for breakfast, at the window below.",
   "words": [
-    "sails",
-    "contrary",
-    "prospects",
-    "maid",
-    "papa"
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contrary",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "prospects",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

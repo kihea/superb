@@ -3,11 +3,37 @@
   "pool": "sourced",
   "text": "Chairs, tables, cheffonier, and sofa, all gleamed with the glutinous brightness of cheap upholstery. On the largest table, in the middle of the room, stood a smart Bible, placed exactly in the centre on a red and yellow woollen mat and at the side of the table nearest to the window, with a little knitting-basket on her lap, and a wheezing, blear-eyed old spaniel crouched at her feet, there sat an elderly woman, wearing a black net cap and a black silk gown, and having slate-coloured mittens on her hands. Her iron-grey hair hung in heavy bands on either side of her face—her dark eyes looked straight forward, with a hard, defiant, implacable stare. She had full square cheeks, a long, firm chin, and thick, sensual, colourless lips. Her figure was stout and sturdy, and her manner aggressively self-possessed.",
   "words": [
-    "elderly",
-    "cheeks",
-    "chin",
-    "sturdy",
-    "aggressively"
+    {
+      "word": "elderly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheeks",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sturdy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aggressively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

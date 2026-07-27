@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Entering a portal, fastened only by a latch, I stood amidst a space of enclosed ground, from which the wood swept away in a semicircle. There were no flowers, no garden-beds; only a broad gravel-walk girdling a grass-plat, and this set in the heavy frame of the forest. The house presented two pointed gables in its front; the windows were latticed and narrow: the front door was narrow too, one step led up to it. The whole looked, as the host of the Rochester Arms had said, “quite a desolate spot.” It was as still as a church on a week-day: the pattering rain on the forest leaves was the only sound audible in its vicinage. “Can there be life here?” I asked.",
   "words": [
-    "gravel"
+    {
+      "word": "gravel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

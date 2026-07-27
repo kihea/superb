@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "At Shrewsbury came fresh air. Margaret was all for sight-seeing, and while the others were finishing their tea at the Raven, she annexed a motor and hurried over the astonishing city. Her chauffeur was not the faithful Crane, but an Italian, who dearly loved making her late. Charles, watch in hand, though with a level brow, was standing in front of the hotel when they returned. It was perfectly all right, he told her; she was by no means the last.",
   "words": [
-    "chauffeur"
+    {
+      "word": "chauffeur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But I could not see how this could be done in their country, where the smallest wherry was equal to a first-rate man of war among us; and such a boat as I could manage would never live in any of their rivers. Her majesty said, if I would contrive a boat, her own joiner should make it, and she would provide a place for me to sail in. The fellow was an ingenious workman, and by my instructions, in ten days, finished a pleasure-boat with all its tackling, able conveniently to hold eight Europeans. When it was finished, the queen was so delighted, that she ran with it in her lap to the king, who ordered it to be put into a cistern full of water, with me in it, by way of trial, where I could not manage my two sculls, or little oars, for want of room. But the queen had before contrived another project.",
   "words": [
-    "sail",
-    "delighted"
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

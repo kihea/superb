@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "At last, he gave a grunt of satisfaction and declared “Now I am at ease!” “Well,—do you believe that the poor dear young lady was shut up when she was being murdered—when she cried out for help?” wailed Daddy Jacques. “Yes,” said the young reporter, drying his forehead, “The Yellow Room was as tightly shut as an iron safe.” “That,” I said, “is why this mystery is the most surprising I know. Edgar Allan Poe, in the ‘Double Assassination of the Rue Morgue,’ invented nothing like it. The place of that crime was sufficiently closed to prevent the escape of a man; but there was that window through which the monkey, the perpetrator of the murder, could slip away! But here, there can be no question of an opening of any sort.",
   "words": [
-    "monkey",
-    "perpetrator"
+    {
+      "word": "monkey",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "perpetrator",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

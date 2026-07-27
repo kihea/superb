@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Dear Hetty,” she said, “It has been borne in upon my mind to-night that you may some day be in trouble—trouble is appointed for us all here below, and there comes a time when we need more comfort and help than the things of this life can give. I want to tell you that if ever you are in trouble, and need a friend that will always feel for you and love you, you have got that friend in Dinah Morris at Snowfield, and if you come to her, or send for her, she’ll never forget this night and the words she is speaking to you now. Will you remember it, Hetty?” “Yes,” said Hetty, rather frightened. “But why should you think I shall be in trouble?",
   "words": [
-    "frightened"
+    {
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

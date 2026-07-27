@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The first proof he experienced of the fact, was conveyed in a hollow sound, immediately succeeded by the sudden flying off of his hat to the opposite end of the room. This preliminary proceeding laying bare his head, the expert lady, clasping him tightly round the throat with one hand, inflicted a shower of blows (dealt with singular vigour and dexterity) upon it with the other. This done, she created a little variety by scratching his face, and tearing his hair; and, having, by this time, inflicted as much punishment as she deemed necessary for the offence, she pushed him over a chair, which was luckily well situated for the purpose: and defied him to talk about his prerogative again, if he dared. “Get up!” said Mrs. Bumble, in a voice of command. “And take yourself away from here, unless you want me to do something desperate.” Mr. Bumble rose with a very rueful countenance: wondering much what something desperate might be.",
   "words": [
-    "conveyed",
-    "singular",
-    "dared"
+    {
+      "word": "conveyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

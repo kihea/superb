@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The minister here made a pause; although the music still played the stately and rejoicing march to which the procession moved. It summoned him onward—inward to the festival!—but here he made a pause. Bellingham, for the last few moments, had kept an anxious eye upon him. He now left his own place in the procession, and advanced to give assistance judging, from Mr. Dimmesdale’s aspect that he must otherwise inevitably fall. But there was something in the latter’s expression that warned back the magistrate, although a man not readily obeying the vague intimations that pass from one spirit to another.",
   "words": [
-    "warned"
+    {
+      "word": "warned",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

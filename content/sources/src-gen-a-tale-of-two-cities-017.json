@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Seeing it, he poured out and drank another glassful. “Look over your hand carefully, Mr. Barsad. Take time.” It was a poorer hand than he suspected. Mr. Barsad saw losing cards in it that Sydney Carton knew nothing of. Thrown out of his honourable employment in England, through too much unsuccessful hard swearing there--not because he was not wanted there; our English reasons for vaunting our superiority to secrecy and spies are of very modern date--he knew that he had crossed the Channel, and accepted service in France: first, as a tempter and an eavesdropper among his own countrymen there: gradually, as a tempter and an eavesdropper among the natives.",
   "words": [
-    "swearing"
+    {
+      "word": "swearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Nothing more?” “Not a word now,” said the Jew, descending the stairs. “I say,” said the other, looking over the rails, and speaking in a hoarse whisper; “what a time this would be for a sell! I’ve got Phil Barker here: so drunk, that a boy might take him!” “Ah! But it’s not Phil Barker’s time,” said the Jew, looking up. “Phil has something more to do, before we can afford to part with him; so go back to the company, my dear, and tell them to lead merry lives—while they last.",
   "words": [
-    "whisper"
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "What do you think?” “I couldn’t say. To the best of my belief it was after turning the portrait in his hands that he nearly dropped from the chair. The name, you know, was written on the back.” “Quite so. After all, it is impossible to come to any resolution in a case like this. I hate melodrama, and nothing strikes me as more commonplace and tedious than the ordinary ghost story of commerce; but really, Villiers, it looks as if there were something very queer at the bottom of all this.” The two men had, without noticing it, turned up Ashley Street, leading northward from Piccadilly.",
   "words": [
-    "commonplace"
+    {
+      "word": "commonplace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Great God Pan",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "So soft was her step, it failed to make even a sound, and but for the magical thrill imparted by her genial touch, as other unobtrusive beauties, she would have glided away unperceived—unsought. A strange sadness rested upon her features, like icy tears upon the robe of December, as she pointed to the contending elements without, and bade me contemplate the two beings presented. This nightmare occupied some ten pages of manuscript and wound up with a sermon so destructive of all hope to non-Presbyterians that it took the first prize. This composition was considered to be the very finest effort of the evening. The mayor of the village, in delivering the prize to the author of it, made a warm speech in which he said that it was by far the most “eloquent” thing he had ever listened to, and that Daniel Webster himself might well be proud of it.",
   "words": [
-    "listened"
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Tom Sawyer",

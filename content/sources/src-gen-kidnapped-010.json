@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "All the while I was eating, and after that when I was drinking the punch, I could scarce come to believe in my good fortune; and the house, though it was thick with the peat-smoke and as full of holes as a colander, seemed like a palace. The punch threw me in a strong sweat and a deep slumber; the good people let me lie; and it was near noon of the next day before I took the road, my throat already easier and my spirits quite restored by good fare and good news. The old gentleman, although I pressed him hard, would take no money, and gave me an old bonnet for my head; though I am free to own I was no sooner out of view of the house than I very jealously washed this gift of his in a wayside fountain. Thought I to myself: “If these are the wild Highlanders, I could wish my own folk wilder.” I not only started late, but I must have wandered nearly half the time.",
   "words": [
-    "noon"
+    {
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Kidnapped",

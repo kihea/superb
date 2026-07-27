@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“He cares for nothing but facts; he must be met by facts!” “Well,” rejoined Morris, “it is a fact that I wish to marry his daughter. I met him with that the other day, but he was not at all vanquished.” Mrs. Penniman was silent a little, and her smile beneath the shadow of her capacious bonnet, on the edge of which her black veil was arranged curtain-wise, fixed itself upon Morris’s face with a still more tender brilliancy. “Marry Catherine first and meet him afterwards!” she exclaimed. “Do you recommend that?” asked the young man, frowning heavily. She was a little frightened, but she went on with considerable boldness.",
   "words": [
-    "veil"
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Washington Square",

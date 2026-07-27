@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But who knows if it would be well received? What gamblers usually regret above all is less the loss of their money than of their foolish hopes. After all, I pity them less than the thousands of unfortunates to whom so much riches well-distributed would have been profitable, whilst for them they will be for ever barren.” I had no sooner expressed this regret than I felt that it must have wounded Captain Nemo. “Barren!” he exclaimed, with animation. “Do you think then, sir, that these riches are lost because I gather them?",
   "words": [
-    "riches"
+    {
+      "word": "riches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

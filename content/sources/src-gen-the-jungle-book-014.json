@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I must get to the melon-bed, and if I went there now she’d see me.” Darzee was a feather-brained little fellow who could never hold more than one idea at a time in his head. And just because he knew that Nagaina’s children were born in eggs like his own, he didn’t think at first that it was fair to kill them. But his wife was a sensible bird, and she knew that cobra’s eggs meant young cobras later on. So she flew off from the nest, and left Darzee to keep the babies warm, and continue his song about the death of Nag. Darzee was very like a man in some ways.",
   "words": [
-    "feather",
-    "nest"
+    {
+      "word": "feather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Jungle Book",

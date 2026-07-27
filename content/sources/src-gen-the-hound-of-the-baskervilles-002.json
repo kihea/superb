@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "“Know then that in the time of the Great Rebellion (the history of which by the learned Lord Clarendon I most earnestly commend to your attention) this Manor of Baskerville was held by Hugo of that name, nor can it be gainsaid that he was a most wild, profane, and godless man. This, in truth, his neighbours might have pardoned, seeing that saints have never flourished in those parts, but there was in him a certain wanton and cruel humour which made his name a by-word through the West. It chanced that this Hugo came to love (if, indeed, so dark a passion may be known under so bright a name) the daughter of a yeoman who held lands near the Baskerville estate. But the young maiden, being discreet and of good repute, would ever avoid him, for she feared his evil name. So it came to pass that one Michaelmas this Hugo, with five or six of his idle and wicked companions, stole down upon the farm and carried off the maiden, her father and brothers being from home, as he well knew.",
   "words": [
-    "saints",
-    "flourished",
-    "maiden",
-    "discreet",
-    "wicked",
-    "companions"
+    {
+      "word": "saints",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flourished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maiden",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discreet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

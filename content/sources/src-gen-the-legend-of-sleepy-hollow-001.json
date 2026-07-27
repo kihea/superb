@@ -3,15 +3,60 @@
   "pool": "sourced",
   "text": "ey are like those little nooks of still water, which border a rapid stream, where we may see the straw and bubble riding quietly at anchor, or slowly revolving in their mimic harbor, undisturbed by the rush of the passing current. Though many years have elapsed since I trod the drowsy shades of Sleepy Hollow, yet I question whether I should not still find the same trees and the same families vegetating in its sheltered bosom. In this by-place of nature there abode, in a remote period of American history, that is to say, some thirty years since, a worthy wight of the name of Ichabod Crane, who sojourned, or, as he expressed it, “tarried,” in Sleepy Hollow, for the purpose of instructing the children of the vicinity. He was a native of Connecticut, a State which supplies the Union with pioneers for the mind as well as for the forest, and sends forth yearly its legions of frontier woodmen and country schoolmasters. The cognomen of Crane was not inapplicable to his person.",
   "words": [
-    "ey",
-    "quietly",
-    "revolving",
-    "harbor",
-    "sheltered",
-    "abode",
-    "vicinity",
-    "sends",
-    "frontier"
+    {
+      "word": "ey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revolving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harbor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sheltered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abode",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "vicinity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frontier",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

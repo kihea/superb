@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“You expected to meet your master here?” “I was told to wait in the lane.” With that answer he retraced his steps. I looked back at the cottage and saw the clerk coming out, with the lantern lighted once more. I took the old man’s arm to help him on the more quickly. We hastened along the lane, and passed the person who had accosted me. As well as I could see by the light of the lantern, he was a servant out of livery.",
   "words": [
-    "lantern",
-    "lighted"
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

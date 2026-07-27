@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Why is it that a bucket of water soon becomes putrid, but frozen remains sweet forever? It is commonly said that this is the difference between the affections and the intellect. Thus for sixteen days I saw from my window a hundred men at work like busy husbandmen, with teams and horses and apparently all the implements of farming, such a picture as we see on the first page of the almanac; and as often as I looked out I was reminded of the fable of the lark and the reapers, or the parable of the sower, and the like; and now they are all gone, and in thirty days more, probably, I shall look from the same window on the pure sea-green Walden water there, reflecting the clouds and the trees, and sending up its evaporations in solitude, and no traces will appear that a man has ever stood there. Perhaps I shall hear a solitary loon laugh as he dives and plumes himself, or shall see a lonely fisher in his boat, like a floating leaf, beholding his form reflected in the waves, where lately a hundred men securely labored.",
   "words": [
-    "bucket",
-    "clouds",
-    "solitude"
+    {
+      "word": "bucket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clouds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

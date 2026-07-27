@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Phase the Second: Maiden No More Phase the Third: The Rally Phase the Fourth: The Consequence Phase the Fifth: The Woman Pays Phase the Sixth: The Convert Phase the Seventh: Fulfilment Explanatory Note to the First Edition The main portion of the following story appeared—with slight modifications—in the Graphic newspaper; other chapters, more especially addressed to adult readers, in the Fortnightly Review and the National Observer, as episodic sketches. My thanks are tendered to the editors and proprietors of those periodicals for enabling me now to piece the trunk and limbs of the novel together, and print it complete, as originally written two years ago. I will just add that the story is sent out in all sincerity of purpose, as an attempt to give artistic form to a true sequence of things; and in respect of the book’s opinions and sentiments, I would ask any too genteel reader, who cannot endure to have said what everybody nowadays thinks and feels, to remember a well-worn sentence of St. Jerome’s: If an offense come out of the truth, better it is that the offense come than that the truth be concealed. November 1891.",
   "words": [
-    "chapters",
-    "enabling"
+    {
+      "word": "chapters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enabling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

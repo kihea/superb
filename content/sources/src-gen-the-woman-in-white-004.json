@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "If, however, there was any more serious reason for the change, he would entreat that no constraint might be placed on her inclinations either by Mr. Fairlie or by me. All he asked, in that case, was that she would recall to mind, for the last time, what the circumstances were under which the engagement between them was made, and what his conduct had been from the beginning of the courtship to the present time. If, after due reflection on those two subjects, she seriously desired that he should withdraw his pretensions to the honour of becoming her husband—and if she would tell him so plainly with her own lips—he would sacrifice himself by leaving her perfectly free to withdraw from the engagement.” “No man could say more than that, Miss Halcombe. As to my experience, few men in his situation would have said as much.” She paused after I had spoken those words, and looked at me with a singular expression of perplexity and distress. “I accuse nobody, and I suspect nothing,” she broke out abruptly.",
   "words": [
-    "withdraw"
+    {
+      "word": "withdraw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

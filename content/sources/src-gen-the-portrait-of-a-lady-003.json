@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Even when her father had left his daughters for three months at Neufchatel with a French bonne who had eloped with a Russian nobleman staying at the same hotel--even in this irregular situation (an incident of the girl’s eleventh year) she had been neither frightened nor ashamed, but had thought it a romantic episode in a liberal education. Her father had a large way of looking at life, of which his restlessness and even his occasional incoherency of conduct had been only a proof. He wished his daughters, even as children, to see as much of the world as possible; and it was for this purpose that, before Isabel was fourteen, he had transported them three times across the Atlantic, giving them on each occasion, however, but a few months’ view of the subject proposed: a course which had whetted our heroine’s curiosity without enabling her to satisfy it. She ought to have been a partisan of her father, for she was the member of his trio who most “made up” to him for the disagreeables he didn’t mention.",
   "words": [
-    "heroine",
-    "trio"
+    {
+      "word": "heroine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trio",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

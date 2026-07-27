@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“It certainly signifies very little to us—not at all to you, after what has passed! but I—I made a promise to Mrs. Hale, that I would not allow her daughter to go wrong without advising and remonstrating with her. I shall certainly let her know my opinion of such conduct.” “I do not see any harm in what she did that evening,” said Mr. Thornton, getting up, and coming near to his mother; he stood by the chimney-piece with his face turned away from the room. “You would not have approved of Fanny’s being seen out, after dark, in rather a lonely place, walking about with a young man. I say nothing of the taste which could choose the time, when her mother lay unburied, for such a promenade.",
   "words": [
-    "advising"
+    {
+      "word": "advising",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

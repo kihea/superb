@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Mrs Tulliver, foreseeing nothing but misbehaviour while the children remained indoors, took an early opportunity of suggesting that, now they were rested after their walk, they might go and play out of doors; and aunt Pullet gave permission, only enjoining them not to go off the paved walks in the garden, and if they wanted to see the poultry fed, to view them from a distance on the horse-block; a restriction which had been imposed ever since Tom had been found guilty of running after the peacock, with an illusory idea that fright would make one of its feathers drop off. Mrs Tulliver’s thoughts had been temporarily diverted from the quarrel with Mrs Glegg by millinery and maternal cares, but now the great theme of the bonnet was thrown into perspective, and the children were out of the way, yesterday’s anxieties recurred. “It weighs on my mind so as never was,” she said, by way of opening the subject, “sister Glegg’s leaving the house in that way. I’m sure I’d no wish t’ offend a sister.” “Ah,” said aunt Pullet, “there’s no accounting for what Jane ’ull do.",
   "words": [
-    "aunt",
-    "quarrel",
-    "bonnet",
-    "offend"
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bonnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "offend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

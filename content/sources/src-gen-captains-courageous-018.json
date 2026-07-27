@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As if any one expected--\" \"Well, the man that hired him did. He's about right, too.\" They went down between the stores full of fishermen's oilskins to Wouverman's wharf where the We're Here rode high, her Bank flag still flying, all hands busy as beavers in the glorious morning light. Disko stood by the main hatch superintending Manuel, Penn, and Uncle Salters at the tackle. Dan was swinging the loaded baskets inboard as Long Jack and Tom Platt filled them, and Harvey, with a notebook, represented the skipper's interests before the clerk of the scales on the salt-sprinkled wharf-edge.",
   "words": [
-    "clerk"
+    {
+      "word": "clerk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Captains Courageous",

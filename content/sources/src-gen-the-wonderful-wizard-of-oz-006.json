@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "When Dorothy presently asked him a question the Tin Woodman could not open his mouth, for his jaws were tightly rusted together. He became greatly frightened at this and made many motions to Dorothy to relieve him, but she could not understand. The Lion was also puzzled to know what was wrong. But the Scarecrow seized the oil-can from Dorothy’s basket and oiled the Woodman’s jaws, so that after a few moments he could talk as well as before. “This will serve me a lesson,” said he, “to look where I step.",
   "words": [
-    "jaws",
-    "puzzled",
-    "basket"
+    {
+      "word": "jaws",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

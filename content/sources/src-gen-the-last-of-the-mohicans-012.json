@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The compass of their voices, particularly that of the youth, was wonderful—extending from the deepest bass to tones that were even feminine in softness. The eyes of the father followed the plastic and ingenious movements of the son with open delight, and he never failed to smile in reply to the other’s contagious but low laughter. While under the influence of these gentle and natural feelings, no trace of ferocity was to be seen in the softened features of the Sagamore. His figured panoply of death looked more like a disguise assumed in mockery than a fierce annunciation of a desire to carry destruction in his footsteps. After an hour had passed in the indulgence of their better feelings, Chingachgook abruptly announced his desire to sleep, by wrapping his head in his blanket and stretching his form on the naked earth.",
   "words": [
-    "deepest"
+    {
+      "word": "deepest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

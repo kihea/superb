@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Of all ebriosity, who does not prefer to be intoxicated by the air he breathes? I have found it to be the most serious objection to coarse labors long continued, that they compelled me to eat and drink coarsely also. But to tell the truth, I find myself at present somewhat less particular in these respects. I carry less religion to the table, ask no blessing; not because I am wiser than I was, but, I am obliged to confess, because, however much it is to be regretted, with years I have grown more coarse and indifferent. Perhaps these questions are entertained only in youth, as most believe of poetry.",
   "words": [
-    "breathes",
-    "confess"
+    {
+      "word": "breathes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“They have gone to Naples for their honeymoon.” “Lucky people!” “I can hardly imagine Charles in Italy.” “Doesn’t he care for travelling?” “He likes travel, but he does see through foreigners so. What he enjoys most is a motor tour in England, and I think that would have carried the day if the weather had not been so abominable. His father gave him a car of his own for a wedding present, which for the present is being stored at Howards End.” “I suppose you have a garage there?” “Yes. My husband built a little one only last month, to the west of the house, not far from the wych-elm, in what used to be the paddock for the pony.” The last words had an indescribable ring about them. “Where’s the pony gone?” asked Margaret after a pause.",
   "words": [
-    "travelling"
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

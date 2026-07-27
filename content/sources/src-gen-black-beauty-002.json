@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I felt hungry, for I had not eaten since the early morning, but there was not enough grass in that meadow for a goose to live on. I wanted to lie down and rest, but with the saddle strapped tightly on there was no comfort, and there was not a drop of water to drink. The afternoon wore on, and the sun got low. I saw the other colts led in, and I knew they were having a good feed. “At last, just as the sun went down, I saw the old master come out with a sieve in his hand.",
   "words": [
-    "meadow"
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Black Beauty",

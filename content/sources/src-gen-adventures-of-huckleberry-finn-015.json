@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The king sings out: “Take y’r hands off!—leggo my throat!—I take it all back!” The duke says: “Well, you just own up, first, that you did hide that money there, intending to give me the slip one of these days, and come back and dig it up, and have it all to yourself.” “Wait jest a minute, duke—answer me this one question, honest and fair; if you didn’t put the money there, say it, and I’ll b’lieve you, and take back everything I said.” “You old scoundrel, I didn’t, and you know I didn’t. There, now!” “Well, then, I b’lieve you. But answer me only jest this one more—now don’t git mad; didn’t you have it in your mind to hook the money and hide it?” The duke never said nothing for a little bit; then he says: “Well, I don’t care if I did, I didn’t do it, anyway. But you not only had it in mind to do it, but you done it.” “I wisht I never die if I done it, duke, and that’s honest.",
   "words": [
-    "sings",
-    "intending"
+    {
+      "word": "sings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",

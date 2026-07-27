@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the conductor simply tore him out of my arms and pushed him aboard the tail-end of the last car. I made a face at a fat man who was looking out a window at me. I stood there, as the train started to move, feeling that it was dragging my heart with it. Then Dinky-Dunk called out to Olie, from the back platform: \"Did you get my message and paint that shack?\" And Olie, with my steamer-rug in his hand, only looked blank and called back \"No.\"",
   "words": [
-    "aboard"
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

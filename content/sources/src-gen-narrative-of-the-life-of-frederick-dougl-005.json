@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The shoemaking and mending, the blacksmithing, cartwrighting, coopering, weaving, and grain-grinding, were all performed by the slaves on the home plantation. The whole place wore a business-like aspect very unlike the neighboring farms. The number of houses, too, conspired to give it advantage over the neighboring farms. It was called by the slaves the Great House Farm. Few privileges were esteemed higher, by the slaves of the out-farms, than that of being selected to do errands at the Great House Farm.",
   "words": [
-    "plantation",
-    "farms"
+    {
+      "word": "plantation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

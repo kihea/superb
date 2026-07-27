@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The impudence, the overpowering audacity of the ragamuffin took Trent’s breath away. “Do you know, you young strangler,” he gasped, “that they shoot thieves of your age?” The child turned a passionless face to Trent. “Shoot, then.” That was too much, and he turned on his heel and entered his hotel. Groping up the unlighted stairway, he at last reached his own landing and felt about in the darkness for the door. From his studio came the sound of voices, West’s hearty laugh and Fallowby’s chuckle, and at last he found the knob and, pushing back the door, stood a moment confused by the light.",
   "words": [
-    "chuckle"
+    {
+      "word": "chuckle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The King in Yellow",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The sun was now setting. It was about three in the afternoon when Alisande had begun to tell me who the cowboys were; so she had made pretty good progress with it--for her. She would arrive some time or other, no doubt, but she was not a person who could be hurried. We were approaching a castle which stood on high ground; a huge, strong, venerable structure, whose gray towers and battlements were charmingly draped with ivy, and whose whole majestic mass was drenched with splendors flung from the sinking sun. It was the largest castle we had seen, and so I thought it might be the one we were after, but Sandy said no.",
   "words": [
-    "approaching",
-    "towers"
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "towers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

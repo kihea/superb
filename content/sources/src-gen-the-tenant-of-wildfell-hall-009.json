@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then taking off his hat, he added: “But look here, Helen—what can a man do with such a head as this?” The head looked right enough, but when he placed my hand on the top of it, it sunk in a bed of curls, rather alarmingly low, especially in the middle. “You see I was not made to be a saint,” said he, laughing, “If God meant me to be religious, why didn’t He give me a proper organ of veneration?” “You are like the servant,” I replied, “who, instead of employing his one talent in his master’s service, restored it to him unimproved, alleging, as an excuse, that he knew him ‘to be a hard man, reaping where he had not sown, and gathering where he had not strawed.’ Of him to whom less is given, less will be required, but our utmost exertions are required of us all.",
   "words": [
-    "servant"
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

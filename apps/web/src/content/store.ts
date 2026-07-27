@@ -146,7 +146,17 @@ export async function candidatesFor(exclude: Set<string>): Promise<ContentFrame>
   const candidates: Candidate[] = [...curated, ...rest].map((r) =>
     r.pool === "composed"
       ? { id: r.id, pool: "Composed", slots: r.slots, words: [], topics: topicsOf(r) }
-      : { id: r.id, pool: "Sourced", slots: [], words: r.words, topics: topicsOf(r) },
+      : {
+          id: r.id,
+          pool: "Sourced",
+          slots: [],
+          // ADR-026: content/sources' `words` carries {word, signals}
+          // objects now. The engine's Candidate only ever needed the word
+          // itself -- signals are an audit-trail concern downstream of
+          // scheduling, not a scheduling input.
+          words: r.words.map((w) => w.word),
+          topics: topicsOf(r),
+        },
   );
 
   return {

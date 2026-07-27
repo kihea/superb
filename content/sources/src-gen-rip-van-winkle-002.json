@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The result of all these researches was a history of the province during the reign of the Dutch governors, which he published some years since. There have been various opinions as to the literary character of his work, and, to tell the truth, it is not a whit better than it should be. Its chief merit is its scrupulous accuracy, which indeed was a little questioned on its first appearance, but has since been completely established; and it is now admitted into all historical collections as a book of unquestionable authority. The old gentleman died shortly after the publication of his work; and now that he is dead and gone, it cannot do much harm to his memory to say that his time might have been much better employed in weightier labours.",
   "words": [
-    "governors"
+    {
+      "word": "governors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

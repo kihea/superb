@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "“It's the most beautiful place I ever saw!” said Cedric, his round face flushing with pleasure. “It reminds any one of a king's palace. I saw a picture of one once in a fairy-book.” He saw the great entrance-door thrown open and many servants standing in two lines looking at him. He wondered why they were standing there, and admired their liveries very much. He did not know that they were there to do honor to the little boy to whom all this splendor would one day belong,--the beautiful castle like the fairy king's palace, the magnificent park, the grand old trees, the dells full of ferns and bluebells where the hares and rabbits played, the dappled, large-eyed deer couching in the deep grass.",
   "words": [
-    "flushing",
-    "fairy",
-    "servants",
-    "magnificent",
-    "rabbits",
-    "deer"
+    {
+      "word": "flushing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "magnificent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rabbits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

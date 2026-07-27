@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "A look of surprise passed over the face of my companion as he listened to it. It came slowly along the passage, and there was a feeble tap at the door. “Come in,” I cried. At my summons, instead of the man of violence whom we expected, a very old and wrinkled woman hobbled into the apartment. She appeared to be dazzled by the sudden blaze of light, and after dropping a curtsey, she stood blinking at us with her bleared eyes and fumbling in her pocket with nervous, shaky fingers.",
   "words": [
-    "blaze",
-    "blinking"
+    {
+      "word": "blaze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blinking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Study in Scarlet",

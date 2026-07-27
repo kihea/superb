@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "As he spoke she saw his expression change, and his eyes grow younger, almost boyish, with a concentrated look in them that reminded her of long-forgotten things. \"I mean to have the best, you know; not just to get ahead of the other fellows, but because I know it when I see it. I guess that's the only good reason,\" he concluded; and he added, looking at her with a smile: \"It was what you were always after, wasn't it?\" XLII Undine had gained her point, and the entresol of the Hotel de Chelles reopened its doors for the season. Hubert and his wife, in expectation of the birth of an heir, had withdrawn to the sumptuous chateau which General Arlington had hired for them near Compiegne, and Undine was at least spared the sight of their bright windows and animated stairway.",
   "words": [
-    "expectation"
+    {
+      "word": "expectation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

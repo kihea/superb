@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The treachery, or the folly, of my cousin's maid betrayed us. I was banished to the house of a relation far distant, and she was allowed no liberty, no society, no amusement, till my father's point was gained. I had depended on her fortitude too far, and the blow was a severe one, but had her marriage been happy, so young as I then was, a few months must have reconciled me to it, or at least I should not have now to lament it. This however was not the case. My brother had no regard for her; his pleasures were not what they ought to have been, and from the first he treated her unkindly.",
   "words": [
-    "maid",
-    "betrayed",
-    "distant"
+    {
+      "word": "maid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "betrayed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sense and Sensibility",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Over the bookcase hung a photograph of the Tragic Theatre at Pompeii, which he had given me from his collection. When I sat at work I half-faced a deep, upholstered chair which stood at the end of my table, its high back against the wall. I had bought it with great care. My instructor sometimes looked in upon me when he was out for an evening tramp, and I noticed that he was more likely to linger and become talkative if I had a comfortable chair for him to sit in, and if he found a bottle of Benedictine and plenty of the kind of cigarettes he liked, at his elbow. He was, I had discovered, parsimonious about small expenditures—a trait absolutely inconsistent with his general character.",
   "words": [
-    "cigarettes"
+    {
+      "word": "cigarettes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

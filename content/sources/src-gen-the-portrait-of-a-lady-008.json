@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“But I don’t know why.” “Fortunately ladies are not obliged to give reasons,” said her uncle. “There’s a great deal that’s attractive about such an idea; but I don’t see why the English should want to entice us away from our native land. I know that we try to attract them over there, but that’s because our population is insufficient. Here, you know, they’re rather crowded. However, I presume there’s room for charming young ladies everywhere.” “There seems to have been room here for you,” said Isabel, whose eyes had been wandering over the large pleasure-spaces of the park.",
   "words": [
-    "entice"
+    {
+      "word": "entice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

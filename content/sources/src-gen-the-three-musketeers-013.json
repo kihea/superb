@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "A bad joke of the husband’s substituted the other; but the husband has been punished since, and I have obtained full satisfaction.” Planchet and Grimaud appeared in their turn, leading their masters’ steeds. D’Artagnan and Athos put themselves into saddle with their companions, and all four set forward; Athos upon a horse he owed to a woman, Aramis on a horse he owed to his mistress, Porthos on a horse he owed to his procurator’s wife, and D’Artagnan on a horse he owed to his good fortune—the best mistress possible. The lackeys followed. As Porthos had foreseen, the cavalcade produced a good effect; and if Mme. Coquenard had met Porthos and seen what a superb appearance he made upon his handsome Spanish genet, she would not have regretted the bleeding she had inflicted upon the strongbox of her husband.",
   "words": [
-    "saddle",
-    "mistress",
-    "superb"
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "superb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

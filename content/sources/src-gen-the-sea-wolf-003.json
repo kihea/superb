@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“That’s what you call a paradox, isn’t it?” he added. He seemed pleased when I nodded my head with the customary “Yes, sir.” “I suppose you know a bit about literary things? I’ll have some talks with you some time.” And then, taking no further account of me, he turned his back and went up on deck. That night, when I had finished an endless amount of work, I was sent to sleep in the steerage, where I made up a spare bunk. I was glad to get out of the detestable presence of the cook and to be off my feet.",
   "words": [
-    "nodded"
+    {
+      "word": "nodded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

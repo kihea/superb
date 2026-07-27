@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But I think,” he went on softly and reflectively, “I think you Americans are too modest. I think you idealize the English aristocracy--even in assuming it to be so aristocratic. You see a good-looking Englishman in evening-dress; you know he’s in the House of Lords; and you fancy he has a father. You don’t allow for our national buoyancy and uplift. Many of our most influential noblemen have not only risen recently, but--” “Oh, stop it!” cried Greywood Usher, wringing one lean hand in impatience against a shade of irony in the other’s face.",
   "words": [
-    "aristocratic"
+    {
+      "word": "aristocratic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

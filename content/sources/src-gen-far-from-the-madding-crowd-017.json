@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Bathsheba did not at once perceive that the grand tomb and the disturbed grave were Fanny’s, and she looked on both sides and around for some humbler mound, earthed up and clodded in the usual way. Then her eye followed Oak’s, and she read the words with which the inscription opened:— “Erected by Francis Troy in memory of Fanny Robin.” Oak saw her, and his first act was to gaze inquiringly and learn how she received this knowledge of the authorship of the work, which to himself had caused considerable astonishment. But such discoveries did not much affect her now. Emotional convulsions seemed to have become the commonplaces of her history, and she bade him good-morning, and asked him to fill in the hole with the spade which was standing by. Whilst Oak was doing as she desired, Bathsheba collected the flowers, and began planting them with that sympathetic manipulation of roots and leaves which is so conspicuous in a woman’s gardening, and which flowers seem to understand and thrive upon.",
   "words": [
-    "perceive",
-    "inscription"
+    {
+      "word": "perceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inscription",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

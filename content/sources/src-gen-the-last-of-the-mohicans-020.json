@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "See, see; the knaves are getting in that clump of pines, like bees settling after their flight. By the Lord, a squaw might put a bullet into the center of such a knot of dark skins!” At that instant the whoop was given, and a dozen Hurons fell by a discharge from Chingachgook and his band. The shout that followed was answered by a single war-cry from the forest, and a yell passed through the air that sounded as if a thousand throats were united in a common effort. The Hurons staggered, deserting the center of their line, and Uncas issued from the forest through the opening they left, at the head of a hundred warriors. Waving his hands right and left, the young chief pointed out the enemy to his followers, who separated in pursuit.",
   "words": [
-    "whoop",
-    "shout",
-    "yell",
-    "waving"
+    {
+      "word": "whoop",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

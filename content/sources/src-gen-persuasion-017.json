@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“I wish I had any name but Elliot. I am sick of it. The name of Walter I can drop, thank God! and I desire you will never insult me with my second W. again, meaning, for the rest of my life, to be only yours truly, “WM. ELLIOT.” Such a letter could not be read without putting Anne in a glow; and Mrs Smith, observing the high colour in her face, said— “The language, I know, is highly disrespectful.",
   "words": [
-    "insult",
-    "glow"
+    {
+      "word": "insult",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "glow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Persuasion",

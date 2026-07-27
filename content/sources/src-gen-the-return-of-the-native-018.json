@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The little gate in the palings before his dwelling continually opened and clicked together again, but when he looked out eagerly nobody was there; it was as if invisible shapes of the dead were passing in on their way to visit him. Between ten and eleven o’clock, finding that neither Fairway nor anybody else came to him, he retired to rest, and despite his anxieties soon fell asleep. His sleep, however, was not very sound, by reason of the expectancy he had given way to, and he was easily awakened by a knocking which began at the door about an hour after. Clym arose and looked out of the window. Rain was still falling heavily, the whole expanse of heath before him emitting a subdued hiss under the downpour.",
   "words": [
-    "dwelling",
-    "knocking"
+    {
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

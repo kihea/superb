@@ -3,9 +3,25 @@
   "pool": "sourced",
   "text": "Flambeau, who was a friend of Angus, received him in a rococo artistic den behind his office, of which the ornaments were sabres, harquebuses, Eastern curiosities, flasks of Italian wine, savage cooking-pots, a plumy Persian cat, and a small dusty-looking Roman Catholic priest, who looked particularly out of place. “This is my friend Father Brown,” said Flambeau. “I’ve often wanted you to meet him. Splendid weather, this; a little cold for Southerners like me.” “Yes, I think it will keep clear,” said Angus, sitting down on a violet-striped Eastern ottoman. “No,” said the priest quietly, “it has begun to snow.” And, indeed, as he spoke, the first few flakes, foreseen by the man of chestnuts, began to drift across the darkening windowpane.",
   "words": [
-    "pots",
-    "violet",
-    "quietly"
+    {
+      "word": "pots",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "violet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

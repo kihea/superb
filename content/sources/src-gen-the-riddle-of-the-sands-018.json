@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I had encountered a brick-field, but soon after that there was increasing proof that the canal was as yet little used for traffic. It grew narrower, and there were many signs of recent labour for its improvement. In one place a dammed-off deviation was being excavated, evidently to abridge an impossible bend. The path had become atrocious, and my boots were heavy with clay. Bearing in mind the abruptly-ending blue line on the map, I considered it useless to go farther, and retraced my steps, trying to concoct a story which would satisfy an irritable Esens inn-keeper that it was a respectable wayfarer, and not a tramp or a lunatic, who knocked him up at half-past one or thereabouts.",
   "words": [
-    "deviation",
-    "keeper",
-    "tramp"
+    {
+      "word": "deviation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "keeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tramp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

@@ -3,14 +3,54 @@
   "pool": "sourced",
   "text": "As they ascended, Rip every now and then heard long, rolling peals, like distant thunder, that seemed to issue out of a deep ravine, or rather cleft, between lofty rocks, toward which their ragged path conducted. He paused for an instant, but supposing it to be the muttering of one of those transient thunder-showers which often take place in mountain heights, he proceeded. Passing through the ravine, they came to a hollow, like a small amphitheatre, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky and the bright evening cloud. During the whole time Rip and his companion had laboured on in silence; for though the former marvelled greatly what could be the object of carrying a keg of liquor up this wild mountain, yet there was something strange and incomprehensible about the unknown, that inspired awe and checked familiarity. On entering the amphitheatre, new objects of wonder presented themselves.",
   "words": [
-    "paused",
-    "transient",
-    "heights",
-    "hollow",
-    "perpendicular",
-    "glimpses",
-    "azure",
-    "companion"
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heights",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hollow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perpendicular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glimpses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "azure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

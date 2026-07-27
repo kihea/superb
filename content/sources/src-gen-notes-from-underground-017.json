@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I was exhausted, shattered, in bewilderment. But behind the bewilderment the truth was already gleaming. The loathsome truth. VIII It was some time, however, before I consented to recognise that truth. Waking up in the morning after some hours of heavy, leaden sleep, and immediately realising all that had happened on the previous day, I was positively amazed at my last night’s sentimentality with Liza, at all those “outcries of horror and pity.” “To think of having such an attack of womanish hysteria, pah!” I concluded.",
   "words": [
-    "recognise"
+    {
+      "word": "recognise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Notes from Underground",

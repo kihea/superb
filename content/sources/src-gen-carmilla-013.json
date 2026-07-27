@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "The interpretation did not strike me; and I fancied, perhaps luckily for my nerves, that the arrangement was prescribed simply to secure a companion, who would prevent my taking too much exercise, or eating unripe fruit, or doing any of the fifty foolish things to which young people are supposed to be prone. About half an hour after my father came in—he had a letter in his hand—and said: “This letter had been delayed; it is from General Spielsdorf. He might have been here yesterday, he may not come till tomorrow or he may be here today.” He put the open letter into my hand; but he did not look pleased, as he used when a guest, especially one so much loved as the General, was coming. On the contrary, he looked as if he wished him at the bottom of the Red Sea. There was plainly something on his mind which he did not choose to divulge.",
   "words": [
-    "companion",
-    "foolish",
-    "wished",
-    "plainly"
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plainly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I'm on them so much that by bedtime my ankles feel like a chocolat mousse that's been left out in the sun. Yet this isn't a whimper, Matilda Anne, for when I turn in I sleep like a child. No more counting and going to the medicine-chest for coal-tar pills. I abjure them. I, who used to have so many tricks to bring the starry-eyed goddess bending over my pillow, hereby announce myself as the noblest sleeper north of the Line!",
   "words": [
-    "bedtime",
-    "pillow"
+    {
+      "word": "bedtime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prairie",

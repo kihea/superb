@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "When grandmother and I went into the Shimerdas’ house, we found the womenfolk alone; Ambrosch and Marek were at the barn. Mrs. Shimerda sat crouching by the stove, Ántonia was washing dishes. When she saw me, she ran out of her dark corner and threw her arms around me. ‘Oh, Jimmy,’ she sobbed, ‘what you tink for my lovely papa!’ It seemed to me that I could feel her heart breaking as she clung to me. Mrs. Shimerda, sitting on the stump by the stove, kept looking over her shoulder toward the door while the neighbours were arriving.",
   "words": [
-    "barn"
+    {
+      "word": "barn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

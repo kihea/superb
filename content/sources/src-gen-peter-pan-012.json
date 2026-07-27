@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Presently he noticed as an odd thing that it was undoubtedly out upon the lagoon with some definite purpose, for it was fighting the tide, and sometimes winning; and when it won, Peter, always sympathetic to the weaker side, could not help clapping; it was such a gallant piece of paper. It was not really a piece of paper; it was the Never bird, making desperate efforts to reach Peter on the nest. By working her wings, in a way she had learned since the nest fell into the water, she was able to some extent to guide her strange craft, but by the time Peter recognised her she was very exhausted. She had come to save him, to give him her nest, though there were eggs in it. I rather wonder at the bird, for though he had been nice to her, he had also sometimes tormented her.",
   "words": [
-    "lagoon",
-    "nest",
-    "recognised"
+    {
+      "word": "lagoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recognised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

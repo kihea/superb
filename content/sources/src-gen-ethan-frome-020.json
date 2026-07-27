@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "One of them, on my appearing, raised her tall bony figure from her seat, not as if to welcome me—for she threw me no more than a brief glance of surprise—but simply to set about preparing the meal which Frome’s absence had delayed. A slatternly calico wrapper hung from her shoulders and the wisps of her thin grey hair were drawn away from a high forehead and fastened at the back by a broken comb. She had pale opaque eyes which revealed nothing and reflected nothing, and her narrow lips were of the same sallow colour as her face. The other woman was much smaller and slighter. She sat huddled in an arm-chair near the stove, and when I came in she turned her head quickly toward me, without the least corresponding movement of her body.",
   "words": [
-    "shoulders",
-    "forehead",
-    "reflected",
-    "stove"
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"There's no Mauclair and no assistants! No one at the lights, I tell you! You can imagine,\" roared the stage-manager, \"that that little girl must have been carried off by somebody else: she didn't run away by herself! It was a calculated stroke and we have to find out about it ... And what are the managers doing all this time? I gave orders that no one was to go down to the lights and I posted a fireman in front of the gas-man's box beside the organ.",
   "words": [
-    "beside"
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

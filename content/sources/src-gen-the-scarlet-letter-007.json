@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Mother and daughter stood together in the same circle of seclusion from human society; and in the nature of the child seemed to be perpetuated those unquiet elements that had distracted Hester Prynne before Pearl’s birth, but had since begun to be soothed away by the softening influences of maternity. At home, within and around her mother’s cottage, Pearl wanted not a wide and various circle of acquaintance. The spell of life went forth from her ever-creative spirit, and communicated itself to a thousand objects, as a torch kindles a flame wherever it may be applied. The unlikeliest materials—a stick, a bunch of rags, a flower—were the puppets of Pearl’s witchcraft, and, without undergoing any outward change, became spiritually adapted to whatever drama occupied the stage of her inner world. Her one baby-voice served a multitude of imaginary personages, old and young, to talk withal.",
   "words": [
-    "influences",
-    "maternity",
-    "torch",
-    "rags",
-    "spiritually"
+    {
+      "word": "influences",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maternity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rags",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "spiritually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

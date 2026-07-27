@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "the charms of Aouda failed to act, to Passepartout’s great surprise; and the disturbances, if they existed, would have been more difficult to calculate than those of Uranus which led to the discovery of Neptune. It was every day an increasing wonder to Passepartout, who read in Aouda’s eyes the depths of her gratitude to his master. Phileas Fogg, though brave and gallant, must be, he thought, quite heartless. As to the sentiment which this journey might have awakened in him, there was clearly no trace of such a thing; while poor Passepartout existed in perpetual reveries. One day he was leaning on the railing of the engine-room, and was observing the engine, when a sudden pitch of the steamer threw the screw out of the water.",
   "words": [
-    "charms",
-    "disturbances",
-    "gallant",
-    "sentiment",
-    "trace"
+    {
+      "word": "charms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disturbances",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gallant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Around the World in Eighty Days",

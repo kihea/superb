@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Last night I was again obliged to give him morphine—the only drug that gives him any relief.” She spoke in a soft voice. Everything about her expressed gentleness. She was, indeed, a beautiful woman; somewhat with an air of indolence, with great eyes seemingly black and blue—amorous eyes. Was she happy with her crabbed, rheumatic husband? The scene at which we had once been present did not lead us to believe that she was; yet there was something in her bearing that was not suggestive of despair.",
   "words": [
-    "despair"
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

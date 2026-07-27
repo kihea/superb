@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Just over the way,’ repeats Mr Brass’s gentleman, with a glance at the court.--‘Alone, sir?’--‘I beg your pardon,’ says Mr Swiveller, who has not caught the question--‘Alone, sir?’ repeats Mr Brass’s gentleman in a voice of thunder, ‘did you dine alone? Did you treat anybody, sir? Come!’--‘Oh yes, to be sure--yes, I did,’ says Mr Swiveller with a smile.--‘Have the goodness to banish a levity, sir, which is very ill-suited to the place in which you stand (though perhaps you have reason to be thankful that it’s only that place),’ says Mr Brass’s gentleman, with a nod of the head, insinuating that the dock is Mr Swiveller’s legitimate sphere of action; ‘and attend to me. You were waiting about here, yesterday, in expectation that this trial was coming on. You dined over the way.",
   "words": [
-    "nod"
+    {
+      "word": "nod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

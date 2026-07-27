@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "A hundred yards farther on, Buck came upon one of the sled-dogs Thornton had bought in Dawson. This dog was thrashing about in a death-struggle, directly on the trail, and Buck passed around him without stopping. From the camp came the faint sound of many voices, rising and falling in a sing-song chant. Bellying forward to the edge of the clearing, he found Hans, lying on his face, feathered with arrows like a porcupine. At the same instant Buck peered out where the spruce-bough lodge had been and saw what made his hair leap straight up on his neck and shoulders.",
   "words": [
-    "farther",
-    "chant",
-    "spruce",
-    "shoulders"
+    {
+      "word": "farther",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spruce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

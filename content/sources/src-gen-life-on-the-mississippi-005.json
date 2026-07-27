@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "the paddle-wheel has ground the sounding-boat to lucifer matches! See who is killed!' I was on the main deck in the twinkling of an eye. My chief and the third mate and nearly all the men were safe. They had discovered their danger when it was too late to pull out of the way; then, when the great guards overshadowed them a moment later, they were prepared and knew what to do; at my chiefs order they sprang at the right instant, seized the guard, and were hauled aboard.",
   "words": [
-    "paddle",
-    "aboard"
+    {
+      "word": "paddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

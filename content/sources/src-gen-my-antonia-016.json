@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But the lines were enough. She had only to utter them. They created the character in spite of her. The heartless world which Marguerite re-entered with Varville had never been so glittering and reckless as on the night when it gathered in Olympe’s salon for the fourth act. There were chandeliers hung from the ceiling, I remember, many servants in livery, gaming-tables where the men played with piles of gold, and a staircase down which the guests made their entrance.",
   "words": [
-    "salon"
+    {
+      "word": "salon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "My Ántonia",

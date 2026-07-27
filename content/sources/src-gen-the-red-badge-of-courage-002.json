@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Almost every day the newspaper printed accounts of a decisive victory. One night, as he lay in bed, the winds had carried to him the clangoring of the church bell as some enthusiast jerked the rope frantically to tell the twisted news of a great battle. This voice of the people rejoicing in the night had made him shiver in a prolonged ecstasy of excitement. Later, he had gone down to his mother’s room and had spoken thus: “Ma, I’m going to enlist.” “Henry, don’t you be a fool,” his mother had replied. She had then covered her face with the quilt.",
   "words": [
-    "rope",
-    "quilt"
+    {
+      "word": "rope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quilt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

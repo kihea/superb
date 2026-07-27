@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The mercer fancied himself already on the high road to honors and fortune. On her side Mme. Bonacieux had also reflected; but, it must be admitted, upon something widely different from ambition. In spite of herself her thoughts constantly reverted to that handsome young man who was so brave and appeared to be so much in love. Married at eighteen to M. Bonacieux, having always lived among her husband’s friends—people little capable of inspiring any sentiment whatever in a young woman whose heart was above her position—Mme.",
   "words": [
-    "ambition"
+    {
+      "word": "ambition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Bless those women; they never do anything by halves. They are always in earnest. She was very pretty: exceedingly pretty. With a dimpled, surprised-looking, capital face; a ripe little mouth, that seemed made to be kissed--as no doubt it was; all kinds of good little dots about her chin, that melted into one another when she laughed; and the sunniest pair of eyes you ever saw in any little creature's head. Altogether she was what you would have called provoking, you know; but satisfactory, too.",
   "words": [
-    "halves",
-    "chin"
+    {
+      "word": "halves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

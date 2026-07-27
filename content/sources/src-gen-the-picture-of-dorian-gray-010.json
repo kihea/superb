@@ -3,7 +3,13 @@
   "pool": "sourced",
   "text": "I fancy that the true explanation is this: It often happens that the real tragedies of life occur in such an inartistic manner that they hurt us by their crude violence, their absolute incoherence, their absurd want of meaning, their entire lack of style. They affect us just as vulgarity affects us. They give us an impression of sheer brute force, and we revolt against that. Sometimes, however, a tragedy that possesses artistic elements of beauty crosses our lives. If these elements of beauty are real, the whole thing simply appeals to our sense of dramatic effect.",
   "words": [
-    "absurd"
+    {
+      "word": "absurd",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

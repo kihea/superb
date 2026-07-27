@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In not six of all these books is there mention of these Upper River towns--for the reason that the five or six tourists who penetrated this region did it before these towns were projected. The latest tourist of them all (1878) made the same old regulation trip--he had not heard that there was anything north of St. Louis. Yet there was. There was this amazing region, bristling with great towns, projected day before yesterday, so to speak, and built next morning. A score of them number from fifteen hundred to five thousand people.",
   "words": [
-    "fifteen"
+    {
+      "word": "fifteen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

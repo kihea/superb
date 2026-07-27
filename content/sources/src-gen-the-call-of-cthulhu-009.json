@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Five of the worshipers lay dead, and two severely wounded ones were carried away on improvised stretchers by their fellow-prisoners. The image on the monolith, of course, was carefully removed and carried back by Legrasse. Examined at headquarters after a trip of intense strain and weariness, the prisoners all proved to be men of a very low, mixed-blooded, and mentally aberrant type. Most were seamen, and a sprinkling of negroes and mulattoes, largely West Indians or Brava Portuguese from the Cape Verde Islands, gave a coloring of voodooism to the heterogeneous cult. But before many questions were asked, it became manifest that something far deeper and older than negro fetishism was involved.",
   "words": [
-    "improvised",
-    "examined",
-    "blooded"
+    {
+      "word": "improvised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "examined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blooded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

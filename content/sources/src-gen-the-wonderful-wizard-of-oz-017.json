@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“When I get used to my brains I shall know everything.” “Why are those needles and pins sticking out of your head?” asked the Tin Woodman. “That is proof that he is sharp,” remarked the Lion. “Well, I must go to Oz and get my heart,” said the Woodman. So he walked to the Throne Room and knocked at the door. “Come in,” called Oz, and the Woodman entered and said, “I have come for my heart.” “Very well,” answered the little man.",
   "words": [
-    "needles"
+    {
+      "word": "needles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

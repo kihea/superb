@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Athos then made him a sign to take up his basket and to walk on first. Grimaud obeyed. All that Grimaud gained by this momentary pantomime was to pass from the rear guard to the vanguard. Arrived at the bastion, the four friends turned round. More than three hundred soldiers of all kinds were assembled at the gate of the camp; and in a separate group might be distinguished M. de Busigny, the dragoon, the Swiss, and the fourth bettor.",
   "words": [
-    "basket"
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

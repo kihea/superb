@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But who looks at it to-day? Ah, the world is too much for us.” Miss Bartlett had not heard of Alessio Baldovinetti, but she knew that Mr. Eager was no commonplace chaplain. He was a member of the residential colony who had made Florence their home. He knew the people who never walked about with Baedekers, who had learnt to take a siesta after lunch, who took drives the pension tourists had never heard of, and saw by private influence galleries which were closed to them.",
   "words": [
-    "chaplain"
+    {
+      "word": "chaplain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

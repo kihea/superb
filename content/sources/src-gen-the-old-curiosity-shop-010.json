@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "After a very gallant parting on his side, and a very cool and gentlemanly sort of one on hers, he nodded to Dick Swiveller, and withdrew with the attorney. Dick stood at the desk in a state of utter stupefaction, staring with all his might at the beauteous Sally, as if she had been some curious animal whose like had never lived. When the dwarf got into the street, he mounted again upon the window-sill, and looked into the office for a moment with a grinning face, as a man might peep into a cage. Dick glanced upward at him, but without any token of recognition; and long after he had disappeared, still stood gazing upon Miss Sally Brass, seeing or thinking of nothing else, and rooted to the spot. Miss Brass being by this time deep in the bill of costs, took no notice whatever of Dick, but went scratching on, with a noisy pen, scoring down the figures with evident delight, and working like a steam-engine.",
   "words": [
-    "hers",
-    "dwarf",
-    "token"
+    {
+      "word": "hers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwarf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "token",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“You must be very quiet, or you will be ill again; and you have been very bad,—as bad as bad could be, pretty nigh. Lie down again; there’s a dear!” With those words, the old lady very gently placed Oliver’s head upon the pillow; and, smoothing back his hair from his forehead, looked so kindly and loving in his face, that he could not help placing his little withered hand in hers, and drawing it round his neck. “Save us!” said the old lady, with tears in her eyes. “What a grateful little dear it is. Pretty creetur!",
   "words": [
-    "pillow",
-    "forehead"
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

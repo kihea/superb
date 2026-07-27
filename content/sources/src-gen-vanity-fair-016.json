@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Bedwin, his costumes, and black man, were hailed at Gaunt House as very valuable acquisitions. He led off the first charade. A Turkish officer with an immense plume of feathers (the Janizaries were supposed to be still in existence, and the tarboosh had not as yet displaced the ancient and majestic head-dress of the true believers) was seen couched on a divan, and making believe to puff at a narghile, in which, however, for the sake of the ladies, only a fragrant pastille was allowed to smoke. The Turkish dignitary yawns and expresses signs of weariness and idleness. He claps his hands and Mesrour the Nubian appears, with bare arms, bangles, yataghans, and every Eastern ornament--gaunt, tall, and hideous.",
   "words": [
-    "costumes",
-    "expresses"
+    {
+      "word": "costumes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expresses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

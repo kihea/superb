@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "On nearer approach he was still more surprised at the singularity of the stranger’s appearance. He was a short, square-built old fellow, with thick bushy hair, and a grizzled beard. His dress was of the antique Dutch fashion: a cloth jerkin strapped round the waist--several pair of breeches, the outer one of ample volume, decorated with rows of buttons down the sides, and bunches at the knees. He bore on his shoulder a stout keg, that seemed full of liquor, and made signs for Rip to approach and assist him with the load. Though rather shy and distrustful of his new acquaintance, Rip complied with his usual alacrity; and mutually relieving one another, they clambered up a narrow gully, apparently the dry bed of a mountain torrent.",
   "words": [
-    "beard",
-    "cloth",
-    "strapped"
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cloth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strapped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

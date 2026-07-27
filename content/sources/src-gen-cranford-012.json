@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Have you seen any men lurking about the house?” “Oh, yes!” answered Miss Pole. “Two very bad-looking men have gone three times past the house, very slowly; and an Irish beggar-woman came not half-an-hour ago, and all but forced herself in past Betty, saying her children were starving, and she must speak to the mistress. You see, she said ‘mistress,’ though there was a hat hanging up in the hall, and it would have been more natural to have said ‘master.’ But Betty shut the door in her face, and came up to me, and we got the spoons together, and sat in the parlour-window watching till we saw Thomas Jones going from his work, when we called to him and asked him to take care of us into the town.” We might have triumphed over Miss Pole, who had professed such bravery until she was frightened; but we were too glad to perceive that she shared in the weaknesses of humanity to exult over her; and I gave up my room to her very willingly, and shared Miss Matty’s bed for the night.",
   "words": [
-    "mistress",
-    "perceive"
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "But what he chiefly wondered at was, how such vast tracts of ground as I described should be wholly without fresh water, and the people put to the necessity of sending over the sea for drink.” I replied “that England (the dear place of my nativity) was computed to produce three times the quantity of food more than its inhabitants are able to consume, as well as liquors extracted from grain, or pressed out of the fruit of certain trees, which made excellent drink, and the same proportion in every other convenience of life. But, in order to feed the luxury and intemperance of the males, and the vanity of the females, we sent away the greatest part of our necessary things to other countries, whence, in return, we brought the materials of diseases, folly, and vice, to spend among ourselves. Hence it follows of necessity, that vast numbers of our people are compelled to seek their livelihood by begging, robbing, stealing, cheating, pimping, flattering, suborning, forswearing, forging, gaming, lying, fawning, hectoring, voting, scribbling, star-gazing, poisoning, whoring, canting, libelling, freethinking, and the like occupations:” every one of which terms I was at much pains to make him understand.",
   "words": [
-    "necessity",
-    "nativity",
-    "grain",
-    "proportion",
-    "livelihood",
-    "cheating",
-    "occupations"
+    {
+      "word": "necessity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nativity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "livelihood",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occupations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

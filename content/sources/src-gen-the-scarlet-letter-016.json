@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The ray quivered to and fro, making her figure dim or distinct—now like a real child, now like a child’s spirit—as the splendour went and came again. She heard her mother’s voice, and approached slowly through the forest. Pearl had not found the hour pass wearisomely while her mother sat talking with the clergyman. The great black forest—stern as it showed itself to those who brought the guilt and troubles of the world into its bosom—became the playmate of the lonely infant, as well as it knew how. Sombre as it was, it put on the kindest of its moods to welcome her.",
   "words": [
-    "pearl"
+    {
+      "word": "pearl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Scarlet Letter",

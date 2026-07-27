@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then her absolute disregard for her duties as a wife angered him. When Mr. Pontellier became rude, Edna grew insolent. She had resolved never to take another step backward. “It seems to me the utmost folly for a woman at the head of a household, and the mother of children, to spend in an atelier days which would be better employed contriving for the comfort of her family.” “I feel like painting,” answered Edna. “Perhaps I shan’t always feel like it.” “Then in God’s name paint!",
   "words": [
-    "utmost"
+    {
+      "word": "utmost",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

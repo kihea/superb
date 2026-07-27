@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I’d ha’ been glad to behave to you like a mother’s sister, if you’d come and live i’ this country where there’s some shelter and victual for man and beast, and folks don’t live on the naked hills, like poultry a-scratching on a gravel bank. And then you might get married to some decent man, and there’d be plenty ready to have you, if you’d only leave off that preaching, as is ten times worse than anything your Aunt Judith ever did. And even if you’d marry Seth Bede, as is a poor wool-gathering Methodist and’s never like to have a penny beforehand, I know your uncle ’ud help you with a pig, and very like a cow, for he’s allays been good-natur’d to my kin, for all they’re poor, and made ’em welcome to the house; and ’ud do for you, I’ll be bound, as much as ever he’d do for Hetty, though she’s his own niece. And there’s linen in the house as I could well spare you, for I’ve got lots o’ sheeting and table-clothing, and towelling, as isn’t made up.",
   "words": [
-    "behave",
-    "niece",
-    "linen"
+    {
+      "word": "behave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

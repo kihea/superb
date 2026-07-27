@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The first thing she saw, when looking out of her window, was a hearse. She was very superstitious; and the hearse and the letter convinced her that she was running the most serious dangers that evening. She collected all her supporters, told them that she was threatened at that evening's performance with a plot organized by Christine Daae and declared that they must play a trick upon that chit by filling the house with her, Carlotta's, admirers. She had no lack of them, had she? She relied upon them to hold themselves prepared for any eventuality and to silence the adversaries, if, as she feared, they created a disturbance.",
   "words": [
-    "dangers",
-    "adversaries"
+    {
+      "word": "dangers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "adversaries",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

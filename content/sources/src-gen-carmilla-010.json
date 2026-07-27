@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I could not bear next day to be alone for a moment. I should have told papa, but for two opposite reasons. At one time I thought he would laugh at my story, and I could not bear its being treated as a jest; and at another I thought he might fancy that I had been attacked by the mysterious complaint which had invaded our neighborhood. I had myself no misgiving of the kind, and as he had been rather an invalid for some time, I was afraid of alarming him. I was comfortable enough with my good-natured companions, Madame Perrodon, and the vivacious Mademoiselle Lafontaine.",
   "words": [
-    "papa",
-    "companions"
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

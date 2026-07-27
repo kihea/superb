@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“No,” said Smith, “that will be all right till we get home.” He spoke in a very loud, offhand way, and I thought it very unlike him not to see about the shoe, as he was generally wonderfully particular about loose nails in our shoes. He did not come at six nor seven, nor eight, and it was nearly nine o'clock before he called for me, and then it was with a loud, rough voice. He seemed in a very bad temper, and abused the hostler, though I could not tell what for. The landlord stood at the door and said, “Have a care, Mr. Smith!” but he answered angrily with an oath; and almost before he was out of the town he began to gallop, frequently giving me a sharp cut with his whip, though I was going at full speed. The moon had not yet risen, and it was very dark.",
   "words": [
-    "temper",
-    "abused",
-    "whip"
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Black Beauty",

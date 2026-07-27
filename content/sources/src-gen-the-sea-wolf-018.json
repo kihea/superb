@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Not only had we resigned ourselves to the bitter winter, but we were prepared for it. The seals could depart on their mysterious journey into the south at any time, now, for all we cared; and the storms held no terror for us. Not only were we sure of being dry and warm and sheltered from the wind, but we had the softest and most luxurious mattresses that could be made from moss. This had been Maud’s idea, and she had herself jealously gathered all the moss. This was to be my first night on the mattress, and I knew I should sleep the sweeter because she had made it.",
   "words": [
-    "moss",
-    "mattress"
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mattress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

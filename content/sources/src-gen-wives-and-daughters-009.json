@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "Roger, who ought to have made himself agreeable to one or the other of the young ladies, was exceedingly interested in what Mr. Gibson was telling him of a paper on comparative osteology in some foreign journal of science, which Lord Hollingford was in the habit of forwarding to his friend the country surgeon. Yet, every now and then while he listened, he caught his attention wandering to the face of Cynthia, who was placed between his brother and Mr. Gibson. She was not particularly occupied with attending to anything that was going on; her eyelids were carelessly dropped, as she crumbled her bread on the tablecloth, and her beautiful long eyelashes were seen on the clear tint of her oval cheek. She was thinking of something else; Molly was trying to understand with all her might. Suddenly Cynthia looked up, and caught Roger's gaze of intent admiration too fully for her to be unaware that he was staring at her.",
   "words": [
-    "forwarding",
-    "surgeon",
-    "listened",
-    "cheek",
-    "admiration",
-    "staring"
+    {
+      "word": "forwarding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "surgeon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

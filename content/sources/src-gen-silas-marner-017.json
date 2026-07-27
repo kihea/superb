@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The sense of presiding goodness and the human trust which come with all pure peace and joy, had given him a dim impression that there had been some error, some mistake, which had thrown that dark shadow over the days of his best years; and as it grew more and more easy to him to open his mind to Dolly Winthrop, he gradually communicated to her all he could describe of his early life. The communication was necessarily a slow and difficult process, for Silas’s meagre power of explanation was not aided by any readiness of interpretation in Dolly, whose narrow outward experience gave her no key to strange customs, and made every novelty a source of wonder that arrested them at every step of the narrative.",
   "words": [
-    "gradually"
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

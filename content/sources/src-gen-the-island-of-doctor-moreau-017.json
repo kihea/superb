@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then I saw that the dawn was upon us. The sky had grown brighter, the setting moon was becoming pale and opaque in the luminous blue of the day. The sky to the eastward was rimmed with red. Suddenly I heard a thud and a hissing behind me, and, looking round, sprang to my feet with a cry of horror. Against the warm dawn great tumultuous masses of black smoke were boiling up out of the enclosure, and through their stormy darkness shot flickering threads of blood-red flame.",
   "words": [
-    "brighter"
+    {
+      "word": "brighter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

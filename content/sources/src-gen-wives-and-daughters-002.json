@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Poor Mr. Hall never quite got over this mortification; after it he allowed himself to become dim of sight and hard of hearing, and kept pretty closely to the house during the two winters that remained of his life. He sent for an orphan grand-niece to keep him company in his old age; he, the woman-contemning old bachelor, became thankful for the cheerful presence of the pretty, bonny Mary Pearson, who was good and sensible, and nothing more. She formed a close friendship with the daughters of the vicar, Mr. Browning, and Mr. Gibson found time to become very intimate with all three. Hollingford speculated much on which young lady would become Mrs. Gibson, and was rather sorry when the talk about possibilities, and the gossip about probabilities, with regard to the handsome young surgeon's marriage, ended in the most natural manner in the world, by his marrying his predecessor's niece. The two Miss Brownings showed no signs of going into a consumption on the occasion, although their looks and manners were carefully watched.",
   "words": [
-    "winters",
-    "sensible",
-    "intimate",
-    "gossip"
+    {
+      "word": "winters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intimate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gossip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"It sounds as if it came from the attic,\" said Mrs. Carr (for this was before Mamma died). \"Can it be that one of the children has got out of bed and wandered up stairs in her sleep?\" No, Katy and Clover were safe in the nursery; so Dr. Carr took a candle and went as fast as he could to the attic, where the yells were growing terrific. When he reached the top of the stairs, the cries ceased. He looked about.",
   "words": [
-    "nursery"
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

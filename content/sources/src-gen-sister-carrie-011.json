@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In a few moments he was smiling merrily over a very comical account of a baseball game which had taken place between the Chicago and Detroit teams. The while he was doing this Mrs. Hurstwood was observing him casually through the medium of the mirror which was before her. She noticed his pleasant and contented manner, his airy grace and smiling humour, and it merely aggravated her the more. She wondered how he could think to carry himself so in her presence after the cynicism, indifference, and neglect he had heretofore manifested and would continue to manifest so long as she would endure it. She thought how she should like to tell him--what stress and emphasis she would lend her assertions, how she should drive over this whole affair until satisfaction should be rendered her.",
   "words": [
-    "casually",
-    "humour",
-    "endure"
+    {
+      "word": "casually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "endure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Sister Carrie",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The esaul looked in the direction Denísov indicated. “There are two, an officer and a Cossack. But it is not presupposable that it is the lieutenant colonel himself,” said the esaul, who was fond of using words the Cossacks did not know. The approaching riders having descended a decline were no longer visible, but they reappeared a few minutes later. In front, at a weary gallop and using his leather whip, rode an officer, disheveled and drenched, whose trousers had worked up to above his knees.",
   "words": [
-    "whip",
-    "rode",
-    "trousers"
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trousers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "You are much better than you pretend to be.” Lord Henry laughed. “The reason we all like to think so well of others is that we are all afraid for ourselves. The basis of optimism is sheer terror. We think that we are generous because we credit our neighbour with the possession of those virtues that are likely to be a benefit to us. We praise the banker that we may overdraw our account, and find good qualities in the highwayman in the hope that he may spare our pockets.",
   "words": [
-    "virtues"
+    {
+      "word": "virtues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

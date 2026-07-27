@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Tom Tufto, with whose father he quarrelled ever so many years ago, declares that Mademoiselle de Jaisey, of the French theatre, pulled his grandpapa's hair off in the green-room; but Tom is notoriously spiteful and jealous; and the General's wig has nothing to do with our story. One day, as some of our friends of the --th were sauntering in the flower-market of Brussels, having been to see the Hotel de Ville, which Mrs. Major O'Dowd declared was not near so large or handsome as her fawther's mansion of Glenmalony, an officer of rank, with an orderly behind him, rode up to the market, and descending from his horse, came amongst the flowers, and selected the very finest bouquet which money could buy. The beautiful bundle being tied up in a paper, the officer remounted, giving the nosegay into the charge of his military groom, who carried it with a grin, following his chief, who rode away in great state and self-satisfaction. \"You should see the flowers at Glenmalony,\" Mrs. O'Dowd was remarking. \"Me fawther has three Scotch garners with nine helpers.",
   "words": [
-    "wig",
-    "mansion",
-    "rode",
-    "bouquet",
-    "helpers"
+    {
+      "word": "wig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bouquet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helpers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

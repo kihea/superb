@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Oh, she’s a sly one, and a bad one, that Mariequita!” Edna looked down at Mademoiselle Reisz and wondered how she could have listened to her venom so long. For some reason she felt depressed, almost unhappy. She had not intended to go into the water; but she donned her bathing suit, and left Mademoiselle alone, seated under the shade of the children’s tent. The water was growing cooler as the season advanced. Edna plunged and swam about with an abandon that thrilled and invigorated her.",
   "words": [
-    "venom",
-    "bathing"
+    {
+      "word": "venom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bathing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

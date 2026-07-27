@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“He’s got enough, though, to make up for all deficiencies of that sort in other chaps,” abruptly said the stranger, placing a nervous emphasis upon the word he. “Queequeg,” said I, “let’s go; this fellow has broken loose from somewhere; he’s talking about something and somebody we don’t know.” “Stop!” cried the stranger. “Ye said true—ye hav’n’t seen Old Thunder yet, have ye?” “Who’s Old Thunder?” said I, again riveted with the insane earnestness of his manner. “Captain Ahab.” “What! the captain of our ship, the Pequod?” “Aye, among some of us old sailor chaps, he goes by that name.",
   "words": [
-    "abruptly",
-    "placing",
-    "emphasis"
+    {
+      "word": "abruptly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "placing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "emphasis",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

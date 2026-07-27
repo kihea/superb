@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "In 1860, Dougherty County had six thousand slaves, worth at least two and a half millions of dollars; its farms were estimated at three millions,—making five and a half millions of property, the value of which depended largely on the slave system, and on the speculative demand for land once marvellously rich but already partially devitalized by careless and exhaustive culture. The war then meant a financial crash; in place of the five and a half millions of 1860, there remained in 1870 only farms valued at less than two millions. With this came increased competition in cotton culture from the rich lands of Texas; a steady fall in the normal price of cotton followed, from about fourteen cents a pound in 1860 until it reached four cents in 1898. Such a financial revolution was it that involved the owners of the cotton-belt in debt. And if things went ill with the master, how fared it with the man?",
   "words": [
-    "slaves",
-    "farms",
-    "valued"
+    {
+      "word": "slaves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "valued",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

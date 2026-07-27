@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Not a line more have I received from Walter, not a fragment of news from the expedition has appeared in any of the public journals. The same dense, disheartening obscurity hangs over the fate and fortunes of Anne Catherick, and her companion, Mrs. Clements. Nothing whatever has been heard of either of them. Whether they are in the country or out of it, whether they are living or dead, no one knows. Even Sir Percival’s solicitor has lost all hope, and has ordered the useless search after the fugitives to be finally given up.",
   "words": [
-    "fragment",
-    "companion",
-    "solicitor"
+    {
+      "word": "fragment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solicitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

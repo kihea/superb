@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I am very much obliged to you,” she said, “for taking such an interest in my plans; but I am quite contented where I am, and have no intention of leaving.” Selden had risen, and was standing before her in an attitude of uncontrollable expectancy. “That simply means that you don’t know where you are!” he exclaimed. Lily rose also, with a quick flash of anger. “If you have come here to say disagreeable things about Mrs. Hatch——” “It is only with your relation to Mrs. Hatch that I am concerned.” “My relation to Mrs. Hatch is one I have no reason to be ashamed of. She has helped me to earn a living when my old friends were quite resigned to seeing me starve.” “Nonsense!",
   "words": [
-    "obliged"
+    {
+      "word": "obliged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of Mirth",

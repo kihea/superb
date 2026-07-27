@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "P.S.—Do pray contrive some means for me to meet the Count of Monte Cristo at your house. I must and will see him again. I have just made M. de Villefort promise to call on him, and I hope the visit will be returned. That night the adventure at Auteuil was talked of everywhere. Albert related it to his mother; Château-Renaud recounted it at the Jockey Club, and Debray detailed it at length in the salons of the minister; even Beauchamp accorded twenty lines in his journal to the relation of the count’s courage and gallantry, thereby celebrating him as the greatest hero of the day in the eyes of all the feminine members of the aristocracy.",
   "words": [
-    "thereby"
+    {
+      "word": "thereby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

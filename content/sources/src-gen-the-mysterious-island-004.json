@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“Certainly,” replied the engineer, “for it must be fed by the water which flows from the mountain.” “I see a little river which runs into it,” said Herbert, pointing out a narrow stream, which evidently took its source somewhere in the west. “Yes,” said Harding; “and since this stream feeds the lake, most probably on the side near the sea there is an outlet by which the surplus water escapes. We shall see that on our return.” This little winding watercourse and the river already mentioned constituted the water-system, at least such as it was displayed to the eyes of the explorers. However, it was possible that under the masses of trees which covered two-thirds of the island, forming an immense forest, other rivers ran towards the sea. It might even be inferred that such was the case, so rich did this region appear in the most magnificent specimens of the flora of the temperate zones.",
   "words": [
-    "evidently",
-    "flora",
-    "zones"
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flora",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "zones",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

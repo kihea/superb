@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "And the fire got into such a spasm of glowing indignation over the injury, that it lit a whole tier of black coals with a series of little explosions, before it could cool down, and sent a crimson gleam over the moody figure of its owner in the easy chair, and over the solemn furniture, and into the shadowy corner filled by the ghost. The spectre did not move when Dr. Renton arose and lit the chandelier. It stood there, still and gray, in the flood of mellow light. The curtains were drawn, and the twilight without had deepened into darkness. The fire was now burning in despite of itself, fanned by the wintry gusts, which found their way down the chimney.",
   "words": [
-    "glowing",
-    "lit",
-    "chandelier",
-    "curtains",
-    "twilight",
-    "chimney"
+    {
+      "word": "glowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chandelier",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chimney",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

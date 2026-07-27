@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Henchard’s chiding, by begetting in her a nervous fear of doing anything definable as unladylike, had operated thus curiously in keeping them unknown to each other at a critical moment. Much might have resulted from recognition—at the least a query on either side in one and the selfsame form: What could he or she possibly be doing there? Henchard, whatever his business at the lady’s house, reached his own home only a few minutes later than Elizabeth-Jane. Her plan was to broach the question of leaving his roof this evening; the events of the day had urged her to the course. But its execution depended upon his mood, and she anxiously awaited his manner towards her.",
   "words": [
-    "curiously",
-    "query"
+    {
+      "word": "curiously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "query",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mayor of Casterbridge",

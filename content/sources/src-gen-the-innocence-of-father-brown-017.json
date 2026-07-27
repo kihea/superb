@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "At last he said, blinking as if in bodily distress: “Well, if that is so, sir, you need do no more than take the testamentary paper you spoke of and go. I wonder where the poor lady left it.” “It will be over there on her desk by the door, I think,” said Kalon, with that massive innocence of manner that seemed to acquit him wholly. “She told me specially she would write it this morning, and I actually saw her writing as I went up in the lift to my own room.” “Was her door open then?” asked the priest, with his eye on the corner of the matting. “Yes,” said Kalon calmly. it has been open ever since,” said the other, and resumed his silent study of the mat.",
   "words": [
-    "calmly",
-    "resumed"
+    {
+      "word": "calmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resumed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

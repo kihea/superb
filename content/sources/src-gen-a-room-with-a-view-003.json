@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“If it is Mrs. Grundy who is troubling you, I do assure you that you can neglect the good person. Being English, Miss Honeychurch will be perfectly safe. Italians understand. A dear friend of mine, Contessa Baroncelli, has two daughters, and when she cannot send a maid to school with them, she lets them go in sailor-hats instead. Every one takes them for English, you see, especially if their hair is strained tightly behind.” Miss Bartlett was unconvinced by the safety of Contessa Baroncelli’s daughters.",
   "words": [
-    "sailor"
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

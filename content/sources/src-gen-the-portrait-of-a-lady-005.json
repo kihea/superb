@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But he’s all in a muddle about himself, his position, his power, and indeed about everything in the world. He’s the victim of a critical age; he has ceased to believe in himself and he doesn’t know what to believe in. When I attempt to tell him (because if I were he I know very well what I should believe in) he calls me a pampered bigot. I believe he seriously thinks me an awful Philistine; he says I don’t understand my time. I understand it certainly better than he, who can neither abolish himself as a nuisance nor maintain himself as an institution.” “He doesn’t look very wretched,” Isabel observed.",
   "words": [
-    "abolish"
+    {
+      "word": "abolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Portrait of a Lady",

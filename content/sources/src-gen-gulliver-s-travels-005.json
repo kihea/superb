@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Some of your servants were to have private orders to strew a poisonous juice on your shirts and sheets, which would soon make you tear your own flesh, and die in the utmost torture. The general came into the same opinion; so that for a long time there was a majority against you; but his majesty resolving, if possible, to spare your life, at last brought off the chamberlain. “Upon this incident, Reldresal, principal secretary for private affairs, who always approved himself your true friend, was commanded by the emperor to deliver his opinion, which he accordingly did; and therein justified the good thoughts you have of him. He allowed your crimes to be great, but that still there was room for mercy, the most commendable virtue in a prince, and for which his majesty was so justly celebrated. He said, the friendship between you and him was so well known to the world, that perhaps the most honourable board might think him partial; however, in obedience to the command he had received, he would freely offer his sentiments.",
   "words": [
-    "majesty",
-    "chamberlain",
-    "virtue",
-    "sentiments"
+    {
+      "word": "majesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chamberlain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

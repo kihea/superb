@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The frivolity of the laughter-loving Latins is no part of him. When he laughs it is from a humour that is nothing else than ferocious. But he laughs rarely; he is too often sad. And it is a sadness as deep-reaching as the roots of the race. It is the race heritage, the sadness which has made the race sober-minded, clean-lived and fanatically moral, and which, in this latter connection, has culminated among the English in the Reformed Church and Mrs. Grundy.",
   "words": [
-    "laughs",
-    "sadness"
+    {
+      "word": "laughs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sadness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

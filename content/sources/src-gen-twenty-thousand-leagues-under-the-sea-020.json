@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Could it have been aught but a shipwreck which had drawn it under the water? I knew not what to think, when near me in a slow voice I heard Captain Nemo say: “At one time this ship was called the Marseillais. It carried seventy-four guns, and was launched in 1762. In 1778, the 13th of August, commanded by La Poype-Vertrieux, it fought boldly against the Preston. In 1779, on the 4th of July, it was at the taking of Grenada, with the squadron of Admiral Estaing.",
   "words": [
-    "squadron"
+    {
+      "word": "squadron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Twenty Thousand Leagues Under the Sea",

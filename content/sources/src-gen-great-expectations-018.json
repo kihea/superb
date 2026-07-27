@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Hah!” said Mr. Jaggers at last, as he moved towards the papers on the table. “What item was it you were at, Wemmick, when Mr. Pip came in?” But I could not submit to be thrown off in that way, and I made a passionate, almost an indignant appeal, to him to be more frank and manly with me. I reminded him of the false hopes into which I had lapsed, the length of time they had lasted, and the discovery I had made: and I hinted at the danger that weighed upon my spirits. I represented myself as being surely worthy of some little confidence from him, in return for the confidence I had just now imparted. I said that I did not blame him, or suspect him, or mistrust him, but I wanted assurance of the truth from him.",
   "words": [
-    "assurance"
+    {
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",

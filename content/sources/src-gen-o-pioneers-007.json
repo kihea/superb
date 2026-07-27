@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "After dinner Lou and Oscar went to the orchard to pick cherries—they had neither of them had the patience to grow an orchard of their own—and Annie went down to gossip with Alexandra’s kitchen girls while they washed the dishes. She could always find out more about Alexandra’s domestic economy from the prattling maids than from Alexandra herself, and what she discovered she used to her own advantage with Lou. On the Divide, farmers’ daughters no longer went out into service, so Alexandra got her girls from Sweden, by paying their fare over. They stayed with her until they married, and were replaced by sisters or cousins from the old country. Alexandra took her three nieces into the flower garden.",
   "words": [
-    "orchard"
+    {
+      "word": "orchard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "O Pioneers!",

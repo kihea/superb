@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "As she swung it the second time a flicker of its light fell for a moment on her own face, a face that I knew. She was unnaturally pale, and her head was bundled in her borrowed plebeian shawl; but I am certain it was Etta Todd, the millionaire’s daughter. “She retraced her steps in equal secrecy and the door closed behind her again. I was about to climb the fence and follow, when I realized that the detective fever that had lured me into the adventure was rather undignified; and that in a more authoritative capacity I already held all the cards in my hand. I was just turning away when a new noise broke on the night.",
   "words": [
-    "pale",
-    "bundled",
-    "shawl"
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bundled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wisdom of Father Brown",

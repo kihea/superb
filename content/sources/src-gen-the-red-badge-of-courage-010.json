@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The commands to make way had the ring of a great importance in them. The men were going forward to the heart of the din. They were to confront the eager rush of the enemy. They felt the pride of their onward movement when the remainder of the army seemed trying to dribble down this road. They tumbled teams about with a fine feeling that it was no matter so long as their column got to the front in time.",
   "words": [
-    "din",
-    "onward"
+    {
+      "word": "din",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "onward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

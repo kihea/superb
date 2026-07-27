@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Hannah had brought me some gruel and dry toast, about, as I supposed, the dinner-hour. I had eaten with relish: the food was good—void of the feverish flavour which had hitherto poisoned what I had swallowed. When she left me, I felt comparatively strong and revived: ere long satiety of repose and desire for action stirred me. I wished to rise; but what could I put on? Only my damp and bemired apparel; in which I had slept on the ground and fallen in the marsh.",
   "words": [
-    "relish",
-    "swallowed",
-    "wished",
-    "damp"
+    {
+      "word": "relish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swallowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "damp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I wanted to make Mr. Giovanelli practice some things before he came; you know he sings beautifully, and I want you to ask him to sing. This is Mr. Giovanelli; you know I introduced him to you; he’s got the most lovely voice, and he knows the most charming set of songs. I made him go over them this evening on purpose; we had the greatest time at the hotel.” Of all this Daisy delivered herself with the sweetest, brightest audibleness, looking now at her hostess and now round the room, while she gave a series of little pats, round her shoulders, to the edges of her dress. “Is there anyone I know?” she asked. “I think every one knows you!” said Mrs. Walker pregnantly, and she gave a very cursory greeting to Mr. Giovanelli.",
   "words": [
-    "sings"
+    {
+      "word": "sings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

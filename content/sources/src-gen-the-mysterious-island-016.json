@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The hull of the “Speedy” was just beginning to issue from the water. The brig was lying right over on her side, for her masts being broken, pressed down by the weight of the ballast displaced by the shock, the keel was visible along her whole length. She had been regularly turned over by the inexplicable but frightful submarine action, which had been at the same time manifested by an enormous water-spout. The settlers rowed round the hull, and in proportion as the tide went down, they could ascertain, if not the cause which had occasioned the catastrophe, at least the effect produced. Towards the bows, on both sides of the keel, seven or eight feet from the beginning of the stem, the sides of the brig were frightfully torn.",
   "words": [
-    "proportion"
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

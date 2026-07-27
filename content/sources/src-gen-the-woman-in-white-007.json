@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "not you!” He turned away, laughing at the astonishment of the men in the yard, and the dog crept back meekly to his kennel. my nice waistcoat!” he said pathetically. “I am sorry I came here. Some of that brute’s slobber has got on my pretty clean waistcoat.” Those words express another of his incomprehensible oddities. He is as fond of fine clothes as the veriest fool in existence, and has appeared in four magnificent waistcoats already—all of light garish colours, and all immensely large even for him—in the two days of his residence at Blackwater Park.",
   "words": [
-    "kennel"
+    {
+      "word": "kennel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

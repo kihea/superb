@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "So they marched away until they came near to Dorothy. Then the Lion gave a great roar and sprang towards them, and the poor Winkies were so frightened that they ran back as fast as they could. When they returned to the castle the Wicked Witch beat them well with a strap, and sent them back to their work, after which she sat down to think what she should do next. She could not understand how all her plans to destroy these strangers had failed; but she was a powerful Witch, as well as a wicked one, and she soon made up her mind how to act. There was, in her cupboard, a Golden Cap, with a circle of diamonds and rubies running round it.",
   "words": [
-    "wicked",
-    "cupboard"
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cupboard",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Wonderful Wizard of Oz",

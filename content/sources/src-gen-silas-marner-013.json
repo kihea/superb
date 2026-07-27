@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "But she would mar his pleasure: she would go in her dingy rags, with her faded face, once as handsome as the best, with her little child that had its father’s hair and eyes, and disclose herself to the Squire as his eldest son’s wife. It is seldom that the miserable can help regarding their misery as a wrong inflicted by those who are less miserable. Molly knew that the cause of her dingy rags was not her husband’s neglect, but the demon Opium to whom she was enslaved, body and soul, except in the lingering mother’s tenderness that refused to give him her hungry child. She knew this well; and yet, in the moments of wretched unbenumbed consciousness, the sense of her want and degradation transformed itself continually into bitterness towards Godfrey. He was well off; and if she had her rights she would be well off too.",
   "words": [
-    "miserable",
-    "misery",
-    "wretched"
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wretched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

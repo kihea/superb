@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "A ceremony followed, in dumb show, in which it was easy to recognise the pantomime of a marriage. At its termination, Colonel Dent and his party consulted in whispers for two minutes, then the Colonel called out— “Bride!” Mr. Rochester bowed, and the curtain fell. A considerable interval elapsed before it again rose. Its second rising displayed a more elaborately prepared scene than the last. The drawing-room, as I have before observed, was raised two steps above the dining-room, and on the top of the upper step, placed a yard or two back within the room, appeared a large marble basin, which I recognised as an ornament of the conservatory—where it usually stood, surrounded by exotics, and tenanted by gold fish—and whence it must have been transported with some trouble, on account of its size and weight.",
   "words": [
-    "displayed"
+    {
+      "word": "displayed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

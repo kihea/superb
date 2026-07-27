@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But that is his fault, not mine. I would do it again, if need were, though it does lead me into all this shame and trouble.” FREDERICK. “Revenge may have her own; Roused discipline aloud proclaims their cause, And injured navies urge their broken laws.” BYRON. Margaret began to wonder whether all offers were as unexpected beforehand,—as distressing at the time of their occurrence, as the two she had had. An involuntary comparison between Mr. Lennox and Mr. Thornton arose in her mind.",
   "words": [
-    "beforehand"
+    {
+      "word": "beforehand",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

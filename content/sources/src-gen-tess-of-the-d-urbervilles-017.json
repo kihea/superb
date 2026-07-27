@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Tess, who had been quite unconscious of her action and mien, instantly withdrew the large dark gaze of her eyes, stammering with a flush, “I beg your pardon!” And there was revived in her the wretched sentiment which had often come to her before, that in inhabiting the fleshly tabernacle with which Nature had endowed her she was somehow doing wrong. Don’t beg my pardon. But since you wear a veil to hide your good looks, why don’t you keep it down?” She pulled down the veil, saying hastily, “It was mostly to keep off the wind.” “It may seem harsh of me to dictate like this,” he went on; “but it is better that I should not look too often on you. It might be dangerous.” “Ssh!” said Tess. “Well, women’s faces have had too much power over me already for me not to fear them!",
   "words": [
-    "veil"
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

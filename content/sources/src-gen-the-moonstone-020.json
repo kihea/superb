@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I Dorking, Surrey, July 30th, 1849. To Franklin Blake, Esq. Sir,—I beg to apologise for the delay that has occurred in the production of the Report, with which I engaged to furnish you. I have waited to make it a complete Report; and I have been met, here and there, by obstacles which it was only possible to remove by some little expenditure of patience and time. The object which I proposed to myself has now, I hope, been attained.",
   "words": [
-    "apologise"
+    {
+      "word": "apologise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

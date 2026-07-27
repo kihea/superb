@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I’ve often groaned aloud, till that old rascal Joseph no doubt believed that my conscience was playing the fiend inside of me. Now, since I’ve seen her, I’m pacified—a little. It was a strange way of killing: not by inches, but by fractions of hairbreadths, to beguile me with the spectre of a hope through eighteen years!” Mr. Heathcliff paused and wiped his forehead; his hair clung to it, wet with perspiration; his eyes were fixed on the red embers of the fire, the brows not contracted, but raised next the temples; diminishing the grim aspect of his countenance, but imparting a peculiar look of trouble, and a painful appearance of mental tension towards one absorbing subject. He only half addressed me, and I maintained silence. I didn’t like to hear him talk!",
   "words": [
-    "brows",
-    "contracted",
-    "peculiar"
+    {
+      "word": "brows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contracted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peculiar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

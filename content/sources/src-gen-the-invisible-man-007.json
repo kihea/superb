@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Mr. Bunting flushed slightly and brought his face nearer, apparently finding some difficulty with his glasses. Suddenly he became aware of a strange feeling at the nape of his neck. He tried to raise his head, and encountered an immovable resistance. The feeling was a curious pressure, the grip of a heavy, firm hand, and it bore his chin irresistibly to the table. “Don’t move, little men,” whispered a voice, “or I’ll brain you both!” He looked into the face of Cuss, close to his own, and each saw a horrified reflection of his own sickly astonishment.",
   "words": [
-    "flushed",
-    "grip",
-    "chin",
-    "whispered"
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

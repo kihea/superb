@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "By this time the carriage was ready, and the footman was waiting, with an open umbrella, to escort Miss Murray through the churchyard. I was about to follow; but Mr. Weston had an umbrella too, and offered me the benefit of its shelter, for it was raining heavily. “No, thank you, I don’t mind the rain,” I said. I always lacked common sense when taken by surprise. “But you don’t like it, I suppose?—an umbrella will do you no harm at any rate,” he replied, with a smile that showed he was not offended; as a man of worse temper or less penetration would have been at such a refusal of his aid.",
   "words": [
-    "umbrella"
+    {
+      "word": "umbrella",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Agnes Grey",

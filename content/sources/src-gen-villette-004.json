@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Equality is much practised in Labassecour; though not republican in form, it is nearly so in substance, and at the desks of Madame Beck’s establishment the young countess and the young bourgeoise sat side by side. Nor could you always by outward indications decide which was noble and which plebeian; except that, indeed, the latter had often franker and more courteous manners, while the former bore away the bell for a delicately-balanced combination of insolence and deceit. In the former there was often quick French blood mixed with the marsh-phlegm: I regret to say that the effect of this vivacious fluid chiefly appeared in the oilier glibness with which flattery and fiction ran from the tongue, and in a manner lighter and livelier, but quite heartless and insincere. To do all parties justice, the honest aboriginal Labassecouriennes had an hypocrisy of their own, too; but it was of a coarse order, such as could deceive few. Whenever a lie was necessary for their occasions, they brought it out with a careless ease and breadth altogether untroubled by the rebuke of conscience.",
   "words": [
-    "desks",
-    "courteous",
-    "deceit",
-    "marsh",
-    "conscience"
+    {
+      "word": "desks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "courteous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deceit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marsh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

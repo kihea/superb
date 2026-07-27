@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Now two letters during the week of her absence showed what was in those days considered a very proper amount of conjugal affection. Yet not too much--at elevenpence-halfpenny postage. A third letter would have been extravagant. Sister looked to sister with an approving nod as Molly named the second letter, which arrived in Hollingford the very day before Mrs. Gibson was to return. They had settled between themselves that two letters would show the right amount of good feeling and proper understanding in the Gibson family: more would have been extravagant; only one would have been a mere matter of duty.",
   "words": [
-    "postage"
+    {
+      "word": "postage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wives and Daughters",

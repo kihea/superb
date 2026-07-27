@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "My—somebody was going to tell it me once, but didn’t.” “If you are a genuine d’Urberville I ought not to tell you either, I suppose. As for me, I’m a sham one, so it doesn’t matter. It is rather dismal. It is that this sound of a non-existent coach can only be heard by one of d’Urberville blood, and it is held to be of ill-omen to the one who hears it. It has to do with a murder, committed by one of the family, centuries ago.” “Now you have begun it, finish it.” “Very well.",
   "words": [
-    "existent",
-    "omen"
+    {
+      "word": "existent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "omen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Tess of the d'Urbervilles",

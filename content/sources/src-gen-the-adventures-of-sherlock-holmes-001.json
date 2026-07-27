@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Irene’s photograph!” he cried. “Certainly, if you wish it.” “I thank your Majesty. Then there is no more to be done in the matter. I have the honour to wish you a very good morning.” He bowed, and, turning away without observing the hand which the King had stretched out to him, he set off in my company for his chambers. And that was how a great scandal threatened to affect the kingdom of Bohemia, and how the best plans of Mr. Sherlock Holmes were beaten by a woman’s wit.",
   "words": [
-    "chambers"
+    {
+      "word": "chambers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Adventures of Sherlock Holmes",

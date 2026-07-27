@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The girl seemed to love her well in return, and called her endearingly Tan’tante. But as the time went by, La Petite became very quiet,—not listless, but thoughtful, and slow in her movements. Then her cheeks began to pale, till they were tinged like the creamy plumes of the white crèpe myrtle that grew in the ruin. One day when she sat within its shadow, between her aunts, holding a hand of each, she said: “Tante Pélagie, I must tell you something, you and Tan’tante.” She spoke low, but clearly and firmly. “I love you both,—please remember that I love you both.",
   "words": [
-    "aunts"
+    {
+      "word": "aunts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Awakening",

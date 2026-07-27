@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I remember myself with my hair in that way, in that pink frock. I really was like a gypsy. I dare say I am now,” she added, after a little pause; “am I like what you expected me to be?” The words might have been those of a coquette, but the full, bright glance Maggie turned on Philip was not that of a coquette. She really did hope he liked her face as it was now, but it was simply the rising again of her innate delight in admiration and love. Philip met her eyes and looked at her in silence for a long moment, before he said quietly, “No, Maggie.” The light died out a little from Maggie’s face, and there was a slight trembling of the lip.",
   "words": [
-    "admiration",
-    "quietly"
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

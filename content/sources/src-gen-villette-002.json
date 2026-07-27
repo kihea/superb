@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The chance I have offered shall be left open to you for three months.” This was kind. I told her so, and expressed my gratitude. While I was speaking, a paroxysm of pain came on. I ministered to her; made the necessary applications, according to her directions, and, by the time she was relieved, a sort of intimacy was already formed between us. I, for my part, had learned from the manner in which she bore this attack, that she was a firm, patient woman (patient under physical pain, though sometimes perhaps excitable under long mental canker); and she, from the good-will with which I succoured her, discovered that she could influence my sympathies (such as they were).",
   "words": [
-    "relieved"
+    {
+      "word": "relieved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Villette",

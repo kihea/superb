@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Bethink thee, my King--spur thy memory--it was the last, the very last thing thou didst that day before thou didst rush forth from the palace, clothed in my rags, to punish the soldier that insulted me.” A silence ensued, undisturbed by a movement or a whisper, and all eyes were fixed upon the new-comer, who stood, with bent head and corrugated brow, groping in his memory among a thronging multitude of valueless recollections for one single little elusive fact, which, found, would seat him upon a throne--unfound, would leave him as he was, for good and all--a pauper and an outcast. Moment after moment passed--the moments built themselves into minutes--still the boy struggled silently on, and gave no sign. But at last he heaved a sigh, shook his head slowly, and said, with a trembling lip and in a despondent voice-- “I call the scene back--all of it--but the Seal hath no place in it.” He paused, then looked up, and said with gentle dignity, “My lords and gentlemen, if ye will rob your rightful sovereign of his own for lack of this evidence which he is not able to furnish, I may not stay ye, being powerless.",
   "words": [
-    "punish",
-    "whisper",
-    "brow",
-    "throne",
-    "sigh"
+    {
+      "word": "punish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "throne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

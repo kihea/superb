@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Our good Adam had no fine words into which he could put his feeling for Hetty: he could not disguise mystery in this way with the appearance of knowledge; he called his love frankly a mystery, as you have heard him. He only knew that the sight and memory of her moved him deeply, touching the spring of all love and tenderness, all faith and courage within him. How could he imagine narrowness, selfishness, hardness in her? He created the mind he believed in out of his own, which was large, unselfish, tender. The hopes he felt about Hetty softened a little his feeling towards Arthur.",
   "words": [
-    "disguise",
-    "frankly",
-    "tenderness"
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frankly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tenderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

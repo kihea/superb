@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The youth shot a swift glance along the blue ranks of the regiment. The profiles were motionless, carven; and afterward he remembered that the color sergeant was standing with his legs apart, as if he expected to be pushed to the ground. The following throng went whirling around the flank. Here and there were officers carried along on the stream like exasperated chips. They were striking about them with their swords and with their left fists, punching every head they could reach.",
   "words": [
-    "sergeant"
+    {
+      "word": "sergeant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

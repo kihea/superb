@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Of course, it was impossible to know what the tunnel was, or where it led to, and yet to turn one way might lead us to safety, and the other to destruction. We were utterly perplexed, till suddenly it struck Good that when I had lit the match the draught of the passage blew the flame to the left. “Let us go against the draught,” he said; “air draws inwards, not outwards.” We took this suggestion, and feeling along the wall with our hands, whilst trying the ground before us at every step, we departed from that accursed treasure chamber on our terrible quest for life. If ever it should be entered again by living man, which I do not think probable, he will find tokens of our visit in the open chests of jewels, the empty lamp, and the white bones of poor Foulata. When we had groped our way for about a quarter of an hour along the passage, suddenly it took a sharp turn, or else was bisected by another, which we followed, only in course of time to be led into a third.",
   "words": [
-    "blew",
-    "treasure",
-    "tokens",
-    "jewels"
+    {
+      "word": "blew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treasure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tokens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jewels",
+      "signals": [
+        "apposition"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

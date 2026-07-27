@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Villain!” cried Mr. Pyncheon, shaking his clenched fist at Maule. “You and the fiend together have robbed me of my daughter. Give her back, spawn of the old wizard, or you shall climb Gallows Hill in your grandfather’s footsteps!” “Softly, Mr. Pyncheon!” said the carpenter with scornful composure. “Softly, an’ it please your worship, else you will spoil those rich lace-ruffles at your wrists! Is it my crime if you have sold your daughter for the mere hope of getting a sheet of yellow parchment into your clutch?",
   "words": [
-    "fist"
+    {
+      "word": "fist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

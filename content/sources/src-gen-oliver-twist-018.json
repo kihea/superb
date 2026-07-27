@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We shall see. Many people are singularly like each other. It may not be the same.” As he expressed himself to this effect, with assumed carelessness, he took a step or two nearer the concealed spy, as the latter could tell from the distinctness with which he heard him mutter, “It must be he!” “Now,” he said, returning: so it seemed by the sound: to the spot where he had stood before, “you have given us most valuable assistance, young woman, and I wish you to be the better for it. What can I do to serve you?” “Nothing,” replied Nancy. “You will not persist in saying that,” rejoined the gentleman, with a voice and emphasis of kindness that might have touched a much harder and more obdurate heart.",
   "words": [
-    "emphasis"
+    {
+      "word": "emphasis",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

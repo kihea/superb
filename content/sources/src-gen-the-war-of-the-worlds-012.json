@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Directly below him the balloonist would have seen the network of streets far and wide, houses, churches, squares, crescents, gardens—already derelict—spread out like a huge map, and in the southward blotted. Over Ealing, Richmond, Wimbledon, it would have seemed as if some monstrous pen had flung ink upon the chart. Steadily, incessantly, each black splash grew and spread, shooting out ramifications this way and that, now banking itself against rising ground, now pouring swiftly over a crest into a new-found valley, exactly as a gout of ink would spread itself upon blotting paper. And beyond, over the blue hills that rise southward of the river, the glittering Martians went to and fro, calmly and methodically spreading their poison cloud over this patch of country and then over that, laying it again with their steam jets when it had served its purpose, and taking possession of the conquered country. They do not seem to have aimed at extermination so much as at complete demoralisation and the destruction of any opposition.",
   "words": [
-    "extermination"
+    {
+      "word": "extermination",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The War of the Worlds",

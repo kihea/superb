@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I must preface it with some explanations, however. The letter is written by an ex-thief and ex-vagabond of the lowest origin and basest rearing, a man all stained with crime and steeped in ignorance; but, thank God, with a mine of pure gold hidden away in him, as you shall see. His letter is written to a burglar named Williams, who is serving a nine-year term in a certain State prison, for burglary. Williams was a particularly daring burglar, and plied that trade during a number of years; but he was caught at last and jailed, to await trial in a town where he had broken into a house at night, pistol in hand, and forced the owner to hand over to him $8,000 in government bonds. Williams was not a common sort of person, by any means; he was a graduate of Harvard College, and came of good New England stock.",
   "words": [
-    "preface",
-    "stained",
-    "burglar",
-    "burglary"
+    {
+      "word": "preface",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "burglar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "burglary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

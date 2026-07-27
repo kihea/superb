@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In this country, it is enough for a man to have distinction and brains for every common tongue to wag against him. And what sort of lives do these people, who pose as being moral, lead themselves? My dear fellow, you forget that we are in the native land of the hypocrite.” “Dorian,” cried Hallward, “that is not the question. England is bad enough I know, and English society is all wrong. That is the reason why I want you to be fine.",
   "words": [
-    "pose"
+    {
+      "word": "pose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Picture of Dorian Gray",

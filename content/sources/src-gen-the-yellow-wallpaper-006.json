@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I cry at nothing, and cry most of the time. Of course I don’t when John is here, or anybody else, but when I am alone. And I am alone a good deal just now. John is kept in town very often by serious cases, and Jennie is good and lets me alone when I want her to. So I walk a little in the garden or down that lovely lane, sit on the porch under the roses, and lie down up here a good deal.",
   "words": [
-    "porch"
+    {
+      "word": "porch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Yellow Wallpaper",

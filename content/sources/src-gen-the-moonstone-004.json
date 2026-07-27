@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Looking back at the birthday now, by the light of what happened afterwards, I am half inclined to think that the cursed Diamond must have cast a blight on the whole company. I plied them well with wine; and being a privileged character, followed the unpopular dishes round the table, and whispered to the company confidentially, “Please to change your mind and try it; for I know it will do you good.” Nine times out of ten they changed their minds—out of regard for their old original Betteredge, they were pleased to say—but all to no purpose. There were gaps of silence in the talk, as the dinner got on, that made me feel personally uncomfortable. When they did use their tongues again, they used them innocently, in the most unfortunate manner and to the worst possible purpose. Mr. Candy, the doctor, for instance, said more unlucky things than I ever knew him to say before.",
   "words": [
-    "tongues",
-    "unlucky"
+    {
+      "word": "tongues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unlucky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

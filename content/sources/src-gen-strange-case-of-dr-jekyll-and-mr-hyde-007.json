@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The fog still slept on the wing above the drowned city, where the lamps glimmered like carbuncles; and through the muffle and smother of these fallen clouds, the procession of the town’s life was still rolling in through the great arteries with a sound as of a mighty wind. But the room was gay with firelight. In the bottle the acids were long ago resolved; the imperial dye had softened with time, as the colour grows richer in stained windows; and the glow of hot autumn afternoons on hillside vineyards, was ready to be set free and to disperse the fogs of London. Insensibly the lawyer melted. There was no man from whom he kept fewer secrets than Mr.",
   "words": [
-    "mighty"
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Strange Case of Dr Jekyll and Mr Hyde",

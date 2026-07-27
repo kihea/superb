@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Two months ago he would have declared stoutly that he would never be beholden to his wife’s friends; but now he told himself as stoutly that it was nothing but right and natural that Bessy should go to the Pullets and explain the thing to them; they would hardly let Bessy’s furniture be sold, and it might be security to Pullet if he advanced the money,—there would, after all, be no gift or favour in the matter. Mr Tulliver would never have asked for anything from so poor-spirited a fellow for himself, but Bessy might do so if she liked. It is precisely the proudest and most obstinate men who are the most liable to shift their position and contradict themselves in this sudden manner; everything is easier to them than to face the simple fact that they have been thoroughly defeated, and must begin life anew.",
   "words": [
-    "precisely",
-    "thoroughly"
+    {
+      "word": "precisely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thoroughly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mill on the Floss",

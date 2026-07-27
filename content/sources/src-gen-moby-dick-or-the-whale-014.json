@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Hence it is, that at times like these the drugg, comes into requisition. Our boat was furnished with three of them. The first and second were successfully darted, and we saw the whales staggeringly running off, fettered by the enormous sidelong resistance of the towing drugg. They were cramped like malefactors with the chain and ball. But upon flinging the third, in the act of tossing overboard the clumsy wooden block, it caught under one of the seats of the boat, and in an instant tore it out and carried it away, dropping the oarsman in the boat’s bottom as the seat slid from under him.",
   "words": [
-    "towing",
-    "tossing",
-    "overboard"
+    {
+      "word": "towing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tossing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

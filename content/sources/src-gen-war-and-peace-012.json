@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Alexander refused negotiations because he felt himself to be personally insulted. Barclay de Tolly tried to command the army in the best way, because he wished to fulfill his duty and earn fame as a great commander. Rostóv charged the French because he could not restrain his wish for a gallop across a level field; and in the same way the innumerable people who took part in the war acted in accord with their personal characteristics, habits, circumstances, and aims. They were moved by fear or vanity, rejoiced or were indignant, reasoned, imagining that they knew what they were doing and did it of their own free will, but they all were involuntary tools of history, carrying on a work concealed from them but comprehensible to us. Such is the inevitable fate of men of action, and the higher they stand in the social hierarchy the less are they free.",
   "words": [
-    "accord",
-    "habits"
+    {
+      "word": "accord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "habits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

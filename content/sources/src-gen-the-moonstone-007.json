@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I didn’t see much use in stirring that subject again. However, I obeyed my orders on the spot, as a matter of course. I found Sergeant Cuff and the gardener, with a bottle of Scotch whisky between them, head over ears in an argument on the growing of roses. The Sergeant was so deeply interested that he held up his hand, and signed to me not to interrupt the discussion, when I came in. As far as I could understand it, the question between them was, whether the white moss rose did, or did not, require to be budded on the dog-rose to make it grow well.",
   "words": [
-    "moss"
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

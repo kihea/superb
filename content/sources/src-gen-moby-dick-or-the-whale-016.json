@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "For he never means to swallow a single limb; he only thinks to terrify by feints. But sometimes he is like the old juggling fellow, formerly a patient of mine in Ceylon, that making believe swallow jack-knives, once upon a time let one drop into him in good earnest, and there it stayed for a twelvemonth or more; when I gave him an emetic, and he heaved it up in small tacks, d’ye see. No possible way for him to digest that jack-knife, and fully incorporate it into his general bodily system. Yes, Captain Boomer, if you are quick enough about it, and have a mind to pawn one arm for the sake of the privilege of giving decent burial to the other, why in that case the arm is yours; only let the whale have another chance at you shortly, that’s all.” “No, thank ye, Bunger,” said the English Captain, “he’s welcome to the arm he has, since I can’t help it, and didn’t know him then; but not to another one. No more White Whales for me; I’ve lowered for him once, and that has satisfied me.",
   "words": [
-    "limb",
-    "knives"
+    {
+      "word": "limb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

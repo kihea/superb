@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Light and beauty enveloped her. She had fallen on to a little open terrace, which was covered with violets from end to end. “Courage!” cried her companion, now standing some six feet above. “Courage and love.” She did not answer. From her feet the ground sloped sharply into view, and violets ran down in rivulets and streams and cataracts, irrigating the hillside with blue, eddying round the tree stems collecting into pools in the hollows, covering the grass with spots of azure foam.",
   "words": [
-    "terrace",
-    "azure"
+    {
+      "word": "terrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "azure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

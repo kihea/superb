@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But she had shuffled off at last with a confident, \"yis, sur--aw, I knoo,\" her head nodding satisfied assent, and her big thumb covering the note on the margin, \"charge to Dr. C. Renton, Bowdoin street,\" (which I know, could not keep it from the eyes of the angels!) and he sat down to await her return. \"Mrs. Miller,\" he said, kindly, \"don't be alarmed about your child. She is doing well; and, after you have given her the medicine Mrs. Flanagan will bring, you'll find her much better, to-morrow. She must be kept cool and quiet, you know, and she'll be all right soon.\"",
   "words": [
-    "nodding"
+    {
+      "word": "nodding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

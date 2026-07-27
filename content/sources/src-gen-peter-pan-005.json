@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Listen to their gentle breathing.” Here Michael, encouraged by his success, breathed so loudly that they were nearly detected. Nana knew that kind of breathing, and she tried to drag herself out of Liza’s clutches. But Liza was dense. “No more of it, Nana,” she said sternly, pulling her out of the room. “I warn you if you bark again I shall go straight for master and missus and bring them home from the party, and then, oh, won’t master whip you, just.” She tied the unhappy dog up again, but do you think Nana ceased to bark?",
   "words": [
-    "bark"
+    {
+      "word": "bark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

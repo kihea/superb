@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Lucy won’t marry him. If you’d gone on about her, as you did about them, he might have broken down.” “But when—” “Late last night. I must go.” “Perhaps they won’t want me down there.” “No—go on. Good-bye.” “Thank goodness!” exclaimed Mr. Beebe to himself, and struck the saddle of his bicycle approvingly, “It was the one foolish thing she ever did. Oh, what a glorious riddance!” And, after a little thought, he negotiated the slope into Windy Corner, light of heart.",
   "words": [
-    "goodness",
-    "bicycle",
-    "foolish"
+    {
+      "word": "goodness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bicycle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Room with a View",

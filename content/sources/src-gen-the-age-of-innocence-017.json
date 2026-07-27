@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The snow was over, and a tingling wind had sprung up, that lashed his face as he stood gazing. Suddenly he felt something stiff and cold on his lashes, and perceived that he had been crying, and that the wind had frozen his tears. He thrust his hands in his pockets, and walked at a sharp pace down Fifth Avenue to his own house. That evening when Archer came down before dinner he found the drawing-room empty. He and May were dining alone, all the family engagements having been postponed since Mrs. Manson Mingott's illness; and as May was the more punctual of the two he was surprised that she had not preceded him.",
   "words": [
-    "dining"
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Age of Innocence",

@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Take care, Hepzibah, take care! Clifford is on the brink of as black a ruin as ever befell him yet! But why do I talk with you, woman as you are? Make way!—I must see Clifford!” Hepzibah spread out her gaunt figure across the door, and seemed really to increase in bulk; looking the more terrible, also, because there was so much terror and agitation in her heart. But Judge Pyncheon’s evident purpose of forcing a passage was interrupted by a voice from the inner room; a weak, tremulous, wailing voice, indicating helpless alarm, with no more energy for self-defence than belongs to a frightened infant.",
   "words": [
-    "forcing",
-    "indicating",
-    "frightened",
-    "infant"
+    {
+      "word": "forcing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indicating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The House of the Seven Gables",

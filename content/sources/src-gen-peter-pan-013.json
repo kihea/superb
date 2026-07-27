@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Slightly is coughing on the table.” “The twins began with cheese-cakes.” “Curly is taking both butter and honey.” “Nibs is speaking with his mouth full.” “I complain of the twins.” “I complain of Curly.” “I complain of Nibs.” “Oh dear, oh dear,” cried Wendy, “I’m sure I sometimes think that spinsters are to be envied.” She told them to clear away, and sat down to her work-basket, a heavy load of stockings and every knee with a hole in it as usual. “Wendy,” remonstrated Michael, “I’m too big for a cradle.” “I must have somebody in a cradle,” she said almost tartly, “and you are the littlest. A cradle is such a nice homely thing to have about a house.” While she sewed they played around her; such a group of happy faces and dancing limbs lit up by that romantic fire. It had become a very familiar scene, this, in the home under the ground, but we are looking on it for the last time. There was a step above, and Wendy, you may be sure, was the first to recognize it.",
   "words": [
-    "coughing",
-    "twins"
+    {
+      "word": "coughing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Peter Pan",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "After learning how to calk, I sought my own employment, made my own contracts, and collected the money which I earned. My pathway became much more smooth than before; my condition was now much more comfortable. When I could get no calking to do, I did nothing. During these leisure times, those old notions about freedom would steal over me again. When in Mr. Gardner’s employment, I was kept in such a perpetual whirl of excitement, I could think of nothing, scarcely, but my life; and in thinking of my life, I almost forgot my liberty.",
   "words": [
-    "leisure"
+    {
+      "word": "leisure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

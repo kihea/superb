@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "As for Wildeve, his feelings are easy to guess. Obstacles were a ripening sun to his love, and he was at this moment in a delirium of exquisite misery. To clasp as his for five minutes what was another man’s through all the rest of the year was a kind of thing he of all men could appreciate. He had long since begun to sigh again for Eustacia; indeed, it may be asserted that signing the marriage register with Thomasin was the natural signal to his heart to return to its first quarters, and that the extra complication of Eustacia’s marriage was the one addition required to make that return compulsory. Thus, for different reasons, what was to the rest an exhilarating movement was to these two a riding upon the whirlwind.",
   "words": [
-    "sigh",
-    "compulsory"
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compulsory",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Return of the Native",

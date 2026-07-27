@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "At harness-up time he tried to crawl to his driver. By convulsive efforts he got on his feet, staggered, and fell. Then he wormed his way forward slowly toward where the harnesses were being put on his mates. He would advance his fore legs and drag up his body with a sort of hitching movement, when he would advance his fore legs and hitch ahead again for a few more inches. His strength left him, and the last his mates saw of him he lay gasping in the snow and yearning toward them.",
   "words": [
-    "crawl"
+    {
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of the Wild",

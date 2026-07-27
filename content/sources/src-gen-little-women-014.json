@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Such a man!” laughed good-natured Mrs. K., as she put the relics in the rag bag. “I suppose the others are torn up to rig ships, bandage cut fingers, or make kite tails. It’s dreadful, but I can’t scold him. He’s so absent-minded and goodnatured, he lets those boys ride over him roughshod. I agreed to do his washing and mending, but he forgets to give out his things and I forget to look them over, so he comes to a sad pass sometimes.” “Let me mend them,” said I.",
   "words": [
-    "absent",
-    "mend"
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

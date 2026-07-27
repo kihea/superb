@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Covey bought her from Mr. Thomas Lowe, about six miles from St. Michael’s. She was a large, able-bodied woman, about twenty years old. She had already given birth to one child, which proved her to be just what he wanted. After buying her, he hired a married man of Mr. Samuel Harrison, to live with him one year; and him he used to fasten up with her every night! The result was, that, at the end of the year, the miserable woman gave birth to twins.",
   "words": [
-    "twins"
+    {
+      "word": "twins",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Narrative of the Life of Frederick Douglass, an American Slave",

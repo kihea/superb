@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then he rose and stood respectfully aside, a mark still for all eyes--and much envy, too. Now the King discovered Sir Hugh, and spoke out with wrathful voice and kindling eye-- “Strip this robber of his false show and stolen estates, and put him under lock and key till I have need of him.” The late Sir Hugh was led away. There was a stir at the other end of the room, now; the assemblage fell apart, and Tom Canty, quaintly but richly clothed, marched down, between these living walls, preceded by an usher. He knelt before the King, who said-- “I have learned the story of these past few weeks, and am well pleased with thee. Thou hast governed the realm with right royal gentleness and mercy.",
   "words": [
-    "realm"
+    {
+      "word": "realm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Prince and the Pauper",

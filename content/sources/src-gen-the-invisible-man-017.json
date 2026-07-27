@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Of restoring what I have done. When I choose. When I have done all I mean to do invisibly. And that is what I chiefly want to talk to you about now.” “You went straight to Iping?” “Yes. I had simply to get my three volumes of memoranda and my cheque-book, my luggage and underclothing, order a quantity of chemicals to work out this idea of mine—I will show you the calculations as soon as I get my books—and then I started.",
   "words": [
-    "volumes"
+    {
+      "word": "volumes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The maid, who brought the message, looked rather excited; her eyes were quite round with amazement, in fact, and being young and inexperienced, she regarded her mistress with nervous sympathy. “It's the Earl hisself, ma'am!” she said in tremulous awe. When Mrs. Errol entered the drawing-room, a very tall, majestic-looking old man was standing on the tiger-skin rug. He had a handsome, grim old face, with an aquiline profile, a long white mustache, and an obstinate look. Errol, I believe?” he said.",
   "words": [
-    "maid"
+    {
+      "word": "maid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Lord Fauntleroy",

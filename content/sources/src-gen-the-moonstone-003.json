@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The afternoon wore on, and my lady and Miss Rachel came back. Needless to say how astonished they were, when they heard that Mr. Franklin Blake had arrived, and had gone off again on horseback. Needless also to say, that they asked awkward questions directly, and that the “foreign politics” and the “falling asleep in the sun” wouldn’t serve a second time over with them. Being at the end of my invention, I said Mr. Franklin’s arrival by the early train was entirely attributable to one of Mr. Franklin’s freaks. Being asked, upon that, whether his galloping off again on horseback was another of Mr. Franklin’s freaks, I said, “Yes, it was;” and slipped out of it—I think very cleverly—in that way.",
   "words": [
-    "horseback",
-    "slipped"
+    {
+      "word": "horseback",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

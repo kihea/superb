@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The old gentleman received him very kindly and so did the old lady, whose previous good opinion of him was greatly enhanced by his wiping his boots on the mat until the soles of his feet burnt again. He was then taken into the parlour to be inspected in his new clothes; and when he had been surveyed several times, and had afforded by his appearance unlimited satisfaction, he was taken into the stable (where the pony received him with uncommon complaisance); and thence into the little chamber he had already observed, which was very clean and comfortable: and thence into the garden, in which the old gentleman told him he would be taught to employ himself, and where he told him, besides, what great things he meant to do to make him comfortable, and happy, if he found he deserved it. All these kindnesses, Kit acknowledged with various expressions of gratitude, and so many touches of the new hat, that the brim suffered considerably.",
   "words": [
-    "uncommon"
+    {
+      "word": "uncommon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

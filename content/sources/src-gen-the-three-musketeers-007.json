@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "In twenty minutes they were on the spot named. Patrick soon caught the sound of his master’s voice calling his falcon. “Whom must I announce to my Lord Duke?” asked Patrick. “The young man who one evening sought a quarrel with him on the Pont Neuf, opposite the Samaritaine.” “A singular introduction!” “You will find that it is as good as another.” Patrick galloped off, reached the duke, and announced to him in the terms directed that a messenger awaited him. Buckingham at once remembered the circumstance, and suspecting that something was going on in France of which it was necessary he should be informed, he only took the time to inquire where the messenger was, and recognizing from afar the uniform of the Guards, he put his horse into a gallop, and rode straight up to D’Artagnan.",
   "words": [
-    "quarrel",
-    "singular",
-    "messenger",
-    "circumstance",
-    "inquire",
-    "recognizing",
-    "rode"
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "messenger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recognizing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

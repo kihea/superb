@@ -3,11 +3,37 @@
   "pool": "sourced",
   "text": "I was making my bed, having received strict orders from Bessie to get it arranged before she returned (for Bessie now frequently employed me as a sort of under-nurserymaid, to tidy the room, dust the chairs, &c.). Having spread the quilt and folded my night-dress, I went to the window-seat to put in order some picture-books and doll’s house furniture scattered there; an abrupt command from Georgiana to let her playthings alone (for the tiny chairs and mirrors, the fairy plates and cups, were her property) stopped my proceedings; and then, for lack of other occupation, I fell to breathing on the frost-flowers with which the window was fretted, and thus clearing a space in the glass through which I might look out on the grounds, where all was still and petrified under the influence of a hard frost. From this window were visible the porter’s lodge and the carriage-road, and just as I had dissolved so much of the silver-white foliage veiling the panes as left room to look out, I saw the gates thrown open and a carriage roll through.",
   "words": [
-    "tidy",
-    "chairs",
-    "quilt",
-    "mirrors",
-    "cups"
+    {
+      "word": "tidy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quilt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mirrors",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cups",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

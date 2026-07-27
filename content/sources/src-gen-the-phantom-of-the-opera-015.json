@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The way in which he spoke of his love affairs only increased my alarm, for I foresaw the cause of fresh and more hideous tragedies in this event to which he alluded so boastfully. On the other hand, I soon discovered the curious moral traffic established between the monster and Christine Daae. Hiding in the lumber-room next to the young prima donna's dressing-room, I listened to wonderful musical displays that evidently flung Christine into marvelous ecstasy; but, all the same, I would never have thought that Erik's voice--which was loud as thunder or soft as angels' voices, at will--could have made her forget his ugliness. I understood all when I learned that Christine had not yet seen him! I had occasion to go to the dressing-room and, remembering the lessons he had once given me, I had no difficulty in discovering the trick that made the wall with the mirror swing round and I ascertained the means of hollow bricks and so on--by which he made his voice carry to Christine as though she heard it close beside her.",
   "words": [
-    "listened",
-    "marvelous",
-    "thunder"
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marvelous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Phantom of the Opera",

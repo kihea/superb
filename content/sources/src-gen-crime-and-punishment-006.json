@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Well, would you like to do the second signature of ‘Is woman a human being?’ If you would, take the German and pens and paper--all those are provided, and take three roubles; for as I have had six roubles in advance on the whole thing, three roubles come to you for your share. And when you have finished the signature there will be another three roubles for you. And please don’t think I am doing you a service; quite the contrary, as soon as you came in, I saw how you could help me; to begin with, I am weak in spelling, and secondly, I am sometimes utterly adrift in German, so that I make it up as I go along for the most part. The only comfort is, that it’s bound to be a change for the better. Though who can tell, maybe it’s sometimes for the worse.",
   "words": [
-    "secondly"
+    {
+      "word": "secondly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Crime and Punishment",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "cried Cousin Helen from her sofa. So they came in, followed, before long, by Clover and Elsie. Such a merry morning as they had! Cousin Helen proved to possess a perfect genius for story-telling, and for suggesting games which could be played about her sofa, and did not make more noise than she could bear. Aunt Izzie, dropping in about eleven o'clock, found them having such a good time, that almost before she knew it, she was drawn into the game too.",
   "words": [
-    "o'clock"
+    {
+      "word": "o'clock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "What Katy Did",

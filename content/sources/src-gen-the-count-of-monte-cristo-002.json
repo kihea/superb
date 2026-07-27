@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The fresh earth excavated during their present work, and which would have entirely blocked up the old passage, was thrown, by degrees and with the utmost precaution, out of the window in either Faria’s or Dantès’ cell, the rubbish being first pulverized so finely that the night wind carried it far away without permitting the smallest trace to remain. More than a year had been consumed in this undertaking, the only tools for which had been a chisel, a knife, and a wooden lever; Faria still continuing to instruct Dantès by conversing with him, sometimes in one language, sometimes in another; at others, relating to him the history of nations and great men who from time to time have risen to fame and trodden the path of glory.",
   "words": [
-    "undertaking",
-    "lever"
+    {
+      "word": "undertaking",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "lever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

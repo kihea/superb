@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But, while he was making this ostensible sacrifice to general considerations, Magua never lost sight of his individual motives. The latter had been frustrated by the unlooked-for events which had placed all his prisoners beyond his control; and he now found himself reduced to the necessity of suing for favors to those whom it had so lately been his policy to oblige. Several of the chiefs had proposed deep and treacherous schemes to surprise the Delawares and, by gaining possession of their camp, to recover their prisoners by the same blow; for all agreed that their honor, their interests, and the peace and happiness of their dead countrymen, imperiously required them speedily to immolate some victims to their revenge. But plans so dangerous to attempt, and of such doubtful issue, Magua found little difficulty in defeating. He exposed their risk and fallacy with his usual skill; and it was only after he had removed every impediment, in the shape of opposing advice, that he ventured to propose his own projects.",
   "words": [
-    "gaining",
-    "opposing"
+    {
+      "word": "gaining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "opposing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Mr. Poyser thought she looked the prettier for it: it was a flush no deeper than the petal of a monthly rose. Perhaps it came because her uncle was looking at her so fixedly; but there is no knowing, for just then Adam was saying, with quiet surprise, “Why, I hoped Dinah was settled among us for life. I thought she’d given up the notion o’ going back to her old country.” “Thought! Yes,” said Mrs. Poyser, “and so would anybody else ha’ thought, as had got their right end up’ards. But I suppose you must be a Methodist to know what a Methodist ’ull do.",
   "words": [
-    "notion"
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

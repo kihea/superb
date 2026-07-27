@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "“The two children grew up together, passing all their time with each other, and giving themselves up to the wild ideas of their different characters. Thus, in all their dreams, their wishes, and their conversations, Vampa saw himself the captain of a vessel, general of an army, or governor of a province. Teresa saw herself rich, superbly attired, and attended by a train of liveried domestics. Then, when they had thus passed the day in building castles in the air, they separated their flocks, and descended from the elevation of their dreams to the reality of their humble position. “One day the young shepherd told the count’s steward that he had seen a wolf come out of the Sabine mountains, and prowl around his flock.",
   "words": [
-    "castles",
-    "descended",
-    "shepherd",
-    "flock"
+    {
+      "word": "castles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "descended",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Count of Monte Cristo",

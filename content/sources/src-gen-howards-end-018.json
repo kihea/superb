@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Now”—roguishly—“Mrs. Wilcox, don’t you move while I’m gone.” Stunned, Margaret did not move from the best parlour, over which the touch of art nouveau had fallen. But the other rooms looked in keeping, though they conveyed the peculiar sadness of a rural interior. Here had lived an elder race, to which we look back with disquietude. The country which we visit at week-ends was really a home to it, and the graver sides of life, the deaths, the partings, the yearnings for love, have their deepest expression in the heart of the fields.",
   "words": [
-    "conveyed"
+    {
+      "word": "conveyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Howards End",

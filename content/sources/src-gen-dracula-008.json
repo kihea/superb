@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Van Helsing raised his foot to stamp in anger, but the instinct of his life and all the long years of habit stood to him, and he put it down again softly. “Quick!” he said. “Bring the brandy.” I flew to the dining-room, and returned with the decanter. He wetted the poor white lips with it, and together we rubbed palm and wrist and heart. He felt her heart, and after a few moments of agonising suspense said:-- “It is not too late.",
   "words": [
-    "stamp"
+    {
+      "word": "stamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

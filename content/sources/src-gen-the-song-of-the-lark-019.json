@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Oliver had worked hard while he lived at home, although he was never clean or warm in winter and had wretched food all the year round. His spare, dry figure, his prominent larynx, and the peculiar red of his face and hands belonged to the choreboy he had never outgrown. It was as if the farm, knowing he would escape from it as early as he could, had ground its mark on him deep. When he was fifteen Oliver ran away and went to live with his Catholic aunt, on Jane Street, whom his mother was never allowed to visit. The priest of St. Joseph’s Parish discovered that he had a voice.",
   "words": [
-    "wretched"
+    {
+      "word": "wretched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Song of the Lark",

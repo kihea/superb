@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "In easy state upon this couch, there sat a jolly Giant, glorious to see; who bore a glowing torch, in shape not unlike Plenty's horn, and held it up, high up, to shed its light on Scrooge, as he came peeping round the door. exclaimed the Ghost. and know me better, man!\" Scrooge entered timidly, and hung his head before this Spirit. He was not the dogged Scrooge he had been; and though the Spirit's eyes were clear and kind, he did not like to meet them.",
   "words": [
-    "jolly",
-    "glowing",
-    "torch",
-    "horn"
+    {
+      "word": "jolly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Christmas Carol",

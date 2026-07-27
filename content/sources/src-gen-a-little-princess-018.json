@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "\"Of--of course,\" agreed Miss Amelia, humbly, alarmed to find that she had, as usual, said the wrong thing. \"There is something very disagreeable in seeing that sort of thing in a child of her age,\" said Miss Minchin, with haughty vagueness. \"What--sort of thing?\" Miss Amelia ventured. \"It might almost be called defiance,\" answered Miss Minchin, feeling annoyed because she knew the thing she resented was nothing like defiance, and she did not know what other unpleasant term to use.",
   "words": [
-    "defiance",
-    "annoyed"
+    {
+      "word": "defiance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "annoyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Little Princess",

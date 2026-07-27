@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Probably any other of the doorkeys in this passage would fit it.” We stared at one another blankly. Poirot had walked over to the mantelpiece. He was outwardly calm, but I noticed his hands, which from long force of habit were mechanically straightening the spill vases on the mantelpiece, were shaking violently. “See here, it was like this,” he said at last. “There was something in that case—some piece of evidence, slight in itself perhaps, but still enough of a clue to connect the murderer with the crime.",
   "words": [
-    "stared",
-    "spill",
-    "shaking",
-    "clue"
+    {
+      "word": "stared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Affair at Styles",

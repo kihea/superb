@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "When she met him she looked surprised, though it was impossible to help suspecting that she had come for that express purpose. When he offered her his arm, she took it with a look that filled him with delight, but when he asked if she missed him, she gave such a chilly, formal reply that despair fell upon him. On learning his good fortune she almost clapped her hands. Was the joy all for the boys? Then on hearing his destination, she said, “So far away!” in a tone of despair that lifted him on to a pinnacle of hope, but the next minute she tumbled him down again by observing, like one entirely absorbed in the matter... “Here’s the place for my errands.",
   "words": [
-    "delight",
-    "despair"
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

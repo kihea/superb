@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Every change of season, every change of weather, indeed, every hour of the day, produces some change in the magical hues and shapes of these mountains, and they are regarded by all the good wives, far and near, as perfect barometers. When the weather is fair and settled, they are clothed in blue and purple, and print their bold outlines on the clear evening sky; but sometimes, when the rest of the landscape is cloudless, they will gather a hood of grey vapours about their summits, which, in the last rays of the setting sun, will glow and light up like a crown of glory. At the foot of these fairy mountains, the voyager may have descried the light smoke curling up from a village, whose shingle-roofs gleam among the trees, just where the blue tints of the upland melt away into the fresh green of the nearer landscape. It is a little village, of great antiquity, having been founded by some of the Dutch colonists in the early times of the province, just about the beginning of the government of the good Peter Stuyvesant (may he rest in peace!",
   "words": [
-    "glow",
-    "fairy",
-    "melt",
-    "nearer",
-    "antiquity"
+    {
+      "word": "glow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "antiquity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

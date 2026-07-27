@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "We were dressed and barbered alike, and could pass for small farmers, or farm bailiffs, or shepherds, or carters; yes, or for village artisans, if we chose, our costume being in effect universal among the poor, because of its strength and cheapness. I don't mean that it was really cheap to a very poor person, but I do mean that it was the cheapest material there was for male attire--manufactured material, you understand. We slipped away an hour before dawn, and by broad sun-up had made eight or ten miles, and were in the midst of a sparsely settled country. I had a pretty heavy knapsack; it was laden with provisions--provisions for the king to taper down on, till he could take to the coarse fare of the country without damage. I found a comfortable seat for the king by the roadside, and then gave him a morsel or two to stay his stomach with.",
   "words": [
-    "alike",
-    "shepherds",
-    "costume"
+    {
+      "word": "alike",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "costume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

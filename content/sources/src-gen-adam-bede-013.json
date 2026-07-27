@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Arthur’s lips were now as pale as Adam’s; his heart was beating violently. The discovery that Adam loved Hetty was a shock which made him for the moment see himself in the light of Adam’s indignation, and regard Adam’s suffering as not merely a consequence, but an element of his error. The words of hatred and contempt—the first he had ever heard in his life—seemed like scorching missiles that were making ineffaceable scars on him. All screening self-excuse, which rarely falls quite away while others respect us, forsook him for an instant, and he stood face to face with the first great irrevocable evil he had ever committed. He was only twenty-one, and three months ago—nay, much later—he had thought proudly that no man should ever be able to reproach him justly.",
   "words": [
-    "pale"
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adam Bede",

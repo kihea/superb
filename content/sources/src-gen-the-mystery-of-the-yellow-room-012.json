@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "We entered the gallery to the right. A narrow carpet, laid on the waxed oaken floor, which shone like glass, deadened the sound of our footsteps. Rouletabille asked me, in a low tone, to walk carefully, as we were passing the door of Mademoiselle Stangerson’s apartment. This consisted of a bed-room, an ante-room, a small bath-room, a boudoir, and a drawing-room. One could pass from one to another of these rooms without having to go by way of the gallery.",
   "words": [
-    "carpet"
+    {
+      "word": "carpet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

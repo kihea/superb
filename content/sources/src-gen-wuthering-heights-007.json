@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“On what occasion?” “In our walk along the moor: you told me to ramble where I pleased, while you sauntered on with Mr. Heathcliff!” “And that’s your notion of harshness?” said Catherine, laughing. “It was no hint that your company was superfluous; we didn’t care whether you kept with us or not; I merely thought Heathcliff’s talk would have nothing entertaining for your ears.” “Oh, no,” wept the young lady; “you wished me away, because you knew I liked to be there!” “Is she sane?” asked Mrs. Linton, appealing to me. “I’ll repeat our conversation, word for word, Isabella; and you point out any charm it could have had for you.” “I don’t mind the conversation,” she answered: “I wanted to be with—” “Well?” said Catherine, perceiving her hesitate to complete the sentence. “With him: and I won’t be always sent off!” she continued, kindling up. “You are a dog in the manger, Cathy, and desire no one to be loved but yourself!” “You are an impertinent little monkey!” exclaimed Mrs. Linton, in surprise.",
   "words": [
-    "notion",
-    "wished"
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Wuthering Heights",

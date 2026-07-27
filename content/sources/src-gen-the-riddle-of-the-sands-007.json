@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "So I bought a great pair of seaboots of the country, felt-lined and wooden-soled, and both of us got a number of rough woollen garments (as worn by the local fishermen), breeches, jerseys, helmets, gloves; all of a colour chosen to harmonise with paraffin stains and anchor mud. The same evening we were taking our last look at the Baltic, sailing past warships and groups of idle yachts battened down for their winter’s sleep; while the noble shores of the fiord, with its villas embowered in copper foliage, grew dark and dim above us. We rounded the last headland, steered for a galaxy of coloured lights, tumbled down our sails, and came to under the colossal gates of the Holtenau lock. That these would open to such an infinitesimal suppliant seemed inconceivable. But open they did, with ponderous majesty, and our tiny hull was lost in the womb of a lock designed to float the largest battleships.",
   "words": [
-    "jerseys",
-    "yachts",
-    "colossal",
-    "majesty"
+    {
+      "word": "jerseys",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yachts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "colossal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "majesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Riddle of the Sands",

@@ -3,12 +3,42 @@
   "pool": "sourced",
   "text": "All the values of the temperate landscape were reversed: the noon high-lights were whiter but the shadows had unimagined colour. On the blackness of cork and ilex and cypress lay the green and purple lustres, the coppery iridescences, of old bronze; and night after night the skies were wine-blue and bubbling with stars. Ralph said to himself that no one who had not seen Italy thus prostrate beneath the sun knew what secret treasures she could yield. As he lay there, fragments of past states of emotion, fugitive felicities of thought and sensation, rose and floated on the surface of his thoughts. It was one of those moments when the accumulated impressions of life converge on heart and brain, elucidating, enlacing each other, in a mysterious confusion of beauty.",
   "words": [
-    "noon",
-    "shadows",
-    "bronze",
-    "treasures",
-    "impressions",
-    "converge"
+    {
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bronze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treasures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impressions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "converge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "Invisible things seemed watching me. I resolved to go back to the enclosure on the beach. I suddenly turned away and thrust myself violently, possibly even frantically, through the bushes, anxious to get a clear space about me again. I stopped just in time to prevent myself emerging upon an open space. It was a kind of glade in the forest, made by a fall; seedlings were already starting up to struggle for the vacant space; and beyond, the dense growth of stems and twining vines and splashes of fungus and flowers closed in again.",
   "words": [
-    "thrust",
-    "bushes",
-    "vines"
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bushes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vines",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Island of Doctor Moreau",

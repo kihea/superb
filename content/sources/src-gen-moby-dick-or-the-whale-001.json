@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In this same New Bedford there stands a Whaleman’s Chapel, and few are the moody fishermen, shortly bound for the Indian Ocean or Pacific, who fail to make a Sunday visit to the spot. I am sure that I did not. Returning from my first morning stroll, I again sallied out upon this special errand. The sky had changed from clear, sunny cold, to driving sleet and mist. Wrapping myself in my shaggy jacket of the cloth called bearskin, I fought my way against the stubborn storm.",
   "words": [
-    "mist"
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I have offered you advice,” Winterbourne rejoined. “I prefer weak tea!” cried Daisy, and she went off with the brilliant Giovanelli. She sat with him in the adjoining room, in the embrasure of the window, for the rest of the evening. There was an interesting performance at the piano, but neither of these young people gave heed to it. When Daisy came to take leave of Mrs. Walker, this lady conscientiously repaired the weakness of which she had been guilty at the moment of the young girl’s arrival.",
   "words": [
-    "weakness"
+    {
+      "word": "weakness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Daisy Miller",

@@ -3,16 +3,66 @@
   "pool": "sourced",
   "text": "In the days when the spinning-wheels hummed busily in the farmhouses—and even great ladies, clothed in silk and thread-lace, had their toy spinning-wheels of polished oak—there might be seen in districts far away among the lanes, or deep in the bosom of the hills, certain pallid undersized men, who, by the side of the brawny country-folk, looked like the remnants of a disinherited race. The shepherd’s dog barked fiercely when one of these alien-looking men appeared on the upland, dark against the early winter sunset; for what dog likes a figure bent under a heavy bag?—and these pale men rarely stirred abroad without that mysterious burden. The shepherd himself, though he had good reason to believe that the bag held nothing but flaxen thread, or else the long rolls of strong linen spun from that thread, was not quite sure that this trade of weaving, indispensable though it was, could be carried on entirely without the help of the Evil One. In that far-off time superstition clung easily round every person or thing that was at all unwonted, or even intermittent and occasional merely, like the visits of the pedlar or the knife-grinder.",
   "words": [
-    "lace",
-    "oak",
-    "remnants",
-    "shepherd",
-    "linen",
-    "weaving",
-    "indispensable",
-    "intermittent",
-    "occasional",
-    "grinder"
+    {
+      "word": "lace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remnants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weaving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indispensable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intermittent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occasional",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Silas Marner",

@@ -3,13 +3,48 @@
   "pool": "sourced",
   "text": "As she crossed the lawn, that sloped from the front of the monastery towards the sea, she was struck with the picture of repose, exhibited by some monks, sitting in the cloisters, which extended under the brow of the woods, that crowned this eminence; where, as they meditated, at this twilight hour, holy subjects, they sometimes suffered their attention to be relieved by the scene before them, nor thought it profane to look at nature, now that it had exchanged the brilliant colours of day for the sober hue of evening. Before the cloisters, however, spread an ancient chesnut, whose ample branches were designed to screen the full magnificence of a scene, that might tempt the wish to worldly pleasures; but still, beneath the dark and spreading foliage, gleamed a wide extent of ocean, and many a passing sail; while, to the right and left, thick woods were seen stretching along the winding shores. So much as this had been admitted, perhaps, to give to the secluded votary an image of the dangers and vicissitudes of life, and to console him, now that he had renounced its pleasures, by the certainty of having escaped its evils.",
   "words": [
-    "lawn",
-    "monastery",
-    "monks",
-    "twilight",
-    "ample",
-    "sail",
-    "console"
+    {
+      "word": "lawn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monastery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ample",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "console",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysteries of Udolpho",

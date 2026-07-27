@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Yes, I am sure: carry her gently to the inn.” “Yes, yes, to the inn,” repeated Captain Wentworth, comparatively collected, and eager to be doing something. “I will carry her myself. Musgrove, take care of the others.” By this time the report of the accident had spread among the workmen and boatmen about the Cobb, and many were collected near them, to be useful if wanted, at any rate, to enjoy the sight of a dead young lady, nay, two dead young ladies, for it proved twice as fine as the first report. To some of the best-looking of these good people Henrietta was consigned, for, though partially revived, she was quite helpless; and in this manner, Anne walking by her side, and Charles attending to his wife, they set forward, treading back with feelings unutterable, the ground, which so lately, so very lately, and so light of heart, they had passed along. They were not off the Cobb, before the Harvilles met them.",
   "words": [
-    "gently",
-    "comparatively"
+    {
+      "word": "gently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "comparatively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Persuasion",

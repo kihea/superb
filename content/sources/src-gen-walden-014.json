@@ -3,10 +3,31 @@
   "pool": "sourced",
   "text": "Gilpin, in his account of the forest borderers of England, says that “the encroachments of trespassers, and the houses and fences thus raised on the borders of the forest,” were “considered as great nuisances by the old forest law, and were severely punished under the name of purprestures, as tending ad terrorem ferarum—ad nocumentum forestæ, &c.,” to the frightening of the game and the detriment of the forest. But I was interested in the preservation of the venison and the vert more than the hunters or woodchoppers, and as much as though I had been the Lord Warden himself; and if any part was burned, though I burned it myself by accident, I grieved with a grief that lasted longer and was more inconsolable than that of the proprietors; nay, I grieved when it was cut down by the proprietors themselves. I would that our farmers when they cut down a forest felt some of that awe which the old Romans did when they came to thin, or let in the light to, a consecrated grove (lucum conlucare), that is, would believe that it is sacred to some god.",
   "words": [
-    "fences",
-    "hunters",
-    "consecrated",
-    "grove"
+    {
+      "word": "fences",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hunters",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consecrated",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "grove",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

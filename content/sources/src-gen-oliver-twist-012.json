@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“I don’t know what to think,” replied poor Giles. “I don’t think it is the boy; indeed, I’m almost certain that it isn’t. You know it can’t be.” “Has this man been a-drinking, sir?” inquired Blathers, turning to the doctor. “What a precious muddle-headed chap you are!” said Duff, addressing Mr. Giles, with supreme contempt. Mr. Losberne had been feeling the patient’s pulse during this short dialogue; but he now rose from the chair by the bedside, and remarked, that if the officers had any doubts upon the subject, they would perhaps like to step into the next room, and have Brittles before them.",
   "words": [
-    "contempt"
+    {
+      "word": "contempt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Oliver Twist",

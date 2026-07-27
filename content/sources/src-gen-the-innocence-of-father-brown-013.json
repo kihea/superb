@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "“There was badness enough in the captain taking all that money, but I don’t think there was much goodness in the prince giving it. The captain’s not the only one with something against him.” A light dawned on the cleric’s averted face, and his mouth formed silently the word “blackmail.” Even as he did so the woman turned an abrupt white face over her shoulder and almost fell. The door had opened soundlessly and the pale Paul stood like a ghost in the doorway. By the weird trick of the reflecting walls, it seemed as if five Pauls had entered by five doors simultaneously. “His Highness,” he said, “has just arrived.” In the same flash the figure of a man had passed outside the first window, crossing the sunlit pane like a lighted stage.",
   "words": [
-    "blackmail",
-    "pale",
-    "doorway",
-    "reflecting",
-    "lighted"
+    {
+      "word": "blackmail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflecting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

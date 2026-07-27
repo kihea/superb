@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Koom!” he ejaculated; “it is my brother’s son; it is the king.” “Did I not tell thee so, my uncle? Rise; I am not yet the king, but with thy help, and with the help of these brave white men, who are my friends, I shall be. Yet the old witch Gagool was right, the land shall run with blood first, and hers shall run with it, if she has any and can die, for she killed my father with her words, and drove my mother forth. And now, Infadoos, choose thou. Wilt thou put thy hands between my hands and be my man?",
   "words": [
-    "witch",
-    "wilt"
+    {
+      "word": "witch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wilt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "King Solomon's Mines",

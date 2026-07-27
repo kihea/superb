@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "‘Rather weak upon his legs,’ returned Mr Vuffin. ‘I begin to be afraid he’s going at the knees.’ ‘That’s a bad look-out,’ said Short. Bad indeed,’ replied Mr Vuffin, contemplating the fire with a sigh. ‘Once get a giant shaky on his legs, and the public care no more about him than they do for a dead cabbage stalk.’ ‘What becomes of old giants?’ said Short, turning to him again after a little reflection. ‘They’re usually kept in carawans to wait upon the dwarfs,’ said Mr Vuffin.",
   "words": [
-    "contemplating",
-    "dwarfs"
+    {
+      "word": "contemplating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwarfs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",

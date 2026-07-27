@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "In the meantime D’Artagnan, who had plunged into a bypath, continued his route and reached St. Cloud; but instead of following the main street he turned behind the château, reached a sort of retired lane, and found himself soon in front of the pavilion named. It was situated in a very private spot. A high wall, at the angle of which was the pavilion, ran along one side of this lane, and on the other was a little garden connected with a poor cottage which was protected by a hedge from passers-by. He gained the place appointed, and as no signal had been given him by which to announce his presence, he waited.",
   "words": [
-    "hedge"
+    {
+      "word": "hedge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

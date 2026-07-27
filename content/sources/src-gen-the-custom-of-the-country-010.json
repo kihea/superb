@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "As she spoke she tossed the telegram into the basket beneath the writing-table. \"As if I didn't HAVE to go anyhow?\" she exclaimed. With an aching clearness of vision she saw what lay before her--the hurried preparations, the long tedious voyage on a steamer chosen at haphazard, the arrival in the deadly July heat, and the relapse into all the insufferable daily fag of nursery and kitchen--she saw it and her imagination recoiled. Van Degen's eyes still hung on her: she guessed that he was intensely engaged in trying to follow what was passing through her mind.",
   "words": [
-    "preparations",
-    "voyage"
+    {
+      "word": "preparations",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Custom of the Country",

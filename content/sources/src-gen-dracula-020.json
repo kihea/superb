@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I am amaze, and not at ease then; but she is so bright and tender and thoughtful for me that I forget all fear. I light a fire, for we have brought supply of wood with us, and she prepare food while I undo the horses and set them, tethered in shelter, to feed. Then when I return to the fire she have my supper ready. I go to help her; but she smile, and tell me that she have eat already--that she was so hungry that she would not wait. I like it not, and I have grave doubts; but I fear to affright her, and so I am silent of it.",
   "words": [
-    "supper"
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

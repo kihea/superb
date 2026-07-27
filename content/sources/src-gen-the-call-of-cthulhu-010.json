@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "All denied a part in the ritual murders, and averred that the killing had been done by Black-winged Ones which had come to them from their immemorial meeting-place in the haunted wood. But of those mysterious allies no coherent account could ever be gained. What the police did extract came mainly from an immensely aged mestizo named Castro, who claimed to have sailed to strange ports and talked with undying leaders of the cult in the mountains of China. Old Castro remembered bits of hideous legend that paled the speculations of theosophists and made man and the world seem recent and transient indeed. There had been eons when other Things ruled on the earth, and They had had great cities.",
   "words": [
-    "murders",
-    "immensely",
-    "ports"
+    {
+      "word": "murders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immensely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ports",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Call of Cthulhu",

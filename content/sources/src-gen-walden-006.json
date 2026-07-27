@@ -3,16 +3,66 @@
   "pool": "sourced",
   "text": "I doubt if there is such a place in Massachusetts now:— “In truth, our village has become a butt For one of those fleet railroad shafts, and o’er Our peaceful plain its soothing sound is—Concord.” The Fitchburg Railroad touches the pond about a hundred rods south of where I dwell. I usually go to the village along its causeway, and am, as it were, related to society by this link. The men on the freight trains, who go over the whole length of the road, bow to me as to an old acquaintance, they pass me so often, and apparently they take me for an employee; and so I am. I too would fain be a track-repairer somewhere in the orbit of the earth. The whistle of the locomotive penetrates my woods summer and winter, sounding like the scream of a hawk sailing over some farmer’s yard, informing me that many restless city merchants are arriving within the circle of the town, or adventurous country traders from the other side.",
   "words": [
-    "freight",
-    "acquaintance",
-    "orbit",
-    "whistle",
-    "scream",
-    "sailing",
-    "informing",
-    "arriving",
-    "adventurous",
-    "traders"
+    {
+      "word": "freight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "orbit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whistle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scream",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "informing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "arriving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "adventurous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Walden",

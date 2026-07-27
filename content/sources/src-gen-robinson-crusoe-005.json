@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Dec. 17.—From this day to the 20th I placed shelves, and knocked up nails on the posts, to hang everything up that could be hung up; and now I began to be in some order within doors. Dec. 20.—Now I carried everything into the cave, and began to furnish my house, and set up some pieces of boards like a dresser, to order my victuals upon; but boards began to be very scarce with me; also, I made me another table. Dec. 24.—Much rain all night and all day. No stirring out. Dec. 25.—Rain all day.",
   "words": [
-    "dresser"
+    {
+      "word": "dresser",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

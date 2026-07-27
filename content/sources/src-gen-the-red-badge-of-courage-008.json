@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "An officer on a bounding horse made maniacal motions with his arms. The teams went swinging up from the rear, the guns were whirled about, and the battery scampered away. The cannon with their noses poked slantingly at the ground grunted and grumbled like stout men, brave but with objections to hurry. The youth went on, moderating his pace since he had left the place of noises. Later he came upon a general of division seated upon a horse that pricked its ears in an interested way at the battle.",
   "words": [
-    "motions"
+    {
+      "word": "motions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Red Badge of Courage",

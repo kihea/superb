@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The Doctor As Carmilla would not hear of an attendant sleeping in her room, my father arranged that a servant should sleep outside her door, so that she would not attempt to make another such excursion without being arrested at her own door. That night passed quietly; and next morning early, the doctor, whom my father had sent for without telling me a word about it, arrived to see me. Madame accompanied me to the library; and there the grave little doctor, with white hair and spectacles, whom I mentioned before, was waiting to receive me. I told him my story, and as I proceeded he grew graver and graver. We were standing, he and I, in the recess of one of the windows, facing one another.",
   "words": [
-    "attendant",
-    "servant",
-    "quietly"
+    {
+      "word": "attendant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Carmilla",

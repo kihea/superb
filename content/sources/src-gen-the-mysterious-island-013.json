@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“That little creek, shut in by rocks, seems to me to be just the harbor we want.” “Is it not rather far?” “Pooh! it is not more than three miles from Granite House, and we have a fine straight road to take us there!” “Do it then, Pencroft, and take your ‘Bonadventure’ there,” replied the engineer, “and yet I would rather have her under our more immediate protection. When we have time, we must make a little harbor for her.” “Famous!” exclaimed Pencroft. “A harbor with a lighthouse, a pier, and dock! really with you, captain, everything becomes easy.” “Yes, my brave Pencroft,” answered the engineer, “but on condition, however, that you help me, for you do as much as three men in all our work.” Herbert and the sailor then re-embarked on board the “Bonadventure,” the anchor was weighed, the sail hoisted, and the wind drove her rapidly towards Claw Cape.",
   "words": [
-    "lighthouse",
-    "weighed",
-    "sail"
+    {
+      "word": "lighthouse",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "weighed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

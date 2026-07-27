@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "The world is blinded by his fortune and consequence, or frightened by his high and imposing manners, and sees him only as he chooses to be seen.” “I should take him, even on my slight acquaintance, to be an ill-tempered man.” Wickham only shook his head. “I wonder,” said he, at the next opportunity of speaking, “whether he is likely to be in this country much longer.” “I do not at all know; but I heard nothing of his going away when I was at Netherfield. I hope your plans in favour of the ----shire will not be affected by his being in the neighbourhood.” “Oh no--it is not for me to be driven away by Mr. Darcy. If he wishes to avoid seeing me he must go. We are not on friendly terms, and it always gives me pain to meet him, but I have no reason for avoiding him but what I might proclaim to all the world--a sense of very great ill-usage, and most painful regrets at his being what he is.",
   "words": [
-    "acquaintance",
-    "avoiding"
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "avoiding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Pride and Prejudice",

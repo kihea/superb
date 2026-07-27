@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "What have I lost? Nothing but Nervous Force—which the law doesn’t recognise as property; so that, strictly speaking, I have lost nothing at all. If I could have had my own way, I would have kept my adventure to myself—I shrink from all this fuss and publicity. But Mr. Luker made his injuries public, and my injuries, as the necessary consequence, have been proclaimed in their turn. I have become the property of the newspapers, until the gentle reader gets sick of the subject.",
   "words": [
-    "shrink",
-    "publicity"
+    {
+      "word": "shrink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "publicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Moonstone",

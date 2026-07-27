@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "The scout resumed his post in advance, though his steps, after he had thrown a safe distance between himself and his enemies, were more deliberate than in their previous march, in consequence of his utter ignorance of the localities of the surrounding woods. More than once he halted to consult with his confederates, the Mohicans, pointing upward at the moon, and examining the barks of the trees with care. In these brief pauses, Heyward and the sisters listened, with senses rendered doubly acute by the danger, to detect any symptoms which might announce the proximity of their foes. At such moments, it seemed as if a vast range of country lay buried in eternal sleep; not the least sound arising from the forest, unless it was the distant and scarcely audible rippling of a water-course. Birds, beasts, and man, appeared to slumber alike, if, indeed, any of the latter were to be found in that wide tract of wilderness.",
   "words": [
-    "upward",
-    "listened",
-    "acute",
-    "slumber",
-    "wilderness"
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wilderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

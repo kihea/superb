@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But then I remembered the pile of papers and bills with which his study table was littered. It was certain that I could not help with those. And Holmes had expressly said that I should study the neighbours upon the moor. I accepted Stapleton’s invitation, and we turned together down the path. “It is a wonderful place, the moor,” said he, looking round over the undulating downs, long green rollers, with crests of jagged granite foaming up into fantastic surges.",
   "words": [
-    "pile"
+    {
+      "word": "pile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Hound of the Baskervilles",

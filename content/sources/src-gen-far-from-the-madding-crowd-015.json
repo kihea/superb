@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Upon the whole, the door seemed to advertise itself as a species of Traitor’s Gate translated to another element. That entry and exit hereby was only at rare intervals became apparent on noting that tufts of grass were allowed to flourish undisturbed in the chinks of the sill. As the clock from the tower of St. George’s Church pointed to three minutes to three, a blue spring waggon, picked out with red, and containing boughs and flowers, turned from the high road and halted on this side of the building. Whilst the chimes were yet stammering out a shattered form of “Malbrook,” Joseph Poorgrass rang the bell, and received directions to back his waggon against the high door under the gable. The door then opened, and a plain elm coffin was slowly thrust forth, and laid by two men in fustian along the middle of the vehicle.",
   "words": [
-    "translated",
-    "elm"
+    {
+      "word": "translated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

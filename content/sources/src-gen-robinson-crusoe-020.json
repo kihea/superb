@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "But it was enough to have terrified a bolder man than I; and, indeed, it alarmed all our company, when, with the noise of Friday’s pistol, we heard on both sides the most dismal howling of wolves; and the noise, redoubled by the echo of the mountains, appeared to us as if there had been a prodigious number of them; and perhaps there was not such a few as that we had no cause of apprehension: however, as Friday had killed this wolf, the other that had fastened upon the horse left him immediately, and fled, without doing him any damage, having happily fastened upon his head, where the bosses of the bridle had stuck in his teeth. But the man was most hurt; for the raging creature had bit him twice, once in the arm, and the other time a little above his knee; and though he had made some defence, he was just tumbling down by the disorder of his horse, when Friday came up and shot the wolf.",
   "words": [
-    "howling",
-    "echo"
+    {
+      "word": "howling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "echo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Robinson Crusoe",

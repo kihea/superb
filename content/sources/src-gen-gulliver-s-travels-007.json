@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "I hope the gentle reader will excuse me for dwelling on these and the like particulars, which, however insignificant they may appear to groveling vulgar minds, yet will certainly help a philosopher to enlarge his thoughts and imagination, and apply them to the benefit of public as well as private life, which was my sole design in presenting this and other accounts of my travels to the world; wherein I have been chiefly studious of truth, without affecting any ornaments of learning or of style. But the whole scene of this voyage made so strong an impression on my mind, and is so deeply fixed in my memory, that, in committing it to paper I did not omit one material circumstance: however, upon a strict review, I blotted out several passages of less moment which were in my first copy, for fear of being censured as tedious and trifling, whereof travellers are often, perhaps not without justice, accused. A description of the farmer’s daughter. The author carried to a market-town, and then to the metropolis. The particulars of his journey.",
   "words": [
-    "travels",
-    "voyage",
-    "travellers"
+    {
+      "word": "travels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Gulliver's Travels",

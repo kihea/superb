@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"It is necessary to keep the rooms cool just now, but this air seems to me cold.\" Receiving no answer, he looked at her, and saw the sad truth in her averted face. \"I beg your pardon,\" he said quickly, flushing to the roots of his hair. \"I might have known, after what you said to me this evening.\" \"We had a little fire here to-day, sir,\" she said, struggling with the pride and shame of poverty; \"but we have been out of firing for two or three days, and we owe the wharfman something now.",
   "words": [
-    "owe"
+    {
+      "word": "owe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Ghost Stories of an Antiquary",

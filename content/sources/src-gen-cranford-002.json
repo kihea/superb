@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "Card-tables, with green baize tops, were set out by daylight, just as usual; it was the third week in November, so the evenings closed in about four. Candles, and clean packs of cards, were arranged on each table. The fire was made up; the neat maid-servant had received her last directions; and there we stood, dressed in our best, each with a candle-lighter in our hands, ready to dart at the candles as soon as the first knock came. Parties in Cranford were solemn festivities, making the ladies feel gravely elated as they sat together in their best dresses. As soon as three had arrived, we sat down to “Preference,” I being the unlucky fourth.",
   "words": [
-    "packs",
-    "neat"
+    {
+      "word": "packs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

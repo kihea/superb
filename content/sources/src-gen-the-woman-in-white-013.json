@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I don’t know how master brought her to the house, being hard at work at the time. But he did bring her in the afternoon, I think, and the housemaid opened the door to them, and showed them into the parlour. Before she had been long down in the kitchen again with me, we heard a hurry-skurry upstairs, and the parlour bell ringing like mad, and my mistress’s voice calling out for help. We both ran up, and there we saw the lady laid on the sofa, with her face ghastly white, and her hands fast clenched, and her head drawn down to one side. She had been taken with a sudden fright, my mistress said, and master he told us she was in a fit of convulsions.",
   "words": [
-    "mistress",
-    "fright"
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Woman in White",

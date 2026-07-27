@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "If yo’ could hear them speak, yo’d not be shocked at him; he’s a rare good man, is father—but oh!” said she, falling back in despair, “what he says at times makes me long to die more than ever, for I want to know so many things, and am so tossed about wi’ wonder.” “Poor wench—poor old wench—I’m loth to vex thee, I am; but a man mun speak out for the truth, and when I see the world going all wrong at this time o’ day, bothering itself wi’ things it knows nought about, and leaving undone all the things that lie in disorder close at its hand—why, I say, leave a’ this talk about religion alone, and set to work on what yo’ see and know. That’s my creed. It’s simple, and not far to fetch, nor hard to work.” But the girl only pleaded the more with Margaret. “Don’t think hardly on him—he’s a good man, he is. I sometimes think I shall be moped wi’ sorrow even in the City of God, if father is not there.” The feverish colour came into her cheek, and the feverish flame into her eye.",
   "words": [
-    "undone",
-    "creed"
+    {
+      "word": "undone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "creed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "North and South",

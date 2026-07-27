@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "8, and I went below and fell into conversation with a passenger, a handsome man, with easy carriage and an intelligent face. We were approaching Island No. 10, a place so celebrated during the war. This gentleman's home was on the main shore in its neighborhood. I had some talk with him about the war times; but presently the discourse fell upon 'feuds,' for in no part of the South has the vendetta flourished more briskly, or held out longer between warring families, than in this particular region.",
   "words": [
-    "approaching",
-    "discourse"
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Life on the Mississippi",

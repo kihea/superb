@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And when you hear such words spoken, Arthur, remember never to repeat them: it is wicked to say such things of others, not to have them said against you.” “Then it’s papa that’s wicked,” said he, ruefully. “Papa is wrong to say such things, and you will be very wrong to imitate him now that you know better.” “What is imitate?” “To do as he does.” “Does he know better?” “Perhaps he does; but that is nothing to you.” “If he doesn’t, you ought to tell him, mamma.” “I have told him.” The little moralist paused and pondered. I tried in vain to divert his mind from the subject. “I’m sorry papa’s wicked,” said he mournfully, at length, “for I don’t want him to go to hell.” And so saying he burst into tears. I consoled him with the hope that perhaps his papa would alter and become good before he died—; but is it not time to deliver him from such a parent?",
   "words": [
-    "wicked",
-    "mamma"
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mamma",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Tenant of Wildfell Hall",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I turned about, no longer aimless, and went—circuitously in order to avoid the busy ways, towards the back streets north of the Strand; for I remembered, though not very distinctly where, that some theatrical costumiers had shops in that district. “The day was cold, with a nipping wind down the northward running streets. I walked fast to avoid being overtaken. Every crossing was a danger, every passenger a thing to watch alertly. One man as I was about to pass him at the top of Bedford Street, turned upon me abruptly and came into me, sending me into the road and almost under the wheel of a passing hansom.",
   "words": [
-    "northward",
-    "overtaken"
+    {
+      "word": "northward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overtaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Invisible Man",

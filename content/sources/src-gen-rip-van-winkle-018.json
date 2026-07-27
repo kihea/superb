@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Whenever her name was mentioned, however, he shook his head, shrugged his shoulders, and cast up his eyes; which might pass either for an expression of resignation to his fate, or joy at his deliverance. He used to tell his story to every stranger that arrived at Mr. Doolittle’s hotel. He was observed, at first, to vary on some points every time he told it, which was, doubtless, owing to his having so recently awaked. It at last settled down precisely to the tale I have related, and not a man, woman, or child in the neighbourhood but knew it by heart. Some always pretended to doubt the reality of it, and insisted that Rip had been out of his head, and that this was one point on which he always remained flighty.",
   "words": [
-    "shrugged"
+    {
+      "word": "shrugged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Rip Van Winkle",

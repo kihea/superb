@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "My words, though made as simple as I can, may be rather deep for some heads.” “Oh yes, Henery, we quite conceive ye.” “A strange old piece, goodmen—whirled about from here to yonder, as if I were nothing worth. A little warped, too. But I have my depths; ha, and even my great depths! I might close with a certain shepherd, brain to brain. But no—Oh no!” “A strange old piece, ye say!” interposed the maltster, in a querulous voice.",
   "words": [
-    "depths"
+    {
+      "word": "depths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

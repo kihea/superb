@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Leaning on the wall, to prevent himself from falling, he had made his way to Mademoiselle Stangerson’s room, while we were running after the supposed murderer. The ante-room door was open and when he entered he found Mademoiselle Stangerson lying partly thrown over the desk. Her dressing-gown was dyed with the blood flowing from her bosom. Still under the influence of the drug, he felt he was walking in a horrible nightmare. He went back to the gallery automatically, opened a window, shouted his order to fire, and then returned to the room.",
   "words": [
-    "gown"
+    {
+      "word": "gown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mystery of the Yellow Room",

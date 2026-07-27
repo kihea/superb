@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "You will find a beautiful print of it just opposite yon rock, agin the hillside.” While the youth was engaged in this commission, the scout and Chingachgook were attentively considering the impressions. The measurements agreed, and the former unhesitatingly pronounced that the footstep was that of David, who had once more been made to exchange his shoes for moccasins. “I can now read the whole of it, as plainly as if I had seen the arts of Le Subtil,” he added; “the singer being a man whose gifts lay chiefly in his throat and feet, was made to go first, and the others have trod in his steps, imitating their formation.” “But,” cried Duncan, “I see no signs of—” “The gentle ones,” interrupted the scout; “the varlet has found a way to carry them, until he supposed he had thrown any followers off the scent. My life on it, we see their pretty little feet again, before many rods go by.” The whole party now proceeded, following the course of the rill, keeping anxious eyes on the regular impressions.",
   "words": [
-    "impressions",
-    "proceeded"
+    {
+      "word": "impressions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proceeded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "You’ve taken the old place again.” “I should think I had,” said Sea Catch. “Look at me!” He was scratched and bleeding in twenty places; one eye was almost out, and his sides were torn to ribbons. “Oh, you men, you men!” Matkah said, fanning herself with her hind flipper. “Why can’t you be sensible and settle your places quietly? You look as though you had been fighting with the Killer Whale.” “I haven’t been doing anything but fight since the middle of May.",
   "words": [
-    "torn",
-    "hind"
+    {
+      "word": "torn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Jungle Book",

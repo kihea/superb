@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "“Yes, we’re well enough here,” she sighed. Her tone was so sweet that he took the pipe from his mouth and drew his chair up to the table. Leaning forward, he touched the farther end of the strip of brown stuff that she was hemming. “Say, Matt,” he began with a smile, “what do you think I saw under the Varnum spruces, coming along home just now? I saw a friend of yours getting kissed.” The words had been on his tongue all the evening, but now that he had spoken them they struck him as inexpressibly vulgar and out of place.",
   "words": [
-    "farther"
+    {
+      "word": "farther",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Ethan Frome",

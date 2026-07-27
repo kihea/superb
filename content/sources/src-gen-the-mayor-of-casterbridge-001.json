@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The dense trees of the avenue rendered the road dark as a tunnel, though the open land on each side was still under a faint daylight, in other words, they passed down a midnight between two gloamings. The features of the town had a keen interest for Elizabeth’s mother, now that the human side came to the fore. As soon as they had wandered about they could see that the stockade of gnarled trees which framed in Casterbridge was itself an avenue, standing on a low green bank or escarpment, with a ditch yet visible without. Within the avenue and bank was a wall more or less discontinuous, and within the wall were packed the abodes of the burghers. Though the two women did not know it these external features were but the ancient defences of the town, planted as a promenade.",
   "words": [
-    "faint",
-    "daylight",
-    "wandered"
+    {
+      "word": "faint",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "daylight",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "wandered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mayor of Casterbridge",

@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Fresh sharpened by his victory, full of hopes of future favor, he was resolved not to recoil a step. So the two swords were crossed close to the hilts, and as D’Artagnan stood firm, it was his adversary who made the retreating step; but D’Artagnan seized the moment at which, in this movement, the sword of Bernajoux deviated from the line. He freed his weapon, made a lunge, and touched his adversary on the shoulder. D’Artagnan immediately made a step backward and raised his sword; but Bernajoux cried out that it was nothing, and rushing blindly upon him, absolutely spitted himself upon D’Artagnan’s sword.",
   "words": [
-    "swords"
+    {
+      "word": "swords",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Three Musketeers",

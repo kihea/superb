@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "I used a cipher. I didn't waste any time in sociabilities with Clarence, but squared away for business, straight-off--thus: “The king is here and in danger. We were captured and brought here as slaves. We should not be able to prove our identity --and the fact is, I am not in a position to try. Send a telegram for the palace here which will carry conviction with it.” His answer came straight back: “They don't know anything about the telegraph; they haven't had any experience yet, the line to London is so new.",
   "words": [
-    "squared",
-    "telegram"
+    {
+      "word": "squared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "telegram",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Connecticut Yankee in King Arthur's Court",

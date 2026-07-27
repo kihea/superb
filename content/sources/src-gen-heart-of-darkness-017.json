@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "A light was burning within, but Mr. Kurtz was not there. “I think I would have raised an outcry if I had believed my eyes. But I didn’t believe them at first—the thing seemed so impossible. The fact is I was completely unnerved by a sheer blank fright, pure abstract terror, unconnected with any distinct shape of physical danger. What made this emotion so overpowering was—how shall I define it?—the moral shock I received, as if something altogether monstrous, intolerable to thought and odious to the soul, had been thrust upon me unexpectedly.",
   "words": [
-    "fright",
-    "altogether",
-    "thrust"
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",

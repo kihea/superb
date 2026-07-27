@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Then I discovered I had forgotten guy-ropes. This necessitated my climbing the shears, which I did twice, before I finished guying it fore and aft and to either side. Twilight had set in by the time this was accomplished. Wolf Larsen, who had sat about and listened all afternoon and never opened his mouth, had taken himself off to the galley and started his supper. I felt quite stiff across the small of the back, so much so that I straightened up with an effort and with pain.",
   "words": [
-    "climbing"
+    {
+      "word": "climbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

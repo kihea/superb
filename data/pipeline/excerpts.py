@@ -366,7 +366,7 @@ def content_words(text: str) -> set[str]:
     return {t for t in tokenize(text) if t not in STOPWORDS and len(t) > 2}
 
 
-def is_informative(word: str, text: str, glosses: dict[str, str]) -> tuple[bool, str]:
+def is_informative(word: str, text: str, glosses: dict[str, str]) -> tuple[bool, list[str]]:
     """The heuristic measured in data/pipeline/tests/measure_informativeness.py.
 
     Four cheap, explainable signals, matching the track's brief: definitional
@@ -376,9 +376,9 @@ def is_informative(word: str, text: str, glosses: dict[str, str]) -> tuple[bool,
 
     **Only apposition, definition-marker, and gloss-overlap gate a window
     into "informative".** Contrast and exemplification are still detected —
-    the reason string reports them, and the precision measurement audits
-    them by category — but neither is trusted to decide inclusion on its
-    own. The hand-measured sample (data/pipeline/tests/informativeness_key.json)
+    the reason is reported for the precision measurement's category
+    breakdown — but neither is trusted to decide inclusion on its own. The
+    hand-measured sample (data/pipeline/tests/informativeness_key.json)
     found both signals fire just as often on a marker attached to some
     *other* word in the window as on the candidate itself ("such as" or
     "but" a clause away, exemplifying or contrasting a neighbour, not the
@@ -387,6 +387,14 @@ def is_informative(word: str, text: str, glosses: dict[str, str]) -> tuple[bool,
     ("an excerpt claiming fewer words than it teaches costs coverage; one
     claiming more corrupts the schedule"), the fix is to stop trusting the
     two signals that measured weakest, not to keep narrowing them further.
+
+    **All three gating signals are checked, not just the first to match**
+    (ADR-026, workspace/decisions/README.md) — they co-fire at a measured
+    0.6% of firings, and returning only the first would silently discard
+    that every time it happened. The return value is `(informative, signals)`
+    where `signals` holds every gating signal that fired, in a fixed order,
+    or a single-element list naming the reported non-gating signal
+    (`"exemplification"`, `"contrast"`) or `"none"` when nothing fired.
     """
     lower = text.lower()
     idx = lower.find(word.lower())
@@ -413,44 +421,48 @@ def is_informative(word: str, text: str, glosses: dict[str, str]) -> tuple[bool,
     local_after = lower[idx + len(word) : window_end]
 
     # 1. definitional apposition: "word, a/an/the ...," or an explicit gloss
-    # marker close to the word. Gates inclusion.
+    # marker close to the word. 2. gloss overlap — the sentence's own
+    # content words echo the word's dictionary sense, which is the
+    # cheapest proxy this pipeline has for "the passage supplies the
+    # meaning" without hand-authoring one. Both gate inclusion, and both
+    # are checked regardless of whether the other already fired, so a
+    # window that satisfies more than one is recorded as such rather than
+    # only ever reporting the first (ADR-026).
+    signals: list[str] = []
     apposition_re = re.compile(
         re.escape(word.lower()) + r",\s*(a|an|the)\s+[a-z][^,.;]{2,60},"
     )
     if apposition_re.search(lower):
-        return True, "apposition"
+        signals.append("apposition")
     if any(m in local_after for m in DEFINITION_MARKERS):
-        return True, "definition-marker"
-
-    # 2. gloss overlap — the sentence's own content words echo the word's
-    # dictionary sense, which is the cheapest proxy this pipeline has for
-    # "the passage supplies the meaning" without hand-authoring one. Gates
-    # inclusion.
+        signals.append("definition-marker")
     gloss = glosses.get(word.lower())
     if gloss:
         gloss_words = content_words(gloss)
         sentence_words = content_words(text) - {word.lower()}
         if gloss_words & sentence_words:
-            return True, "gloss-overlap"
+            signals.append("gloss-overlap")
+    if signals:
+        return True, signals
 
     # 3. exemplification and 4. contrastive framing near the word are still
     # detected and reported — the precision measurement audits them — but
     # neither gates inclusion (see the docstring above). A window whose
     # only signal is one of these is reported as that reason, still False.
     if any(m in local_after for m in EXEMPLIFICATION_MARKERS):
-        return False, "exemplification"
+        return False, ["exemplification"]
     if any(re.search(r"\b" + re.escape(m) + r"\b", local_masked) for m in CONTRAST_MARKERS):
-        return False, "contrast"
+        return False, ["contrast"]
 
-    return False, "none"
+    return False, ["none"]
 
 
-def informative_words(text: str, band_words: list[str], glosses: dict[str, str]) -> list[str]:
+def informative_words(text: str, band_words: list[str], glosses: dict[str, str]) -> list[tuple[str, list[str]]]:
     result = []
     for w in band_words:
-        ok, _reason = is_informative(w, text, glosses)
+        ok, signals = is_informative(w, text, glosses)
         if ok:
-            result.append(w)
+            result.append((w, signals))
     return result
 
 
@@ -645,7 +657,7 @@ def process_book(
     # than just the first `per_book_cap` encountered. A long novel's early
     # chapters do not carry its full vocabulary, and always harvesting from
     # the opening would silently bias the corpus toward exposition.
-    candidates: list[tuple[str, list[str]]] = []
+    candidates: list[tuple[str, list[tuple[str, list[str]]]]] = []
     for window in windows:
         if window in seen_texts:
             continue
@@ -674,7 +686,7 @@ def process_book(
             "id": excerpt_id,
             "pool": "sourced",
             "text": window,
-            "words": words,
+            "words": [{"word": w, "signals": signals} for w, signals in words],
             "provenance": {
                 "work": entry["work"],
                 "author": entry["author"],

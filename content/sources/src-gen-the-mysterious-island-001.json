@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "we are falling!” “For Heaven’s sake heave out the ballast!” “There! the last sack is empty!” “Does the balloon rise?” “No!” “I hear a noise like the dashing of waves. The sea is below the car! It cannot be more than 500 feet from us!” “Overboard with every weight! ... everything!” Such were the loud and startling words which resounded through the air, above the vast watery desert of the Pacific, about four o’clock in the evening of the 23rd of March, 1865.",
   "words": [
-    "ballast"
+    {
+      "word": "ballast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Mysterious Island",

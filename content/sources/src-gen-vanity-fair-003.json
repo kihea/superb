@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "\"She was as bad as he,\" said Tinker. \"She took the law of every one of her tradesmen; and turned away forty-eight footmen in four year.\" \"She was close--very close,\" said the Baronet, simply; \"but she was a valyble woman to me, and saved me a steward.\" --And in this confidential strain, and much to the amusement of the new-comer, the conversation continued for a considerable time. Whatever Sir Pitt Crawley's qualities might be, good or bad, he did not make the least disguise of them.",
   "words": [
-    "disguise"
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Vanity Fair",

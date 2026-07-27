@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "But Martha was so tearful and tender-spirited, and unlike her usual self, that I said as little as possible about myself, and endeavoured rather to comfort Martha under all the probable and possible misfortunes which came crowding upon her imagination. I then stole out of the house-door, and made my appearance as if I were a customer in the shop, just to take Miss Matty by surprise, and gain an idea of how she looked in her new situation. It was warm May weather, so only the little half-door was closed; and Miss Matty sat behind the counter, knitting an elaborate pair of garters; elaborate they seemed to me, but the difficult stitch was no weight upon her mind, for she was singing in a low voice to herself as her needles went rapidly in and out. I call it singing, but I dare say a musician would not use that word to the tuneless yet sweet humming of the low worn voice.",
   "words": [
-    "stole",
-    "knitting",
-    "stitch",
-    "needles",
-    "humming"
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knitting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stitch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "needles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Cranford",

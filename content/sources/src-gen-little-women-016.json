@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "“As ‘this sort of thing’ is rather a vague expression, would you kindly explain?” returned Amy, knowing perfectly well what he meant, but wickedly leaving him to describe what is indescribable. “Well—the general air, the style, the self-possession, the—the—illusion—you know”, laughed Laurie, breaking down and helping himself out of his quandary with the new word. Amy was gratified, but of course didn’t show it, and demurely answered, “Foreign life polishes one in spite of one’s self. I study as well as play, and as for this”—with a little gesture toward her dress—“why, tulle is cheap, posies to be had for nothing, and I am used to making the most of my poor little things.” Amy rather regretted that last sentence, fearing it wasn’t in good taste, but Laurie liked her better for it, and found himself both admiring and respecting the brave patience that made the most of opportunity, and the cheerful spirit that covered poverty with flowers.",
   "words": [
-    "spite",
-    "gesture",
-    "regretted"
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regretted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Little Women",

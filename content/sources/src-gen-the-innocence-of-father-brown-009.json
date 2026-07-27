@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Following them into an inner room, Father Brown found that the allies had been seated at a long oak table, of which their end was covered with scribbled papers, flanked with whisky and cigars. Through the whole of its remaining length it was occupied by detached objects arranged at intervals; objects about as inexplicable as any objects could be. One looked like a small heap of glittering broken glass. Another looked like a high heap of brown dust. A third appeared to be a plain stick of wood.",
   "words": [
-    "oak"
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Innocence of Father Brown",

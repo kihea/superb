@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "But he put the Ghost through her best paces so as to get between the deserters and the land. This accomplished, he cruised back and forth across what he knew must be their course. On the morning of the third day, shortly after eight bells, a cry that the boat was sighted came down from Smoke at the masthead. All hands lined the rail. A snappy breeze was blowing from the west with the promise of more wind behind it; and there, to leeward, in the troubled silver of the rising sun, appeared and disappeared a black speck.",
   "words": [
-    "breeze"
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Sea-Wolf",

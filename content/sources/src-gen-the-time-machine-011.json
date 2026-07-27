@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "And when I pressed her, perhaps a little harshly, she burst into tears. They were the only tears, except my own, I ever saw in that Golden Age. When I saw them I ceased abruptly to trouble about the Morlocks, and was only concerned in banishing these signs of her human inheritance from Weena’s eyes. And very soon she was smiling and clapping her hands, while I solemnly burnt a match. The Morlocks “It may seem odd to you, but it was two days before I could follow up the new-found clue in what was manifestly the proper way.",
   "words": [
-    "clapping",
-    "clue"
+    {
+      "word": "clapping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Time Machine",

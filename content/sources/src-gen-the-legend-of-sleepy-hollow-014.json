@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "A gentle slope descends from it to a silver sheet of water, bordered by high trees, between which, peeps may be caught at the blue hills of the Hudson. To look upon its grass-grown yard, where the sunbeams seem to sleep so quietly, one would think that there at least the dead might rest in peace. On one side of the church extends a wide woody dell, along which raves a large brook among broken rocks and trunks of fallen trees. Over a deep black part of the stream, not far from the church, was formerly thrown a wooden bridge; the road that led to it, and the bridge itself, were thickly shaded by overhanging trees, which cast a gloom about it, even in the daytime; but occasioned a fearful darkness at night. Such was one of the favorite haunts of the Headless Horseman, and the place where he was most frequently encountered.",
   "words": [
-    "dell",
-    "trunks",
-    "shaded",
-    "gloom",
-    "haunts"
+    {
+      "word": "dell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trunks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gloom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haunts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Legend of Sleepy Hollow",

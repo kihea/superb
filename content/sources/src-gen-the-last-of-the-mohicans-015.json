@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "The lineaments of the quivering features of Magua proved more ductile; his countenance gradually lost its character of defiance in an expression of ferocious joy, and heaving a breath from the very bottom of his chest, he pronounced aloud the formidable name of: “Le Cerf Agile!” Each warrior sprang upon his feet at the utterance of the well-known appellation, and there was a short period during which the stoical constancy of the natives was completely conquered by surprise. The hated and yet respected name was repeated as by one voice, carrying the sound even beyond the limits of the lodge. The women and children, who lingered around the entrance, took up the words in an echo, which was succeeded by another shrill and plaintive howl. The latter was not yet ended, when the sensation among the men had entirely abated. Each one in presence seated himself, as though ashamed of his precipitation; but it was many minutes before their meaning eyes ceased to roll toward their captive, in curious examination of a warrior who had so often proved his prowess on the best and proudest of their nation.",
   "words": [
-    "aloud",
-    "natives",
-    "echo",
-    "precipitation",
-    "captive"
+    {
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "natives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "echo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "precipitation",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "captive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Last of the Mohicans",

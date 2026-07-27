@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "Arthur went on: “And when there?” “To enter the tomb!” Arthur stood up. “Professor, are you in earnest; or it is some monstrous joke? Pardon me, I see that you are in earnest.” He sat down again, but I could see that he sat firmly and proudly, as one who is on his dignity. There was silence until he asked again:-- “And when in the tomb?” “To open the coffin.” “This is too much!” he said, angrily rising again. “I am willing to be patient in all things that are reasonable; but in this--this desecration of the grave--of one who----” He fairly choked with indignation.",
   "words": [
-    "tomb"
+    {
+      "word": "tomb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",

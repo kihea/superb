@@ -3,9 +3,24 @@
   "pool": "sourced",
   "text": "The liberalizing tendencies of the latter half of the eighteenth century brought, along with kindlier relations between black and white, thoughts of ultimate adjustment and assimilation. Such aspiration was especially voiced in the earnest songs of Phyllis, in the martyrdom of Attucks, the fighting of Salem and Poor, the intellectual accomplishments of Banneker and Derham, and the political demands of the Cuffes. Stern financial and social stress after the war cooled much of the previous humanitarian ardor. The disappointment and impatience of the Negroes at the persistence of slavery and serfdom voiced itself in two movements. The slaves in the South, aroused undoubtedly by vague rumors of the Haytian revolt, made three fierce attempts at insurrection,—in 1800 under Gabriel in Virginia, in 1822 under Vesey in Carolina, and in 1831 again in Virginia under the terrible Nat Turner.",
   "words": [
-    "voiced",
-    "slavery",
-    "insurrection"
+    {
+      "word": "voiced",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slavery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "insurrection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Souls of Black Folk",

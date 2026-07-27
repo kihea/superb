@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "I had thought all the rooms at Thornfield beautifully clean and well arranged; but it appears I was mistaken. Three women were got to help; and such scrubbing, such brushing, such washing of paint and beating of carpets, such taking down and putting up of pictures, such polishing of mirrors and lustres, such lighting of fires in bedrooms, such airing of sheets and feather-beds on hearths, I never beheld, either before or since. Adèle ran quite wild in the midst of it: the preparations for company and the prospect of their arrival, seemed to throw her into ecstasies. She would have Sophie to look over all her “toilettes,” as she called frocks; to furbish up any that were “passées,” and to air and arrange the new. For herself, she did nothing but caper about in the front chambers, jump on and off the bedsteads, and lie on the mattresses and piled-up bolsters and pillows before the enormous fires roaring in the chimneys.",
   "words": [
-    "mistaken",
-    "washing",
-    "mirrors",
-    "chambers"
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "washing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mirrors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chambers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Jane Eyre",

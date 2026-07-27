@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "“Coggan, suppose we keep this night’s work as quiet as we can?” “I am of one and the same mind.” “Very well. We shall be home by three o’clock or so, and can creep into the parish like lambs.” Bathsheba’s perturbed meditations by the roadside had ultimately evolved a conclusion that there were only two remedies for the present desperate state of affairs. The first was merely to keep Troy away from Weatherbury till Boldwood’s indignation had cooled; the second to listen to Oak’s entreaties, and Boldwood’s denunciations, and give up Troy altogether. Could she give up this new love—induce him to renounce her by saying she did not like him—could no more speak to him, and beg him, for her good, to end his furlough in Bath, and see her and Weatherbury no more?",
   "words": [
-    "parish",
-    "lambs"
+    {
+      "word": "parish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lambs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Far from the Madding Crowd",

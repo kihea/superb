@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "I have cast up the years of her age, year after year. I have seen her married to a man who knew nothing of my fate. I have altogether perished from the remembrance of the living, and in the next generation my place was a blank.” “My father! Even to hear that you had such thoughts of a daughter who never existed, strikes to my heart as if I had been that child.” “You, Lucie? It is out of the Consolation and restoration you have brought to me, that these remembrances arise, and pass between us and the moon on this last night.--What did I say just now?” “She knew nothing of you.",
   "words": [
-    "perished"
+    {
+      "word": "perished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "A Tale of Two Cities",

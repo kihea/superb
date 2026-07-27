@@ -3,8 +3,18 @@
   "pool": "sourced",
   "text": "If we exert ourselves, I think we shall not be long in want of allies. Something of that nature would be particularly desirable for me, as an inducement to keep me in practice; for married women, you know—there is a sad story against them, in general. They are but too apt to give up music.” “But you, who are so extremely fond of it—there can be no danger, surely?” “I should hope not; but really when I look around among my acquaintance, I tremble. Selina has entirely given up music—never touches the instrument—though she played sweetly. And the same may be said of Mrs. Jeffereys—Clara Partridge, that was—and of the two Milmans, now Mrs. Bird and Mrs. James Cooper; and of more than I can enumerate.",
   "words": [
-    "exert",
-    "acquaintance"
+    {
+      "word": "exert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",

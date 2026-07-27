@@ -3,10 +3,30 @@
   "pool": "sourced",
   "text": "Where lies the final harbor, whence we unmoor no more? In what rapt ether sails the world, of which the weariest will never weary? Where is the foundling’s father hidden? Our souls are like those orphans whose unwedded mothers die in bearing them: the secret of our paternity lies in their grave, and we must there to learn it. And that same day, too, gazing far down from his boat’s side into that same golden sea, Starbuck lowly murmured:— “Loveliness unfathomable, as ever lover saw in his young bride’s eye!—Tell me not of thy teeth-tiered sharks, and thy kidnapping cannibal ways.",
   "words": [
-    "sails",
-    "orphans",
-    "paternity",
-    "sharks"
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "orphans",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paternity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sharks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "Moby-Dick; or, The Whale",

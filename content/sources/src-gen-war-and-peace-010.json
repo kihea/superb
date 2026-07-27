@@ -3,7 +3,12 @@
   "pool": "sourced",
   "text": "The footman who had gone to announce them was stopped by another in the large hall and they whispered to one another. Then a maidservant ran into the hall and hurriedly said something, mentioning the princess. At last an old, cross looking footman came and announced to the Rostóvs that the prince was not receiving, but that the princess begged them to walk up. The first person who came to meet the visitors was Mademoiselle Bourienne. She greeted the father and daughter with special politeness and showed them to the princess’ room.",
   "words": [
-    "greeted"
+    {
+      "word": "greeted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "War and Peace",

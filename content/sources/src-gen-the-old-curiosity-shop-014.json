@@ -3,11 +3,36 @@
   "pool": "sourced",
   "text": "Popular rumour concerning the single gentleman and his errand, travelling from mouth to mouth, and waxing stronger in the marvellous as it was bandied about--for your popular rumour, unlike the rolling stone of the proverb, is one which gathers a deal of moss in its wanderings up and down--occasioned his dismounting at the inn-door to be looked upon as an exciting and attractive spectacle, which could scarcely be enough admired; and drew together a large concourse of idlers, who having recently been, as it were, thrown out of employment by the closing of the wax-work and the completion of the nuptial ceremonies, considered his arrival as little else than a special providence, and hailed it with demonstrations of the liveliest joy. Not at all participating in the general sensation, but wearing the depressed and wearied look of one who sought to meditate on his disappointment in silence and privacy, the single gentleman alighted, and handed out Kit’s mother with a gloomy politeness which impressed the lookers-on extremely.",
   "words": [
-    "travelling",
-    "marvellous",
-    "proverb",
-    "spectacle",
-    "disappointment"
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marvellous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proverb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spectacle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
   ],
   "provenance": {
     "work": "The Old Curiosity Shop",
