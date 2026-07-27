@@ -87,6 +87,11 @@ lengths, holding the real/pseudoword mix fixed at `calibration_real_rate =
 gap between an over-claimer and an honest twin, 50 (seed, true-θ) pairs per
 point:
 
+Measured against `dev` at `9f3fbda`, 50 (seed, θ) pairs per row.
+**The last column is seed-dependent at this sample size — see the note below
+the long-end paragraph. The mean and min columns reproduce; that column does
+not.**
+
 | sessions | draws | expected pseudowords | mean gap | min gap | max gap | over-claimer at θ_min |
 |---|---|---|---|---|---|---|
 | 5 | 5 | 1.5 | 0.4651 | 0.0000 | 1.1715 | 0/50 |
@@ -116,8 +121,21 @@ At the **long** end (≥240 sessions — the project's own default horizon, and
 beyond), the gap does the opposite: it stops growing. It moves from 2.78
 (60 sessions) to 3.93 (240) to 3.96 (720) to 3.98 (2000) — a session length
 increase of over 8x past the default horizon buys essentially nothing
-further, because the over-claimer's θ has already hit `theta_min` (48/50
-pairs at 240 sessions, 50/50 by 720). Unlike the real-word Fisher step, which
+further, because the over-claimer's θ has already hit `theta_min`.
+
+**How many pairs are clamped is seed-dependent at this sample size, and the
+count should not be quoted as a property of the mechanism.** This run
+measured 48 of 50 pairs clamped at 240 sessions and 50 of 50 by 720; an
+independent reproduction of this addendum, same method and a disjoint seed
+sample of the same size, measured 9 of 50 and 28 of 50. The rising trend is
+the same in both and it is what this section rests on; the specific
+proportion is not stable at n=50 and nothing here depends on it. Recorded
+this way deliberately rather than pinned down with a bigger run — the
+question this addendum was asked to answer does not need the number, and a
+figure two honest runs disagree about should say so in the sentence that
+contains it.
+
+Unlike the real-word Fisher step, which
 is *designed* to shrink as accumulated information grows (engine-contract
 §5's own asymmetry), the pseudoword penalty never shrinks — it is the same
 fixed `-0.3` on the thousandth over-claim as on the first — so what actually
