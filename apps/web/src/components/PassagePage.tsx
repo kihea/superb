@@ -8,6 +8,8 @@ import type { Passage } from "../engine/port";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
 import { fillTemplate, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
+import { BreakChain } from "./doodle/BreakChain";
+import { DoodleArrow } from "./doodle/DoodleArrow";
 
 export interface PassagePageProps {
   record: ComposedPassage | SourceExcerpt;
@@ -68,6 +70,20 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
         </p>
       )}
 
+      {/* The passage-break chain (DERIVATION-001, superb-hand-break.svg),
+         used here as the mark that a passage has ended -- a property of the
+         whole passage, never of where a target word happens to sit within
+         it, so its position on screen carries no information about which
+         word the engine cared about (law 3). Kihea drew this mark for
+         "between two halves of a passage"; this screen has one continuous
+         passage, not two visible halves, so it was built as an end-of-
+         passage mark instead. That is a real deviation from what he drew,
+         it is on the record (workspace/decisions/README.md, the register
+         decision), and it is the first thing to revisit if the mark ever
+         feels wrong -- not changed here, because the choice was made on
+         the screen as built. */}
+      <BreakChain />
+
       <div ref={sentinelRef} aria-hidden="true" />
 
       {/* Portalled for the same reason GlossCard is: this article carries a
@@ -83,7 +99,7 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
           <button type="button" className="passage-continue-button metal" onClick={onFinish}>
             Keep reading
             <span className="passage-continue-arrow" aria-hidden="true">
-              →
+              <DoodleArrow />
             </span>
           </button>
         </div>,

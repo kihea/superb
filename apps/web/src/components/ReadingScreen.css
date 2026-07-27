@@ -46,6 +46,21 @@
   z-index: 1;
 }
 
+/* The register decision, receipted 2026-07-27 (workspace/decisions/
+   README.md): Kihea chose "a little of his own hand" -- these are the
+   values his choice picked, item 7's `drawn` candidate, now the only
+   values that exist. Root-scoped (read by MarginMark.css, BreakChain.css,
+   DoodleArrow.css) because the pull-up button carrying DoodleArrow is
+   portalled to document.body (see the portal comment in PassagePage.tsx),
+   outside `.reading-screen`'s own DOM subtree -- a class-scoped variable
+   would never reach it. */
+:root {
+  --margin-mark-opacity: 0.16;
+  --break-chain-opacity: 0.4;
+  --break-chain-height: 22px;
+  --doodle-arrow-weight: 4;
+}
+
 /* Even on a phone the room has to stay visible -- a full-bleed card would
    quietly erase the material the moment someone picks up their phone,
    which is most of the audience. The margin and radius only get more
