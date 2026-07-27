@@ -11,7 +11,7 @@
 // `candidatesFor` specifically so this could be tested without a network
 // fetch. It is the only place in this app that decides what order the
 // engine ever sees candidates in.
-import { describe, expect, test } from "vitest";
+import { describe, expect, test, vi } from "vitest";
 import { rankCandidates, type Record_ } from "../src/content/store";
 
 function composed(id: string, words: string[]): Record_ {
@@ -77,5 +77,68 @@ describe("PassageCandidates ranking never schedules against Candidate.words/slot
     const records = [composed(CURATED_IDS[0], []), sourced(CURATED_IDS[1], ["x", "y", "z", "w"])];
     const ranked = rankCandidates(records, new Set([CURATED_IDS[0]]));
     expect(ranked.map((r) => r.id)).toEqual([CURATED_IDS[1]]);
+  });
+
+  // The first test above only exercises rankCandidates' curated branch --
+  // 37 ids. Every other record in the real corpus (~2,600 of ~2,639, as of
+  // this writing) falls through to shuffled(), and that branch went
+  // untested here: a verifier making shuffled()'s non-curated order depend
+  // on `words`/`slots` (sorting by word or slot-array length) still passed
+  // the suite above. A tripwire that only covers 1.4% of the pool is a
+  // vacancy wearing a proof's clothes -- this covers the other 98.6%.
+  //
+  // shuffled() itself calls Math.random(), so two calls over different
+  // payloads will legitimately disagree on order even when the property
+  // holds -- that is randomness, not a words/slots dependency, and a naive
+  // "same order every time" assertion would be meaningless noise either
+  // way. Pinning Math.random() to the same sequence for both calls removes
+  // that legitimate variance and isolates the one thing being asserted:
+  // given the same draws, the same *positions* end up in the same places
+  // regardless of what each record's `words`/`slots` say.
+  test("non-curated (shuffled) order is identical given the same random draws, no matter what words/slots content each record carries", () => {
+    const NON_CURATED_IDS = [
+      "comp-test-alpha",
+      "src-test-bravo",
+      "comp-test-charlie",
+      "src-test-delta",
+      "comp-test-echo",
+      "src-test-foxtrot",
+    ];
+    const drawSequence = [0.91, 0.12, 0.53, 0.34, 0.77, 0.05, 0.68, 0.29];
+    const random = () => drawSequence[nextDraw++ % drawSequence.length];
+    let nextDraw = 0;
+
+    const spy = vi.spyOn(Math, "random").mockImplementation(random);
+    try {
+      const wordSetA = [
+        composed(NON_CURATED_IDS[0], ["one", "two", "three"]),
+        sourced(NON_CURATED_IDS[1], ["ineffable"]),
+        composed(NON_CURATED_IDS[2], []),
+        sourced(NON_CURATED_IDS[3], ["a", "b", "c", "d", "e"]),
+        composed(NON_CURATED_IDS[4], ["single"]),
+        sourced(NON_CURATED_IDS[5], ["x", "y"]),
+      ];
+      const wordSetB = [
+        composed(NON_CURATED_IDS[0], []),
+        sourced(NON_CURATED_IDS[1], ["completely", "different", "set", "of", "words", "entirely"]),
+        composed(NON_CURATED_IDS[2], ["now", "has", "four", "slots"]),
+        sourced(NON_CURATED_IDS[3], []),
+        composed(NON_CURATED_IDS[4], ["a", "b"]),
+        sourced(NON_CURATED_IDS[5], ["z"]),
+      ];
+
+      nextDraw = 0;
+      const rankedA = rankCandidates(wordSetA, new Set()).map((r) => r.id);
+      nextDraw = 0;
+      const rankedB = rankCandidates(wordSetB, new Set()).map((r) => r.id);
+
+      expect(rankedA).toEqual(rankedB);
+      // Not a no-op: with this draw sequence the permutation actually
+      // reorders the input, so the assertion above is discriminating
+      // rather than trivially satisfied by an identity shuffle.
+      expect(rankedA).not.toEqual(NON_CURATED_IDS);
+    } finally {
+      spy.mockRestore();
+    }
   });
 });
