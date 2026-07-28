@@ -8,9 +8,10 @@ discharged a reviewed M2 done-check question, so it is kept intact here rather
 than regenerated away.
 
 Everything from the heading below is PR #48's text unchanged. Its figures were
-measured against `dev` at `9f3fbda`, under the θ̂ standard error as it stood
-before the estimator change in PR #52 — they record what was measured then, not
-a claim about the current build, and they are deliberately not refreshed. The
+measured against `dev` at `9f3fbda`, under the estimator as it stood before PR
+#52's fix to the θ̂ update rule (the flat pseudoword penalty) — they record what
+was measured then, not a claim about the current build, and they are
+deliberately not refreshed. The
 finding they support is about the shape of the divergence, which the addendum's
 own closing paragraphs state in words rather than in figures.
 

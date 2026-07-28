@@ -202,10 +202,14 @@ pub struct Report {
     pub coverage: Coverage,
 }
 
-/// The section of `COVERAGE.md` that prints the gate's own bounds. Separated
-/// from [`generate`] only so a unit test can check the coupling — that the two
-/// constants really do reach the committed file — without paying for the
-/// 200-run sweep.
+/// The section of `COVERAGE.md` that prints the gate's own bounds, and the
+/// paragraph saying what the gate does not check. Separated from [`generate`]
+/// only so a unit test can check the coupling — that the two constants really
+/// do reach the committed file — without paying for the 200-run sweep.
+///
+/// The second paragraph is emitted rather than written into the file by hand
+/// for the same reason as the first: a caveat that only exists in a commit
+/// message or a review is gone by the next regeneration.
 fn gate_band_section() -> String {
     format!(
         "## The band this figure is gated against\n\n\
@@ -216,7 +220,16 @@ fn gate_band_section() -> String {
          to a test, and `docs/engine-contract.md` §5 can cite the gate by file instead of \
          describing it in words. It is a band, not a target of ≈68%: gating on the target would \
          create pressure to tune `tuning.toml` until this file reads green rather than \
-         honest.\n\n",
+         honest.\n\n\
+         **What the check does not buy.** `coverage_report_matches_a_fresh_run` proves this file \
+         is what the current code produces — that it is fresh, and that the run reproduces. It \
+         says nothing about whether what the file concludes is true. The sentences above choose \
+         themselves from the measurements (whether the wider sample \"confirms\" or \"revises\" \
+         the 3-seed reading, which way the horizon paragraph goes), so a change to the estimator \
+         regenerates this file into a different, equally confident, equally green report — and a \
+         wrong one would read exactly as settled as a right one. Whether the conclusions are \
+         sound is a reading someone has to do, and it does not survive a change to the estimator \
+         just because the test stayed green.\n\n",
         WITHIN_1SE_RATE_FLOOR * 100.0,
         WITHIN_1SE_RATE_CEILING * 100.0,
     )
