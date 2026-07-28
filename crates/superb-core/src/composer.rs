@@ -749,4 +749,61 @@ mod tests {
         }
         LearnerState::new(0, 0, 0.0, 1.0, words, BTreeMap::new())
     }
+
+    /// ADR-022's taste multiplier, pinned as a number rather than left free.
+    ///
+    /// PR-60's review found `topic_affinity_weight` (0.4 → 0.99) and
+    /// `topic_exploration_bonus` (0.5 → 50.0) both leave every `superb-core`
+    /// test green, because no fixture anywhere in the crate ever calls
+    /// [`taste_multiplier`] with a non-empty topic list — the same shape of
+    /// gap `every_cell_of_the_adr_015_worked_table_is_the_number_the_adr_wrote`
+    /// closed for `score`, one call further down the same expression.
+    ///
+    /// A reader with 100 total topic trials, tried a "liked" topic 50 times
+    /// (finished 40, a rate of 0.8) and a "disliked" one 50 times (finished
+    /// 5, a rate of 0.1). By `topic_value`'s own UCB1 formula at the shipped
+    /// constants, `topic_exploration_bonus * sqrt(ln(100) / 50) =
+    /// 0.5 * sqrt(ln(100) / 50) = 0.15174692...`, giving `liked =
+    /// 0.95174271293851465`, `disliked = 0.25174271293851463`
+    /// (neither saturates against the `[0.0, 1.0]` clamp, which is why these
+    /// counts and not smaller ones — a saturated cell stops answering for the
+    /// bonus term it clamped away). The mean of the two is
+    /// `0.60174271293851467`, and `taste_multiplier`'s own formula,
+    /// `1.0 + topic_affinity_weight * (2 * mean - 1)`, gives
+    /// `1.08139417035081165` at the shipped `topic_affinity_weight = 0.4`.
+    /// Moving either constant moves this number: raising the weight toward
+    /// its 0.99 ceiling makes the multiplier lean harder on the same mean;
+    /// raising the bonus toward 50.0 saturates both topic values at 1.0,
+    /// collapsing the mean to 1.0 and the multiplier to a topic-blind
+    /// `1.0 + weight` regardless of which topic is which.
+    #[test]
+    fn the_taste_multiplier_on_a_reader_with_a_liked_and_a_disliked_topic_is_the_number_the_formula_gives()
+     {
+        let tuning = Tuning::default();
+        let mut topic_affinities = BTreeMap::new();
+        topic_affinities.insert(
+            "liked".to_string(),
+            TopicRecord {
+                finished: 40,
+                abandoned: 10,
+            },
+        );
+        topic_affinities.insert(
+            "disliked".to_string(),
+            TopicRecord {
+                finished: 5,
+                abandoned: 45,
+            },
+        );
+        let learner = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), topic_affinities);
+
+        let topics = vec!["liked".to_string(), "disliked".to_string()];
+        let multiplier = taste_multiplier(&topics, &learner, &tuning);
+
+        let expected = 1.081_394_170_350_811_6;
+        assert!(
+            (multiplier - expected).abs() < 1e-12,
+            "expected the taste multiplier to be {expected}, got {multiplier}"
+        );
+    }
 }
