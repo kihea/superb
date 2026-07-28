@@ -669,3 +669,84 @@ fn taste(candidate: &Candidate, learner: &LearnerState, tuning: &Tuning, backlog
         taste_multiplier(&candidate.topics, learner, tuning)
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::learner::WordRecord;
+    use std::collections::BTreeMap;
+
+    /// ADR-015's worked table, every cell, as a number rather than an ordering.
+    ///
+    /// The integration test next door asserts which pool wins in each of these
+    /// four rows. That pins four ordinal comparisons and leaves all eight
+    /// scores free, which is how `coverage_decay`, `affinity.consolidating.composed`
+    /// and `affinity.automatic.sourced` could each move by up to sixteen times
+    /// with the whole composer suite green: rows 3 and 4 go to sourced so
+    /// decisively that the composed column is unconstrained by any ordering.
+    ///
+    /// "Three sourced due words against six composed ones, computed at
+    /// d = 0.75, sourced_preference = 2.4":
+    ///
+    /// | Word state | Composed, 6 words | Sourced, 3 words | Winner |
+    /// |---|---|---|---|
+    /// | `Seeded` | 3.29 | 2.77 | composed |
+    /// | `Learning` | 3.29 | 3.88 | **sourced** |
+    /// | `Consolidating` | 2.63 | 7.21 | **sourced** |
+    /// | `Automatic` | 1.64 | 8.32 | **sourced** |
+    ///
+    /// The expected values below are exact rather than rounded, which is
+    /// stronger than the table and also avoids having to encode how the table
+    /// is printed: the ADR truncates its sourced column at the second decimal
+    /// (2.775 shown as 2.77) and rounds its composed one (3.2881 shown as
+    /// 3.29). That is a presentation inconsistency in the ADR, not a
+    /// disagreement about the arithmetic — every cell here prints to the cell
+    /// the ADR shows under the ADR's own convention for that column.
+    ///
+    /// `score` is what ADR-015 defines and is private, so this is a unit test
+    /// rather than an integration one. The scores are not observable through
+    /// `compose`, which returns the winner and not the reason.
+    #[test]
+    fn every_cell_of_the_adr_015_worked_table_is_the_number_the_adr_wrote() {
+        let tuning = Tuning::default();
+
+        // | state | composed, 6 words | sourced, 3 words |
+        let cells = [
+            (WordState::Seeded, 3.2880859375, 2.775),
+            (WordState::Learning, 3.2880859375, 3.885),
+            (WordState::Consolidating, 2.63046875, 7.215),
+            (WordState::Automatic, 1.64404296875, 8.325),
+        ];
+
+        for (state, expected_composed, expected_sourced) in cells {
+            let learner = learner_all_in(state, 6);
+            let six: Vec<String> = (0..6).map(|i| format!("w{i}")).collect();
+            let three: Vec<String> = (0..3).map(|i| format!("w{i}")).collect();
+
+            let composed = score(&six, Pool::Composed, &learner, &tuning);
+            let sourced = score(&three, Pool::Sourced, &learner, &tuning);
+
+            assert!(
+                (composed - expected_composed).abs() < 1e-12,
+                "{state:?} composed over six words: ADR-015 says {expected_composed}, got {composed}"
+            );
+            assert!(
+                (sourced - expected_sourced).abs() < 1e-12,
+                "{state:?} sourced over three words: ADR-015 says {expected_sourced}, got {sourced}"
+            );
+        }
+    }
+
+    /// `count` words named `w0..`, all in `state`, none met in any frame.
+    fn learner_all_in(state: WordState, count: usize) -> LearnerState {
+        let due = Timestamp::from_millis_since_epoch(1_000_000_000);
+        let mut words = BTreeMap::new();
+        for i in 0..count {
+            words.insert(
+                format!("w{i}"),
+                WordRecord::new(state, due, Vec::new(), Some(1.0)),
+            );
+        }
+        LearnerState::new(0, 0, 0.0, 1.0, words, BTreeMap::new())
+    }
+}

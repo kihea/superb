@@ -304,6 +304,96 @@ fn nothing_due_produces_no_passage() {
     assert!(compose(&learner, &frame, now(), &tuning).is_none());
 }
 
+/// Day one, which is the case the composer was unable to serve at all until
+/// the band-word path existed: a reader who has met nothing has nothing due,
+/// and the app still has to open with something.
+///
+/// `nothing_due_produces_no_passage` next door leaves `band_words` empty too,
+/// so what it pins is "no due words *and* nothing to introduce produce no
+/// passage" — the pre-fix behaviour restated. This is the other half: nothing
+/// due, but words to introduce, must produce a passage.
+#[test]
+fn a_reader_with_nothing_due_still_gets_a_passage_of_new_words() {
+    let tuning = Tuning::default();
+    let learner = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
+    let band = ["b0", "b1", "b2", "b3", "b4", "b5", "b6", "b7"];
+    let frame = ContentFrame {
+        candidates: vec![composed("c", 6)],
+        word_classes: all_one_class(&band),
+        band_words: band.iter().map(|word| (*word).to_string()).collect(),
+    };
+
+    let passage = compose(&learner, &frame, now(), &tuning)
+        .expect("day one: nothing is due, and the reader must still have something to read");
+
+    assert!(
+        passage.targets.is_empty(),
+        "nothing is due, so nothing is a target: {:?}",
+        passage.targets
+    );
+    // seed_slots_per_passage, shipped at 2. Eight band words are on offer and
+    // six slots are open, so nothing but the constant decides how many are
+    // introduced.
+    assert_eq!(
+        passage.seeded,
+        vec!["b0".to_string(), "b1".to_string()],
+        "seed_slots_per_passage words are introduced, in the host's own order"
+    );
+    assert_eq!(passage.fills.len(), 6, "every slot still carries a word");
+    assert_eq!(
+        passage.words_on_page(),
+        vec!["b0".to_string(), "b1".to_string()],
+        "the seeded words are what this passage puts in front of the reader"
+    );
+}
+
+/// The reservation, which is what `seed_slots_per_passage` actually names: new
+/// words get their slots *before* the due list is allowed to fill them, not
+/// out of whatever the due list leaves over.
+///
+/// Six due words and six slots, so the schedule would take the whole passage
+/// if the reservation did not hold slots back — and in steady state the due
+/// list is always at least this long, which is the state in which a reader
+/// would otherwise stop meeting new words entirely.
+#[test]
+fn new_words_are_reserved_slots_before_the_due_list_fills_them() {
+    let tuning = Tuning::default();
+    let learner = learner_with_due(6, WordState::Learning);
+    let band = ["b0", "b1", "b2"];
+    let mut classes = all_one_class(&["w0", "w1", "w2", "w3", "w4", "w5"]);
+    classes.extend(all_one_class(&band));
+
+    let frame = ContentFrame {
+        candidates: vec![composed("c", 6)],
+        word_classes: classes,
+        band_words: band.iter().map(|word| (*word).to_string()).collect(),
+    };
+
+    let passage = compose(&learner, &frame, now(), &tuning).expect("six due words read");
+
+    // Six slots, seed_slots_per_passage (2) held back, so the due list gets
+    // four of them. Raise the constant and the schedule gets fewer; lower it
+    // and the reader meets fewer new words.
+    assert_eq!(
+        passage.seeded.len(),
+        2,
+        "seed_slots_per_passage slots are reserved even with a full due list: {:?}",
+        passage.seeded
+    );
+    assert_eq!(
+        passage.targets.len(),
+        4,
+        "the due list fills the rest, and only the rest: {:?}",
+        passage.targets
+    );
+    assert_eq!(passage.fills.len(), 6, "every slot carries a word");
+    assert_eq!(
+        passage.words_on_page().len(),
+        6,
+        "four scheduled encounters and two first meetings"
+    );
+}
+
 /// engine-contract §1: the engine is deterministic. Candidate order is the
 /// host's business — a cache returns what it returns — so the same set offered
 /// in a different order must produce the same passage, down to the order of
