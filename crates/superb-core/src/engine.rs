@@ -298,7 +298,7 @@ pub fn plan(learner: &LearnerState, request: &Request, now: Timestamp, tuning: &
         },
         Request::ProcessEvent(_) => Needs::Nothing,
         Request::NextPassage => {
-            let (band_low, band_high) = ability::band(learner.theta(), tuning);
+            let (band_low, band_high) = ability::band(learner.theta(tuning), tuning);
             Needs::PassageCandidates {
                 due_words: scheduler::due_words(learner, now),
                 band_low,
@@ -741,8 +741,22 @@ fn decide_deck_swipe(
         Frame::Nothing | Frame::Content(_) | Frame::Topics { .. } => 0.0,
     };
 
+    // A pseudoword's evidence is recorded before the estimate is read back,
+    // so the effect this swipe reports already reflects the swipe that
+    // caused it. It is recorded whether or not the learner claimed it: the
+    // denominator of the over-claim rate is pseudowords *met*, and a
+    // learner who honestly rejects one has told us something about their
+    // willingness to claim just as much as one who takes the bait.
+    if is_pseudoword {
+        learner.record_pseudoword(knew);
+    }
+
+    // `theta_raw`, never `theta` — the recursion must run on the estimate
+    // it produced, not on the corrected estimate consumers read, or the
+    // over-claim correction compounds once per swipe. See
+    // `LearnerState::theta`'s own doc comment.
     let update: ThetaUpdate = ability::update_theta(
-        learner.theta(),
+        learner.theta_raw(),
         learner.theta_information(),
         difficulty,
         knew,
@@ -756,9 +770,13 @@ fn decide_deck_swipe(
              set_theta_and_information accepts",
         );
 
+    // Derived from the learner after writing, not carried out of
+    // `update_theta` — that function is handed one observation and cannot
+    // see the counters the correction is computed from, so it no longer
+    // returns a field claiming to be the reported estimate.
     effects.push(Effect::ThetaUpdated {
-        theta: update.effect.theta,
-        se: update.effect.se,
+        theta: learner.theta(ctx.tuning),
+        se: learner.theta_se(),
     });
 }
 

@@ -32,7 +32,7 @@
 //! sample said it could not answer.
 
 use crate::THETA_SWEEP;
-use crate::report::{Assertion1, Assertion2};
+use crate::report::{Assertion1, Assertion2, ConvergenceRun};
 use crate::simulation::SimConfig;
 
 /// The floor and ceiling `tests/coverage_gate.rs` fails outside of, and the
@@ -103,6 +103,30 @@ pub struct Coverage {
     pub within_2se: usize,
     pub mean_abs_error: f64,
     pub max_abs_error: f64,
+    /// The mean of `θ̂ - θ`, **signed** — and the reason it exists is worth
+    /// stating, because its absence cost this project weeks.
+    ///
+    /// This instrument used to report only `mean_abs_error`, which cannot
+    /// tell a noisy estimator from a biased one: an estimator scattering
+    /// symmetrically around the truth and one being dragged steadily
+    /// downward produce the same absolute error, and only the second is
+    /// broken. Under-coverage was measured at 13.0%, then 0.0% at three
+    /// times the horizon, and the committed report concluded from those
+    /// numbers alone that the *standard error* was too narrow. It was not.
+    /// θ̂ was systematically low — a bias of -0.13 to -0.73 depending on
+    /// true θ, worsening to -2.34 at the longer horizon — because the
+    /// pseudoword penalty accumulated without bound. One signed column
+    /// would have pointed straight at it.
+    ///
+    /// A well-calibrated estimator's signed error sits near zero and does
+    /// not drift with horizon. If this number is large next to
+    /// `mean_abs_error`, the estimate is biased and no amount of widening
+    /// the interval is the right fix.
+    ///
+    /// Read it per true θ, not only in aggregate: shrinkage toward a prior
+    /// is antisymmetric across a symmetric sweep, so it very nearly cancels
+    /// in the mean. [`generate`] reports the worst single θ for that reason.
+    pub mean_signed_error: f64,
 }
 
 impl Coverage {
@@ -134,51 +158,103 @@ fn rate(count: usize, total: usize) -> f64 {
 /// itself does not compute, because `report.rs`'s 3-seed sample never needed
 /// a second band — added here rather than there, since `report.rs`'s own
 /// output is a pinned artifact this module does not touch.
+pub fn measure(seeds: &[u64], theta_sweep: &[f64], config: &SimConfig) -> Coverage {
+    measure_detailed(seeds, theta_sweep, config).0
+}
+
+/// The same measurement, and the same runs, grouped by true θ as well as
+/// aggregated — because the aggregate hides any effect that changes sign
+/// across the sweep, and shrinkage toward a prior is exactly that shape.
+///
+/// The grouping is free. Each thread already runs one θ, so the per-θ rows
+/// are the threads' own results and the aggregate is those rows concatenated
+/// in sweep order; nothing is measured twice, and the two halves of the
+/// report cannot disagree about a number they compute once.
 ///
 /// **One thread per true θ, and why the result is identical to one thread for
 /// all of them.** `simulation::run` is a function of `(seed, true_theta,
 /// config)` and nothing else; `Assertion1::run` walks θ on the outside and
 /// seeds on the inside; the per-θ results are joined back in `theta_sweep`'s
-/// own order. So the merged `runs` vector is the same sequence the sequential
-/// call builds, in the same order, which matters because `mean_abs_error`
-/// sums it — same order, same float, same bytes in `COVERAGE.md`.
+/// own order. So the concatenated `runs` sequence is the one a sequential call
+/// builds, in the same order, which matters because `mean_abs_error` sums it —
+/// same order, same float, same bytes in `COVERAGE.md`.
 ///
 /// The threads are here and not in `report.rs` because `REPORT.md`'s five
 /// assertions are a pinned artifact this module does not touch. They are here
 /// at all because this sweep is the most expensive thing in the workspace and
-/// both gate tests now share one run of it: when the second test stopped
-/// running its own copy, the two stopped overlapping on CI's cores, and the
-/// gate's wall time went *up*, from 2930s to 4034s. Splitting the sweep itself
-/// gets the overlap back without paying for a second sweep.
-pub fn measure(seeds: &[u64], theta_sweep: &[f64], config: &SimConfig) -> Coverage {
-    let assertion1 = std::thread::scope(|scope| {
-        let per_theta: Vec<_> = theta_sweep
+/// both gate tests share one run of it: when the second test stopped running
+/// its own copy, the two stopped overlapping on CI's cores and the gate's wall
+/// time went *up*, from 2930s to 4034s. Splitting the sweep itself gets the
+/// overlap back without paying for a second sweep.
+pub fn measure_detailed(
+    seeds: &[u64],
+    theta_sweep: &[f64],
+    config: &SimConfig,
+) -> (Coverage, Vec<(f64, Coverage)>) {
+    let per_theta_runs: Vec<(f64, Vec<ConvergenceRun>)> = std::thread::scope(|scope| {
+        let threads: Vec<_> = theta_sweep
             .iter()
-            .map(|&true_theta| scope.spawn(move || Assertion1::run(seeds, &[true_theta], config)))
+            .map(|&true_theta| {
+                (
+                    true_theta,
+                    scope.spawn(move || Assertion1::run(seeds, &[true_theta], config)),
+                )
+            })
             .collect();
-        Assertion1 {
-            runs: per_theta
-                .into_iter()
-                .flat_map(|thread| {
+        threads
+            .into_iter()
+            .map(|(true_theta, thread)| {
+                (
+                    true_theta,
                     thread
                         .join()
                         .unwrap_or_else(|_| panic!("a coverage sweep thread panicked"))
-                        .runs
-                })
-                .collect(),
-        }
+                        .runs,
+                )
+            })
+            .collect()
     });
-    let within_2se = assertion1
-        .runs
+
+    let all_runs: Vec<ConvergenceRun> = per_theta_runs
         .iter()
-        .filter(|run| run.abs_error <= 2.0 * run.final_se)
-        .count();
+        .flat_map(|(_, runs)| runs.iter().copied())
+        .collect();
+    let per_theta = per_theta_runs
+        .iter()
+        .map(|(true_theta, runs)| (*true_theta, coverage_from_runs(runs)))
+        .collect();
+    (coverage_from_runs(&all_runs), per_theta)
+}
+
+/// The one reduction from per-run records to a [`Coverage`], shared by the
+/// aggregate and the per-θ breakdown so the two cannot compute the same
+/// statistic two ways.
+fn coverage_from_runs(runs: &[ConvergenceRun]) -> Coverage {
+    let n = runs.len();
+    if n == 0 {
+        return Coverage {
+            runs: 0,
+            within_1se: 0,
+            within_2se: 0,
+            mean_abs_error: 0.0,
+            max_abs_error: 0.0,
+            mean_signed_error: 0.0,
+        };
+    }
     Coverage {
-        runs: assertion1.runs.len(),
-        within_1se: assertion1.converged_count(),
-        within_2se,
-        mean_abs_error: assertion1.mean_abs_error(),
-        max_abs_error: assertion1.max_abs_error(),
+        runs: n,
+        within_1se: runs.iter().filter(|run| run.within_se).count(),
+        within_2se: runs
+            .iter()
+            .filter(|run| run.abs_error <= 2.0 * run.final_se)
+            .count(),
+        mean_abs_error: runs.iter().map(|run| run.abs_error).sum::<f64>() / n as f64,
+        max_abs_error: runs.iter().map(|run| run.abs_error).fold(0.0_f64, f64::max),
+        mean_signed_error: runs
+            .iter()
+            .map(|run| run.final_theta - run.true_theta)
+            .sum::<f64>()
+            / n as f64,
     }
 }
 
@@ -235,13 +311,104 @@ fn gate_band_section() -> String {
     )
 }
 
+/// The per-θ table, the reading of it, and the account of what the residual
+/// actually is.
+///
+/// The verdict is taken from the worst single θ, not from the aggregate. An
+/// earlier version of this section decided from the aggregate mean signed
+/// error and printed "not detectably biased" directly above its own table
+/// showing that at θ = −3.5 almost every run sat on the same side: shrinkage
+/// toward the centre is antisymmetric, so a symmetric sweep cancels it to
+/// nearly nothing. An instrument that averages away the effect it was added
+/// to catch is not an instrument.
+fn per_theta_section(per_theta: &[(f64, Coverage)]) -> String {
+    let worst = per_theta
+        .iter()
+        .max_by(|(_, a), (_, b)| {
+            a.mean_signed_error
+                .abs()
+                .total_cmp(&b.mean_signed_error.abs())
+        })
+        .copied();
+
+    let mut out = String::from("### Per true θ — where the residual lives\n\n");
+    out.push_str(
+        "**The residual is shrinkage toward the prior. The clamp is not involved, and the \
+         sentence that used to say it was has been removed rather than softened.** That earlier \
+         account — `theta_min` / `theta_max` clamp θ̂ at ±4.0, the sweep's outermost points sit \
+         half a logit inside the wall, an estimator that cannot step past a wall is biased \
+         inward near it — is false, and one run falsified it: with the wall moved to ±8.0 and \
+         nothing else changed, 24 seeds × this 5-point sweep reproduced the signed error to four \
+         decimal places at every point (+0.3203, +0.0981, −0.0735, −0.0798, −0.2813, both \
+         settings) and the within-1-SE counts run for run (11, 16, 16, 15, 11 of 24, both \
+         settings). Removing a cause changes nothing, so it was not the cause. The arithmetic \
+         agrees: at a standard error near 0.26 the wall is about two standard errors away, and \
+         clamping a normal two standard errors out moves its mean by about 0.002 — two orders of \
+         magnitude short of what needs explaining.\n\n\
+         What the table shows instead is monotone shrinkage toward the centre: θ̂ above the \
+         truth at the bottom of the sweep, below it at the top. That is what a prior at θ = 0 \
+         with `theta_prior_information` and a finite horizon produces, and it is there at ±1.5, \
+         where no wall is within ten standard errors. That is measured too, not inferred: \
+         weakening `theta_prior_information` from 1.0 to 0.05 and changing nothing else \
+         collapsed the signed error at θ = −3.5 from +0.3203 to +0.0405 and at θ = +3.5 from \
+         −0.2813 to −0.0945, with coverage improving at all five points. Weaken the prior and \
+         the effect nearly disappears; move the wall and nothing happens at all.\n\n\
+         Reported rather than tuned away, all the same: the prior's weight is what holds a \
+         short-horizon estimate together, and trading that for a flatter column here is a \
+         decision about who the estimate is for, which this file does not make.\n\n\
+         Both quoted runs — the ±8.0 wall and the weakened prior — were measured once, during \
+         the review of the fix that produced this report, at 24 seeds. They are quoted rather \
+         than regenerated: only the sweep below is re-measured every time this file is \
+         written.\n\n",
+    );
+    out.push_str("| true θ | within 1 SE | within 2 SE | mean signed error | mean abs error |\n");
+    out.push_str("|---|---|---|---|---|\n");
+    for (theta, c) in per_theta {
+        out.push_str(&format!(
+            "| {:+.1} | {:.1}% ({}/{}) | {:.1}% ({}/{}) | {:+.4} | {:.4} |\n",
+            theta,
+            c.within_1se_rate() * 100.0,
+            c.within_1se,
+            c.runs,
+            c.within_2se_rate() * 100.0,
+            c.within_2se,
+            c.runs,
+            c.mean_signed_error,
+            c.mean_abs_error,
+        ));
+    }
+    out.push('\n');
+
+    if let Some((theta, c)) = worst {
+        out.push_str(&format!(
+            "The worst single θ is **{:+.1}**, at mean signed error {:+.4} against mean absolute \
+             error {:.4}. {}\n\n",
+            theta,
+            c.mean_signed_error,
+            c.mean_abs_error,
+            if c.mean_signed_error.abs() > 0.5 * c.mean_abs_error {
+                "At that θ the runs sit predominantly on one side of the truth: the estimate is \
+                 biased there, not merely noisy. Find what is moving θ̂ in that direction; \
+                 widening the interval would be treating a symptom. Whether a lean of this size \
+                 at the edge of the sweep is worth correcting is a judgement about who the \
+                 estimate is for, and this file does not make it."
+            } else {
+                "Even at its worst θ the runs scatter around the truth rather than sitting on \
+                 one side of it — no bias is detectable at this sample size."
+            },
+        ));
+    }
+
+    out
+}
+
 /// Formats `COVERAGE.md`'s markdown, zero-argument on purpose: see
 /// [`to_markdown`].
 pub fn generate() -> Report {
     let theta_sweep = &THETA_SWEEP;
     let base_config = SimConfig::default();
 
-    let coverage = measure(&MANY_SEEDS, theta_sweep, &base_config);
+    let (coverage, per_theta) = measure_detailed(&MANY_SEEDS, theta_sweep, &base_config);
     let automatic = automatic_sample(&MANY_SEEDS, &base_config);
 
     let long_horizon_config = SimConfig {
@@ -272,9 +439,16 @@ pub fn generate() -> Report {
     out.push_str(&format!(
         "**{:.1}% of runs land within 1 SE** ({} of {}) — a well-calibrated estimator implies \
          ≈68%. **{:.1}% land within 2 SE** ({} of {}) — ≈95% implied. Mean absolute error \
-         {:.4}, max {:.4}.\n\n\
+         {:.4}, max {:.4}, and **mean signed error {:+.4}**.\n\n\
+         **Read the signed error first, and read it per θ.** It is the column that separates a \
+         noisy estimator from a biased one, and its absence is why this instrument once \
+         misdiagnosed its own finding: absolute error alone cannot tell scatter around the truth \
+         from a steady drag away from it, and only the second is a broken estimator. The \
+         aggregate above is the weakest form of that reading, because an effect that changes \
+         sign across a symmetric sweep nearly cancels in it — the table below is the one to \
+         judge by.\n\n\
          `REPORT.md`'s own 3-seed measurement read 40% (6 of 15). {} runs at {:.1}% {} that \
-         reading: the per-θ pattern is not 3-seed noise — {}.\n\n",
+         reading.\n\n",
         coverage.within_1se_rate() * 100.0,
         coverage.within_1se,
         coverage.runs,
@@ -283,6 +457,7 @@ pub fn generate() -> Report {
         coverage.runs,
         coverage.mean_abs_error,
         coverage.max_abs_error,
+        coverage.mean_signed_error,
         coverage.runs,
         coverage.within_1se_rate() * 100.0,
         if (coverage.within_1se_rate() - 0.40).abs() < 0.10 {
@@ -290,14 +465,9 @@ pub fn generate() -> Report {
         } else {
             "revises"
         },
-        if coverage.within_2se_rate() < 0.90 {
-            "the 2 SE band is also under-covering, which argues for a genuinely under-wide \
-             standard error rather than 1 SE alone being an unlucky band"
-        } else {
-            "the 2 SE band covers close to its own implied 95%, which argues the 1 SE gap is a \
-             narrow-but-not-badly-broken standard error rather than a systematically biased one"
-        },
     ));
+
+    out.push_str(&per_theta_section(&per_theta));
 
     out.push_str(&gate_band_section());
 
@@ -342,44 +512,80 @@ pub fn generate() -> Report {
              scoring's asymptotics not yet biting at the base horizon's observation count, not at \
              a structurally over-confident estimator."
         } else if long_horizon_coverage.within_1se_rate() < coverage.within_1se_rate() - 0.05 {
-            "Coverage moved further from 68% with more horizon, not closer — the evidence argues \
-             against \"needs more observations\" as the explanation; a structural narrowness in \
-             the standard error is the more likely of the report's three named candidates."
+            "**Coverage moved further from 68% with more horizon, not closer, and that shape is \
+             diagnostic on its own.** A standard error that is merely too narrow by some factor \
+             under-covers by roughly the same amount at every horizon. Coverage that *decays* as \
+             evidence accumulates means something is moving θ̂ away from the truth faster than \
+             the interval shrinks — a bias, not a width. Check the signed error above and find \
+             what is dragging the estimate; widening the interval cannot fix this shape."
         } else {
             "Coverage did not move meaningfully with 3x the horizon — the evidence argues against \
              \"needs more observations\" as the explanation, and toward the response model's own \
-             sampling noise or the standard error's own construction as the more likely of the \
-             report's three named candidates."
+             sampling noise together with the shrinkage the per-θ table above measures. Not \
+             toward the standard error's own construction: that was this file's earlier \
+             diagnosis and the section below retracts it."
         },
     ));
 
     out.push('\n');
-    out.push_str("## What this changes, and what it does not\n\n");
-    out.push_str(&format!(
-        "**This revises `REPORT.md`'s own reading upward in severity, not just in sample size.** \
-         Its 3-seed sample read 40% within 1 SE and called the gap unexplained-not-diagnosed. \
-         The wider sample here reads {:.1}% — worse, not merely more precise — and the horizon \
-         sweep answers the question ADVISORY-005 §1 item 1 posed with a direction, not just a \
-         number: coverage does not improve with 3x the evidence, which weighs against \"the \
-         report's 3-seed sample was unlucky\" and against \"Fisher scoring's asymptotics have not \
-         bitten yet,\" and weighs toward the standard error's own construction (`1 / \
-         sqrt(theta_information)`) under-reporting its true uncertainty at this response model's \
-         parameters.\n\n\
-         **This is still a finding, not a blocker, by the tripwire ADVISORY-005 §1 item 1 itself \
-         wrote in:** \"this runs before anything consumes `theta_se`.\" Nothing merged through M1 \
-         reads `theta_se` — the composer band reads θ̂, not its error — so this number moving \
-         against the M1 ruling's expectation does not reopen that gate. It does mean the tripwire \
-         is now closer: the next feature that reads `theta_se` for anything (a confidence-gated \
-         UI decision, a probe-eligibility threshold, anything narrower than \"log it\") inherits \
-         an estimator now measured, not assumed, to be materially over-confident.\n",
-        coverage.within_1se_rate() * 100.0,
-    ));
+    out.push_str("## The diagnosis this instrument once got wrong\n\n");
+    out.push_str(
+        "**Kept in the generated report on purpose, because the mistake is more instructive \
+         than the fix.** Earlier revisions of this file measured 13.0% within 1 SE at the base \
+         horizon and 0.0% at 3x, and concluded from those two numbers that the *standard \
+         error* — `1 / sqrt(theta_information)` — was under-reporting its true uncertainty. \
+         That conclusion was wrong, and it was wrong in a way this report's own columns could \
+         not have caught, because it reported only absolute error.\n\n\
+         The standard error was correct. **θ̂ was biased downward**, by -0.13 to -0.73 logits \
+         depending on true θ at the base horizon, and by as much as -2.34 at 3x. The cause was \
+         `ability::update_theta`'s pseudoword branch: an over-claimed pseudoword stepped θ down \
+         by a flat `pseudoword_penalty` that never shrank, while the real-word step beside it \
+         was divided by accumulated Fisher information and did. Two update rules on diverging \
+         scales — so past a few dozen observations the penalty was an order of magnitude larger \
+         than any correction the real evidence could still apply, and it walked θ̂ to the clamp \
+         while the interval around it went on tightening.\n\n\
+         **The experiment that settled it**, and it was one run: hold everything constant and \
+         set the simulator's `overclaim_rate` to zero. On a 12-seed × 5-θ probe (60 runs) that \
+         took coverage from 20.0% to 66.7% with the standard error untouched — and the same \
+         probe at 3x horizon went from 0.0% to 63.3%, which is the half that matters, because \
+         no change to the *width* of an interval can stop a coverage rate from decaying with \
+         horizon. That probe is quoted here at its own sample size on purpose; it is not this \
+         report's headline figure, which is the 200-run number at the top of the file.\n\n\
+         The correction is now keyed to the observed over-claim **rate**, bounded by \
+         `pseudoword_penalty`, and applied where the estimate is read rather than inside the \
+         recursion (`ability::overclaim_correction`, `LearnerState::theta`). A bounded \
+         correction converges, so θ̂ converges, so `1 / sqrt(information)` describes it again.\n\n\
+         **Why it survived two weeks is not that nobody saw the mechanism.** The mechanism was \
+         written down, in this very file, the day before the fix: PR #48's addendum — now kept \
+         whole in `PSEUDOWORD_DIVERGENCE.md` — states that the penalty \"never shrinks … it is \
+         the same fixed `-0.3` on the thousandth over-claim as on the first,\" six inches below \
+         a 13.0% coverage number, and then files it as \"a design question, not this addendum's \
+         to answer\" and concludes \"this does not reopen anything merged.\" A signed-error \
+         column would not have changed that; the column is worth having anyway, and it is now \
+         above. What would have changed it is a rule: a named divergence between an \
+         implementation and the brief that governs it is a defect until measured otherwise, and \
+         it does not get to be a design question without an owner and a date.\n\n\
+         **What is still open, and is not answered anywhere in this repository:** how large the \
+         correction *should* be. `pseudoword_penalty` sets how far a total over-claimer is \
+         marked down, and no measurement here fixes it — this simulator's over-claimer answers \
+         real words honestly (`oracle::knows_real_item` reads only `true_theta` and \
+         `difficulty`), so in simulation the correct correction is zero and any positive value \
+         costs a little coverage. Calibrating the magnitude needs a synthetic learner whose \
+         over-claiming also inflates real-word responses. Named as owed rather than guessed \
+         at.\n\n\
+         **The tripwire ADVISORY-005 §1 item 1 wrote in still holds:** nothing consumes \
+         `theta_se`. The composer band reads θ̂, not its error. What has changed is that a \
+         consumer landing tomorrow would inherit an estimator measured to be calibrated rather \
+         than measured to be over-confident.\n",
+    );
 
     out.push('\n');
     out.push_str(
         "---\n\nPR #48's analysis of the pseudoword correction used to sit at the foot of this \
          file. It is in `PSEUDOWORD_DIVERGENCE.md`, beside this one: everything above is \
-         generated output, so hand-written prose cannot survive here.\n",
+         generated output, so hand-written prose cannot survive here. Its figures describe the \
+         mechanism this report's last section says was replaced — they are the record of what \
+         was measured then, kept because the postmortem above rests on them.\n",
     );
 
     Report {
@@ -444,6 +650,7 @@ mod tests {
             within_2se: 0,
             mean_abs_error: 0.0,
             max_abs_error: 0.0,
+            mean_signed_error: 0.0,
         };
         assert_eq!(coverage.within_1se_rate(), 0.0);
         assert_eq!(coverage.within_2se_rate(), 0.0);
