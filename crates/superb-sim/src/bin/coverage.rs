@@ -15,11 +15,10 @@
 use std::fs;
 use std::path::Path;
 
-use superb_sim::THETA_SWEEP;
 use superb_sim::coverage;
 
 fn main() {
-    let markdown = coverage::to_markdown(&THETA_SWEEP);
+    let markdown = coverage::to_markdown();
     print!("{markdown}");
 
     let out_path = Path::new(env!("CARGO_MANIFEST_DIR")).join("COVERAGE.md");

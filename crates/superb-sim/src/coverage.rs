@@ -31,8 +31,25 @@
 //! independent instrument answering a question `REPORT.md`'s own 3-seed
 //! sample said it could not answer.
 
+use crate::THETA_SWEEP;
 use crate::report::{Assertion1, Assertion2};
 use crate::simulation::SimConfig;
+
+/// The floor and ceiling `tests/coverage_gate.rs` fails outside of, and the
+/// two failure shapes `docs/engine-contract.md` §5 describes in words: a
+/// standard error so narrow that almost nothing lands inside it, or so wide
+/// that almost nothing lands outside. Deliberately not a target of ≈68% —
+/// `tests/assertions.rs`'s own doc comment explains why gating on the target
+/// would create pressure to tune `tuning.toml` until a report reads green
+/// rather than honest.
+///
+/// They live here, next to the measurement, because [`to_markdown`] prints
+/// them into `COVERAGE.md` from these same constants. §5 already cites that
+/// file; printing the band into it is what lets §5 cite the gate itself by
+/// file rather than paraphrase it, and it makes a change to either bound a
+/// byte difference in a committed file instead of a silent edit to a test.
+pub const WITHIN_1SE_RATE_FLOOR: f64 = 0.01;
+pub const WITHIN_1SE_RATE_CEILING: f64 = 0.90;
 
 /// "Many seeds per θ" — ADVISORY-005 §1 item 1's own phrase. 40 seeds × the
 /// existing 5-point `THETA_SWEEP` is 200 runs, enough that a well-calibrated
@@ -117,8 +134,40 @@ fn rate(count: usize, total: usize) -> f64 {
 /// itself does not compute, because `report.rs`'s 3-seed sample never needed
 /// a second band — added here rather than there, since `report.rs`'s own
 /// output is a pinned artifact this module does not touch.
+///
+/// **One thread per true θ, and why the result is identical to one thread for
+/// all of them.** `simulation::run` is a function of `(seed, true_theta,
+/// config)` and nothing else; `Assertion1::run` walks θ on the outside and
+/// seeds on the inside; the per-θ results are joined back in `theta_sweep`'s
+/// own order. So the merged `runs` vector is the same sequence the sequential
+/// call builds, in the same order, which matters because `mean_abs_error`
+/// sums it — same order, same float, same bytes in `COVERAGE.md`.
+///
+/// The threads are here and not in `report.rs` because `REPORT.md`'s five
+/// assertions are a pinned artifact this module does not touch. They are here
+/// at all because this sweep is the most expensive thing in the workspace and
+/// both gate tests now share one run of it: when the second test stopped
+/// running its own copy, the two stopped overlapping on CI's cores, and the
+/// gate's wall time went *up*, from 2930s to 4034s. Splitting the sweep itself
+/// gets the overlap back without paying for a second sweep.
 pub fn measure(seeds: &[u64], theta_sweep: &[f64], config: &SimConfig) -> Coverage {
-    let assertion1 = Assertion1::run(seeds, theta_sweep, config);
+    let assertion1 = std::thread::scope(|scope| {
+        let per_theta: Vec<_> = theta_sweep
+            .iter()
+            .map(|&true_theta| scope.spawn(move || Assertion1::run(seeds, &[true_theta], config)))
+            .collect();
+        Assertion1 {
+            runs: per_theta
+                .into_iter()
+                .flat_map(|thread| {
+                    thread
+                        .join()
+                        .unwrap_or_else(|_| panic!("a coverage sweep thread panicked"))
+                        .runs
+                })
+                .collect(),
+        }
+    });
     let within_2se = assertion1
         .runs
         .iter()
@@ -141,17 +190,55 @@ pub fn automatic_sample(seeds: &[u64], config: &SimConfig) -> Assertion2 {
     Assertion2::run(seeds, 0.0, config)
 }
 
-/// Runs both sweeps [`MANY_SEEDS`] and [`HORIZON_SEEDS`] name, against
-/// `THETA_SWEEP`, and formats `COVERAGE.md`'s markdown from the result.
+/// `COVERAGE.md`'s markdown, together with the base-horizon [`Coverage`] the
+/// markdown was formatted from.
 ///
-/// **Why this lives in the library, not `bin/coverage.rs`.** `bin/coverage.rs`
-/// calls this to print and write the committed file; `tests/coverage_gate.rs`
-/// calls the exact same function to regenerate it at test time and diff the
-/// two, byte for byte — the same discipline `main.rs`'s golden vectors already
-/// use. A markdown-writer that only the binary can reach can drift from the
-/// committed file the moment someone regenerates by hand and forgets a step;
-/// one function two callers read cannot.
-pub fn to_markdown(theta_sweep: &[f64]) -> String {
+/// The pair is returned rather than the markdown alone so a caller that needs
+/// both — `tests/coverage_gate.rs` diffs the file *and* checks the rate against
+/// [`WITHIN_1SE_RATE_FLOOR`] and [`WITHIN_1SE_RATE_CEILING`] — pays for the
+/// 200-run sweep once instead of twice.
+pub struct Report {
+    pub markdown: String,
+    pub coverage: Coverage,
+}
+
+/// The section of `COVERAGE.md` that prints the gate's own bounds, and the
+/// paragraph saying what the gate does not check. Separated from [`generate`]
+/// only so a unit test can check the coupling — that the two constants really
+/// do reach the committed file — without paying for the 200-run sweep.
+///
+/// The second paragraph is emitted rather than written into the file by hand
+/// for the same reason as the first: a caveat that only exists in a commit
+/// message or a review is gone by the next regeneration.
+fn gate_band_section() -> String {
+    format!(
+        "## The band this figure is gated against\n\n\
+         `tests/coverage_gate.rs` fails if the within-1-SE rate drops to {:.1}% or below, or \
+         reaches {:.1}% or above. Both bounds are printed here from the same constants the test \
+         asserts on (`coverage::WITHIN_1SE_RATE_FLOOR` and `coverage::WITHIN_1SE_RATE_CEILING`), \
+         so changing either is a byte difference in this committed file rather than a silent edit \
+         to a test, and `docs/engine-contract.md` §5 can cite the gate by file instead of \
+         describing it in words. It is a band, not a target of ≈68%: gating on the target would \
+         create pressure to tune `tuning.toml` until this file reads green rather than \
+         honest.\n\n\
+         **What the check does not buy.** `coverage_report_matches_a_fresh_run` proves this file \
+         is what the current code produces — that it is fresh, and that the run reproduces. It \
+         says nothing about whether what the file concludes is true. The sentences above choose \
+         themselves from the measurements (whether the wider sample \"confirms\" or \"revises\" \
+         the 3-seed reading, which way the horizon paragraph goes), so a change to the estimator \
+         regenerates this file into a different, equally confident, equally green report — and a \
+         wrong one would read exactly as settled as a right one. Whether the conclusions are \
+         sound is a reading someone has to do, and it does not survive a change to the estimator \
+         just because the test stayed green.\n\n",
+        WITHIN_1SE_RATE_FLOOR * 100.0,
+        WITHIN_1SE_RATE_CEILING * 100.0,
+    )
+}
+
+/// Formats `COVERAGE.md`'s markdown, zero-argument on purpose: see
+/// [`to_markdown`].
+pub fn generate() -> Report {
+    let theta_sweep = &THETA_SWEEP;
     let base_config = SimConfig::default();
 
     let coverage = measure(&MANY_SEEDS, theta_sweep, &base_config);
@@ -211,6 +298,8 @@ pub fn to_markdown(theta_sweep: &[f64]) -> String {
              narrow-but-not-badly-broken standard error rather than a systematically biased one"
         },
     ));
+
+    out.push_str(&gate_band_section());
 
     out.push_str("## The AUTOMATIC-word sample, fattened for free (item 2)\n\n");
     let histogram = automatic.histogram();
@@ -286,7 +375,35 @@ pub fn to_markdown(theta_sweep: &[f64]) -> String {
         coverage.within_1se_rate() * 100.0,
     ));
 
-    out
+    out.push('\n');
+    out.push_str(
+        "---\n\nPR #48's analysis of the pseudoword correction used to sit at the foot of this \
+         file. It is in `PSEUDOWORD_DIVERGENCE.md`, beside this one: everything above is \
+         generated output, so hand-written prose cannot survive here.\n",
+    );
+
+    Report {
+        markdown: out,
+        coverage,
+    }
+}
+
+/// `COVERAGE.md`'s markdown.
+///
+/// **Why this lives in the library, not `bin/coverage.rs`.** `bin/coverage.rs`
+/// calls this to print and write the committed file; `tests/coverage_gate.rs`
+/// diffs the same generated text against the committed file, byte for byte —
+/// the same discipline `main.rs`'s golden vectors already use. A
+/// markdown-writer that only the binary can reach can drift from the committed
+/// file the moment someone regenerates by hand and forgets a step; one function
+/// two callers read cannot.
+///
+/// **And why it takes no arguments.** It used to take the θ sweep, and both
+/// callers passed `THETA_SWEEP`. A third caller passing anything else would
+/// have produced a file the byte-diff test rejects, so the parameter was an
+/// invitation to disagree about the one input that must not vary.
+pub fn to_markdown() -> String {
+    generate().markdown
 }
 
 #[cfg(test)]
@@ -306,6 +423,17 @@ mod tests {
         // 2 SE is a wider band than 1 SE around the same point estimate, so
         // it can never catch fewer runs.
         assert!(coverage.within_2se >= coverage.within_1se);
+    }
+
+    #[test]
+    fn the_report_prints_the_bounds_the_gate_asserts_on() {
+        // The point of the section is that a reader of COVERAGE.md, and
+        // `engine-contract` §5 citing it, get the gate's actual numbers. If
+        // the constants stopped reaching the text, the citation would go back
+        // to being a description.
+        let section = gate_band_section();
+        assert!(section.contains(&format!("{:.1}%", WITHIN_1SE_RATE_FLOOR * 100.0)));
+        assert!(section.contains(&format!("{:.1}%", WITHIN_1SE_RATE_CEILING * 100.0)));
     }
 
     #[test]
