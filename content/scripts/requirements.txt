@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 # jsonschema is pinned once, in data/pipeline/requirements.txt, since CI
 # installs both files together; see that file's comment.
+=======
+jsonschema==4.23.0
+>>>>>>> main
 nltk==3.9.1

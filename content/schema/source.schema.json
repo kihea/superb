@@ -2,10 +2,17 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://superb.app/schema/source.schema.json",
   "title": "Sourced excerpt",
+<<<<<<< HEAD
   "description": "A cited public-domain excerpt. See docs/seams.md §Seam 2. Provenance is complete or the row does not exist — every field below is required, no exceptions (law 4, ADR-008). `topic` is required per ADR-022 (workspace/decisions/README.md): the engine's topic-affinity table looks up a topic for every passage id it finished or abandoned, sourced or composed, so a sourced excerpt with no topic is one the recommender cannot learn from.",
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "pool", "topic", "text", "words", "provenance"],
+=======
+  "description": "A cited public-domain excerpt. See docs/seams.md §Seam 2. Provenance is complete or the row does not exist — every field below is required, no exceptions (law 4, ADR-008).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "pool", "text", "words", "provenance"],
+>>>>>>> main
   "properties": {
     "id": {
       "type": "string",
@@ -15,17 +22,21 @@
     "pool": {
       "const": "sourced"
     },
+<<<<<<< HEAD
     "topic": {
       "type": "string",
       "minLength": 1,
       "description": "The topic cluster this excerpt belongs to, e.g. sea. Same open vocabulary as passage.schema.json's topic field."
     },
+=======
+>>>>>>> main
     "text": {
       "type": "string",
       "minLength": 1,
       "description": "The excerpt itself, 80-200 words."
     },
     "words": {
+<<<<<<< HEAD
       "type": "array", "minItems": 1,
       "items": {
         "type": "object", "additionalProperties": false,
@@ -39,6 +50,15 @@
         }
       },
       "description": "Only the words the excerpt carries in informative context — not every word present. Each word carries the signal class(es) that claimed it (ADR-026, workspace/decisions/README.md) so contamination is auditable rather than silent."
+=======
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Only the words the excerpt carries in informative context — not every word present."
+>>>>>>> main
     },
     "provenance": {
       "type": "object",

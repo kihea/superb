@@ -1,6 +1,7 @@
 {
   "id": "src-wharton-i-had-the-story-bit-by-bit",
   "pool": "sourced",
+<<<<<<< HEAD
   "topic": "rural",
   "text": "I had the story, bit by bit, from various people, and, as generally happens in such cases, each time it was a different story. If you know Starkfield, Massachusetts, you know the post-office. If you know the post-office you must have seen Ethan Frome drive up to it, drop the reins on his hollow-backed bay and drag himself across the brick pavement to the white colonnade; and you must have asked who he was. It was there that, several years ago, I saw him for the first time; and the sight pulled me up sharp. Even then he was the most striking figure in Starkfield, though he was but the ruin of a man. It was not so much his great height that marked him, for the “natives” were easily singled out by their lank longitude from the stockier foreign breed: it was the careless powerful look he had, in spite of a lameness checking each step like the jerk of a chain.",
   "words": [
@@ -10,6 +11,11 @@
         "hand-picked"
       ]
     }
+=======
+  "text": "I had the story, bit by bit, from various people, and, as generally happens in such cases, each time it was a different story. If you know Starkfield, Massachusetts, you know the post-office. If you know the post-office you must have seen Ethan Frome drive up to it, drop the reins on his hollow-backed bay and drag himself across the brick pavement to the white colonnade; and you must have asked who he was. It was there that, several years ago, I saw him for the first time; and the sight pulled me up sharp. Even then he was the most striking figure in Starkfield, though he was but the ruin of a man. It was not so much his great height that marked him, for the “natives” were easily singled out by their lank longitude from the stockier foreign breed: it was the careless powerful look he had, in spite of a lameness checking each step like the jerk of a chain.",
+  "words": [
+    "longitude"
+>>>>>>> main
   ],
   "provenance": {
     "work": "Ethan Frome",

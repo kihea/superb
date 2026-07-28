@@ -32,10 +32,14 @@ jobs:
           cache: pip
 
       - name: Install content tooling
+<<<<<<< HEAD
         run: pip install -r content/scripts/requirements.txt -r data/pipeline/requirements.txt
 
       - name: Download nltk's punkt tokenizer (excerpts.py's sentence segmenter)
         run: python -c "import nltk; nltk.download('punkt_tab', quiet=True)"
+=======
+        run: pip install -r content/scripts/requirements.txt
+>>>>>>> main
 
       - name: Schema — every content file validates (Seam 2)
         run: python content/scripts/validate_schema.py
@@ -46,7 +50,11 @@ jobs:
       - name: Passages — structural checks (40+, 120-220 words, 5-8 slots)
         run: python content/scripts/check_passages.py
 
+<<<<<<< HEAD
       - name: Sources — structural checks and allow-listed provenance (1500+)
+=======
+      - name: Sources — structural checks and allow-listed provenance (60+)
+>>>>>>> main
         run: python content/scripts/check_sources.py
 
       - name: Prove the licence gate fails on a broken fixture, then run it for real

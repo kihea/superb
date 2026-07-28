@@ -4,7 +4,11 @@ version = "0.0.0"
 description = "The headless simulator (docs/engine-contract.md §5): synthetic learners with known ground-truth vocabularies run superb-core through sixty sessions and check the five assertions M1 closes on. Not pure — it prints and writes a report — but deterministic: the same seed produces the same output, byte for byte."
 edition.workspace = true
 rust-version.workspace = true
+<<<<<<< HEAD
 license-file.workspace = true
+=======
+license.workspace = true
+>>>>>>> main
 repository.workspace = true
 publish = false
 

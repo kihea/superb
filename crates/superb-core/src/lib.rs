@@ -21,7 +21,11 @@ pub mod signals;
 pub mod state;
 pub mod tuning;
 
+<<<<<<< HEAD
 pub use ability::{ThetaUpdate, band, update_theta};
+=======
+pub use ability::{ThetaUpdate, ThetaUpdated, band, update_theta};
+>>>>>>> main
 pub use composer::{Candidate, ContentFrame, Passage, Pool, Slot, SlotFill, compose};
 pub use engine::{Effect, Frame, Needs, Outcome, Request, decide, plan};
 pub use learner::{

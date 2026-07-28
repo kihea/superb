@@ -61,6 +61,16 @@ tier = "boundary"
 derives = ["Serialize"]
 consumer = "engine-contract §3's effect stream — the host persists the due date and re-renders; never reachable from LearnerState, since the interval that produced it is persisted separately in WordRecord.interval_days"
 authorized_by = "BRIEF-009, engine-contract §3"
+<<<<<<< HEAD
+=======
+
+[[type]]
+name = "ThetaUpdated"
+tier = "boundary"
+derives = ["Serialize"]
+consumer = "engine-contract §3's ability effect stream — the host persists theta and se and re-renders; never reachable from LearnerState, since theta is already a field of LearnerState itself and se is derived from its theta_information field on read"
+authorized_by = "BRIEF-010, engine-contract §3"
+>>>>>>> main
 
 [[type]]
 name = "Transition"
@@ -135,7 +145,11 @@ tier = "boundary"
 derives = ["Serialize"]
 consumer = "engine-contract §3's effect stream out, unified across the state machine, scheduler, ability estimator, and this module's own context-frame log; the expected side of a golden vector; never reachable from LearnerState"
 authorized_by = "BRIEF-013, engine-contract §3"
+<<<<<<< HEAD
 note = "ProbeEligible is declared for the contract's sake and never constructed in this brief — see BRIEF-013's UNRESOLVED. The ThetaUpdated payload {theta, se} rides here too: it used to be a separate struct in ability.rs with a roster row of its own, which nothing constructed, so the shape being checked was not the shape being shipped (BRIEF-010, engine-contract §3)"
+=======
+note = "ProbeEligible is declared for the contract's sake and never constructed in this brief — see BRIEF-013's UNRESOLVED"
+>>>>>>> main
 
 [[type]]
 name = "Outcome"

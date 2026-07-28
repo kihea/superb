@@ -39,6 +39,7 @@
 //! retired — from `tuning.toml`, from [`crate::tuning::Tuning`], and from
 //! its range check.
 //!
+<<<<<<< HEAD
 //! **The pseudoword correction is no longer folded into the θ recursion,
 //! and that is this module's most recent and most expensive lesson.** It
 //! used to step θ down by a flat `pseudoword_penalty` per over-claim — a
@@ -57,6 +58,14 @@
 //! "knew" or not, against an item's difficulty; [`overclaim_correction`],
 //! the bounded offset the pseudoword counters buy (Done clause 5); and
 //! [`band`], the one place engine-contract §4's interval is computed from θ.
+=======
+//! What's here: [`update_theta`], the pure per-observation update that moves
+//! θ toward the evidence one `DeckSwipe` carries — a claim of "knew" or not,
+//! against an item's difficulty — with the pseudoword correction folded into
+//! the same call rather than a second event a caller could forget to send
+//! (Done clause 5); and [`band`], the one place engine-contract §4's
+//! interval is computed from θ.
+>>>>>>> main
 //!
 //! What this module deliberately does not do: decide whether θ has
 //! *converged* to a learner's true ability. That is the simulator's
@@ -65,6 +74,7 @@
 //! sequence here would tie a later brief's simulator to today's response
 //! model instead of the other way around.
 
+<<<<<<< HEAD
 use crate::tuning::Tuning;
 
 /// What [`update_theta`] decided: the *raw* estimate and the evidence
@@ -107,6 +117,52 @@ impl ThetaUpdate {
     pub fn se(&self) -> f64 {
         1.0 / self.theta_information.sqrt()
     }
+=======
+use serde::Serialize;
+
+use crate::tuning::Tuning;
+
+/// The engine's ability effect (engine-contract §3): `ThetaUpdated { theta,
+/// se }`, matched field-for-field against the contract rather than
+/// approximated.
+///
+/// Boundary tier in `wire-roster.toml`, not durable: this type is never
+/// reachable from [`crate::LearnerState`]. `LearnerState.theta` is what this
+/// effect's `theta` describes the host having just written there, and `se`
+/// describes what `LearnerState::theta_se` now reads back — derived from the
+/// `theta_information` the host actually wrote, not a second stored field;
+/// the effect itself is only ever the host's cue to persist and re-render
+/// (engine-contract §3 — "effects are a description of what changed, not
+/// commands").
+#[derive(Debug, Clone, Copy, PartialEq, Serialize)]
+pub struct ThetaUpdated {
+    /// The learner's ability estimate after this observation.
+    pub theta: f64,
+    /// θ's standard error after this observation.
+    pub se: f64,
+}
+
+/// What [`update_theta`] decided.
+///
+/// `theta` is always equal to `effect.theta`, and `effect.se` is always
+/// `1 / sqrt(theta_information)` — exposed as its own field so a caller
+/// writing `LearnerState`'s stored information does not have to reach into
+/// the effect payload to get it (the same shape `scheduler::ScheduleDecision`
+/// uses for `due` / `interval_days` against `IntervalSet`).
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub struct ThetaUpdate {
+    /// The learner's ability estimate after this observation. Write this
+    /// into `LearnerState.theta`.
+    pub theta: f64,
+    /// θ's accumulated Fisher information after this observation — always
+    /// greater than the input, evidence only ever adds. Write this into
+    /// `LearnerState`'s stored information
+    /// (`LearnerState::set_theta_and_information`); `effect.se` is derived
+    /// from this same number, not a second one to keep in sync.
+    pub theta_information: f64,
+    /// The effect to persist and re-render (engine-contract §3).
+    pub effect: ThetaUpdated,
+>>>>>>> main
 }
 
 /// The one-parameter logistic response probability: how likely a learner at
@@ -160,6 +216,7 @@ fn response_probability(theta: f64, difficulty: f64) -> f64 {
 /// difficulty for one to be evaluated against — `difficulty` is ignored on
 /// this branch entirely, and so is the response model: there is no `p` to
 /// compute a Fisher information from, so a pseudoword observation
+<<<<<<< HEAD
 /// contributes none. It also moves the raw θ by nothing, whether the learner
 /// claimed it or not. A pseudoword carries no evidence about *vocabulary*
 /// in either direction; what claiming one carries evidence about is the
@@ -174,6 +231,18 @@ fn response_probability(theta: f64, difficulty: f64) -> f64 {
 /// maximum-likelihood estimate — stopped describing it. Keeping the
 /// recursion pure real-word evidence is what makes the reported standard
 /// error true again, and the coverage measurement is where that shows up.
+=======
+/// contributes none. Claiming to know one (`knew` true) is over-claiming by
+/// definition and steps θ down by `tuning.pseudoword_penalty` (Done clause
+/// 5): folded into this same per-observation call rather than a second event
+/// a caller could forget to send, so a session where a learner over-claims
+/// on pseudowords accumulates the correction one observation at a time,
+/// without this function or its caller ever having to compute a session-wide
+/// claim rate. Honestly saying "don't know" to a pseudoword is the expected
+/// response and moves θ by nothing — there is nothing to correct for and
+/// nothing to reward, since a pseudoword carries no real vocabulary evidence
+/// either way.
+>>>>>>> main
 ///
 /// **θ is clamped last**, to `[tuning.theta_min, tuning.theta_max]`, with
 /// `f64::max` then `f64::min` rather than a branch — both return their
@@ -214,6 +283,7 @@ pub fn update_theta(
     };
 
     let (delta, observation_information) = if is_pseudoword {
+<<<<<<< HEAD
         // A pseudoword moves the raw estimate by NOTHING, in either
         // direction, and contributes no information.
         //
@@ -241,6 +311,14 @@ pub fn update_theta(
         // always described ("claim rate"); only the implementation ever
         // said otherwise.
         (0.0, 0.0)
+=======
+        let delta = if knew {
+            -tuning.pseudoword_penalty
+        } else {
+            0.0
+        };
+        (delta, 0.0)
+>>>>>>> main
     } else {
         let claim = if knew { 1.0 } else { 0.0 };
         let expected = response_probability(theta, difficulty);
@@ -264,10 +342,20 @@ pub fn update_theta(
     let new_theta = raw_theta.max(tuning.theta_min).min(tuning.theta_max);
 
     let new_information = sanitized_information + observation_information;
+<<<<<<< HEAD
+=======
+    let new_se = 1.0 / new_information.sqrt();
+
+    let effect = ThetaUpdated {
+        theta: new_theta,
+        se: new_se,
+    };
+>>>>>>> main
 
     ThetaUpdate {
         theta: new_theta,
         theta_information: new_information,
+<<<<<<< HEAD
     }
 }
 
@@ -313,6 +401,12 @@ pub fn overclaim_correction(
     tuning.pseudoword_penalty * rate
 }
 
+=======
+        effect,
+    }
+}
+
+>>>>>>> main
 /// engine-contract §4's θ band: `[θ + band_low, θ + band_high]` — the only
 /// place it is computed (Done clause 7). `band_low` is negative in the
 /// shipped tuning, so the low edge is a subtraction in practice, but this
@@ -410,7 +504,11 @@ mod tests {
         let expected_step = (1.0 - expected) / total_information;
 
         assert!((update.theta - theta - expected_step).abs() < 1e-12);
+<<<<<<< HEAD
         assert!((update.se() - 1.0 / total_information.sqrt()).abs() < 1e-12);
+=======
+        assert!((update.effect.se - 1.0 / total_information.sqrt()).abs() < 1e-12);
+>>>>>>> main
     }
 
     /// Done clause 3 / 8: one hundred consecutive identical claims in the
@@ -446,6 +544,7 @@ mod tests {
         assert_eq!(theta, tuning.theta_max);
     }
 
+<<<<<<< HEAD
     /// **This test used to assert the defect.** It read: one hundred
     /// consecutive pseudoword over-claims walk θ straight to `theta_min`
     /// and hold it there — and it passed, for years of commits, because
@@ -466,10 +565,20 @@ mod tests {
         let tuning = Tuning::default();
         let starting_theta = 0.0;
         let mut theta = starting_theta;
+=======
+    /// The same clamp, from the other direction: one hundred consecutive
+    /// pseudoword over-claims walk θ straight to `theta_min` and hold it
+    /// there.
+    #[test]
+    fn theta_clamps_at_theta_min_after_one_hundred_consecutive_pseudoword_overclaims() {
+        let tuning = Tuning::default();
+        let mut theta = 0.0;
+>>>>>>> main
         let information = 1.0;
 
         for step in 0..100 {
             let update = update_theta(theta, information, 0.0, true, true, &tuning);
+<<<<<<< HEAD
             assert_eq!(
                 update.theta, starting_theta,
                 "step {step}: a pseudoword moved the raw θ to {}",
@@ -478,10 +587,18 @@ mod tests {
             assert_eq!(
                 update.theta_information, information,
                 "step {step}: a pseudoword contributed information"
+=======
+            assert!(
+                update.theta >= tuning.theta_min,
+                "step {step}: θ {} fell below theta_min {}",
+                update.theta,
+                tuning.theta_min
+>>>>>>> main
             );
             theta = update.theta;
         }
 
+<<<<<<< HEAD
         assert_eq!(theta, starting_theta);
     }
 
@@ -519,6 +636,9 @@ mod tests {
             );
             previous = correction;
         }
+=======
+        assert_eq!(theta, tuning.theta_min);
+>>>>>>> main
     }
 
     /// Done clause 5, read literally: construct the over-claiming learner —
@@ -578,6 +698,7 @@ mod tests {
             honest_information = honest_update.theta_information;
         }
 
+<<<<<<< HEAD
         // The raw recursions are now identical — the two learners answered
         // every *real* word the same way, and pseudowords no longer touch
         // the raw estimate. That is the point: the real-word evidence says
@@ -602,6 +723,13 @@ mod tests {
         // and the other claimed none — a bounded, statable amount rather
         // than however far a hundred fixed steps happened to walk.
         assert!((honest - overclaimer - tuning.pseudoword_penalty).abs() < 1e-12);
+=======
+        assert!(
+            overclaimer_theta < honest_theta,
+            "the over-claimer's θ ({overclaimer_theta}) should be strictly lower than the \
+             honest learner's ({honest_theta})"
+        );
+>>>>>>> main
     }
 
     /// Honestly rejecting a pseudoword is the expected response and moves θ
@@ -681,7 +809,11 @@ mod tests {
                 update.theta_information, tuning.theta_prior_information,
                 "adversarial input {adversarial} did not fall back to the prior floor"
             );
+<<<<<<< HEAD
             assert!(update.se().is_finite());
+=======
+            assert!(update.effect.se.is_finite());
+>>>>>>> main
         }
     }
 
@@ -701,6 +833,7 @@ mod tests {
 
     /// `ThetaUpdated` matches engine-contract §3's `ThetaUpdated { theta,
     /// se }` literally: exactly these two keys, nothing else.
+<<<<<<< HEAD
     ///
     /// Asserted against `engine::Effect::ThetaUpdated`, which is the payload
     /// that actually crosses the boundary. `ability` used to own a separate
@@ -710,14 +843,25 @@ mod tests {
     #[test]
     fn theta_updated_serializes_as_exactly_theta_and_se() {
         let effect = crate::engine::Effect::ThetaUpdated {
+=======
+    #[test]
+    fn theta_updated_serializes_as_exactly_theta_and_se() {
+        let effect = ThetaUpdated {
+>>>>>>> main
             theta: 0.4,
             se: 0.8,
         };
 
         let value = serde_json::to_value(effect).expect("ThetaUpdated serializes");
+<<<<<<< HEAD
         let object = value["ThetaUpdated"]
             .as_object()
             .expect("ThetaUpdated's payload serializes as an object");
+=======
+        let object = value
+            .as_object()
+            .expect("ThetaUpdated serializes as an object");
+>>>>>>> main
 
         assert_eq!(
             object.keys().collect::<std::collections::BTreeSet<_>>(),
@@ -744,7 +888,11 @@ mod tests {
                 assert!(update.theta >= tuning.theta_min);
                 assert!(update.theta <= tuning.theta_max);
                 assert!(
+<<<<<<< HEAD
                     update.se().is_finite(),
+=======
+                    update.effect.se.is_finite(),
+>>>>>>> main
                     "difficulty {difficulty}, knew {knew}: se was not finite"
                 );
             }

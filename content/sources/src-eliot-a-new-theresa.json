@@ -1,6 +1,7 @@
 {
   "id": "src-eliot-a-new-theresa",
   "pool": "sourced",
+<<<<<<< HEAD
   "topic": "society",
   "text": "A new Theresa will hardly have the opportunity of reforming a conventual life, any more than a new Antigone will spend her heroic piety in daring all for the sake of a brother's burial: the medium in which their ardent deeds took shape is forever gone. But we insignificant people with our daily words and acts are preparing the lives of many Dorotheas, some of which may present a far sadder sacrifice than that of the Dorothea whose story we know. Her finely touched spirit had still its fine issues, though they were not widely visible. Her full nature, like that river of which Cyrus broke the strength, spent itself in channels which had no great name on the earth. But the effect of her being on those around her was incalculably diffusive: for the growing good of the world is partly dependent on unhistoric acts; and that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life, and rest in unvisited tombs.",
   "words": [
@@ -16,6 +17,12 @@
         "hand-picked"
       ]
     }
+=======
+  "text": "A new Theresa will hardly have the opportunity of reforming a conventual life, any more than a new Antigone will spend her heroic piety in daring all for the sake of a brother's burial: the medium in which their ardent deeds took shape is forever gone. But we insignificant people with our daily words and acts are preparing the lives of many Dorotheas, some of which may present a far sadder sacrifice than that of the Dorothea whose story we know. Her finely touched spirit had still its fine issues, though they were not widely visible. Her full nature, like that river of which Cyrus broke the strength, spent itself in channels which had no great name on the earth. But the effect of her being on those around her was incalculably diffusive: for the growing good of the world is partly dependent on unhistoric acts; and that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life, and rest in unvisited tombs.",
+  "words": [
+    "diffusive",
+    "unhistoric"
+>>>>>>> main
   ],
   "provenance": {
     "work": "Middlemarch",

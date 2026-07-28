@@ -20,11 +20,18 @@ use superb_core::state::WordState;
 use superb_core::{Effect, Frame, LearnerState, Needs, Request, Timestamp, Tuning};
 use superb_core::{decide, due_words, plan};
 
+<<<<<<< HEAD
 use crate::corpus::RealCorpus;
 use crate::library::{Library, band_words, word_classes};
 use crate::oracle::{claims_pseudoword, finishes_passage, knows_real_item, knows_real_item_after};
 use crate::rng::Rng;
 use crate::vocabulary::{Vocabulary, generate, generate_real};
+=======
+use crate::library::{Library, band_words, word_classes};
+use crate::oracle::{claims_pseudoword, finishes_passage, knows_real_item, knows_real_item_after};
+use crate::rng::Rng;
+use crate::vocabulary::{Vocabulary, generate};
+>>>>>>> main
 use superb_core::composer::{ContentFrame, Pool};
 
 const MILLIS_PER_DAY: u64 = 24 * 60 * 60 * 1000;
@@ -57,6 +64,7 @@ pub struct SimConfig {
     pub composed_cap: usize,
     pub sourced_cap: usize,
     pub session_length_days: f64,
+<<<<<<< HEAD
     /// How many composed templates the library holds. Defaults to
     /// [`crate::library::COMPOSED_PASSAGES`]; only `src/calibration.rs`
     /// overrides it, and only to hold the composed side fixed while it
@@ -67,6 +75,8 @@ pub struct SimConfig {
     /// to answer what corpus size the sourced-share target actually needs —
     /// a question about the library, not about `sourced_preference`.
     pub sourced_library_size: usize,
+=======
+>>>>>>> main
 }
 
 impl Default for SimConfig {
@@ -101,8 +111,11 @@ impl Default for SimConfig {
             composed_cap: 6,
             sourced_cap: 3,
             session_length_days: 1.0,
+<<<<<<< HEAD
             composed_library_size: crate::library::COMPOSED_PASSAGES,
             sourced_library_size: crate::library::SOURCED_EXCERPTS,
+=======
+>>>>>>> main
         }
     }
 }
@@ -121,6 +134,7 @@ pub struct PoolTally {
     pub abandoned_sessions: usize,
 }
 
+<<<<<<< HEAD
 /// Issue #35's four-class encounter report (M2 DONE item 3, ADVISORY-007 §1
 /// and its addendum A3(c)): every real-word encounter this run produced,
 /// classified by where the reader met the word. Counted at the *word* level
@@ -207,6 +221,8 @@ impl DueListCoverageTally {
     }
 }
 
+=======
+>>>>>>> main
 /// Everything one full run produced, for `report.rs` to read the five
 /// assertions off without re-deriving them from raw effects.
 #[derive(Debug, Clone)]
@@ -228,12 +244,15 @@ pub struct SimulationOutcome {
     /// distinct-clean-frame count, is what Assertion 2 reports.
     pub encounters_to_automatic: Vec<usize>,
     pub pools: PoolTally,
+<<<<<<< HEAD
     /// Issue #35's four-class word-encounter report — see
     /// [`EncounterTally`]'s own doc comment.
     pub encounters: EncounterTally,
     /// Directive 3's band coverage, this run's own due lists against the
     /// sourced pool it was offered — see [`DueListCoverageTally`].
     pub due_list_coverage: DueListCoverageTally,
+=======
+>>>>>>> main
     /// The engine's learned finish-rate per topic at the end of the run, beside
     /// this reader's hidden true taste for it (ADR-022). One row per topic the
     /// reader ever met — the recommender's assertion is read off this.
@@ -279,6 +298,7 @@ struct RunState {
     clean_exposures: BTreeMap<String, usize>,
     encounters_to_automatic: Vec<usize>,
     already_recorded_automatic: BTreeMap<String, ()>,
+<<<<<<< HEAD
     /// Issue #35's word-encounter tally — see [`EncounterTally`].
     encounters: EncounterTally,
     /// Sessions whose due list was nonempty — the denominator for
@@ -287,10 +307,13 @@ struct RunState {
     due_list_sessions: usize,
     due_list_coverage_at_least_1: usize,
     due_list_coverage_at_least_2: usize,
+=======
+>>>>>>> main
 }
 
 /// Run one synthetic learner's whole simulation and return everything
 /// `report.rs` needs. Deterministic in `seed` and `true_theta` — nothing
+<<<<<<< HEAD
 /// else varies the output. Runs against the shipped [`Tuning`]; see
 /// [`run_with_tuning`] for the one caller (`src/calibration.rs`) that needs
 /// a different one.
@@ -321,6 +344,10 @@ pub fn run_with_tuning(
     config: &SimConfig,
     tuning: &Tuning,
 ) -> SimulationOutcome {
+=======
+/// else varies the output.
+pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> SimulationOutcome {
+>>>>>>> main
     let mut rng = Rng::new(seed);
     let vocabulary = generate(
         &mut rng,
@@ -329,6 +356,10 @@ pub fn run_with_tuning(
         config.pseudoword_pool_size,
         config.sourced_eligible_rate,
     );
+<<<<<<< HEAD
+=======
+    let tuning = Tuning::default();
+>>>>>>> main
     // Built from the same `rng` the rest of the run draws from, before any
     // session runs: the library is part of the world, so it must be fixed by
     // the seed like everything else.
@@ -337,16 +368,24 @@ pub fn run_with_tuning(
         &vocabulary,
         config.composed_cap,
         config.sourced_cap,
+<<<<<<< HEAD
         config.composed_library_size,
         config.sourced_library_size,
     );
     let world = World {
         vocabulary: &vocabulary,
         tuning,
+=======
+    );
+    let world = World {
+        vocabulary: &vocabulary,
+        tuning: &tuning,
+>>>>>>> main
         config,
         library: &library,
         word_classes: word_classes(&vocabulary),
     };
+<<<<<<< HEAD
     run_world(seed, true_theta, config, &mut rng, world)
 }
 
@@ -415,11 +454,18 @@ fn run_world(
     rng: &mut Rng,
     world: World,
 ) -> SimulationOutcome {
+=======
+
+>>>>>>> main
     let mut learner = LearnerState::new(
         seed,
         0,
         0.0,
+<<<<<<< HEAD
         world.tuning.theta_prior_information(),
+=======
+        tuning.theta_prior_information(),
+>>>>>>> main
         BTreeMap::new(),
         BTreeMap::new(),
     );
@@ -432,10 +478,17 @@ fn run_world(
 
         due_list_sizes.push(due_words(&learner, now).len());
 
+<<<<<<< HEAD
         run_calibration(&mut learner, rng, &world, &mut state, now, true_theta);
         run_reading_session(
             &mut learner,
             rng,
+=======
+        run_calibration(&mut learner, &mut rng, &world, now, true_theta);
+        run_reading_session(
+            &mut learner,
+            &mut rng,
+>>>>>>> main
             &world,
             &mut state,
             now,
@@ -447,23 +500,34 @@ fn run_world(
     SimulationOutcome {
         seed,
         true_theta,
+<<<<<<< HEAD
         final_theta: learner.theta(world.tuning),
+=======
+        final_theta: learner.theta(),
+>>>>>>> main
         final_theta_se: learner.theta_se(),
         due_list_sizes,
         encounters_to_automatic: state.encounters_to_automatic,
         pools: state.pools,
+<<<<<<< HEAD
         encounters: state.encounters,
         due_list_coverage: DueListCoverageTally {
             sessions: state.due_list_sessions,
             at_least_1: state.due_list_coverage_at_least_1,
             at_least_2: state.due_list_coverage_at_least_2,
         },
+=======
+>>>>>>> main
         topic_estimates: learner
             .topic_affinities
             .iter()
             .filter_map(|(topic, record)| {
                 let rate = record.rate()?;
+<<<<<<< HEAD
                 let truth = *world.vocabulary.topic_taste.get(topic)?;
+=======
+                let truth = *vocabulary.topic_taste.get(topic)?;
+>>>>>>> main
                 Some((topic.clone(), rate, truth))
             })
             .collect(),
@@ -488,7 +552,10 @@ fn run_calibration(
     learner: &mut LearnerState,
     rng: &mut Rng,
     world: &World,
+<<<<<<< HEAD
     state: &mut RunState,
+=======
+>>>>>>> main
     now: Timestamp,
     true_theta: f64,
 ) {
@@ -506,6 +573,7 @@ fn run_calibration(
             (word.id.clone(), knew)
         };
 
+<<<<<<< HEAD
         // A deck encounter of a real word — issue #35's encounter tally.
         // Pseudoword draws are a calibration-honesty check, not a vocabulary
         // encounter, so they are excluded (`EncounterTally::deck`'s own doc
@@ -514,6 +582,8 @@ fn run_calibration(
             state.encounters.deck += 1;
         }
 
+=======
+>>>>>>> main
         dispatch_deck_swipe(
             learner,
             world.vocabulary,
@@ -614,6 +684,7 @@ fn run_reading_session(
         return;
     }
 
+<<<<<<< HEAD
     // Directive 3's band coverage, read straight off this session's real due
     // list rather than a separately sampled one — see
     // `crate::corpus::coverage_of`'s own doc comment. Computed on *every*
@@ -629,6 +700,8 @@ fn run_reading_session(
         state.due_list_coverage_at_least_2 += 1;
     }
 
+=======
+>>>>>>> main
     let mut candidates = world.library.composed.clone();
     candidates.extend(world.library.sourced.iter().cloned());
     let content = ContentFrame {
@@ -670,6 +743,7 @@ fn run_reading_session(
     // fills also contain untracked prose the schedule has no opinion about.
     let words_on_screen = passage.words_on_page();
 
+<<<<<<< HEAD
     // Issue #35's word-encounter tally: every word this passage put on the
     // page, whichever pool it came from. `composed_for_support` is never
     // written here — see its own doc comment on [`EncounterTally`] for why
@@ -679,6 +753,8 @@ fn run_reading_session(
         Pool::Sourced => state.encounters.sourced += words_on_screen.len(),
     }
 
+=======
+>>>>>>> main
     let mut clean_words = Vec::new();
     let mut gloss_words = Vec::new();
     for word in &words_on_screen {

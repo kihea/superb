@@ -488,26 +488,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "superb-sim"
-version = "0.0.0"
-dependencies = [
- "serde_json",
- "superb-core",
-]
-
-[[package]]
-name = "superb-wasm"
-version = "0.0.0"
-dependencies = [
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "superb-core",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
 name = "syn"
 version = "2.0.119"
 source = "registry+https://github.com/rust-lang/crates.io-index"

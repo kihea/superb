@@ -8,6 +8,7 @@ Config: 240 sessions, 240-word reading vocabulary, 40 calibration words, 40 pseu
 
 ## Assertion 1 — θ̂ converges within its own standard error
 
+<<<<<<< HEAD
 13/15 runs landed within their own reported standard error of the true θ. Mean absolute error 0.1209, max absolute error 0.3492.
 
 **Finding, reported rather than tuned away (BRIEF-014 round 3).** Round 1's `theta_se` was a stored number decayed by a fixed factor on every observation regardless of how informative it was (0/15 runs landed within it). Round 2 derived `theta_se` on every read as `1 / sqrt(total accumulated Fisher information)` (`ability::update_theta`'s own doc comment) but left θ itself moving by a fixed-size step (`theta_update_rate` times the residual) — an estimate and an uncertainty produced by two different mechanisms, which only got 3/15 runs within band. Round 3 moves θ by Fisher scoring instead: the same residual divided by the same accumulated information the derived SE reads, so the step shrinks as evidence arrives and both numbers come from one calculation. `theta_update_rate` bought nothing this scheme still needs and is retired from `tuning.toml`. Each real-word calibration draw contributes `p * (1 - p)` of information, and only calibration draws move θ at all; a session's `PassageFinished` and `GlossTap` events never call `update_theta`. With `calibration_items_per_session` = 1 and `calibration_real_rate` = 70%, the run carries roughly 168 real-word observations, and the reported se now lands between 0.198 and 0.287. 13/15 runs now land within that band — up from 3/15 under the fixed-rate step — and mean absolute error fell from 1.0448 (rounds 1-2) to 0.1209, well below the no-update baseline (mean |true θ| over the sweep), so θ̂ is both closer to the truth and better calibrated to its own reported uncertainty than either earlier round.
@@ -46,6 +47,39 @@ Config: 240 sessions, 240-word reading vocabulary, 40 calibration words, 40 pseu
 | 55 | 1 |
 | 58 | 1 |
 | 60 | 1 |
+=======
+5/15 runs landed within their own reported standard error of the true θ. Mean absolute error 0.3817, max absolute error 0.7433.
+
+**Finding, reported rather than tuned away (BRIEF-014 round 3).** Round 1's `theta_se` was a stored number decayed by a fixed factor on every observation regardless of how informative it was (0/15 runs landed within it). Round 2 derived `theta_se` on every read as `1 / sqrt(total accumulated Fisher information)` (`ability::update_theta`'s own doc comment) but left θ itself moving by a fixed-size step (`theta_update_rate` times the residual) — an estimate and an uncertainty produced by two different mechanisms, which only got 3/15 runs within band. Round 3 moves θ by Fisher scoring instead: the same residual divided by the same accumulated information the derived SE reads, so the step shrinks as evidence arrives and both numbers come from one calculation. `theta_update_rate` bought nothing this scheme still needs and is retired from `tuning.toml`. Each real-word calibration draw contributes `p * (1 - p)` of information, and only calibration draws move θ at all; a session's `PassageFinished` and `GlossTap` events never call `update_theta`. With `calibration_items_per_session` = 1 and `calibration_real_rate` = 70%, the run carries roughly 168 real-word observations, and the reported se now lands between 0.203 and 0.291. 5/15 runs now land within that band — up from 3/15 under the fixed-rate step — and mean absolute error fell from 1.0448 (rounds 1-2) to 0.3817, well below the no-update baseline (mean |true θ| over the sweep), so θ̂ is both closer to the truth and better calibrated to its own reported uncertainty than either earlier round. It is not 15/15. Per the brief: three rounds is enough for one brief, and the remaining gap is **unexplained, not diagnosed**. It is not the θ clamp: misses occur at every θ in the sweep — θ=-1.5 misses at the same rate as θ=-3.5 — and the three θ=3.5 runs, which carry the two largest errors in the table (1.5667, 1.0353), land at θ̂ = 1.9333, 3.1047, 2.4647, well inside the ±4.0 bound; a clamp that never engages cannot bias the estimates it never touches. Three candidates remain and this run cannot separate them: the response model's own sampling noise (Bernoulli draws are noisy at any θ, clamp or not); the horizon (real-word observations per run may not be enough for Fisher scoring's asymptotics to bite); and the Cramér-Rao bound the derived SE reads, which is a lower bound on variance across repeated draws at the same θ, not a prediction of how far any single single run lands — a wide standard error and a wide miss are not the same claim. Separating them needs a different measurement than this report makes: many more seeds at each θ, to see whether the per-θ miss rate above is stable or sampling noise in a 3-seed sample; or more sessions at fixed seeds, to see whether a longer horizon closes the gap, which would point at the horizon rather than the model.
+
+| seed | true θ | θ̂ | se | \|error\| | within se |
+|---|---|---|---|---|---|
+| 42 | -3.50 | -3.8287 | 0.278695 | 0.3287 | false |
+| 43 | -3.50 | -3.6842 | 0.291396 | 0.1842 | true |
+| 44 | -3.50 | -3.5207 | 0.279679 | 0.0207 | true |
+| 42 | -1.50 | -2.0263 | 0.207249 | 0.5263 | false |
+| 43 | -1.50 | -1.9770 | 0.243723 | 0.4770 | false |
+| 44 | -1.50 | -1.8226 | 0.236215 | 0.3226 | false |
+| 42 | 0.00 | -0.6124 | 0.202829 | 0.6124 | false |
+| 43 | 0.00 | -0.4473 | 0.222885 | 0.4473 | false |
+| 44 | 0.00 | -0.6028 | 0.223768 | 0.6028 | false |
+| 42 | 1.50 | 1.5563 | 0.224871 | 0.0563 | true |
+| 43 | 1.50 | 1.4075 | 0.216211 | 0.0925 | true |
+| 44 | 1.50 | 0.9561 | 0.220663 | 0.5439 | false |
+| 42 | 3.50 | 2.7567 | 0.255236 | 0.7433 | false |
+| 43 | 3.50 | 3.3855 | 0.213097 | 0.1145 | true |
+| 44 | 3.50 | 2.8472 | 0.238575 | 0.6528 | false |
+
+## Assertion 2 — modal encounters to AUTOMATIC
+
+4 words reached AUTOMATIC across the sample. Mode Some(38), mean 56.00, median 56.5, min Some(38), max Some(73).
+
+| encounters | words |
+|---|---|
+| 38 | 1 |
+| 55 | 1 |
+| 58 | 1 |
+>>>>>>> main
 | 73 | 1 |
 
 ## Assertion 3 — the due list stays bounded
@@ -60,6 +94,7 @@ Max due-list size across all runs: 60 (of a 240-word vocabulary; `backlog_overri
 
 ## Assertion 4 — the pseudoword correction
 
+<<<<<<< HEAD
 Overclaimer strictly below honest learner in 15/15 runs. Mean gap (honest − overclaimer): 0.3000.
 
 **Read the gap as a definition now, not a measurement.** The correction is `pseudoword_penalty × over-claim rate`, and this harness contrasts a 100% claimer with a 0% claimer, so the gap is exactly the penalty in every row and can only move if `tuning.toml` moves. Under the old per-observation rule it was an emergent number — 4.0077, however far a run of fixed steps happened to walk. What still has content is the direction, which is what this assertion claims; the half-claimer property BRIEF-010 asks for is covered by `ability`'s own monotonicity test across claim rates 0..100, not by this table. Sweeping an intermediate claim rate here would give the table back a measurement of its own, and is not done.
@@ -89,6 +124,35 @@ Max due-list size with `sourced_preference` = 2.4 and the affinity table active:
 | seed | composed sessions | sourced sessions | idle sessions |
 |---|---|---|---|
 | 42 | 238 | 1 | 1 |
+=======
+Overclaimer strictly below honest learner in 15/15 runs. Mean gap (honest − overclaimer): 4.0077.
+
+| seed | true θ | overclaimer θ̂ | honest θ̂ | gap |
+|---|---|---|---|---|
+| 42 | -3.50 | -3.9527 | -3.0584 | 0.8943 |
+| 43 | -3.50 | -3.9611 | -3.1522 | 0.8090 |
+| 44 | -3.50 | -3.9144 | -3.3151 | 0.5993 |
+| 42 | -1.50 | -3.9533 | -1.1604 | 2.7928 |
+| 43 | -1.50 | -3.8892 | -1.3460 | 2.5432 |
+| 44 | -1.50 | -3.9203 | -1.4364 | 2.4839 |
+| 42 | 0.00 | -3.9533 | 0.0102 | 3.9635 |
+| 43 | 0.00 | -3.8252 | 0.4013 | 4.2265 |
+| 44 | 0.00 | -3.9261 | 0.3471 | 4.2732 |
+| 42 | 1.50 | -3.8808 | 1.4102 | 5.2911 |
+| 43 | 1.50 | -3.7029 | 1.6406 | 5.3435 |
+| 44 | 1.50 | -3.9271 | 1.9762 | 5.9032 |
+| 42 | 3.50 | -3.8024 | 3.1823 | 6.9847 |
+| 43 | 3.50 | -3.6808 | 3.4314 | 7.1122 |
+| 44 | 3.50 | -3.8212 | 3.0733 | 6.8945 |
+
+## Assertion 5 — the bounded due list, with the sourced preference active
+
+Max due-list size with `sourced_preference` = 2.4 and the affinity table active: 60 (of a 240-word vocabulary). Bounded: true. Sourced-pool sessions: 3, composed-pool sessions: 714 — the sourced preference was genuinely exercised.
+
+| seed | composed sessions | sourced sessions | idle sessions |
+|---|---|---|---|
+| 42 | 236 | 3 | 1 |
+>>>>>>> main
 | 43 | 239 | 0 | 1 |
 | 44 | 239 | 0 | 1 |
 

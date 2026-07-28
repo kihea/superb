@@ -396,6 +396,7 @@ impl FullReport {
              band — up from 3/{total} under the fixed-rate step — and mean absolute error fell \
              from 1.0448 (rounds 1-2) to {mean_abs_error:.4}, well below the no-update baseline \
              (mean |true θ| over the sweep), so θ̂ is both closer to the truth and better \
+<<<<<<< HEAD
              calibrated to its own reported uncertainty than either earlier round.\n\n\
              **Round 4, 2026-07-27 — the gap this paragraph used to call \
              \"unexplained, not diagnosed\" is now diagnosed, and it was not any of the three \
@@ -431,6 +432,25 @@ impl FullReport {
              divergence between an implementation and the brief that governs it is a defect \
              until measured otherwise, and it does not get to be a design question without an \
              owner and a date.\n\n",
+=======
+             calibrated to its own reported uncertainty than either earlier round. It is not \
+             15/{total}. Per the brief: three rounds is enough for one brief, and the remaining \
+             gap is **unexplained, not diagnosed**. It is not the θ clamp: misses occur at every \
+             θ in the sweep — θ=-1.5 misses at the same rate as θ=-3.5 — and the three θ=3.5 \
+             runs, which carry the two largest errors in the table (1.5667, 1.0353), land at \
+             θ̂ = 1.9333, 3.1047, 2.4647, well inside the ±4.0 bound; a clamp that never engages \
+             cannot bias the estimates it never touches. Three candidates remain and this run \
+             cannot separate them: the response model's own sampling noise (Bernoulli draws are \
+             noisy at any θ, clamp or not); the horizon (real-word \
+             observations per run may not be enough for Fisher scoring's asymptotics to bite); \
+             and the Cramér-Rao bound the derived SE reads, which is a lower bound on variance \
+             across repeated draws at the same θ, not a prediction of how far any single \
+             single run lands — a wide standard error and a wide miss are not the same claim. \
+             Separating them needs a different measurement than this report makes: many more \
+             seeds at each θ, to see whether the per-θ miss rate above is stable or sampling \
+             noise in a 3-seed sample; or more sessions at fixed seeds, to see whether a longer \
+             horizon closes the gap, which would point at the horizon rather than the model.\n\n",
+>>>>>>> main
             total = self.assertion1.runs.len(),
             calibration_items_per_session = self.config.calibration_items_per_session,
             calibration_real_rate = self.config.calibration_real_rate * 100.0,
@@ -513,6 +533,7 @@ impl FullReport {
         out.push_str("## Assertion 4 — the pseudoword correction\n\n");
         out.push_str(&format!(
             "Overclaimer strictly below honest learner in {}/{} runs. Mean gap (honest − \
+<<<<<<< HEAD
              overclaimer): {:.4}.\n\n\
              **Read the gap as a definition now, not a measurement.** The correction is \
              `pseudoword_penalty × over-claim rate`, and this harness contrasts a 100% claimer \
@@ -524,6 +545,9 @@ impl FullReport {
              monotonicity test across claim rates 0..100, not by this table. Sweeping an \
              intermediate claim rate here would give the table back a measurement of its own, \
              and is not done.\n\n",
+=======
+             overclaimer): {:.4}.\n\n",
+>>>>>>> main
             self.assertion4
                 .runs
                 .iter()

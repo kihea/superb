@@ -60,6 +60,7 @@
 //! against a future reader; if one arrives, its definition comes from that
 //! reader, not from this brief's guess.
 //!
+<<<<<<< HEAD
 //! **The probe path, wired.** [`maybe_probe_eligible`] constructs
 //! [`Effect::ProbeEligible`] the moment a word crosses `Learning ->
 //! Consolidating` ([`Transition::Consolidated`]) — the instant the
@@ -78,6 +79,12 @@
 //!
 //! **What this module still deliberately does not decide.** Nothing here
 //! updates `LearnerState::topic_affinities` from a `PassageAbandoned`:
+=======
+//! **What this module still deliberately does not decide.** Nothing here
+//! ever constructs [`Effect::ProbeEligible`]: no function this crate has
+//! built decides probe eligibility. Nothing here updates
+//! `LearnerState::topic_affinities` from a `PassageAbandoned`:
+>>>>>>> main
 //! engine-contract §3 promises one, but no event payload names which topic a
 //! passage belongs to, or by how much — ratified as a known gap by this
 //! brief's round 2, not debt.
@@ -191,9 +198,15 @@ pub enum Frame {
 /// `ContextFrameLogged` — the names and payloads are a public contract, not
 /// a naming preference.
 ///
+<<<<<<< HEAD
 /// Every variant is constructed somewhere in this crate — see this module's
 /// own doc comment for [`Effect::ProbeEligible`]'s own construction site
 /// ([`maybe_probe_eligible`]), the last one to be wired.
+=======
+/// Every variant but one is constructed in this brief; [`Effect::ProbeEligible`]
+/// is declared for the contract's sake and is never constructed here — see
+/// this module's own doc comment and the brief's `UNRESOLVED`.
+>>>>>>> main
 #[derive(Debug, Clone, PartialEq, Serialize)]
 pub enum Effect {
     /// From the state machine (`crate::state::WordState::apply`): a word
@@ -222,8 +235,12 @@ pub enum Effect {
         /// θ's standard error after this observation.
         se: f64,
     },
+<<<<<<< HEAD
     /// Constructed by [`maybe_probe_eligible`] the moment a word crosses
     /// `Learning -> Consolidating` — see this module's own doc comment.
+=======
+    /// Never constructed in this brief — see this type's own doc comment.
+>>>>>>> main
     ProbeEligible {
         /// The word that would be eligible.
         word: String,
@@ -298,7 +315,11 @@ pub fn plan(learner: &LearnerState, request: &Request, now: Timestamp, tuning: &
         },
         Request::ProcessEvent(_) => Needs::Nothing,
         Request::NextPassage => {
+<<<<<<< HEAD
             let (band_low, band_high) = ability::band(learner.theta(tuning), tuning);
+=======
+            let (band_low, band_high) = ability::band(learner.theta(), tuning);
+>>>>>>> main
             Needs::PassageCandidates {
                 due_words: scheduler::due_words(learner, now),
                 band_low,
@@ -650,6 +671,7 @@ fn advance_progression(
             _ => return,
         };
         apply_transition(learner, word, transition, effects);
+<<<<<<< HEAD
         if transition == Transition::Consolidated {
             maybe_probe_eligible(word, tuning, effects);
         }
@@ -685,6 +707,8 @@ fn maybe_probe_eligible(word: &str, tuning: &Tuning, effects: &mut Vec<Effect>) 
         effects.push(Effect::ProbeEligible {
             word: word.to_string(),
         });
+=======
+>>>>>>> main
     }
 }
 
@@ -741,6 +765,7 @@ fn decide_deck_swipe(
         Frame::Nothing | Frame::Content(_) | Frame::Topics { .. } => 0.0,
     };
 
+<<<<<<< HEAD
     // A pseudoword's evidence is recorded before the estimate is read back,
     // so the effect this swipe reports already reflects the swipe that
     // caused it. It is recorded whether or not the learner claimed it: the
@@ -757,6 +782,10 @@ fn decide_deck_swipe(
     // `LearnerState::theta`'s own doc comment.
     let update: ThetaUpdate = ability::update_theta(
         learner.theta_raw(),
+=======
+    let update: ThetaUpdate = ability::update_theta(
+        learner.theta(),
+>>>>>>> main
         learner.theta_information(),
         difficulty,
         knew,
@@ -770,6 +799,7 @@ fn decide_deck_swipe(
              set_theta_and_information accepts",
         );
 
+<<<<<<< HEAD
     // Derived from the learner after writing, not carried out of
     // `update_theta` — that function is handed one observation and cannot
     // see the counters the correction is computed from, so it no longer
@@ -777,6 +807,11 @@ fn decide_deck_swipe(
     effects.push(Effect::ThetaUpdated {
         theta: learner.theta(ctx.tuning),
         se: learner.theta_se(),
+=======
+    effects.push(Effect::ThetaUpdated {
+        theta: update.effect.theta,
+        se: update.effect.se,
+>>>>>>> main
     });
 }
 
@@ -1051,6 +1086,7 @@ mod progression_tests {
         );
         assert_eq!(learner.words["w"].state, WordState::Learning);
     }
+<<<<<<< HEAD
 
     /// The `Learning -> Consolidating` edge is exactly where
     /// [`maybe_probe_eligible`] fires — the moment worth checking with active
@@ -1169,4 +1205,6 @@ mod progression_tests {
             3
         );
     }
+=======
+>>>>>>> main
 }

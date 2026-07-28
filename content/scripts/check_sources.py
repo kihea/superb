@@ -3,6 +3,7 @@
 
 - Excerpt is 80-200 words.
 - Every listed word actually appears in the text (case-insensitive, allowing
+<<<<<<< HEAD
   for a common inflection) — `words[].word` cannot name a word the excerpt
   never uses. Whether the context is genuinely *informative* is an editorial
   judgment made at authoring time, which this cannot check; presence is the
@@ -12,6 +13,12 @@
   enforces this structurally; this script also checks it so a malformed
   entry that happens to validate against a stale cached schema still fails
   loudly here.
+=======
+  for a common inflection) — `words` cannot name a word the excerpt never
+  uses. Whether the context is genuinely *informative* is an editorial
+  judgment made at authoring time, which this cannot check; presence is the
+  floor, not the bar.
+>>>>>>> main
 - `provenance.source` names one of the three allow-listed origins (ADR-018
   Decision 2: Standard Ebooks, then Project Gutenberg, then Wikisource cited
   by revision permalink) — never an open-web source, which cannot be
@@ -34,7 +41,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES_DIR = ROOT / "sources"
 
 ALLOWED_SOURCE_PREFIXES = ("Standard Ebooks", "Project Gutenberg", "Wikisource")
+<<<<<<< HEAD
 SIGNALS = frozenset(["apposition", "definition-marker", "gloss-overlap", "hand-picked"])
+=======
+>>>>>>> main
 
 
 def word_appears(word: str, text: str) -> bool:
@@ -57,6 +67,7 @@ def check_source(path: pathlib.Path) -> list[str]:
     if not (80 <= word_count <= 200):
         errors.append(f"{sid}: excerpt is {word_count} words, outside 80-200")
 
+<<<<<<< HEAD
     for entry in words:
         w = entry["word"]
         if not word_appears(w, text):
@@ -67,6 +78,11 @@ def check_source(path: pathlib.Path) -> list[str]:
         bad = [s for s in signals if s not in SIGNALS]
         if bad:
             errors.append(f"{sid}: word {w!r} has unrecognised signal(s) {bad!r}")
+=======
+    for w in words:
+        if not word_appears(w, text):
+            errors.append(f"{sid}: word {w!r} does not appear in the excerpt text")
+>>>>>>> main
 
     source_name = doc["provenance"]["source"]
     if not source_name.startswith(ALLOWED_SOURCE_PREFIXES):
@@ -79,6 +95,7 @@ def check_source(path: pathlib.Path) -> list[str]:
 
 
 def main() -> int:
+<<<<<<< HEAD
     files = sorted(p for p in SOURCES_DIR.glob("*.json") if not p.stem.startswith("_"))
     errors: list[str] = []
     # Track T3b (workspace/tracks/T3-corpus-scale.md): the 60 hand-authored
@@ -87,6 +104,12 @@ def main() -> int:
     # seed count.
     if len(files) < 1500:
         errors.append(f"expected at least 1500 sourced excerpts, found {len(files)}")
+=======
+    files = sorted(SOURCES_DIR.glob("*.json"))
+    errors: list[str] = []
+    if len(files) < 60:
+        errors.append(f"expected at least 60 sourced excerpts, found {len(files)}")
+>>>>>>> main
 
     ids = set()
     for path in files:

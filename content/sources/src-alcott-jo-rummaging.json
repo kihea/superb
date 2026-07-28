@@ -1,6 +1,7 @@
 {
   "id": "src-alcott-jo-rummaging",
   "pool": "sourced",
+<<<<<<< HEAD
   "topic": "household",
   "text": "Jo, rummaging her sister's desk for stamps, found a bit of paper scribbled over with the words, “Mrs. John Brooke”, whereat she groaned tragically and cast it into the fire, feeling that Laurie's prank had hastened the evil day for her. Like sunshine after a storm were the peaceful weeks which followed. The invalids improved rapidly, and Mr. March began to talk of returning early in the new year. Beth was soon able to lie on the study sofa all day, amusing herself with the well-beloved cats at first, and in time with doll's sewing, which had fallen sadly behind-hand. Her once active limbs were so stiff and feeble that Jo took her for a daily airing about the house in her strong arms.",
   "words": [
@@ -10,6 +11,11 @@
         "hand-picked"
       ]
     }
+=======
+  "text": "Jo, rummaging her sister's desk for stamps, found a bit of paper scribbled over with the words, “Mrs. John Brooke”, whereat she groaned tragically and cast it into the fire, feeling that Laurie's prank had hastened the evil day for her. Like sunshine after a storm were the peaceful weeks which followed. The invalids improved rapidly, and Mr. March began to talk of returning early in the new year. Beth was soon able to lie on the study sofa all day, amusing herself with the well-beloved cats at first, and in time with doll's sewing, which had fallen sadly behind-hand. Her once active limbs were so stiff and feeble that Jo took her for a daily airing about the house in her strong arms.",
+  "words": [
+    "invalids"
+>>>>>>> main
   ],
   "provenance": {
     "work": "Little Women",
