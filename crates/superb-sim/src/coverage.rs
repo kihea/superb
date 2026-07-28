@@ -134,8 +134,40 @@ fn rate(count: usize, total: usize) -> f64 {
 /// itself does not compute, because `report.rs`'s 3-seed sample never needed
 /// a second band — added here rather than there, since `report.rs`'s own
 /// output is a pinned artifact this module does not touch.
+///
+/// **One thread per true θ, and why the result is identical to one thread for
+/// all of them.** `simulation::run` is a function of `(seed, true_theta,
+/// config)` and nothing else; `Assertion1::run` walks θ on the outside and
+/// seeds on the inside; the per-θ results are joined back in `theta_sweep`'s
+/// own order. So the merged `runs` vector is the same sequence the sequential
+/// call builds, in the same order, which matters because `mean_abs_error`
+/// sums it — same order, same float, same bytes in `COVERAGE.md`.
+///
+/// The threads are here and not in `report.rs` because `REPORT.md`'s five
+/// assertions are a pinned artifact this module does not touch. They are here
+/// at all because this sweep is the most expensive thing in the workspace and
+/// both gate tests now share one run of it: when the second test stopped
+/// running its own copy, the two stopped overlapping on CI's cores, and the
+/// gate's wall time went *up*, from 2930s to 4034s. Splitting the sweep itself
+/// gets the overlap back without paying for a second sweep.
 pub fn measure(seeds: &[u64], theta_sweep: &[f64], config: &SimConfig) -> Coverage {
-    let assertion1 = Assertion1::run(seeds, theta_sweep, config);
+    let assertion1 = std::thread::scope(|scope| {
+        let per_theta: Vec<_> = theta_sweep
+            .iter()
+            .map(|&true_theta| scope.spawn(move || Assertion1::run(seeds, &[true_theta], config)))
+            .collect();
+        Assertion1 {
+            runs: per_theta
+                .into_iter()
+                .flat_map(|thread| {
+                    thread
+                        .join()
+                        .unwrap_or_else(|_| panic!("a coverage sweep thread panicked"))
+                        .runs
+                })
+                .collect(),
+        }
+    });
     let within_2se = assertion1
         .runs
         .iter()
