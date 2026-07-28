@@ -1,0 +1,15 @@
+{
+  "id": "src-broken-licence",
+  "pool": "sourced",
+  "text": "This fixture's provenance record is complete in every field, which is exactly the point of it: the sibling fixture proves the gate notices a licence that is missing, and this one proves the gate reads the licence that is present. The value below is the licence a post-merge review of PR #24 planted on a real excerpt to show that nothing screened it, and the whole chain returned exit zero three times over. Law 8 admits no non-commercial and no all-rights-reserved data into a build at all, so a record stating this licence must stop the build here rather than be caught by a human reading a diff later, which is the kind of catching that works right up until the day nobody looks.",
+  "words": ["provenance"],
+  "provenance": {
+    "work": "A Deliberately Forbidden Licence",
+    "author": "Nobody",
+    "year": 2026,
+    "source": "Project Gutenberg #0",
+    "url": "https://www.gutenberg.org/ebooks/0",
+    "licence": "CC BY-NC-ND 4.0 (non-commercial, no derivatives)",
+    "retrieved": "2026-07-25"
+  }
+}
