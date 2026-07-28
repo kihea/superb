@@ -225,7 +225,8 @@ above, not MIT — content and code are separate throughout this project.
 
 ## Proposing new features
 
-You can propose a feature using issues, tagged with the feature label. You can also submit passages
+You can propose a feature by opening an issue and picking the feature request
+form, which tags it for you. You can also submit passages
 in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context
 are approved and added to the engine sourcing. The submission of passages is intended to highlight
 intentional, high level, or sophisticated human-written literature.

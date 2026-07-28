@@ -9,9 +9,11 @@ body:
       options:
         - label: I searched the existing issues and this one isn't already open.
           required: true
-        - label: I reproduced it on the latest version of the `dev` branch.
+        - label: I'm on the current version of the app or the site, and it still happens.
           required: true
-        - label: If this is about a passage or a quoted excerpt, I read CONTRIBUTING.md first.
+        - label: If I'm reporting against the code rather than a released build, I checked it on the latest `dev`.
+          required: false
+        - label: If this is about a passage or a quoted excerpt, I read [CONTRIBUTING.md](https://github.com/kihea/superb/blob/dev/CONTRIBUTING.md) first.
           required: false
 
   - type: dropdown

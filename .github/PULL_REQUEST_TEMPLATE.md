@@ -5,7 +5,7 @@
 ## Fix
 
 <!-- What was wrong, and what you changed to fix it. If this isn't a fix, say
-     what it adds instead and delete the rest of this line. -->
+     what it adds instead. -->
 
 ## Before / After
 
@@ -25,8 +25,8 @@
        cargo clippy --all-targets --all-features --locked -- -D warnings
 
      If you added or changed a passage or a sourced excerpt, confirm it meets
-     what CONTRIBUTING.md asks for — a complete citation for anything quoted
-     from an existing work. Don't repeat those rules here; just say you
-     checked.
+     what [CONTRIBUTING.md](https://github.com/kihea/superb/blob/dev/CONTRIBUTING.md)
+     asks for — a complete citation for anything quoted from an existing work.
+     Don't repeat those rules here; just say you checked.
 
      Pull requests target `dev`, and commits are signed off with `git commit -s`. -->

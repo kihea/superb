@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest something Superb should do that it doesn't do yet.
+labels: ["feature"]
+body:
+  - type: checkboxes
+    id: before-submitting
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and nobody has asked for this yet.
+          required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What you want
+      description: Describe it as you'd describe it to someone using the app.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem it solves for someone reading
+      description: What's harder than it should be right now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: prior-art
+    attributes:
+      label: Anywhere you've seen this done well
+      description: Optional. Another app, a book, a screenshot — anything that shows what you mean.
+    validations:
+      required: false
