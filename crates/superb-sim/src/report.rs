@@ -416,10 +416,21 @@ impl FullReport {
              **What made it hard to see, recorded because it generalises:** this report and \
              `COVERAGE.md` both reported *absolute* error, which cannot tell an estimator \
              scattering around the truth from one being dragged to one side of it. \
-             `COVERAGE.md` now reports mean signed error beside it. The per-run figures this \
-             paragraph used to quote by hand were removed at the same time — hand-copied \
-             numbers inside a generated report are the same drift this crate's own gate \
-             exists to prevent, and they had already gone stale.\n\n",
+             `COVERAGE.md` now reports mean signed error beside it, per true θ as well as in \
+             aggregate. The per-run figures this paragraph used to quote by hand were removed \
+             at the same time — hand-copied numbers inside a generated report are the same \
+             drift this crate's own gate exists to prevent, and they had already gone \
+             stale.\n\n\
+             **The missing column is not why it survived, though, and saying so would be too \
+             kind to us.** The mechanism was written down the day before the fix, in \
+             `COVERAGE.md` itself and now in `PSEUDOWORD_DIVERGENCE.md` beside it: the penalty \
+             \"never shrinks — it is the same fixed `-0.3` on the thousandth over-claim as on \
+             the first,\" printed inches below a 13.0% coverage figure, and then filed as \"a \
+             design question, not this addendum's to answer\" with \"this does not reopen \
+             anything merged.\" Nobody failed to see it. What was missing was a rule: a named \
+             divergence between an implementation and the brief that governs it is a defect \
+             until measured otherwise, and it does not get to be a design question without an \
+             owner and a date.\n\n",
             total = self.assertion1.runs.len(),
             calibration_items_per_session = self.config.calibration_items_per_session,
             calibration_real_rate = self.config.calibration_real_rate * 100.0,
@@ -502,7 +513,17 @@ impl FullReport {
         out.push_str("## Assertion 4 — the pseudoword correction\n\n");
         out.push_str(&format!(
             "Overclaimer strictly below honest learner in {}/{} runs. Mean gap (honest − \
-             overclaimer): {:.4}.\n\n",
+             overclaimer): {:.4}.\n\n\
+             **Read the gap as a definition now, not a measurement.** The correction is \
+             `pseudoword_penalty × over-claim rate`, and this harness contrasts a 100% claimer \
+             with a 0% claimer, so the gap is exactly the penalty in every row and can only \
+             move if `tuning.toml` moves. Under the old per-observation rule it was an \
+             emergent number — 4.0077, however far a run of fixed steps happened to walk. What \
+             still has content is the direction, which is what this assertion claims; the \
+             half-claimer property BRIEF-010 asks for is covered by `ability`'s own \
+             monotonicity test across claim rates 0..100, not by this table. Sweeping an \
+             intermediate claim rate here would give the table back a measurement of its own, \
+             and is not done.\n\n",
             self.assertion4
                 .runs
                 .iter()

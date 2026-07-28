@@ -2,7 +2,10 @@ name: core
 
 on:
   push:
-    branches: [main]
+    # dev is here because a merge commit landing on it used to run no workflow
+    # at all: dev sat red for a day with the failing test merged and nothing
+    # reporting it.
+    branches: [main, dev]
     paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]
   pull_request:
     paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]

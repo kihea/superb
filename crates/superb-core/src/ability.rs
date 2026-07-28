@@ -65,34 +65,12 @@
 //! sequence here would tie a later brief's simulator to today's response
 //! model instead of the other way around.
 
-use serde::Serialize;
-
 use crate::tuning::Tuning;
-
-/// The engine's ability effect (engine-contract §3): `ThetaUpdated { theta,
-/// se }`, matched field-for-field against the contract rather than
-/// approximated.
-///
-/// Boundary tier in `wire-roster.toml`, not durable: this type is never
-/// reachable from [`crate::LearnerState`]. `LearnerState.theta` is what this
-/// effect's `theta` describes the host having just written there, and `se`
-/// describes what `LearnerState::theta_se` now reads back — derived from the
-/// `theta_information` the host actually wrote, not a second stored field;
-/// the effect itself is only ever the host's cue to persist and re-render
-/// (engine-contract §3 — "effects are a description of what changed, not
-/// commands").
-#[derive(Debug, Clone, Copy, PartialEq, Serialize)]
-pub struct ThetaUpdated {
-    /// The learner's ability estimate after this observation.
-    pub theta: f64,
-    /// θ's standard error after this observation.
-    pub se: f64,
-}
 
 /// What [`update_theta`] decided: the *raw* estimate and the evidence
 /// behind it, and nothing else.
 ///
-/// **It deliberately no longer carries the [`ThetaUpdated`] effect.** The
+/// **It deliberately no longer carries the reported θ.** The
 /// reported ability estimate is the raw θ below minus the over-claim
 /// correction ([`LearnerState::theta`]), and that correction is computed
 /// from the pseudoword counters this function cannot see — it is handed one
@@ -517,7 +495,10 @@ mod tests {
         let tuning = Tuning::default();
 
         assert_eq!(overclaim_correction(0, 0, &tuning), 0.0);
-        assert_eq!(overclaim_correction(2, 2, &tuning), tuning.pseudoword_penalty);
+        assert_eq!(
+            overclaim_correction(2, 2, &tuning),
+            tuning.pseudoword_penalty
+        );
         assert_eq!(
             overclaim_correction(10_000, 10_000, &tuning),
             tuning.pseudoword_penalty
@@ -720,17 +701,23 @@ mod tests {
 
     /// `ThetaUpdated` matches engine-contract §3's `ThetaUpdated { theta,
     /// se }` literally: exactly these two keys, nothing else.
+    ///
+    /// Asserted against `engine::Effect::ThetaUpdated`, which is the payload
+    /// that actually crosses the boundary. `ability` used to own a separate
+    /// `ThetaUpdated` struct that nothing constructed outside this test — so
+    /// the shape being checked was not the shape being shipped. The struct is
+    /// gone; this reads the live one.
     #[test]
     fn theta_updated_serializes_as_exactly_theta_and_se() {
-        let effect = ThetaUpdated {
+        let effect = crate::engine::Effect::ThetaUpdated {
             theta: 0.4,
             se: 0.8,
         };
 
         let value = serde_json::to_value(effect).expect("ThetaUpdated serializes");
-        let object = value
+        let object = value["ThetaUpdated"]
             .as_object()
-            .expect("ThetaUpdated serializes as an object");
+            .expect("ThetaUpdated's payload serializes as an object");
 
         assert_eq!(
             object.keys().collect::<std::collections::BTreeSet<_>>(),

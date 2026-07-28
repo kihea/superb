@@ -334,6 +334,30 @@ interface AuraSnapshot {
   afterOpacity: string;
   beforeFilter: string;
   afterFilter: string;
+  /** Every running animation whose target is the aura, one of its
+   *  pseudo-elements, one of its ancestors, or anything inside it --
+   *  including ones no CSS declares (Element.animate, a JS-driven
+   *  transition), which is why this is read from the animation timeline
+   *  rather than from computed style. */
+  running: string[];
+  /** The whole resolved appearance and position of the aura's subtree and
+   *  ancestor chain, one entry per element per property. Two of these taken a
+   *  moment apart differing at all is motion, whatever wrote it. Kept as a
+   *  map rather than one long string so a failure can say which element and
+   *  which property moved instead of printing every property of every
+   *  ancestor at whoever has to read it. */
+  appearance: Record<string, string>;
+}
+
+/** The entries present in one snapshot and not the other, or present in both
+ *  with different values -- the whole difference between two moments, in the
+ *  form a reader wants it. */
+function drift(from: AuraSnapshot, to: AuraSnapshot): string[] {
+  const keys = new Set([...Object.keys(from.appearance), ...Object.keys(to.appearance)]);
+  return [...keys]
+    .filter((key) => from.appearance[key] !== to.appearance[key])
+    .sort()
+    .map((key) => `${key}: ${from.appearance[key] ?? "(absent)"} -> ${to.appearance[key] ?? "(absent)"}`);
 }
 
 /** `before`/`after` name the aura's own `::before`/`::after` pseudo-elements
@@ -341,13 +365,75 @@ interface AuraSnapshot {
  *  and `filter` are the two properties that CSS actually varies on this
  *  element if it is ever made to move; `animationName` is read alongside
  *  them rather than instead, because it catches a different failure mode
- *  (see the two assertions this feeds, below). */
+ *  (see the assertions this feeds, below).
+ *
+ *  `appearance` is the general claim the named properties above are only
+ *  fast, specific instances of: the full computed style of the aura, both
+ *  its pseudo-elements and every ancestor up to <html>, plus each of their
+ *  bounding rectangles and scroll offsets. Naming no property means no
+ *  mutation can be off the list, and walking the ancestor chain means no
+ *  element between the aura and the document root is off the map either --
+ *  a transform on a parent moves the aura on screen exactly as one on the
+ *  aura itself does. */
 async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
   return page.evaluate(() => {
     const el = document.querySelector(".reading-screen-aura");
     if (!el) throw new Error("no .reading-screen-aura in the DOM");
     const before = getComputedStyle(el, "::before");
     const after = getComputedStyle(el, "::after");
+
+    const chain: Element[] = [];
+    for (let node: Element | null = el; node; node = node.parentElement) chain.push(node);
+
+    const appearance: Record<string, string> = {
+      "window#scroll": `${window.scrollX},${window.scrollY}`,
+    };
+    const recordStyle = (label: string, target: Element, pseudo?: string): void => {
+      const cs = getComputedStyle(target, pseudo);
+      for (let i = 0; i < cs.length; i += 1) appearance[`${label} ${cs[i]}`] = cs.getPropertyValue(cs[i]);
+    };
+    const recordBox = (label: string, target: Element): void => {
+      const r = target.getBoundingClientRect();
+      appearance[`${label} box`] = `${r.x},${r.y},${r.width},${r.height}`;
+      appearance[`${label} scroll`] = `${target.scrollLeft},${target.scrollTop}`;
+    };
+
+    // Every ancestor is read three times over: the element, and both of its
+    // pseudo-elements. Reading only the element was a real hole -- an
+    // ancestor's ::after can be given content, a position and a moving
+    // transform without anything about the ancestor's own computed style or
+    // border box changing at all, and a verifier drove exactly that with a
+    // rAF loop rewriting the CSSOM rule for `.reading-screen::after`.
+    chain.forEach((node, depth) => {
+      const label = depth === 0 ? "aura" : `ancestor${depth}:${node.tagName}`;
+      recordBox(label, node);
+      recordStyle(label, node);
+      recordStyle(`${label}::before`, node, "::before");
+      recordStyle(`${label}::after`, node, "::after");
+    });
+    // Anything drawn inside the aura, in case the leak is an inserted child
+    // rather than a mutation of what is already there.
+    appearance["aura#children"] = String(el.querySelectorAll("*").length);
+    Array.from(el.querySelectorAll("*")).forEach((child, i) => {
+      recordBox(`child${i}:${child.tagName}`, child);
+      recordStyle(`child${i}:${child.tagName}`, child);
+    });
+
+    const inScope = (target: Element | null | undefined): boolean =>
+      !!target && (target.contains(el) || el.contains(target));
+    const running = document
+      .getAnimations()
+      .filter((animation) => animation.playState === "running")
+      .filter((animation) => {
+        const effect = animation.effect as KeyframeEffect | null;
+        return inScope(effect?.target);
+      })
+      .map((animation) => {
+        const effect = animation.effect as KeyframeEffect | null;
+        const target = effect?.target;
+        return `${animation.constructor.name}:${(animation as { animationName?: string; transitionProperty?: string }).animationName ?? (animation as { transitionProperty?: string }).transitionProperty ?? "anonymous"} on ${target?.tagName}.${target?.className}${effect?.pseudoElement ?? ""}`;
+      });
+
     return {
       beforeAnimation: before.animationName,
       afterAnimation: after.animationName,
@@ -355,7 +441,130 @@ async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
       afterOpacity: after.opacity,
       beforeFilter: before.filter,
       afterFilter: after.filter,
+      running,
+      appearance,
     };
+  });
+}
+
+/** The patch of viewport the aura occupies, measured once. Measured once on
+ *  purpose: a region recomputed from the aura's own box at each sample would
+ *  travel with a moving aura and photograph it in its own frame, where it
+ *  looks perfectly still -- the picture equivalent of the bug this whole test
+ *  exists to close. The region is a fixed patch of screen; the question is
+ *  whether what is painted in it changes. */
+async function auraRegion(page: Page): Promise<{ x: number; y: number; width: number; height: number }> {
+  const box = await page.locator(".reading-screen-aura").boundingBox();
+  if (!box) throw new Error("the aura has no box to photograph");
+  const viewport = page.viewportSize();
+  if (!viewport) throw new Error("no viewport");
+  const x = Math.max(0, box.x);
+  const y = Math.max(0, box.y);
+  return {
+    x,
+    y,
+    width: Math.min(box.width, viewport.width - x),
+    height: Math.min(box.height, viewport.height - y),
+  };
+}
+
+/** A picture of that region -- all of it, nothing masked.
+ *
+ *  An earlier version of this masked out `.reading-page` and
+ *  `.passage-continue` on the theory that the card is not what the seam is
+ *  about and that card-local rendering might flake. Both halves were wrong.
+ *  A mask is a painted-over rectangle, so it is a blind spot with a promise
+ *  attached, and those two selectors blanked 62.9% of the photograph --
+ *  `.passage-continue` is a full-viewport-width band even though the control
+ *  inside it is a small centred pill, so masking it blanked a wide strip of
+ *  real periphery. A verifier walked three separate drifting overlays into
+ *  those rectangles, in plain view of a reader, and the photographs came back
+ *  identical. The flake the mask was insuring against was never measured and
+ *  does not exist: unmasked photographs are byte-identical run after run,
+ *  because a settled reading screen genuinely does not move. If some future
+ *  card-local rendering ever does flake here, mask the measured tight box of
+ *  the thing that flakes and say which run proved it -- never a selector
+ *  whose box you have not looked at.
+ *
+ *  `animations: "allow"` is deliberate and load-bearing: Playwright's default
+ *  for snapshot comparison is to freeze animations, which is exactly the
+ *  evidence being looked for here. Two of these differing by a single byte is
+ *  a pixel that changed with nothing happening on screen -- including motion
+ *  no style tree can see, like a CSSOM-driven ancestor pseudo-element or an
+ *  overlay drifting in from somewhere else in the document entirely. */
+async function auraPixels(
+  page: Page,
+  clip: { x: number; y: number; width: number; height: number },
+): Promise<Buffer> {
+  return page.screenshot({ clip, animations: "allow", caret: "hide" });
+}
+
+/** Sampling is discrete, and every discrete sampler has gaps between its
+ *  looks. These gaps are drawn fresh each run rather than being a constant an
+ *  attacker (or an unlucky animation period) could sit between: a 50ms blink
+ *  timed to fall in the space between fixed samples evades a fixed schedule
+ *  every run, and a random schedule some of the time -- and "some of the time"
+ *  is a test that eventually goes red, which is all a regression guard has to
+ *  do. The gaps are reported on failure so a red run is still reproducible.
+ *
+ *  Roughly 2.4s of watching in total, up from 1.2s. Longer is strictly better
+ *  here and the cost is seconds; see the honest bound recorded at the test
+ *  itself for what a *longer* delay than this window still buys an attacker. */
+function sampleGaps(): number[] {
+  return Array.from({ length: 11 }, () => 140 + Math.floor(Math.random() * 140));
+}
+
+/** Between those looks, this watches continuously.
+ *
+ *  Sampling and photographing both ask "is it different now than it was
+ *  then", which cannot see an event that begins and ends between two looks.
+ *  A MutationObserver is not a sampler -- it reports every DOM change as it
+ *  happens, so a 50ms blink 1.2s apart is caught by the same mechanism as a
+ *  continuous drift. It is scoped to the whole document on purpose: ADR-019's
+ *  seam is "material persists, events stop while a passage is on screen", and
+ *  the honest mechanisation of "events stop" is that nothing in the document
+ *  mutates at all. Anything that legitimately needs to mutate while a passage
+ *  sits untouched on screen is a change to that seam, and should have to come
+ *  and argue with this test.
+ *
+ *  What it cannot see: a change made through the CSSOM (rewriting a style
+ *  rule's properties mutates no node), which is why the layers that resolve
+ *  computed style and photograph pixels are not replaced by it. */
+async function watchDocument(page: Page): Promise<void> {
+  await page.evaluate(() => {
+    const seen: string[] = [];
+    const observer = new MutationObserver((records) => {
+      for (const record of records) {
+        const target = record.target as Element;
+        const name = `${target.nodeName}${target.className ? `.${String(target.className).split(" ")[0]}` : ""}`;
+        const what =
+          record.type === "attributes"
+            ? `attribute ${record.attributeName}`
+            : record.type === "characterData"
+              ? "text"
+              : `${record.addedNodes.length} added / ${record.removedNodes.length} removed`;
+        const entry = `${record.type} on ${name}: ${what}`;
+        if (!seen.includes(entry)) seen.push(entry);
+      }
+    });
+    observer.observe(document.documentElement, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      characterData: true,
+    });
+    (window as unknown as { __seam: { seen: string[]; observer: MutationObserver } }).__seam = { seen, observer };
+  });
+}
+
+/** Everything the observer saw, at most a handful of entries so a failure is
+ *  readable rather than a wall of identical records. */
+async function stopWatchingDocument(page: Page): Promise<string[]> {
+  return page.evaluate(() => {
+    const seam = (window as unknown as { __seam?: { seen: string[]; observer: MutationObserver } }).__seam;
+    if (!seam) throw new Error("the document was never being watched");
+    seam.observer.disconnect();
+    return seam.seen.slice(0, 8);
   });
 }
 
@@ -378,32 +587,152 @@ async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
 // CSS animation in the first place (a rAF loop writing inline styles
 // directly, which `animationName` can't see). Checked on both pseudo-
 // elements, not only `::before`.
-for (const scheme of ["dark", "light"] as const) {
-  for (const reducedMotion of [null, "reduce"] as const) {
-    test(`seam holds while reading: ${scheme}, reduced-motion=${reducedMotion ?? "no-preference"}`, async ({
-      page,
-    }) => {
-      await page.emulateMedia({ colorScheme: scheme, reducedMotion });
-      await page.goto("/");
-      // Same parallel-worker contention window as the first test in this
-      // file -- see its comment.
-      await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
-      // Let every legitimate crossing animation (the passage arriving, the
-      // gloss card's entrance) finish settling.
-      await page.waitForTimeout(1200);
+//
+// That fix was then attacked again and found narrow in the same shape: a
+// rAF loop writing an inline `transform` onto the aura's *parent* moved the
+// aura 8px in half a second and passed all four cases, because every check
+// above is scoped to a property and an element it names. Naming things is
+// what made it evadable. So the checks below are ordered from named and
+// specific to unnamed and general, and only the general ones decide:
+//
+//   1. the named properties, kept -- they fail fast and say plainly what
+//      broke when the cause is the ordinary one (a CSS animation);
+//   2. the animation timeline, which sees motion no stylesheet declares --
+//      Element.animate(), a scripted transition -- anywhere in the aura's
+//      subtree or ancestry;
+//   3. the whole resolved appearance and geometry of the aura, its children,
+//      and every ancestor up to <html>, each read together with both of its
+//      pseudo-elements, sampled twelve times at intervals drawn fresh each
+//      run;
+//   4. the pixels themselves, photographs of a fixed patch of viewport,
+//      nothing masked, compared byte for byte;
+//   5. a MutationObserver watching the whole document for the entire window,
+//      which is not a sampler at all and so has no gaps between looks.
+//
+// (3), (4) and (5) name no property and no element, which is the point: a
+// mutation cannot be off a list that does not exist. (4) does not even ask
+// how the pixels got there.
+//
+// WHAT THIS STILL DOES NOT CATCH, written down because a bound you have
+// measured is worth more than a guarantee you have assumed:
+//
+//   * Motion installed by script *after* the window closes. The audit watches
+//     for about two and a half seconds after the screen settles; a setTimeout
+//     that starts a drift fifteen seconds into a reading session is not seen
+//     by any layer here, and a verifier demonstrated exactly that. This is a
+//     property of watching a window at all, not of these particular checks --
+//     a longer window moves the threshold and never removes it. Note the
+//     asymmetry that makes it narrower than it sounds: a *declarative* delay
+//     (`animation-delay`, however long) is still caught, because layers 1 and
+//     2 read configuration rather than movement, and see a CSS animation
+//     during its delay phase. The gap is specifically script that has not run
+//     yet, which is also the case a reviewer reading a diff can see plainly.
+//   * Sub-gap transients that neither mutate the DOM nor persist between
+//     samples. A 50ms blink once per 1.3s was, against an earlier fixed
+//     schedule, missed in 10 of 12 case-runs. Layer (5) answers most of this
+//     class outright -- a blink driven by DOM or inline style is reported the
+//     instant it happens rather than sampled -- and the randomised gaps mean
+//     anything hiding from (5) has to dodge a different schedule every run.
+//     But (5) sees nodes, not paint: a verifier demonstrated a canvas
+//     transient that mutates no node and rewrites no rule (visibly blinking,
+//     evaded 8 of 12 runs), and shadow-DOM drift that only the photographs
+//     caught. So state the residue as what it is, which is wider than any one
+//     mechanism: if a change is brief enough to fall between two looks and
+//     leaves no trace in the DOM or in resolved style, only (4) and (5) can
+//     see it, and only probabilistically. Such a thing goes red eventually
+//     rather than immediately. That is accepted, and accepted out loud --
+//     a regression guard that reddens on the second or third run is still a
+//     regression guard; one that quietly never reddens is not.
+//
+// What the audit costs, for whoever next lengthens the window: 14.7-15.4s per
+// case against Playwright's 30s default. Roughly half of that is the two
+// settle waits, most of the rest is the sampling window itself. There is room
+// to grow, but not a lot -- past about 12s of extra watching, raise the
+// timeout in the same commit rather than discovering it in CI.
+//
+// The seam cases opt out of the suite's retry, deliberately. Everywhere else
+// in this file a retry papers over infrastructure variance under parallel
+// load, which is the right trade for a test asking "did the app do the thing"
+// -- but this test asks "did something move", and intermittent is what real
+// motion looks like when it is rare. A retried pass would convert exactly the
+// findings above into green.
+test.describe(() => {
+  test.describe.configure({ retries: 0 });
+  for (const scheme of ["dark", "light"] as const) {
+    for (const reducedMotion of [null, "reduce"] as const) {
+      test(`seam holds while reading: ${scheme}, reduced-motion=${reducedMotion ?? "no-preference"}`, async ({
+        page,
+      }) => {
+        await page.emulateMedia({ colorScheme: scheme, reducedMotion });
+        await page.goto("/");
+        // Same parallel-worker contention window as the first test in this
+        // file -- see its comment.
+        await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+        // Wait for the pull-up bar to reach its settled state before starting
+        // to watch, the same way clickKeepReading does and for the same
+        // reason. Its --visible flip is driven by an IntersectionObserver,
+        // and this file already documents that headless Chromium under
+        // parallel load can starve those callbacks for seconds. A fixed
+        // settle alone would let a late-but-entirely-correct flip land inside
+        // the watch window, where it is an attribute mutation on a settled
+        // screen and a changed photograph -- a hard red on correct code,
+        // since these cases do not retry. Waiting for the state rather than
+        // for a duration makes a slow flip delay the audit instead of failing
+        // it.
+        await expect(page.locator(".passage-continue")).toHaveClass(/passage-continue--visible/, {
+          timeout: 15_000,
+        });
+        // Then let every legitimate crossing animation (the passage arriving,
+        // the bar's own transition to visible) finish settling.
+        await page.waitForTimeout(1200);
 
-      await expect(page.locator(".reading-screen-aura")).toBeAttached();
+        await expect(page.locator(".reading-screen-aura")).toBeAttached();
 
-      const t0 = await auraSnapshot(page);
-      expect(t0.beforeAnimation).toBe("none");
-      expect(t0.afterAnimation).toBe("none");
+        // Starts before the first sample and runs to the last, so the gaps
+        // between samples are watched too, not merely bracketed.
+        await watchDocument(page);
 
-      await page.waitForTimeout(500);
-      const t1 = await auraSnapshot(page);
-      expect(t1.beforeOpacity).toBe(t0.beforeOpacity);
-      expect(t1.afterOpacity).toBe(t0.afterOpacity);
-      expect(t1.beforeFilter).toBe(t0.beforeFilter);
-      expect(t1.afterFilter).toBe(t0.afterFilter);
-    });
+        const t0 = await auraSnapshot(page);
+        const region = await auraRegion(page);
+        const pixels0 = await auraPixels(page, region);
+        expect(t0.beforeAnimation).toBe("none");
+        expect(t0.afterAnimation).toBe("none");
+        expect(t0.running).toEqual([]);
+
+        const gaps = sampleGaps();
+        for (const [index, gap] of gaps.entries()) {
+          await page.waitForTimeout(gap);
+          const t = await auraSnapshot(page);
+          const where = `sample ${index + 1} of ${gaps.length}, gaps ${gaps.join("/")}ms`;
+
+          expect(t.beforeAnimation).toBe("none");
+          expect(t.afterAnimation).toBe("none");
+          expect(t.running).toEqual([]);
+          expect(t.beforeOpacity).toBe(t0.beforeOpacity);
+          expect(t.afterOpacity).toBe(t0.afterOpacity);
+          expect(t.beforeFilter).toBe(t0.beforeFilter);
+          expect(t.afterFilter).toBe(t0.afterFilter);
+
+          // The general claim, and the one that decides. On failure this
+          // prints exactly which element and which property moved, without the
+          // test having had to guess either in advance.
+          expect(drift(t0, t), `the aura's appearance changed by ${where}`).toEqual([]);
+
+          // Photograph on every other sample -- enough to catch motion the
+          // style tree can genuinely miss (a compositor-only animation, a
+          // CSSOM-driven pseudo-element, an overlay drawn on top from
+          // elsewhere in the document) without paying for a screenshot per
+          // sample.
+          if (index % 2 === 1) {
+            const pixels = await auraPixels(page, region);
+            expect(pixels.equals(pixels0), `the screen rendered differently at ${where}`).toBe(true);
+          }
+        }
+
+        // Read last, so it covers the whole window rather than a prefix of
+        // it: anything that moved between two looks above is reported here.
+        expect(await stopWatchingDocument(page), "the document mutated while a passage sat on screen").toEqual([]);
+      });
+    }
   }
-}
+});
