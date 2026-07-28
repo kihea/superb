@@ -1,0 +1,88 @@
+name: Bug report
+description: Something in Superb behaves differently than it should.
+labels: ["bug"]
+body:
+  - type: checkboxes
+    id: before-submitting
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this one isn't already open.
+          required: true
+        - label: I reproduced it on the latest version of the `dev` branch.
+          required: true
+        - label: If this is about a passage or a quoted excerpt, I read CONTRIBUTING.md first.
+          required: false
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where it happened
+      options:
+        - Web app
+        - Android app
+        - iOS app
+        - The engine itself (crates/, cargo test)
+        - Something else / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Version
+      description: Browser and version, device, and the commit or build you were on — whatever applies.
+      placeholder: Firefox 141 on Windows 11, commit f196dc9
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps someone else can follow to see the same thing.
+      placeholder: |
+        1. Open the web app
+        2. Read to the end of the first passage
+        3. Tap the arrow
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who this affects, and how badly
+      description: In your own words. Does it stop you using the app, or is it a rough edge you can live with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error output
+      description: Optional. Console output, a panic message, a failing test — paste it as-is.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Anything that works around it
+      description: Optional, and useful to other people hitting the same thing.
+    validations:
+      required: false

@@ -173,7 +173,9 @@ looks like in practice.
 
 ## Conventions
 
-- Pull requests target `dev`, never `main`.
+- Pull requests target `dev`, never `main`. Fill in the pull request template
+  rather than deleting it — it asks what changed, what it looks like before and
+  after, and what you ran to check.
 - `cargo fmt --all --check` and
   `cargo clippy --all-targets --all-features --locked -- -D warnings` must
   pass.
