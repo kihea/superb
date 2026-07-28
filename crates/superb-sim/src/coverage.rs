@@ -348,12 +348,18 @@ fn per_theta_section(per_theta: &[(f64, Coverage)]) -> String {
          What the table shows instead is monotone shrinkage toward the centre: θ̂ above the \
          truth at the bottom of the sweep, below it at the top. That is what a prior at θ = 0 \
          with `theta_prior_information` and a finite horizon produces, and it is there at ±1.5, \
-         where no wall is within ten standard errors. Reported rather than tuned away: shrinking \
-         the prior's weight would flatten this column without anyone having decided that a \
-         reader at θ = ±3.5 is a case worth optimising.\n\n\
-         The ±8.0 figures above were measured once, during the review of the fix that produced \
-         this report, and are quoted rather than regenerated — the run below is the one this \
-         file regenerates.\n\n",
+         where no wall is within ten standard errors. That is measured too, not inferred: \
+         weakening `theta_prior_information` from 1.0 to 0.05 and changing nothing else \
+         collapsed the signed error at θ = −3.5 from +0.3203 to +0.0405 and at θ = +3.5 from \
+         −0.2813 to −0.0945, with coverage improving at all five points. Weaken the prior and \
+         the effect nearly disappears; move the wall and nothing happens at all.\n\n\
+         Reported rather than tuned away, all the same: the prior's weight is what holds a \
+         short-horizon estimate together, and trading that for a flatter column here is a \
+         decision about who the estimate is for, which this file does not make.\n\n\
+         Both quoted runs — the ±8.0 wall and the weakened prior — were measured once, during \
+         the review of the fix that produced this report, at 24 seeds. They are quoted rather \
+         than regenerated: only the sweep below is re-measured every time this file is \
+         written.\n\n",
     );
     out.push_str("| true θ | within 1 SE | within 2 SE | mean signed error | mean abs error |\n");
     out.push_str("|---|---|---|---|---|\n");
@@ -515,7 +521,9 @@ pub fn generate() -> Report {
         } else {
             "Coverage did not move meaningfully with 3x the horizon — the evidence argues against \
              \"needs more observations\" as the explanation, and toward the response model's own \
-             sampling noise or the standard error's own construction."
+             sampling noise together with the shrinkage the per-θ table above measures. Not \
+             toward the standard error's own construction: that was this file's earlier \
+             diagnosis and the section below retracts it."
         },
     ));
 
