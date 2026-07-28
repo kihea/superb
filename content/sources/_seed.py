@@ -28,7 +28,6 @@ HERE = pathlib.Path(__file__).parent
 RETRIEVED = "2026-07-25"
 LICENCE = "Public Domain (US, life+70 expired)"
 
-<<<<<<< HEAD
 # ADR-022: the engine's topic-affinity table looks up a topic for every
 # passage id it finished or abandoned, sourced or composed alike, so these
 # 47 hand-picked excerpts need one too — added here, at generation time,
@@ -85,8 +84,6 @@ WORK_TOPICS: dict[str, str] = {
     "Wuthering Heights": "courtship",
 }
 
-=======
->>>>>>> main
 
 def gutenberg(n: int) -> tuple[str, str]:
     return f"Project Gutenberg #{n}", f"https://www.gutenberg.org/ebooks/{n}"
@@ -1180,17 +1177,11 @@ def main() -> None:
         wc = len(text.split())
         assert 80 <= wc <= 200, f"{sid} is {wc} words"
         source_name, url = gutenberg(gid)
-<<<<<<< HEAD
         assert work in WORK_TOPICS, f"{sid}: {work!r} has no entry in WORK_TOPICS"
         doc = {
             "id": sid,
             "pool": "sourced",
             "topic": WORK_TOPICS[work],
-=======
-        doc = {
-            "id": sid,
-            "pool": "sourced",
->>>>>>> main
             "text": text,
             "words": words,
             "provenance": {

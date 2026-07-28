@@ -47,7 +47,6 @@ proptest! {
                 update.theta_information
             );
             prop_assert!(
-<<<<<<< HEAD
                 update.se() <= se + 1e-9,
                 "se widened: {se} -> {}",
                 update.se()
@@ -56,16 +55,6 @@ proptest! {
             theta = update.theta;
             information = update.theta_information;
             se = update.se();
-=======
-                update.effect.se <= se + 1e-9,
-                "se widened: {se} -> {}",
-                update.effect.se
-            );
-            prop_assert!(update.effect.se >= 0.0, "se went negative: {}", update.effect.se);
-            theta = update.theta;
-            information = update.theta_information;
-            se = update.effect.se;
->>>>>>> main
         }
     }
 
@@ -102,15 +91,9 @@ proptest! {
                 update.theta_information
             );
             prop_assert!(
-<<<<<<< HEAD
                 update.se().is_finite(),
                 "se was not finite: {}",
                 update.se()
-=======
-                update.effect.se.is_finite(),
-                "se was not finite: {}",
-                update.effect.se
->>>>>>> main
             );
             theta = update.theta;
             information = update.theta_information;

@@ -41,7 +41,6 @@ FORBIDDEN_LICENCE_PATTERNS = [
 
 # Pipeline scripts that are allowed to have no manifest row of their own
 # because they produce no third-party dataset (e.g. a one-off helper).
-<<<<<<< HEAD
 NO_MANIFEST_ROW_NEEDED = {
     "__init__.py",
     "check_license_gate.py",
@@ -50,9 +49,6 @@ NO_MANIFEST_ROW_NEEDED = {
     # produces a derived index/report, not a new third-party dataset.
     "corpus_report.py",
 }
-=======
-NO_MANIFEST_ROW_NEEDED = {"__init__.py", "check_license_gate.py"}
->>>>>>> main
 
 
 def check_provenance(sources_dir: pathlib.Path) -> list[str]:

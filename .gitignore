@@ -24,3 +24,11 @@ Thumbs.db
 # python (content/scripts, data/pipeline)
 __pycache__/
 *.pyc
+
+# scratch cache for data/pipeline/tests/measure_informativeness.py — the
+# sample and the key are committed for reproducibility, this is not
+data/pipeline/tests/.informativeness_hidden.json
+# same convention for draw_usage_coverage_sample.py's blind draw
+data/pipeline/tests/.usage_coverage_hidden.json
+# generated wasm-bindgen output (crates/superb-wasm) — rebuilt by the wasm CI job
+crates/superb-wasm/pkg/
