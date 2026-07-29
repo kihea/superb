@@ -49,6 +49,16 @@ jobs:
       - name: Sources — structural checks and allow-listed provenance (1500+)
         run: python content/scripts/check_sources.py
 
+      # Issue #67, filed from PR #65's review of issue #58: nothing enforced
+      # that content/sources/_seed.py's table stayed in sync with the
+      # committed src-*.json files it authors, which is how #58 happened —
+      # a bulk fix landed on the JSON directly and the next run of the
+      # script would have silently reverted it. Runs the script for real, in
+      # a scratch copy of itself so the committed files are never touched,
+      # and fails if its output disagrees with what is committed.
+      - name: Seed script — content/sources/_seed.py matches what it authors
+        run: python content/scripts/check_seed_sync.py
+
       - name: Prove the licence gate fails on a broken fixture, then run it for real
         run: python data/pipeline/tests/test_check_license_gate.py
 
