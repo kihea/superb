@@ -1,4 +1,4 @@
-// ADR-028 -- the word-to-difficulty mapping, at the seam where the shell
+// ADR-029 -- the word-to-difficulty mapping, at the seam where the shell
 // answers the engine's [bandLow, bandHigh] window.
 //
 // Two things are being held. First, that the band is a real filter and a

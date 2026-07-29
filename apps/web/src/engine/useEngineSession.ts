@@ -48,7 +48,7 @@ async function fetchFrame(engine: EnginePort, request: Request, now: number, rec
     // tests/candidates-ranking.test.ts.
     const excluded = new Set(recent);
     // The band is the engine's, computed from its own θ estimate; the shell
-    // reads it and answers, never widens it. ADR-028 is what makes an answer
+    // reads it and answers, never widens it. ADR-029 is what makes an answer
     // possible at all -- before it there was no mapping from a word to this
     // scale, so these two numbers arrived and were thrown away.
     const content = await candidatesFor(excluded, needs.bandLow, needs.bandHigh);
@@ -60,7 +60,7 @@ async function fetchFrame(engine: EnginePort, request: Request, now: number, rec
   }
   if (needs.kind === "ItemDifficulty") {
     // The deck is not on screen in this build, so nothing asks for this
-    // today -- but the table ADR-028 generates answers it, and wiring it
+    // today -- but the table ADR-029 generates answers it, and wiring it
     // here now means the deck meets a working path rather than rediscovering
     // issue #50 under a different name. A word the table does not know
     // (a pseudoword, or a deck item outside the slot lexicon) answers
