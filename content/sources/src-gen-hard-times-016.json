@@ -1,28 +1,10 @@
 {
   "id": "src-gen-hard-times-016",
   "pool": "sourced",
-  "text": "‘I am not a moral sort of fellow,’ he said, ‘and I never make any pretensions to the character of a moral sort of fellow. I am as immoral as need be. At the same time, in bringing any distress upon the lady who is the subject of the present conversation, or in unfortunately compromising her in any way, or in committing myself by any expression of sentiments towards her, not perfectly reconcilable with—in fact with—the domestic hearth; or in taking any advantage of her father’s being a machine, or of her brother’s being a whelp, or of her husband’s being a bear; I beg to be allowed to assure you that I have had no particularly evil intentions, but have glided on from one step to another with a smoothness so perfectly diabolical, that I had not the slightest idea the catalogue was half so long until I began to turn it over. Whereas I find,’ said Mr. James Harthouse, in conclusion, ‘that it is really in several volumes.’ Though he said all this in his frivolous way, the way seemed, for that once, a conscious polishing of but an ugly surface.",
+  "text": "Thomas, ma’am, I doubt Mr. Thomas very much, ma’am, I don’t like his ways at all.’ ‘Bitzer,’ said Mrs. Sparsit, in a very impressive manner, ‘do you recollect my having said anything to you respecting names?’ ‘I beg your pardon, ma’am. It’s quite true that you did object to names being used, and they’re always best avoided.’ ‘Please to remember that I have a charge here,’ said Mrs. Sparsit, with her air of state. ‘I hold a trust here, Bitzer, under Mr. Bounderby. However improbable both Mr. Bounderby and myself might have deemed it years ago, that he would ever become my patron, making me an annual compliment, I cannot but regard him in that light. From Mr. Bounderby I have received every acknowledgment of my social station, and every recognition of my family descent, that I could possibly expect.",
   "words": [
     {
-      "word": "immoral",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "distress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "assure",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "frivolous",
+      "word": "improbable",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

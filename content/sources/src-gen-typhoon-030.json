@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-typhoon-030",
+  "pool": "sourced",
+  "text": "Two coils of lead-line and a small canvas bag hung on a long lanyard, swung wide off, and came back clinging to the bulkheads. The gratings underfoot were nearly afloat; with every sweeping blow of a sea, water squirted violently through the cracks all round the door, and the man at the helm had flung down his cap, his coat, and stood propped against the gear-casing in a striped cotton shirt open on his breast. The little brass wheel in his hands had the appearance of a bright and fragile toy. The cords of his neck stood hard and lean, a dark patch lay in the hollow of his throat, and his face was still and sunken as in death. Captain MacWhirr wiped his eyes.",
+  "words": [
+    {
+      "word": "canvas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lean",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "hollow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

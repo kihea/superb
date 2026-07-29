@@ -1,40 +1,28 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-018",
   "pool": "sourced",
-  "text": "On mounting a rising ground, which brought the figure of his fellow-traveller in relief against the sky, gigantic in height, and muffled in a cloak, Ichabod was horror-struck on perceiving that he was headless!--but his horror was still more increased on observing that the head, which should have rested on his shoulders, was carried before him on the pommel of his saddle! His terror rose to desperation; he rained a shower of kicks and blows upon Gunpowder, hoping by a sudden movement to give his companion the slip; but the spectre started full jump with him. Away, then, they dashed through thick and thin; stones flying and sparks flashing at every bound. Ichabod’s flimsy garments fluttered in the air, as he stretched his long lank body away over his horse’s head, in the eagerness of his flight. They had now reached the road which turns off to Sleepy Hollow; but Gunpowder, who seemed possessed with a demon, instead of keeping up it, made an opposite turn, and plunged headlong downhill to the left.",
+  "text": "Such was the appearance of Ichabod and his steed as they shambled out of the gate of Hans Van Ripper, and it was altogether such an apparition as is seldom to be met with in broad daylight. It was, as I have said, a fine autumnal day; the sky was clear and serene, and nature wore that rich and golden livery which we always associate with the idea of abundance. The forests had put on their sober brown and yellow, while some trees of the tenderer kind had been nipped by the frosts into brilliant dyes of orange, purple, and scarlet. Streaming files of wild ducks began to make their appearance high in the air; the bark of the squirrel might be heard from the groves of beech and hickory-nuts, and the pensive whistle of the quail at intervals from the neighboring stubble field. The small birds were taking their farewell banquets.",
   "words": [
     {
-      "word": "cloak",
+      "word": "scarlet",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "rested",
+      "word": "bark",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shoulders",
+      "word": "hickory",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "saddle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dashed",
+      "word": "whistle",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +33,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

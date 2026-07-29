@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-031",
+  "pool": "sourced",
+  "text": "“I cannot find my brother. Help, Jaffrey Pyncheon! Some harm will happen to him!” She threw open the parlor-door. But, what with the shade of branches across the windows, and the smoke-blackened ceiling, and the dark oak-panelling of the walls, there was hardly so much daylight in the room that Hepzibah’s imperfect sight could accurately distinguish the Judge’s figure. She was certain, however, that she saw him sitting in the ancestral arm-chair, near the centre of the floor, with his face somewhat averted, and looking towards a window.",
+  "words": [
+    {
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

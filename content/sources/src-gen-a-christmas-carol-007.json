@@ -1,16 +1,16 @@
 {
   "id": "src-gen-a-christmas-carol-007",
   "pool": "sourced",
-  "text": "Christmas, Ebenezer! Let's have the shutters up,\" cried old Fezziwig, with a sharp clap of his hands, \"before a man can say Jack Robinson!\" You wouldn't believe how those two fellows went at it! They charged into the street with the shutters--one, two, three--had 'em up in their places--four, five, six--barred 'em and pinned 'em--seven, eight, nine--and came back before you could have got to twelve, panting like race-horses. cried old Fezziwig, skipping down from the high desk, with wonderful agility.",
+  "text": "But why do spirits walk the earth, and why do they come to me?\" \"It is required of every man,\" the Ghost returned, \"that the spirit within him should walk abroad among his fellowmen, and travel far and wide; and if that spirit goes not forth in life, it is condemned to do so after death. It is doomed to wander through the world--oh, woe is me!--and witness what it cannot share, but might have shared on earth, and turned to happiness!\" Again the spectre raised a cry, and shook its chain and wrung its shadowy hands. \"You are fettered,\" said Scrooge, trembling.",
   "words": [
     {
-      "word": "shutters",
+      "word": "condemned",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "clap",
+      "word": "doomed",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

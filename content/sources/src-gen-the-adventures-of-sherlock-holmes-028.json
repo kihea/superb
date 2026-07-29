@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-028",
+  "pool": "sourced",
+  "text": "You are probably aware that fuller’s-earth is a valuable product, and that it is only found in one or two places in England?’ “‘I have heard so.’ “‘Some little time ago I bought a small place—a very small place—within ten miles of Reading. I was fortunate enough to discover that there was a deposit of fuller’s-earth in one of my fields. On examining it, however, I found that this deposit was a comparatively small one, and that it formed a link between two very much larger ones upon the right and left—both of them, however, in the grounds of my neighbours. These good people were absolutely ignorant that their land contained that which was quite as valuable as a gold-mine. Naturally, it was to my interest to buy their land before they discovered its true value, but unfortunately I had no capital by which I could do this.",
+  "words": [
+    {
+      "word": "fuller",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

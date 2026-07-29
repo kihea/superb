@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-women-023",
+  "pool": "sourced",
+  "text": "Amy was asked, but Jo was not, which was fortunate for all parties, as her elbows were decidedly akimbo at this period of her life, and it took a good many hard knocks to teach her how to get on easily. The ‘haughty, uninteresting creature’ was let severely alone, but Amy’s talent and taste were duly complimented by the offer of the art table, and she exerted herself to prepare and secure appropriate and valuable contributions to it. Everything went on smoothly till the day before the fair opened, then there occurred one of the little skirmishes which it is almost impossible to avoid, when some five-and-twenty women, old and young, with all their private piques and prejudices, try to work together. May Chester was rather jealous of Amy because the latter was a greater favorite than herself, and just at this time several trifling circumstances occurred to increase the feeling. Amy’s dainty pen-and-ink work entirely eclipsed May’s painted vases—that was one thorn.",
+  "words": [
+    {
+      "word": "decidedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

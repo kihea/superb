@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-north-and-south-037",
+  "pool": "sourced",
+  "text": "I see you would like to take a class, Miss Hale. I know it by myself. First class stand up for a parsing lesson with Miss Hale.” Poor Margaret, whose visit was sentimental, not in any degree inspective, felt herself taken in; but as in some way bringing her in contact with little eager faces, once well-known, and who had received the solemn rite of baptism from her father, she sate down, half losing herself in tracing out the changing features of the girls, and holding Susan’s hand for a minute or two, unobserved by all, while the first class sought for their books, and the Vicar’s lady went as near as a lady could towards holding Mr. Bell by the button, while she explained the Phonetic system to him, and gave him a conversation she had had with the Inspector about it. Margaret bent over her book, and seeing nothing but that—hearing the buzz of children’s voices, old times rose up, and she thought of them, and her eyes filled with tears, till all at once there was a pause—one of the girls was stumbling over the apparently simple word “a,” uncertain what to call it.",
+  "words": [
+    {
+      "word": "baptism",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buzz",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stumbling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

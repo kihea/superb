@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-three-musketeers-023",
+  "pool": "sourced",
+  "text": "If you repent of the manner in which you have acted toward me, the young girl who brings you this will tell you how a man of spirit may obtain his pardon. D’Artagnan colored and grew pale several times in reading this billet. “Oh, you love her still,” said Kitty, who had not taken her eyes off the young man’s countenance for an instant. “No, Kitty, you are mistaken. I do not love her, but I will avenge myself for her contempt.” “Oh, yes, I know what sort of vengeance!",
+  "words": [
+    {
+      "word": "repent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "avenge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vengeance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-thirty-nine-steps-027",
+  "pool": "sourced",
+  "text": "When I looked from the dovecot I could see far away a blue line which I knew was the sea, and I grew furious to think that our enemies had this secret conning-tower to rake our waterways. Then I reflected that if that aeroplane came back the chances were ten to one that I would be discovered. So through the afternoon I lay and prayed for the coming of darkness, and glad I was when the sun went down over the big western hills and the twilight haze crept over the moor. The aeroplane was late. The gloaming was far advanced when I heard the beat of wings and saw it volplaning downward to its home in the wood.",
+  "words": [
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aeroplane",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "year": 1915,
+    "source": "Project Gutenberg #558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

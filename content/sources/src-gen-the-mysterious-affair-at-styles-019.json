@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-019",
   "pool": "sourced",
-  "text": "Possibly she applied oil to the hinges, for I found that it opened quite noiselessly when I tried it. She put off her project until the early hours of the morning as being safer, since the servants were accustomed to hearing her move about her room at that time. She dressed completely in her land kit, and made her way quietly through Mademoiselle Cynthia’s room into that of Mrs. Inglethorp.” He paused a moment, and Cynthia interrupted: “But I should have woken up if anyone had come through my room?” “Not if you were drugged, mademoiselle.” “Drugged?” “Mais, oui!” “You remember”—he addressed us collectively again—“that through all the tumult and noise next door Mademoiselle Cynthia slept. That admitted of two possibilities. Either her sleep was feigned—which I did not believe—or her unconsciousness was induced by artificial means.",
+  "text": "On the contrary, Mrs. Inglethorp had taken the last dose on the day of her death. So the question of the tonic was finally abandoned, and the Coroner proceeded with his task. Having elicited from Dorcas how she had been awakened by the violent ringing of her mistress’s bell, and had subsequently roused the household, he passed to the subject of the quarrel on the preceding afternoon. Dorcas’s evidence on this point was substantially what Poirot and I had already heard, so I will not repeat it here. The next witness was Mary Cavendish.",
   "words": [
     {
-      "word": "hinges",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "quietly",
+      "word": "dose",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

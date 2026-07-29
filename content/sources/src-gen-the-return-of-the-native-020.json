@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-return-of-the-native-020",
   "pool": "sourced",
-  "text": "Who lost it? I have never worn them but once.” Rachel appeared as one dreadfully troubled, and at last began to cry. “Please, ma’am, on the day of the Maypole I had none to wear, and I seed yours on the table, and I thought I would borrow ’em. I did not mean to hurt ’em at all, but one of them got lost. Somebody gave me some money to buy another pair for you, but I have not been able to go anywhere to get ’em.” “Who’s somebody?” “Mr.",
+  "text": "The evening and the following morning were spent in concluding arrangements for his departure. To stay at home a minute longer than necessary after having once come to his determination would be, he felt, only to give new pain to his mother by some word, look, or deed. He had hired a conveyance and sent off his goods by two o’clock that day. The next step was to get some furniture, which, after serving for temporary use in the cottage, would be available for the house at Budmouth when increased by goods of a better description. A mart extensive enough for the purpose existed at Anglebury, some miles beyond the spot chosen for his residence, and there he resolved to pass the coming night.",
   "words": [
     {
-      "word": "borrow",
+      "word": "cottage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resolved",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

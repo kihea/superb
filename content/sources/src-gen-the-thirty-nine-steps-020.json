@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-thirty-nine-steps-020",
   "pool": "sourced",
-  "text": "The whole scene was so peaceful and ordinary that I got more dashed in spirits every second. It took all my resolution to stroll towards Trafalgar Lodge about half-past nine. On the way I got a piece of solid comfort from the sight of a greyhound that was swinging along at a nursemaid’s heels. He reminded me of a dog I used to have in Rhodesia, and of the time when I took him hunting with me in the Pali hills. We were after rhebok, the dun kind, and I recollected how we had followed one beast, and both he and I had clean lost it.",
+  "text": "Keeping behind the skyline I ran for maybe half a mile, till I judged I was above the uppermost end of the glen. Then I showed myself, and was instantly noted by one of the flankers, who passed the word to the others. I heard cries coming up from below, and saw that the line of search had changed its direction. I pretended to retreat over the skyline, but instead went back the way I had come, and in twenty minutes was behind the ridge overlooking my sleeping place. From that viewpoint I had the satisfaction of seeing the pursuit streaming up the hill at the top of the glen on a hopelessly false scent.",
   "words": [
     {
-      "word": "greyhound",
+      "word": "skyline",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "reminded",
+      "word": "glen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retreat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ridge",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

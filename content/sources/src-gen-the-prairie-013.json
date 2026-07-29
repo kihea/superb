@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prairie-013",
   "pool": "sourced",
-  "text": "Clear and cold, with such heaps of sunshine you'd never dream it was zero weather. But you have to be careful, and always wear furs when you're driving, or out for any length of time. Three hours in this open air is as good as a pint of Chinkie's best champagne. It makes me tingle. We are living high, with several barrels of frozen game--geese, duck and prairie-chicken--and also an old tin trunk stuffed full of beef-roasts, cut the right size.",
+  "text": "I also got a lot of small stuff I'd written for from the mail-order house, little feminine things a woman simply has to have. But the big thing was the duck-gun. I no longer get heart failure when I hear the whir of a prairie-chicken, but drop my bird before it's out of range. Poor, plump, wounded, warm-bodied little feathery things! Some of them keep on flying after they've been shot clean through the body, going straight on for a couple of hundred feet, or even more, and then dropping like a stone.",
   "words": [
     {
-      "word": "barrels",
+      "word": "duck",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bodied",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

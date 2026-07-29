@@ -1,12 +1,18 @@
 {
   "id": "src-gen-the-king-in-yellow-006",
   "pool": "sourced",
-  "text": "The great doors on the Rue du Dragon were closed. I felt this by the blackness which surrounded me, and at the same instant I read it in his face. How his face gleamed in the darkness, drawing swiftly nearer! The deep vaults, the huge closed doors, their cold iron clamps were all on his side. The thing which he had threatened had arrived: it gathered and bore down on me from the fathomless shadows; the point from which it would strike was his infernal eyes.",
+  "text": "how sinister and covetous you look already!” I laughed too, and told him I was devoured by the desire for gold, and we had better talk of something else; so when Geneviève came in shortly after, we had turned our backs on alchemy. Geneviève was dressed in silvery grey from head to foot. The light glinted along the soft curves of her fair hair as she turned her cheek to Boris; then she saw me and returned my greeting. She had never before failed to blow me a kiss from the tips of her white fingers, and I promptly complained of the omission. She smiled and held out her hand, which dropped almost before it had touched mine; then she said, looking at Boris— “You must ask Alec to stay for luncheon.” This also was something new.",
   "words": [
     {
-      "word": "vaults",
+      "word": "alchemy",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

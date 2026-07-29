@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-walden-029",
+  "pool": "sourced",
+  "text": "But no weather interfered fatally with my walks, or rather my going abroad, for I frequently tramped eight or ten miles through the deepest snow to keep an appointment with a beech-tree, or a yellow-birch, or an old acquaintance among the pines; when the ice and snow causing their limbs to droop, and so sharpening their tops, had changed the pines into fir-trees; wading to the tops of the highest hills when the snow was nearly two feet deep on a level, and shaking down another snow-storm on my head at every step; or sometimes creeping and floundering thither on my hands and knees, when the hunters had gone into winter quarters. One afternoon I amused myself by watching a barred owl (Strix nebulosa) sitting on one of the lower dead limbs of a white-pine, close to the trunk, in broad daylight, I standing within a rod of him. He could hear me when I moved and cronched the snow with my feet, but could not plainly see me.",
+  "words": [
+    {
+      "word": "beech",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "birch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

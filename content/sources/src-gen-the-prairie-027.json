@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prairie-027",
+  "pool": "sourced",
+  "text": "And here comes my Dinky-Dunk, and in three minutes he'll be kissing me on the tip of the chin and asking me what there's going to be good for supper! And that is better than fame! For all afternoon those twelve little lines of Dobson's have been running through my head: Fame is a food that dead men eat-- I have no stomach for such meat. In little light and narrow rooms, They eat it in the silent tombs, With no kind voice of comrade near To bid the banquet be of cheer. But Friendship is a noble thing-- Of Friendship it is good to sing, For truly when a man shall end, He lives in memory of his friend Who doth his better part recall And of his faults make funeral!",
+  "words": [
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

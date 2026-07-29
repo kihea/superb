@@ -1,10 +1,22 @@
 {
   "id": "src-gen-emma-002",
   "pool": "sourced",
-  "text": "Harriet would be loved as one to whom she could be useful. For Mrs. Weston there was nothing to be done; for Harriet every thing. Her first attempts at usefulness were in an endeavour to find out who were the parents, but Harriet could not tell. She was ready to tell every thing in her power, but on this subject questions were vain. Emma was obliged to fancy what she liked—but she could never believe that in the same situation she should not have discovered the truth.",
+  "text": "Mr. Woodhouse told me of it. Mr. Woodhouse saw the letter, and he says he never saw such a handsome letter in his life.” It was, indeed, a highly prized letter. Mrs. Weston had, of course, formed a very favourable idea of the young man; and such a pleasing attention was an irresistible proof of his great good sense, and a most welcome addition to every source and every expression of congratulation which her marriage had already secured. She felt herself a most fortunate woman; and she had lived long enough to know how fortunate she might well be thought, where the only regret was for a partial separation from friends whose friendship for her had never cooled, and who could ill bear to part with her.",
   "words": [
     {
-      "word": "usefulness",
+      "word": "prized",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "favourable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "partial",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

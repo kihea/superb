@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-notes-from-underground-024",
+  "pool": "sourced",
+  "text": "I sat down; the servant began laying the table; I felt even more humiliated when he was present. Towards six o’clock they brought in candles, though there were lamps burning in the room. It had not occurred to the waiter, however, to bring them in at once when I arrived. In the next room two gloomy, angry-looking persons were eating their dinners in silence at two different tables. There was a great deal of noise, even shouting, in a room further away; one could hear the laughter of a crowd of people, and nasty little shrieks in French: there were ladies at the dinner.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waiter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

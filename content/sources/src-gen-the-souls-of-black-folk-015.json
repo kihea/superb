@@ -1,24 +1,24 @@
 {
   "id": "src-gen-the-souls-of-black-folk-015",
   "pool": "sourced",
-  "text": "What was his attitude toward the World and Life? What seemed to him good and evil,—God and Devil? Whither went his longings and strivings, and wherefore were his heart-burnings and disappointments? Answers to such questions can come only from a study of Negro religion as a development, through its gradual changes from the heathenism of the Gold Coast to the institutional Negro church of Chicago. Moreover, the religious growth of millions of men, even though they be slaves, cannot be without potent influence upon their contemporaries.",
+  "text": "Internal problems of social advance must inevitably come, —problems of work and wages, of families and homes, of morals and the true valuing of the things of life; and all these and other inevitable problems of civilization the Negro must meet and solve largely for himself, by reason of his isolation; and can there be any possible solution other than by study and thought and an appeal to the rich experience of the past? Is there not, with such a group and in such a crisis, infinitely more danger to be apprehended from half-trained minds and shallow thinking than from over-education and over-refinement? Surely we have wit enough to found a Negro college so manned and equipped as to steer successfully between the dilettante and the fool. We shall hardly induce black men to believe that if their stomachs be full, it matters little about their brains. They already dimly perceive that the paths of peace winding between honest toil and dignified manhood call for the guidance of skilled thinkers, the loving, reverent comradeship between the black lowly and the black men emancipated by training and culture.",
   "words": [
     {
-      "word": "disappointments",
+      "word": "civilization",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "moreover",
+      "word": "shallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thinkers",
       "signals": [
         "apposition"
-      ]
-    },
-    {
-      "word": "slaves",
-      "signals": [
-        "gloss-overlap"
       ]
     }
   ],
@@ -27,7 +27,7 @@
     "author": "W. E. B. Du Bois",
     "year": 1903,
     "source": "Project Gutenberg #408",
-    "url": "https://www.gutenberg.org/ebooks/408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

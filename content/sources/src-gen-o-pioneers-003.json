@@ -1,10 +1,22 @@
 {
   "id": "src-gen-o-pioneers-003",
   "pool": "sourced",
-  "text": "Carl came quietly and slowly up the garden path, looking intently at Alexandra. She did not hear him. She was standing perfectly still, with that serious ease so characteristic of her. Her thick, reddish braids, twisted about her head, fairly burned in the sunlight. The air was cool enough to make the warm sun pleasant on one’s back and shoulders, and so clear that the eye could follow a hawk up and up, into the blazing blue depths of the sky.",
+  "text": "Not a shed, not a corral, not a well, not even a path broken in the curly grass. But for the piece of rusty stovepipe sticking up through the sod, you could have walked over the roof of Ivar’s dwelling without dreaming that you were near a human habitation. Ivar had lived for three years in the clay bank, without defiling the face of nature any more than the coyote that had lived there before him had done. When the Bergsons drove over the hill, Ivar was sitting in the doorway of his house, reading the Norwegian Bible. He was a queerly shaped old man, with a thick, powerful body set on short bow-legs.",
   "words": [
     {
-      "word": "sunlight",
+      "word": "sod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorway",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Willa Cather",
     "year": 1913,
     "source": "Project Gutenberg #24",
-    "url": "https://www.gutenberg.org/ebooks/24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

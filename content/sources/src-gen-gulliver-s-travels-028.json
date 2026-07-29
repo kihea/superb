@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-gulliver-s-travels-028",
+  "pool": "sourced",
+  "text": "Perjury, oppression, subornation, fraud, pandarism, and the like infirmities, were among the most excusable arts they had to mention; and for these I gave, as it was reasonable, great allowance. But when some confessed they owed their greatness and wealth to sodomy, or incest; others, to the prostituting of their own wives and daughters; others, to the betraying of their country or their prince; some, to poisoning; more to the perverting of justice, in order to destroy the innocent, I hope I may be pardoned, if these discoveries inclined me a little to abate of that profound veneration, which I am naturally apt to pay to persons of high rank, who ought to be treated with the utmost respect due to their sublime dignity, by us their inferiors. I had often read of some great services done to princes and states, and desired to see the persons by whom those services were performed. Upon inquiry I was told, “that their names were to be found on no record, except a few of them, whom history has represented as the vilest of rogues and traitors.” As to the rest, I had never once heard of them.",
+  "words": [
+    {
+      "word": "greatness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "profound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

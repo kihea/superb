@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-thirty-nine-steps-003",
   "pool": "sourced",
-  "text": "Scudder would never have left them in that state, for he was the tidiest of mortals. Someone must have been searching for something—perhaps for the pocket-book. I went round the flat and found that everything had been ransacked—the inside of books, drawers, cupboards, boxes, even the pockets of the clothes in my wardrobe, and the sideboard in the dining-room. There was no trace of the book. Most likely the enemy had found it, but they had not found it on Scudder’s body.",
+  "text": "“I got the first hint in an inn on the Achensee in Tyrol. That set me inquiring, and I collected my other clues in a fur-shop in the Galician quarter of Buda, in a Strangers’ Club in Vienna, and in a little bookshop off the Racknitzstrasse in Leipsig. I completed my evidence ten days ago in Paris. I can’t tell you the details now, for it’s something of a history. When I was quite sure in my own mind I judged it my business to disappear, and I reached this city by a mighty queer circuit.",
   "words": [
     {
-      "word": "wardrobe",
+      "word": "bookshop",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

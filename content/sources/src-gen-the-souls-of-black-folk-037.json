@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-037",
+  "pool": "sourced",
+  "text": "The White John started, lifted his hand, and then froze into his chair; the black John smiled lightly, then grimly, and followed the usher down the aisle. The manager was sorry, very, very sorry,—but he explained that some mistake had been made in selling the gentleman a seat already disposed of; he would refund the money, of course,—and indeed felt the matter keenly, and so forth, and—before he had finished John was gone, walking hurriedly across the square and down the broad streets, and as he passed the park he buttoned his coat and said, “John Jones, you’re a natural-born fool.” Then he went to his lodgings and wrote a letter, and tore it up; he wrote another, and threw it in the fire. Then he seized a scrap of paper and wrote: “Dear Mother and Sister—I am coming—John.” “Perhaps,” said John, as he settled himself on the train, “perhaps I am to blame myself in struggling against my manifest destiny simply because it looks hard and unpleasant. Here is my duty to Altamaha plain before me; perhaps they’ll let me help settle the Negro problems there,—perhaps they won’t.",
+  "words": [
+    {
+      "word": "refund",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

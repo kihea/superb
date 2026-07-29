@@ -1,12 +1,24 @@
 {
   "id": "src-gen-wives-and-daughters-004",
   "pool": "sourced",
-  "text": "Lady Cuxhaven did not want to have the subject brought up, so she hastened to say,-- \"Do ask the poor little daughter to come with her mother to the Towers; why, she must be seventeen or more; she would really be a companion to you, mamma, if her mother was unable to come.\" \"I was not ten when Clare married, and I'm nearly nine-and-twenty,\" added Lady Harriet. \"Don't speak of it, Harriet; at any rate you are but eight-and-twenty now, and you look a great deal younger. There is no need to be always bringing up your age on every possible occasion.\" \"There was need of it now, though.",
+  "text": "Mr. Gibson really heard and learnt things that interested him seriously, and that gave fresh flavour to his reading. From time to time he met the leaders of the scientific world; odd-looking, simple-hearted men, very much in earnest about their own particular subjects, and not having much to say on any other. Mr. Gibson found himself capable of appreciating such persons, and also perceived that they valued his appreciation, as it was honestly and intelligently given. Indeed, by-and-by, he began to send contributions of his own to the more scientific of the medical journals, and thus partly in receiving, partly in giving out information and accurate thought, a new zest was added to his life. There was not much intercourse between Lord Hollingford and himself; the one was too silent and shy, the other too busy, to seek each other's society with the perseverance required to do away with the social distinction of rank that prevented their frequent meetings.",
   "words": [
     {
-      "word": "mamma",
+      "word": "appreciating",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "appreciation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shy",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1866,
     "source": "Project Gutenberg #4274",
-    "url": "https://www.gutenberg.org/ebooks/4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

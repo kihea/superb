@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-david-copperfield-035",
+  "pool": "sourced",
+  "text": "‘Aye?’ said my aunt, with a glance at me. ‘Why, what a thing it would be for yourselves and your family, Mr. and Mrs. Micawber, if you were to emigrate now.’ ‘Capital, madam, capital,’ urged Mr. Micawber, gloomily. ‘That is the principal, I may say the only difficulty, my dear Mr. Copperfield,’ assented his wife. ‘Capital?’ cried my aunt. ‘But you are doing us a great service--have done us a great service, I may say, for surely much will come out of the fire--and what could we do for you, that would be half so good as to find the capital?’ ‘I could not receive it as a gift,’ said Mr. Micawber, full of fire and animation, ‘but if a sufficient sum could be advanced, say at five per cent interest, per annum, upon my personal liability--say my notes of hand, at twelve, eighteen, and twenty-four months, respectively, to allow time for something to turn up--’ ‘Could be?",
+  "words": [
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

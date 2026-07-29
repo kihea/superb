@@ -1,16 +1,10 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-020",
   "pool": "sourced",
-  "text": "But he could not get on. Speech was as inexpressive as silence. But he had a vague consciousness of one thing, though it was not clear to him till later; that his original Tess had spiritually ceased to recognize the body before him as hers—allowing it to drift, like a corpse upon the current, in a direction dissociated from its living will. A few instants passed, and he found that Tess was gone. His face grew colder and more shrunken as he stood concentrated on the moment, and a minute or two after, he found himself in the street, walking along he did not know whither.",
+  "text": "“It was only forty miles off—why hasn’t it reached here? Somebody must know!” Yet nobody seemed to know; nobody told him. For two or three days no more was said. She guessed from the sad countenances of her chamber companions that they regarded her not only as the favourite, but as the chosen; but they could see for themselves that she did not put herself in his way. Tess had never before known a time in which the thread of her life was so distinctly twisted of two strands, positive pleasure and positive pain.",
   "words": [
     {
-      "word": "corpse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "concentrated",
+      "word": "twisted",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-captains-courageous-012",
   "pool": "sourced",
-  "text": "\"Wingle-tingle-tink,\" went the bell. \"Graaa-ouch!\" went the conch, while sea and sky were all mired up in milky fog. Then Harvey felt that he was near a moving body, and found himself looking up and up at the wet edge of a cliff-like bow, leaping, it seemed, directly over the schooner. A jaunty little feather of water curled in front of it, and as it lifted it showed a long ladder of Roman numerals-XV., XVI., XVII., XVIII., and so forth--on a salmon-coloured gleaming side.",
+  "text": "Dan lay at length in his bunk, wrestling with a gaudy, gilt-stopped accordion, whose tunes went up and down with the pitching of the We're Here. The cook, his shoulders against the locker where he kept the fried pies (Dan was fond of fried pies), peeled potatoes, with one eye on the stove in event of too much water finding its way down the pipe; and the general smell and smother were past all description. Harvey considered affairs, wondered that he was not deathly sick, and crawled into his bunk again, as the softest and safest place, while Dan struck up, \"I don't want to play in your yard,\" as accurately as the wild jerks allowed. \"How long is this for?\" Harvey asked of Manuel.",
   "words": [
     {
-      "word": "fog",
+      "word": "bunk",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "feather",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ladder",
+      "word": "locker",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1897,
     "source": "Project Gutenberg #2186",
-    "url": "https://www.gutenberg.org/ebooks/2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

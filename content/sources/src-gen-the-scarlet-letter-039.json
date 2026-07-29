@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-scarlet-letter-039",
+  "pool": "sourced",
+  "text": "“People of New England!” cried he, with a voice that rose over them, high, solemn, and majestic—yet had always a tremor through it, and sometimes a shriek, struggling up out of a fathomless depth of remorse and woe—“ye, that have loved me!—ye, that have deemed me holy!—behold me here, the one sinner of the world! At last—at last!—I stand upon the spot where, seven years since, I should have stood, here, with this woman, whose arm, more than the little strength wherewith I have crept hitherward, sustains me at this dreadful moment, from grovelling down upon my face! Lo, the scarlet letter which Hester wears! Ye have all shuddered at it! Wherever her walk hath been—wherever, so miserably burdened, she may have hoped to find repose—it hath cast a lurid gleam of awe and horrible repugnance round about her.",
+  "words": [
+    {
+      "word": "scarlet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

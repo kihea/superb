@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-013",
   "pool": "sourced",
-  "text": "With unutterable misery the fettered little King heard the voices and footsteps fade away and die out. All hope forsook him, now, for the moment, and a dull despair settled down upon his heart. “My only friend is deceived and got rid of,” he said; “the hermit will return and--” He finished with a gasp; and at once fell to struggling so frantically with his bonds again, that he shook off the smothering sheepskin. And now he heard the door open! The sound chilled him to the marrow--already he seemed to feel the knife at his throat.",
+  "text": "Would thread were bread, seeing one getteth a year’s sufficiency for a farthing, and such a brave big needle without cost, for mere love. Now shall I have the demon’s own time to thread it!” And so he had. He did as men have always done, and probably always will do, to the end of time--held the needle still, and tried to thrust the thread through the eye, which is the opposite of a woman’s way. Time and time again the thread missed the mark, going sometimes on one side of the needle, sometimes on the other, sometimes doubling up against the shaft; but he was patient, having been through these experiences before, when he was soldiering. He succeeded at last, and took up the garment that had lain waiting, meantime, across his lap, and began his work.",
   "words": [
     {
-      "word": "despair",
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lap",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-anne-of-green-gables-034",
+  "pool": "sourced",
+  "text": "I’m sure Mrs. Lynde can pray every bit as well as Superintendent Bell and I’ve no doubt she could preach too with a little practice.” “Yes, I believe she could,” said Marilla dryly. “She does plenty of unofficial preaching as it is. Nobody has much of a chance to go wrong in Avonlea with Rachel to oversee them.” “Marilla,” said Anne in a burst of confidence, “I want to tell you something and ask you what you think about it. It has worried me terribly--on Sunday afternoons, that is, when I think specially about such matters. I do really want to be good; and when I’m with you or Mrs. Allan or Miss Stacy I want it more than ever and I want to do just what would please you and what you would approve of.",
+  "words": [
+    {
+      "word": "oversee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terribly",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "afternoons",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

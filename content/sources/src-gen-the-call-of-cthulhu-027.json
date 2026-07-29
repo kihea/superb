@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-027",
+  "pool": "sourced",
+  "text": "The Vigilant left Valparaiso March 25th, and on April 2d was driven considerably south of her course by exceptionally heavy storms and monster waves. On April 12th the derelict was sighted; and though apparently deserted, was found upon boarding to contain one survivor in a half-delirious condition and one man who had evidently been dead for more than a week. The living man was clutching a horrible stone idol of unknown origin, about a foot in height, regarding whose nature authorities at Sydney University, the Royal Society, and the Museum in College Street all profess complete bafflement, and which the survivor says he found in the cabin of the yacht, in a small carved shrine of common pattern. This man, after recovering his senses, told an exceedingly strange story of piracy and slaughter. He is Gustaf Johansen, a Norwegian of some intelligence, and had been second mate of the two-masted schooner Emma of Auckland, which sailed for Callao February 20th, with a complement of eleven men.",
+  "words": [
+    {
+      "word": "survivor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clutching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eleven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

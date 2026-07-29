@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-040",
+  "pool": "sourced",
+  "text": "The police were ignorant what had become of the detective, Fix, who had so unfortunately followed up a false scent. Bets increased, nevertheless, in number and value. Phileas Fogg, like a racehorse, was drawing near his last turning-point. The bonds were quoted, no longer at a hundred below par, but at twenty, at ten, and at five; and paralytic old Lord Albemarle bet even in his favour. A great crowd was collected in Pall Mall and the neighbouring streets on Saturday evening; it seemed like a multitude of brokers permanently established around the Reform Club.",
+  "words": [
+    {
+      "word": "detective",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "par",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "multitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

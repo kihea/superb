@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-island-038",
+  "pool": "sourced",
+  "text": "Cyrus Harding respected the captain’s silence, and waited till he should speak. After some minutes, during which, doubtless, he passed in review his whole life, Captain Nemo turned to the colonists and said, “You consider yourselves, gentlemen, under some obligations to me?” “Captain, believe us that we would give our lives to prolong yours.” “Promise, then,” continued Captain Nemo, “to carry out my last wishes, and I shall be repaid for all I have done for you.” “We promise,” said Cyrus Harding. And by this promise he bound both himself and his companions. “Gentlemen,” resumed the captain, “to-morrow I shall be dead.” Herbert was about to utter an exclamation, but a sign from the captain arrested him. “To-morrow I shall die, and I desire no other tomb than the ‘Nautilus.’ It is my grave!",
+  "words": [
+    {
+      "word": "tomb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

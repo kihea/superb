@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-through-the-looking-glass-025",
+  "pool": "sourced",
+  "text": "Alice was silent. “In spring, when woods are getting green, I’ll try and tell you what I mean.” “Thank you very much,” said Alice. “In summer, when the days are long, Perhaps you’ll understand the song: In autumn, when the leaves are brown, Take pen and ink, and write it down.” “I will, if I can remember it so long,” said Alice. “You needn’t go on making remarks like that,” Humpty Dumpty said: “they’re not sensible, and they put me out.” “I sent a message to the fish: I told them ‘This is what I wish.’ The little fishes of the sea, They sent an answer back to me. The little fishes’ answer was ‘We cannot do it, Sir, because—’” “I’m afraid I don’t quite understand,” said Alice.",
+  "words": [
+    {
+      "word": "fishes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

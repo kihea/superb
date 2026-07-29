@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-daisy-miller-034",
+  "pool": "sourced",
+  "text": "“Well, he’s a real gentleman, anyhow. I keep telling Daisy she’s engaged!” “And what does Daisy say?” “Oh, she says she isn’t engaged. But she might as well be!” this impartial parent resumed; “she goes on as if she was. But I’ve made Mr. Giovanelli promise to tell me, if SHE doesn’t. I should want to write to Mr. Miller about it--shouldn’t you?” Winterbourne replied that he certainly should; and the state of mind of Daisy’s mamma struck him as so unprecedented in the annals of parental vigilance that he gave up as utterly irrelevant the attempt to place her upon her guard.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-037",
+  "pool": "sourced",
+  "text": "But they must pass the stream that night, and seize the heights by morning. It is with the very stir and throb of that romantic nocturnal march that the diary suddenly ends.” Father Brown had mounted ahead; for the woodland path grew smaller, steeper, and more twisted, till they felt as if they were ascending a winding staircase. The priest’s voice came from above out of the darkness. “There was one other little and enormous thing. When the general urged them to their chivalric charge he half drew his sword from the scabbard; and then, as if ashamed of such melodrama, thrust it back again.",
+  "words": [
+    {
+      "word": "nocturnal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-040",
+  "pool": "sourced",
+  "text": "The patience and forbearance of Indian fortitude could alone support such an appearance of abstraction, as seemed now to have turned each dark and motionless figure into stone. At length, the sage of the Delawares stretched forth an arm, and leaning on the shoulders of his attendants, he arose with an air as feeble as if another age had already intervened between the man who had met his nation the preceding day, and him who now tottered on his elevated stand. “Men of the Lenape!” he said, in low, hollow tones, that sounded like a voice charged with some prophetic mission: “the face of the Manitou is behind a cloud! His eye is turned from you; His ears are shut; His tongue gives no answer. You see him not; yet His judgments are before you.",
+  "words": [
+    {
+      "word": "fortitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

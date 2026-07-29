@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-white-fang-023",
+  "pool": "sourced",
+  "text": "The sled itself was without runners, being a birch-bark toboggan, with upturned forward end to keep it from ploughing under the snow. This construction enabled the weight of the sled and load to be distributed over the largest snow-surface; for the snow was crystal-powder and very soft. Observing the same principle of widest distribution of weight, the dogs at the ends of their ropes radiated fan-fashion from the nose of the sled, so that no dog trod in another’s footsteps. There was, furthermore, another virtue in the fan-formation. The ropes of varying length prevented the dogs attacking from the rear those that ran in front of them.",
+  "words": [
+    {
+      "word": "sled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

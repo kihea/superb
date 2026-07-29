@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-gulliver-s-travels-030",
+  "pool": "sourced",
+  "text": "But the usual way of computing how old they are, is by asking them what kings or great persons they can remember, and then consulting history; for infallibly the last prince in their mind did not begin his reign after they were fourscore years old. They were the most mortifying sight I ever beheld; and the women more horrible than the men. Besides the usual deformities in extreme old age, they acquired an additional ghastliness, in proportion to their number of years, which is not to be described; and among half a dozen, I soon distinguished which was the eldest, although there was not above a century or two between them. The reader will easily believe, that from what I had heard and seen, my keen appetite for perpetuity of life was much abated. I grew heartily ashamed of the pleasing visions I had formed; and thought no tyrant could invent a death into which I would not run with pleasure, from such a life.",
+  "words": [
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pleasing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tyrant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-a-tale-of-two-cities-003",
   "pool": "sourced",
-  "text": "In the gloomy tile-paved entry to the gloomy tile-paved staircase, Monsieur Defarge bent down on one knee to the child of his old master, and put her hand to his lips. It was a gentle action, but not at all gently done; a very remarkable transformation had come over him in a few seconds. He had no good-humour in his face, nor any openness of aspect left, but had become a secret, angry, dangerous man. “It is very high; it is a little difficult. Better to begin slowly.” Thus, Monsieur Defarge, in a stern voice, to Mr. Lorry, as they began ascending the stairs.",
+  "text": "The air among the houses was of so strong a piscatory flavour that one might have supposed sick fish went up to be dipped in it, as sick people went down to be dipped in the sea. A little fishing was done in the port, and a quantity of strolling about by night, and looking seaward: particularly at those times when the tide made, and was near flood. Small tradesmen, who did no business whatever, sometimes unaccountably realised large fortunes, and it was remarkable that nobody in the neighbourhood could endure a lamplighter. As the day declined into the afternoon, and the air, which had been at intervals clear enough to allow the French coast to be seen, became again charged with mist and vapour, Mr. Lorry’s thoughts seemed to cloud too. When it was dark, and he sat before the coffee-room fire, awaiting his dinner as he had awaited his breakfast, his mind was busily digging, digging, digging, in the live red coals.",
   "words": [
     {
-      "word": "staircase",
+      "word": "tide",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stairs",
+      "word": "mist",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

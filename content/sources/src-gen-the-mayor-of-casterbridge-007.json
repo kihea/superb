@@ -1,12 +1,30 @@
 {
   "id": "src-gen-the-mayor-of-casterbridge-007",
   "pool": "sourced",
-  "text": "Indoors she fell to conjecturing the meaning of Farfrae’s enigmatic words about not daring to ask her what he fain would. Elizabeth, that silent observing woman, had long noted how he was rising in favour among the townspeople; and knowing Henchard’s nature now she had feared that Farfrae’s days as manager were numbered, so that the announcement gave her little surprise. Would Mr. Farfrae stay in Casterbridge despite his words and her father’s dismissal? His occult breathings to her might be solvable by his course in that respect. The next day was windy—so windy that walking in the garden she picked up a portion of the draft of a letter on business in Donald Farfrae’s writing, which had flown over the wall from the office.",
+  "text": "Henchard preceded her through the door in the wall to the suddenly changed scene of the garden and flowers, and onward into the house. The dining-room to which he introduced her still exhibited the remnants of the lavish breakfast laid for Farfrae. It was furnished to profusion with heavy mahogany furniture of the deepest red-Spanish hues. Pembroke tables, with leaves hanging so low that they well-nigh touched the floor, stood against the walls on legs and feet shaped like those of an elephant, and on one lay three huge folio volumes—a Family Bible, a “Josephus,” and a “Whole Duty of Man.” In the chimney corner was a fire-grate with a fluted semi-circular back, having urns and festoons cast in relief thereon, and the chairs were of the kind which, since that day, has cast lustre upon the names of Chippendale and Sheraton, though, in point of fact, their patterns may have been such as those illustrious carpenters never saw or heard of. “Sit down—Elizabeth-Jane—sit down,” he said, with a shake in his voice as he uttered her name, and sitting down himself he allowed his hands to hang between his knees while he looked upon the carpet.",
   "words": [
     {
-      "word": "indoors",
+      "word": "mahogany",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elephant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illustrious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carpet",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

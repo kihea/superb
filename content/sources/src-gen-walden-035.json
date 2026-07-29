@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-walden-035",
+  "pool": "sourced",
+  "text": "The one melts, the other but breaks in pieces. When the ground was partially bare of snow, and a few warm days had dried its surface somewhat, it was pleasant to compare the first tender signs of the infant year just peeping forth with the stately beauty of the withered vegetation which had withstood the winter,—life-everlasting, golden-rods, pinweeds, and graceful wild grasses, more obvious and interesting frequently than in summer even, as if their beauty was not ripe till then; even cotton-grass, cat-tails, mulleins, johnswort, hard-hack, meadow-sweet, and other strong stemmed plants, those unexhausted granaries which entertain the earliest birds,—decent weeds, at least, which widowed Nature wears. I am particularly attracted by the arching and sheaf-like top of the wool-grass; it brings back the summer to our winter memories, and is among the forms which art loves to copy, and which, in the vegetable kingdom, have the same relation to types already in the mind of man that astronomy has. It is an antique style older than Greek or Egyptian. Many of the phenomena of Winter are suggestive of an inexpressible tenderness and fragile delicacy.",
+  "words": [
+    {
+      "word": "bare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vegetation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ripe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tenderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

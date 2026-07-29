@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-turn-of-the-screw-014",
   "pool": "sourced",
-  "text": "Finally I went out, taking a candle; I crossed the passage and listened a minute at Miles’s door. What, under my endless obsession, I had been impelled to listen for was some betrayal of his not being at rest, and I presently caught one, but not in the form I had expected. His voice tinkled out. “I say, you there—come in.” It was a gaiety in the gloom! I went in with my light and found him, in bed, very wide awake, but very much at his ease.",
+  "text": "I should not have been prompted, by stress of need, by desperation of mind—I scarce know what to call it—to invoke such further aid to intelligence as might spring from pushing my colleague fairly to the wall. She had told me, bit by bit, under pressure, a great deal; but a small shifty spot on the wrong side of it all still sometimes brushed my brow like the wing of a bat; and I remember how on this occasion—for the sleeping house and the concentration alike of our danger and our watch seemed to help—I felt the importance of giving the last jerk to the curtain. “I don’t believe anything so horrible,” I recollect saying; “no, let us put it definitely, my dear, that I don’t. But if I did, you know, there’s a thing I should require now, just without sparing you the least bit more—oh, not a scrap, come!—to get out of you. What was it you had in mind when, in our distress, before Miles came back, over the letter from his school, you said, under my insistence, that you didn’t pretend for him that he had not literally ever been ‘bad’?",
   "words": [
     {
-      "word": "candle",
+      "word": "desperation",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "obsession",
+      "word": "invoke",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alike",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scrap",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

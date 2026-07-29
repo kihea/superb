@@ -1,10 +1,16 @@
 {
   "id": "src-gen-carmilla-018",
   "pool": "sourced",
-  "text": "But all hung now upon the confines of the irrevocable. One more assault might extinguish the last spark of vitality which is, every moment, ready to die. “‘And what is the nature of the seizure you speak of?’ I entreated. “‘I have stated all fully in this note, which I place in your hands upon the distinct condition that you send for the nearest clergyman, and open my letter in his presence, and on no account read it till he is with you; you would despise it else, and it is a matter of life and death. Should the priest fail you, then, indeed, you may read it.’ “He asked me, before taking his leave finally, whether I would wish to see a man curiously learned upon the very subject, which, after I had read his letter, would probably interest me above all others, and he urged me earnestly to invite him to visit him there; and so took his leave.",
+  "text": "But I was equally conscious of being in my room, and lying in bed, precisely as I actually was. I saw, or fancied I saw, the room and its furniture just as I had seen it last, except that it was very dark, and I saw something moving round the foot of the bed, which at first I could not accurately distinguish. But I soon saw that it was a sooty-black animal that resembled a monstrous cat. It appeared to me about four or five feet long for it measured fully the length of the hearthrug as it passed over it; and it continued to-ing and fro-ing with the lithe, sinister restlessness of a beast in a cage. I could not cry out, although as you may suppose, I was terrified.",
   "words": [
     {
-      "word": "spark",
+      "word": "accurately",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinguish",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

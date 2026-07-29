@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-three-musketeers-034",
+  "pool": "sourced",
+  "text": "However, a few instants after she had finished her religious song, Milady thought she heard a profound sigh. Then the same steps she had heard approach slowly withdrew, as if with regret. CAPTIVITY: THE FOURTH DAY The next day, when Felton entered Milady’s apartment he found her standing, mounted upon a chair, holding in her hands a cord made by means of torn cambric handkerchiefs, twisted into a kind of rope one with another, and tied at the ends. At the noise Felton made in entering, Milady leaped lightly to the ground, and tried to conceal behind her the improvised cord she held in her hand. The young man was more pale than usual, and his eyes, reddened by want of sleep, denoted that he had passed a feverish night.",
+  "words": [
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

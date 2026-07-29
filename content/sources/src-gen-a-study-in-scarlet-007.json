@@ -1,16 +1,10 @@
 {
   "id": "src-gen-a-study-in-scarlet-007",
   "pool": "sourced",
-  "text": "A look of surprise passed over the face of my companion as he listened to it. It came slowly along the passage, and there was a feeble tap at the door. “Come in,” I cried. At my summons, instead of the man of violence whom we expected, a very old and wrinkled woman hobbled into the apartment. She appeared to be dazzled by the sudden blaze of light, and after dropping a curtsey, she stood blinking at us with her bleared eyes and fumbling in her pocket with nervous, shaky fingers.",
+  "text": "From long habit the train of thoughts ran so swiftly through my mind, that I arrived at the conclusion without being conscious of intermediate steps. There were such steps, however. The train of reasoning ran, ‘Here is a gentleman of a medical type, but with the air of a military man. Clearly an army doctor, then. He has just come from the tropics, for his face is dark, and that is not the natural tint of his skin, for his wrists are fair.",
   "words": [
     {
-      "word": "blaze",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blinking",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1887,
     "source": "Project Gutenberg #244",
-    "url": "https://www.gutenberg.org/ebooks/244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

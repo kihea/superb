@@ -1,10 +1,22 @@
 {
   "id": "src-gen-sense-and-sensibility-018",
   "pool": "sourced",
-  "text": "The event has proved, that I was a cunning fool, providing with great circumspection for a possible opportunity of making myself contemptible and wretched for ever. At last, however, my resolution was taken, and I had determined, as soon as I could engage her alone, to justify the attentions I had so invariably paid her, and openly assure her of an affection which I had already taken such pains to display. But in the interim--in the interim of the very few hours that were to pass, before I could have an opportunity of speaking with her in private--a circumstance occurred--an unlucky circumstance--to ruin all my resolution, and with it all my comfort. A discovery took place,\"--here he hesitated and looked down. \"Mrs. Smith had somehow or other been informed, I imagine by some distant relation, whose interest it was to deprive me of her favour, of an affair, a connection--but I need not explain myself farther,\" he added, looking at her with an heightened colour and an enquiring eye,--\"your particular intimacy--you have probably heard the whole story long ago.\"",
+  "text": "But my mother, my dearest, kindest mother,--I feel the justice of what Elinor has urged, and if she were to be made less happy, less comfortable by our absence--Oh! no, nothing should tempt me to leave her. It should not, must not be a struggle.\" Mrs. Jennings repeated her assurance that Mrs. Dashwood could spare them perfectly well; and Elinor, who now understood her sister, and saw to what indifference to almost every thing else she was carried by her eagerness to be with Willoughby again, made no farther direct opposition to the plan, and merely referred it to her mother's decision, from whom however she scarcely expected to receive any support in her endeavour to prevent a visit, which she could not approve of for Marianne, and which on her own account she had particular reasons to avoid. Whatever Marianne was desirous of, her mother would be eager to promote--she could not expect to influence the latter to cautiousness of conduct in an affair respecting which she had never been able to inspire her with distrust; and she dared not explain the motive of her own disinclination for going to London.",
   "words": [
     {
-      "word": "circumstance",
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eager",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inspire",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

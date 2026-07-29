@@ -1,16 +1,10 @@
 {
   "id": "src-gen-through-the-looking-glass-017",
   "pool": "sourced",
-  "text": "I shook him well from side to side, Until his face was blue: ‘Come, tell me how you live,’ I cried, ‘And what it is you do!’ He said ‘I hunt for haddocks’ eyes Among the heather bright, And work them into waistcoat-buttons In the silent night. And these I do not sell for gold Or coin of silvery shine But for a copper halfpenny, And that will purchase nine. ‘I sometimes dig for buttered rolls, Or set limed twigs for crabs; I sometimes search the grassy knolls For wheels of Hansom-cabs. And that’s the way’ (he gave a wink) ‘By which I get my wealth— And very gladly will I drink Your Honour’s noble health.’ I heard him then, for I had just Completed my design To keep the Menai bridge from rust By boiling it in wine. I thanked him much for telling me The way he got his wealth, But chiefly for his wish that he Might drink my noble health.",
+  "text": "“He’s dreaming now,” said Tweedledee: “and what do you think he’s dreaming about?” Alice said “Nobody can guess that.” “Why, about you!” Tweedledee exclaimed, clapping his hands triumphantly. “And if he left off dreaming about you, where do you suppose you’d be?” “Where I am now, of course,” said Alice. “Not you!” Tweedledee retorted contemptuously. “You’d be nowhere. Why, you’re only a sort of thing in his dream!” “If that there King was to wake,” added Tweedledum, “you’d go out—bang!—just like a candle!” “I shouldn’t!” Alice exclaimed indignantly.",
   "words": [
     {
-      "word": "coin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wink",
+      "word": "dreaming",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

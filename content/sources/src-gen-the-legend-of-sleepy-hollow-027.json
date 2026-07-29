@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-027",
+  "pool": "sourced",
+  "text": "Many dismal tales were told about funeral trains, and mourning cries and wailings heard and seen about the great tree where the unfortunate Major André was taken, and which stood in the neighborhood. Some mention was made also of the woman in white, that haunted the dark glen at Raven Rock, and was often heard to shriek on winter nights before a storm, having perished there in the snow. The chief part of the stories, however, turned upon the favorite spectre of Sleepy Hollow, the Headless Horseman, who had been heard several times of late, patrolling the country; and, it was said, tethered his horse nightly among the graves in the churchyard. The sequestered situation of this church seems always to have made it a favorite haunt of troubled spirits. It stands on a knoll, surrounded by locust-trees and lofty elms, from among which its decent, whitewashed walls shine modestly forth, like Christian purity beaming through the shades of retirement.",
+  "words": [
+    {
+      "word": "haunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

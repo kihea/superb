@@ -1,17 +1,16 @@
 {
   "id": "src-gen-the-invisible-man-015",
   "pool": "sourced",
-  "text": "I realised I was invisible and inaudible, that overwhelming forces had their grip on me. I struggled in vain, I was forced over the brink, the coffin rang hollow as I fell upon it, and the gravel came flying after me in spadefuls. Nobody heeded me, nobody was aware of me. I made convulsive struggles and awoke. “The pale London dawn had come, the place was full of a chilly grey light that filtered round the edges of the window blinds.",
+  "text": "And then the whole tumultuous rush has passed and the Iping street with its gauds and flags is deserted save for the still raging unseen, and littered with cocoanuts, overthrown canvas screens, and the scattered stock in trade of a sweetstuff stall. Everywhere there is a sound of closing shutters and shoving bolts, and the only visible humanity is an occasional flitting eye under a raised eyebrow in the corner of a window pane. The Invisible Man amused himself for a little while by breaking all the windows in the “Coach and Horses,” and then he thrust a street lamp through the parlour window of Mrs. Gribble. He it must have been who cut the telegraph wire to Adderdean just beyond Higgins’ cottage on the Adderdean road. And after that, as his peculiar qualities allowed, he passed out of human perceptions altogether, and he was neither heard, seen, nor felt in Iping any more.",
   "words": [
     {
-      "word": "brink",
+      "word": "unseen",
       "signals": [
-        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "pale",
+      "word": "eyebrow",
       "signals": [
         "gloss-overlap"
       ]
@@ -22,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

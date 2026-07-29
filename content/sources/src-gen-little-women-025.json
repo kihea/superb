@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-little-women-025",
+  "pool": "sourced",
+  "text": "I promise never to hop very far, if that is any comfort to you.” “It’s a great comfort, Jo. I always feel strong when you are at home, now Meg is gone. Beth is too feeble and Amy too young to depend upon, but when the tug comes, you are always ready.” “Why, you know I don’t mind hard jobs much, and there must always be one scrub in a family. Amy is splendid in fine works and I’m not, but I feel in my element when all the carpets are to be taken up, or half the family fall sick at once. Amy is distinguishing herself abroad, but if anything is amiss at home, I’m your man.” “I leave Beth to your hands, then, for she will open her tender little heart to her Jo sooner than to anyone else.",
+  "words": [
+    {
+      "word": "tug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

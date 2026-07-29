@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-david-copperfield-024",
+  "pool": "sourced",
+  "text": "‘I believe that is your writing, Mr. Copperfield?’ said Mr. Spenlow. I was very hot, and the voice I heard was very unlike mine, when I said, ‘It is, sir!’ ‘If I am not mistaken,’ said Mr. Spenlow, as Miss Murdstone brought a parcel of letters out of her reticule, tied round with the dearest bit of blue ribbon, ‘those are also from your pen, Mr. Copperfield?’ I took them from her with a most desolate sensation; and, glancing at such phrases at the top, as ‘My ever dearest and own Dora,’ ‘My best beloved angel,’ ‘My blessed one for ever,’ and the like, blushed deeply, and inclined my head. ‘No, thank you!’ said Mr. Spenlow, coldly, as I mechanically offered them back to him. ‘I will not deprive you of them. Miss Murdstone, be so good as to proceed!’ That gentle creature, after a moment’s thoughtful survey of the carpet, delivered herself with much dry unction as follows.",
+  "words": [
+    {
+      "word": "dearest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beloved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

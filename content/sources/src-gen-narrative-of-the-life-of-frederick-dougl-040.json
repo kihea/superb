@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-040",
+  "pool": "sourced",
+  "text": "I conclude these remarks by copying the following portrait of the religion of the south, (which is, by communion and fellowship, the religion of the north,) which I soberly affirm is “true to the life,” and without caricature or the slightest exaggeration. It is said to have been drawn, several years before the present anti-slavery agitation began, by a northern Methodist preacher, who, while residing at the south, had an opportunity to see slaveholding morals, manners, and piety, with his own eyes. “Shall I not visit for these things? saith the Lord. Shall not my soul be avenged on such a nation as this?” A PARODY “Come, saints and sinners, hear me tell How pious priests whip Jack and Nell, And women buy and children sell, And preach all sinners down to hell, And sing of heavenly union.",
+  "words": [
+    {
+      "word": "conclude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fellowship",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "preacher",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

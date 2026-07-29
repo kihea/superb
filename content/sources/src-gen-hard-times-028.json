@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-028",
+  "pool": "sourced",
+  "text": "Its pursuit, nevertheless, if it kept him near her, or its renunciation if it took him from her, or flight if she shared it, or secrecy if she commanded it, or any fate, or every fate, all was alike to him, so that she was true to him,—the man who had seen how cast away she was, whom she had inspired at their first meeting with an admiration, an interest, of which he had thought himself incapable, whom she had received into her confidence, who was devoted to her and adored her. All this, and more, in his hurry, and in hers, in the whirl of her own gratified malice, in the dread of being discovered, in the rapidly increasing noise of heavy rain among the leaves, and a thunderstorm rolling up—Mrs. Sparsit received into her mind, set off with such an unavoidable halo of confusion and indistinctness, that when at length he climbed the fence and led his horse away, she was not sure where they were to meet, or when, except that they had said it was to be that night.",
+  "words": [
+    {
+      "word": "admiration",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "thunderstorm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-031",
+  "pool": "sourced",
+  "text": "A form now appeared upon the rise on the other side of the swamp, half-hidden by the mist, and came towards Bathsheba. The female—for it was a female—approached with her face askance, as if looking earnestly on all sides of her. When she got a little further round to the left, and drew nearer, Bathsheba could see the new-comer’s profile against the sunny sky, and knew the wavy sweep from forehead to chin, with neither angle nor decisive line anywhere about it, to be the familiar contour of Liddy Smallbury. Bathsheba’s heart bounded with gratitude in the thought that she was not altogether deserted, and she jumped up. “O, Liddy!” she said, or attempted to say; but the words had only been framed by her lips; there came no sound.",
+  "words": [
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

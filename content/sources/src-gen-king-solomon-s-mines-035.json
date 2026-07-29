@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-035",
+  "pool": "sourced",
+  "text": "Along the side of the passage were similar blocks ready for use, and, most curious of all, a heap of mortar and a couple of trowels, which tools, so far as we had time to examine them, appeared to be of a similar shape and make to those used by workmen to this day. Here Foulata, who had been in a state of great fear and agitation throughout, said that she felt faint and could go no farther, but would wait there. Accordingly we set her down on the unfinished wall, placing the basket of provisions by her side, and left her to recover. Following the passage for about fifteen paces farther, we came suddenly to an elaborately painted wooden door. It was standing wide open.",
+  "words": [
+    {
+      "word": "heap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mortar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

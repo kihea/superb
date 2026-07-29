@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-custom-of-the-country-034",
+  "pool": "sourced",
+  "text": "The summer had been more than usually inclement, and since her first coming to the country Undine had lived through many periods of rainy weather; but none which had gone before had so completely epitomized, so summed up in one vast monotonous blur, the image of her long months at Saint Desert. When, the year before, she had reluctantly suffered herself to be torn from the joys of Paris, she had been sustained by the belief that her exile would not be of long duration. Once Paris was out of sight, she had even found a certain lazy charm in the long warm days at Saint Desert. Her parents-in-law had remained in town, and she enjoyed being alone with her husband, exploring and appraising the treasures of the great half abandoned house, and watching her boy scamper over the June meadows or trot about the gardens on the poney his stepfather had given him. Paul, after Mrs. Heeny's departure, had grown fretful and restive, and Undine had found it more and more difficult to fit his small exacting personality into her cramped rooms and crowded life.",
+  "words": [
+    {
+      "word": "sustained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "charm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepfather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

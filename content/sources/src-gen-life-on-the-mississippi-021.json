@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-life-on-the-mississippi-021",
+  "pool": "sourced",
+  "text": "Helena is the second town in Arkansas, in point of population--which is placed at five thousand. The country about it is exceptionally productive. Helena has a good cotton trade; handles from forty to sixty thousand bales annually; she has a large lumber and grain commerce; has a foundry, oil mills, machine shops and wagon factories--in brief has $1,000,000 invested in manufacturing industries. She has two railways, and is the commercial center of a broad and prosperous region. Her gross receipts of money, annually, from all sources, are placed by the New Orleans 'Times-Democrat' at $4,000,000.",
+  "words": [
+    {
+      "word": "sixty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

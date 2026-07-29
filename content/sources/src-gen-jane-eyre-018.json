@@ -1,10 +1,22 @@
 {
   "id": "src-gen-jane-eyre-018",
   "pool": "sourced",
-  "text": "I like Moor House, and I will live at Moor House; I like Diana and Mary, and I will attach myself for life to Diana and Mary. It would please and benefit me to have five thousand pounds; it would torment and oppress me to have twenty thousand; which, moreover, could never be mine in justice, though it might in law. I abandon to you, then, what is absolutely superfluous to me. Let there be no opposition, and no discussion about it; let us agree amongst each other, and decide the point at once.” “This is acting on first impulses; you must take days to consider such a matter, ere your word can be regarded as valid.” “Oh! if all you doubt is my sincerity, I am easy: you see the justice of the case?” “I do see a certain justice; but it is contrary to all custom.",
+  "text": "My whim is gratified; and now I think Mr. Eshton will do well to put the hag in the stocks to-morrow morning, as he threatened.” Miss Ingram took a book, leant back in her chair, and so declined further conversation. I watched her for nearly half-an-hour: during all that time she never turned a page, and her face grew momently darker, more dissatisfied, and more sourly expressive of disappointment. She had obviously not heard anything to her advantage: and it seemed to me, from her prolonged fit of gloom and taciturnity, that she herself, notwithstanding her professed indifference, attached undue importance to whatever revelations had been made her. During all that time she never turned a page Meantime, Mary Ingram, Amy and Louisa Eshton, declared they dared not go alone; and yet they all wished to go. A negotiation was opened through the medium of the ambassador, Sam; and after much pacing to and fro, till, I think, the said Sam’s calves must have ached with the exercise, permission was at last, with great difficulty, extorted from the rigorous Sibyl, for the three to wait upon her in a body.",
   "words": [
     {
-      "word": "contrary",
+      "word": "dissatisfied",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "professed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fro",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

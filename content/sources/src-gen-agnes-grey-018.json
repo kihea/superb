@@ -1,10 +1,16 @@
 {
   "id": "src-gen-agnes-grey-018",
   "pool": "sourced",
-  "text": "Doubtless you will be able to discover prodigious beauties in them, which you must point out to me, as I only admire by hearsay; and many elegant curiosities besides, which I purchased at Rome and elsewhere; and, finally, you shall see my new home—the splendid house and grounds I used to covet so greatly. how far the promise of anticipation exceeds the pleasure of possession! There’s a fine sentiment! I assure you I am become quite a grave old matron: pray come, if it be only to witness the wonderful change. Write by return of post, and tell me when your vacation commences, and say that you will come the day after, and stay till the day before it closes—in mercy to “Yours affectionately, “ROSALIE ASHBY.” I showed this strange epistle to my mother, and consulted her on what I ought to do.",
+  "text": "Think of any woman asking that!” “Well, I should think one conquest would be enough; and too much, unless the subjugation were mutual.” “Oh, but you know I never agree with you on those points. Now, wait a bit, and I’ll tell you my principal admirers—those who made themselves very conspicuous that night and after: for I’ve been to two parties since. Unfortunately the two noblemen, Lord G—— and Lord F——, were married, or I might have condescended to be particularly gracious to them; as it was, I did not: though Lord F——, who hates his wife, was evidently much struck with me. He asked me to dance with him twice—he is a charming dancer, by-the-by, and so am I: you can’t think how well I did—I was astonished at myself. My lord was very complimentary too—rather too much so in fact—and I thought proper to be a little haughty and repellent; but I had the pleasure of seeing his nasty, cross wife ready to perish with spite and vexation—” “Oh, Miss Murray!",
   "words": [
     {
-      "word": "beauties",
+      "word": "conquest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

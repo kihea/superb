@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-032",
+  "pool": "sourced",
+  "text": "“Sing!” I heard Montgomery shout,—“sing all together, ‘Confound old Prendick!’ That’s right; now again, ‘Confound old Prendick!’” The black group broke up into five separate figures, and wound slowly away from me along the band of shining beach. Each went howling at his own sweet will, yelping insults at me, or giving whatever other vent this new inspiration of brandy demanded. Presently I heard Montgomery’s voice shouting, “Right turn!” and they passed with their shouts and howls into the blackness of the landward trees. Slowly, very slowly, they receded into silence. The peaceful splendour of the night healed again.",
+  "words": [
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "howling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

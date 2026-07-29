@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-035",
+  "pool": "sourced",
+  "text": "The musmons and the goats, sleeping no doubt in their huts, in no way disturbed the calm of night. The reporter and the sailor hearing nothing, asked themselves whether they had not better scale the palisades and penetrate into the corral. This would have been contrary to Cyrus Harding’s instructions. It is true that the enterprise might succeed, but it might also fail. Now, if the convicts were suspecting nothing, if they knew nothing of the expedition against them, if, lastly, there now existed a chance of surprising them, ought this chance to be lost by inconsiderately attempting to cross the palisades?",
+  "words": [
+    {
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expedition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

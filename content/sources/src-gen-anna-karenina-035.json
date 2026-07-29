@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-anna-karenina-035",
+  "pool": "sourced",
+  "text": "Had some vodka? Well, come along then.” Levin got up and went with him to the big table spread with spirits and appetizers of the most various kinds. One would have thought that out of two dozen delicacies one might find something to one’s taste, but Stepan Arkadyevitch asked for something special, and one of the liveried waiters standing by immediately brought what was required. They drank a wine-glassful and returned to their table. At once, while they were still at the soup, Gagin was served with champagne, and told the waiter to fill four glasses.",
+  "words": [
+    {
+      "word": "soup",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "champagne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

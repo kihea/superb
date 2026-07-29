@@ -1,10 +1,22 @@
 {
   "id": "src-gen-a-tale-of-two-cities-017",
   "pool": "sourced",
-  "text": "Seeing it, he poured out and drank another glassful. “Look over your hand carefully, Mr. Barsad. Take time.” It was a poorer hand than he suspected. Mr. Barsad saw losing cards in it that Sydney Carton knew nothing of. Thrown out of his honourable employment in England, through too much unsuccessful hard swearing there--not because he was not wanted there; our English reasons for vaunting our superiority to secrecy and spies are of very modern date--he knew that he had crossed the Channel, and accepted service in France: first, as a tempter and an eavesdropper among his own countrymen there: gradually, as a tempter and an eavesdropper among the natives.",
+  "text": "What do you say?” “How long would you keep me in town?” “Oh! It is only a question of a few hours. I could go to Soho in the evening, and come to your chambers afterwards.” “Then I say yes,” said Stryver: “I won’t go up there now, I am not so hot upon it as that comes to; I say yes, and I shall expect you to look in to-night. Good morning.” Then Mr. Stryver turned and burst out of the Bank, causing such a concussion of air on his passage through, that to stand up against it bowing behind the two counters, required the utmost remaining strength of the two ancient clerks. Those venerable and feeble persons were always seen by the public in the act of bowing, and were popularly believed, when they had bowed a customer out, still to keep on bowing in the empty office until they bowed another customer in.",
   "words": [
     {
-      "word": "swearing",
+      "word": "chambers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feeble",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-scarlet-letter-036",
+  "pool": "sourced",
+  "text": "The people possessed by hereditary right the quality of reverence, which, in their descendants, if it survive at all, exists in smaller proportion, and with a vastly diminished force in the selection and estimate of public men. The change may be for good or ill, and is partly, perhaps, for both. In that old day the English settler on these rude shores—having left king, nobles, and all degrees of awful rank behind, while still the faculty and necessity of reverence was strong in him—bestowed it on the white hair and venerable brow of age—on long-tried integrity—on solid wisdom and sad-coloured experience—on endowments of that grave and weighty order which gave the idea of permanence, and comes under the general definition of respectability. These primitive statesmen, therefore—Bradstreet, Endicott, Dudley, Bellingham, and their compeers—who were elevated to power by the early choice of the people, seem to have been not often brilliant, but distinguished by a ponderous sobriety, rather than activity of intellect. They had fortitude and self-reliance, and in time of difficulty or peril stood up for the welfare of the state like a line of cliffs against a tempestuous tide.",
+  "words": [
+    {
+      "word": "necessity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "venerable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sobriety",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intellect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

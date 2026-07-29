@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-027",
+  "pool": "sourced",
+  "text": "“Well,” said the banker to his daughter, “are we then all to be excluded?” He then led the young man into the study, and either by chance or manœuvre the door was partially closed after Andrea, so that from the place where they sat neither the Count nor the baroness could see anything; but as the banker had accompanied Andrea, Madame Danglars appeared to take no notice of it. The count soon heard Andrea’s voice, singing a Corsican song, accompanied by the piano. While the count smiled at hearing this song, which made him lose sight of Andrea in the recollection of Benedetto, Madame Danglars was boasting to Monte Cristo of her husband’s strength of mind, who that very morning had lost three or four hundred thousand francs by a failure at Milan. The praise was well deserved, for had not the count heard it from the baroness, or by one of those means by which he knew everything, the baron’s countenance would not have led him to suspect it.",
+  "words": [
+    {
+      "word": "banker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "baroness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

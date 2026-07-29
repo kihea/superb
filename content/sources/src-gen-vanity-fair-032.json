@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-vanity-fair-032",
+  "pool": "sourced",
+  "text": "But, Law bless you, I promise you, he punished my champagne, and had a party ere every night--reglar tip-top swells, down from the clubs and the West End--Capting Ragg, the Honorable Deuceace, who lives in the Temple, and some fellers as knows a good glass of wine, I warrant you. I've got a Doctor of Diwinity upstairs, five gents in the coffee-room, and Mrs. Moss has a tably-dy-hoty at half-past five, and a little cards or music afterwards, when we shall be most happy to see you.\" \"I'll ring when I want anything,\" said Rawdon and went quietly to his bedroom. He was an old soldier, we have said, and not to be disturbed by any little shocks of fate. A weaker man would have sent off a letter to his wife on the instant of his capture.",
+  "words": [
+    {
+      "word": "champagne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gents",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weaker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-war-and-peace-036",
+  "pool": "sourced",
+  "text": "And though they pretended to be concerned about the army, each was thinking only of himself and of how to get away quickly and save himself. The movements of the Russian and French armies during the campaign from Moscow back to the Niemen were like those in a game of Russian blindman’s buff, in which two players are blindfolded and one of them occasionally rings a little bell to inform the catcher of his whereabouts. First he rings his bell fearlessly, but when he gets into a tight place he runs away as quietly as he can, and often thinking to escape runs straight into his opponent’s arms. At first while they were still moving along the Kalúga road, Napoleon’s armies made their presence known, but later when they reached the Smolénsk road they ran holding the clapper of their bell tight—and often thinking they were escaping ran right into the Russians. Owing to the rapidity of the French flight and the Russian pursuit and the consequent exhaustion of the horses, the chief means of approximately ascertaining the enemy’s position—by cavalry scouting—was not available.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "opponent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "escaping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "owing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cavalry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

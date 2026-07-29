@@ -1,18 +1,30 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-019",
   "pool": "sourced",
-  "text": "The sword again, you see.” A half-light broke through the network of boughs above them, flinging the ghost of a net about their feet; for they were mounting again to the faint luminosity of the naked night. Flambeau felt truth all round him as an atmosphere, but not as an idea. He answered with bewildered brain: “Well, what’s the matter with the sword? Officers generally have swords, don’t they?” “They are not often mentioned in modern war,” said the other dispassionately; “but in this affair one falls over the blessed sword everywhere.” “Well, what is there in that?” growled Flambeau; “it was a twopence coloured sort of incident; the old man’s blade breaking in his last battle. Anyone might bet the papers would get hold of it, as they have.",
+  "text": "But it struck the spade with a cold click; it rolled over like a ball, and grinned up at them. “The Earl of Glengyle,” said Brown sadly, and looked down heavily at the skull. Then, after a momentary meditation, he plucked the spade from Flambeau, and, saying “We must hide it again,” clamped the skull down in the earth. Then he leaned his little body and huge head on the great handle of the spade, that stood up stiffly in the earth, and his eyes were empty and his forehead full of wrinkles. “If one could only conceive,” he muttered, “the meaning of this last monstrosity.” And leaning on the large spade handle, he buried his brows in his hands, as men do in church.",
   "words": [
     {
-      "word": "coloured",
+      "word": "spade",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "blade",
+      "word": "skull",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wrinkles",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "conceive",
+      "signals": [
+        "definition-marker"
       ]
     }
   ],
@@ -21,7 +33,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

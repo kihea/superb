@@ -1,10 +1,28 @@
 {
   "id": "src-gen-kidnapped-005",
   "pool": "sourced",
-  "text": "Here he is; here he shall bide.” “Admitting that you have been paid in a proportion,” said the other, “I will crave leave humbly to say that I have not. Paid I am, and none too much, to be the second officer of this old tub, and you ken very well if I do my best to earn it. But I was paid for nothing more.” “If ye could hold back your hand from the tin-pan, Mr. Riach, I would have no complaint to make of ye,” returned the skipper; “and instead of asking riddles, I make bold to say that ye would keep your breath to cool your porridge. We’ll be required on deck,” he added, in a sharper note, and set one foot upon the ladder. But Mr. Riach caught him by the sleeve.",
+  "text": "“Dod man, David,” he said, “ye should-nae speak to me about your father. That’s where the mistake is.” He sat awhile and shook, blinking in his plate: “He was all the brother that ever I had,” he added, but with no heart in his voice; and then he caught up his spoon and fell to supper again, but still shaking. Now this last passage, this laying of hands upon my person and sudden profession of love for my dead father, went so clean beyond my comprehension that it put me into both fear and hope. On the one hand, I began to think my uncle was perhaps insane and might be dangerous; on the other, there came up into my mind (quite unbidden by me and even discouraged) a story like some ballad I had heard folk singing, of a poor lad that was a rightful heir and a wicked kinsman that tried to keep him from his own. For why should my uncle play a part with a relative that came, almost a beggar, to his door, unless in his heart he had some cause to fear him?",
   "words": [
     {
-      "word": "sharper",
+      "word": "discouraged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ballad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beggar",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

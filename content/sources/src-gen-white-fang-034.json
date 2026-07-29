@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-white-fang-034",
+  "pool": "sourced",
+  "text": "But now it was different. The thumb of circumstance had done its work only too well. By it he had been formed and hardened into the Fighting Wolf, fierce and implacable, unloving and unlovable. To accomplish the change was like a reflux of being, and this when the plasticity of youth was no longer his; when the fibre of him had become tough and knotty; when the warp and the woof of him had made of him an adamantine texture, harsh and unyielding; when the face of his spirit had become iron and all his instincts and axioms had crystallised into set rules, cautions, dislikes, and desires. Yet again, in this new orientation, it was the thumb of circumstance that pressed and prodded him, softening that which had become hard and remoulding it into fairer form.",
+  "words": [
+    {
+      "word": "thumb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hardened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fibre",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "woof",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-023",
+  "pool": "sourced",
+  "text": "The fog had now buried all heaven. As the last rays of daylight dwindled and disappeared, absolute blackness settled down on Treasure Island. And when, at last, I shouldered the coracle and groped my way stumblingly out of the hollow where I had supped, there were but two points visible on the whole anchorage. One was the great fire on shore, by which the defeated pirates lay carousing in the swamp. The other, a mere blur of light upon the darkness, indicated the position of the anchored ship.",
+  "words": [
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchorage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

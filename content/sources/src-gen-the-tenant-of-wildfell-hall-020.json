@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-020",
   "pool": "sourced",
-  "text": "“Why did you not tell me of this?” I said, reproachfully, pretending a resentment I did not feel (for in truth I was almost wild with joy to find myself so happily mistaken, and overflowing with affection to him for this and for the base injustice I felt that I had done him in my mind—he might have wronged me, but not to that extent; and as I had hated him like a demon for the last forty hours, the reaction from such a feeling was so great that I could pardon all offences for the moment—and love him in spite of them too). “I did tell you,” said he, with an air of guilty confusion; “you received my letter?” “What letter?” “The one announcing my intended marriage.” “I never received the most distant hint of such an intention.” “It must have crossed you on your way then—it should have reached you yesterday morning—it was rather late, I acknowledge.",
+  "text": "“And don’t think, Mrs. Huntingdon,” he added aloud, “that I could be guilty of inciting him to persevere in his present pursuits: on the contrary, I have remonstrated with him again and again; I have frequently expressed my surprise at his conduct, and reminded him of his duties and his privileges—but to no purpose; he only—” “Enough, Mr. Hargrave; you ought to be aware that whatever my husband’s faults may be, it can only aggravate the evil for me to hear them from a stranger’s lips.” “Am I then a stranger?” said he in a sorrowful tone. “I am your nearest neighbour, your son’s godfather, and your husband’s friend; may I not be yours also?” “Intimate acquaintance must precede real friendship; I know but little of you, Mr. Hargrave, except from report.” “Have you then forgotten the six or seven weeks I spent under your roof last autumn? I have not forgotten them.",
   "words": [
     {
-      "word": "resentment",
+      "word": "godfather",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mistaken",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "acknowledge",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

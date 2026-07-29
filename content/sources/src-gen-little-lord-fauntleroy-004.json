@@ -1,22 +1,16 @@
 {
   "id": "src-gen-little-lord-fauntleroy-004",
   "pool": "sourced",
-  "text": "At last all the preparations were complete; the day came when the trunks were taken to the steamer, and the hour arrived when the carriage stood at the door. Then a curious feeling of loneliness came upon the little boy. His mamma had been shut up in her room for some time; when she came down the stairs, her eyes looked large and wet, and her sweet mouth was trembling. Cedric went to her, and she bent down to him, and he put his arms around her, and they kissed each other. He knew something made them both sorry, though he scarcely knew what it was; but one tender little thought rose to his lips.",
+  "text": "So she, too, went out of the room and Mr. Havisham was left alone for a while. He went to the window and stood looking out into the street reflectively. He was thinking of the old Earl of Dorincourt, sitting in his great, splendid, gloomy library at the castle, gouty and lonely, surrounded by grandeur and luxury, but not really loved by any one, because in all his long life he had never really loved any one but himself; he had been selfish and self-indulgent and arrogant and passionate; he had cared so much for the Earl of Dorincourt and his pleasures that there had been no time for him to think of other people; all his wealth and power, all the benefits from his noble name and high rank, had seemed to him to be things only to be used to amuse and give pleasure to the Earl of Dorincourt; and now that he was an old man, all this excitement and self-indulgence had only brought him ill health and irritability and a dislike of the world, which certainly disliked him.",
   "words": [
     {
-      "word": "loneliness",
+      "word": "grandeur",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "kissed",
+      "word": "selfish",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,40 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-019",
   "pool": "sourced",
-  "text": "Again and again, however, and half a dozen other agains, with the inexorable pertinacity of a child intent upon some object important to itself, did he renew his efforts for admittance. He had, doubtless, set his heart upon an elephant; or, possibly, with Hamlet, he meant to eat a crocodile. In response to his more violent attacks, the bell gave, now and then, a moderate tinkle, but could not be stirred into clamor by any exertion of the little fellow’s childish and tiptoe strength. Holding by the door-handle, he peeped through a crevice of the curtain, and saw that the inner door, communicating with the passage towards the parlor, was closed. “Miss Pyncheon!” screamed the child, rapping on the window-pane, “I want an elephant!” There being no answer to several repetitions of the summons, Ned began to grow impatient; and his little pot of passion quickly boiling over, he picked up a stone, with a naughty purpose to fling it through the window; at the same time blubbering and sputtering with wrath.",
+  "text": "The second of Chanticleer’s two wives, ever since Phœbe’s arrival, had been in a state of heavy despondency, caused, as it afterwards appeared, by her inability to lay an egg. One day, however, by her self-important gait, the sideways turn of her head, and the cock of her eye, as she pried into one and another nook of the garden,—croaking to herself, all the while, with inexpressible complacency,—it was made evident that this identical hen, much as mankind undervalued her, carried something about her person the worth of which was not to be estimated either in gold or precious stones. Shortly after, there was a prodigious cackling and gratulation of Chanticleer and all his family, including the wizened chicken, who appeared to understand the matter quite as well as did his sire, his mother, or his aunt. That afternoon Phœbe found a diminutive egg,—not in the regular nest, it was far too precious to be trusted there,—but cunningly hidden under the currant-bushes, on some dry stalks of last year’s grass.",
   "words": [
     {
-      "word": "stirred",
+      "word": "inability",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "curtain",
+      "word": "sideways",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "naughty",
+      "word": "nook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +45,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

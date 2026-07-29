@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-029",
+  "pool": "sourced",
+  "text": "Scarcely had we passed the heads before the land closed around us. The shores of North Inlet were as thickly wooded as those of the southern anchorage, but the space was longer and narrower and more like, what in truth it was, the estuary of a river. Right before us, at the southern end, we saw the wreck of a ship in the last stages of dilapidation. It had been a great vessel of three masts but had lain so long exposed to the injuries of the weather that it was hung about with great webs of dripping seaweed, and on the deck of it shore bushes had taken root and now flourished thick with flowers. It was a sad sight, but it showed us that the anchorage was calm.",
+  "words": [
+    {
+      "word": "anchorage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "estuary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

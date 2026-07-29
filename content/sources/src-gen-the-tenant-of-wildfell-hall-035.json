@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-035",
+  "pool": "sourced",
+  "text": "All this may strike you as harsh, but I felt I must not lose my present advantage, and my son’s future welfare should not be sacrificed to any mistaken tenderness for this man’s feelings. Little Arthur had not forgotten his father, but thirteen months of absence, during which he had seldom been permitted to hear a word about him, or hardly to whisper his name, had rendered him somewhat shy; and when he was ushered into the darkened room where the sick man lay, so altered from his former self, with fiercely flushed face and wildly-gleaming eyes—he instinctively clung to me, and stood looking on his father with a countenance expressive of far more awe than pleasure. “Come here, Arthur,” said the latter, extending his hand towards him. The child went, and timidly touched that burning hand, but almost started in alarm, when his father suddenly clutched his arm and drew him nearer to his side. “Do you know me?” asked Mr. Huntingdon, intently perusing his features.",
+  "words": [
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

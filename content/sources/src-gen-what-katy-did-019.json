@@ -1,18 +1,18 @@
 {
   "id": "src-gen-what-katy-did-019",
   "pool": "sourced",
-  "text": "\"This looks as if it were delicious, Debby, I wish you'd try it: Take a gallon of oysters, a pint of beef stock, sixteen soda crackers, the juice of two lemons, four cloves, a glass of white wine, a sprig of marjoram, a sprig of thyme, a sprig of bay, a sliced shalott--\" \"Please, Miss Katy, what's them?\" \"Oh, don't you know, Debby? It must be something quite common, for it's in almost all the recipes.\" \"No, Miss Katy, I never heard tell of it before. Miss Carr never gave me no shell-outs at all at all!\"",
+  "text": "By degrees they collected a great heap of dry crusts, and other refreshments, which they put safely away in the garret. They also saved the apples which were given them for two weeks, and made a bed in a big empty box, with cotton quilts, and the dolls' pillows out of the baby-house. When all was ready, Katy broke the plan to her beloved Marianne, and easily persuaded her to run away and take possession of this new home. \"We won't tell Papa and Mamma till she's quite grown up,\" Katy said to Clover; \"then we'll bring her down stairs, and won't they be surprised? Don't let's call her Marianne any longer, either.",
   "words": [
     {
-      "word": "oysters",
+      "word": "heap",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "crackers",
+      "word": "stairs",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "Susan Coolidge",
     "year": 1872,
     "source": "Project Gutenberg #8994",
-    "url": "https://www.gutenberg.org/ebooks/8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

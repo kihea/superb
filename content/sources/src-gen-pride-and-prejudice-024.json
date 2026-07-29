@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-pride-and-prejudice-024",
+  "pool": "sourced",
+  "text": "I want to be told whether I ought, or ought not, to make our acquaintance in general understand Wickham’s character.” Miss Bennet paused a little, and then replied, “Surely there can be no occasion for exposing him so dreadfully. What is your own opinion?” “That it ought not to be attempted. Mr. Darcy has not authorized me to make his communication public. On the contrary, every particular relative to his sister was meant to be kept as much as possible to myself; and if I endeavour to undeceive people as to the rest of his conduct, who will believe me? The general prejudice against Mr. Darcy is so violent, that it would be the death of half the good people in Meryton, to attempt to place him in an amiable light.",
+  "words": [
+    {
+      "word": "prejudice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

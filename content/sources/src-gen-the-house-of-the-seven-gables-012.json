@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-012",
   "pool": "sourced",
-  "text": "The present owner, Gervayse Pyncheon, was said to have contracted a dislike to the house, in consequence of a shock to his sensibility, in early childhood, from the sudden death of his grandfather. In the very act of running to climb Colonel Pyncheon’s knee, the boy had discovered the old Puritan to be a corpse. On arriving at manhood, Mr. Pyncheon had visited England, where he married a lady of fortune, and had subsequently spent many years, partly in the mother country, and partly in various cities on the continent of Europe. During this period, the family mansion had been consigned to the charge of a kinsman, who was allowed to make it his home for the time being, in consideration of keeping the premises in thorough repair. So faithfully had this contract been fulfilled, that now, as the carpenter approached the house, his practised eye could detect nothing to criticise in its condition.",
+  "text": "And is she angry with me? Why does she bend her brow so?” Poor Hepzibah! It was that wretched scowl which time and her near-sightedness, and the fret of inward discomfort, had rendered so habitual that any vehemence of mood invariably evoked it. But at the indistinct murmur of his words her whole face grew tender, and even lovely, with sorrowful affection; the harshness of her features disappeared, as it were, behind the warm and misty glow. “Angry!” she repeated; “angry with you, Clifford!” Her tone, as she uttered the exclamation, had a plaintive and really exquisite melody thrilling through it, yet without subduing a certain something which an obtuse auditor might still have mistaken for asperity.",
   "words": [
     {
-      "word": "manhood",
+      "word": "bend",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mansion",
+      "word": "invariably",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "premises",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "approached",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

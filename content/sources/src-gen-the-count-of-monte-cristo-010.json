@@ -1,10 +1,40 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-010",
   "pool": "sourced",
-  "text": "Leisurely turning round, they calmly scrutinized the various countenances around them, as though demanding some one person who would take upon himself the responsibility of what they deemed excessive impertinence; but as no one responded to the challenge, the friends turned again to the front of the theatre, and affected to busy themselves with the stage. At this moment the door of the minister’s box opened, and Madame Danglars, accompanied by her daughter, entered, escorted by Lucien Debray, who assiduously conducted them to their seats. “Ha, ha,” said Château-Renaud, “here come some friends of yours, viscount! What are you looking at there? don’t you see they are trying to catch your eye?” Albert turned round, just in time to receive a gracious wave of the fan from the baroness; as for Mademoiselle Eugénie, she scarcely vouchsafed to waste the glances of her large black eyes even upon the business of the stage.",
+  "text": "The ballet was called Poliska. However much the ballet might have claimed his attention, Franz was too deeply occupied with the beautiful Greek to take any note of it; while she seemed to experience an almost childlike delight in watching it, her eager, animated looks contrasting strongly with the utter indifference of her companion, who, during the whole time the piece lasted, never even moved, not even when the furious, crashing din produced by the trumpets, cymbals, and Chinese bells sounded their loudest from the orchestra. Of this he took no heed, but was, as far as appearances might be trusted, enjoying soft repose and bright celestial dreams. The ballet at length came to a close, and the curtain fell amid the loud, unanimous plaudits of an enthusiastic and delighted audience. Owing to the very judicious plan of dividing the two acts of the opera with a ballet, the pauses between the performances are very short, the singers in the opera having time to repose themselves and change their costume, when necessary, while the dancers are executing their pirouettes and exhibiting their graceful steps.",
   "words": [
     {
-      "word": "escorted",
+      "word": "ballet",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "din",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

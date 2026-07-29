@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-king-in-yellow-019",
   "pool": "sourced",
-  "text": "Some were cordial, all were polite. Even the majestic creature who held the position of Massier, unbent enough to say: “My friend, when a man speaks French as well as you do, and is also a friend of Monsieur Clifford, he will have no trouble in this studio. You expect, of course, to fill the stove until the next new man comes?” “Of course.” “And you don’t mind chaff?” “No,” replied Selby, who hated it. Clifford, much amused, put on his hat, saying, “You must expect lots of it at first.” Selby placed his own hat on his head and followed him to the door. As they passed the model stand there was a furious cry of “Chapeau!",
+  "text": "I saw the stream and the flat rock; I saw the crushed viper in the grass beside me, but the hawks and blocs had disappeared. I sprang to my feet. The garden, the fruit trees, the drawbridge and the walled court were gone. I stared stupidly at a heap of crumbling ruins, ivy-covered and grey, through which great trees had pushed their way. I crept forward, dragging my numbed foot, and as I moved, a falcon sailed from the tree-tops among the ruins, and soaring, mounting in narrowing circles, faded and vanished in the clouds above.",
   "words": [
     {
-      "word": "polite",
+      "word": "heap",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "stove",
+      "word": "soaring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vanished",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

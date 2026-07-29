@@ -8,6 +8,12 @@
       "signals": [
         "gloss-overlap"
       ]
+    },
+    {
+      "word": "nut",
+      "signals": [
+        "gloss-overlap"
+      ]
     }
   ],
   "provenance": {
@@ -15,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

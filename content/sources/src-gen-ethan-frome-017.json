@@ -1,10 +1,22 @@
 {
   "id": "src-gen-ethan-frome-017",
   "pool": "sourced",
-  "text": "Mattie followed him out of the door and helped him to lift the trunk into the back of the sleigh. When it was in place they stood side by side on the door-step, watching Daniel Byrne plunge off behind his fidgety horse. It seemed to Ethan that his heart was bound with cords which an unseen hand was tightening with every tick of the clock. Twice he opened his lips to speak to Mattie and found no breath. At length, as she turned to re-enter the house, he laid a detaining hand on her.",
+  "text": "When Ethan drove into Hale’s yard the builder was just getting out of his sleigh. “Hello, Ethe!” he said. “This comes handy.” Andrew Hale was a ruddy man with a big gray moustache and a stubbly double-chin unconstrained by a collar; but his scrupulously clean shirt was always fastened by a small diamond stud. This display of opulence was misleading, for though he did a fairly good business it was known that his easygoing habits and the demands of his large family frequently kept him what Starkfield called “behind.” He was an old friend of Ethan’s family, and his house one of the few to which Zeena occasionally went, drawn there by the fact that Mrs. Hale, in her youth, had done more “doctoring” than any other woman in Starkfield, and was still a recognised authority on symptoms and treatment. Hale went up to the grays and patted their sweating flanks.",
   "words": [
     {
-      "word": "cords",
+      "word": "builder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sweating",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

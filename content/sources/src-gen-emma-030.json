@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-emma-030",
+  "pool": "sourced",
+  "text": "yes, perfectly.—Why do you make a doubt of it?” “Have you never at any time had reason to think that he admired her, or that she admired him?” “Never, never!” she cried with a most open eagerness—“Never, for the twentieth part of a moment, did such an idea occur to me. And how could it possibly come into your head?” “I have lately imagined that I saw symptoms of attachment between them—certain expressive looks, which I did not believe meant to be public.” “Oh! you amuse me excessively. I am delighted to find that you can vouchsafe to let your imagination wander—but it will not do—very sorry to check you in your first essay—but indeed it will not do. There is no admiration between them, I do assure you; and the appearances which have caught you, have arisen from some peculiar circumstances—feelings rather of a totally different nature—it is impossible exactly to explain:—there is a good deal of nonsense in it—but the part which is capable of being communicated, which is sense, is, that they are as far from any attachment or admiration for one another, as any two beings in the world can be.",
+  "words": [
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

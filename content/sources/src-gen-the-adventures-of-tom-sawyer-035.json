@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-035",
+  "pool": "sourced",
+  "text": "Every time Tom made an examination, Becky would watch his face for an encouraging sign, and he would say cheerily: “Oh, it’s all right. This ain’t the one, but we’ll come to it right away!” But he felt less and less hopeful with each failure, and presently began to turn off into diverging avenues at sheer random, in desperate hope of finding the one that was wanted. He still said it was “all right,” but there was such a leaden dread at his heart that the words had lost their ring and sounded just as if he had said, “All is lost!” Becky clung to his side in an anguish of fear, and tried hard to keep back the tears, but they would come. At last she said: “Oh, Tom, never mind the bats, let’s go back that way! We seem to get worse and worse off all the time.” “Listen!” said he.",
+  "words": [
+    {
+      "word": "encouraging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hopeful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anguish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

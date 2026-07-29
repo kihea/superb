@@ -1,10 +1,16 @@
 {
   "id": "src-gen-dracula-006",
   "pool": "sourced",
-  "text": "No trace has ever been found of the great dog; at which there is much mourning, for, with public opinion in its present state, he would, I believe, be adopted by the town. To-morrow will see the funeral; and so will end this one more “mystery of the sea.” Mina Murray’s Journal. 8 August.--Lucy was very restless all night, and I, too, could not sleep. The storm was fearful, and as it boomed loudly among the chimney-pots, it made me shudder. When a sharp puff came it seemed to be like a distant gun.",
+  "text": "The other was fair, as fair as can be, with great wavy masses of golden hair and eyes like pale sapphires. I seemed somehow to know her face, and to know it in connection with some dreamy fear, but I could not recollect at the moment how or where. All three had brilliant white teeth that shone like pearls against the ruby of their voluptuous lips. There was something about them that made me uneasy, some longing and at the same time some deadly fear. I felt in my heart a wicked, burning desire that they would kiss me with those red lips.",
   "words": [
     {
-      "word": "puff",
+      "word": "ruby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "longing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

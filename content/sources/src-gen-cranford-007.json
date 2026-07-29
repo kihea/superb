@@ -1,10 +1,22 @@
 {
   "id": "src-gen-cranford-007",
   "pool": "sourced",
-  "text": "We can talk just as well by firelight, you know. Well, you see, Deborah had gone from home for a fortnight or so; it was a very still, quiet day, I remember, overhead; and the lilacs were all in flower, so I suppose it was spring. My father had gone out to see some sick people in the parish; I recollect seeing him leave the house with his wig and shovel-hat and cane. What possessed our poor Peter I don’t know; he had the sweetest temper, and yet he always seemed to like to plague Deborah. She never laughed at his jokes, and thought him ungenteel, and not careful enough about improving his mind; and that vexed him.",
+  "text": "I was pleasantly surprised, therefore, by receiving a letter from Miss Pole (who had always come in for a supplementary week after my annual visit to Miss Jenkyns) proposing that I should go and stay with her; and then, in a couple of days after my acceptance, came a note from Miss Matty, in which, in a rather circuitous and very humble manner, she told me how much pleasure I should confer if I could spend a week or two with her, either before or after I had been at Miss Pole’s; “for,” she said, “since my dear sister’s death I am well aware I have no attractions to offer; it is only to the kindness of my friends that I can owe their company.” Of course I promised to come to dear Miss Matty as soon as I had ended my visit to Miss Pole; and the day after my arrival at Cranford I went to see her, much wondering what the house would be like without Miss Jenkyns, and rather dreading the changed aspect of things. Miss Matty began to cry as soon as she saw me. She was evidently nervous from having anticipated my call.",
   "words": [
     {
-      "word": "cane",
+      "word": "pleasantly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acceptance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

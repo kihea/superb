@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-my-antonia-030",
+  "pool": "sourced",
+  "text": "I worked at a commodious green-topped table placed directly in front of the west window which looked out over the prairie. In the corner at my right were all my books, in shelves I had made and painted myself. On the blank wall at my left the dark, old-fashioned wall-paper was covered by a large map of ancient Rome, the work of some German scholar. Cleric had ordered it for me when he was sending for books from abroad. Over the bookcase hung a photograph of the Tragic Theatre at Pompeii, which he had given me from his collection.",
+  "words": [
+    {
+      "word": "topped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

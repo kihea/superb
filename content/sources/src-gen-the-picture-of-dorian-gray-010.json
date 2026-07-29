@@ -1,12 +1,17 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-010",
   "pool": "sourced",
-  "text": "I fancy that the true explanation is this: It often happens that the real tragedies of life occur in such an inartistic manner that they hurt us by their crude violence, their absolute incoherence, their absurd want of meaning, their entire lack of style. They affect us just as vulgarity affects us. They give us an impression of sheer brute force, and we revolt against that. Sometimes, however, a tragedy that possesses artistic elements of beauty crosses our lives. If these elements of beauty are real, the whole thing simply appeals to our sense of dramatic effect.",
+  "text": "The mother snatched away by death, the boy left to solitude and the tyranny of an old and loveless man. Yes; it was an interesting background. It posed the lad, made him more perfect, as it were. Behind every exquisite thing that existed, there was something tragic. Worlds had to be in travail, that the meanest flower might blow.... And how charming he had been at dinner the night before, as with startled eyes and lips parted in frightened pleasure he had sat opposite to him at the club, the red candleshades staining to a richer rose the wakening wonder of his face.",
   "words": [
     {
-      "word": "absurd",
+      "word": "lad",
       "signals": [
-        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "startled",
+      "signals": [
         "gloss-overlap"
       ]
     }
@@ -16,7 +21,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

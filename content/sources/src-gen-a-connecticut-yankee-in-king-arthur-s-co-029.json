@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-029",
+  "pool": "sourced",
+  "text": "The king took the hand with a poorly disguised reluctance, and let go of it as willingly as a lady lets go of a fish; all of which had a good effect, for it was mistaken for an embarrassment natural to one who was being called upon by greatness. The dame brought out the table now, and set it under the tree. It caused a visible stir of surprise, it being brand new and a sumptuous article of deal. But the surprise rose higher still when the dame, with a body oozing easy indifference at every pore, but eyes that gave it all away by absolutely flaming with vanity, slowly unfolded an actual simon-pure tablecloth and spread it. That was a notch above even the blacksmith's domestic grandeurs, and it hit him hard; you could see it.",
+  "words": [
+    {
+      "word": "disguised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flaming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-three-musketeers-040",
+  "pool": "sourced",
+  "text": "“My turn,” said Athos, himself trembling as the lion trembles at the sight of the serpent—“my turn. I married that woman when she was a young girl; I married her in opposition to the wishes of all my family; I gave her my wealth, I gave her my name; and one day I discovered that this woman was branded—this woman was marked with a fleur-de-lis on her left shoulder.” “Oh,” said Milady, raising herself, “I defy you to find any tribunal which pronounced that infamous sentence against me. I defy you to find him who executed it.” “Silence!” said a hollow voice. “It is for me to reply to that!” And the man in the red cloak came forward in his turn. “What man is that?",
+  "words": [
+    {
+      "word": "branded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "defy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tribunal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

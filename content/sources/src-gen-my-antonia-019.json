@@ -1,16 +1,22 @@
 {
   "id": "src-gen-my-antonia-019",
   "pool": "sourced",
-  "text": "We have our own wheat ground for flour—but then there’s that much less to sell.’ Nina and Jan, and a little girl named Lucie, kept shyly pointing out to me the shelves of glass jars. They said nothing, but, glancing at me, traced on the glass with their finger-tips the outline of the cherries and strawberries and crabapples within, trying by a blissful expression of countenance to give me some idea of their deliciousness. ‘Show him the spiced plums, mother. Americans don’t have those,’ said one of the older boys. ‘Mother uses them to make kolaches,’ he added.",
+  "text": "In the morning, when I was fighting my way to school against the wind, I couldn’t see anything but the road in front of me; but in the late afternoon, when I was coming home, the town looked bleak and desolate to me. The pale, cold light of the winter sunset did not beautify—it was like the light of truth itself. When the smoky clouds hung low in the west and the red sun went down behind them, leaving a pink flush on the snowy roofs and the blue drifts, then the wind sprang up afresh, with a kind of bitter song, as if it said: ‘This is reality, whether you like it or not. All those frivolities of summer, the light and shadow, the living mask of green that trembled over everything, they were lies, and this is what was underneath. This is the truth.’ It was as if we were being punished for loving the loveliness of summer.",
   "words": [
     {
-      "word": "wheat",
+      "word": "bleak",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flour",
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunset",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Willa Cather",
     "year": 1918,
     "source": "Project Gutenberg #242",
-    "url": "https://www.gutenberg.org/ebooks/242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

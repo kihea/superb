@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-invisible-man-012",
   "pool": "sourced",
-  "text": "Then there would be an inquiry, the sacking of my room. “At the thought of the possibility of my work being exposed or interrupted at its very climax, I became very angry and active. I hurried out with my three books of notes, my cheque-book—the tramp has them now—and directed them from the nearest Post Office to a house of call for letters and parcels in Great Portland Street. I tried to go out noiselessly. Coming in, I found my landlord going quietly upstairs; he had heard the door close, I suppose.",
+  "text": "Whatever you want done, that I’m most willing to do.” MR. MARVEL’S VISIT TO IPING After the first gusty panic had spent itself Iping became argumentative. Scepticism suddenly reared its head—rather nervous scepticism, not at all assured of its back, but scepticism nevertheless. It is so much easier not to believe in an invisible man; and those who had actually seen him dissolve into air, or felt the strength of his arm, could be counted on the fingers of two hands. And of these witnesses Mr. Wadgers was presently missing, having retired impregnably behind the bolts and bars of his own house, and Jaffers was lying stunned in the parlour of the “Coach and Horses.” Great and strange ideas transcending experience often have less effect upon men and women than smaller, more tangible considerations. Iping was gay with bunting, and everybody was in gala dress.",
   "words": [
     {
-      "word": "nearest",
+      "word": "invisible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tangible",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

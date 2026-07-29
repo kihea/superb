@@ -1,12 +1,12 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-019",
   "pool": "sourced",
-  "text": "“We must cross this strange place in order to get to the other side,” said Dorothy, “for it would be unwise for us to go any other way except due South.” They began walking through the country of the china people, and the first thing they came to was a china milkmaid milking a china cow. As they drew near, the cow suddenly gave a kick and kicked over the stool, the pail, and even the milkmaid herself, and all fell on the china ground with a great clatter. Dorothy was shocked to see that the cow had broken her leg off, and that the pail was lying in several small pieces, while the poor milkmaid had a nick in her left elbow. “There!” cried the milkmaid angrily. “See what you have done!",
+  "text": "The Lion would have preferred a bed of dried leaves in the forest, and did not like being shut up in a room; but he had too much sense to let this worry him, so he sprang upon the bed and rolled himself up like a cat and purred himself asleep in a minute. The next morning, after breakfast, the green maiden came to fetch Dorothy, and she dressed her in one of the prettiest gowns, made of green brocaded satin. Dorothy put on a green silk apron and tied a green ribbon around Toto’s neck, and they started for the Throne Room of the Great Oz. First they came to a great hall in which were many ladies and gentlemen of the court, all dressed in rich costumes. These people had nothing to do but talk to each other, but they always came to wait outside the Throne Room every morning, although they were never permitted to see Oz.",
   "words": [
     {
-      "word": "stool",
+      "word": "satin",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

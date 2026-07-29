@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-war-of-the-worlds-009",
   "pool": "sourced",
-  "text": "The whole population of the great six-million city was stirring, slipping, running; presently it would be pouring en masse northward. “Black Smoke!” the voices cried. “Fire!” The bells of the neighbouring church made a jangling tumult, a cart carelessly driven smashed, amid shrieks and curses, against the water trough up the street. Sickly yellow lights went to and fro in the houses, and some of the passing cabs flaunted unextinguished lamps. And overhead the dawn was growing brighter, clear and steady and calm.",
+  "text": "For some minutes I lay there in the rain and darkness watching, by the intermittent light, these monstrous beings of metal moving about in the distance over the hedge tops. A thin hail was now beginning, and as it came and went their figures grew misty and then flashed into clearness again. Now and then came a gap in the lightning, and the night swallowed them up. I was soaked with hail above and puddle water below. It was some time before my blank astonishment would let me struggle up the bank to a drier position, or think at all of my imminent peril.",
   "words": [
     {
-      "word": "stirring",
+      "word": "intermittent",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bells",
+      "word": "soaked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puddle",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

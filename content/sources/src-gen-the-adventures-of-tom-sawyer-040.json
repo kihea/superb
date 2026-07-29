@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-040",
+  "pool": "sourced",
+  "text": "A dollar and a quarter a week would board, lodge, and school a boy in those old simple days—and clothe him and wash him, too, for that matter. Judge Thatcher had conceived a great opinion of Tom. He said that no commonplace boy would ever have got his daughter out of the cave. When Becky told her father, in strict confidence, how Tom had taken her whipping at school, the Judge was visibly moved; and when she pleaded grace for the mighty lie which Tom had told in order to shift that whipping from her shoulders to his own, the Judge said with a fine outburst that it was a noble, a generous, a magnanimous lie—a lie that was worthy to hold up its head and march down through history breast to breast with George Washington’s lauded Truth about the hatchet! Becky thought her father had never looked so tall and so superb as when he walked the floor and stamped his foot and said that.",
+  "words": [
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-war-and-peace-021",
+  "pool": "sourced",
+  "text": "The boy, curly-headed like his mother and glowing with health, sat on his knee, and Prince Andrew began telling him the story of Bluebeard, but fell into a reverie without finishing the story. He thought not of this pretty child, his son whom he held on his knee, but of himself. He sought in himself either remorse for having angered his father or regret at leaving home for the first time in his life on bad terms with him, and was horrified to find neither. What meant still more to him was that he sought and did not find in himself the former tenderness for his son which he had hoped to reawaken by caressing the boy and taking him on his knee. “Well, go on!” said his son.",
+  "words": [
+    {
+      "word": "remorse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

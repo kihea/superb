@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anna-karenina-010",
   "pool": "sourced",
-  "text": "And I shan’t live through it. Don’t interrupt me!” and she made haste to speak. “I know it; I know for certain. I shall die; and I’m very glad I shall die, and release myself and you.” Tears dropped from her eyes; he bent down over her hand and began kissing it, trying to hide his emotion, which, he knew, had no sort of grounds, though he could not control it. “Yes, it’s better so,” she said, tightly gripping his hand.",
+  "text": "Just because they see that this is something they can’t understand. If it were a common, vulgar, worldly intrigue, they would have left me alone. They feel that this is something different, that this is not a mere pastime, that this woman is dearer to me than life. And this is incomprehensible, and that’s why it annoys them. Whatever our destiny is or may be, we have made it ourselves, and we do not complain of it,” he said, in the word we linking himself with Anna.",
   "words": [
     {
-      "word": "gripping",
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "incomprehensible",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

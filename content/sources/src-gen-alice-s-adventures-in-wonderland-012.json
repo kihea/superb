@@ -1,12 +1,12 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-012",
   "pool": "sourced",
-  "text": "“Then it wasn’t very civil of you to offer it,” said Alice angrily. “It wasn’t very civil of you to sit down without being invited,” said the March Hare. “I didn’t know it was your table,” said Alice; “it’s laid for a great many more than three.” “Your hair wants cutting,” said the Hatter. He had been looking at Alice for some time with great curiosity, and this was his first speech. “You should learn not to make personal remarks,” Alice said with some severity; “it’s very rude.” The Hatter opened his eyes very wide on hearing this; but all he said was, “Why is a raven like a writing-desk?” “Come, we shall have some fun now!” thought Alice.",
+  "text": "But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves. “How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice!",
   "words": [
     {
-      "word": "curiosity",
+      "word": "gloves",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

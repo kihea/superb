@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-021",
+  "pool": "sourced",
+  "text": "I’m on the waw-path, and the price uv coffins is a-gwyne to raise.” He was drunk, and weaving about in his saddle; he was over fifty year old, and had a very red face. Everybody yelled at him and laughed at him and sassed him, and he sassed back, and said he’d attend to them and lay them out in their regular turns, but he couldn’t wait now because he’d come to town to kill old Colonel Sherburn, and his motto was, “Meat first, and spoon vittles to top off on.” He see me, and rode up and says: “Whar’d you come f’m, boy? You prepared to die?” Then he rode on. I was scared, but a man says: “He don’t mean nothing; he’s always a-carryin’ on like that when he’s drunk. He’s the best naturedest old fool in Arkansaw—never hurt nobody, drunk nor sober.” Boggs rode up before the biggest store in town, and bent his head down so he could see under the curtain of the awning and yells: “Come out here, Sherburn!",
+  "words": [
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sober",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

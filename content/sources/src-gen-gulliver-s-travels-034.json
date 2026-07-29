@@ -1,0 +1,24 @@
+{
+  "id": "src-gen-gulliver-s-travels-034",
+  "pool": "sourced",
+  "text": "My only concern is, that I shall hardly be able to do justice to my master’s arguments and expressions, which must needs suffer by my want of capacity, as well as by a translation into our barbarous English. In obedience, therefore, to his honour’s commands, I related to him the Revolution under the Prince of Orange; the long war with France, entered into by the said prince, and renewed by his successor, the present queen, wherein the greatest powers of Christendom were engaged, and which still continued: I computed, at his request, “that about a million of Yahoos might have been killed in the whole progress of it; and perhaps a hundred or more cities taken, and five times as many ships burnt or sunk.” He asked me, “what were the usual causes or motives that made one country go to war with another?” I answered “they were innumerable; but I should only mention a few of the chief.",
+  "words": [
+    {
+      "word": "successor",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

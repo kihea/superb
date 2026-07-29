@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-emma-024",
+  "pool": "sourced",
+  "text": "I cannot imagine that she will not be continually insulting her visitor with praise, encouragement, and offers of service; that she will not be continually detailing her magnificent intentions, from the procuring her a permanent situation to the including her in those delightful exploring parties which are to take place in the barouche-landau.” “Jane Fairfax has feeling,” said Mr. Knightley—“I do not accuse her of want of feeling. Her sensibilities, I suspect, are strong—and her temper excellent in its power of forbearance, patience, self-control; but it wants openness. She is reserved, more reserved, I think, than she used to be—And I love an open temper. No—till Cole alluded to my supposed attachment, it had never entered my head. I saw Jane Fairfax and conversed with her, with admiration and pleasure always—but with no thought beyond.” “Well, Mrs. Weston,” said Emma triumphantly when he left them, “what do you say now to Mr. Knightley’s marrying Jane Fairfax?” “Why, really, dear Emma, I say that he is so very much occupied by the idea of not being in love with her, that I should not wonder if it were to end in his being so at last.",
+  "words": [
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

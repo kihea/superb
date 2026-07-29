@@ -1,10 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-007",
   "pool": "sourced",
-  "text": "I noticed that vegetable life disappeared sooner than animal life. The medusæ had already abandoned the arid soil, from which a great number of animals, zoophytes, articulata, molluscs, and fishes, still obtained sustenance. As we walked, I thought the light of our Ruhmkorff apparatus could not fail to draw some inhabitant from its dark couch. But if they did approach us, they at least kept at a respectful distance from the hunters. Several times I saw Captain Nemo stop, put his gun to his shoulder, and after some moments drop it and walk on.",
+  "text": "my good fellow? Say rather breakfast-time, for we certainly have begun another day.” “So,” said Conseil, “we have slept twenty-four hours?” “That is my opinion.” “I will not contradict you,” replied Ned Land. “But dinner or breakfast, the steward will be welcome, whichever he brings.” “Master Land, we must conform to the rules on board, and I suppose our appetites are in advance of the dinner hour.” “That is just like you, friend Conseil,” said Ned, impatiently. “You are never out of temper, always calm; you would return thanks before grace, and die of hunger rather than complain!” Time was getting on, and we were fearfully hungry; and this time the steward did not appear. It was rather too long to leave us, if they really had good intentions towards us.",
   "words": [
     {
-      "word": "fishes",
+      "word": "steward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

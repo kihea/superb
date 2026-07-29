@@ -1,35 +1,22 @@
 {
   "id": "src-gen-the-woman-in-white-016",
   "pool": "sourced",
-  "text": "Chairs, tables, cheffonier, and sofa, all gleamed with the glutinous brightness of cheap upholstery. On the largest table, in the middle of the room, stood a smart Bible, placed exactly in the centre on a red and yellow woollen mat and at the side of the table nearest to the window, with a little knitting-basket on her lap, and a wheezing, blear-eyed old spaniel crouched at her feet, there sat an elderly woman, wearing a black net cap and a black silk gown, and having slate-coloured mittens on her hands. Her iron-grey hair hung in heavy bands on either side of her face—her dark eyes looked straight forward, with a hard, defiant, implacable stare. She had full square cheeks, a long, firm chin, and thick, sensual, colourless lips. Her figure was stout and sturdy, and her manner aggressively self-possessed.",
+  "text": "I explained to Laura that I had Mr. Gilmore’s own authority for placing implicit confidence in his partner’s integrity, discretion, and accurate knowledge of all her affairs, and with her full approval I sat down at once to write the letter, I began by stating our position to Mr. Kyrle exactly as it was, and then asked for his advice in return, expressed in plain, downright terms which he could comprehend without any danger of misinterpretations and mistakes. My letter was as short as I could possibly make it, and was, I hope, unencumbered by needless apologies and needless details. Just as I was about to put the address on the envelope an obstacle was discovered by Laura, which in the effort and preoccupation of writing had escaped my mind altogether. “How are we to get the answer in time?” she asked. “Your letter will not be delivered in London before to-morrow morning, and the post will not bring the reply here till the morning after.” The only way of overcoming this difficulty was to have the answer brought to us from the lawyer’s office by a special messenger.",
   "words": [
     {
-      "word": "elderly",
+      "word": "implicit",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cheeks",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chin",
+      "word": "obstacle",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sturdy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "aggressively",
+      "word": "altogether",
       "signals": [
         "gloss-overlap"
       ]
@@ -40,7 +27,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

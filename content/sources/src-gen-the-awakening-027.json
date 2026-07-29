@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-awakening-027",
+  "pool": "sourced",
+  "text": "XXXVI There was a garden out in the suburbs; a small, leafy corner, with a few green tables under the orange trees. An old cat slept all day on the stone step in the sun, and an old mulatresse slept her idle hours away in her chair at the open window, till some one happened to knock on one of the green tables. She had milk and cream cheese to sell, and bread and butter. There was no one who could make such excellent coffee or fry a chicken so golden brown as she. The place was too modest to attract the attention of people of fashion, and so quiet as to have escaped the notice of those in search of pleasure and dissipation.",
+  "words": [
+    {
+      "word": "escaped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

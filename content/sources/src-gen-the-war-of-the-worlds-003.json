@@ -1,17 +1,10 @@
 {
   "id": "src-gen-the-war-of-the-worlds-003",
   "pool": "sourced",
-  "text": "The military authorities were certainly alive to the seriousness of the business. About eleven, the next morning’s papers were able to say, a squadron of hussars, two Maxims, and about four hundred men of the Cardigan regiment started from Aldershot. A few seconds after midnight the crowd in the Chertsey road, Woking, saw a star fall from heaven into the pine woods to the northwest. It had a greenish colour, and caused a silent brightness like summer lightning. This was the second cylinder.",
+  "text": "Nothing was changed save for that and a terrible astonishment. The little group of black specks with the flag of white had been swept out of existence, and the stillness of the evening, so it seemed to me, had scarcely been broken. It came to me that I was upon this dark common, helpless, unprotected, and alone. Suddenly, like a thing falling upon me from without, came—fear. With an effort I turned and began a stumbling run through the heather.",
   "words": [
     {
-      "word": "eleven",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cylinder",
+      "word": "heather",
       "signals": [
         "gloss-overlap"
       ]
@@ -22,7 +15,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-robinson-crusoe-023",
+  "pool": "sourced",
+  "text": "Here I found a clear piece of land, near three acres, so surrounded with woods that it was almost an enclosure by nature; at least, it did not want near so much labour to make it so as the other piece of ground I had worked so hard at. I immediately went to work with this piece of ground; and in less than a month’s time I had so fenced it round that my flock, or herd, call it which you please, which were not so wild now as at first they might be supposed to be, were well enough secured in it: so, without any further delay, I removed ten young she-goats and two he-goats to this piece, and when they were there I continued to perfect the fence till I had made it as secure as the other; which, however, I did at more leisure, and it took me up more time by a great deal.",
+  "words": [
+    {
+      "word": "fenced",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

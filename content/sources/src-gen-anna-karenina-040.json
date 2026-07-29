@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-anna-karenina-040",
+  "pool": "sourced",
+  "text": "And each doctrine did not simply leave that faith unshaken, each doctrine seemed essential to complete that great miracle, continually manifest upon earth, that made it possible for each man and millions of different sorts of men, wise men and imbeciles, old men and children—all men, peasants, Lvov, Kitty, beggars and kings to understand perfectly the same one thing, and to build up thereby that life of the soul which alone is worth living, and which alone is precious to us. Lying on his back, he gazed up now into the high, cloudless sky. “Do I not know that that is infinite space, and that it is not a round arch? But, however I screw up my eyes and strain my sight, I cannot see it not round and not bounded, and in spite of my knowing about infinite space, I am incontestably right when I see a solid blue dome, and more right than when I strain my eyes to see beyond it.” Levin ceased thinking, and only, as it were, listened to mysterious voices that seemed talking joyfully and earnestly within him. “Can this be faith?” he thought, afraid to believe in his happiness.",
+  "words": [
+    {
+      "word": "manifest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infinite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bounded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

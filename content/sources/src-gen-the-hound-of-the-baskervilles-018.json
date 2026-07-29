@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-018",
   "pool": "sourced",
-  "text": "You have been inside the house, have you not, Watson? Can you tell the position of the rooms? What are those latticed windows at this end?” “I think they are the kitchen windows.” “And the one beyond, which shines so brightly?” “That is certainly the dining-room.” “The blinds are up. You know the lie of the land best. Creep forward quietly and see what they are doing—but for heaven’s sake don’t let them know that they are watched!” I tiptoed down the path and stooped behind the low wall which surrounded the stunted orchard.",
+  "text": "Sheep-pens?” “No, they are the homes of our worthy ancestors. Prehistoric man lived thickly on the moor, and as no one in particular has lived there since, we find all his little arrangements exactly as he left them. These are his wigwams with the roofs off. You can even see his hearth and his couch if you have the curiosity to go inside.” “But it is quite a town. When was it inhabited?” “Neolithic man—no date.” “What did he do?” “He grazed his cattle on these slopes, and he learned to dig for tin when the bronze sword began to supersede the stone axe.",
   "words": [
     {
-      "word": "blinds",
+      "word": "couch",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "orchard",
+      "word": "inhabited",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bronze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "axe",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

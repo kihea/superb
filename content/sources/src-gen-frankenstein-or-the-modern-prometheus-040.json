@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-040",
+  "pool": "sourced",
+  "text": "I am yet dizzy with the remembrance of it. I hardly know whether I shall have the power to detail it; yet the tale which I have recorded would be incomplete without this final and wonderful catastrophe. I entered the cabin where lay the remains of my ill-fated and admirable friend. Over him hung a form which I cannot find words to describe—gigantic in stature, yet uncouth and distorted in its proportions. As he hung over the coffin, his face was concealed by long locks of ragged hair; but one vast hand was extended, in colour and apparent texture like that of a mummy.",
+  "words": [
+    {
+      "word": "locks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ragged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

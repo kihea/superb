@@ -1,16 +1,34 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-013",
   "pool": "sourced",
-  "text": "You will find a beautiful print of it just opposite yon rock, agin the hillside.” While the youth was engaged in this commission, the scout and Chingachgook were attentively considering the impressions. The measurements agreed, and the former unhesitatingly pronounced that the footstep was that of David, who had once more been made to exchange his shoes for moccasins. “I can now read the whole of it, as plainly as if I had seen the arts of Le Subtil,” he added; “the singer being a man whose gifts lay chiefly in his throat and feet, was made to go first, and the others have trod in his steps, imitating their formation.” “But,” cried Duncan, “I see no signs of—” “The gentle ones,” interrupted the scout; “the varlet has found a way to carry them, until he supposed he had thrown any followers off the scent. My life on it, we see their pretty little feet again, before many rods go by.” The whole party now proceeded, following the course of the rill, keeping anxious eyes on the regular impressions.",
+  "text": "I can credit that yonder Huron was to fall by my hand, for with my own eyes I have seen it; but nothing short of being a witness will cause me to think he has met with any reward, or that Chingachgook there will be condemned at the final day.” “You have no warranty for such an audacious doctrine, nor any covenant to support it,” cried David who was deeply tinctured with the subtle distinctions which, in his time, and more especially in his province, had been drawn around the beautiful simplicity of revelation, by endeavoring to penetrate the awful mystery of the divine nature, supplying faith by self-sufficiency, and by consequence, involving those who reasoned from such human dogmas in absurdities and doubt; “your temple is reared on the sands, and the first tempest will wash away its foundation. I demand your authorities for such an uncharitable assertion (like other advocates of a system, David was not always accurate in his use of terms).",
   "words": [
     {
-      "word": "impressions",
+      "word": "warranty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "proceeded",
+      "word": "doctrine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consequence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sands",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tempest",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

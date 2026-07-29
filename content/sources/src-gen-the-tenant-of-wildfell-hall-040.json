@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-040",
+  "pool": "sourced",
+  "text": "I knew that hand, though a black glove concealed its delicate whiteness and half its fair proportions, and quickly seizing it, I pressed it in my own—ardently for a moment, but instantly recollecting myself, I dropped it, and it was immediately withdrawn. “Were you coming to see us, or only passing by?” asked the low voice of its owner, who, I felt, was attentively surveying my countenance from behind the thick black veil which, with the shadowing panels, entirely concealed her own from me. “I—I came to see the place,” faltered I. “The place,” repeated she, in a tone which betokened more displeasure or disappointment than surprise. “Will you not enter it, then?” “If you wish it.” “Can you doubt?” “Yes, yes!",
+  "words": [
+    {
+      "word": "glove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

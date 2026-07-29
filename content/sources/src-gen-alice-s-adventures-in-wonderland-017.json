@@ -1,10 +1,16 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-017",
   "pool": "sourced",
-  "text": "The adventures first,” said the Gryphon in an impatient tone: “explanations take such a dreadful time.” So Alice began telling them her adventures from the time when she first saw the White Rabbit. She was a little nervous about it just at first, the two creatures got so close to her, one on each side, and opened their eyes and mouths so very wide, but she gained courage as she went on. Her listeners were perfectly quiet till she got to the part about her repeating “You are old, Father William,” to the Caterpillar, and the words all coming different, and then the Mock Turtle drew a long breath, and said “That’s very curious.” “It’s all about as curious as it can be,” said the Gryphon. “It all came different!” the Mock Turtle repeated thoughtfully. “I should like to hear her try and repeat something now.",
+  "text": "You’re a serpent; and there’s no use denying it. I suppose you’ll be telling me next that you never tasted an egg!” “I have tasted eggs, certainly,” said Alice, who was a very truthful child; “but little girls eat eggs quite as much as serpents do, you know.” “I don’t believe it,” said the Pigeon; “but if they do, why then they’re a kind of serpent, that’s all I can say.” This was such a new idea to Alice, that she was quite silent for a minute or two, which gave the Pigeon the opportunity of adding, “You’re looking for eggs, I know that well enough; and what does it matter to me whether you’re a little girl or a serpent?” “It matters a good deal to me,” said Alice hastily; “but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want yours: I don’t like them raw.” “Well, be off, then!” said the Pigeon in a sulky tone, as it settled down again into its nest.",
   "words": [
     {
-      "word": "dreadful",
+      "word": "truthful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nest",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

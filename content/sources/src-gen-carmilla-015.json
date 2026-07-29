@@ -1,16 +1,10 @@
 {
   "id": "src-gen-carmilla-015",
   "pool": "sourced",
-  "text": "Shall I say Madame la Comtesse?’ “She laughed, and she would, no doubt, have met me with another evasion—if, indeed, I can treat any occurrence in an interview every circumstance of which was prearranged, as I now believe, with the profoundest cunning, as liable to be modified by accident. “‘As to that,’ she began; but she was interrupted, almost as she opened her lips, by a gentleman, dressed in black, who looked particularly elegant and distinguished, with this drawback, that his face was the most deadly pale I ever saw, except in death. He was in no masquerade—in the plain evening dress of a gentleman; and he said, without a smile, but with a courtly and unusually low bow:— “‘Will Madame la Comtesse permit me to say a very few words which may interest her?’ “The lady turned quickly to him, and touched her lip in token of silence; she then said to me, ‘Keep my place for me, General; I shall return when I have said a few words.’ “And with this injunction, playfully given, she walked a little aside with the gentleman in black, and talked for some minutes, apparently very earnestly.",
+  "text": "“How romantic you are, Carmilla,” I said. “Whenever you tell me your story, it will be made up chiefly of some one great romance.” She kissed me silently. “I am sure, Carmilla, you have been in love; that there is, at this moment, an affair of the heart going on.” “I have been in love with no one, and never shall,” she whispered, “unless it should be with you.” How beautiful she looked in the moonlight! Shy and strange was the look with which she quickly hid her face in my neck and hair, with tumultuous sighs, that seemed almost to sob, and pressed in mine a hand that trembled. Her soft cheek was glowing against mine.",
   "words": [
     {
-      "word": "evasion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "deadly",
+      "word": "cheek",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

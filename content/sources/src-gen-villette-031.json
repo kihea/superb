@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-031",
+  "pool": "sourced",
+  "text": "Intimate intercourse, close inspection, disclosed in Paulina only what was delicate, intelligent, and sincere; therefore my regard for her lay deep. An admiration more superficial might have been more demonstrative; mine, however, was quiet. “What have you to ask of Lucy?” said I; “be brave, and speak out.” But there was no courage in her eye; as it met mine, it fell; and there was no coolness on her cheek—not a transient surface-blush, but a gathering inward excitement raised its tint and its temperature. “Lucy, I do wish to know your thoughts of Dr. Bretton. Do, do give me your real opinion of his character, his disposition.” “His character stands high, and deservedly high.” “And his disposition?",
+  "words": [
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "superficial",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

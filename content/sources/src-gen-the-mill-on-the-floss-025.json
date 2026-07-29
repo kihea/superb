@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-025",
+  "pool": "sourced",
+  "text": "Not that Tom was moulded on the spoony type of the Industrious Apprentice; he had a very strong appetite for pleasure,—would have liked to be a Tamer of horses and to make a distinguished figure in all neighbouring eyes, dispensing treats and benefits to others with well-judged liberality, and being pronounced one of the finest young fellows of those parts; nay, he determined to achieve these things sooner or later; but his practical shrewdness told him that the means to such achievements could only lie for him in present abstinence and self-denial; there were certain milestones to be passed, and one of the first was the payment of his father’s debts. Having made up his mind on that point, he strode along without swerving, contracting some rather saturnine sternness, as a young man is likely to do who has a premature call upon him for self-reliance.",
+  "words": [
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abstinence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-rip-van-winkle-010",
   "pool": "sourced",
-  "text": "On nearer approach he was still more surprised at the singularity of the stranger’s appearance. He was a short, square-built old fellow, with thick bushy hair, and a grizzled beard. His dress was of the antique Dutch fashion: a cloth jerkin strapped round the waist--several pair of breeches, the outer one of ample volume, decorated with rows of buttons down the sides, and bunches at the knees. He bore on his shoulder a stout keg, that seemed full of liquor, and made signs for Rip to approach and assist him with the load. Though rather shy and distrustful of his new acquaintance, Rip complied with his usual alacrity; and mutually relieving one another, they clambered up a narrow gully, apparently the dry bed of a mountain torrent.",
+  "text": "Rip Van Winkle!” He looked round, but could see nothing but a crow winging its solitary flight across the mountain. He thought his fancy must have deceived him, and turned again to descend, when he heard the same cry ring through the still evening air: “Rip Van Winkle! Rip Van Winkle!” At the same time Wolf bristled up his back, and giving a low growl, skulked to his master’s side, looking fearfully down into the glen. Rip now felt a vague apprehension stealing over him; he looked anxiously in the same direction, and perceived a strange figure slowly toiling up the rocks, and bending under the weight of something he carried on his back. He was surprised to see any human being in this lonely and unfrequented place; but supposing it to be some one of the neighbourhood in need of his assistance, he hastened down to yield it.",
   "words": [
     {
-      "word": "beard",
+      "word": "solitary",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cloth",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "strapped",
+      "word": "glen",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

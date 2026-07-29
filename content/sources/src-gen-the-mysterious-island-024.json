@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-024",
+  "pool": "sourced",
+  "text": "No land nor even a sail was in sight. This woody islet did not offer the varied aspects of Lincoln Island, arid and wild in one part, but fertile and rich in the other. On the contrary this was a uniform mass of verdure, out of which rose two or three hills of no great height. Obliquely to the oval of the island ran a stream through a wide meadow falling into the sea on the west by a narrow mouth. “The domain is limited,” said Herbert.",
+  "words": [
+    {
+      "word": "fertile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

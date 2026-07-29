@@ -1,34 +1,28 @@
 {
   "id": "src-gen-a-christmas-carol-014",
   "pool": "sourced",
-  "text": "Here, again, were shadows on the window-blind of guests assembling; and there a group of handsome girls, all hooded and fur-booted, and all chattering at once, tripped lightly off to some near neighbour's house; where, woe upon the single man who saw them enter--artful witches, well they knew it--in a glow! But, if you had judged from the numbers of people on their way to friendly gatherings, you might have thought that no one was at home to give them welcome when they got there, instead of every house expecting company, and piling up its fires half-chimney high. Blessings on it, how the Ghost exulted! How it bared its breadth of breast, and opened its capacious palm, and floated on, outpouring, with a generous hand, its bright and harmless mirth on everything within its reach! The very lamplighter, who ran on before, dotting the dusky street with specks of light, and who was dressed to spend the evening somewhere, laughed out loudly as the Spirit passed, though little kenned the lamplighter that he had any company but Christmas!",
+  "text": "In they all came, one after another; some shyly, some boldly, some gracefully, some awkwardly, some pushing, some pulling; in they all came, anyhow and everyhow. Away they all went, twenty couple at once; hands half round and back again the other way; down the middle and up again; round and round in various stages of affectionate grouping; old top couple always turning up in the wrong place; new top couple starting off again, as soon as they got there; all top couples at last, and not a bottom one to help them! When this result was brought about, old Fezziwig, clapping his hands to stop the dance, cried out, \"Well done!\" and the fiddler plunged his hot face into a pot of porter, especially provided for that purpose. But scorning rest, upon his reappearance, he instantly began again, though there were no dancers yet, as if the other fiddler had been carried home, exhausted, on a shutter, and he were a bran-new man resolved to beat him out of sight, or perish.",
   "words": [
     {
-      "word": "shadows",
+      "word": "anyhow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lightly",
+      "word": "shutter",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "witches",
+      "word": "resolved",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "glow",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "loudly",
+      "word": "perish",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

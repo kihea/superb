@@ -1,10 +1,28 @@
 {
   "id": "src-gen-notes-from-underground-014",
   "pool": "sourced",
-  "text": "Drive on, drive on!” And in my impatience I punched the sledge-driver on the back of the neck. “What are you up to? What are you hitting me for?” the peasant shouted, but he whipped up his nag so that it began kicking. The wet snow was falling in big flakes; I unbuttoned myself, regardless of it. I forgot everything else, for I had finally decided on the slap, and felt with horror that it was going to happen now, at once, and that no force could stop it.",
+  "text": "Neither of them ever imagined that they were looked at with repulsion; if they had imagined it they would not have minded—so long as their superiors did not look at them in that way. It is clear to me now that, owing to my unbounded vanity and to the high standard I set for myself, I often looked at myself with furious discontent, which verged on loathing, and so I inwardly attributed the same feeling to everyone. I hated my face, for instance: I thought it disgusting, and even suspected that there was something base in my expression, and so every day when I turned up at the office I tried to behave as independently as possible, and to assume a lofty expression, so that I might not be suspected of being abject. “My face may be ugly,” I thought, “but let it be lofty, expressive, and, above all, extremely intelligent.” But I was positively and painfully certain that it was impossible for my countenance ever to express those qualities. And what was worst of all, I thought it actually stupid looking, and I would have been quite satisfied if I could have looked intelligent.",
   "words": [
     {
-      "word": "peasant",
+      "word": "furious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expressive",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-little-lord-fauntleroy-002",
   "pool": "sourced",
-  "text": "You see, I'm three days older than you, and that gives me a 'vantage. I'm three days older.” And this view of the case seemed to cheer Billy Williams so much that he began to smile on the world again, and felt able to swagger a little, almost as if he had won the race instead of losing it. Somehow, Ceddie Errol had a way of making people feel comfortable. Even in the first flush of his triumphs, he remembered that the person who was beaten might not feel so gay as he did, and might like to think that he MIGHT have been the winner under different circumstances. That morning Mr. Havisham had quite a long conversation with the winner of the race--a conversation which made him smile his dry smile, and rub his chin with his bony hand several times.",
+  "text": "“He is the best-bred-looking and handsomest little fellow I ever saw,” was what Mr. Havisham thought. What he said aloud was simply, “And so this is little Lord Fauntleroy.” And, after this, the more he saw of little Lord Fauntleroy, the more of a surprise he found him. He knew very little about children, though he had seen plenty of them in England--fine, handsome, rosy girls and boys, who were strictly taken care of by their tutors and governesses, and who were sometimes shy, and sometimes a trifle boisterous, but never very interesting to a ceremonious, rigid old lawyer. Perhaps his personal interest in little Lord Fauntleroy's fortunes made him notice Ceddie more than he had noticed other children; but, however that was, he certainly found himself noticing him a great deal. Cedric did not know he was being observed, and he only behaved himself in his ordinary manner.",
   "words": [
     {
-      "word": "cheer",
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strictly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noticing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

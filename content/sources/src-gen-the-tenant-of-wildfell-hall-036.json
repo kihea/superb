@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-036",
+  "pool": "sourced",
+  "text": "“Mamma does all she can,” said she, “to make me feel myself a burden and incumbrance to the family, and the most ungrateful, selfish, and undutiful daughter that ever was born; and Walter, too, is as stern and cold and haughty as if he hated me outright. I believe I should have yielded at once if I had known, from the beginning, how much resistance would have cost me; but now, for very obstinacy’s sake, I will stand out!” “A bad motive for a good resolve,” I answered. “But, however, I know you have better motives, really, for your perseverance: and I counsel you to keep them still in view.” “Trust me I will. I threaten mamma sometimes that I’ll run away, and disgrace the family by earning my own livelihood, if she torments me any more; and then that frightens her a little. But I will do it, in good earnest, if they don’t mind.” “Be quiet and patient a while,” said I, “and better times will come.” Poor girl!",
+  "words": [
+    {
+      "word": "threaten",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

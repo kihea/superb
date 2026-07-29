@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-030",
+  "pool": "sourced",
+  "text": "And I don't jump at him all of a sudden, and risk making a blundering half-way business of it; no, I get away off yonder to one side, and work up on him gradually, so that he never suspects that I'm going to hit him at all; and by and by, all in a flash, he's flat on his back, and he can't tell for the life of him how it all happened. That is the way I went for brother Dowley. I started to talking lazy and comfortable, as if I was just talking to pass the time; and the oldest man in the world couldn't have taken the bearings of my starting place and guessed where I was going to fetch up: “Boys, there's a good many curious things about law, and custom, and usage, and all that sort of thing, when you come to look at it; yes, and about the drift and progress of human opinion and movement, too. There are written laws--they perish; but there are also unwritten laws--they are eternal. Take the unwritten law of wages: it says they've got to advance, little by little, straight through the centuries.",
+  "words": [
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fetch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drift",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

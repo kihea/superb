@@ -1,10 +1,22 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-006",
   "pool": "sourced",
-  "text": "At two o’clock the guide entered a thick forest which extended several miles; he preferred to travel under cover of the woods. They had not as yet had any unpleasant encounters, and the journey seemed on the point of being successfully accomplished, when the elephant, becoming restless, suddenly stopped. It was then four o’clock. “What’s the matter?” asked Sir Francis, putting out his head. “I don’t know, officer,” replied the Parsee, listening attentively to a confused murmur which came through the thick branches.",
+  "text": "“Consul,” said he, without preamble, “I have strong reasons for believing that my man is a passenger on the ‘Mongolia.’” And he narrated what had just passed concerning the passport. “Well, Mr. Fix,” replied the consul, “I shall not be sorry to see the rascal’s face; but perhaps he won’t come here—that is, if he is the person you suppose him to be. A robber doesn’t quite like to leave traces of his flight behind him; and, besides, he is not obliged to have his passport countersigned.” “If he is as shrewd as I think he is, consul, he will come.” “To have his passport visaed?” “Yes. Passports are only good for annoying honest folks, and aiding in the flight of rogues. I assure you it will be quite the thing for him to do; but I hope you will not visa the passport.” “Why not?",
   "words": [
     {
-      "word": "accomplished",
+      "word": "passport",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "robber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "visa",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

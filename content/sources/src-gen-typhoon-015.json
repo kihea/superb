@@ -1,16 +1,16 @@
 {
   "id": "src-gen-typhoon-015",
   "pool": "sourced",
-  "text": "Mr. Rout had gone away, and Captain MacWhirr could feel against his ear the pulsation of the engines, like the beat of the ship's heart. Mr. Rout's voice down there shouted something distantly. The ship pitched headlong, the pulsation leaped with a hissing tumult, and stopped dead. Captain MacWhirr's face was impassive, and his eyes were fixed aimlessly on the crouching shape of the second mate. Again Mr. Rout's voice cried out in the depths, and the pulsating beats recommenced, with slow strokes--growing swifter.",
+  "text": "“About as queer as your extraordinary notion of dodging the ship head to sea, for I don't know how long, to make the Chinamen comfortable; whereas all we've got to do is to take them to Fu-chau, being timed to get there before noon on Friday. If the weather delays me--very well. There's your log-book to talk straight about the weather. But suppose I went swinging off my course and came in two days late, and they asked me: 'Where have you been all that time, Captain?' What could I say to that?",
   "words": [
     {
-      "word": "shouted",
+      "word": "timed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "depths",
+      "word": "noon",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

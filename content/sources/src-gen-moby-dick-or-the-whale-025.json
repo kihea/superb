@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-025",
+  "pool": "sourced",
+  "text": "As when by unseen hands the water is gradually drawn off from some mighty fountain, and with half-stifled melancholy gurglings the spray-column lowers and lowers to the ground—so the last long dying spout of the whale. Soon, while the crews were awaiting the arrival of the ship, the body showed symptoms of sinking with all its treasures unrifled. Immediately, by Starbuck’s orders, lines were secured to it at different points, so that ere long every boat was a buoy; the sunken whale being suspended a few inches beneath them by the cords. By very heedful management, when the ship drew nigh, the whale was transferred to her side, and was strongly secured there by the stiffest fluke-chains, for it was plain that unless artificially upheld, the body would at once sink to the bottom. It so chanced that almost upon first cutting into him with the spade, the entire length of a corroded harpoon was found imbedded in his flesh, on the lower part of the bunch before described.",
+  "words": [
+    {
+      "word": "fountain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nigh",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "flesh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

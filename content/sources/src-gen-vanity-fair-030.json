@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-vanity-fair-030",
+  "pool": "sourced",
+  "text": "The combat, which we describe in a sentence or two, lasted for many weeks in poor Amelia's heart, during which she had no confidante; indeed, she could never have one, as she would not allow to herself the possibility of yielding, though she was giving way daily before the enemy with whom she had to battle. One truth after another was marshalling itself silently against her and keeping its ground. Poverty and misery for all, want and degradation for her parents, injustice to the boy--one by one the outworks of the little citadel were taken, in which the poor soul passionately guarded her only love and treasure. At the beginning of the struggle, she had written off a letter of tender supplication to her brother at Calcutta, imploring him not to withdraw the support which he had granted to their parents and painting in terms of artless pathos their lonely and hapless condition. She did not know the truth of the matter.",
+  "words": [
+    {
+      "word": "yielding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,18 +1,30 @@
 {
   "id": "src-gen-a-little-princess-016",
   "pool": "sourced",
-  "text": "The truth was, however, that it was a sound which had called her back--a real sound--the click of the skylight as it fell in closing after a lithe white figure which slipped through it and crouched down close by upon the slates of the roof--just near enough to see what happened in the attic, but not near enough to be seen. At first she did not open her eyes. She felt too sleepy and--curiously enough--too warm and comfortable. She was so warm and comfortable, indeed, that she did not believe she was really awake. She never was as warm and cozy as this except in some lovely vision.",
+  "text": "\"I should like to live here!\" When Sara had persuaded her to go downstairs again, and, after setting her on her way, had come back to her attic, she stood in the middle of it and looked about her. The enchantment of her imaginings for Lottie had died away. The bed was hard and covered with its dingy quilt. The whitewashed wall showed its broken patches, the floor was cold and bare, the grate was broken and rusty, and the battered footstool, tilted sideways on its injured leg, the only seat in the room.",
   "words": [
     {
-      "word": "attic",
+      "word": "downstairs",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cozy",
+      "word": "quilt",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patches",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "bare",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -21,7 +33,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

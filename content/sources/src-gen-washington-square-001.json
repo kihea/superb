@@ -1,16 +1,10 @@
 {
   "id": "src-gen-washington-square-001",
   "pool": "sourced",
-  "text": "ns disported themselves in the gutter. These elements of rural picturesqueness have now wholly departed from New York street scenery; but they were to be found within the memory of middle-aged persons, in quarters which now would blush to be reminded of them. Catherine had a great many cousins, and with her Aunt Almond’s children, who ended by being nine in number, she lived on terms of considerable intimacy. When she was younger they had been rather afraid of her; she was believed, as the phrase is, to be highly educated, and a person who lived in the intimacy of their Aunt Penniman had something of reflected grandeur. Mrs. Penniman, among the little Almonds, was an object of more admiration than sympathy.",
+  "text": "pavement (when there was one), and mingled their shade with the steep roofs of desultory Dutch houses, and where pigs and chickens disported themselves in the gutter. These elements of rural picturesqueness have now wholly departed from New York street scenery; but they were to be found within the memory of middle-aged persons, in quarters which now would blush to be reminded of them. Catherine had a great many cousins, and with her Aunt Almond’s children, who ended by being nine in number, she lived on terms of considerable intimacy. When she was younger they had been rather afraid of her; she was believed, as the phrase is, to be highly educated, and a person who lived in the intimacy of their Aunt Penniman had something of reflected grandeur. Mrs. Penniman, among the little Almonds, was an object of more admiration than sympathy.",
   "words": [
     {
-      "word": "ns",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "reminded",
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -16,18 +16,6 @@
       ]
     },
     {
-      "word": "trimming",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dresses",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "naughty",
       "signals": [
         "gloss-overlap"
@@ -39,7 +27,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

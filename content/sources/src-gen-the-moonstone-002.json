@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-moonstone-002",
   "pool": "sourced",
-  "text": "And when it came to her turn to go out, nine times out of ten she quietly put on her bonnet, and had her turn by herself. She never quarrelled, she never took offence; she only kept a certain distance, obstinately and civilly, between the rest of them and herself. Add to this that, plain as she was, there was just a dash of something that wasn’t like a housemaid, and that was like a lady, about her. It might have been in her voice, or it might have been in her face. All I can say is, that the other women pounced on it like lightning the first day she came into the house, and said (which was most unjust) that Rosanna Spearman gave herself airs.",
+  "text": "I have omitted to state that I went with the bride to the bride’s husband’s house and lands down here. “Sir John,” she says, “I can’t do without Gabriel Betteredge.” “My lady,” says Sir John, “I can’t do without him, either.” That was his way with her—and that was how I went into his service. It was all one to me where I went, so long as my mistress and I were together. Seeing that my lady took an interest in the out-of-door work, and the farms, and such like, I took an interest in them too—with all the more reason that I was a small farmer’s seventh son myself. My lady got me put under the bailiff, and I did my best, and gave satisfaction, and got promotion accordingly.",
   "words": [
     {
-      "word": "bonnet",
+      "word": "bride",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "unjust",
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farmer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Wilkie Collins",
     "year": 1868,
     "source": "Project Gutenberg #155",
-    "url": "https://www.gutenberg.org/ebooks/155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

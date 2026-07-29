@@ -1,18 +1,24 @@
 {
   "id": "src-gen-great-expectations-005",
   "pool": "sourced",
-  "text": "I have often asked myself the question since; but what else could I do? His manner was so final, and I was so astonished, that I followed where he led, as if I had been under a spell. “Stop a minute, though,” he said, wheeling round before we had gone many paces. “I ought to give you a reason for fighting, too. There it is!” In a most irritating manner he instantly slapped his hands against one another, daintily flung one of his legs up behind him, pulled my hair, slapped his hands again, dipped his head, and butted it into my stomach.",
+  "text": "Neither were my notions of the theological positions to which my Catechism bound me, at all accurate; for, I have a lively remembrance that I supposed my declaration that I was to “walk in the same all the days of my life,” laid me under an obligation always to go through the village from our house in one particular direction, and never to vary it by turning down by the wheelwright’s or up by the mill. When I was old enough, I was to be apprenticed to Joe, and until I could assume that dignity I was not to be what Mrs. Joe called “Pompeyed,” or (as I render it) pampered. Therefore, I was not only odd-boy about the forge, but if any neighbour happened to want an extra boy to frighten birds, or pick up stones, or do any such job, I was favoured with the employment. In order, however, that our superior position might not be compromised thereby, a money-box was kept on the kitchen mantel-shelf, into which it was publicly made known that all my earnings were dropped.",
   "words": [
     {
-      "word": "slapped",
+      "word": "lively",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flung",
+      "word": "neighbour",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thereby",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-hard-times-005",
   "pool": "sourced",
-  "text": "I keep the nine oils ready for him, and I know he will come back. Every letter that I see in Mr. Gradgrind’s hand takes my breath away and blinds my eyes, for I think it comes from father, or from Mr. Sleary about father. Mr. Sleary promised to write as soon as ever father should be heard of, and I trust to him to keep his word.’ ‘Do look sharp for old Bounderby, Loo!’ said Tom, with an impatient whistle. ‘He’ll be off if you don’t look sharp!’ After this, whenever Sissy dropped a curtsey to Mr. Gradgrind in the presence of his family, and said in a faltering way, ‘I beg your pardon, sir, for being troublesome—but—have you had any letter yet about me?’ Louisa would suspend the occupation of the moment, whatever it was, and look for the reply as earnestly as Sissy did. And when Mr. Gradgrind regularly answered, ‘No, Jupe, nothing of the sort,’ the trembling of Sissy’s lip would be repeated in Louisa’s face, and her eyes would follow Sissy with compassion to the door.",
+  "text": "‘It’s only crossing the bar, sir, and up the stairs, if you wouldn’t mind, and waiting there for a moment till I get a candle. If you should hear a dog, sir, it’s only Merrylegs, and he only barks.’ ‘Merrylegs and nine oils, eh!’ said Mr. Bounderby, entering last with his metallic laugh. ‘Pretty well this, for a self-made man!’ SLEARY’S HORSEMANSHIP THE name of the public-house was the Pegasus’s Arms. The Pegasus’s legs might have been more to the purpose; but, underneath the winged horse upon the sign-board, the Pegasus’s Arms was inscribed in Roman letters. Beneath that inscription again, in a flowing scroll, the painter had touched off the lines: Good malt makes good beer, Walk in, and they’ll draw it here; Good wine makes good brandy, Give us a call, and you’ll find it handy.",
   "words": [
     {
-      "word": "blinds",
+      "word": "underneath",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "occupation",
+      "word": "scroll",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "brandy",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

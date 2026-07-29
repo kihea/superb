@@ -1,10 +1,22 @@
 {
   "id": "src-gen-crime-and-punishment-006",
   "pool": "sourced",
-  "text": "Well, would you like to do the second signature of ‘Is woman a human being?’ If you would, take the German and pens and paper--all those are provided, and take three roubles; for as I have had six roubles in advance on the whole thing, three roubles come to you for your share. And when you have finished the signature there will be another three roubles for you. And please don’t think I am doing you a service; quite the contrary, as soon as you came in, I saw how you could help me; to begin with, I am weak in spelling, and secondly, I am sometimes utterly adrift in German, so that I make it up as I go along for the most part. The only comfort is, that it’s bound to be a change for the better. Though who can tell, maybe it’s sometimes for the worse.",
+  "text": "Is it possible it really will happen?” He left the seat, and went off almost at a run; he meant to turn back, homewards, but the thought of going home suddenly filled him with intense loathing; in that hole, in that awful little cupboard of his, all this had for a month past been growing up in him; and he walked on at random. His nervous shudder had passed into a fever that made him feel shivering; in spite of the heat he felt cold. With a kind of effort he began almost unconsciously, from some inner craving, to stare at all the objects before him, as though looking for something to distract his attention; but he did not succeed, and kept dropping every moment into brooding. When with a start he lifted his head again and looked round, he forgot at once what he had just been thinking about and even where he was going. In this way he walked right across Vassilyevsky Ostrov, came out on to the Lesser Neva, crossed the bridge and turned towards the islands.",
   "words": [
     {
-      "word": "secondly",
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distract",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1866,
     "source": "Project Gutenberg #2554",
-    "url": "https://www.gutenberg.org/ebooks/2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

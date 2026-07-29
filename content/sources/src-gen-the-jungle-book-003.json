@@ -1,40 +1,10 @@
 {
   "id": "src-gen-the-jungle-book-003",
   "pool": "sourced",
-  "text": "“No one then is to be feared,” Baloo wound up, patting his big furry stomach with pride. “Except his own tribe,” said Bagheera, under his breath; and then aloud to Mowgli, “Have a care for my ribs, Little Brother! What is all this dancing up and down?” Mowgli had been trying to make himself heard by pulling at Bagheera’s shoulder fur and kicking hard. When the two listened to him he was shouting at the top of his voice, “And so I shall have a tribe of my own, and lead them through the branches all day long.” “What is this new folly, little dreamer of dreams?” said Bagheera. “Yes, and throw branches and dirt at old Baloo,” Mowgli went on.",
+  "text": "Some of ye are eaters of cattle, and of others I have heard that, under Shere Khan’s teaching, ye go by dark night and snatch children from the villager’s doorstep. Therefore I know ye to be cowards, and it is to cowards I speak. It is certain that I must die, and my life is of no worth, or I would offer that in the man-cub’s place. But for the sake of the Honor of the Pack,--a little matter that by being without a leader ye have forgotten,--I promise that if ye let the man-cub go to his own place, I will not, when my time comes to die, bare one tooth against ye. I will die without fighting.",
   "words": [
     {
-      "word": "furry",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "aloud",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ribs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "listened",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shouting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dreamer",
+      "word": "cub",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

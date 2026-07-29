@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-032",
+  "pool": "sourced",
+  "text": "At that time my virtue slumbered; my evil, kept awake by ambition, was alert and swift to seize the occasion; and the thing that was projected was Edward Hyde. Hence, although I had now two characters as well as two appearances, one was wholly evil, and the other was still the old Henry Jekyll, that incongruous compound of whose reformation and improvement I had already learned to despair. The movement was thus wholly toward the worse. Even at that time, I had not conquered my aversion to the dryness of a life of study. I would still be merrily disposed at times; and as my pleasures were (to say the least) undignified, and I was not only well known and highly considered, but growing towards the elderly man, this incoherency of my life was daily growing more unwelcome.",
+  "words": [
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reformation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elderly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

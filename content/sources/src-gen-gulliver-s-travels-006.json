@@ -1,35 +1,41 @@
 {
   "id": "src-gen-gulliver-s-travels-006",
   "pool": "sourced",
-  "text": "We then set sail, and had a good voyage till we passed the Straits of Madagascar; but having got northward of that island, and to about five degrees south latitude, the winds, which in those seas are observed to blow a constant equal gale between the north and west, from the beginning of December to the beginning of May, on the 19th of April began to blow with much greater violence, and more westerly than usual, continuing so for twenty days together: during which time, we were driven a little to the east of the Molucca Islands, and about three degrees northward of the line, as our captain found by an observation he took the 2nd of May, at which time the wind ceased, and it was a perfect calm, whereat I was not a little rejoiced. But he, being a man well experienced in the navigation of those seas, bid us all prepare against a storm, which accordingly happened the day following: for the southern wind, called the southern monsoon, began to set in.",
+  "text": "We apprehend his imperial highness, the heir to the crown, to have some tendency towards the high heels; at least we can plainly discover that one of his heels is higher than the other, which gives him a hobble in his gait. Now, in the midst of these intestine disquiets, we are threatened with an invasion from the island of Blefuscu, which is the other great empire of the universe, almost as large and powerful as this of his majesty. For as to what we have heard you affirm, that there are other kingdoms and states in the world inhabited by human creatures as large as yourself, our philosophers are in much doubt, and would rather conjecture that you dropped from the moon, or one of the stars; because it is certain, that a hundred mortals of your bulk would in a short time destroy all the fruits and cattle of his majesty’s dominions: besides, our histories of six thousand moons make no mention of any other regions than the two great empires of Lilliput and Blefuscu. Which two mighty powers have, as I was going to tell you, been engaged in a most obstinate war for six-and-thirty moons past.",
   "words": [
     {
-      "word": "sail",
+      "word": "imperial",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "northward",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "latitude",
+      "word": "highness",
       "signals": [
         "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "observation",
+      "word": "tendency",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "monsoon",
+      "word": "heels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "majesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
@@ -40,7 +46,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

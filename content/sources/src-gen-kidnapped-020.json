@@ -1,12 +1,12 @@
 {
   "id": "src-gen-kidnapped-020",
   "pool": "sourced",
-  "text": "“Shall I give ye the rest of the name, then?” said Alan. There was a pause; and then, “I’m thinking I’ll better let ye in,” says my uncle, doubtfully. “I dare say that,” said Alan; “but the point is, Would I go? Now I will tell you what I am thinking. I am thinking that it is here upon this doorstep that we must confer upon this business; and it shall be here or nowhere at all whatever; for I would have you to understand that I am as stiffnecked as yoursel’, and a gentleman of better family.” This change of note disconcerted Ebenezer; he was a little while digesting it, and then says he, “Weel, weel, what must be must,” and shut the window.",
+  "text": "By good luck, his knife flew out of his hand as he fell. I picked up both that and his brogues, wished him a good morning, and set off upon my way, leaving him barefoot and disarmed. I chuckled to myself as I went, being sure I was done with that rogue, for a variety of reasons. First, he knew he could have no more of my money; next, the brogues were worth in that country only a few pence; and, lastly, the knife, which was really a dagger, it was against the law for him to carry. In about half an hour of walk, I overtook a great, ragged man, moving pretty fast but feeling before him with a staff.",
   "words": [
     {
-      "word": "pause",
+      "word": "lastly",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

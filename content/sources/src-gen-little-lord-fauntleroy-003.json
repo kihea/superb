@@ -1,16 +1,10 @@
 {
   "id": "src-gen-little-lord-fauntleroy-003",
   "pool": "sourced",
-  "text": "So she, too, went out of the room and Mr. Havisham was left alone for a while. He went to the window and stood looking out into the street reflectively. He was thinking of the old Earl of Dorincourt, sitting in his great, splendid, gloomy library at the castle, gouty and lonely, surrounded by grandeur and luxury, but not really loved by any one, because in all his long life he had never really loved any one but himself; he had been selfish and self-indulgent and arrogant and passionate; he had cared so much for the Earl of Dorincourt and his pleasures that there had been no time for him to think of other people; all his wealth and power, all the benefits from his noble name and high rank, had seemed to him to be things only to be used to amuse and give pleasure to the Earl of Dorincourt; and now that he was an old man, all this excitement and self-indulgence had only brought him ill health and irritability and a dislike of the world, which certainly disliked him.",
+  "text": "“Is that why your presidents are elected?” “Yes,” answered Ceddie cheerfully. “When a man is very good and knows a great deal, he is elected president. They have torch-light processions and bands, and everybody makes speeches. I used to think I might perhaps be a president, but I never thought of being an earl. I didn't know about earls,” he said, rather hastily, lest Mr. Havisham might feel it impolite in him not to have wished to be one,--“if I'd known about them, I dare say I should have thought I should like to be one.” “It is rather different from being a president,” said Mr. Havisham.",
   "words": [
     {
-      "word": "grandeur",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "selfish",
+      "word": "torch",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

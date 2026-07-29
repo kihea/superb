@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-walden-033",
+  "pool": "sourced",
+  "text": "So they came and went every day, with a peculiar shriek from the locomotive, from and to some point of the polar regions, as it seemed to me, like a flock of arctic snow-birds. But sometimes Squaw Walden had her revenge, and a hired man, walking behind his team, slipped through a crack in the ground down toward Tartarus, and he who was so brave before suddenly became but the ninth part of a man, almost gave up his animal heat, and was glad to take refuge in my house, and acknowledged that there was some virtue in a stove; or sometimes the frozen soil took a piece of steel out of a ploughshare, or a plough got set in the furrow and had to be cut out. To speak literally, a hundred Irishmen, with Yankee overseers, came from Cambridge every day to get out the ice.",
+  "words": [
+    {
+      "word": "flock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

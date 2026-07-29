@@ -1,10 +1,28 @@
 {
   "id": "src-gen-oliver-twist-004",
   "pool": "sourced",
-  "text": "“Certainly, my dear, certainly,” replied the old gentleman. There’s a pitcher of water in the corner by the door. Bring it here; and I’ll give you a basin to wash in, my dear.” Oliver got up; walked across the room; and stooped for an instant to raise the pitcher. When he turned his head, the box was gone. He had scarcely washed himself, and made everything tidy, by emptying the basin out of the window, agreeably to the Jew’s directions, when the Dodger returned: accompanied by a very sprightly young friend, whom Oliver had seen smoking on the previous night, and who was now formally introduced to him as Charley Bates.",
+  "text": "Coffin-plates, elm-chips, bright-headed nails, and shreds of black cloth, lay scattered on the floor; and the wall behind the counter was ornamented with a lively representation of two mutes in very stiff neckcloths, on duty at a large private door, with a hearse drawn by four black steeds, approaching in the distance. The shop was close and hot. The atmosphere seemed tainted with the smell of coffins. The recess beneath the counter in which his flock mattress was thrust, looked like a grave. Nor were these the only dismal feelings which depressed Oliver.",
   "words": [
     {
-      "word": "washed",
+      "word": "elm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mattress",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

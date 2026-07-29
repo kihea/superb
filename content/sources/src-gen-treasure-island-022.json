@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-022",
+  "pool": "sourced",
+  "text": "All the time I was washing out the block house, and then washing up the things from dinner, this disgust and envy kept growing stronger and stronger, till at last, being near a bread-bag, and no one then observing me, I took the first step towards my escapade and filled both pockets of my coat with biscuit. I was a fool, if you like, and certainly I was going to do a foolish, over-bold act; but I was determined to do it with all the precautions in my power. These biscuits, should anything befall me, would keep me, at least, from starving till far on in the next day. The next thing I laid hold of was a brace of pistols, and as I already had a powder-horn and bullets, I felt myself well supplied with arms. As for the scheme I had in my head, it was not a bad one in itself.",
+  "words": [
+    {
+      "word": "horn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bullets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

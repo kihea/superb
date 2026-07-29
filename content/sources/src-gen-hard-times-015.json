@@ -1,17 +1,36 @@
 {
   "id": "src-gen-hard-times-015",
   "pool": "sourced",
-  "text": "We shall see.’ The tremendous rain occasioned infinite confusion, when the train stopped at its destination. Gutters and pipes had burst, drains had overflowed, and streets were under water. In the first instant of alighting, Mrs. Sparsit turned her distracted eyes towards the waiting coaches, which were in great request. ‘She will get into one,’ she considered, ‘and will be away before I can follow in another. At all risks of being run over, I must see the number, and hear the order given to the coachman.’ But, Mrs. Sparsit was wrong in her calculation.",
+  "text": "In yielding up my trust here, I shall not be freed from the necessity of eating the bread of dependence:’ she might have said the sweetbread, for that delicate article in a savoury brown sauce was her favourite supper: ‘and I would rather receive it from your hand, than from any other. Therefore, sir, I accept your offer gratefully, and with many sincere acknowledgments for past favours. And I hope, sir,’ said Mrs. Sparsit, concluding in an impressively compassionate manner, ‘I fondly hope that Miss Gradgrind may be all you desire, and deserve!’ Nothing moved Mrs. Sparsit from that position any more. It was in vain for Bounderby to bluster or to assert himself in any of his explosive ways; Mrs. Sparsit was resolved to have compassion on him, as a Victim. She was polite, obliging, cheerful, hopeful; but, the more polite, the more obliging, the more cheerful, the more hopeful, the more exemplary altogether, she; the forlorner Sacrifice and Victim, he.",
   "words": [
     {
-      "word": "infinite",
+      "word": "compassionate",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "confusion",
+      "word": "fondly",
       "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "polite",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "cheerful",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "hopeful",
+      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -21,7 +40,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

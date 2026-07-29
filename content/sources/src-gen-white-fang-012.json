@@ -1,10 +1,16 @@
 {
   "id": "src-gen-white-fang-012",
   "pool": "sourced",
-  "text": "Not only was such an act sacrilegious in its nature, but it was fraught with peril. The gods were all-powerful, and a dog was no match against them; yet White Fang learned to face them, fiercely belligerent and unafraid. Duty rose above fear, and thieving gods learned to leave Grey Beaver’s property alone. One thing, in this connection, White Fang quickly learnt, and that was that a thieving god was usually a cowardly god and prone to run away at the sounding of the alarm. Also, he learned that but brief time elapsed between his sounding of the alarm and Grey Beaver coming to his aid.",
+  "text": "Its limits were the walls of the lair; but as he had no knowledge of the wide world outside, he was never oppressed by the narrow confines of his existence. But he had early discovered that one wall of his world was different from the rest. This was the mouth of the cave and the source of light. He had discovered that it was different from the other walls long before he had any thoughts of his own, any conscious volitions. It had been an irresistible attraction before ever his eyes opened and looked upon it.",
   "words": [
     {
-      "word": "prone",
+      "word": "lair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confines",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

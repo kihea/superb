@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-peter-pan-029",
+  "pool": "sourced",
+  "text": "By all the unwritten laws of savage warfare it is always the redskin who attacks, and with the wiliness of his race he does it just before the dawn, at which time he knows the courage of the whites to be at its lowest ebb. The white men have in the meantime made a rude stockade on the summit of yonder undulating ground, at the foot of which a stream runs, for it is destruction to be too far from water. There they await the onslaught, the inexperienced ones clutching their revolvers and treading on twigs, but the old hands sleeping tranquilly until just before the dawn. Through the long black night the savage scouts wriggle, snake-like, among the grass without stirring a blade. The brushwood closes behind them, as silently as sand into which a mole has dived.",
+  "words": [
+    {
+      "word": "whites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

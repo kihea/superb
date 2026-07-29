@@ -1,0 +1,72 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-021",
+  "pool": "sourced",
+  "text": "The lane they followed was so solitary that the hazel nuts had remained on the boughs till they slipped from their shells, and the blackberries hung in heavy clusters. Every now and then Angel would fling the lash of his whip round one of these, pluck it off, and give it to his companion. The dull sky soon began to tell its meaning by sending down herald-drops of rain, and the stagnant air of the day changed into a fitful breeze which played about their faces. The quick-silvery glaze on the rivers and pools vanished; from broad mirrors of light they changed to lustreless sheets of lead, with a surface like a rasp. But that spectacle did not affect her preoccupation.",
+  "words": [
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hazel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dull",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "herald",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sheets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

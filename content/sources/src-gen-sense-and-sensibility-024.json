@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-024",
+  "pool": "sourced",
+  "text": "Miss Dashwood--a subject such as this--untouched for fourteen years--it is dangerous to handle it at all! I will be more collected--more concise. She left to my care her only child, a little girl, the offspring of her first guilty connection, who was then about three years old. She loved the child, and had always kept it with her. It was a valued, a precious trust to me; and gladly would I have discharged it in the strictest sense, by watching over her education myself, had the nature of our situations allowed it; but I had no family, no home; and my little Eliza was therefore placed at school.",
+  "words": [
+    {
+      "word": "offspring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

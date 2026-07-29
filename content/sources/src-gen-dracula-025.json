@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-025",
+  "pool": "sourced",
+  "text": "Mina Harker’s Journal 30 September.--I am so glad that I hardly know how to contain myself. It is, I suppose, the reaction from the haunting fear which I have had: that this terrible affair and the reopening of his old wound might act detrimentally on Jonathan. I saw him leave for Whitby with as brave a face as I could, but I was sick with apprehension. The effort has, however, done him good. He was never so resolute, never so strong, never so full of volcanic energy, as at present.",
+  "words": [
+    {
+      "word": "reopening",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

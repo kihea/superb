@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-woman-in-white-023",
+  "pool": "sourced",
+  "text": "“I presume to offer no more advice—I only presume to make an inquiry. You live at some distance, sir, from the gigantic centres of scientific activity—London and Paris. Have you ever heard of the wasting effects of fever being reasonably and intelligibly repaired by fortifying the exhausted patient with brandy, wine, ammonia, and quinine? Has that new heresy of the highest medical authorities ever reached your ears—Yes or No?” “When a professional man puts that question to me I shall be glad to answer him,” said the doctor, opening the door to go out. “You are not a professional man, and I beg to decline answering you.” Buffeted in this inexcusably uncivil way on one cheek, the Count, like a practical Christian, immediately turned the other, and said, in the sweetest manner, “Good-morning, Mr. Dawson.” If my late beloved husband had been so fortunate as to know his lordship, how highly he and the Count would have esteemed each other!",
+  "words": [
+    {
+      "word": "brandy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "answering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-004",
   "pool": "sourced",
-  "text": "What fearful shapes and shadows beset his path, amidst the dim and ghastly glare of a snowy night! With what wistful look did he eye every trembling ray of light streaming across the waste fields from some distant window! How often was he appalled by some shrub covered with snow, which, like a sheeted spectre, beset his very path! How often did he shrink with curdling awe at the sound of his own steps on the frosty crust beneath his feet; and dread to look over his shoulder, lest he should behold some uncouth being tramping close behind him! And how often was he thrown into complete dismay by some rushing blast, howling among the trees, in the idea that it was the Galloping Hessian on one of his nightly scourings!",
+  "text": "Certain it is, his voice resounded far above all the rest of the congregation; and there are peculiar quavers still to be heard in that church, and which may even be heard half a mile off, quite to the opposite side of the millpond, on a still Sunday morning, which are said to be legitimately descended from the nose of Ichabod Crane. Thus, by divers little makeshifts, in that ingenious way which is commonly denominated “by hook and by crook,” the worthy pedagogue got on tolerably enough, and was thought, by all who understood nothing of the labor of headwork, to have a wonderfully easy life of it. The schoolmaster is generally a man of some importance in the female circle of a rural neighborhood; being considered a kind of idle, gentlemanlike personage, of vastly superior taste and accomplishments to the rough country swains, and, indeed, inferior in learning only to the parson. His appearance, therefore, is apt to occasion some little stir at the tea-table of a farmhouse, and the addition of a supernumerary dish of cakes or sweetmeats, or, peradventure, the parade of a silver teapot.",
   "words": [
     {
-      "word": "shadows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glare",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "snowy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "behold",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "nightly",
+      "word": "farmhouse",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

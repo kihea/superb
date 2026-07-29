@@ -1,40 +1,40 @@
 {
   "id": "src-gen-villette-020",
   "pool": "sourced",
-  "text": "Thus it must be. The revelation was indeed come. Presentiment had not been mistaken in her impulse: there is a kind of presentiment which never is mistaken; it was I who had for a moment miscalculated; not seeing the true bearing of the oracle, I had thought she muttered of vision when, in truth, her prediction touched reality. I might have paused longer upon what I saw; I might have deliberated ere I drew inferences. Some, perhaps, would have held the premises doubtful, the proofs insufficient; some slow sceptics would have incredulously examined ere they conclusively accepted the project of a marriage between a poor and unselfish man of forty, and his wealthy ward of eighteen; but far from me such shifts and palliatives, far from me such temporary evasion of the actual, such coward fleeing from the dread, the swift-footed, the all-overtaking Fact, such feeble suspense of submission to her the sole sovereign, such paltering and faltering resistance to the Power whose errand is to march conquering and to conquer, such traitor defection from the TRUTH.",
+  "text": "In me his malice should find no gratification; I sat silent. “You look,” said he, “like one who would snatch at a draught of sweet poison, and spurn wholesome bitters with disgust.” “Indeed, I never liked bitters; nor do I believe them wholesome. And to whatever is sweet, be it poison or food, you cannot, at least, deny its own delicious quality—sweetness. Better, perhaps, to die quickly a pleasant death, than drag on long a charmless life.” “Yet,” said he, “you should take your bitter dose duly and daily, if I had the power to administer it; and, as to the well-beloved poison, I would, perhaps, break the very cup which held it.” I sharply turned my head away, partly because his presence utterly displeased me, and partly because I wished to shun questions: lest, in my present mood, the effort of answering should overmaster self-command. “Come,” said he, more softly, “tell me the truth—you grieve at being parted from friends—is it not so?” The insinuating softness was not more acceptable than the inquisitorial curiosity.",
   "words": [
     {
-      "word": "paused",
+      "word": "malice",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "proofs",
+      "word": "snatch",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "insufficient",
+      "word": "wholesome",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dread",
+      "word": "sweetness",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "footed",
+      "word": "dose",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "sovereign",
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +45,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

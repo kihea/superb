@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-notes-from-underground-038",
+  "pool": "sourced",
+  "text": "And I am laughing at you now. Why are you shuddering? Yes, I was laughing at you! I had been insulted just before, at dinner, by the fellows who came that evening before me. I came to you, meaning to thrash one of them, an officer; but I didn’t succeed, I didn’t find him; I had to avenge the insult on someone to get back my own again; you turned up, I vented my spleen on you and laughed at you.",
+  "words": [
+    {
+      "word": "fellows",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "insult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

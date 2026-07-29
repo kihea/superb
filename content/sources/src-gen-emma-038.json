@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-emma-038",
+  "pool": "sourced",
+  "text": "Mr. Knightley, always so kind, so feeling, so truly considerate for every body, would never deserve to be less worshipped than now; and it really was too much to hope even of Harriet, that she could be in love with more than three men in one year. It was a very great relief to Emma to find Harriet as desirous as herself to avoid a meeting. Their intercourse was painful enough by letter. How much worse, had they been obliged to meet! Harriet expressed herself very much as might be supposed, without reproaches, or apparent sense of ill-usage; and yet Emma fancied there was a something of resentment, a something bordering on it in her style, which increased the desirableness of their being separate.—It might be only her own consciousness; but it seemed as if an angel only could have been quite without resentment under such a stroke.",
+  "words": [
+    {
+      "word": "obliged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resentment",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

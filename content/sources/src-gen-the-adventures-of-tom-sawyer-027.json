@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-027",
+  "pool": "sourced",
+  "text": "The perplexity and dissatisfaction of the house expressed itself in murmurs and provoked a reproof from the bench. Counsel for the prosecution now said: “By the oaths of citizens whose simple word is above suspicion, we have fastened this awful crime, beyond all possibility of question, upon the unhappy prisoner at the bar. We rest our case here.” A groan escaped from poor Potter, and he put his face in his hands and rocked his body softly to and fro, while a painful silence reigned in the courtroom. Many men were moved, and many women’s compassion testified itself in tears. Counsel for the defence rose and said: “Your honor, in our remarks at the opening of this trial, we foreshadowed our purpose to prove that our client did this fearful deed while under the influence of a blind and irresponsible delirium produced by drink.",
+  "words": [
+    {
+      "word": "prisoner",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-great-expectations-007",
   "pool": "sourced",
-  "text": "Now, your inclinations are to be consulted. I don’t think that wise, mind, but it’s my trust. Have you ever heard of any tutor whom you would prefer to another?” I had never heard of any tutor but Biddy and Mr. Wopsle’s great-aunt; so, I replied in the negative. “There is a certain tutor, of whom I have some knowledge, who I think might suit the purpose,” said Mr. Jaggers. “I don’t recommend him, observe; because I never recommend anybody.",
+  "text": "But when she was gone, I looked about me for a place to hide my face in, and got behind one of the gates in the brewery-lane, and leaned my sleeve against the wall there, and leaned my forehead on it and cried. As I cried, I kicked the wall, and took a hard twist at my hair; so bitter were my feelings, and so sharp was the smart without a name, that needed counteraction. My sister’s bringing up had made me sensitive. In the little world in which children have their existence whosoever brings them up, there is nothing so finely perceived and so finely felt as injustice. It may be only small injustice that the child can be exposed to; but the child is small, and its world is small, and its rocking-horse stands as many hands high, according to scale, as a big-boned Irish hunter.",
   "words": [
     {
-      "word": "tutor",
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "finely",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

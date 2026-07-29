@@ -1,10 +1,28 @@
 {
   "id": "src-gen-oliver-twist-012",
   "pool": "sourced",
-  "text": "“I don’t know what to think,” replied poor Giles. “I don’t think it is the boy; indeed, I’m almost certain that it isn’t. You know it can’t be.” “Has this man been a-drinking, sir?” inquired Blathers, turning to the doctor. “What a precious muddle-headed chap you are!” said Duff, addressing Mr. Giles, with supreme contempt. Mr. Losberne had been feeling the patient’s pulse during this short dialogue; but he now rose from the chair by the bedside, and remarked, that if the officers had any doubts upon the subject, they would perhaps like to step into the next room, and have Brittles before them.",
+  "text": "The hero sinks upon his straw bed, weighed down by fetters and misfortunes; in the next scene, his faithful but unconscious squire regales the audience with a comic song. We behold, with throbbing bosoms, the heroine in the grasp of a proud and ruthless baron: her virtue and her life alike in danger, drawing forth her dagger to preserve the one at the cost of the other; and just as our expectations are wrought up to the highest pitch, a whistle is heard, and we are straightway transported to the great hall of the castle; where a grey-headed seneschal sings a funny chorus with a funnier body of vassals, who are free of all sorts of places, from church vaults to palaces, and roam about in company, carolling perpetually. Such changes appear absurd; but they are not so unnatural as they would seem at first sight. The transitions in real life from well-spread boards to death-beds, and from mourning-weeds to holiday garments, are not a whit less startling; only, there, we are busy actors, instead of passive lookers-on, which makes a vast difference.",
   "words": [
     {
-      "word": "contempt",
+      "word": "heroine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alike",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preserve",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chorus",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

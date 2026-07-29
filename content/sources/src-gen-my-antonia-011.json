@@ -1,10 +1,16 @@
 {
   "id": "src-gen-my-antonia-011",
   "pool": "sourced",
-  "text": "Now, you girls, you ain’t goin’ to let that floor get cold?’ Ántonia seemed frightened at first, and kept looking questioningly at Lena and Tiny over Willy O’Reilly’s shoulder. Tiny Soderball was trim and slender, with lively little feet and pretty ankles—she wore her dresses very short. She was quicker in speech, lighter in movement and manner than the other girls. Mary Dusak was broad and brown of countenance, slightly marked by smallpox, but handsome for all that. She had beautiful chestnut hair, coils of it; her forehead was low and smooth, and her commanding dark eyes regarded the world indifferently and fearlessly.",
+  "text": "‘Why, ma’am, it was simple enough; he pulled the trigger with his big toe. He layed over on his side and put the end of the barrel in his mouth, then he drew up one foot and felt for the trigger. He found it all right!’ ‘Maybe he did,’ said Jake grimly. ‘There’s something mighty queer about it.’ ‘Now what do you mean, Jake?’ grandmother asked sharply. ‘Well, ma’m, I found Krajiek’s axe under the manger, and I picks it up and carries it over to the corpse, and I take my oath it just fit the gash in the front of the old man’s face.",
   "words": [
     {
-      "word": "trim",
+      "word": "toe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "axe",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1918,
     "source": "Project Gutenberg #242",
-    "url": "https://www.gutenberg.org/ebooks/242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

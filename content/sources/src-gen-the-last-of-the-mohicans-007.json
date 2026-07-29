@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-007",
   "pool": "sourced",
-  "text": "When they engaged, some little time was lost in eluding the quick and vigorous thrusts which had been aimed at their lives. Suddenly darting on each other, they closed, and came to the earth, twisted together like twining serpents, in pliant and subtle folds. At the moment when the victors found themselves unoccupied, the spot where these experienced and desperate combatants lay could only be distinguished by a cloud of dust and leaves, which moved from the center of the little plain toward its boundary, as if raised by the passage of a whirlwind. Urged by the different motives of filial affection, friendship and gratitude, Heyward and his companions rushed with one accord to the place, encircling the little canopy of dust which hung above the warriors. In vain did Uncas dart around the cloud, with a wish to strike his knife into the heart of his father’s foe; the threatening rifle of Hawkeye was raised and suspended in vain, while Duncan endeavored to seize the limbs of the Huron with hands that appeared to have lost their power.",
+  "text": "“Can any here give a name to such a cry?” demanded Hawkeye, when the last echo was lost in the woods; “if so, let him speak; for myself, I judge it not to belong to ’arth!” “Here, then, is one who can undeceive you,” said Duncan; “I know the sound full well, for often have I heard it on the field of battle, and in situations which are frequent in a soldier’s life. ’Tis the horrid shriek that a horse will give in his agony; oftener drawn from him in pain, though sometimes in terror. My charger is either a prey to the beasts of the forest, or he sees his danger, without the power to avoid it. The sound might deceive me in the cavern, but in the open air I know it too well to be wrong.” The scout and his companions listened to this simple explanation with the interest of men who imbibe new ideas, at the same time that they get rid of old ones, which had proved disagreeable inmates.",
   "words": [
     {
-      "word": "distinguished",
+      "word": "echo",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "whirlwind",
+      "word": "agony",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "motives",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "companions",
+      "word": "scout",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

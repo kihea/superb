@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-025",
+  "pool": "sourced",
+  "text": "Cheered by these assurances, and satisfied by a reasoning that was so obvious, while it was so simple, the party resumed its course, after making a short halt, to take a hurried repast. When the meal was ended, the scout cast a glance upward at the setting sun, and pushed forward with a rapidity which compelled Heyward and the still vigorous Munro to exert all their muscles to equal. Their route now lay along the bottom which has already been mentioned. As the Hurons had made no further efforts to conceal their footsteps, the progress of the pursuers was no longer delayed by uncertainty. Before an hour had elapsed, however, the speed of Hawkeye sensibly abated, and his head, instead of maintaining its former direct and forward look, began to turn suspiciously from side to side, as if he were conscious of approaching danger.",
+  "words": [
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

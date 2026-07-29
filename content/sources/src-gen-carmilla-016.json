@@ -1,22 +1,10 @@
 {
   "id": "src-gen-carmilla-016",
   "pool": "sourced",
-  "text": "“‘She is gone,’ I repeated to myself, for the first time—in the hurried moments that had elapsed since my consent—reflecting upon the folly of my act. “‘She did not look up,’ said the young lady, plaintively. “‘The Countess had taken off her mask, perhaps, and did not care to show her face,’ I said; ‘and she could not know that you were in the window.’ “She sighed, and looked in my face. She was so beautiful that I relented. I was sorry I had for a moment repented of my hospitality, and I determined to make her amends for the unavowed churlishness of my reception.",
+  "text": "A Very Strange Agony When we got into the drawing room, and had sat down to our coffee and chocolate, although Carmilla did not take any, she seemed quite herself again, and Madame, and Mademoiselle De Lafontaine, joined us, and made a little card party, in the course of which papa came in for what he called his “dish of tea.” When the game was over he sat down beside Carmilla on the sofa, and asked her, a little anxiously, whether she had heard from her mother since her arrival. She answered “No.” He then asked whether she knew where a letter would reach her at present. “I cannot tell,” she answered ambiguously, “but I have been thinking of leaving you; you have been already too hospitable and too kind to me. I have given you an infinity of trouble, and I should wish to take a carriage tomorrow, and post in pursuit of her; I know where I shall ultimately find her, although I dare not yet tell you.” “But you must not dream of any such thing,” exclaimed my father, to my great relief.",
   "words": [
     {
-      "word": "sighed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hospitality",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "amends",
+      "word": "papa",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

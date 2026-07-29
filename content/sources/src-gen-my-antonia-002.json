@@ -1,16 +1,10 @@
 {
   "id": "src-gen-my-antonia-002",
   "pool": "sourced",
-  "text": "We had to walk the pony all the way home to keep from spilling the milk. VI One afternoon we were having our reading lesson on the warm, grassy bank where the badger lived. It was a day of amber sunlight, but there was a shiver of coming winter in the air. I had seen ice on the little horsepond that morning, and as we went through the garden we found the tall asparagus, with its red berries, lying on the ground, a mass of slimy green. Tony was barefooted, and she shivered in her cotton dress and was comfortable only when we were tucked down on the baked earth, in the full blaze of the sun.",
+  "text": "Ántonia had opinions about everything, and she was soon able to make them known. Almost every day she came running across the prairie to have her reading lesson with me. Mrs. Shimerda grumbled, but realized it was important that one member of the family should learn English. When the lesson was over, we used to go up to the watermelon patch behind the garden. I split the melons with an old corn-knife, and we lifted out the hearts and ate them with the juice trickling through our fingers.",
   "words": [
     {
-      "word": "sunlight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "berries",
+      "word": "patch",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Willa Cather",
     "year": 1918,
     "source": "Project Gutenberg #242",
-    "url": "https://www.gutenberg.org/ebooks/242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

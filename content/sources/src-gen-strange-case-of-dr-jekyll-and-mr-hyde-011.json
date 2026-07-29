@@ -1,16 +1,10 @@
 {
   "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-011",
   "pool": "sourced",
-  "text": "But that’s not all. I don’t know, Mr. Utterson, if you ever met this Mr. Hyde?” “Yes,” said the lawyer, “I once spoke with him.” “Then you must know as well as the rest of us that there was something queer about that gentleman—something that gave a man a turn—I don’t know rightly how to say it, sir, beyond this: that you felt in your marrow kind of cold and thin.” “I own I felt something of what you describe,” said Mr. Utterson. “Quite so, sir,” returned Poole. “Well, when that masked thing like a monkey jumped from among the chemicals and whipped into the cabinet, it went down my spine like ice. O, I know it’s not evidence, Mr. Utterson; I’m book-learned enough for that; but a man has his feelings, and I give you my bible-word it was Mr. Hyde!” “Ay, ay,” said the lawyer.",
+  "text": "A closet was filled with wine; the plate was of silver, the napery elegant; a good picture hung upon the walls, a gift (as Utterson supposed) from Henry Jekyll, who was much of a connoisseur; and the carpets were of many piles and agreeable in colour. At this moment, however, the rooms bore every mark of having been recently and hurriedly ransacked; clothes lay about the floor, with their pockets inside out; lock-fast drawers stood open; and on the hearth there lay a pile of grey ashes, as though many papers had been burned. From these embers the inspector disinterred the butt end of a green cheque book, which had resisted the action of the fire; the other half of the stick was found behind the door; and as this clinched his suspicions, the officer declared himself delighted. A visit to the bank, where several thousand pounds were found to be lying to the murderer’s credit, completed his gratification. “You may depend upon it, sir,” he told Mr. Utterson: “I have him in my hand.",
   "words": [
     {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ay",
+      "word": "cheque",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

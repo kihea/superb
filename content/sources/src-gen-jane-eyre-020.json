@@ -1,10 +1,28 @@
 {
   "id": "src-gen-jane-eyre-020",
   "pool": "sourced",
-  "text": "Entering a portal, fastened only by a latch, I stood amidst a space of enclosed ground, from which the wood swept away in a semicircle. There were no flowers, no garden-beds; only a broad gravel-walk girdling a grass-plat, and this set in the heavy frame of the forest. The house presented two pointed gables in its front; the windows were latticed and narrow: the front door was narrow too, one step led up to it. The whole looked, as the host of the Rochester Arms had said, “quite a desolate spot.” It was as still as a church on a week-day: the pattering rain on the forest leaves was the only sound audible in its vicinage. “Can there be life here?” I asked.",
+  "text": "Again Mr. Rochester propounded his query: “Is the wandering and sinful, but now rest-seeking and repentant, man justified in daring the world’s opinion, in order to attach to him for ever this gentle, gracious, genial stranger, thereby securing his own peace of mind and regeneration of life?” “Sir,” I answered, “a wanderer’s repose or a sinner’s reformation should never depend on a fellow-creature. Men and women die; philosophers falter in wisdom, and Christians in goodness: if any one you know has suffered and erred, let him look higher than his equals for strength to amend and solace to heal.” “But the instrument—the instrument! God, who does the work, ordains the instrument. I have myself—I tell it you without parable—been a worldly, dissipated, restless man; and I believe I have found the instrument for my cure in—” He paused: the birds went on carolling, the leaves lightly rustling. I almost wondered they did not check their songs and whispers to catch the suspended revelation; but they would have had to wait many minutes—so long was the silence protracted.",
   "words": [
     {
-      "word": "gravel",
+      "word": "daring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "restless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "protracted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

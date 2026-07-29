@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-war-of-the-worlds-011",
   "pool": "sourced",
-  "text": "The lane came round sharply not fifty yards from the crossroads. “Good heavens!” cried Mrs. Elphinstone. “What is this you are driving us into?” My brother stopped. For the main road was a boiling stream of people, a torrent of human beings rushing northward, one pressing on another. A great bank of dust, white and luminous in the blaze of the sun, made everything within twenty feet of the ground grey and indistinct and was perpetually renewed by the hurrying feet of a dense crowd of horses and of men and women on foot, and by the wheels of vehicles of every description.",
+  "text": "I should have started at once, but my companion had been in active service and he knew better than that. He made me ransack the house for a flask, which he filled with whisky; and we lined every available pocket with packets of biscuits and slices of meat. Then we crept out of the house, and ran as quickly as we could down the ill-made road by which I had come overnight. The houses seemed deserted. In the road lay a group of three charred bodies close together, struck dead by the Heat-Ray; and here and there were things that people had dropped—a clock, a slipper, a silver spoon, and the like poor valuables.",
   "words": [
     {
-      "word": "torrent",
+      "word": "flask",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deserted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

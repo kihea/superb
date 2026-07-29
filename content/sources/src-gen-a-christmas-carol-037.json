@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-christmas-carol-037",
+  "pool": "sourced",
+  "text": "Oh cold, cold, rigid, dreadful Death, set up thine altar here, and dress it with such terrors as thou hast at thy command: for this is thy dominion! But of the loved, revered, and honoured head, thou canst not turn one hair to thy dread purposes, or make one feature odious. It is not that the hand is heavy and will fall down when released; it is not that the heart and pulse are still; but that the hand WAS open, generous, and true; the heart brave, warm, and tender; and the pulse a man's. Strike, Shadow, strike! And see his good deeds springing from the wound, to sow the world with life immortal!",
+  "words": [
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immortal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

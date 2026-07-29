@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-carmilla-040",
+  "pool": "sourced",
+  "text": "The vampire is, apparently, subject, in certain situations, to special conditions. In the particular instance of which I have given you a relation, Mircalla seemed to be limited to a name which, if not her real one, should at least reproduce, without the omission or addition of a single letter, those, as we say, anagrammatically, which compose it. Carmilla did this; so did Millarca. My father related to the Baron Vordenburg, who remained with us for two or three weeks after the expulsion of Carmilla, the story about the Moravian nobleman and the vampire at Karnstein churchyard, and then he asked the Baron how he had discovered the exact position of the long-concealed tomb of the Countess Mircalla? The Baron’s grotesque features puckered up into a mysterious smile; he looked down, still smiling on his worn spectacle case and fumbled with it.",
+  "words": [
+    {
+      "word": "tomb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

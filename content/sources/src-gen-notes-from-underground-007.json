@@ -1,22 +1,16 @@
 {
   "id": "src-gen-notes-from-underground-007",
   "pool": "sourced",
-  "text": "You declare that you are afraid of nothing and at the same time try to ingratiate yourself in our good opinion. You declare that you are gnashing your teeth and at the same time you try to be witty so as to amuse us. You know that your witticisms are not witty, but you are evidently well satisfied with their literary value. You may, perhaps, have really suffered, but you have no respect for your own suffering. You may have sincerity, but you have no modesty; out of the pettiest vanity you expose your sincerity to publicity and ignominy.",
+  "text": "All human actions will then, of course, be tabulated according to these laws, mathematically, like tables of logarithms up to 108,000, and entered in an index; or, better still, there would be published certain edifying works of the nature of encyclopaedic lexicons, in which everything will be so clearly calculated and explained that there will be no more incidents or adventures in the world. Then—this is all what you say—new economic relations will be established, all ready-made and worked out with mathematical exactitude, so that every possible question will vanish in the twinkling of an eye, simply because every possible answer to it will be provided. Then the “Palace of Crystal” will be built.",
   "words": [
     {
-      "word": "evidently",
+      "word": "mathematically",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "modesty",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vanity",
+      "word": "calculated",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

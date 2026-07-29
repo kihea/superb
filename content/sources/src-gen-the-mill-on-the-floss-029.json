@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-029",
+  "pool": "sourced",
+  "text": "I don’t think it suits your voice.” “Never mind; it exactly suits my feeling, which, Philip will have it, is the grand element of good singing. I notice men with indifferent voices are usually of that opinion.” “Philip burst into one of his invectives against ‘The Creation’ the other day,” said Lucy, seating herself at the piano. “He says it has a sort of sugared complacency and flattering make-believe in it, as if it were written for the birthday fête of a German Grand-Duke.” “Oh, pooh! He is the fallen Adam with a soured temper. We are Adam and Eve unfallen, in Paradise.",
+  "words": [
+    {
+      "word": "seating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flattering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

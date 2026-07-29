@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-007",
   "pool": "sourced",
-  "text": "From such commendation as this, however, there was not much to be learned; Elinor well knew that the sweetest girls in the world were to be met with in every part of England, under every possible variation of form, face, temper and understanding. Sir John wanted the whole family to walk to the Park directly and look at his guests. Benevolent, philanthropic man! It was painful to him even to keep a third cousin to himself. \"Do come now,\" said he--\"pray come--you must come--I declare you shall come--You can't think how you will like them.",
+  "text": "Such conduct made them of course most exceedingly laughed at; but ridicule could not shame, and seemed hardly to provoke them. Mrs. Dashwood entered into all their feelings with a warmth which left her no inclination for checking this excessive display of them. To her it was but the natural consequence of a strong affection in a young and ardent mind. This was the season of happiness to Marianne. Her heart was devoted to Willoughby, and the fond attachment to Norland, which she brought with her from Sussex, was more likely to be softened than she had thought it possible before, by the charms which his society bestowed on her present home.",
   "words": [
     {
-      "word": "variation",
+      "word": "fond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "softened",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

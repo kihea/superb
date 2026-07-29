@@ -1,10 +1,22 @@
 {
   "id": "src-gen-adam-bede-016",
   "pool": "sourced",
-  "text": "The thought of Dinah urged itself more strongly now, since the experience of the night had driven her shuddering imagination away from the pool. If it had been only going to Dinah—if nobody besides Dinah would ever know—Hetty could have made up her mind to go to her. The soft voice, the pitying eyes, would have drawn her. But afterwards the other people must know, and she could no more rush on that shame than she could rush on death. She must wander on and on, and wait for a lower depth of despair to give her courage.",
+  "text": "But presently the sound of the bassoon and the key-bugles burst forth; the evening hymn, which always opened the service, had begun, and every one must now enter and take his place. I cannot say that the interior of Hayslope Church was remarkable for anything except for the grey age of its oaken pews—great square pews mostly, ranged on each side of a narrow aisle. It was free, indeed, from the modern blemish of galleries. The choir had two narrow pews to themselves in the middle of the right-hand row, so that it was a short process for Joshua Rann to take his place among them as principal bass, and return to his desk after the singing was over. The pulpit and desk, grey and old as the pews, stood on one side of the arch leading into the chancel, which also had its grey square pews for Mr. Donnithorne’s family and servants.",
   "words": [
     {
-      "word": "despair",
+      "word": "hymn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aisle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulpit",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,12 +1,36 @@
 {
   "id": "src-gen-the-time-machine-010",
   "pool": "sourced",
-  "text": "“I do not know how long I sat peering down that well. It was not for some time that I could succeed in persuading myself that the thing I had seen was human. But, gradually, the truth dawned on me: that Man had not remained one species, but had differentiated into two distinct animals: that my graceful children of the Upper World were not the sole descendants of our generation, but that this bleached, obscene, nocturnal Thing, which had flashed before me, was also heir to all the ages. “I thought of the flickering pillars and of my theory of an underground ventilation. I began to suspect their true import.",
+  "text": "We improve our favourite plants and animals—and how few they are—gradually by selective breeding; now a new and better peach, now a seedless grape, now a sweeter and larger flower, now a more convenient breed of cattle. We improve them gradually, because our ideals are vague and tentative, and our knowledge is very limited; because Nature, too, is shy and slow in our clumsy hands. Some day all this will be better organised, and still better. That is the drift of the current in spite of the eddies. The whole world will be intelligent, educated, and co-operating; things will move faster and faster towards the subjugation of Nature.",
   "words": [
     {
       "word": "gradually",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peach",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grape",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cattle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +39,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,18 +1,24 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-019",
   "pool": "sourced",
-  "text": "Oh, this villain! See how he has treated me!” She shot her arms out from her sleeves, and we saw with horror that they were all mottled with bruises. “But this is nothing—nothing! It is my mind and soul that he has tortured and defiled. I could endure it all, ill-usage, solitude, a life of deception, everything, as long as I could still cling to the hope that I had his love, but now I know that in this also I have been his dupe and his tool.” She broke into passionate sobbing as she spoke.",
+  "text": "Will you come upstairs, Dr. Watson, and inspect my collection of Lepidoptera? I think it is the most complete one in the south-west of England. By the time that you have looked through them lunch will be almost ready.” But I was eager to get back to my charge. The melancholy of the moor, the death of the unfortunate pony, the weird sound which had been associated with the grim legend of the Baskervilles, all these things tinged my thoughts with sadness. Then on the top of these more or less vague impressions there had come the definite and distinct warning of Miss Stapleton, delivered with such intense earnestness that I could not doubt that some grave and deep reason lay behind it.",
   "words": [
     {
-      "word": "bruises",
+      "word": "melancholy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "solitude",
+      "word": "moor",
       "signals": [
         "apposition"
+      ]
+    },
+    {
+      "word": "definite",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -21,7 +27,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

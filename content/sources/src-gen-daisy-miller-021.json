@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-daisy-miller-021",
+  "pool": "sourced",
+  "text": "The young man went in pursuit of Miss Miller, who had simply nodded and smiled at his interlocutor in the carriage and had gone her way with her companion. Daisy, on learning that Mrs. Walker wished to speak to her, retraced her steps with a perfect good grace and with Mr. Giovanelli at her side. She declared that she was delighted to have a chance to present this gentleman to Mrs. Walker. She immediately achieved the introduction, and declared that she had never in her life seen anything so lovely as Mrs. Walker’s carriage rug. “I am glad you admire it,” said this lady, smiling sweetly.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

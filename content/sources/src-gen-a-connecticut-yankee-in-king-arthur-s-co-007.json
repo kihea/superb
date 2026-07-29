@@ -1,28 +1,10 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-007",
   "pool": "sourced",
-  "text": "And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly me: the rest may land in Sheol and welcome for all I care. No, confound her, her intellect was good, she had brains enough, but her training made her an ass--that is, from a many-centuries-later point of view. To kill the page was no crime--it was her right; and upon her right she stood, serenely and unconscious of offense. She was a result of generations of training in the unexamined and unassailed belief that the law which permitted her to kill a subject when she chose was a perfectly right and righteous one. Well, we must give even Satan his due.",
+  "text": "The noise at night would have been annoying to me ordinarily, but I didn't mind it in the present circumstances, because it kept me from hearing the quacks detaching legs and arms from the day's cripples. They ruined an uncommon good old cross-cut saw for me, and broke the saw-buck, too, but I let it pass. And as for my axe--well, I made up my mind that the next time I lent an axe to a surgeon I would pick my century. I not only watched this tournament from day to day, but detailed an intelligent priest from my Department of Public Morals and Agriculture, and ordered him to report it; for it was my purpose by and by, when I should have gotten the people along far enough, to start a newspaper. The first thing you want in a new country, is a patent office; then work up your school system; and after that, out with your paper.",
   "words": [
     {
-      "word": "pilgrimage",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brains",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "unconscious",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "permitted",
+      "word": "surgeon",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

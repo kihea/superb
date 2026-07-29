@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-031",
+  "pool": "sourced",
+  "text": "The mad joy over the prisoners who were saved, had astounded him scarcely less than the mad ferocity against those who were cut to pieces. One prisoner there was, he said, who had been discharged into the street free, but at whom a mistaken savage had thrust a pike as he passed out. Being besought to go to him and dress the wound, the Doctor had passed out at the same gate, and had found him in the arms of a company of Samaritans, who were seated on the bodies of their victims. With an inconsistency as monstrous as anything in this awful nightmare, they had helped the healer, and tended the wounded man with the gentlest solicitude--had made a litter for him and escorted him carefully from the spot--had then caught up their weapons and plunged anew into a butchery so dreadful, that the Doctor had covered his eyes with his hands, and swooned away in the midst of it. As Mr. Lorry received these confidences, and as he watched the face of his friend now sixty-two years of age, a misgiving arose within him that such dread experiences would revive the old danger.",
+  "words": [
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pike",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "healer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-kidnapped-017",
   "pool": "sourced",
-  "text": "I would have given the world to take back what I had said; but a word once spoken, who can recapture it? I minded me of all Alan’s kindness and courage in the past, how he had helped and cheered and borne with me in our evil days; and then recalled my own insults, and saw that I had lost for ever that doughty friend. At the same time, the sickness that hung upon me seemed to redouble, and the pang in my side was like a sword for sharpness. I thought I must have swooned where I stood. This it was that gave me a thought.",
+  "text": "So I set off eastward along the south coast, hoping to find a house where I might warm myself, and perhaps get news of those I had lost. And at the worst, I considered the sun would soon rise and dry my clothes. After a little, my way was stopped by a creek or inlet of the sea, which seemed to run pretty deep into the land; and as I had no means to get across, I must needs change my direction to go about the end of it. It was still the roughest kind of walking; indeed the whole, not only of Earraid, but of the neighbouring part of Mull (which they call the Ross) is nothing but a jumble of granite rocks with heather in among. At first the creek kept narrowing as I had looked to see; but presently to my surprise it began to widen out again.",
   "words": [
     {
-      "word": "minded",
+      "word": "eastward",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cheered",
+      "word": "inlet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "granite",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

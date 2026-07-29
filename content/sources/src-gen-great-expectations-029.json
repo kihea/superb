@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-great-expectations-029",
+  "pool": "sourced",
+  "text": "To my thinking, there was something in him that made it hopeless to attempt to disguise him. The more I dressed him and the better I dressed him, the more he looked like the slouching fugitive on the marshes. This effect on my anxious fancy was partly referable, no doubt, to his old face and manner growing more familiar to me; but I believe too that he dragged one of his legs as if there were still a weight of iron on it, and that from head to foot there was Convict in the very grain of the man. The influences of his solitary hut-life were upon him besides, and gave him a savage air that no dress could tame; added to these were the influences of his subsequent branded life among men, and, crowning all, his consciousness that he was dodging and hiding now.",
+  "words": [
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

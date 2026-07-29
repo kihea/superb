@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-035",
+  "pool": "sourced",
+  "text": "“Let us reconstruct. At four o’clock, Mrs. Inglethorp quarrels with her son, and threatens to denounce him to his wife—who, by the way, overheard the greater part of the conversation. At four-thirty, Mrs. Inglethorp, in consequence of a conversation on the validity of wills, makes a will in favour of her husband, which the two gardeners witness. At five o’clock, Dorcas finds her mistress in a state of considerable agitation, with a slip of paper—‘a letter,’ Dorcas thinks—in her hand, and it is then that she orders the fire in her room to be lighted. Presumably, then, between four-thirty and five o’clock, something has occurred to occasion a complete revolution of feeling, since she is now as anxious to destroy the will, as she was before to make it.",
+  "words": [
+    {
+      "word": "denounce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consequence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "validity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-031",
+  "pool": "sourced",
+  "text": "As it is, I have been able to get about as I could not possibly have done had I been living in the Hall, and I remain an unknown factor in the business, ready to throw in all my weight at a critical moment.” “But why keep me in the dark?” “For you to know could not have helped us and might possibly have led to my discovery. You would have wished to tell me something, or in your kindness you would have brought me out some comfort or other, and so an unnecessary risk would be run. I brought Cartwright down with me—you remember the little chap at the express office—and he has seen after my simple wants: a loaf of bread and a clean collar. What does man want more? He has given me an extra pair of eyes upon a very active pair of feet, and both have been invaluable.” “Then my reports have all been wasted!”—My voice trembled as I recalled the pains and the pride with which I had composed them.",
+  "words": [
+    {
+      "word": "chap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "loaf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

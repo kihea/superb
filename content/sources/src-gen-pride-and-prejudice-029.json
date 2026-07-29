@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-pride-and-prejudice-029",
+  "pool": "sourced",
+  "text": "Louisa and I were agreeing that we should not have known her again.” However little Mr. Darcy might have liked such an address, he contented himself with coolly replying, that he perceived no other alteration than her being rather tanned,--no miraculous consequence of travelling in the summer. “For my own part,” she rejoined, “I must confess that I never could see any beauty in her. Her face is too thin; her complexion has no brilliancy; and her features are not at all handsome. Her nose wants character; there is nothing marked in its lines. Her teeth are tolerable, but not out of the common way; and as for her eyes, which have sometimes been called so fine, I never could perceive anything extraordinary in them.",
+  "words": [
+    {
+      "word": "complexion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

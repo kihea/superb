@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-010",
   "pool": "sourced",
-  "text": "Do you know what sleep is? Do you know that every man who sleeps believes in God? It is a sacrament; for it is an act of faith and it is a food. And we need a sacrament, if only a natural one. Something has fallen on us that falls very seldom on men; perhaps the worst thing that can fall on them.” Craven’s parted lips came together to say, “What do you mean?” The priest had turned his face to the castle as he answered: “We have found the truth; and the truth makes no sense.” He went down the path in front of them with a plunging and reckless step very rare with him, and when they reached the castle again he threw himself upon sleep with the simplicity of a dog.",
+  "text": "Why couldn’t we have a proper old English pantomime--clown, columbine, and so on. I saw one when I left England at twelve years old, and it’s blazed in my brain like a bonfire ever since. I came back to the old country only last year, and I find the thing’s extinct. Nothing but a lot of snivelling fairy plays. I want a hot poker and a policeman made into sausages, and they give me princesses moralising by moonlight, Blue Birds, or something.",
   "words": [
     {
-      "word": "sacrament",
+      "word": "bonfire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

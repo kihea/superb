@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-027",
+  "pool": "sourced",
+  "text": "When they reached the castle Dorothy said to the Winkies: “Are any of your people tinsmiths?” “Oh, yes. Some of us are very good tinsmiths,” they told her. “Then bring them to me,” she said. And when the tinsmiths came, bringing with them all their tools in baskets, she inquired, “Can you straighten out those dents in the Tin Woodman, and bend him back into shape again, and solder him together where he is broken?” The tinsmiths looked the Woodman over carefully and then answered that they thought they could mend him so he would be as good as ever. So they set to work in one of the big yellow rooms of the castle and worked for three days and four nights, hammering and twisting and bending and soldering and polishing and pounding at the legs and body and head of the Tin Woodman, until at last he was straightened out into his old form, and his joints worked as well as ever.",
+  "words": [
+    {
+      "word": "bend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

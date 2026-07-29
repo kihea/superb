@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-oliver-twist-036",
+  "pool": "sourced",
+  "text": "“Now, look alive in there, will you. Damn that ’ere bag, it warn’t ready night afore last; this won’t do, you know!” “Anything new up in town, Ben?” asked the game-keeper, drawing back to the window-shutters, the better to admire the horses. “No, nothing that I knows on,” replied the man, pulling on his gloves. “Corn’s up a little. I heerd talk of a murder, too, down Spitalfields way, but I don’t reckon much upon it.” “Oh, that’s quite true,” said a gentleman inside, who was looking out of the window.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

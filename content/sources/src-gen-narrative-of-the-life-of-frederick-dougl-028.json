@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-028",
+  "pool": "sourced",
+  "text": "Henry Bailey was my uncle, and belonged to my master. Charles married my aunt: he belonged to my master’s father-in-law, Mr. William Hamilton. The plan we finally concluded upon was, to get a large canoe belonging to Mr. Hamilton, and upon the Saturday night previous to Easter holidays, paddle directly up the Chesapeake Bay. On our arrival at the head of the bay, a distance of seventy or eighty miles from where we lived, it was our purpose to turn our canoe adrift, and follow the guidance of the north star till we got beyond the limits of Maryland. Our reason for taking the water route was, that we were less liable to be suspected as runaways; we hoped to be regarded as fishermen; whereas, if we should take the land route, we should be subjected to interruptions of almost every kind.",
+  "words": [
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "liable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

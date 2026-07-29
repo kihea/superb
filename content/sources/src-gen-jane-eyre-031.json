@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-031",
+  "pool": "sourced",
+  "text": "We don’t speak German, and we cannot read it without a dictionary to help us.” “And what good does it do you?” “We mean to teach it some time—or at least the elements, as they say; and then we shall get more money than we do now.” “Varry like: but give ower studying; ye’ve done enough for to-night.” “I think we have: at least I’m tired. Mary, are you?” “Mortally: after all, it’s tough work fagging away at a language with no master but a lexicon.” “It is, especially such a language as this crabbed but glorious Deutsch. I wonder when St. John will come home.” “Surely he will not be long now: it is just ten (looking at a little gold watch she drew from her girdle). It rains fast, Hannah: will you have the goodness to look at the fire in the parlour?” The woman rose: she opened a door, through which I dimly saw a passage: soon I heard her stir a fire in an inner room; she presently came back.",
+  "words": [
+    {
+      "word": "dictionary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "goodness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

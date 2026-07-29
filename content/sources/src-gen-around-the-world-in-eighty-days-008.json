@@ -1,10 +1,34 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-008",
   "pool": "sourced",
-  "text": "What was detective Fix, so unluckily drawn on from country to country, doing all this while? He had managed to embark on the “Rangoon” at Calcutta without being seen by Passepartout, after leaving orders that, if the warrant should arrive, it should be forwarded to him at Hong Kong; and he hoped to conceal his presence to the end of the voyage. It would have been difficult to explain why he was on board without awakening Passepartout’s suspicions, who thought him still at Bombay. But necessity impelled him, nevertheless, to renew his acquaintance with the worthy servant, as will be seen. All the detective’s hopes and wishes were now centred on Hong Kong; for the steamer’s stay at Singapore would be too brief to enable him to take any steps there.",
+  "text": "The distance between Bombay and Calcutta, as the bird flies, is only from one thousand to eleven hundred miles; but the deflections of the road increase this distance by more than a third. The general route of the Great Indian Peninsula Railway is as follows: Leaving Bombay, it passes through Salcette, crossing to the continent opposite Tannah, goes over the chain of the Western Ghauts, runs thence north-east as far as Burhampoor, skirts the nearly independent territory of Bundelcund, ascends to Allahabad, turns thence eastwardly, meeting the Ganges at Benares, then departs from the river a little, and, descending south-eastward by Burdivan and the French town of Chandernagor, has its terminus at Calcutta. The passengers of the “Mongolia” went ashore at half-past four p.m.; at exactly eight the train would start for Calcutta. Mr. Fogg, after bidding good-bye to his whist partners, left the steamer, gave his servant several errands to do, urged it upon him to be at the station promptly at eight, and, with his regular step, which beat to the second, like an astronomical clock, directed his steps to the passport office.",
   "words": [
     {
-      "word": "acquaintance",
+      "word": "eleven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eastward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bidding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

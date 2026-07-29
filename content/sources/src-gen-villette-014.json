@@ -1,12 +1,12 @@
 {
   "id": "src-gen-villette-014",
   "pool": "sourced",
-  "text": "In manner, you were almost the same yesterday as to-day.” “But, Lucy, how is that? Such an oracle really whets my curiosity. What am I to-day? What was I the yesterday of ten years back?” “Gracious to whatever pleased you—unkindly or cruel to nothing.” “There you are wrong; I think I was almost a brute to you, for instance.” “A brute! No, Graham: I should never have patiently endured brutality.” “This, however, I do remember: quiet Lucy Snowe tasted nothing of my grace.” “As little of your cruelty.” “Why, had I been Nero himself, I could not have tormented a being inoffensive as a shadow.” I smiled; but I also hushed a groan.",
+  "text": "Too weak to scrutinize thoroughly the mystery, I tried to settle it by saying it was a mistake, a dream, a fever-fit; and yet I knew there could be no mistake, and that I was not sleeping, and I believed I was sane. I wished the room had not been so well lighted, that I might not so clearly have seen the little pictures, the ornaments, the screens, the worked chair. All these objects, as well as the blue-damask furniture, were, in fact, precisely the same, in every minutest detail, with those I so well remembered, and with which I had been so thoroughly intimate, in the drawing-room of my godmother’s house at Bretton. Methought the apartment only was changed, being of different proportions and dimensions. I thought of Bedreddin Hassan, transported in his sleep from Cairo to the gates of Damascus.",
   "words": [
     {
-      "word": "patiently",
+      "word": "ornaments",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,34 @@
 {
   "id": "src-gen-a-christmas-carol-005",
   "pool": "sourced",
-  "text": "inquired Scrooge: observant of its dwarfish stature. Your past.\" Perhaps, Scrooge could not have told anybody why, if anybody could have asked him; but he had a special desire to see the Spirit in his cap; and begged him to be covered. exclaimed the Ghost, \"would you so soon put out, with worldly hands, the light I give? Is it not enough that you are one of those whose passions made this cap, and force me through whole trains of years to wear it low upon my brow!\"",
+  "text": "Thus secured against surprise, he took off his cravat; put on his dressing-gown and slippers, and his nightcap; and sat down before the fire to take his gruel. It was a very low fire indeed; nothing on such a bitter night. He was obliged to sit close to it, and brood over it, before he could extract the least sensation of warmth from such a handful of fuel. The fireplace was an old one, built by some Dutch merchant long ago, and paved all round with quaint Dutch tiles, designed to illustrate the Scriptures. There were Cains and Abels, Pharaoh's daughters; Queens of Sheba, Angelic messengers descending through the air on clouds like feather-beds, Abrahams, Belshazzars, Apostles putting off to sea in butter-boats, hundreds of figures to attract his thoughts; and yet that face of Marley, seven years dead, came like the ancient Prophet's rod, and swallowed up the whole.",
   "words": [
     {
-      "word": "passions",
+      "word": "brood",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warmth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fireplace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rod",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-014",
   "pool": "sourced",
-  "text": "Hence it is, that at times like these the drugg, comes into requisition. Our boat was furnished with three of them. The first and second were successfully darted, and we saw the whales staggeringly running off, fettered by the enormous sidelong resistance of the towing drugg. They were cramped like malefactors with the chain and ball. But upon flinging the third, in the act of tossing overboard the clumsy wooden block, it caught under one of the seats of the boat, and in an instant tore it out and carried it away, dropping the oarsman in the boat’s bottom as the seat slid from under him.",
+  "text": "“Every man look out along his oars!” cried Starbuck. “Thou, Queequeg, stand up!” Nimbly springing up on the triangular raised box in the bow, the savage stood erect there, and with intensely eager eyes gazed off towards the spot where the chase had last been descried. Likewise upon the extreme stern of the boat where it was also triangularly platformed level with the gunwale, Starbuck himself was seen coolly and adroitly balancing himself to the jerking tossings of his chip of a craft, and silently eyeing the vast blue eye of the sea. Not very far distant Flask’s boat was also lying breathlessly still; its commander recklessly standing upon the top of the loggerhead, a stout sort of post rooted in the keel, and rising some two feet above the level of the stern platform. It is used for catching turns with the whale line.",
   "words": [
     {
-      "word": "towing",
+      "word": "distant",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tossing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "overboard",
+      "word": "keel",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

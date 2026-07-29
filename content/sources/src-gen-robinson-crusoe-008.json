@@ -1,28 +1,10 @@
 {
   "id": "src-gen-robinson-crusoe-008",
   "pool": "sourced",
-  "text": "However, I travelled along the shore of the sea towards the east, I suppose about twelve miles, and then setting up a great pole upon the shore for a mark, I concluded I would go home again, and that the next journey I took should be on the other side of the island east from my dwelling, and so round till I came to my post again. I took another way to come back than that I went, thinking I could easily keep all the island so much in my view that I could not miss finding my first dwelling by viewing the country; but I found myself mistaken, for being come about two or three miles, I found myself descended into a very large valley, but so surrounded with hills, and those hills covered with wood, that I could not see which was my way by any direction but that of the sun, nor even then, unless I knew very well the position of the sun at that time of the day.",
+  "text": "I have already described my habitation, which was a tent under the side of a rock, surrounded with a strong pale of posts and cables: but I might now rather call it a wall, for I raised a kind of wall up against it of turfs, about two feet thick on the outside; and after some time (I think it was a year and a half) I raised rafters from it, leaning to the rock, and thatched or covered it with boughs of trees, and such things as I could get, to keep out the rain; which I found at some times of the year very violent. I have already observed how I brought all my goods into this pale, and into the cave which I had made behind me.",
   "words": [
     {
-      "word": "travelled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dwelling",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mistaken",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "descended",
+      "word": "tent",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

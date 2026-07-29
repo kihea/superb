@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-021",
+  "pool": "sourced",
+  "text": "Before breakfast on the morning following my adventure I went down the corridor and examined the room in which Barrymore had been on the night before. The western window through which he had stared so intently has, I noticed, one peculiarity above all other windows in the house—it commands the nearest outlook on to the moor. There is an opening between two trees which enables one from this point of view to look right down upon it, while from all the other windows it is only a distant glimpse which can be obtained. It follows, therefore, that Barrymore, since only this window would serve the purpose, must have been looking out for something or somebody upon the moor. The night was very dark, so that I can hardly imagine how he could have hoped to see anyone.",
+  "words": [
+    {
+      "word": "outlook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glimpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

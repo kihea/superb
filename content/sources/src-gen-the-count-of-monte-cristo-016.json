@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-016",
   "pool": "sourced",
-  "text": "Then all the members looked at each other with terror. They knew the count’s energetic and violent temper; it must be, indeed, a dreadful blow which would deprive him of courage to defend himself. They expected that his stupefied silence would be followed by a fiery outburst. ‘Well,’ asked the president, ‘what is your decision?’ 40206m “‘I have no reply to make,’ said the count in a low tone. “‘Has the daughter of Ali Tepelini spoken the truth?’ said the president.",
+  "text": "“I assure your excellency,” said he, “that at least it shall be my study to merit your approbation in all things, and I will take M. Ali as my model.” “By no means,” replied the count in the most frigid tones; “Ali has many faults mixed with most excellent qualities. He cannot possibly serve you as a pattern for your conduct, not being, as you are, a paid servant, but a mere slave—a dog, who, should he fail in his duty towards me, I should not discharge from my service, but kill.” Baptistin opened his eyes with astonishment. “You seem incredulous,” said Monte Cristo, who repeated to Ali in the Arabic language what he had just been saying to Baptistin in French. The Nubian smiled assentingly to his master’s words, then, kneeling on one knee, respectfully kissed the hand of the count. This corroboration of the lesson he had just received put the finishing stroke to the wonder and stupefaction of M. Baptistin.",
   "words": [
     {
-      "word": "outburst",
+      "word": "excellency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

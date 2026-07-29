@@ -1,22 +1,10 @@
 {
   "id": "src-gen-typhoon-011",
   "pool": "sourced",
-  "text": "For indeed what answer could be made? But after a while he heard with amazement the frail and resisting voice in his ear, the dwarf sound, unconquered in the giant tumult. “She may!” It was a dull yell, more difficult to seize than a whisper. And presently the voice returned again, half submerged in the vast crashes, like a ship battling against the waves of an ocean. “Let's hope so!” it cried--small, lonely and unmoved, a stranger to the visions of hope or fear; and it flickered into disconnected words: “Ship.",
+  "text": "“Shut the door, Mr. Jukes, will you?” he cried from within. Jukes turned back to do so, muttering ironically: “Afraid to catch cold, I suppose.” It was his watch below, but he yearned for communion with his kind; and he remarked cheerily to the second mate: “Doesn't look so bad, after all--does it?” The second mate was marching to and fro on the bridge, tripping down with small steps one moment, and the next climbing with difficulty the shifting slope of the deck. At the sound of Jukes' voice he stood still, facing forward, but made no reply.",
   "words": [
     {
-      "word": "yell",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "whisper",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "crashes",
+      "word": "fro",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,24 +1,30 @@
 {
   "id": "src-gen-hard-times-017",
   "pool": "sourced",
-  "text": "Not the least eager of the eyes assembled, were the eyes of those who could not read. These people, as they listened to the friendly voice that read aloud—there was always some such ready to help them—stared at the characters which meant so much with a vague awe and respect that would have been half ludicrous, if any aspect of public ignorance could ever be otherwise than threatening and full of evil. Many ears and eyes were busy with a vision of the matter of these placards, among turning spindles, rattling looms, and whirling wheels, for hours afterwards; and when the Hands cleared out again into the streets, there were still as many readers as before. Slackbridge, the delegate, had to address his audience too that night; and Slackbridge had obtained a clean bill from the printer, and had brought it in his pocket. Oh, my friends and fellow-countrymen, the down-trodden operatives of Coketown, oh, my fellow-brothers and fellow-workmen and fellow-citizens and fellow-men, what a to-do was there, when Slackbridge unfolded what he called ‘that damning document,’ and held it up to the gaze, and for the execration of the working-man community!",
+  "text": "‘It’s ridiculous, ma’am,’ said Bitzer, ‘because the chances are against the players.’ Whether it was that the heat prevented Mrs. Sparsit from working, or whether it was that her hand was out, she did no work that night. She sat at the window, when the sun began to sink behind the smoke; she sat there, when the smoke was burning red, when the colour faded from it, when darkness seemed to rise slowly out of the ground, and creep upward, upward, up to the house-tops, up the church steeple, up to the summits of the factory chimneys, up to the sky. Without a candle in the room, Mrs. Sparsit sat at the window, with her hands before her, not thinking much of the sounds of evening; the whooping of boys, the barking of dogs, the rumbling of wheels, the steps and voices of passengers, the shrill street cries, the clogs upon the pavement when it was their hour for going by, the shutting-up of shop-shutters.",
   "words": [
     {
-      "word": "listened",
+      "word": "faded",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "aloud",
+      "word": "creep",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "countrymen",
+      "word": "cries",
       "signals": [
         "apposition"
+      ]
+    },
+    {
+      "word": "pavement",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -27,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

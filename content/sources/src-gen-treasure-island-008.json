@@ -1,10 +1,22 @@
 {
   "id": "src-gen-treasure-island-008",
   "pool": "sourced",
-  "text": "What I mean is, would he be likely to come down to the toon of, say one thousand pounds out of money that’s as good as a man’s own already?” “I am sure he would,” said I. “As it was, all hands were to share.” “AND a passage home?” he added with a look of great shrewdness. “Why,” I cried, “the squire’s a gentleman. And besides, if we got rid of the others, we should want you to help work the vessel home.” “Ah,” said he, “so you would.” And he seemed very much relieved. “Now, I’ll tell you what,” he went on.",
+  "text": "You don’t, you say, like this cruise. Now, why?” “I was engaged, sir, on what we call sealed orders, to sail this ship for that gentleman where he should bid me,” said the captain. “So far so good. But now I find that every man before the mast knows more than I do. I don’t call that fair, now, do you?” “No,” said Dr. Livesey, “I don’t.” “Next,” said the captain, “I learn we are going after treasure--hear it from my own hands, mind you.",
   "words": [
     {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
       "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

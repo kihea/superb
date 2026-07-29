@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-what-katy-did-028",
+  "pool": "sourced",
+  "text": "In those days Katy made Aunt Izzie keep the blinds shut tight, and she lay in the dark, thinking how miserable she was, and how wretched all the rest of her life was going to be. Everybody was very kind and patient with her, but she was too selfishly miserable to notice it. Aunt Izzie ran up and down stairs, and was on her feet all day, trying to get something which would please her, but Katy hardly said \"Thank you,\" and never saw how tired Aunt Izzie looked. So long as she was forced to stay in bed, Katy could not be grateful for anything that was done for her. But doleful as the days were, they were not so bad as the nights, when, after Aunt Izzie was asleep, Katy would lie wide awake, and have long, hopeless fits of crying.",
+  "words": [
+    {
+      "word": "wretched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hopeless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

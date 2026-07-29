@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-peter-pan-021",
+  "pool": "sourced",
+  "text": "“Ay,” he said, “that is the fear that haunts me.” He was roused from this dejection by Smee’s eager voice. “Captain,” said Smee, “could we not kidnap these boys’ mother and make her our mother?” “It is a princely scheme,” cried Hook, and at once it took practical shape in his great brain. “We will seize the children and carry them to the boat: the boys we will make walk the plank, and Wendy shall be our mother.” Again Wendy forgot herself. “Never!” she cried, and bobbed. “What was that?” But they could see nothing.",
+  "words": [
+    {
+      "word": "kidnap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

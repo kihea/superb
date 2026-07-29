@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-life-on-the-mississippi-035",
+  "pool": "sourced",
+  "text": "In Burlington, as in all these Upper-River towns, one breathes a go-ahead atmosphere which tastes good in the nostrils. An opera-house has lately been built there which is in strong contrast with the shabby dens which usually do duty as theaters in cities of Burlington's size. We had not time to go ashore in Muscatine, but had a daylight view of it from the boat. I lived there awhile, many years ago, but the place, now, had a rather unfamiliar look; so I suppose it has clear outgrown the town which I used to know. In fact, I know it has; for I remember it as a small place--which it isn't now.",
+  "words": [
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awhile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

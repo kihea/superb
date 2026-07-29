@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-persuasion-030",
+  "pool": "sourced",
+  "text": "With all my soul I wish them happy, and rejoice over every circumstance in favour of it. They have no difficulties to contend with at home, no opposition, no caprice, no delays. The Musgroves are behaving like themselves, most honourably and kindly, only anxious with true parental hearts to promote their daughter’s comfort. All this is much, very much in favour of their happiness; more than perhaps—” He stopped. A sudden recollection seemed to occur, and to give him some taste of that emotion which was reddening Anne’s cheeks and fixing her eyes on the ground.",
+  "words": [
+    {
+      "word": "rejoice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

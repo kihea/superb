@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-thirty-nine-steps-006",
   "pool": "sourced",
-  "text": "But on the 15th day of June there were to be others in London—others, at whom I could only guess. Scudder was content to call them collectively the “Black Stone”. They represented not our Allies, but our deadly foes; and the information, destined for France, was to be diverted to their pockets. And it was to be used, remember—used a week or two later, with great guns and swift torpedoes, suddenly in the darkness of a summer night. This was the story I had been deciphering in a back room of a country inn, overlooking a cabbage garden.",
+  "text": "I went into the darkened smoking-room where the rays of morning light were beginning to creep through the shutters. There I breakfasted off a whisky-and-soda and some biscuits from the cupboard. By this time it was getting on for six o’clock. I put a pipe in my pocket and filled my pouch from the tobacco jar on the table by the fireplace. As I poked into the tobacco my fingers touched something hard, and I drew out Scudder’s little black pocket-book.... That seemed to me a good omen.",
   "words": [
     {
-      "word": "pockets",
+      "word": "darkened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cupboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "omen",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

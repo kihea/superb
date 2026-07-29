@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-005",
   "pool": "sourced",
-  "text": "Talking to him was like playing upon an exquisite violin. He answered to every touch and thrill of the bow.... There was something terribly enthralling in the exercise of influence. No other activity was like it. To project one’s soul into some gracious form, and let it tarry there for a moment; to hear one’s own intellectual views echoed back to one with all the added music of passion and youth; to convey one’s temperament into another as though it were a subtle fluid or a strange perfume: there was a real joy in that—perhaps the most satisfying joy left to us in an age so limited and vulgar as our own, an age grossly carnal in its pleasures, and grossly common in its aims....",
+  "text": "And the mind of the thoroughly well-informed man is a dreadful thing. It is like a bric-à-brac shop, all monsters and dust, with everything priced above its proper value. I think you will tire first, all the same. Some day you will look at your friend, and he will seem to you to be a little out of drawing, or you won’t like his tone of colour, or something. You will bitterly reproach him in your own heart, and seriously think that he has behaved very badly to you.",
   "words": [
     {
-      "word": "violin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "convey",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grossly",
+      "word": "dreadful",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

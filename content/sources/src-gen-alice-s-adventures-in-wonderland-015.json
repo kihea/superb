@@ -1,22 +1,10 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-015",
   "pool": "sourced",
-  "text": "And the moral of that is—‘Birds of a feather flock together.’” “Only mustard isn’t a bird,” Alice remarked. “Right, as usual,” said the Duchess: “what a clear way you have of putting things!” “It’s a mineral, I think,” said Alice. “Of course it is,” said the Duchess, who seemed ready to agree to everything that Alice said; “there’s a large mustard-mine near here. And the moral of that is—‘The more there is of mine, the less there is of yours.’” “Oh, I know!” exclaimed Alice, who had not attended to this last remark, “it’s a vegetable.",
+  "text": "Alice felt a little irritated at the Caterpillar’s making such very short remarks, and she drew herself up and said, very gravely, “I think, you ought to tell me who you are, first.” “Why?” said the Caterpillar. Here was another puzzling question; and as Alice could not think of any good reason, and as the Caterpillar seemed to be in a very unpleasant state of mind, she turned away. “Come back!” the Caterpillar called after her. “I’ve something important to say!” This sounded promising, certainly: Alice turned and came back again. “Keep your temper,” said the Caterpillar.",
   "words": [
     {
-      "word": "feather",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flock",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mineral",
+      "word": "temper",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

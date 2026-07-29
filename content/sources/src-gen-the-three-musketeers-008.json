@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-three-musketeers-008",
   "pool": "sourced",
-  "text": "In the meantime D’Artagnan, who had plunged into a bypath, continued his route and reached St. Cloud; but instead of following the main street he turned behind the château, reached a sort of retired lane, and found himself soon in front of the pavilion named. It was situated in a very private spot. A high wall, at the angle of which was the pavilion, ran along one side of this lane, and on the other was a little garden connected with a poor cottage which was protected by a hedge from passers-by. He gained the place appointed, and as no signal had been given him by which to announce his presence, he waited.",
+  "text": "As D’Artagnan had foreseen, Athos was not within. He took the key, which was customarily given him as one of the family, ascended the stairs, and introduced Mme. Bonacieux into the little apartment of which we have given a description. “You are at home,” said he. “Remain here, fasten the door inside, and open it to nobody unless you hear three taps like this;” and he tapped thrice—two taps close together and pretty hard, the other after an interval, and lighter.",
   "words": [
     {
-      "word": "hedge",
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "taps",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tapped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrice",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

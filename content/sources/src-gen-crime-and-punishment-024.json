@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-crime-and-punishment-024",
+  "pool": "sourced",
+  "text": "“In any case this is unpardonable impertinence.” “Not in the least. Then a man may do nothing but harm to his neighbour in this world, and is prevented from doing the tiniest bit of good by trivial conventional formalities. That’s absurd. If I died, for instance, and left that sum to your sister in my will, surely she wouldn’t refuse it?” “Very likely she would.” “Oh, no, indeed. However, if you refuse it, so be it, though ten thousand roubles is a capital thing to have on occasion.",
+  "words": [
+    {
+      "word": "neighbour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

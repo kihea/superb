@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-037",
+  "pool": "sourced",
+  "text": "The rest followed him, and looked curiously at the immense carved door with the now familiar squid-dragon bas-relief. It was, Johansen said, like a great barn-door; and they all felt that it was a door because of the ornate lintel, threshold, and jambs around it, though they could not decide whether it lay flat like a trap-door or slantwise like an outside cellar-door. As Wilcox would have said, the geometry of the place was all wrong. One could not be sure that the sea and the ground were horizontal, hence the relative position of everything else seemed fantasmally variable. Briden pushed at the stone in several places without result.",
+  "words": [
+    {
+      "word": "squid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "threshold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horizontal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

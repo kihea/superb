@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-return-of-the-native-022",
+  "pool": "sourced",
+  "text": "“How very warm it is tonight, Christian!” he said, panting, when they were nearly under Rainbarrow. “Let us sit down for a few minutes, for Heaven’s sake.” Wildeve flung himself down on the soft ferns; and Christian, placing the lantern and parcel on the ground, perched himself in a cramped position hard by, his knees almost touching his chin. He presently thrust one hand into his coat-pocket and began shaking it about. “What are you rattling in there?” said Wildeve. “Only the dice, sir,” said Christian, quickly withdrawing his hand.",
+  "words": [
+    {
+      "word": "presently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Return of the Native",
+    "author": "Thomas Hardy",
+    "year": 1878,
+    "source": "Project Gutenberg #122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

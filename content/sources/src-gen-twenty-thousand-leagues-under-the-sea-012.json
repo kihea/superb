@@ -1,12 +1,30 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-012",
   "pool": "sourced",
-  "text": "I admired its strange aspect, surrounded by black rocks upon which its white houses and forts stood in relief. I saw the rounded domes of its mosques, the elegant points of its minarets, its fresh and verdant terraces. But it was only a vision! The Nautilus soon sank under the waves of that part of the sea. We passed along the Arabian coast of Mahrah and Hadramaut, for a distance of six miles, its undulating line of mountains being occasionally relieved by some ancient ruin.",
+  "text": "“It is to use the Rouquayrol apparatus, invented by two of your own countrymen, which I have brought to perfection for my own use, and which will allow you to risk yourself under these new physiological conditions without any organ whatever suffering. It consists of a reservoir of thick iron plates, in which I store the air under a pressure of fifty atmospheres. This reservoir is fixed on the back by means of braces, like a soldier’s knapsack. Its upper part forms a box in which the air is kept by means of a bellows, and therefore cannot escape unless at its normal tension. In the Rouquayrol apparatus such as we use, two india-rubber pipes leave this box and join a sort of tent which holds the nose and mouth; one is to introduce fresh air, the other to let out the foul, and the tongue closes one or the other according to the wants of the respirator.",
   "words": [
     {
-      "word": "mosques",
+      "word": "apparatus",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "organ",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reservoir",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pipes",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +33,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

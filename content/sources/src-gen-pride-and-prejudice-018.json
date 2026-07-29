@@ -1,16 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-018",
   "pool": "sourced",
-  "text": "We were always good friends, and now we are better.” “True. Are the others coming out?” “I do not know. Mrs. Bennet and Lydia are going in the carriage to Meryton. And so, my dear sister, I find, from our uncle and aunt, that you have actually seen Pemberley.” She replied in the affirmative. “I almost envy you the pleasure, and yet I believe it would be too much for me, or else I could take it in my way to Newcastle.",
+  "text": "Elizabeth had heard, soon after her arrival, that Mr. Darcy was expected there in the course of a few weeks; and though there were not many of her acquaintance whom she did not prefer, his coming would furnish one comparatively new to look at in their Rosings parties, and she might be amused in seeing how hopeless Miss Bingley’s designs on him were, by his behaviour to his cousin, for whom he was evidently destined by Lady Catherine, who talked of his coming with the greatest satisfaction, spoke of him in terms of the highest admiration, and seemed almost angry to find that he had already been frequently seen by Miss Lucas and herself. His arrival was soon known at the Parsonage; for Mr. Collins was walking the whole morning within view of the lodges opening into Hunsford Lane, in order to have the earliest assurance of it; and, after making his bow as the carriage turned into the park, hurried home with the great intelligence. On the following morning he hastened to Rosings to pay his respects.",
   "words": [
     {
-      "word": "aunt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "envy",
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

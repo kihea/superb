@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-028",
+  "pool": "sourced",
+  "text": "“Oh, let us start for the Emerald City tomorrow!” This they decided to do. The next day they called the Winkies together and bade them good-bye. The Winkies were sorry to have them go, and they had grown so fond of the Tin Woodman that they begged him to stay and rule over them and the Yellow Land of the West. Finding they were determined to go, the Winkies gave Toto and the Lion each a golden collar; and to Dorothy they presented a beautiful bracelet studded with diamonds; and to the Scarecrow they gave a gold-headed walking stick, to keep him from stumbling; and to the Tin Woodman they offered a silver oil-can, inlaid with gold and set with precious jewels. Every one of the travelers made the Winkies a pretty speech in return, and all shook hands with them until their arms ached.",
+  "words": [
+    {
+      "word": "diamonds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stumbling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

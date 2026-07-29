@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-040",
+  "pool": "sourced",
+  "text": "FOUND And now I come to perhaps the strangest adventure that happened to us in all this strange business, and one which shows how wonderfully things are brought about. I was walking along quietly, some way in front of the other two, down the banks of the stream which runs from the oasis till it is swallowed up in the hungry desert sands, when suddenly I stopped and rubbed my eyes, as well I might. There, not twenty yards in front of me, placed in a charming situation, under the shade of a species of fig-tree, and facing to the stream, was a cosy hut, built more or less on the Kafir principle with grass and withes, but having a full-length door instead of a bee-hole. “What the dickens,” said I to myself, “can a hut be doing here?” Even as I said it the door of the hut opened, and there limped out of it a white man clothed in skins, and with an enormous black beard. I thought that I must have got a touch of the sun.",
+  "words": [
+    {
+      "word": "oasis",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

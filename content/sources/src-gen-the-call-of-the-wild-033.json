@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-call-of-the-wild-033",
+  "pool": "sourced",
+  "text": "From the forest came the call (or one note of it, for the call was many noted), distinct and definite as never before,—a long-drawn howl, like, yet unlike, any noise made by husky dog. And he knew it, in the old familiar way, as a sound heard before. He sprang through the sleeping camp and in swift silence dashed through the woods. As he drew closer to the cry he went more slowly, with caution in every movement, till he came to an open place among the trees, and looking out saw, erect on haunches, with nose pointed to the sky, a long, lean, timber wolf. He had made no noise, yet it ceased from its howling and tried to sense his presence.",
+  "words": [
+    {
+      "word": "definite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "howl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

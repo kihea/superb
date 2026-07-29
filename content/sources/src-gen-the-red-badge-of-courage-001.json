@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-red-badge-of-courage-001",
   "pool": "sourced",
-  "text": "The cold passed reluctantly from the earth, and the retiring fogs revealed an army stretched out on the hills, resting. As the landscape changed from brown to green, the army awakened, and began to tremble with eagerness at the noise of rumors. It cast its eyes upon the roads, which were growing from long troughs of liquid mud to proper thoroughfares. A river, amber-tinted in the shadow of its banks, purled at the army’s feet; and at night, when the stream had become of a sorrowful blackness, one could see across it the red, eyelike gleam of hostile camp-fires set in the low brows of distant hills. Once a certain tall soldier developed virtues and went resolutely to wash a shirt.",
+  "text": "Equipments hung on handy projections, and some tin dishes lay upon a small pile of firewood. A folded tent was serving as a roof. The sunlight, without, beating upon it, made it glow a light yellow shade. A small window shot an oblique square of whiter light upon the cluttered floor. The smoke from the fire at times neglected the clay chimney and wreathed into the room, and this flimsy chimney of clay and sticks made endless threats to set ablaze the whole establishment.",
   "words": [
     {
-      "word": "awakened",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "brows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "virtues",
+      "word": "shade",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

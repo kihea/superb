@@ -1,12 +1,24 @@
 {
   "id": "src-gen-the-mysteries-of-udolpho-005",
   "pool": "sourced",
-  "text": "“You will, perhaps, doubt it,” said Madame Cheron, “when I assure you, that it was only this morning that I rejected his suit.” This was said without any intention of imposing the meaning it conveyed, but simply from a habit of considering herself to be the most important person in every affair that concerned her niece, and because literally she had rejected Valancourt. “Your reasons are indeed such as cannot be doubted,” replied the lady, with an ironical smile. “Any more than the discernment of the Chevalier Valancourt,” added Cavigni, who stood by the chair of Madame Cheron, and had heard her arrogate to herself, as he thought, a distinction which had been paid to her niece. “His discernment may be justly questioned, Signor,” said Madame Cheron, who was not flattered by what she understood to be an encomium on Emily. “Alas!” exclaimed Cavigni, surveying Madame Cheron with affected ecstasy, “how vain is that assertion, while that face—that shape—that air—combine to refute it!",
+  "text": "In the agony of terror she bade Michael bring water from the rivulet, that flowed along the road; and, having received some in the man’s hat, with trembling hands she sprinkled it over her father’s face, which, as the moon’s rays now fell upon it, seemed to bear the impression of death. Every emotion of selfish fear now gave way to a stronger influence, and, committing St. Aubert to the care of Michael, who refused to go far from his mules, she stepped from the carriage in search of the château she had seen at a distance. It was a still moonlight night, and the music, which yet sounded on the air, directed her steps from the high road, up a shadowy lane, that led to the woods. Her mind was for some time so entirely occupied by anxiety and terror for her father, that she felt none for herself, till the deepening gloom of the overhanging foliage, which now wholly excluded the moonlight, and the wildness of the place, recalled her to a sense of her adventurous situation. The music had ceased, and she had no guide but chance.",
   "words": [
     {
-      "word": "imposing",
+      "word": "stepped",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wholly",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Ann Radcliffe",
     "year": 1794,
     "source": "Project Gutenberg #3268",
-    "url": "https://www.gutenberg.org/ebooks/3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

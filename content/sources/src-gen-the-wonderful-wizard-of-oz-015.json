@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-015",
   "pool": "sourced",
-  "text": "“Hil-lo, hol-lo, hel-lo!” Dorothy went on, standing this time on her right foot. “Hello!” replied the Tin Woodman calmly. “Ziz-zy, zuz-zy, zik!” said Dorothy, who was now standing on both feet. This ended the saying of the charm, and they heard a great chattering and flapping of wings, as the band of Winged Monkeys flew up to them. The King bowed low before Dorothy, and asked, “What is your command?” “We wish to go to the Emerald City,” said the child, “and we have lost our way.” “We will carry you,” replied the King, and no sooner had he spoken than two of the Monkeys caught Dorothy in their arms and flew away with her.",
+  "text": "“If we leave her here she will die,” said the Lion. “The smell of the flowers is killing us all. I myself can scarcely keep my eyes open, and the dog is asleep already.” It was true; Toto had fallen down beside his little mistress. But the Scarecrow and the Tin Woodman, not being made of flesh, were not troubled by the scent of the flowers. “Run fast,” said the Scarecrow to the Lion, “and get out of this deadly flower bed as soon as you can.",
   "words": [
     {
-      "word": "lo",
+      "word": "scent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,18 +1,18 @@
 {
   "id": "src-gen-the-three-musketeers-014",
   "pool": "sourced",
-  "text": "“We must extricate ourselves from this position.” “But how?” “Listen! You must try to see her, and have an explanation with her. Say to her: ‘Peace or war! My word as a gentleman never to say anything of you, never to do anything against you; on your side, a solemn oath to remain neutral with respect to me. If not, I will apply to the chancellor, I will apply to the king, I will apply to the hangman, I will move the courts against you, I will denounce you as branded, I will bring you to trial; and if you are acquitted, well, by the faith of a gentleman, I will kill you at the corner of some wall, as I would a mad dog.’” “I like the means well enough,” said D’Artagnan, “but where and how to meet with her?” “Time, dear friend, time brings round opportunity; opportunity is the martingale of man.",
+  "text": "Name to me such of your workmen as you need, and point out the tools they must bring.” The goldsmith knew the duke. He knew all objection would be useless, and instantly determined how to act. “May I be permitted to inform my wife?” said he. “Oh, you may even see her if you like, my dear Mr. O’Reilly. Your captivity shall be mild, be assured; and as every inconvenience deserves its indemnification, here is, in addition to the price of the studs, an order for a thousand pistoles, to make you forget the annoyance I cause you.” D’Artagnan could not get over the surprise created in him by this minister, who thus open-handed, sported with men and millions.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "objection",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "oath",
+      "word": "studs",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

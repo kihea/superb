@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-031",
+  "pool": "sourced",
+  "text": "The moral sort of fellows might suppose that Mr. James Harthouse derived some comfortable reflections afterwards, from this prompt retreat, as one of his few actions that made any amends for anything, and as a token to himself that he had escaped the climax of a very bad business. But it was not so, at all. A secret sense of having failed and been ridiculous—a dread of what other fellows who went in for similar sorts of things, would say at his expense if they knew it—so oppressed him, that what was about the very best passage in his life was the one of all others he would not have owned to on any account, and the only one that made him ashamed of himself. VERY DECIDED THE indefatigable Mrs. Sparsit, with a violent cold upon her, her voice reduced to a whisper, and her stately frame so racked by continual sneezes that it seemed in danger of dismemberment, gave chase to her patron until she found him in the metropolis; and there, majestically sweeping in upon him at his hotel in St. James’s Street, exploded the combustibles with which she was charged, and blew up.",
+  "words": [
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

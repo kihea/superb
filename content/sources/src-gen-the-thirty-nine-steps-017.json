@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-thirty-nine-steps-017",
   "pool": "sourced",
-  "text": "Yet I couldn’t be convinced. It seemed as if a voice kept speaking in my ear, telling me to be up and doing, or I would never sleep again. The upshot was that about half-past nine I made up my mind to go to Queen Anne’s Gate. Very likely I would not be admitted, but it would ease my conscience to try. I walked down Jermyn Street, and at the corner of Duke Street passed a group of young men.",
+  "text": "I rubbed a good deal of dirt also into the sunburn of my cheeks. A roadman’s eyes would no doubt be a little inflamed, so I contrived to get some dust in both of mine, and by dint of vigorous rubbing produced a bleary effect. The sandwiches Sir Harry had given me had gone off with my coat, but the roadman’s lunch, tied up in a red handkerchief, was at my disposal. I ate with great relish several of the thick slabs of scone and cheese and drank a little of the cold tea. In the handkerchief was a local paper tied with string and addressed to Mr Turnbull—obviously meant to solace his midday leisure.",
   "words": [
     {
-      "word": "conscience",
+      "word": "rubbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rubbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

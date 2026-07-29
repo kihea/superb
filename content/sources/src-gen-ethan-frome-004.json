@@ -1,22 +1,16 @@
 {
   "id": "src-gen-ethan-frome-004",
   "pool": "sourced",
-  "text": "One cold winter morning, as he dressed in the dark, his candle flickering in the draught of the ill-fitting window, he had heard her speak from the bed behind him. “The doctor don’t want I should be left without anybody to do for me,” she said in her flat whine. He had supposed her to be asleep, and the sound of her voice had startled him, though she was given to abrupt explosions of speech after long intervals of secretive silence. He turned and looked at her where she lay indistinctly outlined under the dark calico quilt, her high-boned face taking a grayish tinge from the whiteness of the pillow. “Nobody to do for you?” he repeated.",
+  "text": "I went after him into a low unlit passage, at the back of which a ladder-like staircase rose into obscurity. On our right a line of light marked the door of the room which had sent its ray across the night; and behind the door I heard a woman’s voice droning querulously. Frome stamped on the worn oil-cloth to shake the snow from his boots, and set down his lantern on a kitchen chair which was the only piece of furniture in the hall. Then he opened the door. “Come in,” he said; and as he spoke the droning voice grew still....",
   "words": [
     {
-      "word": "whine",
+      "word": "obscurity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "quilt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pillow",
+      "word": "lantern",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

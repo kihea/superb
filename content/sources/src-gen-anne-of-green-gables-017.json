@@ -1,10 +1,34 @@
 {
   "id": "src-gen-anne-of-green-gables-017",
   "pool": "sourced",
-  "text": "Jane says it was her first glimpse into high life and she’ll never forget it to her dying day.” Mrs. Lynde came up the next afternoon to find out why Marilla had not been at the Aid meeting on Thursday. When Marilla was not at Aid meeting people knew there was something wrong at Green Gables. “Matthew had a bad spell with his heart Thursday,” Marilla explained, “and I didn’t feel like leaving him. Oh, yes, he’s all right again now, but he takes them spells oftener than he used to and I’m anxious about him. The doctor says he must be careful to avoid excitement.",
+  "text": "Sophia Sloane offered to teach her a perfectly elegant new pattern of knit lace, so nice for trimming aprons. Katie Boulter gave her a perfume bottle to keep slate water in, and Julia Bell copied carefully on a piece of pale pink paper scalloped on the edges the following effusion: “TO ANNE “When twilight drops her curtain down And pins it with a star Remember that you have a friend Though she may wander far.” “It’s so nice to be appreciated,” sighed Anne rapturously to Marilla that night. The girls were not the only scholars who “appreciated” her. When Anne went to her seat after dinner hour--she had been told by Mr. Phillips to sit with the model Minnie Andrews--she found on her desk a big luscious “strawberry apple.” Anne caught it up all ready to take a bite when she remembered that the only place in Avonlea where strawberry apples grew was in the old Blythe orchard on the other side of the Lake of Shining Waters. Anne dropped the apple as if it were a red-hot coal and ostentatiously wiped her fingers on her handkerchief.",
   "words": [
     {
-      "word": "glimpse",
+      "word": "knit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strawberry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-022",
+  "pool": "sourced",
+  "text": "NIGHT—HORSES TRAMPING The village of Weatherbury was quiet as the graveyard in its midst, and the living were lying well-nigh as still as the dead. The church clock struck eleven. The air was so empty of other sounds that the whirr of the clock-work immediately before the strokes was distinct, and so was also the click of the same at their close. The notes flew forth with the usual blind obtuseness of inanimate things—flapping and rebounding among walls, undulating against the scattered clouds, spreading through their interstices into unexplored miles of space. Bathsheba’s crannied and mouldy halls were to-night occupied only by Maryann, Liddy being, as was stated, with her sister, whom Bathsheba had set out to visit.",
+  "words": [
+    {
+      "word": "graveyard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

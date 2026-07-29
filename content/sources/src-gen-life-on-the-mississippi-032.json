@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-life-on-the-mississippi-032",
+  "pool": "sourced",
+  "text": "But meantime Brother Page had been agitating. He had not visited the penitentiary, but he had sent a copy of the illustrious letter to the chaplain of that institution, and accompanied it with--apparently inquiries. He got an answer, dated four days later than that other Brother's reassuring epistle; and before my article was complete, it wandered into my hands. The original is before me, now, and I here append it. It is pretty well loaded with internal evidence of the most solid description-- STATE'S PRISON, CHAPLAIN'S OFFICE, July 11, 1873.",
+  "words": [
+    {
+      "word": "penitentiary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illustrious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chaplain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

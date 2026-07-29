@@ -1,16 +1,10 @@
 {
   "id": "src-gen-notes-from-underground-005",
   "pool": "sourced",
-  "text": "Here I, for instance, quite naturally want to live, in order to satisfy all my capacities for life, and not simply my capacity for reasoning, that is, not simply one twentieth of my capacity for life. What does reason know? Reason only knows what it has succeeded in learning (some things, perhaps, it will never learn; this is a poor comfort, but why not say so frankly?) and human nature acts as a whole, with everything that is in it, consciously or unconsciously, and, even if it goes wrong, it lives. I suspect, gentlemen, that you are looking at me with compassion; you tell me again that an enlightened and developed man, such, in short, as the future man will be, cannot consciously desire anything disadvantageous to himself, that that can be proved mathematically.",
+  "text": "Why, in the first place, when in all these thousands of years has there been a time when man has acted only from his own interest? What is to be done with the millions of facts that bear witness that men, consciously, that is fully understanding their real interests, have left them in the background and have rushed headlong on another path, to meet peril and danger, compelled to this course by nobody and by nothing, but, as it were, simply disliking the beaten track, and have obstinately, wilfully, struck out another difficult, absurd way, seeking it almost in the darkness. So, I suppose, this obstinacy and perversity were pleasanter to them than any advantage.... Advantage! What is advantage?",
   "words": [
     {
-      "word": "reasoning",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "gentlemen",
+      "word": "peril",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

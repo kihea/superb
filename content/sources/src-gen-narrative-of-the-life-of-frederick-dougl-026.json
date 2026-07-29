@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-026",
+  "pool": "sourced",
+  "text": "A slave who would work during the holidays was considered by our masters as scarcely deserving them. He was regarded as one who rejected the favor of his master. It was deemed a disgrace not to get drunk at Christmas; and he was regarded as lazy indeed, who had not provided himself with the necessary means, during the year, to get whisky enough to last him through Christmas. From what I know of the effect of these holidays upon the slave, I believe them to be among the most effective means in the hands of the slaveholder in keeping down the spirit of insurrection. Were the slaveholders at once to abandon this practice, I have not the slightest doubt it would lead to an immediate insurrection among the slaves.",
+  "words": [
+    {
+      "word": "disgrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "insurrection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

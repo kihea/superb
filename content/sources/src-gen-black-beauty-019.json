@@ -1,16 +1,22 @@
 {
   "id": "src-gen-black-beauty-019",
   "pool": "sourced",
-  "text": "I had now most of the evening work, as I was well accustomed to standing, and Jerry was also more afraid of Hotspur taking cold. We had a great deal of late work in the Christmas week, and Jerry's cough was bad; but however late we were, Polly sat up for him, and came out with a lantern to meet him, looking anxious and troubled. On the evening of the New Year we had to take two gentlemen to a house in one of the West End Squares. We set them down at nine o'clock, and were told to come again at eleven, “but,” said one, “as it is a card party, you may have to wait a few minutes, but don't be late.” As the clock struck eleven we were at the door, for Jerry was always punctual. The clock chimed the quarters, one, two, three, and then struck twelve, but the door did not open.",
+  "text": "Then I was led off by a man to a little distance. After awhile she was taken to the carriage, and we came home together. I heard my master say to a gentleman who stopped him to inquire, that he hoped no bones were broken, but that she had not spoken yet.” When Lord George took Ginger for hunting, York shook his head; he said it ought to be a steady hand to train a horse for the first season, and not a random rider like Lord George. Ginger used to like it very much, but sometimes when she came back I could see that she had been very much strained, and now and then she gave a short cough. She had too much spirit to complain, but I could not help feeling anxious about her.",
   "words": [
     {
-      "word": "gentlemen",
+      "word": "awhile",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "o'clock",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cough",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

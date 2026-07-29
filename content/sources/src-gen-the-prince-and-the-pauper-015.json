@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-015",
   "pool": "sourced",
-  "text": "The face was unspeakably sad. Miles Hendon sprang forward, crying out-- “Oh, my Edith, my darling--” But Hugh waved him back, gravely, and said to the lady-- “Look upon him. Do you know him?” At the sound of Miles’s voice the woman had started slightly, and her cheeks had flushed; she was trembling now. She stood still, during an impressive pause of several moments; then slowly lifted up her head and looked into Hendon’s eyes with a stony and frightened gaze; the blood sank out of her face, drop by drop, till nothing remained but the grey pallor of death; then she said, in a voice as dead as the face, “I know him not!” and turned, with a moan and a stifled sob, and tottered out of the room. Miles Hendon sank into a chair and covered his face with his hands.",
+  "text": "A secretary made report that forasmuch as the late King had provided in his will for conferring the ducal degree upon the Earl of Hertford and raising his brother, Sir Thomas Seymour, to the peerage, and likewise Hertford’s son to an earldom, together with similar aggrandisements to other great servants of the Crown, the Council had resolved to hold a sitting on the 16th of February for the delivering and confirming of these honours, and that meantime, the late King not having granted, in writing, estates suitable to the support of these dignities, the Council, knowing his private wishes in that regard, had thought proper to grant to Seymour ‘500 pound lands,’ and to Hertford’s son ‘800 pound lands, and 300 pound of the next bishop’s lands which should fall vacant,’--his present Majesty being willing. {5} Tom was about to blurt out something about the propriety of paying the late King’s debts first, before squandering all this money, but a timely touch upon his arm, from the thoughtful Hertford, saved him this indiscretion; wherefore he gave the royal assent, without spoken comment, but with much inward discomfort.",
   "words": [
     {
-      "word": "cheeks",
+      "word": "likewise",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flushed",
+      "word": "meantime",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "timely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thoughtful",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

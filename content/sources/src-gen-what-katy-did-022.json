@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-what-katy-did-022",
+  "pool": "sourced",
+  "text": "Imogen's real name was Elizabeth. She was rather a pretty girl, with a screwed-up, sentimental mouth, shiny brown hair, and a little round curl on each of her cheeks. These curls must have been fastened on with glue or tin tacks, one would think, for they never moved, however much she laughed or shook her head. Imogen was a bright girl, naturally, but she had read so many novels that her brain was completely turned. It was partly this which made her so attractive to Katy, who adored stories, and thought Imogen was a real heroine of romance.",
+  "words": [
+    {
+      "word": "sentimental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curls",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

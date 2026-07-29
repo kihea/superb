@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-009",
   "pool": "sourced",
-  "text": "Time will show which of us is right. Now let us turn to other aspects of the case. What do you make of the fact that all the doors of the bedroom were bolted on the inside?” “Well——” I considered. “One must look at it logically.” “True.” “I should put it this way. The doors were bolted—our own eyes have told us that—yet the presence of the candle grease on the floor, and the destruction of the will, prove that during the night someone entered the room.",
+  "text": "A reading-lamp, some books, matches, a bunch of keys, and the crushed fragments of a coffee-cup lay scattered about. “Ah, this is curious,” said Poirot. “I must confess that I see nothing particularly curious about it.” “You do not? Observe the lamp—the chimney is broken in two places; they lie there as they fell. But see, the coffee-cup is absolutely smashed to powder.” “Well,” I said wearily, “I suppose someone must have stepped on it.” “Exactly,” said Poirot, in an odd voice.",
   "words": [
     {
-      "word": "bolted",
+      "word": "crushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smashed",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

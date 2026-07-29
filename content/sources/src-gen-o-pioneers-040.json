@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-o-pioneers-040",
+  "pool": "sourced",
+  "text": "Alexandra had taken off her black traveling suit and put on a white dress; partly because she saw that her black clothes made Carl uncomfortable and partly because she felt oppressed by them herself. They seemed a little like the prison where she had worn them yesterday, and to be out of place in the open fields. Carl had changed very little. His cheeks were browner and fuller. He looked less like a tired scholar than when he went away a year ago, but no one, even now, would have taken him for a man of business.",
+  "words": [
+    {
+      "word": "fuller",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scholar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

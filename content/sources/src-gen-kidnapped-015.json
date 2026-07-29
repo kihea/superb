@@ -1,40 +1,10 @@
 {
   "id": "src-gen-kidnapped-015",
   "pool": "sourced",
-  "text": "Much of it was red with heather; much of the rest broken up with bogs and hags and peaty pools; some had been burnt black in a heath fire; and in another place there was quite a forest of dead firs, standing like skeletons. A wearier-looking desert man never saw; but at least it was clear of troops, which was our point. We went down accordingly into the waste, and began to make our toilsome and devious travel towards the eastern verge. There were the tops of mountains all round (you are to remember) from whence we might be spied at any moment; so it behoved us to keep in the hollow parts of the moor, and when these turned aside from our direction to move upon its naked face with infinite care. Sometimes, for half an hour together, we must crawl from one heather bush to another, as hunters do when they are hard upon the deer.",
+  "text": "Now to get from there to the Linnhe Loch, the straight course was through the narrows of the Sound of Mull. But the captain had no chart; he was afraid to trust his brig so deep among the islands; and the wind serving well, he preferred to go by west of Tiree and come up under the southern coast of the great Isle of Mull. All day the breeze held in the same point, and rather freshened than died down; and towards afternoon, a swell began to set in from round the outer Hebrides. Our course, to go round about the inner isles, was to the west of south, so that at first we had this swell upon our beam, and were much rolled about. But after nightfall, when we had turned the end of Tiree and began to head more to the east, the sea came right astern.",
   "words": [
     {
-      "word": "pools",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hollow",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "moor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "crawl",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hunters",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "deer",
+      "word": "breeze",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

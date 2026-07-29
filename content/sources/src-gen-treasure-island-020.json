@@ -1,22 +1,22 @@
 {
   "id": "src-gen-treasure-island-020",
   "pool": "sourced",
-  "text": "“As for you, Jim,” he said, “it went against my heart, but I did what I thought best for those who had stood by their duty; and if you were not one of these, whose fault was it?” That morning, finding that I was to be involved in the horrid disappointment he had prepared for the mutineers, he had run all the way to the cave, and leaving the squire to guard the captain, had taken Gray and the maroon and started, making the diagonal across the island to be at hand beside the pine. Soon, however, he saw that our party had the start of him; and Ben Gunn, being fleet of foot, had been dispatched in front to do his best alone. Then it had occurred to him to work upon the superstitions of his former shipmates, and he was so far successful that Gray and the doctor had come up and were already ambushed before the arrival of the treasure-hunters. “Ah,” said Silver, “it were fortunate for me that I had Hawkins here. You would have let old John be cut to bits, and never given it a thought, doctor.” “Not a thought,” replied Dr. Livesey cheerily.",
+  "text": "Either you come aboard along of us, once the treasure shipped, and then I’ll give you my affy-davy, upon my word of honour, to clap you somewhere safe ashore. Or if that ain’t to your fancy, some of my hands being rough and having old scores on account of hazing, then you can stay here, you can. We’ll divide stores with you, man for man; and I’ll give my affy-davy, as before to speak the first ship I sight, and send ’em here to pick you up. Now, you’ll own that’s talking. Handsomer you couldn’t look to get, now you.",
   "words": [
     {
-      "word": "disappointment",
+      "word": "aboard",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hunters",
+      "word": "shipped",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bits",
+      "word": "clap",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-villette-024",
+  "pool": "sourced",
+  "text": "please, Mrs. Bretton, and pour out the coffee,” entreated Paulina, “whilst I take care of the Count de Bassompierre in other respects: since he grew into a Count, he has needed so much attention.” She separated and prepared a roll. “There, papa, are your ‘pistolets’ charged,” said she. “And there is some marmalade, just the same sort of marmalade we used to have at Bretton, and which you said was as good as if it had been conserved in Scotland—” “And which your little ladyship used to beg for my boy—do you remember that?” interposed Mrs. Bretton. “Have you forgotten how you would come to my elbow and touch my sleeve with the whisper, ‘Please, ma’am, something good for Graham—a little marmalade, or honey, or jam?’” “No, mamma,” broke in Dr. John, laughing, yet reddening; “it surely was not so: I could not have cared for these things.” “Did he or did he not, Paulina?” “He liked them,” asserted Paulina. “Never blush for it, John,” said Mr. Home, encouragingly.",
+  "words": [
+    {
+      "word": "conserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jam",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

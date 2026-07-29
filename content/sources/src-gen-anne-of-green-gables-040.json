@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-anne-of-green-gables-040",
+  "pool": "sourced",
+  "text": "I can’t realize it. Half the time it seems to me that Matthew can’t be dead; and the other half it seems as if he must have been dead for a long time and I’ve had this horrible dull ache ever since.” Diana did not quite understand. Marilla’s impassioned grief, breaking all the bounds of natural reserve and lifelong habit in its stormy rush, she could comprehend better than Anne’s tearless agony. But she went away kindly, leaving Anne alone to keep her first vigil with sorrow. Anne hoped that the tears would come in solitude.",
+  "words": [
+    {
+      "word": "ache",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "comprehend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vigil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

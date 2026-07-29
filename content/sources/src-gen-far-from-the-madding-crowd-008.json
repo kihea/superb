@@ -1,28 +1,16 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-008",
   "pool": "sourced",
-  "text": "Had she felt, which she did not, any wish whatever for the married state in the abstract, she could not reasonably have rejected him as a woman who frequently appealed to her understanding for deliverance from her whims. Boldwood as a means to marriage was unexceptionable: she esteemed and liked him: yet she did not want him. It appears that men take wives because possession is not possible without marriage, and that women accept husbands because marriage is not possible without possession; with totally differing aims the method is the same on both sides. But the understood incentive on the woman’s part was wanting here. Besides, Bathsheba’s position as absolute mistress of a farm and house was a novel one, and the novelty had not yet begun to wear off.",
+  "text": "“I used to go to his house a-courting my first wife, Charlotte, who was his dairymaid. Well, a very good-hearted man were Farmer Everdene, and I being a respectable young fellow was allowed to call and see her and drink as much ale as I liked, but not to carry away any—outside my skin I mane, of course.” “Ay, ay, Jan Coggan; we know yer maning.” “And so you see ’twas beautiful ale, and I wished to value his kindness as much as I could, and not to be so ill-mannered as to drink only a thimbleful, which would have been insulting the man’s generosity——” “True, Master Coggan, ’twould so.” corroborated Mark Clark. “——And so I used to eat a lot of salt fish afore going, and then by the time I got there I were as dry as a lime-basket—so thorough dry that that ale would slip down—ah, ’twould slip down sweet! Happy times! heavenly times!",
   "words": [
     {
-      "word": "wives",
+      "word": "ay",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "husbands",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mistress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "novelty",
+      "word": "generosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

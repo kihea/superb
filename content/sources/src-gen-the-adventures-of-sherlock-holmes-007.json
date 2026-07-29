@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-007",
   "pool": "sourced",
-  "text": "On the fourth day after the new year I heard my father give a sharp cry of surprise as we sat together at the breakfast-table. There he was, sitting with a newly opened envelope in one hand and five dried orange pips in the outstretched palm of the other one. He had always laughed at what he called my cock-and-bull story about the colonel, but he looked very scared and puzzled now that the same thing had come upon himself. “‘Why, what on earth does this mean, John?’ he stammered. “My heart had turned to lead.",
+  "text": "I left him then, still puffing at his black clay pipe, with the conviction that when I came again on the next evening I would find that he held in his hands all the clues which would lead up to the identity of the disappearing bridegroom of Miss Mary Sutherland. A professional case of great gravity was engaging my own attention at the time, and the whole of next day I was busy at the bedside of the sufferer. It was not until close upon six o’clock that I found myself free and was able to spring into a hansom and drive to Baker Street, half afraid that I might be too late to assist at the dénouement of the little mystery. I found Sherlock Holmes alone, however, half asleep, with his long, thin form curled up in the recesses of his armchair. A formidable array of bottles and test-tubes, with the pungent cleanly smell of hydrochloric acid, told me that he had spent his day in the chemical work which was so dear to him.",
   "words": [
     {
-      "word": "puzzled",
+      "word": "conviction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "engaging",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-moonstone-036",
+  "pool": "sourced",
+  "text": "We are now going to dine, exactly at the hour at which the birthday dinner was given last year. My object, of course, is a purely medical one in this case. The laudanum must find the process of digestion, as nearly as may be, where the laudanum found it last year. At a reasonable time after dinner I propose to lead the conversation back again—as inartificially as I can—to the subject of the Diamond, and of the Indian conspiracy to steal it. When I have filled his mind with these topics, I shall have done all that it is in my power to do, before the time comes for giving him the second dose.",
+  "words": [
+    {
+      "word": "dine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "digestion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "propose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Moonstone",
+    "author": "Wilkie Collins",
+    "year": 1868,
+    "source": "Project Gutenberg #155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

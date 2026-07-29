@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-king-in-yellow-022",
+  "pool": "sourced",
+  "text": "A handkerchief lay at his feet. It was faintly perfumed. He turned toward the windows. In front of them was a canapé and over it were flung, pell-mell, a gown of silk, a heap of lace-like garments, white and delicate as spiders’ meshes, long, crumpled gloves, and, on the floor beneath, the stockings, the little pointed shoes, and one garter of rosy silk, quaintly flowered and fitted with a silver clasp. Wondering, he stepped forward and drew the heavy curtains from the bed.",
+  "words": [
+    {
+      "word": "silk",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "stockings",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

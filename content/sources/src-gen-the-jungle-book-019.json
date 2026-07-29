@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-jungle-book-019",
   "pool": "sourced",
-  "text": "Why, it took me three years to find out what the men were driving at. The science of the thing is never to show up against the sky line, because, if you do, you may get fired at. Remember that, young un. Always keep hidden as much as possible, even if you have to go a mile out of your way. I lead the battery when it comes to that sort of climbing.” “Fired at without the chance of running into the people who are firing!” said the troop-horse, thinking hard.",
+  "text": "Child of the Open Sea! Of course the little fellow did not understand the words at first. He paddled and scrambled about by his mother’s side, and learned to scuffle out of the way when his father was fighting with another seal, and the two rolled and roared up and down the slippery rocks. Matkah used to go to sea to get things to eat, and the baby was fed only once in two days, but then he ate all he could and throve upon it. The first thing he did was to crawl inland, and there he met tens of thousands of babies of his own age, and they played together like puppies, went to sleep on the clean sand, and played again.",
   "words": [
     {
-      "word": "troop",
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inland",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

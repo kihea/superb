@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-villette-036",
+  "pool": "sourced",
+  "text": "“Sir,” he asked, “what is my sentence?” The father looked at him: the daughter kept her face hid. “Well, Bretton,” said Mr. Home, “you have given me the usual reward of hospitality. I entertained you; you have taken my best. I was always glad to see you; you were glad to see the one precious thing I had. You spoke me fair; and, meantime, I will not say you robbed me, but I am bereaved, and what I have lost, you, it seems, have won.” “Sir, I cannot repent.” “Repent!",
+  "words": [
+    {
+      "word": "repent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,16 +1,28 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-001",
   "pool": "sourced",
-  "text": "Phase the Second: Maiden No More Phase the Third: The Rally Phase the Fourth: The Consequence Phase the Fifth: The Woman Pays Phase the Sixth: The Convert Phase the Seventh: Fulfilment Explanatory Note to the First Edition The main portion of the following story appeared—with slight modifications—in the Graphic newspaper; other chapters, more especially addressed to adult readers, in the Fortnightly Review and the National Observer, as episodic sketches. My thanks are tendered to the editors and proprietors of those periodicals for enabling me now to piece the trunk and limbs of the novel together, and print it complete, as originally written two years ago. I will just add that the story is sent out in all sincerity of purpose, as an attempt to give artistic form to a true sequence of things; and in respect of the book’s opinions and sentiments, I would ask any too genteel reader, who cannot endure to have said what everybody nowadays thinks and feels, to remember a well-worn sentence of St. Jerome’s: If an offense come out of the truth, better it is that the offense come than that the truth be concealed. November 1891.",
+  "text": "November 1891. Author’s Preface to the Fifth and Later Editions This novel being one wherein the great campaign of the heroine begins after an event in her experience which has usually been treated as fatal to her part of protagonist, or at least as the virtual ending of her enterprises and hopes, it was quite contrary to avowed conventions that the public should welcome the book and agree with me in holding that there was something more to be said in fiction than had been said about the shaded side of a well-known catastrophe. But the responsive spirit in which Tess of the d’Urbervilles has been received by the readers of England and America would seem to prove that the plan of laying down a story on the lines of tacit opinion, instead of making it to square with the merely vocal formulae of society, is not altogether a wrong one, even when exemplified in so unequal and partial an achievement as the present.",
   "words": [
     {
-      "word": "chapters",
+      "word": "protagonist",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "enabling",
+      "word": "catastrophe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "laying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "partial",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

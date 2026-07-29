@@ -1,22 +1,10 @@
 {
   "id": "src-gen-gulliver-s-travels-007",
   "pool": "sourced",
-  "text": "I hope the gentle reader will excuse me for dwelling on these and the like particulars, which, however insignificant they may appear to groveling vulgar minds, yet will certainly help a philosopher to enlarge his thoughts and imagination, and apply them to the benefit of public as well as private life, which was my sole design in presenting this and other accounts of my travels to the world; wherein I have been chiefly studious of truth, without affecting any ornaments of learning or of style. But the whole scene of this voyage made so strong an impression on my mind, and is so deeply fixed in my memory, that, in committing it to paper I did not omit one material circumstance: however, upon a strict review, I blotted out several passages of less moment which were in my first copy, for fear of being censured as tedious and trifling, whereof travellers are often, perhaps not without justice, accused. A description of the farmer’s daughter. The author carried to a market-town, and then to the metropolis. The particulars of his journey.",
+  "text": "But being now a nardac of the highest rank in that empire, such offices were looked upon as below my dignity, and the emperor (to do him justice), never once mentioned them to me. However, it was not long before I had an opportunity of doing his majesty, at least as I then thought, a most signal service. I was alarmed at midnight with the cries of many hundred people at my door; by which, being suddenly awaked, I was in some kind of terror. I heard the word Burglum repeated incessantly: several of the emperor’s court, making their way through the crowd, entreated me to come immediately to the palace, where her imperial majesty’s apartment was on fire, by the carelessness of a maid of honour, who fell asleep while she was reading a romance. I got up in an instant; and orders being given to clear the way before me, and it being likewise a moonshine night, I made a shift to get to the palace without trampling on any of the people.",
   "words": [
     {
-      "word": "travels",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "voyage",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "travellers",
+      "word": "imperial",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

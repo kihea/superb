@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-021",
+  "pool": "sourced",
+  "text": "I SHALL know how to prevent you!\" \"Good-by, Philippe,\" said the viscount again and left the room. This scene was described to the examining-magistrate by the count himself, who did not see Raoul again until that evening, at the Opera, a few minutes before Christine's disappearance. Raoul, in fact, devoted the whole day to his preparations for the flight. The horses, the carriage, the coachman, the provisions, the luggage, the money required for the journey, the road to be taken (he had resolved not to go by train, so as to throw the ghost off the scent): all this had to be settled and provided for; and it occupied him until nine o'clock at night.",
+  "words": [
+    {
+      "word": "viscount",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carriage",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "provisions",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "luggage",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

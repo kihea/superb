@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-034",
+  "pool": "sourced",
+  "text": "We were off the yard in good season, for it is held a fatal sign to have the pale light of the corposant thrown upon one's face. As it was, the English lad did not feel comfortably at having had it so near him, and directly over his head. In a few minutes it disappeared, and showed itself again on the fore top-gallant yard; and after playing about for some time, disappeared again; when the man on the forecastle pointed to it upon the flying-jib-boom-end. But our attention was drawn from watching this, by the falling of some drops of rain and by a perceptible increase of the darkness, which seemed suddenly to add a new shade of blackness to the night. In a few minutes, low, grumbling thunder was heard, and some random flashes of lightning came from the south-west.",
+  "words": [
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

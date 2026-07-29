@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-028",
+  "pool": "sourced",
+  "text": "When, now, the real Negro criminal appeared, and instead of petty stealing and vagrancy we began to have highway robbery, burglary, murder, and rape, there was a curious effect on both sides the color-line: the Negroes refused to believe the evidence of white witnesses or the fairness of white juries, so that the greatest deterrent to crime, the public opinion of one’s own social caste, was lost, and the criminal was looked upon as crucified rather than hanged. On the other hand, the whites, used to being careless as to the guilt or innocence of accused Negroes, were swept in moments of passion beyond law, reason, and decency. Such a situation is bound to increase crime, and has increased it. To natural viciousness and vagrancy are being daily added motives of revolt and revenge which stir up all the latent savagery of both races and make peaceful attention to economic development often impossible. But the chief problem in any community cursed with crime is not the punishment of the criminals, but the preventing of the young from being trained to crime.",
+  "words": [
+    {
+      "word": "burglary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deterrent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "caste",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "innocence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

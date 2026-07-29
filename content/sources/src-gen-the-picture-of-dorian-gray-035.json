@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-035",
+  "pool": "sourced",
+  "text": "I don’t care,” he added with a sigh. “As long as one has this stuff, one doesn’t want friends. I think I have had too many friends.” Dorian winced and looked round at the grotesque things that lay in such fantastic postures on the ragged mattresses. The twisted limbs, the gaping mouths, the staring lustreless eyes, fascinated him. He knew in what strange heavens they were suffering, and what dull hells were teaching them the secret of some new joy.",
+  "words": [
+    {
+      "word": "limbs",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "mouths",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-jane-eyre-035",
+  "pool": "sourced",
+  "text": "And then there are other chances in life far more thrilling and rapture-giving: this is solid, an affair of the actual world, nothing ideal about it: all its associations are solid and sober, and its manifestations are the same. One does not jump, and spring, and shout hurrah! at hearing one has got a fortune; one begins to consider responsibilities, and to ponder business; on a base of steady satisfaction rise certain grave cares, and we contain ourselves, and brood over our bliss with a solemn brow. Besides, the words Legacy, Bequest, go side by side with the words, Death, Funeral. My uncle I had heard was dead—my only relative; ever since being made aware of his existence, I had cherished the hope of one day seeing him: now, I never should.",
+  "words": [
+    {
+      "word": "brood",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

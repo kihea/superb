@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-howards-end-025",
+  "pool": "sourced",
+  "text": "I don’t want to know. I can do the sum just as well by proportion. Divide your income into ten parts. How many parts would you give to Evie, how many to Charles, how many to Paul?” “The fact is, my dear, I hadn’t any intention of bothering you with details. I only wanted to let you know that—well, that something must be done for the others, and you’ve understood me perfectly, so let’s pass on to the next point.” “Yes, we’ve settled that,” said Margaret, undisturbed by his strategic blunderings.",
+  "words": [
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "divide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Howards End",
+    "author": "E. M. Forster",
+    "year": 1910,
+    "source": "Project Gutenberg #2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

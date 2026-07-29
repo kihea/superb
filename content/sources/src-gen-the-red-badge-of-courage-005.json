@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-red-badge-of-courage-005",
   "pool": "sourced",
-  "text": "The insect voices of the night sang solemnly. After this crossing the youth assured himself that at any moment they might be suddenly and fearfully assaulted from the caves of the lowering woods. He kept his eyes watchfully upon the darkness. But his regiment went unmolested to a camping place, and its soldiers slept the brave sleep of wearied men. In the morning they were routed out with early energy, and hustled along a narrow road that led deep into the forest.",
+  "text": "A sympathetic comparison of mental notes would have been a joy to him. He occasionally tried to fathom a comrade with seductive sentences. He looked about to find men in the proper mood. All attempts failed to bring forth any statement which looked in any way like a confession to those doubts which he privately acknowledged in himself. He was afraid to make an open declaration of his concern, because he dreaded to place some unscrupulous confidant upon the high plane of the unconfessed from which elevation he could be derided.",
   "words": [
     {
-      "word": "camping",
+      "word": "confession",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elevation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

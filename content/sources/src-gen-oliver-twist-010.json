@@ -1,10 +1,16 @@
 {
   "id": "src-gen-oliver-twist-010",
   "pool": "sourced",
-  "text": "“Nothing more?” “Not a word now,” said the Jew, descending the stairs. “I say,” said the other, looking over the rails, and speaking in a hoarse whisper; “what a time this would be for a sell! I’ve got Phil Barker here: so drunk, that a boy might take him!” “Ah! But it’s not Phil Barker’s time,” said the Jew, looking up. “Phil has something more to do, before we can afford to part with him; so go back to the company, my dear, and tell them to lead merry lives—while they last.",
+  "text": "“I never saw so many.” “You shall read them, if you behave well,” said the old gentleman kindly; “and you will like that, better than looking at the outsides,—that is, some cases; because there are books of which the backs and covers are by far the best parts.” “I suppose they are those heavy ones, sir,” said Oliver, pointing to some large quartos, with a good deal of gilding about the binding. “Not always those,” said the old gentleman, patting Oliver on the head, and smiling as he did so; “there are other equally heavy ones, though of a much smaller size. How should you like to grow up a clever man, and write books, eh?” “I think I would rather read them, sir,” replied Oliver.",
   "words": [
     {
-      "word": "whisper",
+      "word": "behave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

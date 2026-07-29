@@ -1,16 +1,22 @@
 {
   "id": "src-gen-carmilla-010",
   "pool": "sourced",
-  "text": "I could not bear next day to be alone for a moment. I should have told papa, but for two opposite reasons. At one time I thought he would laugh at my story, and I could not bear its being treated as a jest; and at another I thought he might fancy that I had been attacked by the mysterious complaint which had invaded our neighborhood. I had myself no misgiving of the kind, and as he had been rather an invalid for some time, I was afraid of alarming him. I was comfortable enough with my good-natured companions, Madame Perrodon, and the vivacious Mademoiselle Lafontaine.",
+  "text": "What harm could it do anyone to tell me what I so ardently desired to know? Had she no trust in my good sense or honor? Why would she not believe me when I assured her, so solemnly, that I would not divulge one syllable of what she told me to any mortal breathing. There was a coldness, it seemed to me, beyond her years, in her smiling melancholy persistent refusal to afford me the least ray of light. I cannot say we quarreled upon this point, for she would not quarrel upon any.",
   "words": [
     {
-      "word": "papa",
+      "word": "syllable",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "companions",
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

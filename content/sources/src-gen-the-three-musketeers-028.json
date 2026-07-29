@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-028",
+  "pool": "sourced",
+  "text": "So that Monsieur watched Bassompierre; the king, the Duc d’Angoulême; and the cardinal, M. de Schomberg. As soon as this organization was established, they set about driving the English from the Isle. The juncture was favorable. The English, who require, above everything, good living in order to be good soldiers, only eating salt meat and bad biscuit, had many invalids in their camp. Still further, the sea, very rough at this period of the year all along the sea coast, destroyed every day some little vessel; and the shore, from the point of l’Aiguillon to the trenches, was at every tide literally covered with the wrecks of pinnacles, roberges, and feluccas.",
+  "words": [
+    {
+      "word": "biscuit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,23 +1,16 @@
 {
   "id": "src-gen-villette-006",
   "pool": "sourced",
-  "text": "I see her now. Thin in face and figure, sallow in complexion, regular in features, with perfect teeth, lips like a thread, a large, prominent chin, a well-opened, but frozen eye, of light at once craving and ingrate. She mortally hated work, and loved what she called pleasure; being an insipid, heartless, brainless dissipation of time. Madame Beck knew this woman’s character perfectly well. She once talked to me about her, with an odd mixture of discrimination, indifference, and antipathy.",
+  "text": "No minds were overtasked: the lessons were well distributed and made incomparably easy to the learner; there was a liberty of amusement, and a provision for exercise which kept the girls healthy; the food was abundant and good: neither pale nor puny faces were anywhere to be seen in the Rue Fossette. She never grudged a holiday; she allowed plenty of time for sleeping, dressing, washing, eating; her method in all these matters was easy, liberal, salutary, and rational: many an austere English school-mistress would do vastly well to imitate her—and I believe many would be glad to do so, if exacting English parents would let them. As Madame Beck ruled by espionage, she of course had her staff of spies: she perfectly knew the quality of the tools she used, and while she would not scruple to handle the dirtiest for a dirty occasion—flinging this sort from her like refuse rind, after the orange has been duly squeezed—I have known her fastidious in seeking pure metal for clean uses; and when once a bloodless and rustless instrument was found, she was careful of the prize, keeping it in silk and cotton-wool.",
   "words": [
     {
-      "word": "complexion",
+      "word": "provision",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "chin",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "madame",
+      "word": "abundant",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,7 +21,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

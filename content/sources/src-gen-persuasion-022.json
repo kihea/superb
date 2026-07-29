@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-022",
+  "pool": "sourced",
+  "text": "Sir Walter had taken a very good house in Camden Place, a lofty dignified situation, such as becomes a man of consequence; and both he and Elizabeth were settled there, much to their satisfaction. Anne entered it with a sinking heart, anticipating an imprisonment of many months, and anxiously saying to herself, “Oh! when shall I leave you again?” A degree of unexpected cordiality, however, in the welcome she received, did her good. Her father and sister were glad to see her, for the sake of shewing her the house and furniture, and met her with kindness. Her making a fourth, when they sat down to dinner, was noticed as an advantage.",
+  "words": [
+    {
+      "word": "imprisonment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-age-of-innocence-016",
   "pool": "sourced",
-  "text": "A clerk brought in a letter for Archer and withdrew. Recognising his wife's hand, the young man opened the envelope and read: \"Won't you please come up town as early as you can? Granny had a slight stroke last night. In some mysterious way she found out before any one else this awful news about the bank. Uncle Lovell is away shooting, and the idea of the disgrace has made poor Papa so nervous that he has a temperature and can't leave his room.",
+  "text": "\"If she still needs me, she's determined not to let me see it,\" he thought, stung by her manner. He wanted to thank her for having been to see his mother, but under the ancestress's malicious eye he felt himself tongue-tied and constrained. \"Look at him--in such hot haste to get married that he took French leave and rushed down to implore the silly girl on his knees! That's something like a lover--that's the way handsome Bob Spicer carried off my poor mother; and then got tired of her before I was weaned--though they only had to wait eight months for me! But there--you're not a Spicer, young man; luckily for you and for May.",
   "words": [
     {
-      "word": "clerk",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "withdrew",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "recognising",
+      "word": "luckily",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

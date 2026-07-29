@@ -1,30 +1,17 @@
 {
   "id": "src-gen-walden-014",
   "pool": "sourced",
-  "text": "Gilpin, in his account of the forest borderers of England, says that “the encroachments of trespassers, and the houses and fences thus raised on the borders of the forest,” were “considered as great nuisances by the old forest law, and were severely punished under the name of purprestures, as tending ad terrorem ferarum—ad nocumentum forestæ, &c.,” to the frightening of the game and the detriment of the forest. But I was interested in the preservation of the venison and the vert more than the hunters or woodchoppers, and as much as though I had been the Lord Warden himself; and if any part was burned, though I burned it myself by accident, I grieved with a grief that lasted longer and was more inconsolable than that of the proprietors; nay, I grieved when it was cut down by the proprietors themselves. I would that our farmers when they cut down a forest felt some of that awe which the old Romans did when they came to thin, or let in the light to, a consecrated grove (lucum conlucare), that is, would believe that it is sacred to some god.",
+  "text": "The farmer can work alone in the field or the woods all day, hoeing or chopping, and not feel lonesome, because he is employed; but when he comes home at night he cannot sit down in a room alone, at the mercy of his thoughts, but must be where he can “see the folks,” and recreate, and as he thinks remunerate himself for his day’s solitude; and hence he wonders how the student can sit alone in the house all night and most of the day without ennui and “the blues;” but he does not realize that the student, though in the house, is still at work in his field, and chopping in his woods, as the farmer in his, and in turn seeks the same recreation and society that the latter does, though it may be a more condensed form of it. Society is commonly too cheap. We meet at very short intervals, not having had time to acquire any new value for each other. We meet at meals three times a day, and give each other a new taste of that old musty cheese that we are.",
   "words": [
     {
-      "word": "fences",
+      "word": "recreate",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hunters",
+      "word": "solitude",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "consecrated",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "grove",
-      "signals": [
-        "definition-marker",
         "gloss-overlap"
       ]
     }
@@ -34,7 +21,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,28 @@
 {
   "id": "src-gen-life-on-the-mississippi-008",
   "pool": "sourced",
-  "text": "The Southern was a good hotel, and we could have had a comfortable time there. It is large, and well conducted, and its decorations do not make one cry, as do those of the vast Palmer House, in Chicago. True, the billiard-tables were of the Old Silurian Period, and the cues and balls of the Post-Pliocene; but there was refreshment in this, not discomfort; for there is rest and healing in the contemplation of antiquities. The most notable absence observable in the billiard-room, was the absence of the river man. If he was there he had taken in his sign, he was in disguise.",
+  "text": "Pilots bore a mortal hatred to these craft; and it was returned with usury. The law required all such helpless traders to keep a light burning, but it was a law that was often broken. All of a sudden, on a murky night, a light would hop up, right under our bows, almost, and an agonized voice, with the backwoods 'whang' to it, would wail out-- 'Whar'n the ---- you goin' to! Cain't you see nothin', you dash-dashed aig-suckin', sheep-stealin', one-eyed son of a stuffed monkey!' Then for an instant, as we whistled by, the red glare from our furnaces would reveal the scow and the form of the gesticulating orator as if under a lightning-flash, and in that instant our firemen and deck-hands would send and receive a tempest of missiles and profanity, one of our wheels would walk off with the crashing fragments of a steering-oar, and down the dead blackness would shut again.",
   "words": [
     {
-      "word": "disguise",
+      "word": "murky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tempest",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

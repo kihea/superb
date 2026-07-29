@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-029",
+  "pool": "sourced",
+  "text": "Each cocked his pistol, and, with fingers on the trigger, walked up to Henry, saying, at the same time, if he did not cross his hands, they would blow his damned heart out. “Shoot me, shoot me!” said Henry; “you can’t kill me but once. Shoot, shoot,—and be damned! I won’t be tied!” This he said in a tone of loud defiance; and at the same time, with a motion as quick as lightning, he with one single stroke dashed the pistols from the hand of each constable. As he did this, all hands fell upon him, and, after beating him some time, they finally overpowered him, and got him tied.",
+  "words": [
+    {
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

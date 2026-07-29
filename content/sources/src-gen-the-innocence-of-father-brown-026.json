@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-026",
+  "pool": "sourced",
+  "text": "Finding the detective of a sporting turn and eager to employ his holiday, he guided Flambeau and Flambeau’s boat down to the best fishing spot in the stream, and was back in his own canoe in twenty minutes to join Father Brown in the library and plunge equally politely into the priest’s more philosophic pleasures. He seemed to know a great deal both about the fishing and the books, though of these not the most edifying; he spoke five or six languages, though chiefly the slang of each. He had evidently lived in varied cities and very motley societies, for some of his cheerfullest stories were about gambling hells and opium dens, Australian bushrangers or Italian brigands. Father Brown knew that the once-celebrated Saradine had spent his last few years in almost ceaseless travel, but he had not guessed that the travels were so disreputable or so amusing. Indeed, with all his dignity of a man of the world, Prince Saradine radiated to such sensitive observers as the priest, a certain atmosphere of the restless and even the unreliable.",
+  "words": [
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "opium",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

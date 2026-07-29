@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-little-princess-025",
+  "pool": "sourced",
+  "text": "Quite suddenly she put her black head down in her arms, as she often did when she was alone. \"Oh, papa,\" she whispered, \"what a long time it seems since I was your 'Little Missus'!\" This was what happened that day on both sides of the wall. 13 One of the Populace The winter was a wretched one. There were days on which Sara tramped through snow when she went on her errands; there were worse days when the snow melted and combined itself with mud to form slush; there were others when the fog was so thick that the lamps in the street were lighted all day and London looked as it had looked the afternoon, several years ago, when the cab had driven through the thoroughfares with Sara tucked up on its seat, leaning against her father's shoulder.",
+  "words": [
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

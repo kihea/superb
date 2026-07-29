@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-021",
+  "pool": "sourced",
+  "text": "“Then I am a religious man, Prendick, as every sane man must be. It may be, I fancy, that I have seen more of the ways of this world’s Maker than you,—for I have sought his laws, in my way, all my life, while you, I understand, have been collecting butterflies. And I tell you, pleasure and pain have nothing to do with heaven or hell. Pleasure and pain—bah! What is your theologian’s ecstasy but Mahomet’s houri in the dark?",
+  "words": [
+    {
+      "word": "ecstasy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

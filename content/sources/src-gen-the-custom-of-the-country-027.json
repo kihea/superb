@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-custom-of-the-country-027",
+  "pool": "sourced",
+  "text": "A few days earlier, Undine's hope of renewing such pleasures would have been clouded by the dread of leaving Madame de Trezac alone with the Duchess. But she had no longer any fear of Madame de Trezac. She had discovered that her old rival of Potash Springs was in actual dread of her disfavour, and nervously anxious to conciliate her, and the discovery gave her such a sense of the heights she had scaled, and the security of her footing, that all her troubled past began to seem like the result of some providential \"design,\" and vague impulses of piety stirred in her as she and the Princess whirled toward Nice through the blue and gold glitter of the morning. They wandered about the lively streets, they gazed into the beguiling shops, the Princess tried on hats and Undine bought them, and they lunched at the Royal on all sorts of succulent dishes prepared under the head-waiter's special supervision. But as they were savouring their \"double\" coffee and liqueurs, and Undine was wondering what her companion would devise for the afternoon, the Princess clapped her hands together and cried out: \"Dearest, I'd forgotten!",
+  "words": [
+    {
+      "word": "dread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scaled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "troubled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "devise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-009",
   "pool": "sourced",
-  "text": "The Brahmins maintain that in the almost endless sculptures of that immemorial pagoda, all the trades and pursuits, every conceivable avocation of man, were prefigured ages before any of them actually came into being. No wonder then, that in some sort our noble profession of whaling should have been there shadowed forth. The Hindoo whale referred to, occurs in a separate department of the wall, depicting the incarnation of Vishnu in the form of leviathan, learnedly known as the Matse Avatar. But though this sculpture is half man and half whale, so as only to give the tail of the latter, yet that small section of him is all wrong. It looks more like the tapering tail of an anaconda, than the broad palms of the true whale’s majestic flukes.",
+  "text": "The Specksnyder. Concerning the officers of the whale-craft, this seems as good a place as any to set down a little domestic peculiarity on ship-board, arising from the existence of the harpooneer class of officers, a class unknown of course in any other marine than the whale-fleet. The large importance attached to the harpooneer’s vocation is evinced by the fact, that originally in the old Dutch Fishery, two centuries and more ago, the command of a whale ship was not wholly lodged in the person now called the captain, but was divided between him and an officer called the Specksnyder. Literally this word means Fat-Cutter; usage, however, in time made it equivalent to Chief Harpooneer. In those days, the captain’s authority was restricted to the navigation and general management of the vessel; while over the whale-hunting department and all its concerns, the Specksnyder or Chief Harpooneer reigned supreme.",
   "words": [
     {
-      "word": "incarnation",
+      "word": "whale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "navigation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-037",
+  "pool": "sourced",
+  "text": "Then you stand still and keep quiet--never ask a man to hold your head, young un--keep quiet while the guns are being put together, and then you watch the little poppy shells drop down into the tree-tops ever so far below.” “Don’t you ever trip?” said the troop-horse. “They say that when a mule trips you can split a hen’s ear,” said Billy. “Now and again perhaps a badly packed saddle will upset a mule, but it’s very seldom. I wish I could show you our business. It’s beautiful.",
+  "words": [
+    {
+      "word": "mule",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

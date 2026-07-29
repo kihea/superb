@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-016",
   "pool": "sourced",
-  "text": "“You could say nothing more true. I’m absorbed in myself--I look at life too much as a doctor’s prescription. Why indeed should we perpetually be thinking whether things are good for us, as if we were patients lying in a hospital? Why should I be so afraid of not doing right? As if it mattered to the world whether I do right or wrong!” “You’re a capital person to advise,” said Ralph; “you take the wind out of my sails!” She looked at him as if she had not heard him--though she was following out the train of reflexion which he himself had kindled.",
+  "text": "In so far as the indefinable had an influence upon Isabel’s behaviour at this juncture, it was not the conception, even unformulated, of a union with Caspar Goodwood; for however she might have resisted conquest at her English suitor’s large quiet hands she was at least as far removed from the disposition to let the young man from Boston take positive possession of her. The sentiment in which she sought refuge after reading his letter was a critical view of his having come abroad; for it was part of the influence he had upon her that he seemed to deprive her of the sense of freedom. There was a disagreeably strong push, a kind of hardness of presence, in his way of rising before her. She had been haunted at moments by the image, by the danger, of his disapproval and had wondered--a consideration she had never paid in equal degree to any one else--whether he would like what she did.",
   "words": [
     {
-      "word": "absorbed",
+      "word": "disposition",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sails",
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deprive",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

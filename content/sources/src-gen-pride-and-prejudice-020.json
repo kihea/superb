@@ -1,18 +1,18 @@
 {
   "id": "src-gen-pride-and-prejudice-020",
   "pool": "sourced",
-  "text": "The recollection of what I then said, of my conduct, my manners, my expressions during the whole of it, is now, and has been many months, inexpressibly painful to me. Your reproof, so well applied, I shall never forget: ‘Had you behaved in a more gentlemanlike manner.’ Those were your words. You know not, you can scarcely conceive, how they have tortured me; though it was some time, I confess, before I was reasonable enough to allow their justice.” “I was certainly very far from expecting them to make so strong an impression. I had not the smallest idea of their being ever felt in such a way.” “I can easily believe it. You thought me then devoid of every proper feeling, I am sure you did.",
+  "text": "“Can you deny that you have done it?” she repeated. With assumed tranquillity he then replied, “I have no wish of denying that I did everything in my power to separate my friend from your sister, or that I rejoice in my success. Towards him I have been kinder than towards myself.” Elizabeth disdained the appearance of noticing this civil reflection, but its meaning did not escape, nor was it likely to conciliate her. “But it is not merely this affair,” she continued, “on which my dislike is founded. Long before it had taken place, my opinion of you was decided.",
   "words": [
     {
-      "word": "manners",
+      "word": "noticing",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "behaved",
+      "word": "reflection",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

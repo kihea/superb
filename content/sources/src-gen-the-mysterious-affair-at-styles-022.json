@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-022",
+  "pool": "sourced",
+  "text": "I won’t cite Lawrence, or Mrs. Cavendish. But there’s John—and Miss Howard, surely they were speaking the truth?” “Both of them, my friend? One, I grant you, but both——!” His words gave me an unpleasant shock. Miss Howard’s evidence, unimportant as it was, had been given in such a downright straightforward manner that it had never occurred to me to doubt her sincerity. Still, I had a great respect for Poirot’s sagacity—except on the occasions when he was what I described to myself as “foolishly pig-headed.” “Do you really think so?” I asked.",
+  "words": [
+    {
+      "word": "cite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "straightforward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

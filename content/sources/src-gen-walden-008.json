@@ -1,17 +1,24 @@
 {
   "id": "src-gen-walden-008",
   "pool": "sourced",
-  "text": "A more simple and natural man it would be hard to find. Vice and disease, which cast such a sombre moral hue over the world, seemed to have hardly any existence for him. He was about twenty-eight years old, and had left Canada and his father’s house a dozen years before to work in the States, and earn money to buy a farm with at last, perhaps in his native country. He was cast in the coarsest mould; a stout but sluggish body, yet gracefully carried, with a thick sunburnt neck, dark bushy hair, and dull sleepy blue eyes, which were occasionally lit up with expression. He wore a flat gray cloth cap, a dingy wool-colored greatcoat, and cowhide boots.",
+  "text": "The Harivansa says, “An abode without birds is like a meat without seasoning.” Such was not my abode, for I found myself suddenly neighbor to the birds; not by having imprisoned one, but having caged myself near them. I was not only nearer to some of those which commonly frequent the garden and the orchard, but to those wilder and more thrilling songsters of the forest which never, or rarely, serenade a villager,—the wood-thrush, the veery, the scarlet tanager, the field-sparrow, the whippoorwill, and many others. I was seated by the shore of a small pond, about a mile and a half south of the village of Concord and somewhat higher than it, in the midst of an extensive wood between that town and Lincoln, and about two miles south of that our only field known to fame, Concord Battle Ground; but I was so low in the woods that the opposite shore, half a mile off, like the rest, covered with wood, was my most distant horizon.",
   "words": [
     {
-      "word": "sluggish",
+      "word": "nearer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "wool",
+      "word": "orchard",
       "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sparrow",
+      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -21,7 +28,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-034",
+  "pool": "sourced",
+  "text": "“At another time, sir,” he returned, evasively, “the present time is ill-conwenient for explainin’. What I stand to, is, that he knows well wot that there Cly was never in that there coffin. Let him say he was, in so much as a word of one syllable, and I’ll either catch hold of his throat and choke him for half a guinea;” Mr. Cruncher dwelt upon this as quite a liberal offer; “or I’ll out and announce him.” “Humph! I see one thing,” said Carton. “I hold another card, Mr. Barsad.",
+  "words": [
+    {
+      "word": "syllable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "choke",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "guinea",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

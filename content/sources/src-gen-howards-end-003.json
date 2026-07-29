@@ -1,10 +1,16 @@
 {
   "id": "src-gen-howards-end-003",
   "pool": "sourced",
-  "text": "If one classed him at all it would be as the countryman of Hegel and Kant, as the idealist, inclined to be dreamy, whose Imperialism was the Imperialism of the air. Not that his life had been inactive. He had fought like blazes against Denmark, Austria, France. But he had fought without visualizing the results of victory. A hint of the truth broke on him after Sedan, when he saw the dyed moustaches of Napoleon going grey; another when he entered Paris, and saw the smashed windows of the Tuileries.",
+  "text": "Italians realize this, as is natural; those of them who are so unfortunate as to serve as waiters in Berlin call the Anhalt Bahnhof the Stazione d’Italia, because by it they must return to their homes. And he is a chilly Londoner who does not endow his stations with some personality, and extend to them, however shyly, the emotions of fear and love. To Margaret—I hope that it will not set the reader against her—the station of King’s Cross had always suggested Infinity. Its very situation—withdrawn a little behind the facile splendours of St. Pancras—implied a comment on the materialism of life. Those two great arches, colourless, indifferent, shouldering between them an unlovely clock, were fit portals for some eternal adventure, whose issue might be prosperous, but would certainly not be expressed in the ordinary language of prosperity.",
   "words": [
     {
-      "word": "dyed",
+      "word": "implied",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prosperity",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

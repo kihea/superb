@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-018",
   "pool": "sourced",
-  "text": "“Sir Sagramore, ye will grant him leave to borrow.” “And I will lend!” said Sir Launcelot, limping up. “He is as brave a knight of his hands as any that be on live, and he shall have mine.” He put his hand on his sword to draw it, but Sir Sagramor said: “Stay, it may not be. He shall fight with his own weapons; it was his privilege to choose them and bring them. If he has erred, on his head be it.” “Knight!” said the king. “Thou'rt overwrought with passion; it disorders thy mind.",
+  "text": "I shall use no arts that come of the devil, and no elements not created by the hand of God. But is Merlin working strictly on pious lines?” “Ah, he said he would, my son, he said he would, and took oath to make his promise good.” “Well, in that case, let him proceed.” “But surely you will not sit idle by, but help?” “It will not answer to mix methods, Father; neither would it be professional courtesy. Two of a trade must not underbid each other. We might as well cut rates and be done with it; it would arrive at that in the end. Merlin has the contract; no other magician can touch it till he throws it up.” “But I will take it from him; it is a terrible emergency and the act is thereby justified.",
   "words": [
     {
-      "word": "lend",
+      "word": "pious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oath",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

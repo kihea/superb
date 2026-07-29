@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-old-curiosity-shop-019",
   "pool": "sourced",
-  "text": "Thus, it will always happen that these men of the world, who go through it in armour, defend themselves from quite as much good as evil; to say nothing of the inconvenience and absurdity of mounting guard with a microscope at all times, and of wearing a coat of mail on the most innocent occasions. The three gentlemen spoke together apart, for a few moments. At the end of their consultation, which was very brief, the Notary pointed to the writing materials on the table, and informed Mr Brass that if he wished to make any statement in writing, he had the opportunity of doing so. At the same time he felt bound to tell him that they would require his attendance, presently, before a justice of the peace, and that in what he did or said, he was guided entirely by his own discretion.",
+  "text": "Having, as it were, taken formal possession of his clerkship in virtue of these proceedings, he opened the window and leaned negligently out of it until a beer-boy happened to pass, whom he commanded to set down his tray and to serve him with a pint of mild porter, which he drank upon the spot and promptly paid for, with the view of breaking ground for a system of future credit and opening a correspondence tending thereto, without loss of time. Then, three or four little boys dropped in, on legal errands from three or four attorneys of the Brass grade: whom Mr Swiveller received and dismissed with about as professional a manner, and as correct and comprehensive an understanding of their business, as would have been shown by a clown in a pantomime under similar circumstances. These things done and over, he got upon his stool again and tried his hand at drawing caricatures of Miss Brass with a pen and ink, whistling very cheerfully all the time. He was occupied in this diversion when a coach stopped near the door, and presently afterwards there was a loud double-knock.",
   "words": [
     {
-      "word": "wished",
+      "word": "tray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "promptly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stool",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

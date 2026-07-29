@@ -1,22 +1,16 @@
 {
   "id": "src-gen-heart-of-darkness-020",
   "pool": "sourced",
-  "text": "Perhaps it was an impulse of unconscious loyalty, or the fulfilment of one of those ironic necessities that lurk in the facts of human existence. I don’t know. I can’t tell. But I went. “I thought his memory was like the other memories of the dead that accumulate in every man’s life—a vague impress on the brain of shadows that had fallen on it in their swift and final passage; but before the high and ponderous door, between the tall houses of a street as still and decorous as a well-kept alley in a cemetery, I had a vision of him on the stretcher, opening his mouth voraciously, as if to devour all the earth with all its mankind.",
+  "text": "‘It must be this miserable trader—this intruder,’ exclaimed the manager, looking back malevolently at the place we had left. ‘He must be English,’ I said. ‘It will not save him from getting into trouble if he is not careful,’ muttered the manager darkly. I observed with assumed innocence that no man was safe from trouble in this world. “The current was more rapid now, the steamer seemed at her last gasp, the stern-wheel flopped languidly, and I caught myself listening on tiptoe for the next beat of the boat, for in sober truth I expected the wretched thing to give up every moment.",
   "words": [
     {
-      "word": "alley",
+      "word": "gasp",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "cemetery",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mankind",
+      "word": "wretched",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

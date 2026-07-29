@@ -1,22 +1,28 @@
 {
   "id": "src-gen-heart-of-darkness-015",
   "pool": "sourced",
-  "text": "Only one, the first I had made out, was facing my way. I was not so shocked as you may think. The start back I had given was really nothing but a movement of surprise. I had expected to see a knob of wood there, you know. I returned deliberately to the first I had seen—and there it was, black, dried, sunken, with closed eyelids—a head that seemed to sleep at the top of that pole, and, with the shrunken dry lips showing a narrow white line of the teeth, was smiling, too, smiling continuously at some endless and jocose dream of that eternal slumber.",
+  "text": "Five such instalments came, with their absurd air of disorderly flight with the loot of innumerable outfit shops and provision stores, that, one would think, they were lugging, after a raid, into the wilderness for equitable division. It was an inextricable mess of things decent in themselves but that human folly made look like the spoils of thieving. “This devoted band called itself the Eldorado Exploring Expedition, and I believe they were sworn to secrecy. Their talk, however, was the talk of sordid buccaneers: it was reckless without hardihood, greedy without audacity, and cruel without courage; there was not an atom of foresight or of serious intention in the whole batch of them, and they did not seem aware these things are wanted for the work of the world. To tear treasure out of the bowels of the land was their desire, with no more moral purpose at the back of it than there is in burglars breaking into a safe.",
   "words": [
     {
-      "word": "knob",
+      "word": "wilderness",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "smiling",
+      "word": "folly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "slumber",
+      "word": "batch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treasure",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

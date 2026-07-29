@@ -1,10 +1,16 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-019",
   "pool": "sourced",
-  "text": "The spirits that guarded me had provided these moments, or rather hours, of happiness that I might retain strength to fulfil my pilgrimage. Deprived of this respite, I should have sunk under my hardships. During the day I was sustained and inspirited by the hope of night, for in sleep I saw my friends, my wife, and my beloved country; again I saw the benevolent countenance of my father, heard the silver tones of my Elizabeth’s voice, and beheld Clerval enjoying health and youth. Often, when wearied by a toilsome march, I persuaded myself that I was dreaming until night should come and that I should then enjoy reality in the arms of my dearest friends. What agonising fondness did I feel for them!",
+  "text": "I perceived that the words they spoke sometimes produced pleasure or pain, smiles or sadness, in the minds and countenances of the hearers. This was indeed a godlike science, and I ardently desired to become acquainted with it. But I was baffled in every attempt I made for this purpose. Their pronunciation was quick, and the words they uttered, not having any apparent connection with visible objects, I was unable to discover any clue by which I could unravel the mystery of their reference. By great application, however, and after having remained during the space of several revolutions of the moon in my hovel, I discovered the names that were given to some of the most familiar objects of discourse; I learned and applied the words, fire, milk, bread, and wood.",
   "words": [
     {
-      "word": "retain",
+      "word": "acquainted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pronunciation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-emma-008",
   "pool": "sourced",
-  "text": "The young man’s conduct, and his sister’s, seemed the result of real feeling, and she could not but pity them. As Harriet described it, there had been an interesting mixture of wounded affection and genuine delicacy in their behaviour. But she had believed them to be well-meaning, worthy people before; and what difference did this make in the evils of the connexion? It was folly to be disturbed by it. Of course, he must be sorry to lose her—they must be all sorry.",
+  "text": "Making-up indeed would not do. She certainly had not been in the wrong, and he would never own that he had. Concession must be out of the question; but it was time to appear to forget that they had ever quarrelled; and she hoped it might rather assist the restoration of friendship, that when he came into the room she had one of the children with her—the youngest, a nice little girl about eight months old, who was now making her first visit to Hartfield, and very happy to be danced about in her aunt’s arms. It did assist; for though he began with grave looks and short questions, he was soon led on to talk of them all in the usual way, and to take the child out of her arms with all the unceremoniousness of perfect amity. Emma felt they were friends again; and the conviction giving her at first great satisfaction, and then a little sauciness, she could not help saying, as he was admiring the baby, “What a comfort it is, that we think alike about our nephews and nieces.",
   "words": [
     {
-      "word": "pity",
+      "word": "youngest",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

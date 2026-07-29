@@ -1,40 +1,10 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-016",
   "pool": "sourced",
-  "text": "Couldn’t he have waited for the good season to increase his chances?” While the worthy Frenchman was absorbed in the state of the sky and the depression of the temperature, Aouda was experiencing fears from a totally different cause. Several passengers had got off at Green River, and were walking up and down the platforms; and among these Aouda recognised Colonel Stamp Proctor, the same who had so grossly insulted Phileas Fogg at the San Francisco meeting. Not wishing to be recognised, the young woman drew back from the window, feeling much alarm at her discovery. She was attached to the man who, however coldly, gave her daily evidences of the most absolute devotion. She did not comprehend, perhaps, the depth of the sentiment with which her protector inspired her, which she called gratitude, but which, though she was unconscious of it, was really more than that.",
+  "text": "Passepartout thereupon recounted Aouda’s history, the affair at the Bombay pagoda, the purchase of the elephant for two thousand pounds, the rescue, the arrest, and sentence of the Calcutta court, and the restoration of Mr. Fogg and himself to liberty on bail. Fix, who was familiar with the last events, seemed to be equally ignorant of all that Passepartout related; and the later was charmed to find so interested a listener. “But does your master propose to carry this young woman to Europe?” “Not at all. We are simply going to place her under the protection of one of her relatives, a rich merchant at Hong Kong.” “Nothing to be done there,” said Fix to himself, concealing his disappointment. “A glass of gin, Mr. Passepartout?” “Willingly, Monsieur Fix.",
   "words": [
     {
-      "word": "absorbed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fears",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "recognised",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "devotion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sentiment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gratitude",
+      "word": "disappointment",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

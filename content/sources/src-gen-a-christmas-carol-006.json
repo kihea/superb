@@ -1,10 +1,10 @@
 {
   "id": "src-gen-a-christmas-carol-006",
   "pool": "sourced",
-  "text": "\"A solitary child, neglected by his friends, is left there still.\" Scrooge said he knew it. And he sobbed. They left the high-road, by a well-remembered lane, and soon approached a mansion of dull red brick, with a little weathercock-surmounted cupola, on the roof, and a bell hanging in it. It was a large house, but one of broken fortunes; for the spacious offices were little used, their walls were damp and mossy, their windows broken, and their gates decayed.",
+  "text": "Scrooge had often heard it said that Marley had no bowels, but he had never believed it until now. No, nor did he believe it even now. Though he looked the phantom through and through, and saw it standing before him; though he felt the chilling influence of its death-cold eyes; and marked the very texture of the folded kerchief bound about its head and chin, which wrapper he had not observed before; he was still incredulous, and fought against his senses.",
   "words": [
     {
-      "word": "mansion",
+      "word": "chilling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

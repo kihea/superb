@@ -1,22 +1,28 @@
 {
   "id": "src-gen-walden-010",
   "pool": "sourced",
-  "text": "Once, in the winter, many years ago, when I had been cutting holes through the ice in order to catch pickerel, as I stepped ashore I tossed my axe back on to the ice, but, as if some evil genius had directed it, it slid four or five rods directly into one of the holes, where the water was twenty-five feet deep. Out of curiosity, I lay down on the ice and looked through the hole, until I saw the axe a little on one side, standing on its head, with its helve erect and gently swaying to and fro with the pulse of the pond; and there it might have stood erect and swaying till in the course of time the handle rotted off, if I had not disturbed it. Making another hole directly over it with an ice chisel which I had, and cutting down the longest birch which I could find in the neighborhood with my knife, I made a slip-noose, which I attached to its end, and, letting it down carefully, passed it over the knob of the handle, and drew it by a line along the birch, and so pulled the axe out again.",
+  "text": "I read one or two shallow books of travel in the intervals of my work, till that employment made me ashamed of myself, and I asked where it was then that I lived. The student may read Homer or Æschylus in the Greek without danger of dissipation or luxuriousness, for it implies that he in some measure emulate their heroes, and consecrate morning hours to their pages. The heroic books, even if printed in the character of our mother tongue, will always be in a language dead to degenerate times; and we must laboriously seek the meaning of each word and line, conjecturing a larger sense than common use permits out of what wisdom and valor and generosity we have. The modern cheap and fertile press, with all its translations, has done little to bring us nearer to the heroic writers of antiquity. They seem as solitary, and the letter in which they are printed as rare and curious, as ever.",
   "words": [
     {
-      "word": "stepped",
+      "word": "shallow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pond",
+      "word": "degenerate",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "antiquity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "knob",
+      "word": "solitary",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

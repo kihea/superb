@@ -1,10 +1,28 @@
 {
   "id": "src-gen-adam-bede-007",
   "pool": "sourced",
-  "text": "“Dear Hetty,” she said, “It has been borne in upon my mind to-night that you may some day be in trouble—trouble is appointed for us all here below, and there comes a time when we need more comfort and help than the things of this life can give. I want to tell you that if ever you are in trouble, and need a friend that will always feel for you and love you, you have got that friend in Dinah Morris at Snowfield, and if you come to her, or send for her, she’ll never forget this night and the words she is speaking to you now. Will you remember it, Hetty?” “Yes,” said Hetty, rather frightened. “But why should you think I shall be in trouble?",
+  "text": "And to think o’ your knowing no better, Molly, and been here a-going i’ nine months, and not for want o’ talking to, neither—and what are you stanning there for, like a jack as is run down, instead o’ getting your wheel out? You’re a rare un for sitting down to your work a little while after it’s time to put by.” “Munny, my iron’s twite told; pease put it down to warm.” The small chirruping voice that uttered this request came from a little sunny-haired girl between three and four, who, seated on a high chair at the end of the ironing table, was arduously clutching the handle of a miniature iron with her tiny fat fist, and ironing rags with an assiduity that required her to put her little red tongue out as far as anatomy would allow. “Cold, is it, my darling? Bless your sweet face!” said Mrs. Poyser, who was remarkable for the facility with which she could relapse from her official objurgatory to one of fondness or of friendly converse. “Never mind!",
   "words": [
     {
-      "word": "frightened",
+      "word": "haired",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clutching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

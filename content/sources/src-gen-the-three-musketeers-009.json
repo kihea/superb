@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-three-musketeers-009",
   "pool": "sourced",
-  "text": "But there was no getting at the place of sojourn of the future abbé; the defiles of the chamber of Aramis were as well guarded as the gardens of Armida. Bazin was stationed in the corridor, and barred his passage with the more intrepidity that, after many years of trial, Bazin found himself near a result of which he had ever been ambitious. In fact, the dream of poor Bazin had always been to serve a churchman; and he awaited with impatience the moment, always in the future, when Aramis would throw aside the uniform and assume the cassock. The daily-renewed promise of the young man that the moment would not long be delayed, had alone kept him in the service of a Musketeer—a service in which, he said, his soul was in constant jeopardy. Bazin was then at the height of joy.",
+  "text": "“What has happened?” “All sorts of misfortunes.” “What?” “In the first place, Monsieur Athos is arrested.” “Arrested! Athos arrested! What for?” “He was found in your lodging; they took him for you.” “And by whom was he arrested?” “By Guards brought by the men in black whom you put to flight.” “Why did he not tell them his name? Why did he not tell them he knew nothing about this affair?” “He took care not to do so, monsieur; on the contrary, he came up to me and said, ‘It is your master that needs his liberty at this moment and not I, since he knows everything and I know nothing. They will believe he is arrested, and that will give him time; in three days I will tell them who I am, and they cannot fail to let me go.’” “Bravo, Athos!",
   "words": [
     {
-      "word": "stationed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "corridor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "barred",
+      "word": "lodging",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

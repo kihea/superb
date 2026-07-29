@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-022",
+  "pool": "sourced",
+  "text": "We had always rather neglected the Ems in our calculations; with some excuse, too, for at first sight its importance bears no proportion to that of the three greater estuaries. The latter bear vessels of the largest tonnage and deepest draught to the very quays of Hamburg, Bremerhaven, and the naval dockyard of Wilhelmshaven; while two of them, the Elbe and the Weser, are commerce carriers on the vastest scale for the whole empire. The Ems, on the other hand, only serves towns of the second class. A glance at the chart explains this. You see a most imposing estuary on a grander scale than any of the other three taken singly, with a length of thirty miles and a frontage on the North Sea of ten miles, or one-seventieth, roughly, of the whole seaboard; encumbered by outlying shoals, and blocked in the centre by the island of Borkum, but presenting two fine deep-water channels to the incoming vessel.",
+  "words": [
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "estuary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

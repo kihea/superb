@@ -1,16 +1,28 @@
 {
   "id": "src-gen-rip-van-winkle-005",
   "pool": "sourced",
-  "text": "Rip Van Winkle, however, was one of those happy mortals, of foolish, well-oiled dispositions, who take the world easy, eat white bread or brown, whichever can be got with least thought or trouble, and would rather starve on a penny than work for a pound. If left to himself, he would have whistled life away in perfect contentment; but his wife kept continually dinning in his ears about his idleness, his carelessness, and the ruin he was bringing on his family. Morning, noon, and night, her tongue was incessantly going, and everything he said or did was sure to produce a torrent of household eloquence. Rip had but one way of replying to all lectures of the kind, and that, by frequent use, had grown into a habit. He shrugged his shoulders, shook his head, cast up his eyes, but said nothing.",
+  "text": "Times grew worse and worse with Rip Van Winkle as years of matrimony rolled on; a tart temper never mellows with age, and a sharp tongue is the only edged tool that grows keener with constant use. For a long while he used to console himself, when driven from home, by frequenting a kind of perpetual club of the sages, philosophers and other idle personages of the village, which held its sessions on a bench before a small inn, designated by a rubicund portrait of His Majesty George the Third. Here they used to sit in the shade through a long, lazy summer’s day, talking listlessly over village gossip, or telling endless, sleepy stories about nothing. But it would have been worth any statesman’s money to have heard the profound discussions that sometimes took place, when by chance an old newspaper fell into their hands from some passing traveller.",
   "words": [
     {
-      "word": "penny",
+      "word": "tart",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shrugged",
+      "word": "edged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "console",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perpetual",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

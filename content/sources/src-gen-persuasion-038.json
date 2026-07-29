@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-038",
+  "pool": "sourced",
+  "text": "Your home, country, friends, all quitted. Neither time, nor health, nor life, to be called your own. It would be hard, indeed” (with a faltering voice), “if woman’s feelings were to be added to all this.” “We shall never agree upon this question,” Captain Harville was beginning to say, when a slight noise called their attention to Captain Wentworth’s hitherto perfectly quiet division of the room. It was nothing more than that his pen had fallen down; but Anne was startled at finding him nearer than she had supposed, and half inclined to suspect that the pen had only fallen because he had been occupied by them, striving to catch sounds, which yet she did not think he could have caught. “Have you finished your letter?” said Captain Harville.",
+  "words": [
+    {
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

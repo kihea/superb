@@ -1,16 +1,52 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-013",
   "pool": "sourced",
-  "text": "Are you sorry that destiny has thrown us into Captain Nemo’s hands?” The Canadian remained some moments without answering. Then, crossing his arms, he said: “Frankly, I do not regret this journey under the seas. I shall be glad to have made it; but, now that it is made, let us have done with it. That is my idea.” “It will come to an end, Ned.” “Where and when?” “Where I do not know—when I cannot say; or, rather, I suppose it will end when these seas have nothing more to teach us.” “Then what do you hope for?” demanded the Canadian. “That circumstances may occur as well six months hence as now by which we may and ought to profit.” “Oh!” said Ned Land, “and where shall we be in six months, if you please, Sir Naturalist?” “Perhaps in China; you know the Nautilus is a rapid traveller.",
+  "text": "Soon forms of objects outlined in the distance were discernible. I recognised magnificent rocks, hung with a tapestry of zoophytes of the most beautiful kind, and I was at first struck by the peculiar effect of this medium. It was then ten in the morning; the rays of the sun struck the surface of the waves at rather an oblique angle, and at the touch of their light, decomposed by refraction as through a prism, flowers, rocks, plants, shells, and polypi were shaded at the edges by the seven solar colours. It was marvellous, a feast for the eyes, this complication of coloured tints, a perfect kaleidoscope of green, yellow, orange, violet, indigo, and blue; in one word, the whole palette of an enthusiastic colourist! Why could I not communicate to Conseil the lively sensations which were mounting to my brain, and rival him in expressions of admiration?",
   "words": [
     {
-      "word": "destiny",
+      "word": "tapestry",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "answering",
+      "word": "shaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marvellous",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "feast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "violet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indigo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "palette",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +57,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

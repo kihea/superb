@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-028",
+  "pool": "sourced",
+  "text": "The internal anatomy, I may remark here, as dissection has since shown, was almost equally simple. The greater part of the structure was the brain, sending enormous nerves to the eyes, ear, and tactile tentacles. Besides this were the bulky lungs, into which the mouth opened, and the heart and its vessels. The pulmonary distress caused by the denser atmosphere and greater gravitational attraction was only too evident in the convulsive movements of the outer skin. And this was the sum of the Martian organs.",
+  "words": [
+    {
+      "word": "anatomy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulmonary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gravitational",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evident",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

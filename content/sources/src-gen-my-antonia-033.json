@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-033",
+  "pool": "sourced",
+  "text": "‘Poor fellow,’ Lena said indulgently, ‘he takes everything so hard.’ After that Ordinsky was friendly to me, and behaved as if there were some deep understanding between us. He wrote a furious article, attacking the musical taste of the town, and asked me to do him a great service by taking it to the editor of the morning paper. If the editor refused to print it, I was to tell him that he would be answerable to Ordinsky ‘in person.’ He declared that he would never retract one word, and that he was quite prepared to lose all his pupils. In spite of the fact that nobody ever mentioned his article to him after it appeared—full of typographical errors which he thought intentional—he got a certain satisfaction from believing that the citizens of Lincoln had meekly accepted the epithet ‘coarse barbarians.’ ‘You see how it is,’ he said to me, ‘where there is no chivalry, there is no amour-propre.’ When I met him on his rounds now, I thought he carried his head more disdainfully than ever, and strode up the steps of front porches and rang doorbells with more assurance.",
+  "words": [
+    {
+      "word": "furious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

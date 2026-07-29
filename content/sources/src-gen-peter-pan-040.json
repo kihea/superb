@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-peter-pan-040",
+  "pool": "sourced",
+  "text": "Years rolled on again, and Wendy had a daughter. This ought not to be written in ink but in a golden splash. She was called Jane, and always had an odd inquiring look, as if from the moment she arrived on the mainland she wanted to ask questions. When she was old enough to ask them they were mostly about Peter Pan. She loved to hear of Peter, and Wendy told her all she could remember in the very nursery from which the famous flight had taken place.",
+  "words": [
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

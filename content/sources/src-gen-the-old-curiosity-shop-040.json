@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-040",
+  "pool": "sourced",
+  "text": "The child who had been her little friend came there, almost as soon as it was day, with an offering of dried flowers which he begged them to lay upon her breast. It was he who had come to the window overnight and spoken to the sexton, and they saw in the snow traces of small feet, where he had been lingering near the room in which she lay, before he went to bed. He had a fancy, it seemed, that they had left her there alone; and could not bear the thought. He told them of his dream again, and that it was of her being restored to them, just as she used to be. He begged hard to see her, saying that he would be very quiet, and that they need not fear his being alarmed, for he had sat alone by his young brother all day long when he was dead, and had felt glad to be so near him.",
+  "words": [
+    {
+      "word": "overnight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

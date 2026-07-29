@@ -1,22 +1,16 @@
 {
   "id": "src-gen-great-expectations-015",
   "pool": "sourced",
-  "text": "“And even then, dear boy,” said he, pulling a greasy little clasped black Testament out of his pocket, “we’ll have him on his oath.” To state that my terrible patron carried this little black book about the world solely to swear people on in cases of emergency, would be to state what I never quite established; but this I can say, that I never knew him put it to any other use. The book itself had the appearance of having been stolen from some court of justice, and perhaps his knowledge of its antecedents, combined with his own experience in that wise, gave him a reliance on its powers as a sort of legal spell or charm. On this first occasion of his producing it, I recalled how he had made me swear fidelity in the churchyard long ago, and how he had described himself last night as always swearing to his resolutions in his solitude. As he was at present dressed in a seafaring slop suit, in which he looked as if he had some parrots and cigars to dispose of, I next discussed with him what dress he should wear.",
+  "text": "The room was but small, and the clients seemed to have had a habit of backing up against the wall; the wall, especially opposite to Mr. Jaggers’s chair, being greasy with shoulders. I recalled, too, that the one-eyed gentleman had shuffled forth against the wall when I was the innocent cause of his being turned out. I sat down in the cliental chair placed over against Mr. Jaggers’s chair, and became fascinated by the dismal atmosphere of the place. I called to mind that the clerk had the same air of knowing something to everybody else’s disadvantage, as his master had. I wondered how many other clerks there were upstairs, and whether they all claimed to have the same detrimental mastery of their fellow-creatures.",
   "words": [
     {
-      "word": "oath",
+      "word": "clerk",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "swearing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solitude",
+      "word": "mastery",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

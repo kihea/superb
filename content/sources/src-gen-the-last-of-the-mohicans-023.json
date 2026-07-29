@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-023",
+  "pool": "sourced",
+  "text": "When this was done, everything was studiously restored to its former disorder; and then Hawkeye succeeded in reaching his little birchen vessel, without leaving behind him any of those marks which he appeared so much to dread. Heyward was silent until the Indians had cautiously paddled the canoe some distance from the fort, and within the broad and dark shadows that fell from the eastern mountain on the glassy surface of the lake; then he demanded: “What need have we for this stolen and hurried departure?” “If the blood of an Oneida could stain such a sheet of pure water as this we float on,” returned the scout, “your two eyes would answer your own question. Have you forgotten the skulking reptile Uncas slew?” “By no means. But he was said to be alone, and dead men give no cause for fear.” “Ay, he was alone in his deviltry!",
+  "words": [
+    {
+      "word": "dread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hurried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

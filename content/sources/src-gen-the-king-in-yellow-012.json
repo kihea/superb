@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-king-in-yellow-012",
   "pool": "sourced",
-  "text": "I’m glad I’m not going.” The street was almost deserted. A few women muffled in tattered military capes crept along the frozen pavement, and a wretchedly clad gamin hovered over the sewer-hole on the corner of the Boulevard. A rope around his waist held his rags together. From the rope hung a rat, still warm and bleeding. “There’s another in there,” he yelled at Trent; “I hit him but he got away.” Trent crossed the street and asked: “How much?” “Two francs for a quarter of a fat one; that’s what they give at the St. Germain Market.” A violent fit of coughing interrupted him, but he wiped his face with the palm of his hand and looked cunningly at Trent.",
+  "text": "“One night last winter I was lying in bed thinking about nothing at all in particular. I had been posing for you and I was tired out, yet it seemed impossible for me to sleep. I heard the bells in the city ring ten, eleven, and midnight. I must have fallen asleep about midnight because I don’t remember hearing the bells after that. It seemed to me that I had scarcely closed my eyes when I dreamed that something impelled me to go to the window.",
   "words": [
     {
-      "word": "rope",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rags",
+      "word": "posing",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

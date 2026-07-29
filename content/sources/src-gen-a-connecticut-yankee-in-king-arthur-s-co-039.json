@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-039",
+  "pool": "sourced",
+  "text": "The monarchy has lapsed, it no longer exists. By consequence, all political power has reverted to its original source, the people of the nation. With the monarchy, its several adjuncts died also; wherefore there is no longer a nobility, no longer a privileged class, no longer an Established Church; all men are become exactly equal; they are upon one common level, and religion is free. A Republic is hereby proclaimed, as being the natural estate of a nation when other authority has ceased. It is the duty of the British people to meet together immediately, and by their votes elect representatives and deliver into their hands the government.” I signed it “The Boss,” and dated it from Merlin's Cave.",
+  "words": [
+    {
+      "word": "monarchy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nobility",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -8,12 +8,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "mourning",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1853,
     "source": "Project Gutenberg #1023",
-    "url": "https://www.gutenberg.org/ebooks/1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

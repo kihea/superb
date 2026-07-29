@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anne-of-green-gables-016",
   "pool": "sourced",
-  "text": "You’re taller than I am, I declare. And you’re ever so much better-looking than you used to be, too. But I dare say you know that without being told.” “Indeed I didn’t,” said Anne radiantly. “I know I’m not so freckled as I used to be, so I’ve much to be thankful for, but I really hadn’t dared to hope there was any other improvement. I’m so glad you think there is, Miss Barry.” Miss Barry’s house was furnished with “great magnificence,” as Anne told Marilla afterward.",
+  "text": "The next day was Sunday and as the rain poured down in torrents from dawn till dusk Anne did not stir abroad from Green Gables. Monday afternoon Marilla sent her down to Mrs. Lynde’s on an errand. In a very short space of time Anne came flying back up the lane with tears rolling down her cheeks. Into the kitchen she dashed and flung herself face downward on the sofa in an agony. “Whatever has gone wrong now, Anne?” queried Marilla in doubt and dismay.",
   "words": [
     {
-      "word": "furnished",
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downward",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

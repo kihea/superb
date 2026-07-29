@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-middlemarch-028",
+  "pool": "sourced",
+  "text": "And without distinct good of this kind in its promises, Reform seemed on a footing with the bragging of pedlers, which was a hint for distrust to every knowing person. The men of Frick were not ill-fed, and were less given to fanaticism than to a strong muscular suspicion; less inclined to believe that they were peculiarly cared for by heaven, than to regard heaven itself as rather disposed to take them in—a disposition observable in the weather. Thus the mind of Frick was exactly of the sort for Mr. Solomon Featherstone to work upon, he having more plenteous ideas of the same order, with a suspicion of heaven and earth which was better fed and more entirely at leisure. Solomon was overseer of the roads at that time, and on his slow-paced cob often took his rounds by Frick to look at the workmen getting the stones there, pausing with a mysterious deliberation, which might have misled you into supposing that he had some other reason for staying than the mere want of impulse to move.",
+  "words": [
+    {
+      "word": "disposed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disposition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,22 +1,34 @@
 {
   "id": "src-gen-oliver-twist-007",
   "pool": "sourced",
-  "text": "“Where is he?” “I’ll bring him to you in one minute, sir,” replied Mrs. Mann. “Here, you Dick!” After some calling, Dick was discovered. Having had his face put under the pump, and dried upon Mrs. Mann’s gown, he was led into the awful presence of Mr. Bumble, the beadle. The child was pale and thin; his cheeks were sunken; and his eyes large and bright. The scanty parish dress, the livery of his misery, hung loosely on his feeble body; and his young limbs had wasted away, like those of an old man.",
+  "text": "The Dodger said nothing, but he smoothed Oliver’s hair over his eyes, and said he’d know better, by and by; upon which the old gentleman, observing Oliver’s colour mounting, changed the subject by asking whether there had been much of a crowd at the execution that morning? This made him wonder more and more; for it was plain from the replies of the two boys that they had both been there; and Oliver naturally wondered how they could possibly have found time to be so very industrious. When the breakfast was cleared away; the merry old gentleman and the two boys played at a very curious and uncommon game, which was performed in this way. The merry old gentleman, placing a snuff-box in one pocket of his trousers, a note-case in the other, and a watch in his waistcoat pocket, with a guard-chain round his neck, and sticking a mock diamond pin in his shirt: buttoned his coat tight round him, and putting his spectacle-case and handkerchief in his pockets, trotted up and down the room with a stick, in imitation of the manner in which old gentlemen walk about the streets any hour in the day.",
   "words": [
     {
-      "word": "cheeks",
+      "word": "uncommon",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "parish",
+      "word": "trousers",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "sticking",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "misery",
+      "word": "mock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +39,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

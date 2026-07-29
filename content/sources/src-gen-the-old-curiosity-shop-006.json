@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-old-curiosity-shop-006",
   "pool": "sourced",
-  "text": "‘Rather weak upon his legs,’ returned Mr Vuffin. ‘I begin to be afraid he’s going at the knees.’ ‘That’s a bad look-out,’ said Short. Bad indeed,’ replied Mr Vuffin, contemplating the fire with a sigh. ‘Once get a giant shaky on his legs, and the public care no more about him than they do for a dead cabbage stalk.’ ‘What becomes of old giants?’ said Short, turning to him again after a little reflection. ‘They’re usually kept in carawans to wait upon the dwarfs,’ said Mr Vuffin.",
+  "text": "To see the old man struck down beneath the pressure of some hidden grief, to mark his wavering and unsettled state, to be agitated at times with a dreadful fear that his mind was wandering, and to trace in his words and looks the dawning of despondent madness; to watch and wait and listen for confirmation of these things day after day, and to feel and know that, come what might, they were alone in the world with no one to help or advise or care about them--these were causes of depression and anxiety that might have sat heavily on an older breast with many influences at work to cheer and gladden it, but how heavily on the mind of a young child to whom they were ever present, and who was constantly surrounded by all that could keep such thoughts in restless action! And yet, to the old man’s vision, Nell was still the same.",
   "words": [
     {
-      "word": "contemplating",
+      "word": "madness",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dwarfs",
+      "word": "confirmation",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

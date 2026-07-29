@@ -1,28 +1,34 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-020",
   "pool": "sourced",
-  "text": "See, see; the knaves are getting in that clump of pines, like bees settling after their flight. By the Lord, a squaw might put a bullet into the center of such a knot of dark skins!” At that instant the whoop was given, and a dozen Hurons fell by a discharge from Chingachgook and his band. The shout that followed was answered by a single war-cry from the forest, and a yell passed through the air that sounded as if a thousand throats were united in a common effort. The Hurons staggered, deserting the center of their line, and Uncas issued from the forest through the opening they left, at the head of a hundred warriors. Waving his hands right and left, the young chief pointed out the enemy to his followers, who separated in pursuit.",
+  "text": "David, perceiving that he was left alone, utterly disregarded as a subject too worthless even to destroy, threw his long limb across the saddle of the beast they had deserted, and made such progress in the pursuit as the difficulties of the path permitted. They soon began to ascend; but as the motion had a tendency to revive the dormant faculties of her sister, the attention of Cora was too much divided between the tenderest solicitude in her behalf, and in listening to the cries which were still too audible on the plain, to note the direction in which they journeyed. When, however, they gained the flattened surface of the mountain-top, and approached the eastern precipice, she recognized the spot to which she had once before been led under the more friendly auspices of the scout. Here Magua suffered them to dismount; and notwithstanding their own captivity, the curiosity which seems inseparable from horror, induced them to gaze at the sickening sight below. The cruel work was still unchecked.",
   "words": [
     {
-      "word": "whoop",
+      "word": "saddle",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shout",
+      "word": "tendency",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "yell",
+      "word": "flattened",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "waving",
+      "word": "captivity",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

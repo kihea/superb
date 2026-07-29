@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-031",
+  "pool": "sourced",
+  "text": "Let us take some heed of the welfare of her dear Buckingham. That is the least we owe her.” “That’s true,” said Athos; “but that concerns Aramis.” “Well,” replied the latter, blushing, “what must I say?” “Oh, that’s simple enough!” replied Athos. “Write a second letter for that clever personage who lives at Tours.” Aramis resumed his pen, reflected a little, and wrote the following lines, which he immediately submitted to the approbation of his friends. “My dear cousin.” “Ah, ah!” said Athos. “This clever person is your relative, then?” “Cousin-german.” “Go on, to your cousin, then!” Aramis continued: “MY DEAR COUSIN, His Eminence, the cardinal, whom God preserve for the happiness of France and the confusion of the enemies of the kingdom, is on the point of putting an end to the hectic rebellion of La Rochelle.",
+  "words": [
+    {
+      "word": "hectic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

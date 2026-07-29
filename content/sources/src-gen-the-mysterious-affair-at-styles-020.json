@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-020",
   "pool": "sourced",
-  "text": "You have not yet realized that it was Miss Howard who went to the chemist’s shop?” “Miss Howard?” “But, certainly. It was most easy for her. She is of a good height, her voice is deep and manly; moreover, remember, she and Inglethorp are cousins, and there is a distinct resemblance between them, especially in their gait and bearing. It was simplicity itself. They are a clever pair!” “I am still a little fogged as to how exactly the bromide business was done,” I remarked.",
+  "text": "Dr. Bauerstein is much of my height and build, and, like me, wears a beard. In the dim light, and suffering as she was, my poor wife mistook him for me.” “Ah!” murmured Poirot to himself. “But it is an idea, that!” “You think it is true?” I whispered. “I do not say that. But it is truly an ingenious supposition.” “You read my wife’s last words as an accusation”—Inglethorp was continuing—“they were, on the contrary, an appeal to me.” The Coroner reflected a moment, then he said: “I believe, Mr. Inglethorp, that you yourself poured out the coffee, and took it to your wife that evening?” “I poured it out, yes.",
   "words": [
     {
-      "word": "chemist",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cousins",
+      "word": "reflected",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-028",
+  "pool": "sourced",
+  "text": "Jane!” he said, in such an accent of bitter sadness it thrilled along every nerve I had; “you don’t love me, then? It was only my station, and the rank of my wife, that you valued? Now that you think me disqualified to become your husband, you recoil from my touch as if I were some toad or ape.” These words cut me: yet what could I do or I say? I ought probably to have done or said nothing; but I was so tortured by a sense of remorse at thus hurting his feelings, I could not control the wish to drop balm where I had wounded. “I do love you,” I said, “more than ever: but I must not show or indulge the feeling: and this is the last time I must express it.” “The last time, Jane!",
+  "words": [
+    {
+      "word": "toad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remorse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

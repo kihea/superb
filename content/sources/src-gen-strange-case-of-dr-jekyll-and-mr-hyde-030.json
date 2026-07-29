@@ -1,0 +1,71 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-030",
+  "pool": "sourced",
+  "text": "I hesitated long before I put this theory to the test of practice. I knew well that I risked death; for any drug that so potently controlled and shook the very fortress of identity, might, by the least scruple of an overdose or at the least inopportunity in the moment of exhibition, utterly blot out that immaterial tabernacle which I looked to it to change. But the temptation of a discovery so singular and profound at last overcame the suggestions of alarm. I had long since prepared my tincture; I purchased at once, from a firm of wholesale chemists, a large quantity of a particular salt which I knew, from my experiments, to be the last ingredient required; and late one accursed night, I compounded the elements, watched them boil and smoke together in the glass, and when the ebullition had subsided, with a strong glow of courage, drank off the potion. The most racking pangs succeeded: a grinding in the bones, deadly nausea, and a horror of the spirit that cannot be exceeded at the hour of birth or death.",
+  "words": [
+    {
+      "word": "fortress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overdose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wholesale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chemists",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ingredient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grinding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nausea",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

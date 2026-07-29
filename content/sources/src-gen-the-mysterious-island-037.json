@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysterious-island-037",
+  "pool": "sourced",
+  "text": "Neb took the lighted lantern, and all left the corral. The storm then burst forth with tremendous violence. The interval between each lightning-flash and each thunder-clap diminished rapidly. The summit of the volcano, with its plume of vapor, could be seen by occasional flashes. There was no telegraphic communication in any part of the corral between the house and the palisade; but the engineer, running straight to the first post, saw by the light of a flash a new wire hanging from the isolator to the ground.",
+  "words": [
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "volcano",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

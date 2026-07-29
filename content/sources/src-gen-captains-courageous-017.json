@@ -1,16 +1,34 @@
 {
   "id": "src-gen-captains-courageous-017",
   "pool": "sourced",
-  "text": "And so they dropped the dry sands and moon-struck rocks of Arizona behind them, and grilled on till the crash of the couplings and the wheeze of the brake-hose told them they were at Coolidge by the Continental Divide. Three bold and experienced men--cool, confident, and dry when they began; white, quivering, and wet when they finished their trick at those terrible wheels--swung her over the great lift from Albuquerque to Glorietta and beyond Springer, up and up to the Raton Tunnel on the State line, whence they dropped rocking into La Junta, had sight of the Arkansaw, and tore down the long slope to Dodge City, where Cheyne took comfort once again from setting his watch an hour ahead. There was very little talk in the car. The secretary and typewriter sat together on the stamped Spanish-leather cushions by the plate-glass observation-window at the rear end, watching the surge and ripple of the ties crowded back behind them, and, it is believed, making notes of the scenery.",
+  "text": "Little by little he changed his tone when speaking of his \"friend,\" whom Long Jack had christened \"the Crazy Kid,\" \"the Gilt-edged Baby,\" \"the Suckin' Vanderpoop,\" and other pet names; and with his sea-booted feet cocked up on the table would even invent histories about silk pajamas and specially imported neckwear, to the \"friend's\" discredit. Harvey was a very adaptable person, with a keen eye and ear for every face and tone about him. Before long he knew where Disko kept the old greencrusted quadrant that they called the \"hog-yoke\"--under the bed-bag in his bunk. When he took the sun, and with the help of \"The Old Farmer's\" almanac found the latitude, Harvey would jump down into the cabin and scratch the reckoning and date with a nail on the rust of the stove-pipe. Now, the chief engineer of the liner could have done no more, and no engineer of thirty years' service could have assumed one half of the ancient-mariner air with which Harvey, first careful to spit over the side, made public the schooner's position for that day, and then and not till then relieved Disko of the quadrant.",
   "words": [
     {
-      "word": "grilled",
+      "word": "pajamas",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cushions",
+      "word": "specially",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discredit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quadrant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bunk",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Rudyard Kipling",
     "year": 1897,
     "source": "Project Gutenberg #2186",
-    "url": "https://www.gutenberg.org/ebooks/2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

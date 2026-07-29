@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-033",
+  "pool": "sourced",
+  "text": "The low light of the nearing evening caught his head and face when he emerged from the shadow of the wall, warming them to a complexion of flame-colour. Henchard watched him with his mouth firmly set, the squareness of his jaw and the verticality of his profile being unduly marked. Farfrae came on with one hand in his pocket, and humming a tune in a way which told that the words were most in his mind. They were those of the song he had sung when he arrived years before at the Three Mariners, a poor young man, adventuring for life and fortune, and scarcely knowing witherward:— “And here’s a hand, my trusty fiere, And gie’s a hand o’ thine.” Nothing moved Henchard like an old melody. He sank back.",
+  "words": [
+    {
+      "word": "complexion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jaw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

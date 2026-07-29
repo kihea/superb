@@ -1,10 +1,28 @@
 {
   "id": "src-gen-walden-002",
   "pool": "sourced",
-  "text": "I took particular pleasure in this breaking of ground, for in almost all latitudes men dig into the earth for an equable temperature. Under the most splendid house in the city is still to be found the cellar where they store their roots as of old, and long after the superstructure has disappeared posterity remark its dent in the earth. The house is still but a sort of porch at the entrance of a burrow. At length, in the beginning of May, with the help of some of my acquaintances, rather to improve so good an occasion for neighborliness than from any necessity, I set up the frame of my house. No man was ever more honored in the character of his raisers than I.",
+  "text": "The first question which I am tempted to put to the proprietor of such great impropriety is, Who bolsters you? Are you one of the ninety-seven who fail, or of the three who succeed? Answer me these questions, and then perhaps I may look at your bawbles and find them ornamental. The cart before the horse is neither beautiful nor useful. Before we can adorn our houses with beautiful objects the walls must be stripped, and our lives must be stripped, and beautiful housekeeping and beautiful living be laid for a foundation: now, a taste for the beautiful is most cultivated out of doors, where there is no house and no housekeeper.",
   "words": [
     {
-      "word": "porch",
+      "word": "ornamental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeper",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

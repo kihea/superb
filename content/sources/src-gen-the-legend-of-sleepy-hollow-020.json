@@ -1,34 +1,40 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-020",
   "pool": "sourced",
-  "text": "The old country wives, however, who are the best judges of these matters, maintain to this day that Ichabod was spirited away by supernatural means; and it is a favorite story often told about the neighborhood round the winter evening fire. The bridge became more than ever an object of superstitious awe; and that may be the reason why the road has been altered of late years, so as to approach the church by the border of the millpond. The schoolhouse being deserted soon fell to decay, and was reported to be haunted by the ghost of the unfortunate pedagogue and the plowboy, loitering homeward of a still summer evening, has often fancied his voice at a distance, chanting a melancholy psalm tune among the tranquil solitudes of Sleepy Hollow. The preceding tale is given almost in the precise words in which I heard it related at a Corporation meeting at the ancient city of Manhattoes, at which were present many of its sagest and most illustrious burghers. The narrator was a pleasant, shabby, gentlemanly old fellow, in pepper-and-salt clothes, with a sadly humourous face, and one whom I strongly suspected of being poor--he made such efforts to be entertaining.",
+  "text": "Farther on he beheld great fields of Indian corn, with its golden ears peeping from their leafy coverts, and holding out the promise of cakes and hasty-pudding; and the yellow pumpkins lying beneath them, turning up their fair round bellies to the sun, and giving ample prospects of the most luxurious of pies; and anon he passed the fragrant buckwheat fields breathing the odor of the beehive, and as he beheld them, soft anticipations stole over his mind of dainty slapjacks, well buttered, and garnished with honey or treacle, by the delicate little dimpled hand of Katrina Van Tassel. Thus feeding his mind with many sweet thoughts and “sugared suppositions,” he journeyed along the sides of a range of hills which look out upon some of the goodliest scenes of the mighty Hudson. The sun gradually wheeled his broad disk down in the west. The wide bosom of the Tappan Zee lay motionless and glassy, excepting that here and there a gentle undulation waved and prolonged the blue shadow of the distant mountain. A few amber clouds floated in the sky, without a breath of air to move them.",
   "words": [
     {
-      "word": "supernatural",
+      "word": "hasty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "haunted",
+      "word": "pudding",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "melancholy",
+      "word": "ample",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "narrator",
+      "word": "fragrant",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shabby",
+      "word": "odor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +45,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

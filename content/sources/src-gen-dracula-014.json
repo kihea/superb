@@ -1,22 +1,16 @@
 {
   "id": "src-gen-dracula-014",
   "pool": "sourced",
-  "text": "Each of the others was similarly equipped. “Now,” he said, “friend John, where are the skeleton keys? If so that we can open the door, we need not break house by the window, as before at Miss Lucy’s.” Dr. Seward tried one or two skeleton keys, his mechanical dexterity as a surgeon standing him in good stead. Presently he got one to suit; after a little play back and forward the bolt yielded, and, with a rusty clang, shot back. We pressed on the door, the rusty hinges creaked, and it slowly opened.",
+  "text": "“I could easily see that she is somewhat bloodless, but I could not see the usual anæmic signs, and by a chance I was actually able to test the quality of her blood, for in opening a window which was stiff a cord gave way, and she cut her hand slightly with broken glass. It was a slight matter in itself, but it gave me an evident chance, and I secured a few drops of the blood and have analysed them. The qualitative analysis gives a quite normal condition, and shows, I should infer, in itself a vigorous state of health. In other physical matters I was quite satisfied that there is no need for anxiety; but as there must be a cause somewhere, I have come to the conclusion that it must be something mental. She complains of difficulty in breathing satisfactorily at times, and of heavy, lethargic sleep, with dreams that frighten her, but regarding which she can remember nothing.",
   "words": [
     {
-      "word": "surgeon",
+      "word": "qualitative",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bolt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hinges",
+      "word": "infer",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

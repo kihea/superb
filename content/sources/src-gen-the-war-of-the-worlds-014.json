@@ -1,28 +1,34 @@
 {
   "id": "src-gen-the-war-of-the-worlds-014",
   "pool": "sourced",
-  "text": "At last I found myself awake and very hungry. I am inclined to believe we must have spent the greater portion of a day before that awakening. My hunger was at a stride so insistent that it moved me to action. I told the curate I was going to seek food, and felt my way towards the pantry. He made me no answer, but so soon as I began eating the faint noise I made stirred him up and I heard him crawling after me.",
+  "text": "I saw and thought nothing of the other four Martian monsters; my attention was riveted upon the nearer incident. Simultaneously two other shells burst in the air near the body as the hood twisted round in time to receive, but not in time to dodge, the fourth shell. The shell burst clean in the face of the Thing. The hood bulged, flashed, was whirled off in a dozen tattered fragments of red flesh and glittering metal. “Hit!” shouted I, with something between a scream and a cheer.",
   "words": [
     {
-      "word": "awakening",
+      "word": "nearer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hunger",
+      "word": "simultaneously",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pantry",
+      "word": "twisted",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "faint",
+      "word": "dodge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flesh",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

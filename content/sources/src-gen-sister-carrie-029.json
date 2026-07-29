@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sister-carrie-029",
+  "pool": "sourced",
+  "text": "A man's fortune or material progress is very much the same as his bodily growth. Either he is growing stronger, healthier, wiser, as the youth approaching manhood, or he is growing weaker, older, less incisive mentally, as the man approaching old age. There are no other states. Frequently there is a period between the cessation of youthful accretion and the setting in, in the case of the middle-aged man, of the tendency toward decay when the two processes are almost perfectly balanced and there is little doing in either direction. Given time enough, however, the balance becomes a sagging to the grave side.",
+  "words": [
+    {
+      "word": "tendency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "decay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

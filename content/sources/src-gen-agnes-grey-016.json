@@ -1,10 +1,28 @@
 {
   "id": "src-gen-agnes-grey-016",
   "pool": "sourced",
-  "text": "Wasn’t it a noble chase?” “Very! for a young lady after a leveret.” There was a quiet sarcasm in the tone of his reply which was not lost upon her; she shrugged her shoulders, and, turning away with a significant “Humph!” asked me how I had enjoyed the fun. I replied that I saw no fun in the matter; but admitted that I had not observed the transaction very narrowly. “Didn’t you see how it doubled—just like an old hare? and didn’t you hear it scream?” “I’m happy to say I did not.” “It cried out just like a child.” “Poor little thing!",
+  "text": "Short and easy as her tasks were, if done at all, they were slurred over, at any time and in any way; but generally at the least convenient times, and in the way least beneficial to herself, and least satisfactory to me: the short half-hour of practising was horribly strummed through; she, meantime, unsparingly abusing me, either for interrupting her with corrections, or for not rectifying her mistakes before they were made, or something equally unreasonable. Once or twice, I ventured to remonstrate with her seriously for such irrational conduct; but on each of those occasions, I received such reprehensive expostulations from her mother, as convinced me that, if I wished to keep the situation, I must even let Miss Matilda go on in her own way. When her lessons were over, however, her ill-humour was generally over too: while riding her spirited pony, or romping with the dogs or her brothers and sister, but especially with her dear brother John, she was as happy as a lark.",
   "words": [
     {
-      "word": "shrugged",
+      "word": "beneficial",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfactory",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horribly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meantime",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

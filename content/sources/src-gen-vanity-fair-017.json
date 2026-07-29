@@ -1,40 +1,16 @@
 {
   "id": "src-gen-vanity-fair-017",
   "pool": "sourced",
-  "text": "Mrs. Rawdon Crawley rang many times in vain; and though, on the last occasion, she rang with such vehemence as to pull down the bell-rope, Mademoiselle Fifine did not make her appearance--no, not though her mistress, in a great pet, and with the bell-rope in her hand, came out to the landing-place with her hair over her shoulders and screamed out repeatedly for her attendant. The truth is, she had quitted the premises for many hours, and upon that permission which is called French leave among us. After picking up the trinkets in the drawing-room, Mademoiselle had ascended to her own apartments, packed and corded her own boxes there, tripped out and called a cab for herself, brought down her trunks with her own hand, and without ever so much as asking the aid of any of the other servants, who would probably have refused it, as they hated her cordially, and without wishing any one of them good-bye, had made her exit from Curzon Street. The game, in her opinion, was over in that little domestic establishment.",
+  "text": "The place was full of English soldiery as they passed. English bugles woke them in the morning; at nightfall they went to bed to the note of the British fife and drum: all the country and Europe was in arms, and the greatest event of history pending: and honest Peggy O'Dowd, whom it concerned as well as another, went on prattling about Ballinafad, and the horses in the stables at Glenmalony, and the clar't drunk there; and Jos Sedley interposed about curry and rice at Dumdum; and Amelia thought about her husband, and how best she should show her love for him; as if these were the great topics of the world. Those who like to lay down the History-book, and to speculate upon what MIGHT have happened in the world, but for the fatal occurrence of what actually did take place (a most puzzling, amusing, ingenious, and profitable kind of meditation), have no doubt often thought to themselves what a specially bad time Napoleon took to come back from Elba, and to let loose his eagle from Gulf San Juan to Notre Dame.",
   "words": [
     {
-      "word": "vain",
+      "word": "fife",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mistress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "repeatedly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "attendant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "apartments",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "servants",
+      "word": "occurrence",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-025",
+  "pool": "sourced",
+  "text": "The tradesmen came while we were yet speaking; and we moved in a body to old Dr. Denman’s surgical theatre, from which (as you are doubtless aware) Jekyll’s private cabinet is most conveniently entered. The door was very strong, the lock excellent; the carpenter avowed he would have great trouble and have to do much damage, if force were to be used; and the locksmith was near despair. But this last was a handy fellow, and after two hour’s work, the door stood open. The press marked E was unlocked; and I took out the drawer, had it filled up with straw and tied in a sheet, and returned with it to Cavendish Square. Here I proceeded to examine its contents.",
+  "words": [
+    {
+      "word": "surgical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unlocked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drawer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

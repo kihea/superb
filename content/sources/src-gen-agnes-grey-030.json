@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-agnes-grey-030",
+  "pool": "sourced",
+  "text": "I would ask myself. And such reasoning prevented me from making any sufficient effort to shake off my fetters. But, if those thoughts brought delight, it was a painful, troubled pleasure, too near akin to anguish; and one that did me more injury than I was aware of. It was an indulgence that a person of more wisdom or more experience would doubtless have denied herself. And yet, how dreary to turn my eyes from the contemplation of that bright object and force them to dwell on the dull, grey, desolate prospect around: the joyless, hopeless, solitary path that lay before me.",
+  "words": [
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

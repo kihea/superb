@@ -1,16 +1,28 @@
 {
   "id": "src-gen-hard-times-018",
   "pool": "sourced",
-  "text": "‘Now, Lord forgive you, sir, for your wicked imaginations, and for your scandal against the memory of my poor mother, who died in my arms before Josiah was born. May you repent of it, sir, and live to know better!’ She was so very earnest and injured, that Mr. Gradgrind, shocked by the possibility which dawned upon him, said in a gentler tone: ‘Do you deny, then, madam, that you left your son to—to be brought up in the gutter?’ ‘Josiah in the gutter!’ exclaimed Mrs. Pegler. ‘No such a thing, sir. For shame on you! My dear boy knows, and will give you to know, that though he come of humble parents, he come of parents that loved him as dear as the best could, and never thought it hardship on themselves to pinch a bit that he might write and cipher beautiful, and I’ve his books at home to show it!",
+  "text": "‘Pardon me; I have not even that merit. We are the largest party in the state, I assure you, Mrs. Bounderby, if we all fell out of our adopted ranks and were reviewed together.’ Mr. Bounderby, who had been in danger of bursting in silence, interposed here with a project for postponing the family dinner till half-past six, and taking Mr. James Harthouse in the meantime on a round of visits to the voting and interesting notabilities of Coketown and its vicinity. The round of visits was made; and Mr. James Harthouse, with a discreet use of his blue coaching, came off triumphantly, though with a considerable accession of boredom. In the evening, he found the dinner-table laid for four, but they sat down only three. It was an appropriate occasion for Mr. Bounderby to discuss the flavour of the hap’orth of stewed eels he had purchased in the streets at eight years old; and also of the inferior water, specially used for laying the dust, with which he had washed down that repast.",
   "words": [
     {
-      "word": "wicked",
+      "word": "vicinity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "repent",
+      "word": "boredom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "specially",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "laying",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

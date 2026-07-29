@@ -1,16 +1,28 @@
 {
   "id": "src-gen-robinson-crusoe-016",
   "pool": "sourced",
-  "text": "Can you fight, Friday?” “Me shoot,” says he, “but there come many great number.” “No matter for that,” said I again; “our guns will fright them that we do not kill.” So I asked him whether, if I resolved to defend him, he would defend me, and stand by me, and do just as I bid him. He said, “Me die when you bid die, master.” So I went and fetched a good dram of rum and gave him; for I had been so good a husband of my rum that I had a great deal left. When we had drunk it, I made him take the two fowling-pieces, which we always carried, and loaded them with large swan-shot, as big as small pistol-bullets. Then I took four muskets, and loaded them with two slugs and five small bullets each; and my two pistols I loaded with a brace of bullets each. I hung my great sword, as usual, naked by my side, and gave Friday his hatchet.",
+  "text": "However, as my arable land was but small, suited to my crop, I got it totally well fenced in about three weeks’ time; and shooting some of the creatures in the daytime, I set my dog to guard it in the night, tying him up to a stake at the gate, where he would stand and bark all night long; so in a little time the enemies forsook the place, and the corn grew very strong and well, and began to ripen apace. But as the beasts ruined me before, while my corn was in the blade, so the birds were as likely to ruin me now, when it was in the ear; for, going along by the place to see how it throve, I saw my little crop surrounded with fowls, of I know not how many sorts, who stood, as it were, watching till I should be gone. I immediately let fly among them, for I always had my gun with me. I had no sooner shot, but there rose up a little cloud of fowls, which I had not seen at all, from among the corn itself.",
   "words": [
     {
-      "word": "swan",
+      "word": "fenced",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bullets",
+      "word": "daytime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corn",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

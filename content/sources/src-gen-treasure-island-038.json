@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-038",
+  "pool": "sourced",
+  "text": "Striking, as we did, pretty near north-west across the island, we drew, on the one hand, ever nearer under the shoulders of the Spy-glass, and on the other, looked ever wider over that western bay where I had once tossed and trembled in the coracle. The first of the tall trees was reached, and by the bearings proved the wrong one. So with the second. The third rose nearly two hundred feet into the air above a clump of underwood--a giant of a vegetable, with a red column as big as a cottage, and a wide shadow around in which a company could have manoeuvred. It was conspicuous far to sea both on the east and west and might have been entered as a sailing mark upon the chart.",
+  "words": [
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

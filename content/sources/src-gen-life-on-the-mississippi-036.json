@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-life-on-the-mississippi-036",
+  "pool": "sourced",
+  "text": "After this excursion into history, he came back to the scenery, and described it, detail by detail, from the Thousand Islands to St. Paul; naming its names with such facility, tripping along his theme with such nimble and confident ease, slamming in a three-ton word, here and there, with such a complacent air of 't isn't-anything,-I-can-do-it-any-time-I-want-to, and letting off fine surprises of lurid eloquence at such judicious intervals, that I presently began to suspect-- But no matter what I began to suspect. Hear him-- 'Ten miles above Winona we come to Fountain City, nestling sweetly at the feet of cliffs that lift their awful fronts, Jovelike, toward the blue depths of heaven, bathing them in virgin atmospheres that have known no other contact save that of angels' wings. 'And next we glide through silver waters, amid lovely and stupendous aspects of nature that attune our hearts to adoring admiration, about twelve miles, and strike Mount Vernon, six hundred feet high, with romantic ruins of a once first-class hotel perched far among the cloud shadows that mottle its dizzy heights--sole remnant of once-flourishing Mount Vernon, town of early days, now desolate and utterly deserted. 'And so we move on.",
+  "words": [
+    {
+      "word": "naming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tripping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "desolate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

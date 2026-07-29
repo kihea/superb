@@ -1,16 +1,16 @@
 {
   "id": "src-gen-war-and-peace-012",
   "pool": "sourced",
-  "text": "Alexander refused negotiations because he felt himself to be personally insulted. Barclay de Tolly tried to command the army in the best way, because he wished to fulfill his duty and earn fame as a great commander. Rostóv charged the French because he could not restrain his wish for a gallop across a level field; and in the same way the innumerable people who took part in the war acted in accord with their personal characteristics, habits, circumstances, and aims. They were moved by fear or vanity, rejoiced or were indignant, reasoned, imagining that they knew what they were doing and did it of their own free will, but they all were involuntary tools of history, carrying on a work concealed from them but comprehensible to us. Such is the inevitable fate of men of action, and the higher they stand in the social hierarchy the less are they free.",
+  "text": "“Help comes from God alone,” he said, “but such measure of help as our Order can bestow it will render you, my dear sir. You are going to Petersburg. Hand this to Count Willarski” (he took out his notebook and wrote a few words on a large sheet of paper folded in four). “Allow me to give you a piece of advice. When you reach the capital, first of all devote some time to solitude and self-examination and do not resume your former way of life.",
   "words": [
     {
-      "word": "accord",
+      "word": "devote",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "habits",
+      "word": "solitude",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

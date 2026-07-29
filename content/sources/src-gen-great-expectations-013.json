@@ -1,12 +1,11 @@
 {
   "id": "src-gen-great-expectations-013",
   "pool": "sourced",
-  "text": "“Undoubtedly.” “You consider it, undoubtedly, a handsome sum of money. Now, that handsome sum of money, Pip, is your own. It is a present to you on this day, in earnest of your expectations. And at the rate of that handsome sum of money per annum, and at no higher rate, you are to live until the donor of the whole appears. That is to say, you will now take your money affairs entirely into your own hands, and you will draw from Wemmick one hundred and twenty-five pounds per quarter, until you are in communication with the fountain-head, and no longer with the mere agent.",
+  "text": "You are to understand, first, that it is the request of the person from whom I take my instructions that you always bear the name of Pip. You will have no objection, I dare say, to your great expectations being encumbered with that easy condition. But if you have any objection, this is the time to mention it.” My heart was beating so fast, and there was such a singing in my ears, that I could scarcely stammer I had no objection. “I should think not! Now you are to understand, secondly, Mr. Pip, that the name of the person who is your liberal benefactor remains a profound secret, until the person chooses to reveal it.",
   "words": [
     {
-      "word": "donor",
+      "word": "profound",
       "signals": [
-        "definition-marker",
         "gloss-overlap"
       ]
     }
@@ -16,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

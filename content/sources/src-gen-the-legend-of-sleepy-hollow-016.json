@@ -1,22 +1,46 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-016",
   "pool": "sourced",
-  "text": "In the centre of the road stood an enormous tulip-tree, which towered like a giant above all the other trees of the neighborhood, and formed a kind of landmark. Its limbs were gnarled and fantastic, large enough to form trunks for ordinary trees, twisting down almost to the earth, and rising again into the air. It was connected with the tragical story of the unfortunate André, who had been taken prisoner hard by; and was universally known by the name of Major André’s tree. The common people regarded it with a mixture of respect and superstition, partly out of sympathy for the fate of its ill-starred namesake, and partly from the tales of strange sights, and doleful lamentations, told concerning it. As Ichabod approached this fearful tree, he began to whistle; he thought his whistle was answered; it was but a blast sweeping sharply through the dry branches.",
+  "text": "On a fine autumnal afternoon, Ichabod, in pensive mood, sat enthroned on the lofty stool from whence he usually watched all the concerns of his little literary realm. In his hand he swayed a ferule, that sceptre of despotic power; the birch of justice reposed on three nails behind the throne, a constant terror to evil doers, while on the desk before him might be seen sundry contraband articles and prohibited weapons, detected upon the persons of idle urchins, such as half-munched apples, popguns, whirligigs, fly-cages, and whole legions of rampant little paper gamecocks. Apparently there had been some appalling act of justice recently inflicted, for his scholars were all busily intent upon their books, or slyly whispering behind them with one eye kept upon the master; and a kind of buzzing stillness reigned throughout the schoolroom. It was suddenly interrupted by the appearance of a negro in tow-cloth jacket and trowsers, a round-crowned fragment of a hat, like the cap of Mercury, and mounted on the back of a ragged, wild, half-broken colt, which he managed with a rope by way of halter.",
   "words": [
     {
-      "word": "landmark",
+      "word": "stool",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "limbs",
+      "word": "nails",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "branches",
+      "word": "throne",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cloth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fragment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ragged",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +51,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-030",
+  "pool": "sourced",
+  "text": "Now, if it was Lawrence, Mary Cavendish’s conduct was just as inexplicable. But if, on the other hand, it was John, the whole thing was explained quite naturally.” “So,” I cried, a light breaking in upon me, “it was John who quarrelled with his mother that afternoon?” “Exactly.” “And you have known this all along?” “Certainly. Mrs. Cavendish’s behaviour could only be explained that way.” “And yet you say he may be acquitted?” Poirot shrugged his shoulders. “Certainly I do. At the police court proceedings, we shall hear the case for the prosecution, but in all probability his solicitors will advise him to reserve his defence.",
+  "words": [
+    {
+      "word": "cried",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "proceedings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

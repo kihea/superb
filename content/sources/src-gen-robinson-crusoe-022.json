@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-robinson-crusoe-022",
+  "pool": "sourced",
+  "text": "Nor is it possible to describe how many various shapes my affrighted imagination represented things to me in, how many wild ideas were found every moment in my fancy, and what strange, unaccountable whimsies came into my thoughts by the way. When I came to my castle (for so I think I called it ever after this), I fled into it like one pursued. Whether I went over by the ladder, as first contrived, or went in at the hole in the rock, which I had called a door, I cannot remember; no, nor could I remember the next morning, for never frightened hare fled to cover, or fox to earth, with more terror of mind than I to this retreat. I slept none that night; the farther I was from the occasion of my fright, the greater my apprehensions were, which is something contrary to the nature of such things, and especially to the usual practice of all creatures in fear; but I was so embarrassed with my own frightful ideas of the thing, that I formed nothing but dismal imaginations to myself, even though I was now a great way off.",
+  "words": [
+    {
+      "word": "contrived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retreat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

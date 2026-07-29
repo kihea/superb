@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-028",
+  "pool": "sourced",
+  "text": "From that day, I gave up all thought of penetrating into his house by the lake. That entrance was obviously too well guarded, especially since he had learned that I knew about it. But I felt that there must be another entrance, for I had often seen Erik disappear in the third cellar, when I was watching him, though I could not imagine how. Ever since I had discovered Erik installed in the Opera, I lived in a perpetual terror of his horrible fancies, not in so far as I was concerned, but I dreaded everything for others. And whenever some accident, some fatal event happened, I always thought to myself, \"I should not be surprised if that were Erik,\" even as others used to say, \"It's the ghost!\"",
+  "words": [
+    {
+      "word": "cellar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

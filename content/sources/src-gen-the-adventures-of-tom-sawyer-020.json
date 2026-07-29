@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-020",
   "pool": "sourced",
-  "text": "I’m hungry, too. We’ll eat and smoke when we get to the skiff.” They presently emerged into the clump of sumach bushes, looked warily out, found the coast clear, and were soon lunching and smoking in the skiff. As the sun dipped toward the horizon they pushed out and got under way. Tom skimmed up the shore through the long twilight, chatting cheerily with Huck, and landed shortly after dark. “Now, Huck,” said Tom, “we’ll hide the money in the loft of the widow’s woodshed, and I’ll come up in the morning and we’ll count it and divide, and then we’ll hunt up a place out in the woods for it where it will be safe.",
+  "text": "I want a smoke.’ And you’ll say, kind of careless like, as if it warn’t anything, you’ll say, ‘Yes, I got my old pipe, and another one, but my tobacker ain’t very good.’ And I’ll say, ‘Oh, that’s all right, if it’s strong enough.’ And then you’ll out with the pipes, and we’ll light up just as ca’m, and then just see ’em look!” “By jings, that’ll be gay, Tom! I wish it was now!” “So do I! And when we tell ’em we learned when we was off pirating, won’t they wish they’d been along?” “Oh, I reckon not! I’ll just bet they will!” So the talk ran on. But presently it began to flag a trifle, and grow disjointed.",
   "words": [
     {
-      "word": "emerged",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twilight",
+      "word": "pipes",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

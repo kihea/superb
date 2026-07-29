@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-031",
+  "pool": "sourced",
+  "text": "But why among the stars should there be one star I may not see? The sun is not my master, and I will open my eyes and stare at him whenever I choose.” “Your eyes,” said Flambeau, with a foreign bow, “will dazzle the sun.” He took pleasure in complimenting this strange stiff beauty, partly because it threw her a little off her balance. But as he went upstairs to his floor he drew a deep breath and whistled, saying to himself: “So she has got into the hands of that conjurer upstairs with his golden eye.” For, little as he knew or cared about the new religion of Kalon, he had heard of his special notion about sun-gazing. He soon discovered that the spiritual bond between the floors above and below him was close and increasing. The man who called himself Kalon was a magnificent creature, worthy, in a physical sense, to be the pontiff of Apollo.",
+  "words": [
+    {
+      "word": "upstairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

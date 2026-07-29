@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-life-on-the-mississippi-039",
+  "pool": "sourced",
+  "text": "As in nature the growth of trees and their proneness where undermined to fall across the slope and support the bank secures at some points a fair depth of channel and some degree of permanence, so in the project of the engineer the use of timber and brush and the encouragement of forest growth are the main features. It is proposed to reduce the width where excessive by brushwood dykes, at first low, but raised higher and higher as the mud of the river settles under their shelter, and finally slope them back at the angle upon which willows will grow freely. In this work there are many details connected with the forms of these shelter dykes, their arrangements so as to present a series of settling basins, etc., a description of which would only complicate the conception. Through the larger part of the river works of contraction will not be required, but nearly all the banks on the concave side of the beds must be held against the wear of the stream, and much of the opposite banks defended at critical points.",
+  "words": [
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excessive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "settling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

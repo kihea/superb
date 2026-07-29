@@ -1,10 +1,22 @@
 {
   "id": "src-gen-a-christmas-carol-008",
   "pool": "sourced",
-  "text": "Is that so much that he deserves this praise?\" \"It isn't that,\" said Scrooge, heated by the remark, and speaking unconsciously like his former, not his latter, self. \"It isn't that, Spirit. He has the power to render us happy or unhappy; to make our service light or burdensome; a pleasure or a toil. Say that his power lies in words and looks; in things so slight and insignificant that it is impossible to add and count 'em up: what then?",
+  "text": "captive, bound, and double-ironed,\" cried the phantom, \"not to know, that ages of incessant labour by immortal creatures, for this earth must pass into eternity before the good of which it is susceptible is all developed. Not to know that any Christian spirit working kindly in its little sphere, whatever it may be, will find its mortal life too short for its vast means of usefulness. Not to know that no space of regret can make amends for one life's opportunity misused! Yet such was I!",
   "words": [
     {
-      "word": "unhappy",
+      "word": "captive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immortal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mortal",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

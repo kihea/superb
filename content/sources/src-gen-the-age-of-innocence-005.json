@@ -1,28 +1,28 @@
 {
   "id": "src-gen-the-age-of-innocence-005",
   "pool": "sourced",
-  "text": "For the first time he perceived how elementary his own principles had always been. He passed for a young man who had not been afraid of risks, and he knew that his secret love-affair with poor silly Mrs. Thorley Rushworth had not been too secret to invest him with a becoming air of adventure. But Mrs. Rushworth was \"that kind of woman\"; foolish, vain, clandestine by nature, and far more attracted by the secrecy and peril of the affair than by such charms and qualities as he possessed. When the fact dawned on him it nearly broke his heart, but now it seemed the redeeming feature of the case. The affair, in short, had been of the kind that most of the young men of his age had been through, and emerged from with calm consciences and an undisturbed belief in the abysmal distinction between the women one loved and respected and those one enjoyed--and pitied.",
+  "text": "As her mother had been a Rushworth, and her last unhappy marriage had linked her to one of the crazy Chiverses, New York looked indulgently on her eccentricities; but when she returned with her little orphaned niece, whose parents had been popular in spite of their regrettable taste for travel, people thought it a pity that the pretty child should be in such hands. Every one was disposed to be kind to little Ellen Mingott, though her dusky red cheeks and tight curls gave her an air of gaiety that seemed unsuitable in a child who should still have been in black for her parents. It was one of the misguided Medora's many peculiarities to flout the unalterable rules that regulated American mourning, and when she stepped from the steamer her family were scandalised to see that the crape veil she wore for her own brother was seven inches shorter than those of her sisters-in-law, while little Ellen was in crimson merino and amber beads, like a gipsy foundling.",
   "words": [
     {
-      "word": "clandestine",
+      "word": "orphaned",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "secrecy",
+      "word": "niece",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "qualities",
+      "word": "misguided",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "distinction",
+      "word": "crimson",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +33,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-a-christmas-carol-004",
   "pool": "sourced",
-  "text": "\"Expect the second on the next night at the same hour. The third upon the next night when the last stroke of Twelve has ceased to vibrate. Look to see me no more; and look that, for your own sake, you remember what has passed between us!\" When it had said these words, the spectre took its wrapper from the table, and bound it round its head, as before. Scrooge knew this, by the smart sound its teeth made, when the jaws were brought together by the bandage.",
+  "text": "The sound resounded through the house like thunder. Every room above, and every cask in the wine-merchant's cellars below, appeared to have a separate peal of echoes of its own. Scrooge was not a man to be frightened by echoes. He fastened the door, and walked across the hall, and up the stairs; slowly too: trimming his candle as he went. You may talk vaguely about driving a coach-and-six up a good old flight of stairs, or through a bad young Act of Parliament; but I mean to say you might have got a hearse up that staircase, and taken it broadwise, with the splinter-bar towards the wall and the door towards the balustrades: and done it easy.",
   "words": [
     {
-      "word": "jaws",
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trimming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staircase",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

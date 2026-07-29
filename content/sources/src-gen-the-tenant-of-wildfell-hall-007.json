@@ -1,16 +1,34 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-007",
   "pool": "sourced",
-  "text": "At length, however, he restored it to me, saying,—“Well, well, since you value it so much, I’ll not deprive you of it.” To show him how I valued it, I tore it in two and threw it into the fire. He was not prepared for this. His merriment suddenly ceasing, he stared in mute amazement at the consuming treasure; and then, with a careless “Humph! I’ll go and shoot now,” he turned on his heel and vacated the apartment by the window as he came, and setting on his hat with an air, took up his gun and walked away, whistling as he went—and leaving me not too much agitated to finish my picture, for I was glad, at the moment, that I had vexed him. When I returned to the drawing-room, I found Mr. Boarham had ventured to follow his comrades to the field; and shortly after lunch, to which they did not think of returning, I volunteered to accompany the ladies in a walk, and show Annabella and Milicent the beauties of the country.",
+  "text": "Both, it is true, had more delicate features and smaller bones than commonly fall to the lot of individuals of the rougher sex, and Lawrence’s complexion was pale and clear, and Arthur’s delicately fair; but Arthur’s tiny, somewhat snubby nose could never become so long and straight as Mr. Lawrence’s; and the outline of his face, though not full enough to be round, and too finely converging to the small, dimpled chin to be square, could never be drawn out to the long oval of the other’s, while the child’s hair was evidently of a lighter, warmer tint than the elder gentleman’s had ever been, and his large, clear blue eyes, though prematurely serious at times, were utterly dissimilar to the shy hazel eyes of Mr. Lawrence, whence the sensitive soul looked so distrustfully forth, as ever ready to retire within, from the offences of a too rude, too uncongenial world. Wretch that I was to harbour that detestable idea for a moment! Did I not know Mrs. Graham? Had I not seen her, conversed with her time after time?",
   "words": [
     {
-      "word": "deprive",
+      "word": "complexion",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tore",
+      "word": "finely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oval",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warmer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

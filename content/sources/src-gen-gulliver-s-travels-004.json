@@ -1,34 +1,22 @@
 {
   "id": "src-gen-gulliver-s-travels-004",
   "pool": "sourced",
-  "text": "And it must be confessed, that from the great intercourse of trade and commerce between both realms, from the continual reception of exiles which is mutual among them, and from the custom, in each empire, to send their young nobility and richer gentry to the other, in order to polish themselves by seeing the world, and understanding men and manners; there are few persons of distinction, or merchants, or seamen, who dwell in the maritime parts, but what can hold conversation in both tongues; as I found some weeks after, when I went to pay my respects to the emperor of Blefuscu, which, in the midst of great misfortunes, through the malice of my enemies, proved a very happy adventure to me, as I shall relate in its proper place. The reader may remember, that when I signed those articles upon which I recovered my liberty, there were some which I disliked, upon account of their being too servile; neither could anything but an extreme necessity have forced me to submit.",
+  "text": "In the left there was a sort of engine, from the back of which were extended twenty long poles, resembling the pallisados before your majesty’s court: wherewith we conjecture the man-mountain combs his head; for we did not always trouble him with questions, because we found it a great difficulty to make him understand us. In the large pocket, on the right side of his middle cover” (so I translate the word ranfulo, by which they meant my breeches,) “we saw a hollow pillar of iron, about the length of a man, fastened to a strong piece of timber larger than the pillar; and upon one side of the pillar, were huge pieces of iron sticking out, cut into strange figures, which we know not what to make of. In the left pocket, another engine of the same kind. In the smaller pocket on the right side, were several round flat pieces of white and red metal, of different bulk; some of the white, which seemed to be silver, were so large and heavy, that my comrade and I could hardly lift them.",
   "words": [
     {
-      "word": "intercourse",
+      "word": "majesty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "manners",
+      "word": "translate",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "maritime",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tongues",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "midst",
+      "word": "pillar",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +27,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

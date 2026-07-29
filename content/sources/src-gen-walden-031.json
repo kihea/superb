@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-walden-031",
+  "pool": "sourced",
+  "text": "The hares (Lepus Americanus) were very familiar. One had her form under my house all winter, separated from me only by the flooring, and she startled me each morning by her hasty departure when I began to stir,—thump, thump, thump, striking her head against the floor timbers in her hurry. They used to come round my door at dusk to nibble the potato parings which I had thrown out, and were so nearly the color of the ground that they could hardly be distinguished when still. Sometimes in the twilight I alternately lost and recovered sight of one sitting motionless under my window. When I opened my door in the evening, off they would go with a squeak and a bounce.",
+  "words": [
+    {
+      "word": "flooring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

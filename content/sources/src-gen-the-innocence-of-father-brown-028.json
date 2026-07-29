@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-028",
+  "pool": "sourced",
+  "text": "“There’s the last of that old skull and crossbones,” he said as he scattered the pieces upon the dark and disappearing waves of the stream; “but I should think it would poison the fishes.” The last gleam of white card and green ink was drowned and darkened; a faint and vibrant colour as of morning changed the sky, and the moon behind the grasses grew paler. They drifted in silence. “Father,” said Flambeau suddenly, “do you think it was all a dream?” The priest shook his head, whether in dissent or agnosticism, but remained mute. A smell of hawthorn and of orchards came to them through the darkness, telling them that a wind was awake; the next moment it swayed their little boat and swelled their sail, and carried them onward down the winding river to happier places and the homes of harmless men. The Hammer of God The little village of Bohun Beacon was perched on a hill so steep that the tall spire of its church seemed only like the peak of a small mountain.",
+  "words": [
+    {
+      "word": "skull",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darkened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hawthorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "winding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

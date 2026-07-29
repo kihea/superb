@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-030",
+  "pool": "sourced",
+  "text": "The solitude was at last broken by the approach of one feminine figure, who, though the evening was cold, wore the print gown and the tilt-bonnet of summer time. Tess instinctively thought it might be Marian, and when she came near enough to be distinguishable in the gloom, surely enough it was she. Marian was even stouter and redder in the face than formerly, and decidedly shabbier in attire. At any previous period of her existence Tess would hardly have cared to renew the acquaintance in such conditions; but her loneliness was excessive, and she responded readily to Marian’s greeting. Marian was quite respectful in her inquiries, but seemed much moved by the fact that Tess should still continue in no better condition than at first; though she had dimly heard of the separation.",
+  "words": [
+    {
+      "word": "attire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "renew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excessive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "separation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

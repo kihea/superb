@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-walden-039",
+  "pool": "sourced",
+  "text": "Some are petitioning the State to dissolve the Union, to disregard the requisitions of the President. Why do they not dissolve it themselves,—the union between themselves and the State,—and refuse to pay their quota into its treasury? Do not they stand in same relation to the State, that the State does to the Union? And have not the same reasons prevented the State from resisting the Union, which have prevented them from resisting the State? How can a man be satisfied to entertain an opinion merely, and enjoy it?",
+  "words": [
+    {
+      "word": "dissolve",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disregard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

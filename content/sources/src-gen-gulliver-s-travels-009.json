@@ -1,16 +1,10 @@
 {
   "id": "src-gen-gulliver-s-travels-009",
   "pool": "sourced",
-  "text": "But I could not see how this could be done in their country, where the smallest wherry was equal to a first-rate man of war among us; and such a boat as I could manage would never live in any of their rivers. Her majesty said, if I would contrive a boat, her own joiner should make it, and she would provide a place for me to sail in. The fellow was an ingenious workman, and by my instructions, in ten days, finished a pleasure-boat with all its tackling, able conveniently to hold eight Europeans. When it was finished, the queen was so delighted, that she ran with it in her lap to the king, who ordered it to be put into a cistern full of water, with me in it, by way of trial, where I could not manage my two sculls, or little oars, for want of room. But the queen had before contrived another project.",
+  "text": "“The treasurer was of the same opinion: he showed to what straits his majesty’s revenue was reduced, by the charge of maintaining you, which would soon grow insupportable; that the secretary’s expedient of putting out your eyes, was so far from being a remedy against this evil, that it would probably increase it, as is manifest from the common practice of blinding some kind of fowls, after which they fed the faster, and grew sooner fat; that his sacred majesty and the council, who are your judges, were, in their own consciences, fully convinced of your guilt, which was a sufficient argument to condemn you to death, without the formal proofs required by the strict letter of the law. “But his imperial majesty, fully determined against capital punishment, was graciously pleased to say, that since the council thought the loss of your eyes too easy a censure, some other way may be inflicted hereafter.",
   "words": [
     {
-      "word": "sail",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "delighted",
+      "word": "treasurer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

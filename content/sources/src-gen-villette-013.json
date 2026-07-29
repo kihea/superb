@@ -1,22 +1,17 @@
 {
   "id": "src-gen-villette-013",
   "pool": "sourced",
-  "text": "I think in Madame Beck’s eyes the five letters found a certain favour. One day after she had borrowed them of me (in speaking of so suave a little woman, one ought to use suave terms), I caught her examining me with a steady contemplative gaze, a little puzzled, but not at all malevolent. It was during that brief space between lessons, when the pupils turned out into the court for a quarter of an hour’s recreation; she and I remained in the first classe alone: when I met her eye, her thoughts forced themselves partially through her lips. “Il y a,” said she, “quelquechose de bien remarquable dans le caractère Anglais.” “How, Madame?” She gave a little laugh, repeating the word “how” in English. “Je ne saurais vous dire ‘how;’ mais, enfin, les Anglais ont des idées à eux, en amitié, en amour, en tout.",
+  "text": "The next day came the distribution of prizes; that also passed; the school broke up; the pupils went home, and now began the long vacation. That vacation! Shall I ever forget it? I think not. Madame Beck went, the first day of the holidays, to join her children at the sea-side; all the three teachers had parents or friends with whom they took refuge; every professor quitted the city; some went to Paris, some to Boue-Marine; M. Paul set forth on a pilgrimage to Rome; the house was left quite empty, but for me, a servant, and a poor deformed and imbecile pupil, a sort of crétin, whom her stepmother in a distant province would not allow to return home.",
   "words": [
     {
-      "word": "gaze",
+      "word": "pupil",
       "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "puzzled",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "les",
+      "word": "stepmother",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +22,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

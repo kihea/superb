@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-thirty-nine-steps-018",
   "pool": "sourced",
-  "text": "“It happened many years ago in Senegal. I was quartered in a remote station, and to pass the time used to go fishing for big barbel in the river. A little Arab mare used to carry my luncheon basket—one of the salted dun breed you got at Timbuctoo in the old days. Well, one morning I had good sport, and the mare was unaccountably restless. I could hear her whinnying and squealing and stamping her feet, and I kept soothing her with my voice while my mind was intent on fish.",
+  "text": "Good morning. You’ll know me the next time you see me.” Clearly my get-up was good enough for the dreaded Surveyor. I went on with my work, and as the morning grew towards noon I was cheered by a little traffic. A baker’s van breasted the hill, and sold me a bag of ginger biscuits which I stowed in my trouser-pockets against emergencies. Then a herd passed with sheep, and disturbed me somewhat by asking loudly, “What had become o’ Specky?” “In bed wi’ the colic,” I replied, and the herd passed on.... Just about midday a big car stole down the hill, glided past and drew up a hundred yards beyond.",
   "words": [
     {
-      "word": "salted",
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midday",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

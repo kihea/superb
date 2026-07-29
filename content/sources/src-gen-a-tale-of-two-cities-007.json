@@ -1,10 +1,22 @@
 {
   "id": "src-gen-a-tale-of-two-cities-007",
   "pool": "sourced",
-  "text": "“Be a brave man, my Gaspard! It is better for the poor little plaything to die so, than to live. It has died in a moment without pain. Could it have lived an hour as happily?” “You are a philosopher, you there,” said the Marquis, smiling. “How do they call you?” “They call me Defarge.” “Of what trade?” “Monsieur the Marquis, vendor of wine.” “Pick up that, philosopher and vendor of wine,” said the Marquis, throwing him another gold coin, “and spend it as you will.",
+  "text": "The darkness deepened and deepened, and they both lay quiet, until a light gleamed through the chinks in the wall. Mr. Lorry and Monsieur Defarge had made all ready for the journey, and had brought with them, besides travelling cloaks and wrappers, bread and meat, wine, and hot coffee. Monsieur Defarge put this provender, and the lamp he carried, on the shoemaker’s bench (there was nothing else in the garret but a pallet bed), and he and Mr. Lorry roused the captive, and assisted him to his feet. No human intelligence could have read the mysteries of his mind, in the scared blank wonder of his face. Whether he knew what had happened, whether he recollected what they had said to him, whether he knew that he was free, were questions which no sagacity could have solved.",
   "words": [
     {
-      "word": "smiling",
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pallet",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

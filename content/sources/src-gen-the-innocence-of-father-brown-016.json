@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-016",
   "pool": "sourced",
-  "text": "Though her flat was only three floors above, she managed in the few seconds of ascent to give Flambeau a great many of her fundamental views in an off-hand manner; they were to the general effect that she was a modern working woman and loved modern working machinery. Her bright black eyes blazed with abstract anger against those who rebuke mechanic science and ask for the return of romance. Everyone, she said, ought to be able to manage machines, just as she could manage the lift. She seemed almost to resent the fact of Flambeau opening the lift-door for her; and that gentleman went up to his own apartments smiling with somewhat mingled feelings at the memory of such spit-fire self-dependence. She certainly had a temper, of a snappy, practical sort; the gestures of her thin, elegant hands were abrupt or even destructive.",
+  "text": "For Scotland has a double dose of the poison called heredity; the sense of blood in the aristocrat, and the sense of doom in the Calvinist. The priest had snatched a day from his business at Glasgow to meet his friend Flambeau, the amateur detective, who was at Glengyle Castle with another more formal officer investigating the life and death of the late Earl of Glengyle. That mysterious person was the last representative of a race whose valour, insanity, and violent cunning had made them terrible even among the sinister nobility of their nation in the sixteenth century. None were deeper in that labyrinthine ambition, in chamber within chamber of that palace of lies that was built up around Mary Queen of Scots. The rhyme in the country-side attested the motive and the result of their machinations candidly: As green sap to the simmer trees Is red gold to the Ogilvies.",
   "words": [
     {
-      "word": "machinery",
+      "word": "doom",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "apartments",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spit",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "temper",
+      "word": "detective",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

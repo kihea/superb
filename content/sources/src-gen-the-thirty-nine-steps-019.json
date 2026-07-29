@@ -1,12 +1,24 @@
 {
   "id": "src-gen-the-thirty-nine-steps-019",
   "pool": "sourced",
-  "text": "I wanted half a dozen men, and I directed them to divide themselves among different specified hotels. Then Scaife set out to prospect the house at the head of the thirty-nine steps. He came back with news that both puzzled and reassured me. The house was called Trafalgar Lodge, and belonged to an old gentleman called Appleton—a retired stockbroker, the house-agent said. Mr Appleton was there a good deal in the summer time, and was in residence now—had been for the better part of a week.",
+  "text": "Here we stopped, and I obligingly reversed the car and restored to Mr Jopley his belongings. “A thousand thanks,” I said. “There’s more use in you than I thought. Now be off and find the police.” As I sat on the hillside, watching the tail-light dwindle, I reflected on the various kinds of crime I had now sampled. Contrary to general belief, I was not a murderer, but I had become an unholy liar, a shameless impostor, and a highwayman with a marked taste for expensive motor-cars.",
   "words": [
     {
-      "word": "prospect",
+      "word": "reversed",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "liar",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-039",
+  "pool": "sourced",
+  "text": "On the 15th of May we were at the extreme south of the Bank of Newfoundland. This bank consists of alluvia, or large heaps of organic matter, brought either from the Equator by the Gulf Stream, or from the North Pole by the counter-current of cold water which skirts the American coast. There also are heaped up those erratic blocks which are carried along by the broken ice; and close by, a vast charnel-house of molluscs, which perish here by millions. The depth of the sea is not great at Newfoundland—not more than some hundreds of fathoms; but towards the south is a depression of 1,500 fathoms. There the Gulf Stream widens.",
+  "words": [
+    {
+      "word": "heaps",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

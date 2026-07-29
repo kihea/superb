@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-017",
   "pool": "sourced",
-  "text": "At last he said, blinking as if in bodily distress: “Well, if that is so, sir, you need do no more than take the testamentary paper you spoke of and go. I wonder where the poor lady left it.” “It will be over there on her desk by the door, I think,” said Kalon, with that massive innocence of manner that seemed to acquit him wholly. “She told me specially she would write it this morning, and I actually saw her writing as I went up in the lift to my own room.” “Was her door open then?” asked the priest, with his eye on the corner of the matting. “Yes,” said Kalon calmly. it has been open ever since,” said the other, and resumed his silent study of the mat.",
+  "text": "“Fourth item. The wax candles, which have to be stuck in bottle necks because there is nothing else to stick them in. Now I wish you to note how very much queerer all this is than anything we anticipated. For the central riddle we are prepared; we have all seen at a glance that there was something wrong about the last earl. We have come here to find out whether he really lived here, whether he really died here, whether that red-haired scarecrow who did his burying had anything to do with his dying.",
   "words": [
     {
-      "word": "calmly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "resumed",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

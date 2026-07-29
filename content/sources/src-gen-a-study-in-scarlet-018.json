@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-study-in-scarlet-018",
   "pool": "sourced",
-  "text": "I don’t want to be remembered as a common cut-throat.” The Inspector and the two detectives had a hurried discussion as to the advisability of allowing him to tell his story. “Do you consider, Doctor, that there is immediate danger?” the former asked. “Most certainly there is,” I answered. “In that case it is clearly our duty, in the interests of justice, to take his statement,” said the Inspector. “You are at liberty, sir, to give your account, which I again warn you will be taken down.” “I’ll sit down, with your leave,” the prisoner said, suiting the action to the word.",
+  "text": "The Boots pointed out the door to me, and was about to go downstairs again when I saw something that made me feel sickish, in spite of my twenty years’ experience. From under the door there curled a little red ribbon of blood, which had meandered across the passage and formed a little pool along the skirting at the other side. I gave a cry, which brought the Boots back. He nearly fainted when he saw it. The door was locked on the inside, but we put our shoulders to it, and knocked it in.",
   "words": [
     {
-      "word": "hurried",
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1887,
     "source": "Project Gutenberg #244",
-    "url": "https://www.gutenberg.org/ebooks/244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

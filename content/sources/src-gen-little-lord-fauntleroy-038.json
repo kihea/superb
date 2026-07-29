@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-038",
+  "pool": "sourced",
+  "text": "And after the store was closed that evening, Mr. Hobbs and Dick sat in the back-room and talked together until midnight. XIV It is astonishing how short a time it takes for very wonderful things to happen. It had taken only a few minutes, apparently, to change all the fortunes of the little boy dangling his red legs from the high stool in Mr. Hobbs's store, and to transform him from a small boy, living the simplest life in a quiet street, into an English nobleman, the heir to an earldom and magnificent wealth. It had taken only a few minutes, apparently, to change him from an English nobleman into a penniless little impostor, with no right to any of the splendors he had been enjoying. And, surprising as it may appear, it did not take nearly so long a time as one might have expected, to alter the face of everything again and to give back to him all that he had been in danger of losing.",
+  "words": [
+    {
+      "word": "stool",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transform",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

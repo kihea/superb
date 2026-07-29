@@ -1,58 +1,22 @@
 {
   "id": "src-gen-typhoon-016",
   "pool": "sourced",
-  "text": "Jukes' glance was wandering and tipsy; his red face was puffy, as though he had overslept himself. He had had an arduous road, and had travelled over it with immense vivacity, the agitation of his mind corresponding to the exertions of his body. He had rushed up out of the bunker, stumbling in the dark alleyway amongst a lot of bewildered men who, trod upon, asked “What's up, sir?” in awed mutters all round him;--down the stokehold ladder, missing many iron rungs in his hurry, down into a place deep as a well, black as Tophet, tipping over back and forth like a see-saw. The water in the bilges thundered at each roll, and lumps of coal skipped to and fro, from end to end, rattling like an avalanche of pebbles on a slope of iron. Somebody in there moaned with pain, and somebody else could be seen crouching over what seemed the prone body of a dead man; a lusty voice blasphemed; and the glow under each fire-door was like a pool of flaming blood radiating quietly in a velvety blackness.",
+  "text": "Why had he not been called? The lamp wriggled in its gimbals, the barometer swung in circles, the table altered its slant every moment; a pair of limp sea-boots with collapsed tops went sliding past the couch. He put out his hand instantly, and captured one. Jukes' face appeared in a crack of the door: only his face, very red, with staring eyes. The flame of the lamp leaped, a piece of paper flew up, a rush of air enveloped Captain MacWhirr.",
   "words": [
     {
-      "word": "puffy",
+      "word": "limp",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "travelled",
+      "word": "couch",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ladder",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hurry",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tipping",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "avalanche",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pebbles",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prone",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flaming",
+      "word": "staring",
       "signals": [
         "gloss-overlap"
       ]
@@ -63,7 +27,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-oliver-twist-016",
   "pool": "sourced",
-  "text": "But you have not told me where he is now, Miss Maylie. You must pardon my finding fault with you,—but why not have brought him?” “He is waiting in a coach at the door,” replied Rose. “At this door!” cried the old gentleman. With which he hurried out of the room, down the stairs, up the coachsteps, and into the coach, without another word. When the room-door closed behind him, Mr. Grimwig lifted up his head, and converting one of the hind legs of his chair into a pivot, described three distinct circles with the assistance of his stick and the table; sitting in it all the time.",
+  "text": "Many hunger-worn outcasts close their eyes in our bare streets, at such times, who, let their crimes have been what they may, can hardly open them in a more bitter world. Such was the aspect of out-of-doors affairs, when Mrs. Corney, the matron of the workhouse to which our readers have been already introduced as the birthplace of Oliver Twist, sat herself down before a cheerful fire in her own little room, and glanced, with no small degree of complacency, at a small round table: on which stood a tray of corresponding size, furnished with all necessary materials for the most grateful meal that matrons enjoy. In fact, Mrs. Corney was about to solace herself with a cup of tea. As she glanced from the table to the fireplace, where the smallest of all possible kettles was singing a small song in a small voice, her inward satisfaction evidently increased,—so much so, indeed, that Mrs. Corney smiled. “Well!” said the matron, leaning her elbow on the table, and looking reflectively at the fire; “I’m sure we have all on us a great deal to be grateful for!",
   "words": [
     {
-      "word": "converting",
+      "word": "tray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fireplace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

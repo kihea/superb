@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-jane-eyre-026",
+  "pool": "sourced",
+  "text": "I warn you of incredulity beforehand. Go on.” The disquietude of his air, the somewhat apprehensive impatience of his manner, surprised me: but I proceeded. “I dreamt another dream, sir: that Thornfield Hall was a dreary ruin, the retreat of bats and owls. I thought that of all the stately front nothing remained but a shell-like wall, very high and very fragile-looking. I wandered, on a moonlight night, through the grass-grown enclosure within: here I stumbled over a marble hearth, and there over a fallen fragment of cornice.",
+  "words": [
+    {
+      "word": "dreamt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

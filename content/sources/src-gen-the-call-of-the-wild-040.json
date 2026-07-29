@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-the-wild-040",
+  "pool": "sourced",
+  "text": "The tongues of all were out and lolling, the white fangs showing cruelly white in the moonlight. Some were lying down with heads raised and ears pricked forward; others stood on their feet, watching him; and still others were lapping water from the pool. One wolf, long and lean and gray, advanced cautiously, in a friendly manner, and Buck recognized the wild brother with whom he had run for a night and a day. He was whining softly, and, as Buck whined, they touched noses. Then an old wolf, gaunt and battle-scarred, came forward.",
+  "words": [
+    {
+      "word": "cautiously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "softly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

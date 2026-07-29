@@ -1,22 +1,22 @@
 {
   "id": "src-gen-north-and-south-011",
   "pool": "sourced",
-  "text": "“They rest from their labours.” “The weary are at rest.” “He giveth his beloved sleep.” Slowly, slowly Margaret turned away from the bed. Mary was humbly sobbing in the back-ground. They went downstairs without a word. Resting his hand upon the house-table, Nicholas Higgins stood in the midst of the floor; his great eyes startled open by the news he had heard, as he came along the court, from many busy tongues. His eyes were dry and fierce; studying the reality of her death; bringing himself to understand that her place should know her no more.",
+  "text": "You see, he says that they had many new hands on board the Russell, while the Avenger had been nearly three years on the station, with nothing to do but to keep slavers off, and work her men, till they ran up and down the rigging like rats or monkeys.” Margaret slowly read the letter, half illegible through the fading of the ink. It might be—it probably was—a statement of Captain Reid’s imperiousness in trifles, very much exaggerated by the narrator, who had written it while fresh and warm from the scene of altercation. Some sailors being aloft in the main-topsail rigging, the captain had ordered them to race down, threatening the hindmost with the cat-of-nine tails. He who was the farthest on the spar, feeling the impossibility of passing his companions, and yet passionately dreading the disgrace of the flogging, threw himself desperately down to catch a rope considerably lower, failed, and fell senseless on the deck. He only survived for a few hours afterwards, and the indignation of the ship’s crew was at boiling point when young Hale wrote.",
   "words": [
     {
-      "word": "downstairs",
+      "word": "rigging",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "senseless",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "resting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "midst",
+      "word": "boiling",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

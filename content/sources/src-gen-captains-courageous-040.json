@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-captains-courageous-040",
+  "pool": "sourced",
+  "text": "\"Your bile's gone back on you. Stay right where ye are, Harve.\" Then up and spoke the orator of the occasion, another pillar of the municipality, bidding the world welcome to Gloucester, and incidentally pointing out wherein Gloucester excelled the rest of the world. Then he turned to the sea-wealth of the city, and spoke of the price that must be paid for the yearly harvest. They would hear later the names of their lost dead one hundred and seventeen of them.",
+  "words": [
+    {
+      "word": "municipality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bidding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

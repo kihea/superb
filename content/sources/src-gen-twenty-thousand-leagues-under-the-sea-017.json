@@ -1,16 +1,22 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-017",
   "pool": "sourced",
-  "text": "According to these calculations, the mass of ice surrounding the southern pole forms a vast cap, the circumference of which must be, at least, 2,500 miles. But the Nautilus, for fear of running aground, had stopped about three cable-lengths from a strand over which reared a superb heap of rocks. The boat was launched; the Captain, two of his men, bearing instruments, Conseil, and myself were in it. It was ten in the morning. I had not seen Ned Land.",
+  "text": "You, a man-eater? I should not feel safe with you, especially as I share your cabin. I might perhaps wake one day to find myself half devoured.” “Friend Conseil, I like you much, but not enough to eat you unnecessarily.” “I would not trust you,” replied Conseil. “But enough. We must absolutely bring down some game to satisfy this cannibal, or else one of these fine mornings, master will find only pieces of his servant to serve him.” While we were talking thus, we were penetrating the sombre arches of the forest, and for two hours we surveyed it in all directions.",
   "words": [
     {
-      "word": "calculations",
+      "word": "cabin",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "circumference",
+      "word": "satisfy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

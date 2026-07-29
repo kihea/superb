@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-029",
+  "pool": "sourced",
+  "text": "I visited Edinburgh with languid eyes and mind; and yet that city might have interested the most unfortunate being. Clerval did not like it so well as Oxford, for the antiquity of the latter city was more pleasing to him. But the beauty and regularity of the new town of Edinburgh, its romantic castle and its environs, the most delightful in the world, Arthur’s Seat, St. Bernard’s Well, and the Pentland Hills, compensated him for the change and filled him with cheerfulness and admiration. But I was impatient to arrive at the termination of my journey. We left Edinburgh in a week, passing through Coupar, St. Andrew’s, and along the banks of the Tay, to Perth, where our friend expected us.",
+  "words": [
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

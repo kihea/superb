@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-024",
+  "pool": "sourced",
+  "text": "“Softly, softly, major,” said the scout, who by this time had reloaded his rifle; “we are a little too far already for a rifle to put forth its beauties, and you see yonder imps are holding a council. Let them come up within striking distance—my eye may well be trusted in such a matter—and I will trail the varlets the length of the Horican, guaranteeing that not a shot of theirs shall, at the worst, more than break the skin, while ‘killdeer’ shall touch the life twice in three times.” “We forget our errand,” returned the diligent Duncan. “For God’s sake let us profit by this advantage, and increase our distance from the enemy.” “Give me my children,” said Munro, hoarsely; “trifle no longer with a father’s agony, but restore me my babes.” Long and habitual deference to the mandates of his superiors had taught the scout the virtue of obedience. Throwing a last and lingering glance at the distant canoes, he laid aside his rifle, and, relieving the wearied Duncan, resumed the paddle, which he wielded with sinews that never tired.",
+  "words": [
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rifle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

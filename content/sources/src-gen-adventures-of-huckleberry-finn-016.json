@@ -1,28 +1,10 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-016",
   "pool": "sourced",
-  "text": "And here comes the white woman running from the house, about forty-five or fifty year old, bareheaded, and her spinning-stick in her hand; and behind her comes her little white children, acting the same way the little niggers was doing. She was smiling all over so she could hardly stand—and says: “It’s you, at last!—ain’t it?” I out with a “Yes’m” before I thought. She grabbed me and hugged me tight; and then gripped me by both hands and shook and shook; and the tears come in her eyes, and run down over; and she couldn’t seem to hug and shake enough, and kept saying, “You don’t look as much like your mother as I reckoned you would; but law sakes, I don’t care for that, I’m so glad to see you! Dear, dear, it does seem like I could eat you up! Children, it’s your cousin Tom!—tell him howdy.” But they ducked their heads, and put their fingers in their mouths, and hid behind her.",
+  "text": "I waked him up, and I reckoned it was going to be a grand surprise to him to see me again, but it warn’t. He nearly cried he was so glad, but he warn’t surprised. Said he swum along behind me that night, and heard me yell every time, but dasn’t answer, because he didn’t want nobody to pick him up and take him into slavery again. Says he: “I got hurt a little, en couldn’t swim fas’, so I wuz a considable ways behine you towards de las’; when you landed I reck’ned I could ketch up wid you on de lan’ ’dout havin’ to shout at you, but when I see dat house I begin to go slow. I ’uz off too fur to hear what dey say to you—I wuz ’fraid o’ de dogs; but when it ’uz all quiet agin, I knowed you’s in de house, so I struck out for de woods to wait for day.",
   "words": [
     {
-      "word": "hugged",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gripped",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hug",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hid",
+      "word": "yell",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

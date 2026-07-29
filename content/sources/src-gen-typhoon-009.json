@@ -1,30 +1,30 @@
 {
   "id": "src-gen-typhoon-009",
   "pool": "sourced",
-  "text": "For the most part he kept his eyes shut tight, as if suspecting his sight might be destroyed in the immense flurry of the elements. When he ventured to blink hastily, he derived some moral support from the green gleam of the starboard light shining feebly upon the flight of rain and sprays. He was actually looking at it when its ray fell upon the uprearing sea which put it out. He saw the head of the wave topple over, adding the mite of its crash to the tremendous uproar raging around him, and almost at the same instant the stanchion was wrenched away from his embracing arms. After a crushing thump on his back he found himself suddenly afloat and borne upwards.",
+  "text": "The second engineer was falling foul of the stokers for letting the steam go down. He was a man with arms like a blacksmith, and generally feared; but that afternoon the stokers were answering him back recklessly, and slammed the furnace doors with the fury of despair. Then the noise ceased suddenly, and the second engineer appeared, emerging out of the stokehold streaked with grime and soaking wet like a chimney-sweep coming out of a well. As soon as his head was clear of the fiddle he began to scold Jukes for not trimming properly the stokehold ventilators; and in answer Jukes made with his hands deprecatory soothing signs meaning: “No wind--can't be helped--you can see for yourself.” But the other wouldn't hear reason. His teeth flashed angrily in his dirty face.",
   "words": [
     {
-      "word": "blink",
+      "word": "foul",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shining",
+      "word": "answering",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "embracing",
+      "word": "fiddle",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "crushing",
+      "word": "soothing",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -33,7 +33,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

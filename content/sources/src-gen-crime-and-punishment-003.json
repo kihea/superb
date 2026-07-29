@@ -1,16 +1,10 @@
 {
   "id": "src-gen-crime-and-punishment-003",
   "pool": "sourced",
-  "text": "What do you want here?” he shouted, clenching his fists and laughing, spluttering with rage. “What do you mean?” the gentleman asked sternly, scowling in haughty astonishment. “Get away, that’s what I mean.” “How dare you, you low fellow!” He raised his cane. Raskolnikov rushed at him with his fists, without reflecting that the stout gentleman was a match for two men like himself. But at that instant someone seized him from behind, and a police constable stood between them.",
+  "text": "“Since then, sir,” he went on after a brief pause--“Since then, owing to an unfortunate occurrence and through information given by evil-intentioned persons--in all which Darya Frantsovna took a leading part on the pretext that she had been treated with want of respect--since then my daughter Sofya Semyonovna has been forced to take a yellow ticket, and owing to that she is unable to go on living with us. For our landlady, Amalia Fyodorovna would not hear of it (though she had backed up Darya Frantsovna before) and Mr. Lebeziatnikov too... hm.... All the trouble between him and Katerina Ivanovna was on Sonia’s account. At first he was for making up to Sonia himself and then all of a sudden he stood on his dignity: ‘how,’ said he, ‘can a highly educated man like me live in the same rooms with a girl like that?’ And Katerina Ivanovna would not let it pass, she stood up for her... and so that’s how it happened.",
   "words": [
     {
-      "word": "cane",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "constable",
+      "word": "pause",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1866,
     "source": "Project Gutenberg #2554",
-    "url": "https://www.gutenberg.org/ebooks/2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

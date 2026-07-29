@@ -1,30 +1,12 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-004",
   "pool": "sourced",
-  "text": "Skeletons and skulls by the hundred were heaped against the wall of the church, held in position by a wire that left the whole gruesome stack visible. Dead men's bones, arranged in rows, like bricks, to form the first course upon which the walls of the sacristy had been built. The door of the sacristy opened in the middle of that bony structure, as is often seen in old Breton churches. Raoul said a prayer for Daae and then, painfully impressed by all those eternal smiles on the mouths of skulls, he climbed the slope and sat down on the edge of the heath overlooking the sea. The wind fell with the evening.",
+  "text": "Does he not want anything else?' asked Richard, with the greatest coolness. \"'Yes, he does,' replied Poligny. \"And he turned over the pages of the memorandum-book until he came to the clause specifying the days on which certain private boxes were to be reserved for the free use of the president of the republic, the ministers and so on. At the end of this clause, a line had been added, also in red ink: \"'Box Five on the grand tier shall be placed at the disposal of the Opera ghost for every performance.'",
   "words": [
     {
-      "word": "skeletons",
+      "word": "clause",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "smiles",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "climbed",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -33,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

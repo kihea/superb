@@ -1,18 +1,35 @@
 {
   "id": "src-gen-silas-marner-015",
   "pool": "sourced",
-  "text": "For if the child ever went anyways wrong, and you hadn’t done your part by it, Master Marner—’noculation, and everything to save it from harm—it ’ud be a thorn i’ your bed for ever o’ this side the grave; and I can’t think as it ’ud be easy lying down for anybody when they’d got to another world, if they hadn’t done their part by the helpless children as come wi’out their own asking.” Dolly herself was disposed to be silent for some time now, for she had spoken from the depths of her own simple belief, and was much concerned to know whether her words would produce the desired effect on Silas. He was puzzled and anxious, for Dolly’s word “christened” conveyed no distinct meaning to him. He had only heard of baptism, and had only seen the baptism of grown-up men and women. “What is it as you mean by ‘christened?’” he said at last, timidly. “Won’t folks be good to her without it?” “Dear, dear!",
+  "text": "What I said was against the tinder-box: I said nothing against justices and constables, for they’re o’ King George’s making, and it ’ud be ill-becoming a man in a parish office to fly out again’ King George.” While these discussions were going on amongst the group outside the Rainbow, a higher consultation was being carried on within, under the presidency of Mr. Crackenthorp, the rector, assisted by Squire Cass and other substantial parishioners. It had just occurred to Mr. Snell, the landlord—he being, as he observed, a man accustomed to put two and two together—to connect with the tinder-box, which, as deputy-constable, he himself had had the honourable distinction of finding, certain recollections of a pedlar who had called to drink at the house about a month before, and had actually stated that he carried a tinder-box about with him to light his pipe. Here, surely, was a clue to be followed out. And as memory, when duly impregnated with ascertained facts, is sometimes surprisingly fertile, Mr. Snell gradually recovered a vivid impression of the effect produced on him by the pedlar’s countenance and conversation. He had a “look with his eye” which fell unpleasantly on Mr. Snell’s sensitive organism.",
   "words": [
     {
-      "word": "anxious",
+      "word": "tinder",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "conveyed",
+      "word": "presidency",
       "signals": [
-        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rector",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "duly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gradually",
+      "signals": [
         "gloss-overlap"
       ]
     }
@@ -22,7 +39,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

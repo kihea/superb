@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-two-years-before-the-mast-038",
+  "pool": "sourced",
+  "text": "Miles out at sea, on the desolate rocks of the Farallones, gleamed the powerful rays of one of the most costly and effective light-houses in the world. As we drew in through the Golden Gate, another light-house met our eyes, and in the clear moonlight of the unbroken California summer we saw, on the right, a large fortification protecting the narrow entrance, and just before us the little island of Alcatraz confronted us,--one entire fortress. We bore round the point toward the old anchoring-ground of the hide ships, and there, covering the sand-hills and the valleys, stretching from the water's edge to the base of the great hills, and from the old Presidio to the Mission, flickering all over with the lamps of its streets and houses, lay a city of one hundred thousand inhabitants. Clocks tolled the hour of midnight from its steeples, but the city was alive from the salute of our guns, spreading the news that the fortnightly steamer had come, bringing mails and passengers from the Atlantic world.",
+  "words": [
+    {
+      "word": "desolate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fortress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

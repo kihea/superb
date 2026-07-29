@@ -1,10 +1,34 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-020",
   "pool": "sourced",
-  "text": "How miserably unfortunate! Had Hepzibah but shrieked aloud,—had Clifford flung wide the door, and proclaimed Judge Pyncheon’s death,—it would have been, however awful in itself, an event fruitful of good consequences to them. As I view it, it would have gone far towards obliterating the black stain on Clifford’s character.” “And how,” asked Phœbe, “could any good come from what is so very dreadful?” “Because,” said the artist, “if the matter can be fairly considered and candidly interpreted, it must be evident that Judge Pyncheon could not have come unfairly to his end. This mode of death had been an idiosyncrasy with his family, for generations past; not often occurring, indeed, but, when it does occur, usually attacking individuals about the Judge’s time of life, and generally in the tension of some mental crisis, or, perhaps, in an access of wrath. Old Maule’s prophecy was probably founded on a knowledge of this physical predisposition in the Pyncheon race.",
+  "text": "Clifford was indeed the most inveterate of conservatives. All the antique fashions of the street were dear to him; even such as were characterized by a rudeness that would naturally have annoyed his fastidious senses. He loved the old rumbling and jolting carts, the former track of which he still found in his long-buried remembrance, as the observer of to-day finds the wheel-tracks of ancient vehicles in Herculaneum. The butcher’s cart, with its snowy canopy, was an acceptable object; so was the fish-cart, heralded by its horn; so, likewise, was the countryman’s cart of vegetables, plodding from door to door, with long pauses of the patient horse, while his owner drove a trade in turnips, carrots, summer-squashes, string-beans, green peas, and new potatoes, with half the housewives of the neighborhood. The baker’s cart, with the harsh music of its bells, had a pleasant effect on Clifford, because, as few things else did, it jingled the very dissonance of yore.",
   "words": [
     {
-      "word": "flung",
+      "word": "antique",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snowy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canopy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harsh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

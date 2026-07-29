@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-main-street-023",
+  "pool": "sourced",
+  "text": "V Idling on the porch of their summer cottage at the lake, on afternoons when Kennicott was in town, when the water was glazed and the whole air languid, she pictured a hundred escapes: Fifth Avenue in a snow-storm, with limousines, golden shops, a cathedral spire. A reed hut on fantastic piles above the mud of a jungle river. A suite in Paris, immense high grave rooms, with lambrequins and a balcony. The Enchanted Mesa. An ancient stone mill in Maryland, at the turn of the road, between rocky brook and abrupt hills.",
+  "words": [
+    {
+      "word": "reed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

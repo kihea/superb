@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-034",
+  "pool": "sourced",
+  "text": "Effigies, donkey, lanterns, band, all had disappeared like the crew of Comus. “Now,” said Mr. Grower, “there’s only one thing more we can do. Get ye half-a-dozen helpers, and go in a body to Mixen Lane, and into Peter’s Finger. I’m much mistaken if you don’t find a clue to the perpetrators there.” The rusty-jointed executors of the law mustered assistance as soon as they could, and the whole party marched off to the lane of notoriety. It was no rapid matter to get there at night, not a lamp or glimmer of any sort offering itself to light the way, except an occasional pale radiance through some window-curtain, or through the chink of some door which could not be closed because of the smoky chimney within.",
+  "words": [
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chimney",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

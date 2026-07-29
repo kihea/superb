@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-rip-van-winkle-022",
+  "pool": "sourced",
+  "text": "leaving him aghast on the brink of a beetling precipice or raging torrent. The favourite abode of this Manitou is still shown. It is a great rock or cliff on the loneliest part of the mountains, and, from the flowering vines which clamber about it, and the wild flowers which abound in its neighbourhood, is known by the name of the Garden Rock. Near the foot of it is a small lake, the haunt of the solitary bittern, with water-snakes basking in the sun on the leaves of the pond-lilies which lie on the surface. This place was held in great awe by the Indians, insomuch that the boldest hunter would not pursue his game within its precincts.",
+  "words": [
+    {
+      "word": "brink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torrent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cliff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Rip Van Winkle",
+    "author": "Washington Irving",
+    "year": 1819,
+    "source": "Project Gutenberg #60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

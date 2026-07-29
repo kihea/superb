@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-invisible-man-030",
+  "pool": "sourced",
+  "text": "‘Who’s that?’ cried one, and ‘Stop there!’ shouted the other. I dashed around a corner and came full tilt—a faceless figure, mind you!—on a lanky lad of fifteen. He yelled and I bowled him over, rushed past him, turned another corner, and by a happy inspiration threw myself behind a counter. In another moment feet went running past and I heard voices shouting, ‘All hands to the doors!’ asking what was ‘up,’ and giving one another advice how to catch me. “Lying on the ground, I felt scared out of my wits.",
+  "words": [
+    {
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

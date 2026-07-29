@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-through-the-looking-glass-036",
+  "pool": "sourced",
+  "text": "Alice thought she saw a way out of the difficulty this time. “If you’ll tell me what language ‘fiddle-de-dee’ is, I’ll tell you the French for it!” she exclaimed triumphantly. But the Red Queen drew herself up rather stiffly, and said “Queens never make bargains.” “I wish Queens never asked questions,” Alice thought to herself. “Don’t let us quarrel,” the White Queen said in an anxious tone. “What is the cause of lightning?” “The cause of lightning,” Alice said very decidedly, for she felt quite certain about this, “is the thunder—no, no!” she hastily corrected herself.",
+  "words": [
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

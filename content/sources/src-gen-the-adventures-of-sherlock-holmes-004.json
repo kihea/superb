@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-004",
   "pool": "sourced",
-  "text": "I then glanced at her face, and, observing the dint of a pince-nez at either side of her nose, I ventured a remark upon short sight and typewriting, which seemed to surprise her.” “It surprised me.” “But, surely, it was obvious. I was then much surprised and interested on glancing down to observe that, though the boots which she was wearing were not unlike each other, they were really odd ones; the one having a slightly decorated toe-cap, and the other a plain one. One was buttoned only in the two lower buttons out of five, and the other at the first, third, and fifth. Now, when you see that a young lady, otherwise neatly dressed, has come away from home with odd boots, half-buttoned, it is no great deduction to say that she came away in a hurry.” “And what else?” I asked, keenly interested, as I always was, by my friend’s incisive reasoning. “I noted, in passing, that she had written a note before leaving home but after being fully dressed.",
+  "text": "Within there was a small corridor, which ended in a very massive iron gate. This also was opened, and led down a flight of winding stone steps, which terminated at another formidable gate. Mr. Merryweather stopped to light a lantern, and then conducted us down a dark, earth-smelling passage, and so, after opening a third door, into a huge vault or cellar, which was piled all round with crates and massive boxes. “You are not very vulnerable from above,” Holmes remarked as he held up the lantern and gazed about him. “Nor from below,” said Mr. Merryweather, striking his stick upon the flags which lined the floor.",
   "words": [
     {
-      "word": "toe",
+      "word": "corridor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terminated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

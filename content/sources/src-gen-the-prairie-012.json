@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prairie-012",
   "pool": "sourced",
-  "text": "I got what things he needed, however, and went kiting home again. Thursday the Thirty-first I hardly know how to begin. But it must be written or I'll suddenly go mad and start to bite the shack walls. Last night, after Percy had helped me turn the bread-mixer (for, whatever happens, we've at least got to eat) I helped him pack. Among other things, he found a copy of Housman's Shropshire Lad and after running through it announced that he'd like to read me two or three little things out of it.",
+  "text": "To-night as I was making cocoa before we went to bed I tried to tell my Diddums there was something positively doglike in my devotion to him. He nickered like a pony and said he was the dog in this deal. Then he pulled me over on his knee and said that men get short-tempered when they were tuckered out with worry and hard work, and that probably it would be hard for even two of the seraphim always to get along together in a two-by-four shack, where you couldn't even have, a deadline for the sake of dignity. It was mostly his fault, he knew, but he was going to try to fight against it. And I experienced the unreasonable joy of an unreasonable woman who has succeeded in putting the man she loves with all her heart and soul in the wrong.",
   "words": [
     {
-      "word": "mixer",
+      "word": "devotion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deadline",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

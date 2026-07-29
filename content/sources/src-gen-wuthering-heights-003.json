@@ -1,59 +1,22 @@
 {
   "id": "src-gen-wuthering-heights-003",
   "pool": "sourced",
-  "text": "My landlord halloed for me to stop ere I reached the bottom of the garden, and offered to accompany me across the moor. It was well he did, for the whole hill-back was one billowy, white ocean; the swells and falls not indicating corresponding rises and depressions in the ground: many pits, at least, were filled to a level; and entire ranges of mounds, the refuse of the quarries, blotted from the chart which my yesterday’s walk left pictured in my mind. I had remarked on one side of the road, at intervals of six or seven yards, a line of upright stones, continued through the whole length of the barren: these were erected and daubed with lime on purpose to serve as guides in the dark, and also when a fall, like the present, confounded the deep swamps on either hand with the firmer path: but, excepting a dirty dot pointing up here and there, all traces of their existence had vanished: and my companion found it necessary to warn me frequently to steer to the right or left, when I imagined I was following, correctly, the windings of the road.",
+  "text": "Hey Wolf, holld him, holld him!” On opening the little door, two hairy monsters flew at my throat, bearing me down, and extinguishing the light; while a mingled guffaw from Heathcliff and Hareton put the copestone on my rage and humiliation. Fortunately, the beasts seemed more bent on stretching their paws, and yawning, and flourishing their tails, than devouring me alive; but they would suffer no resurrection, and I was forced to lie till their malignant masters pleased to deliver me: then, hatless and trembling with wrath, I ordered the miscreants to let me out—on their peril to keep me one minute longer—with several incoherent threats of retaliation that, in their indefinite depth of virulency, smacked of King Lear. The vehemence of my agitation brought on a copious bleeding at the nose, and still Heathcliff laughed, and still I scolded. I don’t know what would have concluded the scene, had there not been one person at hand rather more rational than myself, and more benevolent than my entertainer. This was Zillah, the stout housewife; who at length issued forth to inquire into the nature of the uproar.",
   "words": [
     {
-      "word": "accompany",
+      "word": "fortunately",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "resurrection",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pits",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ranges",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mounds",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "barren",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "erected",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "swamps",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pointing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "companion",
+      "word": "entertainer",
       "signals": [
         "gloss-overlap"
       ]
@@ -64,7 +27,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

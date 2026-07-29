@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-awakening-038",
+  "pool": "sourced",
+  "text": "A PAIR OF SILK STOCKINGS Little Mrs. Sommers one day found herself the unexpected possessor of fifteen dollars. It seemed to her a very large amount of money, and the way in which it stuffed and bulged her worn old porte-monnaie gave her a feeling of importance such as she had not enjoyed for years. The question of investment was one that occupied her greatly. For a day or two she walked about apparently in a dreamy state, but really absorbed in speculation and calculation. She did not wish to act hastily, to do anything she might afterward regret.",
+  "words": [
+    {
+      "word": "absorbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "speculation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "calculation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

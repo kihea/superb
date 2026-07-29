@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-032",
+  "pool": "sourced",
+  "text": "“Good-ness gracious!” she says, “what in the world can have become of him?” “I can’t imagine,” says the old gentleman; “and I must say it makes me dreadful uneasy.” “Uneasy!” she says; “I’m ready to go distracted! He must a come; and you’ve missed him along the road. I know it’s so—something tells me so.” “Why, Sally, I couldn’t miss him along the road—you know that.” “But oh, dear, dear, what will Sis say! He must a come! You must a missed him.",
+  "words": [
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

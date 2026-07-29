@@ -1,18 +1,12 @@
 {
   "id": "src-gen-notes-from-underground-020",
   "pool": "sourced",
-  "text": "Surely by now you must realise that I shall never forgive you for having found me in this wretched dressing-gown, just as I was flying at Apollon like a spiteful cur. The saviour, the former hero, was flying like a mangy, unkempt sheep-dog at his lackey, and the lackey was jeering at him! And I shall never forgive you for the tears I could not help shedding before you just now, like some silly woman put to shame! And for what I am confessing to you now, I shall never forgive you either! Yes—you must answer for it all because you turned up like this, because I am a blackguard, because I am the nastiest, stupidest, absurdest and most envious of all the worms on earth, who are not a bit better than I am, but, the devil knows why, are never put to confusion; while I shall always be insulted by every louse, that is my doom!",
+  "text": "And I could hardly have resigned myself to the simple, vulgar, direct debauchery of a clerk and have endured all the filthiness of it. What could have allured me about it then and have drawn me at night into the street? No, I had a lofty way of getting out of it all. And what loving-kindness, oh Lord, what loving-kindness I felt at times in those dreams of mine! in those “flights into the sublime and the beautiful”; though it was fantastic love, though it was never applied to anything human in reality, yet there was so much of this love that one did not feel afterwards even the impulse to apply it in reality; that would have been superfluous.",
   "words": [
     {
-      "word": "dressing",
+      "word": "clerk",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "saviour",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

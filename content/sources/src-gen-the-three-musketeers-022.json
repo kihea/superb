@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-022",
+  "pool": "sourced",
+  "text": "D’Artagnan came again on the morrow, and was still better received than on the evening before. Lord de Winter was not at home; and it was Milady who this time did all the honors of the evening. She appeared to take a great interest in him, asked him whence he came, who were his friends, and whether he had not sometimes thought of attaching himself to the cardinal. D’Artagnan, who, as we have said, was exceedingly prudent for a young man of twenty, then remembered his suspicions regarding Milady. He launched into a eulogy of his Eminence, and said that he should not have failed to enter into the Guards of the cardinal instead of the king’s Guards if he had happened to know M. de Cavois instead of M. de Tréville.",
+  "words": [
+    {
+      "word": "exceedingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

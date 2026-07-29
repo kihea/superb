@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-013",
   "pool": "sourced",
-  "text": "I’ve left her a legacy--five thousand pounds.” “That’s capital; it’s very kind of you. But I should like to do a little more.” Something of that veiled acuteness with which it had been on Daniel Touchett’s part the habit of a lifetime to listen to a financial proposition still lingered in the face in which the invalid had not obliterated the man of business. “I shall be happy to consider it,” he said softly. “Isabel’s poor then. My mother tells me that she has but a few hundred dollars a year.",
+  "text": "Then Henrietta presents herself, and I’m straightway convinced by her; not so much in respect to herself as in respect to what masses behind her.” “Ah, you mean the back view of her,” Ralph suggested. “What she says is true,” his cousin answered; “you’ll never be serious. I like the great country stretching away beyond the rivers and across the prairies, blooming and smiling and spreading till it stops at the green Pacific! A strong, sweet, fresh odour seems to rise from it, and Henrietta--pardon my simile--has something of that odour in her garments.” Isabel blushed a little as she concluded this speech, and the blush, together with the momentary ardour she had thrown into it, was so becoming to her that Ralph stood smiling at her for a moment after she had ceased speaking. “I’m not sure the Pacific’s so green as that,” he said; “but you’re a young woman of imagination.",
   "words": [
     {
-      "word": "veiled",
+      "word": "stretching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spreading",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

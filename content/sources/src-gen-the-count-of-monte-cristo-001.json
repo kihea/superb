@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-001",
   "pool": "sourced",
-  "text": "Well, I will tell you. It was thought reliance might be placed in General Quesnel; he was recommended to us from the Island of Elba; one of us went to him, and invited him to the Rue Saint-Jacques, where he would find some friends. He came there, and the plan was unfolded to him for leaving Elba, the projected landing, etc. When he had heard and comprehended all to the fullest extent, he replied that he was a royalist. Then all looked at each other,—he was made to take an oath, and did so, but with such an ill grace that it was really tempting Providence to swear thus, and yet, in spite of that, the general was allowed to depart free—perfectly free.",
+  "text": "really, Villefort, you surprise me. You, a deputy procureur, to found an accusation on such bad premises! Did I ever say to you, when you were fulfilling your character as a royalist, and cut off the head of one of my party, ‘My son, you have committed a murder?’ No, I said, ‘Very well, sir, you have gained the victory; tomorrow, perchance, it will be our turn.’” “But, father, take care; when our turn comes, our revenge will be sweeping.” “I do not understand you.” “You rely on the usurper’s return?” “We do.” “You are mistaken; he will not advance two leagues into the interior of France without being followed, tracked, and caught like a wild beast.” “My dear fellow, the emperor is at this moment on the way to Grenoble; on the 10th or 12th he will be at Lyons, and on the 20th or 25th at Paris.” “The people will rise.” “Yes, to go and meet him.” “He has but a handful of men with him, and armies will be despatched against him.” “Yes, to escort him into the capital.",
   "words": [
     {
-      "word": "spite",
+      "word": "handful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "escort",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

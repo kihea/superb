@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-028",
+  "pool": "sourced",
+  "text": "The garden, with its muddy walks, and the chill, dripping foliage of its summer-house, was an image to be shuddered at. Nothing flourished in the cold, moist, pitiless atmosphere, drifting with the brackish scud of sea-breezes, except the moss along the joints of the shingle-roof, and the great bunch of weeds, that had lately been suffering from drought, in the angle between the two front gables. As for Hepzibah, she seemed not merely possessed with the east wind, but to be, in her very person, only another phase of this gray and sullen spell of weather; the East-Wind itself, grim and disconsolate, in a rusty black silk gown, and with a turban of cloud-wreaths on its head. The custom of the shop fell off, because a story got abroad that she soured her small beer and other damageable commodities, by scowling on them. It is, perhaps, true that the public had something reasonably to complain of in her deportment; but towards Clifford she was neither ill-tempered nor unkind, nor felt less warmth of heart than always, had it been possible to make it reach him.",
+  "words": [
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drought",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grim",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

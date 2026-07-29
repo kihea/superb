@@ -1,22 +1,10 @@
 {
   "id": "src-gen-emma-009",
   "pool": "sourced",
-  "text": "The circumstance was told him at Hartfield; for the moment, he was silent; but Emma heard him almost immediately afterwards say to himself, over a newspaper he held in his hand, “Hum! just the trifling, silly fellow I took him for.” She had half a mind to resent; but an instant’s observation convinced her that it was really said only to relieve his own feelings, and not meant to provoke; and therefore she let it pass. Although in one instance the bearers of not good tidings, Mr. and Mrs. Weston’s visit this morning was in another respect particularly opportune. Something occurred while they were at Hartfield, to make Emma want their advice; and, which was still more lucky, she wanted exactly the advice they gave. This was the occurrence:—The Coles had been settled some years in Highbury, and were very good sort of people—friendly, liberal, and unpretending; but, on the other hand, they were of low origin, in trade, and only moderately genteel.",
+  "text": "The evening before this great event (for it was a very great event that Mr. Woodhouse should dine out, on the 24th of December) had been spent by Harriet at Hartfield, and she had gone home so much indisposed with a cold, that, but for her own earnest wish of being nursed by Mrs. Goddard, Emma could not have allowed her to leave the house. Emma called on her the next day, and found her doom already signed with regard to Randalls. She was very feverish and had a bad sore throat: Mrs. Goddard was full of care and affection, Mr. Perry was talked of, and Harriet herself was too ill and low to resist the authority which excluded her from this delightful engagement, though she could not speak of her loss without many tears. Emma sat with her as long as she could, to attend her in Mrs. Goddard’s unavoidable absences, and raise her spirits by representing how much Mr. Elton’s would be depressed when he knew her state; and left her at last tolerably comfortable, in the sweet dependence of his having a most comfortless visit, and of their all missing her very much.",
   "words": [
     {
-      "word": "circumstance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bearers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "occurrence",
+      "word": "dependence",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

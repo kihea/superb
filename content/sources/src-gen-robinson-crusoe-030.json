@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-robinson-crusoe-030",
+  "pool": "sourced",
+  "text": "I have told this passage, because it introduces what follows: that after this discourse I had with him, I asked him how far it was from our island to the shore, and whether the canoes were not often lost. He told me there was no danger, no canoes ever lost: but that after a little way out to sea, there was a current and wind, always one way in the morning, the other in the afternoon. This I understood to be no more than the sets of the tide, as going out or coming in; but I afterwards understood it was occasioned by the great draft and reflux of the mighty river Orinoco, in the mouth or gulf of which river, as I found afterwards, our island lay; and that this land, which I perceived to be W. and NW., was the great island Trinidad, on the north point of the mouth of the river. I asked Friday a thousand questions about the country, the inhabitants, the sea, the coast, and what nations were near; he told me all he knew with the greatest openness imaginable.",
+  "words": [
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inhabitants",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

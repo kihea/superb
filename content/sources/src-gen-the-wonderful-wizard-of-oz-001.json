@@ -28,19 +28,7 @@
       ]
     },
     {
-      "word": "chairs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "cellar",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dug",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +45,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

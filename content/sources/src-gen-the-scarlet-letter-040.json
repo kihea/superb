@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-scarlet-letter-040",
+  "pool": "sourced",
+  "text": "According to these highly-respectable witnesses, the minister, conscious that he was dying—conscious, also, that the reverence of the multitude placed him already among saints and angels—had desired, by yielding up his breath in the arms of that fallen woman, to express to the world how utterly nugatory is the choicest of man’s own righteousness. After exhausting life in his efforts for mankind’s spiritual good, he had made the manner of his death a parable, in order to impress on his admirers the mighty and mournful lesson, that, in the view of Infinite Purity, we are sinners all alike. It was to teach them, that the holiest amongst us has but attained so far above his fellows as to discern more clearly the Mercy which looks down, and repudiate more utterly the phantom of human merit, which would look aspiringly upward. Without disputing a truth so momentous, we must be allowed to consider this version of Mr. Dimmesdale’s story as only an instance of that stubborn fidelity with which a man’s friends—and especially a clergyman’s—will sometimes uphold his character, when proofs, clear as the mid-day sunshine on the scarlet letter, establish him a false and sin-stained creature of the dust.",
+  "words": [
+    {
+      "word": "mankind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alike",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clergyman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scarlet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

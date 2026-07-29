@@ -1,10 +1,16 @@
 {
   "id": "src-gen-vanity-fair-018",
   "pool": "sourced",
-  "text": "Miss Polly was charmed and astonished at this proposal. She knew the way. She would show Major Dobbin. She had often been with Mr. Sedley when Mrs. O. was gone--was gone Russell Square way--and knew the bench where he liked to sit. She bounced away to her apartment and appeared presently in her best bonnet and her mamma's yellow shawl and large pebble brooch, of which she assumed the loan in order to make herself a worthy companion for the Major.",
+  "text": "If I'm done, those two ought to fetch you something. Grigg offered ninety for the mare yesterday, before this confounded news came, and like a fool I wouldn't let her go under the two o's. Bullfinch will fetch his price any day, only you'd better sell him in this country, because the dealers have so many bills of mine, and so I'd rather he shouldn't go back to England. Your little mare the General gave you will fetch something, and there's no d--d livery stable bills here as there are in London,\" Rawdon added, with a laugh. \"There's that dressing-case cost me two hundred--that is, I owe two for it; and the gold tops and bottles must be worth thirty or forty.",
   "words": [
     {
-      "word": "shawl",
+      "word": "dressing",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "owe",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-great-god-pan-014",
   "pool": "sourced",
-  "text": "“Yes; I wrote asking for full particulars as to his illness and death. I don’t expect to have an answer for another three weeks or a month. I thought I might as well inquire whether Meyrick knew an Englishwoman named Herbert, and if so, whether the doctor could give me any information about her. But it’s very possible that Meyrick fell in with her at New York, or Mexico, or San Francisco; I have no idea as to the extent or direction of his travels.” “Yes, and it’s very possible that the woman may have more than one name.” “Exactly. I wish I had thought of asking you to lend me the portrait of her which you possess.",
+  "text": "The constable pointed out the contents of the area to the maid, who screamed loudly enough to wake up the street, but she knew nothing of the man; had never seen him at the house, and so forth. Meanwhile, the original discoverer had come back with a medical man, and the next thing was to get into the area. The gate was open, so the whole quartet stumped down the steps. The doctor hardly needed a moment’s examination; he said the poor fellow had been dead for several hours, and it was then the case began to get interesting. The dead man had not been robbed, and in one of his pockets were papers identifying him as—well, as a man of good family and means, a favourite in society, and nobody’s enemy, as far as could be known.",
   "words": [
     {
-      "word": "travels",
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "identifying",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

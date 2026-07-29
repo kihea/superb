@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-024",
+  "pool": "sourced",
+  "text": "The next morning D’Artagnan ran to find Athos. He was engaged in an adventure so singular that he wished for counsel. He therefore told him all. “Your Milady,” said he, “appears to be an infamous creature, but not the less you have done wrong to deceive her. In one fashion or another you have a terrible enemy on your hands.” While thus speaking Athos regarded with attention the sapphire set with diamonds which had taken, on D’Artagnan’s finger, the place of the queen’s ring, carefully kept in a casket.",
+  "words": [
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diamonds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

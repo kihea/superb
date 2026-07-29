@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-turn-of-the-screw-019",
   "pool": "sourced",
-  "text": "If so much had sprung to the surface, I scarce put it too strongly in saying that what had perhaps sprung highest was the absurdity of our prolonging the fiction that I had anything more to teach him. It sufficiently stuck out that, by tacit little tricks in which even more than myself he carried out the care for my dignity, I had had to appeal to him to let me off straining to meet him on the ground of his true capacity. He had at any rate his freedom now; I was never to touch it again; as I had amply shown, moreover, when, on his joining me in the schoolroom the previous night, I had uttered, on the subject of the interval just concluded, neither challenge nor hint. I had too much, from this moment, my other ideas. Yet when he at last arrived, the difficulty of applying them, the accumulations of my problem, were brought straight home to me by the beautiful little presence on which what had occurred had as yet, for the eye, dropped neither stain nor shadow.",
+  "text": "The child had again got up—this time blowing out the taper, and had again, for some purpose of observation or response, squeezed in behind the blind and was peering out into the night. That she now saw—as she had not, I had satisfied myself, the previous time—was proved to me by the fact that she was disturbed neither by my reillumination nor by the haste I made to get into slippers and into a wrap. Hidden, protected, absorbed, she evidently rested on the sill—the casement opened forward—and gave herself up. There was a great still moon to help her, and this fact had counted in my quick decision. She was face to face with the apparition we had met at the lake, and could now communicate with it as she had not then been able to do.",
   "words": [
     {
-      "word": "scarce",
+      "word": "observation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

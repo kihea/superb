@@ -1,18 +1,12 @@
 {
   "id": "src-gen-heart-of-darkness-010",
   "pool": "sourced",
-  "text": "What did it matter who was manager? One gets sometimes such a flash of insight. The essentials of this affair lay deep under the surface, beyond my reach, and beyond my power of meddling. “Towards the evening of the second day we judged ourselves about eight miles from Kurtz’s station. I wanted to push on; but the manager looked grave, and told me the navigation up there was so dangerous that it would be advisable, the sun being very low already, to wait where we were till next morning.",
+  "text": "Then I noticed a small sketch in oils, on a panel, representing a woman, draped and blindfolded, carrying a lighted torch. The background was sombre—almost black. The movement of the woman was stately, and the effect of the torchlight on the face was sinister. “It arrested me, and he stood by civilly, holding an empty half-pint champagne bottle (medical comforts) with the candle stuck in it. To my question he said Mr. Kurtz had painted this—in this very station more than a year ago—while waiting for means to go to his trading post.",
   "words": [
     {
-      "word": "insight",
+      "word": "torch",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "advisable",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

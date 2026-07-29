@@ -1,22 +1,10 @@
 {
   "id": "src-gen-bleak-house-002",
   "pool": "sourced",
-  "text": "I was a little curious to know who a mild bald gentleman in spectacles was, who dropped into a vacant chair (there was no top or bottom in particular) after the fish was taken away and seemed passively to submit himself to Borrioboola-Gha but not to be actively interested in that settlement. As he never spoke a word, he might have been a native but for his complexion. It was not until we left the table and he remained alone with Richard that the possibility of his being Mr. Jellyby ever entered my head. But he WAS Mr. Jellyby; and a loquacious young man called Mr. Quale, with large shining knobs for temples and his hair all brushed to the back of his head, who came in the evening, and told Ada he was a philanthropist, also informed her that he called the matrimonial alliance of Mrs. Jellyby with Mr. Jellyby the union of mind and matter.",
+  "text": "“Pray be seated—here near me. Don’t distress yourself; it’s of no use. Mrs. Rachael, I needn’t inform you who were acquainted with the late Miss Barbary’s affairs, that her means die with her and that this young lady, now her aunt is dead—” “My aunt, sir!” “It is really of no use carrying on a deception when no object is to be gained by it,” said Mr. Kenge smoothly, “Aunt in fact, though not in law. Don’t distress yourself! Don’t weep!",
   "words": [
     {
-      "word": "bald",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brushed",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1853,
     "source": "Project Gutenberg #1023",
-    "url": "https://www.gutenberg.org/ebooks/1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

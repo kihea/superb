@@ -1,29 +1,10 @@
 {
   "id": "src-gen-sister-carrie-009",
   "pool": "sourced",
-  "text": "How often had she looked at the well-dressed actresses on the stage and wondered how she would look, how delightful she would feel if only she were in their place. The glamour, the tense situation, the fine clothes, the applause, these had lured her until she felt that she, too, could act--that she, too, could compel acknowledgment of power. Now she was told that she really could--that little things she had done about the house had made even him feel her power. It was a delightful sensation while it lasted. When Drouet was gone, she sat down in her rocking-chair by the window to think about it.",
+  "text": "\"Oh,\" she said at last, \"poor Sister Carrie!\" At the time of this particular conversation, which occurred at 5 A. M., that little soldier of fortune was sleeping a rather troubled sleep in her new room, alone. Carrie's new state was remarkable in that she saw possibilities in it. She was no sensualist, longing to drowse sleepily in the lap of luxury. She turned about, troubled by her daring, glad of her release, wondering whether she would get something to do, wondering what Drouet would do.",
   "words": [
     {
-      "word": "actresses",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glamour",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "applause",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "acknowledgment",
+      "word": "longing",
       "signals": [
         "gloss-overlap"
       ]
@@ -34,7 +15,7 @@
     "author": "Theodore Dreiser",
     "year": 1900,
     "source": "Project Gutenberg #5267",
-    "url": "https://www.gutenberg.org/ebooks/5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

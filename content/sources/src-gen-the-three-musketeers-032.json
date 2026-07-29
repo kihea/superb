@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-032",
+  "pool": "sourced",
+  "text": "At all events, she congratulated herself upon having fallen into the hands of her brother-in-law, with whom she reckoned she could deal very easily, rather than into the hands of an acknowledged and intelligent enemy. “Yes, let us chat, brother,” said she, with a kind of cheerfulness, decided as she was to draw from the conversation, in spite of all the dissimulation Lord de Winter could bring, the revelations of which she stood in need to regulate her future conduct. “You have, then, decided to come to England again,” said Lord de Winter, “in spite of the resolutions you so often expressed in Paris never to set your feet on British ground?” Milady replied to this question by another question. “To begin with, tell me,” said she, “how have you watched me so closely as to be aware beforehand not only of my arrival, but even of the day, the hour, and the port at which I should arrive?” Lord de Winter adopted the same tactics as Milady, thinking that as his sister-in-law employed them they must be the best.",
+  "words": [
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tactics",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

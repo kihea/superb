@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-034",
+  "pool": "sourced",
+  "text": "“But how can you get there?” said Tess, looking at the clock. “I cannot get there! I have come here.” “What, you have really arranged to preach, and—” “I have arranged to preach, and I shall not be there—by reason of my burning desire to see a woman whom I once despised!—No, by my word and truth, I never despised you; if I had I should not love you now! Why I did not despise you was on account of your being unsmirched in spite of all; you withdrew yourself from me so quickly and resolutely when you saw the situation; you did not remain at my pleasure; so there was one petticoat in the world for whom I had no contempt, and you are she. But you may well despise me now!",
+  "words": [
+    {
+      "word": "despise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

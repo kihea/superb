@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-032",
+  "pool": "sourced",
+  "text": "But you are ill; even now you tremble; you are unfit for agitation of any kind.” “This suspense is a thousand times worse than the most horrible event; tell me what new scene of death has been acted, and whose murder I am now to lament?” “Your family is perfectly well,” said Mr. Kirwin with gentleness; “and someone, a friend, is come to visit you.” I know not by what chain of thought the idea presented itself, but it instantly darted into my mind that the murderer had come to mock at my misery and taunt me with the death of Clerval, as a new incitement for me to comply with his hellish desires. I put my hand before my eyes, and cried out in agony, “Oh! Take him away! I cannot see him; for God’s sake, do not let him enter!” Mr. Kirwin regarded me with a troubled countenance.",
+  "words": [
+    {
+      "word": "murderer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

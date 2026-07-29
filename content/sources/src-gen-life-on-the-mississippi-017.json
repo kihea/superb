@@ -1,28 +1,10 @@
 {
   "id": "src-gen-life-on-the-mississippi-017",
   "pool": "sourced",
-  "text": "At present rates, the people who now occupy it are of no more value than I am; but in my time they would have been worth not less than five hundred dollars apiece. They are colored folk. After breakfast, I went out alone again, intending to hunt up some of the Sunday-schools and see how this generation of pupils might compare with their progenitors who had sat with me in those places and had probably taken me as a model--though I do not remember as to that now. By the public square there had been in my day a shabby little brick church called the 'Old Ship of Zion,' which I had attended as a Sunday-school scholar; and I found the locality easily enough, but not the old church; it was gone, and a trig and rather hilarious new edifice was in its place. The pupils were better dressed and better looking than were those of my time; consequently they did not resemble their ancestors; and consequently there was nothing familiar to me in their faces.",
+  "text": "Nine times in ten you can't tell where the water is; and when you do see where it is, like as not it ain't there when you get there, the devils have swapped around so, meantime. Of course there were some few pilots that could judge of alligator water nearly as well as they could of any other kind, but they had to have natural talent for it; it wasn't a thing a body could learn, you had to be born with it. Let me see: there was Ben Thornburg, and Beck Jolly, and Squire Bell, and Horace Bixby, and Major Downing, and John Stevenson, and Billy Gordon, and Jim Brady, and George Ealer, and Billy Youngblood--all A-1 alligator pilots. They could tell alligator water as far as another Christian could tell whiskey. Read it?--Ah, couldn't they, though!",
   "words": [
     {
-      "word": "pupils",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shabby",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "scholar",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ancestors",
+      "word": "meantime",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

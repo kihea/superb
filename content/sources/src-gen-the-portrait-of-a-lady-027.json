@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-027",
+  "pool": "sourced",
+  "text": "Isabel thought the better of herself for enjoying the favour of a person who had so large a field of comparison; and it was perhaps partly to gratify the sense of profiting by comparison that she often appealed to these stores of reminiscence. Madame Merle had been a dweller in many lands and had social ties in a dozen different countries. “I don’t pretend to be educated,” she would say, “but I think I know my Europe;” and she spoke one day of going to Sweden to stay with an old friend, and another of proceeding to Malta to follow up a new acquaintance. With England, where she had often dwelt, she was thoroughly familiar, and for Isabel’s benefit threw a great deal of light upon the customs of the country and the character of the people, who “after all,” as she was fond of saying, were the most convenient in the world to live with. “You mustn’t think it strange her remaining here at such a time as this, when Mr. Touchett’s passing away,” that gentleman’s wife remarked to her niece.",
+  "words": [
+    {
+      "word": "proceeding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

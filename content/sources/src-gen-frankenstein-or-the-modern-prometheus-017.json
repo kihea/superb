@@ -1,16 +1,28 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-017",
   "pool": "sourced",
-  "text": "My father yielded at length to my desire to avoid society and strove by various arguments to banish my despair. Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of murder, and he endeavoured to prove to me the futility of pride. My father,” said I, “how little do you know me. Human beings, their feelings and passions, would indeed be degraded if such a wretch as I felt pride. Justine, poor unhappy Justine, was as innocent as I, and she suffered the same charge; she died for it; and I am the cause of this—I murdered her.",
+  "text": "Before I had quitted your apartment, on a sensation of cold, I had covered myself with some clothes, but these were insufficient to secure me from the dews of night. I was a poor, helpless, miserable wretch; I knew, and could distinguish, nothing; but feeling pain invade me on all sides, I sat down and wept. “Soon a gentle light stole over the heavens and gave me a sensation of pleasure. I started up and beheld a radiant form rise from among the trees. I gazed with a kind of wonder.",
   "words": [
     {
-      "word": "degradation",
+      "word": "sensation",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "passions",
+      "word": "insufficient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "radiant",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

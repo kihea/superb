@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-027",
+  "pool": "sourced",
+  "text": "D’Artagnan remained all day in his quarters, assigning as a reason to himself that the weather was bad. At nine o’clock the next morning, the drums beat to arms. The Duc d’Orléans visited the posts. The guards were under arms, and D’Artagnan took his place in the midst of his comrades. Monsieur passed along the front of the line; then all the superior officers approached him to pay their compliments, M. Dessessart, captain of the Guards, as well as the others.",
+  "words": [
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

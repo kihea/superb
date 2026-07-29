@@ -1,10 +1,22 @@
 {
   "id": "src-gen-ethan-frome-008",
   "pool": "sourced",
-  "text": "The sweetness of the picture, and the relief of knowing that his fears of “trouble” with Zeena were unfounded, sent up his spirits with a rush, and he, who was usually so silent, whistled and sang aloud as he drove through the snowy fields. There was in him a slumbering spark of sociability which the long Starkfield winters had not yet extinguished. By nature grave and inarticulate, he admired recklessness and gaiety in others and was warmed to the marrow by friendly human intercourse. At Worcester, though he had the name of keeping to himself and not being much of a hand at a good time, he had secretly gloried in being clapped on the back and hailed as “Old Ethe” or “Old Stiff”; and the cessation of such familiarities had increased the chill of his return to Starkfield. There the silence had deepened about him year by year.",
+  "text": "One cold winter morning, as he dressed in the dark, his candle flickering in the draught of the ill-fitting window, he had heard her speak from the bed behind him. “The doctor don’t want I should be left without anybody to do for me,” she said in her flat whine. He had supposed her to be asleep, and the sound of her voice had startled him, though she was given to abrupt explosions of speech after long intervals of secretive silence. He turned and looked at her where she lay indistinctly outlined under the dark calico quilt, her high-boned face taking a grayish tinge from the whiteness of the pillow. “Nobody to do for you?” he repeated.",
   "words": [
     {
-      "word": "winters",
+      "word": "whine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quilt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

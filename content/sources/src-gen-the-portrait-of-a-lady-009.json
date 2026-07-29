@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-009",
   "pool": "sourced",
-  "text": "Isabel was sure moreover that her mild forehead and silver cross referred to some weird Anglican mystery--some delightful reinstitution perhaps of the quaint office of the canoness. She wondered what Miss Molyneux would think of her if she knew Miss Archer had refused her brother; and then she felt sure that Miss Molyneux would never know--that Lord Warburton never told her such things. He was fond of her and kind to her, but on the whole he told her little. Such, at least, was Isabel’s theory; when, at table, she was not occupied in conversation she was usually occupied in forming theories about her neighbours. According to Isabel, if Miss Molyneux should ever learn what had passed between Miss Archer and Lord Warburton she would probably be shocked at such a girl’s failure to rise; or no, rather (this was our heroine’s last position) she would impute to the young American but a due consciousness of inequality.",
+  "text": "But Isabel had need to remind herself that she was interested in human nature and that her foremost hope in coming abroad had been that she should see a great many people. When Ralph said to her, as he had done several times, “I wonder you find this endurable; you ought to see some of the neighbours and some of our friends, because we have really got a few, though you would never suppose it”--when he offered to invite what he called a “lot of people” and make her acquainted with English society, she encouraged the hospitable impulse and promised in advance to hurl herself into the fray. Little, however, for the present, had come of his offers, and it may be confided to the reader that if the young man delayed to carry them out it was because he found the labour of providing for his companion by no means so severe as to require extraneous help. Isabel had spoken to him very often about “specimens;” it was a word that played a considerable part in her vocabulary; she had given him to understand that she wished to see English society illustrated by eminent cases.",
   "words": [
     {
-      "word": "neighbours",
+      "word": "vocabulary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eminent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

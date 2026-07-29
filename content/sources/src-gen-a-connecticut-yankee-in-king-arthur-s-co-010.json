@@ -1,10 +1,40 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-010",
   "pool": "sourced",
-  "text": "I could hardly get to sleep for glorying over it. A RIVAL MAGICIAN My influence in the Valley of Holiness was something prodigious now. It seemed worth while to try to turn it to some valuable account. The thought came to me the next morning, and was suggested by my seeing one of my knights who was in the soap line come riding in. According to history, the monks of this place two centuries before had been worldly minded enough to want to wash.",
+  "text": "The country is the real thing, the substantial thing, the eternal thing; it is the thing to watch over, and care for, and be loyal to; institutions are extraneous, they are its mere clothing, and clothing can wear out, become ragged, cease to be comfortable, cease to protect the body from winter, disease, and death. To be loyal to rags, to shout for rags, to worship rags, to die for rags--that is a loyalty of unreason, it is pure animal; it belongs to monarchy, was invented by monarchy; let monarchy keep it. I was from Connecticut, whose Constitution declares “that all political power is inherent in the people, and all free governments are founded on their authority and instituted for their benefit; and that they have at all times an undeniable and indefeasible right to alter their form of government in such a manner as they may think expedient.” Under that gospel, the citizen who thinks he sees that the commonwealth's political clothes are worn out, and yet holds his peace and does not agitate for a new suit, is disloyal; he is a traitor.",
   "words": [
     {
-      "word": "minded",
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "loyalty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monarchy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gospel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traitor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

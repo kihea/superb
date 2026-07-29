@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prairie-016",
   "pool": "sourced",
-  "text": "In another minute he had the hobble off Paddy and had swung me up on that astonished pinto's back. The next minute he himself was on Maid Marian, poking one end of the long rein into my hand and telling me to keep up with him. We rode like mad. I scarcely understood what it meant, at the time, but I at least kept up with him. We went floundering through one end of a slough until the blanket was wet and heavy and I could hardly hold it.",
+  "text": "Then there was silence, except for one double \"click-click\" which I couldn't understand. Oh, Matilda Anne, how I watched that cellar opening! And I saw a back with a red coat on it slowly rise out of the hole. He, the man who owned the back of course, was dragging the other man bodily up the narrow little stairs. There was a pair of handcuffs already on his wrists and he seemed dazed and helpless, for that slim-looking soldier boy had pummeled him unmercifully, knocking out his two front teeth, one of which I found on the doorstep when I was sweeping up.",
   "words": [
     {
-      "word": "blanket",
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handcuffs",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-treasure-island-027",
+  "pool": "sourced",
+  "text": "While I was thus looking and wondering, in a calm moment, when the ship was still, Israel Hands turned partly round and with a low moan writhed himself back to the position in which I had seen him first. The moan, which told of pain and deadly weakness, and the way in which his jaw hung open went right to my heart. But when I remembered the talk I had overheard from the apple barrel, all pity left me. I walked aft until I reached the main-mast. “Come aboard, Mr. Hands,” I said ironically.",
+  "words": [
+    {
+      "word": "moan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ironically",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

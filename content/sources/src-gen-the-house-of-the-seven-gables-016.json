@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-016",
   "pool": "sourced",
-  "text": "The weight is gone, Hepzibah! It is gone off this weary old world, and we may be as light-hearted as little Phœbe herself.” And, in accordance with his words, he began to laugh, still pointing his finger at the object, invisible to Hepzibah, within the parlor. She was seized with a sudden intuition of some horrible thing. She thrust herself past Clifford, and disappeared into the room; but almost immediately returned, with a cry choking in her throat. Gazing at her brother with an affrighted glance of inquiry, she beheld him all in a tremor and a quake, from head to foot, while, amid these commoted elements of passion or alarm, still flickered his gusty mirth.",
+  "text": "Amuse and keep him quiet! It would disturb him wretchedly to see me so agitated as I am. There, go, dear child, and I will try to look after the shop.” Phœbe went accordingly, but perplexed herself, meanwhile, with queries as to the purport of the scene which she had just witnessed, and also whether judges, clergymen, and other characters of that eminent stamp and respectability, could really, in any single instance, be otherwise than just and upright men. A doubt of this nature has a most disturbing influence, and, if shown to be a fact, comes with fearful and startling effect on minds of the trim, orderly, and limit-loving class, in which we find our little country-girl. Dispositions more boldly speculative may derive a stern enjoyment from the discovery, since there must be evil in the world, that a high man is as likely to grasp his share of it as a low one.",
   "words": [
     {
-      "word": "parlor",
+      "word": "disturb",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "choking",
+      "word": "startling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stern",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-033",
+  "pool": "sourced",
+  "text": "Some two months before the murder of Sir Danvers, I had been out for one of my adventures, had returned at a late hour, and woke the next day in bed with somewhat odd sensations. It was in vain I looked about me; in vain I saw the decent furniture and tall proportions of my room in the square; in vain that I recognised the pattern of the bed curtains and the design of the mahogany frame; something still kept insisting that I was not where I was, that I had not wakened where I seemed to be, but in the little room in Soho where I was accustomed to sleep in the body of Edward Hyde. I smiled to myself, and in my psychological way, began lazily to inquire into the elements of this illusion, occasionally, even as I did so, dropping back into a comfortable morning doze. I was still so engaged when, in one of my more wakeful moments, my eyes fell upon my hand. Now the hand of Henry Jekyll (as you have often remarked) was professional in shape and size; it was large, firm, white and comely.",
+  "words": [
+    {
+      "word": "mahogany",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accustomed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

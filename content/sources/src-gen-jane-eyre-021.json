@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-jane-eyre-021",
+  "pool": "sourced",
+  "text": "Meantime, I got on as well as I could with Georgiana and Eliza. They were very cold, indeed, at first. Eliza would sit half the day sewing, reading, or writing, and scarcely utter a word either to me or her sister. Georgiana would chatter nonsense to her canary bird by the hour, and take no notice of me. But I was determined not to seem at a loss for occupation or amusement: I had brought my drawing materials with me, and they served me for both.",
+  "words": [
+    {
+      "word": "nonsense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

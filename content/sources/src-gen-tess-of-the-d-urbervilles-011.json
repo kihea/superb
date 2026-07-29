@@ -1,10 +1,22 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-011",
   "pool": "sourced",
-  "text": "But my life before I came here—I want—” “Well, it is for my convenience as well as my happiness. If I have a very large farm, either English or colonial, you will be invaluable as a wife to me; better than a woman out of the largest mansion in the country. So please—please, dear Tessy, disabuse your mind of the feeling that you will stand in my way.” “But my history. I want you to know it—you must let me tell you—you will not like me so well!” “Tell it if you wish to, dearest. This precious history then.",
+  "text": "“Lord, ’tis wonderful what a body can get used to o’ that sort in time!” “A little more than persuading had to do wi’ the coming o’t, I reckon. There were they that heard a sobbing one night last year in The Chase; and it mid ha’ gone hard wi’ a certain party if folks had come along.” “Well, a little more, or a little less, ’twas a thousand pities that it should have happened to she, of all others. But ’tis always the comeliest! The plain ones be as safe as churches—hey, Jenny?” The speaker turned to one of the group who certainly was not ill-defined as plain. It was a thousand pities, indeed; it was impossible for even an enemy to feel otherwise on looking at Tess as she sat there, with her flower-like mouth and large tender eyes, neither black nor blue nor grey nor violet; rather all those shades together, and a hundred others, which could be seen if one looked into their irises—shade behind shade—tint beyond tint—around pupils that had no bottom; an almost standard woman, but for the slight incautiousness of character inherited from her race.",
   "words": [
     {
-      "word": "mansion",
+      "word": "sobbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "violet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tint",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

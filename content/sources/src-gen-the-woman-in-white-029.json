@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-woman-in-white-029",
+  "pool": "sourced",
+  "text": "Sir Percival was an only child. His father, Sir Felix Glyde, had suffered from his birth under a painful and incurable deformity, and had shunned all society from his earliest years. His sole happiness was in the enjoyment of music, and he had married a lady with tastes similar to his own, who was said to be a most accomplished musician. He inherited the Blackwater property while still a young man. Neither he nor his wife after taking possession, made advances of any sort towards the society of the neighbourhood, and no one endeavoured to tempt them into abandoning their reserve, with the one disastrous exception of the rector of the parish.",
+  "words": [
+    {
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rector",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

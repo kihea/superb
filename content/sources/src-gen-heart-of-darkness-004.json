@@ -1,22 +1,16 @@
 {
   "id": "src-gen-heart-of-darkness-004",
   "pool": "sourced",
-  "text": "In the steady buzz of flies the homeward-bound agent was lying finished and insensible; the other, bent over his books, was making correct entries of perfectly correct transactions; and fifty feet below the doorstep I could see the still tree-tops of the grove of death. “Next day I left that station at last, with a caravan of sixty men, for a two-hundred-mile tramp. “No use telling you much about that. Paths, paths, everywhere; a stamped-in network of paths spreading over the empty land, through the long grass, through burnt grass, through thickets, down and up chilly ravines, up and down stony hills ablaze with heat; and a solitude, a solitude, nobody, not a hut. The population had cleared out a long time ago.",
+  "text": "You could see from afar the white of their eyeballs glistening. They shouted, sang; their bodies streamed with perspiration; they had faces like grotesque masks—these chaps; but they had bone, muscle, a wild vitality, an intense energy of movement, that was as natural and true as the surf along their coast. They wanted no excuse for being there. They were a great comfort to look at. For a time I would feel I belonged still to a world of straightforward facts; but the feeling would not last long.",
   "words": [
     {
-      "word": "paths",
+      "word": "afar",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "burnt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solitude",
+      "word": "vitality",
       "signals": [
         "apposition"
       ]
@@ -27,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

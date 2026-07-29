@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-033",
+  "pool": "sourced",
+  "text": "We seek him. I know you, Evrémonde; I saw you before the Tribunal to-day. You are again the prisoner of the Republic.” The four surrounded him, where he stood with his wife and child clinging to him. “Tell me how and why am I again a prisoner?” “It is enough that you return straight to the Conciergerie, and will know to-morrow. You are summoned for to-morrow.” Doctor Manette, whom this visitation had so turned into stone, that he stood with the lamp in his hand, as if he were a statue made to hold it, moved after these words were spoken, put the lamp down, and confronting the speaker, and taking him, not ungently, by the loose front of his red woollen shirt, said: “You know him, you have said.",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

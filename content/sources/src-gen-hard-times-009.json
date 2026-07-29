@@ -1,16 +1,22 @@
 {
   "id": "src-gen-hard-times-009",
   "pool": "sourced",
-  "text": "So, he went in. He coached himself up with a blue-book or two; and his brother put it about among the hard Fact fellows, and said, ‘If you want to bring in, for any place, a handsome dog who can make you a devilish good speech, look after my brother Jem, for he’s your man.’ After a few dashes in the public meeting way, Mr. Gradgrind and a council of political sages approved of Jem, and it was resolved to send him down to Coketown, to become known there and in the neighbourhood. Hence the letter Jem had last night shown to Mrs. Sparsit, which Mr. Bounderby now held in his hand; superscribed, ‘Josiah Bounderby, Esquire, Banker, Coketown. Specially to introduce James Harthouse, Esquire. Thomas Gradgrind.’ Within an hour of the receipt of this dispatch and Mr. James Harthouse’s card, Mr. Bounderby put on his hat and went down to the Hotel.",
+  "text": "‘It would be a fine thing to be you, Miss Louisa!’ she said, one night, when Louisa had endeavoured to make her perplexities for next day something clearer to her. ‘Do you think so?’ ‘I should know so much, Miss Louisa. All that is difficult to me now, would be so easy then.’ ‘You might not be the better for it, Sissy.’ Sissy submitted, after a little hesitation, ‘I should not be the worse, Miss Louisa.’ To which Miss Louisa answered, ‘I don’t know that.’ There had been so little communication between these two—both because life at Stone Lodge went monotonously round like a piece of machinery which discouraged human interference, and because of the prohibition relative to Sissy’s past career—that they were still almost strangers. Sissy, with her dark eyes wonderingly directed to Louisa’s face, was uncertain whether to say more or to remain silent. ‘You are more useful to my mother, and more pleasant with her than I can ever be,’ Louisa resumed.",
   "words": [
     {
-      "word": "receipt",
+      "word": "clearer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dispatch",
+      "word": "interference",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prohibition",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

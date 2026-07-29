@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-022",
+  "pool": "sourced",
+  "text": "I want breath and time to discuss this banquet as it deserves, and am too eager to get on with my story. Happily, Ichabod Crane was not in so great a hurry as his historian, but did ample justice to every dainty. He was a kind and thankful creature, whose heart dilated in proportion as his skin was filled with good cheer, and whose spirits rose with eating, as some men’s do with drink. He could not help, too, rolling his large eyes round him as he ate, and chuckling with the possibility that he might one day be lord of all this scene of almost unimaginable luxury and splendor. Then, he thought, how soon he’d turn his back upon the old schoolhouse; snap his fingers in the face of Hans Van Ripper, and every other niggardly patron, and kick any itinerant pedagogue out of doors that should dare to call him comrade!",
+  "words": [
+    {
+      "word": "banquet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ample",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

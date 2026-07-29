@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-oliver-twist-039",
+  "pool": "sourced",
+  "text": "I have almost done enough, I think. Don’t keep me here.” “This child,” said Mr. Brownlow, drawing Oliver to him, and laying his hand upon his head, “is your half-brother; the illegitimate son of your father, my dear friend Edwin Leeford, by poor young Agnes Fleming, who died in giving him birth.” “Yes,” said Monks, scowling at the trembling boy: the beating of whose heart he might have heard. “That is the bastard child.” “The term you use,” said Mr. Brownlow, sternly, “is a reproach to those long since passed beyond the feeble censure of the world. It reflects disgrace on no one living, except you who use it. Let that pass.",
+  "words": [
+    {
+      "word": "bastard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

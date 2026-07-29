@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-scarlet-letter-032",
+  "pool": "sourced",
+  "text": "The pathway among the woods seemed wilder, more uncouth with its rude natural obstacles, and less trodden by the foot of man, than he remembered it on his outward journey. But he leaped across the plashy places, thrust himself through the clinging underbrush, climbed the ascent, plunged into the hollow, and overcame, in short, all the difficulties of the track, with an unweariable activity that astonished him. He could not but recall how feebly, and with what frequent pauses for breath he had toiled over the same ground, only two days before. As he drew near the town, he took an impression of change from the series of familiar objects that presented themselves. It seemed not yesterday, not one, not two, but many days, or even years ago, since he had quitted them.",
+  "words": [
+    {
+      "word": "pathway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "difficulties",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

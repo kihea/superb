@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-gulliver-s-travels-037",
+  "pool": "sourced",
+  "text": "I have often since reflected, what destruction such doctrine would make in the libraries of Europe; and how many paths of fame would be then shut up in the learned world. Friendship and benevolence are the two principal virtues among the Houyhnhnms; and these not confined to particular objects, but universal to the whole race; for a stranger from the remotest part is equally treated with the nearest neighbour, and wherever he goes, looks upon himself as at home. They preserve decency and civility in the highest degrees, but are altogether ignorant of ceremony. They have no fondness for their colts or foals, but the care they take in educating them proceeds entirely from the dictates of reason. And I observed my master to show the same affection to his neighbour’s issue, that he had for his own.",
+  "words": [
+    {
+      "word": "fondness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

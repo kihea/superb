@@ -1,10 +1,17 @@
 {
   "id": "src-gen-the-turn-of-the-screw-015",
   "pool": "sourced",
-  "text": "So for a moment we remained, while I stared about me and saw that the drawn curtains were unstirred and the window tight. “Why, the candle’s out!” I then cried. “It was I who blew it, dear!” said Miles. XVIII The next day, after lessons, Mrs. Grose found a moment to say to me quietly: “Have you written, miss?” “Yes—I’ve written.” But I didn’t add—for the hour—that my letter, sealed and directed, was still in my pocket. There would be time enough to send it before the messenger should go to the village.",
+  "text": "Still,” I mused, “They must do, for they make me feel more than ever that I must watch.” It made me blush, the next minute, to see in my friend’s face how much more unreservedly she had forgiven him than her anecdote struck me as presenting to my own tenderness an occasion for doing. This came out when, at the schoolroom door, she quitted me. “Surely you don’t accuse him—” “Of carrying on an intercourse that he conceals from me? Ah, remember that, until further evidence, I now accuse nobody.” Then, before shutting her out to go, by another passage, to her own place, “I must just wait,” I wound up. IX I waited and waited, and the days, as they elapsed, took something from my consternation.",
   "words": [
     {
-      "word": "curtains",
+      "word": "blush",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutting",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +22,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

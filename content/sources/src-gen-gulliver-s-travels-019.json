@@ -1,16 +1,22 @@
 {
   "id": "src-gen-gulliver-s-travels-019",
   "pool": "sourced",
-  "text": "But the Houyhnhnms train up their youth to strength, speed, and hardiness, by exercising them in running races up and down steep hills, and over hard stony grounds; and when they are all in a sweat, they are ordered to leap over head and ears into a pond or river. Four times a year the youth of a certain district meet to show their proficiency in running and leaping, and other feats of strength and agility; where the victor is rewarded with a song in his or her praise. On this festival, the servants drive a herd of Yahoos into the field, laden with hay, and oats, and milk, for a repast to the Houyhnhnms; after which, these brutes are immediately driven back again, for fear of being noisome to the assembly. Every fourth year, at the vernal equinox, there is a representative council of the whole nation, which meets in a plain about twenty miles from our house, and continues about five or six days.",
+  "text": "“He was amazed, how so impotent and grovelling an insect as I” (these were his expressions) “could entertain such inhuman ideas, and in so familiar a manner, as to appear wholly unmoved at all the scenes of blood and desolation which I had painted as the common effects of those destructive machines; whereof,” he said, “some evil genius, enemy to mankind, must have been the first contriver. As for himself, he protested, that although few things delighted him so much as new discoveries in art or in nature, yet he would rather lose half his kingdom, than be privy to such a secret; which he commanded me, as I valued any life, never to mention any more.” A strange effect of narrow principles and views! that a prince possessed of every quality which procures veneration, love, and esteem; of strong parts, great wisdom, and profound learning, endowed with admirable talents, and almost adored by his subjects, should, from a nice, unnecessary scruple, whereof in Europe we can have no conception, let slip an opportunity put into his hands that would have made him absolute master of the lives, the liberties, and the fortunes of his people!",
   "words": [
     {
-      "word": "stony",
+      "word": "possessed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sweat",
+      "word": "profound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admirable",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

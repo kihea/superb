@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-038",
+  "pool": "sourced",
+  "text": "But this might be only a report: she may be living yet for anything I or any of her relatives or former acquaintances can tell; for they have all lost sight of her long years ago, and would as thoroughly forget her if they could. Her husband, however, upon this second misdemeanour, immediately sought and obtained a divorce, and, not long after, married again. It was well he did, for Lord Lowborough, morose and moody as he seemed, was not the man for a bachelor’s life. No public interests, no ambitious projects, or active pursuits,—or ties of friendship even (if he had had any friends), could compensate to him for the absence of domestic comforts and endearments. He had a son and a nominal daughter, it is true, but they too painfully reminded him of their mother, and the unfortunate little Annabella was a source of perpetual bitterness to his soul.",
+  "words": [
+    {
+      "word": "bachelor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perpetual",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-great-god-pan-033",
+  "pool": "sourced",
+  "text": "We know what happened to those who chanced to meet the Great God Pan, and those who are wise know that all symbols are symbols of something, not of nothing. It was, indeed, an exquisite symbol beneath which men long ago veiled their knowledge of the most awful, most secret forces which lie at the heart of all things; forces before which the souls of men must wither and die and blacken, as their bodies blacken under the electric current. Such forces cannot be named, cannot be spoken, cannot be imagined except under a veil and a symbol, a symbol to the most of us appearing a quaint, poetic fancy, to some a foolish tale. But you and I, at all events, have known something of the terror that may dwell in the secret place of life, manifested under human flesh; that which is without form taking to itself a form. Oh, Austin, how can it be?",
+  "words": [
+    {
+      "word": "veiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

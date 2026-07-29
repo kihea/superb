@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-035",
+  "pool": "sourced",
+  "text": "“Well, well, come in if you want me; I am here!” he shouted from the window. Raskolnikov went up into the tavern. He found Svidrigaïlov in a tiny back room, adjoining the saloon in which merchants, clerks and numbers of people of all sorts were drinking tea at twenty little tables to the desperate bawling of a chorus of singers. The click of billiard balls could be heard in the distance. On the table before Svidrigaïlov stood an open bottle and a glass half full of champagne.",
+  "words": [
+    {
+      "word": "saloon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chorus",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-018",
   "pool": "sourced",
-  "text": "Everyone knew, of course, that St. Clare had some of the eccentricities of puritan piety. The second incident was much more arresting. In the luckless and unsupported regiment which made that rash attempt at the Black River there was a certain Captain Keith, who was at that time engaged to St. Clare’s daughter, and who afterwards married her. He was one of those who were captured by Olivier, and, like all the rest except the general, appears to have been bounteously treated and promptly set free. Some twenty years afterwards this man, then Lieutenant-Colonel Keith, published a sort of autobiography called ‘A British Officer in Burmah and Brazil.’ In the place where the reader looks eagerly for some account of the mystery of St. Clare’s disaster may be found the following words: ‘Everywhere else in this book I have narrated things exactly as they occurred, holding as I do the old-fashioned opinion that the glory of England is old enough to take care of itself.",
+  "text": "In fact, they’re a curious lot still. But in the prehistoric times I fancy they really worshipped demons. That,” he added genially, “is why they jumped at the Puritan theology.” “My friend,” said Flambeau, turning in a kind of fury, “what does all that snuff mean?” “My friend,” replied Brown, with equal seriousness, “there is one mark of all genuine religions: materialism. Now, devil-worship is a perfectly genuine religion.” They had come up on the grassy scalp of the hill, one of the few bald spots that stood clear of the crashing and roaring pine forest. A mean enclosure, partly timber and partly wire, rattled in the tempest to tell them the border of the graveyard.",
   "words": [
     {
-      "word": "regiment",
+      "word": "theology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tempest",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

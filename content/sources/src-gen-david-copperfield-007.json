@@ -1,34 +1,28 @@
 {
   "id": "src-gen-david-copperfield-007",
   "pool": "sourced",
-  "text": "Em’ly, my darling, come here! Come here, my little witch! There’s Mas’r Davy’s friend, my dear! There’s the gent’lman as you’ve heerd on, Em’ly. He comes to see you, along with Mas’r Davy, on the brightest night of your uncle’s life as ever was or will be, Gorm the t’other one, and horroar for it!’ After delivering this speech all in a breath, and with extraordinary animation and pleasure, Mr. Peggotty put one of his large hands rapturously on each side of his niece’s face, and kissing it a dozen times, laid it with a gentle pride and love upon his broad chest, and patted it as if his hand had been a lady’s.",
+  "text": "The bath was a great comfort. For I began to be sensible of acute pains in my limbs from lying out in the fields, and was now so tired and low that I could hardly keep myself awake for five minutes together. When I had bathed, they (I mean my aunt and Janet) enrobed me in a shirt and a pair of trousers belonging to Mr. Dick, and tied me up in two or three great shawls. What sort of bundle I looked like, I don’t know, but I felt a very hot one. Feeling also very faint and drowsy, I soon lay down on the sofa again and fell asleep.",
   "words": [
     {
-      "word": "darling",
+      "word": "awake",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "witch",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "animation",
+      "word": "belonging",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "niece",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "kissing",
+      "word": "bundle",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "source": "Project Gutenberg #766",
-    "url": "https://www.gutenberg.org/ebooks/766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

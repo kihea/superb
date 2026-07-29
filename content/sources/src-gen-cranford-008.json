@@ -1,12 +1,24 @@
 {
   "id": "src-gen-cranford-008",
   "pool": "sourced",
-  "text": "Believe me, I do not forget the situation my father held under yours.” “And Mrs Forrester, of course?” “And Mrs Forrester. I thought, in fact, of going to her before I went to Miss Pole. Although her circumstances are changed, madam, she was born a Tyrrell, and we can never forget her alliance to the Bigges, of Bigelow Hall.” Miss Matty cared much more for the little circumstance of her being a very good card-player. “Mrs Fitz-Adam—I suppose”— “No, madam. I must draw a line somewhere.",
+  "text": "I have heard Fanny turn her round twenty times in a morning about dinner, just as the little hussy chose; and I sometimes fancied she worked on Miss Matilda’s weakness in order to bewilder her, and to make her feel more in the power of her clever servant. I determined that I would not leave her till I had seen what sort of a person Martha was; and, if I found her trustworthy, I would tell her not to trouble her mistress with every little decision. Martha was blunt and plain-spoken to a fault; otherwise she was a brisk, well-meaning, but very ignorant girl. She had not been with us a week before Miss Matilda and I were astounded one morning by the receipt of a letter from a cousin of hers, who had been twenty or thirty years in India, and who had lately, as we had seen by the “Army List,” returned to England, bringing with him an invalid wife who had never been introduced to her English relations.",
   "words": [
     {
-      "word": "circumstance",
+      "word": "servant",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brisk",
+      "signals": [
+        "definition-marker"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

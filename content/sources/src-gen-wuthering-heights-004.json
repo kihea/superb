@@ -1,10 +1,22 @@
 {
   "id": "src-gen-wuthering-heights-004",
   "pool": "sourced",
-  "text": "Shouldn’t they have been happy? We should have thought ourselves in heaven! And now, guess what your good children were doing? Isabella—I believe she is eleven, a year younger than Cathy—lay screaming at the farther end of the room, shrieking as if witches were running red-hot needles into her. Edgar stood on the hearth weeping silently, and in the middle of the table sat a little dog, shaking its paw and yelping; which, from their mutual accusations, we understood they had nearly pulled in two between them.",
+  "text": "I had read Earnshaw twenty times for Linton)—“I’m come home: I’d lost my way on the moor!” As it spoke, I discerned, obscurely, a child’s face looking through the window. Terror made me cruel; and, finding it useless to attempt shaking the creature off, I pulled its wrist on to the broken pane, and rubbed it to and fro till the blood ran down and soaked the bedclothes: still it wailed, “Let me in!” and maintained its tenacious gripe, almost maddening me with fear. “How can I!” I said at length. “Let me go, if you want me to let you in!” The fingers relaxed, I snatched mine through the hole, hurriedly piled the books up in a pyramid against it, and stopped my ears to exclude the lamentable prayer. I seemed to keep them closed above a quarter of an hour; yet, the instant I listened again, there was the doleful cry moaning on!",
   "words": [
     {
-      "word": "witches",
+      "word": "relaxed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snatched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exclude",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

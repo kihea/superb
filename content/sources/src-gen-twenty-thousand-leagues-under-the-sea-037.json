@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-037",
+  "pool": "sourced",
+  "text": "In this place, the geological basin of the ocean forms, as far as the Lesser Antilles, a cliff of three and a half miles perpendicular in height, and, at the parallel of the Cape Verde Islands, another wall not less considerable, that encloses thus all the sunk continent of the Atlantic. The bottom of this immense valley is dotted with some mountains, that give to these submarine places a picturesque aspect. I speak, moreover, from the manuscript charts that were in the library of the Nautilus—charts evidently due to Captain Nemo’s hand, and made after his personal observations. For two days the desert and deep waters were visited by means of the inclined planes. The Nautilus was furnished with long diagonal broadsides which carried it to all elevations.",
+  "words": [
+    {
+      "word": "basin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dotted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "submarine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diagonal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

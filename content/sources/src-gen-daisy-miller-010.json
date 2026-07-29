@@ -1,24 +1,12 @@
 {
   "id": "src-gen-daisy-miller-010",
   "pool": "sourced",
-  "text": "“Is it Mr. Giovanelli?” asked the hostess. Winterbourne was watching the young girl; at this question his attention quickened. She stood there, smiling and smoothing her bonnet ribbons; she glanced at Winterbourne. Then, while she glanced and smiled, she answered, without a shade of hesitation, “Mr. Giovanelli--the beautiful Giovanelli.” “My dear young friend,” said Mrs. Walker, taking her hand pleadingly, “don’t walk off to the Pincio at this hour to meet a beautiful Italian.” “Well, he speaks English,” said Mrs. Miller.",
+  "text": "But the only very definite conclusion he came to was that he should enjoy deucedly “going off” with her somewhere. Two days afterward he went off with her to the Castle of Chillon. He waited for her in the large hall of the hotel, where the couriers, the servants, the foreign tourists, were lounging about and staring. It was not the place he should have chosen, but she had appointed it. She came tripping downstairs, buttoning her long gloves, squeezing her folded parasol against her pretty figure, dressed in the perfection of a soberly elegant traveling costume.",
   "words": [
     {
-      "word": "smiling",
+      "word": "servants",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bonnet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "smiled",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -27,7 +15,7 @@
     "author": "Henry James",
     "year": 1878,
     "source": "Project Gutenberg #208",
-    "url": "https://www.gutenberg.org/ebooks/208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

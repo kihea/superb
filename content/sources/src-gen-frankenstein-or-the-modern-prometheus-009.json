@@ -1,10 +1,16 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-009",
   "pool": "sourced",
-  "text": "Sometimes I wished to express my sensations in my own mode, but the uncouth and inarticulate sounds which broke from me frightened me into silence again. “The moon had disappeared from the night, and again, with a lessened form, showed itself, while I still remained in the forest. My sensations had by this time become distinct, and my mind received every day additional ideas. My eyes became accustomed to the light and to perceive objects in their right forms; I distinguished the insect from the herb, and by degrees, one herb from another. I found that the sparrow uttered none but harsh notes, whilst those of the blackbird and thrush were sweet and enticing.",
+  "text": "No mortal could support the horror of that countenance. A mummy again endued with animation could not be so hideous as that wretch. I had gazed on him while unfinished; he was ugly then, but when those muscles and joints were rendered capable of motion, it became a thing such as even Dante could not have conceived. I passed the night wretchedly. Sometimes my pulse beat so quickly and hardly that I felt the palpitation of every artery; at others, I nearly sank to the ground through languor and extreme weakness.",
   "words": [
     {
-      "word": "perceive",
+      "word": "hideous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulse",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

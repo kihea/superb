@@ -1,16 +1,10 @@
 {
   "id": "src-gen-jane-eyre-014",
   "pool": "sourced",
-  "text": "And, with a strange pang, I now reflected that, long as I had been shut up here, no message had been sent to ask how I was, or to invite me to come down: not even little Adèle had tapped at the door; not even Mrs. Fairfax had sought me. “Friends always forget those whom fortune forsakes,” I murmured, as I undrew the bolt and passed out. I stumbled over an obstacle: my head was still dizzy, my sight was dim, and my limbs were feeble. I could not soon recover myself. I fell, but not on to the ground: an outstretched arm caught me.",
+  "text": "Yet I had not forgotten his faults; indeed, I could not, for he brought them frequently before me. He was proud, sardonic, harsh to inferiority of every description: in my secret soul I knew that his great kindness to me was balanced by unjust severity to many others. He was moody, too; unaccountably so; I more than once, when sent for to read to him, found him sitting in his library alone, with his head bent on his folded arms; and, when he looked up, a morose, almost a malignant, scowl blackened his features. But I believed that his moodiness, his harshness, and his former faults of morality (I say former, for now he seemed corrected of them) had their source in some cruel cross of fate. I believed he was naturally a man of better tendencies, higher principles, and purer tastes than such as circumstances had developed, education instilled, or destiny encouraged.",
   "words": [
     {
-      "word": "bolt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "limbs",
+      "word": "bent",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

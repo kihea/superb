@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-037",
+  "pool": "sourced",
+  "text": "WHELP-HUNTING BEFORE the ring formed round the Old Hell Shaft was broken, one figure had disappeared from within it. Mr. Bounderby and his shadow had not stood near Louisa, who held her father’s arm, but in a retired place by themselves. When Mr. Gradgrind was summoned to the couch, Sissy, attentive to all that happened, slipped behind that wicked shadow—a sight in the horror of his face, if there had been eyes there for any sight but one—and whispered in his ear. Without turning his head, he conferred with her a few moments, and vanished. Thus the whelp had gone out of the circle before the people moved.",
+  "words": [
+    {
+      "word": "couch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vanished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

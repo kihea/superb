@@ -1,16 +1,22 @@
 {
   "id": "src-gen-agnes-grey-007",
   "pool": "sourced",
-  "text": "The unknown lady, in her reply, made no objection to this, and stated that, as to my acquirements, she had no doubt I should be able to give satisfaction; but in the engagement of governesses she considered those things as but subordinate points; as being situated in the neighbourhood of O——, she could get masters to supply any deficiencies in that respect: but, in her opinion, next to unimpeachable morality, a mild and cheerful temper and obliging disposition were the most essential requisities. My mother did not relish this at all, and now made many objections to my accepting the situation; in which my sister warmly supported her: but, unwilling to be balked again, I overruled them all; and, having first obtained the consent of my father (who had, a short time previously, been apprised of these transactions), I wrote a most obliging epistle to my unknown correspondent, and, finally, the bargain was concluded.",
+  "text": "Other children might be guided by the fear of anger and the desire of approbation; but neither the one nor the other had any effect upon these. Master Tom, not content with refusing to be ruled, must needs set up as a ruler, and manifested a determination to keep, not only his sisters, but his governess in order, by violent manual and pedal applications; and, as he was a tall, strong boy of his years, this occasioned no trifling inconvenience. A few sound boxes on the ear, on such occasions, might have settled the matter easily enough: but as, in that case, he might make up some story to his mother which she would be sure to believe, as she had such unshaken faith in his veracity—though I had already discovered it to be by no means unimpeachable—I determined to refrain from striking him, even in self-defence; and, in his most violent moods, my only resource was to throw him on his back and hold his hands and feet till the frenzy was somewhat abated. To the difficulty of preventing him from doing what he ought not, was added that of forcing him to do what he ought.",
   "words": [
     {
-      "word": "morality",
+      "word": "determination",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "accepting",
+      "word": "refrain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "striking",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

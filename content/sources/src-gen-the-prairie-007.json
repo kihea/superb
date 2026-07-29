@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-prairie-007",
   "pool": "sourced",
-  "text": "Just before our mid-day meal Olie arrived with mail for us. We've had letters from home! Instead of cheering me up they made me blue, for they seemed to bring word from another world, a world so far, far away! I decided to have a half-day in the open, so I strapped on my duck-gun and off I went on Paddy, as soon as dinner was over and the men had gone. We went like the wind, until both Paddy and I were tired of it.",
+  "text": "And we haven't a double-boiler or a mixing-bowl or a doughnut-cutter. When I told Dinky-Dunk yesterday that we were running out of soap, he said he'd build a leach of wood-ashes and get beef-tallow and make soft soap. I asked him how long he'd want to kiss a downy cheek that had been washed in soft soap. He said he'd keep on kissing me if I was a mummy pickled in bitumen. But I prefer not risking too much of the pickling process.",
   "words": [
     {
-      "word": "strapped",
+      "word": "leach",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kissing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pickled",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

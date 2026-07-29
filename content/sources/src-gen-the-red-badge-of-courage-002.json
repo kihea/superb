@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-002",
   "pool": "sourced",
-  "text": "Almost every day the newspaper printed accounts of a decisive victory. One night, as he lay in bed, the winds had carried to him the clangoring of the church bell as some enthusiast jerked the rope frantically to tell the twisted news of a great battle. This voice of the people rejoicing in the night had made him shiver in a prolonged ecstasy of excitement. Later, he had gone down to his mother’s room and had spoken thus: “Ma, I’m going to enlist.” “Henry, don’t you be a fool,” his mother had replied. She had then covered her face with the quilt.",
+  "text": "Four others stood waiting. “Ma, I’ve enlisted,” he had said to her diffidently. There was a short silence. “The Lord’s will be done, Henry,” she had finally replied, and had then continued to milk the brindle cow. When he had stood in the doorway with his soldier’s clothes on his back, and with the light of excitement and expectancy in his eyes almost defeating the glow of regret for the home bonds, he had seen two tears leaving their trails on his mother’s scarred cheeks.",
   "words": [
     {
-      "word": "rope",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "quilt",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

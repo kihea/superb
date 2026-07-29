@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-026",
+  "pool": "sourced",
+  "text": "Meanwhile, Rose was rapidly recovering. She had left her room: was able to go out; and mixing once more with the family, carried joy into the hearts of all. But, although this happy change had a visible effect on the little circle; and although cheerful voices and merry laughter were once more heard in the cottage; there was at times, an unwonted restraint upon some there: even upon Rose herself: which Oliver could not fail to remark. Mrs. Maylie and her son were often closeted together for a long time; and more than once Rose appeared with traces of tears upon her face. After Mr. Losberne had fixed a day for his departure to Chertsey, these symptoms increased; and it became evident that something was in progress which affected the peace of the young lady, and of somebody else besides.",
+  "words": [
+    {
+      "word": "cheerful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "merry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "restraint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

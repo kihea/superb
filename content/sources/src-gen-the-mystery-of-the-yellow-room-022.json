@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-022",
+  "pool": "sourced",
+  "text": "“The most serious fact is that Monsieur Darzac was, at the very same time that his double presented himself at the Post Office, down for a lecture at the Sorbonne. He had not delivered that lecture, and one of his friends took his place. When I questioned him as to how he had employed the time, he told me that he had gone for a stroll in the Bois de Boulogne. What do you think of a professor who, instead of giving his lecture, obtains a substitute to go for a stroll in the Bois de Boulogne? When Frédéric Larsan asked him for information on this point, he quietly replied that it was no business of his how he spent his time in Paris.",
+  "words": [
+    {
+      "word": "lecture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "substitute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

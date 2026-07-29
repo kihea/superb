@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-021",
+  "pool": "sourced",
+  "text": "“Such were my experiences on that evening, and I leave you to imagine what effect the news of the attempted murder of Mademoiselle Stangerson produced on me,—with what force those words pronounced by Monsieur Robert Darzac, ‘Must I commit a crime, then, to win you?’ recurred to me. It was not this phrase, however, that I repeated to him, when we met here at Glandier. The sentence of the presbytery and the bright garden sufficed to open the gate of the château. If you ask me if I believe now that Monsieur Darzac is the murderer, I must say I do not. I do not think I ever quite thought that.",
+  "words": [
+    {
+      "word": "murderer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-prairie-002",
   "pool": "sourced",
-  "text": "As Olie had disappeared from the scene and was nowhere to be found, I went in and got my own breakfast. It was supper over again, only I scrambled my eggs instead of frying them. And all the while I was eating that meal I studied those shack-walls and made mental note of what should be changed and what should be done. There was so much, that it rather overwhelmed me. I sat at the table, littered with its dirty dishes, wondering where to begin.",
+  "text": "In the first place, it seemed no bigger than a ship's cabin, and not one-half so orderly. It is made of lumber, and not of logs, and is about twelve feet wide and eighteen feet long. It has three windows, on hinges, and only one door. The floor is rather rough, and has a trap door leading into a small cellar, where vegetables can be stored for winter use. The end of the shack is shut off by a \"tarp\"--which I have just found out is short for tarpaulin.",
   "words": [
     {
-      "word": "supper",
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shack",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

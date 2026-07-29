@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-life-on-the-mississippi-029",
+  "pool": "sourced",
+  "text": "The very feature that keeps it alive in the South--girly-girly romance--would kill it in the North or in London. Puck and Punch, and the press universal, would fall upon it and make merciless fun of it, and its first exhibition would be also its last. Against the crimes of the French Revolution and of Bonaparte may be set two compensating benefactions: the Revolution broke the chains of the ancien regime and of the Church, and made of a nation of abject slaves a nation of freemen; and Bonaparte instituted the setting of merit above birth, and also so completely stripped the divinity from royalty, that whereas crowned heads in Europe were gods before, they are only men, since, and can never be gods again, but only figureheads, and answerable for their acts like common clay. Such benefactions as these compensate the temporary harm which Bonaparte and the Revolution did, and leave the world in debt to them for these great and permanent services to liberty, humanity, and progress.",
+  "words": [
+    {
+      "word": "stripped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

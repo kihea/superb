@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-015",
   "pool": "sourced",
-  "text": "A moment after Caderousse’s face appeared at the grating in the door. you are punctual,” said he, as he drew back the door. “Confound you and your punctuality!” said Andrea, throwing himself into a chair in a manner which implied that he would rather have flung it at the head of his host. “Come, come, my little fellow, don’t be angry. See, I have thought about you—look at the good breakfast we are going to have; nothing but what you are fond of.” Andrea, indeed, inhaled the scent of something cooking which was not unwelcome to him, hungry as he was; it was that mixture of fat and garlic peculiar to Provençal kitchens of an inferior order, added to that of dried fish, and above all, the pungent smell of musk and cloves.",
+  "text": "“‘I will give you 45,000,’ said he, ‘but not a sou more; besides, as that is the exact value of the stone, I brought just that sum with me.’ “‘Oh, that’s no matter,’ replied Caderousse, ‘I will go back with you to fetch the other 5,000 francs.’ “‘No,’ returned the jeweller, giving back the diamond and the ring to Caderousse, ‘no, it is worth no more, and I am sorry I offered so much, for the stone has a flaw in it, which I had not seen. However, I will not go back on my word, and I will give 45,000.’ “‘At least, replace the diamond in the ring,’ said La Carconte sharply. “‘Ah, true,’ replied the jeweller, and he reset the stone. “‘No matter,’ observed Caderousse, replacing the box in his pocket, ‘someone else will purchase it.’ “‘Yes,’ continued the jeweller; ‘but someone else will not be so easy as I am, or content himself with the same story. It is not natural that a man like you should possess such a diamond.",
   "words": [
     {
-      "word": "implied",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flung",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "scent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "garlic",
+      "word": "reset",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

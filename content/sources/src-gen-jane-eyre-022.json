@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-jane-eyre-022",
+  "pool": "sourced",
+  "text": "Fairfax will smile you a calm welcome, to be sure,” said I; “and little Adèle will clap her hands and jump to see you: but you know very well you are thinking of another than they, and that he is not thinking of you.” But what is so headstrong as youth? What so blind as inexperience? These affirmed that it was pleasure enough to have the privilege of again looking on Mr. Rochester, whether he looked on me or not; and they added—“Hasten!",
+  "words": [
+    {
+      "word": "clap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

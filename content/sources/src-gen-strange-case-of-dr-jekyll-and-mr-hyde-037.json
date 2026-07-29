@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-037",
+  "pool": "sourced",
+  "text": "The veil of self-indulgence was rent from head to foot. I saw my life as a whole: I followed it up from the days of childhood, when I had walked with my father’s hand, and through the self-denying toils of my professional life, to arrive again and again, with the same sense of unreality, at the damned horrors of the evening. I could have screamed aloud; I sought with tears and prayers to smother down the crowd of hideous images and sounds with which my memory swarmed against me; and still, between the petitions, the ugly face of my iniquity stared into my soul. As the acuteness of this remorse began to die away, it was succeeded by a sense of joy. The problem of my conduct was solved.",
+  "words": [
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hideous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

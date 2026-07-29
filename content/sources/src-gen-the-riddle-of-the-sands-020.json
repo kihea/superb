@@ -1,40 +1,16 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-020",
   "pool": "sourced",
-  "text": "As we reached the davits there was a report like a pistol-shot from the port-side—the tow-rope parting, I believe, as the lighter with her shallower draught swung on past the tug. Fresh tumult arose, in which I heard: “Lower the boat,” from Grimm; but the order was already executed. My ally the Passenger and I had each cast off a tackle, and slacked away with a run; that done, I promptly clutched the wire guy to steady myself, and tumbled in. (It was not far to tumble, for the tug listed heavily to starboard; think of our course, and the set of the ebb stream, and you will see why.) The forward fall unhooked sweetly; but the after one lost play.",
+  "text": "The twins (for such they proved to be) were most benignant giants, and asked us aboard the post-boat galliot for a chat. It was easy to bring the talk naturally round to the point we wished, and we soon gained some most interesting information, delivered in the broadest Frisian, but intelligible enough. They called the Kormoran a Memmert boat, or “wreck-works” boat. It seemed that off the western end of Juist, the island lying west of Norderney, there lay the bones of a French war-vessel, wrecked ages ago. She carried bullion which has never been recovered, in spite of many efforts.",
   "words": [
     {
-      "word": "tow",
+      "word": "aboard",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "arose",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ally",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tackle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tumble",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "starboard",
+      "word": "wrecked",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

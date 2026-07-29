@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-033",
+  "pool": "sourced",
+  "text": "Bernier testified, instructed by Rouletabille, that the keeper had ordered him to meet at a spot near the oak grove, for the purpose of looking out for poachers. Finding that the keeper did not keep his appointment, he, Bernier, had gone in search of him. He had almost arrived at the donjon, when he saw a figure running swiftly in a direction opposite to him, towards the right wing of the château. He heard revolver shots from behind the figure and saw Rouletabille at one of the gallery windows. He heard Rouletabille call out to him to fire, and he had fired.",
+  "words": [
+    {
+      "word": "keeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revolver",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

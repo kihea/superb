@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-oliver-twist-021",
+  "pool": "sourced",
+  "text": "“It is very inexcusable in him if he stops to play with any other boys,” said the young lady, smiling. Mr. Giles was apparently considering the propriety of indulging in a respectful smile himself, when a gig drove up to the garden-gate: out of which there jumped a fat gentleman, who ran straight up to the door: and who, getting quickly into the house by some mysterious process, burst into the room, and nearly overturned Mr. Giles and the breakfast-table together. “I never heard of such a thing!” exclaimed the fat gentleman. “My dear Mrs. Maylie—bless my soul—in the silence of the night, too—I never heard of such a thing!” With these expressions of condolence, the fat gentleman shook hands with both ladies, and drawing up a chair, inquired how they found themselves. “You ought to be dead; positively dead with the fright,” said the fat gentleman.",
+  "words": [
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

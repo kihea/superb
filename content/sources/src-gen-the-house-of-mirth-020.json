@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-house-of-mirth-020",
   "pool": "sourced",
-  "text": "Then I shall feel safe, whatever happens.” “Whatever happens? What do you mean? What is going to happen?” She turned away quietly and walked toward the hearth. “Nothing at present—except that I am very cold, and that before I go you must make up the fire for me.” She knelt on the hearth-rug, stretching her hands to the embers. Puzzled by the sudden change in her tone, he mechanically gathered a handful of wood from the basket and tossed it on the fire.",
+  "text": "Its modest “effects,” compact of enamel paint and ingenuity, spoke to him in the language just then sweetest to his ear. It is surprising how little narrow walls and a low ceiling matter, when the roof of the soul has suddenly been raised. Gerty sparkled too; or at least shone with a tempered radiance. He had never before noticed that she had “points”—really, some good fellow might do worse.... Over the little dinner (and here, again, the effects were wonderful) he told her she ought to marry—he was in a mood to pair off the whole world. She had made the caramel custard with her own hands?",
   "words": [
     {
-      "word": "basket",
+      "word": "caramel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "custard",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

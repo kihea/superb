@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-038",
+  "pool": "sourced",
+  "text": "Leaving just room enough for the play of the oars, she kept alongside, drifting when we drifted, and pulling a stroke or two when we pulled. Of the two sitters one held the rudder-lines, and looked at us attentively,—as did all the rowers; the other sitter was wrapped up, much as Provis was, and seemed to shrink, and whisper some instruction to the steerer as he looked at us. Not a word was spoken in either boat. Startop could make out, after a few minutes, which steamer was first, and gave me the word “Hamburg,” in a low voice, as we sat face to face. She was nearing us very fast, and the beating of her peddles grew louder and louder.",
+  "words": [
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

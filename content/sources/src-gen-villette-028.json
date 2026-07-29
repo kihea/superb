@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-villette-028",
+  "pool": "sourced",
+  "text": "I thought he had nearly done: but no; he sat down that he might go on at his ease. “While he, M. Paul, was on these painful topics, he would dare my anger for the sake of my good, and would venture to refer to a change he had noticed in my dress. He was free to confess that when he first knew me—or, rather, was in the habit of catching a passing glimpse of me from time to time—I satisfied him on this point: the gravity, the austere simplicity, obvious in this particular, were such as to inspire the highest hopes for my best interests. What fatal influence had impelled me lately to introduce flowers under the brim of my bonnet, to wear ‘des cols brodés,’ and even to appear on one occasion in a scarlet gown—he might indeed conjecture, but, for the present, would not openly declare.” Again I interrupted, and this time not without an accent at once indignant and horror-struck. “Scarlet, Monsieur Paul?",
+  "words": [
+    {
+      "word": "gravity",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "inspire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conjecture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

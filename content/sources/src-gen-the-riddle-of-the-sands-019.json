@@ -1,22 +1,34 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-019",
   "pool": "sourced",
-  "text": "Even while I watched the pantomime I was sliding off my boots, and it had not been consummated a second before I had them in my arms and was tripping over the mud in my stocking feet. A dozen noiseless steps and I was over the bulwarks between the wheel and the smoke-stack, casting about for a hiding-place. The conventional stowaway hides in the hold, but there was only a stokehold here, occupied moreover; nor was there an empty apple-barrel, such as Jim of Treasure Island found so useful. As far as I could see—and I dared not venture far for fear of the skylight—the surface of the deck offered nothing secure. But on the farther or starboard side, rather abaft the beam, there was a small boat in davits, swung outboard, to which common sense, and perhaps a vague prescience of its after utility, pointed irresistibly.",
+  "text": "In the evening we were hurrying back to an inside anchorage, when we made a bad mistake; did, in fact, what we had never done before, ran aground on the very top of high water, and are now sitting hard and fast on the edge of the Rute Flat, south of the east spit of Langeoog. The light was bad, and a misplaced boom tricked us; kedging-off failed, and at 8 p.m. we were left on a perfect Ararat of sand, and only a yard or two from that accursed boom, which is perched on the very summit, as a lure to the unwary. It is going to blow hard too, though that is no great matter, as we are sheltered by banks on the sou’-west and nor’-west sides, the likely quarters. We hope to float at 6.15 to-morrow morning, but to make sure of being able to get her off, we have been transferring some ballast to the dinghy, by way of lightening the yacht—a horrid business handling the pigs of lead, heavy, greasy, and black. The saloon is an inferno, the deck like a collier’s, and ourselves like sweeps.",
   "words": [
     {
-      "word": "sliding",
+      "word": "ballast",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hides",
+      "word": "yacht",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "starboard",
+      "word": "saloon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inferno",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "collier",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +39,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

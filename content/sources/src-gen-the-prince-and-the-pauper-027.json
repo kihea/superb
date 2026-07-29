@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-027",
+  "pool": "sourced",
+  "text": "The judge meditated, during an ominous pause, then turned to the woman, with the question-- “What dost thou hold this property to be worth?” The woman courtesied and replied-- “Three shillings and eightpence, your worship--I could not abate a penny and set forth the value honestly.” The justice glanced around uncomfortably upon the crowd, then nodded to the constable, and said-- “Clear the court and close the doors.” It was done. None remained but the two officials, the accused, the accuser, and Miles Hendon. This latter was rigid and colourless, and on his forehead big drops of cold sweat gathered, broke and blended together, and trickled down his face. The judge turned to the woman again, and said, in a compassionate voice-- “‘Tis a poor ignorant lad, and mayhap was driven hard by hunger, for these be grievous times for the unfortunate; mark you, he hath not an evil face--but when hunger driveth--Good woman! dost know that when one steals a thing above the value of thirteenpence ha’penny the law saith he shall hang for it?” The little King started, wide-eyed with consternation, but controlled himself and held his peace; but not so the woman.",
+  "words": [
+    {
+      "word": "penny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

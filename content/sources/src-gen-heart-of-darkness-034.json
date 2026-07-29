@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-heart-of-darkness-034",
+  "pool": "sourced",
+  "text": "On the hill a big fire burned, illuminating fitfully a crooked corner of the station-house. One of the agents with a picket of a few of our blacks, armed for the purpose, was keeping guard over the ivory; but deep within the forest, red gleams that wavered, that seemed to sink and rise from the ground amongst confused columnar shapes of intense blackness, showed the exact position of the camp where Mr. Kurtz’s adorers were keeping their uneasy vigil. The monotonous beating of a big drum filled the air with muffled shocks and a lingering vibration. A steady droning sound of many men chanting each to himself some weird incantation came out from the black, flat wall of the woods as the humming of bees comes out of a hive, and had a strange narcotic effect upon my half-awake senses. I believe I dozed off leaning over the rail, till an abrupt burst of yells, an overwhelming outbreak of a pent-up and mysterious frenzy, woke me up in a bewildered wonder.",
+  "words": [
+    {
+      "word": "crooked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "picket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vigil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yells",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

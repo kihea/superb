@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-a-little-princess-021",
+  "pool": "sourced",
+  "text": "No one else ever looked out of the other attics. Generally the skylights were closed; but even if they were propped open to admit air, no one seemed to come near them. And there Sara would stand, sometimes turning her face upward to the blue which seemed so friendly and near--just like a lovely vaulted ceiling--sometimes watching the west and all the wonderful things that happened there: the clouds melting or drifting or waiting softly to be changed pink or crimson or snow-white or purple or pale dove-gray. Sometimes they made islands or great mountains enclosing lakes of deep turquoise-blue, or liquid amber, or chrysoprase-green; sometimes dark headlands jutted into strange, lost seas; sometimes slender strips of wonderful lands joined other wonderful lands together. There were places where it seemed that one could run or climb or stand and wait to see what next was coming--until, perhaps, as it all melted, one could float away.",
+  "words": [
+    {
+      "word": "crimson",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turquoise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

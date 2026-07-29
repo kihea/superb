@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-awakening-017",
   "pool": "sourced",
-  "text": "The girl seemed to love her well in return, and called her endearingly Tan’tante. But as the time went by, La Petite became very quiet,—not listless, but thoughtful, and slow in her movements. Then her cheeks began to pale, till they were tinged like the creamy plumes of the white crèpe myrtle that grew in the ruin. One day when she sat within its shadow, between her aunts, holding a hand of each, she said: “Tante Pélagie, I must tell you something, you and Tan’tante.” She spoke low, but clearly and firmly. “I love you both,—please remember that I love you both.",
+  "text": "Don’t contradict her. The mood will pass, I assure you. It may take a month, two, three months—possibly longer, but it will pass; have patience.” “Well, good-by, à jeudi,” said Mr. Pontellier, as he let himself out. The Doctor would have liked during the course of conversation to ask, “Is there any man in the case?” but he knew his Creole too well to make such a blunder as that. He did not resume his book immediately, but sat for a while meditatively looking out into the garden.",
   "words": [
     {
-      "word": "aunts",
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resume",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Kate Chopin",
     "year": 1899,
     "source": "Project Gutenberg #160",
-    "url": "https://www.gutenberg.org/ebooks/160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

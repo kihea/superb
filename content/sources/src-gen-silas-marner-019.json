@@ -1,10 +1,16 @@
 {
   "id": "src-gen-silas-marner-019",
   "pool": "sourced",
-  "text": "On the table near them, lit by a candle, lay the recovered gold—the old long-loved gold, ranged in orderly heaps, as Silas used to range it in the days when it was his only joy. He had been telling her how he used to count it every night, and how his soul was utterly desolate till she was sent to him. “At first, I’d a sort o’ feeling come across me now and then,” he was saying in a subdued tone, “as if you might be changed into the gold again; for sometimes, turn my head which way I would, I seemed to see the gold; and I thought I should be glad if I could feel it, and find it was come back. But that didn’t last long. After a bit, I should have thought it was a curse come again, if it had drove you from me, for I’d got to feel the need o’ your looks and your voice and the touch o’ your little fingers.",
+  "text": "But she was never whimpering; no one had seen her shed tears; she was simply grave and inclined to shake her head and sigh, almost imperceptibly, like a funereal mourner who is not a relation. It seemed surprising that Ben Winthrop, who loved his quart-pot and his joke, got along so well with Dolly; but she took her husband’s jokes and joviality as patiently as everything else, considering that “men would be so,” and viewing the stronger sex in the light of animals whom it had pleased Heaven to make naturally troublesome, like bulls and turkey-cocks. This good wholesome woman could hardly fail to have her mind drawn strongly towards Silas Marner, now that he appeared in the light of a sufferer; and one Sunday afternoon she took her little boy Aaron with her, and went to call on Silas, carrying in her hand some small lard-cakes, flat paste-like articles much esteemed in Raveloe.",
   "words": [
     {
-      "word": "lit",
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wholesome",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

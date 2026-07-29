@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-notes-from-underground-028",
+  "pool": "sourced",
+  "text": "I woke up, though I had indeed not been asleep but lying half-conscious. It was almost completely dark in the narrow, cramped, low-pitched room, cumbered up with an enormous wardrobe and piles of cardboard boxes and all sorts of frippery and litter. The candle end that had been burning on the table was going out and gave a faint flicker from time to time. In a few minutes there would be complete darkness. I was not long in coming to myself; everything came back to my mind at once, without an effort, as though it had been in ambush to pounce upon me again.",
+  "words": [
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cardboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ambush",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

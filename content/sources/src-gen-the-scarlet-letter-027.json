@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-scarlet-letter-027",
+  "pool": "sourced",
+  "text": "The light lingered about the lonely child, as if glad of such a playmate, until her mother had drawn almost nigh enough to step into the magic circle too. “It will go now,” said Pearl, shaking her head. “See!” answered Hester, smiling; “now I can stretch out my hand and grasp some of it.” As she attempted to do so, the sunshine vanished; or, to judge from the bright expression that was dancing on Pearl’s features, her mother could have fancied that the child had absorbed it into herself, and would give it forth again, with a gleam about her path, as they should plunge into some gloomier shade. There was no other attribute that so much impressed her with a sense of new and untransmitted vigour in Pearl’s nature, as this never failing vivacity of spirits: she had not the disease of sadness, which almost all children, in these latter days, inherit, with the scrofula, from the troubles of their ancestors. Perhaps this, too, was a disease, and but the reflex of the wild energy with which Hester had fought against her sorrows before Pearl’s birth.",
+  "words": [
+    {
+      "word": "grasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunshine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

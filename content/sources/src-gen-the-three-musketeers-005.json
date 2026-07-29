@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-005",
   "pool": "sourced",
-  "text": "“And I keep my word. Your hand, madame, your hand, and I depart!” Anne of Austria stretched forth her hand, closing her eyes, and leaning with the other upon Estafania, for she felt that her strength was about to fail her. Buckingham pressed his lips passionately to that beautiful hand, and then rising, said, “Within six months, if I am not dead, I shall have seen you again, madame—even if I have to overturn the world.” And faithful to the promise he had made, he rushed out of the apartment. In the corridor he met Mme. Bonacieux, who waited for him, and who, with the same precautions and the same good luck, conducted him out of the Louvre.",
+  "text": "“Pardieu,” resumed the latter, twisting his mustache, “look at me as long as you like, my little gentleman! I have said what I have said.” “And as since that which you have said is too clear to require any explanation,” replied D’Artagnan, in a low voice, “I beg you to follow me.” “And when?” asked the Guardsman, with the same jeering air. “At once, if you please.” “And you know who I am, without doubt?” “I? I am completely ignorant; nor does it much disquiet me.” “You’re in the wrong there; for if you knew my name, perhaps you would not be so pressing.” “What is your name?” “Bernajoux, at your service.” “Well, then, Monsieur Bernajoux,” said D’Artagnan, tranquilly, “I will wait for you at the door.” “Go, monsieur, I will follow you.” “Do not hurry yourself, monsieur, lest it be observed that we go out together. You must be aware that for our undertaking, company would be in the way.” “That’s true,” said the Guardsman, astonished that his name had not produced more effect upon the young man.",
   "words": [
     {
-      "word": "precautions",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monsieur",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

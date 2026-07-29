@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-030",
+  "pool": "sourced",
+  "text": "A sort of suppressed terror hung in the air and seemed to seize us,—a pythian madness, a demoniac possession, that lent terrible reality to song and word. The black and massive form of the preacher swayed and quivered as the words crowded to his lips and flew at us in singular eloquence. The people moaned and fluttered, and then the gaunt-cheeked brown woman beside me suddenly leaped straight into the air and shrieked like a lost soul, while round about came wail and groan and outcry, and a scene of human passion such as I had never conceived before. Those who have not thus witnessed the frenzy of a Negro revival in the untouched backwoods of the South can but dimly realize the religious feeling of the slave; as described, such scenes appear grotesque and funny, but as seen they are awful. Three things characterized this religion of the slave,—the Preacher, the Music, and the Frenzy.",
+  "words": [
+    {
+      "word": "madness",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "preacher",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

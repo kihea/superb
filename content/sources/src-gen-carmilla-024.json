@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-carmilla-024",
+  "pool": "sourced",
+  "text": "“Shall I say a word to Madame?” “Certainly,” said my father. He called Madame to him, and said: “I find my young friend here far from well. It won’t be of any great consequence, I hope; but it will be necessary that some steps be taken, which I will explain by-and-by; but in the meantime, Madame, you will be so good as not to let Miss Laura be alone for one moment. That is the only direction I need give for the present. It is indispensable.” “We may rely upon your kindness, Madame, I know,” added my father.",
+  "words": [
+    {
+      "word": "indispensable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

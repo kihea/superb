@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-mysterious-island-026",
+  "pool": "sourced",
+  "text": "A moderate breeze, which passes over twenty-four feet to the second, will give sixteen turns to the sails during a minute, and there is no need of more.” “Exactly!” cried Herbert, “a fine breeze is blowing from the northeast, which will soon do our business for us.” There was no reason for delaying the inauguration of the mill, for the settlers were eager to taste the first piece of bread in Lincoln Island. On this morning two or three bushels of wheat were ground, and the next day at breakfast a magnificent loaf, a little heavy perhaps, although raised with yeast, appeared on the table at Granite House. Every one munched away at it with a pleasure which may be easily understood. In the meanwhile, the stranger had not reappeared. Several times Gideon Spilett and Herbert searched the forest in the neighborhood of Granite House, without meeting or finding any trace of him.",
+  "words": [
+    {
+      "word": "blowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wheat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "loaf",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yeast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

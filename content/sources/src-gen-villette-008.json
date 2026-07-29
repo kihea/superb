@@ -1,10 +1,16 @@
 {
   "id": "src-gen-villette-008",
   "pool": "sourced",
-  "text": "“The child feels it too.” All these things do I now think over, adding, “He had his faults, yet scarce ever was a finer nature; liberal, suave, impressible.” My reflections closed in an audibly pronounced word, “Graham!” “Graham!” echoed a sudden voice at the bedside. “Do you want Graham?” I looked. The plot was but thickening; the wonder but culminating. If it was strange to see that well-remembered pictured form on the wall, still stranger was it to turn and behold the equally well-remembered living form opposite—a woman, a lady, most real and substantial, tall, well-attired, wearing widow’s silk, and such a cap as best became her matron and motherly braids of hair. Hers, too, was a good face; too marked, perhaps, now for beauty, but not for sense or character.",
+  "text": "I, meantime, was free to puzzle over his countenance and movements, and wonder what could be the meaning of that peculiar interest and attachment—all mixed up with doubt and strangeness, and inexplicably ruled by some presiding spell—which wedded him to this demi-convent, secluded in the built-up core of a capital. He, I believe, never remembered that I had eyes in my head, much less a brain behind them. Nor would he ever have found this out, but that one day, while he sat in the sunshine and I was observing the colouring of his hair, whiskers, and complexion—the whole being of such a tone as a strong light brings out with somewhat perilous force (indeed I recollect I was driven to compare his beamy head in my thoughts to that of the “golden image” which Nebuchadnezzar the king had set up), an idea new, sudden, and startling, riveted my attention with an over-mastering strength and power of attraction.",
   "words": [
     {
-      "word": "behold",
+      "word": "puzzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunshine",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

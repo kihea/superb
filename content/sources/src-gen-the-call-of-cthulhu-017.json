@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-call-of-cthulhu-017",
   "pool": "sourced",
-  "text": "I made the brief trip by taxicab, and knocked with palpitant heart at the door of a neat and ancient building with plastered front. A sad-faced woman in black answered my summons, and I was stung with disappointment when she told me in halting English that Gustaf Johansen was no more. He had not long survived his return, said his wife, for the doings at sea in 1925 had broken him. He had told her no more than he had told the public, but had left a long manuscript--of \"technical matters\" as he said--written in English, evidently in order to safeguard her from the peril of casual perusal. During a walk through a narrow lane near the Gothenburg dock, a bundle of papers falling from an attic window had knocked him down.",
+  "text": "Remains of Them, he said the deathless Chinamen had told him, were still to be found as Cyclopean stones on islands in the Pacific. They all died vast epochs of time before man came, but there were arts which could revive Them when the stars had come round again to the right positions in the cycle of eternity. They had, indeed, come themselves from the stars, and brought Their images with Them. These Great Old Ones, Castro continued, were not composed altogether of flesh and blood. They had shape--for did not this star-fashioned image prove it?--but that shape was not made of matter.",
   "words": [
     {
-      "word": "stung",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "attic",
+      "word": "eternity",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

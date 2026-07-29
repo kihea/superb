@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-037",
+  "pool": "sourced",
+  "text": "‘Yes, it is a good way from the house,’ he admitted. ‘But, you see, in winter there are nearly always some of us around to come out and get things.’ Anna and Yulka showed me three small barrels; one full of dill pickles, one full of chopped pickles, and one full of pickled watermelon rinds. ‘You wouldn’t believe, Jim, what it takes to feed them all!’ their mother exclaimed. ‘You ought to see the bread we bake on Wednesdays and Saturdays! It’s no wonder their poor papa can’t get rich, he has to buy so much sugar for us to preserve with.",
+  "words": [
+    {
+      "word": "chopped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

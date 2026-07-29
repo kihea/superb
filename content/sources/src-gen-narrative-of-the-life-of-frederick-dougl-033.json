@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-033",
+  "pool": "sourced",
+  "text": "We owe something to the slave south of the line as well as to those north of it; and in aiding the latter on their way to freedom, we should be careful to do nothing which would be likely to hinder the former from escaping from slavery. I would keep the merciless slaveholder profoundly ignorant of the means of flight adopted by the slave. I would leave him to imagine himself surrounded by myriads of invisible tormentors, ever ready to snatch from his infernal grasp his trembling prey. Let him be left to feel his way in the dark; let darkness commensurate with his crime hover over him; and let him feel that at every step he takes, in pursuit of the flying bondman, he is running the frightful risk of having his hot brains dashed out by an invisible agency. Let us render the tyrant no aid; let us not hold the light by which he can trace the footprints of our flying brother.",
+  "words": [
+    {
+      "word": "owe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snatch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

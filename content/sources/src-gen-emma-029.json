@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-emma-029",
+  "pool": "sourced",
+  "text": "I give you this caution now, because I shall never speak to you again on the subject. I am determined against all interference. Henceforward I know nothing of the matter. Let no name ever pass our lips. We were very wrong before; we will be cautious now.—He is your superior, no doubt, and there do seem objections and obstacles of a very serious nature; but yet, Harriet, more wonderful things have taken place, there have been matches of greater disparity.",
+  "words": [
+    {
+      "word": "caution",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cautious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

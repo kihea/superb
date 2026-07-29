@@ -1,16 +1,40 @@
 {
   "id": "src-gen-robinson-crusoe-006",
   "pool": "sourced",
-  "text": "I found in her three-score eggs; and her flesh was to me, at that time, the most savoury and pleasant that ever I tasted in my life, having had no flesh, but of goats and fowls, since I landed in this horrid place. June 18.—Rained all day, and I stayed within. I thought at this time the rain felt cold, and I was something chilly; which I knew was not usual in that latitude. June 19.—Very ill, and shivering, as if the weather had been cold. June 20.—No rest all night; violent pains in my head, and feverish.",
+  "text": "I had the biggest magazine of all kinds now that ever was laid up, I believe, for one man: but I was not satisfied still, for while the ship sat upright in that posture, I thought I ought to get everything out of her that I could; so every day at low water I went on board, and brought away something or other; but particularly the third time I went I brought away as much of the rigging as I could, as also all the small ropes and rope-twine I could get, with a piece of spare canvas, which was to mend the sails upon occasion, and the barrel of wet gunpowder. In a word, I brought away all the sails, first and last; only that I was fain to cut them in pieces, and bring as much at a time as I could, for they were no more useful to be sails, but as mere canvas only.",
   "words": [
     {
-      "word": "tasted",
+      "word": "rigging",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shivering",
+      "word": "canvas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gunpowder",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +45,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

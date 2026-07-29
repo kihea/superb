@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-anne-of-green-gables-032",
+  "pool": "sourced",
+  "text": "“I thought Marilla Cuthbert was an old fool when I heard she’d adopted a girl out of an orphan asylum,” she said to herself, “but I guess she didn’t make much of a mistake after all. If I’d a child like Anne in the house all the time I’d be a better and happier woman.” Anne and Diana found the drive home as pleasant as the drive in--pleasanter, indeed, since there was the delightful consciousness of home waiting at the end of it. It was sunset when they passed through White Sands and turned into the shore road. Beyond, the Avonlea hills came out darkly against the saffron sky. Behind them the moon was rising out of the sea that grew all radiant and transfigured in her light.",
+  "words": [
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "radiant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

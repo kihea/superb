@@ -1,10 +1,28 @@
 {
   "id": "src-gen-captains-courageous-019",
   "pool": "sourced",
-  "text": "Remember what Phil's sister reads you when she gits his letters.\" \"I've never known as Phil told lies, but he's too venturesome (like most of 'em that use the sea). If Dan sees fit, Mr. Cheyne, he can go--fer all o' me.\" \"She jest despises the ocean,\" Disko explained, \"an' I--I dunno haow to act polite, I guess, er I'd thank you better.\" \"My father--my own eldest brother--two nephews--an' my second sister's man,\" she said, dropping her head on her hand.",
+  "text": "But more wonderful still were his stories of the cod, and how they argued and reasoned on their private businesses deep down below the keel. Long Jack's tastes ran more to the supernatural. He held them silent with ghastly stories of the \"Yo-hoes\" on Monomoy Beach, that mock and terrify lonely clam-diggers; of sand-walkers and dune-haunters who were never properly buried; of hidden treasure on Fire Island guarded by the spirits of Kidd's men; of ships that sailed in the fog straight over Truro township; of that harbor in Maine where no one but a stranger will lie at anchor twice in a certain place because of a dead crew who row alongside at midnight with the anchor in the bow of their old-fashioned boat, whistling--not calling, but whistling--for the soul of the man who broke their rest. Harvey had a notion that the east coast of his native land, from Mount Desert south, was populated chiefly by people who took their horses there in the summer and entertained in country-houses with hardwood floors and Vantine portires. He laughed at the ghost-tales,--not as much as he would have done a month before,--but ended by sitting still and shuddering.",
   "words": [
     {
-      "word": "nephews",
+      "word": "keel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clam",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dune",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harbor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Rudyard Kipling",
     "year": 1897,
     "source": "Project Gutenberg #2186",
-    "url": "https://www.gutenberg.org/ebooks/2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

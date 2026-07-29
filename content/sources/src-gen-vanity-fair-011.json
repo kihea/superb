@@ -1,22 +1,16 @@
 {
   "id": "src-gen-vanity-fair-011",
   "pool": "sourced",
-  "text": "The landlord, fearing lest the account should be refused altogether, swore solemnly that the young gent had consumed personally every farthing's worth of the liquor: and Bowls paid the bill finally, and showed it on his return home to Mrs. Firkin, who was shocked at the frightful prodigality of gin; and took the bill to Miss Briggs as accountant-general; who thought it her duty to mention the circumstance to her principal, Miss Crawley. Had he drunk a dozen bottles of claret, the old spinster could have pardoned him. Mr. Fox and Mr. Sheridan drank claret. Gentlemen drank claret. But eighteen glasses of gin consumed among boxers in an ignoble pot-house--it was an odious crime and not to be pardoned readily.",
+  "text": "Nay, we know that substantial benefits often sicken some stomachs; whereas, most will digest any amount of fine words, and be always eager for more of the same food. Mrs. Bute had told Briggs and Firkin so often of the depth of her affection for them; and what she would do, if she had Miss Crawley's fortune, for friends so excellent and attached, that the ladies in question had the deepest regard for her; and felt as much gratitude and confidence as if Mrs. Bute had loaded them with the most expensive favours. Rawdon Crawley, on the other hand, like a selfish heavy dragoon as he was, never took the least trouble to conciliate his aunt's aides-de-camp, showed his contempt for the pair with entire frankness--made Firkin pull off his boots on one occasion--sent her out in the rain on ignominious messages--and if he gave her a guinea, flung it to her as if it were a box on the ear. As his aunt, too, made a butt of Briggs, the Captain followed the example, and levelled his jokes at her--jokes about as delicate as a kick from his charger.",
   "words": [
     {
-      "word": "swore",
+      "word": "guinea",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "gin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "accountant",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

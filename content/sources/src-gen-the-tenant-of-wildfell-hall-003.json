@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-003",
   "pool": "sourced",
-  "text": "If you couldn’t afford to occupy the whole house, and have it mended up, why couldn’t you take a neat little cottage?” “Perhaps I was too proud, Mr. Fergus,” replied she, smiling; “perhaps I took a particular fancy for this romantic, old-fashioned place—but, indeed, it has many advantages over a cottage—in the first place, you see, the rooms are larger and more airy; in the second place, the unoccupied apartments, which I don’t pay for, may serve as lumber-rooms, if I have anything to put in them; and they are very useful for my little boy to run about in on rainy days when he can’t go out; and then there is the garden for him to play in, and for me to work in. You see I have effected some little improvement already,” continued she, turning to the window. “There is a bed of young vegetables in that corner, and here are some snowdrops and primroses already in bloom—and there, too, is a yellow crocus just opening in the sunshine.” “But then how can you bear such a situation—your nearest neighbours two miles distant, and nobody looking in or passing by?",
+  "text": "“Oh, no!—But if you would have a boy to despise his mother, let her keep him at home, and spend her life in petting him up, and slaving to indulge his follies and caprices.” “I perfectly agree with you, Mrs. Markham; but nothing can be further from my principles and practice than such criminal weakness as that.” “Well, but you will treat him like a girl—you’ll spoil his spirit, and make a mere Miss Nancy of him—you will, indeed, Mrs. Graham, whatever you may think. But I’ll get Mr. Millward to talk to you about it:—he’ll tell you the consequences;—he’ll set it before you as plain as the day;—and tell you what you ought to do, and all about it;—and, I don’t doubt, he’ll be able to convince you in a minute.” “No occasion to trouble the vicar,” said Mrs. Graham, glancing at me—I suppose I was smiling at my mother’s unbounded confidence in that worthy gentleman—“Mr. Markham here thinks his powers of conviction at least equal to Mr. Millward’s. If I hear not him, neither should I be convinced though one rose from the dead, he would tell you.",
   "words": [
     {
-      "word": "occupy",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cottage",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "neighbours",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

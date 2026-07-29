@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-035",
+  "pool": "sourced",
+  "text": "The wind, which had hitherto carried us along with amazing rapidity, sank at sunset to a light breeze; the soft air just ruffled the water and caused a pleasant motion among the trees as we approached the shore, from which it wafted the most delightful scent of flowers and hay. The sun sank beneath the horizon as we landed, and as I touched the shore I felt those cares and fears revive which soon were to clasp me and cling to me for ever. It was eight o’clock when we landed; we walked for a short time on the shore, enjoying the transitory light, and then retired to the inn and contemplated the lovely scene of waters, woods, and mountains, obscured in darkness, yet still displaying their black outlines. The wind, which had fallen in the south, now rose with great violence in the west. The moon had reached her summit in the heavens and was beginning to descend; the clouds swept across it swifter than the flight of the vulture and dimmed her rays, while the lake reflected the scene of the busy heavens, rendered still busier by the restless waves that were beginning to rise.",
+  "words": [
+    {
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heavens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

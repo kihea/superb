@@ -1,16 +1,16 @@
 {
   "id": "src-gen-rip-van-winkle-014",
   "pool": "sourced",
-  "text": "The dogs, too, not one of whom he recognised for an old acquaintance, barked at him as he passed. The very village was altered; it was larger and more populous. There were rows of houses which he had never seen before, and those which had been his familiar haunts had disappeared. Strange names were over the doors--strange faces at the windows--everything was strange. His mind now misgave him; he began to doubt whether both he and the world around him were not bewitched.",
+  "text": "One taste provoked another; and he reiterated his visits to the flagon so often that at length his senses were overpowered, his eyes swam in his head, his head gradually declined, and he fell into a deep sleep. On waking, he found himself on the green knoll whence he had first seen the old man of the glen. He rubbed his eyes--it was a bright sunny morning. The birds were hopping and twittering among the bushes, and the eagle was wheeling aloft, and breasting the pure mountain breeze. “Surely,” thought Rip, “I have not slept here all night.” He recalled the occurrences before he fell asleep.",
   "words": [
     {
-      "word": "recognised",
+      "word": "glen",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "acquaintance",
+      "word": "eagle",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

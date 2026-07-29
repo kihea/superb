@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-return-of-the-native-025",
+  "pool": "sourced",
+  "text": "None of them feared him. The monotony of his occupation soothed him, and was in itself a pleasure. A forced limitation of effort offered a justification of homely courses to an unambitious man, whose conscience would hardly have allowed him to remain in such obscurity while his powers were unimpeded. Hence Yeobright sometimes sang to himself, and when obliged to accompany Humphrey in search of brambles for faggot-bonds he would amuse his companion with sketches of Parisian life and character, and so while away the time. On one of these warm afternoons Eustacia walked out alone in the direction of Yeobright’s place of work.",
+  "words": [
+    {
+      "word": "occupation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accompany",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "faggot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Return of the Native",
+    "author": "Thomas Hardy",
+    "year": 1878,
+    "source": "Project Gutenberg #122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

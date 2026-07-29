@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-invisible-man-025",
+  "pool": "sourced",
+  "text": "“My mood, I say, was one of exaltation. I felt as a seeing man might do, with padded feet and noiseless clothes, in a city of the blind. I experienced a wild impulse to jest, to startle people, to clap men on the back, fling people’s hats astray, and generally revel in my extraordinary advantage. “But hardly had I emerged upon Great Portland Street, however (my lodging was close to the big draper’s shop there), when I heard a clashing concussion and was hit violently behind, and turning saw a man carrying a basket of soda-water syphons, and looking in amazement at his burden. Although the blow had really hurt me, I found something so irresistible in his astonishment that I laughed aloud.",
+  "words": [
+    {
+      "word": "fling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "draper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

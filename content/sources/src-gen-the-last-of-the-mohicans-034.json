@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-034",
+  "pool": "sourced",
+  "text": "An act of so much precipitancy and presumption would seal the downfall of precocious intellect forever. It rested solely with the oldest and most experienced of the men to lay the subject of the conference before the people. Until such a one chose to make some movement, no deeds in arms, no natural gifts, nor any renown as an orator, would have justified the slightest interruption. On the present occasion, the aged warrior whose privilege it was to speak, was silent, seemingly oppressed with the magnitude of his subject. The delay had already continued long beyond the usual deliberative pause that always preceded a conference; but no sign of impatience or surprise escaped even the youngest boy.",
+  "words": [
+    {
+      "word": "presumption",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "interruption",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oppressed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-031",
+  "pool": "sourced",
+  "text": "I opened its pages once more, and wrote the above account—with difficulty, at first, but gradually my mind became more calm and steady. Thus several hours have passed away: the time is drawing near; and now my eyes feel heavy and my frame exhausted. I will commend my cause to God, and then lie down and gain an hour or two of sleep; and then!— Little Arthur sleeps soundly. All the house is still: there can be no one watching. The boxes were all corded by Benson, and quietly conveyed down the back stairs after dusk, and sent away in a cart to the M—— coach-office.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

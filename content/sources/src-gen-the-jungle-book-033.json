@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-jungle-book-033",
+  "pool": "sourced",
+  "text": "The elephants were stamping all together now, and it sounded like a war drum beaten at the mouth of a cave. The dew fell from the trees till there was no more left to fall, and the booming went on, and the ground rocked and shivered, and Little Toomai put his hands up to his ears to shut out the sound. But it was all one gigantic jar that ran through him--this stamp of hundreds of heavy feet on the raw earth. Once or twice he could feel Kala Nag and all the others surge forward a few strides, and the thumping would change to the crushing sound of juicy green things being bruised, but in a minute or two the boom of feet on hard earth began again. A tree was creaking and groaning somewhere near him.",
+  "words": [
+    {
+      "word": "stamping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

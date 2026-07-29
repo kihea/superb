@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-027",
+  "pool": "sourced",
+  "text": "“Nay, my father,” answered our quondam servant, who now, clad as he was in the full panoply of savage war, looked every inch a warrior king, “do thou speak, and let me, who am but a child in wisdom beside thee, hearken to thy words.” Thus adjured, after taking hasty counsel with Good and Sir Henry, I delivered my opinion briefly to the effect that, being trapped, our best chance, especially in view of the failure of our water supply, was to initiate an attack upon Twala’s forces. Then I recommended that the attack should be delivered at once, “before our wounds grew stiff,” and also before the sight of Twala’s overpowering force caused the hearts of our soldiers “to wax small like fat before a fire.” Otherwise, I pointed out, some of the captains might change their minds, and, making peace with Twala, desert to him, or even betray us into his hands. This expression of opinion seemed, on the whole, to be favourably received; indeed, among the Kukuanas my utterances met with a respect which has never been accorded to them before or since.",
+  "words": [
+    {
+      "word": "thou",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "counsel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "betray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

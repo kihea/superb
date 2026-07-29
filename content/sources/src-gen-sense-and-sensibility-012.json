@@ -1,22 +1,22 @@
 {
   "id": "src-gen-sense-and-sensibility-012",
   "pool": "sourced",
-  "text": "The treachery, or the folly, of my cousin's maid betrayed us. I was banished to the house of a relation far distant, and she was allowed no liberty, no society, no amusement, till my father's point was gained. I had depended on her fortitude too far, and the blow was a severe one, but had her marriage been happy, so young as I then was, a few months must have reconciled me to it, or at least I should not have now to lament it. This however was not the case. My brother had no regard for her; his pleasures were not what they ought to have been, and from the first he treated her unkindly.",
+  "text": "The shortness of his visit, the steadiness of his purpose in leaving them, originated in the same fettered inclination, the same inevitable necessity of temporizing with his mother. The old well-established grievance of duty against will, parent against child, was the cause of all. She would have been glad to know when these difficulties were to cease, this opposition was to yield, when Mrs. Ferrars would be reformed, and her son be at liberty to be happy. But from such vain wishes she was forced to turn for comfort to the renewal of her confidence in Edward's affection, to the remembrance of every mark of regard in look or word which fell from him while at Barton, and above all to that flattering proof of it which he constantly wore round his finger. \"I think, Edward,\" said Mrs. Dashwood, as they were at breakfast the last morning, \"you would be a happier man if you had any profession to engage your time and give an interest to your plans and actions.",
   "words": [
     {
-      "word": "maid",
+      "word": "yield",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "betrayed",
+      "word": "reformed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "distant",
+      "word": "flattering",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

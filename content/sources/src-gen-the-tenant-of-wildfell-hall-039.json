@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-039",
+  "pool": "sourced",
+  "text": "“Why did you not tell me of this?” I said, reproachfully, pretending a resentment I did not feel (for in truth I was almost wild with joy to find myself so happily mistaken, and overflowing with affection to him for this and for the base injustice I felt that I had done him in my mind—he might have wronged me, but not to that extent; and as I had hated him like a demon for the last forty hours, the reaction from such a feeling was so great that I could pardon all offences for the moment—and love him in spite of them too). “I did tell you,” said he, with an air of guilty confusion; “you received my letter?” “What letter?” “The one announcing my intended marriage.” “I never received the most distant hint of such an intention.” “It must have crossed you on your way then—it should have reached you yesterday morning—it was rather late, I acknowledge.",
+  "words": [
+    {
+      "word": "resentment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acknowledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

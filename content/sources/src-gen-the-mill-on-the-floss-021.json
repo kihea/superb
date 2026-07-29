@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-021",
+  "pool": "sourced",
+  "text": "“Which day is it that Dorlcote Mill is to be sold? Where’s the bill?” said Mr Wakem to his clerk when they were alone. “Next Friday is the day,—Friday at six o’clock.” “Oh, just run to Winship’s the auctioneer, and see if he’s at home. I have some business for him; ask him to come up.” Although, when Mr Wakem entered his office that morning, he had had no intention of purchasing Dorlcote Mill, his mind was already made up. Mrs Tulliver had suggested to him several determining motives, and his mental glance was very rapid; he was one of those men who can be prompt without being rash, because their motives run in fixed tracks, and they have no need to reconcile conflicting aims.",
+  "words": [
+    {
+      "word": "clerk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prompt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

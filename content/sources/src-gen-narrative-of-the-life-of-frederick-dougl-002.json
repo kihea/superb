@@ -1,10 +1,22 @@
 {
   "id": "src-gen-narrative-of-the-life-of-frederick-dougl-002",
   "pool": "sourced",
-  "text": "with all his noble powers and sublime aspirations, how like a brute was he treated, even by those professing to have the same mind in them that was in Christ Jesus! to what dreadful liabilities was he continually subjected! how destitute of friendly counsel and aid, even in his greatest extremities! how heavy was the midnight of woe which shrouded in blackness the last ray of hope, and filled the future with terror and gloom! what longings after freedom took possession of his breast, and how his misery augmented, in proportion as he grew reflective and intelligent,—thus demonstrating that a happy slave is an extinct man!",
+  "text": "As soon as he had taken his seat, filled with hope and admiration, I rose, and declared that PATRICK HENRY, of revolutionary fame, never made a speech more eloquent in the cause of liberty, than the one we had just listened to from the lips of that hunted fugitive. So I believed at that time—such is my belief now. I reminded the audience of the peril which surrounded this self-emancipated young man at the North,—even in Massachusetts, on the soil of the Pilgrim Fathers, among the descendants of revolutionary sires; and I appealed to them, whether they would ever allow him to be carried back into slavery,—law or no law, constitution or no constitution. The response was unanimous and in thunder-tones—“NO!” “Will you succor and protect him as a brother-man—a resident of the old Bay State?” “YES!” shouted the whole mass, with an energy so startling, that the ruthless tyrants south of Mason and Dixon’s line might almost have heard the mighty burst of feeling, and recognized it as the pledge of an invincible determination, on the part of those who gave it, never to betray him that wanders, but to hide the outcast, and firmly to abide the consequences.",
   "words": [
     {
-      "word": "misery",
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fugitive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "determination",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Frederick Douglass",
     "year": 1845,
     "source": "Project Gutenberg #23",
-    "url": "https://www.gutenberg.org/ebooks/23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

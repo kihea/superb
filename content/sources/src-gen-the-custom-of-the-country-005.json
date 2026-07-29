@@ -1,22 +1,22 @@
 {
   "id": "src-gen-the-custom-of-the-country-005",
   "pool": "sourced",
-  "text": "Beheld through such a medium the future looked less near and implacable, and Ralph, when he had received a reassuring letter from his sister, let his conscience sleep and slipped forth on the high tide of pleasure. After all, in New York amusements would be fewer, and their life, for a time, perhaps more quiet. Moreover, Ralph's dim glimpses of Mr. Spragg's past suggested that the latter was likely to be on his feet again at any moment, and atoning by redoubled prodigalities for his temporary straits; and beyond all these possibilities there was the book to be written--the book on which Ralph was sure he should get a real hold as soon as they settled down in New York. Meanwhile the daily cost of living, and the bills that could not be deferred, were eating deep into Laura's subsidy. Ralph's anxieties returned, and his plight was brought home to him with a shock when, on going one day to engage passages, he learned that the prices were that of the \"rush season,\" and one of the conditions immediate payment.",
+  "text": "As she turned he turned too, showing her, above a shining shirt-front fastened with a large imitation pearl, a ruddy plump snub face without an angle in it, which yet looked sharper than a razor. Undine's eyes met his with a startled look, and for a long moment they remained suspended on each other's stare. Undine at length shrank back with an unrecognizing face; but her movement made her opera-glass slip to the floor, and her neighbour bent down and picked it up. \"Well--don't you know me yet?\" he said with a slight smile, as he restored the glass to her.",
   "words": [
     {
-      "word": "conscience",
+      "word": "pearl",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "razor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "slipped",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tide",
+      "word": "stare",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Edith Wharton",
     "year": 1913,
     "source": "Project Gutenberg #11052",
-    "url": "https://www.gutenberg.org/ebooks/11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

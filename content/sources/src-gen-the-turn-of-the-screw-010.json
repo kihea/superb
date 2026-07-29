@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-turn-of-the-screw-010",
   "pool": "sourced",
-  "text": "Then I saw something more. The moon made the night extraordinarily penetrable and showed me on the lawn a person, diminished by distance, who stood there motionless and as if fascinated, looking up to where I had appeared—looking, that is, not so much straight at me as at something that was apparently above me. There was clearly another person above me—there was a person on the tower; but the presence on the lawn was not in the least what I had conceived and had confidently hurried to meet. The presence on the lawn—I felt sick as I made it out—was poor little Miles himself. XI It was not till late next day that I spoke to Mrs. Grose; the rigor with which I kept my pupils in sight making it often difficult to meet her privately, and the more as we each felt the importance of not provoking—on the part of the servants quite as much as on that of the children—any suspicion of a secret flurry or that of a discussion of mysteries.",
+  "text": "We had left Miles indoors, on the red cushion of a deep window seat; he had wished to finish a book, and I had been glad to encourage a purpose so laudable in a young man whose only defect was an occasional excess of the restless. His sister, on the contrary, had been alert to come out, and I strolled with her half an hour, seeking the shade, for the sun was still high and the day exceptionally warm. I was aware afresh, with her, as we went, of how, like her brother, she contrived—it was the charming thing in both children—to let me alone without appearing to drop me and to accompany me without appearing to surround. They were never importunate and yet never listless. My attention to them all really went to seeing them amuse themselves immensely without me: this was a spectacle they seemed actively to prepare and that engaged me as an active admirer.",
   "words": [
     {
-      "word": "lawn",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fascinated",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "suspicion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mysteries",
+      "word": "occasional",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

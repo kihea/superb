@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-song-of-the-lark-039",
+  "pool": "sourced",
+  "text": "Ten years.” “I’m not ungrateful,” Thea repeated as she got into her cab. “Yes,” she reflected, as the taxi cut into the Park carriage road, “we don’t get fairy tales in this world, and he has, after all, cared more and longer than anybody else.” It was dark outside now, and the light from the lamps along the drive flashed into the cab. The snowflakes hovered like swarms of white bees about the globes. Thea sat motionless in one corner staring out of the window at the cab lights that wove in and out among the trees, all seeming to be bent upon joyous courses. Taxicabs were still new in New York, and the theme of popular minstrelsy.",
+  "words": [
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "taxi",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

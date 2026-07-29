@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-invisible-man-031",
+  "pool": "sourced",
+  "text": "I could not go abroad in snow—it would settle on me and expose me. Rain, too, would make me a watery outline, a glistening surface of a man—a bubble. And fog—I should be like a fainter bubble in a fog, a surface, a greasy glimmer of humanity. Moreover, as I went abroad—in the London air—I gathered dirt about my ankles, floating smuts and dust upon my skin. I did not know how long it would be before I should become visible from that cause also.",
+  "words": [
+    {
+      "word": "expose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bubble",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fog",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "greasy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

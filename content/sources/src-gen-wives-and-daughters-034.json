@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-wives-and-daughters-034",
+  "pool": "sourced",
+  "text": "Molly was puzzled to account for it; and all the more perplexed because from time to time Cynthia kept calling upon her for praise for some unknown and mysterious virtue that she had practised; and Molly was young enough to believe that, after any exercise of virtue, the spirits rose, cheered up by an approving conscience. Such was not the case with Cynthia, however. She sometimes said such things as these, when she had been particularly inert and desponding:-- \"Ah, Molly, you must let my goodness lie fallow for a while! It has borne such a wonderful crop this year. I have been so pretty-behaved--if you knew all!\"",
+  "words": [
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mysterious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wives and Daughters",
+    "author": "Elizabeth Gaskell",
+    "year": 1866,
+    "source": "Project Gutenberg #4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

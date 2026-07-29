@@ -1,34 +1,22 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-015",
   "pool": "sourced",
-  "text": "The lineaments of the quivering features of Magua proved more ductile; his countenance gradually lost its character of defiance in an expression of ferocious joy, and heaving a breath from the very bottom of his chest, he pronounced aloud the formidable name of: “Le Cerf Agile!” Each warrior sprang upon his feet at the utterance of the well-known appellation, and there was a short period during which the stoical constancy of the natives was completely conquered by surprise. The hated and yet respected name was repeated as by one voice, carrying the sound even beyond the limits of the lodge. The women and children, who lingered around the entrance, took up the words in an echo, which was succeeded by another shrill and plaintive howl. The latter was not yet ended, when the sensation among the men had entirely abated. Each one in presence seated himself, as though ashamed of his precipitation; but it was many minutes before their meaning eyes ceased to roll toward their captive, in curious examination of a warrior who had so often proved his prowess on the best and proudest of their nation.",
+  "text": "See,” he said, pointing through the trees toward a spot where a little basin of water reflected the stars from its placid bosom, “here is the ‘bloody pond’; and I am on ground that I have not only often traveled, but over which I have fou’t the enemy, from the rising to the setting sun.” “Ha! that sheet of dull and dreary water, then, is the sepulcher of the brave men who fell in the contest. I have heard it named, but never have I stood on its banks before.” “Three battles did we make with the Dutch-Frenchman in a day,” continued Hawkeye, pursuing the train of his own thoughts, rather than replying to the remark of Duncan. “He met us hard by, in our outward march to ambush his advance, and scattered us, like driven deer, through the defile, to the shores of Horican. Then we rallied behind our fallen trees, and made head against him, under Sir William—who was made Sir William for that very deed; and well did we pay him for the disgrace of the morning!",
   "words": [
     {
-      "word": "aloud",
+      "word": "pond",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "natives",
+      "word": "remark",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "echo",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "precipitation",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "captive",
+      "word": "deer",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +27,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

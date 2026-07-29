@@ -1,10 +1,16 @@
 {
   "id": "src-gen-pride-and-prejudice-014",
   "pool": "sourced",
-  "text": "Had his first appearance, or his resemblance to the picture they had just been examining, been insufficient to assure the other two that they now saw Mr. Darcy, the gardener’s expression of surprise, on beholding his master, must immediately have told it. They stood a little aloof while he was talking to their niece, who, astonished and confused, scarcely dared lift her eyes to his face, and knew not what answer she returned to his civil inquiries after her family. Amazed at the alteration of his manner since they last parted, every sentence that he uttered was increasing her embarrassment; and every idea of the impropriety of her being found there recurring to her mind, the few minutes in which they continued together were some of the most uncomfortable of her life. Nor did he seem much more at ease; when he spoke, his accent had none of its usual sedateness; and he repeated his inquiries as to the time of her having left Longbourn, and of her stay in Derbyshire, so often, and in so hurried a way, as plainly spoke the distraction of his thoughts.",
+  "text": "Mr. Bennet’s emotions were much more tranquil on the occasion, and such as he did experience he pronounced to be of a most agreeable sort; for it gratified him, he said, to discover that Charlotte Lucas, whom he had been used to think tolerably sensible, was as foolish as his wife, and more foolish than his daughter! Jane confessed herself a little surprised at the match: but she said less of her astonishment than of her earnest desire for their happiness; nor could Elizabeth persuade her to consider it as improbable. Kitty and Lydia were far from envying Miss Lucas, for Mr. Collins was only a clergyman; and it affected them in no other way than as a piece of news to spread at Meryton. Lady Lucas could not be insensible of triumph on being able to retort on Mrs. Bennet the comfort of having a daughter well married; and she called at Longbourn rather oftener than usual to say how happy she was, though Mrs. Bennet’s sour looks and ill-natured remarks might have been enough to drive happiness away.",
   "words": [
     {
-      "word": "plainly",
+      "word": "agreeable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

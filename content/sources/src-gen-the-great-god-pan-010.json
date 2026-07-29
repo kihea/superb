@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-great-god-pan-010",
   "pool": "sourced",
-  "text": "“Ah!” he said, starting slightly, “I forgot I had something to show you. You remember my saying that I had found a rather curious sketch amongst the pile of old newspapers at the house in Paul Street? Here it is.” Villiers drew out a small thin parcel from his pocket. It was covered with brown paper, and secured with string, and the knots were troublesome. In spite of himself Clarke felt inquisitive; he bent forward on his chair as Villiers painfully undid the string, and unfolded the outer covering.",
+  "text": "Before him stretched the long dim vista of the green causeway in the forest, as his friend had described it; he saw the swaying leaves and the quivering shadows on the grass, he saw the sunlight and the flowers, and far away, far in the long distance, the two figures moved toward him. One was Rachel, but the other? Clarke had tried his best to disbelieve it all, but at the end of the account, as he had written it in his book, he had placed the inscription: Et Diabolus incarnatus est. Et homo factus est. III THE CITY OF RESURRECTIONS “Herbert!",
   "words": [
     {
-      "word": "knots",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bent",
+      "word": "vista",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

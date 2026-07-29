@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-039",
+  "pool": "sourced",
+  "text": "And now it was as though he felt rather than heard the twittering; it seemed to be under his palm, which rested on something soft and springy. The thought of the animal’s suffering was intolerable to him and he struggled to raise himself, and could not because a rock, or some huge mass, seemed to be lying on him. But he continued to finger about cautiously with his left hand, thinking he might get hold of the little creature and help it; and all at once he knew that the soft thing he had touched was Mattie’s hair and that his hand was on her face. He dragged himself to his knees, the monstrous load on him moving with him as he moved, and his hand went over and over her face, and he felt that the twittering came from her lips.... He got his face down close to hers, with his ear to her mouth, and in the darkness he saw her eyes open and heard her say his name.",
+  "words": [
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knees",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

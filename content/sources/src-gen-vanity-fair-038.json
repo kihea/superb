@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-vanity-fair-038",
+  "pool": "sourced",
+  "text": "We all walked together and talked to the stout gentleman about the agremens of the place. It was very agreeable for the English. There were shooting-parties and battues; there was a plenty of balls and entertainments at the hospitable Court; the society was generally good; the theatre excellent; and the living cheap. \"And our Minister seems a most delightful and affable person,\" our new friend said. \"With such a representative, and--and a good medical man, I can fancy the place to be most eligible.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

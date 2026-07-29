@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-mysterious-island-010",
   "pool": "sourced",
-  "text": "During the day the bodies of the apes were carried into the wood, where they were buried; then the settlers busied themselves in repairing the disorder caused by the intruders, disorder but not damage, for although they had turned everything in the rooms topsy-turvy, yet they had broken nothing. Neb relighted his stove, and the stores in the larder furnished a substantial repast, to which all did ample justice. Jup was not forgotten, and he ate with relish some stonepine almonds and rhizome roots, with which he was abundantly supplied. Pencroft had unfastened his arms, but judged it best to have his legs tied until they were more sure of his submission. Then, before retiring to rest, Harding and his companions seated round their table, discussed those plans, the execution of which was most pressing.",
+  "text": "Now steel is a combination of iron and coal, which is extracted, either from the liquid ore, by taking from it the excess of coal, or from the iron by adding to it the coal which was wanting. The first, obtained by the decarburation of the metal, gives natural or puddled steel; the second, produced by the carburation of the iron, gives steel of cementation. It was the last which Cyrus Harding intended to forge, as he possessed iron in a pure state. He succeeded by heating the metal with powdered coal in a crucible which had previously been manufactured from clay suitable for the purpose. He then worked this steel, which is malleable both when hot or cold, with the hammer.",
   "words": [
     {
-      "word": "stove",
+      "word": "excess",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "judged",
+      "word": "crucible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "manufactured",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

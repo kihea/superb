@@ -1,34 +1,10 @@
 {
   "id": "src-gen-villette-004",
   "pool": "sourced",
-  "text": "Equality is much practised in Labassecour; though not republican in form, it is nearly so in substance, and at the desks of Madame Beck’s establishment the young countess and the young bourgeoise sat side by side. Nor could you always by outward indications decide which was noble and which plebeian; except that, indeed, the latter had often franker and more courteous manners, while the former bore away the bell for a delicately-balanced combination of insolence and deceit. In the former there was often quick French blood mixed with the marsh-phlegm: I regret to say that the effect of this vivacious fluid chiefly appeared in the oilier glibness with which flattery and fiction ran from the tongue, and in a manner lighter and livelier, but quite heartless and insincere. To do all parties justice, the honest aboriginal Labassecouriennes had an hypocrisy of their own, too; but it was of a coarse order, such as could deceive few. Whenever a lie was necessary for their occasions, they brought it out with a careless ease and breadth altogether untroubled by the rebuke of conscience.",
+  "text": "At the West End you may be amused, but in the city you are deeply excited. Faint, at last, and hungry (it was years since I had felt such healthy hunger), I returned, about two o’clock, to my dark, old, and quiet inn. I dined on two dishes—a plain joint and vegetables; both seemed excellent: how much better than the small, dainty messes Miss Marchmont’s cook used to send up to my kind, dead mistress and me, and to the discussion of which we could not bring half an appetite between us! Delightfully tired, I lay down, on three chairs for an hour (the room did not boast a sofa). I slept, then I woke and thought for two hours.",
   "words": [
     {
-      "word": "desks",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "courteous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "deceit",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "marsh",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "conscience",
+      "word": "sofa",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

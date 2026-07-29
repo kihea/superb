@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-anna-karenina-022",
+  "pool": "sourced",
+  "text": "“Yes, I wished ... I wanted ... yes, I wanted to talk to you,” said Stepan Arkadyevitch, with surprise aware of an unaccustomed timidity. This feeling was so unexpected and so strange that he did not believe it was the voice of conscience telling him that what he was meaning to do was wrong. Stepan Arkadyevitch made an effort and struggled with the timidity that had come over him. “I hope you believe in my love for my sister and my sincere affection and respect for you,” he said, reddening.",
+  "words": [
+    {
+      "word": "conscience",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-study-in-scarlet-021",
+  "pool": "sourced",
+  "text": "The most commonplace crime is often the most mysterious because it presents no new or special features from which deductions may be drawn. This murder would have been infinitely more difficult to unravel had the body of the victim been simply found lying in the roadway without any of those outré and sensational accompaniments which have rendered it remarkable. These strange details, far from making the case more difficult, have really had the effect of making it less so.” Mr. Gregson, who had listened to this address with considerable impatience, could contain himself no longer. “Look here, Mr. Sherlock Holmes,” he said, “we are all ready to acknowledge that you are a smart man, and that you have your own methods of working. We want something more than mere theory and preaching now, though.",
+  "words": [
+    {
+      "word": "commonplace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infinitely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unravel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": 1887,
+    "source": "Project Gutenberg #244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

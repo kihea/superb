@@ -1,22 +1,22 @@
 {
   "id": "src-gen-the-turn-of-the-screw-004",
   "pool": "sourced",
-  "text": "I call it time, but how long was it? I can’t speak to the purpose today of the duration of these things. That kind of measure must have left me: they couldn’t have lasted as they actually appeared to me to last. The terrace and the whole place, the lawn and the garden beyond it, all I could see of the park, were empty with a great emptiness. There were shrubberies and big trees, but I remember the clear assurance I felt that none of them concealed him.",
+  "text": "I was a little late on the scene, and I felt, as he stood wistfully looking out for me before the door of the inn at which the coach had put him down, that I had seen him, on the instant, without and within, in the great glow of freshness, the same positive fragrance of purity, in which I had, from the first moment, seen his little sister. He was incredibly beautiful, and Mrs. Grose had put her finger on it: everything but a sort of passion of tenderness for him was swept away by his presence. What I then and there took him to my heart for was something divine that I have never found to the same degree in any child—his indescribable little air of knowing nothing in the world but love. It would have been impossible to carry a bad name with a greater sweetness of innocence, and by the time I had got back to Bly with him I remained merely bewildered—so far, that is, as I was not outraged—by the sense of the horrible letter locked up in my room, in a drawer.",
   "words": [
     {
-      "word": "duration",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lasted",
+      "word": "freshness",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "emptiness",
+      "word": "purity",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

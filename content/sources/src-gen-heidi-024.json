@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-heidi-024",
+  "pool": "sourced",
+  "text": "The door had hardly shut behind him before the whole congregation now came forward to greet Alm-Uncle, every one striving to be the first to shake hands with him, and so many were held out that Alm-Uncle did not know with which to begin; and some said, \"We are so pleased to see you among us again,\" and another, \"I have long been wishing we could have a talk together again,\" and greetings of all kinds echoed from every side, and when Alm-Uncle told them he was thinking of returning to his old quarters in Dorfli for the winter, there was such a general chorus of pleasure that any one would have thought he was the most beloved person in all Dorfli, and that they had hardly known how to live without him. Most of his friends accompanied him and Heidi some way up the mountain, and each as they bid him good-bye made him promise that when he next came down he would without fail come and call. As the old man at last stood alone with the child, watching their retreating figures, there was a light upon his face as if reflected from some inner sunshine of heart.",
+  "words": [
+    {
+      "word": "congregation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "greet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "striving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunshine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

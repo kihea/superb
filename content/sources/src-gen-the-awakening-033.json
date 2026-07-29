@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-awakening-033",
+  "pool": "sourced",
+  "text": "Do you hear me? Do you understand? She will stay, I promise you.” Mam’selle Pauline could not clearly comprehend, but she had great faith in the word of her sister, and soothed by the promise and the touch of Ma’ame Pélagie’s strong, gentle hand, she fell asleep. III Ma’ame Pélagie, when she saw that her sister slept, arose noiselessly and stepped outside upon the low-roofed narrow gallery. She did not linger there, but with a step that was hurried and agitated, she crossed the distance that divided her cabin from the ruin.",
+  "words": [
+    {
+      "word": "comprehend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

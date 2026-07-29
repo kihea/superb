@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-006",
   "pool": "sourced",
-  "text": "But we hold several threads in our hands, and the odds are that one or other of them guides us to the truth. We may waste time in following the wrong one, but sooner or later we must come upon the right.” We had a pleasant luncheon in which little was said of the business which had brought us together. It was in the private sitting-room to which we afterwards repaired that Holmes asked Baskerville what were his intentions. “To go to Baskerville Hall.” “And when?” “At the end of the week.” “On the whole,” said Holmes, “I think that your decision is a wise one. I have ample evidence that you are being dogged in London, and amid the millions of this great city it is difficult to discover who these people are or what their object can be.",
+  "text": "I speak now not as a medical man but as a trustee and executor of Sir Charles’s will.” “There is no other claimant, I presume?” “None. The only other kinsman whom we have been able to trace was Rodger Baskerville, the youngest of three brothers of whom poor Sir Charles was the elder. The second brother, who died young, is the father of this lad Henry. The third, Rodger, was the black sheep of the family. He came of the old masterful Baskerville strain and was the very image, they tell me, of the family picture of old Hugo.",
   "words": [
     {
-      "word": "threads",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "guides",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ample",
+      "word": "lad",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

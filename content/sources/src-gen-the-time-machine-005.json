@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-time-machine-005",
   "pool": "sourced",
-  "text": "The Sunset of Mankind “A queer thing I soon discovered about my little hosts, and that was their lack of interest. They would come to me with eager cries of astonishment, like children, but, like children they would soon stop examining me, and wander away after some other toy. The dinner and my conversational beginnings ended, I noted for the first time that almost all those who had surrounded me at first were gone. It is odd, too, how speedily I came to disregard these little people. I went out through the portal into the sunlit world again as soon as my hunger was satisfied.",
+  "text": "What might not have happened to men? What if cruelty had grown into a common passion? What if in this interval the race had lost its manliness, and had developed into something inhuman, unsympathetic, and overwhelmingly powerful? I might seem some old-world savage animal, only the more dreadful and disgusting for our common likeness—a foul creature to be incontinently slain. “Already I saw other vast shapes—huge buildings with intricate parapets and tall columns, with a wooded hillside dimly creeping in upon me through the lessening storm.",
   "words": [
     {
-      "word": "beginnings",
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "creeping",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

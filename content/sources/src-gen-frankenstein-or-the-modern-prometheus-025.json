@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-025",
+  "pool": "sourced",
+  "text": "You had endowed me with perceptions and passions and then cast me abroad an object for the scorn and horror of mankind. But on you only had I any claim for pity and redress, and from you I determined to seek that justice which I vainly attempted to gain from any other being that wore the human form. “My travels were long and the sufferings I endured intense. It was late in autumn when I quitted the district where I had so long resided. I travelled only at night, fearful of encountering the visage of a human being.",
+  "words": [
+    {
+      "word": "mankind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

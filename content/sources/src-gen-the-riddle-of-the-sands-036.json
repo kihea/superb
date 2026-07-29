@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-036",
+  "pool": "sourced",
+  "text": "Then I sat on my bundle with my back to the dyke in partial shelter from the rain, watching the sea recede from the flats and dwindle into slender meres, and the laden clouds fly weeping over the islands till those pale shapes were lost in mist. The barge I had seen locking through was creeping across towards Langeoog behind a tug and a wisp of smoke. No more exploration by daylight! That was my first resolve, for I felt as if the country must be ringing with reports of an Englishman in disguise. I must remain in hiding till dusk, then regain the railway and slink into that train to Norden.",
+  "words": [
+    {
+      "word": "dyke",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-011",
   "pool": "sourced",
-  "text": "One afternoon he was seized with an irresistible desire to blow soap-bubbles; an amusement, as Hepzibah told Phœbe apart, that had been a favorite one with her brother when they were both children. Behold him, therefore, at the arched window, with an earthen pipe in his mouth! Behold him, with his gray hair, and a wan, unreal smile over his countenance, where still hovered a beautiful grace, which his worst enemy must have acknowledged to be spiritual and immortal, since it had survived so long! Behold him, scattering airy spheres abroad from the window into the street! Little impalpable worlds were those soap-bubbles, with the big world depicted, in hues bright as imagination, on the nothing of their surface.",
+  "text": "Hepzibah had no natural turn for cookery, and, to say the truth, had fairly incurred her present meagreness by often choosing to go without her dinner rather than be attendant on the rotation of the spit, or ebullition of the pot. Her zeal over the fire, therefore, was quite an heroic test of sentiment. It was touching, and positively worthy of tears (if Phœbe, the only spectator, except the rats and ghosts aforesaid, had not been better employed than in shedding them), to see her rake out a bed of fresh and glowing coals, and proceed to broil the mackerel. Her usually pale cheeks were all ablaze with heat and hurry. She watched the fish with as much tender care and minuteness of attention as if,—we know not how to express it otherwise,—as if her own heart were on the gridiron, and her immortal happiness were involved in its being done precisely to a turn!",
   "words": [
     {
-      "word": "spheres",
+      "word": "cookery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spit",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

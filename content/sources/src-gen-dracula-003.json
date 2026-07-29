@@ -1,22 +1,16 @@
 {
   "id": "src-gen-dracula-003",
   "pool": "sourced",
-  "text": "I start at my own shadow, and am full of all sorts of horrible imaginings. God knows that there is ground for my terrible fear in this accursed place! I looked out over the beautiful expanse, bathed in soft yellow moonlight till it was almost as light as day. In the soft light the distant hills became melted, and the shadows in the valleys and gorges of velvety blackness. The mere beauty seemed to cheer me; there was peace and comfort in every breath I drew.",
+  "text": "I protested but he insisted:-- “Nay, sir, you are my guest. It is late, and my people are not available. Let me see to your comfort myself.” He insisted on carrying my traps along the passage, and then up a great winding stair, and along another great passage, on whose stone floor our steps rang heavily. At the end of this he threw open a heavy door, and I rejoiced to see within a well-lit room in which a table was spread for supper, and on whose mighty hearth a great fire of logs, freshly replenished, flamed and flared. The Count halted, putting down my bags, closed the door, and crossing the room, opened another door, which led into a small octagonal room lit by a single lamp, and seemingly without a window of any sort.",
   "words": [
     {
-      "word": "moonlight",
+      "word": "stair",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shadows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "valleys",
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

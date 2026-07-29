@@ -1,12 +1,18 @@
 {
   "id": "src-gen-howards-end-010",
   "pool": "sourced",
-  "text": "Tell me; oh yes; did you say money is the warp of the world?” “Yes.” “Then what’s the woof?” “Very much what one chooses,” said Margaret. “It’s something that isn’t money—one can’t say more.” “Walking at night?” “Probably.” “For Tibby, Oxford?” “It seems so.” “For you?” “Now that we have to leave Wickham Place, I begin to think it’s that. For Mrs. Wilcox it was certainly Howards End.” One’s own name will carry immense distances. Mr. Wilcox, who was sitting with friends many seats away, heard his, rose to his feet, and strolled along towards the speakers. “It is sad to suppose that places may ever be more important than people,” continued Margaret.",
+  "text": "Rudeness affected Margaret like a bitter taste in the mouth. It poisoned life. At times it is necessary, but woe to those who employ it without due need. She flung on a hat and shawl, just like a poor woman, and plunged into the fog, which still continued. Her lips were compressed, the letter remained in her hand, and in this state she crossed the street, entered the marble vestibule of the flats, eluded the concierges, and ran up the stairs till she reached the second-floor.",
   "words": [
     {
-      "word": "distances",
+      "word": "bitter",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compressed",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

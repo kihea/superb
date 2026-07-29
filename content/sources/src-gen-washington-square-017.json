@@ -1,12 +1,24 @@
 {
   "id": "src-gen-washington-square-017",
   "pool": "sourced",
-  "text": "But the room remained perfectly still; and accordingly, the last thing before retiring to her own couch, she applied for admittance. Catherine was sitting up, and had a book that she pretended to be reading. She had no wish to go to bed, for she had no expectation of sleeping. After Mrs. Penniman had left her she sat up half the night, and she offered her visitor no inducement to remain. Her aunt came stealing in very gently, and approached her with great solemnity.",
+  "text": "Is that what you mean?” asked Morris. “No, I don’t mean that; though that would be very grand!” Mrs. Penniman quickly added. “I mean that having done you such an injustice, he will think it his duty, at the end, to make some amends.” Morris shook his head, though it must be confessed he was a little struck with this idea. “Do you think he is so sentimental?” “He is not sentimental,” said Mrs. Penniman; “but, to be perfectly fair to him, I think he has, in his own narrow way, a certain sense of duty.” There passed through Morris Townsend’s mind a rapid wonder as to what he might, even under a remote contingency, be indebted to from the action of this principle in Dr. Sloper’s breast, and the inquiry exhausted itself in his sense of the ludicrous. “Your brother has no duties to me,” he said presently, “and I none to him.” “Ah, but he has duties to Catherine.” “Yes, but you see that on that principle Catherine has duties to him as well.” Mrs. Penniman got up, with a melancholy sigh, as if she thought him very unimaginative.",
   "words": [
     {
-      "word": "accordingly",
+      "word": "presently",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

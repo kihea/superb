@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-women-035",
+  "pool": "sourced",
+  "text": "For the parents who had taught one child to meet death without fear, were trying now to teach another to accept life without despondency or distrust, and to use its beautiful opportunities with gratitude and power. Other helps had Jo—humble, wholesome duties and delights that would not be denied their part in serving her, and which she slowly learned to see and value. Brooms and dishcloths never could be as distasteful as they once had been, for Beth had presided over both, and something of her housewifely spirit seemed to linger around the little mop and the old brush, never thrown away. As she used them, Jo found herself humming the songs Beth used to hum, imitating Beth’s orderly ways, and giving the little touches here and there that kept everything fresh and cozy, which was the first step toward making home happy, though she didn’t know it till Hannah said with an approving squeeze of the hand... “You thoughtful creeter, you’re determined we shan’t miss that dear lamb ef you can help it.",
+  "words": [
+    {
+      "word": "humming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

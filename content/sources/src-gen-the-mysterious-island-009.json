@@ -1,22 +1,28 @@
 {
   "id": "src-gen-the-mysterious-island-009",
   "pool": "sourced",
-  "text": "Cyrus Harding had said two hours, but of course that depended on the nature of the obstacles they might meet with. As it was probable that they would have to cut a path through the grass, shrubs, and creepers, they marched axe in hand, and with guns also ready, wisely taking warning from the cries of the wild beasts heard in the night. The exact position of the encampment could be determined by the bearing of Mount Franklin, and as the volcano arose in the north at a distance of less than three miles, they had only to go straight towards the southwest to reach the western coast. They set out, having first carefully secured the canoe. Pencroft and Neb carried sufficient provision for the little band for at least two days.",
+  "text": "“As the distance from the stick to the pole is to the distance from the stick to the base of the cliff, so is the height of the pole to the height of the cliff.” “Just so, Herbert,” replied the engineer; “and when we have measured the two first distances, knowing the height of the pole, we shall only have a sum in proportion to do, which will give us the height of the cliff, and will save us the trouble of measuring it directly.” The two horizontal distances were found out by means of the pole, whose length above the sand was exactly ten feet. The first distance was fifteen feet between the stick and the place where the pole was thrust into the sand. The second distance between the stick and the bottom of the cliff was five hundred feet. These measurements finished, Cyrus Harding and the lad returned to the Chimneys. The engineer then took a flat stone which he had brought back from one of his previous excursions, a sort of slate, on which it was easy to trace figures with a sharp shell.",
   "words": [
     {
-      "word": "arose",
+      "word": "horizontal",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "southwest",
+      "word": "thrust",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "canoe",
+      "word": "excursions",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "slate",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

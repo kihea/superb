@@ -1,16 +1,10 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-013",
   "pool": "sourced",
-  "text": "Not a lie in it,” says I. “Lay your hand on this book and say it.” I see it warn’t nothing but a dictionary, so I laid my hand on it and said it. So then she looked a little better satisfied, and says: “Well, then, I’ll believe some of it; but I hope to gracious if I’ll believe the rest.” “What is it you won’t believe, Joe?” says Mary Jane, stepping in with Susan behind her. “It ain’t right nor kind for you to talk so to him, and him a stranger and so far from his people. How would you like to be treated so?” “That’s always your way, Maim—always sailing in to help somebody before they’re hurt.",
+  "text": "I couldn’t get that out of my conscience, no how nor no way. It got to troubling me so I couldn’t rest; I couldn’t stay still in one place. It hadn’t ever come home to me before, what this thing was that I was doing. But now it did; and it stayed with me, and scorched me more and more. I tried to make out to myself that I warn’t to blame, because I didn’t run Jim off from his rightful owner; but it warn’t no use, conscience up and says, every time, “But you knowed he was running for his freedom, and you could a paddled ashore and told somebody.” That was so—I couldn’t get around that noway.",
   "words": [
     {
-      "word": "dictionary",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gracious",
+      "word": "warn",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,18 +1,18 @@
 {
   "id": "src-gen-vanity-fair-015",
   "pool": "sourced",
-  "text": "\"My dear Mrs. Crawley, it must have cost a little fortune,\" Lady Jane said, looking down at her own lace, which was not nearly so good; and then examining the quality of the ancient brocade which formed the material of Mrs. Rawdon's Court dress, she felt inclined to say that she could not afford such fine clothing, but checked that speech, with an effort, as one uncharitable to her kinswoman. And yet, if Lady Jane had known all, I think even her kindly temper would have failed her. The fact is, when she was putting Sir Pitt's house in order, Mrs. Rawdon had found the lace and the brocade in old wardrobes, the property of the former ladies of the house, and had quietly carried the goods home, and had suited them to her own little person. Briggs saw her take them, asked no questions, told no stories; but I believe quite sympathised with her on this matter, and so would many another honest woman. And the diamonds--\"Where the doose did you get the diamonds, Becky?\"",
+  "text": "All Miss Crawley's symptoms, and the particulars of her illness and medical treatment, were narrated by the confidante with that fulness and accuracy which women delight in. About their complaints and their doctors do ladies ever tire of talking to each other? Briggs did not on this occasion; nor did Rebecca weary of listening. She was thankful, truly thankful, that the dear kind Briggs, that the faithful, the invaluable Firkin, had been permitted to remain with their benefactress through her illness. Heaven bless her!",
   "words": [
     {
-      "word": "quietly",
+      "word": "tire",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "suited",
+      "word": "faithful",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

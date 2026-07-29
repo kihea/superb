@@ -1,16 +1,16 @@
 {
   "id": "src-gen-narrative-of-the-life-of-frederick-dougl-005",
   "pool": "sourced",
-  "text": "The shoemaking and mending, the blacksmithing, cartwrighting, coopering, weaving, and grain-grinding, were all performed by the slaves on the home plantation. The whole place wore a business-like aspect very unlike the neighboring farms. The number of houses, too, conspired to give it advantage over the neighboring farms. It was called by the slaves the Great House Farm. Few privileges were esteemed higher, by the slaves of the out-farms, than that of being selected to do errands at the Great House Farm.",
+  "text": "BOSTON, April 22, 1845. My Dear Friend: You remember the old fable of “The Man and the Lion,” where the lion complained that he should not be so misrepresented “when the lions wrote history.” I am glad the time has come when the “lions write history.” We have been left long enough to gather the character of slavery from the involuntary evidence of the masters. One might, indeed, rest sufficiently satisfied with what, it is evident, must be, in general, the results of such a relation, without seeking farther to find whether they have followed in every instance. Indeed, those who stare at the half-peck of corn a week, and love to count the lashes on the slave’s back, are seldom the “stuff” out of which reformers and abolitionists are to be made. I remember that, in 1838, many were waiting for the results of the West India experiment, before they could come into our ranks.",
   "words": [
     {
-      "word": "plantation",
+      "word": "involuntary",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "farms",
+      "word": "sufficiently",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Frederick Douglass",
     "year": 1845,
     "source": "Project Gutenberg #23",
-    "url": "https://www.gutenberg.org/ebooks/23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

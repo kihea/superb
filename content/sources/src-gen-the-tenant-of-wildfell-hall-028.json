@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-028",
+  "pool": "sourced",
+  "text": "But on one occasion, when Arthur had been behaving particularly ill, and Mr. Huntingdon and his guests had been particularly provoking and insulting to me in their encouragement of him, and I particularly anxious to get him out of the room, and on the very point of demeaning myself by a burst of uncontrollable passion—Mr. Hargrave suddenly rose from his seat with an aspect of stern determination, lifted the child from his father’s knee, where he was sitting half-tipsy, cocking his head and laughing at me, and execrating me with words he little knew the meaning of, handed him out of the room, and, setting him down in the hall, held the door open for me, gravely bowed as I withdrew, and closed it after me. I heard high words exchanged between him and his already half-inebriated host as I departed, leading away my bewildered and disconcerted boy. But this should not continue: my child must not be abandoned to this corruption: better far that he should live in poverty and obscurity, with a fugitive mother, than in luxury and affluence with such a father.",
+  "words": [
+    {
+      "word": "lifted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "departed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-meditations-039",
+  "pool": "sourced",
+  "text": "'When my father returned home from the vineyards, I mounted my horse as usual, and rode on ahead some little way. Well, there on the road was a herd of sheep, standing all crowded together as though the place were a desert, with four dogs and two shepherds, but nothing else. Then one shepherd said to another shepherd, on seeing a number of horsemen: 'I say,' says he, 'look you at those horsemen; they do a deal of robbery.' When I heard this, I clap spurs to my horse, and ride straight for the sheep. In consternation the sheep scatter; hither and thither they are fleeting and bleating.",
+  "words": [
+    {
+      "word": "herd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

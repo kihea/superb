@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-033",
+  "pool": "sourced",
+  "text": "And it typified something better than itself. It had its drawbacks; such as hunger and thirst, inclement weather, hot sunshine, and weary and foot-blistering marches over barren and ugly tracts, that lay between the sites desirable for their fertility and beauty. But in our ascending spiral, we escape all this. These railroads—could but the whistle be made musical, and the rumble and the jar got rid of—are positively the greatest blessing that the ages have wrought out for us. They give us wings; they annihilate the toil and dust of pilgrimage; they spiritualize travel!",
+  "words": [
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pilgrimage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

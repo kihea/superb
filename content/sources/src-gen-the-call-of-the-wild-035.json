@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-call-of-the-wild-035",
+  "pool": "sourced",
+  "text": "Once again he took to wandering in the woods, but the wild brother came no more; and though he listened through long vigils, the mournful howl was never raised. He began to sleep out at night, staying away from camp for days at a time; and once he crossed the divide at the head of the creek and went down into the land of timber and streams. There he wandered for a week, seeking vainly for fresh sign of the wild brother, killing his meat as he travelled and travelling with the long, easy lope that seems never to tire. He fished for salmon in a broad stream that emptied somewhere into the sea, and by this stream he killed a large black bear, blinded by the mosquitoes while likewise fishing, and raging through the forest helpless and terrible. Even so, it was a hard fight, and it aroused the last latent remnants of Buck’s ferocity.",
+  "words": [
+    {
+      "word": "wandering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "howl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

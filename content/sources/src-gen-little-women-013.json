@@ -1,10 +1,46 @@
 {
   "id": "src-gen-little-women-013",
   "pool": "sourced",
-  "text": "Next week we are off to Germany and Switzerland, and as we shall travel fast, I shall only be able to give you hasty letters. I keep my diary, and try to ‘remember correctly and describe clearly all that I see and admire’, as Father advised. It is good practice for me, and with my sketchbook will give you a better idea of my tour than these scribbles. Adieu, I embrace you tenderly. “Votre Amie.” HEIDELBERG My dear Mamma, Having a quiet hour before we leave for Berne, I’ll try to tell you what has happened, for some of it is very important, as you will see.",
+  "text": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep. “If Mother would only come now!” said Jo, as the winter night began to wane. “See,” said Meg, coming up with a white, half-opened rose, “I thought this would hardly be ready to lay in Beth’s hand tomorrow if she—went away from us. But it has blossomed in the night, and now I mean to put it in my vase here, so that when the darling wakes, the first thing she sees will be the little rose, and Mother’s face.” Never had the sun risen so beautifully, and never had the world seemed so lovely as it did to the heavy eyes of Meg and Jo, as they looked out in the early morning, when their long, sad vigil was done. “It looks like a fairy world,” said Meg, smiling to herself, as she stood behind the curtain, watching the dazzling sight.",
   "words": [
     {
-      "word": "advised",
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vase",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wakes",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dazzling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +51,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

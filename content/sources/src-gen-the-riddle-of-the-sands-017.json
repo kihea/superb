@@ -1,12 +1,18 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-017",
   "pool": "sourced",
-  "text": "After the first shock of surprise I had soon enough discovered that she, like the rest, had assumed a disguise; for she was far too innocent to sustain the deception; and yesterday was fresh in my memory. I was forced to continue turning her assumed character to account; but it would be pharisaical in me to say that I rose to any moral heights in her regard—wine and excitement had deadened my better nature to that extent. I thought she looked prettier than ever, and, as time passed, I fell into a cynical carelessness about her. This glimpse of her home life, and the desperate expedients to which she was driven (whether by compulsion or from her own regard for Davies) to repel and dismiss him, did not strike me as they might have done as the crowning argument in favour of the course we had adopted the night before, that of compassing our end without noise and scandal, disarming Dollmann, but aiding him to escape from the allies he had betrayed.",
+  "text": "Meanwhile our coast and ports are in danger, for the millions we sink in forts and mines won’t carry us far. They’re fixed—pure passive defence. What you want is boats—mosquitoes with stings—swarms of them—patrol-boats, scout-boats, torpedo-boats; intelligent irregulars manned by local men, with a pretty free hand to play their own game. And what a splendid game to play! There are places very like this over there—nothing half so good, but similar—the Mersey estuary, the Dee, the Severn, the Wash, and, best of all, the Thames, with all the Kent, Essex, and Suffolk banks round it.",
   "words": [
     {
-      "word": "dismiss",
+      "word": "patrol",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "estuary",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

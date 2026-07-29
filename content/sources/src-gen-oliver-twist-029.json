@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-029",
+  "pool": "sourced",
+  "text": "“If it hadn’t been for the girl! Who but poor ould Fagin was the means of your having such a handy girl about you?” “He says true enough there!” said Nancy, coming hastily forward. “Let him be; let him be.” Nancy’s appearance gave a new turn to the conversation; for the boys, receiving a sly wink from the wary old Jew, began to ply her with liquor: of which, however, she took very sparingly; while Fagin, assuming an unusual flow of spirits, gradually brought Mr. Sikes into a better temper, by affecting to regard his threats as a little pleasant banter; and, moreover, by laughing very heartily at one or two rough jokes, which, after repeated applications to the spirit-bottle, he condescended to make. “It’s all very well,” said Mr. Sikes; “but I must have some blunt from you tonight.” “I haven’t a piece of coin about me,” replied the Jew. “Then you’ve got lots at home,” retorted Sikes; “and I must have some from there.” “Lots!” cried Fagin, holding up his hands.",
+  "words": [
+    {
+      "word": "banter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moreover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

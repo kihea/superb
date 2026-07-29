@@ -1,16 +1,28 @@
 {
   "id": "src-gen-a-little-princess-003",
   "pool": "sourced",
-  "text": "And from that time Sara was an adopted mother. 5 Becky Of course the greatest power Sara possessed and the one which gained her even more followers than her luxuries and the fact that she was \"the show pupil,\" the power that Lavinia and certain other girls were most envious of, and at the same time most fascinated by in spite of themselves, was her power of telling stories and of making everything she talked about seem like a story, whether it was one or not. Anyone who has been at school with a teller of stories knows what the wonder means--how he or she is followed about and besought in a whisper to relate romances; how groups gather round and hang on the outskirts of the favored party in the hope of being allowed to join in and listen. Sara not only could tell stories, but she adored telling them.",
+  "text": "Lottie Legh worshipped her to such an extent that if Sara had not been a motherly person, she would have found her tiresome. Lottie had been sent to school by a rather flighty young papa who could not imagine what else to do with her. Her young mother had died, and as the child had been treated like a favorite doll or a very spoiled pet monkey or lap dog ever since the first hour of her life, she was a very appalling little creature. When she wanted anything or did not want anything she wept and howled; and, as she always wanted the things she could not have, and did not want the things that were best for her, her shrill little voice was usually to be heard uplifted in wails in one part of the house or another. Her strongest weapon was that in some mysterious way she had found out that a very small girl who had lost her mother was a person who ought to be pitied and made much of.",
   "words": [
     {
-      "word": "pupil",
+      "word": "papa",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "teller",
+      "word": "doll",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "monkey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lap",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-scarlet-letter-021",
+  "pool": "sourced",
+  "text": "If the same multitude which had stood as eye-witnesses while Hester Prynne sustained her punishment could now have been summoned forth, they would have discerned no face above the platform nor hardly the outline of a human shape, in the dark grey of the midnight. But the town was all asleep. There was no peril of discovery. The minister might stand there, if it so pleased him, until morning should redden in the east, without other risk than that the dank and chill night air would creep into his frame, and stiffen his joints with rheumatism, and clog his throat with catarrh and cough; thereby defrauding the expectant audience of tomorrow’s prayer and sermon. No eye could see him, save that ever-wakeful one which had seen him in his closet, wielding the bloody scourge.",
+  "words": [
+    {
+      "word": "dank",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cough",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

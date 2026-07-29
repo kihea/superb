@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-mill-on-the-floss-019",
   "pool": "sourced",
-  "text": "But across that stealing influence came the terrible shadow of past thoughts; and the sudden horror lest now, at last, the moment of fatal intoxication was close upon her, called up feelings of angry resistance toward Stephen. “Let me go!” she said, in an agitated tone, flashing an indignant look at him, and trying to get her hands free. “You have wanted to deprive me of any choice. You knew we were come too far; you have dared to take advantage of my thoughtlessness. It is unmanly to bring me into such a position.” Stung by this reproach, he released her hands, moved back to his former place, and folded his arms, in a sort of desperation at the difficulty Maggie’s words had made present to him.",
+  "text": "Since these were the consequences of going to law, his father was really blamable, as his aunts and uncles had always said he was; and it was a significant indication of Tom’s character, that though he thought his aunts ought to do something more for his mother, he felt nothing like Maggie’s violent resentment against them for showing no eager tenderness and generosity. There were no impulses in Tom that led him to expect what did not present itself to him as a right to be demanded. Why should people give away their money plentifully to those who had not taken care of their own money? Tom saw some justice in severity; and all the more, because he had confidence in himself that he should never deserve that just severity. It was very hard upon him that he should be put at this disadvantage in life by his father’s want of prudence; but he was not going to complain and to find fault with people because they did not make everything easy for him.",
   "words": [
     {
-      "word": "deprive",
+      "word": "eager",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

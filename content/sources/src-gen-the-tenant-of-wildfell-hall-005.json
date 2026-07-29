@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-005",
   "pool": "sourced",
-  "text": "But then the dawn of bitter recollection that succeeded—the waking to find life a blank, and worse than a blank, teeming with torment and misery—not a mere barren wilderness, but full of thorns and briers—to find myself deceived, duped, hopeless, my affections trampled upon, my angel not an angel, and my friend a fiend incarnate—it was worse than if I had not slept at all. It was a dull, gloomy morning; the weather had changed like my prospects, and the rain was pattering against the window. I rose, nevertheless, and went out; not to look after the farm, though that would serve as my excuse, but to cool my brain, and regain, if possible, a sufficient degree of composure to meet the family at the morning meal without exciting inconvenient remarks. If I got a wetting, that, in conjunction with a pretended over-exertion before breakfast, might excuse my sudden loss of appetite; and if a cold ensued, the severer the better—it would help to account for the sullen moods and moping melancholy likely to cloud my brow for long enough.",
+  "text": "The lady was seated in a stiff, high-backed arm-chair, with a small round table, containing a desk and a work-basket on one side of her, and her little boy on the other, who stood leaning his elbow on her knee, and reading to her, with wonderful fluency, from a small volume that lay in her lap; while she rested her hand on his shoulder, and abstractedly played with the long, wavy curls that fell on his ivory neck. They struck me as forming a pleasing contrast to all the surrounding objects; but of course their position was immediately changed on our entrance. I could only observe the picture during the few brief seconds that Rachel held the door for our admittance. I do not think Mrs. Graham was particularly delighted to see us: there was something indescribably chilly in her quiet, calm civility; but I did not talk much to her.",
   "words": [
     {
-      "word": "blank",
+      "word": "basket",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "thorns",
+      "word": "elbow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hopeless",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "moods",
+      "word": "forming",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

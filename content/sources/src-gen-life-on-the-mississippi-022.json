@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-life-on-the-mississippi-022",
+  "pool": "sourced",
+  "text": "My apparatus was simple: a little red paint and a bit of white paper. I painted the ball of the client's thumb, took a print of it on the paper, studied it that night, and revealed his fortune to him next day. What was my idea in this nonsense? It was this: When I was a youth, I knew an old Frenchman who had been a prison-keeper for thirty years, and he told me that there was one thing about a person which never changed, from the cradle to the grave--the lines in the ball of the thumb; and he said that these lines were never exactly alike in the thumbs of any two human beings. In these days, we photograph the new criminal, and hang his picture in the Rogues' Gallery for future reference; but that Frenchman, in his day, used to take a print of the ball of a new prisoner's thumb and put that away for future reference.",
+  "words": [
+    {
+      "word": "keeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

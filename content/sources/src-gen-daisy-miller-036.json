@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-daisy-miller-036",
+  "pool": "sourced",
+  "text": "A few days after his brief interview with her mother, he encountered her in that beautiful abode of flowering desolation known as the Palace of the Caesars. The early Roman spring had filled the air with bloom and perfume, and the rugged surface of the Palatine was muffled with tender verdure. Daisy was strolling along the top of one of those great mounds of ruin that are embanked with mossy marble and paved with monumental inscriptions. It seemed to him that Rome had never been so lovely as just then. He stood, looking off at the enchanting harmony of line and color that remotely encircles the city, inhaling the softly humid odors, and feeling the freshness of the year and the antiquity of the place reaffirm themselves in mysterious interfusion.",
+  "words": [
+    {
+      "word": "daisy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

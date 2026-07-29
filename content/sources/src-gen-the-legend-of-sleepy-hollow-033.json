@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-033",
+  "pool": "sourced",
+  "text": "Just then the shadowy object of alarm put itself in motion, and with a scramble and a bound stood at once in the middle of the road. Though the night was dark and dismal, yet the form of the unknown might now in some degree be ascertained. He appeared to be a horseman of large dimensions, and mounted on a black horse of powerful frame. He made no offer of molestation or sociability, but kept aloof on one side of the road, jogging along on the blind side of old Gunpowder, who had now got over his fright and waywardness. Ichabod, who had no relish for this strange midnight companion, and bethought himself of the adventure of Brom Bones with the Galloping Hessian, now quickened his steed in hopes of leaving him behind.",
+  "words": [
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

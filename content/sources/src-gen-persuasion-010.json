@@ -1,18 +1,18 @@
 {
   "id": "src-gen-persuasion-010",
   "pool": "sourced",
-  "text": "Yes, I am sure: carry her gently to the inn.” “Yes, yes, to the inn,” repeated Captain Wentworth, comparatively collected, and eager to be doing something. “I will carry her myself. Musgrove, take care of the others.” By this time the report of the accident had spread among the workmen and boatmen about the Cobb, and many were collected near them, to be useful if wanted, at any rate, to enjoy the sight of a dead young lady, nay, two dead young ladies, for it proved twice as fine as the first report. To some of the best-looking of these good people Henrietta was consigned, for, though partially revived, she was quite helpless; and in this manner, Anne walking by her side, and Charles attending to his wife, they set forward, treading back with feelings unutterable, the ground, which so lately, so very lately, and so light of heart, they had passed along. They were not off the Cobb, before the Harvilles met them.",
+  "text": "Only think if anything should happen?” The child had a good night, and was going on well the next day. It must be a work of time to ascertain that no injury had been done to the spine; but Mr Robinson found nothing to increase alarm, and Charles Musgrove began, consequently, to feel no necessity for longer confinement. The child was to be kept in bed and amused as quietly as possible; but what was there for a father to do? This was quite a female case, and it would be highly absurd in him, who could be of no use at home, to shut himself up. His father very much wished him to meet Captain Wentworth, and there being no sufficient reason against it, he ought to go; and it ended in his making a bold, public declaration, when he came in from shooting, of his meaning to dress directly, and dine at the other house.",
   "words": [
     {
-      "word": "gently",
+      "word": "absurd",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "comparatively",
+      "word": "declaration",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

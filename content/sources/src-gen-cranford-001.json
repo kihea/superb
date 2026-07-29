@@ -8,18 +8,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "accounted",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentlemen",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -27,7 +15,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-king-in-yellow-024",
+  "pool": "sourced",
+  "text": "“The villain lives in comfort;—fires, my boy!—fires in the ante-rooms! The Buttons finally condescends to carry my letter and card up, leaving me standing in the hallway, which I did not like, so I entered the first room I saw and nearly fainted at the sight of a banquet on a table by the fire. Down comes Buttons, very insolent. No, oh, no, his master, ‘is not at home, and in fact is too busy to receive letters of introduction just now; the siege, and many business difficulties—’ “I deliver a kick to Buttons, pick up this chicken from the table, toss my card on to the empty plate, and addressing Buttons as a species of Prussian pig, march out with the honours of war.” Trent shook his head. “I forgot to say that Hartman often dines there, and I draw my own conclusions,” continued West.",
+  "words": [
+    {
+      "word": "hallway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

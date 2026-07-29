@@ -1,28 +1,16 @@
 {
   "id": "src-gen-carmilla-013",
   "pool": "sourced",
-  "text": "The interpretation did not strike me; and I fancied, perhaps luckily for my nerves, that the arrangement was prescribed simply to secure a companion, who would prevent my taking too much exercise, or eating unripe fruit, or doing any of the fifty foolish things to which young people are supposed to be prone. About half an hour after my father came in—he had a letter in his hand—and said: “This letter had been delayed; it is from General Spielsdorf. He might have been here yesterday, he may not come till tomorrow or he may be here today.” He put the open letter into my hand; but he did not look pleased, as he used when a guest, especially one so much loved as the General, was coming. On the contrary, he looked as if he wished him at the bottom of the Red Sea. There was plainly something on his mind which he did not choose to divulge.",
+  "text": "V. A Wonderful Likeness This evening there arrived from Gratz the grave, dark-faced son of the picture cleaner, with a horse and cart laden with two large packing cases, having many pictures in each. It was a journey of ten leagues, and whenever a messenger arrived at the schloss from our little capital of Gratz, we used to crowd about him in the hall, to hear the news. This arrival created in our secluded quarters quite a sensation. The cases remained in the hall, and the messenger was taken charge of by the servants till he had eaten his supper. Then with assistants, and armed with hammer, ripping chisel, and turnscrew, he met us in the hall, where we had assembled to witness the unpacking of the cases.",
   "words": [
     {
-      "word": "companion",
+      "word": "cart",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "foolish",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wished",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "plainly",
+      "word": "hammer",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

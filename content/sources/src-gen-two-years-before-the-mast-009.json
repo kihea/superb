@@ -1,29 +1,46 @@
 {
   "id": "src-gen-two-years-before-the-mast-009",
   "pool": "sourced",
-  "text": "By the regulations of the ship, the forecastle was cleaned out every morning, and the crew, being very neat, kept it clean by some regulations of their own, such as having a large spitbox always under the steps and between the bits, and obliging every man to hang up his wet clothes, etc. In addition to this, it was holystoned every Saturday morning. In the after part of the ship was a handsome cabin, a dining-room, and a trade-room, fitted out with shelves and furnished with all sorts of goods. Between these and the forecastle was the \"between-decks,\" as high as the gun deck of a frigate; being six feet and a half, under the beams. These between-decks were holystoned regularly, and kept in the most perfect order; the carpenter's bench and tools being in one part, the sailmaker's in another, and boatswain's locker, with the spare rigging, in a third.",
+  "text": "But all these little vexations and labors would have been nothing,--they would have been passed by as the common evils of a sea-life, which every sailor, who is a man, will go through without complaint,--were it not for the uncertainty, or worse than uncertainty, which hung over the nature and length of our voyage. Here we were, in a little vessel, with a small crew, on a half-civilized coast, at the ends of the earth, and with a prospect of remaining an indefinite period, two or three years at the least. When we left Boston we supposed that it was to be a voyage of eighteen months, or two years, at most; but upon arriving on the coast, we learned something more of the trade, and found that in the scarcity of hides, which was yearly greater and greater, it would take us a year, at least, to collect our own cargo, beside the passage out and home; and that we were also to collect a cargo for a large ship belonging to the same firm, which was soon to come on the coast, and to which we were to act as tender.",
   "words": [
     {
-      "word": "neat",
+      "word": "uncertainty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cabin",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "beams",
+      "word": "voyage",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "rigging",
+      "word": "civilized",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indefinite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scarcity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yearly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cargo",
       "signals": [
         "gloss-overlap"
       ]
@@ -34,7 +51,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

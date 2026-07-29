@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-moonstone-013",
   "pool": "sourced",
-  "text": "The clerk, observing my bewilderment, favoured me with the result of his own observation of the stranger who was waiting downstairs. “He is rather a remarkable-looking man, sir. So dark in the complexion that we all set him down in the office for an Indian, or something of that sort.” Associating the clerk’s idea with the line inscribed on the card in my hand, I thought it possible that the Moonstone might be at the bottom of Mr. Luker’s recommendation, and of the stranger’s visit at my office. To the astonishment of my clerk, I at once decided on granting an interview to the gentleman below. In justification of the highly unprofessional sacrifice to mere curiosity which I thus made, permit me to remind anybody who may read these lines, that no living person (in England, at any rate) can claim to have had such an intimate connexion with the romance of the Indian Diamond as mine has been.",
+  "text": "“How long has she been waiting?” asked the Sergeant’s voice behind me. “For the last hour, sir.” There it was again! Rosanna had come back; Miss Rachel had taken some resolution out of the common; and my lady had been waiting to see the Sergeant—all within the last hour! It was not pleasant to find these very different persons and things linking themselves together in this way. I went on upstairs, without looking at Sergeant Cuff, or speaking to him.",
   "words": [
     {
-      "word": "clerk",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "observation",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
+      "word": "linking",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Wilkie Collins",
     "year": 1868,
     "source": "Project Gutenberg #155",
-    "url": "https://www.gutenberg.org/ebooks/155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

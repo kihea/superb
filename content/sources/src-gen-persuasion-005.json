@@ -1,10 +1,16 @@
 {
   "id": "src-gen-persuasion-005",
   "pool": "sourced",
-  "text": "How glad they had been to hear papa invite him to stay dinner, how sorry when he said it was quite out of his power, and how glad again when he had promised in reply to papa and mamma’s farther pressing invitations to come and dine with them on the morrow—actually on the morrow; and he had promised it in so pleasant a manner, as if he felt all the motive of their attention just as he ought. And in short, he had looked and said everything with such exquisite grace, that they could assure them all, their heads were both turned by him; and off they ran, quite as full of glee as of love, and apparently more full of Captain Wentworth than of little Charles.",
+  "text": "Troubles soon arose. Sir Walter, on being applied to, without actually withholding his consent, or saying it should never be, gave it all the negative of great astonishment, great coldness, great silence, and a professed resolution of doing nothing for his daughter. He thought it a very degrading alliance; and Lady Russell, though with more tempered and pardonable pride, received it as a most unfortunate one. Anne Elliot, with all her claims of birth, beauty, and mind, to throw herself away at nineteen; involve herself at nineteen in an engagement with a young man, who had nothing but himself to recommend him, and no hopes of attaining affluence, but in the chances of a most uncertain profession, and no connexions to secure even his farther rise in the profession, would be, indeed, a throwing away, which she grieved to think of! Anne Elliot, so young; known to so few, to be snatched off by a stranger without alliance or fortune; or rather sunk by him into a state of most wearing, anxious, youth-killing dependence!",
   "words": [
     {
-      "word": "dine",
+      "word": "unfortunate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dependence",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

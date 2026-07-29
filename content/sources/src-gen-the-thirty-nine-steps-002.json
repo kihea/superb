@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-thirty-nine-steps-002",
   "pool": "sourced",
-  "text": "“I got the first hint in an inn on the Achensee in Tyrol. That set me inquiring, and I collected my other clues in a fur-shop in the Galician quarter of Buda, in a Strangers’ Club in Vienna, and in a little bookshop off the Racknitzstrasse in Leipsig. I completed my evidence ten days ago in Paris. I can’t tell you the details now, for it’s something of a history. When I was quite sure in my own mind I judged it my business to disappear, and I reached this city by a mighty queer circuit.",
+  "text": "If you have dealings with it the first man you meet is Prince von und zu Something, an elegant young man who talks Eton-and-Harrow English. But he cuts no ice. If your business is big, you get behind him and find a prognathous Westphalian with a retreating brow and the manners of a hog. He is the German business man that gives your English papers the shakes. But if you’re on the biggest kind of job and are bound to get to the real boss, ten to one you are brought up against a little white-faced Jew in a bath-chair with an eye like a rattlesnake.",
   "words": [
     {
-      "word": "clues",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bookshop",
+      "word": "retreating",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

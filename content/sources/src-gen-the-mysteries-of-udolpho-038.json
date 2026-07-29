@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-038",
+  "pool": "sourced",
+  "text": "“No, my Lord,” replied Ludovico, “it has an iron door; we have nothing to fear from them; but let me go first, and look out from the rampart.” They quickly followed him, and found their mules browsing before the gates, where the party listened anxiously, but heard no sound, except that of the torrent below and of the early breeze, sighing among the branches of the old oak, that grew in the court; and they were now glad to perceive the first tints of dawn over the mountain-tops. When they had mounted their mules, Ludovico, undertaking to be their guide, led them by an easier path, than that by which they had formerly ascended, into the glen. “We must avoid that valley to the east, my Lord,” said he, “or we may meet the banditti; they went out that way in the morning.” The travellers, soon after, quitted this glen, and found themselves in a narrow valley that stretched towards the north-west. The morning light upon the mountains now strengthened fast, and gradually discovered the green hillocks, that skirted the winding feet of the cliffs, tufted with cork tree, and ever-green oak.",
+  "words": [
+    {
+      "word": "browsing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

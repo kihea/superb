@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-022",
+  "pool": "sourced",
+  "text": "Night came. The moon was entering her first quarter, and her insufficient light would soon die out in the mist on the horizon. Clouds were rising from the east, and already overcast a part of the heavens. The pilot had hung out his lights, which was very necessary in these seas crowded with vessels bound landward; for collisions are not uncommon occurrences, and, at the speed she was going, the least shock would shatter the gallant little craft. Fix, seated in the bow, gave himself up to meditation.",
+  "words": [
+    {
+      "word": "heavens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

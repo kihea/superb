@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-awakening-034",
+  "pool": "sourced",
+  "text": "The little one awoke in his arms and began to cry for “Dada.” That was as much as she could do or say. Some people thought she might have strayed there of her own accord, for she was of the toddling age. The prevailing belief was that she had been purposely left by a party of Texans, whose canvas-covered wagon, late in the day, had crossed the ferry that Coton Maïs kept, just below the plantation. In time Madame Valmondé abandoned every speculation but the one that Désirée had been sent to her by a beneficent Providence to be the child of her affection, seeing that she was without child of the flesh. For the girl grew to be beautiful and gentle, affectionate and sincere,—the idol of Valmondé.",
+  "words": [
+    {
+      "word": "wagon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "affectionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

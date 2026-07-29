@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-032",
+  "pool": "sourced",
+  "text": "Geologists, the curator told me, had found it a monstrous puzzle; for they vowed that the world held no rock like it. Then I thought with a shudder of what old Castro had told Legrasse about the primal Great Ones: \"They had come from the stars, and had brought Their images with Them.\" Shaken with such a mental revolution as I had never before known, I now resolved to visit Mate Johansen in Oslo. Sailing for London, I re-embarked at once for the Norwegian capital; and one autumn day landed at the trim wharves in the shadow of the Egeberg. Johansen's address, I discovered, lay in the Old Town of King Harold Haardrada, which kept alive the name of Oslo during all the centuries that the greater city masqueraded as \"Christiania.\"",
+  "words": [
+    {
+      "word": "geologists",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "puzzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

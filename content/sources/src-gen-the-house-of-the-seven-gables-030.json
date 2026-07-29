@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-030",
+  "pool": "sourced",
+  "text": "Thus it is that the grief of the passing moment takes upon itself an individuality, and a character of climax, which it is destined to lose after a while, and to fade into the dark gray tissue common to the grave or glad events of many years ago. It is but for a moment, comparatively, that anything looks strange or startling,—a truth that has the bitter and the sweet in it. But Hepzibah could not rid herself of the sense of something unprecedented at that instant passing and soon to be accomplished. Her nerves were in a shake. Instinctively she paused before the arched window, and looked out upon the street, in order to seize its permanent objects with her mental grasp, and thus to steady herself from the reel and vibration which affected her more immediate sphere.",
+  "words": [
+    {
+      "word": "individuality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "climax",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

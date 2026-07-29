@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-invisible-man-011",
   "pool": "sourced",
-  "text": "And suddenly, not by design but by accident, I made a discovery in physiology.” “Yes?” “You know the red colouring matter of blood; it can be made white—colourless—and remain with all the functions it has now!” Kemp gave a cry of incredulous amazement. The Invisible Man rose and began pacing the little study. “You may well exclaim. I remember that night. It was late at night—in the daytime one was bothered with the gaping, silly students—and I worked then sometimes till dawn.",
+  "text": "Just imagination?” “What else can you be?” said Mr. Thomas Marvel, rubbing the back of his neck. “Very well,” said the Voice, in a tone of relief. “Then I’m going to throw flints at you till you think differently.” “But where are yer?” The Voice made no answer. Whizz came a flint, apparently out of the air, and missed Mr. Marvel’s shoulder by a hair’s-breadth. Mr. Marvel, turning, saw a flint jerk up into the air, trace a complicated path, hang for a moment, and then fling at his feet with almost invisible rapidity.",
   "words": [
     {
-      "word": "physiology",
+      "word": "rubbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flint",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

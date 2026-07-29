@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-wuthering-heights-038",
+  "pool": "sourced",
+  "text": "Catherine employed herself in wrapping a handsome book neatly in white paper, and having tied it with a bit of ribbon, and addressed it to “Mr. Hareton Earnshaw,” she desired me to be her ambassadress, and convey the present to its destined recipient. “And tell him, if he’ll take it, I’ll come and teach him to read it right,” she said; “and, if he refuse it, I’ll go upstairs, and never tease him again.” I carried it, and repeated the message; anxiously watched by my employer. Hareton would not open his fingers, so I laid it on his knee. He did not strike it off, either.",
+  "words": [
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

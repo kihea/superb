@@ -1,12 +1,18 @@
 {
   "id": "src-gen-a-christmas-carol-013",
   "pool": "sourced",
-  "text": "A smell like an eating-house and a pastrycook's next door to each other, with a laundress's next door to that! That was the pudding! In half a minute Mrs. Cratchit entered--flushed, but smiling proudly--with the pudding, like a speckled cannon-ball, so hard and firm, blazing in half of half-a-quartern of ignited brandy, and bedight with Christmas holly stuck into the top. Oh, a wonderful pudding! Bob Cratchit said, and calmly too, that he regarded it as the greatest success achieved by Mrs. Cratchit since their marriage.",
+  "text": "Chirrup, Ebenezer!\" Clear away! There was nothing they wouldn't have cleared away, or couldn't have cleared away, with old Fezziwig looking on. It was done in a minute. Every movable was packed off, as if it were dismissed from public life for evermore; the floor was swept and watered, the lamps were trimmed, fuel was heaped upon the fire; and the warehouse was as snug, and warm, and dry, and bright a ball-room, as you would desire to see upon a winter's night.",
   "words": [
     {
-      "word": "holly",
+      "word": "swept",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "watered",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

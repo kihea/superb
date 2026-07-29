@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-028",
+  "pool": "sourced",
+  "text": "Emily, having purchased a little straw hat, such as was worn by the peasant girls of Tuscany, and some other little necessary equipments for the journey, and the travellers, having exchanged their tired horses for others better able to carry them, recommenced their joyous way, as the sun was rising over the mountains, and, after travelling through this romantic country, for several hours, began to descend into the vale of Arno. And here Emily beheld all the charms of sylvan and pastoral landscape united, adorned with the elegant villas of the Florentine nobles, and diversified with the various riches of cultivation. How vivid the shrubs that embowered the slopes, with the woods, that stretched amphitheatrically along the mountains! and, above all, how elegant the outline of these waving Apennines, now softening from the wildness, which their interior regions exhibited!",
+  "words": [
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diversified",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

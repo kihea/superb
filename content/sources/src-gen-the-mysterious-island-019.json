@@ -1,30 +1,11 @@
 {
   "id": "src-gen-the-mysterious-island-019",
   "pool": "sourced",
-  "text": "The schooner, sharp in the bows, very slender in the after-part, would evidently be suitable for a long voyage, if wanted; but laying the planking would still take a considerable time. Very fortunately, the iron work of the pirate brig had been saved after the explosion. From the planks and injured ribs Pencroft and Ayrton had extracted the bolts and a large quantity of copper nails. It was so much work saved for the smiths, but the carpenters had much to do. Shipbuilding was interrupted for a week for the harvest, the haymaking, and the gathering in of the different crops on the plateau.",
+  "text": "The rest, throwing themselves out, were dashed to pieces in their fall, and in a few minutes, so far as they knew, there was not a living quadrumana in Granite House. At this moment the ladder was seen to slip over the threshold, then unroll and fall to the ground. “Hullo!” cried the sailor, “this is queer!” “Very strange!” murmured the engineer, leaping first up the ladder. “Take care, captain!” cried Pencroft, “perhaps there are still some of these rascals. “We shall soon see,” replied the engineer, without stopping however.",
   "words": [
     {
-      "word": "voyage",
+      "word": "ladder",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "planks",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ribs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "harvest",
-      "signals": [
-        "apposition",
         "gloss-overlap"
       ]
     }
@@ -34,7 +15,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

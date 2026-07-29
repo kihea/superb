@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-031",
+  "pool": "sourced",
+  "text": "We remained in his room until about ten o’clock without a word passing between us. Buried in an armchair Rouletabille sat and smoked steadily, his brow in thought and a far-away look in his eyes. On the stroke of ten he took off his boots and signed to me to do the same. Standing in our socks he said, in so low a tone that I guessed, rather than heard, the word: “Revolver.” I drew my revolver from my jacket pocket. “Cock it!” he said.",
+  "words": [
+    {
+      "word": "brow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revolver",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-cranford-010",
   "pool": "sourced",
-  "text": "“Has your ladyship been to Court lately?” asked she; and then gave a little glance round at us, half timid and half triumphant, as much as to say, “See how judiciously I have chosen a subject befitting the rank of the stranger.” “I never was there in my life,” said Lady Glenmire, with a broad Scotch accent, but in a very sweet voice. And then, as if she had been too abrupt, she added: “We very seldom went to London—only twice, in fact, during all my married life; and before I was married my father had far too large a family” (fifth daughter of Mr Campbell was in all our minds, I am sure) “to take us often from our home, even to Edinburgh. Ye’ll have been in Edinburgh, maybe?” said she, suddenly brightening up with the hope of a common interest. We had none of us been there; but Miss Pole had an uncle who once had passed a night there, which was very pleasant. Mrs Jamieson, meanwhile, was absorbed in wonder why Mr Mulliner did not bring the tea; and at length the wonder oozed out of her mouth.",
+  "text": "And he might have lived this dozen years if he had not gone to that wicked Paris, where they are always having revolutions.” She paused for some demonstration on our part. I saw Miss Matty could not speak, she was trembling so nervously; so I said what I really felt; and after a call of some duration—all the time of which I have no doubt Miss Pole thought Miss Matty received the news very calmly—our visitor took her leave. Miss Matty made a strong effort to conceal her feelings—a concealment she practised even with me, for she has never alluded to Mr Holbrook again, although the book he gave her lies with her Bible on the little table by her bedside. She did not think I heard her when she asked the little milliner of Cranford to make her caps something like the Honourable Mrs Jamieson’s, or that I noticed the reply— “But she wears widows’ caps, ma’am?” “Oh! I only meant something in that style; not widows’, of course, but rather like Mrs Jamieson’s.” This effort at concealment was the beginning of the tremulous motion of head and hands which I have seen ever since in Miss Matty.",
   "words": [
     {
-      "word": "absorbed",
+      "word": "demonstration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "duration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

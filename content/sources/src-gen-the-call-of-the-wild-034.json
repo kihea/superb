@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-call-of-the-wild-034",
+  "pool": "sourced",
+  "text": "But in the end Buck’s pertinacity was rewarded; for the wolf, finding that no harm was intended, finally sniffed noses with him. Then they became friendly, and played about in the nervous, half-coy way with which fierce beasts belie their fierceness. After some time of this the wolf started off at an easy lope in a manner that plainly showed he was going somewhere. He made it clear to Buck that he was to come, and they ran side by side through the sombre twilight, straight up the creek bed, into the gorge from which it issued, and across the bleak divide where it took its rise. On the opposite slope of the watershed they came down into a level country where were great stretches of forest and many streams, and through these great stretches they ran steadily, hour after hour, the sun rising higher and the day growing warmer.",
+  "words": [
+    {
+      "word": "plainly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "steadily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

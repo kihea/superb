@@ -1,16 +1,16 @@
 {
   "id": "src-gen-persuasion-017",
   "pool": "sourced",
-  "text": "“I wish I had any name but Elliot. I am sick of it. The name of Walter I can drop, thank God! and I desire you will never insult me with my second W. again, meaning, for the rest of my life, to be only yours truly, “WM. ELLIOT.” Such a letter could not be read without putting Anne in a glow; and Mrs Smith, observing the high colour in her face, said— “The language, I know, is highly disrespectful.",
+  "text": "Captain Wentworth believed it impossible for man to be more attached to woman than poor Benwick had been to Fanny Harville, or to be more deeply afflicted under the dreadful change. He considered his disposition as of the sort which must suffer heavily, uniting very strong feelings with quiet, serious, and retiring manners, and a decided taste for reading, and sedentary pursuits. To finish the interest of the story, the friendship between him and the Harvilles seemed, if possible, augmented by the event which closed all their views of alliance, and Captain Benwick was now living with them entirely. Captain Harville had taken his present house for half a year; his taste, and his health, and his fortune, all directing him to a residence inexpensive, and by the sea; and the grandeur of the country, and the retirement of Lyme in the winter, appeared exactly adapted to Captain Benwick’s state of mind. The sympathy and good-will excited towards Captain Benwick was very great.",
   "words": [
     {
-      "word": "insult",
+      "word": "grandeur",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "glow",
+      "word": "adapted",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

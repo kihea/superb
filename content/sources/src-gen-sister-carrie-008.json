@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sister-carrie-008",
   "pool": "sourced",
-  "text": "If anything, he felt the injustice of the game as it stood, and was not cheap enough to add to it the slightest mental taunt. Only the play produced an ironical situation, and this was due to Drouet alone. The scene was one in \"The Covenant,\" in which the wife listened to the seductive voice of a lover in the absence of her husband. \"Served him right,\" said Drouet afterward, even in view of her keen expiation of her error. \"I haven't any pity for a man who would be such a chump as that.\"",
+  "text": "but I'm glad to see you again.\" She felt so relieved in his radiant presence, so much looked after and cared for, that she assented gladly, though with the slightest air of holding back. \"Well,\" he said, as he took her arm--and there was an exuberance of good-fellowship in the word which fairly warmed the cockles of her heart. They went through Monroe Street to the old Windsor dining-room, which was then a large, comfortable place, with an excellent cuisine and substantial service. Drouet selected a table close by the window, where the busy rout of the street could be seen.",
   "words": [
     {
-      "word": "injustice",
+      "word": "gladly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cuisine",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Theodore Dreiser",
     "year": 1900,
     "source": "Project Gutenberg #5267",
-    "url": "https://www.gutenberg.org/ebooks/5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

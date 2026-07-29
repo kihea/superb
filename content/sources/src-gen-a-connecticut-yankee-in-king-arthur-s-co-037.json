@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-037",
+  "pool": "sourced",
+  "text": "Slavery was dead and gone; all men were equal before the law; taxation had been equalized. The telegraph, the telephone, the phonograph, the typewriter, the sewing-machine, and all the thousand willing and handy servants of steam and electricity were working their way into favor. We had a steamboat or two on the Thames, we had steam warships, and the beginnings of a steam commercial marine; I was getting ready to send out an expedition to discover America. We were building several lines of railway, and our line from Camelot to London was already finished and in operation. I was shrewd enough to make all offices connected with the passenger service places of high and distinguished honor.",
+  "words": [
+    {
+      "word": "telegraph",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "typewriter",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

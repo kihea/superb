@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-great-god-pan-004",
   "pool": "sourced",
-  "text": "After the meal, the boy, who was about seven years old at the time, left his father at work, and, as he said, went to look for flowers in the wood, and the man, who could hear him shouting with delight at his discoveries, felt no uneasiness. Suddenly, however, he was horrified at hearing the most dreadful screams, evidently the result of great terror, proceeding from the direction in which his son had gone, and he hastily threw down his tools and ran to see what had happened. Tracing his path by the sound, he met the little boy, who was running headlong, and was evidently terribly frightened, and on questioning him the man elicited that after picking a posy of flowers he felt tired, and lay down on the grass and fell asleep. He was suddenly awakened, as he stated, by a peculiar noise, a sort of singing he called it, and on peeping through the branches he saw Helen V. playing on the grass with a “strange naked man,” who he seemed unable to describe more fully. He said he felt dreadfully frightened and ran away crying for his father.",
+  "text": "The horrors that he witnessed in the dreary laboratory were to a certain extent salutary; he was conscious of being involved in an affair not altogether reputable, and for many years afterwards he clung bravely to the commonplace, and rejected all occasions of occult investigation. Indeed, on some homeopathic principle, he for some time attended the seances of distinguished mediums, hoping that the clumsy tricks of these gentlemen would make him altogether disgusted with mysticism of every kind, but the remedy, though caustic, was not efficacious. Clarke knew that he still pined for the unseen, and little by little, the old passion began to reassert itself, as the face of Mary, shuddering and convulsed with an unknown terror, faded slowly from his memory. Occupied all day in pursuits both serious and lucrative, the temptation to relax in the evening was too great, especially in the winter months, when the fire cast a warm glow over his snug bachelor apartment, and a bottle of some choice claret stood ready by his elbow.",
   "words": [
     {
-      "word": "shouting",
+      "word": "lucrative",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "screams",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "terribly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "peculiar",
+      "word": "bachelor",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

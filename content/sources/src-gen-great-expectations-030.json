@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-030",
+  "pool": "sourced",
+  "text": "And how should she be up there, without coming through the door, or in at the window, and up the stairs?’ “‘I don’t know how she’s there,’ says Arthur, shivering dreadful with the horrors, ‘but she’s standing in the corner at the foot of the bed, awful mad. And over where her heart’s broke—you broke it!—there’s drops of blood.’ “Compeyson spoke hardy, but he was always a coward. ‘Go up alonger this drivelling sick man,’ he says to his wife, ‘and Magwitch, lend her a hand, will you?’ But he never come nigh himself. “Compeyson’s wife and me took him up to bed agen, and he raved most dreadful. ‘Why look at her!’ he cries out.",
+  "words": [
+    {
+      "word": "lend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,22 +1,22 @@
 {
   "id": "src-gen-walden-017",
   "pool": "sourced",
-  "text": "Why is it that a bucket of water soon becomes putrid, but frozen remains sweet forever? It is commonly said that this is the difference between the affections and the intellect. Thus for sixteen days I saw from my window a hundred men at work like busy husbandmen, with teams and horses and apparently all the implements of farming, such a picture as we see on the first page of the almanac; and as often as I looked out I was reminded of the fable of the lark and the reapers, or the parable of the sower, and the like; and now they are all gone, and in thirty days more, probably, I shall look from the same window on the pure sea-green Walden water there, reflecting the clouds and the trees, and sending up its evaporations in solitude, and no traces will appear that a man has ever stood there. Perhaps I shall hear a solitary loon laugh as he dives and plumes himself, or shall see a lonely fisher in his boat, like a floating leaf, beholding his form reflected in the waves, where lately a hundred men securely labored.",
+  "text": "We should never cheat and insult and banish one another by our meanness, if there were present the kernel of worth and friendliness. We should not meet thus in haste. Most men I do not meet at all, for they seem not to have time; they are busy about their beans. We would not deal with a man thus plodding ever, leaning on a hoe or a spade as a staff between his work, not as a mushroom, but partially risen out of the earth, something more than erect, like swallows alighted and walking on the ground:— “And as he spake, his wings would now and then Spread, as he meant to fly, then close again,” so that we should suspect that we might be conversing with an angel. Bread may not always nourish us; but it always does us good, it even takes stiffness out of our joints, and makes us supple and buoyant, when we knew not what ailed us, to recognize any generosity in man or Nature, to share any unmixed and heroic joy.",
   "words": [
     {
-      "word": "bucket",
+      "word": "spade",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "clouds",
+      "word": "mushroom",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "solitude",
+      "word": "generosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

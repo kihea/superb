@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-walden-032",
+  "pool": "sourced",
+  "text": "So, probably, the depth of the ocean will be found to be very inconsiderable compared with its breadth. As I sounded through the ice I could determine the shape of the bottom with greater accuracy than is possible in surveying harbors which do not freeze over, and I was surprised at its general regularity. In the deepest part there are several acres more level than almost any field which is exposed to the sun wind and plough. In one instance, on a line arbitrarily chosen, the depth did not vary more than one foot in thirty rods; and generally, near the middle, I could calculate the variation for each one hundred feet in any direction beforehand within three or four inches. Some are accustomed to speak of deep and dangerous holes even in quiet sandy ponds like this, but the effect of water under these circumstances is to level all inequalities.",
+  "words": [
+    {
+      "word": "calculate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

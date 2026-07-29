@@ -1,16 +1,22 @@
 {
   "id": "src-gen-narrative-of-the-life-of-frederick-dougl-019",
   "pool": "sourced",
-  "text": "From the wharves I strolled around and over the town, gazing with wonder and admiration at the splendid churches, beautiful dwellings, and finely-cultivated gardens; evincing an amount of wealth, comfort, taste, and refinement, such as I had never seen in any part of slaveholding Maryland. Every thing looked clean, new, and beautiful. I saw few or no dilapidated houses, with poverty-stricken inmates; no half-naked children and barefooted women, such as I had been accustomed to see in Hillsborough, Easton, St. Michael’s, and Baltimore. The people looked more able, stronger, healthier, and happier, than those of Maryland. I was for once made glad by a view of extreme wealth, without being saddened by seeing extreme poverty.",
+  "text": "In addition to the pain of separation, there was the horrid dread of falling into the hands of Master Andrew. He was known to us all as being a most cruel wretch,—a common drunkard, who had, by his reckless mismanagement and profligate dissipation, already wasted a large portion of his father’s property. We all felt that we might as well be sold at once to the Georgia traders, as to pass into his hands; for we knew that that would be our inevitable condition,—a condition held by us all in the utmost horror and dread. I suffered more anxiety than most of my fellow-slaves. I had known what it was to be kindly treated; they had known nothing of the kind.",
   "words": [
     {
-      "word": "admiration",
+      "word": "separation",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "happier",
+      "word": "cruel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kindly",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Frederick Douglass",
     "year": 1845,
     "source": "Project Gutenberg #23",
-    "url": "https://www.gutenberg.org/ebooks/23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

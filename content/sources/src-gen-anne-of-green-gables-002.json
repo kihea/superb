@@ -1,12 +1,12 @@
 {
   "id": "src-gen-anne-of-green-gables-002",
   "pool": "sourced",
-  "text": "My father’s name was Walter Shirley, and he was a teacher in the Bolingbroke High School. My mother’s name was Bertha Shirley. Aren’t Walter and Bertha lovely names? I’m so glad my parents had nice names. It would be a real disgrace to have a father named--well, say Jedediah, wouldn’t it?” “I guess it doesn’t matter what a person’s name is as long as he behaves himself,” said Marilla, feeling herself called upon to inculcate a good and useful moral.",
+  "text": "“Well, now, no, I suppose not--not exactly,” stammered Matthew, uncomfortably driven into a corner for his precise meaning. “I suppose--we could hardly be expected to keep her.” “I should say not. What good would she be to us?” “We might be some good to her,” said Matthew suddenly and unexpectedly. “Matthew Cuthbert, I believe that child has bewitched you! I can see as plain as plain that you want to keep her.” “Well now, she’s a real interesting little thing,” persisted Matthew.",
   "words": [
     {
-      "word": "behaves",
+      "word": "precise",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

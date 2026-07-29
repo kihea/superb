@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-003",
   "pool": "sourced",
-  "text": "Fresh sharpened by his victory, full of hopes of future favor, he was resolved not to recoil a step. So the two swords were crossed close to the hilts, and as D’Artagnan stood firm, it was his adversary who made the retreating step; but D’Artagnan seized the moment at which, in this movement, the sword of Bernajoux deviated from the line. He freed his weapon, made a lunge, and touched his adversary on the shoulder. D’Artagnan immediately made a step backward and raised his sword; but Bernajoux cried out that it was nothing, and rushing blindly upon him, absolutely spitted himself upon D’Artagnan’s sword.",
+  "text": "Messieurs Musketeers, I will not have this haunting of bad places, this quarreling in the streets, this swordplay at the crossways; and above all, I will not have occasion given for the cardinal’s Guards, who are brave, quiet, skillful men who never put themselves in a position to be arrested, and who, besides, never allow themselves to be arrested, to laugh at you! I am sure of it—they would prefer dying on the spot to being arrested or taking back a step. To save yourselves, to scamper away, to flee—that is good for the king’s Musketeers!” Porthos and Aramis trembled with rage. They could willingly have strangled M. de Tréville, if, at the bottom of all this, they had not felt it was the great love he bore them which made him speak thus. They stamped upon the carpet with their feet; they bit their lips till the blood came, and grasped the hilts of their swords with all their might.",
   "words": [
     {
-      "word": "swords",
+      "word": "flee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "willingly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

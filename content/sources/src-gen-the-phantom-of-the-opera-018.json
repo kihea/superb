@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-018",
   "pool": "sourced",
-  "text": "... No, no, oh, horrible! Swim for your life!\" Our arms became entangled in the effort of swimming; we choked; we fought in the dark water; already we could hardly breathe the dark air above the dark water, the air which escaped, which we could hear escaping through some vent-hole or other. \"Oh, let us turn and turn and turn until we find the air hole and then glue our mouths to it!\" But I lost my strength; I tried to lay hold of the walls!",
+  "text": "I made one last effort; my limbs stiffened, my mouth opened to scream, but a hand closed it, a hand which I felt on my lips, on my skin ... a hand that smelt of death. Then I fainted away. \"When I opened my eyes, we were still surrounded by darkness. A lantern, standing on the ground, showed a bubbling well. The water splashing from the well disappeared, almost at once, under the floor on which I was lying, with my head on the knee of the man in the black cloak and the black mask.",
   "words": [
     {
-      "word": "choked",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vent",
+      "word": "lantern",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

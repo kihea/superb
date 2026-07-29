@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-life-on-the-mississippi-034",
+  "pool": "sourced",
+  "text": "A Question of Law THE slaughter-house is gone from the mouth of Bear Creek and so is the small jail (or 'calaboose') which once stood in its neighborhood. A citizen asked, 'Do you remember when Jimmy Finn, the town drunkard, was burned to death in the calaboose?' Observe, now, how history becomes defiled, through lapse of time and the help of the bad memories of men. Jimmy Finn was not burned in the calaboose, but died a natural death in a tan vat, of a combination of delirium tremens and spontaneous combustion. When I say natural death, I mean it was a natural death for Jimmy Finn to die.",
+  "words": [
+    {
+      "word": "spontaneous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

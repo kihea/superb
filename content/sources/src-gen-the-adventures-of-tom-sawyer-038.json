@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-038",
+  "pool": "sourced",
+  "text": "I reckon we’ll climb down there and have a hunt for that box.” Tom went first, cutting rude steps in the clay hill as he descended. Huck followed. Four avenues opened out of the small cavern which the great rock stood in. The boys examined three of them with no result. They found a small recess in the one nearest the base of the rock, with a pallet of blankets spread down in it; also an old suspender, some bacon rind, and the well-gnawed bones of two or three fowls.",
+  "words": [
+    {
+      "word": "reckon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

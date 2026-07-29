@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-026",
+  "pool": "sourced",
+  "text": "If not, the men were lying drunk below, where I might batten them down, perhaps, and do what I chose with the ship. For some time she had been doing the worse thing possible for me--standing still. She headed nearly due south, yawing, of course, all the time. Each time she fell off, her sails partly filled, and these brought her in a moment right to the wind again. I have said this was the worst thing possible for me, for helpless as she looked in this situation, with the canvas cracking like cannon and the blocks trundling and banging on the deck, she still continued to run away from me, not only with the speed of the current, but by the whole amount of her leeway, which was naturally great.",
+  "words": [
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canvas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

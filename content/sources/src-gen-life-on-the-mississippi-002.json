@@ -1,10 +1,28 @@
 {
   "id": "src-gen-life-on-the-mississippi-002",
   "pool": "sourced",
-  "text": "at him again, Child of Calamity!' 'Bully for you, little Davy!' Well, it was a perfect pow-wow for a while. Bob and the Child had red noses and black eyes when they got through. Little Davy made them own up that they were sneaks and cowards and not fit to eat with a dog or drink with a nigger; then Bob and the Child shook hands with each other, very solemn, and said they had always respected each other and was willing to let bygones be bygones.",
+  "text": "At Peoria Lake they struck open water, and paddled thence to the Mississippi and turned their prows southward. They plowed through the fields of floating ice, past the mouth of the Missouri; past the mouth of the Ohio, by-and-by; 'and, gliding by the wastes of bordering swamp, landed on the 24th of February near the Third Chickasaw Bluffs,' where they halted and built Fort Prudhomme. 'Again,' says Mr. Parkman, 'they embarked; and with every stage of their adventurous progress, the mystery of this vast new world was more and more unveiled. More and more they entered the realms of spring. The hazy sunlight, the warm and drowsy air, the tender foliage, the opening flowers, betokened the reviving life of nature.'",
   "words": [
     {
-      "word": "nigger",
+      "word": "swamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunlight",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "foliage",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "reviving",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

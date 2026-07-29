@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-emma-023",
+  "pool": "sourced",
+  "text": "If we exert ourselves, I think we shall not be long in want of allies. Something of that nature would be particularly desirable for me, as an inducement to keep me in practice; for married women, you know—there is a sad story against them, in general. They are but too apt to give up music.” “But you, who are so extremely fond of it—there can be no danger, surely?” “I should hope not; but really when I look around among my acquaintance, I tremble. Selina has entirely given up music—never touches the instrument—though she played sweetly. And the same may be said of Mrs. Jeffereys—Clara Partridge, that was—and of the two Milmans, now Mrs. Bird and Mrs. James Cooper; and of more than I can enumerate.",
+  "words": [
+    {
+      "word": "exert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

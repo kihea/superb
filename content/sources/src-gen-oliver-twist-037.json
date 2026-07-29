@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-oliver-twist-037",
+  "pool": "sourced",
+  "text": "“It is a true tale of grief and trial, and sorrow, young man,” returned Mr. Brownlow, “and such tales usually are; if it were one of unmixed joy and happiness, it would be very brief. At length one of those rich relations to strengthen whose interest and importance your father had been sacrificed, as others are often—it is no uncommon case—died, and to repair the misery he had been instrumental in occasioning, left him his panacea for all griefs—Money. It was necessary that he should immediately repair to Rome, whither this man had sped for health, and where he had died, leaving his affairs in great confusion. He went; was seized with mortal illness there; was followed, the moment the intelligence reached Paris, by your mother who carried you with her; he died the day after her arrival, leaving no will—no will—so that the whole property fell to her and you.” At this part of the recital Monks held his breath, and listened with a face of intense eagerness, though his eyes were not directed towards the speaker.",
+  "words": [
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "instrumental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

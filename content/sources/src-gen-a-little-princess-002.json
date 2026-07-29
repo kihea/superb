@@ -1,16 +1,22 @@
 {
   "id": "src-gen-a-little-princess-002",
   "pool": "sourced",
-  "text": "So the younger children adored Sara. More than once she had been known to have a tea party, made up of these despised ones, in her own room. And Emily had been played with, and Emily's own tea service used--the one with cups which held quite a lot of much-sweetened weak tea and had blue flowers on them. No one had seen such a very real doll's tea set before. From that afternoon Sara was regarded as a goddess and a queen by the entire alphabet class.",
+  "text": "If she had been an indolent child, she would have learned nothing. Privately Miss Minchin disliked her, but she was far too worldly a woman to do or say anything which might make such a desirable pupil wish to leave her school. She knew quite well that if Sara wrote to her papa to tell him she was uncomfortable or unhappy, Captain Crewe would remove her at once. Miss Minchin's opinion was that if a child were continually praised and never forbidden to do what she liked, she would be sure to be fond of the place where she was so treated. Accordingly, Sara was praised for her quickness at her lessons, for her good manners, for her amiability to her fellow pupils, for her generosity if she gave sixpence to a beggar out of her full little purse; the simplest thing she did was treated as if it were a virtue, and if she had not had a disposition and a clever little brain, she might have been a very self-satisfied young person.",
   "words": [
     {
-      "word": "cups",
+      "word": "pupil",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "alphabet",
+      "word": "beggar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

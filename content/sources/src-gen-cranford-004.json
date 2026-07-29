@@ -1,12 +1,11 @@
 {
   "id": "src-gen-cranford-004",
   "pool": "sourced",
-  "text": "I can’t see as I used to do. If Flora were not here to read to me, I hardly know how I should get through the day. Did you ever read the Rambler? It’s a wonderful book—wonderful! and the most improving reading for Flora” (which I daresay it would have been, if she could have read half the words without spelling, and could have understood the meaning of a third), “better than that strange old book, with the queer name, poor Captain Brown was killed for reading—that book by Mr Boz, you know—‘Old Poz’; when I was a girl—but that’s a long time ago—I acted Lucy in ‘Old Poz.’” She babbled on long enough for Flora to get a good long spell at the “Christmas Carol,” which Miss Matty had left on the table.",
+  "text": "Miss Jessie sang, “Jock of Hazeldean” a little out of tune; but we were none of us musical, though Miss Jenkyns beat time, out of time, by way of appearing to be so. It was very good of Miss Jenkyns to do this; for I had seen that, a little before, she had been a good deal annoyed by Miss Jessie Brown’s unguarded admission (à propos of Shetland wool) that she had an uncle, her mother’s brother, who was a shopkeeper in Edinburgh. Miss Jenkyns tried to drown this confession by a terrible cough—for the Honourable Mrs Jamieson was sitting at a card-table nearest Miss Jessie, and what would she say or think if she found out she was in the same room with a shop-keeper’s niece!",
   "words": [
     {
-      "word": "spelling",
+      "word": "niece",
       "signals": [
-        "definition-marker",
         "gloss-overlap"
       ]
     }
@@ -16,7 +15,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

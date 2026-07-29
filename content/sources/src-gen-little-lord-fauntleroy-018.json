@@ -1,10 +1,16 @@
 {
   "id": "src-gen-little-lord-fauntleroy-018",
   "pool": "sourced",
-  "text": "The maid, who brought the message, looked rather excited; her eyes were quite round with amazement, in fact, and being young and inexperienced, she regarded her mistress with nervous sympathy. “It's the Earl hisself, ma'am!” she said in tremulous awe. When Mrs. Errol entered the drawing-room, a very tall, majestic-looking old man was standing on the tiger-skin rug. He had a handsome, grim old face, with an aquiline profile, a long white mustache, and an obstinate look. Errol, I believe?” he said.",
+  "text": "“What would YOU do in this case?” his lordship asked. It must be confessed that Mr. Mordaunt experienced for the moment a curious sensation. Being a man of great thoughtfulness, and having spent so many years on the estate of Dorincourt, knowing the tenantry, rich and poor, the people of the village, honest and industrious, dishonest and lazy, he realized very strongly what power for good or evil would be given in the future to this one small boy standing there, his brown eyes wide open, his hands deep in his pockets; and the thought came to him also that a great deal of power might, perhaps, through the caprice of a proud, self-indulgent old man, be given to him now, and that if his young nature were not a simple and generous one, it might be the worst thing that could happen, not only for others, but for himself. “And what would YOU do in such a case?” demanded the Earl. Fauntleroy drew a little nearer, and laid one hand on his knee, with the most confiding air of good comradeship.",
   "words": [
     {
-      "word": "maid",
+      "word": "confessed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dishonest",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

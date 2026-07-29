@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-034",
+  "pool": "sourced",
+  "text": "And so we dreamed and loved and planned by fall and winter, and the full flush of the long Southern spring, till the hot winds rolled from the fetid Gulf, till the roses shivered and the still stern sun quivered its awful light over the hills of Atlanta. And then one night the little feet pattered wearily to the wee white bed, and the tiny hands trembled; and a warm flushed face tossed on the pillow, and we knew baby was sick. Ten days he lay there,—a swift week and three endless days, wasting, wasting away. Cheerily the mother nursed him the first days, and laughed into the little eyes that smiled again. Tenderly then she hovered round him, till the smile fled away and Fear crouched beside the little bed.",
+  "words": [
+    {
+      "word": "wee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wasting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

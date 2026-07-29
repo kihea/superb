@@ -1,10 +1,16 @@
 {
   "id": "src-gen-white-fang-004",
   "pool": "sourced",
-  "text": "Sometimes she whirled with him. And sometimes the young leader on the left whirled, too. At such times, confronted by three sets of savage teeth, the young wolf stopped precipitately, throwing himself back on his haunches, with fore-legs stiff, mouth menacing, and mane bristling. This confusion in the front of the moving pack always caused confusion in the rear. The wolves behind collided with the young wolf and expressed their displeasure by administering sharp nips on his hind-legs and flanks.",
+  "text": "An’ you’re half eaten from the way you’re goin’ on about it.” “They’ve got away with better men than you an’ me,” Bill answered. “Oh, shet up your croakin’. You make me all-fired tired.” Henry rolled over angrily on his side, but was surprised that Bill made no similar display of temper. This was not Bill’s way, for he was easily angered by sharp words. Henry thought long over it before he went to sleep, and as his eyelids fluttered down and he dozed off, the thought in his mind was: “There’s no mistakin’ it, Bill’s almighty blue.",
   "words": [
     {
-      "word": "hind",
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "angered",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

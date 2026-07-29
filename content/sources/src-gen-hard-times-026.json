@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-hard-times-026",
+  "pool": "sourced",
+  "text": "‘You found Miss Gradgrind—I really cannot call her Mrs. Bounderby; it’s very absurd of me—as youthful as I described her?’ asked Mrs. Sparsit, sweetly. ‘You drew her portrait perfectly,’ said Mr. Harthouse. ‘Presented her dead image.’ ‘Very engaging, sir,’ said Mrs. Sparsit, causing her mittens slowly to revolve over one another. ‘Highly so.’ ‘It used to be considered,’ said Mrs. Sparsit, ‘that Miss Gradgrind was wanting in animation, but I confess she appears to me considerably and strikingly improved in that respect. Ay, and indeed here is Mr. Bounderby!’ cried Mrs. Sparsit, nodding her head a great many times, as if she had been talking and thinking of no one else.",
+  "words": [
+    {
+      "word": "nodding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

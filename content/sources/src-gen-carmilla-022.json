@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-carmilla-022",
+  "pool": "sourced",
+  "text": "You got up in your sleep, unlocked the door, not leaving the key, as usual, in the lock, but taking it out and locking it on the outside; you again took the key out, and carried it away with you to some one of the five-and-twenty rooms on this floor, or perhaps upstairs or downstairs. There are so many rooms and closets, so much heavy furniture, and such accumulations of lumber, that it would require a week to search this old house thoroughly. Do you see, now, what I mean?” “I do, but not all,” she answered. “And how, papa, do you account for her finding herself on the sofa in the dressing room, which we had searched so carefully?” “She came there after you had searched it, still in her sleep, and at last awoke spontaneously, and was as much surprised to find herself where she was as any one else. I wish all mysteries were as easily and innocently explained as yours, Carmilla,” he said, laughing.",
+  "words": [
+    {
+      "word": "unlocked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "locking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upstairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downstairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "papa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

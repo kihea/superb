@@ -1,40 +1,16 @@
 {
   "id": "src-gen-black-beauty-009",
   "pool": "sourced",
-  "text": "I listened to my rider's footsteps until they reached the house, and heard him knock at the door. There was a meadow on the opposite side of the road, the gate of which stood open; just then some cart horses and several young colts came trotting out in a very disorderly manner, while a boy behind was cracking a great whip. The colts were wild and frolicsome, and one of them bolted across the road and blundered up against Lizzie's hind legs, and whether it was the stupid colt, or the loud cracking of the whip, or both together, I cannot say, but she gave a violent kick, and dashed off into a headlong gallop. It was so sudden that Lady Anne was nearly unseated, but she soon recovered herself. I gave a loud, shrill neigh for help; again and again I neighed, pawing the ground impatiently, and tossing my head to get the rein loose.",
+  "text": "I can trust his word and I can trust his work; he is gentle and clever with the horses, and I would rather have them in charge with him than with half the young fellows I know of in laced hats and liveries; and whoever wants a character of James Howard,” said John, with a decided jerk of his head, “let them come to John Manly.” The master stood all this time grave and attentive, but as John finished his speech a broad smile spread over his face, and looking kindly across at James, who all this time had stood still at the door, he said, “James, my lad, set down the oats and come here; I am very glad to find that John's opinion of your character agrees so exactly with my own. John is a cautious man,” he said, with a droll smile, “and it is not always easy to get his opinion about people, so I thought if I beat the bush on this side the birds would fly out, and I should learn what I wanted to know quickly; so now we will come to business.",
   "words": [
     {
-      "word": "meadow",
+      "word": "gentle",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cart",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "colts",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bolted",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "colt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rein",
+      "word": "lad",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

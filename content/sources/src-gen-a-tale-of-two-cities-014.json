@@ -1,18 +1,12 @@
 {
   "id": "src-gen-a-tale-of-two-cities-014",
   "pool": "sourced",
-  "text": "Oh Monsieur heretofore the Marquis, I pray you be you true to me! “From this prison here of horror, whence I every hour tend nearer and nearer to destruction, I send you, Monsieur heretofore the Marquis, the assurance of my dolorous and unhappy service. “Your afflicted, “Gabelle.” The latent uneasiness in Darnay’s mind was roused to vigourous life by this letter. The peril of an old servant and a good one, whose only crime was fidelity to himself and his family, stared him so reproachfully in the face, that, as he walked to and fro in the Temple considering what to do, he almost hid his face from the passersby. He knew very well, that in his horror of the deed which had culminated the bad deeds and bad reputation of the old family house, in his resentful suspicions of his uncle, and in the aversion with which his conscience regarded the crumbling fabric that he was supposed to uphold, he had acted imperfectly.",
+  "text": "“It will die out,” said Monsieur the Marquis, glancing at his hands, “directly.” In effect, the sun was so low that it dipped at the moment. When the heavy drag had been adjusted to the wheel, and the carriage slid down hill, with a cinderous smell, in a cloud of dust, the red glow departed quickly; the sun and the Marquis going down together, there was no glow left when the drag was taken off. But, there remained a broken country, bold and open, a little village at the bottom of the hill, a broad sweep and rise beyond it, a church-tower, a windmill, a forest for the chase, and a crag with a fortress on it used as a prison. Round upon all these darkening objects as the night drew on, the Marquis looked, with the air of one who was coming near home. The village had its one poor street, with its poor brewery, poor tannery, poor tavern, poor stable-yard for relays of post-horses, poor fountain, all usual poor appointments.",
   "words": [
     {
-      "word": "servant",
+      "word": "windmill",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "aversion",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

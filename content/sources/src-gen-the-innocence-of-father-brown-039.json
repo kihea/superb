@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-039",
+  "pool": "sourced",
+  "text": "The rooms were very high and very cold; the decoration mean and provincial; the draughty corridors were lit by electricity that was bleaker than moonlight. And though the old man’s scarlet face and silver beard had blazed like a bonfire in each room or passage in turn, it did not leave any warmth behind it. Doubtless this spectral discomfort in the place was partly due to the very vitality and exuberance of its owner; he needed no stoves or lamps, he would say, but carried his own warmth with him. But when Merton recalled the other inmates, he was compelled to confess that they also were as shadows of their lord. The moody man-servant, with his monstrous black gloves, was almost a nightmare; Royce, the secretary, was solid enough, a big bull of a man, in tweeds, with a short beard; but the straw-coloured beard was startlingly salted with grey like the tweeds, and the broad forehead was barred with premature wrinkles.",
+  "words": [
+    {
+      "word": "bonfire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

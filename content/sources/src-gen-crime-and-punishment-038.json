@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-038",
+  "pool": "sourced",
+  "text": "I believe it’s a mouse,” he thought, “that’s the veal I left on the table.” He felt fearfully disinclined to pull off the blanket, get up, get cold, but all at once something unpleasant ran over his leg again. He pulled off the blanket and lighted the candle. Shaking with feverish chill he bent down to examine the bed: there was nothing. He shook the blanket and suddenly a mouse jumped out on the sheet. He tried to catch it, but the mouse ran to and fro in zigzags without leaving the bed, slipped between his fingers, ran over his hand and suddenly darted under the pillow.",
+  "words": [
+    {
+      "word": "examine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

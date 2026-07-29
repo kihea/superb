@@ -1,22 +1,10 @@
 {
   "id": "src-gen-treasure-island-017",
   "pool": "sourced",
-  "text": "I’m all for argyment; I never seen good come out o’ threatening. If you like the service, well, you’ll jine; and if you don’t, Jim, why, you’re free to answer no--free and welcome, shipmate; and if fairer can be said by mortal seaman, shiver my sides!” “Am I to answer, then?” I asked with a very tremulous voice. Through all this sneering talk, I was made to feel the threat of death that overhung me, and my cheeks burned and my heart beat painfully in my breast. “Lad,” said Silver, “no one’s a-pressing of you. Take your bearings.",
+  "text": "Mine I had snatched from my knees and held over my head, by a sort of instinct. As for the captain, he had carried his over his shoulder by a bandoleer, and like a wise man, lock uppermost. The other three had gone down with the boat. To add to our concern, we heard voices already drawing near us in the woods along shore, and we had not only the danger of being cut off from the stockade in our half-crippled state but the fear before us whether, if Hunter and Joyce were attacked by half a dozen, they would have the sense and conduct to stand firm. Hunter was steady, that we knew; Joyce was a doubtful case--a pleasant, polite man for a valet and to brush one’s clothes, but not entirely fitted for a man of war.",
   "words": [
     {
-      "word": "threatening",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mortal",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cheeks",
+      "word": "valet",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

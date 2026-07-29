@@ -1,12 +1,24 @@
 {
   "id": "src-gen-king-solomon-s-mines-020",
   "pool": "sourced",
-  "text": "Farewell, my brothers, brave white men. See me no more, for I have no heart to bear it. I make a decree, and it shall be published from the mountains to the mountains; your names, Incubu, Macumazahn, and Bougwan, shall be “hlonipa” even as the names of dead kings, and he who speaks them shall die. So shall your memory be preserved in the land for ever. This extraordinary and negative way of showing intense respect is by no means unknown among African people, and the result is that if, as is usual, the name in question has a significance, the meaning must be expressed by an idiom or other word.",
+  "text": "If ye live through the night all may go well with you. The soldiers murmur against the king.” All this while we had been advancing steadily towards the centre of the open space, in the midst of which were placed some stools. As we proceeded we perceived another small party coming from the direction of the royal hut. “It is the king Twala, Scragga his son, and Gagool the old; and see, with them are those who slay,” said Infadoos, pointing to a little group of about a dozen gigantic and savage-looking men, armed with spears in one hand and heavy kerries in the other. The king seated himself upon the centre stool, Gagool crouched at his feet, and the others stood behind him.",
   "words": [
     {
-      "word": "significance",
+      "word": "midst",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stool",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "H. Rider Haggard",
     "year": 1885,
     "source": "Project Gutenberg #2166",
-    "url": "https://www.gutenberg.org/ebooks/2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

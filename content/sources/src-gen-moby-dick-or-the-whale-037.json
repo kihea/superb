@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-037",
+  "pool": "sourced",
+  "text": "But Starbuck looked away. With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching the deck. Then, with the maul, after repeatedly smiting the upper end of this iron rod, he placed the blunted needle endwise on the top of it, and less strongly hammered that, several times, the mate still holding the rod as before. Then going through some small strange motions with it—whether indispensable to the magnetizing of the steel, or merely intended to augment the awe of the crew, is uncertain—he called for linen thread; and moving to the binnacle, slipped out the two reversed needles there, and horizontally suspended the sail-needle by its middle, over one of the compass-cards. At first, the steel went round and round, quivering and vibrating at either end; but at last it settled to its place, when Ahab, who had been intently watching for this result, stepped frankly back from the binnacle, and pointing his stretched arm towards it, exclaimed,—“Look ye, for yourselves, if Ahab be not lord of the level loadstone!",
+  "words": [
+    {
+      "word": "lance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repeatedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "needle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indispensable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

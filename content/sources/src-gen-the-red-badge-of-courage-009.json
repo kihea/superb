@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-009",
   "pool": "sourced",
-  "text": "The melancholy march was continually disturbed by the messengers, and sometimes by bustling batteries that came swinging and thumping down upon them, the officers shouting orders to clear the way. There was a tattered man, fouled with dust, blood and powder stain from hair to shoes, who trudged quietly at the youth’s side. He was listening with eagerness and much humility to the lurid descriptions of a bearded sergeant. His lean features wore an expression of awe and admiration. He was like a listener in a country store to wondrous tales told among the sugar barrels.",
+  "text": "Once he thought he had concluded that it would be better to get killed directly and end his troubles. Regarding death thus out of the corner of his eye, he conceived it to be nothing but rest, and he was filled with a momentary astonishment that he should have made an extraordinary commotion over the mere matter of getting killed. He would die; he would go to some place where he would be understood. It was useless to expect appreciation of his profound and fine sense from such men as the lieutenant. He must look to the grave for comprehension.",
   "words": [
     {
-      "word": "wondrous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "barrels",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

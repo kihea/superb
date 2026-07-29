@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-yellow-wallpaper-003",
   "pool": "sourced",
-  "text": "I used to lie awake as a child and get more entertainment and terror out of blank walls and plain furniture than most children could find in a toy-store. I remember what a kindly wink the knobs of our big old bureau used to have, and there was one chair that always seemed like a strong friend. I used to feel that if any of the other things looked too fierce I could always hop into that chair and be safe. The furniture in this room is no worse than inharmonious, however, for we had to bring it all from downstairs. I suppose when this was used as a playroom they had to take the nursery things out, and no wonder!",
+  "text": "I suppose when this was used as a playroom they had to take the nursery things out, and no wonder! I never saw such ravages as the children have made here. The wallpaper, as I said before, is torn off in spots, and it sticketh closer than a brother—they must have had perseverance as well as hatred. Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars. But I don’t mind it a bit—only the paper.",
   "words": [
     {
       "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wallpaper",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charlotte Perkins Gilman",
     "year": 1892,
     "source": "Project Gutenberg #1952",
-    "url": "https://www.gutenberg.org/ebooks/1952",
+    "url": "https://www.gutenberg.org/ebooks/1952.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

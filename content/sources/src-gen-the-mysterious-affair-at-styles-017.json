@@ -1,34 +1,16 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-017",
   "pool": "sourced",
-  "text": "No, what he is trying for is to create such confusion in the minds of the jury that they are divided in their opinion as to which brother did it. He is endeavouring to make out that there is quite as much evidence against Lawrence as against John—and I am not at all sure that he will not succeed.” Detective-inspector Japp was the first witness called when the trial was reopened, and gave his evidence succinctly and briefly. After relating the earlier events, he proceeded: “Acting on information received, Superintendent Summerhaye and myself searched the prisoner’s room, during his temporary absence from the house. In his chest of drawers, hidden beneath some underclothing, we found: first, a pair of gold-rimmed pince-nez similar to those worn by Mr. Inglethorp”—these were exhibited—“secondly, this phial.” The phial was that already recognized by the chemist’s assistant, a tiny bottle of blue glass, containing a few grains of a white crystalline powder, and labelled: “Strychnine Hydro-chloride. POISON.” A fresh piece of evidence discovered by the detectives since the police court proceedings was a long, almost new piece of blotting-paper.",
+  "text": "Evelyn Howard had been right then, and I experienced a sharp twinge of disgust, as I thought of Alfred Inglethorp’s liberality with another woman’s money. Had that piquant gipsy face been at the bottom of the crime, or was it the baser mainspring of money? Probably a judicious mixture of both. On one point, Poirot seemed to have a curious obsession. He once or twice observed to me that he thought Dorcas must have made an error in fixing the time of the quarrel.",
   "words": [
     {
-      "word": "prisoner",
+      "word": "obsession",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "drawers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "crystalline",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "labelled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "detectives",
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-023",
+  "pool": "sourced",
+  "text": "“A holy hermit!” said the King to himself; “now am I indeed fortunate.” The hermit rose from his knees; the King knocked. A deep voice responded-- “Enter!--but leave sin behind, for the ground whereon thou shalt stand is holy!” The King entered, and paused. The hermit turned a pair of gleaming, unrestful eyes upon him, and said-- “Who art thou?” “I am the King,” came the answer, with placid simplicity. “Welcome, King!” cried the hermit, with enthusiasm. Then, bustling about with feverish activity, and constantly saying, “Welcome, welcome,” he arranged his bench, seated the King on it, by the hearth, threw some faggots on the fire, and finally fell to pacing the floor with a nervous stride.",
+  "words": [
+    {
+      "word": "bustling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

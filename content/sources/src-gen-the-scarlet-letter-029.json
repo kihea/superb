@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-scarlet-letter-029",
+  "pool": "sourced",
+  "text": "A FLOOD OF SUNSHINE Arthur Dimmesdale gazed into Hester’s face with a look in which hope and joy shone out, indeed, but with fear betwixt them, and a kind of horror at her boldness, who had spoken what he vaguely hinted at, but dared not speak. But Hester Prynne, with a mind of native courage and activity, and for so long a period not merely estranged, but outlawed from society, had habituated herself to such latitude of speculation as was altogether foreign to the clergyman. She had wandered, without rule or guidance, in a moral wilderness, as vast, as intricate, and shadowy as the untamed forest, amid the gloom of which they were now holding a colloquy that was to decide their fate. Her intellect and heart had their home, as it were, in desert places, where she roamed as freely as the wild Indian in his woods. For years past she had looked from this estranged point of view at human institutions, and whatever priests or legislators had established; criticising all with hardly more reverence than the Indian would feel for the clerical band, the judicial robe, the pillory, the gallows, the fireside, or the church.",
+  "words": [
+    {
+      "word": "latitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wilderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "robe",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

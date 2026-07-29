@@ -1,22 +1,10 @@
 {
   "id": "src-gen-hard-times-010",
   "pool": "sourced",
-  "text": "‘But oh, my friends and brothers! Oh, men and Englishmen, the down-trodden operatives of Coketown! What shall we say of that man—that working-man, that I should find it necessary so to libel the glorious name—who, being practically and well acquainted with the grievances and wrongs of you, the injured pith and marrow of this land, and having heard you, with a noble and majestic unanimity that will make Tyrants tremble, resolve for to subscribe to the funds of the United Aggregate Tribunal, and to abide by the injunctions issued by that body for your benefit, whatever they may be—what, I ask you, will you say of that working-man, since such I must acknowledge him to be, who, at such a time, deserts his post, and sells his flag; who, at such a time, turns a traitor and a craven and a recreant, who, at such a time, is not ashamed to make to you the dastardly and humiliating avowal that he will hold himself aloof, and will not be one of those associated in the gallant stand for Freedom and for Right?’ The assembly was divided at this point.",
+  "text": "’Tis thou?’ When she had said this, with a smile which would have been quite expressed, though nothing of her had been seen but her pleasant eyes, she replaced her hood again, and they went on together. ‘I thought thou wast ahind me, Rachael?’ ‘No.’ ‘Early t’night, lass?’ ‘’Times I’m a little early, Stephen! ’times a little late. I’m never to be counted on, going home.’ ‘Nor going t’other way, neither, ’t seems to me, Rachael?’ ‘No, Stephen.’ He looked at her with some disappointment in his face, but with a respectful and patient conviction that she must be right in whatever she did. The expression was not lost upon her; she laid her hand lightly on his arm a moment as if to thank him for it.",
   "words": [
     {
-      "word": "subscribe",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "traitor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "humiliating",
+      "word": "thou",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

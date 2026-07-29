@@ -1,16 +1,10 @@
 {
   "id": "src-gen-silas-marner-007",
   "pool": "sourced",
-  "text": "Give it me back, and I’ll let you—I’ll let you have a guinea.” “Me stole your money!” said Jem, angrily. “I’ll pitch this can at your eye if you talk o’ my stealing your money.” “Come, come, Master Marner,” said the landlord, now rising resolutely, and seizing Marner by the shoulder, “if you’ve got any information to lay, speak it out sensible, and show as you’re in your right mind, if you expect anybody to listen to you. You’re as wet as a drownded rat. Sit down and dry yourself, and speak straight forrard.” “Ah, to be sure, man,” said the farrier, who began to feel that he had not been quite on a par with himself and the occasion. “Let’s have no more staring and screaming, else we’ll have you strapped for a madman.",
+  "text": "I shouldn’t look so handsome as you in the saddle, but it’s the horse they’ll bid for, and not the rider.” “Yes, I daresay—trust my horse to you!” “As you please,” said Dunstan, rapping the window-seat again with an air of great unconcern. “It’s you have got to pay Fowler’s money; it’s none of my business. You received the money from him when you went to Bramcote, and you told the Squire it wasn’t paid. I’d nothing to do with that; you chose to be so obliging as to give it me, that was all. If you don’t want to pay the money, let it alone; it’s all one to me.",
   "words": [
     {
-      "word": "stole",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "madman",
+      "word": "saddle",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

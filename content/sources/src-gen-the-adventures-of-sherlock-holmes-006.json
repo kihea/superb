@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-006",
   "pool": "sourced",
-  "text": "“I am afraid that I am still a sceptic,” he said. “Theories are all very well, but we have to deal with a hard-headed British jury.” “Nous verrons,” answered Holmes calmly. “You work your own method, and I shall work mine. I shall be busy this afternoon, and shall probably return to London by the evening train.” “And leave your case unfinished?” “No, finished.” “But the mystery?” “It is solved.” “Who was the criminal, then?” “The gentleman I describe.” “But who is he?” “Surely it would not be difficult to find out. This is not such a populous neighbourhood.” Lestrade shrugged his shoulders.",
+  "text": "Was it to be in church?” “Yes, sir, but very quietly. It was to be at St. Saviour’s, near King’s Cross, and we were to have breakfast afterwards at the St. Pancras Hotel. Hosmer came for us in a hansom, but as there were two of us he put us both into it and stepped himself into a four-wheeler, which happened to be the only other cab in the street. We got to the church first, and when the four-wheeler drove up we waited for him to step out, but he never did, and when the cabman got down from the box and looked there was no one there! The cabman said that he could not imagine what had become of him, for he had seen him get in with his own eyes.",
   "words": [
     {
-      "word": "unfinished",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solved",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "neighbourhood",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shrugged",
+      "word": "stepped",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

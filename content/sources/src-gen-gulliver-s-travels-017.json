@@ -1,10 +1,22 @@
 {
   "id": "src-gen-gulliver-s-travels-017",
   "pool": "sourced",
-  "text": "I pointed to every thing, and inquired the name of it, which I wrote down in my journal-book when I was alone, and corrected my bad accent by desiring those of the family to pronounce it often. In this employment, a sorrel nag, one of the under-servants, was very ready to assist me. In speaking, they pronounced through the nose and throat, and their language approaches nearest to the High-Dutch, or German, of any I know in Europe; but is much more graceful and significant. The emperor Charles V. made almost the same observation, when he said “that if he were to speak to his horse, it should be in High-Dutch.” The curiosity and impatience of my master were so great, that he spent many hours of his leisure to instruct me. He was convinced (as he afterwards told me) that I must be a Yahoo; but my teachableness, civility, and cleanliness, astonished him; which were qualities altogether opposite to those animals.",
+  "text": "Glumdalclitch had locked me up in her closet, while she went somewhere upon business, or a visit. The weather being very warm, the closet-window was left open, as well as the windows and the door of my bigger box, in which I usually lived, because of its largeness and conveniency. As I sat quietly meditating at my table, I heard something bounce in at the closet-window, and skip about from one side to the other: whereat, although I was much alarmed, yet I ventured to look out, but not stirring from my seat; and then I saw this frolicsome animal frisking and leaping up and down, till at last he came to my box, which he seemed to view with great pleasure and curiosity, peeping in at the door and every window. I retreated to the farther corner of my room; or box; but the monkey looking in at every side, put me in such a fright, that I wanted presence of mind to conceal myself under the bed, as I might easily have done.",
   "words": [
     {
-      "word": "servants",
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

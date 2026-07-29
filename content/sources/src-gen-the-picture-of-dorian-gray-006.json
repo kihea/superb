@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-006",
   "pool": "sourced",
-  "text": "On a tiny satinwood table stood a statuette by Clodion, and beside it lay a copy of Les Cent Nouvelles, bound for Margaret of Valois by Clovis Eve and powdered with the gilt daisies that Queen had selected for her device. Some large blue china jars and parrot-tulips were ranged on the mantelshelf, and through the small leaded panes of the window streamed the apricot-coloured light of a summer day in London. Lord Henry had not yet come in. He was always late on principle, his principle being that punctuality is the thief of time. So the lad was looking rather sulky, as with listless fingers he turned over the pages of an elaborately illustrated edition of Manon Lescaut that he had found in one of the book-cases.",
+  "text": "“I beg your pardon, Basil, but I didn’t know you had any one with you.” “This is Lord Henry Wotton, Dorian, an old Oxford friend of mine. I have just been telling him what a capital sitter you were, and now you have spoiled everything.” “You have not spoiled my pleasure in meeting you, Mr. Gray,” said Lord Henry, stepping forward and extending his hand. “My aunt has often spoken to me about you. You are one of her favourites, and, I am afraid, one of her victims also.” “I am in Lady Agatha’s black books at present,” answered Dorian with a funny look of penitence. “I promised to go to a club in Whitechapel with her last Tuesday, and I really forgot all about it.",
   "words": [
     {
-      "word": "streamed",
+      "word": "beg",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "coloured",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "thief",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

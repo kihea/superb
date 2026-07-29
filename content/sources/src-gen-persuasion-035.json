@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-035",
+  "pool": "sourced",
+  "text": "Anne could perfectly comprehend the exquisite relief, and was only the more inclined to wonder at the composure of her friend’s usual state of mind. There was one circumstance in the history of her grievances of particular irritation. She had good reason to believe that some property of her husband in the West Indies, which had been for many years under a sort of sequestration for the payment of its own incumbrances, might be recoverable by proper measures; and this property, though not large, would be enough to make her comparatively rich. But there was nobody to stir in it. Mr Elliot would do nothing, and she could do nothing herself, equally disabled from personal exertion by her state of bodily weakness, and from employing others by her want of money.",
+  "words": [
+    {
+      "word": "composure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

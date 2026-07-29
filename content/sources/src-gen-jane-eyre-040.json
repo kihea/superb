@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-040",
+  "pool": "sourced",
+  "text": "Jealousy had got hold of him: she stung him; but the sting was salutary: it gave him respite from the gnawing fang of melancholy. I would not, therefore, immediately charm the snake. “Perhaps you would rather not sit any longer on my knee, Miss Eyre?” was the next somewhat unexpected observation. “Why not, Mr. Rochester?” “The picture you have just drawn is suggestive of a rather too overwhelming contrast. Your words have delineated very prettily a graceful Apollo: he is present to your imagination,—tall, fair, blue-eyed, and with a Grecian profile.",
+  "words": [
+    {
+      "word": "sting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "charm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

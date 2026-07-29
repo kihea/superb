@@ -1,12 +1,12 @@
 {
   "id": "src-gen-the-prairie-018",
   "pool": "sourced",
-  "text": "Friday the Twenty-first I have this morning found out why Olga won't eat mushrooms. It was very cold again last night, for this time of year. Percy came over, and we had a ripping fire and popped Ontario pop-corn with Ontario maple sirup poured over it. Olga and Olie and Terry all came in and sat about the stove. And being absolutely happy and contented and satisfied with life in general, we promptly fell to talking horrors, the same as a cook stirs lemon juice into her pudding-sauce, I suppose, to keep its sweetness from being too cloying.",
+  "text": "And Lady Hamilton died poor and ugly and went around with red herrings in her pocket. And Cleopatra was really a redheaded old political schemer, and Paris got tired of Helen of Troy. Which means that history, like literature, is only Le mensonge convenu!\" This made Dinky-Dunk sit up and stare at me. \"Look here, Gee-Gee, I don't mind a bit of book-learning, but I hate to see you tear the whole tree of knowledge up by the roots and knock me down with it!",
   "words": [
     {
-      "word": "horrors",
+      "word": "stare",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-021",
+  "pool": "sourced",
+  "text": "as to being Anne’s acquaintance,” said Mary, “I think he is rather my acquaintance, for I have been seeing him every day this last fortnight.” “Well, as your joint acquaintance, then, I shall be very happy to see Captain Benwick.” “You will not find anything very agreeable in him, I assure you, ma’am. He is one of the dullest young men that ever lived. He has walked with me, sometimes, from one end of the sands to the other, without saying a word. He is not at all a well-bred young man. I am sure you will not like him.” “There we differ, Mary,” said Anne.",
+  "words": [
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

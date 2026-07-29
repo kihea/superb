@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-custom-of-the-country-038",
+  "pool": "sourced",
+  "text": "One of her childish rages possessed her, sweeping away every feeling save the primitive impulse to hurt and destroy; but search as she would she could not find a crack in the strong armour of her husband's habits and prejudices. For a long time she continued to sit where he had left her, staring at the portraits on the walls as though they had joined hands to imprison her. Hitherto she had almost always felt herself a match for circumstances, but now the very dead were leagued to defeat her: people she had never seen and whose names she couldn't even remember seemed to be plotting and contriving against her under the escutcheoned grave-stones of Saint Desert. Her eyes turned to the old warm-toned furniture beneath the pictures, and to her own idle image in the mirror above the mantelpiece. Even in that one small room there were enough things of price to buy a release from her most pressing cares; and the great house, in which the room was a mere cell, and the other greater house in Burgundy, held treasures to deplete even such a purse as Moffatt's.",
+  "words": [
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "purse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

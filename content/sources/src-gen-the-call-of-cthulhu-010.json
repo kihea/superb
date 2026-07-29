@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-010",
   "pool": "sourced",
-  "text": "All denied a part in the ritual murders, and averred that the killing had been done by Black-winged Ones which had come to them from their immemorial meeting-place in the haunted wood. But of those mysterious allies no coherent account could ever be gained. What the police did extract came mainly from an immensely aged mestizo named Castro, who claimed to have sailed to strange ports and talked with undying leaders of the cult in the mountains of China. Old Castro remembered bits of hideous legend that paled the speculations of theosophists and made man and the world seem recent and transient indeed. There had been eons when other Things ruled on the earth, and They had had great cities.",
+  "text": "The cephalopod head was bent forward, so that the ends of the facial feelers brushed the backs of huge forepaws which clasped the croucher's elevated knees. The aspect of the whole was abnormally lifelike, and the more subtly fearful because its source was so totally unknown. Its vast, awesome, and incalculable age was unmistakable; yet not one link did it show with any known type of art belonging to civilization's youth--or indeed to any other time. Totally separate and apart, its very material was a mystery; for the soapy, greenish-black stone with its golden or iridescent flecks and striations resembled nothing familiar to geology or mineralogy. The characters along the base were equally baffling; and no member present, despite a representation of half the world's expert learning in this field, could form the least notion of even their remotest linguistic kinship.",
   "words": [
     {
-      "word": "murders",
+      "word": "belonging",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "immensely",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ports",
+      "word": "notion",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

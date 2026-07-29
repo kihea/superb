@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-011",
   "pool": "sourced",
-  "text": "Then I went into the back yard and smoked a pipe and wondered what it would be best to do. “I had a friend once called Maudsley, who went to the bad, and has just been serving his time in Pentonville. One day he had met me, and fell into talk about the ways of thieves, and how they could get rid of what they stole. I knew that he would be true to me, for I knew one or two things about him; so I made up my mind to go right on to Kilburn, where he lived, and take him into my confidence. He would show me how to turn the stone into money.",
+  "text": "Having found the ash, I then looked round and discovered the stump among the moss where he had tossed it. It was an Indian cigar, of the variety which are rolled in Rotterdam.” “And the cigar-holder?” “I could see that the end had not been in his mouth. Therefore he used a holder. The tip had been cut off, not bitten off, but the cut was not a clean one, so I deduced a blunt pen-knife.” “Holmes,” I said, “you have drawn a net round this man from which he cannot escape, and you have saved an innocent human life as truly as if you had cut the cord which was hanging him. I see the direction in which all this points.",
   "words": [
     {
-      "word": "thieves",
+      "word": "stump",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "stole",
+      "word": "cigar",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

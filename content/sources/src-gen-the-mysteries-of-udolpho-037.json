@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-037",
+  "pool": "sourced",
+  "text": "A light being struck, a fire was kindled, whose blaze afforded some degree of cheerfulness, and no small comfort, for, though the day had been hot, the night air of this mountainous region was chilling; a fire was partly necessary also to keep off the wolves, with which those wilds were infested. Provisions being spread upon a projection of the rock, the Count and his family partook of a supper, which, in a scene less rude, would certainly have been thought less excellent. When the repast was finished, St. Foix, impatient for the moon, sauntered along the precipice, to a point, that fronted the east; but all was yet wrapt in gloom, and the silence of night was broken only by the murmuring of woods, that waved far below, or by distant thunder, and, now and then, by the faint voices of the party he had quitted.",
+  "words": [
+    {
+      "word": "blaze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

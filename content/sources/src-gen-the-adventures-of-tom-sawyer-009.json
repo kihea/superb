@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-009",
   "pool": "sourced",
-  "text": "“Why, the pirates.” Huck scanned his own clothing forlornly. “I reckon I ain’t dressed fitten for a pirate,” said he, with a regretful pathos in his voice; “but I ain’t got none but these.” But the other boys told him the fine clothes would come fast enough, after they should have begun their adventures. They made him understand that his poor rags would do to begin with, though it was customary for wealthy pirates to start with a proper wardrobe. Gradually their talk died out and drowsiness began to steal upon the eyelids of the little waifs. The pipe dropped from the fingers of the Red-Handed, and he slept the sleep of the conscience-free and the weary.",
+  "text": "The master, throned on high in his great splint-bottom arm-chair, was dozing, lulled by the drowsy hum of study. The interruption roused him. “Thomas Sawyer!” Tom knew that when his name was pronounced in full, it meant trouble. “Sir!” “Come up here. Now, sir, why are you late again, as usual?” Tom was about to take refuge in a lie, when he saw two long tails of yellow hair hanging down a back that he recognized by the electric sympathy of love; and by that form was the only vacant place on the girls’ side of the school-house.",
   "words": [
     {
-      "word": "pirates",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pirate",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rags",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wardrobe",
+      "word": "tails",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

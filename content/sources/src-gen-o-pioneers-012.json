@@ -1,10 +1,16 @@
 {
   "id": "src-gen-o-pioneers-012",
   "pool": "sourced",
-  "text": "One could easily believe that in that dead landscape the germs of life and fruitfulness were extinct forever. Alexandra has settled back into her old routine. There are weekly letters from Emil. Lou and Oscar she has not seen since Carl went away. To avoid awkward encounters in the presence of curious spectators, she has stopped going to the Norwegian Church and drives up to the Reform Church at Hanover, or goes with Marie Shabata to the Catholic Church, locally known as “the French Church.” She has not told Marie about Carl, or her differences with her brothers.",
+  "text": "Now go and put Emil’s mare to the cart. I am going to drive up to the north quarter to meet the man from town who is to buy my alfalfa hay.” III Alexandra was to hear more of Ivar’s case, however. On Sunday her married brothers came to dinner. She had asked them for that day because Emil, who hated family parties, would be absent, dancing at Amédée Chevalier’s wedding, up in the French country. The table was set for company in the dining-room, where highly varnished wood and colored glass and useless pieces of china were conspicuous enough to satisfy the standards of the new prosperity.",
   "words": [
     {
-      "word": "spectators",
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1913,
     "source": "Project Gutenberg #24",
-    "url": "https://www.gutenberg.org/ebooks/24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

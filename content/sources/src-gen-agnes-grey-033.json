@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-agnes-grey-033",
+  "pool": "sourced",
+  "text": "Our kind neighbours lamented that she, once so exalted in wealth and station, should be reduced to such extremity in her time of sorrow; but I am persuaded that she would have suffered thrice as much had she been left in affluence, with liberty to remain in that house, the scene of her early happiness and late affliction, and no stern necessity to prevent her from incessantly brooding over and lamenting her bereavement. I will not dilate upon the feelings with which I left the old house, the well-known garden, the little village church—then doubly dear to me, because my father, who, for thirty years, had taught and prayed within its walls, lay slumbering now beneath its flags—and the old bare hills, delightful in their very desolation, with the narrow vales between, smiling in green wood and sparkling water—the house where I was born, the scene of all my early associations, the place where throughout life my earthly affections had been centred;—and left them to return no more! True, I was going back to Horton Lodge, where, amid many evils, one source of pleasure yet remained: but it was pleasure mingled with excessive pain; and my stay, alas!",
+  "words": [
+    {
+      "word": "affliction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excessive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

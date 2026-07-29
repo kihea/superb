@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-woman-in-white-006",
   "pool": "sourced",
-  "text": "Not a line more have I received from Walter, not a fragment of news from the expedition has appeared in any of the public journals. The same dense, disheartening obscurity hangs over the fate and fortunes of Anne Catherick, and her companion, Mrs. Clements. Nothing whatever has been heard of either of them. Whether they are in the country or out of it, whether they are living or dead, no one knows. Even Sir Percival’s solicitor has lost all hope, and has ordered the useless search after the fugitives to be finally given up.",
+  "text": "“Shall I play some of those little melodies of Mozart’s which you used to like so much?” she asked, opening the music nervously, and looking down at it while she spoke. Before I could thank her she hastened to the piano. The chair near it, which I had always been accustomed to occupy, stood empty. She struck a few chords—then glanced round at me—then looked back again at her music. “Won’t you take your old place?” she said, speaking very abruptly and in very low tones.",
   "words": [
     {
-      "word": "fragment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solicitor",
+      "word": "occupy",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

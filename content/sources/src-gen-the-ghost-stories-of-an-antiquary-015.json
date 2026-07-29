@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-015",
   "pool": "sourced",
-  "text": "Flanagan anxious to the last, and trying to peer up at him with the lamp-light in his eyes. That'll do. Thank you!\" in the same whisper. Before he could tap at the door, then darkening in the receding light, it opened suddenly, and a big Irish woman bounced out, and then whisked in again, calling to some one in an inner room: \"Here he is, Mrs. Mill'r,\" and then bounced out again, with a \"Walk royt in, if you plaze; here's the choild\"--and whisked in again, with a \"Sure an' Jehms was quick;\" never once looking at him, and utterly unconscious of the presence of her landlord.",
+  "text": "Then came the sound of the closing of the hall door and the rattle of receding wheels, and somehow it was Nathalie and not his wife that he was holding so grimly in his thought, and with her, salient and vivid as before, the tormenting remembrance of his tenant, connected with the memory of George Feval. Springing to his feet, he walked the room. He had thrown himself on a sofa, still striving to be rid of his remorseful visitations, when the library door opened, and the inside man appeared, with his hand held bashfully over his nose. It flashed on him at once, that his tenant's husband was the servant of a family like this fellow; and, irritated that the whole matter should be thus broadly forced upon him in another way, he harshly asked him what he wanted. The man only came in to say that Mrs. Renton and the young lady had gone out for the evening, but that tea was laid for him in the dining-room.",
   "words": [
     {
-      "word": "lamp",
+      "word": "rattle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remembrance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

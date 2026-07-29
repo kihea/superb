@@ -1,24 +1,18 @@
 {
   "id": "src-gen-great-expectations-004",
   "pool": "sourced",
-  "text": "Behind the furthest end of the brewery, was a rank garden with an old wall; not so high but that I could struggle up and hold on long enough to look over it, and see that the rank garden was the garden of the house, and that it was overgrown with tangled weeds, but that there was a track upon the green and yellow paths, as if some one sometimes walked there, and that Estella was walking away from me even then. But she seemed to be everywhere. For when I yielded to the temptation presented by the casks, and began to walk on them, I saw her walking on them at the end of the yard of casks. She had her back towards me, and held her pretty brown hair spread out in her two hands, and never looked round, and passed out of my view directly. So, in the brewery itself,—by which I mean the large paved lofty place in which they used to make the beer, and where the brewing utensils still were.",
+  "text": "As it was, she merely stipulated, “If you bring the boy back with his head blown to bits by a musket, don’t look to me to put it together again.” The sergeant took a polite leave of the ladies, and parted from Mr. Pumblechook as from a comrade; though I doubt if he were quite as fully sensible of that gentleman’s merits under arid conditions, as when something moist was going. His men resumed their muskets and fell in. Mr. Wopsle, Joe, and I, received strict charge to keep in the rear, and to speak no word after we reached the marshes. When we were all out in the raw air and were steadily moving towards our business, I treasonably whispered to Joe, “I hope, Joe, we shan’t find them.” and Joe whispered to me, “I’d give a shilling if they had cut and run, Pip.” We were joined by no stragglers from the village, for the weather was cold and threatening, the way dreary, the footing bad, darkness coming on, and the people had good fires in-doors and were keeping the day. A few faces hurried to glowing windows and looked after us, but none came out.",
   "words": [
     {
-      "word": "brewery",
+      "word": "sensible",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lofty",
+      "word": "threatening",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brewing",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-014",
   "pool": "sourced",
-  "text": "“Look here,” I said, “I may be altogether wrong. And, remember, all this is in confidence.” “Oh, of course—that goes without saying.” We had walked, as we talked, and now we passed through the little gate into the garden. Voices rose near at hand, for tea was spread out under the sycamore-tree, as it had been on the day of my arrival. Cynthia was back from the hospital, and I placed my chair beside her, and told her of Poirot’s wish to visit the dispensary. “Of course!",
+  "text": "Now that she had been proved justified in so tragic a manner, I felt ashamed. She had known Alfred Inglethorp only too well. I wondered whether, if she had remained at Styles, the tragedy would have taken place, or would the man have feared her watchful eyes? I was relieved when she shook me by the hand, with her well remembered painful grip. The eyes that met mine were sad, but not reproachful; that she had been crying bitterly, I could tell by the redness of her eyelids, but her manner was unchanged from its old gruffness.",
   "words": [
     {
-      "word": "altogether",
+      "word": "tragedy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bitterly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-026",
+  "pool": "sourced",
+  "text": "In the letter, which he had employed as the instrument of his revenge, he accused Morano of designs against the state, which he attempted to prove, with all the plausible simplicity of which he was master; and the Senate, with whom a suspicion was, at that time, almost equal to a proof, arrested the Count, in consequence of this accusation; and, without even hinting to him his crime, threw him into one of those secret prisons, which were the terror of the Venetians, and in which persons often languished, and sometimes died, without being discovered by their friends. Morano had incurred the personal resentment of many members of the state; his habits of life had rendered him obnoxious to some; and his ambition, and the bold rivalship, which he discovered, on several public occasions,—to others; and it was not to be expected, that mercy would soften the rigour of a law, which was to be dispensed from the hands of his enemies. Montoni, meantime, was beset by dangers of another kind. His castle was besieged by troops, who seemed willing to dare everything, and to suffer patiently any hardships in pursuit of victory.",
+  "words": [
+    {
+      "word": "simplicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resentment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

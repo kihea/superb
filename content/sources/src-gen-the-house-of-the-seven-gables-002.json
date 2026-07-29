@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-002",
   "pool": "sourced",
-  "text": "And, therefore, since we have been unfortunate enough to introduce our heroine at so inauspicious a juncture, we would entreat for a mood of due solemnity in the spectators of her fate. Let us behold, in poor Hepzibah, the immemorial lady—two hundred years old, on this side of the water, and thrice as many on the other,—with her antique portraits, pedigrees, coats of arms, records and traditions, and her claim, as joint heiress, to that princely territory at the eastward, no longer a wilderness, but a populous fertility,—born, too, in Pyncheon Street, under the Pyncheon Elm, and in the Pyncheon House, where she has spent all her days,—reduced. Now, in that very house, to be the hucksteress of a cent-shop. This business of setting up a petty shop is almost the only resource of women, in circumstances at all similar to those of our unfortunate recluse. With her near-sightedness, and those tremulous fingers of hers, at once inflexible and delicate, she could not be a seamstress; although her sampler, of fifty years gone by, exhibited some of the most recondite specimens of ornamental needlework.",
+  "text": "The Little Shop-Window It still lacked half an hour of sunrise, when Miss Hepzibah Pyncheon—we will not say awoke, it being doubtful whether the poor lady had so much as closed her eyes during the brief night of midsummer—but, at all events, arose from her solitary pillow, and began what it would be mockery to term the adornment of her person. Far from us be the indecorum of assisting, even in imagination, at a maiden lady’s toilet! Our story must therefore await Miss Hepzibah at the threshold of her chamber; only presuming, meanwhile, to note some of the heavy sighs that labored from her bosom, with little restraint as to their lugubrious depth and volume of sound, inasmuch as they could be audible to nobody save a disembodied listener like ourself. The Old Maid was alone in the old house. Alone, except for a certain respectable and orderly young man, an artist in the daguerreotype line, who, for about three months back, had been a lodger in a remote gable,—quite a house by itself, indeed,—with locks, bolts, and oaken bars on all the intervening doors.",
   "words": [
     {
-      "word": "coats",
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maiden",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

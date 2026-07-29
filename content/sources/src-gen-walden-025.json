@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-walden-025",
+  "pool": "sourced",
+  "text": "A few years before I lived in the woods there was what was called a “winged cat” in one of the farm-houses in Lincoln nearest the pond, Mr. Gilian Baker’s. When I called to see her in June, 1842, she was gone a-hunting in the woods, as was her wont, (I am not sure whether it was a male or female, and so use the more common pronoun,) but her mistress told me that she came into the neighborhood a little more than a year before, in April, and was finally taken into their house; that she was of a dark brownish-gray color, with a white spot on her throat, and white feet, and had a large bushy tail like a fox; that in the winter the fur grew thick and flatted out along her sides, forming stripes ten or twelve inches long by two and a half wide, and under her chin like a muff, the upper side loose, the under matted like felt, and in the spring these appendages dropped off. They gave me a pair of her “wings,” which I keep still. There is no appearance of a membrane about them.",
+  "words": [
+    {
+      "word": "winged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "membrane",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

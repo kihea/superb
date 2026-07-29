@@ -1,10 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-011",
   "pool": "sourced",
-  "text": "As for myself, I passed my hand over my forehead, on which stood large drops of cold perspiration. “Let us reflect,” said I, “and take our time. Hunting otters in submarine forests, as we did in the Island of Crespo, will pass; but going up and down at the bottom of the sea, where one is almost certain to meet sharks, is quite another thing! I know well that in certain countries, particularly in the Andaman Islands, the negroes never hesitate to attack them with a dagger in one hand and a running noose in the other; but I also know that few who affront those creatures ever return alive. However, I am not a negro, and if I were I think a little hesitation in this case would not be ill-timed.” At this moment Conseil and the Canadian entered, quite composed, and even joyous.",
+  "text": "What pen can describe it? Who could paint the effects of the light through those transparent sheets of water, and the softness of the successive graduations from the lower to the superior strata of the ocean? We know the transparency of the sea and that its clearness is far beyond that of rock-water. The mineral and organic substances which it holds in suspension heightens its transparency. In certain parts of the ocean at the Antilles, under seventy-five fathoms of water, can be seen with surprising clearness a bed of sand.",
   "words": [
     {
-      "word": "submarine",
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transparency",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

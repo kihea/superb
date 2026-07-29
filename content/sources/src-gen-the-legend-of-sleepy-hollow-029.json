@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-029",
+  "pool": "sourced",
+  "text": "All these tales, told in that drowsy undertone with which men talk in the dark, the countenances of the listeners only now and then receiving a casual gleam from the glare of a pipe, sank deep in the mind of Ichabod. He repaid them in kind with large extracts from his invaluable author, Cotton Mather, and added many marvellous events that had taken place in his native State of Connecticut, and fearful sights which he had seen in his nightly walks about Sleepy Hollow. The revel now gradually broke up. The old farmers gathered together their families in their wagons, and were heard for some time rattling along the hollow roads, and over the distant hills. Some of the damsels mounted on pillions behind their favorite swains, and their light-hearted laughter, mingling with the clatter of hoofs, echoed along the silent woodlands, sounding fainter and fainter, until they gradually died away,--and the late scene of noise and frolic was all silent and deserted.",
+  "words": [
+    {
+      "word": "glare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

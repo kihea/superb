@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-washington-square-033",
+  "pool": "sourced",
+  "text": "A sudden fear had come over her; it was like the solid conjunction of a dozen disembodied doubts, and her imagination, at a single bound, had traversed an enormous distance. All her being, for the moment, centred in the wish to keep him in the room. Morris bent his head and kissed her forehead. “When you are quiet, you are perfection,” he said; “but when you are violent, you are not in character.” It was Catherine’s wish that there should be no violence about her save the beating of her heart, which she could not help; and she went on, as gently as possible, “Will you promise to come to-morrow?” “I said Saturday!” Morris answered, smiling. He tried a frown at one moment, a smile at another; he was at his wit’s end.",
+  "words": [
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Washington Square",
+    "author": "Henry James",
+    "year": 1880,
+    "source": "Project Gutenberg #2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

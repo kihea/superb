@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-two-years-before-the-mast-026",
+  "pool": "sourced",
+  "text": "The Saturday night before our sailing, I spent an hour in the oven, and took leave of my Kanaka friends; and, really, this was the only thing connected with leaving California which was in any way unpleasant. I felt an interest and affection for many of these simple, true-hearted men, such as I never felt before but for a near relation. Hope shook me by the hand, said he should soon be well again, and ready to work for me when I came upon the coast, next voyage, as officer of the ship; and told me not to forget, when I became captain, how to be kind to the sick. Old \"Mr. Bingham\" and \"King Mannini\" went down to the boat with me, shook me heartily by the hand, wished us a good voyage, and went back to the oven, chanting one of their deep monotonous songs, the burden of which I gathered to be about us and our voyage. Sunday, May 8th.",
+  "words": [
+    {
+      "word": "sailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-024",
+  "pool": "sourced",
+  "text": "A large face, seared with a thousand wrinkles, burned yellow with the sun, and marked with every evil passion, was turned from one to the other of us, while his deep-set, bile-shot eyes, and his high, thin, fleshless nose, gave him somewhat the resemblance to a fierce old bird of prey. “Which of you is Holmes?” asked this apparition. “My name, sir; but you have the advantage of me,” said my companion quietly. “I am Dr. Grimesby Roylott, of Stoke Moran.” “Indeed, Doctor,” said Holmes blandly. “Pray take a seat.” “I will do nothing of the kind.",
+  "words": [
+    {
+      "word": "bile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

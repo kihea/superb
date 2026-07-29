@@ -1,28 +1,16 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-018",
   "pool": "sourced",
-  "text": "Where lies the final harbor, whence we unmoor no more? In what rapt ether sails the world, of which the weariest will never weary? Where is the foundling’s father hidden? Our souls are like those orphans whose unwedded mothers die in bearing them: the secret of our paternity lies in their grave, and we must there to learn it. And that same day, too, gazing far down from his boat’s side into that same golden sea, Starbuck lowly murmured:— “Loveliness unfathomable, as ever lover saw in his young bride’s eye!—Tell me not of thy teeth-tiered sharks, and thy kidnapping cannibal ways.",
+  "text": "Then, again, in mountainous countries where the traveller is continually girdled by amphitheatrical heights; here and there from some lucky point of view you will catch passing glimpses of the profiles of whales defined along the undulating ridges. But you must be a thorough whaleman, to see these sights; and not only that, but if you wish to return to such a sight again, you must be sure and take the exact intersecting latitude and longitude of your first stand-point, else so chance-like are such observations of the hills, that your precise, previous stand-point would require a laborious re-discovery; like the Soloma Islands, which still remain incognita, though once high-ruffed Mendanna trod them and old Figuera chronicled them. Nor when expandingly lifted by your subject, can you fail to trace out great whales in the starry heavens, and boats in pursuit of them; as when long filled with thoughts of war the Eastern nations saw armies locked in battle among the clouds. Thus at the North have I chased Leviathan round and round the Pole with the revolutions of the bright points that first defined him to me.",
   "words": [
     {
-      "word": "sails",
+      "word": "latitude",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "orphans",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "paternity",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sharks",
+      "word": "precise",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

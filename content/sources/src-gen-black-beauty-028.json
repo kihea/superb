@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-028",
+  "pool": "sourced",
+  "text": "“My master, my dear master was cheering on his comrades with his right arm raised on high, when one of the balls whizzing close to my head struck him. I felt him stagger with the shock, though he uttered no cry; I tried to check my speed, but the sword dropped from his right hand, the rein fell loose from the left, and sinking backward from the saddle he fell to the earth; the other riders swept past us, and by the force of their charge I was driven from the spot. “I wanted to keep my place by his side and not leave him under that rush of horses' feet, but it was in vain; and now without a master or a friend I was alone on that great slaughter ground; then fear took hold on me, and I trembled as I had never trembled before; and I too, as I had seen other horses do, tried to join in the ranks and gallop with them; but I was beaten off by the swords of the soldiers.",
+  "words": [
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-021",
+  "pool": "sourced",
+  "text": "And when he and I were left alone together, he sat with an air upon him of general lying by in consequence of information he possessed, that really was too much for me. He cross-examined his very wine when he had nothing else in hand. He held it between himself and the candle, tasted the port, rolled it in his mouth, swallowed it, looked at his glass again, smelt the port, tried it, drank it, filled again, and cross-examined the glass again, until I was as nervous as if I had known the wine to be telling him something to my disadvantage. Three or four times I feebly thought I would start conversation; but whenever he saw me going to ask him anything, he looked at me with his glass in his hand, and rolling his wine about in his mouth, as if requesting me to take notice that it was of no use, for he couldn’t answer.",
+  "words": [
+    {
+      "word": "consequence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

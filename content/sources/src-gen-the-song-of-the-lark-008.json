@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-song-of-the-lark-008",
   "pool": "sourced",
-  "text": "I admire it as much as Tanya does.” Thea glanced awkwardly away from her and looked stern, but Mrs. Harsanyi knew that she was pleased. They went into the living-room, behind the studio, where the two children were playing on the big rug before the coal grate. Andor, the boy, was six, a sturdy, handsome child, and the little girl was four. She came tripping to meet Thea, looking like a little doll in her white net dress—her mother made all her clothes. Thea picked her up and hugged her.",
+  "text": "After Paulina had cleaned the pages with fresh bread, Wunsch was amazed to see what a fine book he had. It opened stiffly, but that was no matter. Sitting in the arbor one morning, under the ripe grapes and the brown, curling leaves, with a pen and ink on the bench beside him and the Gluck score on his knee, Wunsch pondered for a long while. Several times he dipped the pen in the ink, and then put it back again in the cigar box in which Mrs. Kohler kept her writing utensils. His thoughts wandered over a wide territory; over many countries and many years.",
   "words": [
     {
-      "word": "grate",
+      "word": "arbor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hugged",
+      "word": "ink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cigar",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

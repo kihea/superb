@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-scarlet-letter-020",
   "pool": "sourced",
-  "text": "The minister here made a pause; although the music still played the stately and rejoicing march to which the procession moved. It summoned him onward—inward to the festival!—but here he made a pause. Bellingham, for the last few moments, had kept an anxious eye upon him. He now left his own place in the procession, and advanced to give assistance judging, from Mr. Dimmesdale’s aspect that he must otherwise inevitably fall. But there was something in the latter’s expression that warned back the magistrate, although a man not readily obeying the vague intimations that pass from one spirit to another.",
+  "text": "The victim was for ever on the rack; it needed only to know the spring that controlled the engine: and the physician knew it well. Would he startle him with sudden fear? As at the waving of a magician’s wand, up rose a grisly phantom—up rose a thousand phantoms—in many shapes, of death, or more awful shame, all flocking round about the clergyman, and pointing with their fingers at his breast! All this was accomplished with a subtlety so perfect, that the minister, though he had constantly a dim perception of some evil influence watching over him, could never gain a knowledge of its actual nature. True, he looked doubtfully, fearfully—even, at times, with horror and the bitterness of hatred—at the deformed figure of the old physician.",
   "words": [
     {
-      "word": "warned",
+      "word": "wand",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clergyman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

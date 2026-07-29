@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-026",
+  "pool": "sourced",
+  "text": "Besides, there is no encouragement for ghosts in most of our villages, for they have scarcely had time to finish their first nap and turn themselves in their graves, before their surviving friends have travelled away from the neighborhood; so that when they turn out at night to walk their rounds, they have no acquaintance left to call upon. This is perhaps the reason why we so seldom hear of ghosts except in our long-established Dutch communities. The immediate cause, however, of the prevalence of supernatural stories in these parts, was doubtless owing to the vicinity of Sleepy Hollow. There was a contagion in the very air that blew from that haunted region; it breathed forth an atmosphere of dreams and fancies infecting all the land. Several of the Sleepy Hollow people were present at Van Tassel’s, and, as usual, were doling out their wild and wonderful legends.",
+  "words": [
+    {
+      "word": "nap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haunted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

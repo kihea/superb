@@ -1,40 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-010",
   "pool": "sourced",
-  "text": "You have not played for a long time, I said; you ought, then, to have a good hand.” “Well, what then?” “Well; the Englishman and his companion are still here. I remarked that he regretted the horse furniture very much. You appear to think much of your horse. In your place I would stake the furniture against the horse.” “But he will not wish for only one harness.” “Stake both, pardieu! I am not selfish, as you are.” “You would do so?” said D’Artagnan, undecided, so strongly did the confidence of Athos begin to prevail, in spite of himself.",
+  "text": "I did not wish to contradict them; besides, I might be deceived.” “Monsieur, you insult the majesty of justice.” “Not at all,” said Athos, calmly. “You are Monsieur d’Artagnan.” “You see, monsieur, that you say it again.” “But I tell you, Monsieur Commissary,” cried Bonacieux, in his turn, “there is not the least doubt about the matter. Monsieur d’Artagnan is my tenant, although he does not pay me my rent—and even better on that account ought I to know him. Monsieur d’Artagnan is a young man, scarcely nineteen or twenty, and this gentleman must be thirty at least. Monsieur d’Artagnan is in Monsieur Dessessart’s Guards, and this gentleman is in the company of Monsieur de Tréville’s Musketeers.",
   "words": [
     {
-      "word": "companion",
+      "word": "monsieur",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "regretted",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stake",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "harness",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prevail",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spite",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

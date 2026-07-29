@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-002",
   "pool": "sourced",
-  "text": "The little girl gave a cry of amazement and looked about her, her eyes growing bigger and bigger at the wonderful sights she saw. The cyclone had set the house down very gently—for a cyclone—in the midst of a country of marvelous beauty. There were lovely patches of greensward all about, with stately trees bearing rich and luscious fruits. Banks of gorgeous flowers were on every hand, and birds with rare and brilliant plumage sang and fluttered in the trees and bushes. A little way off was a small brook, rushing and sparkling along between green banks, and murmuring in a voice very grateful to a little girl who had lived so long on the dry, gray prairies.",
+  "text": "Aunt Em was washing the dishes. From the far north they heard a low wail of the wind, and Uncle Henry and Dorothy could see where the long grass bowed in waves before the coming storm. There now came a sharp whistling in the air from the south, and as they turned their eyes that way they saw ripples in the grass coming from that direction also. Suddenly Uncle Henry stood up. “There’s a cyclone coming, Em,” he called to his wife.",
   "words": [
     {
-      "word": "marvelous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sang",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sparkling",
+      "word": "cyclone",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -14,12 +14,6 @@
       "signals": [
         "definition-marker"
       ]
-    },
-    {
-      "word": "wandered",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -27,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

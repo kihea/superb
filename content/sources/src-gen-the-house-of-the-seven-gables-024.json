@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-024",
+  "pool": "sourced",
+  "text": "The shadow creeps and creeps, and is always looking over the shoulder of the sunshine!” It might have befitted a craftsman, like Matthew Maule, on being sent for to a gentleman’s house, to go to the back door, where servants and work-people were usually admitted; or at least to the side entrance, where the better class of tradesmen made application. But the carpenter had a great deal of pride and stiffness in his nature; and, at this moment, moreover, his heart was bitter with the sense of hereditary wrong, because he considered the great Pyncheon House to be standing on soil which should have been his own. On this very site, beside a spring of delicious water, his grandfather had felled the pine-trees and built a cottage, in which children had been born to him; and it was only from a dead man’s stiffened fingers that Colonel Pyncheon had wrested away the title-deeds. So young Maule went straight to the principal entrance, beneath a portal of carved oak, and gave such a peal of the iron knocker that you would have imagined the stern old wizard himself to be standing at the threshold.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bitter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cottage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "portal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wizard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

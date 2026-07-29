@@ -1,16 +1,16 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-009",
   "pool": "sourced",
-  "text": "Says I to myself, something’s up; it ain’t natural for a girl to be in such a sweat about a Testament. So I give it a shake, and out drops a little piece of paper with “Half-past two” wrote on it with a pencil. I ransacked it, but couldn’t find anything else. I couldn’t make anything out of that, so I put the paper in the book again, and when I got home and upstairs there was Miss Sophia in her door waiting for me. She pulled me in and shut the door; then she looked in the Testament till she found the paper, and as soon as she read it she looked glad; and before a body could think she grabbed me and give me a squeeze, and said I was the best boy in the world, and not to tell anybody.",
+  "text": "Before night they wanted to lynch him, but he was gone, you see. Well, next day they found out the nigger was gone; they found out he hadn’t ben seen sence ten o’clock the night the murder was done. So then they put it on him, you see; and while they was full of it, next day, back comes old Finn, and went boo-hooing to Judge Thatcher to get money to hunt for the nigger all over Illinois with. The judge gave him some, and that evening he got drunk, and was around till after midnight with a couple of mighty hard-looking strangers, and then went off with them. Well, he hain’t come back sence, and they ain’t looking for him back till this thing blows over a little, for people thinks now that he killed his boy and fixed things so folks would think robbers done it, and then he’d get Huck’s money without having to bother a long time with a lawsuit.",
   "words": [
     {
-      "word": "sweat",
+      "word": "lynch",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "squeeze",
+      "word": "lawsuit",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,24 +1,17 @@
 {
   "id": "src-gen-the-old-curiosity-shop-020",
   "pool": "sourced",
-  "text": "The rolling wheels were noiseless, and the sharp ring and clatter of the horses’ hoofs, became a dull, muffled tramp. The life of their progress seemed to be slowly hushed, and something death-like to usurp its place. Shading his eyes from the falling snow, which froze upon their lashes and obscured his sight, Kit often tried to catch the earliest glimpse of twinkling lights, denoting their approach to some not distant town. He could descry objects enough at such times, but none correctly. Now, a tall church spire appeared in view, which presently became a tree, a barn, a shadow on the ground, thrown on it by their own bright lamps.",
+  "text": "If the truth must be told, even Mr Swiveller’s approaches to the single gentleman were of a very distant kind, and met with small encouragement; but, as he never returned from a monosyllabic conference with the unknown, without quoting such expressions as ‘Swiveller, I know I can rely upon you,’--‘I have no hesitation in saying, Swiveller, that I entertain a regard for you,’--‘Swiveller, you are my friend, and will stand by me I am sure,’ with many other short speeches of the same familiar and confiding kind, purporting to have been addressed by the single gentleman to himself, and to form the staple of their ordinary discourse, neither Mr Brass nor Miss Sally for a moment questioned the extent of his influence, but accorded to him their fullest and most unqualified belief. But quite apart from, and independent of, this source of popularity, Mr Swiveller had another, which promised to be equally enduring, and to lighten his position considerably. He found favour in the eyes of Miss Sally Brass.",
   "words": [
     {
-      "word": "dull",
+      "word": "unqualified",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "glimpse",
+      "word": "enduring",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "barn",
-      "signals": [
-        "apposition",
         "gloss-overlap"
       ]
     }
@@ -28,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

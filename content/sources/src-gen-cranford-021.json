@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-cranford-021",
+  "pool": "sourced",
+  "text": "Now we were astonished. How he did his tricks I could not imagine; no, not even when Miss Pole pulled out her pieces of paper and began reading aloud—or at least in a very audible whisper—the separate “receipts” for the most common of his tricks. If ever I saw a man frown and look enraged, I saw the Grand Turk frown at Miss Pole; but, as she said, what could be expected but unchristian looks from a Mussulman? If Miss Pole were sceptical, and more engrossed with her receipts and diagrams than with his tricks, Miss Matty and Mrs Forrester were mystified and perplexed to the highest degree. Mrs Jamieson kept taking her spectacles off and wiping them, as if she thought it was something defective in them which made the legerdemain; and Lady Glenmire, who had seen many curious sights in Edinburgh, was very much struck with the tricks, and would not at all agree with Miss Pole, who declared that anybody could do them with a little practice, and that she would, herself, undertake to do all he did, with two hours given to study the Encyclopædia and make her third finger flexible.",
+  "words": [
+    {
+      "word": "enraged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wiping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

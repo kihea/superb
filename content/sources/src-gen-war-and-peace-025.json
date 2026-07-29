@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-war-and-peace-025",
+  "pool": "sourced",
+  "text": "On the twenty-fourth, we are told, Napoleon attacked this advanced post and took it, and, on the twenty-sixth, attacked the whole Russian army, which was in position on the field of Borodinó. So the histories say, and it is all quite wrong, as anyone who cares to look into the matter can easily convince himself. The Russians did not seek out the best position but, on the contrary, during the retreat passed many positions better than Borodinó. They did not stop at any one of these positions because Kutúzov did not wish to occupy a position he had not himself chosen, because the popular demand for a battle had not yet expressed itself strongly enough, and because Milorádovich had not yet arrived with the militia, and for many other reasons. The fact is that other positions they had passed were stronger, and that the position at Borodinó (the one where the battle was fought), far from being strong, was no more a position than any other spot one might find in the Russian Empire by sticking a pin into the map at hazard.",
+  "words": [
+    {
+      "word": "militia",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

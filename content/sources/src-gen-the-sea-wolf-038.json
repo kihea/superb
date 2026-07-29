@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-sea-wolf-038",
+  "pool": "sourced",
+  "text": "When he, strong man that he was, loving life as he did, accepted his death, it was plain that he was troubled by something more than mere blindness. There had been his terrific headaches, and we were agreed that it was some sort of brain break-down, and that in his attacks he endured pain beyond our comprehension. I noticed as we talked over his condition, that Maud’s sympathy went out to him more and more; yet I could not but love her for it, so sweetly womanly was it. Besides, there was no false sentiment about her feeling. She was agreed that the most rigorous treatment was necessary if we were to escape, though she recoiled at the suggestion that I might some time be compelled to take his life to save my own—“our own,” she put it.",
+  "words": [
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blindness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

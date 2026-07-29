@@ -1,28 +1,22 @@
 {
   "id": "src-gen-anna-karenina-018",
   "pool": "sourced",
-  "text": "“You can’t follow it without that,” said Pestsov, addressing Levin, as the person he had been speaking to had gone away, and he had no one to talk to. In the entr’acte Levin and Pestsov fell into an argument upon the merits and defects of music of the Wagner school. Levin maintained that the mistake of Wagner and all his followers lay in their trying to take music into the sphere of another art, just as poetry goes wrong when it tries to paint a face as the art of painting ought to do, and as an instance of this mistake he cited the sculptor who carved in marble certain poetic phantasms flitting round the figure of the poet on the pedestal. “These phantoms were so far from being phantoms that they were positively clinging on the ladder,” said Levin. The comparison pleased him, but he could not remember whether he had not used the same phrase before, and to Pestsov, too, and as he said it he felt confused.",
+  "text": "A distant part of the estate, a tract of waste land that had lain fallow for eight years, was with the help of the clever carpenter, Fyodor Ryezunov, taken by six families of peasants on new conditions of partnership, and the peasant Shuraev took the management of all the vegetable gardens on the same terms. The remainder of the land was still worked on the old system, but these three associated partnerships were the first step to a new organization of the whole, and they completely took up Levin’s time. It is true that in the cattle-yard things went no better than before, and Ivan strenuously opposed warm housing for the cows and butter made of fresh cream, affirming that cows require less food if kept cold, and that butter is more profitable made from sour cream, and he asked for wages just as under the old system, and took not the slightest interest in the fact that the money he received was not wages but an advance out of his future share in the profits.",
   "words": [
     {
-      "word": "sculptor",
+      "word": "peasant",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "poetic",
+      "word": "remainder",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "poet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ladder",
+      "word": "cattle",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

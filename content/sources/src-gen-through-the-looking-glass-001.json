@@ -8,6 +8,12 @@
       "signals": [
         "gloss-overlap"
       ]
+    },
+    {
+      "word": "paw",
+      "signals": [
+        "gloss-overlap"
+      ]
     }
   ],
   "provenance": {
@@ -15,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

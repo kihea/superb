@@ -1,10 +1,16 @@
 {
   "id": "src-gen-war-and-peace-014",
   "pool": "sourced",
-  "text": "Wolzogen had come from Barclay de Tolly to report on the progress of affairs on the left flank. The sagacious Barclay de Tolly, seeing crowds of wounded men running back and the disordered rear of the army, weighed all the circumstances, concluded that the battle was lost, and sent his favorite officer to the commander in chief with that news. Kutúzov was chewing a piece of roast chicken with difficulty and glanced at Wolzogen with eyes that brightened under their puckering lids. Wolzogen, nonchalantly stretching his legs, approached Kutúzov with a half-contemptuous smile on his lips, scarcely touching the peak of his cap. He treated his Serene Highness with a somewhat affected nonchalance intended to show that, as a highly trained military man, he left it to Russians to make an idol of this useless old man, but that he knew whom he was dealing with.",
+  "text": "Listen, I’m w’iting to them stwaight. This is what I say: ‘If I had wobbed the Tweasuwy...’” “It’s certainly well written,” said Túshin, “but that’s not the point, Vasíli Dmítrich,” and he also turned to Rostóv. “One has to submit, and Vasíli Dmítrich doesn’t want to. You know the auditor told you it was a bad business.” “Well, let it be bad,” said Denísov. “The auditor wrote out a petition for you,” continued Túshin, “and you ought to sign it and ask this gentleman to take it.",
   "words": [
     {
-      "word": "approached",
+      "word": "auditor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

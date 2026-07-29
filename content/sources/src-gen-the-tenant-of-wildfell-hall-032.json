@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-032",
+  "pool": "sourced",
+  "text": "A splendid morning it was; the half-frozen dew lay thick on the grass, the swallows were twittering round me, the rooks cawing, and cows lowing in the distance; and early frost and summer sunshine mingled their sweetness in the air. But I did not think of that: a confusion of countless thoughts and varied emotions crowded upon me while I gazed abstractedly on the lovely face of nature. Soon, however, this chaos of thoughts and passions cleared away, giving place to two distinct emotions: joy unspeakable that my adored Helen was all I wished to think her—that through the noisome vapours of the world’s aspersions and my own fancied convictions, her character shone bright, and clear, and stainless as that sun I could not bear to look on; and shame and deep remorse for my own conduct. Immediately after breakfast I hurried over to Wildfell Hall. Rachel had risen many degrees in my estimation since yesterday.",
+  "words": [
+    {
+      "word": "splendid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frost",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunshine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

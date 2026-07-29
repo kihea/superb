@@ -1,0 +1,48 @@
+{
+  "id": "src-gen-the-return-of-the-native-031",
+  "pool": "sourced",
+  "text": "But I was coming to tell ’ee of something else which is quite different from what we have lately had in the family. I am sent by the rich gentleman at the Woman, that we used to call the landlord, to tell ’ee that Mrs. Wildeve is doing well of a girl, which was born punctually at one o’clock at noon, or a few minutes more or less; and ’tis said that expecting of this increase is what have kept ’em there since they came into their money.” “And she is getting on well, you say?” “Yes, sir. Only Mr. Wildeve is twanky because ’tisn’t a boy—that’s what they say in the kitchen, but I was not supposed to notice that.” “Christian, now listen to me.” “Yes, sure, Mr. Yeobright.” “Did you see my mother the day before she died?” “No, I did not.” Yeobright’s face expressed disappointment. “But I zeed her the morning of the same day she died.” Clym’s look lighted up. “That’s nearer still to my meaning,” he said.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "nearer",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Return of the Native",
+    "author": "Thomas Hardy",
+    "year": 1878,
+    "source": "Project Gutenberg #122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-033",
+  "pool": "sourced",
+  "text": "“I, daughter, am Père Silas; that unworthy son of Holy Church whom you once honoured with a noble and touching confidence, showing me the core of a heart, and the inner shrine of a mind whereof, in solemn truth, I coveted the direction, in behalf of the only true faith. Nor have I for a day lost sight of you, nor for an hour failed to take in you a rooted interest. Passed under the discipline of Rome, moulded by her high training, inoculated with her salutary doctrines, inspired by the zeal she alone gives—I realize what then might be your spiritual rank, your practical value; and I envy Heresy her prey.” This struck me as a special state of things—I half-realized myself in that condition also; passed under discipline, moulded, trained, inoculated, and so on. “Not so,” thought I, but I restrained deprecation, and sat quietly enough. “I suppose M. Paul does not live here?” I resumed, pursuing a theme which I thought more to the purpose than any wild renegade dreams.",
+  "words": [
+    {
+      "word": "unworthy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "zeal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-return-of-the-native-016",
   "pool": "sourced",
-  "text": "My life creeps like a snail.” “How came she to die?” said Venn. Yeobright gave him some particulars of her illness and death, and continued: “After this no kind of pain will ever seem more than an indisposition to me. I began saying that I wanted to ask you something, but I stray from subjects like a drunken man. I am anxious to know what my mother said to you when she last saw you. You talked with her a long time, I think?” “I talked with her more than half an hour.” “About me?” “Yes.",
+  "text": "What was more, he was ready at once to be the first unit sacrificed. In passing from the bucolic to the intellectual life the intermediate stages are usually two at least, frequently many more; and one of those stages is almost sure to be worldly advanced. We can hardly imagine bucolic placidity quickening to intellectual aims without imagining social aims as the transitional phase. Yeobright’s local peculiarity was that in striving at high thinking he still cleaved to plain living—nay, wild and meagre living in many respects, and brotherliness with clowns. He was a John the Baptist who took ennoblement rather than repentance for his text.",
   "words": [
     {
-      "word": "particulars",
+      "word": "intermediate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "striving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "respects",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

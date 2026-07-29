@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-age-of-innocence-032",
+  "pool": "sourced",
+  "text": "I suppose Uncle Lovell will be back by tomorrow night, and with Granny improving so much it doesn't seem right to ask Newland to give up an important engagement for the firm--does it?\" She paused, as if for an answer, and Mrs. Welland hastily declared: \"Oh, of course not, darling. Your Granny would be the last person to wish it.\" As Archer left the room with the telegram, he heard his mother-in-law add, presumably to Mrs. Lovell Mingott: \"But why on earth she should make you telegraph for Ellen Olenska--\" and May's clear voice rejoin: \"Perhaps it's to urge on her again that after all her duty is with her husband.\" The outer door closed on Archer and he walked hastily away toward the telegraph office.",
+  "words": [
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "telegram",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

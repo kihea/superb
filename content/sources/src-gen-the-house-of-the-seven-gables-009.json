@@ -1,25 +1,12 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-009",
   "pool": "sourced",
-  "text": "No adequate expression of the beauty and profound pathos with which it impresses us is attainable. This being, made only for happiness, and heretofore so miserably failing to be happy,—his tendencies so hideously thwarted, that, some unknown time ago, the delicate springs of his character, never morally or intellectually strong, had given way, and he was now imbecile,—this poor, forlorn voyager from the Islands of the Blest, in a frail bark, on a tempestuous sea, had been flung, by the last mountain-wave of his shipwreck, into a quiet harbor. There, as he lay more than half lifeless on the strand, the fragrance of an earthly rose-bud had come to his nostrils, and, as odors will, had summoned up reminiscences or visions of all the living and breathing beauty amid which he should have had his home. With his native susceptibility of happy influences, he inhales the slight, ethereal rapture into his soul, and expires! And how did Phœbe regard Clifford?",
+  "text": "“The very same,” said Hepzibah. “It was Alice Pyncheon’s harpsichord. When I was learning music, my father would never let me open it. So, as I could only play on my teacher’s instrument, I have forgotten all my music long ago.” Leaving these antique themes, the old lady began to talk about the daguerreotypist, whom, as he seemed to be a well-meaning and orderly young man, and in narrow circumstances, she had permitted to take up his residence in one of the seven gables. But, on seeing more of Mr. Holgrave, she hardly knew what to make of him.",
   "words": [
     {
-      "word": "tendencies",
+      "word": "themes",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "strand",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rapture",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -28,7 +15,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

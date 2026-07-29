@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-004",
   "pool": "sourced",
-  "text": "Father Brown flung down his paper, and, knowing the office door to be locked, went at once into the cloak room on the other side. The attendant of this place was temporarily absent, probably because the only guests were at dinner and his office was a sinecure. After groping through a grey forest of overcoats, he found that the dim cloak room opened on the lighted corridor in the form of a sort of counter or half-door, like most of the counters across which we have all handed umbrellas and received tickets. There was a light immediately above the semicircular arch of this opening. It threw little illumination on Father Brown himself, who seemed a mere dark outline against the dim sunset window behind him.",
+  "text": "Upon Valentin’s table lay the coloured picture of yet a third bleeding head; and it was the head of Valentin himself. A second glance showed him it was only a Nationalist paper, called The Guillotine, which every week showed one of its political opponents with rolling eyes and writhing features just after execution; for Valentin was an anti-clerical of some note. But O’Brien was an Irishman, with a kind of chastity even in his sins; and his gorge rose against that great brutality of the intellect which belongs only to France. He felt Paris as a whole, from the grotesques on the Gothic churches to the gross caricatures in the newspapers. He remembered the gigantic jests of the Revolution.",
   "words": [
     {
-      "word": "absent",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lighted",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "illumination",
+      "word": "chastity",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

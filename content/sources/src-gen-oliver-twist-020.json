@@ -1,16 +1,28 @@
 {
   "id": "src-gen-oliver-twist-020",
   "pool": "sourced",
-  "text": "But if Oliver, under these influences, had remained silent while they journeyed towards his birth-place by a road he had never seen, how the whole current of his recollections ran back to old times, and what a crowd of emotions were wakened up in his breast, when they turned into that which he had traversed on foot: a poor houseless, wandering boy, without a friend to help him, or a roof to shelter his head. “See there, there!” cried Oliver, eagerly clasping the hand of Rose, and pointing out at the carriage window; “that’s the stile I came over; there are the hedges I crept behind, for fear any one should overtake me and force me back! Yonder is the path across the fields, leading to the old house where I was a little child! Oh Dick, Dick, my dear old friend, if I could only see you now!” “You will see him soon,” replied Rose, gently taking his folded hands between her own.",
+  "text": "Mr. Giles acted in the double capacity of butler and steward to the old lady of the mansion; Brittles was a lad of all-work: who, having entered her service a mere child, was treated as a promising young boy still, though he was something past thirty. Encouraging each other with such converse as this; but, keeping very close together, notwithstanding, and looking apprehensively round, whenever a fresh gust rattled through the boughs; the three men hurried back to a tree, behind which they had left their lantern, lest its light should inform the thieves in what direction to fire. Catching up the light, they made the best of their way home, at a good round trot; and long after their dusky forms had ceased to be discernible, the light might have been seen twinkling and dancing in the distance, like some exhalation of the damp and gloomy atmosphere through which it was swiftly borne. The air grew colder, as day came slowly on; and the mist rolled along the ground like a dense cloud of smoke.",
   "words": [
     {
-      "word": "wandering",
+      "word": "lad",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hedges",
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mist",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

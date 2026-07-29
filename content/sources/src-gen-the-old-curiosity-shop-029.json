@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-029",
+  "pool": "sourced",
+  "text": "I’ve heard the name before, but I don’t exactly call to mind--I don’t exactly--’ ‘You’re as slow as a tortoise, and more thick-headed than a rhinoceros,’ returned his obliging client with an impatient gesture. ‘He’s extremely pleasant!’ cried the obsequious Sampson. ‘His acquaintance with Natural History too is surprising. Quite a Buffoon, quite!’ There is no doubt that Mr Brass intended some compliment or other; and it has been argued with show of reason that he would have said Buffon, but made use of a superfluous vowel. Be this as it may, Quilp gave him no time for correction, as he performed that office himself by more than tapping him on the head with the handle of his umbrella.",
+  "words": [
+    {
+      "word": "tortoise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

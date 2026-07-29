@@ -1,40 +1,10 @@
 {
   "id": "src-gen-the-mayor-of-casterbridge-004",
   "pool": "sourced",
-  "text": "The Ring at Casterbridge was merely the local name of one of the finest Roman Amphitheatres, if not the very finest, remaining in Britain. Casterbridge announced old Rome in every street, alley, and precinct. It looked Roman, bespoke the art of Rome, concealed dead men of Rome. It was impossible to dig more than a foot or two deep about the town fields and gardens without coming upon some tall soldier or other of the Empire, who had lain there in his silent unobtrusive rest for a space of fifteen hundred years. He was mostly found lying on his side, in an oval scoop in the chalk, like a chicken in its shell; his knees drawn up to his chest; sometimes with the remains of his spear against his arm, a fibula or brooch of bronze on his breast or forehead, an urn at his knees, a jar at his throat, a bottle at his mouth; and mystified conjecture pouring down upon him from the eyes of Casterbridge street boys and men, who had turned a moment to gaze at the familiar spectacle as they passed by.",
+  "text": "Joshua, Joshua, Jipp—Jopp—what was his name?” “You’re wrong!” said the young man. “My name is Donald Farfrae. It is true I am in the corren trade—but I have replied to no advertisement, and arranged to see no one. I am on my way to Bristol—from there to the other side of the warrld, to try my fortune in the great wheat-growing districts of the West! I have some inventions useful to the trade, and there is no scope for developing them heere.” “To America—well, well,” said Henchard, in a tone of disappointment, so strong as to make itself felt like a damp atmosphere.",
   "words": [
     {
-      "word": "alley",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "precinct",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "knees",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "bronze",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "forehead",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "jar",
+      "word": "disappointment",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-pride-and-prejudice-033",
+  "pool": "sourced",
+  "text": "I will put on my things in a moment. My dear, dear Lydia! How merry we shall be together when we meet!” Her eldest daughter endeavoured to give some relief to the violence of these transports, by leading her thoughts to the obligations which Mr. Gardiner’s behaviour laid them all under. “For we must attribute this happy conclusion,” she added, “in a great measure to his kindness. We are persuaded that he has pledged himself to assist Mr. Wickham with money.” “Well,” cried her mother, “it is all very right; who should do it but her own uncle?",
+  "words": [
+    {
+      "word": "merry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-031",
+  "pool": "sourced",
+  "text": "And, taking advantage of Mr. Gardner’s necessities, they broke off, swearing they would work no longer, unless he would discharge his black carpenters. Now, though this did not extend to me in form, it did reach me in fact. My fellow-apprentices very soon began to feel it degrading to them to work with me. They began to put on airs, and talk about the “niggers” taking the country, saying we all ought to be killed; and, being encouraged by the journeymen, they commenced making my condition as hard as they could, by hectoring me around, and sometimes striking me. I, of course, kept the vow I made after the fight with Mr.",
+  "words": [
+    {
+      "word": "swearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "degrading",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "striking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

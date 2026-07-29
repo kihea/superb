@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-invisible-man-009",
   "pool": "sourced",
-  "text": "The bearded man’s revolver cracked and the looking-glass at the back of the parlour starred and came smashing and tinkling down. As the barman entered the room he saw Marvel, curiously crumpled up and struggling against the door that led to the yard and kitchen. The door flew open while the barman hesitated, and Marvel was dragged into the kitchen. There was a scream and a clatter of pans. Marvel, head down, and lugging back obstinately, was forced to the kitchen door, and the bolts were drawn.",
+  "text": "Mr. Hall, endeavouring to act on instructions, received a sounding kick in the ribs that disposed of him for a moment, and Mr. Wadgers, seeing the decapitated stranger had rolled over and got the upper side of Jaffers, retreated towards the door, knife in hand, and so collided with Mr. Huxter and the Sidderbridge carter coming to the rescue of law and order. At the same moment down came three or four bottles from the chiffonnier and shot a web of pungency into the air of the room. “I’ll surrender,” cried the stranger, though he had Jaffers down, and in another moment he stood up panting, a strange figure, headless and handless—for he had pulled off his right glove now as well as his left. “It’s no good,” he said, as if sobbing for breath. It was the strangest thing in the world to hear that voice coming as if out of empty space, but the Sussex peasants are perhaps the most matter-of-fact people under the sun.",
   "words": [
     {
-      "word": "bolts",
+      "word": "surrender",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sobbing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

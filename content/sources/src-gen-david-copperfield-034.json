@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-david-copperfield-034",
+  "pool": "sourced",
+  "text": "After which, we went shivering, at that uncomfortable hour, to our respective beds, through various close passages; which smelt as if they had been steeped, for ages, in a solution of soup and stables. Early in the morning, I sauntered through the dear old tranquil streets, and again mingled with the shadows of the venerable gateways and churches. The rooks were sailing about the cathedral towers; and the towers themselves, overlooking many a long unaltered mile of the rich country and its pleasant streams, were cutting the bright morning air, as if there were no such thing as change on earth. Yet the bells, when they sounded, told me sorrowfully of change in everything; told me of their own age, and my pretty Dora’s youth; and of the many, never old, who had lived and loved and died, while the reverberations of the bells had hummed through the rusty armour of the Black Prince hanging up within, and, motes upon the deep of Time, had lost themselves in air, as circles do in water.",
+  "words": [
+    {
+      "word": "shivering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "soup",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "venerable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}
