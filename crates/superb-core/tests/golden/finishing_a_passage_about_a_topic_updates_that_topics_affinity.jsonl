@@ -1,0 +1,6 @@
+{"initial_state":{"seed":0,"draw_count":0,"theta":0.0,"theta_information":1.0,"words":{},"topic_affinities":{"sea":{"finished":2,"abandoned":1}}},"now":1735689600000,"event":{"PASSAGE_FINISHED":{"passage":"passage-010","words_seen":["aperture"]}},"frame":{"Topics":{"topics":["sea"]}}}
+{"TopicAffinityUpdated":{"topic":"sea","finished":3,"abandoned":1}}
+{"WordStateChanged":{"word":"aperture","from":"UNSEEN","to":"SEEDED"}}
+{"IntervalSet":{"word":"aperture","due":1735776000000}}
+{"ContextFrameLogged":{"word":"aperture","frame_id":"passage-010"}}
+{"WordStateChanged":{"word":"aperture","from":"SEEDED","to":"LEARNING"}}

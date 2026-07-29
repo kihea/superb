@@ -183,9 +183,9 @@ looks like in practice.
   `deny.toml`.
 - Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
   be accepted at any tier.
-- Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
-  `superb-core` requires a matching entry in `wire-roster.toml`, or the build
-  fails.
+- Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
+  crate requires a matching entry in `wire-roster.toml` (workspace root), or
+  the build fails.
 
 ---
 
