@@ -60,6 +60,42 @@ pub fn claims_pseudoword(rng: &mut Rng, overclaim_rate: f64) -> bool {
     rng.chance(overclaim_rate)
 }
 
+/// Draw whether a **bluffing** learner *claims* to know a real item at
+/// `difficulty`, given hidden `true_theta` and one propensity `b` — the same
+/// propensity that drives [`claims_pseudoword`] for this learner (BRIEF-017).
+///
+/// **The modelling assumption this function is, stated as one, not smuggled
+/// in as a fact:** a single `b ∈ [0, 1]` drives both a learner's willingness
+/// to claim a pseudoword they have not met and their willingness to claim a
+/// real word they do not actually know. Real bluffing readers may not share
+/// one propensity across both behaviours; nothing in this crate measures
+/// that they do. What this link buys is a synthetic learner whose real-word
+/// evidence is no longer unbiased in simulation — the gap BRIEF-010's
+/// correction has had no calibration target for since it was written
+/// (`superb_core::ability::overclaim_correction`'s own doc comment).
+///
+/// **Draws honestly first**, with exactly the one [`knows_real_item`] call
+/// that function itself makes. An honest "known" is claimed outright. An
+/// honest "not known" gets a second, independent chance — at probability
+/// `b` — to be claimed anyway. So bluffing can only ever inflate a real-word
+/// answer, never deflate one: nothing here ever turns an honest "known" into
+/// a claimed "not known".
+///
+/// **At `b <= 0.0` the second draw is skipped rather than drawn and
+/// discarded**, so the whole sequence this function drives an `Rng` through
+/// — not merely one answer — is identical to calling [`knows_real_item`]
+/// directly: same seed, same calls, same results, checked by
+/// [`tests::bluffs_real_item_at_zero_propensity_matches_the_honest_draw_exactly`].
+pub fn bluffs_real_item(rng: &mut Rng, true_theta: f64, difficulty: f64, b: f64) -> bool {
+    if knows_real_item(rng, true_theta, difficulty) {
+        return true;
+    }
+    if b <= 0.0 {
+        return false;
+    }
+    rng.chance(b)
+}
+
 /// How much one prior clean encounter with a word raises the learner's
 /// effective ability *on that word*, in logits.
 ///
@@ -172,6 +208,53 @@ mod tests {
         let mut rng = Rng::new(1);
         for _ in 0..200 {
             assert!(claims_pseudoword(&mut rng, 1.0));
+        }
+    }
+
+    /// BRIEF-017's free regression test, taken literally: at `b = 0.0` the
+    /// bluffing learner is precisely today's honest learner — not merely on
+    /// one answer, but across a whole sequence drawn from the same seed,
+    /// because the second draw is skipped entirely rather than drawn and
+    /// discarded.
+    #[test]
+    fn bluffs_real_item_at_zero_propensity_matches_the_honest_draw_exactly() {
+        for seed in [1u64, 2, 3, 42, 1000] {
+            for true_theta in [-3.0, -1.0, 0.0, 1.0, 3.0] {
+                for difficulty in [-2.0, -0.4, 0.0, 0.7, 2.0] {
+                    let mut honest_rng = Rng::new(seed);
+                    let mut bluff_rng = Rng::new(seed);
+                    for draw in 0..30 {
+                        let honest = knows_real_item(&mut honest_rng, true_theta, difficulty);
+                        let bluffed = bluffs_real_item(&mut bluff_rng, true_theta, difficulty, 0.0);
+                        assert_eq!(
+                            honest, bluffed,
+                            "seed {seed}, true_theta {true_theta}, difficulty {difficulty}, \
+                             draw {draw}: b=0.0 bluffer disagreed with the honest oracle"
+                        );
+                    }
+                }
+            }
+        }
+    }
+
+    /// Bluffing can only ever inflate a real-word answer: an honest "known"
+    /// is always claimed, and the only thing `b` can do is turn an honest
+    /// "not known" into a claim — never the reverse.
+    #[test]
+    fn bluffing_never_turns_an_honest_known_into_a_claimed_not_known() {
+        let mut rng = Rng::new(99);
+        for _ in 0..500 {
+            let true_theta = rng.range(-4.0, 4.0);
+            let difficulty = rng.range(-4.0, 4.0);
+            let b = rng.range(0.0, 1.0);
+
+            let mut fork = rng.clone();
+            let honest = knows_real_item(&mut fork, true_theta, difficulty);
+            let bluffed = bluffs_real_item(&mut rng, true_theta, difficulty, b);
+
+            if honest {
+                assert!(bluffed, "an honest known must always be claimed");
+            }
         }
     }
 }
