@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-005",
+  "pool": "sourced",
+  "text": "15 The Old Hostler After this it was decided by my master and mistress to pay a visit to some friends who lived about forty-six miles from our home, and James was to drive them. The first day we traveled thirty-two miles. There were some long, heavy hills, but James drove so carefully and thoughtfully that we were not at all harassed. He never forgot to put on the brake as we went downhill, nor to take it off at the right place. He kept our feet on the smoothest part of the road, and if the uphill was very long, he set the carriage wheels a little across the road, so as not to run back, and gave us a breathing.",
+  "words": [
+    {
+      "word": "traveled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

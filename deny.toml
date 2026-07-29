@@ -8,8 +8,19 @@
 all-features = true
 
 [licenses]
+# This list is about what the project will CONSUME. It is not the
+# project's own outbound licence, which is MIT + Commons Clause per
+# ADR-025 and stays permissive-compatible: MIT and Apache-2.0
+# dependencies are consumable by a source-available product.
 allow = [
     "MIT",
     "Apache-2.0",
     "Unicode-3.0",
 ]
+
+# Superb's own crates carry `license-file` rather than an SPDX `license`
+# expression, because the Commons Clause has no SPDX identifier (ADR-025).
+# They are unpublished, so this skips them here and nowhere else — the
+# allow list above still governs every dependency, dev-dependencies
+# included, which is what law 5 actually needs.
+private = { ignore = true }

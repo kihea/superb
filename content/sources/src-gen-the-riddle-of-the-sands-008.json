@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-008",
+  "pool": "sourced",
+  "text": "To the south it ran up to the pencil-line of the Hanover shore. Only to the west was its outline broken by any vestiges of the sea it had risen from. There it was astir with crawling white filaments, knotted confusedly at one spot in the north-west, whence came a sibilant murmur like the hissing of many snakes. Desert as I call it, it was not entirely featureless. Its colour varied from light fawn, where the highest levels had dried in the wind, to brown or deep violet, where it was still wet, and slate-grey where patches of mud soiled its clean bosom.",
+  "words": [
+    {
+      "word": "outline",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crawling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

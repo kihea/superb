@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-robinson-crusoe-002",
+  "pool": "sourced",
+  "text": "You may suppose, that having now lived almost four years in the Brazils, and beginning to thrive and prosper very well upon my plantation, I had not only learned the language, but had contracted acquaintance and friendship among my fellow-planters, as well as among the merchants at St. Salvador, which was our port; and that, in my discourses among them, I had frequently given them an account of my two voyages to the coast of Guinea: the manner of trading with the negroes there, and how easy it was to purchase upon the coast for trifles—such as beads, toys, knives, scissors, hatchets, bits of glass, and the like—not only gold-dust, Guinea grains, elephants’ teeth, &c., but negroes, for the service of the Brazils, in great numbers. They listened always very attentively to my discourses on these heads, but especially to that part which related to the buying of negroes, which was a trade at that time, not only not far entered into, but, as far as it was, had been carried on by assientos, or permission of the kings of Spain and Portugal, and engrossed in the public stock: so that few negroes were bought, and these excessively dear.",
+  "words": [
+    {
+      "word": "thrive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prosper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contracted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voyages",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beads",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

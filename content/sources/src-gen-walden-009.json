@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-walden-009",
+  "pool": "sourced",
+  "text": "Ancient poetry and mythology suggest, at least, that husbandry was once a sacred art; but it is pursued with irreverent haste and heedlessness by us, our object being to have large farms and large crops merely. We have no festival, nor procession, nor ceremony, not excepting our Cattle-shows and so called Thanksgivings, by which the farmer expresses a sense of the sacredness of his calling, or is reminded of its sacred origin. It is the premium and the feast which tempt him. He sacrifices not to Ceres and the Terrestrial Jove, but to the infernal Plutus rather. By avarice and selfishness, and a grovelling habit, from which none of us is free, of regarding the soil as property, or the means of acquiring property chiefly, the landscape is deformed, husbandry is degraded with us, and the farmer leads the meanest of lives.",
+  "words": [
+    {
+      "word": "mythology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farmer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sacrifices",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chiefly",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

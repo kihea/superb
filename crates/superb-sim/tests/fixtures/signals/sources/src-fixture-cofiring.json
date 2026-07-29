@@ -1,0 +1,18 @@
+{
+  "id": "src-fixture-cofiring",
+  "pool": "sourced",
+  "topic": "fixture",
+  "text": "He answered with alacrity, a cheerful and ready willingness that surprised everyone who had thought him too tired to move at all.",
+  "words": [
+    { "word": "alacrity", "signals": ["apposition", "gloss-overlap"] }
+  ],
+  "provenance": {
+    "work": "ADR-026 golden-vector fixture",
+    "author": "n/a",
+    "year": 2026,
+    "source": "Project Gutenberg #0",
+    "url": "https://www.gutenberg.org/ebooks/0",
+    "licence": "Public Domain (fixture, not a real work)",
+    "retrieved": "2026-07-27"
+  }
+}

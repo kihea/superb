@@ -1,9 +1,15 @@
 {
   "id": "src-dickens-little-world-in-which-children",
   "pool": "sourced",
+  "topic": "city",
   "text": "In the little world in which children have their existence whosoever brings them up, there is nothing so finely perceived and so finely felt as injustice. It may be only small injustice that the child can be exposed to; but the child is small, and its world is small, and its rocking-horse stands as many hands high, according to scale, as a big-boned Irish hunter. Within myself, I had sustained, from my babyhood, a perpetual conflict with injustice. I had known, from the time when I could speak, that my sister, in her capricious and violent coercion, was unjust to me.",
   "words": [
-    "capricious"
+    {
+      "word": "capricious",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Great Expectations",
@@ -11,7 +17,7 @@
     "year": 1861,
     "source": "Project Gutenberg #1400",
     "url": "https://www.gutenberg.org/ebooks/1400",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-017",
+  "pool": "sourced",
+  "text": "I made the brief trip by taxicab, and knocked with palpitant heart at the door of a neat and ancient building with plastered front. A sad-faced woman in black answered my summons, and I was stung with disappointment when she told me in halting English that Gustaf Johansen was no more. He had not long survived his return, said his wife, for the doings at sea in 1925 had broken him. He had told her no more than he had told the public, but had left a long manuscript--of \"technical matters\" as he said--written in English, evidently in order to safeguard her from the peril of casual perusal. During a walk through a narrow lane near the Gothenburg dock, a bundle of papers falling from an attic window had knocked him down.",
+  "words": [
+    {
+      "word": "stung",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

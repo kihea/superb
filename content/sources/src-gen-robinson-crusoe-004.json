@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-robinson-crusoe-004",
+  "pool": "sourced",
+  "text": "And now being about to enter into a melancholy relation of a scene of silent life, such, perhaps, as was never heard of in the world before, I shall take it from its beginning, and continue it in its order. It was by my account the 30th of September, when, in the manner as above said, I first set foot upon this horrid island; when the sun, being to us in its autumnal equinox, was almost over my head; for I reckoned myself, by observation, to be in the latitude of nine degrees twenty-two minutes north of the line.",
+  "words": [
+    {
+      "word": "latitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-016",
+  "pool": "sourced",
+  "text": "We sprang out of our berths and hurried upon deck. The loud, sharp voice of the captain was heard giving orders, as though for life or death, and we ran aft to the braces, not waiting to look ahead, for not a moment was to be lost. The helm was hard up, the after yards shaking, and the ship in the act of wearing. Slowly, with stiff ropes and iced rigging, we swung the yards round, everything coming hard, and with a creaking and rending sound, like pulling up a plank which had been frozen into the ice. The ship wore round fairly, the yards were steadied, and we stood off on the other tack, leaving behind us, directly under our larboard quarter, a large ice island, peering out of the mist, and reaching high above our tops, while astern; and on either side of the island, large tracts of field-ice were dimly seen, heaving and rolling in the sea.",
+  "words": [
+    {
+      "word": "helm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stiff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "iced",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rigging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

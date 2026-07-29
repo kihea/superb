@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-white-fang-003",
+  "pool": "sourced",
+  "text": "Morning found the man haggard and worn, wide-eyed from want of sleep. He cooked breakfast in the darkness, and at nine o’clock, when, with the coming of daylight, the wolf-pack drew back, he set about the task he had planned through the long hours of the night. Chopping down young saplings, he made them cross-bars of a scaffold by lashing them high up to the trunks of standing trees. Using the sled-lashing for a heaving rope, and with the aid of the dogs, he hoisted the coffin to the top of the scaffold. “They got Bill, an’ they may get me, but they’ll sure never get you, young man,” he said, addressing the dead body in its tree-sepulchre.",
+  "words": [
+    {
+      "word": "daylight",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "trunks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

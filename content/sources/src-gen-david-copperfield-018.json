@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-david-copperfield-018",
+  "pool": "sourced",
+  "text": "‘The cloud is past from my mind. Mutual confidence, so long preserved between us once, is restored, to know no further interruption. Now, welcome poverty!’ cried Mr. Micawber, shedding tears. ‘Welcome misery, welcome houselessness, welcome hunger, rags, tempest, and beggary! Mutual confidence will sustain us to the end!’ With these expressions, Mr. Micawber placed Mrs. Micawber in a chair, and embraced the family all round; welcoming a variety of bleak prospects, which appeared, to the best of my judgement, to be anything but welcome to them; and calling upon them to come out into Canterbury and sing a chorus, as nothing else was left for their support.",
+  "words": [
+    {
+      "word": "preserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

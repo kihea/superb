@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-main-street-019",
+  "pool": "sourced",
+  "text": "Yes, sir, they been building right along, even in winter. Got more enterprise than these Californians. Pretty good to be home, eh?” She noted that all winter long the citizens had been throwing garbage into their back yards, to be cleaned up in spring. The recent thaw had disclosed heaps of ashes, dog-bones, torn bedding, clotted paint-cans, all half covered by the icy pools which filled the hollows of the yards. The refuse had stained the water to vile colors of waste: thin red, sour yellow, streaky brown.",
+  "words": [
+    {
+      "word": "garbage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pools",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

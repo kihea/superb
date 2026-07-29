@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-villette-018",
+  "pool": "sourced",
+  "text": "My best friends point out danger, and whisper caution.” “You do right to listen to your friends. By all means be cautious.” “It is your religion—your strange, self-reliant, invulnerable creed, whose influence seems to clothe you in, I know not what, unblessed panoply. You are good—Père Silas calls you good, and loves you—but your terrible, proud, earnest Protestantism, there is the danger. It expresses itself by your eye at times; and again, it gives you certain tones and certain gestures that make my flesh creep. You are not demonstrative, and yet, just now—when you handled that tract—my God!",
+  "words": [
+    {
+      "word": "caution",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cautious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

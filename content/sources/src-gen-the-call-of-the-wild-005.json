@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-call-of-the-wild-005",
+  "pool": "sourced",
+  "text": "An oath from Perrault, the resounding impact of a club upon a bony frame, and a shrill yelp of pain, heralded the breaking forth of pandemonium. The camp was suddenly discovered to be alive with skulking furry forms,—starving huskies, four or five score of them, who had scented the camp from some Indian village. They had crept in while Buck and Spitz were fighting, and when the two men sprang among them with stout clubs they showed their teeth and fought back. They were crazed by the smell of the food. Perrault found one with head buried in the grub-box.",
+  "words": [
+    {
+      "word": "starving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sprang",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

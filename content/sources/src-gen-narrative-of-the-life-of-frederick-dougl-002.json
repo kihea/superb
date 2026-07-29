@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-002",
+  "pool": "sourced",
+  "text": "with all his noble powers and sublime aspirations, how like a brute was he treated, even by those professing to have the same mind in them that was in Christ Jesus! to what dreadful liabilities was he continually subjected! how destitute of friendly counsel and aid, even in his greatest extremities! how heavy was the midnight of woe which shrouded in blackness the last ray of hope, and filled the future with terror and gloom! what longings after freedom took possession of his breast, and how his misery augmented, in proportion as he grew reflective and intelligent,—thus demonstrating that a happy slave is an extinct man!",
+  "words": [
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

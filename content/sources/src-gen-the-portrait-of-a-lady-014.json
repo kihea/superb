@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-014",
+  "pool": "sourced",
+  "text": "Look at poor Ralph Touchett: what sort of a figure do you call that? Fortunately he has a consumption; I say fortunately, because it gives him something to do. His consumption’s his carriere it’s a kind of position. You can say: ‘Oh, Mr. Touchett, he takes care of his lungs, he knows a great deal about climates.’ But without that who would he be, what would he represent? Ralph Touchett: an American who lives in Europe.’ That signifies absolutely nothing--it’s impossible anything should signify less.",
+  "words": [
+    {
+      "word": "signifies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "signify",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

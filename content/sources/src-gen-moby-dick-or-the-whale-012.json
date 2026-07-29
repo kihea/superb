@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-012",
+  "pool": "sourced",
+  "text": "*Quoin is not a Euclidean term. It belongs to the pure nautical mathematics. I know not that it has been defined before. A quoin is a solid which differs from a wedge in having its sharp end formed by the steep inclination of one side, instead of the mutual tapering of both sides. The lower subdivided part, called the junk, is one immense honeycomb of oil, formed by the crossing and recrossing, into ten thousand infiltrated cells, of tough elastic white fibres throughout its whole extent.",
+  "words": [
+    {
+      "word": "wedge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

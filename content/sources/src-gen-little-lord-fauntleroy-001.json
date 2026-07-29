@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-001",
+  "pool": "sourced",
+  "text": "“That's the worst of it,” said Cedric. “Perhaps I shall not see you again for a long time. I don't like to think of that, Mr. Hobbs.” “The best of friends must part,” said Mr. Hobbs. “Well,” said Cedric, “we have been friends for a great many years, haven't we?” “Ever since you was born,” Mr. Hobbs answered. “You was about six weeks old when you was first walked out on this street.” “Ah,” remarked Cedric, with a sigh, “I never thought I should have to be an earl then!” “You think,” said Mr. Hobbs, “there's no getting out of it?” “I'm afraid not,” answered Cedric.",
+  "words": [
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

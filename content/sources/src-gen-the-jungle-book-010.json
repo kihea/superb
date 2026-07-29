@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-jungle-book-010",
+  "pool": "sourced",
+  "text": "Hundreds and hundreds of thousands of seals watched them being driven, but they went on playing just the same. Kotick was the only one who asked questions, and none of his companions could tell him anything, except that the men always drove seals in that way for six weeks or two months of every year. “I am going to follow,” he said, and his eyes nearly popped out of his head as he shuffled along in the wake of the herd. “The white seal is coming after us,” cried Patalamon. “That’s the first time a seal has ever come to the killing-grounds alone.” “Hsh!",
+  "words": [
+    {
+      "word": "seals",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "popped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

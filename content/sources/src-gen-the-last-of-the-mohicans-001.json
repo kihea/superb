@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-001",
+  "pool": "sourced",
+  "text": "INTRODUCTION It is believed that the scene of this tale, and most of the information necessary to understand its allusions, are rendered sufficiently obvious to the reader in the text itself, or in the accompanying notes. Still there is so much obscurity in the Indian traditions, and so much confusion in the Indian names, as to render some explanation useful. Few men exhibit greater diversity, or, if we may so express it, greater antithesis of character, than the native warrior of North America. In war, he is daring, boastful, cunning, ruthless, self-denying, and self-devoted; in peace, just, generous, hospitable, revengeful, superstitious, modest, and commonly chaste. These are qualities, it is true, which do not distinguish all alike; but they are so far the predominating traits of these remarkable people as to be characteristic.",
+  "words": [
+    {
+      "word": "traits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

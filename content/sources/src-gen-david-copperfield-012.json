@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-david-copperfield-012",
+  "pool": "sourced",
+  "text": "Traddles and I laying our heads together apart, while Mr. Dick anxiously watched us from his chair, we concocted a scheme in virtue of which we got him to work next day, with triumphant success. On a table by the window in Buckingham Street, we set out the work Traddles procured for him--which was to make, I forget how many copies of a legal document about some right of way--and on another table we spread the last unfinished original of the great Memorial. Our instructions to Mr. Dick were that he should copy exactly what he had before him, without the least departure from the original; and that when he felt it necessary to make the slightest allusion to King Charles the First, he should fly to the Memorial. We exhorted him to be resolute in this, and left my aunt to observe him.",
+  "words": [
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

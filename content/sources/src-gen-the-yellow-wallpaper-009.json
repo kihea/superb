@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-009",
+  "pool": "sourced",
+  "text": "The moon shines in all around, just as the sun does. I hate to see it sometimes, it creeps so slowly, and always comes in by one window or another. John was asleep and I hated to waken him, so I kept still and watched the moonlight on that undulating wallpaper till I felt creepy. The faint figure behind seemed to shake the pattern, just as if she wanted to get out. I got up softly and went to feel and see if the paper did move, and when I came back John was awake.",
+  "words": [
+    {
+      "word": "creeps",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wallpaper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

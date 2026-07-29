@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-time-machine-003",
+  "pool": "sourced",
+  "text": "At first I scarce thought of stopping, scarce thought of anything but these new sensations. But presently a fresh series of impressions grew up in my mind—a certain curiosity and therewith a certain dread—until at last they took complete possession of me. What strange developments of humanity, what wonderful advances upon our rudimentary civilisation, I thought, might not appear when I came to look nearly into the dim elusive world that raced and fluctuated before my eyes! I saw great and splendid architecture rising about me, more massive than any buildings of our own time, and yet, as it seemed, built of glimmer and mist. I saw a richer green flow up the hillside, and remain there, without any wintry intermission.",
+  "words": [
+    {
+      "word": "civilisation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "raced",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": 1895,
+    "source": "Project Gutenberg #35",
+    "url": "https://www.gutenberg.org/ebooks/35",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

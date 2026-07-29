@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-a-christmas-carol-009",
+  "pool": "sourced",
+  "text": "The scaling him with chairs for ladders to dive into his pockets, despoil him of brown-paper parcels, hold on tight by his cravat, hug him round his neck, pommel his back, and kick his legs in irrepressible affection! The shouts of wonder and delight with which the development of every package was received! The terrible announcement that the baby had been taken in the act of putting a doll's frying-pan into his mouth, and was more than suspected of having swallowed a fictitious turkey, glued on a wooden platter! The immense relief of finding this a false alarm! The joy, and gratitude, and ecstasy!",
+  "words": [
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parcels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "affection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swallowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

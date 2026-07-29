@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-011",
+  "pool": "sourced",
+  "text": "Arthur did not come home till several weeks after my return to Grassdale; but I did not feel so anxious about him now; to think of him engaged in active sports among the wild hills of Scotland, was very different from knowing him to be immersed amid the corruptions and temptations of London. His letters now; though neither long nor loverlike, were more regular than ever they had been before; and when he did return, to my great joy, instead of being worse than when he went, he was more cheerful and vigorous, and better in every respect. Since that time I have had little cause to complain. He still has an unfortunate predilection for the pleasures of the table, against which I have to struggle and watch; but he has begun to notice his boy, and that is an increasing source of amusement to him within-doors, while his fox-hunting and coursing are a sufficient occupation for him without, when the ground is not hardened by frost; so that he is not wholly dependent on me for entertainment. But it is now January; spring is approaching; and, I repeat, I dread the consequences of its arrival.",
+  "words": [
+    {
+      "word": "vigorous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amusement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

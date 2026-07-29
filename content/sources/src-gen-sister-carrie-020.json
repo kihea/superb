@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-sister-carrie-020",
+  "pool": "sourced",
+  "text": "On one occasion it was peculiarly cold, and finding no comfort in begging about the streets, he waited until noon before seeking this free offering to the poor. Already, at eleven o'clock of this morning, several such as he had shambled forward out of Sixth Avenue, their thin clothes flapping and fluttering in the wind. They leaned against the iron railing which protects the walls of the Ninth Regiment Armory, which fronts upon that section of Fifteenth Street, having come early in order to be first in. Having an hour to wait, they at first lingered at a respectful distance; but others coming up, they moved closer in order to protect their right of precedence. To this collection Hurstwood came up from the west out of Seventh Avenue and stopped close to the door, nearer than all the others.",
+  "words": [
+    {
+      "word": "eleven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "o'clock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "protects",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

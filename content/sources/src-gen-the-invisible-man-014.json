@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-invisible-man-014",
+  "pool": "sourced",
+  "text": "And every dog that came in sight, with its pointing nose and curious sniffing, was a terror to me. “Then came men and boys running, first one and then others, and shouting as they ran. It was a fire. They ran in the direction of my lodging, and looking back down a street I saw a mass of black smoke streaming up above the roofs and telephone wires. It was my lodging burning; my clothes, my apparatus, all my resources indeed, except my cheque-book and the three volumes of memoranda that awaited me in Great Portland Street, were there.",
+  "words": [
+    {
+      "word": "sniffing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "volumes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-oliver-twist-008",
+  "pool": "sourced",
+  "text": "Oliver looked up; the Jew, pointing to the candle, motioned him to light it. He did so; and, as he placed the candlestick upon the table, saw that the Jew was gazing fixedly at him, with lowering and contracted brows, from the dark end of the room. “Take heed, Oliver! take heed!” said the old man, shaking his right hand before him in a warning manner. “He’s a rough man, and thinks nothing of blood when his own is up.",
+  "words": [
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

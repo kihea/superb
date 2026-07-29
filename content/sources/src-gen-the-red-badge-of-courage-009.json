@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-red-badge-of-courage-009",
+  "pool": "sourced",
+  "text": "The melancholy march was continually disturbed by the messengers, and sometimes by bustling batteries that came swinging and thumping down upon them, the officers shouting orders to clear the way. There was a tattered man, fouled with dust, blood and powder stain from hair to shoes, who trudged quietly at the youth’s side. He was listening with eagerness and much humility to the lurid descriptions of a bearded sergeant. His lean features wore an expression of awe and admiration. He was like a listener in a country store to wondrous tales told among the sugar barrels.",
+  "words": [
+    {
+      "word": "wondrous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barrels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Red Badge of Courage",
+    "author": "Stephen Crane",
+    "year": 1895,
+    "source": "Project Gutenberg #73",
+    "url": "https://www.gutenberg.org/ebooks/73",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

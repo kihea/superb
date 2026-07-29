@@ -1,0 +1,81 @@
+name: wasm
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      [
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/wasm.yml",
+      ]
+  pull_request:
+    paths:
+      [
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/wasm.yml",
+      ]
+
+concurrency:
+  group: wasm-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  # Pinned to the `wasm-bindgen` crate version `crates/superb-wasm/Cargo.toml`
+  # resolves to (Cargo.lock). The CLI and the crate must match exactly —
+  # wasm-bindgen refuses to bind a mismatched pair rather than guess — so
+  # this moves with a Cargo.lock bump, never ahead of it.
+  WASM_BINDGEN_VERSION: "0.2.126"
+  # docs/seams.md's own budget for the shipped artifact (ADR-002: web ships
+  # first). Tightened in a PR the day the real number is wildly under it,
+  # not loosened without one.
+  GZIPPED_SIZE_BUDGET_BYTES: 409600
+
+jobs:
+  build-and-test:
+    name: build, bind, node golden test, size budget
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache
+        uses: Swatinem/rust-cache@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Add wasm32 target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Install wasm-bindgen-cli (pinned to the crate version)
+        run: cargo install wasm-bindgen-cli --version "$WASM_BINDGEN_VERSION" --locked
+
+      - name: Build superb-wasm for wasm32-unknown-unknown
+        run: cargo build -p superb-wasm --target wasm32-unknown-unknown --release --locked
+
+      - name: Generate the JS/TS bindings (crates/superb-wasm/pkg, gitignored)
+        run: |
+          mkdir -p crates/superb-wasm/pkg
+          wasm-bindgen --target nodejs --out-dir crates/superb-wasm/pkg \
+            target/wasm32-unknown-unknown/release/superb_wasm.wasm
+
+      - name: Enforce the gzipped size budget
+        run: |
+          size=$(gzip -9 -c crates/superb-wasm/pkg/superb_wasm_bg.wasm | wc -c)
+          echo "gzipped superb_wasm_bg.wasm: $size bytes (budget: ${GZIPPED_SIZE_BUDGET_BYTES} bytes)"
+          if [ "$size" -gt "$GZIPPED_SIZE_BUDGET_BYTES" ]; then
+            echo "::error::superb_wasm_bg.wasm is ${size} bytes gzipped, over the ${GZIPPED_SIZE_BUDGET_BYTES}-byte budget"
+            exit 1
+          fi
+
+      - name: Node golden-vector round trip and port.d.ts agreement
+        run: node --test crates/superb-wasm/tests/*.test.mjs

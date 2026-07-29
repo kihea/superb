@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-main-street-002",
+  "pool": "sourced",
+  "text": "In the aisle beside her is an extremely indignant parrakeet in a cage. Two facing seats, overflowing with a Slovene iron-miner's family, are littered with shoes, dolls, whisky bottles, bundles wrapped in newspapers, a sewing bag. The oldest boy takes a mouth-organ out of his coat pocket, wipes the tobacco crumbs off, and plays “Marching through Georgia” till every head in the car begins to ache. The news-butcher comes through selling chocolate bars and lemon drops. A girl-child ceaselessly trots down to the water-cooler and back to her seat.",
+  "words": [
+    {
+      "word": "cage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

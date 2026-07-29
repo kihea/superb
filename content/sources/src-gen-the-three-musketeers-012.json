@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-012",
+  "pool": "sourced",
+  "text": "Hardly was he concealed when the little bell sounded. Kitty went to her mistress, and did not leave the door open; but the partition was so thin that one could hear nearly all that passed between the two women. Milady seemed overcome with joy, and made Kitty repeat the smallest details of the pretended interview of the soubrette with De Wardes when he received the letter; how he had responded; what was the expression of his face; if he seemed very amorous. And to all these questions poor Kitty, forced to put on a pleasant face, responded in a stifled voice whose dolorous accent her mistress did not however remark, solely because happiness is egotistical. Finally, as the hour for her interview with the count approached, Milady had everything about her darkened, and ordered Kitty to return to her own chamber, and introduce De Wardes whenever he presented himself.",
+  "words": [
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "partition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

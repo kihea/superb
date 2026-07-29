@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-011",
+  "pool": "sourced",
+  "text": "I am a doctor, dear, and I know. You are gaining flesh and color, your appetite is better. I feel really much easier about you.” “I don’t weigh a bit more,” said I, “nor as much; and my appetite may be better in the evening, when you are here, but it is worse in the morning when you are away.” “Bless her little heart!” said he with a big hug; “she shall be as sick as she pleases! But now let’s improve the shining hours by going to sleep, and talk about it in the morning!” “And you won’t go away?” I asked gloomily. “Why, how can I, dear?",
+  "words": [
+    {
+      "word": "hug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

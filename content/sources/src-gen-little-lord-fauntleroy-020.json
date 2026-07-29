@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-020",
+  "pool": "sourced",
+  "text": "“To Court Lodge,” said Thomas to the coachman as he mounted the box; “an' you may depend on it, things are taking a uniggspected turn.” When the carriage stopped at Court Lodge, Cedric was in the drawing-room with his mother. The Earl came in without being announced. He looked an inch or so taller, and a great many years younger. His deep eyes flashed. “Where,” he said, “is Lord Fauntleroy?” Mrs. Errol came forward, a flush rising to her cheek.",
+  "words": [
+    {
+      "word": "taller",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

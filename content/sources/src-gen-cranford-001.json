@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-cranford-001",
+  "pool": "sourced",
+  "text": "OUR SOCIETY IN the first place, Cranford is in possession of the Amazons; all the holders of houses above a certain rent are women. If a married couple come to settle in the town, somehow the gentleman disappears; he is either fairly frightened to death by being the only man in the Cranford evening parties, or he is accounted for by being with his regiment, his ship, or closely engaged in business all the week in the great neighbouring commercial town of Drumble, distant only twenty miles on a railroad. In short, whatever does become of the gentlemen, they are not at Cranford. What could they do if they were there? The surgeon has his round of thirty miles, and sleeps at Cranford; but every man cannot be a surgeon.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accounted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentlemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

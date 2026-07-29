@@ -1,0 +1,151 @@
+.reading-screen {
+  min-height: 100dvh;
+  background: var(--chrome-ground);
+  background-image: var(--chrome-ground-gradient);
+  position: relative;
+  isolation: isolate;
+  overflow-x: hidden;
+}
+
+/* The aura (ADVISORY-008 §3): two very large, very diffuse radial lights,
+   one warm and one cool, low opacity. Static -- see the mount comment in
+   ReadingScreen.tsx for why nothing here drifts. */
+.reading-screen-aura {
+  position: absolute;
+  inset: -20% -10%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.reading-screen-aura::before,
+.reading-screen-aura::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+}
+
+.reading-screen-aura::before {
+  width: 56vw;
+  height: 56vw;
+  left: 2%;
+  top: -4%;
+  background: var(--chrome-glow-a);
+}
+
+.reading-screen-aura::after {
+  width: 48vw;
+  height: 48vw;
+  right: 2%;
+  bottom: -6%;
+  background: var(--chrome-glow-b);
+}
+
+.reading-page {
+  position: relative;
+  z-index: 1;
+}
+
+/* The register decision, receipted 2026-07-27 (workspace/decisions/
+   README.md): Kihea chose "a little of his own hand" -- these are the
+   values his choice picked, item 7's `drawn` candidate, now the only
+   values that exist. Root-scoped (read by MarginMark.css, BreakChain.css,
+   DoodleArrow.css) because the pull-up button carrying DoodleArrow is
+   portalled to document.body (see the portal comment in PassagePage.tsx),
+   outside `.reading-screen`'s own DOM subtree -- a class-scoped variable
+   would never reach it. */
+:root {
+  --margin-mark-opacity: 0.16;
+  --break-chain-opacity: 0.4;
+  --break-chain-height: 22px;
+  --doodle-arrow-weight: 4;
+}
+
+/* Even on a phone the room has to stay visible -- a full-bleed card would
+   quietly erase the material the moment someone picks up their phone,
+   which is most of the audience. The margin and radius only get more
+   generous at wider viewports, never appear from nothing. */
+.reading-page {
+  --metal-fill: var(--page-ground);
+  /* Set explicitly, in addition to the metal treatment's background-image
+     (design/metal.css): a real fallback if that ever fails to paint, and
+     the truthful value anything reading getComputedStyle().backgroundColor
+     -- a contrast check, a test -- will see. Same colour either way. */
+  background-color: var(--page-ground);
+  color: var(--page-ink);
+  margin: var(--space-5) var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  box-shadow:
+    0 16px 40px var(--chrome-shadow),
+    0 1px 0 var(--chrome-metal-edge1) inset;
+  overflow: hidden;
+}
+
+@media (min-width: 45rem) {
+  .reading-page {
+    max-width: 52rem;
+    margin: var(--space-7) auto var(--space-8);
+    border-radius: var(--radius-slab);
+    box-shadow:
+      0 32px 80px var(--chrome-shadow),
+      0 1px 0 var(--chrome-metal-edge1) inset;
+  }
+}
+
+/* Rendered inside .reading-page -- the card -- so it takes the card's own
+   page.* tokens rather than the surrounding chrome.* ones. Found the same
+   way the pull-up button's bug was: chrome-ink-muted is a dark-ground
+   colour, and this text lives on a light surface. The rule going forward: a
+   register colours the ground and the chrome around the reading surface;
+   the reading surface (and everything drawn on it) takes the surface's own
+   inks. */
+.reading-status {
+  padding: var(--space-8) var(--space-4);
+  max-width: var(--type-passage-measure);
+  margin: 0 auto;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-md);
+  color: var(--page-ink-muted);
+  position: relative;
+  display: inline-block;
+}
+
+/* Shimmer, re-derived from interface-inspiration/shimmer-text.txt and the
+   doodle-intake prototype's .shim (ADR-019 Decision 4) -- legitimate here
+   because no passage is on screen yet: this text is what shows *before* the
+   reading state exists, not inside it. */
+.reading-status::before {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+    90deg,
+    transparent 0 40%,
+    var(--page-ink) 50%,
+    transparent 60% 100%
+  );
+  background-size: 300% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: reading-status-shimmer 1600ms linear infinite;
+}
+
+@keyframes reading-status-shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reading-status::before {
+    animation: none;
+    content: none;
+  }
+}

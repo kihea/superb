@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-019",
+  "pool": "sourced",
+  "text": "“What is the matter?” he cried. “For God’s sake, what are you doing!” I kept on creeping just the same, but I looked at him over my shoulder. “I’ve got out at last,” said I, “in spite of you and Jane! And I’ve pulled off most of the paper, so you can’t put me back!” Now why should that man have fainted? But he did, and right across my path by the wall, so that I had to creep over him every time!",
+  "words": [
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

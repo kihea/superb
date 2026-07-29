@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-rip-van-winkle-015",
+  "pool": "sourced",
+  "text": "The very character of the people seemed changed. There was a busy, bustling, disputatious tone about it, instead of the accustomed phlegm and drowsy tranquillity. He looked in vain for the sage Nicholas Vedder, with his broad face, double chin, and fair long pipe, uttering clouds of tobacco-smoke instead of idle speeches; or Van Bummel, the schoolmaster, doling forth the contents of an ancient newspaper. In place of these, a lean, bilious-looking fellow, with his pockets full of handbills, was haranguing vehemently about rights of citizens--elections--members of congress--liberty--Bunker’s Hill--heroes of seventy-six--and other words, which were a perfect Babylonish jargon to the bewildered Van Winkle. The appearance of Rip, with his long, grizzled beard, his rusty fowling-piece, his uncouth dress, and an army of women and children at his heels, soon attracted the attention of the tavern politicians.",
+  "words": [
+    {
+      "word": "vain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "speeches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Rip Van Winkle",
+    "author": "Washington Irving",
+    "year": 1819,
+    "source": "Project Gutenberg #60976",
+    "url": "https://www.gutenberg.org/ebooks/60976",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

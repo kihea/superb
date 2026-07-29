@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-010",
+  "pool": "sourced",
+  "text": "The darkness of the evening enveloped us; we could not see much beyond the narrow path bordered by trees, which ran behind the château. The sobs had ceased. “If we can’t hear we may at least try to see,” said Rouletabille. And, making a sign to me to deaden the sound of my steps, he led me across the path to the trunk of a tall beech tree, the white bole of which was visible in the darkness. This tree grew exactly in front of the window in which we were so much interested, its lower branches being on a level with the first floor of the château.",
+  "words": [
+    {
+      "word": "beech",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "branches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

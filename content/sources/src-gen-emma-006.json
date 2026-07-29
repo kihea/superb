@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-emma-006",
+  "pool": "sourced",
+  "text": "you forget yourself—you take me for my friend—any message to Miss Smith I shall be happy to deliver; but no more of this to me, if you please.” “Miss Smith!—message to Miss Smith!—What could she possibly mean!”—And he repeated her words with such assurance of accent, such boastful pretence of amazement, that she could not help replying with quickness, “Mr. Elton, this is the most extraordinary conduct! and I can account for it only in one way; you are not yourself, or you could not speak either to me, or of Harriet, in such a manner. Command yourself enough to say no more, and I will endeavour to forget it.” But Mr. Elton had only drunk wine enough to elevate his spirits, not at all to confuse his intellects. He perfectly knew his own meaning; and having warmly protested against her suspicion as most injurious, and slightly touched upon his respect for Miss Smith as her friend,—but acknowledging his wonder that Miss Smith should be mentioned at all,—he resumed the subject of his own passion, and was very urgent for a favourable answer.",
+  "words": [
+    {
+      "word": "replying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confuse",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "warmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resumed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

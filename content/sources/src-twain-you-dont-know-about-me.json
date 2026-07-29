@@ -1,9 +1,15 @@
 {
   "id": "src-twain-you-dont-know-about-me",
   "pool": "sourced",
+  "topic": "travel",
   "text": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary. Aunt Polly—Tom's Aunt Polly, she is—and Mary, and the Widow Douglas is all told about in that book, which is mostly a true book, with some stretchers, as I said before.",
   "words": [
-    "stretchers"
+    {
+      "word": "stretchers",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Adventures of Huckleberry Finn",
@@ -11,7 +17,7 @@
     "year": 1884,
     "source": "Project Gutenberg #76",
     "url": "https://www.gutenberg.org/ebooks/76",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

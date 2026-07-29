@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-014",
+  "pool": "sourced",
+  "text": "Very well, then; is a preacher going to deceive a steamboat clerk? is he going to deceive a ship clerk?—so as to get them to let Miss Mary Jane go aboard? Now you know he ain’t. What will he do, then? Why, he’ll say, ‘It’s a great pity, but my church matters has got to get along the best way they can; for my niece has been exposed to the dreadful pluribus-unum mumps, and so it’s my bounden duty to set down here and wait the three months it takes to show on her if she’s got it.’ But never mind, if you think it’s best to tell your uncle Harvey—” “Shucks, and stay fooling around here when we could all be having good times in England whilst we was waiting to find out whether Mary Jane’s got it or not?",
+  "words": [
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

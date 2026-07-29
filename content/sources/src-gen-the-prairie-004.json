@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prairie-004",
+  "pool": "sourced",
+  "text": "I'm on them so much that by bedtime my ankles feel like a chocolat mousse that's been left out in the sun. Yet this isn't a whimper, Matilda Anne, for when I turn in I sleep like a child. No more counting and going to the medicine-chest for coal-tar pills. I abjure them. I, who used to have so many tricks to bring the starry-eyed goddess bending over my pillow, hereby announce myself as the noblest sleeper north of the Line!",
+  "words": [
+    {
+      "word": "bedtime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

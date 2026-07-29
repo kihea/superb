@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-silas-marner-008",
+  "pool": "sourced",
+  "text": "But this was spoken of in the village as the random talk of youth, “as if it was only Mr. Snell who had seen something odd about the pedlar!” On the contrary, there were at least half-a-dozen who were ready to go before Justice Malam, and give in much more striking testimony than any the landlord could furnish. It was to be hoped Mr. Godfrey would not go to Tarley and throw cold water on what Mr. Snell said there, and so prevent the justice from drawing up a warrant. He was suspected of intending this, when, after mid-day, he was seen setting off on horseback in the direction of Tarley. But by this time Godfrey’s interest in the robbery had faded before his growing anxiety about Dunstan and Wildfire, and he was going, not to Tarley, but to Batherley, unable to rest in uncertainty about them any longer.",
+  "words": [
+    {
+      "word": "contrary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

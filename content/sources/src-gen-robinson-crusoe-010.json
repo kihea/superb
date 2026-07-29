@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-robinson-crusoe-010",
+  "pool": "sourced",
+  "text": "However, though my little periagua was finished, yet the size of it was not at all answerable to the design which I had in view when I made the first; I mean of venturing over to the terra firma, where it was above forty miles broad; accordingly, the smallness of my boat assisted to put an end to that design, and now I thought no more of it. As I had a boat, my next design was to make a cruise round the island; for as I had been on the other side in one place, crossing, as I have already described it, over the land, so the discoveries I made in that little journey made me very eager to see other parts of the coast; and now I had a boat, I thought of nothing but sailing round the island. For this purpose, that I might do everything with discretion and consideration, I fitted up a little mast in my boat, and made a sail too out of some of the pieces of the ship’s sails which lay in store, and of which I had a great stock by me.",
+  "words": [
+    {
+      "word": "terra",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accordingly",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "sailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

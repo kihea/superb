@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-persuasion-002",
+  "pool": "sourced",
+  "text": "Kellynch Hall was to be let. This, however, was a profound secret, not to be breathed beyond their own circle. Sir Walter could not have borne the degradation of being known to design letting his house. Mr Shepherd had once mentioned the word “advertise,” but never dared approach it again. Sir Walter spurned the idea of its being offered in any manner; forbad the slightest hint being dropped of his having such an intention; and it was only on the supposition of his being spontaneously solicited by some most unexceptionable applicant, on his own terms, and as a great favour, that he would let it at all.",
+  "words": [
+    {
+      "word": "profound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spontaneously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

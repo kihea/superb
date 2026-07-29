@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-daisy-miller-014",
+  "pool": "sourced",
+  "text": "“The poor girl’s only fault,” he presently added, “is that she is very uncultivated.” “She is naturally indelicate,” Mrs. Walker declared. “Take that example this morning. How long had you known her at Vevey?” “A couple of days.” “Fancy, then, her making it a personal matter that you should have left the place!” Winterbourne was silent for some moments; then he said, “I suspect, Mrs. Walker, that you and I have lived too long at Geneva!” And he added a request that she should inform him with what particular design she had made him enter her carriage. “I wished to beg you to cease your relations with Miss Miller--not to flirt with her--to give her no further opportunity to expose herself--to let her alone, in short.” “I’m afraid I can’t do that,” said Winterbourne. “I like her extremely.” “All the more reason that you shouldn’t help her to make a scandal.” “There shall be nothing scandalous in my attentions to her.” “There certainly will be in the way she takes them.",
+  "words": [
+    {
+      "word": "expose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scandalous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

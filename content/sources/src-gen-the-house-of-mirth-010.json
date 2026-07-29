@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-mirth-010",
+  "pool": "sourced",
+  "text": "If their house was shabby, it was exquisitely kept; if there were good books on the shelves there were also good dishes on the table. Selden senior had an eye for a picture, his wife an understanding of old lace; and both were so conscious of restraint and discrimination in buying that they never quite knew how it was that the bills mounted up. Though many of Selden’s friends would have called his parents poor, he had grown up in an atmosphere where restricted means were felt only as a check on aimless profusion: where the few possessions were so good that their rarity gave them a merited relief, and abstinence was combined with elegance in a way exemplified by Mrs. Selden’s knack of wearing her old velvet as if it were new. A man has the advantage of being delivered early from the home point of view, and before Selden left college he had learned that there are as many different ways of going without money as of spending it.",
+  "words": [
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of Mirth",
+    "author": "Edith Wharton",
+    "year": 1905,
+    "source": "Project Gutenberg #284",
+    "url": "https://www.gutenberg.org/ebooks/284",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

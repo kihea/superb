@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-012",
+  "pool": "sourced",
+  "text": "The big shoulders, black brows and black mousquetaire swagger of Flambeau were a great contrast. All these trivialities Brown heard and saw; but heard them as a tired man hears a tune in the railway wheels, or saw them as a sick man sees the pattern of his wall-paper. No one can calculate the turns of mood in convalescence: but Father Brown’s depression must have had a great deal to do with his mere unfamiliarity with the sea. For as the river mouth narrowed like the neck of a bottle, and the water grew calmer and the air warmer and more earthly, he seemed to wake up and take notice like a baby. They had reached that phase just after sunset when air and water both look bright, but earth and all its growing things look almost black by comparison.",
+  "words": [
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "narrowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "earthly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

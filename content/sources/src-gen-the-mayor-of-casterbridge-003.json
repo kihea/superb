@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-003",
+  "pool": "sourced",
+  "text": "“Ah—no!” said the Scotchman, with melancholy fatality in his voice, “I’m only passing thirrough! I am on my way to Bristol, and on frae there to foreign parts.” “We be truly sorry to hear it,” said Solomon Longways. “We can ill afford to lose tuneful wynd-pipes like yours when they fall among us. And verily, to mak’ acquaintance with a man a-come from so far, from the land o’ perpetual snow, as we may say, where wolves and wild boars and other dangerous animalcules be as common as blackbirds here-about—why, ’tis a thing we can’t do every day; and there’s good sound information for bide-at-homes like we when such a man opens his mouth.” “Nay, but ye mistake my country,” said the young man, looking round upon them with tragic fixity, till his eye lighted up and his cheek kindled with a sudden enthusiasm to right their errors. “There are not perpetual snow and wolves at all in it!—except snow in winter, and—well—a little in summer just sometimes, and a ‘gaberlunzie’ or two stalking about here and there, if ye may call them dangerous.",
+  "words": [
+    {
+      "word": "wolves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

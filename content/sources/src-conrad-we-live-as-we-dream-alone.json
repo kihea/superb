@@ -1,9 +1,15 @@
 {
   "id": "src-conrad-we-live-as-we-dream-alone",
   "pool": "sourced",
+  "topic": "wilderness",
   "text": "“We live, as we dream—alone....” He paused again as if reflecting, then added: “Of course in this you fellows see more than I could then. You see me, whom you know....” It had become so pitch dark that we listeners could hardly see one another. For a long time already he, sitting apart, had been no more to us than a voice. There was not a word from anybody. The others might have been asleep, but I was awake. I listened, I listened on the watch for the sentence, for the word, that would give me the clue to the faint uneasiness inspired by this narrative that seemed to shape itself without human lips in the heavy night-air of the river. “...Yes—I let him run on,” Marlow began again, “and think what he pleased about the powers that were behind me. I did! And there was nothing behind me! There was nothing but that wretched, old, mangled steamboat I was leaning against.”",
   "words": [
-    "wretched"
+    {
+      "word": "wretched",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",
@@ -11,7 +17,7 @@
     "year": 1899,
     "source": "Project Gutenberg #219",
     "url": "https://www.gutenberg.org/ebooks/219",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

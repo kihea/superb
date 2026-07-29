@@ -1,10 +1,21 @@
 {
   "id": "src-stoker-the-dead-travel-fast",
   "pool": "sourced",
+  "topic": "supernatural",
   "text": "“Denn die Todten reiten schnell”—(“For the dead travel fast.”) The strange driver evidently heard the words, for he looked up with a gleaming smile. The passenger turned his face away, at the same time putting out his two fingers and crossing himself. “Give me the Herr's luggage,” said the driver; and with exceeding alacrity my bags were handed out and put in the calèche. Then I descended from the side of the coach, as the calèche was close alongside, the driver helping me with a hand which caught my arm in a grip of steel; his strength must have been prodigious. Without a word he shook his reins, the horses turned, and we swept into the darkness of the Pass.",
   "words": [
-    "alacrity",
-    "prodigious"
+    {
+      "word": "alacrity",
+      "signals": [
+        "hand-picked"
+      ]
+    },
+    {
+      "word": "prodigious",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Dracula",
@@ -12,7 +23,7 @@
     "year": 1897,
     "source": "Project Gutenberg #345",
     "url": "https://www.gutenberg.org/ebooks/345",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

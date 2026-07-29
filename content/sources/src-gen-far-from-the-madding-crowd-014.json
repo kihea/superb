@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-014",
+  "pool": "sourced",
+  "text": "What put that into your head?” “I thought you didn’t look quite so topping as you used to, that was all.” “Indeed, then you are mistaken,” said Boldwood, shortly. “Nothing hurts me. My constitution is an iron one.” “I’ve been working hard to get our ricks covered, and was barely in time. Never had such a struggle in my life.... Yours of course are safe, sir.” “Oh yes.” Boldwood added, after an interval of silence, “What did you ask, Oak?” “Your ricks are all covered before this time?” “No.” “At any rate, the large ones upon the stone staddles?” “They are not.” “Those under the hedge?” “No.",
+  "words": [
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hedge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

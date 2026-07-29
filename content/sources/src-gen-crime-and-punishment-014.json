@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-crime-and-punishment-014",
+  "pool": "sourced",
+  "text": "But the poor fellow is saved by the criminal’s temperament, worse luck for him! But young people carried away by their own wit don’t think of that ‘when they overstep all obstacles,’ as you wittily and cleverly expressed it yesterday. He will lie--that is, the man who is a special case, the incognito, and he will lie well, in the cleverest fashion; you might think he would triumph and enjoy the fruits of his wit, but at the most interesting, the most flagrant moment he will faint. Of course there may be illness and a stuffy room as well, but anyway! Anyway he’s given us the idea!",
+  "words": [
+    {
+      "word": "cleverly",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "triumph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

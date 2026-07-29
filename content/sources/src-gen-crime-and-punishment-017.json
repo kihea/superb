@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-crime-and-punishment-017",
+  "pool": "sourced",
+  "text": "What made her most furious was the weeping and terror of Kolya and Lida. Some effort had been made to dress the children up as street singers are dressed. The boy had on a turban made of something red and white to look like a Turk. There had been no costume for Lida; she simply had a red knitted cap, or rather a night cap that had belonged to Marmeladov, decorated with a broken piece of white ostrich feather, which had been Katerina Ivanovna’s grandmother’s and had been preserved as a family possession. Polenka was in her everyday dress; she looked in timid perplexity at her mother, and kept at her side, hiding her tears.",
+  "words": [
+    {
+      "word": "weeping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "costume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knitted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

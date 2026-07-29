@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-014",
+  "pool": "sourced",
+  "text": "Below us we could see the windings of the river, and Black Hawk, grouped among its trees, and, beyond, the rolling country, swelling gently until it met the sky. We could recognize familiar farm-houses and windmills. Each of the girls pointed out to me the direction in which her father’s farm lay, and told me how many acres were in wheat that year and how many in corn. ‘My old folks,’ said Tiny Soderball, ‘have put in twenty acres of rye. They get it ground at the mill, and it makes nice bread.",
+  "words": [
+    {
+      "word": "corn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rye",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

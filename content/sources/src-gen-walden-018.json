@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-walden-018",
+  "pool": "sourced",
+  "text": "The grass flames up on the hillsides like a spring fire,—“et primitus oritur herba imbribus primoribus evocata,”—as if the earth sent forth an inward heat to greet the returning sun; not yellow but green is the color of its flame;—the symbol of perpetual youth, the grass-blade, like a long green ribbon, streams from the sod into the summer, checked indeed by the frost, but anon pushing on again, lifting its spear of last year’s hay with the fresh life below. It grows as steadily as the rill oozes out of the ground. It is almost identical with that, for in the growing days of June, when the rills are dry, the grass blades are their channels, and from year to year the herds drink at this perennial green stream, and the mower draws from it betimes their winter supply. So our human life but dies down to its root, and still puts forth its green blade to eternity. Walden is melting apace.",
+  "words": [
+    {
+      "word": "flames",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perennial",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

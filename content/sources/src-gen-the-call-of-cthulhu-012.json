@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-012",
+  "pool": "sourced",
+  "text": "So, after thoroughly studying the manuscript again and correlating the theosophical and anthropological notes with the cult narrative of Legrasse, I made a trip to Providence to see the sculptor and give him the rebuke I thought proper for so boldly imposing upon a learned and aged man. Wilcox still lived alone in the Fleur-de-Lys Building in Thomas Street, a hideous Victorian imitation of Seventeenth Century Breton architecture which flaunts its stuccoed front amidst the lovely Colonial houses on the ancient hill, and under the very shadow of the finest Georgian steeple in America. I found him at work in his rooms, and at once conceded from the specimens scattered about that his genius is indeed profound and authentic. He will, I believe, be heard from sometime as one of the great decadents; for he has crystallized in clay and will one day mirror in marble those nightmares and fantasies which Arthur Machen evokes in prose, and Clark Ashton Smith makes visible in verse and in painting. Dark, frail, and somewhat unkempt in aspect, he turned languidly at my knock and asked me my business without rising.",
+  "words": [
+    {
+      "word": "profound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

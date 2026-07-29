@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-rip-van-winkle-012",
+  "pool": "sourced",
+  "text": "On a level spot in the centre was a company of odd-looking personages playing at ninepins. They were dressed in a quaint, outlandish fashion; some wore short doublets, others jerkins, with long knives in their belts, and most of them had enormous breeches, of similar style with that of the guide’s. Their visages, too, were peculiar; one had a large beard, broad face, and small piggish eyes; the face of another seemed to consist entirely of nose, and was surmounted by a white sugar-loaf hat, set off with a little red cock’s tail. They all had beards, of various shapes and colours. There was one who seemed to be the commander.",
+  "words": [
+    {
+      "word": "knives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peculiar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Rip Van Winkle",
+    "author": "Washington Irving",
+    "year": 1819,
+    "source": "Project Gutenberg #60976",
+    "url": "https://www.gutenberg.org/ebooks/60976",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-013",
+  "pool": "sourced",
+  "text": "The Long Noses form a peculiar company, under the direct patronage of the god Tingou. Attired after the fashion of the Middle Ages, they bore upon their shoulders a splendid pair of wings; but what especially distinguished them was the long noses which were fastened to their faces, and the uses which they made of them. These noses were made of bamboo, and were five, six, and even ten feet long, some straight, others curved, some ribboned, and some having imitation warts upon them. It was upon these appendages, fixed tightly on their real noses, that they performed their gymnastic exercises. A dozen of these sectaries of Tingou lay flat upon their backs, while others, dressed to represent lightning-rods, came and frolicked on their noses, jumping from one to another, and performing the most skilful leapings and somersaults.",
+  "words": [
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bamboo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rods",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

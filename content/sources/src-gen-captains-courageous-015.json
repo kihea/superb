@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-captains-courageous-015",
+  "pool": "sourced",
+  "text": "But the cook was a black; master of strategy. He did not get the dories aboard till he had given the more striking points of the tale, explaining as he backed and bumped round the counter how Harvey was the mascot to destroy any possible bad luck. So the boys came override as rather uncanny heroes, and every one asked them questions instead of pounding them for making trouble. Little Penn delivered quite a speech on the folly of superstitions; but public opinion was against him and in favour of Long Jack, who told the most excruciating ghost-stories, till nearly midnight. Under that influence no one except Salters and Penn said anything about \"idolatry,\" when the cook put a lighted candle, a cake of flour and water, and a pinch of salt on a shingle, and floated them out astern to keep the Frenchman quiet in case he was still restless.",
+  "words": [
+    {
+      "word": "mascot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "pinch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

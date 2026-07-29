@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-002",
+  "pool": "sourced",
+  "text": "Because I'm a magician myself.” “Thou!” The boy recoiled a step, and caught his breath, for the thing hit him rather sudden; but the aspect which he took on was very, very respectful. I took quick note of that; it indicated that a humbug didn't need to have a reputation in this asylum; people stood ready to take him at his word, without that. I resumed. “I've known Merlin seven hundred years, and he--” “Seven hun--” “Don't interrupt me. He has died and come alive again thirteen times, and traveled under a new name every time: Smith, Jones, Robinson, Jackson, Peters, Haskins, Merlin--a new alias every time he turns up.",
+  "words": [
+    {
+      "word": "resumed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alias",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

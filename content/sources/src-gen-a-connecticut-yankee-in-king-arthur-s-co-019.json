@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-019",
+  "pool": "sourced",
+  "text": "War, and the knights of the realm divided into a king's party and a Sir Launcelot's party.” “Yes--that was the way of it. The king sent the queen to the stake, proposing to purify her with fire. Launcelot and his knights rescued her, and in doing it slew certain good old friends of yours and mine--in fact, some of the best we ever had; to wit, Sir Belias le Orgulous, Sir Segwarides, Sir Griflet le Fils de Dieu, Sir Brandiles, Sir Aglovale--” “Oh, you tear out my heartstrings.” “--wait, I'm not done yet--Sir Tor, Sir Gauter, Sir Gillimer--” “The very best man in my subordinate nine. What a handy right-fielder he was!” “--Sir Reynold's three brothers, Sir Damus, Sir Priamus, Sir Kay the Stranger--” “My peerless short-stop! I've seen him catch a daisy-cutter in his teeth.",
+  "words": [
+    {
+      "word": "realm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-009",
+  "pool": "sourced",
+  "text": "“Nothing,” said Sikes, releasing his hold of Oliver. “Now!” In the short time he had had to collect his senses, the boy had firmly resolved that, whether he died in the attempt or not, he would make one effort to dart upstairs from the hall, and alarm the family. Filled with this idea, he advanced at once, but stealthily. “Come back!” suddenly cried Sikes aloud. back!” Scared by the sudden breaking of the dead stillness of the place, and by a loud cry which followed it, Oliver let his lantern fall, and knew not whether to advance or fly.",
+  "words": [
+    {
+      "word": "senses",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "dart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

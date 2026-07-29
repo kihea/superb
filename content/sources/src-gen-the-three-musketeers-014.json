@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-014",
+  "pool": "sourced",
+  "text": "“We must extricate ourselves from this position.” “But how?” “Listen! You must try to see her, and have an explanation with her. Say to her: ‘Peace or war! My word as a gentleman never to say anything of you, never to do anything against you; on your side, a solemn oath to remain neutral with respect to me. If not, I will apply to the chancellor, I will apply to the king, I will apply to the hangman, I will move the courts against you, I will denounce you as branded, I will bring you to trial; and if you are acquitted, well, by the faith of a gentleman, I will kill you at the corner of some wall, as I would a mad dog.’” “I like the means well enough,” said D’Artagnan, “but where and how to meet with her?” “Time, dear friend, time brings round opportunity; opportunity is the martingale of man.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oath",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

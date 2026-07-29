@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-003",
+  "pool": "sourced",
+  "text": "A shadow in his life had always been that his flock ended in mutton—that a day came and found every shepherd an arrant traitor to his defenseless sheep. His first feeling now was one of pity for the untimely fate of these gentle ewes and their unborn lambs. It was a second to remember another phase of the matter. The sheep were not insured. All the savings of a frugal life had been dispersed at a blow; his hopes of being an independent farmer were laid low—possibly for ever.",
+  "words": [
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lambs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

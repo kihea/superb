@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-emma-015",
+  "pool": "sourced",
+  "text": "Where is it? This is a sort of dull-looking evening, that ought to be treated rather as winter than summer. We had great amusement with those letters one morning. I want to puzzle you again.” Emma was pleased with the thought; and producing the box, the table was quickly scattered over with alphabets, which no one seemed so much disposed to employ as their two selves. They were rapidly forming words for each other, or for any body else who would be puzzled.",
+  "words": [
+    {
+      "word": "puzzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "selves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

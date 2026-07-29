@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-hard-times-010",
+  "pool": "sourced",
+  "text": "‘But oh, my friends and brothers! Oh, men and Englishmen, the down-trodden operatives of Coketown! What shall we say of that man—that working-man, that I should find it necessary so to libel the glorious name—who, being practically and well acquainted with the grievances and wrongs of you, the injured pith and marrow of this land, and having heard you, with a noble and majestic unanimity that will make Tyrants tremble, resolve for to subscribe to the funds of the United Aggregate Tribunal, and to abide by the injunctions issued by that body for your benefit, whatever they may be—what, I ask you, will you say of that working-man, since such I must acknowledge him to be, who, at such a time, deserts his post, and sells his flag; who, at such a time, turns a traitor and a craven and a recreant, who, at such a time, is not ashamed to make to you the dastardly and humiliating avowal that he will hold himself aloof, and will not be one of those associated in the gallant stand for Freedom and for Right?’ The assembly was divided at this point.",
+  "words": [
+    {
+      "word": "subscribe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humiliating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

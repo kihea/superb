@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-008",
+  "pool": "sourced",
+  "text": "In about half an hour John and Mr. York, who was to be our new coachman, came in to see us. “Now, Mr. Manly,” he said, after carefully looking at us both, “I can see no fault in these horses; but we all know that horses have their peculiarities as well as men, and that sometimes they need different treatment. I should like to know if there is anything particular in either of these that you would like to mention.” “Well,” said John, “I don't believe there is a better pair of horses in the country, and right grieved I am to part with them, but they are not alike. The black one is the most perfect temper I ever knew; I suppose he has never known a hard word or a blow since he was foaled, and all his pleasure seems to be to do what you wish; but the chestnut, I fancy, must have had bad treatment; we heard as much from the dealer.",
+  "words": [
+    {
+      "word": "chestnut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dealer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

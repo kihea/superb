@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-011",
+  "pool": "sourced",
+  "text": "A moving hymn was sung, and the text followed: “I am the Resurrection and the Life.” As the service proceeded, the clergyman drew such pictures of the graces, the winning ways, and the rare promise of the lost lads that every soul there, thinking he recognized these pictures, felt a pang in remembering that he had persistently blinded himself to them always before, and had as persistently seen only faults and flaws in the poor boys. The minister related many a touching incident in the lives of the departed, too, which illustrated their sweet, generous natures, and the people could easily see, now, how noble and beautiful those episodes were, and remembered with grief that at the time they occurred they had seemed rank rascalities, well deserving of the cowhide. The congregation became more and more moved, as the pathetic tale went on, till at last the whole company broke down and joined the weeping mourners in a chorus of anguished sobs, the preacher himself giving way to his feelings, and crying in the pulpit.",
+  "words": [
+    {
+      "word": "proceeded",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "clergyman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blinded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illustrated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sobs",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "preacher",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulpit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

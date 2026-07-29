@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-robinson-crusoe-011",
+  "pool": "sourced",
+  "text": "Besides this, I had my country seat, and I had now a tolerable plantation there also; for, first, I had my little bower, as I called it, which I kept in repair—that is to say, I kept the hedge which encircled it in constantly fitted up to its usual height, the ladder standing always in the inside. I kept the trees, which at first were no more than stakes, but were now grown very firm and tall, always cut, so that they might spread and grow thick and wild, and make the more agreeable shade, which they did effectually to my mind. In the middle of this I had my tent always standing, being a piece of a sail spread over poles, set up for that purpose, and which never wanted any repair or renewing; and under this I had made me a squab or couch with the skins of the creatures I had killed, and with other soft things, and a blanket laid on them, such as belonged to our sea-bedding, which I had saved; and a great watch-coat to cover me.",
+  "words": [
+    {
+      "word": "stakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "poles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "renewing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bedding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

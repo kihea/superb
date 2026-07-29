@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-white-fang-009",
+  "pool": "sourced",
+  "text": "When he was rolled on his side he ceased to growl, when the fingers pressed and prodded at the base of his ears the pleasurable sensation increased; and when, with a final rub and scratch, the man left him alone and went away, all fear had died out of White Fang. He was to know fear many times in his dealing with man; yet it was a token of the fearless companionship with man that was ultimately to be his. After a time, White Fang heard strange noises approaching. He was quick in his classification, for he knew them at once for man-animal noises. A few minutes later the remainder of the tribe, strung out as it was on the march, trailed in.",
+  "words": [
+    {
+      "word": "growl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scratch",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fearless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

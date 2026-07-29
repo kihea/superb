@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-008",
+  "pool": "sourced",
+  "text": "If cattle have got their proper load, you never can persuade a woman that they’ll not bear something more. What is the cause of this here?’ ‘Would these two travellers make much difference to the horses, if we took them with us?’ asked his mistress, offering no reply to the philosophical inquiry, and pointing to Nell and the old man, who were painfully preparing to resume their journey on foot. ‘They’d make a difference in course,’ said George doggedly. ‘Would they make much difference?’ repeated his mistress. ‘They can’t be very heavy.’ ‘The weight o’ the pair, mum,’ said George, eyeing them with the look of a man who was calculating within half an ounce or so, ‘would be a trifle under that of Oliver Cromwell.’ Nell was very much surprised that the man should be so accurately acquainted with the weight of one whom she had read of in books as having lived considerably before their time, but speedily forgot the subject in the joy of hearing that they were to go forward in the caravan, for which she thanked its lady with unaffected earnestness.",
+  "words": [
+    {
+      "word": "persuade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "calculating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "caravan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

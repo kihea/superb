@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-jane-eyre-011",
+  "pool": "sourced",
+  "text": "Strongly-marked horizontal eyebrows must be traced under that brow; then followed, naturally, a well-defined nose, with a straight ridge and full nostrils; then a flexible-looking mouth, by no means narrow; then a firm chin, with a decided cleft down the middle of it: of course, some black whiskers were wanted, and some jetty hair, tufted on the temples, and waved above the forehead. Now for the eyes: I had left them to the last, because they required the most careful working. I drew them large; I shaped them well: the eyelashes I traced long and sombre; the irids lustrous and large. but not quite the thing,” I thought, as I surveyed the effect: “they want more force and spirit;” and I wrought the shades blacker, that the lights might flash more brilliantly—a happy touch or two secured success. There, I had a friend’s face under my gaze; and what did it signify that those young ladies turned their backs on me?",
+  "words": [
+    {
+      "word": "eyebrows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flexible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

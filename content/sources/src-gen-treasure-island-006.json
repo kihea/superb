@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-treasure-island-006",
+  "pool": "sourced",
+  "text": "Or cut ’em down like that much pork? That would have been Flint’s, or Billy Bones’s.” “Billy was the man for that,” said Israel. “‘Dead men don’t bite,’ says he. Well, he’s dead now hisself; he knows the long and short on it now; and if ever a rough hand come to port, it was Billy.” “Right you are,” said Silver; “rough and ready. But mark you here, I’m an easy man--I’m quite the gentleman, says you; but this time it’s serious.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

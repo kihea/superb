@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prairie-003",
+  "pool": "sourced",
+  "text": "And as I had the good sense to bring out with me no less than three cook-books, from Brentano's, I am able to attempt more and more elaborate dishes. Olie has a wire-fenced square where he grew beets and carrots and onions and turnips, and the biggest potatoes I ever saw. These will be pitted before the heavy frosts come. We get our butter and lard by the pail, and our flour by the sack, but getting things in quantities sometimes has its drawbacks. When I examined the oatmeal box I found it had weavels in it, and promptly threw all that meal away.",
+  "words": [
+    {
+      "word": "flour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drawbacks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oatmeal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

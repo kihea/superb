@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-013",
+  "pool": "sourced",
+  "text": "All was as we had seen it in the daytime. Then creeping up to me and making a trumpet of his hand, he whispered into my ear again so gently that it was all that I could do to distinguish the words: “The least sound would be fatal to our plans.” I nodded to show that I had heard. “We must sit without light. He would see it through the ventilator.” I nodded again. “Do not go asleep; your very life may depend upon it.",
+  "words": [
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-018",
+  "pool": "sourced",
+  "text": "The Count meanwhile, on his return home, had found M. Du Pont in one of those fits of despondency, which his attachment to Emily frequently occasioned him, an attachment, that had subsisted too long to be easily subdued, and which had already outlived the opposition of his friends. M. Du Pont had first seen Emily in Gascony, during the lifetime of his parent, who, on discovering his son’s partiality for Mademoiselle St. Aubert, his inferior in point of fortune, forbade him to declare it to her family, or to think of her more. During the life of his father, he had observed the first command, but had found it impracticable to obey the second, and had, sometimes, soothed his passion by visiting her favourite haunts, among which was the fishing-house, where, once or twice, he addressed her in verse, concealing his name, in obedience to the promise he had given his father. There too he played the pathetic air, to which she had listened with such surprise and admiration; and there he found the miniature, that had since cherished a passion fatal to his repose.",
+  "words": [
+    {
+      "word": "discovering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haunts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

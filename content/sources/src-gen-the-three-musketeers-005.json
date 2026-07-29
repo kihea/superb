@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-005",
+  "pool": "sourced",
+  "text": "“And I keep my word. Your hand, madame, your hand, and I depart!” Anne of Austria stretched forth her hand, closing her eyes, and leaning with the other upon Estafania, for she felt that her strength was about to fail her. Buckingham pressed his lips passionately to that beautiful hand, and then rising, said, “Within six months, if I am not dead, I shall have seen you again, madame—even if I have to overturn the world.” And faithful to the promise he had made, he rushed out of the apartment. In the corridor he met Mme. Bonacieux, who waited for him, and who, with the same precautions and the same good luck, conducted him out of the Louvre.",
+  "words": [
+    {
+      "word": "precautions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

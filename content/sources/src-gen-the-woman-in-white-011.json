@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-woman-in-white-011",
+  "pool": "sourced",
+  "text": "I was cramped by my position and chilled to the bones. When I first tried to move, the effort was so painful to me that I was obliged to desist. I tried a second time, and succeeded in rising to my knees on the wet roof. As I crept to the wall, and raised myself against it, I looked back, and saw the window of the Count’s dressing-room gleam into light. My sinking courage flickered up in me again, and kept my eyes fixed on his window, as I stole my way back, step by step, past the wall of the house.",
+  "words": [
+    {
+      "word": "cramped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crept",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sinking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

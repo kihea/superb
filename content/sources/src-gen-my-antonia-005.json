@@ -1,0 +1,54 @@
+{
+  "id": "src-gen-my-antonia-005",
+  "pool": "sourced",
+  "text": "Grandmother insisted on his drinking a glass of Virginia apple-brandy after his long walk in the cold, and when a faint flush came up in his cheeks, his features might have been cut out of a shell, they were so transparent. He said almost nothing, and smiled rarely; but as he rested there we all had a sense of his utter content. As it grew dark, I asked whether I might light the Christmas tree before the lamp was brought. When the candle-ends sent up their conical yellow flames, all the coloured figures from Austria stood out clear and full of meaning against the green boughs. Mr. Shimerda rose, crossed himself, and quietly knelt down before the tree, his head sunk forward.",
+  "words": [
+    {
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flames",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coloured",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

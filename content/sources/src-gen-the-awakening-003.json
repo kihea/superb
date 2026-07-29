@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-awakening-003",
+  "pool": "sourced",
+  "text": "“Do you see Mrs. Pontellier starting back with the children? She will be in late to luncheon again. She never starts to get ready for luncheon till the last minute.” Clatter, clatter! “Where are you going?” “Where did you say the Goncourt was?” IX Every light in the hall was ablaze; every lamp turned as high as it could be without smoking the chimney or threatening explosion. The lamps were fixed at intervals against the wall, encircling the whole room.",
+  "words": [
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamps",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

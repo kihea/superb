@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-war-and-peace-016",
+  "pool": "sourced",
+  "text": "No one replied. Natásha rose slowly and carefully, crossed herself, and stepped cautiously on the cold and dirty floor with her slim, supple, bare feet. The boards of the floor creaked. Stepping cautiously from one foot to the other she ran like a kitten the few steps to the door and grasped the cold door handle. It seemed to her that something heavy was beating rhythmically against all the walls of the room: it was her own heart, sinking with alarm and terror and overflowing with love.",
+  "words": [
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sinking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

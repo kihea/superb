@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-david-copperfield-013",
+  "pool": "sourced",
+  "text": "As I left him, resuming his stool and his pen, and rolling his head in his stock, to get it into easier writing order, I clearly perceived that there was something interposed between him and me, since he had come into his new functions, which prevented our getting at each other as we used to do, and quite altered the character of our intercourse. There was no one in the quaint old drawing-room, though it presented tokens of Mrs. Heep’s whereabouts. I looked into the room still belonging to Agnes, and saw her sitting by the fire, at a pretty old-fashioned desk she had, writing. My darkening the light made her look up. What a pleasure to be the cause of that bright change in her attentive face, and the object of that sweet regard and welcome!",
+  "words": [
+    {
+      "word": "stool",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prevented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tokens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

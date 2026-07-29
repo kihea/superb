@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-005",
+  "pool": "sourced",
+  "text": "“Well?” “Nothing,” said he, throwing it down. “It is a blank half-sheet of paper, without even a water-mark upon it. I think we have drawn as much as we can from this curious letter; and now, Sir Henry, has anything else of interest happened to you since you have been in London?” “Why, no, Mr. Holmes. I think not.” “You have not observed anyone follow or watch you?” “I seem to have walked right into the thick of a dime novel,” said our visitor. “Why in thunder should anyone follow or watch me?” “We are coming to that.",
+  "words": [
+    {
+      "word": "blank",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "visitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

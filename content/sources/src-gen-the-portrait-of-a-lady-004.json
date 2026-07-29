@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-004",
+  "pool": "sourced",
+  "text": "I had no objection to her giving a report of my conversation, if she liked but I didn’t like the idea that she hadn’t taken the trouble to listen to it. Of course I talk like an American--I can’t talk like a Hottentot. However I talk, I’ve made them understand me pretty well over here. But I don’t talk like the old gentleman in that lady’s novel. He wasn’t an American; we wouldn’t have him over there at any price.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

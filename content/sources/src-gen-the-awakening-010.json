@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-awakening-010",
+  "pool": "sourced",
+  "text": "Alcée Arobin was one of them. He was a familiar figure at the race course, the opera, the fashionable clubs. There was a perpetual smile in his eyes, which seldom failed to awaken a corresponding cheerfulness in any one who looked into them and listened to his good-humored voice. His manner was quiet, and at times a little insolent. He possessed a good figure, a pleasing face, not overburdened with depth of thought or feeling; and his dress was that of the conventional man of fashion.",
+  "words": [
+    {
+      "word": "fashionable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

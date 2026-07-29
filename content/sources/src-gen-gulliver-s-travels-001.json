@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-gulliver-s-travels-001",
+  "pool": "sourced",
+  "text": "The author gives some account of himself and family. His first inducements to travel. He is shipwrecked, and swims for his life, gets safe on shore in the country of Lilliput; is made a prisoner, and carried up the country. My father had a small estate in Nottinghamshire; I was the third of five sons. He sent me to Emanuel College in Cambridge at fourteen years old, where I resided three years, and applied myself close to my studies; but the charge of maintaining me, although I had a very scanty allowance, being too great for a narrow fortune, I was bound apprentice to Mr. James Bates, an eminent surgeon in London, with whom I continued four years.",
+  "words": [
+    {
+      "word": "eminent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

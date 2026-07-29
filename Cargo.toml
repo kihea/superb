@@ -1,11 +1,20 @@
 [workspace]
-members = ["crates/superb-core", "crates/superb-sim"]
+members = ["crates/superb-core", "crates/superb-sim", "crates/superb-wasm"]
 resolver = "3"
 
 [workspace.package]
 edition = "2024"
 rust-version = "1.85"
-license = "MIT"
+# Source-available, not open source: MIT + Commons Clause (ADR-025).
+# There is no SPDX identifier for the Commons Clause, so the file is
+# the authority and `license` is deliberately absent — a bare "MIT"
+# here would be the one machine-readable place still claiming the old
+# licence, which is exactly the drift ADR-025 forbids.
+license-file = "LICENSE"
+# Not published to crates.io. This is what lets `cargo deny` skip the
+# SPDX check on our own crates without weakening it for dependencies:
+# `[licenses] private.ignore` keys off exactly this field.
+publish = false
 repository = "https://github.com/kihea/superb"
 
 [workspace.dependencies]

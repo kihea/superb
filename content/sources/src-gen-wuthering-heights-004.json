@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-wuthering-heights-004",
+  "pool": "sourced",
+  "text": "Shouldn’t they have been happy? We should have thought ourselves in heaven! And now, guess what your good children were doing? Isabella—I believe she is eleven, a year younger than Cathy—lay screaming at the farther end of the room, shrieking as if witches were running red-hot needles into her. Edgar stood on the hearth weeping silently, and in the middle of the table sat a little dog, shaking its paw and yelping; which, from their mutual accusations, we understood they had nearly pulled in two between them.",
+  "words": [
+    {
+      "word": "witches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

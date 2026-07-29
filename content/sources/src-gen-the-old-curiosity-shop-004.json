@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-004",
+  "pool": "sourced",
+  "text": "Yet, in all the hurry and crowding of such a time, the child was more alone than she had ever been before; alone in spirit, alone in her devotion to him who was wasting away upon his burning bed; alone in her unfeigned sorrow, and her unpurchased sympathy. Day after day, and night after night, found her still by the pillow of the unconscious sufferer, still anticipating his every want, still listening to those repetitions of her name and those anxieties and cares for her, which were ever uppermost among his feverish wanderings. The house was no longer theirs. Even the sick chamber seemed to be retained, on the uncertain tenure of Mr Quilp’s favour. The old man’s illness had not lasted many days when he took formal possession of the premises and all upon them, in virtue of certain legal powers to that effect, which few understood and none presumed to call in question.",
+  "words": [
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anxieties",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uncertain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

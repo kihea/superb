@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-rip-van-winkle-009",
+  "pool": "sourced",
+  "text": "From an opening between the trees he could overlook all the lower country for many a mile of rich woodland. He saw at a distance the lordly Hudson, far, far below him, moving on its silent but majestic course, with the reflection of a purple cloud, or the sail of a lagging bark, here and there sleeping on its glassy bosom, and at last losing itself in the blue highlands. On the other side he looked down into a deep mountain glen, wild, lonely, and shagged, the bottom filled with fragments from the impending cliffs, and scarcely lighted by the reflected rays of the setting sun. For some time Rip lay musing on this scene; evening was gradually advancing; the mountains began to throw their long blue shadows over the valleys; he saw that it would be dark long before he could reach the village, and he heaved a heavy sigh when he thought of encountering the terrors of Dame Van Winkle. As he was about to descend, he heard a voice from a distance, hallooing: “Rip Van Winkle!",
+  "words": [
+    {
+      "word": "reflection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "valleys",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "descend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Rip Van Winkle",
+    "author": "Washington Irving",
+    "year": 1819,
+    "source": "Project Gutenberg #60976",
+    "url": "https://www.gutenberg.org/ebooks/60976",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

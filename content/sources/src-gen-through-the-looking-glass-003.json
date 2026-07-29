@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-through-the-looking-glass-003",
+  "pool": "sourced",
+  "text": "A sudden thought struck her, and she took hold of the end of the pencil, which came some way over his shoulder, and began writing for him. The poor King looked puzzled and unhappy, and struggled with the pencil for some time without saying anything; but Alice was too strong for him, and at last he panted out, “My dear! I really must get a thinner pencil. I can’t manage this one a bit; it writes all manner of things that I don’t intend—” “What manner of things?” said the Queen, looking over the book (in which Alice had put “The White Knight is sliding down the poker. He balances very badly”) “That’s not a memorandum of your feelings!” There was a book lying near Alice on the table, and while she sat watching the White King (for she was still a little anxious about him, and had the ink all ready to throw over him, in case he fainted again), she turned over the leaves, to find some part that she could read, “—for it’s all in some language I don’t know,” she said to herself.",
+  "words": [
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thinner",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

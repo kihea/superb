@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-003",
+  "pool": "sourced",
+  "text": "Giry, burst into song again--\"'Saint, unclose thy portals holy and accord the bliss, to a mortal bending lowly, of a pardon-kiss.' And then M. Maniera again hears the voice in his right ear, saying, this time, 'Ha, ha! Julie wouldn't mind according a kiss to Isidore!' Then he turns round again, but, this time, to the left; and what do you think he sees? Isidore, who had taken his lady's hand and was covering it with kisses through the little round place in the glove--like this, gentlemen\"--rapturously kissing the bit of palm left bare in the middle of her thread gloves.",
+  "words": [
+    {
+      "word": "lowly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hears",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gloves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

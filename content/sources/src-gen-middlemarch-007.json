@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-middlemarch-007",
+  "pool": "sourced",
+  "text": "Fred believed in the excellence of his bargain, and even before the fair had well set in, had got possession of the dappled gray, at the price of his old horse and thirty pounds in addition—only five pounds more than he had expected to give. But he felt a little worried and wearied, perhaps with mental debate, and without waiting for the further gayeties of the horse-fair, he set out alone on his fourteen miles’ journey, meaning to take it very quietly and keep his horse fresh. “The offender’s sorrow brings but small relief To him who wears the strong offence’s cross.” —SHAKESPEARE: Sonnets. I am sorry to say that only the third day after the propitious events at Houndsley Fred Vincy had fallen into worse spirits than he had known in his life before.",
+  "words": [
+    {
+      "word": "fourteen",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

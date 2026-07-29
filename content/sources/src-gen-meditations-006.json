@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-meditations-006",
+  "pool": "sourced",
+  "text": "As we say commonly, The physician hath prescribed unto this man, riding; unto another, cold baths; unto a third, to go barefoot: so it is alike to say, The nature of the universe hath prescribed unto this man sickness, or blindness, or some loss, or damage or some such thing. For as there, when we say of a physician, that he hath prescribed anything, our meaning is, that he hath appointed this for that, as subordinate and conducing to health: so here, whatsoever doth happen unto any, is ordained unto him as a thing subordinate unto the fates, and therefore do we say of such things, that they do συμβαίνειν, that is, happen, or fall together; as of square stones, when either in walls, or pyramids in a certain position they fit one another, and agree as it were in an harmony, the masons say, that they do συμβαίνειν; as if thou shouldest say, fall together: so that in the general, though the things be divers that make it, yet the consent or harmony itself is but one.",
+  "words": [
+    {
+      "word": "subordinate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pyramids",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harmony",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

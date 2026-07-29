@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-010",
+  "pool": "sourced",
+  "text": "“That the Signor, my master, is going to be—a great robber—that is—he is going to rob on his own account;—to be, (but I am sure I don’t understand what he means) to be a—captain of—robbers.” “Art thou in thy senses, Annette?” said Madame Montoni; “or is this a trick to deceive me? Tell me, this instant, what Ludovico did say to thee;—no equivocation;—this instant.” “Nay, madam,” cried Annette, “if this is all I am to get for having told the secret—” Her mistress thus continued to insist, and Annette to protest, till Montoni, himself, appeared, who bade the latter leave the room, and she withdrew, trembling for the fate of her story. Emily also was retiring, but her aunt desired she would stay; and Montoni had so often made her a witness of their contention, that he no longer had scruples on that account. “I insist upon knowing this instant, Signor, what all this means:” said his wife—“what are all these armed men, whom they tell me of, gone out about?” Montoni answered her only with a look of scorn; and Emily whispered something to her.",
+  "words": [
+    {
+      "word": "deceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withdrew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

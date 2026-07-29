@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-008",
+  "pool": "sourced",
+  "text": "A solemn meeting of the lodge of the second degree was convened, at which Pierre promised to communicate to the Petersburg Brothers what he had to deliver to them from the highest leaders of their order. The meeting was a full one. After the usual ceremonies Pierre rose and began his address. “Dear Brothers,” he began, blushing and stammering, with a written speech in his hand, “it is not sufficient to observe our mysteries in the seclusion of our lodge—we must act—act! We are drowsing, but we must act.” Pierre raised his notebook and began to read.",
+  "words": [
+    {
+      "word": "solemn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notebook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

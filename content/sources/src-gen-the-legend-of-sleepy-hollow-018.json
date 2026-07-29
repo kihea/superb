@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-018",
+  "pool": "sourced",
+  "text": "On mounting a rising ground, which brought the figure of his fellow-traveller in relief against the sky, gigantic in height, and muffled in a cloak, Ichabod was horror-struck on perceiving that he was headless!--but his horror was still more increased on observing that the head, which should have rested on his shoulders, was carried before him on the pommel of his saddle! His terror rose to desperation; he rained a shower of kicks and blows upon Gunpowder, hoping by a sudden movement to give his companion the slip; but the spectre started full jump with him. Away, then, they dashed through thick and thin; stones flying and sparks flashing at every bound. Ichabod’s flimsy garments fluttered in the air, as he stretched his long lank body away over his horse’s head, in the eagerness of his flight. They had now reached the road which turns off to Sleepy Hollow; but Gunpowder, who seemed possessed with a demon, instead of keeping up it, made an opposite turn, and plunged headlong downhill to the left.",
+  "words": [
+    {
+      "word": "cloak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rested",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-010",
+  "pool": "sourced",
+  "text": "“But as I was saying,” said Aunt Polly, “he warn’t bad, so to say—only mischeevous. Only just giddy, and harum-scarum, you know. He warn’t any more responsible than a colt. He never meant any harm, and he was the best-hearted boy that ever was”—and she began to cry. “It was just so with my Joe—always full of his devilment, and up to every kind of mischief, but he was just as unselfish and kind as he could be—and laws bless me, to think I went and whipped him for taking that cream, never once recollecting that I throwed it out myself because it was sour, and I never to see him again in this world, never, never, never, poor abused boy!” And Mrs. Harper sobbed as if her heart would break.",
+  "words": [
+    {
+      "word": "abused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-015",
+  "pool": "sourced",
+  "text": "Perhaps Wakem was gone out of town to-day on purpose to avoid seeing or hearing anything of an honourable action which might well cause him some unpleasant twinges. If Wakem were to meet him then, Mr Tulliver would look straight at him, and the rascal would perhaps be forsaken a little by his cool, domineering impudence. He would know by and by that an honest man was not going to serve him any longer, and lend his honesty to fill a pocket already over-full of dishonest gains. Perhaps the luck was beginning to turn; perhaps the Devil didn’t always hold the best cards in this world. Simmering in this way, Mr Tulliver approached the yardgates of Dorlcote Mill, near enough to see a well-known figure coming out of them on a fine black horse.",
+  "words": [
+    {
+      "word": "honesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dishonest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approached",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

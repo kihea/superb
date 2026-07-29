@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-life-on-the-mississippi-003",
+  "pool": "sourced",
+  "text": "I reflected deeply awhile, and then said--but not aloud--'Well, the finding of that plantation was the luckiest accident that ever happened; but it couldn't happen again in a hundred years.' And I fully believed it was an accident, too. By the time we had gone seven or eight hundred miles up the river, I had learned to be a tolerably plucky up-stream steersman, in daylight, and before we reached St. Louis I had made a trifle of progress in night-work, but only a trifle. I had a note-book that fairly bristled with the names of towns, 'points,' bars, islands, bends, reaches, etc. ; but the information was to be found only in the notebook--none of it was in my head.",
+  "words": [
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awhile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notebook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

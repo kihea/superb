@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-014",
+  "pool": "sourced",
+  "text": "“‘Who?’ “‘The man?’ “‘Saw him!—why, he had a big red beard and red hair.’ “‘That’s how he appeared to me,’ I said. “‘And to me,’ said Larsan. “The great Fred and I were alone in his chamber, now, to talk over this thing. We talked for an hour, turning the matter over and viewing it from every side. From the questions put by him, from the explanation which he gives me, it is clear to me that—in spite of all our senses he is persuaded the man disappeared by some secret passage in the château known to him alone.",
+  "words": [
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

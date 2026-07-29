@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-019",
+  "pool": "sourced",
+  "text": "The leanest gentleman can always consider himself, and fortunately I was, though lean, a gentleman. I could do nothing in Italy--I couldn’t even be an Italian patriot. To do that I should have had to get out of the country; and I was too fond of it to leave it, to say nothing of my being too well satisfied with it, on the whole, as it then was, to wish it altered. So I’ve passed a great many years here on that quiet plan I spoke of. I’ve not been at all unhappy.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patriot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

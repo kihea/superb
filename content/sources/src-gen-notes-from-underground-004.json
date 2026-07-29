@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-notes-from-underground-004",
+  "pool": "sourced",
+  "text": "But yet you are fully convinced that he will be sure to learn when he gets rid of certain old bad habits, and when common sense and science have completely re-educated human nature and turned it in a normal direction. You are confident that then man will cease from intentional error and will, so to say, be compelled not to want to set his will against his normal interests. That is not all; then, you say, science itself will teach man (though to my mind it’s a superfluous luxury) that he never has really had any caprice or will of his own, and that he himself is something of the nature of a piano-key or the stop of an organ, and that there are, besides, things called the laws of nature; so that everything he does is not done by his willing it, but is done of itself, by the laws of nature. Consequently we have only to discover these laws of nature, and man will no longer have to answer for his actions and life will become exceedingly easy for him.",
+  "words": [
+    {
+      "word": "cease",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intentional",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consequently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

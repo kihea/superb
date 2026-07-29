@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-015",
+  "pool": "sourced",
+  "text": "‘I don’t know.’ ‘What’s your name?’ ‘Nothing.’ ‘Nonsense!’ retorted Quilp. ‘What does your mistress call you when she wants you?’ ‘A little devil,’ said the child. She added in the same breath, as if fearful of any further questioning, ‘But please will you leave a card or message?’ These unusual answers might naturally have provoked some more inquiries. Quilp, however, without uttering another word, withdrew his eyes from the small servant, stroked his chin more thoughtfully than before, and then, bending over the note as if to direct it with scrupulous and hair-breadth nicety, looked at her, covertly but very narrowly, from under his bushy eyebrows. The result of this secret survey was, that he shaded his face with his hands, and laughed slyly and noiselessly, until every vein in it was swollen almost to bursting.",
+  "words": [
+    {
+      "word": "questioning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquiries",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "narrowly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eyebrows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

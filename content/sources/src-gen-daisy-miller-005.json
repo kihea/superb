@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-daisy-miller-005",
+  "pool": "sourced",
+  "text": "“Well, Daisy Miller,” said the elder lady, presently, “I shouldn’t think you’d want to talk against your own brother!” “Well, he IS tiresome, Mother,” said Daisy, quite without the asperity of a retort. “He’s only nine,” urged Mrs. Miller. “Well, he wouldn’t go to that castle,” said the young girl. “I’m going there with Mr. Winterbourne.” To this announcement, very placidly made, Daisy’s mamma offered no response. Winterbourne took for granted that she deeply disapproved of the projected excursion; but he said to himself that she was a simple, easily managed person, and that a few deferential protestations would take the edge from her displeasure.",
+  "words": [
+    {
+      "word": "mamma",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

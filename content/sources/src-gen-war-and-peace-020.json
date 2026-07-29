@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-020",
+  "pool": "sourced",
+  "text": "During that fortnight of anxiety Natásha resorted to the baby for comfort so often, and fussed over him so much, that she overfed him and he fell ill. She was terrified by his illness, and yet that was just what she needed. While attending to him she bore the anxiety about her husband more easily. She was nursing her boy when the sound of Pierre’s sleigh was heard at the front door, and the old nurse—knowing how to please her mistress—entered the room inaudibly but hurriedly and with a beaming face. “Has he come?” Natásha asked quickly in a whisper, afraid to move lest she should rouse the dozing baby. “He’s come, ma’am,” whispered the nurse.",
+  "words": [
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

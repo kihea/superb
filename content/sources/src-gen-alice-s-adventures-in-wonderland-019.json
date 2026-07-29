@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-019",
+  "pool": "sourced",
+  "text": "“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.” “Then you may sit down,” the King replied. Here the other guinea-pig cheered, and was suppressed. “Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.” “I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers. “You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.",
+  "words": [
+    {
+      "word": "cheered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suppressed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

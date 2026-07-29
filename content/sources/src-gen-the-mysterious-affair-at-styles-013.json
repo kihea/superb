@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-013",
+  "pool": "sourced",
+  "text": "As she stood there, with her honest face upturned to mine, I thought what a fine specimen she was of the old-fashioned servant that is so fast dying out. I thought I might as well go down to the village at once, and look up Poirot; but I met him half-way, coming up to the house, and at once gave him Dorcas’s message. “Ah, the brave Dorcas! We will look at the chest, although—but no matter—we will examine it all the same.” We entered the house by one of the windows. There was no one in the hall, and we went straight up to the attic.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

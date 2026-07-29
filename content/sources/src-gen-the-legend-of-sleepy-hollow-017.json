@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-017",
+  "pool": "sourced",
+  "text": "Ichabod, whose fears increased with the delay, jerked the reins on the other side, and kicked lustily with the contrary foot: it was all in vain; his steed started, it is true, but it was only to plunge to the opposite side of the road into a thicket of brambles and alder bushes. The schoolmaster now bestowed both whip and heel upon the starveling ribs of old Gunpowder, who dashed forward, snuffling and snorting, but came to a stand just by the bridge, with a suddenness that had nearly sent his rider sprawling over his head. Just at this moment a plashy tramp by the side of the bridge caught the sensitive ear of Ichabod. In the dark shadow of the grove, on the margin of the brook, he beheld something huge, misshapen and towering. It stirred not, but seemed gathered up in the gloom, like some gigantic monster ready to spring upon the traveller.",
+  "words": [
+    {
+      "word": "contrary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bestowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

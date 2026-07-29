@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-004",
+  "pool": "sourced",
+  "text": "The two latter uttered their usual expressive exclamation, “hugh!” as the truth first glanced upon their minds, while the former, after a short, musing pause, took upon himself to reply. “I cannot deny your words,” he said, “for I am little skilled in horses, though born where they abound. The wolves must be hovering above their heads on the bank, and the timorsome creatures are calling on man for help, in the best manner they are able. Uncas”—he spoke in Delaware—“Uncas, drop down in the canoe, and whirl a brand among the pack; or fear may do what the wolves can’t get at to perform, and leave us without horses in the morning, when we shall have so much need to journey swiftly!” The young native had already descended to the water to comply, when a long howl was raised on the edge of the river, and was borne swiftly off into the depths of the forest, as though the beasts, of their own accord, were abandoning their prey in sudden terror. Uncas, with instinctive quickness, receded, and the three foresters held another of their low, earnest conferences.",
+  "words": [
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swiftly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "comply",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

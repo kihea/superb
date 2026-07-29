@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-017",
+  "pool": "sourced",
+  "text": "“And you remember that we came up with the two in a ditch, and that there was a scuffle between them, and that one of them had been severely handled and much mauled about the face by the other?” “I see it all before me.” “And that the soldiers lighted torches, and put the two in the centre, and that we went on to see the last of them, over the black marshes, with the torchlight shining on their faces,—I am particular about that,—with the torchlight shining on their faces, when there was an outer ring of dark night all about us?” “Yes,” said I. “I remember all that.” “Then, Mr. Pip, one of those two prisoners sat behind you tonight. I saw him over your shoulder.” “Steady!” I thought. I asked him then, “Which of the two do you suppose you saw?” “The one who had been mauled,” he answered readily, “and I’ll swear I saw him! The more I think of him, the more certain I am of him.” “This is very curious!” said I, with the best assumption I could put on of its being nothing more to me.",
+  "words": [
+    {
+      "word": "torches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-scarlet-letter-011",
+  "pool": "sourced",
+  "text": "On that spot, in very truth, there was, and there had long been, the gnawing and poisonous tooth of bodily pain. Without any effort of his will, or power to restrain himself, he shrieked aloud: an outcry that went pealing through the night, and was beaten back from one house to another, and reverberated from the hills in the background; as if a company of devils, detecting so much misery and terror in it, had made a plaything of the sound, and were bandying it to and fro. “It is done!” muttered the minister, covering his face with his hands. “The whole town will awake and hurry forth, and find me here!” But it was not so. The shriek had perhaps sounded with a far greater power, to his own startled ears, than it actually possessed.",
+  "words": [
+    {
+      "word": "detecting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

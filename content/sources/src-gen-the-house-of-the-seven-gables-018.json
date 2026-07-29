@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-018",
+  "pool": "sourced",
+  "text": "A rumbling kind of a bluster roars behind the fire-board. A door has slammed above stairs. A window, perhaps, has been left open, or else is driven in by an unruly gust. It is not to be conceived, before-hand, what wonderful wind-instruments are these old timber mansions, and how haunted with the strangest noises, which immediately begin to sing, and sigh, and sob, and shriek,—and to smite with sledge-hammers, airy but ponderous, in some distant chamber,—and to tread along the entries as with stately footsteps, and rustle up and down the staircase, as with silks miraculously stiff,—whenever the gale catches the house with a window open, and gets fairly into it. Would that we were not an attendant spirit here!",
+  "words": [
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mansions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staircase",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

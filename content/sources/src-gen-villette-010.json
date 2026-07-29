@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-010",
+  "pool": "sourced",
+  "text": "If this were not one of the compact little minor European courts, whose very formalities are little more imposing than familiarities, and whose gala grandeur is but homeliness in Sunday array, it would sound all very fine.” “Ginevra saw you, I think?” “So do I think so. I have had my eye on her several times since you withdrew yours; and I have had the honour of witnessing a little spectacle which you were spared.” I did not ask what; I waited voluntary information, which was presently given. “Miss Fanshawe,” he said, “has a companion with her—a lady of rank. I happen to know Lady Sara by sight; her noble mother has called me in professionally. She is a proud girl, but not in the least insolent, and I doubt whether Ginevra will have gained ground in her estimation by making a butt of her neighbours.” “What neighbours?” “Merely myself and my mother.",
+  "words": [
+    {
+      "word": "voluntary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "estimation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

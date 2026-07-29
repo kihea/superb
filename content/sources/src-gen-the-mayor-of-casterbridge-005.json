@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-005",
+  "pool": "sourced",
+  "text": "Mrs. Henchard was so pale that the boys called her “The Ghost.” Sometimes Henchard overheard this epithet when they passed together along the Walks—as the avenues on the walls were named—at which his face would darken with an expression of destructiveness towards the speakers ominous to see; but he said nothing. He pressed on the preparations for his union, or rather reunion, with this pale creature in a dogged, unflinching spirit which did credit to his conscientiousness. Nobody would have conceived from his outward demeanour that there was no amatory fire or pulse of romance acting as stimulant to the bustle going on in his gaunt, great house; nothing but three large resolves—one, to make amends to his neglected Susan, another, to provide a comfortable home for Elizabeth-Jane under his paternal eye; and a third, to castigate himself with the thorns which these restitutory acts brought in their train; among them the lowering of his dignity in public opinion by marrying so comparatively humble a woman.",
+  "words": [
+    {
+      "word": "avenues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lowering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

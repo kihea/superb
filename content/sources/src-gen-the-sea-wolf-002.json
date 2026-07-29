@@ -1,0 +1,71 @@
+{
+  "id": "src-gen-the-sea-wolf-002",
+  "pool": "sourced",
+  "text": "So fierce had this final struggle become that the sailor paused in the act of flinging more water over him and stared curiously, the canvas bucket partly tilted and dripping its contents to the deck. The dying man beat a tattoo on the hatch with his heels, straightened out his legs, and stiffened in one great tense effort, and rolled his head from side to side. Then the muscles relaxed, the head stopped rolling, and a sigh, as of profound relief, floated upward from his lips. The jaw dropped, the upper lip lifted, and two rows of tobacco-discoloured teeth appeared. It seemed as though his features had frozen into a diabolical grin at the world he had left and outwitted.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dripping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "straightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "relaxed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "profound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jaw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

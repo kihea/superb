@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-moonstone-010",
+  "pool": "sourced",
+  "text": "What have I lost? Nothing but Nervous Force—which the law doesn’t recognise as property; so that, strictly speaking, I have lost nothing at all. If I could have had my own way, I would have kept my adventure to myself—I shrink from all this fuss and publicity. But Mr. Luker made his injuries public, and my injuries, as the necessary consequence, have been proclaimed in their turn. I have become the property of the newspapers, until the gentle reader gets sick of the subject.",
+  "words": [
+    {
+      "word": "shrink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "publicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Moonstone",
+    "author": "Wilkie Collins",
+    "year": 1868,
+    "source": "Project Gutenberg #155",
+    "url": "https://www.gutenberg.org/ebooks/155",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

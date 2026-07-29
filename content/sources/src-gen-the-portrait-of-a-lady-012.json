@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-012",
+  "pool": "sourced",
+  "text": "Isabel went to her own room, noting throughout the house that perceptible hush which precedes a crisis. At the end of an hour, however, she came downstairs in search of her aunt, whom she wished to ask about Mr. Touchett. She went into the library, but Mrs. Touchett was not there, and as the weather, which had been damp and chill, was now altogether spoiled, it was not probable she had gone for her usual walk in the grounds. Isabel was on the point of ringing to send a question to her room, when this purpose quickly yielded to an unexpected sound--the sound of low music proceeding apparently from the saloon. She knew her aunt never touched the piano, and the musician was therefore probably Ralph, who played for his own amusement.",
+  "words": [
+    {
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-silas-marner-005",
+  "pool": "sourced",
+  "text": "When a young gentleman like Dunsey is reduced to so exceptional a mode of locomotion as walking, a whip in his hand is a desirable corrective to a too bewildering dreamy sense of unwontedness in his position; and Dunstan, as he went along through the gathering mist, was always rapping his whip somewhere. It was Godfrey’s whip, which he had chosen to take without leave because it had a gold handle; of course no one could see, when Dunstan held it, that the name Godfrey Cass was cut in deep letters on that gold handle—they could only see that it was a very handsome whip. Dunsey was not without fear that he might meet some acquaintance in whose eyes he would cut a pitiable figure, for mist is no screen when people get close to each other; but when he at last found himself in the well-known Raveloe lanes without having met a soul, he silently remarked that that was part of his usual good luck.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-woman-in-white-002",
+  "pool": "sourced",
+  "text": "Mr. Gilmore happens to be away in Glasgow on business, and he has replied by proposing to stop at Limmeridge House on his way back to town. He will arrive to-morrow, and will stay with us a few days, so as to allow Sir Percival time to plead his own cause. If he succeeds, Mr. Gilmore will then return to London, taking with him his instructions for my sister’s marriage-settlement. You understand now, Mr. Hartright, why I speak of waiting to take legal advice until to-morrow? Mr. Gilmore is the old and tried friend of two generations of Fairlies, and we can trust him, as we could trust no one else.” The marriage-settlement!",
+  "words": [
+    {
+      "word": "plead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

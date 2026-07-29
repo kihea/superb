@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-pride-and-prejudice-018",
+  "pool": "sourced",
+  "text": "We were always good friends, and now we are better.” “True. Are the others coming out?” “I do not know. Mrs. Bennet and Lydia are going in the carriage to Meryton. And so, my dear sister, I find, from our uncle and aunt, that you have actually seen Pemberley.” She replied in the affirmative. “I almost envy you the pleasure, and yet I believe it would be too much for me, or else I could take it in my way to Newcastle.",
+  "words": [
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "envy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

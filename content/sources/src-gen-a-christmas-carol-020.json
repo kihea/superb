@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-christmas-carol-020",
+  "pool": "sourced",
+  "text": "Heaven, and the Christmas Time be praised for this! I say it on my knees, old Jacob; on my knees!\" He was so fluttered and so glowing with his good intentions, that his broken voice would scarcely answer to his call. He had been sobbing violently in his conflict with the Spirit, and his face was wet with tears. \"They are not torn down,\" cried Scrooge, folding one of his bed-curtains in his arms, \"they are not torn down, rings and all.",
+  "words": [
+    {
+      "word": "cried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

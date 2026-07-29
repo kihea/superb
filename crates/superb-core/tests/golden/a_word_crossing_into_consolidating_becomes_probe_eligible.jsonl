@@ -1,0 +1,5 @@
+{"initial_state":{"seed":0,"draw_count":0,"theta":0.0,"theta_information":1.0,"words":{"aperture":{"state":"LEARNING","due_epoch_ms":1735689600000,"context_frames":[{"frame_id":"passage-001","clean":true},{"frame_id":"passage-002","clean":true},{"frame_id":"passage-003","clean":true}],"interval_days":2.0}},"topic_affinities":{}},"now":1735776000000,"event":{"PASSAGE_FINISHED":{"passage":"passage-004","words_seen":["aperture"]}},"frame":{"Topics":{"topics":[]}}}
+{"IntervalSet":{"word":"aperture","due":1736121600000}}
+{"ContextFrameLogged":{"word":"aperture","frame_id":"passage-004"}}
+{"WordStateChanged":{"word":"aperture","from":"LEARNING","to":"CONSOLIDATING"}}
+{"ProbeEligible":{"word":"aperture"}}

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-012",
+  "pool": "sourced",
+  "text": "Ichabod prided himself upon his dancing as much as upon his vocal powers. Not a limb, not a fibre about him was idle; and to have seen his loosely hung frame in full motion, and clattering about the room, you would have thought St. Vitus himself, that blessed patron of the dance, was figuring before you in person. He was the admiration of all the negroes; who, having gathered, of all ages and sizes, from the farm and the neighborhood, stood forming a pyramid of shining black faces at every door and window, gazing with delight at the scene, rolling their white eyeballs, and showing grinning rows of ivory from ear to ear. How could the flogger of urchins be otherwise than animated and joyous? The lady of his heart was his partner in the dance, and smiling graciously in reply to all his amorous oglings; while Brom Bones, sorely smitten with love and jealousy, sat brooding by himself in one corner.",
+  "words": [
+    {
+      "word": "patron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ivory",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "joyous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brooding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-middlemarch-008",
+  "pool": "sourced",
+  "text": "Even drawing Dorothea into use in his study, according to his own intention before marriage, was an effort which he was always tempted to defer, and but for her pleading insistence it might never have begun. But she had succeeded in making it a matter of course that she should take her place at an early hour in the library and have work either of reading aloud or copying assigned her. The work had been easier to define because Mr. Casaubon had adopted an immediate intention: there was to be a new Parergon, a small monograph on some lately traced indications concerning the Egyptian mysteries whereby certain assertions of Warburton’s could be corrected. References were extensive even here, but not altogether shoreless; and sentences were actually to be written in the shape wherein they would be scanned by Brasenose and a less formidable posterity. These minor monumental productions were always exciting to Mr. Casaubon; digestion was made difficult by the interference of citations, or by the rivalry of dialectical phrases ringing against each other in his brain.",
+  "words": [
+    {
+      "word": "monograph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "productions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "phrases",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ringing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

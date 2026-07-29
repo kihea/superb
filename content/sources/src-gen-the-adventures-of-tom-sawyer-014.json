@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-014",
+  "pool": "sourced",
+  "text": "Poor Huck was in the same state of wretchedness and terror, for Tom had told the whole story to the lawyer the night before the great day of the trial, and Huck was sore afraid that his share in the business might leak out, yet, notwithstanding Injun Joe’s flight had saved him the suffering of testifying in court. The poor fellow had got the attorney to promise secrecy, but what of that? Since Tom’s harassed conscience had managed to drive him to the lawyer’s house by night and wring a dread tale from lips that had been sealed with the dismalest and most formidable of oaths, Huck’s confidence in the human race was wellnigh obliterated. Daily Muff Potter’s gratitude made Tom glad he had spoken; but nightly he wished he had sealed up his tongue. Half the time Tom was afraid Injun Joe would never be captured; the other half he was afraid he would be.",
+  "words": [
+    {
+      "word": "formidable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gratitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-song-of-the-lark-009",
+  "pool": "sourced",
+  "text": "Strange how, as the first movement went on, it brought back to her that high tableland above Laramie; the grass-grown wagon trails, the far-away peaks of the snowy range, the wind and the eagles, that old man and the first telegraph message. When the first movement ended, Thea’s hands and feet were cold as ice. She was too much excited to know anything except that she wanted something desperately, and when the English horns gave out the theme of the Largo, she knew that what she wanted was exactly that. Here were the sand hills, the grasshoppers and locusts, all the things that wakened and chirped in the early morning; the reaching and reaching of high plains, the immeasurable yearning of all flat lands. There was home in it, too; first memories, first mornings long ago; the amazement of a new soul in a new world; a soul new and yet old, that had dreamed something despairing, something glorious, in the dark before it was born; a soul obsessed by what it did not know, under the cloud of a past it could not recall.",
+  "words": [
+    {
+      "word": "trails",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "telegraph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mornings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

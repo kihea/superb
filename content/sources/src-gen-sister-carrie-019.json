@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sister-carrie-019",
+  "pool": "sourced",
+  "text": "Individual after individual passed him, nearly all well dressed, almost all indifferent. He saw coaches rolling by, gentlemen passing with ladies--the evening's merriment was beginning in this region of theatres and hotels. Suddenly a coach rolled up and the driver jumped down to open the door. Before Hurstwood could act, two ladies flounced across the broad walk and disappeared in the stage door. He thought he saw Carrie, but it was so unexpected, so elegant and far away, he could hardly tell.",
+  "words": [
+    {
+      "word": "gentlemen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "theatres",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

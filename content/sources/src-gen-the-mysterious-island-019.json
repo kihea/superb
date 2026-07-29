@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-mysterious-island-019",
+  "pool": "sourced",
+  "text": "The schooner, sharp in the bows, very slender in the after-part, would evidently be suitable for a long voyage, if wanted; but laying the planking would still take a considerable time. Very fortunately, the iron work of the pirate brig had been saved after the explosion. From the planks and injured ribs Pencroft and Ayrton had extracted the bolts and a large quantity of copper nails. It was so much work saved for the smiths, but the carpenters had much to do. Shipbuilding was interrupted for a week for the harvest, the haymaking, and the gathering in of the different crops on the plateau.",
+  "words": [
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "planks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ribs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harvest",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

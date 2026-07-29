@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-013",
+  "pool": "sourced",
+  "text": "The prison on the crag was not so dominant as of yore; there were soldiers to guard it, but not many; there were officers to guard the soldiers, but not one of them knew what his men would do--beyond this: that it would probably not be what he was ordered. Far and wide lay a ruined country, yielding nothing but desolation. Every green leaf, every blade of grass and blade of grain, was as shrivelled and poor as the miserable people. Everything was bowed down, dejected, oppressed, and broken. Habitations, fences, domesticated animals, men, women, children, and the soil that bore them--all worn out.",
+  "words": [
+    {
+      "word": "grain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

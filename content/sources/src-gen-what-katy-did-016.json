@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-what-katy-did-016",
+  "pool": "sourced",
+  "text": "Aunt Izzie marched out of the room without saying anything. When she came back she had something folded up in her hand. \"I didn't know what to give you for Christmas, Katy,\" she said, \"because Helen sends you such a lot of things that there don't seem to be anything you haven't already. So I thought I'd give you this, and let you choose for yourself. But if you've set your heart on getting presents for the children, perhaps you'd rather have it now.\"",
+  "words": [
+    {
+      "word": "sends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

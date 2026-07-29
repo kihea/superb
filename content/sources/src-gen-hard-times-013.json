@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-hard-times-013",
+  "pool": "sourced",
+  "text": "Three days after that, he bolted. Went off, nobody knows where: as my mother did in my infancy—only with this difference, that he is a worse subject than my mother, if possible. What did he do before he went? What do you say;’ Mr. Bounderby, with his hat in his hand, gave a beat upon the crown at every little division of his sentences, as if it were a tambourine; ‘to his being seen—night after night—watching the Bank?—to his lurking about there—after dark?—To its striking Mrs. Sparsit—that he could be lurking for no good—To her calling Bitzer’s attention to him, and their both taking notice of him—And to its appearing on inquiry to-day—that he was also noticed by the neighbours?’ Having come to the climax, Mr. Bounderby, like an oriental dancer, put his tambourine on his head. ‘Suspicious,’ said James Harthouse, ‘certainly.’ ‘I think so, sir,’ said Bounderby, with a defiant nod.",
+  "words": [
+    {
+      "word": "bolted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "appearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbours",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

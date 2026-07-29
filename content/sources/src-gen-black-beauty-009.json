@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-black-beauty-009",
+  "pool": "sourced",
+  "text": "I listened to my rider's footsteps until they reached the house, and heard him knock at the door. There was a meadow on the opposite side of the road, the gate of which stood open; just then some cart horses and several young colts came trotting out in a very disorderly manner, while a boy behind was cracking a great whip. The colts were wild and frolicsome, and one of them bolted across the road and blundered up against Lizzie's hind legs, and whether it was the stupid colt, or the loud cracking of the whip, or both together, I cannot say, but she gave a violent kick, and dashed off into a headlong gallop. It was so sudden that Lady Anne was nearly unseated, but she soon recovered herself. I gave a loud, shrill neigh for help; again and again I neighed, pawing the ground impatiently, and tossing my head to get the rein loose.",
+  "words": [
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "colts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bolted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "colt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rein",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

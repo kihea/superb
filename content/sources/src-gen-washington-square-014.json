@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-washington-square-014",
+  "pool": "sourced",
+  "text": "“You have been very kind to him,” said Catherine. “He has written me that, often. I shall never forget that, Aunt Lavinia.” “I have done what I could; it has been very little. To let him come and talk to me, and give him his cup of tea—that was all. Your Aunt Almond thought it was too much, and used to scold me terribly; but she promised me, at least, not to betray me.” “To betray you?” “Not to tell your father.",
+  "words": [
+    {
+      "word": "betray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Washington Square",
+    "author": "Henry James",
+    "year": 1880,
+    "source": "Project Gutenberg #2870",
+    "url": "https://www.gutenberg.org/ebooks/2870",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

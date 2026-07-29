@@ -1,0 +1,18 @@
+{
+  "_method": "Hand key for data/pipeline/tests/corpus_precision_sample.json — a uniform random sample of 60 real (word, excerpt) claims drawn directly from the shipped generated corpus (content/sources/src-gen-*.json), not from an evenly-stratified-by-signal candidate sweep. Uniform sampling over the true population is itself the incidence-weighting fix: ~96% of the corpus's claims are gloss-overlap-only, so a uniform sample is dominated by gloss-overlap claims in roughly the true proportion, with no re-derivation needed. Judged by hand, reading only word+text (no gloss, no signal reason), against the strict standard docs/seams.md/excerpts.py already state: could a reader who does not already know the word recover its meaning-as-used-here from an explicit or strongly implicit cue (synonym, restatement, contrast, categorical listing, functional definition) — not from general topical plausibility or a rationale constructed after already knowing the word.",
+  "_calibration_note": "First pass (no explicit strictness standard written down) scored 37/60 = 61.7% informative. Rereading against a written strict standard dropped seven of those (cottage, glazed, clap, betray, madman, cherish, violin flipped or reconsidered) and the number that survived is 30/60 = 50.0%. That drop is the finding: an already-fluent reader's first instinct is to credit a passage as 'informative' whenever it is thematically coherent with the word's real meaning, because coherence is trivially true of any well-written sentence containing the word correctly. The question that has to be asked instead is narrower and colder: does the passage supply a cue, or does it merely fail to contradict what I already know? Two connected findings from this same pass: (1) 'tommy' (c010) is not a vocabulary claim at all — it is a character's given name, matched because the surface string also happens to be a dictionary common noun (British-slang 'a soldier'); the excerpt never uses that sense. This is a proper-noun homograph false positive, a sibling of the 'shook' defect the diagnosis names, and it is a wiktionary-word-list problem, not the informativeness heuristic's problem — it comes from the same failure family: matching a headword string without regard to which of its senses (if any) the surrounding sentence is actually using. (2) 'dashed' (c050) uses a genuinely rare sense ('underlined') with nothing in the passage to prefer it over the common sense ('rushed'); a fix that resolves 'shook' by picking a better-ranked sense would still get this one wrong, because the common sense actively competes with and is more available than the correct rare one — worth naming as a residual failure mode the fix below does not claim to close.",
+  "verdicts": {
+    "c000": false, "c001": true,  "c002": false, "c003": false, "c004": false,
+    "c005": false, "c006": false, "c007": false, "c008": false, "c009": true,
+    "c010": false, "c011": false, "c012": false, "c013": true,  "c014": false,
+    "c015": false, "c016": true,  "c017": false, "c018": false, "c019": true,
+    "c020": true,  "c021": false, "c022": true,  "c023": true,  "c024": false,
+    "c025": false, "c026": true,  "c027": true,  "c028": true,  "c029": false,
+    "c030": false, "c031": false, "c032": false, "c033": true,  "c034": true,
+    "c035": false, "c036": true,  "c037": true,  "c038": false, "c039": true,
+    "c040": false, "c041": true,  "c042": true,  "c043": false, "c044": true,
+    "c045": false, "c046": true,  "c047": true,  "c048": false, "c049": true,
+    "c050": false, "c051": true,  "c052": true,  "c053": true,  "c054": true,
+    "c055": true,  "c056": false, "c057": true,  "c058": true,  "c059": true
+  }
+}

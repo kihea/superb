@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-walden-003",
+  "pool": "sourced",
+  "text": "Leaven, which some deem the soul of bread, the spiritus which fills its cellular tissue, which is religiously preserved like the vestal fire,—some precious bottle-full, I suppose, first brought over in the Mayflower, did the business for America, and its influence is still rising, swelling, spreading, in cerealian billows over the land,—this seed I regularly and faithfully procured from the village, till at length one morning I forgot the rules, and scalded my yeast; by which accident I discovered that even this was not indispensable,—for my discoveries were not by the synthetic but analytic process,—and I have gladly omitted it since, though most housewives earnestly assured me that safe and wholesome bread without yeast might not be, and elderly people prophesied a speedy decay of the vital forces. Yet I find it not to be an essential ingredient, and after going without it for a year am still in the land of the living; and I am glad to escape the trivialness of carrying a bottle-full in my pocket, which would sometimes pop and discharge its contents to my discomfiture. It is simpler and more respectable to omit it.",
+  "words": [
+    {
+      "word": "fills",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yeast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "indispensable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discoveries",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gladly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ingredient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

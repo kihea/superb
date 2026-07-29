@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-005",
+  "pool": "sourced",
+  "text": "But say—how do you cure ’em with dead cats?” “Why, you take your cat and go and get in the grave-yard ’long about midnight when somebody that was wicked has been buried; and when it’s midnight a devil will come, or maybe two or three, but you can’t see ’em, you can only hear something like the wind, or maybe hear ’em talk; and when they’re taking that feller away, you heave your cat after ’em and say, ‘Devil follow corpse, cat follow devil, warts follow cat, I’m done with ye!’ That’ll fetch any wart.” “Sounds right. D’you ever try it, Huck?” “No, but old Mother Hopkins told me.” “Well, I reckon it’s so, then. Becuz they say she’s a witch.” “Say! Why, Tom, I know she is. She witched pap.",
+  "words": [
+    {
+      "word": "corpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fetch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

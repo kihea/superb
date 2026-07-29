@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-vanity-fair-005",
+  "pool": "sourced",
+  "text": "Well, meanwhile Becky was the greatest comfort and convenience to her, and she gave her a couple of new gowns, and an old necklace and shawl, and showed her friendship by abusing all her intimate acquaintances to her new confidante (than which there can't be a more touching proof of regard), and meditated vaguely some great future benefit--to marry her perhaps to Clump, the apothecary, or to settle her in some advantageous way of life; or at any rate, to send her back to Queen's Crawley when she had done with her, and the full London season had begun. When Miss Crawley was convalescent and descended to the drawing-room, Becky sang to her, and otherwise amused her; when she was well enough to drive out, Becky accompanied her. And amongst the drives which they took, whither, of all places in the world, did Miss Crawley's admirable good-nature and friendship actually induce her to penetrate, but to Russell Square, Bloomsbury, and the house of John Sedley, Esquire. Ere that event, many notes had passed, as may be imagined, between the two dear friends. During the months of Rebecca's stay in Hampshire, the eternal friendship had (must it be owned?)",
+  "words": [
+    {
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintances",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

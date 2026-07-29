@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-006",
+  "pool": "sourced",
+  "text": "The lady's distressed cries for help had ceased before he had sufficiently regained his composure to go back into the dining- room. It was all peace and quietness there now, Clara had the kittens on her lap, and Heidi was kneeling beside her, both laughing and playing with the tiny, graceful little animals. \"Sebastian,\" exclaimed Clara as he came in, \"you must help us; you must find a bed for the kittens where Fraulein Rottenmeier will not spy them out, for she is so afraid of them that she will send them away at once; but we want to keep them, and have them out whenever we are alone. Where can you put them?\" \"I will see to that,\" answered Sebastian willingly.",
+  "words": [
+    {
+      "word": "regained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

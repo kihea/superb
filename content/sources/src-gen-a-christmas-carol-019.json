@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-019",
+  "pool": "sourced",
+  "text": "\"Let me see some tenderness connected with a death,\" said Scrooge; \"or that dark chamber, Spirit, which we left just now, will be for ever present to me.\" The Ghost conducted him through several streets familiar to his feet; and as they went along, Scrooge looked here and there to find himself, but nowhere was he to be seen. They entered poor Bob Cratchit's house; the dwelling he had visited before; and found the mother and the children seated round the fire. Very quiet. The noisy little Cratchits were as still as statues in one corner, and sat looking up at Peter, who had a book before him.",
+  "words": [
+    {
+      "word": "seated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

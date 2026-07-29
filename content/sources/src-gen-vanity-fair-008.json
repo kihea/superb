@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-vanity-fair-008",
+  "pool": "sourced",
+  "text": "When Miss Crawley took the air in a chair, Mrs. Bute marched on one side of the vehicle, whilst honest Briggs occupied the other wing. And if they met Rawdon and his wife by chance--although the former constantly and obsequiously took off his hat, the Miss-Crawley party passed him by with such a frigid and killing indifference, that Rawdon began to despair. \"We might as well be in London as here,\" Captain Rawdon often said, with a downcast air. \"A comfortable inn in Brighton is better than a spunging-house in Chancery Lane,\" his wife answered, who was of a more cheerful temperament. \"Think of those two aides-de-camp of Mr. Moses, the sheriff's-officer, who watched our lodging for a week.",
+  "words": [
+    {
+      "word": "inn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

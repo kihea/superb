@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-020",
+  "pool": "sourced",
+  "text": "The great problem of the shifting relation between passion and duty is clear to no man who is capable of apprehending it; the question whether the moment has come in which a man has fallen below the possibility of a renunciation that will carry any efficacy, and must accept the sway of a passion against which he had struggled as a trespass, is one for which we have no master-key that will fit all cases. The casuists have become a byword of reproach; but their perverted spirit of minute discrimination was the shadow of a truth to which eyes and hearts are too often fatally sealed,—the truth, that moral judgments must remain false and hollow, unless they are checked and enlightened by a perpetual reference to the special circumstances that mark the individual lot. All people of broad, strong sense have an instinctive repugnance to the men of maxims; because such people early discern that the mysterious complexity of our life is not to be embraced by maxims, and that to lace ourselves up in formulas of that sort is to repress all the divine promptings and inspirations that spring from growing insight and sympathy.",
+  "words": [
+    {
+      "word": "perverted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

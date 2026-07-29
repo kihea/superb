@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anne-of-green-gables-013",
+  "pool": "sourced",
+  "text": "I just wish you could have been there to hear me recite ‘Mary, Queen of Scots.’ I just put my whole soul into it. Ruby Gillis told me coming home that the way I said the line, ‘Now for my father’s arm,’ she said, ‘my woman’s heart farewell,’ just made her blood run cold.” “Well now, you might recite it for me some of these days, out in the barn,” suggested Matthew. “Of course I will,” said Anne meditatively, “but I won’t be able to do it so well, I know. It won’t be so exciting as it is when you have a whole schoolful before you hanging breathlessly on your words. I know I won’t be able to make your blood run cold.” “Mrs.",
+  "words": [
+    {
+      "word": "farewell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

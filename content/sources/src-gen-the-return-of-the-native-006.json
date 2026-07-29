@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-return-of-the-native-006",
+  "pool": "sourced",
+  "text": "Eustacia, though living within two miles of the place, had never seen the interior of this quaint old habitation. Between Captain Vye and the Yeobrights there had never existed much acquaintance, the former having come as a stranger and purchased the long-empty house at Mistover Knap not long before the death of Mrs. Yeobright’s husband; and with that event and the departure of her son such friendship as had grown up became quite broken off. “Is there no passage inside the door, then?” asked Eustacia as they stood within the porch. “No,” said the lad who played the Saracen. “The door opens right upon the front sitting-room, where the spree’s going on.” “So that we cannot open the door without stopping the dance.” “That’s it.",
+  "words": [
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "porch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Return of the Native",
+    "author": "Thomas Hardy",
+    "year": 1878,
+    "source": "Project Gutenberg #122",
+    "url": "https://www.gutenberg.org/ebooks/122",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

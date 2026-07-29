@@ -2,10 +2,12 @@
 
 Used by `data/pipeline/tests/test_check_license_gate.py` to prove
 `data/pipeline/check_license_gate.py` actually fails on a real violation.
-Three violations on purpose: `fake_dataset.py` (see the sibling
-`pipeline/` directory) is never mentioned in any row's "Used for" column,
-and the SWOW-EN row below is the exact dataset ADR-008 forbids by name,
-under exactly the licence family that names it.
+Four violations on purpose: `fake_dataset.py` (see the sibling
+`pipeline/` directory) is never mentioned in any row's "Used for" column;
+the SWOW-EN row below is the exact dataset ADR-008 forbids by name,
+under exactly the licence family that names it; and in the sibling
+`content/sources/` directory, `src-broken.json` has no licence at all
+while `src-broken-licence.json` states one that law 8 forbids outright.
 
 | Dataset | Source | Licence | URL | Retrieved | Used for |
 |---|---|---|---|---|---|

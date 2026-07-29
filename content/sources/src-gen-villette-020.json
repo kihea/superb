@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-villette-020",
+  "pool": "sourced",
+  "text": "Thus it must be. The revelation was indeed come. Presentiment had not been mistaken in her impulse: there is a kind of presentiment which never is mistaken; it was I who had for a moment miscalculated; not seeing the true bearing of the oracle, I had thought she muttered of vision when, in truth, her prediction touched reality. I might have paused longer upon what I saw; I might have deliberated ere I drew inferences. Some, perhaps, would have held the premises doubtful, the proofs insufficient; some slow sceptics would have incredulously examined ere they conclusively accepted the project of a marriage between a poor and unselfish man of forty, and his wealthy ward of eighteen; but far from me such shifts and palliatives, far from me such temporary evasion of the actual, such coward fleeing from the dread, the swift-footed, the all-overtaking Fact, such feeble suspense of submission to her the sole sovereign, such paltering and faltering resistance to the Power whose errand is to march conquering and to conquer, such traitor defection from the TRUTH.",
+  "words": [
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proofs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "insufficient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dread",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "footed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "sovereign",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

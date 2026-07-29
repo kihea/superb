@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-north-and-south-011",
+  "pool": "sourced",
+  "text": "“They rest from their labours.” “The weary are at rest.” “He giveth his beloved sleep.” Slowly, slowly Margaret turned away from the bed. Mary was humbly sobbing in the back-ground. They went downstairs without a word. Resting his hand upon the house-table, Nicholas Higgins stood in the midst of the floor; his great eyes startled open by the news he had heard, as he came along the court, from many busy tongues. His eyes were dry and fierce; studying the reality of her death; bringing himself to understand that her place should know her no more.",
+  "words": [
+    {
+      "word": "downstairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

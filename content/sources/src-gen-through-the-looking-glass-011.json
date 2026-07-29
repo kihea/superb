@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-011",
+  "pool": "sourced",
+  "text": "“There really are—and such beauties!” “You needn’t say ‘please’ to me about ’em,” the Sheep said, without looking up from her knitting: “I didn’t put ’em there, and I’m not going to take ’em away.” “No, but I meant—please, may we wait and pick some?” Alice pleaded. “If you don’t mind stopping the boat for a minute.” “How am I to stop it?” said the Sheep. “If you leave off rowing, it’ll stop of itself.” So the boat was left to drift down the stream as it would, till it glided gently in among the waving rushes. And then the little sleeves were carefully rolled up, and the little arms were plunged in elbow-deep to get the rushes a good long way down before breaking them off—and for a while Alice forgot all about the Sheep and the knitting, as she bent over the side of the boat, with just the ends of her tangled hair dipping into the water—while with bright eager eyes she caught at one bunch after another of the darling scented rushes. “I only hope the boat won’t tipple over!” she said to herself.",
+  "words": [
+    {
+      "word": "beauties",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

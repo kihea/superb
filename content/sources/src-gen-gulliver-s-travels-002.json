@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-gulliver-s-travels-002",
+  "pool": "sourced",
+  "text": "The great gate fronting to the north was about four feet high, and almost two feet wide, through which I could easily creep. On each side of the gate was a small window, not above six inches from the ground: into that on the left side, the king’s smith conveyed fourscore and eleven chains, like those that hang to a lady’s watch in Europe, and almost as large, which were locked to my left leg with six-and-thirty padlocks. Over against this temple, on the other side of the great highway, at twenty feet distance, there was a turret at least five feet high. Here the emperor ascended, with many principal lords of his court, to have an opportunity of viewing me, as I was told, for I could not see them. It was reckoned that above a hundred thousand inhabitants came out of the town upon the same errand; and, in spite of my guards, I believe there could not be fewer than ten thousand at several times, who mounted my body by the help of ladders.",
+  "words": [
+    {
+      "word": "creep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ladders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

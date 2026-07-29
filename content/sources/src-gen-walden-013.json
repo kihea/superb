@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-walden-013",
+  "pool": "sourced",
+  "text": "Many a village Bose, fit only to course a mud-turtle in a victualling cellar, sported his heavy quarters in the woods, without the knowledge of his master, and ineffectually smelled at old fox burrows and woodchucks’ holes; led perchance by some slight cur which nimbly threaded the wood, and might still inspire a natural terror in its denizens;—now far behind his guide, barking like a canine bull toward some small squirrel which had treed itself for scrutiny, then, cantering off, bending the bushes with his weight, imagining that he is on the track of some stray member of the jerbilla family. Once I was surprised to see a cat walking along the stony shore of the pond, for they rarely wander so far from home. The surprise was mutual. Nevertheless the most domestic cat, which has lain on a rug all her days, appears quite at home in the woods, and, by her sly and stealthy behavior, proves herself more native there than the regular inhabitants. Once, when berrying, I met with a cat with young kittens in the woods, quite wild, and they all, like their mother, had their backs up and were fiercely spitting at me.",
+  "words": [
+    {
+      "word": "turtle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "burrows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "squirrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wander",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kittens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

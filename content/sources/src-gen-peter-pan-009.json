@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-peter-pan-009",
+  "pool": "sourced",
+  "text": "Michael should have used it also, but Wendy would have a baby, and he was the littlest, and you know what women are, and the short and long of it is that he was hung up in a basket. It was rough and simple, and not unlike what baby bears would have made of an underground house in the same circumstances. But there was one recess in the wall, no larger than a bird-cage, which was the private apartment of Tinker Bell. It could be shut off from the rest of the house by a tiny curtain, which Tink, who was most fastidious, always kept drawn when dressing or undressing. No woman, however large, could have had a more exquisite boudoir and bed-chamber combined.",
+  "words": [
+    {
+      "word": "recess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

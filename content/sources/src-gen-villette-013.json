@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-013",
+  "pool": "sourced",
+  "text": "I think in Madame Beck’s eyes the five letters found a certain favour. One day after she had borrowed them of me (in speaking of so suave a little woman, one ought to use suave terms), I caught her examining me with a steady contemplative gaze, a little puzzled, but not at all malevolent. It was during that brief space between lessons, when the pupils turned out into the court for a quarter of an hour’s recreation; she and I remained in the first classe alone: when I met her eye, her thoughts forced themselves partially through her lips. “Il y a,” said she, “quelquechose de bien remarquable dans le caractère Anglais.” “How, Madame?” She gave a little laugh, repeating the word “how” in English. “Je ne saurais vous dire ‘how;’ mais, enfin, les Anglais ont des idées à eux, en amitié, en amour, en tout.",
+  "words": [
+    {
+      "word": "gaze",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "les",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

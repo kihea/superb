@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-008",
+  "pool": "sourced",
+  "text": "Is that so much that he deserves this praise?\" \"It isn't that,\" said Scrooge, heated by the remark, and speaking unconsciously like his former, not his latter, self. \"It isn't that, Spirit. He has the power to render us happy or unhappy; to make our service light or burdensome; a pleasure or a toil. Say that his power lies in words and looks; in things so slight and insignificant that it is impossible to add and count 'em up: what then?",
+  "words": [
+    {
+      "word": "unhappy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

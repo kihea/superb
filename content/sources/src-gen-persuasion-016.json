@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-persuasion-016",
+  "pool": "sourced",
+  "text": "I see you know nothing of the matter. You have only knowledge enough of the language to translate at sight these inverted, transposed, curtailed Italian lines, into clear, comprehensible, elegant English. You need not say anything more of your ignorance. Here is complete proof.” “I will not oppose such kind politeness; but I should be sorry to be examined by a real proficient.” “I have not had the pleasure of visiting in Camden Place so long,” replied he, “without knowing something of Miss Anne Elliot; and I do regard her as one who is too modest for the world in general to be aware of half her accomplishments, and too highly accomplished for modesty to be natural in any other woman.” “For shame! for shame!",
+  "words": [
+    {
+      "word": "translate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ignorance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "examined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proficient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "modesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

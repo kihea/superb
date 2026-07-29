@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-019",
+  "pool": "sourced",
+  "text": "Oh, this villain! See how he has treated me!” She shot her arms out from her sleeves, and we saw with horror that they were all mottled with bruises. “But this is nothing—nothing! It is my mind and soul that he has tortured and defiled. I could endure it all, ill-usage, solitude, a life of deception, everything, as long as I could still cling to the hope that I had his love, but now I know that in this also I have been his dupe and his tool.” She broke into passionate sobbing as she spoke.",
+  "words": [
+    {
+      "word": "bruises",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

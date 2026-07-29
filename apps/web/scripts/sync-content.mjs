@@ -1,0 +1,44 @@
+// Bundles content/passages/*.json, content/sources/*.json, and
+// content/classes/*.json (owned by T3, one level up from this repo's apps/)
+// into arrays this app can fetch as static assets. Read-only against
+// content/ -- never writes there.
+//
+// classes.json is the lexicon docs/seams.md's ContentFrame.wordClasses
+// promises ("straight from the lexicon"): the real composer needs it to fill
+// a composed template's slots at all (src/composer.rs::fill_slots), so this
+// was already load-bearing the day the mock engine stopped standing in for
+// that logic -- it just had nowhere to be fetched from until now.
+//
+// Regenerated before every dev server start and every build; its output
+// (public/content/) is gitignored so there is exactly one copy of the
+// content on disk that anyone has to keep in sync.
+import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const here = dirname(fileURLToPath(import.meta.url));
+const contentRoot = join(here, "..", "..", "..", "content");
+const outDir = join(here, "..", "public", "content");
+
+function loadJsonDir(sub) {
+  const dir = join(contentRoot, sub);
+  const rows = [];
+  for (const name of readdirSync(dir).sort()) {
+    if (!name.endsWith(".json")) continue; // skips _seed.py
+    rows.push(JSON.parse(readFileSync(join(dir, name), "utf-8")));
+  }
+  return rows;
+}
+
+const passages = loadJsonDir("passages");
+const sources = loadJsonDir("sources");
+const classes = loadJsonDir("classes");
+
+mkdirSync(outDir, { recursive: true });
+writeFileSync(join(outDir, "passages.json"), JSON.stringify(passages));
+writeFileSync(join(outDir, "sources.json"), JSON.stringify(sources));
+writeFileSync(join(outDir, "classes.json"), JSON.stringify(classes));
+
+console.log(
+  `synced ${passages.length} passages, ${sources.length} sources, ${classes.length} classes -> public/content/`,
+);

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-great-god-pan-009",
+  "pool": "sourced",
+  "text": "And what he saw, he most certainly saw in that house, which, somehow or other, had got a bad name in the neighbourhood. I had the curiosity to go and look at the place for myself. It’s a saddening kind of street; the houses are old enough to be mean and dreary, but not old enough to be quaint. As far as I could see most of them are let in lodgings, furnished and unfurnished, and almost every door has three bells to it. Here and there the ground floors have been made into shops of the commonest kind; it’s a dismal street in every way.",
+  "words": [
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "floors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

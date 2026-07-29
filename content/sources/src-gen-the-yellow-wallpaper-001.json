@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-001",
+  "pool": "sourced",
+  "text": "“You know the place is doing you good,” he said, “and really, dear, I don’t care to renovate the house just for a three months’ rental.” “Then do let us go downstairs,” I said, “there are such pretty rooms there.” Then he took me in his arms and called me a blessed little goose, and said he would go down cellar if I wished, and have it whitewashed into the bargain. But he is right enough about the beds and windows and things. It is as airy and comfortable a room as any one need wish, and, of course, I would not be so silly as to make him uncomfortable just for a whim. I’m really getting quite fond of the big room, all but that horrid paper. Out of one window I can see the garden, those mysterious deep-shaded arbors, the riotous old-fashioned flowers, and bushes and gnarly trees.",
+  "words": [
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uncomfortable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

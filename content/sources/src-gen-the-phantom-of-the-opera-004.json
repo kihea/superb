@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-004",
+  "pool": "sourced",
+  "text": "Skeletons and skulls by the hundred were heaped against the wall of the church, held in position by a wire that left the whole gruesome stack visible. Dead men's bones, arranged in rows, like bricks, to form the first course upon which the walls of the sacristy had been built. The door of the sacristy opened in the middle of that bony structure, as is often seen in old Breton churches. Raoul said a prayer for Daae and then, painfully impressed by all those eternal smiles on the mouths of skulls, he climbed the slope and sat down on the edge of the heath overlooking the sea. The wind fell with the evening.",
+  "words": [
+    {
+      "word": "skeletons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "climbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

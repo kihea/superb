@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-sea-wolf-012",
+  "pool": "sourced",
+  "text": "I knew these men and their mental processes, was one of them myself, living the seal-hunting life, eating the seal-hunting fare, thinking, largely, the seal-hunting thoughts. There was for me no strangeness to it, to the rough clothes, the coarse faces, the wild laughter, and the lurching cabin walls and swaying sea-lamps. As I buttered a piece of bread my eyes chanced to rest upon my hand. The knuckles were skinned and inflamed clear across, the fingers swollen, the nails rimmed with black. I felt the mattress-like growth of beard on my neck, knew that the sleeve of my coat was ripped, that a button was missing from the throat of the blue shirt I wore.",
+  "words": [
+    {
+      "word": "coarse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knuckles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

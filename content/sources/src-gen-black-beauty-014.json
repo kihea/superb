@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-014",
+  "pool": "sourced",
+  "text": "“We soon found that the country we had come to was very different from our own and that we had many hardships to endure besides the fighting; but many of the men were so fond of their horses that they did everything they could to make them comfortable in spite of snow, wet, and all things out of order.” “But what about the fighting?” said I, “was not that worse than anything else?” “Well,” said he, “I hardly know; we always liked to hear the trumpet sound, and to be called out, and were impatient to start off, though sometimes we had to stand for hours, waiting for the word of command; and when the word was given we used to spring forward as gayly and eagerly as if there were no cannon balls, bayonets, or bullets. I believe so long as we felt our rider firm in the saddle, and his hand steady on the bridle, not one of us gave way to fear, not even when the terrible bomb-shells whirled through the air and burst into a thousand pieces.",
+  "words": [
+    {
+      "word": "endure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

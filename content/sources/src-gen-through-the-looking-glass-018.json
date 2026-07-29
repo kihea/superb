@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-through-the-looking-glass-018",
+  "pool": "sourced",
+  "text": "The Red Queen broke the silence by saying to the White Queen, “I invite you to Alice’s dinner-party this afternoon.” The White Queen smiled feebly, and said “And I invite you.” “I didn’t know I was to have a party at all,” said Alice; “but if there is to be one, I think I ought to invite the guests.” “We gave you the opportunity of doing it,” the Red Queen remarked: “but I daresay you’ve not had many lessons in manners yet?” “Manners are not taught in lessons,” said Alice. “Lessons teach you to do sums, and things of that sort.” “And you do Addition?” the White Queen asked. “What’s one and one and one and one and one and one and one and one and one and one?” “I don’t know,” said Alice. “I lost count.” “She can’t do Addition,” the Red Queen interrupted. “Can you do Subtraction?",
+  "words": [
+    {
+      "word": "sums",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

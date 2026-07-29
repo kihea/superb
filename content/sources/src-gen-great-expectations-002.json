@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-002",
+  "pool": "sourced",
+  "text": "Mrs. Joe was a very clean housekeeper, but had an exquisite art of making her cleanliness more uncomfortable and unacceptable than dirt itself. Cleanliness is next to Godliness, and some people do the same by their religion. My sister, having so much to do, was going to church vicariously, that is to say, Joe and I were going. In his working-clothes, Joe was a well-knit characteristic-looking blacksmith; in his holiday clothes, he was more like a scarecrow in good circumstances, than anything else. Nothing that he wore then fitted him or seemed to belong to him; and everything that he wore then grazed him.",
+  "words": [
+    {
+      "word": "cleanliness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

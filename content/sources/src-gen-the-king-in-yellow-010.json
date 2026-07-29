@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-king-in-yellow-010",
+  "pool": "sourced",
+  "text": "After this it is easy to teach the falcon to strike at game, always remembering to ‘faire courtoisie á l’oiseau’, that is, to allow the bird to taste the quarry.” A squeal from one of the falcons interrupted her, and she arose to adjust the longe which had become whipped about the bloc, but the bird still flapped its wings and screamed. “What is the matter?” she said. “Philip, can you see?” I looked around and at first saw nothing to cause the commotion, which was now heightened by the screams and flapping of all the birds. Then my eye fell upon the flat rock beside the stream from which the girl had risen. A grey serpent was moving slowly across the surface of the boulder, and the eyes in its flat triangular head sparkled like jet.",
+  "words": [
+    {
+      "word": "falcon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remembering",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "faire",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "falcons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "triangular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

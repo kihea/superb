@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-006",
+  "pool": "sourced",
+  "text": "“Geneva, May 12th, 17—.” Clerval, who had watched my countenance as I read this letter, was surprised to observe the despair that succeeded the joy I at first expressed on receiving news from my friends. I threw the letter on the table, and covered my face with my hands. “My dear Frankenstein,” exclaimed Henry, when he perceived me weep with bitterness, “are you always to be unhappy? My dear friend, what has happened?” I motioned him to take up the letter, while I walked up and down the room in the extremest agitation. Tears also gushed from the eyes of Clerval, as he read the account of my misfortune.",
+  "words": [
+    {
+      "word": "weep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

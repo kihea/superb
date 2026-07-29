@@ -124,8 +124,8 @@ pub fn run(seed: u64, true_theta: f64, config: &SimConfig) -> ComparisonResult {
     ComparisonResult {
         seed,
         true_theta,
-        overclaimer_final_theta: overclaimer.theta(),
-        honest_final_theta: honest.theta(),
+        overclaimer_final_theta: overclaimer.theta(&tuning),
+        honest_final_theta: honest.theta(&tuning),
     }
 }
 

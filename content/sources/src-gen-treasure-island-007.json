@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-007",
+  "pool": "sourced",
+  "text": "A peculiar stagnant smell hung over the anchorage--a smell of sodden leaves and rotting tree trunks. I observed the doctor sniffing and sniffing, like someone tasting a bad egg. “I don’t know about treasure,” he said, “but I’ll stake my wig there’s fever here.” If the conduct of the men had been alarming in the boat, it became truly threatening when they had come aboard. They lay about the deck growling together in talk. The slightest order was received with a black look and grudgingly and carelessly obeyed.",
+  "words": [
+    {
+      "word": "threatening",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

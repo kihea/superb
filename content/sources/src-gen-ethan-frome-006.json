@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-006",
+  "pool": "sourced",
+  "text": "The light, on a level with her chin, drew out of the darkness her puckered throat and the projecting wrist of the hand that clutched the quilt, and deepened fantastically the hollows and prominences of her high-boned face under its ring of crimping-pins. To Ethan, still in the rosy haze of his hour with Mattie, the sight came with the intense precision of the last dream before waking. He felt as if he had never before known what his wife looked like. She drew aside without speaking, and Mattie and Ethan passed into the kitchen, which had the deadly chill of a vault after the dry cold of the night. “Guess you forgot about us, Zeena,” Ethan joked, stamping the snow from his boots.",
+  "words": [
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wrist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

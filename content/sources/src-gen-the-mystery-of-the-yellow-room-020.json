@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-020",
+  "pool": "sourced",
+  "text": "“This, Monsieur President,” he said, “is a hair—a blond hair stained with blood;—it is a hair from the head of Mademoiselle Stangerson. I found it sticking to one of the corners of the overturned table. The corner of the table was itself stained with blood—a tiny stain—hardly visible; but it told me that, on rising from her bed, Mademoiselle Stangerson had fallen heavily and had struck her head on the corner of its marble top. “I had still to learn, in addition to the name of the assassin, which I did later, the time of the original attack. I learned this from the examination of Mademoiselle Stangerson and her father, though the answers given by the former were well calculated to deceive the examining magistrate.",
+  "words": [
+    {
+      "word": "examining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-bleak-house-006",
+  "pool": "sourced",
+  "text": "I don’t know where she was going, but we saw her run, such a little, little creature in her womanly bonnet and apron, through a covered way at the bottom of the court and melt into the city’s strife and sound like a dewdrop in an ocean. Tom-all-Alone’s My Lady Dedlock is restless, very restless. The astonished fashionable intelligence hardly knows where to have her. To-day she is at Chesney Wold; yesterday she was at her house in town; to-morrow she may be abroad, for anything the fashionable intelligence can with confidence predict. Even Sir Leicester’s gallantry has some trouble to keep pace with her.",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-custom-of-the-country-011",
+  "pool": "sourced",
+  "text": "Clare's mind was neither keen nor deep: Ralph, in the past, had smiled at her rash ardours and vague intensities. But she had his own range of allusions, and a great gift of momentary understanding; and he had so long beaten his thoughts out against a blank wall of incomprehension that her sympathy seemed full of insight. She began by a question about his writing, but the subject was distasteful to him, and he turned the talk to a new book in which he had been interested. She knew enough of it to slip in the right word here and there; and thence they wandered on to kindred topics. Under the warmth of her attention his torpid ideas awoke again, and his eyes took their fill of pleasure as she leaned forward, her thin brown hands clasped on her knees and her eager face reflecting all his feelings.",
+  "words": [
+    {
+      "word": "keen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "insight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

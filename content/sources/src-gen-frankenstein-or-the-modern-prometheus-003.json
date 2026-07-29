@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-003",
+  "pool": "sourced",
+  "text": "I confess that neither the structure of languages, nor the code of governments, nor the politics of various states possessed attractions for me. It was the secrets of heaven and earth that I desired to learn; and whether it was the outward substance of things or the inner spirit of nature and the mysterious soul of man that occupied me, still my inquiries were directed to the metaphysical, or in its highest sense, the physical secrets of the world. Meanwhile Clerval occupied himself, so to speak, with the moral relations of things. The busy stage of life, the virtues of heroes, and the actions of men were his theme; and his hope and his dream was to become one among those whose names are recorded in story as the gallant and adventurous benefactors of our species. The saintly soul of Elizabeth shone like a shrine-dedicated lamp in our peaceful home.",
+  "words": [
+    {
+      "word": "virtues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

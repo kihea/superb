@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-through-the-looking-glass-015",
+  "pool": "sourced",
+  "text": "“The Monster has given the Lion twice as much as me!” “She’s kept none for herself, anyhow,” said the Lion. “Do you like plum-cake, Monster?” But before Alice could answer him, the drums began. Where the noise came from, she couldn’t make out: the air seemed full of it, and it rang through and through her head till she felt quite deafened. She started to her feet and sprang across the little brook in her terror, * * * * * * * * * * * * * * * * * * * * and had just time to see the Lion and the Unicorn rise to their feet, with angry looks at being interrupted in their feast, before she dropped to her knees, and put her hands over her ears, vainly trying to shut out the dreadful uproar. “If that doesn’t ‘drum them out of town,’” she thought to herself, “nothing ever will!” “It’s my own Invention” After a while the noise seemed gradually to die away, till all was dead silence, and Alice lifted up her head in some alarm.",
+  "words": [
+    {
+      "word": "brook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lifted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-david-copperfield-019",
+  "pool": "sourced",
+  "text": "Always accompanied with an incapable motion of the head, but with no change of face. Always proceeding from a rigid mouth and closed teeth, as if the jaw were locked and the face frozen up in pain. ‘Do you remember when he did this?’ she proceeded. ‘Do you remember when, in his inheritance of your nature, and in your pampering of his pride and passion, he did this, and disfigured me for life? Look at me, marked until I die with his high displeasure; and moan and groan for what you made him!’ ‘Miss Dartle,’ I entreated her.",
+  "words": [
+    {
+      "word": "jaw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "groan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

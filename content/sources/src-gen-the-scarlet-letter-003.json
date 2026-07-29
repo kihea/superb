@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-scarlet-letter-003",
+  "pool": "sourced",
+  "text": "On the other hand, a penalty which, in our days, would infer a degree of mocking infamy and ridicule, might then be invested with almost as stern a dignity as the punishment of death itself. It was a circumstance to be noted on the summer morning when our story begins its course, that the women, of whom there were several in the crowd, appeared to take a peculiar interest in whatever penal infliction might be expected to ensue. The age had not so much refinement, that any sense of impropriety restrained the wearers of petticoat and farthingale from stepping forth into the public ways, and wedging their not unsubstantial persons, if occasion were, into the throng nearest to the scaffold at an execution. Morally, as well as materially, there was a coarser fibre in those wives and maidens of old English birth and breeding than in their fair descendants, separated from them by a series of six or seven generations; for, throughout that chain of ancestry, every successive mother had transmitted to her child a fainter bloom, a more delicate and briefer beauty, and a slighter physical frame, if not character of less force and solidity than her own.",
+  "words": [
+    {
+      "word": "dignity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "penal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "materially",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "successive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bloom",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

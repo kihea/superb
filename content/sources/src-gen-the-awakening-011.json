@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-awakening-011",
+  "pool": "sourced",
+  "text": "After all, it was no great matter to have one’s hand kissed. She was provoked at his having written the apology. She answered in as light and bantering a spirit as she fancied it deserved, and said she would be glad to have him look in upon her at work whenever he felt the inclination and his business gave him the opportunity. He responded at once by presenting himself at her home with all his disarming naïveté. And then there was scarcely a day which followed that she did not see him or was not reminded of him.",
+  "words": [
+    {
+      "word": "apology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reminded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

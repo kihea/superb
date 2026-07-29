@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-009",
+  "pool": "sourced",
+  "text": "The whole population of the great six-million city was stirring, slipping, running; presently it would be pouring en masse northward. “Black Smoke!” the voices cried. “Fire!” The bells of the neighbouring church made a jangling tumult, a cart carelessly driven smashed, amid shrieks and curses, against the water trough up the street. Sickly yellow lights went to and fro in the houses, and some of the passing cabs flaunted unextinguished lamps. And overhead the dawn was growing brighter, clear and steady and calm.",
+  "words": [
+    {
+      "word": "stirring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

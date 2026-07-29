@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-o-pioneers-010",
+  "pool": "sourced",
+  "text": "I don’t want to stand around and look on. I want to be doing something on my own account.” “That’s so,” Marie sighed. “There are so many, many things you can do. Almost anything you choose.” “And there are so many, many things I can’t do.” Emil echoed her tone sarcastically. “Sometimes I don’t want to do anything at all, and sometimes I want to pull the four corners of the Divide together,”—he threw out his arm and brought it back with a jerk,—“so, like a table-cloth.",
+  "words": [
+    {
+      "word": "sighed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cloth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

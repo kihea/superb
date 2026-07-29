@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-gulliver-s-travels-014",
+  "pool": "sourced",
+  "text": "I hired two mules, with a guide, to show me the way, and carry my small baggage. I took leave of my noble protector, who had shown me so much favour, and made me a generous present at my departure. My journey was without any accident or adventure worth relating. When I arrived at the port of Maldonada (for so it is called) there was no ship in the harbour bound for Luggnagg, nor likely to be in some time. The town is about as large as Portsmouth.",
+  "words": [
+    {
+      "word": "baggage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "relating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

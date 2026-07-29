@@ -1,0 +1,71 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-015",
+  "pool": "sourced",
+  "text": "Borne on the gale, thou com’st to me; O! welcome, welcome to my home! In lily’s cell we’ll live in glee, Together o’er the mountains roam! When Lady Blanche returned to the château, instead of going to the apartment of the Countess, she amused herself with wandering over that part of the edifice, which she had not yet examined, of which the most ancient first attracted her curiosity; for, though what she had seen of the modern was gay and elegant, there was something in the former more interesting to her imagination. Having passed up the great staircase, and through the oak gallery, she entered upon a long suite of chambers, whose walls were either hung with tapestry, or wainscoted with cedar, the furniture of which looked almost as ancient as the rooms themselves; the spacious fire-places, where no mark of social cheer remained, presented an image of cold desolation; and the whole suite had so much the air of neglect and desertion, that it seemed, as if the venerable persons, whose portraits hung upon the walls, had been the last to inhabit them.",
+  "words": [
+    {
+      "word": "lily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glee",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "examined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chambers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tapestry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neglect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inhabit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

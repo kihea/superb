@@ -1,0 +1,48 @@
+{
+  "id": "src-gen-gulliver-s-travels-012",
+  "pool": "sourced",
+  "text": "My dinner was brought, and four persons of quality, whom I remembered to have seen very near the king’s person, did me the honour to dine with me. We had two courses, of three dishes each. In the first course, there was a shoulder of mutton cut into an equilateral triangle, a piece of beef into a rhomboides, and a pudding into a cycloid. The second course was two ducks trussed up in the form of fiddles; sausages and puddings resembling flutes and hautboys, and a breast of veal in the shape of a harp. The servants cut our bread into cones, cylinders, parallelograms, and several other mathematical figures.",
+  "words": [
+    {
+      "word": "dine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "triangle",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pudding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cones",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cylinders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

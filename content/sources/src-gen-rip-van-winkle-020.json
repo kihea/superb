@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-rip-van-winkle-020",
+  "pool": "sourced",
+  "text": "In old times, say the Indian traditions, there was a kind of Manitou or Spirit, who kept about the wildest recesses of the Catskill mountains, and took a mischievous pleasure in wreaking all kinds of evils and vexations upon the red men. Sometimes he would assume the form of a bear, a panther, or a deer, lead the bewildered hunter a weary chase through tangled forests and among ragged rocks, and then spring off with a loud ho! leaving him aghast on the brink of a beetling precipice or raging torrent. The favourite abode of this Manitou is still shown. It is a great rock or cliff on the loneliest part of the mountains, and, from the flowering vines which clamber about it, and the wild flowers which abound in its neighbourhood, is known by the name of the Garden Rock.",
+  "words": [
+    {
+      "word": "traditions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torrent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Rip Van Winkle",
+    "author": "Washington Irving",
+    "year": 1819,
+    "source": "Project Gutenberg #60976",
+    "url": "https://www.gutenberg.org/ebooks/60976",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

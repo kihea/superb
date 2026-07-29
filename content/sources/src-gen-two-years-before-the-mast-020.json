@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-two-years-before-the-mast-020",
+  "pool": "sourced",
+  "text": "As we changed horses twice, we did not slacken our speed until we turned into the streets of the Pueblo. The Pueblo de los Angeles I found a large and flourishing town of about twenty thousand inhabitants, with brick sidewalks, and blocks of stone or brick houses. The three principal traders when we were here for hides in the Pilgrim and Alert are still among the chief traders of the place,--Stearns, Temple, and Warner, the two former being reputed very rich. I dined with Mr. Stearns, now a very old man, and met there Don Juan Bandini, to whom I had given a good deal of notice in my book. From him, as indeed from every one in this town, I met with the kindest attentions.",
+  "words": [
+    {
+      "word": "traders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hides",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

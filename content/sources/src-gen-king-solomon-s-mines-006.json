@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-king-solomon-s-mines-006",
+  "pool": "sourced",
+  "text": "As we were sitting there I saw Umbopa get up and hobble towards the patch of green, and a few minutes afterwards, to my great astonishment, I perceived that usually very dignified individual dancing and shouting like a maniac, and waving something green. Off we all scrambled towards him as fast as our wearied limbs would carry us, hoping that he had found water. “What is it, Umbopa, son of a fool?” I shouted in Zulu. “It is food and water, Macumazahn,” and again he waved the green thing. Then I saw what he had found.",
+  "words": [
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scrambled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

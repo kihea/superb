@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-008",
+  "pool": "sourced",
+  "text": "Toto shall not hurt you.” At this the Queen of the Mice stuck her head out from underneath a clump of grass and asked, in a timid voice, “Are you sure he will not bite us?” “I will not let him,” said the Woodman; “so do not be afraid.” One by one the mice came creeping back, and Toto did not bark again, although he tried to get out of the Woodman’s arms, and would have bitten him had he not known very well he was made of tin. Finally one of the biggest mice spoke. “Is there anything we can do,” it asked, “to repay you for saving the life of our Queen?” “Nothing that I know of,” answered the Woodman; but the Scarecrow, who had been trying to think, but could not because his head was stuffed with straw, said, quickly, “Oh, yes; you can save our friend, the Cowardly Lion, who is asleep in the poppy bed.” “A Lion!” cried the little Queen. “Why, he would eat us all up.” “Oh, no,” declared the Scarecrow; “this Lion is a coward.” “Really?” asked the Mouse.",
+  "words": [
+    {
+      "word": "bark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

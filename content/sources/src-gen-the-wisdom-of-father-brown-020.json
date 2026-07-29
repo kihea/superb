@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-020",
+  "pool": "sourced",
+  "text": "“But what about the brother who ratted? Hadn’t he anything to tell the Prince?” “He always asseverated that he did not know,” replied Flambeau; “that this was the one secret his brothers had not told him. It is only right to say that it received some support from fragmentary words--spoken by the great Ludwig in the hour of death, when he looked at Heinrich but pointed at Paul, and said, ‘You have not told him...’ and was soon afterwards incapable of speech. Anyhow, the deputation of distinguished geologists and mineralogists from Paris and Berlin were there in the most magnificent and appropriate dress, for there are no men who like wearing their decorations so much as the men of science--as anybody knows who has ever been to a soiree of the Royal Society. It was a brilliant gathering, but very late, and gradually the Chamberlain--you saw his portrait, too: a man with black eyebrows, serious eyes, and a meaningless sort of smile underneath--the Chamberlain, I say, discovered there was everything there except the Prince himself.",
+  "words": [
+    {
+      "word": "geologists",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eyebrows",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

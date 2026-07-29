@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-typhoon-015",
+  "pool": "sourced",
+  "text": "Mr. Rout had gone away, and Captain MacWhirr could feel against his ear the pulsation of the engines, like the beat of the ship's heart. Mr. Rout's voice down there shouted something distantly. The ship pitched headlong, the pulsation leaped with a hissing tumult, and stopped dead. Captain MacWhirr's face was impassive, and his eyes were fixed aimlessly on the crouching shape of the second mate. Again Mr. Rout's voice cried out in the depths, and the pulsating beats recommenced, with slow strokes--growing swifter.",
+  "words": [
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "depths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

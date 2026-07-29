@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-age-of-innocence-006",
+  "pool": "sourced",
+  "text": "The popularity of the admirable English company was at its height, and the Shaughraun always packed the house. In the galleries the enthusiasm was unreserved; in the stalls and boxes, people smiled a little at the hackneyed sentiments and clap-trap situations, and enjoyed the play as much as the galleries did. There was one episode, in particular, that held the house from floor to ceiling. It was that in which Harry Montague, after a sad, almost monosyllabic scene of parting with Miss Dyas, bade her good-bye, and turned to go. The actress, who was standing near the mantelpiece and looking down into the fire, wore a gray cashmere dress without fashionable loopings or trimmings, moulded to her tall figure and flowing in long lines about her feet.",
+  "words": [
+    {
+      "word": "smiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-020",
+  "pool": "sourced",
+  "text": "You know yourself how earnestly, in the last months of the last year, I laboured to relieve suffering; you know that much was done for others, and that the days passed quietly, almost happily for myself. Nor can I truly say that I wearied of this beneficent and innocent life; I think instead that I daily enjoyed it more completely; but I was still cursed with my duality of purpose; and as the first edge of my penitence wore off, the lower side of me, so long indulged, so recently chained down, began to growl for licence. Not that I dreamed of resuscitating Hyde; the bare idea of that would startle me to frenzy: no, it was in my own person that I was once more tempted to trifle with my conscience; and it was as an ordinary secret sinner that I at last fell before the assaults of temptation. There comes an end to all things; the most capacious measure is filled at last; and this brief condescension to my evil finally destroyed the balance of my soul.",
+  "words": [
+    {
+      "word": "relieve",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sinner",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

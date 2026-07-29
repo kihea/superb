@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-anna-karenina-005",
+  "pool": "sourced",
+  "text": "“Oh, these farmers!” said Stepan Arkadyevitch playfully. “Your tone of contempt for us poor townsfolk!... But when it comes to business, we do it better than anyone. I assure you I have reckoned it all out,” he said, “and the forest is fetching a very good price—so much so that I’m afraid of this fellow’s crying off, in fact. You know it’s not ‘timber,’” said Stepan Arkadyevitch, hoping by this distinction to convince Levin completely of the unfairness of his doubts.",
+  "words": [
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

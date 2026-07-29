@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-002",
+  "pool": "sourced",
+  "text": "Bureau courts tended to become centres simply for punishing whites, while the regular civil courts tended to become solely institutions for perpetuating the slavery of blacks. Almost every law and method ingenuity could devise was employed by the legislatures to reduce the Negroes to serfdom,—to make them the slaves of the State, if not of individual owners; while the Bureau officials too often were found striving to put the “bottom rail on top,” and gave the freedmen a power and independence which they could not yet use. It is all well enough for us of another generation to wax wise with advice to those who bore the burden in the heat of the day. It is full easy now to see that the man who lost home, fortune, and family at a stroke, and saw his land ruled by “mules and niggers,” was really benefited by the passing of slavery. It is not difficult now to say to the young freedman, cheated and cuffed about who has seen his father’s head beaten to a jelly and his own mother namelessly assaulted, that the meek shall inherit the earth.",
+  "words": [
+    {
+      "word": "tended",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slavery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ingenuity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "devise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "legislatures",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slaves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beaten",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jelly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

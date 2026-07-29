@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-agnes-grey-005",
+  "pool": "sourced",
+  "text": "Is it possible? What, in the devil’s name, can you be thinking about?” “I can’t get them in, sir,” said I, turning round, and beholding Mr. Bloomfield, with his hair on end, and his pale blue eyes bolting from their sockets. “But I INSIST upon their being got in!” cried he, approaching nearer, and looking perfectly ferocious. “Then, sir, you must call them yourself, if you please, for they won’t listen to me,” I replied, stepping back. “Come in with you, you filthy brats; or I’ll horsewhip you every one!” roared he; and the children instantly obeyed.",
+  "words": [
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

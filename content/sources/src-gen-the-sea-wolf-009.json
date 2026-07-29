@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-sea-wolf-009",
+  "pool": "sourced",
+  "text": "But he caught my hand in a passionate grip one night, saying: “I think yer square, Mr. Van Weyden. But stay where you are and keep yer mouth shut. Say nothin’ but saw wood. We’re dead men, I know it; but all the same you might be able to do us a favour some time when we need it damn bad.” It was only next day, when Wainwright Island loomed to windward, close abeam, that Wolf Larsen opened his mouth in prophecy. He had attacked Johnson, been attacked by Leach, and had just finished whipping the pair of them.",
+  "words": [
+    {
+      "word": "grip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

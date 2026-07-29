@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-vanity-fair-020",
+  "pool": "sourced",
+  "text": "Then she determined upon a boarding-house existence and lived for some time at that famous mansion kept by Madame de Saint Amour, in the Rue Royale, at Paris, where she began exercising her graces and fascinations upon the shabby dandies and fly-blown beauties who frequented her landlady's salons. Becky loved society and, indeed, could no more exist without it than an opium-eater without his dram, and she was happy enough at the period of her boarding-house life. \"The women here are as amusing as those in May Fair,\" she told an old London friend who met her, \"only, their dresses are not quite so fresh. The men wear cleaned gloves, and are sad rogues, certainly, but they are not worse than Jack This and Tom That. The mistress of the house is a little vulgar, but I don't think she is so vulgar as Lady ------\" and here she named the name of a great leader of fashion that I would die rather than reveal.",
+  "words": [
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-sense-and-sensibility-004",
+  "pool": "sourced",
+  "text": "Elinor's happiness was not so great. Her heart was not so much at ease, nor her satisfaction in their amusements so pure. They afforded her no companion that could make amends for what she had left behind, nor that could teach her to think of Norland with less regret than ever. Neither Lady Middleton nor Mrs. Jennings could supply to her the conversation she missed; although the latter was an everlasting talker, and from the first had regarded her with a kindness which ensured her a large share of her discourse. She had already repeated her own history to Elinor three or four times; and had Elinor's memory been equal to her means of improvement, she might have known very early in their acquaintance all the particulars of Mr. Jennings's last illness, and what he said to his wife a few minutes before he died.",
+  "words": [
+    {
+      "word": "afforded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amends",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ensured",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

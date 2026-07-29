@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-019",
+  "pool": "sourced",
+  "text": "Keep quiet and Ill see a lawyer and do all I can And if the worst happens and them earls is too many for us theres a partnership in the grocery business ready for you when yure old enough and a home and a friend in “Yrs truly, “SILAS HOBBS.” “Well,” said Mr. Hobbs, “he's pervided for between us, if he aint a earl.” “So he is,” said Dick. “I'd ha' stood by him. Blest if I didn't like that little feller fust-rate.” The very next morning, one of Dick's customers was rather surprised. He was a young lawyer just beginning practice--as poor as a very young lawyer can possibly be, but a bright, energetic young fellow, with sharp wit and a good temper. He had a shabby office near Dick's stand, and every morning Dick blacked his boots for him, and quite often they were not exactly water-tight, but he always had a friendly word or a joke for Dick.",
+  "words": [
+    {
+      "word": "earl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

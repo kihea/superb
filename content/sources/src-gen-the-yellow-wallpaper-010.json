@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-010",
+  "pool": "sourced",
+  "text": "“What is it, little girl?” he said. “Don’t go walking about like that—you’ll get cold.” I thought it was a good time to talk, so I told him that I really was not gaining here, and that I wished he would take me away. “Why darling!” said he, “our lease will be up in three weeks, and I can’t see how to leave before. “The repairs are not done at home, and I cannot possibly leave town just now. Of course if you were in any danger I could and would, but you really are better, dear, whether you can see it or not.",
+  "words": [
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

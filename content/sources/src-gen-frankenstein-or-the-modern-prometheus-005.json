@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-005",
+  "pool": "sourced",
+  "text": "“Compose yourself,” said Clerval, who observed my change of colour, “I will not mention it if it agitates you; but your father and cousin would be very happy if they received a letter from you in your own handwriting. They hardly know how ill you have been and are uneasy at your long silence.” “Is that all, my dear Henry? How could you suppose that my first thought would not fly towards those dear, dear friends whom I love and who are so deserving of my love?” “If this is your present temper, my friend, you will perhaps be glad to see a letter that has been lying here some days for you; it is from your cousin, I believe.” Clerval then put the following letter into my hands. It was from my own Elizabeth: “My dearest Cousin, “You have been ill, very ill, and even the constant letters of dear kind Henry are not sufficient to reassure me on your account. You are forbidden to write—to hold a pen; yet one word from you, dear Victor, is necessary to calm our apprehensions.",
+  "words": [
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

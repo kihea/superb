@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-white-fang-016",
+  "pool": "sourced",
+  "text": "But there’s one thing I know sure, an’ that there’s no gettin’ away from.” The dog-musher paused and nodded his head confidentially at Moosehide Mountain. “Well, don’t be a miser with what you know,” Scott said sharply, after waiting a suitable length of time. “Spit it out. What is it?” The dog-musher indicated White Fang with a backward thrust of his thumb. “Wolf or dog, it’s all the same—he’s ben tamed ’ready.” “No!” “I tell you yes, an’ broke to harness.",
+  "words": [
+    {
+      "word": "nodded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

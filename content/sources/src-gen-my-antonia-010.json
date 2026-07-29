@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-010",
+  "pool": "sourced",
+  "text": "The parlour, the back parlour, and the dining-room were warm and brightly lighted, with comfortable chairs and sofas, and gay pictures on the walls. One always felt at ease there. Ántonia brought her sewing and sat with us—she was already beginning to make pretty clothes for herself. After the long winter evenings on the prairie, with Ambrosch’s sullen silences and her mother’s complaints, the Harlings’ house seemed, as she said, ‘like Heaven’ to her. She was never too tired to make taffy or chocolate cookies for us.",
+  "words": [
+    {
+      "word": "parlour",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

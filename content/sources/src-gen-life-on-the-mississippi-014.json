@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-life-on-the-mississippi-014",
+  "pool": "sourced",
+  "text": "Then, with a confidential wink, a dropping of the voice, and an impressive laying of his hand on my arm; 'Look here; there's one thing in this world which isn't ever cheap. That's a coffin. There's one thing in this world which a person don't ever try to jew you down on. That's a coffin. There's one thing in this world which a person don't say--“I'll look around a little, and if I find I can't do better I'll come back and take it.” That's a coffin.",
+  "words": [
+    {
+      "word": "wink",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

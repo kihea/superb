@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-the-great-god-pan-001",
+  "pool": "sourced",
+  "text": "the chair to the light, and began raising and lowering it, letting down the seat, setting the back at various angles, and adjusting the foot-rest. It looked comfortable enough, and Clarke passed his hand over the soft green velvet, as the doctor manipulated the levers. “Now, Clarke, make yourself quite comfortable. I have a couple hours’ work before me; I was obliged to leave certain matters to the last.” Raymond went to the stone slab, and Clarke watched him drearily as he bent over a row of phials and lit the flame under the crucible. The doctor had a small hand-lamp, shaded as the larger one, on a ledge above his apparatus, and Clarke, who sat in the shadows, looked down at the great shadowy room, wondering at the bizarre effects of brilliant light and undefined darkness contrasting with one another.",
+  "words": [
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadowy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

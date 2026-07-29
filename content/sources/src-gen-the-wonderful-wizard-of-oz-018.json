@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-018",
+  "pool": "sourced",
+  "text": "“For,” they said, “there is not another city in all the world that is ruled by a stuffed man.” And, so far as they knew, they were quite right. The morning after the balloon had gone up with Oz, the four travelers met in the Throne Room and talked matters over. The Scarecrow sat in the big throne and the others stood respectfully before him. “We are not so unlucky,” said the new ruler, “for this Palace and the Emerald City belong to us, and we can do just as we please. When I remember that a short time ago I was up on a pole in a farmer’s cornfield, and that now I am the ruler of this beautiful City, I am quite satisfied with my lot.” “I also,” said the Tin Woodman, “am well-pleased with my new heart; and, really, that was the only thing I wished in all the world.” “For my part, I am content in knowing I am as brave as any beast that ever lived, if not braver,” said the Lion modestly.",
+  "words": [
+    {
+      "word": "throne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

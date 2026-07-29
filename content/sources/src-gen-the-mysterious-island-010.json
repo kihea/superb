@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-010",
+  "pool": "sourced",
+  "text": "During the day the bodies of the apes were carried into the wood, where they were buried; then the settlers busied themselves in repairing the disorder caused by the intruders, disorder but not damage, for although they had turned everything in the rooms topsy-turvy, yet they had broken nothing. Neb relighted his stove, and the stores in the larder furnished a substantial repast, to which all did ample justice. Jup was not forgotten, and he ate with relish some stonepine almonds and rhizome roots, with which he was abundantly supplied. Pencroft had unfastened his arms, but judged it best to have his legs tied until they were more sure of his submission. Then, before retiring to rest, Harding and his companions seated round their table, discussed those plans, the execution of which was most pressing.",
+  "words": [
+    {
+      "word": "stove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "judged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

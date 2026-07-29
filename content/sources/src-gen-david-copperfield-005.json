@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-david-copperfield-005",
+  "pool": "sourced",
+  "text": "Oh, what a writer Mr. Tidd is, Master Copperfield!’ My stool was such a tower of observation, that as I watched him reading on again, after this rapturous exclamation, and following up the lines with his forefinger, I observed that his nostrils, which were thin and pointed, with sharp dints in them, had a singular and most uncomfortable way of expanding and contracting themselves--that they seemed to twinkle instead of his eyes, which hardly ever twinkled at all. ‘I suppose you are quite a great lawyer?’ I said, after looking at him for some time. ‘Me, Master Copperfield?’ said Uriah. I’m a very umble person.’ It was no fancy of mine about his hands, I observed; for he frequently ground the palms against each other as if to squeeze them dry and warm, besides often wiping them, in a stealthy way, on his pocket-handkerchief. ‘I am well aware that I am the umblest person going,’ said Uriah Heep, modestly; ‘let the other be where he may.",
+  "words": [
+    {
+      "word": "observation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contracting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

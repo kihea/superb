@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-robinson-crusoe-019",
+  "pool": "sourced",
+  "text": "When I took leave of this island, I carried on board, for relics, the great goat-skin cap I had made, my umbrella, and one of my parrots; also, I forgot not to take the money I formerly mentioned, which had lain by me so long useless that it was grown rusty or tarnished, and could hardly pass for silver till it had been a little rubbed and handled, as also the money I found in the wreck of the Spanish ship. And thus I left the island, the 19th of December, as I found by the ship’s account, in the year 1686, after I had been upon it eight-and-twenty years, two months, and nineteen days; being delivered from this second captivity the same day of the month that I first made my escape in the long-boat from among the Moors of Sallee. In this vessel, after a long voyage, I arrived in England the 11th of June, in the year 1687, having been thirty-five years absent. When I came to England I was as perfect a stranger to all the world as if I had never been known there.",
+  "words": [
+    {
+      "word": "relics",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

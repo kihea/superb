@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-little-princess-001",
+  "pool": "sourced",
+  "text": "\"It isn't funny, really,\" she said between her teeth, as she bent over her book. \"They ought not to laugh.\" When lessons were over and the pupils gathered together in groups to talk, Sara looked for Miss St. John, and finding her bundled rather disconsolately in a window-seat, she walked over to her and spoke. She only said the kind of thing little girls always say to each other by way of beginning an acquaintance, but there was something friendly about Sara, and people always felt it. \"What is your name?\"",
+  "words": [
+    {
+      "word": "bent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bundled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

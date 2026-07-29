@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-014",
+  "pool": "sourced",
+  "text": "Stuck stubbornly in his sub-consciousness (which was an unusually lively one) was an unspeakable certainty that there was something still unexplained. This sense that had clung to him all day could not be fully explained by his fancy about “looking-glass land.” Somehow he had not seen the real story, but some game or masque. And yet people do not get hanged or run through the body for the sake of a charade. As he sat on the steps of the landing-stage ruminating he grew conscious of the tall, dark streak of a sail coming silently down the shining river, and sprang to his feet with such a backrush of feeling that he almost wept. “Flambeau!” he cried, and shook his friend by both hands again and again, much to the astonishment of that sportsman, as he came on shore with his fishing tackle.",
+  "words": [
+    {
+      "word": "consciousness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unexplained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

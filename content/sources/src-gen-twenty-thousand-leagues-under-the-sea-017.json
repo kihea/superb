@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-017",
+  "pool": "sourced",
+  "text": "According to these calculations, the mass of ice surrounding the southern pole forms a vast cap, the circumference of which must be, at least, 2,500 miles. But the Nautilus, for fear of running aground, had stopped about three cable-lengths from a strand over which reared a superb heap of rocks. The boat was launched; the Captain, two of his men, bearing instruments, Conseil, and myself were in it. It was ten in the morning. I had not seen Ned Land.",
+  "words": [
+    {
+      "word": "calculations",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "circumference",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

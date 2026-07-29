@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sense-and-sensibility-011",
+  "pool": "sourced",
+  "text": "And so I shall always say, my dear, you may depend on it. I have no notion of men's going on in this way; and if ever I meet him again, I will give him such a dressing as he has not had this many a day. But there is one comfort, my dear Miss Marianne--he is not the only young man in the world worth having; and with your pretty face you will never want admirers. Well, poor thing! I won't disturb her any longer, for she had better have her cry out at once and have done with.",
+  "words": [
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admirers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

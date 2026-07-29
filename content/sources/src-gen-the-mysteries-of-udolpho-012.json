@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-012",
+  "pool": "sourced",
+  "text": "At the moment, in which they let down the body into the earth, the scene was such as only the dark pencil of a Domenichino, perhaps, could have done justice to. The fierce features and wild dress of the condottieri, bending with their torches over the grave, into which the corpse was descending, were contrasted by the venerable figure of the monk, wrapt in long black garments, his cowl thrown back from his pale face, on which the light gleaming strongly showed the lines of affliction softened by piety, and the few grey locks, which time had spared on his temples: while, beside him, stood the softer form of Emily, who leaned for support upon Annette; her face half averted, and shaded by a thin veil, that fell over her figure; and her mild and beautiful countenance fixed in grief so solemn as admitted not of tears, while she thus saw committed untimely to the earth her last relative and friend.",
+  "words": [
+    {
+      "word": "torches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "softened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "leaned",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "untimely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

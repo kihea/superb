@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-007",
+  "pool": "sourced",
+  "text": "What will become of me?” Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger: still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy. “It was much pleasanter at home,” thought poor Alice, “when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits. I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life! I do wonder what can have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one!",
+  "words": [
+    {
+      "word": "rabbits",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rabbit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

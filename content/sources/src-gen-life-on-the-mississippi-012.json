@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-life-on-the-mississippi-012",
+  "pool": "sourced",
+  "text": "When it let go, we went on talking again, if nobody hurt--maybe saying, 'That was a ripper!' or some such commonplace comment before we resumed; or, maybe, we would see a shell poising itself away high in the air overhead. In that case, every fellow just whipped out a sudden, 'See you again, gents!' and shoved. Often and often I saw gangs of ladies promenading the streets, looking as cheerful as you please, and keeping an eye canted up watching the shells; and I've seen them stop still when they were uncertain about what a shell was going to do, and wait and make certain; and after that they sa'ntered along again, or lit out for shelter, according to the verdict.",
+  "words": [
+    {
+      "word": "shoved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uncertain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "verdict",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

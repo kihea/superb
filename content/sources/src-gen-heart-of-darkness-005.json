@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heart-of-darkness-005",
+  "pool": "sourced",
+  "text": "Anyway, it could not be found there and as it was not likely to be sent from Europe, it did not appear clear to me what he was waiting for. An act of special creation perhaps. However, they were all waiting—all the sixteen or twenty pilgrims of them—for something; and upon my word it did not seem an uncongenial occupation, from the way they took it, though the only thing that ever came to them was disease—as far as I could see. They beguiled the time by back-biting and intriguing against each other in a foolish kind of way. There was an air of plotting about that station, but nothing came of it, of course.",
+  "words": [
+    {
+      "word": "biting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plotting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

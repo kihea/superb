@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-white-fang-002",
+  "pool": "sourced",
+  "text": "Henry shrugged his shoulders. “Don’t know. Unless One Ear gnawed ’m loose. He couldn’t a-done it himself, that’s sure.” “The darned cuss.” Bill spoke gravely and slowly, with no hint of the anger that was raging within. “Jes’ because he couldn’t chew himself loose, he chews Spanker loose.” “Well, Spanker’s troubles is over anyway; I guess he’s digested by this time an’ cavortin’ over the landscape in the bellies of twenty different wolves,” was Henry’s epitaph on this, the latest lost dog.",
+  "words": [
+    {
+      "word": "shrugged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "raging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

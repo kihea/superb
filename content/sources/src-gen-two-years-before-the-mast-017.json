@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-two-years-before-the-mast-017",
+  "pool": "sourced",
+  "text": "The wet and soiled clothes which had accumulated there during the past month, were brought up on deck; the chests moved; brooms, buckets of water, swabs, scrubbing-brushes, and scrapers carried down, and applied, until the forecastle floor was as white as chalk, and everything neat and in order. The bedding from the berths was then spread on deck, and dried, and aired; the deck-tub filled with water; and a grand washing begun of all the clothes which were brought up. Shirts, frocks, drawers, trowsers, jackets, stockings, of every shape and color, wet and dirty--many of them mouldy from having been lying a long time wet in a foul corner--these were all washed and scrubbed out, and finally towed overboard for half an hour; and then made fast in the rigging to dry. Wet boots and shoes were spread out to dry in sunny places on deck; and the whole ship looked like a back yard on a washing day. After we had done with our clothes, we began upon our own persons.",
+  "words": [
+    {
+      "word": "buckets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chalk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tub",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "washing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foul",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "washed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rigging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

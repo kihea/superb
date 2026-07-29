@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-agnes-grey-002",
+  "pool": "sourced",
+  "text": "To train the tender plants, and watch their buds unfolding day by day! Influenced by so many inducements, I determined still to persevere; though the fear of displeasing my mother, or distressing my father’s feelings, prevented me from resuming the subject for several days. At length, again, I mentioned it to my mother in private; and, with some difficulty, got her to promise to assist me with her endeavours. My father’s reluctant consent was next obtained, and then, though Mary still sighed her disapproval, my dear, kind mother began to look out for a situation for me. She wrote to my father’s relations, and consulted the newspaper advertisements—her own relations she had long dropped all communication with: a formal interchange of occasional letters was all she had ever had since her marriage, and she would not at any time have applied to them in a case of this nature.",
+  "words": [
+    {
+      "word": "distressing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occasional",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

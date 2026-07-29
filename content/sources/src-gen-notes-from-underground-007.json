@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-notes-from-underground-007",
+  "pool": "sourced",
+  "text": "You declare that you are afraid of nothing and at the same time try to ingratiate yourself in our good opinion. You declare that you are gnashing your teeth and at the same time you try to be witty so as to amuse us. You know that your witticisms are not witty, but you are evidently well satisfied with their literary value. You may, perhaps, have really suffered, but you have no respect for your own suffering. You may have sincerity, but you have no modesty; out of the pettiest vanity you expose your sincerity to publicity and ignominy.",
+  "words": [
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "modesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vanity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

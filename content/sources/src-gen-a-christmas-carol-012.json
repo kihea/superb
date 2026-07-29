@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-012",
+  "pool": "sourced",
+  "text": "And now two smaller Cratchits, boy and girl, came tearing in, screaming that outside the baker's they had smelt the goose, and known it for their own; and basking in luxurious thoughts of sage and onion, these young Cratchits danced about the table, and exalted Master Peter Cratchit to the skies, while he (not proud, although his collars nearly choked him) blew the fire, until the slow potatoes bubbling up, knocked loudly at the saucepan-lid to be let out and peeled. \"What has ever got your precious father then?\" said Mrs. Cratchit. \"And your brother, Tiny Tim! And Martha warn't as late last Christmas Day by half-an-hour?\"",
+  "words": [
+    {
+      "word": "tearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

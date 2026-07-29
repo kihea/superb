@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-015",
+  "pool": "sourced",
+  "text": "New rafters and a new ceiling upstairs also were required, which, with the previous bill, would amount to a sum of twenty pounds. As her husband was a man of means, and had doubtless returned by this time, could she not send them the money? Tess had thirty pounds coming to her almost immediately from Angel’s bankers, and, the case being so deplorable, as soon as the sum was received she sent the twenty as requested. Part of the remainder she was obliged to expend in winter clothing, leaving only a nominal sum for the whole inclement season at hand. When the last pound had gone, a remark of Angel’s that whenever she required further resources she was to apply to his father, remained to be considered.",
+  "words": [
+    {
+      "word": "bankers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remainder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obliged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

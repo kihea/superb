@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-woman-in-white-019",
+  "pool": "sourced",
+  "text": "A slim, light-haired man standing by us, whom I had not noticed before—a man with a scar on his left cheek—looked attentively at Pesca as I helped him up, and then looked still more attentively, following the direction of Pesca’s eyes, at the Count. Our conversation might have reached his ears, and might, as it struck me, have roused his curiosity. Meanwhile, Pesca fixed his eyes earnestly on the broad, full, smiling face turned a little upward, exactly opposite to him. “No,” he said, “I have never set my two eyes on that big fat man before in all my life.” As he spoke the Count looked downwards towards the boxes behind us on the pit tier. The eyes of the two Italians met.",
+  "words": [
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

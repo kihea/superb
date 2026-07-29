@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-emma-011",
+  "pool": "sourced",
+  "text": "Mr. Perry might have reason to regret the alteration, but nobody else could.” “Sir,” said Mr. Woodhouse, rather warmly, “you are very much mistaken if you suppose Mr. Perry to be that sort of character. Mr. Perry is extremely concerned when any of us are ill. But I do not understand how the room at the Crown can be safer for you than your father’s house.” “From the very circumstance of its being larger, sir. We shall have no occasion to open the windows at all—not once the whole evening; and it is that dreadful habit of opening the windows, letting in cold air upon heated bodies, which (as you well know, sir) does the mischief.” “Open the windows!—but surely, Mr. Churchill, nobody would think of opening the windows at Randalls. Nobody could be so imprudent!",
+  "words": [
+    {
+      "word": "mistaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

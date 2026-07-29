@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-little-women-007",
+  "pool": "sourced",
+  "text": "Amy protested that she would not go, and Meg left her in despair to ask Hannah what should be done. Before she came back, Laurie walked into the parlor to find Amy sobbing, with her head in the sofa cushions. She told her story, expecting to be consoled, but Laurie only put his hands in his pockets and walked about the room, whistling softly, as he knit his brows in deep thought. Presently he sat down beside her, and said, in his most wheedlesome tone, “Now be a sensible little woman, and do as they say. No, don’t cry, but hear what a jolly plan I’ve got.",
+  "words": [
+    {
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sobbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

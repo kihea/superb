@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-003",
+  "pool": "sourced",
+  "text": "One was the British consul at Suez, who, despite the prophecies of the English Government, and the unfavourable predictions of Stephenson, was in the habit of seeing, from his office window, English ships daily passing to and fro on the great canal, by which the old roundabout route from England to India by the Cape of Good Hope was abridged by at least a half. The other was a small, slight-built personage, with a nervous, intelligent face, and bright eyes peering out from under eyebrows which he was incessantly twitching. He was just now manifesting unmistakable signs of impatience, nervously pacing up and down, and unable to stand still for a moment. This was Fix, one of the detectives who had been dispatched from England in search of the bank robber; it was his task to narrowly watch every passenger who arrived at Suez, and to follow up all who seemed to be suspicious characters, or bore a resemblance to the description of the criminal, which he had received two days before from the police headquarters at London.",
+  "words": [
+    {
+      "word": "consul",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nervously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detectives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-018",
+  "pool": "sourced",
+  "text": "“The patient was a woman of great beauty, and young; assuredly not much past twenty. Her hair was torn and ragged, and her arms were bound to her sides with sashes and handkerchiefs. I noticed that these bonds were all portions of a gentleman’s dress. On one of them, which was a fringed scarf for a dress of ceremony, I saw the armorial bearings of a Noble, and the letter E. “I saw this, within the first minute of my contemplation of the patient; for, in her restless strivings she had turned over on her face on the edge of the bed, had drawn the end of the scarf into her mouth, and was in danger of suffocation. My first act was to put out my hand to relieve her breathing; and in moving the scarf aside, the embroidery in the corner caught my sight.",
+  "words": [
+    {
+      "word": "contemplation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

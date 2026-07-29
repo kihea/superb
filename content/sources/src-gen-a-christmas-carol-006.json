@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-006",
+  "pool": "sourced",
+  "text": "\"A solitary child, neglected by his friends, is left there still.\" Scrooge said he knew it. And he sobbed. They left the high-road, by a well-remembered lane, and soon approached a mansion of dull red brick, with a little weathercock-surmounted cupola, on the roof, and a bell hanging in it. It was a large house, but one of broken fortunes; for the spacious offices were little used, their walls were damp and mossy, their windows broken, and their gates decayed.",
+  "words": [
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

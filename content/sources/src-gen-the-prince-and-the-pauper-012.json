@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-012",
+  "pool": "sourced",
+  "text": "“And thou shalt be at peace here. None shall find out thy refuge to disquiet thee with supplications to return to that empty and foolish life which God hath moved thee to abandon. Thou shalt pray here; thou shalt study the Book; thou shalt meditate upon the follies and delusions of this world, and upon the sublimities of the world to come; thou shalt feed upon crusts and herbs, and scourge thy body with whips, daily, to the purifying of thy soul. Thou shalt wear a hair shirt next thy skin; thou shalt drink water only; and thou shalt be at peace; yes, wholly at peace; for whoso comes to seek thee shall go his way again, baffled; he shall not find thee, he shall not molest thee.” The old man, still pacing back and forth, ceased to speak aloud, and began to mutter. The King seized this opportunity to state his case; and he did it with an eloquence inspired by uneasiness and apprehension.",
+  "words": [
+    {
+      "word": "refuge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meditate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

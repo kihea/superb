@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-008",
+  "pool": "sourced",
+  "text": "Well, the night got gray and ruther thick, which is the next meanest thing to fog. You can’t tell the shape of the river, and you can’t see no distance. It got to be very late and still, and then along comes a steamboat up the river. We lit the lantern, and judged she would see it. Up-stream boats didn’t generly come close to us; they go out and follow the bars and hunt for easy water under the reefs; but nights like this they bull right up the channel against the whole river.",
+  "words": [
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reefs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

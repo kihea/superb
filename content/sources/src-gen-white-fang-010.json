@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-white-fang-010",
+  "pool": "sourced",
+  "text": "When the canoe touched the shore, White Fang lay whimpering and motionless, waiting the will of Grey Beaver. It was Grey Beaver’s will that he should go ashore, for ashore he was flung, striking heavily on his side and hurting his bruises afresh. He crawled tremblingly to his feet and stood whimpering. Lip-lip, who had watched the whole proceeding from the bank, now rushed upon him, knocking him over and sinking his teeth into him. White Fang was too helpless to defend himself, and it would have gone hard with him had not Grey Beaver’s foot shot out, lifting Lip-lip into the air with its violence so that he smashed down to earth a dozen feet away.",
+  "words": [
+    {
+      "word": "bruises",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helpless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

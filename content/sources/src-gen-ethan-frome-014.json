@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-014",
+  "pool": "sourced",
+  "text": "“You can’t go, Matt! I won’t let you! She’s always had her way, but I mean to have mine now—” Mattie lifted her hand with a quick gesture, and he heard his wife’s step behind him. Zeena came into the room with her dragging down-at-the-heel step, and quietly took her accustomed seat between them. “I felt a little mite better, and Dr. Buck says I ought to eat all I can to keep my strength up, even if I ain’t got any appetite,” she said in her flat whine, reaching across Mattie for the teapot.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "appetite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

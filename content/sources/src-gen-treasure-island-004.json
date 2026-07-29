@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-treasure-island-004",
+  "pool": "sourced",
+  "text": "Thither we had now to walk, and our way, to my great delight, lay along the quays and beside the great multitude of ships of all sizes and rigs and nations. In one, sailors were singing at their work, in another there were men aloft, high over my head, hanging to threads that seemed no thicker than a spider’s. Though I had lived by the shore all my life, I seemed never to have been near the sea till then. The smell of tar and salt was something new. I saw the most wonderful figureheads, that had all been far over the ocean.",
+  "words": [
+    {
+      "word": "multitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "threads",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thicker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

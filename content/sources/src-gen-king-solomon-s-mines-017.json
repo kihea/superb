@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-017",
+  "pool": "sourced",
+  "text": "“Hum,” said Sir Henry, who is a scholar, having taken a high degree in classics at college, “there may be something in that; Ashtoreth of the Hebrews was the Astarte of the Phoenicians, who were the great traders of Solomon’s time. Astarte, who afterwards became the Aphrodite of the Greeks, was represented with horns like the half-moon, and there on the brow of the female figure are distinct horns. Perhaps these Colossi were designed by some Phoenician official who managed the mines. Who can say?” Compare Milton, “Paradise Lost,” Book i.:— “With these in troop Came Ashtoreth, whom the Phoenicians called Astarté, Queen of Heaven, with crescent horns; To whose bright image nightly by the moon Sidonian virgins paid their vows and songs.” Before we had finished examining these extraordinary relics of remote antiquity, Infadoos came up, and having saluted the “Silent Ones” by lifting his spear, asked us if we intended entering the “Place of Death” at once, or if we would wait till after we had taken food at mid-day. If we were ready to go at once, Gagool had announced her willingness to guide us.",
+  "words": [
+    {
+      "word": "scholar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crescent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "examining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

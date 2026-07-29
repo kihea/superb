@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-007",
+  "pool": "sourced",
+  "text": "“Be a brave man, my Gaspard! It is better for the poor little plaything to die so, than to live. It has died in a moment without pain. Could it have lived an hour as happily?” “You are a philosopher, you there,” said the Marquis, smiling. “How do they call you?” “They call me Defarge.” “Of what trade?” “Monsieur the Marquis, vendor of wine.” “Pick up that, philosopher and vendor of wine,” said the Marquis, throwing him another gold coin, “and spend it as you will.",
+  "words": [
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

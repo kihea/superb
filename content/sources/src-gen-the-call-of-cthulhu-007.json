@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-007",
+  "pool": "sourced",
+  "text": "Ugly roots and malignant hanging nooses of Spanish moss beset them, and now and then a pile of dank stones or fragments of a rotting wall intensified by its hint of morbid habitation a depression which every malformed tree and every fungous islet combined to create. At length the squatter settlement, a miserable huddle of huts, hove in sight; and hysterical dwellers ran out to cluster around the group of bobbing lanterns. The muffled beat of tom-toms was now faintly audible far, far ahead; and a curdling shriek came at infrequent intervals when the wind shifted. A reddish glare, too, seemed to filter through the pale undergrowth beyond endless avenues of forest night. Reluctant even to be left alone again, each one of the cowed squatters refused point-blank to advance another inch toward the scene of unholy worship, so Inspector Legrasse and his nineteen colleagues plunged on unguided into black arcades of horror that none of them had ever trod before.",
+  "words": [
+    {
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "huts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cluster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "avenues",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blank",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

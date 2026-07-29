@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-008",
+  "pool": "sourced",
+  "text": "“One day, when Benedetto was about five or six, our neighbor Wasilio, who, according to the custom of the country, never locked up his purse or his valuables—for, as your excellency knows, there are no thieves in Corsica—complained that he had lost a louis out of his purse; we thought he must have made a mistake in counting his money, but he persisted in the accuracy of his statement. One day, Benedetto, who had been gone from the house since morning, to our great anxiety, did not return until late in the evening, dragging a monkey after him, which he said he had found chained to the foot of a tree. For more than a month past, the mischievous child, who knew not what to wish for, had taken it into his head to have a monkey. A boatman, who had passed by Rogliano, and who had several of these animals, whose tricks had greatly diverted him, had, doubtless, suggested this idea to him.",
+  "words": [
+    {
+      "word": "purse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thieves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

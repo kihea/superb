@@ -47,14 +47,14 @@ proptest! {
                 update.theta_information
             );
             prop_assert!(
-                update.effect.se <= se + 1e-9,
+                update.se() <= se + 1e-9,
                 "se widened: {se} -> {}",
-                update.effect.se
+                update.se()
             );
-            prop_assert!(update.effect.se >= 0.0, "se went negative: {}", update.effect.se);
+            prop_assert!(update.se() >= 0.0, "se went negative: {}", update.se());
             theta = update.theta;
             information = update.theta_information;
-            se = update.effect.se;
+            se = update.se();
         }
     }
 
@@ -91,9 +91,9 @@ proptest! {
                 update.theta_information
             );
             prop_assert!(
-                update.effect.se.is_finite(),
+                update.se().is_finite(),
                 "se was not finite: {}",
-                update.effect.se
+                update.se()
             );
             theta = update.theta;
             information = update.theta_information;

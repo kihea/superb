@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-main-street-001",
+  "pool": "sourced",
+  "text": "I ON a hill by the Mississippi where Chippewas camped two generations ago, a girl stood in relief against the cornflower blue of Northern sky. She saw no Indians now; she saw flour-mills and the blinking windows of skyscrapers in Minneapolis and St. Paul. Nor was she thinking of squaws and portages, and the Yankee fur-traders whose shadows were all about her. She was meditating upon walnut fudge, the plays of Brieux, the reasons why heels run over, and the fact that the chemistry instructor had stared at the new coiffure which concealed her ears. A breeze which had crossed a thousand miles of wheat-lands bellied her taffeta skirt in a line so graceful, so full of animation and moving beauty, that the heart of a chance watcher on the lower road tightened to wistfulness over her quality of suspended freedom.",
+  "words": [
+    {
+      "word": "flour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fudge",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "wheat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skirt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

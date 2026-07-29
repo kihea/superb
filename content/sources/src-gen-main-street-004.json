@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-main-street-004",
+  "pool": "sourced",
+  "text": "The city of Gopher Prairie welcomes her to our midst and prophesies for her many happy years in the energetic city of the twin lakes and the future. The Dr. and Mrs. Kennicott will reside for the present at the Doctor's home on Poplar Street which his charming mother has been keeping for him who has now returned to her own home at Lac-qui-Meurt leaving a host of friends who regret her absence and hope to see her soon with us again. IV She knew that if she was ever to effect any of the “reforms” which she had pictured, she must have a starting-place. What confused her during the three or four months after her marriage was not lack of perception that she must be definite, but sheer careless happiness of her first home. In the pride of being a housewife she loved every detail--the brocade armchair with the weak back, even the brass water-cock on the hot-water reservoir, when she had become familiar with it by trying to scour it to brilliance.",
+  "words": [
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brass",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reservoir",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

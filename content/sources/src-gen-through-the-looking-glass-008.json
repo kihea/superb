@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-008",
+  "pool": "sourced",
+  "text": "After a pause, Alice began, “Well! They were both very unpleasant characters—” Here she checked herself in some alarm, at hearing something that sounded to her like the puffing of a large steam-engine in the wood near them, though she feared it was more likely to be a wild beast. “Are there any lions or tigers about here?” she asked timidly. “It’s only the Red King snoring,” said Tweedledee. “Come and look at him!” the brothers cried, and they each took one of Alice’s hands, and led her up to where the King was sleeping.",
+  "words": [
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tigers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

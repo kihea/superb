@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-adam-bede-014",
+  "pool": "sourced",
+  "text": "My aunt has not the pen of a ready writer, and the work of the house is sufficient for the day, for she is weak in body. My heart cleaves to her and her children as the nearest of all to me in the flesh—yea, and to all in that house. I am carried away to them continually in my sleep, and often in the midst of work, and even of speech, the thought of them is borne in on me as if they were in need and trouble, which yet is dark to me. There may be some leading here; but I wait to be taught. You say they are all well.",
+  "words": [
+    {
+      "word": "flesh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "source": "Project Gutenberg #507",
+    "url": "https://www.gutenberg.org/ebooks/507",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-008",
+  "pool": "sourced",
+  "text": "By this time I was no longer very much terrified or very miserable. I had, as it were, passed the limit of terror and despair. I felt now that my life was practically lost, and that persuasion made me capable of daring anything. I had even a certain wish to encounter Moreau face to face; and as I had waded into the water, I remembered that if I were too hard pressed at least one path of escape from torment still lay open to me,—they could not very well prevent my drowning myself. I had half a mind to drown myself then; but an odd wish to see the whole adventure out, a queer, impersonal, spectacular interest in myself, restrained me.",
+  "words": [
+    {
+      "word": "persuasion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drowning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

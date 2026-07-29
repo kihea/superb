@@ -1,0 +1,99 @@
+name: web
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      [
+        "apps/web/**",
+        "design/**",
+        "content/**",
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/web.yml",
+      ]
+  pull_request:
+    paths:
+      [
+        "apps/web/**",
+        "design/**",
+        "content/**",
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/web.yml",
+      ]
+
+concurrency:
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: apps/web
+
+env:
+  # Kept in step with .github/workflows/wasm.yml's own pin -- see that
+  # file's comment on why the CLI and the crate version must match exactly.
+  WASM_BINDGEN_VERSION: "0.2.126"
+
+jobs:
+  check:
+    name: typecheck, lint, build, unit, e2e
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+
+      # docs/seams.md Seam 1, ADVISORY-014 §1: apps/web now builds against
+      # the real superb-wasm binding, not a mock -- this job needs the same
+      # Rust toolchain .github/workflows/wasm.yml uses, one level up, to
+      # produce it (scripts/build-wasm.mjs, run via npm's prebuild/pretest
+      # hooks below).
+      - name: Add wasm32 target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Install wasm-bindgen-cli (pinned to the crate version)
+        run: cargo install wasm-bindgen-cli --version "$WASM_BINDGEN_VERSION" --locked
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests (engine persistence round-trip, candidate ranking)
+        run: npm run test:unit
+
+      - name: Build
+        run: npm run build
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: End-to-end tests
+        run: npm run test:e2e
+
+      - name: Upload Playwright report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: apps/web/playwright-report/
+          retention-days: 7

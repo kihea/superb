@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-014",
+  "pool": "sourced",
+  "text": "Finally I went out, taking a candle; I crossed the passage and listened a minute at Miles’s door. What, under my endless obsession, I had been impelled to listen for was some betrayal of his not being at rest, and I presently caught one, but not in the form I had expected. His voice tinkled out. “I say, you there—come in.” It was a gaiety in the gloom! I went in with my light and found him, in bed, very wide awake, but very much at his ease.",
+  "words": [
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obsession",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

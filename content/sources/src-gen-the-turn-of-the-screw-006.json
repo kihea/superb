@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-006",
+  "pool": "sourced",
+  "text": "I waited, but nothing came; then, in the first place—and there is something more dire in this, I feel, than in anything I have to relate—I was determined by a sense that, within a minute, all sounds from her had previously dropped; and, in the second, by the circumstance that, also within the minute, she had, in her play, turned her back to the water. This was her attitude when I at last looked at her—looked with the confirmed conviction that we were still, together, under direct personal notice. She had picked up a small flat piece of wood, which happened to have in it a little hole that had evidently suggested to her the idea of sticking in another fragment that might figure as a mast and make the thing a boat. This second morsel, as I watched her, she was very markedly and intently attempting to tighten in its place. My apprehension of what she was doing sustained me so that after some seconds I felt I was ready for more.",
+  "words": [
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sticking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fragment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tighten",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

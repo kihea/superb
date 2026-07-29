@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-prairie-017",
+  "pool": "sourced",
+  "text": "The bed was gray, my own arms were gray, the walls looked gray, the window-glass was gray, and even Dinky-Dunk's face was gray. I didn't want to move, for a long time. Then I got the strength to tell Mrs. Watson that I wanted to speak to my husband. She was wrapping something up in soft flannel and purring over it quite proudly and calling it a blessed little lamb. When poor pale-faced Dinky-Dunk bent over the bed I asked him if it had a receding chin, or if it had a nose like Olie's.",
+  "words": [
+    {
+      "word": "wrapping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flannel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

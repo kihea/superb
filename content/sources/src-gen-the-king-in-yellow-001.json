@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-king-in-yellow-001",
+  "pool": "sourced",
+  "text": "eplaced the monstrosity supposed to represent Garibaldi, children played in the spring sunshine, and nurse girls wheeled elaborate baby carriages with a reckless disregard for the pasty-faced occupants, which could probably be explained by the presence of half a dozen trim dragoon troopers languidly lolling on the benches. Through the trees, the Washington Memorial Arch glistened like silver in the sunshine, and beyond, on the eastern extremity of the square the grey stone barracks of the dragoons, and the white granite artillery stables were alive with colour and motion. I looked at the Lethal Chamber on the corner of the square opposite. A few curious people still lingered about the gilded iron railing, but inside the grounds the paths were deserted. I watched the fountains ripple and sparkle; the sparrows had already found this new bathing nook, and the basins were covered with the dusty-feathered little things.",
+  "words": [
+    {
+      "word": "granite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fountains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sparkle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dusty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

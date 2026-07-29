@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-016",
+  "pool": "sourced",
+  "text": "As it fell with a crash they looked that way, and the next moment all of them were filled with wonder. For they saw, standing in just the spot the screen had hidden, a little old man, with a bald head and a wrinkled face, who seemed to be as much surprised as they were. The Tin Woodman, raising his axe, rushed toward the little man and cried out, “Who are you?” “I am Oz, the Great and Terrible,” said the little man, in a trembling voice. “But don’t strike me—please don’t—and I’ll do anything you want me to.” Our friends looked at him in surprise and dismay. “I thought Oz was a great Head,” said Dorothy.",
+  "words": [
+    {
+      "word": "bald",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dismay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-jane-eyre-018",
+  "pool": "sourced",
+  "text": "I like Moor House, and I will live at Moor House; I like Diana and Mary, and I will attach myself for life to Diana and Mary. It would please and benefit me to have five thousand pounds; it would torment and oppress me to have twenty thousand; which, moreover, could never be mine in justice, though it might in law. I abandon to you, then, what is absolutely superfluous to me. Let there be no opposition, and no discussion about it; let us agree amongst each other, and decide the point at once.” “This is acting on first impulses; you must take days to consider such a matter, ere your word can be regarded as valid.” “Oh! if all you doubt is my sincerity, I am easy: you see the justice of the case?” “I do see a certain justice; but it is contrary to all custom.",
+  "words": [
+    {
+      "word": "contrary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

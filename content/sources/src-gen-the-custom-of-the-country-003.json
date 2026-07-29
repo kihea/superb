@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-custom-of-the-country-003",
+  "pool": "sourced",
+  "text": "Undine, seated at Ralph Marvell's side, and feeling the thrill of his proximity as a subtler element in the general interest she was exciting, was at last repaid for the disappointment of her evening at the opera. It was characteristic of her that she remembered her failures as keenly as her triumphs, and that the passionate desire to obliterate, to \"get even\" with them, was always among the latent incentives of her conduct. Now at last she was having what she wanted--she was in conscious possession of the \"real thing\"; and through her other, diffused, sensations Ralph's adoration gave her such a last refinement of pleasure as might have come to some warrior Queen borne in triumph by captive princes, and reading in the eyes of one the passion he dared not speak. When the curtain fell this vague enjoyment was heightened by various acts of recognition. All the people she wanted to \"go with,\" as they said in Apex, seemed to be about her in the stalls and boxes; and her eyes continued to revert with special satisfaction to the incongruous group formed by Mrs. Peter Van Degen and Miss Ray.",
+  "words": [
+    {
+      "word": "thrill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "characteristic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "passionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "captive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfaction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-great-expectations-010",
+  "pool": "sourced",
+  "text": "“Gentlemen,” said Mr. Jaggers, deliberately putting down the glass, and hauling out his gold repeater by its massive chain, “I am exceedingly sorry to announce that it’s half past nine.” On this hint we all rose to depart. Before we got to the street door, Startop was cheerily calling Drummle “old boy,” as if nothing had happened. But the old boy was so far from responding, that he would not even walk to Hammersmith on the same side of the way; so Herbert and I, who remained in town, saw them going down the street on opposite sides; Startop leading, and Drummle lagging behind in the shadow of the houses, much as he was wont to follow in his boat. As the door was not yet shut, I thought I would leave Herbert there for a moment, and run upstairs again to say a word to my guardian. I found him in his dressing-room surrounded by his stock of boots, already hard at it, washing his hands of us.",
+  "words": [
+    {
+      "word": "depart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "responding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wont",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

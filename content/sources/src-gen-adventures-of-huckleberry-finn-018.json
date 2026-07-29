@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-018",
+  "pool": "sourced",
+  "text": "At last he says: “It ain’t no use, it can’t be done. What you reckon I better do? Can’t you think of no way?” “Yes,” I says, “but I reckon it ain’t regular. Come up the stairs, and let on it’s a lightning-rod.” So he done it. Next day Tom stole a pewter spoon and a brass candlestick in the house, for to make some pens for Jim out of, and six tallow candles; and I hung around the nigger cabins and laid for a chance, and stole three tin plates.",
+  "words": [
+    {
+      "word": "pens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

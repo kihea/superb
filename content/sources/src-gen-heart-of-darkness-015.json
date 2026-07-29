@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heart-of-darkness-015",
+  "pool": "sourced",
+  "text": "Only one, the first I had made out, was facing my way. I was not so shocked as you may think. The start back I had given was really nothing but a movement of surprise. I had expected to see a knob of wood there, you know. I returned deliberately to the first I had seen—and there it was, black, dried, sunken, with closed eyelids—a head that seemed to sleep at the top of that pole, and, with the shrunken dry lips showing a narrow white line of the teeth, was smiling, too, smiling continuously at some endless and jocose dream of that eternal slumber.",
+  "words": [
+    {
+      "word": "knob",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

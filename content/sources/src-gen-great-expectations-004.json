@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-great-expectations-004",
+  "pool": "sourced",
+  "text": "Behind the furthest end of the brewery, was a rank garden with an old wall; not so high but that I could struggle up and hold on long enough to look over it, and see that the rank garden was the garden of the house, and that it was overgrown with tangled weeds, but that there was a track upon the green and yellow paths, as if some one sometimes walked there, and that Estella was walking away from me even then. But she seemed to be everywhere. For when I yielded to the temptation presented by the casks, and began to walk on them, I saw her walking on them at the end of the yard of casks. She had her back towards me, and held her pretty brown hair spread out in her two hands, and never looked round, and passed out of my view directly. So, in the brewery itself,—by which I mean the large paved lofty place in which they used to make the beer, and where the brewing utensils still were.",
+  "words": [
+    {
+      "word": "brewery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brewing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

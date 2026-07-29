@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-middlemarch-009",
+  "pool": "sourced",
+  "text": "In chuckling over the vexations he could inflict by the rigid clutch of his dead hand, he inevitably mingled his consciousness with that livid stagnant presence, and so far as he was preoccupied with a future life, it was with one of gratification inside his coffin. Thus old Featherstone was imaginative, after his fashion. However, the three mourning-coaches were filled according to the written orders of the deceased. There were pall-bearers on horseback, with the richest scarfs and hatbands, and even the under-bearers had trappings of woe which were of a good well-priced quality. The black procession, when dismounted, looked the larger for the smallness of the churchyard; the heavy human faces and the black draperies shivering in the wind seemed to tell of a world strangely incongruous with the lightly dropping blossoms and the gleams of sunshine on the daisies.",
+  "words": [
+    {
+      "word": "stagnant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deceased",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bearers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blossoms",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

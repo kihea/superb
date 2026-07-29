@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-003",
+  "pool": "sourced",
+  "text": "What do you want here?” he shouted, clenching his fists and laughing, spluttering with rage. “What do you mean?” the gentleman asked sternly, scowling in haughty astonishment. “Get away, that’s what I mean.” “How dare you, you low fellow!” He raised his cane. Raskolnikov rushed at him with his fists, without reflecting that the stout gentleman was a match for two men like himself. But at that instant someone seized him from behind, and a police constable stood between them.",
+  "words": [
+    {
+      "word": "cane",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

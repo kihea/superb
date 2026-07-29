@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-011",
+  "pool": "sourced",
+  "text": "Flambeau spoke quietly to him in answer. “The Father sometimes gets this mystic’s cloud on him,” he said; “but I give you fair warning that I have never known him to have it except when there was some evil quite near.” “Oh, rats!” said the scientist. “Why, look at it,” cried Father Brown, holding out the crooked knife at arm’s length, as if it were some glittering snake. “Don’t you see it is the wrong shape? Don’t you see that it has no hearty and plain purpose?",
+  "words": [
+    {
+      "word": "rats",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scientist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

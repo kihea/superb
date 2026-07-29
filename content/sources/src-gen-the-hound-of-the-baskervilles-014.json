@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-014",
+  "pool": "sourced",
+  "text": "“There is nothing in common between my father and me,” she said. “I owe him nothing, and his friends are not mine. If it were not for the late Sir Charles Baskerville and some other kind hearts I might have starved for all that my father cared.” “It was about the late Sir Charles Baskerville that I have come here to see you.” The freckles started out on the lady’s face. “What can I tell you about him?” she asked, and her fingers played nervously over the stops of her typewriter. “You knew him, did you not?” “I have already said that I owe a great deal to his kindness.",
+  "words": [
+    {
+      "word": "kindness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

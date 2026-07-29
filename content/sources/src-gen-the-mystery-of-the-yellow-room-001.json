@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-001",
+  "pool": "sourced",
+  "text": "In Which We Begin not to Understand It is not without a certain emotion that I begin to recount here the extraordinary adventures of Joseph Rouletabille. Down to the present time he had so firmly opposed my doing it that I had come to despair of ever publishing the most curious of police stories of the past fifteen years. I had even imagined that the public would never know the whole truth of the prodigious case known as that of “The Yellow Room,” out of which grew so many mysterious, cruel, and sensational dramas, with which my friend was so closely mixed up, if, à propos of a recent nomination of the illustrious Stangerson to the grade of grand-cross of the Legion of Honour, an evening journal—in an article, miserable for its ignorance, or audacious for its perfidy—had not resuscitated a terrible adventure of which Joseph Rouletabille had told me he wished to be for ever forgotten. “The Yellow Room!” Who now remembers this affair which caused so much ink to flow fifteen years ago? Events are so quickly forgotten in Paris.",
+  "words": [
+    {
+      "word": "illustrious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

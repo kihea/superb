@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-hard-times-004",
+  "pool": "sourced",
+  "text": "People like you, ma’am, accustomed from infancy to lie on Down feathers, have no idea how hard a paving-stone is, without trying it. No, no, it’s of no use my talking to you about tumblers. I should speak of foreign dancers, and the West End of London, and May Fair, and lords and ladies and honourables.’ ‘I trust, sir,’ rejoined Mrs. Sparsit, with decent resignation, ‘it is not necessary that you should do anything of that kind. I hope I have learnt how to accommodate myself to the changes of life. If I have acquired an interest in hearing of your instructive experiences, and can scarcely hear enough of them, I claim no merit for that, since I believe it is a general sentiment.’ ‘Well, ma’am,’ said her patron, ‘perhaps some people may be pleased to say that they do like to hear, in his own unpolished way, what Josiah Bounderby, of Coketown, has gone through.",
+  "words": [
+    {
+      "word": "feathers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "merit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

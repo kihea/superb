@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-sign-of-the-four-003",
+  "pool": "sourced",
+  "text": "About six years ago—to be exact, upon the 4th of May, 1882—an advertisement appeared in the Times asking for the address of Miss Mary Morstan and stating that it would be to her advantage to come forward. There was no name or address appended. I had at that time just entered the family of Mrs. Cecil Forrester in the capacity of governess. By her advice I published my address in the advertisement column. The same day there arrived through the post a small card-board box addressed to me, which I found to contain a very large and lustrous pearl.",
+  "words": [
+    {
+      "word": "stating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pearl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sign of the Four",
+    "author": "Arthur Conan Doyle",
+    "year": 1890,
+    "source": "Project Gutenberg #2097",
+    "url": "https://www.gutenberg.org/ebooks/2097",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

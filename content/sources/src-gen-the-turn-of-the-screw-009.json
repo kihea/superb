@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-009",
+  "pool": "sourced",
+  "text": "The foremost thing I saw there by the light of the candle I had left burning was that Flora’s little bed was empty; and on this I caught my breath with all the terror that, five minutes before, I had been able to resist. I dashed at the place in which I had left her lying and over which (for the small silk counterpane and the sheets were disarranged) the white curtains had been deceivingly pulled forward; then my step, to my unutterable relief, produced an answering sound: I perceived an agitation of the window blind, and the child, ducking down, emerged rosily from the other side of it. She stood there in so much of her candor and so little of her nightgown, with her pink bare feet and the golden glow of her curls. She looked intensely grave, and I had never had such a sense of losing an advantage acquired (the thrill of which had just been so prodigious) as on my consciousness that she addressed me with a reproach. “You naughty: where have you been?”—instead of challenging her own irregularity I found myself arraigned and explaining.",
+  "words": [
+    {
+      "word": "foremost",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "naughty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

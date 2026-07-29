@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prairie-008",
+  "pool": "sourced",
+  "text": "For out of a pile of straw which Olie had dumped not a hundred feet away from the house, to line a pit for our winter vegetables, a man suddenly erupted. He seemed to come up out of the very earth, like a mushroom. He was the most repulsive-looking man I ever had the pleasure of casting eyes on. His clothes were ragged and torn and stained with mud. His face was covered with stubble and his cheeks were hollow, and his skin was just about the color of a new saddle.",
+  "words": [
+    {
+      "word": "casting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ragged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheeks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-walden-004",
+  "pool": "sourced",
+  "text": "I never knew, and never shall know, a worse man than myself. I believe that what so saddens the reformer is not his sympathy with his fellows in distress, but, though he be the holiest son of God, is his private ail. Let this be righted, let the spring come to him, the morning rise over his couch, and he will forsake his generous companions without apology. My excuse for not lecturing against the use of tobacco is, that I never chewed it; that is a penalty which reformed tobacco-chewers have to pay; though there are things enough I have chewed, which I could lecture against. If you should ever be betrayed into any of these philanthropies, do not let your left hand know what your right hand does, for it is not worth knowing.",
+  "words": [
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

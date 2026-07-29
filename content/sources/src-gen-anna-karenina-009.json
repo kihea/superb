@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-anna-karenina-009",
+  "pool": "sourced",
+  "text": "But he saw clearly now (his work on a book of agriculture, in which the chief element in husbandry was to have been the laborer, greatly assisted him in this) that the sort of farming he was carrying on was nothing but a cruel and stubborn struggle between him and the laborers, in which there was on one side—his side—a continual intense effort to change everything to a pattern he considered better; on the other side, the natural order of things. And in this struggle he saw that with immense expenditure of force on his side, and with no effort or even intention on the other side, all that was attained was that the work did not go to the liking of either side, and that splendid tools, splendid cattle and land were spoiled with no good to anyone. Worst of all, the energy expended on this work was not simply wasted. He could not help feeling now, since the meaning of this system had become clear to him, that the aim of his energy was a most unworthy one. In reality, what was the struggle about?",
+  "words": [
+    {
+      "word": "assisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stubborn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wasted",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

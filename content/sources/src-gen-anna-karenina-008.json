@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anna-karenina-008",
+  "pool": "sourced",
+  "text": "I, the innocent person, should be the victim—killed or wounded. It’s even more senseless. But apart from that, a challenge to fight would be an act hardly honest on my side. Don’t I know perfectly well that my friends would never allow me to fight a duel—would never allow the life of a statesman, needed by Russia, to be exposed to danger? Knowing perfectly well beforehand that the matter would never come to real danger, it would amount to my simply trying to gain a certain sham reputation by such a challenge.",
+  "words": [
+    {
+      "word": "duel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

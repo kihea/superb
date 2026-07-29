@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-016",
+  "pool": "sourced",
+  "text": "My acquaintance with sheets of water was small, and the pool of Bly, at all events on the few occasions of my consenting, under the protection of my pupils, to affront its surface in the old flat-bottomed boat moored there for our use, had impressed me both with its extent and its agitation. The usual place of embarkation was half a mile from the house, but I had an intimate conviction that, wherever Flora might be, she was not near home. She had not given me the slip for any small adventure, and, since the day of the very great one that I had shared with her by the pond, I had been aware, in our walks, of the quarter to which she most inclined. This was why I had now given to Mrs. Grose’s steps so marked a direction—a direction that made her, when she perceived it, oppose a resistance that showed me she was freshly mystified. “You’re going to the water, Miss?—you think she’s in—?” “She may be, though the depth is, I believe, nowhere very great.",
+  "words": [
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inclined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perceived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

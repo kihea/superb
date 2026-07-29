@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-005",
+  "pool": "sourced",
+  "text": "I undo the bolts, and the little boat goes up to the surface of the sea with prodigious rapidity. I then open the panel of the bridge, carefully shut till then; I mast it, hoist my sail, take my oars, and I’m off.” “But how do you get back on board?” “I do not come back, M. Aronnax; the Nautilus comes to me.” “By your orders?” “By my orders. An electric thread connects us. I telegraph to it, and that is enough.” “Really,” I said, astonished at these marvels, “nothing can be more simple.” After having passed by the cage of the staircase that led to the platform, I saw a cabin six feet long, in which Conseil and Ned Land, enchanted with their repast, were devouring it with avidity. Then a door opened into a kitchen nine feet long, situated between the large storerooms.",
+  "words": [
+    {
+      "word": "hoist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "telegraph",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

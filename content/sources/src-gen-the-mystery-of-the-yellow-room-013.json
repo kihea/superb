@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-013",
+  "pool": "sourced",
+  "text": "But there was no doubt that this mysterious unknown was the man of The Yellow Room,—the man to whose murderous assault Mademoiselle Stangerson—without denouncing him—had had to submit. If I could but see his face! Surprise and capture him! “If I spring into the room at this moment, he will escape by the right-hand door opening into the boudoir,—or crossing the drawing-room, he will reach the gallery and I shall lose him. I have him now and in five minutes more he’ll be safer than if I had him in a cage.—What is he doing there, alone in Mademoiselle Stangerson’s room?—What is he writing?",
+  "words": [
+    {
+      "word": "mysterious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "safer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

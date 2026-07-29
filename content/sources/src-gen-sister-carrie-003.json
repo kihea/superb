@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sister-carrie-003",
+  "pool": "sourced",
+  "text": "\"You come with me.\" He led the way through dark, box-lined aisles which had the smell of new shoes, until they came to an iron door which opened into the factory proper. There was a large, low-ceiled room, with clacking, rattling machines at which men in white shirt sleeves and blue gingham aprons were working. She followed him diffidently through the clattering automatons, keeping her eyes straight before her, and flushing slightly. They crossed to a far corner and took an elevator to the sixth floor.",
+  "words": [
+    {
+      "word": "lined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aisles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

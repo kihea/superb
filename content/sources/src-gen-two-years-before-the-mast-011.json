@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-011",
+  "pool": "sourced",
+  "text": "All hands were then sent aloft, and for an hour or two we were hard at work, making the booms well fast; unreeving the studding-sail and royal and skysail gear; getting rolling-ropes on the yards; setting up the weather breast-backstays; and making other preparations for a storm. It was a fine night for a gale; just cool and bracing enough for quick work, without being cold, and as bright as day. It was sport to have a gale in such weather as this. Yet it blew like a hurricane. The wind seemed to come with a spite, an edge to it, which threatened to scrape us off the yards.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preparations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hurricane",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

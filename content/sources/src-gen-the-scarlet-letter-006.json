@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-scarlet-letter-006",
+  "pool": "sourced",
+  "text": "In all her intercourse with society, however, there was nothing that made her feel as if she belonged to it. Every gesture, every word, and even the silence of those with whom she came in contact, implied, and often expressed, that she was banished, and as much alone as if she inhabited another sphere, or communicated with the common nature by other organs and senses than the rest of human kind. She stood apart from mortal interests, yet close beside them, like a ghost that revisits the familiar fireside, and can no longer make itself seen or felt; no more smile with the household joy, nor mourn with the kindred sorrow; or, should it succeed in manifesting its forbidden sympathy, awakening only terror and horrible repugnance. These emotions, in fact, and its bitterest scorn besides, seemed to be the sole portion that she retained in the universal heart. It was not an age of delicacy; and her position, although she understood it well, and was in little danger of forgetting it, was often brought before her vivid self-perception, like a new anguish, by the rudest touch upon the tenderest spot.",
+  "words": [
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "senses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mourn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kindred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-004",
+  "pool": "sourced",
+  "text": "Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying.” So she began: “O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!” (Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, “A mouse—of a mouse—to a mouse—a mouse—O mouse!”) The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing. “Perhaps it doesn’t understand English,” thought Alice; “I daresay it’s a French mouse, come over with William the Conqueror.” (For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened.) So she began again: “Où est ma chatte?” which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water, and seemed to quiver all over with fright.",
+  "words": [
+    {
+      "word": "wink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

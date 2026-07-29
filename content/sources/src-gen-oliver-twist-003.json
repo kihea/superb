@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-003",
+  "pool": "sourced",
+  "text": "So, they put the bier on the brink of the grave; and the two mourners waited patiently in the damp clay, with a cold rain drizzling down, while the ragged boys whom the spectacle had attracted into the churchyard played a noisy game at hide-and-seek among the tombstones, or varied their amusements by jumping backwards and forwards over the coffin. Mr. Sowerberry and Bumble, being personal friends of the clerk, sat by the fire with him, and read the paper. At length, after a lapse of something more than an hour, Mr. Bumble, and Sowerberry, and the clerk, were seen running towards the grave. Immediately afterwards, the clergyman appeared: putting on his surplice as he came along. Mr. Bumble then thrashed a boy or two, to keep up appearances; and the reverend gentleman, having read as much of the burial service as could be compressed into four minutes, gave his surplice to the clerk, and walked away again.",
+  "words": [
+    {
+      "word": "forwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compressed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

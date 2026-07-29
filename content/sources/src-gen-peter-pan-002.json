@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-peter-pan-002",
+  "pool": "sourced",
+  "text": "Some leaves of a tree had been found on the nursery floor, which certainly were not there when the children went to bed, and Mrs. Darling was puzzling over them when Wendy said with a tolerant smile: “I do believe it is that Peter again!” “Whatever do you mean, Wendy?” “It is so naughty of him not to wipe his feet,” Wendy said, sighing. She was a tidy child. She explained in quite a matter-of-fact way that she thought Peter sometimes came to the nursery in the night and sat on the foot of her bed and played on his pipes to her. Unfortunately she never woke, so she didn’t know how she knew, she just knew.",
+  "words": [
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "puzzling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "naughty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

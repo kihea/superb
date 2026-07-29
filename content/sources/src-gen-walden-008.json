@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-walden-008",
+  "pool": "sourced",
+  "text": "A more simple and natural man it would be hard to find. Vice and disease, which cast such a sombre moral hue over the world, seemed to have hardly any existence for him. He was about twenty-eight years old, and had left Canada and his father’s house a dozen years before to work in the States, and earn money to buy a farm with at last, perhaps in his native country. He was cast in the coarsest mould; a stout but sluggish body, yet gracefully carried, with a thick sunburnt neck, dark bushy hair, and dull sleepy blue eyes, which were occasionally lit up with expression. He wore a flat gray cloth cap, a dingy wool-colored greatcoat, and cowhide boots.",
+  "words": [
+    {
+      "word": "sluggish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wool",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-gulliver-s-travels-019",
+  "pool": "sourced",
+  "text": "But the Houyhnhnms train up their youth to strength, speed, and hardiness, by exercising them in running races up and down steep hills, and over hard stony grounds; and when they are all in a sweat, they are ordered to leap over head and ears into a pond or river. Four times a year the youth of a certain district meet to show their proficiency in running and leaping, and other feats of strength and agility; where the victor is rewarded with a song in his or her praise. On this festival, the servants drive a herd of Yahoos into the field, laden with hay, and oats, and milk, for a repast to the Houyhnhnms; after which, these brutes are immediately driven back again, for fear of being noisome to the assembly. Every fourth year, at the vernal equinox, there is a representative council of the whole nation, which meets in a plain about twenty miles from our house, and continues about five or six days.",
+  "words": [
+    {
+      "word": "stony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sweat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

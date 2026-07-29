@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-king-in-yellow-005",
+  "pool": "sourced",
+  "text": "I visited all the rooms—all but one. I could not bring myself to enter the marble room where Geneviève lay, and yet I felt the longing growing daily to look upon her face, to kneel beside her. One April afternoon, I lay dreaming in the smoking-room, just as I had lain two years before, and mechanically I looked among the tawny Eastern rugs for the wolf-skin. At last I distinguished the pointed ears and flat cruel head, and I thought of my dream where I saw Geneviève lying beside it. The helmets still hung against the threadbare tapestry, among them the old Spanish morion which I remembered Geneviève had once put on when we were amusing ourselves with the ancient bits of mail.",
+  "words": [
+    {
+      "word": "kneel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helmets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tapestry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

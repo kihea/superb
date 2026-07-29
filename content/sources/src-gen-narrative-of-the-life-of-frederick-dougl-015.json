@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-015",
+  "pool": "sourced",
+  "text": "But I was not willing to cherish this determination alone. My fellow-slaves were dear to me. I was anxious to have them participate with me in this, my life-giving determination. I therefore, though with great prudence, commenced early to ascertain their views and feelings in regard to their condition, and to imbue their minds with thoughts of freedom. I bent myself to devising ways and means for our escape, and meanwhile strove, on all fitting occasions, to impress them with the gross fraud and inhumanity of slavery.",
+  "words": [
+    {
+      "word": "slaves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

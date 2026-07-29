@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-meditations-002",
+  "pool": "sourced",
+  "text": "Thou must also take heed of another kind of wandering, for they are idle in their actions, who toil and labour in this life, and have no certain scope to which to direct all their motions, and desires. V. For not observing the state of another man's soul, scarce was ever any man known to be unhappy. Tell whosoever they be that intend not, and guide not by reason and discretion the motions of their own souls, they must of necessity be unhappy. These things thou must always have in mind: What is the nature of the universe, and what is mine--in particular: This unto that what relation it hath: what kind of part, of what kind of universe it is: And that there is nobody that can hinder thee, but that thou mayest always both do and speak those things which are agreeable to that nature, whereof thou art a part. Theophrastus, where he compares sin with sin (as after a vulgar sense such things I grant may be compared:) says well and like a philosopher, that those sins are greater which are committed through lust, than those which are committed through anger.",
+  "words": [
+    {
+      "word": "motions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "necessity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compares",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-villette-006",
+  "pool": "sourced",
+  "text": "I see her now. Thin in face and figure, sallow in complexion, regular in features, with perfect teeth, lips like a thread, a large, prominent chin, a well-opened, but frozen eye, of light at once craving and ingrate. She mortally hated work, and loved what she called pleasure; being an insipid, heartless, brainless dissipation of time. Madame Beck knew this woman’s character perfectly well. She once talked to me about her, with an odd mixture of discrimination, indifference, and antipathy.",
+  "words": [
+    {
+      "word": "complexion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "madame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

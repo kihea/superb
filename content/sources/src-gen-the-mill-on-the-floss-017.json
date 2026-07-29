@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-017",
+  "pool": "sourced",
+  "text": "“Then we can at least be friends, Maggie? There is nothing to hinder that now?” “Will not your father object?” said Maggie, withdrawing her hand. “I should not give you up on any ground but your own wish, Maggie,” said Philip, colouring. “There are points on which I should always resist my father, as I used to tell you. That is one.” “Then there is nothing to hinder our being friends, Philip,—seeing each other and talking to each other while I am here; I shall soon go away again.",
+  "words": [
+    {
+      "word": "hinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withdrawing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

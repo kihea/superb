@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-016",
+  "pool": "sourced",
+  "text": "Though her flat was only three floors above, she managed in the few seconds of ascent to give Flambeau a great many of her fundamental views in an off-hand manner; they were to the general effect that she was a modern working woman and loved modern working machinery. Her bright black eyes blazed with abstract anger against those who rebuke mechanic science and ask for the return of romance. Everyone, she said, ought to be able to manage machines, just as she could manage the lift. She seemed almost to resent the fact of Flambeau opening the lift-door for her; and that gentleman went up to his own apartments smiling with somewhat mingled feelings at the memory of such spit-fire self-dependence. She certainly had a temper, of a snappy, practical sort; the gestures of her thin, elegant hands were abrupt or even destructive.",
+  "words": [
+    {
+      "word": "machinery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apartments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-wuthering-heights-009",
+  "pool": "sourced",
+  "text": "To me, he signified the threatening danger was not so much death, as permanent alienation of intellect. I did not close my eyes that night, nor did Mr. Linton: indeed, we never went to bed; and the servants were all up long before the usual hour, moving through the house with stealthy tread, and exchanging whispers as they encountered each other in their vocations. Every one was active but Miss Isabella; and they began to remark how sound she slept: her brother, too, asked if she had risen, and seemed impatient for her presence, and hurt that she showed so little anxiety for her sister-in-law. I trembled lest he should send me to call her; but I was spared the pain of being the first proclaimant of her flight. One of the maids, a thoughtless girl, who had been on an early errand to Gimmerton, came panting upstairs, open-mouthed, and dashed into the chamber, crying: “Oh, dear, dear!",
+  "words": [
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whispers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maids",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

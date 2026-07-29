@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-014",
+  "pool": "sourced",
+  "text": "“Ah, now you are trying to penetrate into the mysteries of Isis, in which I am not initiated. When M. Andrea Cavalcanti has become one of the family, you can ask him that question.” The carriage stopped. “Here we are,” said Monte Cristo; “it is only half-past ten o’clock, come in.” “Certainly, I will.” “My carriage shall take you back.” “No, thank you; I gave orders for my coupé to follow me.” “There it is, then,” said Monte Cristo, as he stepped out of the carriage. They both went into the house; the drawing-room was lighted up—they went in there. “You will make tea for us, Baptistin,” said the count.",
+  "words": [
+    {
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

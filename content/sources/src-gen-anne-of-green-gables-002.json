@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anne-of-green-gables-002",
+  "pool": "sourced",
+  "text": "My father’s name was Walter Shirley, and he was a teacher in the Bolingbroke High School. My mother’s name was Bertha Shirley. Aren’t Walter and Bertha lovely names? I’m so glad my parents had nice names. It would be a real disgrace to have a father named--well, say Jedediah, wouldn’t it?” “I guess it doesn’t matter what a person’s name is as long as he behaves himself,” said Marilla, feeling herself called upon to inculcate a good and useful moral.",
+  "words": [
+    {
+      "word": "behaves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-daisy-miller-001",
+  "pool": "sourced",
+  "text": "I want to go to America.” “Oh, Italy is a beautiful place!” rejoined the young man. “Can you get candy there?” Randolph loudly inquired. “I hope not,” said his sister. “I guess you have had enough candy, and mother thinks so too.” “I haven’t had any for ever so long--for a hundred weeks!” cried the boy, still jumping about. The young lady inspected her flounces and smoothed her ribbons again; and Winterbourne presently risked an observation upon the beauty of the view.",
+  "words": [
+    {
+      "word": "ribbons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

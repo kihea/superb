@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-life-on-the-mississippi-015",
+  "pool": "sourced",
+  "text": "Expensive pests, these crabs; for they bore into the levees, and ruin them. The great sugar-house was a wilderness of tubs and tanks and vats and filters, pumps, pipes, and machinery. The process of making sugar is exceedingly interesting. First, you heave your cane into the centrifugals and grind out the juice; then run it through the evaporating pan to extract the fiber; then through the bone-filter to remove the alcohol; then through the clarifying tanks to discharge the molasses; then through the granulating pipe to condense it; then through the vacuum pan to extract the vacuum. It is now ready for market.",
+  "words": [
+    {
+      "word": "exceedingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cane",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-o-pioneers-002",
+  "pool": "sourced",
+  "text": "Not a shed, not a corral, not a well, not even a path broken in the curly grass. But for the piece of rusty stovepipe sticking up through the sod, you could have walked over the roof of Ivar’s dwelling without dreaming that you were near a human habitation. Ivar had lived for three years in the clay bank, without defiling the face of nature any more than the coyote that had lived there before him had done. When the Bergsons drove over the hill, Ivar was sitting in the doorway of his house, reading the Norwegian Bible. He was a queerly shaped old man, with a thick, powerful body set on short bow-legs.",
+  "words": [
+    {
+      "word": "sticking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

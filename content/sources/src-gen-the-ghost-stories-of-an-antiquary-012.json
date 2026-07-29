@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-ghost-stories-of-an-antiquary-012",
+  "pool": "sourced",
+  "text": "For at once he was possessed with the conviction that the thing that lurked at a distance behind him, was quickening its movement, and coming up to seize him. The dreadful fancy stung him like a goad, and, with a start, he accelerated his flight, horribly conscious that what he feared was slinking along in the shadow, close to the dark bulks of the houses, resolutely pursuing, and bent on overtaking him. His footfalls rang hollowly and loud on the moonlit pavement, and in contrast with their rapid thuds he felt it as something peculiarly terrible that the furtive thing behind, slunk after him with soundless feet. Faster, faster! Traversing only the most unfrequented streets, and at that late hour of a cold winter night, he met no one, and with a terrifying consciousness that his pursuer was gaining on him, he desperately strode on.",
+  "words": [
+    {
+      "word": "possessed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accelerated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "consciousness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Ghost Stories of an Antiquary",
+    "author": "M. R. James",
+    "year": 1904,
+    "source": "Project Gutenberg #26779",
+    "url": "https://www.gutenberg.org/ebooks/26779",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-014",
+  "pool": "sourced",
+  "text": "The short winter day was nearly ended. The streets were deserted, save for a few random stragglers, and these hurried straight along, with the intent look of people who were only anxious to accomplish their errands as quickly as possible, and then snugly house themselves from the rising wind and the gathering twilight. They looked neither to the right nor to the left; they paid no attention to our party, they did not even seem to see them. Edward the Sixth wondered if the spectacle of a king on his way to jail had ever encountered such marvellous indifference before. By-and-by the constable arrived at a deserted market-square, and proceeded to cross it.",
+  "words": [
+    {
+      "word": "errands",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

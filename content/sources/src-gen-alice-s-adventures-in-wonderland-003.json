@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-003",
+  "pool": "sourced",
+  "text": "I wonder if I’ve been changed in the night? Let me think: was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!” And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them.",
+  "words": [
+    {
+      "word": "puzzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

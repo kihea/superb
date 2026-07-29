@@ -1,0 +1,78 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-011",
+  "pool": "sourced",
+  "text": "Fain would I pause to dwell upon the world of charms that burst upon the enraptured gaze of my hero, as he entered the state parlor of Van Tassel’s mansion. Not those of the bevy of buxom lasses, with their luxurious display of red and white; but the ample charms of a genuine Dutch country tea-table, in the sumptuous time of autumn. Such heaped up platters of cakes of various and almost indescribable kinds, known only to experienced Dutch housewives! There was the doughty doughnut, the tender oly koek, and the crisp and crumbling cruller; sweet cakes and short cakes, ginger cakes and honey cakes, and the whole family of cakes. And then there were apple pies, and peach pies, and pumpkin pies; besides slices of ham and smoked beef; and moreover delectable dishes of preserved plums, and peaches, and pears, and quinces; not to mention broiled shad and roasted chickens; together with bowls of milk and cream, all mingled higgledy-piggledy, pretty much as I have enumerated them, with the motherly teapot sending up its clouds of vapor from the midst--Heaven bless the mark!",
+  "words": [
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doughnut",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smoked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preserved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pears",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "roasted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

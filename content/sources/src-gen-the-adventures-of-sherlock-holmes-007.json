@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-007",
+  "pool": "sourced",
+  "text": "On the fourth day after the new year I heard my father give a sharp cry of surprise as we sat together at the breakfast-table. There he was, sitting with a newly opened envelope in one hand and five dried orange pips in the outstretched palm of the other one. He had always laughed at what he called my cock-and-bull story about the colonel, but he looked very scared and puzzled now that the same thing had come upon himself. “‘Why, what on earth does this mean, John?’ he stammered. “My heart had turned to lead.",
+  "words": [
+    {
+      "word": "puzzled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-010",
+  "pool": "sourced",
+  "text": "\"That wasn't very amusing; rather dull at times, eh?\" \"No, no, it was beautiful, beautiful!\" Heidi could go no further; the remembrance of the past, the excitement she had just gone through, the long suppressed weeping, were too much for the child's strength; the tears began to fall fast, and she broke into violent weeping. The doctor stood up and laid her head kindly down on the pillow. \"There, there, go on crying, it will do you good, and then go to sleep; it will be all right to-morrow.\"",
+  "words": [
+    {
+      "word": "weeping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

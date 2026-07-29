@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-008",
+  "pool": "sourced",
+  "text": "Captain Dillon, a shrewd old Pacific sailor, was the first to find unmistakable traces of the wrecks. On the 15th of May, 1824, his vessel, the St. Patrick, passed close to Tikopia, one of the New Hebrides. There a Lascar came alongside in a canoe, sold him the handle of a sword in silver that bore the print of characters engraved on the hilt. The Lascar pretended that six years before, during a stay at Vanikoro, he had seen two Europeans that belonged to some vessels that had run aground on the reefs some years ago. Dillon guessed that he meant La Perouse, whose disappearance had troubled the whole world.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

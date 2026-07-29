@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-king-solomon-s-mines-011",
+  "pool": "sourced",
+  "text": "Go in peace.” “It is well,” I answered unconcernedly; “we are weary of slaughter, and would sleep. Is the dance ended?” “It is ended,” Twala answered sulkily. “Let these dead dogs,” pointing to the long rows of corpses, “be flung out to the hyænas and the vultures,” and he lifted his spear. Instantly the regiments began to defile through the kraal gateway in perfect silence, a fatigue party only remaining behind to drag away the corpses of those who had been sacrificed. Then we rose also, and making our salaam to his majesty, which he hardly deigned to acknowledge, we departed to our huts.",
+  "words": [
+    {
+      "word": "corpses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sacrificed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

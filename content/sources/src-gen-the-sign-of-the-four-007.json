@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-sign-of-the-four-007",
+  "pool": "sourced",
+  "text": "At the foot of the steps a long coil of rope was thrown carelessly together. By the table, in a wooden arm-chair, the master of the house was seated all in a heap, with his head sunk upon his left shoulder, and that ghastly, inscrutable smile upon his face. He was stiff and cold, and had clearly been dead many hours. It seemed to me that not only his features but all his limbs were twisted and turned in the most fantastic fashion. By his hand upon the table there lay a peculiar instrument,—a brown, close-grained stick, with a stone head like a hammer, rudely lashed on with coarse twine.",
+  "words": [
+    {
+      "word": "rope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "limbs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hammer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sign of the Four",
+    "author": "Arthur Conan Doyle",
+    "year": 1890,
+    "source": "Project Gutenberg #2097",
+    "url": "https://www.gutenberg.org/ebooks/2097",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

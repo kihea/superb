@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-island-008",
+  "pool": "sourced",
+  "text": "“Of wood,” replied Pencroft, “or rather of bark. I repeat, captain, that in five days the work will be finished!” “In five days, then, be it,” replied the engineer. “But till that time we must be very watchful,” said Herbert. “Very watchful indeed, my friends,” replied Harding; “and I beg you to confine your hunting excursions to the neighborhood of Granite House.” The dinner ended less gaily than Pencroft had hoped. So, then, the island was, or had been, inhabited by others than the settlers.",
+  "words": [
+    {
+      "word": "bark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

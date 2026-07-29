@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-little-princess-009",
+  "pool": "sourced",
+  "text": "The rat shuffled a little nearer and ate a few more crumbs, then he stopped and sniffed delicately, giving a side glance at the occupant of the footstool; then he darted at the piece of bun with something very like the sudden boldness of the sparrow, and the instant he had possession of it fled back to the wall, slipped down a crack in the skirting board, and was gone. \"I knew he wanted it for his children,\" said Sara. \"I do believe I could make friends with him.\" A week or so afterward, on one of the rare nights when Ermengarde found it safe to steal up to the attic, when she tapped on the door with the tips of her fingers Sara did not come to her for two or three minutes. There was, indeed, such a silence in the room at first that Ermengarde wondered if she could have fallen asleep.",
+  "words": [
+    {
+      "word": "crumbs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bun",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

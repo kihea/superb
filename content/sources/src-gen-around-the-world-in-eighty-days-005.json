@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-005",
+  "pool": "sourced",
+  "text": "The locomotive, guided by an English engineer and fed with English coal, threw out its smoke upon cotton, coffee, nutmeg, clove, and pepper plantations, while the steam curled in spirals around groups of palm-trees, in the midst of which were seen picturesque bungalows, viharis (sort of abandoned monasteries), and marvellous temples enriched by the exhaustless ornamentation of Indian architecture. Then they came upon vast tracts extending to the horizon, with jungles inhabited by snakes and tigers, which fled at the noise of the train; succeeded by forests penetrated by the railway, and still haunted by elephants which, with pensive eyes, gazed at the train as it passed. The travellers crossed, beyond Milligaum, the fatal country so often stained with blood by the sectaries of the goddess Kali. Not far off rose Ellora, with its graceful pagodas, and the famous Aurungabad, capital of the ferocious Aureng-Zeb, now the chief town of one of the detached provinces of the kingdom of the Nizam. It was thereabouts that Feringhea, the Thuggee chief, king of the stranglers, held his sway.",
+  "words": [
+    {
+      "word": "locomotive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "guided",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plantations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forests",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haunted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travellers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "provinces",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

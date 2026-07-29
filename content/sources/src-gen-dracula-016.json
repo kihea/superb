@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-016",
+  "pool": "sourced",
+  "text": "Van Helsing said gravely:-- “Go on, friend Arthur. We want here no more concealments. Our hope now is in knowing all. Tell freely!” So Art went on:-- “He had been there, and though it could only have been for a few seconds, he made rare hay of the place. All the manuscript had been burned, and the blue flames were flickering amongst the white ashes; the cylinders of your phonograph too were thrown on the fire, and the wax had helped the flames.” Here I interrupted.",
+  "words": [
+    {
+      "word": "flames",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

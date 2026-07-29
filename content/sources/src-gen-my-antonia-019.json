@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-019",
+  "pool": "sourced",
+  "text": "We have our own wheat ground for flour—but then there’s that much less to sell.’ Nina and Jan, and a little girl named Lucie, kept shyly pointing out to me the shelves of glass jars. They said nothing, but, glancing at me, traced on the glass with their finger-tips the outline of the cherries and strawberries and crabapples within, trying by a blissful expression of countenance to give me some idea of their deliciousness. ‘Show him the spiced plums, mother. Americans don’t have those,’ said one of the older boys. ‘Mother uses them to make kolaches,’ he added.",
+  "words": [
+    {
+      "word": "wheat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

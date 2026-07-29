@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-011",
+  "pool": "sourced",
+  "text": "When you are away, I no longer pray for myself, but for you.” 30159m “Yes, since you have known me,” said Morrel, smiling; “but that cannot apply to the time previous to our acquaintance, Valentine.” “You are very provoking, and will not give me credit for anything; but let me hear this second proof, which you yourself own to be absurd.” “Well, look through this opening, and you will see the beautiful new horse which I rode here.” “Ah! what a beautiful creature!” cried Valentine; “why did you not bring him close to the gate, so that I could talk to him and pat him?” “He is, as you see, a very valuable animal,” said Maximilian. “You know that my means are limited, and that I am what would be designated a man of moderate pretensions. Well, I went to a horse dealer’s, where I saw this magnificent horse, which I have named Médéah. I asked the price; they told me it was 4,500 francs.",
+  "words": [
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

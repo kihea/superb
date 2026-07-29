@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-016",
+  "pool": "sourced",
+  "text": "’Stead of going to Joe Harper’s we’ll climb right up the hill and stop at the Widow Douglas’. She’ll have ice-cream! She has it most every day—dead loads of it. And she’ll be awful glad to have us.” “Oh, that will be fun!” Then Becky reflected a moment and said: “But what will mamma say?” “How’ll she ever know?” The girl turned the idea over in her mind, and said reluctantly: “I reckon it’s wrong—but—” “But shucks! Your mother won’t know, and so what’s the harm?",
+  "words": [
+    {
+      "word": "mamma",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

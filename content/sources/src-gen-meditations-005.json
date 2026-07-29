@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-meditations-005",
+  "pool": "sourced",
+  "text": "For if thou think that that only is seed, which either the earth or the womb receiveth, thou art very simple. Thou art now ready to die, and yet hast thou not attained to that perfect simplicity: thou art yet subject to many troubles and perturbations; not yet free from all fear and suspicion of external accidents; nor yet either so meekly disposed towards all men, as thou shouldest; or so affected as one, whose only study and only wisdom is, to be just in all his actions. Behold and observe, what is the state of their rational part; and those that the world doth account wise, see what things they fly and are afraid of; and what things they hunt after. In another man's mind and understanding thy evil Cannot subsist, nor in any proper temper or distemper of the natural constitution of thy body, which is but as it were the coat or cottage of thy soul. Wherein then, but in that part of thee, wherein the conceit, and apprehension of any misery can subsist?",
+  "words": [
+    {
+      "word": "simplicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accidents",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "misery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

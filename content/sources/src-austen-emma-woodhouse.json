@@ -1,9 +1,15 @@
 {
   "id": "src-austen-emma-woodhouse",
   "pool": "sourced",
+  "topic": "household",
   "text": "Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her. She was the youngest of the two daughters of a most affectionate, indulgent father; and had, in consequence of her sister's marriage, been mistress of his house from a very early period. Her mother had died too long ago for her to have more than an indistinct remembrance of her caresses; and her place had been supplied by an excellent woman as governess, who had fallen little short of a mother in affection. Sixteen years had Miss Taylor been in Mr. Woodhouse's family, less as a governess than a friend, very fond of both daughters, but particularly of Emma.",
   "words": [
-    "indulgent"
+    {
+      "word": "indulgent",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Emma",
@@ -11,7 +17,7 @@
     "year": 1815,
     "source": "Project Gutenberg #158",
     "url": "https://www.gutenberg.org/ebooks/158",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

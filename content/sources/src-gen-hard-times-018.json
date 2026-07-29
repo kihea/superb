@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-018",
+  "pool": "sourced",
+  "text": "‘Now, Lord forgive you, sir, for your wicked imaginations, and for your scandal against the memory of my poor mother, who died in my arms before Josiah was born. May you repent of it, sir, and live to know better!’ She was so very earnest and injured, that Mr. Gradgrind, shocked by the possibility which dawned upon him, said in a gentler tone: ‘Do you deny, then, madam, that you left your son to—to be brought up in the gutter?’ ‘Josiah in the gutter!’ exclaimed Mrs. Pegler. ‘No such a thing, sir. For shame on you! My dear boy knows, and will give you to know, that though he come of humble parents, he come of parents that loved him as dear as the best could, and never thought it hardship on themselves to pinch a bit that he might write and cipher beautiful, and I’ve his books at home to show it!",
+  "words": [
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

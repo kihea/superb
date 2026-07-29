@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-bleak-house-018",
+  "pool": "sourced",
+  "text": "And even to the point of his sinking on the ground, oblivious of his suffering, he can yet pronounce her name with something like distinctness in the midst of those intrusive sounds, and in a tone of mourning and compassion rather than reproach. Flight Inspector Bucket of the Detective has not yet struck his great blow, as just now chronicled, but is yet refreshing himself with sleep preparatory to his field-day, when through the night and along the freezing wintry roads a chaise and pair comes out of Lincolnshire, making its way towards London. Railroads shall soon traverse all this country, and with a rattle and a glare the engine and train shall shoot like a meteor over the wide night-landscape, turning the moon paler; but as yet such things are non-existent in these parts, though not wholly unexpected. Preparations are afoot, measurements are made, ground is staked out.",
+  "words": [
+    {
+      "word": "sinking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compassion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preparatory",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "existent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-walden-016",
+  "pool": "sourced",
+  "text": "Such then was its nature. (Lepus, levipes, light-foot, some think.) What is a country without rabbits and partridges? They are among the most simple and indigenous animal products; ancient and venerable families known to antiquity as to modern times; of the very hue and substance of Nature, nearest allied to leaves and to the ground,—and to one another; it is either winged or it is legged. It is hardly as if you had seen a wild creature when a rabbit or a partridge bursts away, only a natural one, as much to be expected as rustling leaves.",
+  "words": [
+    {
+      "word": "antiquity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "allied",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

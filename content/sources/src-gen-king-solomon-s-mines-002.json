@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-king-solomon-s-mines-002",
+  "pool": "sourced",
+  "text": "I carried him into the tent and did what I could for him, which was little enough; but I saw how it must end. About eleven o’clock he grew quieter, and I lay down for a little rest and went to sleep. At dawn I woke again, and in the half light saw Silvestre sitting up, a strange, gaunt form, and gazing out towards the desert. Presently the first ray of the sun shot right across the wide plain before us till it reached the faraway crest of one of the tallest of the Suliman Mountains more than a hundred miles away. “‘There it is!’ cried the dying man in Portuguese, and pointing with his long, thin arm, ‘but I shall never reach it, never.",
+  "words": [
+    {
+      "word": "eleven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quieter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

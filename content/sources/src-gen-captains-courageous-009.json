@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-captains-courageous-009",
+  "pool": "sourced",
+  "text": "Little by little he changed his tone when speaking of his \"friend,\" whom Long Jack had christened \"the Crazy Kid,\" \"the Gilt-edged Baby,\" \"the Suckin' Vanderpoop,\" and other pet names; and with his sea-booted feet cocked up on the table would even invent histories about silk pajamas and specially imported neckwear, to the \"friend's\" discredit. Harvey was a very adaptable person, with a keen eye and ear for every face and tone about him. Before long he knew where Disko kept the old greencrusted quadrant that they called the \"hog-yoke\"--under the bed-bag in his bunk. When he took the sun, and with the help of \"The Old Farmer's\" almanac found the latitude, Harvey would jump down into the cabin and scratch the reckoning and date with a nail on the rust of the stove-pipe. Now, the chief engineer of the liner could have done no more, and no engineer of thirty years' service could have assumed one half of the ancient-mariner air with which Harvey, first careful to spit over the side, made public the schooner's position for that day, and then and not till then relieved Disko of the quadrant.",
+  "words": [
+    {
+      "word": "pajamas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "specially",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discredit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quadrant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bunk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "relieved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

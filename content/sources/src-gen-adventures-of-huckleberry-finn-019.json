@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-019",
+  "pool": "sourced",
+  "text": "Any book will tell you that. You try—that’s all I ask; just try for two or three days. Why, you can get him so, in a little while, that he’ll love you; and sleep with you; and won’t stay away from you a minute; and will let you wrap him round your neck and put his head in your mouth.” “Please, Mars Tom—doan’ talk so! I can’t stan’ it! He’d let me shove his head in my mouf—fer a favor, hain’t it?",
+  "words": [
+    {
+      "word": "shove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-019",
+  "pool": "sourced",
+  "text": "The next day, April 12th, the Nautilus approached the Dutch coast, near the mouth of the Maroni. There several groups of sea-cows herded together; they were manatees, that, like the dugong and the stellera, belong to the sirenian order. These beautiful animals, peaceable and inoffensive, from eighteen to twenty-one feet in length, weigh at least sixteen hundredweight. I told Ned Land and Conseil that provident nature had assigned an important role to these mammalia. Indeed, they, like the seals, are designed to graze on the submarine prairies, and thus destroy the accumulation of weed that obstructs the tropical rivers.",
+  "words": [
+    {
+      "word": "approached",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "submarine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

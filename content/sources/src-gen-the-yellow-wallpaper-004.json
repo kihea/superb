@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-004",
+  "pool": "sourced",
+  "text": "I never saw such ravages as the children have made here. The wallpaper, as I said before, is torn off in spots, and it sticketh closer than a brother—they must have had perseverance as well as hatred. Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars. But I don’t mind it a bit—only the paper. There comes John’s sister.",
+  "words": [
+    {
+      "word": "wallpaper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

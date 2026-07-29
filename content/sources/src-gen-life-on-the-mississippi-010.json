@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-life-on-the-mississippi-010",
+  "pool": "sourced",
+  "text": "Even if it was established that they had stolen a negro, before he was murdered, they were always prepared to evade punishment; for they concealed the negro who had run away, until he was advertised, and a reward offered to any man who would catch him. An advertisement of this kind warrants the person to take the property, if found. And then the negro becomes a property in trust, when, therefore, they sold the negro, it only became a breach of trust, not stealing; and for a breach of trust, the owner of the property can only have redress by a civil action, which was useless, as the damages were never paid. It may be inquired, how it was that Murel escaped Lynch law under such circumstances This will be easily understood when it is stated that he had more than a thousand sworn confederates, all ready at a moment's notice to support any of the gang who might be in trouble. The names of all the principal confederates of Murel were obtained from himself, in a manner which I shall presently explain.",
+  "words": [
+    {
+      "word": "evade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "advertised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sworn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

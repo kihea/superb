@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-004",
+  "pool": "sourced",
+  "text": "Curious to tell, this imperial negro, Ahasuerus Daggoo, was the Squire of little Flask, who looked like a chess-man beside him. As for the residue of the Pequod’s company, be it said, that at the present day not one in two of the many thousand men before the mast employed in the American whale fishery, are Americans born, though pretty nearly all the officers are. Herein it is the same with the American whale fishery as with the American army and military and merchant navies, and the engineering forces employed in the construction of the American Canals and Railroads. The same, I say, because in all these cases the native American liberally provides the brains, the rest of the world as generously supplying the muscles. No small number of these whaling seamen belong to the Azores, where the outward bound Nantucket whalers frequently touch to augment their crews from the hardy peasants of those rocky shores.",
+  "words": [
+    {
+      "word": "chess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peasants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

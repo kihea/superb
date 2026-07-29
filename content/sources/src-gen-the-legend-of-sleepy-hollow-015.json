@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-015",
+  "pool": "sourced",
+  "text": "Could that girl have been playing off any of her coquettish tricks? Was her encouragement of the poor pedagogue all a mere sham to secure her conquest of his rival? Heaven only knows, not I! Let it suffice to say, Ichabod stole forth with the air of one who had been sacking a henroost, rather than a fair lady’s heart. Without looking to the right or left to notice the scene of rural wealth, on which he had so often gloated, he went straight to the stable, and with several hearty cuffs and kicks roused his steed most uncourteously from the comfortable quarters in which he was soundly sleeping, dreaming of mountains of corn and oats, and whole valleys of timothy and clover.",
+  "words": [
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreaming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "valleys",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

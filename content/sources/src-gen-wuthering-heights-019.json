@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-wuthering-heights-019",
+  "pool": "sourced",
+  "text": "I supposed I should be condemned in Hareton Earnshaw’s heart, if not by his mouth, to the lowest pit in the infernal regions if I showed my unfortunate person in his neighbourhood then; and feeling very mean and malignant, I skulked round to seek refuge in the kitchen. There was unobstructed admittance on that side also; and at the door sat my old friend Nelly Dean, sewing and singing a song; which was often interrupted from within by harsh words of scorn and intolerance, uttered in far from musical accents. “I’d rayther, by th’ haulf, hev’ ’em swearing i’ my lugs fro’h morn to neeght, nor hearken ye hahsiver!” said the tenant of the kitchen, in answer to an unheard speech of Nelly’s. “It’s a blazing shame, that I cannot oppen t’ blessed Book, but yah set up them glories to sattan, and all t’ flaysome wickednesses that iver were born into th’ warld! ye’re a raight nowt; and shoo’s another; and that poor lad ’ll be lost atween ye.",
+  "words": [
+    {
+      "word": "interrupted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-013",
+  "pool": "sourced",
+  "text": "‘How came you to think of resting there?’ he said. ‘Or how,’ he added, looking more attentively at the child, ‘do you come to want a place of rest at this time of night?’ ‘Our misfortunes,’ the grandfather answered, ‘are the cause.’ ‘Do you know,’ said the man, looking still more earnestly at Nell, ‘how wet she is, and that the damp streets are not a place for her?’ ‘I know it well, God help me,’ he replied. ‘What can I do!’ The man looked at Nell again, and gently touched her garments, from which the rain was running off in little streams. ‘I can give you warmth,’ he said, after a pause; ‘nothing else. Such lodging as I have, is in that house,’ pointing to the doorway from which he had emerged, ‘but she is safer and better there than here.",
+  "words": [
+    {
+      "word": "damp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "emerged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-jungle-book-008",
+  "pool": "sourced",
+  "text": "“I might have known that thou wouldst not forget me. We have a big work in hand. Cut the herd in two, Akela. Keep the cows and calves together, and the bulls and the plow buffaloes by themselves.” The two wolves ran, ladies’-chain fashion, in and out of the herd, which snorted and threw up its head, and separated into two clumps. In one, the cow-buffaloes stood with their calves in the center, and glared and pawed, ready, if a wolf would only stay still, to charge down and trample the life out of him.",
+  "words": [
+    {
+      "word": "herd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "calves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

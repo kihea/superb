@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anne-of-green-gables-010",
+  "pool": "sourced",
+  "text": "The tinkles of sleigh bells among the snowy hills came like elfin chimes through the frosty air, but their music was not sweeter than the song in Anne’s heart and on her lips. “You see before you a perfectly happy person, Marilla,” she announced. “I’m perfectly happy--yes, in spite of my red hair. Just at present I have a soul above red hair. Mrs. Barry kissed me and cried and said she was so sorry and she could never repay me.",
+  "words": [
+    {
+      "word": "kissed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

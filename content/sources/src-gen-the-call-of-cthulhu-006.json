@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-006",
+  "pool": "sourced",
+  "text": "And as far as he could tell, it was a rough parallel in all essential features of the bestial thing now lying before the meeting. These data, received with suspense and astonishment by the assembled members, proved doubly exciting to Inspector Legrasse; and he began at once to ply his informant with questions. Having noted and copied an oral ritual among the swamp cult-worshipers his men had arrested, he besought the professor to remember as best he might the syllables taken down amongst the diabolist Eskimos. There then followed an exhaustive comparison of details, and a moment of really awed silence when both detective and scientist agreed on the virtual identity of the phrase common to two hellish rituals so many worlds of distance apart. What, in substance, both the Eskimo wizards and the Louisiana swamp-priests had chanted to their kindred idols was something very like this--the word-divisions being guessed at from traditional breaks in the phrase as chanted aloud: \"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.\"",
+  "words": [
+    {
+      "word": "swamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scientist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

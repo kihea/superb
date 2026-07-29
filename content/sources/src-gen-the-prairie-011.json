@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prairie-011",
+  "pool": "sourced",
+  "text": "But he's a gentleman, almost too \"Gentle,\" I sometimes feel, a Laodicean, mentally over-refined until it leaves him unable to cope with real life. He's one of those men made for being a \"spectator,\" and not an actor, in life. And there's something so absurd about his being where he is that I feel sorry for him. I slept like a log. Once I fell asleep, I forgot about the hard ground, and the smell of the horse-blankets, and the fact that I'd lost my poor Dinky-Dunk's team.",
+  "words": [
+    {
+      "word": "cope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spectator",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

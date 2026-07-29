@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-song-of-the-lark-004",
+  "pool": "sourced",
+  "text": "At the Denver Athletic Club banquets, or at dinner with his colleagues at the Brown Palace Hotel, he sometimes spoke sentimentally about “little Mrs. Archie,” and he always drank the toast “to our wives, God bless them!” with gusto. The determining factor about Dr. Archie was that he was romantic. He had married Belle White because he was romantic—too romantic to know anything about women, except what he wished them to be, or to repulse a pretty girl who had set her cap for him. At medical school, though he was a rather wild boy in behavior, he had always disliked coarse jokes and vulgar stories. In his old Flint’s Physiology there was still a poem he had pasted there when he was a student; some verses by Dr. Oliver Wendell Holmes about the ideals of the medical profession.",
+  "words": [
+    {
+      "word": "wives",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "determining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-hard-times-016",
+  "pool": "sourced",
+  "text": "‘I am not a moral sort of fellow,’ he said, ‘and I never make any pretensions to the character of a moral sort of fellow. I am as immoral as need be. At the same time, in bringing any distress upon the lady who is the subject of the present conversation, or in unfortunately compromising her in any way, or in committing myself by any expression of sentiments towards her, not perfectly reconcilable with—in fact with—the domestic hearth; or in taking any advantage of her father’s being a machine, or of her brother’s being a whelp, or of her husband’s being a bear; I beg to be allowed to assure you that I have had no particularly evil intentions, but have glided on from one step to another with a smoothness so perfectly diabolical, that I had not the slightest idea the catalogue was half so long until I began to turn it over. Whereas I find,’ said Mr. James Harthouse, in conclusion, ‘that it is really in several volumes.’ Though he said all this in his frivolous way, the way seemed, for that once, a conscious polishing of but an ugly surface.",
+  "words": [
+    {
+      "word": "immoral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frivolous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

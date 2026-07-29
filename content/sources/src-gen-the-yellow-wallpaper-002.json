@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-yellow-wallpaper-002",
+  "pool": "sourced",
+  "text": "Out of another I get a lovely view of the bay and a little private wharf belonging to the estate. There is a beautiful shaded lane that runs down there from the house. I always fancy I see people walking in these numerous paths and arbors, but John has cautioned me not to give way to fancy in the least. He says that with my imaginative power and habit of story-making a nervous weakness like mine is sure to lead to all manner of excited fancies, and that I ought to use my will and good sense to check the tendency. I think sometimes that if I were only well enough to write a little it would relieve the press of ideas and rest me.",
+  "words": [
+    {
+      "word": "paths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tendency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "source": "Project Gutenberg #1952",
+    "url": "https://www.gutenberg.org/ebooks/1952",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

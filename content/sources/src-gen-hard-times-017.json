@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-hard-times-017",
+  "pool": "sourced",
+  "text": "Not the least eager of the eyes assembled, were the eyes of those who could not read. These people, as they listened to the friendly voice that read aloud—there was always some such ready to help them—stared at the characters which meant so much with a vague awe and respect that would have been half ludicrous, if any aspect of public ignorance could ever be otherwise than threatening and full of evil. Many ears and eyes were busy with a vision of the matter of these placards, among turning spindles, rattling looms, and whirling wheels, for hours afterwards; and when the Hands cleared out again into the streets, there were still as many readers as before. Slackbridge, the delegate, had to address his audience too that night; and Slackbridge had obtained a clean bill from the printer, and had brought it in his pocket. Oh, my friends and fellow-countrymen, the down-trodden operatives of Coketown, oh, my fellow-brothers and fellow-workmen and fellow-citizens and fellow-men, what a to-do was there, when Slackbridge unfolded what he called ‘that damning document,’ and held it up to the gaze, and for the execration of the working-man community!",
+  "words": [
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "countrymen",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

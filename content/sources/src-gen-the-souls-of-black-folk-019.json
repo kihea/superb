@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-019",
+  "pool": "sourced",
+  "text": "The black town flocked to the depot, with a little of the white at the edges,—a happy throng, with “Good-mawnings” and “Howdys” and laughing and joking and jostling. Mother sat yonder in the window watching; but sister Jennie stood on the platform, nervously fingering her dress, tall and lithe, with soft brown skin and loving eyes peering from out a tangled wilderness of hair. John rose gloomily as the train stopped, for he was thinking of the “Jim Crow” car; he stepped to the platform, and paused: a little dingy station, a black crowd gaudy and dirty, a half-mile of dilapidated shanties along a straggling ditch of mud. An overwhelming sense of the sordidness and narrowness of it all seized him; he looked in vain for his mother, kissed coldly the tall, strange girl who called him brother, spoke a short, dry word here and there; then, lingering neither for handshaking nor gossip, started silently up the street, raising his hat merely to the last eager old aunty, to her open-mouthed astonishment. The people were distinctly bewildered.",
+  "words": [
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

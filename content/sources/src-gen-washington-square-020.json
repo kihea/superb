@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-washington-square-020",
+  "pool": "sourced",
+  "text": "“It pains me,” said Catherine. “I was afraid you would say that. But don’t you think you could get used to it? He wants so much to see you.” “Please don’t, Aunt Lavinia,” said Catherine, getting up from her seat. She moved quickly away, and went to the other window, which stood open to the balcony; and here, in the embrasure, concealed from her aunt by the white curtains, she remained a long time, looking out into the warm darkness.",
+  "words": [
+    {
+      "word": "balcony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Washington Square",
+    "author": "Henry James",
+    "year": 1880,
+    "source": "Project Gutenberg #2870",
+    "url": "https://www.gutenberg.org/ebooks/2870",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

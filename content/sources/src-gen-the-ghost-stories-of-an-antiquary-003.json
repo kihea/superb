@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-ghost-stories-of-an-antiquary-003",
+  "pool": "sourced",
+  "text": "Be martial, sir, as when you stand in the ranks of the cadets on training-days! Steady, and stand the charge! He kept an inflexible front as she glided toward him, softly, slowly, with her bright eyes smiling into his, and doing dreadful execution. Then she put her white arms around his neck, laid her dear, fair head on his breast, and peered up archly into his stern visage. Spite of himself, he could not keep the fixed lines on his face from breaking confusedly into a faint smile.",
+  "words": [
+    {
+      "word": "cadets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Ghost Stories of an Antiquary",
+    "author": "M. R. James",
+    "year": 1904,
+    "source": "Project Gutenberg #26779",
+    "url": "https://www.gutenberg.org/ebooks/26779",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-012",
+  "pool": "sourced",
+  "text": "Then, begging her pardon for all past unpleasantness, to make her a present of ten thousand roubles and so assist the rupture with Mr. Luzhin, a rupture to which I believe she is herself not disinclined, if she could see the way to it.” “You are certainly mad,” cried Raskolnikov not so much angered as astonished. “How dare you talk like that!” “I knew you would scream at me; but in the first place, though I am not rich, this ten thousand roubles is perfectly free; I have absolutely no need for it. If Avdotya Romanovna does not accept it, I shall waste it in some more foolish way. That’s the first thing. Secondly, my conscience is perfectly easy; I make the offer with no ulterior motive.",
+  "words": [
+    {
+      "word": "secondly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

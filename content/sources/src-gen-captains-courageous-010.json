@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-captains-courageous-010",
+  "pool": "sourced",
+  "text": "Tom Platt dealt with his interminable trip round the Horn on the old Ohio in flogging days, with a navy more extinct than the dodo--the navy that passed away in the great war. He told them how red-hot shot are dropped into a cannon, a wad of wet clay between them and the cartridge; how they sizzle and reek when they strike wood, and how the little ship-boys of the Miss Jim Buck hove water over them and shouted to the fort to try again. And he told tales of blockade--long weeks of swaying at anchor, varied only by the departure and return of steamers that had used up their coal (there was no chance for the sailing-ships); of gales and cold that kept two hundred men, night and day, pounding and chopping at the ice on cable, blocks, and rigging, when the galley was as red-hot as the fort's shot, and men drank cocoa by the bucket. Tom Platt had no use for steam. His service closed when that thing was comparatively new.",
+  "words": [
+    {
+      "word": "cartridge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shouted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rigging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "galley",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bucket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

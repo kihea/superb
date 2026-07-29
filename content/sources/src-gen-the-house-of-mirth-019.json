@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-mirth-019",
+  "pool": "sourced",
+  "text": "Lily, lingering for a moment on the corner, looked out on the afternoon spectacle of Fifth Avenue. It was a day in late April, and the sweetness of spring was in the air. It mitigated the ugliness of the long crowded thoroughfare, blurred the gaunt roof-lines, threw a mauve veil over the discouraging perspective of the side streets, and gave a touch of poetry to the delicate haze of green that marked the entrance to the Park. As Lily stood there, she recognized several familiar faces in the passing carriages. The season was over, and its ruling forces had disbanded; but a few still lingered, delaying their departure for Europe, or passing through town on their return from the South.",
+  "words": [
+    {
+      "word": "haze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delaying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of Mirth",
+    "author": "Edith Wharton",
+    "year": 1905,
+    "source": "Project Gutenberg #284",
+    "url": "https://www.gutenberg.org/ebooks/284",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

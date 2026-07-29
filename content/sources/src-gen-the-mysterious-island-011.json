@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysterious-island-011",
+  "pool": "sourced",
+  "text": "“We are exactly in that part of the Pacific which English and American whalemen call the whale field, and it is here, between New Zealand and South America, that the whales of the Southern Hemisphere are met with in the greatest numbers.” And Pencroft returned to his work, not without uttering a sigh of regret, for every sailor is a born fisherman, and if the pleasure of fishing is in exact proportion to the size of the animal, one can judge how a whaler feels in sight of a whale. And if this had only been for pleasure! But they could not help feeling how valuable such a prize would have been to the colony, for the oil, fat, and bones would have been put to many uses. Now it happened that this whale appeared to have no wish to leave the waters of the island. Therefore, whether from the windows of Granite House, or from Prospect Heights, Herbert and Gideon Spilett, when they were not hunting, or Neb, unless presiding over his fires, never left the telescope, but watched all the animal’s movements.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fisherman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

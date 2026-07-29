@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-typhoon-009",
+  "pool": "sourced",
+  "text": "For the most part he kept his eyes shut tight, as if suspecting his sight might be destroyed in the immense flurry of the elements. When he ventured to blink hastily, he derived some moral support from the green gleam of the starboard light shining feebly upon the flight of rain and sprays. He was actually looking at it when its ray fell upon the uprearing sea which put it out. He saw the head of the wave topple over, adding the mite of its crash to the tremendous uproar raging around him, and almost at the same instant the stanchion was wrenched away from his embracing arms. After a crushing thump on his back he found himself suddenly afloat and borne upwards.",
+  "words": [
+    {
+      "word": "blink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "embracing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crushing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

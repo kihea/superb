@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-ethan-frome-004",
+  "pool": "sourced",
+  "text": "One cold winter morning, as he dressed in the dark, his candle flickering in the draught of the ill-fitting window, he had heard her speak from the bed behind him. “The doctor don’t want I should be left without anybody to do for me,” she said in her flat whine. He had supposed her to be asleep, and the sound of her voice had startled him, though she was given to abrupt explosions of speech after long intervals of secretive silence. He turned and looked at her where she lay indistinctly outlined under the dark calico quilt, her high-boned face taking a grayish tinge from the whiteness of the pillow. “Nobody to do for you?” he repeated.",
+  "words": [
+    {
+      "word": "whine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quilt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

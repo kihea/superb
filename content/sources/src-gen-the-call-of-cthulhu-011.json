@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-011",
+  "pool": "sourced",
+  "text": "The time would be easy to know, for then mankind would have become as the Great Old Ones; free and wild and beyond good and evil, with laws and morals thrown aside and all men shouting and killing and reveling in joy. Then the liberated Old Ones would teach them new ways to shout and kill and revel and enjoy themselves, and all the earth would flame with a holocaust of ecstasy and freedom. Meanwhile the cult, by appropriate rites, must keep alive the memory of those ancient ways and shadow forth the prophecy of their return. In the elder time chosen men had talked with the entombed Old Ones in dreams, but then something had happened. The great stone city R'lyeh, with its monoliths and sepulchers, had sunk beneath the waves; and the deep waters, full of the one primal mystery through which not even thought can pass, had cut off the spectral intercourse.",
+  "words": [
+    {
+      "word": "shouting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "primal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

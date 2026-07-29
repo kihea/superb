@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-016",
+  "pool": "sourced",
+  "text": "Couldn’t he have waited for the good season to increase his chances?” While the worthy Frenchman was absorbed in the state of the sky and the depression of the temperature, Aouda was experiencing fears from a totally different cause. Several passengers had got off at Green River, and were walking up and down the platforms; and among these Aouda recognised Colonel Stamp Proctor, the same who had so grossly insulted Phileas Fogg at the San Francisco meeting. Not wishing to be recognised, the young woman drew back from the window, feeling much alarm at her discovery. She was attached to the man who, however coldly, gave her daily evidences of the most absolute devotion. She did not comprehend, perhaps, the depth of the sentiment with which her protector inspired her, which she called gratitude, but which, though she was unconscious of it, was really more than that.",
+  "words": [
+    {
+      "word": "absorbed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fears",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recognised",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "devotion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gratitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

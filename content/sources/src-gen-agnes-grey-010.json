@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-agnes-grey-010",
+  "pool": "sourced",
+  "text": "Maybe, you haven’t seen him—not to talk to him much, yet?” “No, I never see any one to talk to—except the young ladies of the Hall.” “Ah; they’re nice, kind young ladies; but they can’t talk as he does.” “Then he comes to see you, Nancy?” “He does, Miss; and I’se thankful for it. He comes to see all us poor bodies a deal ofter nor Maister Bligh, or th’ Rector ever did; an’ it’s well he does, for he’s always welcome: we can’t say as much for th’ Rector—there is ’at says they’re fair feared on him. When he comes into a house, they say he’s sure to find summut wrong, and begin a-calling ’em as soon as he crosses th’ doorstuns: but maybe he thinks it his duty like to tell ’em what’s wrong. And very oft he comes o’ purpose to reprove folk for not coming to church, or not kneeling an’ standing when other folk does, or going to the Methody chapel, or summut o’ that sort: but I can’t say ’at he ever fund much fault wi’ me.",
+  "words": [
+    {
+      "word": "crosses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kneeling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chapel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

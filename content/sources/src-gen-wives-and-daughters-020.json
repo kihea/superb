@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-wives-and-daughters-020",
+  "pool": "sourced",
+  "text": "\"Now, Molly,\" said Miss Browning, \"let us hear how you behaved among the great folks. You must not be set up with all their attention; remember that they pay it to you for your good father's sake.\" \"Molly is, I think, quite aware,\" put in Mrs. Gibson, in her most soft and languid tone, \"that she owes her privilege of visiting at such a house to Lady Cumnor's kind desire to set my mind quite at liberty at the time of Cynthia's marriage. As soon as ever I had returned home, Molly came back; indeed, I should not have thought it right to let her intrude upon their kindness beyond what was absolutely necessary.\" Molly felt extremely uncomfortable at all this, though perfectly aware of the entire inaccuracy of the statement.",
+  "words": [
+    {
+      "word": "owes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kindness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wives and Daughters",
+    "author": "Elizabeth Gaskell",
+    "year": 1866,
+    "source": "Project Gutenberg #4274",
+    "url": "https://www.gutenberg.org/ebooks/4274",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

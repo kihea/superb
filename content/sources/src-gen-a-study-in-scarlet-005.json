@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-study-in-scarlet-005",
+  "pool": "sourced",
+  "text": "You mark my words, when this case comes to be cleared up you will find that a woman named Rachel has something to do with it. It’s all very well for you to laugh, Mr. Sherlock Holmes. You may be very smart and clever, but the old hound is the best, when all is said and done.” “I really beg your pardon!” said my companion, who had ruffled the little man’s temper by bursting into an explosion of laughter. “You certainly have the credit of being the first of us to find this out, and, as you say, it bears every mark of having been written by the other participant in last night’s mystery. I have not had time to examine this room yet, but with your permission I shall do so now.” As he spoke, he whipped a tape measure and a large round magnifying glass from his pocket.",
+  "words": [
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "examine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": 1887,
+    "source": "Project Gutenberg #244",
+    "url": "https://www.gutenberg.org/ebooks/244",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

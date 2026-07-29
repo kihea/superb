@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-three-musketeers-011",
+  "pool": "sourced",
+  "text": "The brother did not perceive this; he had turned round to play with Milady’s favorite monkey, which had pulled him by the doublet. “You are welcome, monsieur,” said Milady, in a voice whose singular sweetness contrasted with the symptoms of ill-humor which D’Artagnan had just remarked; “you have today acquired eternal rights to my gratitude.” The Englishman then turned round and described the combat without omitting a single detail. Milady listened with the greatest attention, and yet it was easily to be perceived, whatever effort she made to conceal her impressions, that this recital was not agreeable to her. The blood rose to her head, and her little foot worked with impatience beneath her robe. Lord de Winter perceived nothing of this.",
+  "words": [
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "listened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impressions",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

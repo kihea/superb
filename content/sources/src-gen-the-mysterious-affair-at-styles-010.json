@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-010",
+  "pool": "sourced",
+  "text": "The deceased, he said, suffered from a weak heart, but otherwise enjoyed perfect health, and was of a cheerful and well-balanced disposition. She would be one of the last people to take her own life. Lawrence Cavendish was next called. His evidence was quite unimportant, being a mere repetition of that of his brother. Just as he was about to step down, he paused, and said rather hesitatingly: “I should like to make a suggestion if I may?” He glanced deprecatingly at the Coroner, who replied briskly: “Certainly, Mr. Cavendish, we are here to arrive at the truth of this matter, and welcome anything that may lead to further elucidation.” “It is just an idea of mine,” explained Lawrence.",
+  "words": [
+    {
+      "word": "paused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

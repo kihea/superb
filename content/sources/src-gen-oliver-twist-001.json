@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-oliver-twist-001",
+  "pool": "sourced",
+  "text": "For a long time after it was ushered into this world of sorrow and trouble, by the parish surgeon, it remained a matter of considerable doubt whether the child would survive to bear any name at all; in which case it is somewhat more than probable that these memoirs would never have appeared; or, if they had, that being comprised within a couple of pages, they would have possessed the inestimable merit of being the most concise and faithful specimen of biography, extant in the literature of any age or country. Although I am not disposed to maintain that being born in a workhouse, is in itself the most fortunate and enviable circumstance that can possibly befall a human being, I do mean to say that in this particular instance, it was the best thing for Oliver Twist that could by possibility have occurred.",
+  "words": [
+    {
+      "word": "specimen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

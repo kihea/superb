@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-cranford-003",
+  "pool": "sourced",
+  "text": "Oh, the busy work Miss Matty and I had in chasing the sunbeams, as they fell in an afternoon right down on this carpet through the blindless window! We spread newspapers over the places and sat down to our book or our work; and, lo! in a quarter of an hour the sun had moved, and was blazing away on a fresh spot; and down again we went on our knees to alter the position of the newspapers. We were very busy, too, one whole morning, before Miss Jenkyns gave her party, in following her directions, and in cutting out and stitching together pieces of newspaper so as to form little paths to every chair set for the expected visitors, lest their shoes might dirty or defile the purity of the carpet. Do you make paper paths for every guest to walk upon in London?",
+  "words": [
+    {
+      "word": "chasing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

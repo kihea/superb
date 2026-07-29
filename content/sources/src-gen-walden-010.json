@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-walden-010",
+  "pool": "sourced",
+  "text": "Once, in the winter, many years ago, when I had been cutting holes through the ice in order to catch pickerel, as I stepped ashore I tossed my axe back on to the ice, but, as if some evil genius had directed it, it slid four or five rods directly into one of the holes, where the water was twenty-five feet deep. Out of curiosity, I lay down on the ice and looked through the hole, until I saw the axe a little on one side, standing on its head, with its helve erect and gently swaying to and fro with the pulse of the pond; and there it might have stood erect and swaying till in the course of time the handle rotted off, if I had not disturbed it. Making another hole directly over it with an ice chisel which I had, and cutting down the longest birch which I could find in the neighborhood with my knife, I made a slip-noose, which I attached to its end, and, letting it down carefully, passed it over the knob of the handle, and drew it by a line along the birch, and so pulled the axe out again.",
+  "words": [
+    {
+      "word": "stepped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knob",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-hard-times-003",
+  "pool": "sourced",
+  "text": "‘He has his points as a Cackler still, but he can’t get a living out of them.’ ‘A Cackler!’ Bounderby repeated. ‘Here we go again!’ ‘A speaker, if the gentleman likes it better,’ said Mr. E. W. B. Childers, superciliously throwing the interpretation over his shoulder, and accompanying it with a shake of his long hair—which all shook at once. ‘Now, it’s a remarkable fact, sir, that it cut that man deeper, to know that his daughter knew of his being goosed, than to go through with it.’ ‘Good!’ interrupted Mr. Bounderby. ‘This is good, Gradgrind! A man so fond of his daughter, that he runs away from her!",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

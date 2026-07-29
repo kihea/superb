@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-two-years-before-the-mast-005",
+  "pool": "sourced",
+  "text": "We had now got well settled down into our harbor duties, which, as they are a good deal different from those at sea, it may be well enough to describe. In the first place, all hands are called at daylight, or rather--especially if the days are short--before daylight, as soon as the first grey of the morning. The cook makes his fire in the galley; the steward goes about his work in the cabin; and the crew rig the head pump, and wash down the decks. The chief mate is always on deck, but takes no active part, all the duty coming upon the second mate, who has to roll up his trowsers and paddle about decks barefooted, like the rest of the crew. The washing, swabbing, squilgeeing, etc., lasts, or is made to last, until eight o'clock, when breakfast is ordered, fore and aft.",
+  "words": [
+    {
+      "word": "harbor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lasts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

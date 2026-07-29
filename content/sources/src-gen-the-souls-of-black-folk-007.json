@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-007",
+  "pool": "sourced",
+  "text": "How could Negroes do it if they were not trained carefully for it? If white people need colleges to furnish teachers, ministers, lawyers, and doctors, do black people need nothing of the sort? If it is true that there are an appreciable number of Negro youth in the land capable by character and talent to receive that higher training, the end of which is culture, and if the two and a half thousand who have had something of this training in the past have in the main proved themselves useful to their race and generation, the question then comes, What place in the future development of the South ought the Negro college and college-bred man to occupy? That the present social separation and acute race-sensitiveness must eventually yield to the influences of culture, as the South grows civilized, is clear. But such transformation calls for singular wisdom and patience.",
+  "words": [
+    {
+      "word": "separation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "influences",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

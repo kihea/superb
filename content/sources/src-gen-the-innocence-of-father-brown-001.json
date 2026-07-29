@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-001",
+  "pool": "sourced",
+  "text": "“Really, you’re as good as a three-act farce,” he cried. “Yes, you turnip, I am quite sure. I had the sense to make a duplicate of the right parcel, and now, my friend, you’ve got the duplicate and I’ve got the jewels. An old dodge, Father Brown--a very old dodge.” “Yes,” said Father Brown, and passed his hand through his hair with the same strange vagueness of manner. “Yes, I’ve heard of it before.” The colossus of crime leaned over to the little rustic priest with a sort of sudden interest.",
+  "words": [
+    {
+      "word": "farce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

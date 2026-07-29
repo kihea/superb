@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-006",
+  "pool": "sourced",
+  "text": "Colonel Lloyd had three sons—Edward, Murray, and Daniel,—and three sons-in-law, Mr. Winder, Mr. Nicholson, and Mr. Lowndes. All of these lived at the Great House Farm, and enjoyed the luxury of whipping the servants when they pleased, from old Barney down to William Wilkes, the coach-driver. I have seen Winder make one of the house-servants stand off from him a suitable distance to be touched with the end of his whip, and at every stroke raise great ridges upon his back. To describe the wealth of Colonel Lloyd would be almost equal to describing the riches of Job. He kept from ten to fifteen house-servants.",
+  "words": [
+    {
+      "word": "servants",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ridges",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "riches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

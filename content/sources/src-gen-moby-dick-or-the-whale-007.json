@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-007",
+  "pool": "sourced",
+  "text": "For however eagerly and impetuously the savage crew had hailed the announcement of his quest; yet all sailors of all sorts are more or less capricious and unreliable—they live in the varying outer weather, and they inhale its fickleness—and when retained for any object remote and blank in the pursuit, however promissory of life and passion in the end, it is above all things requisite that temporary interests and employments should intervene and hold them healthily suspended for the final dash. Nor was Ahab unmindful of another thing. In times of strong emotion mankind disdain all base considerations; but such times are evanescent. The permanent constitutional condition of the manufactured man, thought Ahab, is sordidness. Granting that the White Whale fully incites the hearts of this my savage crew, and playing round their savageness even breeds a certain generous knight-errantism in them, still, while for the love of it they give chase to Moby Dick, they must also have food for their more common, daily appetites.",
+  "words": [
+    {
+      "word": "retained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blank",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "considerations",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "granting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

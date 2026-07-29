@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-005",
+  "pool": "sourced",
+  "text": "“I thought you did,” said the Mouse. “—I proceed. ‘Edwin and Morcar, the earls of Mercia and Northumbria, declared for him: and even Stigand, the patriotic archbishop of Canterbury, found it advisable—’” “Found what?” said the Duck. “Found it,” the Mouse replied rather crossly: “of course you know what ‘it’ means.” “I know what ‘it’ means well enough, when I find a thing,” said the Duck: “it’s generally a frog or a worm. The question is, what did the archbishop find?” The Mouse did not notice this question, but hurriedly went on, “‘—found it advisable to go with Edgar Atheling to meet William and offer him the crown.",
+  "words": [
+    {
+      "word": "worm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-middlemarch-010",
+  "pool": "sourced",
+  "text": "But through certain sensibilities Dorothea was as quick as he, and seeing her face change, he added, immediately, “But it is quite true that the best minds have been sometimes overstrained in working out their ideas.” “You correct me,” said Dorothea. “I expressed myself ill. I should have said that those who have great thoughts get too much worn in working them out. I used to feel about that, even when I was a little girl; and it always seemed to me that the use I should like to make of my life would be to help some one who did great works, so that his burthen might be lighter.” Dorothea was led on to this bit of autobiography without any sense of making a revelation. But she had never before said anything to Will which threw so strong a light on her marriage.",
+  "words": [
+    {
+      "word": "lighter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "autobiography",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

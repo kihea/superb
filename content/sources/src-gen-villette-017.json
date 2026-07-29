@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-villette-017",
+  "pool": "sourced",
+  "text": "The face, though not beautiful, was pleasing; pale, young, and shaded with the dejection of grief or ill health. I say again it was not beautiful; it was not even intellectual; its very amiability was the amiability of a weak frame, inactive passions, acquiescent habits: yet I looked long at that picture, and could not choose but look. The old priest, who at first had seemed to me so deaf and infirm, must yet have retained his faculties in tolerable preservation; absorbed in his book as he appeared, without once lifting his head, or, as far as I knew, turning his eyes, he perceived the point towards which my attention was drawn, and, in a slow distinct voice, dropped, concerning it, these four observations:— “She was much beloved. “She gave herself to God. “She died young.",
+  "words": [
+    {
+      "word": "preservation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

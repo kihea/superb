@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-017",
+  "pool": "sourced",
+  "text": "Whatever might be Emily’s opinions, she did not disclose them, but listened attentively to all that Dorothée communicated, which occasioned her much thought and perplexity. From this night the terror of the servants increased to such an excess, that several of them determined to leave the château, and requested their discharge of the Count, who, if he had any faith in the subject of their alarm, thought proper to dissemble it, and, anxious to avoid the inconvenience that threatened him, employed ridicule and then argument to convince them they had nothing to apprehend from supernatural agency. But fear had rendered their minds inaccessible to reason; and it was now, that Ludovico proved at once his courage and his gratitude for the kindness he had received from the Count, by offering to watch, during a night, in the suite of rooms, reputed to be haunted. He feared, he said, no spirits, and, if anything of human form appeared—he would prove that he dreaded that as little.",
+  "words": [
+    {
+      "word": "excess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

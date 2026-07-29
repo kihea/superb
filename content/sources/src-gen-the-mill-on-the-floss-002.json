@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-002",
+  "pool": "sourced",
+  "text": "Maggie took the opposite view very strongly, and it was a direct consequence of this difference of opinion that when her mother was in the act of brushing out the reluctant black crop Maggie suddenly rushed from under her hands and dipped her head in a basin of water standing near, in the vindictive determination that there should be no more chance of curls that day. “Maggie, Maggie!” exclaimed Mrs Tulliver, sitting stout and helpless with the brushes on her lap, “what is to become of you if you’re so naughty? I’ll tell your aunt Glegg and your aunt Pullet when they come next week, and they’ll never love you any more. Oh dear, oh dear! look at your clean pinafore, wet from top to bottom.",
+  "words": [
+    {
+      "word": "determination",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "naughty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

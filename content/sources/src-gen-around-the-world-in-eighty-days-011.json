@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-011",
+  "pool": "sourced",
+  "text": "We are carrying all the sail the wind will let us. The poles would add nothing, and are only used when we are going into port.” “It’s your trade, not mine, pilot, and I confide in you.” Phileas Fogg, with body erect and legs wide apart, standing like a sailor, gazed without staggering at the swelling waters. The young woman, who was seated aft, was profoundly affected as she looked out upon the ocean, darkening now with the twilight, on which she had ventured in so frail a vessel. Above her head rustled the white sails, which seemed like great white wings. The boat, carried forward by the wind, seemed to be flying in the air.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "poles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

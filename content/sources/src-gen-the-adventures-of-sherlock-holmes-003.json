@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-003",
+  "pool": "sourced",
+  "text": "Jump, Archie, jump, and I’ll swing for it!” Sherlock Holmes had sprung out and seized the intruder by the collar. The other dived down the hole, and I heard the sound of rending cloth as Jones clutched at his skirts. The light flashed upon the barrel of a revolver, but Holmes’ hunting crop came down on the man’s wrist, and the pistol clinked upon the stone floor. “It’s no use, John Clay,” said Holmes blandly. “You have no chance at all.” “So I see,” the other answered with the utmost coolness.",
+  "words": [
+    {
+      "word": "cloth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

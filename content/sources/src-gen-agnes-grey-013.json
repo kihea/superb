@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-agnes-grey-013",
+  "pool": "sourced",
+  "text": "“‘I mean that this affair from beginning to end appears to me like a case of arrant flirtation, to say the least of it—such a case as you would find it rather inconvenient to have blazoned through the world: especially with the additions and exaggerations of your female rivals, who would be too glad to publish the matter, if I only gave them a handle to it. But I promise you, on the faith of a gentleman, that no word or syllable that could tend to your prejudice shall ever escape my lips, provided you will—’ “‘Well, well, I won’t mention it,’ said I. ‘You may rely upon my silence, if that can afford you any consolation.’ “‘You promise it?’ “‘Yes,’ I answered; for I wanted to get rid of him now. “‘Farewell, then!’ said he, in a most doleful, heart-sick tone; and with a look where pride vainly struggled against despair, he turned and went away: longing, no doubt, to get home, that he might shut himself up in his study and cry—if he doesn’t burst into tears before he gets there.” “But you have broken your promise already,” said I, truly horrified at her perfidy.",
+  "words": [
+    {
+      "word": "rivals",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "struggled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-013",
+  "pool": "sourced",
+  "text": "As she reached it, the small upper casement, where the light appeared, was unclosed by a man, who, having enquired what they wanted, immediately descended, let them into a neat rustic cot, and called up his wife to set refreshments before the travellers. As this man conversed, rather apart, with Bertrand, Emily anxiously surveyed him. He was a tall, but not robust, peasant, of a sallow complexion, and had a shrewd and cunning eye; his countenance was not of a character to win the ready confidence of youth, and there was nothing in his manner, that might conciliate a stranger. Ugo called impatiently for supper, and in a tone as if he knew his authority here to be unquestionable. “I expected you an hour ago,” said the peasant, “for I have had Signor Montoni’s letter these three hours, and I and my wife had given you up, and gone to bed.",
+  "words": [
+    {
+      "word": "cot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peasant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

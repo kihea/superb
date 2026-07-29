@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-008",
+  "pool": "sourced",
+  "text": "In the presence of Annette, Emily tried to support her spirits, and to restrain the tears, which, every now and then, came to her eyes. She wished much to enquire when Count Morano was expected at the castle, but an unwillingness to ask unnecessary questions, and to mention family concerns to a servant, withheld her. Meanwhile, Annette’s thoughts were engaged upon another subject: she dearly loved the marvellous, and had heard of a circumstance, connected with the castle, that highly gratified this taste. Having been enjoined not to mention it, her inclination to tell it was so strong, that she was every instant on the point of speaking what she had heard. Such a strange circumstance, too, and to be obliged to conceal it, was a severe punishment; but she knew, that Montoni might impose one much severer, and she feared to incur it by offending him.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withheld",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "incur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-011",
+  "pool": "sourced",
+  "text": "A good place is not it? But,” (checking himself), “you will not think it a good place, for yours were always kept in the butler’s room. Ay, so it always is, I believe. One man’s ways may be as good as another’s, but we all like our own best. And so you must judge for yourself, whether it would be better for you to go about the house or not.” Anne, finding she might decline it, did so, very gratefully.",
+  "words": [
+    {
+      "word": "ay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

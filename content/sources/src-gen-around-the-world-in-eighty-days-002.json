@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-002",
+  "pool": "sourced",
+  "text": "“Come, let’s go on with the game.” “Deal over again, then,” said Phileas Fogg. “There’s a false deal.” Stuart took up the pack with a feverish hand; then suddenly put them down again. “Well, Mr. Fogg,” said he, “it shall be so: I will wager the four thousand on it.” “Calm yourself, my dear Stuart,” said Fallentin. “It’s only a joke.” “When I say I’ll wager,” returned Stuart, “I mean it.” “All right,” said Mr. Fogg; and, turning to the others, he continued: “I have a deposit of twenty thousand at Baring’s which I will willingly risk upon it.” “Twenty thousand pounds!” cried Sullivan. “Twenty thousand pounds, which you would lose by a single accidental delay!” “The unforeseen does not exist,” quietly replied Phileas Fogg.",
+  "words": [
+    {
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

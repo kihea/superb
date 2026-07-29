@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-018",
+  "pool": "sourced",
+  "text": "The love of them was my tender point, and shook my decision more than all things else. Besides the pain of separation, the dread and apprehension of a failure exceeded what I had experienced at my first attempt. The appalling defeat I then sustained returned to torment me. I felt assured that, if I failed in this attempt, my case would be a hopeless one—it would seal my fate as a slave forever. I could not hope to get off with any thing less than the severest punishment, and being placed beyond the means of escape.",
+  "words": [
+    {
+      "word": "separation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hopeless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-004",
+  "pool": "sourced",
+  "text": "Now, whither went they with the cub?” “The jungle alone knows. Toward the sunset, I believe,” said Baloo. “We had thought that thou wouldst know, Kaa.” “I? I take them when they come in my way, but I do not hunt the Bandar-log, or frogs--or green scum on a water-hole, for that matter.” “Up, Up! Illo, look up, Baloo of the Seeonee Wolf Pack!” Baloo looked up to see where the voice came from, and there was Rann the Kite, sweeping down with the sun shining on the upturned flanges of his wings.",
+  "words": [
+    {
+      "word": "sunset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

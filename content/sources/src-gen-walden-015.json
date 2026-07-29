@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-walden-015",
+  "pool": "sourced",
+  "text": "For a week of even weather I took exactly the same number of steps, and of the same length, coming and going, stepping deliberately and with the precision of a pair of dividers in my own deep tracks,—to such routine the winter reduces us,—yet often they were filled with heaven’s own blue. But no weather interfered fatally with my walks, or rather my going abroad, for I frequently tramped eight or ten miles through the deepest snow to keep an appointment with a beech-tree, or a yellow-birch, or an old acquaintance among the pines; when the ice and snow causing their limbs to droop, and so sharpening their tops, had changed the pines into fir-trees; wading to the tops of the highest hills when the snow was nearly two feet deep on a level, and shaking down another snow-storm on my head at every step; or sometimes creeping and floundering thither on my hands and knees, when the hunters had gone into winter quarters.",
+  "words": [
+    {
+      "word": "interfered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beech",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "birch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pines",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tops",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

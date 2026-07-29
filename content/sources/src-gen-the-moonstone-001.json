@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-the-moonstone-001",
+  "pool": "sourced",
+  "text": "And I declare, on my word of honour, that what I am now about to write is, strictly and literally, the truth. The private difference between my cousin and me took its rise in a great public event in which we were both concerned—the storming of Seringapatam, under General Baird, on the 4th of May, 1799. In order that the circumstances may be clearly understood, I must revert for a moment to the period before the assault, and to the stories current in our camp of the treasure in jewels and gold stored up in the Palace of Seringapatam. II One of the wildest of these stories related to a Yellow Diamond—a famous gem in the native annals of India. The earliest known traditions describe the stone as having been set in the forehead of the four-handed Indian god who typifies the Moon.",
+  "words": [
+    {
+      "word": "storming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treasure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jewels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gem",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "earliest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Moonstone",
+    "author": "Wilkie Collins",
+    "year": 1868,
+    "source": "Project Gutenberg #155",
+    "url": "https://www.gutenberg.org/ebooks/155",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-life-on-the-mississippi-007",
+  "pool": "sourced",
+  "text": "Well, sir, I had to lean up against a building and cry. So help me goodness, I couldn't help it. The man that owned the place come out cleaning up with a rag, and said he didn't like to have people cry against his building, and then it seemed to me that the whole world had turned against me, and it wasn't any use to live any more; and coming along an hour ago, suffering no man knows what agony, I met Jim Wilson and paid him the two hundred and fifty dollars on account; and to think that here you are, now, and I haven't got a cent! But as sure as I am standing here on this ground on this particular brick,--there, I've scratched a mark on the brick to remember it by,--I'll borrow that money and pay it over to you at twelve o'clock sharp, tomorrow! Now, stand so; let me look at you just once more.'",
+  "words": [
+    {
+      "word": "scratched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "o'clock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

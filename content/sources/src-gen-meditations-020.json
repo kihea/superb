@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-meditations-020",
+  "pool": "sourced",
+  "text": "Then we inspected that ancient town, a miniature it is, but has in it many antiquities, temples, and religious ceremonies quite out of the way. There is not a corner without its shrine, or fane, or temple; besides, many books written on linen, which belongs to things sacred. Then on the gate as we came out was written twice, as follows: \"Priest don the fell.\" I asked one of the inhabitants what that word was. He said it was the word in the Hernican dialect for the victim's skin, which the priest puts over his conical cap when he enters the city.",
+  "words": [
+    {
+      "word": "antiquities",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceremonies",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

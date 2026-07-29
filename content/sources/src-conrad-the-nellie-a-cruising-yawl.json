@@ -1,11 +1,27 @@
 {
   "id": "src-conrad-the-nellie-a-cruising-yawl",
   "pool": "sourced",
+  "topic": "wilderness",
   "text": "The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest. The flood had made, the wind was nearly calm, and being bound down the river, the only thing for it was to come to and wait for the turn of the tide. The sea-reach of the Thames stretched before us like the beginning of an interminable waterway. In the offing the sea and the sky were welded together without a joint, and in the luminous space the tanned sails of the barges drifting up with the tide seemed to stand still in red clusters of canvas sharply peaked, with gleams of varnished sprits. A haze rested on the low shores that ran out to sea in vanishing flatness. The air was dark above Gravesend, and farther back still seemed condensed into a mournful gloom, brooding motionless over the biggest, and the greatest, town on earth.",
   "words": [
-    "interminable",
-    "luminous",
-    "brooding"
+    {
+      "word": "interminable",
+      "signals": [
+        "hand-picked"
+      ]
+    },
+    {
+      "word": "luminous",
+      "signals": [
+        "hand-picked"
+      ]
+    },
+    {
+      "word": "brooding",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Heart of Darkness",
@@ -13,7 +29,7 @@
     "year": 1899,
     "source": "Project Gutenberg #219",
     "url": "https://www.gutenberg.org/ebooks/219",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

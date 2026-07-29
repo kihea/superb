@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-invisible-man-003",
+  "pool": "sourced",
+  "text": "In the middle of the night she woke up dreaming of huge white heads like turnips, that came trailing after her, at the end of interminable necks, and with vast black eyes. But being a sensible woman, she subdued her terrors and turned over and went to sleep again. THE THOUSAND AND ONE BOTTLES So it was that on the twenty-ninth day of February, at the beginning of the thaw, this singular person fell out of infinity into Iping village. Next day his luggage arrived through the slush—and very remarkable luggage it was. There were a couple of trunks indeed, such as a rational man might need, but in addition there were a box of books—big, fat books, of which some were just in an incomprehensible handwriting—and a dozen or more crates, boxes, and cases, containing objects packed in straw, as it seemed to Hall, tugging with a casual curiosity at the straw—glass bottles.",
+  "words": [
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infinity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crates",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bottles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

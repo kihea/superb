@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-002",
+  "pool": "sourced",
+  "text": "A long frontage of lamp-lit quays was on our left, with here and there the vague hull of a steamer alongside. We passed the last of the lights and came out into a broader stretch of water, when a light breeze was blowing and dark hills could be seen on either shore. “I’m lying a little way down the fiord, you see,” said Davies. “I hate to be too near a town, and I found a carpenter handy here— There she is! I wonder how you’ll like her!” I roused myself.",
+  "words": [
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-white-fang-013",
+  "pool": "sourced",
+  "text": "For now the dogs hated him—hated him for the extra meat bestowed upon him by Mit-sah; hated him for all the real and fancied favours he received; hated him for that he fled always at the head of the team, his waving brush of a tail and his perpetually retreating hind-quarters for ever maddening their eyes. And White Fang just as bitterly hated them back. Being sled-leader was anything but gratifying to him. To be compelled to run away before the yelling pack, every dog of which, for three years, he had thrashed and mastered, was almost more than he could endure. But endure it he must, or perish, and the life that was in him had no desire to perish out.",
+  "words": [
+    {
+      "word": "fled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

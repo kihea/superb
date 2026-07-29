@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-jane-eyre-017",
+  "pool": "sourced",
+  "text": "From that moment my state of mind changed; the fetters dissolved and dropped from every faculty, leaving nothing of bondage but its galling soreness—which time only can heal. My father, indeed, imposed the determination, but since his death, I have not a legitimate obstacle to contend with; some affairs settled, a successor for Morton provided, an entanglement or two of the feelings broken through or cut asunder—a last conflict with human weakness, in which I know I shall overcome, because I have vowed that I will overcome—and I leave Europe for the East.” He said this, in his peculiar, subdued, yet emphatic voice; looking, when he had ceased speaking, not at me, but at the setting sun, at which I looked too. Both he and I had our backs towards the path leading up the field to the wicket. We had heard no step on that grass-grown track; the water running in the vale was the one lulling sound of the hour and scene; we might well then start when a gay voice, sweet as a silver bell, exclaimed— “Good evening, Mr. Rivers. And good evening, old Carlo.",
+  "words": [
+    {
+      "word": "bondage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "determination",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "subdued",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wicket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

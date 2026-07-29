@@ -26,7 +26,92 @@ import pathlib
 
 HERE = pathlib.Path(__file__).parent
 RETRIEVED = "2026-07-25"
-LICENCE = "Public Domain (US, life+70 expired)"
+# The public-domain basis, stated as the rule that actually applies and
+# checked per work by data/pipeline/check_license_gate.py against the `year`
+# in each record -- so this is one string here but a claim tested 2,599 times
+# there, which is what ADR-008's "per work" asks for.
+#
+# It used to read "Public Domain (US, life+70 expired)", which was the wrong
+# rule twice over. US copyright runs 95 years from publication for works of
+# this era; life+70 applies to works created from 1978 onward. For most of
+# these the conclusion was right by accident, and for one it was not:
+# W. E. B. Du Bois died in 1963, so life+70 runs to 2033, and the excerpt from
+# The Souls of Black Folk stated a justification that has not happened for a
+# conclusion that is true anyway -- the book is public domain because it was
+# published in 1903. A provenance record exists to be checked by a stranger,
+# and that one did not survive being checked.
+#
+# If this string changes, change it in data/pipeline/excerpts.py too, and in
+# the gate's VERIFIABLE_PUBLIC_DOMAIN_BASES -- the gate rejects any basis it
+# does not know how to verify, so drift between the three fails CI rather than
+# passing quietly.
+#
+# NOTE, and read this before re-running: as of ADR-026 (53f52e9) this script
+# can no longer reproduce the files it nominally authors. That commit gave
+# every word a `signals` array and rewrote all 2,599 excerpts without
+# updating this table, so re-running here silently reverts the 60
+# hand-authored files to the old bare-string `words` shape. The licence
+# migration in this commit was therefore applied to the JSON directly, by
+# rewriting one field and re-serialising with the same writer this script
+# uses -- verified byte-identical on every untouched file first. Filed as
+# https://github.com/kihea/superb/issues/58.
+LICENCE = "Public Domain (US: published before 1929)"
+
+# ADR-022: the engine's topic-affinity table looks up a topic for every
+# passage id it finished or abandoned, sourced or composed alike, so these
+# 47 hand-picked excerpts need one too — added here, at generation time,
+# rather than patched onto the JSON files directly, so re-running this
+# script never drops it. One topic per *work* (see data/pipeline/excerpts.py
+# for why a whole-book topic, not a per-excerpt one, is the honest unit).
+WORK_TOPICS: dict[str, str] = {
+    "A Tale of Two Cities": "war",
+    "Adventures of Huckleberry Finn": "travel",
+    "Alice's Adventures in Wonderland": "childhood",
+    "Anna Karenina": "courtship",
+    "Anne of Green Gables": "childhood",
+    "Around the World in Eighty Days": "travel",
+    "Crime and Punishment": "mystery",
+    "David Copperfield": "city",
+    "Dracula": "supernatural",
+    "Emma": "household",
+    "Ethan Frome": "rural",
+    "Frankenstein; or, The Modern Prometheus": "invention",
+    "Great Expectations": "city",
+    "Gulliver's Travels": "travel",
+    "Heart of Darkness": "wilderness",
+    "Jane Eyre": "courtship",
+    "Little Women": "household",
+    "Middlemarch": "society",
+    "Moby-Dick; or, The Whale": "sea",
+    "My Ántonia": "wilderness",
+    "Narrative of the Life of Frederick Douglass, an American Slave": "society",
+    "Notes from Underground": "reflection",
+    "Oliver Twist": "city",
+    "Persuasion": "courtship",
+    "Pride and Prejudice": "household",
+    "Robinson Crusoe": "sea",
+    "Silas Marner": "rural",
+    "Strange Case of Dr Jekyll and Mr Hyde": "invention",
+    "The Adventures of Sherlock Holmes": "mystery",
+    "The Adventures of Tom Sawyer": "childhood",
+    "The Awakening": "society",
+    "The Call of the Wild": "wilderness",
+    "The House of Mirth": "society",
+    "The Picture of Dorian Gray": "supernatural",
+    "The Scarlet Letter": "mourning",
+    "The Secret Garden": "childhood",
+    "The Souls of Black Folk": "society",
+    "The Time Machine": "invention",
+    "The Turn of the Screw": "supernatural",
+    "The War of the Worlds": "invention",
+    "The Yellow Wallpaper": "reflection",
+    "Treasure Island": "sea",
+    "Twenty Thousand Leagues Under the Sea": "sea",
+    "Vanity Fair": "war",
+    "Walden": "reflection",
+    "White Fang": "wilderness",
+    "Wuthering Heights": "courtship",
+}
 
 
 def gutenberg(n: int) -> tuple[str, str]:
@@ -1121,9 +1206,11 @@ def main() -> None:
         wc = len(text.split())
         assert 80 <= wc <= 200, f"{sid} is {wc} words"
         source_name, url = gutenberg(gid)
+        assert work in WORK_TOPICS, f"{sid}: {work!r} has no entry in WORK_TOPICS"
         doc = {
             "id": sid,
             "pool": "sourced",
+            "topic": WORK_TOPICS[work],
             "text": text,
             "words": words,
             "provenance": {

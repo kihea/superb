@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-004",
+  "pool": "sourced",
+  "text": "I have a key and will lock the gate.” Larsan hurried off in the direction of the château, the imposing pile of which could be perceived a few hundred yards away. Robert Darzac, with knit brow, was beginning to show impatience. I presented Rouletabille as a good friend of mine, but, as soon as he learnt that the young man was a journalist, he looked at me very reproachfully, excused himself, under the necessity of having to reach Epinay in twenty minutes, bowed, and whipped up his horse. But Rouletabille had seized the bridle and, to my utter astonishment, stopped the carriage with a vigorous hand. Then he gave utterance to a sentence which was utterly meaningless to me.",
+  "words": [
+    {
+      "word": "knit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "utterly",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-david-copperfield-011",
+  "pool": "sourced",
+  "text": "Miss Mills was more than usually pensive when Dora, going to find her, brought her back;--I apprehend, because there was a tendency in what had passed to awaken the slumbering echoes in the caverns of Memory. But she gave us her blessing, and the assurance of her lasting friendship, and spoke to us, generally, as became a Voice from the Cloister. What an idle time it was! What an insubstantial, happy, foolish time it was! When I measured Dora’s finger for a ring that was to be made of Forget-me-nots, and when the jeweller, to whom I took the measure, found me out, and laughed over his order-book, and charged me anything he liked for the pretty little toy, with its blue stones--so associated in my remembrance with Dora’s hand, that yesterday, when I saw such another, by chance, on the finger of my own daughter, there was a momentary stirring in my heart, like pain!",
+  "words": [
+    {
+      "word": "tendency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

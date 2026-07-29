@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-cranford-006",
+  "pool": "sourced",
+  "text": "The candles took it in turns; and, whatever we might be talking about or doing, Miss Matty’s eyes were habitually fixed upon the candle, ready to jump up and extinguish it and to light the other before they had become too uneven in length to be restored to equality in the course of the evening. One night, I remember this candle economy particularly annoyed me. I had been very much tired of my compulsory “blind man’s holiday,” especially as Miss Matty had fallen asleep, and I did not like to stir the fire and run the risk of awakening her; so I could not even sit on the rug, and scorch myself with sewing by firelight, according to my usual custom. I fancied Miss Matty must be dreaming of her early life; for she spoke one or two words in her uneasy sleep bearing reference to persons who were dead long before. When Martha brought in the lighted candle and tea, Miss Matty started into wakefulness, with a strange, bewildered look around, as if we were not the people she expected to see about her.",
+  "words": [
+    {
+      "word": "candles",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uneven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "annoyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awakening",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

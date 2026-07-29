@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-cranford-020",
+  "pool": "sourced",
+  "text": "The Gordons had been on the Continent for the last few years, but were now expected to return very soon; and Miss Matty, in her sisterly pride, anticipated great delight in the joy of showing them Mr Peter. The pearl necklace disappeared; and about that time many handsome and useful presents made their appearance in the households of Miss Pole and Mrs Forrester; and some rare and delicate Indian ornaments graced the drawing-rooms of Mrs Jamieson and Mrs Fitz-Adam. I myself was not forgotten. Among other things, I had the handsomest-bound and best edition of Dr Johnson’s works that could be procured; and dear Miss Matty, with tears in her eyes, begged me to consider it as a present from her sister as well as herself. In short, no one was forgotten; and, what was more, every one, however insignificant, who had shown kindness to Miss Matty at any time, was sure of Mr Peter’s cordial regard.",
+  "words": [
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "necklace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

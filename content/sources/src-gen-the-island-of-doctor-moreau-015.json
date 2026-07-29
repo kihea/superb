@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-015",
+  "pool": "sourced",
+  "text": "I had not thought before of the pain and trouble that came to these poor victims after they had passed from Moreau’s hands. I had shivered only at the days of actual torment in the enclosure. But now that seemed to me the lesser part. Before, they had been beasts, their instincts fitly adapted to their surroundings, and happy as living things may be. Now they stumbled in the shackles of humanity, lived in a fear that never died, fretted by a law they could not understand; their mock-human existence, begun in an agony, was one long internal struggle, one long dread of Moreau—and for what?",
+  "words": [
+    {
+      "word": "lesser",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

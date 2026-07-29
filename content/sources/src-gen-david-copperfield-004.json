@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-david-copperfield-004",
+  "pool": "sourced",
+  "text": "Don’t I know she wouldn’t? She would have lived with her god-mother, and we should have been devoted to one another. Where, in the name of wonder, should his sister, Betsey Trotwood, have run from, or to?’ ‘Nowhere,’ said Mr. Dick. ‘Well then,’ returned my aunt, softened by the reply, ‘how can you pretend to be wool-gathering, Dick, when you are as sharp as a surgeon’s lancet? Now, here you see young David Copperfield, and the question I put to you is, what shall I do with him?’ ‘What shall you do with him?’ said Mr. Dick, feebly, scratching his head.",
+  "words": [
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "surgeon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scratching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

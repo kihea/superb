@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-robinson-crusoe-009",
+  "pool": "sourced",
+  "text": "All the remedy that I found for this was, that at last I did remember I had, among the seamen’s clothes which were saved out of the ship, some neckcloths of calico or muslin; and with some pieces of these I made three small sieves proper enough for the work; and thus I made shift for some years: how I did afterwards, I shall show in its place. The baking part was the next thing to be considered, and how I should make bread when I came to have corn; for first, I had no yeast. As to that part, there was no supplying the want, so I did not concern myself much about it. But for an oven I was indeed in great pain. At length I found out an experiment for that also, which was this: I made some earthen-vessels very broad but not deep, that is to say, about two feet diameter, and not above nine inches deep.",
+  "words": [
+    {
+      "word": "baking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "yeast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supplying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vessels",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "diameter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

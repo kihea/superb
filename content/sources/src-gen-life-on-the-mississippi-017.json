@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-life-on-the-mississippi-017",
+  "pool": "sourced",
+  "text": "At present rates, the people who now occupy it are of no more value than I am; but in my time they would have been worth not less than five hundred dollars apiece. They are colored folk. After breakfast, I went out alone again, intending to hunt up some of the Sunday-schools and see how this generation of pupils might compare with their progenitors who had sat with me in those places and had probably taken me as a model--though I do not remember as to that now. By the public square there had been in my day a shabby little brick church called the 'Old Ship of Zion,' which I had attended as a Sunday-school scholar; and I found the locality easily enough, but not the old church; it was gone, and a trig and rather hilarious new edifice was in its place. The pupils were better dressed and better looking than were those of my time; consequently they did not resemble their ancestors; and consequently there was nothing familiar to me in their faces.",
+  "words": [
+    {
+      "word": "pupils",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scholar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ancestors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

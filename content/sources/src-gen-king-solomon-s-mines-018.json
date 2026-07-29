@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-king-solomon-s-mines-018",
+  "pool": "sourced",
+  "text": "“There are the diamonds,” cried I; “bring the light.” Sir Henry did so, holding it close to the top box, of which the lid, rendered rotten by time even in that dry place, appeared to have been smashed in, probably by Da Silvestra himself. Pushing my hand through the hole in the lid I drew it out full, not of diamonds, but of gold pieces, of a shape that none of us had seen before, and with what looked like Hebrew characters stamped upon them. “Ah!” I said, replacing the coin, “we shan’t go back empty-handed, anyhow. There must be a couple of thousand pieces in each box, and there are eighteen boxes. I suppose this was the money to pay the workmen and merchants.” “Well,” put in Good, “I think that is the lot; I don’t see any diamonds, unless the old Portuguese put them all into his bag.” “Let my lords look yonder where it is darkest, if they would find the stones,” said Gagool, interpreting our looks.",
+  "words": [
+    {
+      "word": "diamonds",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "replacing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darkest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

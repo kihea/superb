@@ -1,0 +1,65 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-001",
+  "pool": "sourced",
+  "text": "The Cyclone Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer’s wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar—except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path.",
+  "words": [
+    {
+      "word": "lumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wagon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cupboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dishes",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "chairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cellar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

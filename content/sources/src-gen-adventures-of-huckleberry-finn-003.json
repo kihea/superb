@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-003",
+  "pool": "sourced",
+  "text": "I don’t know how long I was asleep, but all of a sudden there was an awful scream and I was up. There was pap looking wild, and skipping around every which way and yelling about snakes. He said they was crawling up his legs; and then he would give a jump and scream, and say one had bit him on the cheek—but I couldn’t see no snakes. He started and run round and round the cabin, hollering “Take him off! take him off!",
+  "words": [
+    {
+      "word": "snakes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

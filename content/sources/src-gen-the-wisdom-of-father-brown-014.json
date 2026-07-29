@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-014",
+  "pool": "sourced",
+  "text": "“Put down that hose,” he shouted; “put down that hose and go to your--” “I am fearfully clumsy,” replied the reverend gentleman weakly; “do you know, I upset some wine at dinner.” He made a wavering half-turn of apology towards the gardener, with the hose still spouting in his hand. The gardener caught the cold crash of the water full in his face like the crash of a cannon-ball; staggered, slipped and went sprawling with his boots in the air. “How very dreadful!” said Father Brown, looking round in a sort of wonder. “Why, I’ve hit a man!” He stood with his head forward for a moment as if looking or listening; and then set off at a trot towards the tower, still trailing the hose behind him. The tower was quite close, but its outline was curiously dim.",
+  "words": [
+    {
+      "word": "hose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

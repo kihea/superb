@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-012",
+  "pool": "sourced",
+  "text": "“No more I did,” said the doctor, rolling his eyes. “I only know that I loathed that yellow devil when I thought he was a sham wizard. And I shall loathe him more if I come to think he was a real one.” “Well, his having escaped is nothing,” said Flambeau. “For we could have proved nothing and done nothing against him. One hardly goes to the parish constable with a story of suicide imposed by witchcraft or auto-suggestion.” Meanwhile Father Brown had made his way into the house, and now went to break the news to the wife of the dead man.",
+  "words": [
+    {
+      "word": "sham",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "constable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

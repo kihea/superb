@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sister-carrie-002",
+  "pool": "sourced",
+  "text": "Narrow board walks extended out, passing here a house, and there a store, at far intervals, eventually ending on the open prairie. In the central portion was the vast wholesale and shopping district, to which the uninformed seeker for work usually drifted. It was a characteristic of Chicago then, and one not generally shared by other cities, that individual firms of any pretension occupied individual buildings. The presence of ample ground made this possible. It gave an imposing appearance to most of the wholesale houses, whose offices were upon the ground floor and in plain view of the street.",
+  "words": [
+    {
+      "word": "seeker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ample",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

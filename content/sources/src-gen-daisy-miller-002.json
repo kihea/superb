@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-daisy-miller-002",
+  "pool": "sourced",
+  "text": "Miss Daisy Miller looked extremely innocent. Some people had told him that, after all, American girls were exceedingly innocent; and others had told him that, after all, they were not. He was inclined to think Miss Daisy Miller was a flirt--a pretty American flirt. He had never, as yet, had any relations with young ladies of this category. He had known, here in Europe, two or three women--persons older than Miss Daisy Miller, and provided, for respectability’s sake, with husbands--who were great coquettes--dangerous, terrible women, with whom one’s relations were liable to take a serious turn.",
+  "words": [
+    {
+      "word": "exceedingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-black-beauty-015",
+  "pool": "sourced",
+  "text": "Well, you get along for a bit, but soon find yourself in a long train of carts and carriages all obliged to go at a walk; perhaps you come to a regular block-up, and have to stand still for minutes together, till something clears out into a side street, or the policeman interferes; you have to be ready for any chance--to dash forward if there be an opening, and be quick as a rat-dog to see if there be room and if there be time, lest you get your own wheels locked or smashed, or the shaft of some other vehicle run into your chest or shoulder. All this is what you have to be ready for. If you want to get through London fast in the middle of the day it wants a deal of practice. Jerry and I were used to it, and no one could beat us at getting through when we were set upon it. I was quick and bold and could always trust my driver; Jerry was quick and patient at the same time, and could trust his horse, which was a great thing too.",
+  "words": [
+    {
+      "word": "carts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

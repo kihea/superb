@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-three-musketeers-010",
+  "pool": "sourced",
+  "text": "You have not played for a long time, I said; you ought, then, to have a good hand.” “Well, what then?” “Well; the Englishman and his companion are still here. I remarked that he regretted the horse furniture very much. You appear to think much of your horse. In your place I would stake the furniture against the horse.” “But he will not wish for only one harness.” “Stake both, pardieu! I am not selfish, as you are.” “You would do so?” said D’Artagnan, undecided, so strongly did the confidence of Athos begin to prevail, in spite of himself.",
+  "words": [
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regretted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prevail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

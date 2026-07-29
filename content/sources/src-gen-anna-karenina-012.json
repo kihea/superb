@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anna-karenina-012",
+  "pool": "sourced",
+  "text": "“It’s so stupid, what happened to me, I’m ashamed to speak of it!” he said, reddening, and he was obliged to turn to Sergey Ivanovitch, who came up to him. “This is a pretty story of yours about the shirt!” said Sergey Ivanovitch, shaking his head and smiling. “Yes, yes!” answered Levin, without an idea of what they were talking about. “Now, Kostya, you have to decide,” said Stepan Arkadyevitch with an air of mock dismay, “a weighty question. You are at this moment just in the humor to appreciate all its gravity.",
+  "words": [
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

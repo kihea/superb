@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-agnes-grey-004",
+  "pool": "sourced",
+  "text": "Tom I frequently put into a corner, seating myself before him in a chair, with a book which contained the little task that must be said or read, before he was released, in my hand. He was not strong enough to push both me and the chair away, so he would stand twisting his body and face into the most grotesque and singular contortions—laughable, no doubt, to an unconcerned spectator, but not to me—and uttering loud yells and doleful outcries, intended to represent weeping but wholly without the accompaniment of tears. I knew this was done solely for the purpose of annoying me; and, therefore, however I might inwardly tremble with impatience and irritation, I manfully strove to suppress all visible signs of molestation, and affected to sit with calm indifference, waiting till it should please him to cease this pastime, and prepare for a run in the garden, by casting his eye on the book and reading or repeating the few words he was required to say. Sometimes he was determined to do his writing badly; and I had to hold his hand to prevent him from purposely blotting or disfiguring the paper.",
+  "words": [
+    {
+      "word": "yells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weeping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "irritation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suppress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "casting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repeating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "purposely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

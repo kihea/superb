@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-006",
+  "pool": "sourced",
+  "text": "“I saw no more than a big snake making foolish circles till the dark came. And his nose was all sore. Ho!” “Mowgli,” said Bagheera angrily, “his nose was sore on thy account, as my ears and sides and paws, and Baloo’s neck and shoulders are bitten on thy account. Neither Baloo nor Bagheera will be able to hunt with pleasure for many days.” “It is nothing,” said Baloo; “we have the man-cub again.” “True, but he has cost us heavily in time which might have been spent in good hunting, in wounds, in hair--I am half plucked along my back--and last of all, in honor. For, remember, Mowgli, I, who am the Black Panther, was forced to call upon Kaa for protection, and Baloo and I were both made stupid as little birds by the Hunger Dance.",
+  "words": [
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

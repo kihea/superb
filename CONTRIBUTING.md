@@ -1,6 +1,29 @@
 ## Contributing to Superb
 
-Welcome, and thank you for your interest in contributing to Superb! 
+Welcome, and thank you for your interest in contributing to Superb!
+
+**One thing before anything else: the person reading comes first, and you come
+second.** That is not politeness — it decides pull requests. Superb is a
+vocabulary app that never admits it is teaching, so a change that makes the
+project nicer to work on but puts one number, one badge or one explanation in
+front of a reader is rejected, and a change that makes your life harder while
+leaving the reading surface silent is the one that gets merged.
+
+In practice that means a few things you would not guess from the code:
+
+- **The surface never explains itself.** No review queue, no streak, no level,
+  no score, no congratulation, and no numbers facing the reader outside
+  Settings. Target words are never marked. If a feature has to be explained to
+  a reader, it is wrong by definition, however well it is built.
+- **Convenience for us is not a reason.** "It was easier to expose the
+  schedule" is not an argument; it is the failure this whole project is
+  arranged to prevent.
+- **Where the two genuinely conflict, say so in the pull request** rather than
+  quietly picking one. Most of the time they do not conflict, and the times
+  they do are worth a sentence.
+
+Everything below — the setup, the conventions, the tests — exists to make that
+ordering cheap to hold rather than a thing you have to remember.
 
 ---
 
@@ -32,7 +55,7 @@ cost to supply doesn't cost to the user. The architecture is outlined below:
 superb/                      PRIVATE · the working root
 ├─ CLAUDE.md                     project constitution — read first
 │
-└─ app/  ─────────────────────▶  PUBLIC · MIT · github.com/kihea/superb
+└─ app/  ──────────▶  PUBLIC · source-available · github.com/kihea/superb
    │                             a git submodule. everything a person needs to
    │                             build and run Superb, and nothing else.
    │
@@ -150,23 +173,60 @@ looks like in practice.
 
 ## Conventions
 
-- Pull requests target `dev`, never `main`.
+- Pull requests target `dev`, never `main`. Fill in the pull request template
+  rather than deleting it — it asks what changed, what it looks like before and
+  after, and what you ran to check.
 - `cargo fmt --all --check` and
   `cargo clippy --all-targets --all-features --locked -- -D warnings` must
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT and content is CC0, and no GPL dependency can be accepted at
-  any tier.
+- Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
+  be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
   `superb-core` requires a matching entry in `wire-roster.toml`, or the build
   fails.
 
 ---
 
+## Licensing, and what you are agreeing to
+
+Superb's code is **source-available, not open source**: MIT with the
+[Commons Clause](https://commonsclause.com/) on top. You may read it, run it,
+change it, and pass it on — including changed versions — as long as it is
+free. What you may not do is sell it, or sell a product or service whose value
+comes substantially from it. The full text is in `LICENSE`, and the reasoning
+is in the project's decision record.
+
+The **content** is different and unchanged: passages and excerpts are CC0,
+dedicated to the public domain. Attribution is encouraged and never required.
+
+**When you contribute code, you license it to the project under MIT**, and the
+project distributes it under the licence above. This is deliberate and it is
+in your interest as much as ours: permissive inbound is what keeps the project
+able to change its own outbound licence later without hunting down every past
+contributor for a signature.
+
+Sign off your commits to say so:
+
+```
+git commit -s -m "your message"
+```
+
+That adds a `Signed-off-by:` line, which is your assertion of the
+[Developer Certificate of Origin](https://developercertificate.org/) — that
+you wrote the change, or have the right to submit it. There is no CLA to sign
+and no account to create.
+
+**Contributed passages and excerpts are CC0** under the provenance rules
+above, not MIT — content and code are separate throughout this project.
+
+---
+
 ## Proposing new features
 
-You can propose a feature using issues, tagged with the feature label. You can also submit passages
+You can propose a feature by opening an issue and picking the feature request
+form, which tags it for you. You can also submit passages
 in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context
 are approved and added to the engine sourcing. The submission of passages is intended to highlight
 intentional, high level, or sophisticated human-written literature.

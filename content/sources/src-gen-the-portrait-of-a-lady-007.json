@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-007",
+  "pool": "sourced",
+  "text": "May I not come and see you for half an hour? This at present is the dearest wish of yours faithfully, CASPAR GOODWOOD. Isabel read this missive with such deep attention that she had not perceived an approaching tread on the soft grass. Looking up, however, as she mechanically folded it she saw Lord Warburton standing before her. She put the letter into her pocket and offered her visitor a smile of welcome, exhibiting no trace of discomposure and half surprised at her coolness.",
+  "words": [
+    {
+      "word": "perceived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approaching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exhibiting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

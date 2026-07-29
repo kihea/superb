@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-003",
+  "pool": "sourced",
+  "text": "The military authorities were certainly alive to the seriousness of the business. About eleven, the next morning’s papers were able to say, a squadron of hussars, two Maxims, and about four hundred men of the Cardigan regiment started from Aldershot. A few seconds after midnight the crowd in the Chertsey road, Woking, saw a star fall from heaven into the pine woods to the northwest. It had a greenish colour, and caused a silent brightness like summer lightning. This was the second cylinder.",
+  "words": [
+    {
+      "word": "eleven",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cylinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

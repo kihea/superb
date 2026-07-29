@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-011",
+  "pool": "sourced",
+  "text": "“What is it, boy?” whispered the scout, lowering his tall form into a crouching attitude, like a panther about to take his leap; “God send it be a tardy Frencher, skulking for plunder. I do believe ‘killdeer’ would take an uncommon range today!” Uncas, without making any reply, bounded away from the spot, and in the next instant he was seen tearing from a bush, and waving in triumph, a fragment of the green riding-veil of Cora. The movement, the exhibition, and the cry which again burst from the lips of the young Mohican, instantly drew the whole party about him. “My child!” said Munro, speaking quickly and wildly; “give me my child!” “Uncas will try,” was the short and touching answer. The simple but meaning assurance was lost on the father, who seized the piece of gauze, and crushed it in his hand, while his eyes roamed fearfully among the bushes, as if he equally dreaded and hoped for the secrets they might reveal.",
+  "words": [
+    {
+      "word": "whispered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seized",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bushes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

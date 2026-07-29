@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-013",
+  "pool": "sourced",
+  "text": "Valentine found her grandmother in bed; silent caresses, heartwrung sobs, broken sighs, burning tears, were all that passed in this sad interview, while Madame de Villefort, leaning on her husband’s arm, maintained all outward forms of respect, at least towards the poor widow. She soon whispered to her husband: “I think it would be better for me to retire, with your permission, for the sight of me appears still to afflict your mother-in-law.” Madame de Saint-Méran heard her. “Yes, yes,” she said softly to Valentine, “let her leave; but do you stay.” Madame de Villefort left, and Valentine remained alone beside the bed, for the procureur, overcome with astonishment at the unexpected death, had followed his wife. Meanwhile, Barrois had returned for the first time to old Noirtier, who having heard the noise in the house, had, as we have said, sent his old servant to inquire the cause; on his return, his quick intelligent eye interrogated the messenger. “Alas, sir,” exclaimed Barrois, “a great misfortune has happened.",
+  "words": [
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

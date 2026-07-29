@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-014",
+  "pool": "sourced",
+  "text": "I know you are not the heartless, icy being you pretend to be—you had a heart once, and gave it to your husband. When you found him utterly unworthy of the treasure, you reclaimed it; and you will not pretend that you loved that sensual, earthly-minded profligate so deeply, so devotedly, that you can never love another? I know that there are feelings in your nature that have never yet been called forth; I know, too, that in your present neglected lonely state you are and must be miserable. You have it in your power to raise two human beings from a state of actual suffering to such unspeakable beatitude as only generous, noble, self-forgetting love can give (for you can love me if you will); you may tell me that you scorn and detest me, but, since you have set me the example of plain speaking, I will answer that I do not believe you! But you will not do it!",
+  "words": [
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

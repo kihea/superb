@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-008",
+  "pool": "sourced",
+  "text": "In the meadow where Henchard now walked the mob were wont to gather whenever an execution took place, and there to the tune of the roaring weir they stood and watched the spectacle. The exaggeration which darkness imparted to the glooms of this region impressed Henchard more than he had expected. The lugubrious harmony of the spot with his domestic situation was too perfect for him, impatient of effects, scenes, and adumbrations. It reduced his heartburning to melancholy, and he exclaimed, “Why the deuce did I come here!” He went on past the cottage in which the old local hangman had lived and died, in times before that calling was monopolized over all England by a single gentleman; and climbed up by a steep back lane into the town. For the sufferings of that night, engendered by his bitter disappointment, he might well have been pitied.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

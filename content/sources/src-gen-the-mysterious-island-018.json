@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysterious-island-018",
+  "pool": "sourced",
+  "text": "“I do not think so,” answered the engineer, “for they would naturally suppose that our researches would be in that direction. The corral is only a storehouse to them, and not a definitive encampment.” “I am of Cyrus’ opinion,” said the reporter, “and I think that it is among the spurs of Mount Franklin that the convicts will have made their lair.” “Then, captain, straight to the corral!” cried Pencroft. “We must finish them off, and till now we have only lost time!” “No, my friend,” replied the engineer; “you forget that we have a reason for wishing to know if the forests of the Far West do not contain some habitation. Our exploration has a double object, Pencroft. If, on the one hand, we have to chastise crime, we have, on the other, an act of gratitude to perform.” “That was well said, captain,” replied the sailor, “but, all the same, it is my opinion that we shall not find the gentleman until he pleases.” And truly Pencroft only expressed the opinion of all.",
+  "words": [
+    {
+      "word": "convicts",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

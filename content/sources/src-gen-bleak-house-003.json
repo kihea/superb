@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-bleak-house-003",
+  "pool": "sourced",
+  "text": "But he is an excellent master still, holding it a part of his state to be so. He has a great liking for Mrs. Rouncewell; he says she is a most respectable, creditable woman. He always shakes hands with her when he comes down to Chesney Wold and when he goes away; and if he were very ill, or if he were knocked down by accident, or run over, or placed in any situation expressive of a Dedlock at a disadvantage, he would say if he could speak, “Leave me, and send Mrs. Rouncewell here!” feeling his dignity, at such a pass, safer with her than with anybody else. Mrs. Rouncewell has known trouble. She has had two sons, of whom the younger ran wild, and went for a soldier, and never came back.",
+  "words": [
+    {
+      "word": "expressive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dignity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-001",
+  "pool": "sourced",
+  "text": "When critics disagree, the artist is in accord with himself. We can forgive a man for making a useful thing as long as he does not admire it. The only excuse for making a useless thing is that one admires it intensely. All art is quite useless. OSCAR WILDE The studio was filled with the rich odour of roses, and when the light summer wind stirred amidst the trees of the garden, there came through the open door the heavy scent of the lilac, or the more delicate perfume of the pink-flowering thorn.",
+  "words": [
+    {
+      "word": "perfume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

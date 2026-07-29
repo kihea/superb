@@ -1,9 +1,15 @@
 {
   "id": "src-tolstoy-happy-families",
   "pool": "sourced",
+  "topic": "courtship",
   "text": "Happy families are all alike; every unhappy family is unhappy in its own way. Everything was in confusion in the Oblonskys' house. The wife had discovered that the husband was carrying on an intrigue with a French girl, who had been a governess in their family, and she had announced to her husband that she could not go on living in the same house with him. This position of affairs had now lasted three days, and not only the husband and wife themselves, but all the members of their family and household, were painfully conscious of it. Every person in the house felt that there was no sense in their living together, and that the stray people brought together by chance in any inn had more in common with one another than they, the members of the family and household of the Oblonskys.",
   "words": [
-    "intrigue"
+    {
+      "word": "intrigue",
+      "signals": [
+        "hand-picked"
+      ]
+    }
   ],
   "provenance": {
     "work": "Anna Karenina",
@@ -11,7 +17,7 @@
     "year": 1877,
     "source": "Project Gutenberg #1399",
     "url": "https://www.gutenberg.org/ebooks/1399",
-    "licence": "Public Domain (US, life+70 expired)",
+    "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   }
 }

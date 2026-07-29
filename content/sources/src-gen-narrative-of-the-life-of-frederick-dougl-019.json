@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-019",
+  "pool": "sourced",
+  "text": "From the wharves I strolled around and over the town, gazing with wonder and admiration at the splendid churches, beautiful dwellings, and finely-cultivated gardens; evincing an amount of wealth, comfort, taste, and refinement, such as I had never seen in any part of slaveholding Maryland. Every thing looked clean, new, and beautiful. I saw few or no dilapidated houses, with poverty-stricken inmates; no half-naked children and barefooted women, such as I had been accustomed to see in Hillsborough, Easton, St. Michael’s, and Baltimore. The people looked more able, stronger, healthier, and happier, than those of Maryland. I was for once made glad by a view of extreme wealth, without being saddened by seeing extreme poverty.",
+  "words": [
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "happier",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

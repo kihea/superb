@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-017",
+  "pool": "sourced",
+  "text": "Once, when his royal ‘sister,’ the grimly holy Lady Mary, set herself to reason with him against the wisdom of his course in pardoning so many people who would otherwise be jailed, or hanged, or burned, and reminded him that their august late father’s prisons had sometimes contained as high as sixty thousand convicts at one time, and that during his admirable reign he had delivered seventy-two thousand thieves and robbers over to death by the executioner, {9} the boy was filled with generous indignation, and commanded her to go to her closet, and beseech God to take away the stone that was in her breast, and give her a human heart. Did Tom Canty never feel troubled about the poor little rightful prince who had treated him so kindly, and flown out with such hot zeal to avenge him upon the insolent sentinel at the palace-gate? Yes; his first royal days and nights were pretty well sprinkled with painful thoughts about the lost prince, and with sincere longings for his return, and happy restoration to his native rights and splendours.",
+  "words": [
+    {
+      "word": "jailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reminded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prisons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thieves",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "avenge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-019",
+  "pool": "sourced",
+  "text": "Even while I watched the pantomime I was sliding off my boots, and it had not been consummated a second before I had them in my arms and was tripping over the mud in my stocking feet. A dozen noiseless steps and I was over the bulwarks between the wheel and the smoke-stack, casting about for a hiding-place. The conventional stowaway hides in the hold, but there was only a stokehold here, occupied moreover; nor was there an empty apple-barrel, such as Jim of Treasure Island found so useful. As far as I could see—and I dared not venture far for fear of the skylight—the surface of the deck offered nothing secure. But on the farther or starboard side, rather abaft the beam, there was a small boat in davits, swung outboard, to which common sense, and perhaps a vague prescience of its after utility, pointed irresistibly.",
+  "words": [
+    {
+      "word": "sliding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hides",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

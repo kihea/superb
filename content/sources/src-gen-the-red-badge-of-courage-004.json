@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-red-badge-of-courage-004",
+  "pool": "sourced",
+  "text": "The men began to speak of victory as of a thing they knew. Also, the tall soldier received his vindication. They were certainly going to come around in behind the enemy. They expressed commiseration for that part of the army which had been left upon the river bank, felicitating themselves upon being a part of a blasting host. The youth, considering himself as separated from the others, was saddened by the blithe and merry speeches that went from rank to rank.",
+  "words": [
+    {
+      "word": "blasting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "speeches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Red Badge of Courage",
+    "author": "Stephen Crane",
+    "year": 1895,
+    "source": "Project Gutenberg #73",
+    "url": "https://www.gutenberg.org/ebooks/73",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

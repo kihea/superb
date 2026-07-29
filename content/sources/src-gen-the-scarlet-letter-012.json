@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-scarlet-letter-012",
+  "pool": "sourced",
+  "text": "At all events, if it involved any secret information in regard to old Roger Chillingworth, it was in a tongue unknown to the erudite clergyman, and did but increase the bewilderment of his mind. The elvish child then laughed aloud. “Dost thou mock me now?” said the minister. “Thou wast not bold!—thou wast not true!” answered the child. “Thou wouldst not promise to take my hand, and mother’s hand, tomorrow noontide!” “Worthy sir,” answered the physician, who had now advanced to the foot of the platform—“pious Master Dimmesdale!",
+  "words": [
+    {
+      "word": "clergyman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

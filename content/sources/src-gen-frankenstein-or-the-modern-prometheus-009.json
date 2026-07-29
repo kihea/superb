@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-009",
+  "pool": "sourced",
+  "text": "Sometimes I wished to express my sensations in my own mode, but the uncouth and inarticulate sounds which broke from me frightened me into silence again. “The moon had disappeared from the night, and again, with a lessened form, showed itself, while I still remained in the forest. My sensations had by this time become distinct, and my mind received every day additional ideas. My eyes became accustomed to the light and to perceive objects in their right forms; I distinguished the insect from the herb, and by degrees, one herb from another. I found that the sparrow uttered none but harsh notes, whilst those of the blackbird and thrush were sweet and enticing.",
+  "words": [
+    {
+      "word": "perceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-treasure-island-014",
+  "pool": "sourced",
+  "text": "The planks, which had not been swabbed since the mutiny, bore the print of many feet, and an empty bottle, broken by the neck, tumbled to and fro like a live thing in the scuppers. Suddenly the HISPANIOLA came right into the wind. The jibs behind me cracked aloud, the rudder slammed to, the whole ship gave a sickening heave and shudder, and at the same moment the main-boom swung inboard, the sheet groaning in the blocks, and showed me the lee after-deck. There were the two watchmen, sure enough: red-cap on his back, as stiff as a handspike, with his arms stretched out like those of a crucifix and his teeth showing through his open lips; Israel Hands propped against the bulwarks, his chin on his chest, his hands lying open before him on the deck, his face as white, under its tan, as a tallow candle. For a while the ship kept bucking and sidling like a vicious horse, the sails filling, now on one tack, now on another, and the boom swinging to and fro till the mast groaned aloud under the strain.",
+  "words": [
+    {
+      "word": "aloud",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

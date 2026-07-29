@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-011",
+  "pool": "sourced",
+  "text": "Monsieur Darzac became more and more agitated, and I determined to take advantage of the effect I had produced on him. ‘You were on the point of being married, Monsieur,’ I said negligently and without looking at him, ‘and suddenly your marriage becomes impossible because of the writer of that letter; because as soon as his letter was read, you spoke of the necessity for a crime to win Mademoiselle Stangerson. Therefore there is someone between you and her—someone who is preventing your marriage with her—someone who has attempted to kill her, so that she should not be able to marry!’ And I concluded with these words: ‘Now, monsieur, you have only to tell me in confidence the name of the murderer!’—The words I had uttered must have struck him ominously, for when I turned my eyes on him, I saw that his face was haggard, the perspiration standing on his forehead, and terror showing in his eyes. “‘Monsieur,’ he said to me, ‘I am going to ask of you something which may appear insane, but in exchange for which I place my life in your hands.",
+  "words": [
+    {
+      "word": "preventing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}
