@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-031",
+  "pool": "sourced",
+  "text": "Large masses of nickel and of tin were discovered stored in an out-house, but no coins were to be found, which may have explained the presence of those bulky boxes which have been already referred to. How our hydraulic engineer had been conveyed from the garden to the spot where he recovered his senses might have remained forever a mystery were it not for the soft mould, which told us a very plain tale. He had evidently been carried down by two persons, one of whom had remarkably small feet and the other unusually large ones. On the whole, it was most probable that the silent Englishman, being less bold or less murderous than his companion, had assisted the woman to bear the unconscious man out of the way of danger. “Well,” said our engineer ruefully as we took our seats to return once more to London, “it has been a pretty business for me!",
+  "words": [
+    {
+      "word": "masses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bulky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

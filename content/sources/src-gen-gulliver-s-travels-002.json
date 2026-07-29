@@ -1,16 +1,10 @@
 {
   "id": "src-gen-gulliver-s-travels-002",
   "pool": "sourced",
-  "text": "The great gate fronting to the north was about four feet high, and almost two feet wide, through which I could easily creep. On each side of the gate was a small window, not above six inches from the ground: into that on the left side, the king’s smith conveyed fourscore and eleven chains, like those that hang to a lady’s watch in Europe, and almost as large, which were locked to my left leg with six-and-thirty padlocks. Over against this temple, on the other side of the great highway, at twenty feet distance, there was a turret at least five feet high. Here the emperor ascended, with many principal lords of his court, to have an opportunity of viewing me, as I was told, for I could not see them. It was reckoned that above a hundred thousand inhabitants came out of the town upon the same errand; and, in spite of my guards, I believe there could not be fewer than ten thousand at several times, who mounted my body by the help of ladders.",
+  "text": "I thought it the most prudent method to lie still, and my design was to continue so till night, when, my left hand being already loose, I could easily free myself: and as for the inhabitants, I had reason to believe I might be a match for the greatest army they could bring against me, if they were all of the same size with him that I saw. But fortune disposed otherwise of me. When the people observed I was quiet, they discharged no more arrows; but, by the noise I heard, I knew their numbers increased; and about four yards from me, over against my right ear, I heard a knocking for above an hour, like that of people at work; when turning my head that way, as well as the pegs and strings would permit me, I saw a stage erected about a foot and a half from the ground, capable of holding four of the inhabitants, with two or three ladders to mount it: from whence one of them, who seemed to be a person of quality, made me a long speech, whereof I understood not one syllable.",
   "words": [
     {
-      "word": "creep",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ladders",
+      "word": "syllable",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

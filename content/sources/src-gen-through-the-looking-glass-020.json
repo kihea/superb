@@ -1,10 +1,16 @@
 {
   "id": "src-gen-through-the-looking-glass-020",
   "pool": "sourced",
-  "text": "“I won’t be introduced to the pudding, please,” Alice said rather hastily, “or we shall get no dinner at all. May I give you some?” But the Red Queen looked sulky, and growled “Pudding—Alice; Alice—Pudding. Remove the pudding!” and the waiters took it away so quickly that Alice couldn’t return its bow. However, she didn’t see why the Red Queen should be the only one to give orders, so, as an experiment, she called out “Waiter! Bring back the pudding!” and there it was again in a moment like a conjuring-trick.",
+  "text": "“Well, I don’t want any to-day, at any rate.” “You couldn’t have it if you did want it,” the Queen said. “The rule is, jam to-morrow and jam yesterday—but never jam to-day.” “It must come sometimes to ‘jam to-day,’” Alice objected. “No, it can’t,” said the Queen. “It’s jam every other day: to-day isn’t any other day, you know.” “I don’t understand you,” said Alice. “It’s dreadfully confusing!” “That’s the effect of living backwards,” the Queen said kindly: “it always makes one a little giddy at first—” “Living backwards!” Alice repeated in great astonishment.",
   "words": [
     {
-      "word": "hastily",
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confusing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

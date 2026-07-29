@@ -1,10 +1,22 @@
 {
   "id": "src-gen-bleak-house-016",
   "pool": "sourced",
-  "text": "One thing has been much on her mind since their late interview in his turret-room at Chesney Wold. She is now decided, and prepared to throw it off. It is morning in the great world, afternoon according to the little sun. The Mercuries, exhausted by looking out of window, are reposing in the hall and hang their heavy heads, the gorgeous creatures, like overblown sunflowers. Like them, too, they seem to run to a deal of seed in their tags and trimmings.",
+  "text": "But on Mr. Tulkinghorn’s coming into the room, the veil is raised and a sufficiently good-looking Frenchwoman is revealed, though her expression is something of the intensest. “Thank you, Mademoiselle Hortense,” says Mr. Tulkinghorn with his usual equanimity. “I will give you no further trouble about this little wager.” “You will do me the kindness to remember, sir, that I am not at present placed?” says mademoiselle. “Certainly, certainly!” “And to confer upon me the favour of your distinguished recommendation?” “By all means, Mademoiselle Hortense.” “A word from Mr. Tulkinghorn is so powerful.” “It shall not be wanting, mademoiselle.” “Receive the assurance of my devoted gratitude, dear sir.” “Good night.” Mademoiselle goes out with an air of native gentility; and Mr. Bucket, to whom it is, on an emergency, as natural to be groom of the ceremonies as it is to be anything else, shows her downstairs, not without gallantry. “Well, Bucket?” quoth Mr. Tulkinghorn on his return.",
   "words": [
     {
-      "word": "turret",
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assurance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1853,
     "source": "Project Gutenberg #1023",
-    "url": "https://www.gutenberg.org/ebooks/1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

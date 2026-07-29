@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-005",
   "pool": "sourced",
-  "text": "The sailor was a surly sort of chap, and there was a good long delay while I waited on deck, feeling more and more uncomfortable. Presently a steward came up and showed me down the companion and into the saloon, which, after this, looked—well, horribly gorgeous—you know what I mean, plush lounges, silk cushions, and that sort of thing. Dinner seemed to be just over, and wine and fruit were on the table. Herr Dollmann was there at his coffee. I introduced myself somehow——” “Stop a moment,” I said; “what was he like?” “Oh, a tall, thin chap, in evening dress; about fifty I suppose, with greyish hair and a short beard.",
+  "text": "In the second place, master of his métier, as I knew him afterwards to be, resourceful, skilful, and alert, he was liable to lapse into a certain amateurish vagueness, half irritating and half amusing. I think truly that both these peculiarities came from the same source, a hatred of any sort of affectation. To the same source I traced the fact that he and his yacht observed none of the superficial etiquette of yachts and yachtsmen, that she never, for instance, flew a national ensign, and he never wore a “yachting suit”. We rounded a low green point which I had scarcely noticed before. “We must jibe,” said Davies: “just take the helm, will you?” and, without waiting for my co-operation, he began hauling in the mainsheet with great vigour.",
   "words": [
     {
-      "word": "beard",
+      "word": "etiquette",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flew",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

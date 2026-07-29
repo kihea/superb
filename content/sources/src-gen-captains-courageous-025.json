@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-captains-courageous-025",
+  "pool": "sourced",
+  "text": "Manuel's countrymen jabbered at him in their own language; and even the silent cook was seen riding the jib-boom and shouting Gaelic to a friend as black as himself. After they had buoyed the cable--all around the Virgin is rocky bottom, and carelessness means chafed ground-tackle and danger from drifting--after they had buoyed the cable, their dories went forth to join the mob of boats anchored about a mile away. The schooners rocked and dipped at a safe distance, like mother ducks watching their brood, while the dories behaved like mannerless ducklings. As they drove into the confusion, boat banging boat, Harvey's ears tingled at the comments on his rowing. Every dialect from Labrador to Long Island, with Portuguese, Neapolitan, Lingua Franca, French, and Gaelic, with songs and shoutings and new oaths, rattled round him, and he seemed to be the butt of it all.",
+  "words": [
+    {
+      "word": "tackle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brood",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dialect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

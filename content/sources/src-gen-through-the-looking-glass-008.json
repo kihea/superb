@@ -1,16 +1,10 @@
 {
   "id": "src-gen-through-the-looking-glass-008",
   "pool": "sourced",
-  "text": "After a pause, Alice began, “Well! They were both very unpleasant characters—” Here she checked herself in some alarm, at hearing something that sounded to her like the puffing of a large steam-engine in the wood near them, though she feared it was more likely to be a wild beast. “Are there any lions or tigers about here?” she asked timidly. “It’s only the Red King snoring,” said Tweedledee. “Come and look at him!” the brothers cried, and they each took one of Alice’s hands, and led her up to where the King was sleeping.",
+  "text": "“I never saw anybody that looked stupider,” a Violet said, so suddenly, that Alice quite jumped; for it hadn’t spoken before. “Hold your tongue!” cried the Tiger-lily. “As if you ever saw anybody! You keep your head under the leaves, and snore away there, till you know no more what’s going on in the world, than if you were a bud!” “Are there any more people in the garden besides me?” Alice said, not choosing to notice the Rose’s last remark. “There’s one other flower in the garden that can move about like you,” said the Rose.",
   "words": [
     {
-      "word": "feared",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tigers",
+      "word": "remark",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

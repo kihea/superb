@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-call-of-the-wild-005",
   "pool": "sourced",
-  "text": "An oath from Perrault, the resounding impact of a club upon a bony frame, and a shrill yelp of pain, heralded the breaking forth of pandemonium. The camp was suddenly discovered to be alive with skulking furry forms,—starving huskies, four or five score of them, who had scented the camp from some Indian village. They had crept in while Buck and Spitz were fighting, and when the two men sprang among them with stout clubs they showed their teeth and fought back. They were crazed by the smell of the food. Perrault found one with head buried in the grub-box.",
+  "text": "At first he did not know where he was. It had snowed during the night and he was completely buried. The snow walls pressed him on every side, and a great surge of fear swept through him—the fear of the wild thing for the trap. It was a token that he was harking back through his own life to the lives of his forebears; for he was a civilized dog, an unduly civilized dog, and of his own experience knew no trap and so could not of himself fear it. The muscles of his whole body contracted spasmodically and instinctively, the hair on his neck and shoulders stood on end, and with a ferocious snarl he bounded straight up into the blinding day, the snow flying about him in a flashing cloud.",
   "words": [
     {
-      "word": "starving",
+      "word": "instinctively",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "scented",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sprang",
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Jack London",
     "year": 1903,
     "source": "Project Gutenberg #215",
-    "url": "https://www.gutenberg.org/ebooks/215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

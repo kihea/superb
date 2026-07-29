@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-middlemarch-022",
+  "pool": "sourced",
+  "text": "Here was a man who now for the first time found himself looking into the eyes of death—who was passing through one of those rare moments of experience when we feel the truth of a commonplace, which is as different from what we call knowing it, as the vision of waters upon the earth is different from the delirious vision of the water which cannot be had to cool the burning tongue. When the commonplace “We must all die” transforms itself suddenly into the acute consciousness “I must die—and soon,” then death grapples us, and his fingers are cruel; afterwards, he may come to fold us in his arms as our mother did, and our last moment of dim earthly discerning may be like the first. To Mr. Casaubon now, it was as if he suddenly found himself on the dark river-brink and heard the plash of the oncoming oar, not discerning the forms, but expecting the summons. In such an hour the mind does not change its lifelong bias, but carries it onward in imagination to the other side of death, gazing backward—perhaps with the divine calm of beneficence, perhaps with the petty anxieties of self-assertion.",
+  "words": [
+    {
+      "word": "earthly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "summons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

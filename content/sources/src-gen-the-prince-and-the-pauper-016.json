@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-016",
   "pool": "sourced",
-  "text": "“Then they will scourge thee, the stony-hearted wretches! But oh, thou must not weep, I cannot bear it. Keep up thy courage--I shall come to my own in time to save thee from this bitter thing, and I will do it!” When the King awoke in the morning, the women were gone. “They are saved!” he said, joyfully; then added, despondently, “but woe is me!--for they were my comforters.” Each of them had left a shred of ribbon pinned to his clothing, in token of remembrance. He said he would keep these things always; and that soon he would seek out these dear good friends of his and take them under his protection.",
+  "text": "Tom as King. The next day the foreign ambassadors came, with their gorgeous trains; and Tom, throned in awful state, received them. The splendours of the scene delighted his eye and fired his imagination at first, but the audience was long and dreary, and so were most of the addresses--wherefore, what began as a pleasure grew into weariness and home-sickness by-and-by. Tom said the words which Hertford put into his mouth from time to time, and tried hard to acquit himself satisfactorily, but he was too new to such things, and too ill at ease to accomplish more than a tolerable success. He looked sufficiently like a king, but he was ill able to feel like one.",
   "words": [
     {
-      "word": "thee",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "ribbon",
+      "word": "sickness",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

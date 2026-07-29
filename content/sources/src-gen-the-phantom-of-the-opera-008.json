@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-008",
   "pool": "sourced",
-  "text": "... Oh, Raoul, how happy we shall be! ... We must play at being engaged all day long.\" It was the prettiest game in the world and they enjoyed it like the children that they were. Oh, the wonderful speeches they made to each other and the eternal vows they exchanged! They played at hearts as other children might play at ball; only, as it was really their two hearts that they flung to and fro, they had to be very, very handy to catch them, each time, without hurting them.",
+  "text": "Then their ears suddenly perceive celestial harmonies, a divine voice, which they remember all their lives. Persons who are visited by the Angel quiver with a thrill unknown to the rest of mankind. And they can not touch an instrument, or open their mouths to sing, without producing sounds that put all other human sounds to shame. Then people who do not know that the Angel has visited those persons say that they have genius. Little Christine asked her father if he had heard the Angel of Music.",
   "words": [
     {
-      "word": "prettiest",
+      "word": "thrill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mankind",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

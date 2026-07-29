@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-captains-courageous-023",
+  "pool": "sourced",
+  "text": "Ef it's anything, I'm best where I am so's to get at things.\" It was a forlorn little jingle; the thick air seemed to pinch it off, and in the pauses Harvey heard the muffled shriek of a liner's siren, and he knew enough of the Banks to know what that meant. It came to him, with horrible distinctness, how a boy in a cherry-coloured jersey--he despised fancy blazers now with all a fisher-man's contempt--how an ignorant, rowdy boy had once said it would be \"great\" if a steamer ran down a fishing-boat. That boy had a stateroom with a hot and cold bath, and spent ten minutes each morning picking over a gilt-edged bill of fare. And that same boy--no, his very much older brother--was up at four of the dim dawn in streaming, crackling oilskins, hammering, literally for the dear life, on a bell smaller than the steward's breakfast-bell, while somewhere close at hand a thirty-foot steel stem was storming along at twenty miles an hour!",
+  "words": [
+    {
+      "word": "cherry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fisher",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

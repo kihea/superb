@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-main-street-028",
+  "pool": "sourced",
+  "text": "Daily he returned to the subject of the new house, but as to time and mode he was indefinite. At first she believed. She babbled of a low stone house with lattice windows and tulip-beds, of colonial brick, of a white frame cottage with green shutters and dormer windows. To her enthusiasms he answered, “Well, ye-es, might be worth thinking about. Remember where I put my pipe?” When she pressed him he fidgeted, “I don't know; seems to me those kind of houses you speak of have been overdone.” It proved that what he wanted was a house exactly like Sam Clark's, which was exactly like every third new house in every town in the country: a square, yellow stolidity with immaculate clapboards, a broad screened porch, tidy grass-plots, and concrete walks; a house resembling the mind of a merchant who votes the party ticket straight and goes to church once a month and owns a good car.",
+  "words": [
+    {
+      "word": "cottage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immaculate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

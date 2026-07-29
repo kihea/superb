@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-hard-times-038",
+  "pool": "sourced",
+  "text": "For, although an ingenious Allegory relating to a butcher, a three-legged stool, a dog, and a leg of mutton, this narrative consumed time; and they were in great suspense. At last, however, little fair-haired Josephine made her curtsey amid great applause; and the Clown, left alone in the ring, had just warmed himself, and said, ‘Now I’ll have a turn!’ when Sissy was touched on the shoulder, and beckoned out. She took Louisa with her; and they were received by Mr. Sleary in a very little private apartment, with canvas sides, a grass floor, and a wooden ceiling all aslant, on which the box company stamped their approbation, as if they were coming through. ‘Thethilia,’ said Mr. Sleary, who had brandy and water at hand, ‘it doth me good to thee you. You wath alwayth a favourite with uth, and you’ve done uth credith thinth the old timeth I’m thure.",
+  "words": [
+    {
+      "word": "butcher",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "stool",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "suspense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "applause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,10 +1,40 @@
 {
   "id": "src-gen-the-call-of-cthulhu-012",
   "pool": "sourced",
-  "text": "So, after thoroughly studying the manuscript again and correlating the theosophical and anthropological notes with the cult narrative of Legrasse, I made a trip to Providence to see the sculptor and give him the rebuke I thought proper for so boldly imposing upon a learned and aged man. Wilcox still lived alone in the Fleur-de-Lys Building in Thomas Street, a hideous Victorian imitation of Seventeenth Century Breton architecture which flaunts its stuccoed front amidst the lovely Colonial houses on the ancient hill, and under the very shadow of the finest Georgian steeple in America. I found him at work in his rooms, and at once conceded from the specimens scattered about that his genius is indeed profound and authentic. He will, I believe, be heard from sometime as one of the great decadents; for he has crystallized in clay and will one day mirror in marble those nightmares and fantasies which Arthur Machen evokes in prose, and Clark Ashton Smith makes visible in verse and in painting. Dark, frail, and somewhat unkempt in aspect, he turned languidly at my knock and asked me my business without rising.",
+  "text": "Four of them reeled, one fainted, and two were shaken into a frantic cry which the mad cacophony of the orgy fortunately deadened. Legrasse dashed swamp water on the face of the fainting man, and all stood trembling and nearly hypnotized with horror. In a natural glade of the swamp stood a grassy island of perhaps an acre's extent, clear of trees and tolerably dry. On this now leaped and twisted a more indescribable horde of human abnormality than any but a Sime or an Angarola could paint. Void of clothing, this hybrid spawn were braying, bellowing and writhing about a monstrous ring-shaped bonfire; in the center of which, revealed by occasional rifts in the curtain of flame, stood a great granite monolith some eight feet in height; on top of which, incongruous in its diminutiveness, rested the noxious carven statuette.",
   "words": [
     {
-      "word": "profound",
+      "word": "dashed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hybrid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spawn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "granite",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

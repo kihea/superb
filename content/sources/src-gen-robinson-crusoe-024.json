@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-robinson-crusoe-024",
+  "pool": "sourced",
+  "text": "a mast and sail which I had made for her, and a thing like an anchor, but which, indeed, could not be called either anchor or grapnel; however, it was the best I could make of its kind: all these I removed, that there might not be the least shadow for discovery, or appearance of any boat, or of any human habitation upon the island. Besides this, I kept myself, as I said, more retired than ever, and seldom went from my cell except upon my constant employment, to milk my she-goats, and manage my little flock in the wood, which, as it was quite on the other part of the island, was out of danger; for certain, it is that these savage people, who sometimes haunted this island, never came with any thoughts of finding anything here, and consequently never wandered off from the coast, and I doubt not but they might have been several times on shore after my apprehensions of them had made me cautious, as well as before.",
+  "words": [
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

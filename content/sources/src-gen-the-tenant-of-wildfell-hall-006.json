@@ -1,34 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-006",
   "pool": "sourced",
-  "text": "At first, I was delighted with the novelty and excitement of our London life; but soon I began to weary of its mingled turbulence and constraint, and sigh for the freshness and freedom of home. My new acquaintances, both male and female, disappointed my expectations, and vexed and depressed me by turns; for I soon grew tired of studying their peculiarities, and laughing at their foibles—particularly as I was obliged to keep my criticisms to myself, for my aunt would not hear them—and they—the ladies especially—appeared so provokingly mindless, and heartless, and artificial. The gentlemen seemed better, but, perhaps, it was because I knew them less—perhaps, because they flattered me; but I did not fall in love with any of them; and, if their attentions pleased me one moment, they provoked me the next, because they put me out of humour with myself, by revealing my vanity and making me fear I was becoming like some of the ladies I so heartily despised.",
+  "text": "You didn’t intrust him to me, by-the-by,” I grumbled, “though I had the honour of a much longer acquaintance; but Miss Millward has the art of conciliating and amusing children,” I carelessly added, “if she is good for nothing else.” “Miss Millward has many estimable qualities, which such as you cannot be expected to perceive or appreciate. Will you tell Arthur that I shall come in a few minutes?” “If that be the case, I will wait, with your permission, till those few minutes are past; and then I can assist you to descend this difficult path.” “Thank you—I always manage best, on such occasions, without assistance.” “But, at least, I can carry your stool and sketch-book.” She did not deny me this favour; but I was rather offended at her evident desire to be rid of me, and was beginning to repent of my pertinacity, when she somewhat appeased me by consulting my taste and judgment about some doubtful matter in her drawing. My opinion, happily, met her approbation, and the improvement I suggested was adopted without hesitation.",
   "words": [
     {
-      "word": "novelty",
+      "word": "stool",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "weary",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sigh",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "acquaintances",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "aunt",
+      "word": "sketch",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

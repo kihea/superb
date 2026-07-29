@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-black-beauty-023",
+  "pool": "sourced",
+  "text": "I am never afraid of what I know. Now I was brought up in a park where there were deer; of course I knew them as well as I did a sheep or a cow, but they are not common, and I know many sensible horses who are frightened at them, and who kick up quite a shindy before they will pass a paddock where there are deer.” I knew what my companion said was true, and I wished that every young horse had as good masters as Farmer Grey and Squire Gordon. Of course we sometimes came in for good driving here. I remember one morning I was put into the light gig, and taken to a house in Pulteney Street. Two gentlemen came out; the taller of them came round to my head; he looked at the bit and bridle, and just shifted the collar with his hand, to see if it fitted comfortably.",
+  "words": [
+    {
+      "word": "deer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

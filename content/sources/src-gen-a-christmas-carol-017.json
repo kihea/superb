@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-christmas-carol-017",
   "pool": "sourced",
-  "text": "\"You are about to show me shadows of the things that have not happened, but will happen in the time before us,\" Scrooge pursued. \"Is that so, Spirit?\" The upper portion of the garment was contracted for an instant in its folds, as if the Spirit had inclined its head. That was the only answer he received. Although well used to ghostly company by this time, Scrooge feared the silent shape so much that his legs trembled beneath him, and he found that he could hardly stand when he prepared to follow it.",
+  "text": "Gentlemen of the free-and-easy sort, who plume themselves on being acquainted with a move or two, and being usually equal to the time-of-day, express the wide range of their capacity for adventure by observing that they are good for anything from pitch-and-toss to manslaughter; between which opposite extremes, no doubt, there lies a tolerably wide and comprehensive range of subjects. Without venturing for Scrooge quite as hardily as this, I don't mind calling on you to believe that he was ready for a good broad field of strange appearances, and that nothing between a baby and rhinoceros would have astonished him very much. Now, being prepared for almost anything, he was not by any means prepared for nothing; and, consequently, when the Bell struck One, and no shape appeared, he was taken with a violent fit of trembling. Five minutes, ten minutes, a quarter of an hour went by, yet nothing came.",
   "words": [
     {
-      "word": "pursued",
+      "word": "plume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "extremes",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

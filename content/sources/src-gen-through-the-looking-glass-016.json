@@ -1,10 +1,35 @@
 {
   "id": "src-gen-through-the-looking-glass-016",
   "pool": "sourced",
-  "text": "“It was all kinds of fastness with me, I can assure you!” he said. He raised his hands in some excitement as he said this, and instantly rolled out of the saddle, and fell headlong into a deep ditch. Alice ran to the side of the ditch to look for him. She was rather startled by the fall, as for some time he had kept on very well, and she was afraid that he really was hurt this time. However, though she could see nothing but the soles of his feet, she was much relieved to hear that he was talking on in his usual tone.",
+  "text": "But never a word he said: The eldest Oyster winked his eye, And shook his heavy head— Meaning to say he did not choose To leave the oyster-bed. But four young oysters hurried up, All eager for the treat: Their coats were brushed, their faces washed, Their shoes were clean and neat— And this was odd, because, you know, They hadn’t any feet. Four other Oysters followed them, And yet another four; And thick and fast they came at last, And more, and more, and more— All hopping through the frothy waves, And scrambling to the shore. The Walrus and the Carpenter Walked on a mile or so, And then they rested on a rock Conveniently low: And all the little Oysters stood And waited in a row. ‘The time has come,’ the Walrus said, ‘To talk of many things: Of shoes—and ships—and sealing-wax— Of cabbages—and kings— And why the sea is boiling hot— And whether pigs have wings.’ ‘But wait a bit,’ the Oysters cried, ‘Before we have our chat; For some of us are out of breath, And all of us are fat!’ ‘No hurry!’ said the Carpenter.",
   "words": [
     {
-      "word": "saddle",
+      "word": "eldest",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "shook",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "oyster",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hurried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neat",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +40,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

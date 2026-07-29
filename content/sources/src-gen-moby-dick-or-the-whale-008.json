@@ -1,10 +1,23 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-008",
   "pool": "sourced",
-  "text": "But this is a harmless little foible in the English whale-hunters, which the Nantucketer does not take much to heart; probably, because he knows that he has a few foibles himself. So, then, we see that of all ships separately sailing the sea, the whalers have most reason to be sociable—and they are so. Whereas, some merchant ships crossing each other’s wake in the mid-Atlantic, will oftentimes pass on without so much as a single word of recognition, mutually cutting each other on the high seas, like a brace of dandies in Broadway; and all the time indulging, perhaps, in finical criticism upon each other’s rig. As for Men-of-War, when they chance to meet at sea, they first go through such a string of silly bowings and scrapings, such a ducking of ensigns, that there does not seem to be much right-down hearty good-will and brotherly love about it at all. As touching Slave-ships meeting, why, they are in such a prodigious hurry, they run away from each other as soon as possible.",
+  "text": "Yes,’ thinks I, ‘it was only a playful cudgelling—in fact, only a whaleboning that he gave me—not a base kick. Besides,’ thinks I, ‘look at it once; why, the end of it—the foot part—what a small sort of end it is; whereas, if a broad footed farmer kicked me, there’s a devilish broad insult. But this insult is whittled down to a point only.’ But now comes the greatest joke of the dream, Flask. While I was battering away at the pyramid, a sort of badger-haired old merman, with a hump on his back, takes me by the shoulders, and slews me round. ‘What are you ’bout?’ says he.",
   "words": [
     {
-      "word": "rig",
+      "word": "footed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pyramid",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +28,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-038",
+  "pool": "sourced",
+  "text": "As for Captain Speedy, he continued to howl and growl in his cabin; and Passepartout, whose duty it was to carry him his meals, courageous as he was, took the greatest precautions. Mr. Fogg did not seem even to know that there was a captain on board. On the 13th they passed the edge of the Banks of Newfoundland, a dangerous locality; during the winter, especially, there are frequent fogs and heavy gales of wind. Ever since the evening before the barometer, suddenly falling, had indicated an approaching change in the atmosphere; and during the night the temperature varied, the cold became sharper, and the wind veered to the south-east. This was a misfortune.",
+  "words": [
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "varied",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

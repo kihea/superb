@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-027",
+  "pool": "sourced",
+  "text": "Alice was sorry for this, as she wanted to hear the news too. However, instead of whispering, he simply shouted at the top of his voice “They’re at it again!” “Do you call that a whisper?” cried the poor King, jumping up and shaking himself. “If you do such a thing again, I’ll have you buttered! It went through and through my head like an earthquake!” “It would have to be a very tiny earthquake!” thought Alice. “Who are at it again?” she ventured to ask.",
+  "words": [
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "earthquake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

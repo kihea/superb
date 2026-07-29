@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-captains-courageous-033",
+  "pool": "sourced",
+  "text": "The needle of the speed-indicator flicked and wagged to and fro; the cinders rattled on the roof, and a whirl of dust sucked after the whirling wheels. The crew of the combination sat on their bunks, panting in their shirtsleeves, and Cheyne found himself among them shouting old, old stories of the railroad that every trainman knows, above the roar of the car. He told them about his son, and how the sea had given up its dead, and they nodded and spat and rejoiced with him; asked after \"her, back there,\" and whether she could stand it if the engineer \"let her out a piece,\" and Cheyne thought she could. Accordingly, the great fire-horse was \"let 'ut\" from Flagstaff to Winslow, till a division superintendent protested. But Mrs. Cheyne, in the boudoir stateroom, where the French maid, sallow-white with fear, clung to the silver door-handle, only moaned a little and begged her husband to bid them \"hurry.\"",
+  "words": [
+    {
+      "word": "fro",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accordingly",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

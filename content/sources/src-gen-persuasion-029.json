@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-029",
+  "pool": "sourced",
+  "text": "I walk: I prefer walking.” “But it rains.” “Oh! very little. Nothing that I regard.” After a moment’s pause he said: “Though I came only yesterday, I have equipped myself properly for Bath already, you see,” (pointing to a new umbrella); “I wish you would make use of it, if you are determined to walk; though I think it would be more prudent to let me get you a chair.” She was very much obliged to him, but declined it all, repeating her conviction, that the rain would come to nothing at present, and adding, “I am only waiting for Mr Elliot. He will be here in a moment, I am sure.” She had hardly spoken the words when Mr Elliot walked in. Captain Wentworth recollected him perfectly.",
+  "words": [
+    {
+      "word": "umbrella",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-wuthering-heights-040",
+  "pool": "sourced",
+  "text": "I had not courage to walk straight into the apartment; but I desired to divert him from his reverie, and therefore fell foul of the kitchen fire, stirred it, and began to scrape the cinders. It drew him forth sooner than I expected. He opened the door immediately, and said—“Nelly, come here—is it morning? Come in with your light.” “It is striking four,” I answered. “You want a candle to take upstairs: you might have lit one at this fire.” “No, I don’t wish to go upstairs,” he said.",
+  "words": [
+    {
+      "word": "scrape",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-010",
   "pool": "sourced",
-  "text": "The Lion would have preferred a bed of dried leaves in the forest, and did not like being shut up in a room; but he had too much sense to let this worry him, so he sprang upon the bed and rolled himself up like a cat and purred himself asleep in a minute. The next morning, after breakfast, the green maiden came to fetch Dorothy, and she dressed her in one of the prettiest gowns, made of green brocaded satin. Dorothy put on a green silk apron and tied a green ribbon around Toto’s neck, and they started for the Throne Room of the Great Oz. First they came to a great hall in which were many ladies and gentlemen of the court, all dressed in rich costumes. These people had nothing to do but talk to each other, but they always came to wait outside the Throne Room every morning, although they were never permitted to see Oz.",
+  "text": "“Or give me a heart,” said the Tin Woodman. “Or send me back to Kansas,” said Dorothy. “Then, if you don’t mind, I’ll go with you,” said the Lion, “for my life is simply unbearable without a bit of courage.” “You will be very welcome,” answered Dorothy, “for you will help to keep away the other wild beasts. It seems to me they must be more cowardly than you are if they allow you to scare them so easily.” “They really are,” said the Lion, “but that doesn’t make me any braver, and as long as I know myself to be a coward I shall be unhappy.” So once more the little company set off upon the journey, the Lion walking with stately strides at Dorothy’s side. Toto did not approve of this new comrade at first, for he could not forget how nearly he had been crushed between the Lion’s great jaws.",
   "words": [
     {
-      "word": "satin",
+      "word": "cowardly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "costumes",
+      "word": "coward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "approve",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-015",
   "pool": "sourced",
-  "text": "“You don't answer, brother. You were about to glorify the pillory a while ago, and shed some pity on a future age that isn't going to use it. I think the pillory ought to be abolished. What usually happens when a poor fellow is put in the pillory for some little offense that didn't amount to anything in the world? The mob try to have some fun with him, don't they?” “Yes.” “They begin by clodding him; and they laugh themselves to pieces to see him try to dodge one clod and get hit with another?” “Yes.” “Then they throw dead cats at him, don't they?” “Yes.” “Well, then, suppose he has a few personal enemies in that mob and here and there a man or a woman with a secret grudge against him--and suppose especially that he is unpopular in the community, for his pride, or his prosperity, or one thing or another--stones and bricks take the place of clods and cats presently, don't they?” “There is no doubt of it.” “As a rule he is crippled for life, isn't he?--jaws broken, teeth smashed out?--or legs mutilated, gangrened, presently cut off?",
+  "text": "I said to the queen: “Then why in the world didn't you set them free?” The question was a puzzler. She didn't know why she hadn't, the thing had never come up in her mind. So here she was, forecasting the veritable history of future prisoners of the Castle d'If, without knowing it. It seemed plain to me now, that with her training, those inherited prisoners were merely property--nothing more, nothing less. Well, when we inherit property, it does not occur to us to throw it away, even when we do not value it.",
   "words": [
     {
-      "word": "grudge",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "jaws",
+      "word": "inherit",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

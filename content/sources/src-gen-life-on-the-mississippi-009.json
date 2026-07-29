@@ -1,16 +1,10 @@
 {
   "id": "src-gen-life-on-the-mississippi-009",
   "pool": "sourced",
-  "text": "8, and I went below and fell into conversation with a passenger, a handsome man, with easy carriage and an intelligent face. We were approaching Island No. 10, a place so celebrated during the war. This gentleman's home was on the main shore in its neighborhood. I had some talk with him about the war times; but presently the discourse fell upon 'feuds,' for in no part of the South has the vendetta flourished more briskly, or held out longer between warring families, than in this particular region.",
+  "text": "I never saw anything so gaudy before. And if he can do such gold-leaf, kid-glove, diamond-breastpin piloting when he is sound asleep, what couldn't he do if he was dead!' Sounding WHEN the river is very low, and one's steamboat is 'drawing all the water' there is in the channel,--or a few inches more, as was often the case in the old times,--one must be painfully circumspect in his piloting. We used to have to 'sound' a number of particularly bad places almost every trip when the river was at a very low stage. Sounding is done in this way.",
   "words": [
     {
-      "word": "approaching",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "discourse",
+      "word": "sounding",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

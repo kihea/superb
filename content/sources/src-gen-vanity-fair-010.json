@@ -1,10 +1,16 @@
 {
   "id": "src-gen-vanity-fair-010",
   "pool": "sourced",
-  "text": "\"And the --th?\" gasped Jos. \"Cut in pieces,\" said the hussar--upon which Pauline cried out, \"O my mistress, ma bonne petite dame,\" went off fairly into hysterics, and filled the house with her screams. Wild with terror, Mr. Sedley knew not how or where to seek for safety. He rushed from the kitchen back to the sitting-room, and cast an appealing look at Amelia's door, which Mrs. O'Dowd had closed and locked in his face; but he remembered how scornfully the latter had received him, and after pausing and listening for a brief space at the door, he left it, and resolved to go into the street, for the first time that day.",
+  "text": "What shall we say, sir, for the elephant?\" but the Captain, blushing in a very hurried and discomfited manner, turned away his head. \"Shall we say twenty guineas for this work of art?--fifteen, five, name your own price. The gentleman without the elephant is worth five pound.\" \"I wonder it ain't come down with him,\" said a professional wag, \"he's anyhow a precious big one\"; at which (for the elephant-rider was represented as of a very stout figure) there was a general giggle in the room.",
   "words": [
     {
-      "word": "petite",
+      "word": "anyhow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "giggle",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

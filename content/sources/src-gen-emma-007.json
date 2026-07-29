@@ -1,10 +1,22 @@
 {
   "id": "src-gen-emma-007",
   "pool": "sourced",
-  "text": "My mother often wonders that I can make it out so well. She often says, when the letter is first opened, ‘Well, Hetty, now I think you will be put to it to make out all that checker-work’—don’t you, ma’am?—And then I tell her, I am sure she would contrive to make it out herself, if she had nobody to do it for her—every word of it—I am sure she would pore over it till she had made out every word. And, indeed, though my mother’s eyes are not so good as they were, she can see amazingly well still, thank God! with the help of spectacles. It is such a blessing!",
+  "text": "And the distinction is not quite so much against the candour and common sense of the world as appears at first; for a very narrow income has a tendency to contract the mind, and sour the temper. Those who can barely live, and who live perforce in a very small, and generally very inferior, society, may well be illiberal and cross. This does not apply, however, to Miss Bates; she is only too good natured and too silly to suit me; but, in general, she is very much to the taste of every body, though single and though poor. Poverty certainly has not contracted her mind: I really believe, if she had only a shilling in the world, she would be very likely to give away sixpence of it; and nobody is afraid of her: that is a great charm.” “Dear me! but what shall you do?",
   "words": [
     {
-      "word": "blessing",
+      "word": "distinction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contracted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

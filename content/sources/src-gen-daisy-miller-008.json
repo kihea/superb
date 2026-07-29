@@ -1,22 +1,10 @@
 {
   "id": "src-gen-daisy-miller-008",
   "pool": "sourced",
-  "text": "“Well, I hope you know enough!” she said to her companion, after he had told her the history of the unhappy Bonivard. “I never saw a man that knew so much!” The history of Bonivard had evidently, as they say, gone into one ear and out of the other. But Daisy went on to say that she wished Winterbourne would travel with them and “go round” with them; they might know something, in that case. “Don’t you want to come and teach Randolph?” she asked. Winterbourne said that nothing could possibly please him so much, but that he had unfortunately other occupations.",
+  "text": "in England there are beautiful castles,” said Winterbourne. “But Chillon here, is very well worth seeing.” “Well, if Daisy feels up to it--” said Mrs. Miller, in a tone impregnated with a sense of the magnitude of the enterprise. “It seems as if there was nothing she wouldn’t undertake.” “Oh, I think she’ll enjoy it!” Winterbourne declared. And he desired more and more to make it a certainty that he was to have the privilege of a tete-a-tete with the young lady, who was still strolling along in front of them, softly vocalizing. “You are not disposed, madam,” he inquired, “to undertake it yourself?” Daisy’s mother looked at him an instant askance, and then walked forward in silence.",
   "words": [
     {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wished",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "occupations",
+      "word": "madam",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Henry James",
     "year": 1878,
     "source": "Project Gutenberg #208",
-    "url": "https://www.gutenberg.org/ebooks/208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

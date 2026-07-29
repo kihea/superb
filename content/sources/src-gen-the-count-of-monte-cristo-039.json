@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-039",
+  "pool": "sourced",
+  "text": "Oh, I have been base, cowardly, I tell you; I have abjured my affections, and like all renegades I am of evil omen to those who surround me!” “No, Mercédès,” said Monte Cristo, “no; you judge yourself with too much severity. You are a noble-minded woman, and it was your grief that disarmed me. Still I was but an agent, led on by an invisible and offended Deity, who chose not to withhold the fatal blow that I was destined to hurl. I take that God to witness, at whose feet I have prostrated myself daily for the last ten years, that I would have sacrificed my life to you, and with my life the projects that were indissolubly linked with it. But—and I say it with some pride, Mercédès—God needed me, and I lived.",
+  "words": [
+    {
+      "word": "omen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

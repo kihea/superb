@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-gulliver-s-travels-022",
+  "pool": "sourced",
+  "text": "My bed was the same dry grass and sea-weed which I intended for fuel. I slept very little, for the disquiets of my mind prevailed over my weariness, and kept me awake. I considered how impossible it was to preserve my life in so desolate a place, and how miserable my end must be: yet found myself so listless and desponding, that I had not the heart to rise; and before I could get spirits enough to creep out of my cave, the day was far advanced. I walked awhile among the rocks: the sky was perfectly clear, and the sun so hot, that I was forced to turn my face from it: when all on a sudden it became obscure, as I thought, in a manner very different from what happens by the interposition of a cloud. I turned back, and perceived a vast opaque body between me and the sun moving forwards towards the island: it seemed to be about two miles high, and hid the sun six or seven minutes; but I did not observe the air to be much colder, or the sky more darkened, than if I had stood under the shade of a mountain.",
+  "words": [
+    {
+      "word": "cave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

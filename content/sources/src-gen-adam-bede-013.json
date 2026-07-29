@@ -1,10 +1,34 @@
 {
   "id": "src-gen-adam-bede-013",
   "pool": "sourced",
-  "text": "Arthur’s lips were now as pale as Adam’s; his heart was beating violently. The discovery that Adam loved Hetty was a shock which made him for the moment see himself in the light of Adam’s indignation, and regard Adam’s suffering as not merely a consequence, but an element of his error. The words of hatred and contempt—the first he had ever heard in his life—seemed like scorching missiles that were making ineffaceable scars on him. All screening self-excuse, which rarely falls quite away while others respect us, forsook him for an instant, and he stood face to face with the first great irrevocable evil he had ever committed. He was only twenty-one, and three months ago—nay, much later—he had thought proudly that no man should ever be able to reproach him justly.",
+  "text": "Wi’ them three gells in the house I’d need have twice the strength to keep ’em up to their work. It’s like having roast meat at three fires; as soon as you’ve basted one, another’s burnin’.” Hetty stood sufficiently in awe of her aunt to be anxious to conceal from her so much of her vanity as could be hidden without too great a sacrifice. She could not resist spending her money in bits of finery which Mrs. Poyser disapproved; but she would have been ready to die with shame, vexation, and fright if her aunt had this moment opened the door, and seen her with her bits of candle lighted, and strutting about decked in her scarf and ear-rings. To prevent such a surprise, she always bolted her door, and she had not forgotten to do so to-night. It was well: for there now came a light tap, and Hetty, with a leaping heart, rushed to blow out the candles and throw them into the drawer.",
   "words": [
     {
-      "word": "pale",
+      "word": "roast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

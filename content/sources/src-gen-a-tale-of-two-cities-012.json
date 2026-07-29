@@ -1,16 +1,22 @@
 {
   "id": "src-gen-a-tale-of-two-cities-012",
   "pool": "sourced",
-  "text": "For, there was something coming in the echoes, something light, afar off, and scarcely audible yet, that stirred her heart too much. Fluttering hopes and doubts--hopes, of a love as yet unknown to her: doubts, of her remaining upon earth, to enjoy that new delight--divided her breast. Among the echoes then, there would arise the sound of footsteps at her own early grave; and thoughts of the husband who would be left so desolate, and who would mourn for her so much, swelled to her eyes, and broke like waves. That time passed, and her little Lucie lay on her bosom. Then, among the advancing echoes, there was the tread of her tiny feet and the sound of her prattling words.",
+  "text": "But it really is doubly and trebly hard to have crowds and multitudes of people turning up after him (I could have forgiven him), to take Ladybird’s affections away from me.” Mr. Lorry knew Miss Pross to be very jealous, but he also knew her by this time to be, beneath the service of her eccentricity, one of those unselfish creatures--found only among women--who will, for pure love and admiration, bind themselves willing slaves, to youth when they have lost it, to beauty that they never had, to accomplishments that they were never fortunate enough to gain, to bright hopes that never shone upon their own sombre lives. He knew enough of the world to know that there is nothing in it better than the faithful service of the heart; so rendered and so free from any mercenary taint, he had such an exalted respect for it, that in the retributive arrangements made by his own mind--we all make such arrangements, more or less--he stationed Miss Pross much nearer to the lower Angels than many ladies immeasurably better got up both by Nature and Art, who had balances at Tellson’s.",
   "words": [
     {
-      "word": "echoes",
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tread",
+      "word": "mercenary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

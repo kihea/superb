@@ -1,10 +1,46 @@
 {
   "id": "src-gen-typhoon-018",
   "pool": "sourced",
-  "text": "Drive them against the bulkhead. Jam 'em up.” The rush of the sailors into the seething 'tween-deck was like a splash of cold water into a boiling cauldron. The commotion sank for a moment. The bulk of Chinamen were locked in such a compact scrimmage that, linking their arms and aided by an appalling dive of the ship, the seamen sent it forward in one great shove, like a solid block. Behind their backs small clusters and loose bodies tumbled from side to side.",
+  "text": "Clinging to the handle, he was dragged out over the doorstep, and at once found himself engaged with the wind in a sort of personal scuffle whose object was the shutting of that door. At the last moment a tongue of air scurried in and licked out the flame of the lamp. Ahead of the ship he perceived a great darkness lying upon a multitude of white flashes; on the starboard beam a few amazing stars drooped, dim and fitful, above an immense waste of broken seas, as if seen through a mad drift of smoke. On the bridge a knot of men, indistinct and toiling, were making great efforts in the light of the wheelhouse windows that shone mistily on their heads and backs. Suddenly darkness closed upon one pane, then on another.",
   "words": [
     {
-      "word": "sailors",
+      "word": "doorstep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "licked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "multitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knot",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +51,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

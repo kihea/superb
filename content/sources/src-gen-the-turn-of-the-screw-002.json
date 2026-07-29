@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-turn-of-the-screw-002",
   "pool": "sourced",
-  "text": "“But not to the degree to contaminate—” “To contaminate?”—my big word left her at a loss. I explained it. “To corrupt.” She stared, taking my meaning in; but it produced in her an odd laugh. “Are you afraid he’ll corrupt you?” She put the question with such a fine bold humor that, with a laugh, a little silly doubtless, to match her own, I gave way for the time to the apprehension of ridicule. But the next day, as the hour for my drive approached, I cropped up in another place.",
+  "text": "“In Harley Street?” “In Harley Street.” “Well, miss, you’re not the first—and you won’t be the last.” “Oh, I’ve no pretension,” I could laugh, “to being the only one. My other pupil, at any rate, as I understand, comes back tomorrow?” “Not tomorrow—Friday, miss. He arrives, as you did, by the coach, under care of the guard, and is to be met by the same carriage.” I forthwith expressed that the proper as well as the pleasant and friendly thing would be therefore that on the arrival of the public conveyance I should be in waiting for him with his little sister; an idea in which Mrs. Grose concurred so heartily that I somehow took her manner as a kind of comforting pledge—never falsified, thank heaven!—that we should on every question be quite at one. Oh, she was glad I was there! What I felt the next day was, I suppose, nothing that could be fairly called a reaction from the cheer of my arrival; it was probably at the most only a slight oppression produced by a fuller measure of the scale, as I walked round them, gazed up at them, took them in, of my new circumstances.",
   "words": [
     {
-      "word": "corrupt",
+      "word": "oppression",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "stared",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "approached",
+      "word": "fuller",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

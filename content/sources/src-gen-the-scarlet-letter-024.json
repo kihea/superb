@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-scarlet-letter-024",
+  "pool": "sourced",
+  "text": "We shall see whether Hester Prynne were ever afterwards so touched and so transfigured. Much of the marble coldness of Hester’s impression was to be attributed to the circumstance that her life had turned, in a great measure, from passion and feeling to thought. Standing alone in the world—alone, as to any dependence on society, and with little Pearl to be guided and protected—alone, and hopeless of retrieving her position, even had she not scorned to consider it desirable—she cast away the fragment of a broken chain. The world’s law was no law for her mind. It was an age in which the human intellect, newly emancipated, had taken a more active and a wider range than for many centuries before.",
+  "words": [
+    {
+      "word": "fragment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

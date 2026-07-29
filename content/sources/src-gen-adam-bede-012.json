@@ -1,42 +1,12 @@
 {
   "id": "src-gen-adam-bede-012",
   "pool": "sourced",
-  "text": "Great was the shouting of the crowd, radiant the grinning of Bill Downes the stone-sawyer and the fortunate rider of this superior beast, which stood calm and stiff-legged in the midst of its triumph. Arthur himself had provided the prizes for the men, and Bill was made happy with a splendid pocket-knife, supplied with blades and gimlets enough to make a man at home on a desert island. He had hardly returned from the marquee with the prize in his hand, when it began to be understood that Wiry Ben proposed to amuse the company, before the gentry went to dinner, with an impromptu and gratuitous performance—namely, a hornpipe, the main idea of which was doubtless borrowed; but this was to be developed by the dancer in so peculiar and complex a manner that no one could deny him the praise of originality.",
+  "text": "“Come, Hetty,” said Martin Poyser, in a conciliatory tone, “go and get your supper i’ the pantry, as the things are all put away; an’ then you can come and take the little un while your aunt undresses herself, for she won’t lie down in bed without her mother. An’ I reckon you could eat a bit, Dinah, for they don’t keep much of a house down there.” “No, thank you, Uncle,” said Dinah; “I ate a good meal before I came away, for Mrs. Bede would make a kettle-cake for me.” “I don’t want any supper,” said Hetty, taking off her hat. “I can hold Totty now, if Aunt wants me.” “Why, what nonsense that is to talk!” said Mrs. Poyser. “Do you think you can live wi’out eatin’, an’ nourish your inside wi’ stickin’ red ribbons on your head? Go an’ get your supper this minute, child; there’s a nice bit o’ cold pudding i’ the safe—just what you’re fond of.” Hetty complied silently by going towards the pantry, and Mrs. Poyser went on speaking to Dinah.",
   "words": [
     {
-      "word": "shouting",
+      "word": "supper",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sawyer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blades",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "amuse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "impromptu",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "namely",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -45,7 +15,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

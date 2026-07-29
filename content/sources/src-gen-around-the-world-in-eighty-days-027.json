@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-027",
+  "pool": "sourced",
+  "text": "Passepartout did not change countenance on hearing this name. He thought that the time had not yet arrived to divulge to his master what had taken place between the detective and himself; and, in the account he gave of his absence, he simply excused himself for having been overtaken by drunkenness, in smoking opium at a tavern in Hong Kong. Mr. Fogg heard this narrative coldly, without a word; and then furnished his man with funds necessary to obtain clothing more in harmony with his position. Within an hour the Frenchman had cut off his nose and parted with his wings, and retained nothing about him which recalled the sectary of the god Tingou. The steamer which was about to depart from Yokohama to San Francisco belonged to the Pacific Mail Steamship Company, and was named the “General Grant.” She was a large paddle-wheel steamer of two thousand five hundred tons; well equipped and very fast.",
+  "words": [
+    {
+      "word": "overtaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "furnished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

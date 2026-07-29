@@ -1,16 +1,10 @@
 {
   "id": "src-gen-carmilla-014",
   "pool": "sourced",
-  "text": "“Pray do; I assure you that it is not mere curiosity that prompts me.” By this time we had reached the point at which the Drunstall road, by which the General had come, diverges from the road which we were traveling to Karnstein. “How far is it to the ruins?” inquired the General, looking anxiously forward. “About half a league,” answered my father. “Pray let us hear the story you were so good as to promise.” XI. The Story With all my heart,” said the General, with an effort; and after a short pause in which to arrange his subject, he commenced one of the strangest narratives I ever heard.",
+  "text": "“Carmilla, dear, here is an absolute miracle. Here you are, living, smiling, ready to speak, in this picture. Isn’t it beautiful, Papa? And see, even the little mole on her throat.” My father laughed, and said “Certainly it is a wonderful likeness,” but he looked away, and to my surprise seemed but little struck by it, and went on talking to the picture cleaner, who was also something of an artist, and discoursed with intelligence about the portraits or other works, which his art had just brought into light and color, while I was more and more lost in wonder the more I looked at the picture. “Will you let me hang this picture in my room, papa?” I asked.",
   "words": [
     {
-      "word": "pause",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "narratives",
+      "word": "papa",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

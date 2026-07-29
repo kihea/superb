@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-custom-of-the-country-014",
   "pool": "sourced",
-  "text": "\"There's everything against it,\" Madame de Trezac continued in a tone of patient exposition. She seemed to be doing her best to make the matter clear. \"In the first place, between people in society a religious marriage is necessary; and, since the Church doesn't recognize divorce, that's obviously out of the question. In France, a man of position who goes through the form of civil marriage with a divorced woman is simply ruining himself and her. They might much better--from her point of view as well as his--be 'friends,' as it's called over here: such arrangements are understood and allowed for.",
+  "text": "What could be more delightful than to feel that, while all the women envied her dress, the men did not so much as look at it? Their admiration was all for herself, and her beauty deepened under it as flowers take a warmer colour in the rays of sunset. Only Van Degen's glance weighed on her a little too heavily. Was it possible that he might become a \"bother\" less negligible than those he had relieved her of? Undine was not greatly alarmed--she still had full faith in her powers of self-defense; but she disliked to feel the least crease in the smooth surface of existence.",
   "words": [
     {
-      "word": "divorced",
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1913,
     "source": "Project Gutenberg #11052",
-    "url": "https://www.gutenberg.org/ebooks/11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

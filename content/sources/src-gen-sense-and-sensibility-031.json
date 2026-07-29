@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-031",
+  "pool": "sourced",
+  "text": "\"Well, Miss Dashwood,\" said Mrs. Jennings, sagaciously smiling, as soon as the gentleman had withdrawn, \"I do not ask you what the Colonel has been saying to you; for though, upon my honour, I tried to keep out of hearing, I could not help catching enough to understand his business. And I assure you I never was better pleased in my life, and I wish you joy of it with all my heart.\" \"Thank you, ma'am,\" said Elinor. \"It is a matter of great joy to me; and I feel the goodness of Colonel Brandon most sensibly. There are not many men who would act as he has done.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

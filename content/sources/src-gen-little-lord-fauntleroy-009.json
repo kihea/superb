@@ -1,28 +1,10 @@
 {
   "id": "src-gen-little-lord-fauntleroy-009",
   "pool": "sourced",
-  "text": "If, a week before, any one had told the Earl of Dorincourt that on that particular morning he would be forgetting his gout and his bad temper in a child's game, played with black and white wooden pegs, on a gayly painted board, with a curly-headed small boy for a companion, he would without doubt have made himself very unpleasant; and yet he certainly had forgotten himself when the door opened and Thomas announced a visitor. The visitor in question, who was an elderly gentleman in black, and no less a person than the clergyman of the parish, was so startled by the amazing scene which met his eye, that he almost fell back a pace, and ran some risk of colliding with Thomas. There was, in fact, no part of his duty that the Reverend Mr. Mordaunt found so decidedly unpleasant as that part which compelled him to call upon his noble patron at the Castle. His noble patron, indeed, usually made these visits as disagreeable as it lay in his lordly power to make them.",
+  "text": "To-morrow I will bring him to the Castle.” The Earl's elbow was resting on the arm of his chair; he put his hand up and shielded his eyes with it. “Well,” he said; “go on. You know I told you not to write to me about the matter, and I know nothing whatever about it. What kind of a lad is he? I don't care about the mother; what sort of a lad is he?” Mr. Havisham drank a little of the glass of port he had poured out for himself, and sat holding it in his hand.",
   "words": [
     {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "visitor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "decidedly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "patron",
+      "word": "elbow",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

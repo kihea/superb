@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-captains-courageous-027",
+  "pool": "sourced",
+  "text": "The dories roved and fished and squabbled till a swell underran the sea. Then they drew more apart to save their sides, and some one called that if the swell continued the Virgin would break. A reckless Galway man with his nephew denied this, hauled up anchor, and rowed over the very rock itself. Many voices called them to come away, while others dared them to hold on. As the smooth-backed rollers passed to the southward, they hove the dory high and high into the mist, and dropped her in ugly, sucking, dimpled water, where she spun round her anchor, within a foot or two of the hidden rock.",
+  "words": [
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

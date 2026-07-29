@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-bleak-house-035",
+  "pool": "sourced",
+  "text": "In truth she is not a hard lady naturally, and the time has been when the sight of the venerable figure suing to her with such strong earnestness would have moved her to great compassion. But so long accustomed to suppress emotion and keep down reality, so long schooled for her own purposes in that destructive school which shuts up the natural feelings of the heart like flies in amber and spreads one uniform and dreary gloss over the good and bad, the feeling and the unfeeling, the sensible and the senseless, she had subdued even her wonder until now. She opens the letter. Spread out upon the paper is a printed account of the discovery of the body as it lay face downward on the floor, shot through the heart; and underneath is written her own name, with the word “murderess” attached. It falls out of her hand.",
+  "words": [
+    {
+      "word": "suing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "senseless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

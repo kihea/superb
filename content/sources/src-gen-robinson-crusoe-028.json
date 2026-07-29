@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-robinson-crusoe-028",
+  "pool": "sourced",
+  "text": "I am now to be supposed retired into my castle, after my late voyage to the wreck, my frigate laid up and secured under water, as usual, and my condition restored to what it was before: I had more wealth, indeed, than I had before, but was not at all the richer; for I had no more use for it than the Indians of Peru had before the Spaniards came there. It was one of the nights in the rainy season in March, the four-and-twentieth year of my first setting foot in this island of solitude, I was lying in my bed or hammock, awake, very well in health, had no pain, no distemper, no uneasiness of body, nor any uneasiness of mind more than ordinary, but could by no means close my eyes, that is, so as to sleep; no, not a wink all night long, otherwise than as follows: It is impossible to set down the innumerable crowd of thoughts that whirled through that great thoroughfare of the brain, the memory, in this night’s time.",
+  "words": [
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hammock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-notes-from-underground-032",
+  "pool": "sourced",
+  "text": "While for you neither tear, nor sigh, nor remembrance; no one in the whole world will ever come to you, your name will vanish from the face of the earth—as though you had never existed, never been born at all! Nothing but filth and mud, however you knock at your coffin lid at night, when the dead arise, however you cry: ‘Let me out, kind people, to live in the light of day! My life was no life at all; my life has been thrown away like a dish-clout; it was drunk away in the tavern at the Haymarket; let me out, kind people, to live in the world again.’” And I worked myself up to such a pitch that I began to have a lump in my throat myself, and ... and all at once I stopped, sat up in dismay and, bending over apprehensively, began to listen with a beating heart. I had reason to be troubled.",
+  "words": [
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "arise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

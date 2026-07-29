@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-032",
+  "pool": "sourced",
+  "text": "Because when Tom Gradgrind, with his new lights, tells me that what I say is unreasonable, I am convinced at once it must be devilish sensible. With your permission I am going on. You know my origin; and you know that for a good many years of my life I didn’t want a shoeing-horn, in consequence of not having a shoe. Yet you may believe or not, as you think proper, that there are ladies—born ladies—belonging to families—Families!—who next to worship the ground I walk on.’ He discharged this like a Rocket, at his father-in-law’s head. ‘Whereas your daughter,’ proceeded Bounderby, ‘is far from being a born lady.",
+  "words": [
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

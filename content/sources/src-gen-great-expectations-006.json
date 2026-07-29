@@ -1,24 +1,18 @@
 {
   "id": "src-gen-great-expectations-006",
   "pool": "sourced",
-  "text": "Old Orlick felt that the situation admitted of nothing less than coming on, and was on his defence straightway; so, without so much as pulling off their singed and burnt aprons, they went at one another, like two giants. But, if any man in that neighbourhood could stand uplong against Joe, I never saw the man. Orlick, as if he had been of no more account than the pale young gentleman, was very soon among the coal-dust, and in no hurry to come out of it. Then Joe unlocked the door and picked up my sister, who had dropped insensible at the window (but who had seen the fight first, I think), and who was carried into the house and laid down, and who was recommended to revive, and would do nothing but struggle and clench her hands in Joe’s hair. Then came that singular calm and silence which succeed all uproars; and then, with the vague sensation which I have always connected with such a lull,—namely, that it was Sunday, and somebody was dead,—I went upstairs to dress myself.",
+  "text": "And I doubt if even you’ll go so far as that.” “Miss Havisham, up town?” said Joe. “Is there any Miss Havisham down town?” returned my sister. “She wants this boy to go and play there. And of course he’s going. And he had better play there,” said my sister, shaking her head at me as an encouragement to be extremely light and sportive, “or I’ll work him.” I had heard of Miss Havisham up town,—everybody for miles round had heard of Miss Havisham up town,—as an immensely rich and grim lady who lived in a large and dismal house barricaded against robbers, and who led a life of seclusion.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "immensely",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "singular",
+      "word": "grim",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sensation",
-      "signals": [
-        "definition-marker"
       ]
     }
   ],
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

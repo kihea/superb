@@ -16,12 +16,6 @@
       ]
     },
     {
-      "word": "remnants",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "shepherd",
       "signals": [
         "gloss-overlap"
@@ -29,12 +23,6 @@
     },
     {
       "word": "linen",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "weaving",
       "signals": [
         "gloss-overlap"
       ]
@@ -69,7 +57,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

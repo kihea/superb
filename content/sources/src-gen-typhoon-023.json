@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-typhoon-023",
+  "pool": "sourced",
+  "text": "A flying fragment of that collapse, a mere splash, enveloped them in one swirl from their feet over their heads, filling violently their ears, mouths and nostrils with salt water. It knocked out their legs, wrenched in haste at their arms, seethed away swiftly under their chins; and opening their eyes, they saw the piled-up masses of foam dashing to and fro amongst what looked like the fragments of a ship. She had given way as if driven straight in. Their panting hearts yielded, too, before the tremendous blow; and all at once she sprang up again to her desperate plunging, as if trying to scramble out from under the ruins. The seas in the dark seemed to rush from all sides to keep her back where she might perish.",
+  "words": [
+    {
+      "word": "collapse",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fro",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

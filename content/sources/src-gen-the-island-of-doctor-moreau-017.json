@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-017",
   "pool": "sourced",
-  "text": "Then I saw that the dawn was upon us. The sky had grown brighter, the setting moon was becoming pale and opaque in the luminous blue of the day. The sky to the eastward was rimmed with red. Suddenly I heard a thud and a hissing behind me, and, looking round, sprang to my feet with a cry of horror. Against the warm dawn great tumultuous masses of black smoke were boiling up out of the enclosure, and through their stormy darkness shot flickering threads of blood-red flame.",
+  "text": "I was astonished at this thin fog in the full blaze of daylight; but I had no time to stand wondering then. I turned to my right, down-stream, hoping to come to the sea in that direction, and so have my way open to drown myself. It was only later I found that I had dropped my nailed stick in my fall. Presently the ravine grew narrower for a space, and carelessly I stepped into the stream. I jumped out again pretty quickly, for the water was almost boiling.",
   "words": [
     {
-      "word": "brighter",
+      "word": "drown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "presently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ravine",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

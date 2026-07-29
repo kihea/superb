@@ -1,16 +1,17 @@
 {
   "id": "src-gen-crime-and-punishment-002",
   "pool": "sourced",
-  "text": "Across the furthest corner was stretched a ragged sheet. Behind it probably was the bed. There was nothing in the room except two chairs and a sofa covered with American leather, full of holes, before which stood an old deal kitchen-table, unpainted and uncovered. At the edge of the table stood a smoldering tallow-candle in an iron candlestick. It appeared that the family had a room to themselves, not part of a room, but their room was practically a passage.",
+  "text": "The persons still in the tavern were a man who appeared to be an artisan, drunk, but not extremely so, sitting before a pot of beer, and his companion, a huge, stout man with a grey beard, in a short full-skirted coat. He was very drunk: and had dropped asleep on the bench; every now and then, he began as though in his sleep, cracking his fingers, with his arms wide apart and the upper part of his body bounding about on the bench, while he hummed some meaningless refrain, trying to recall some such lines as these: “His wife a year he fondly loved His wife a--a year he--fondly loved.” Or suddenly waking up again: “Walking along the crowded row He met the one he used to know.” But no one shared his enjoyment: his silent companion looked with positive hostility and mistrust at all these manifestations. There was another man in the room who looked somewhat like a retired government clerk. He was sitting apart, now and then sipping from his pot and looking round at the company. He, too, appeared to be in some agitation.",
   "words": [
     {
-      "word": "sofa",
+      "word": "companion",
       "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "candle",
+      "word": "clerk",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +22,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1866,
     "source": "Project Gutenberg #2554",
-    "url": "https://www.gutenberg.org/ebooks/2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

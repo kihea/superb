@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-032",
+  "pool": "sourced",
+  "text": "On that side of the road where the brook entered the wood, a group of oaks and chestnuts, matted thick with wild grape-vines, threw a cavernous gloom over it. To pass this bridge was the severest trial. It was at this identical spot that the unfortunate André was captured, and under the covert of those chestnuts and vines were the sturdy yeomen concealed who surprised him. This has ever since been considered a haunted stream, and fearful are the feelings of the schoolboy who has to pass it alone after dark. As he approached the stream, his heart began to thump; he summoned up, however, all his resolution, gave his horse half a score of kicks in the ribs, and attempted to dash briskly across the bridge; but instead of starting forward, the perverse old animal made a lateral movement, and ran broadside against the fence.",
+  "words": [
+    {
+      "word": "oaks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grape",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "covert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lateral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

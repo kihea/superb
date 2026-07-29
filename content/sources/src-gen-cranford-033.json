@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-cranford-033",
+  "pool": "sourced",
+  "text": "Mrs Forrester was there, crying quietly and sadly, and my arrival seemed only to call forth fresh tears. Before we had finished our greetings, performed with lugubrious mystery of demeanour, there was another rat-tat-tat, and Mrs Fitz-Adam appeared, crimson with walking and excitement. It seemed as if this was all the company expected; for now Miss Pole made several demonstrations of being about to open the business of the meeting, by stirring the fire, opening and shutting the door, and coughing and blowing her nose. Then she arranged us all round the table, taking care to place me opposite to her; and last of all, she inquired of me if the sad report was true, as she feared it was, that Miss Matty had lost all her fortune? Of course, I had but one answer to make; and I never saw more unaffected sorrow depicted on any countenances than I did there on the three before me.",
+  "words": [
+    {
+      "word": "sadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

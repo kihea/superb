@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-011",
   "pool": "sourced",
-  "text": "I came to you to beg that you give me courage, so that in reality I may become the King of Beasts, as men call me.” “Why should I give you courage?” demanded Oz. “Because of all Wizards you are the greatest, and alone have power to grant my request,” answered the Lion. The Ball of Fire burned fiercely for a time, and the voice said, “Bring me proof that the Wicked Witch is dead, and that moment I will give you courage. But as long as the Witch lives, you must remain a coward.” The Lion was angry at this speech, but could say nothing in reply, and while he stood silently gazing at the Ball of Fire it became so furiously hot that he turned tail and rushed from the room. He was glad to find his friends waiting for him, and told them of his terrible interview with the Wizard.",
+  "text": "And the Scarecrow found a tree full of nuts and filled Dorothy’s basket with them, so that she would not be hungry for a long time. She thought this was very kind and thoughtful of the Scarecrow, but she laughed heartily at the awkward way in which the poor creature picked up the nuts. His padded hands were so clumsy and the nuts were so small that he dropped almost as many as he put in the basket. But the Scarecrow did not mind how long it took him to fill the basket, for it enabled him to keep away from the fire, as he feared a spark might get into his straw and burn him up. So he kept a good distance away from the flames, and only came near to cover Dorothy with dry leaves when she lay down to sleep.",
   "words": [
     {
-      "word": "coward",
+      "word": "thoughtful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clumsy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spark",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

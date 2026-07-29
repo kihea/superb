@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-great-god-pan-019",
   "pool": "sourced",
-  "text": "Dr.” ...Such, Raymond, is the story of what I know and what I have seen. The burden of it was too heavy for me to bear alone, and yet I could tell it to none but you. Villiers, who was with me at the last, knows nothing of that awful secret of the wood, of how what we both saw die, lay upon the smooth, sweet turf amidst the summer flowers, half in sun and half in shadow, and holding the girl Rachel’s hand, called and summoned those companions, and shaped in solid form, upon the earth we tread upon, the horror which we can but hint at, which we can only name under a figure. I would not tell Villiers of this, nor of that resemblance, which struck me as with a blow upon my heart, when I saw the portrait, which filled the cup of terror at the end. What this can mean I dare not guess.",
+  "text": "I was staggering about from one side of the pavement to the other, and it was as much as I could do to take the key back to the agent and get home. I was in bed for a week, suffering from what my doctor called nervous shock and exhaustion. One of those days I was reading the evening paper, and happened to notice a paragraph headed: ‘Starved to Death.’ It was the usual style of thing; a model lodging-house in Marylebone, a door locked for several days, and a dead man in his chair when they broke in. ‘The deceased,’ said the paragraph, ‘was known as Charles Herbert, and is believed to have been once a prosperous country gentleman. His name was familiar to the public three years ago in connection with the mysterious death in Paul Street, Tottenham Court Road, the deceased being the tenant of the house Number 20, in the area of which a gentleman of good position was found dead under circumstances not devoid of suspicion.’ A tragic ending, wasn’t it?",
   "words": [
     {
-      "word": "turf",
+      "word": "deceased",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tenant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tragic",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

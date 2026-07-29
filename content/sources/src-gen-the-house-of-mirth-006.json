@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-house-of-mirth-006",
   "pool": "sourced",
-  "text": "As a cousin of the bridegroom, Miss Bart had been asked to act as bridesmaid; but she had declined on the plea that, since she was much taller than the other attendant virgins, her presence might mar the symmetry of the group. The truth was, she had attended too many brides to the altar: when next seen there she meant to be the chief figure in the ceremony. She knew the pleasantries made at the expense of young girls who have been too long before the public, and she was resolved to avoid such assumptions of youthfulness as might lead people to think her older than she really was. The Van Osburgh marriage was celebrated in the village church near the paternal estate on the Hudson. It was the “simple country wedding” to which guests are convoyed in special trains, and from which the hordes of the uninvited have to be fended off by the intervention of the police.",
+  "text": "All, I mean, except her own. It’s rather clever of her to have made a specialty of devoting herself to dull people—the field is such a large one, and she has it practically to herself. She finds compensations, no doubt—I know she borrows money of Gus—but then I’d PAY her to keep him in a good humour, so I can’t complain, after all.” Mrs. Trenor paused to enjoy the spectacle of Miss Bart’s efforts to unravel her tangled correspondence. “But it is only the Wetheralls and Carry,” she resumed, with a fresh note of lament. “The truth is, I’m awfully disappointed in Lady Cressida Raith.” “Disappointed?",
   "words": [
     {
-      "word": "mar",
+      "word": "specialty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "brides",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "assumptions",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hordes",
+      "word": "unravel",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

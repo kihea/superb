@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-room-with-a-view-034",
+  "pool": "sourced",
+  "text": "Lying to Mr. Beebe, Mrs. Honeychurch, Freddy, and The Servants Windy Corner lay, not on the summit of the ridge, but a few hundred feet down the southern slope, at the springing of one of the great buttresses that supported the hill. On either side of it was a shallow ravine, filled with ferns and pine-trees, and down the ravine on the left ran the highway into the Weald. Whenever Mr. Beebe crossed the ridge and caught sight of these noble dispositions of the earth, and, poised in the middle of them, Windy Corner,—he laughed. The situation was so glorious, the house so commonplace, not to say impertinent. The late Mr. Honeychurch had affected the cube, because it gave him the most accommodation for his money, and the only addition made by his widow had been a small turret, shaped like a rhinoceros’ horn, where she could sit in wet weather and watch the carts going up and down the road.",
+  "words": [
+    {
+      "word": "slope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glorious",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "turret",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Room with a View",
+    "author": "E. M. Forster",
+    "year": 1908,
+    "source": "Project Gutenberg #2641",
+    "url": "https://www.gutenberg.org/ebooks/2641.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

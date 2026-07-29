@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-040",
+  "pool": "sourced",
+  "text": "M. Emanuel wore the dress in which he probably purposed to travel—a surtout, guarded with velvet; I thought him prepared for instant departure, and yet I had understood that two days were yet to run before the ship sailed. He looked well and cheerful. He looked kind and benign: he came in with eagerness; he was close to me in one second; he was all amity. It might be his bridegroom mood which thus brightened him. Whatever the cause, I could not meet his sunshine with cloud.",
+  "words": [
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "benign",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

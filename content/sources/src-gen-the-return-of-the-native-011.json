@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-return-of-the-native-011",
   "pool": "sourced",
-  "text": "With this he won. Won back his coat, won back his hat, won back his umbrella, his watch, his money, and went out of the door a rich man.” “Oh, ’tis too good—it takes away my breath! Mr. Wildeve, I think I will try another shilling with you, as I am one of that sort; no danger can come o’t, and you can afford to lose.” “Very well,” said Wildeve, rising. Searching about with the lantern, he found a large flat stone, which he placed between himself and Christian, and sat down again. The lantern was opened to give more light, and its rays directed upon the stone.",
+  "text": "For mummers and mumming Eustacia had the greatest contempt. The mummers themselves were not afflicted with any such feeling for their art, though at the same time they were not enthusiastic. A traditional pastime is to be distinguished from a mere revival in no more striking feature than in this, that while in the revival all is excitement and fervour, the survival is carried on with a stolidity and absence of stir which sets one wondering why a thing that is done so perfunctorily should be kept up at all. Like Balaam and other unwilling prophets, the agents seem moved by an inner compulsion to say and do their allotted parts whether they will or no. This unweeting manner of performance is the true ring by which, in this refurbishing age, a fossilized survival may be known from a spurious reproduction.",
   "words": [
     {
-      "word": "lantern",
+      "word": "contempt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinguished",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

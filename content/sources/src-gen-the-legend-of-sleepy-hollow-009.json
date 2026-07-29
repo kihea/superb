@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-009",
   "pool": "sourced",
-  "text": "Still he must have had fire and mettle in his day, if we may judge from the name he bore of Gunpowder. He had, in fact, been a favorite steed of his master’s, the choleric Van Ripper, who was a furious rider, and had infused, very probably, some of his own spirit into the animal; for, old and broken-down as he looked, there was more of the lurking devil in him than in any young filly in the country. Ichabod was a suitable figure for such a steed. He rode with short stirrups, which brought his knees nearly up to the pommel of the saddle; his sharp elbows stuck out like grasshoppers’; he carried his whip perpendicularly in his hand, like a sceptre, and as his horse jogged on, the motion of his arms was not unlike the flapping of a pair of wings. A small wool hat rested on the top of his nose, for so his scanty strip of forehead might be called, and the skirts of his black coat fluttered out almost to the horses tail.",
+  "text": "As the enraptured Ichabod fancied all this, and as he rolled his great green eyes over the fat meadow lands, the rich fields of wheat, of rye, of buckwheat, and Indian corn, and the orchards burdened with ruddy fruit, which surrounded the warm tenement of Van Tassel, his heart yearned after the damsel who was to inherit these domains, and his imagination expanded with the idea, how they might be readily turned into cash, and the money invested in immense tracts of wild land, and shingle palaces in the wilderness. Nay, his busy fancy already realized his hopes, and presented to him the blooming Katrina, with a whole family of children, mounted on the top of a wagon loaded with household trumpery, with pots and kettles dangling beneath; and he beheld himself bestriding a pacing mare, with a colt at her heels, setting out for Kentucky, Tennessee,--or the Lord knows where! When he entered the house, the conquest of his heart was complete.",
   "words": [
     {
-      "word": "filly",
+      "word": "fancied",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "rode",
+      "word": "meadow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "saddle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "whip",
+      "word": "wilderness",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

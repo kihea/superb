@@ -1,10 +1,17 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-020",
   "pool": "sourced",
-  "text": "But I would rather not talk about the creature, Mr. Holmes, and, indeed, he has little to do with my story.” “I am glad of all details,” remarked my friend, “whether they seem to you to be relevant or not.” “I shall try not to miss anything of importance. The one unpleasant thing about the house, which struck me at once, was the appearance and conduct of the servants. There are only two, a man and his wife. Toller, for that is his name, is a rough, uncouth man, with grizzled hair and whiskers, and a perpetual smell of drink. Twice since I have been with them he has been quite drunk, and yet Mr. Rucastle seemed to take no notice of it.",
+  "text": "Ryder instantly gave the alarm, and Horner was arrested the same evening; but the stone could not be found either upon his person or in his rooms. Catherine Cusack, maid to the Countess, deposed to having heard Ryder’s cry of dismay on discovering the robbery, and to having rushed into the room, where she found matters as described by the last witness. Inspector Bradstreet, B division, gave evidence as to the arrest of Horner, who struggled frantically, and protested his innocence in the strongest terms. Evidence of a previous conviction for robbery having been given against the prisoner, the magistrate refused to deal summarily with the offence, but referred it to the Assizes. Horner, who had shown signs of intense emotion during the proceedings, fainted away at the conclusion and was carried out of court.” “Hum!",
   "words": [
     {
-      "word": "servants",
+      "word": "prisoner",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "magistrate",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +22,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

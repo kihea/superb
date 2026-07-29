@@ -1,52 +1,34 @@
 {
   "id": "src-gen-the-scarlet-letter-006",
   "pool": "sourced",
-  "text": "In all her intercourse with society, however, there was nothing that made her feel as if she belonged to it. Every gesture, every word, and even the silence of those with whom she came in contact, implied, and often expressed, that she was banished, and as much alone as if she inhabited another sphere, or communicated with the common nature by other organs and senses than the rest of human kind. She stood apart from mortal interests, yet close beside them, like a ghost that revisits the familiar fireside, and can no longer make itself seen or felt; no more smile with the household joy, nor mourn with the kindred sorrow; or, should it succeed in manifesting its forbidden sympathy, awakening only terror and horrible repugnance. These emotions, in fact, and its bitterest scorn besides, seemed to be the sole portion that she retained in the universal heart. It was not an age of delicacy; and her position, although she understood it well, and was in little danger of forgetting it, was often brought before her vivid self-perception, like a new anguish, by the rudest touch upon the tenderest spot.",
+  "text": "Although, by a seemingly careless arrangement of his heterogeneous garb, he had endeavoured to conceal or abate the peculiarity, it was sufficiently evident to Hester Prynne that one of this man’s shoulders rose higher than the other. Again, at the first instant of perceiving that thin visage, and the slight deformity of the figure, she pressed her infant to her bosom with so convulsive a force that the poor babe uttered another cry of pain. But the mother did not seem to hear it. At his arrival in the market-place, and some time before she saw him, the stranger had bent his eyes on Hester Prynne. It was carelessly at first, like a man chiefly accustomed to look inward, and to whom external matters are of little value and import, unless they bear relation to something within his mind.",
   "words": [
     {
-      "word": "gesture",
+      "word": "conceal",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "senses",
+      "word": "babe",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "beside",
+      "word": "accustomed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mourn",
+      "word": "inward",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "kindred",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sympathy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "scorn",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "retained",
+      "word": "import",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +39,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-daisy-miller-020",
   "pool": "sourced",
-  "text": "Winterbourne reflected that they had of course known it at the hotel, and that, after Daisy’s return, there had been an exchange of remarks between the porter and the cab driver. But the young man was conscious, at the same moment, that it had ceased to be a matter of serious regret to him that the little American flirt should be “talked about” by low-minded menials. These people, a day or two later, had serious information to give: the little American flirt was alarmingly ill. Winterbourne, when the rumor came to him, immediately went to the hotel for more news. He found that two or three charitable friends had preceded him, and that they were being entertained in Mrs. Miller’s salon by Randolph. “It’s going round at night,” said Randolph--“that’s what made her sick.",
+  "text": "“I have never allowed a gentleman to dictate to me, or to interfere with anything I do.” “I think you have made a mistake,” said Winterbourne. “You should sometimes listen to a gentleman--the right one.” Daisy began to laugh again. “I do nothing but listen to gentlemen!” she exclaimed. “Tell me if Mr. Giovanelli is the right one?” The gentleman with the nosegay in his bosom had now perceived our two friends, and was approaching the young girl with obsequious rapidity. He bowed to Winterbourne as well as to the latter’s companion; he had a brilliant smile, an intelligent eye; Winterbourne thought him not a bad-looking fellow.",
   "words": [
     {
-      "word": "rumor",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1878,
     "source": "Project Gutenberg #208",
-    "url": "https://www.gutenberg.org/ebooks/208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

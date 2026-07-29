@@ -1,28 +1,16 @@
 {
   "id": "src-gen-robinson-crusoe-015",
   "pool": "sourced",
-  "text": "Well, after his astonishment was a little over at this, I pointed to him to run and fetch the bird I had shot, which he did, but stayed some time; for the parrot, not being quite dead, had fluttered away a good distance from the place where she fell: however, he found her, took her up, and brought her to me; and as I had perceived his ignorance about the gun before, I took this advantage to charge the gun again, and not to let him see me do it, that I might be ready for any other mark that might present; but nothing more offered at that time: so I brought home the kid, and the same evening I took the skin off, and cut it out as well as I could; and having a pot fit for that purpose, I boiled or stewed some of the flesh, and made some very good broth. After I had begun to eat some I gave some to my man, who seemed very glad of it, and liked it very well; but that which was strangest to him was to see me eat salt with it.",
+  "text": "I found in the low grounds hares (as I thought them to be) and foxes; but they differed greatly from all the other kinds I had met with, nor could I satisfy myself to eat them, though I killed several. But I had no need to be venturous, for I had no want of food, and of that which was very good too, especially these three sorts, viz. goats, pigeons, and turtle, or tortoise, which added to my grapes, Leadenhall market could not have furnished a table better than I, in proportion to the company; and though my case was deplorable enough, yet I had great cause for thankfulness that I was not driven to any extremities for food, but had rather plenty, even to dainties.",
   "words": [
     {
-      "word": "parrot",
+      "word": "satisfy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "perceived",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "boiled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "broth",
+      "word": "turtle",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

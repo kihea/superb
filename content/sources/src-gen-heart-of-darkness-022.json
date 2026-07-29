@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heart-of-darkness-022",
+  "pool": "sourced",
+  "text": "“I went forward, and ordered the chain to be hauled in short, so as to be ready to trip the anchor and move the steamboat at once if necessary. ‘Will they attack?’ whispered an awed voice. ‘We will be all butchered in this fog,’ murmured another. The faces twitched with the strain, the hands trembled slightly, the eyes forgot to wink. It was very curious to see the contrast of expressions of the white men and of the black fellows of our crew, who were as much strangers to that part of the river as we, though their homes were only eight hundred miles away.",
+  "words": [
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strain",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "wink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-023",
+  "pool": "sourced",
+  "text": "The legendary hosts of Goths and Huns, the hugest armies Asia has ever seen, would have been but a drop in that current. And this was no disciplined march; it was a stampede—a stampede gigantic and terrible—without order and without a goal, six million people unarmed and unprovisioned, driving headlong. It was the beginning of the rout of civilisation, of the massacre of mankind. Directly below him the balloonist would have seen the network of streets far and wide, houses, churches, squares, crescents, gardens—already derelict—spread out like a huge map, and in the southward blotted. Over Ealing, Richmond, Wimbledon, it would have seemed as if some monstrous pen had flung ink upon the chart.",
+  "words": [
+    {
+      "word": "stampede",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "massacre",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

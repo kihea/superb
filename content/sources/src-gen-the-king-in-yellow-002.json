@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-king-in-yellow-002",
   "pool": "sourced",
-  "text": "“Come, come, old fellow,” he cried, “take off that brass crown and toddle into the study. Are you going to a masquerade? What’s all this theatrical tinsel anyway?” I was glad he thought the crown was made of brass and paste, yet I didn’t like him any the better for thinking so. I let him take it from my hand, knowing it was best to humour him. He tossed the splendid diadem in the air, and catching it, turned to me smiling.",
+  "text": "Brigs, schooners, yachts, clumsy ferry-boats, their decks swarming with people, railroad transports carrying lines of brown, blue and white freight cars, stately sound steamers, déclassé tramp steamers, coasters, dredgers, scows, and everywhere pervading the entire bay impudent little tugs puffing and whistling officiously;—these were the craft which churned the sunlight waters as far as the eye could reach. In calm contrast to the hurry of sailing vessel and steamer a silent fleet of white warships lay motionless in midstream. Constance’s merry laugh aroused me from my reverie. “What are you staring at?” she inquired. “Nothing—the fleet,” I smiled.",
   "words": [
     {
-      "word": "paste",
+      "word": "freight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whistling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

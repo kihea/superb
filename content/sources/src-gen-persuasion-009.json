@@ -1,46 +1,22 @@
 {
   "id": "src-gen-persuasion-009",
   "pool": "sourced",
-  "text": "The varieties in the fitting-up of the rooms, where the common necessaries provided by the owner, in the common indifferent plight, were contrasted with some few articles of a rare species of wood, excellently worked up, and with something curious and valuable from all the distant countries Captain Harville had visited, were more than amusing to Anne; connected as it all was with his profession, the fruit of its labours, the effect of its influence on his habits, the picture of repose and domestic happiness it presented, made it to her a something more, or less, than gratification. Captain Harville was no reader; but he had contrived excellent accommodations, and fashioned very pretty shelves, for a tolerable collection of well-bound volumes, the property of Captain Benwick. His lameness prevented him from taking much exercise; but a mind of usefulness and ingenuity seemed to furnish him with constant employment within. He drew, he varnished, he carpentered, he glued; he made toys for the children; he fashioned new netting-needles and pins with improvements; and if everything else was done, sat down to his large fishing-net at one corner of the room.",
+  "text": "“Nobody knew how much she should suffer. She should put it off as long as she could;” but was not easy till she had talked Charles into driving her over on an early day, and was in a very animated, comfortable state of imaginary agitation, when she came back. Anne had very sincerely rejoiced in there being no means of her going. She wished, however, to see the Crofts, and was glad to be within when the visit was returned. They came: the master of the house was not at home, but the two sisters were together; and as it chanced that Mrs Croft fell to the share of Anne, while the Admiral sat by Mary, and made himself very agreeable by his good-humoured notice of her little boys, she was well able to watch for a likeness, and if it failed her in the features, to catch it in the voice, or in the turn of sentiment and expression.",
   "words": [
     {
-      "word": "contrasted",
+      "word": "agitation",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "amusing",
+      "word": "agreeable",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "profession",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "habits",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "gratification",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prevented",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glued",
+      "word": "likeness",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

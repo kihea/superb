@@ -1,10 +1,16 @@
 {
   "id": "src-gen-north-and-south-018",
   "pool": "sourced",
-  "text": "I want to forget.” So the arrangements went on: and Captain Lennox came, and with him news of Edith and the little boy; and Margaret found that the indifferent, careless conversation of one who, however kind, was not too warm and anxious a sympathiser, did her good. She roused up; and by the time that she knew she might expect Higgins, she was able to leave the room quietly, and await in her own chamber the expected summons. “Eh!” said he, as she came in, “to think of th’ oud gentleman dropping off as he did! Yo’ might ha’ knocked me down wi’ a straw when they telled me. Hale?’ said I; ‘him as was th’ parson?’ ‘Ay,’ said they.",
+  "text": "I must go home.” “Not until I have applied some strips of plaster, and you have rested a little.” She sat down hastily, without another word, and allowed it to be bound up. “Now, if you please,” said she, “I must go. Mamma will not see it, I think. It is under the hair, is it not?” “Quite; no one could tell.” “But you must not go,” said Mrs. Thornton, impatiently. “You are not fit to go.” “I must,” said Margaret, decidedly.",
   "words": [
     {
-      "word": "quietly",
+      "word": "plaster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "decidedly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

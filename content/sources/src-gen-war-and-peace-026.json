@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-026",
+  "pool": "sourced",
+  "text": "Is it time?” Pierre asked, waking up. “Hear the firing,” said the groom, a discharged soldier. “All the gentlemen have gone out, and his Serene Highness himself rode past long ago.” Pierre dressed hastily and ran out to the porch. Outside all was bright, fresh, dewy, and cheerful. The sun, just bursting forth from behind a cloud that had concealed it, was shining, with rays still half broken by the clouds, over the roofs of the street opposite, on the dew-besprinkled dust of the road, on the walls of the houses, on the windows, the fence, and on Pierre’s horses standing before the hut.",
+  "words": [
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

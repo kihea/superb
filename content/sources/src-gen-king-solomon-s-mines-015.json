@@ -1,10 +1,22 @@
 {
   "id": "src-gen-king-solomon-s-mines-015",
   "pool": "sourced",
-  "text": "But at this time the matter went no further, for that instant there rose from the regiments pressing round us something like a shout of dismay, and on looking up I saw the cause. To the right and to the left the plain was alive with the plumes of charging warriors. The outflanking squadrons had come to our relief. The time could not have been better chosen. All Twala’s army, as Ignosi predicted would be the case, had fixed their attention on the bloody struggle which was raging round the remnant of the Greys and that of the Buffaloes, who were now carrying on a battle of their own at a little distance, which two regiments had formed the chest of our army.",
+  "text": "The audience gasped. “Where are his teeth?” they shouted; “with our eyes we saw them.” Turning his head slowly and with a gesture of ineffable contempt, Good swept his hand across his mouth. Then he grinned again, and lo, there were two rows of lovely teeth. Now the young man who had flung the knife threw himself down on the grass and gave vent to a prolonged howl of terror; and as for the old gentleman, his knees knocked together with fear. “I see that ye are spirits,” he said falteringly; “did ever man born of woman have hair on one side of his face and not on the other, or a round and transparent eye, or teeth which moved and melted away and grew again?",
   "words": [
     {
-      "word": "dismay",
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transparent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. Rider Haggard",
     "year": 1885,
     "source": "Project Gutenberg #2166",
-    "url": "https://www.gutenberg.org/ebooks/2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

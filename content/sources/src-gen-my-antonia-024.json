@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-my-antonia-024",
+  "pool": "sourced",
+  "text": "‘If you go to work for the Cutters, you’re likely to have a fling that you won’t get up from in a hurry.’ Frances said, when she told grandmother and me about this scene, that every pan and plate and cup on the shelves trembled when her mother walked out of the kitchen. Mrs. Harling declared bitterly that she wished she had never let herself get fond of Ántonia. XI Wick Cutter was the money-lender who had fleeced poor Russian Peter. When a farmer once got into the habit of going to Cutter, it was like gambling or the lottery; in an hour of discouragement he went back. Cutter’s first name was Wycliffe, and he liked to talk about his pious bringing-up.",
+  "words": [
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lender",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gambling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

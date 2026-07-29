@@ -1,16 +1,28 @@
 {
   "id": "src-gen-heidi-009",
   "pool": "sourced",
-  "text": "The grandmother had a lot of pretty dolls, and she showed Heidi how to make dresses and pinafores for them, so that Heidi learnt how to sew and to make all sorts of beautiful clothes for the little people out of a wonderful collection of pieces that grandmother had by her of every describable and lovely color. And then grandmother liked to hear her read aloud, and the oftener Heidi read her tales the fonder she grew of them. She entered into the lives of all the people she read about so that they became like dear friends to her, and it delighted her more and more to be with them. But still Heidi never looked really happy, and her bright eyes were no longer to be seen. It was the last week of the grandmother's visit.",
+  "text": "But mind, when he explains anything to you, you won't be able to understand; but don't ask any questions, or else he will go on explaining and you will understand less than ever. Later when you have learnt more and know about things yourself, then you will begin to understand what he meant.\" Fraulein Rottenmeier now came back into the room; she had not been able to overtake Dete, and was evidently very much put out; for she had wanted to go into more details concerning the child, and to convince Dete how misleading she had been, and how unfit Heidi was as a companion for Clara; she really did not know what to be about, or how to undo the mischief, and it made her all the more angry that she herself was responsible for it, having consented to Heidi being fetched. She ran backwards and forwards in a state of agitation between the study and the dining-room, and then began scolding Sebastian, who was standing looking at the table he had just finished laying to see that nothing was missing. \"You can finish your thoughts to-morrow morning; make haste, or we shall get no dinner to-day at all.\"",
   "words": [
     {
-      "word": "dresses",
+      "word": "backwards",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sew",
+      "word": "agitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

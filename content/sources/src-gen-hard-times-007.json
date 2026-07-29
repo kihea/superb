@@ -1,10 +1,16 @@
 {
   "id": "src-gen-hard-times-007",
   "pool": "sourced",
-  "text": "The same great manufacturer, always with an immense variety of work on hand, in every stage of development, passed Sissy onward in his mill, and worked her up into a very pretty article indeed. ‘I fear, Jupe,’ said Mr. Gradgrind, ‘that your continuance at the school any longer would be useless.’ ‘I am afraid it would, sir,’ Sissy answered with a curtsey. ‘I cannot disguise from you, Jupe,’ said Mr. Gradgrind, knitting his brow, ‘that the result of your probation there has disappointed me; has greatly disappointed me. You have not acquired, under Mr. and Mrs. M’Choakumchild, anything like that amount of exact knowledge which I looked for. You are extremely deficient in your facts.",
+  "text": "‘Now, Jupe,’ said Mr. Gradgrind. ‘If you are quite determined, come!’ But she had to take her farewell of the male part of the company yet, and every one of them had to unfold his arms (for they all assumed the professional attitude when they found themselves near Sleary), and give her a parting kiss—Master Kidderminster excepted, in whose young nature there was an original flavour of the misanthrope, who was also known to have harboured matrimonial views, and who moodily withdrew. Mr. Sleary was reserved until the last. Opening his arms wide he took her by both her hands, and would have sprung her up and down, after the riding-master manner of congratulating young ladies on their dismounting from a rapid act; but there was no rebound in Sissy, and she only stood before him crying. ‘Good-bye, my dear!’ said Sleary.",
   "words": [
     {
-      "word": "knitting",
+      "word": "farewell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parting",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

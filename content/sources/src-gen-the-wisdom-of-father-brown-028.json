@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-028",
+  "pool": "sourced",
+  "text": "“You do it at your own peril,” he said; “but wouldn’t you be an atheist to keep sane in all this devilry?” Some three hours afterwards Fanshaw, Flambeau and the priest were still dawdling about the garden in the dark; and it began to dawn on the other two that Father Brown had no intention of going to bed either in the tower or the house. “I think the lawn wants weeding,” said he dreamily. “If I could find a spud or something I’d do it myself.” They followed him, laughing and half remonstrating; but he replied with the utmost solemnity, explaining to them, in a maddening little sermon, that one can always find some small occupation that is helpful to others. He did not find a spud; but he found an old broom made of twigs, with which he began energetically to brush the fallen leaves off the grass.",
+  "words": [
+    {
+      "word": "lawn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occupation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

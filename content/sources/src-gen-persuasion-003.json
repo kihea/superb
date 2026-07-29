@@ -1,28 +1,10 @@
 {
   "id": "src-gen-persuasion-003",
   "pool": "sourced",
-  "text": "Troubles soon arose. Sir Walter, on being applied to, without actually withholding his consent, or saying it should never be, gave it all the negative of great astonishment, great coldness, great silence, and a professed resolution of doing nothing for his daughter. He thought it a very degrading alliance; and Lady Russell, though with more tempered and pardonable pride, received it as a most unfortunate one. Anne Elliot, with all her claims of birth, beauty, and mind, to throw herself away at nineteen; involve herself at nineteen in an engagement with a young man, who had nothing but himself to recommend him, and no hopes of attaining affluence, but in the chances of a most uncertain profession, and no connexions to secure even his farther rise in the profession, would be, indeed, a throwing away, which she grieved to think of! Anne Elliot, so young; known to so few, to be snatched off by a stranger without alliance or fortune; or rather sunk by him into a state of most wearing, anxious, youth-killing dependence!",
+  "text": "Lady Russell felt obliged to oppose her dear Anne’s known wishes. It would be too much to expect Sir Walter to descend into a small house in his own neighbourhood. Anne herself would have found the mortifications of it more than she foresaw, and to Sir Walter’s feelings they must have been dreadful. And with regard to Anne’s dislike of Bath, she considered it as a prejudice and mistake arising, first, from the circumstance of her having been three years at school there, after her mother’s death; and secondly, from her happening to be not in perfectly good spirits the only winter which she had afterwards spent there with herself. Lady Russell was fond of Bath, in short, and disposed to think it must suit them all; and as to her young friend’s health, by passing all the warm months with her at Kellynch Lodge, every danger would be avoided; and it was in fact, a change which must do both health and spirits good.",
   "words": [
     {
-      "word": "withholding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tempered",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "unfortunate",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dependence",
+      "word": "circumstance",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

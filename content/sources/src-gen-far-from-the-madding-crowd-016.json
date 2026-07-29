@@ -1,10 +1,28 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-016",
   "pool": "sourced",
-  "text": "When the momentary surprise had passed, his expression changed to a silencing imperious gaze. “I will not kiss you,” he said, pushing her away. Had the wife now but gone no further. Yet, perhaps, under the harrowing circumstances, to speak out was the one wrong act which can be better understood, if not forgiven in her, than the right and politic one. All the feeling she had been betrayed into showing she drew back to herself again by a strenuous effort of self-command.",
+  "text": "God was palpably present in the country, and the devil had gone with the world to town. Flossy catkins of the later kinds, fern-fronds like bishops’ croziers, the square-headed moschatel, the odd cuckoo-pint,—like an apoplectic saint in a niche of malachite—clear white ladies’-smocks, the toothwort, approximating to human flesh, the enchanter’s nightshade, and the black-petaled doleful-bells, were among the quainter objects of the vegetable world in and about Weatherbury at this teeming time; and of the animal, the metamorphosed figures of Mr. Jan Coggan, the master-shearer; the second and third shearers, who travelled in the exercise of their calling, and do not require definition by name; Henery Fray the fourth shearer, Susan Tall’s husband the fifth, Joseph Poorgrass the sixth, young Cain Ball as assistant-shearer, and Gabriel Oak as general supervisor. None of these were clothed to any extent worth mentioning, each appearing to have hit in the matter of raiment the decent mean between a high and low caste Hindoo. An angularity of lineament, and a fixity of facial machinery in general, proclaimed that serious work was the order of the day.",
   "words": [
     {
-      "word": "forgiven",
+      "word": "cuckoo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flesh",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supervisor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

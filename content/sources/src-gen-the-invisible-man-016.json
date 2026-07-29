@@ -1,16 +1,46 @@
 {
   "id": "src-gen-the-invisible-man-016",
   "pool": "sourced",
-  "text": "I turned about, no longer aimless, and went—circuitously in order to avoid the busy ways, towards the back streets north of the Strand; for I remembered, though not very distinctly where, that some theatrical costumiers had shops in that district. “The day was cold, with a nipping wind down the northward running streets. I walked fast to avoid being overtaken. Every crossing was a danger, every passenger a thing to watch alertly. One man as I was about to pass him at the top of Bedford Street, turned upon me abruptly and came into me, sending me into the road and almost under the wheel of a passing hansom.",
+  "text": "And it had, though no man had traced it, invariably ended its mysterious flight in the pocket of that agitated gentleman in the obsolete silk hat, sitting outside the little inn on the outskirts of Port Stowe. It was ten days after—and indeed only when the Burdock story was already old—that the mariner collated these facts and began to understand how near he had been to the wonderful Invisible Man. THE MAN WHO WAS RUNNING In the early evening time Dr. Kemp was sitting in his study in the belvedere on the hill overlooking Burdock. It was a pleasant little room, with three windows—north, west, and south—and bookshelves covered with books and scientific publications, and a broad writing-table, and, under the north window, a microscope, glass slips, minute instruments, some cultures, and scattered bottles of reagents. Dr. Kemp’s solar lamp was lit, albeit the sky was still bright with the sunset light, and his blinds were up because there was no offence of peering outsiders to require them pulled down.",
   "words": [
     {
-      "word": "northward",
+      "word": "invariably",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "overtaken",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slips",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outsiders",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +51,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,41 +1,30 @@
 {
   "id": "src-gen-robinson-crusoe-009",
   "pool": "sourced",
-  "text": "All the remedy that I found for this was, that at last I did remember I had, among the seamen’s clothes which were saved out of the ship, some neckcloths of calico or muslin; and with some pieces of these I made three small sieves proper enough for the work; and thus I made shift for some years: how I did afterwards, I shall show in its place. The baking part was the next thing to be considered, and how I should make bread when I came to have corn; for first, I had no yeast. As to that part, there was no supplying the want, so I did not concern myself much about it. But for an oven I was indeed in great pain. At length I found out an experiment for that also, which was this: I made some earthen-vessels very broad but not deep, that is to say, about two feet diameter, and not above nine inches deep.",
+  "text": "Note.—Three things I wanted exceedingly for this work—viz. a pickaxe, a shovel, and a wheelbarrow or basket; so I desisted from my work, and began to consider how to supply that want, and make me some tools. As for the pickaxe, I made use of the iron crows, which were proper enough, though heavy; but the next thing was a shovel or spade; this was so absolutely necessary, that, indeed, I could do nothing effectually without it; but what kind of one to make I knew not. Nov. 18.—The next day, in searching the woods, I found a tree of that wood, or like it, which in the Brazils they call the iron-tree, for its exceeding hardness. Of this, with great labour, and almost spoiling my axe, I cut a piece, and brought it home, too, with difficulty enough, for it was exceeding heavy.",
   "words": [
     {
-      "word": "baking",
+      "word": "exceedingly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "yeast",
+      "word": "shovel",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "supplying",
+      "word": "spade",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "oven",
+      "word": "axe",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vessels",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "diameter",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -45,7 +34,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

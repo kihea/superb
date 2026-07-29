@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-little-princess-036",
+  "pool": "sourced",
+  "text": "At least, since the days when she had been a princess, Sara had never looked as she did now. She did not seem the Sara they had seen come down the back stairs a few hours ago. She was dressed in the kind of frock Lavinia had been used to envying her the possession of. It was deep and warm in color, and beautifully made. Her slender feet looked as they had done when Jessie had admired them, and the hair, whose heavy locks had made her look rather like a Shetland pony when it fell loose about her small, odd face, was tied back with a ribbon.",
+  "words": [
+    {
+      "word": "locks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

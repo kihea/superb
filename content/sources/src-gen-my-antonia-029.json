@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-029",
+  "pool": "sourced",
+  "text": "Suddenly I found myself running across the north end of Black Hawk in my night-shirt, just as one sometimes finds one’s self behaving in bad dreams. When I got home, I climbed in at the kitchen window. I was covered with blood from my nose and lip, but I was too sick to do anything about it. I found a shawl and an overcoat on the hat-rack, lay down on the parlour sofa, and in spite of my hurts, went to sleep. Grandmother found me there in the morning.",
+  "words": [
+    {
+      "word": "rack",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

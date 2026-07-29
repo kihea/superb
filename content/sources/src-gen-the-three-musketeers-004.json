@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-004",
   "pool": "sourced",
-  "text": "“There are four men come to arrest me. Save me!” Porthos and Aramis arose. “A moment,” cried D’Artagnan, making them a sign to replace in the scabbard their half-drawn swords. “It is not courage that is needed; it is prudence.” “And yet,” cried Porthos, “we will not leave—” “You will leave D’Artagnan to act as he thinks proper,” said Athos. “He has, I repeat, the longest head of the four, and for my part I declare that I will obey him.",
+  "text": "Ah, s’blood, how you have hurt me! My shoulder quite burns.” “If you would permit me—” said D’Artagnan, with timidity. “What, monsieur?” “I have a miraculous balsam for wounds—a balsam given to me by my mother and of which I have made a trial upon myself.” “Well?” “Well, I am sure that in less than three days this balsam would cure you; and at the end of three days, when you would be cured—well, sir, it would still do me a great honor to be your man.” D’Artagnan spoke these words with a simplicity that did honor to his courtesy, without throwing the least doubt upon his courage. “Pardieu, monsieur!” said Athos, “that’s a proposition that pleases me; not that I can accept it, but a league off it savors of the gentleman. Thus spoke and acted the gallant knights of the time of Charlemagne, in whom every cavalier ought to seek his model.",
   "words": [
     {
-      "word": "arose",
+      "word": "monsieur",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "obey",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

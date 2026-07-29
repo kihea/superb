@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-great-expectations-033",
+  "pool": "sourced",
+  "text": "The theatre where Mr. Wopsle had achieved his questionable triumph was in that water-side neighbourhood (it is nowhere now), and to that theatre I resolved to go. I was aware that Mr. Wopsle had not succeeded in reviving the Drama, but, on the contrary, had rather partaken of its decline. He had been ominously heard of, through the play-bills, as a faithful Black, in connection with a little girl of noble birth, and a monkey. And Herbert had seen him as a predatory Tartar of comic propensities, with a face like a red brick, and an outrageous hat all over bells. I dined at what Herbert and I used to call a geographical chop-house, where there were maps of the world in porter-pot rims on every half-yard of the tablecloths, and charts of gravy on every one of the knives,—to this day there is scarcely a single chop-house within the Lord Mayor’s dominions which is not geographical,—and wore out the time in dozing over crumbs, staring at gas, and baking in a hot blast of dinners.",
+  "words": [
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

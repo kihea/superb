@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-sense-and-sensibility-037",
+  "pool": "sourced",
+  "text": "At his and Mrs. Jennings's united request in return, Mrs. Dashwood was prevailed on to accept the use of his carriage on her journey back, for the better accommodation of her sick child; and the Colonel, at the joint invitation of Mrs. Dashwood and Mrs. Jennings, whose active good-nature made her friendly and hospitable for other people as well as herself, engaged with pleasure to redeem it by a visit at the cottage, in the course of a few weeks. The day of separation and departure arrived; and Marianne, after taking so particular and lengthened a leave of Mrs. Jennings, one so earnestly grateful, so full of respect and kind wishes as seemed due to her own heart from a secret acknowledgment of past inattention, and bidding Colonel Brandon farewell with a cordiality of a friend, was carefully assisted by him into the carriage, of which he seemed anxious that she should engross at least half.",
+  "words": [
+    {
+      "word": "redeem",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bidding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farewell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

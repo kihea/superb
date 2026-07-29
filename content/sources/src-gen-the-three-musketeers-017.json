@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-three-musketeers-017",
   "pool": "sourced",
-  "text": "“Weak or strong,” repeated Milady, “that man has, then, a spark of pity in his soul; of that spark I will make a flame that shall devour him. As to the other, he knows me, he fears me, and knows what he has to expect of me if ever I escape from his hands. It is useless, then, to attempt anything with him. But Felton—that’s another thing. He is a young, ingenuous, pure man who seems virtuous; him there are means of destroying.” And Milady went to bed and fell asleep with a smile upon her lips.",
+  "text": "Upon which the stranger asked his name, and learning that it was Porthos, and not D’Artagnan, he assisted him to rise, brought him back to the hôtel, mounted his horse, and disappeared.” “So it was with Monsieur d’Artagnan this stranger meant to quarrel?” “It appears so.” “And do you know what has become of him?” “No, I never saw him until that moment, and have not seen him since.” “Very well; I know all that I wish to know. Porthos’s chamber is, you say, on the first story, Number One?” “Yes, monsieur, the handsomest in the inn—a chamber that I could have let ten times over.” “Bah!",
   "words": [
     {
-      "word": "fears",
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

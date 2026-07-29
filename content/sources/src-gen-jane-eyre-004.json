@@ -1,10 +1,16 @@
 {
   "id": "src-gen-jane-eyre-004",
   "pool": "sourced",
-  "text": "Reed, my uncle’s wife. My uncle is dead, and he left me to her care.” “Did she not, then, adopt you of her own accord?” “No, ma’am; she was sorry to have to do it: but my uncle, as I have often heard the servants say, got her to promise before he died that she would always keep me.” “Well now, Jane, you know, or at least I will tell you, that when a criminal is accused, he is always allowed to speak in his own defence. You have been charged with falsehood; defend yourself to me as well as you can. Say whatever your memory suggests is true; but add nothing and exaggerate nothing.” I resolved, in the depth of my heart, that I would be most moderate—most correct; and, having reflected a few minutes in order to arrange coherently what I had to say, I told her all the story of my sad childhood. Exhausted by emotion, my language was more subdued than it generally was when it developed that sad theme; and mindful of Helen’s warnings against the indulgence of resentment, I infused into the narrative far less of gall and wormwood than ordinary.",
+  "text": "I’ll ask cook to bake you a little cake, and then you shall help me to look over your drawers; for I am soon to pack your trunk. Missis intends you to leave Gateshead in a day or two, and you shall choose what toys you like to take with you.” “Bessie, you must promise not to scold me any more till I go.” “Well, I will; but mind you are a very good girl, and don’t be afraid of me. Don’t start when I chance to speak rather sharply; it’s so provoking.” “I don’t think I shall ever be afraid of you again, Bessie, because I have got used to you, and I shall soon have another set of people to dread.” “If you dread them they’ll dislike you.” “As you do, Bessie?” “I don’t dislike you, Miss; I believe I am fonder of you than of all the others.” “You don’t show it.” “You little sharp thing! you’ve got quite a new way of talking.",
   "words": [
     {
-      "word": "accord",
+      "word": "bake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sharply",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-age-of-innocence-014",
   "pool": "sourced",
-  "text": "Archer reddened to the temples, but dared not move or speak: it was as if her words had been some rare butterfly that the least motion might drive off on startled wings, but that might gather a flock about it if it were left undisturbed. \"At least,\" she continued, \"it was you who made me understand that under the dullness there are things so fine and sensitive and delicate that even those I most cared for in my other life look cheap in comparison. I don't know how to explain myself\"--she drew together her troubled brows--\"but it seems as if I'd never before understood with how much that is hard and shabby and base the most exquisite pleasures may be paid.\" \"Exquisite pleasures--it's something to have had them!\" he felt like retorting; but the appeal in her eyes kept him silent.",
+  "text": "No, it was worse a thousand times if, judging Beaufort, and probably despising him, she was yet drawn to him by all that gave him an advantage over the other men about her: his habit of two continents and two societies, his familiar association with artists and actors and people generally in the world's eye, and his careless contempt for local prejudices. Beaufort was vulgar, he was uneducated, he was purse-proud; but the circumstances of his life, and a certain native shrewdness, made him better worth talking to than many men, morally and socially his betters, whose horizon was bounded by the Battery and the Central Park. How should any one coming from a wider world not feel the difference and be attracted by it? Madame Olenska, in a burst of irritation, had said to Archer that he and she did not talk the same language; and the young man knew that in some respects this was true. But Beaufort understood every turn of her dialect, and spoke it fluently: his view of life, his tone, his attitude, were merely a coarser reflection of those revealed in Count Olenski's letter.",
   "words": [
     {
-      "word": "dared",
+      "word": "contempt",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flock",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "exquisite",
+      "word": "dialect",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

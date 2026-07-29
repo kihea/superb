@@ -1,10 +1,10 @@
 {
   "id": "src-gen-villette-012",
   "pool": "sourced",
-  "text": "The post had, indeed, arrived; by me unheard. Rosine had visited my cell, and, like some angel, had left behind her a bright token of her presence. That shining thing on the desk was indeed a letter, a real letter; I saw so much at the distance of three yards, and as I had but one correspondent on earth, from that one it must come. He remembered me yet. How deep a pulse of gratitude sent new life through my heart.",
+  "text": "Lucy Snowe!” she cried in a somewhat sobbing voice, half hysterical. “What in the world is the matter?” I drily said. “How do I look—how do I look to-night?” she demanded. “As usual,” said I; “preposterously vain.” “Caustic creature! You never have a kind word for me; but in spite of you, and all other envious detractors, I know I am beautiful; I feel it, I see it—for there is a great looking-glass in the dressing-room, where I can view my shape from head to foot.",
   "words": [
     {
-      "word": "pulse",
+      "word": "lucy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

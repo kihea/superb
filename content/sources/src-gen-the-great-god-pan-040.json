@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-great-god-pan-040",
+  "pool": "sourced",
+  "text": "Here they had walked, Helen and Rachel, along this quiet causeway, upon the pavement of green turf, shut in on either side by high banks of red earth, and tall hedges of shining beech, and here I followed in their steps, looking out, now and again, through partings in the boughs, and seeing on one side the sweep of the wood stretching far to right and left, and sinking into the broad level, and beyond, the yellow sea, and the land over the sea. On the other side was the valley and the river and hill following hill as wave on wave, and wood and meadow, and cornfield, and white houses gleaming, and a great wall of mountain, and far blue peaks in the north. And so at last I came to the place. The track went up a gentle slope, and widened out into an open space with a wall of thick undergrowth around it, and then, narrowing again, passed on into the distance and the faint blue mist of summer heat. And into this pleasant summer glade Rachel passed a girl, and left it, who shall say what?",
+  "words": [
+    {
+      "word": "turf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

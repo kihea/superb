@@ -1,10 +1,10 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-003",
   "pool": "sourced",
-  "text": "I don’t know how long I was asleep, but all of a sudden there was an awful scream and I was up. There was pap looking wild, and skipping around every which way and yelling about snakes. He said they was crawling up his legs; and then he would give a jump and scream, and say one had bit him on the cheek—but I couldn’t see no snakes. He started and run round and round the cabin, hollering “Take him off! take him off!",
+  "text": "So then I judged that all that stuff was only just one of Tom Sawyer’s lies. I reckoned he believed in the A-rabs and the elephants, but as for me I think different. It had all the marks of a Sunday-school. Well, three or four months run along, and it was well into the winter now. I had been to school most all the time and could spell and read and write just a little, and could say the multiplication table up to six times seven is thirty-five, and I don’t reckon I could ever get any further than that if I was to live forever.",
   "words": [
     {
-      "word": "snakes",
+      "word": "multiplication",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

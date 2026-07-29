@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-039",
+  "pool": "sourced",
+  "text": "Mount Franklin, distant about six miles, now appeared like a gigantic torch, around the summit of which turned fuliginous flames. So much smoke, and possibly scoriae and cinders were mingled with them, that their light gleamed but faintly amid the gloom of the night. But a kind of lurid brilliancy spread over the island, against which stood out confusedly the wooded masses of the heights. Immense whirlwinds of vapor obscured the sky, through which glimmered a few stars. “The change is rapid!” said the engineer.",
+  "words": [
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

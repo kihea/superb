@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-middlemarch-037",
+  "pool": "sourced",
+  "text": "Lydgate thought of himself as the sufferer, and of others as the agents who had injured his lot. He had meant everything to turn out differently; and others had thrust themselves into his life and thwarted his purposes. His marriage seemed an unmitigated calamity; and he was afraid of going to Rosamond before he had vented himself in this solitary rage, lest the mere sight of her should exasperate him and make him behave unwarrantably. There are episodes in most men’s lives in which their highest qualities can only cast a deterring shadow over the objects that fill their inward vision: Lydgate’s tenderheartedness was present just then only as a dread lest he should offend against it, not as an emotion that swayed him to tenderness. For he was very miserable.",
+  "words": [
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "offend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

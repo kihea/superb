@@ -1,10 +1,22 @@
 {
   "id": "src-gen-middlemarch-004",
   "pool": "sourced",
-  "text": "And I understand he is a naturalist.” “Mr. Farebrother, my dear sir, is a man deeply painful to contemplate. I suppose there is not a clergyman in this country who has greater talents.” Mr. Bulstrode paused and looked meditative. “I have not yet been pained by finding any excessive talent in Middlemarch,” said Lydgate, bluntly. “What I desire,” Mr. Bulstrode continued, looking still more serious, “is that Mr. Farebrother’s attendance at the hospital should be superseded by the appointment of a chaplain—of Mr. Tyke, in fact—and that no other spiritual aid should be called in.” “As a medical man I could have no opinion on such a point unless I knew Mr. Tyke, and even then I should require to know the cases in which he was applied.” Lydgate smiled, but he was bent on being circumspect.",
+  "text": "I hope you don’t expect me to be naughty and stupid?” “I expect you to be all that an exquisite young lady can be in every possible relation of life. Certainly it might be a great advantage if you were able to copy the Greek character, and to that end it were well to begin with a little reading.” Dorothea seized this as a precious permission. She would not have asked Mr. Casaubon at once to teach her the languages, dreading of all things to be tiresome instead of helpful; but it was not entirely out of devotion to her future husband that she wished to know Latin and Greek. Those provinces of masculine knowledge seemed to her a standing-ground from which all truth could be seen more truly. As it was, she constantly doubted her own conclusions, because she felt her own ignorance: how could she be confident that one-roomed cottages were not for the glory of God, when men who knew the classics appeared to conciliate indifference to the cottages with zeal for the glory?",
   "words": [
     {
-      "word": "contemplate",
+      "word": "ignorance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "classics",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "zeal",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

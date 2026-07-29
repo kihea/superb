@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-gulliver-s-travels-024",
+  "pool": "sourced",
+  "text": "The stone cannot be removed from its place by any force, because the hoop and its feet are one continued piece with that body of adamant which constitutes the bottom of the island. By means of this loadstone, the island is made to rise and fall, and move from one place to another. For, with respect to that part of the earth over which the monarch presides, the stone is endued at one of its sides with an attractive power, and at the other with a repulsive. Upon placing the magnet erect, with its attracting end towards the earth, the island descends; but when the repelling extremity points downwards, the island mounts directly upwards. When the position of the stone is oblique, the motion of the island is so too.",
+  "words": [
+    {
+      "word": "magnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "erect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oblique",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

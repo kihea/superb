@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-039",
+  "pool": "sourced",
+  "text": "Thence the joyful news had flashed all over the world; a thousand cities, chilled by ghastly apprehensions, suddenly flashed into frantic illuminations; they knew of it in Dublin, Edinburgh, Manchester, Birmingham, at the time when I stood upon the verge of the pit. Already men, weeping with joy, as I have heard, shouting and staying their work to shake hands and shout, were making up trains, even as near as Crewe, to descend upon London. The church bells that had ceased a fortnight since suddenly caught the news, until all England was bell-ringing. Men on cycles, lean-faced, unkempt, scorched along every country lane shouting of unhoped deliverance, shouting to gaunt, staring figures of despair. And for the food!",
+  "words": [
+    {
+      "word": "joyful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

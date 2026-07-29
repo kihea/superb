@@ -1,22 +1,34 @@
 {
   "id": "src-gen-o-pioneers-009",
   "pool": "sourced",
-  "text": "Carl had never forgotten little Marie Tovesky’s eyes, and he was glad to have an opportunity to study them. The brown iris, he found, was curiously slashed with yellow, the color of sunflower honey, or of old amber. In each eye one of these streaks must have been larger than the others, for the effect was that of two dancing points of light, two little yellow bubbles, such as rise in a glass of champagne. Sometimes they seemed like the sparks from a forge. She seemed so easily excited, to kindle with a fierce little flame if one but breathed upon her.",
+  "text": "South of the hill, in a low, sheltered swale, surrounded by a mulberry hedge, was the orchard, its fruit trees knee-deep in timothy grass. Any one thereabouts would have told you that this was one of the richest farms on the Divide, and that the farmer was a woman, Alexandra Bergson. If you go up the hill and enter Alexandra’s big house, you will find that it is curiously unfinished and uneven in comfort. One room is papered, carpeted, over-furnished; the next is almost bare. The pleasantest rooms in the house are the kitchen—where Alexandra’s three young Swedish girls chatter and cook and pickle and preserve all summer long—and the sitting-room, in which Alexandra has brought together the old homely furniture that the Bergsons used in their first log house, the family portraits, and the few things her mother brought from Sweden.",
   "words": [
     {
-      "word": "sunflower",
+      "word": "mulberry",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "kindle",
+      "word": "hedge",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flame",
+      "word": "orchard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "timothy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farmer",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +39,7 @@
     "author": "Willa Cather",
     "year": 1913,
     "source": "Project Gutenberg #24",
-    "url": "https://www.gutenberg.org/ebooks/24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

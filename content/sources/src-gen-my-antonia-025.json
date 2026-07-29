@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-025",
+  "pool": "sourced",
+  "text": "Anna knew the whisper was going about that I was a sly one. People said there must be something queer about a boy who showed no interest in girls of his own age, but who could be lively enough when he was with Tony and Lena or the three Marys. The enthusiasm for the dance, which the Vannis had kindled, did not at once die out. After the tent left town, the Euchre Club became the Owl Club, and gave dances in the Masonic Hall once a week. I was invited to join, but declined.",
+  "words": [
+    {
+      "word": "enthusiasm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

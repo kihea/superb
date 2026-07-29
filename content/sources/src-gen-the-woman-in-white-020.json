@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-woman-in-white-020",
   "pool": "sourced",
-  "text": "The lady came in, cool, pale, and venomous as ever. “Amuse Mr. Hartright, my angel,” said the Count. He placed a chair for her, kissed her hand for the second time, withdrew to a sofa, and, in three minutes, was as peacefully and happily asleep as the most virtuous man in existence. Madame Fosco took a book from the table, sat down, and looked at me, with the steady vindictive malice of a woman who never forgot and never forgave. “I have been listening to your conversation with my husband,” she said.",
+  "text": "I appealed to him on the terms which I had mentioned to Laura as the most likely to make him bestir himself; I enclosed a copy of my letter to the lawyer to show him how serious the case was, and I represented our removal to Limmeridge as the only compromise which would prevent the danger and distress of Laura’s present position from inevitably affecting her uncle as well as herself at no very distant time. When I had done, and had sealed and directed the two envelopes, I went back with the letters to Laura’s room, to show her that they were written. “Has anybody disturbed you?” I asked, when she opened the door to me. “Nobody has knocked,” she replied. “But I heard some one in the outer room.” “Was it a man or a woman?” “A woman.",
   "words": [
     {
-      "word": "madame",
+      "word": "inevitably",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sealed",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

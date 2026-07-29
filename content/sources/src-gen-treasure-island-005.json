@@ -1,16 +1,10 @@
 {
   "id": "src-gen-treasure-island-005",
   "pool": "sourced",
-  "text": "As for Mr. Arrow, I believe him thoroughly honest; some of the men are the same; all may be for what I know. But I am responsible for the ship’s safety and the life of every man Jack aboard of her. I see things going, as I think, not quite right. And I ask you to take certain precautions or let me resign my berth. And that’s all.” “Captain Smollett,” began the doctor with a smile, “did ever you hear the fable of the mountain and the mouse?",
+  "text": "What were these villains after but money? What do they care for but money? For what would they risk their rascal carcasses but money?” “That we shall soon know,” replied the doctor. “But you are so confoundedly hot-headed and exclamatory that I cannot get a word in. What I want to know is this: Supposing that I have here in my pocket some clue to where Flint buried his treasure, will that treasure amount to much?” “Amount, sir!” cried the squire.",
   "words": [
     {
-      "word": "aboard",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "berth",
+      "word": "treasure",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

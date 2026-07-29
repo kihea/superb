@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-017",
   "pool": "sourced",
-  "text": "The smoke lately generated was in confusing clouds that made it difficult for the regiment to proceed with intelligence. As he passed through each curling mass the youth wondered what would confront him on the farther side. The command went painfully forward until an open space interposed between them and the lurid lines. Here, crouching and cowering behind some trees, the men clung with desperation, as if threatened by a wave. They looked wild-eyed, and as if amazed at this furious disturbance they had stirred.",
+  "text": "The youth had watched, spellbound, this ceremony at the place of meeting. His face had been twisted into an expression of every agony he had imagined for his friend. He now sprang to his feet and, going closer, gazed upon the pastelike face. The mouth was open and the teeth showed in a laugh. As the flap of the blue jacket fell away from the body, he could see that the side looked as if it had been chewed by wolves.",
   "words": [
     {
-      "word": "confusing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "clouds",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "regiment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "proceed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "farther",
+      "word": "flap",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

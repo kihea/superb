@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-emma-037",
+  "pool": "sourced",
+  "text": "If you need farther explanation, I have the honour, my dear madam, of being your husband’s son, and the advantage of inheriting a disposition to hope for good, which no inheritance of houses or lands can ever equal the value of.—See me, then, under these circumstances, arriving on my first visit to Randalls;—and here I am conscious of wrong, for that visit might have been sooner paid. You will look back and see that I did not come till Miss Fairfax was in Highbury; and as you were the person slighted, you will forgive me instantly; but I must work on my father’s compassion, by reminding him, that so long as I absented myself from his house, so long I lost the blessing of knowing you. My behaviour, during the very happy fortnight which I spent with you, did not, I hope, lay me open to reprehension, excepting on one point. And now I come to the principal, the only important part of my conduct while belonging to you, which excites my own anxiety, or requires very solicitous explanation.",
+  "words": [
+    {
+      "word": "compassion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "belonging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

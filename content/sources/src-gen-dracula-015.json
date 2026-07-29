@@ -1,10 +1,22 @@
 {
   "id": "src-gen-dracula-015",
   "pool": "sourced",
-  "text": "Why not?” I put my question quickly and somewhat sternly, on purpose to disconcert him. The effort succeeded; for an instant he unconsciously relapsed into his old servile manner, bent low before me, and actually fawned upon me as he replied:-- “I don’t want any souls, indeed, indeed! I couldn’t use them if I had them; they would be no manner of use to me. I couldn’t eat them or----” He suddenly stopped and the old cunning look spread over his face, like a wind-sweep on the surface of the water. “And doctor, as to life, what is it after all?",
+  "text": "For two nights I had hardly had a wink of sleep, and my brain was beginning to feel that numbness which marks cerebral exhaustion. Lucy was up and in cheerful spirits. When she shook hands with me she looked sharply in my face and said:-- “No sitting up to-night for you. You are worn out. I am quite well again; indeed, I am; and if there is to be any sitting up, it is I who will sit up with you.” I would not argue the point, but went and had my supper.",
   "words": [
     {
-      "word": "sweep",
+      "word": "wink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cerebral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exhaustion",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

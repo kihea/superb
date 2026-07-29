@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-invisible-man-021",
+  "pool": "sourced",
+  "text": "How one forgets! Have you already forgotten your physics, in ten years? Just think of all the things that are transparent and seem not to be so. Paper, for instance, is made up of transparent fibres, and it is white and opaque only for the same reason that a powder of glass is white and opaque. Oil white paper, fill up the interstices between the particles with oil so that there is no longer refraction or reflection except at the surfaces, and it becomes as transparent as glass.",
+  "words": [
+    {
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "source": "Project Gutenberg #5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

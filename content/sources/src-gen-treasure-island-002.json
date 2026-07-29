@@ -1,23 +1,18 @@
 {
   "id": "src-gen-treasure-island-002",
   "pool": "sourced",
-  "text": "My mother pulled it up with impatience, and there lay before us, the last things in the chest, a bundle tied up in oilcloth, and looking like papers, and a canvas bag that gave forth, at a touch, the jingle of gold. “I’ll show these rogues that I’m an honest woman,” said my mother. “I’ll have my dues, and not a farthing over. Hold Mrs. Crossley’s bag.” And she began to count over the amount of the captain’s score from the sailor’s bag into the one that I was holding. It was a long, difficult business, for the coins were of all countries and sizes--doubloons, and louis d’ors, and guineas, and pieces of eight, and I know not what besides, all shaken together at random.",
+  "text": "IV The Sea-chest I lost no time, of course, in telling my mother all that I knew, and perhaps should have told her long before, and we saw ourselves at once in a difficult and dangerous position. Some of the man’s money--if he had any--was certainly due to us, but it was not likely that our captain’s shipmates, above all the two specimens seen by me, Black Dog and the blind beggar, would be inclined to give up their booty in payment of the dead man’s debts. The captain’s order to mount at once and ride for Doctor Livesey would have left my mother alone and unprotected, which was not to be thought of. Indeed, it seemed impossible for either of us to remain much longer in the house; the fall of coals in the kitchen grate, the very ticking of the clock, filled us with alarms.",
   "words": [
     {
-      "word": "bundle",
+      "word": "booty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sailor",
+      "word": "grate",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "guineas",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -27,7 +22,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

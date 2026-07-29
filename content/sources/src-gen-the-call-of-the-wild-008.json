@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-call-of-the-wild-008",
   "pool": "sourced",
-  "text": "In vain Buck strove to sink his teeth in the neck of the big white dog. Wherever his fangs struck for the softer flesh, they were countered by the fangs of Spitz. Fang clashed fang, and lips were cut and bleeding, but Buck could not penetrate his enemy’s guard. Then he warmed up and enveloped Spitz in a whirlwind of rushes. Time and time again he tried for the snow-white throat, where life bubbled near to the surface, and each time and every time Spitz slashed him and got away.",
+  "text": "Sight and scent became remarkably keen, while his hearing developed such acuteness that in his sleep he heard the faintest sound and knew whether it heralded peace or peril. He learned to bite the ice out with his teeth when it collected between his toes; and when he was thirsty and there was a thick scum of ice over the water hole, he would break it by rearing and striking it with stiff fore legs. His most conspicuous trait was an ability to scent the wind and forecast it a night in advance. No matter how breathless the air when he dug his nest by tree or bank, the wind that later blew inevitably found him to leeward, sheltered and snug. And not only did he learn by experience, but instincts long dead became alive again.",
   "words": [
     {
-      "word": "fang",
+      "word": "thirsty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sheltered",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jack London",
     "year": 1903,
     "source": "Project Gutenberg #215",
-    "url": "https://www.gutenberg.org/ebooks/215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-025",
+  "pool": "sourced",
+  "text": "The front door, when they came round to it at last, was flanked by two turquoise-blue flower pots. It was opened by a butler of the drearier type--long, lean, grey and listless--who murmured that Prince Saradine was from home at present, but was expected hourly; the house being kept ready for him and his guests. The exhibition of the card with the scrawl of green ink awoke a flicker of life in the parchment face of the depressed retainer, and it was with a certain shaky courtesy that he suggested that the strangers should remain. “His Highness may be here any minute,” he said, “and would be distressed to have just missed any gentleman he had invited. We have orders always to keep a little cold lunch for him and his friends, and I am sure he would wish it to be offered.” Moved with curiosity to this minor adventure, Flambeau assented gracefully, and followed the old man, who ushered him ceremoniously into the long, lightly panelled room.",
+  "words": [
+    {
+      "word": "turquoise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-038",
+  "pool": "sourced",
+  "text": "In reply to this, the Persian, who knew the MEMOIRS as thoroughly as if he had written them himself, observed that I should find the explanation of the whole business if I would just recollect the few lines which Moncharmin devotes to the ghost in the second part aforesaid. I quote these lines, which are particularly interesting because they describe the very simple manner in which the famous incident of the twenty-thousand francs was closed: \"As for O. G., some of whose curious tricks I have related in the first part of my Memoirs, I will only say that he redeemed by one spontaneous fine action all the worry which he had caused my dear friend and partner and, I am bound to say, myself. He felt, no doubt, that there are limits to a joke, especially when it is so expensive and when the commissary of police has been informed, for, at the moment when we had made an appointment in our office with M. Mifroid to tell him the whole story, a few days after the disappearance of Christine Daae, we found, on Richard's table, a large envelope, inscribed, in red ink, \"WITH O. G.'S COMPLIMENTS.\"",
+  "words": [
+    {
+      "word": "thoroughly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappearance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "envelope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

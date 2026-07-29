@@ -1,22 +1,10 @@
 {
   "id": "src-gen-sense-and-sensibility-013",
   "pool": "sourced",
-  "text": "The ivory, the gold, and the pearls, all received their appointment, and the gentleman having named the last day on which his existence could be continued without the possession of the toothpick-case, drew on his gloves with leisurely care, and bestowing another glance on the Miss Dashwoods, but such a one as seemed rather to demand than express admiration, walked off with a happy air of real conceit and affected indifference. Elinor lost no time in bringing her business forward, was on the point of concluding it, when another gentleman presented himself at her side. She turned her eyes towards his face, and found him with some surprise to be her brother. Their affection and pleasure in meeting was just enough to make a very creditable appearance in Mr. Gray's shop. John Dashwood was really far from being sorry to see his sisters again; it rather gave them satisfaction; and his inquiries after their mother were respectful and attentive.",
+  "text": "I can't imagine why you should object to it.\" Elinor was again obliged to decline her invitation; and by changing the subject, put a stop to her entreaties. She thought it probable that as they lived in the same county, Mrs. Palmer might be able to give some more particular account of Willoughby's general character, than could be gathered from the Middletons' partial acquaintance with him; and she was eager to gain from any one, such a confirmation of his merits as might remove the possibility of fear from Marianne. She began by inquiring if they saw much of Mr. Willoughby at Cleveland, and whether they were intimately acquainted with him. \"Oh dear, yes; I know him extremely well,\" replied Mrs. Palmer;--\"Not that I ever spoke to him, indeed; but I have seen him for ever in town.",
   "words": [
     {
-      "word": "ivory",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "pearls",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "admiration",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-agnes-grey-031",
+  "pool": "sourced",
+  "text": "After many a scene of contention between mother and daughter, many a violent outbreak which I was ashamed to witness, in which the father’s authority was often called in to confirm with oaths and threats the mother’s slighted prohibitions—for even he could see that “Tilly, though she would have made a fine lad, was not quite what a young lady ought to be”—Matilda at length found that her easiest plan was to keep clear of the forbidden regions; unless she could now and then steal a visit without her watchful mother’s knowledge. Amid all this, let it not be imagined that I escaped without many a reprimand, and many an implied reproach, that lost none of its sting from not being openly worded; but rather wounded the more deeply, because, from that very reason, it seemed to preclude self-defence. Frequently, I was told to amuse Miss Matilda with other things, and to remind her of her mother’s precepts and prohibitions.",
+  "words": [
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "implied",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

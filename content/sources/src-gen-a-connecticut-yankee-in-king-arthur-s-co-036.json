@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-036",
+  "pool": "sourced",
+  "text": "Another blank for the knight, a roar of applause for me. This same thing was repeated once more; and it fetched such a whirlwind of applause that Sir Sagramor lost his temper, and at once changed his tactics and set himself the task of chasing me down. Why, he hadn't any show in the world at that; it was a game of tag, with all the advantage on my side; I whirled out of his path with ease whenever I chose, and once I slapped him on the back as I went to the rear. Finally I took the chase into my own hands; and after that, turn, or twist, or do what he would, he was never able to get behind me again; he found himself always in front at the end of his maneuver. So he gave up that business and retired to his end of the lists.",
+  "words": [
+    {
+      "word": "applause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tactics",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

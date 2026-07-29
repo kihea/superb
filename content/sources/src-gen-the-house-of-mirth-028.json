@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-mirth-028",
+  "pool": "sourced",
+  "text": "Old Ned Van Alstyne, seated next to her in a coat that made affliction dapper, twirled his white moustache to conceal the eager twitch of his lips; and Grace Stepney, red-nosed and smelling of crape, whispered emotionally to Mrs. Herbert Melson: “I couldn’t BEAR to see the Niagara anywhere else!” A rustle of weeds and quick turning of heads hailed the opening of the door, and Lily Bart appeared, tall and noble in her black dress, with Gerty Farish at her side. The women’s faces, as she paused interrogatively on the threshold, were a study in hesitation. One or two made faint motions of recognition, which might have been subdued either by the solemnity of the scene, or by the doubt as to how far the others meant to go; Mrs. Jack Stepney gave a careless nod, and Grace Stepney, with a sepulchral gesture, indicated a seat at her side. But Lily, ignoring the invitation, as well as Jack Stepney’s official attempt to direct her, moved across the room with her smooth free gait, and seated herself in a chair which seemed to have been purposely placed apart from the others.",
+  "words": [
+    {
+      "word": "threshold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of Mirth",
+    "author": "Edith Wharton",
+    "year": 1905,
+    "source": "Project Gutenberg #284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

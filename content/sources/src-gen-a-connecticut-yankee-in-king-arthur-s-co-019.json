@@ -1,10 +1,34 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-019",
   "pool": "sourced",
-  "text": "War, and the knights of the realm divided into a king's party and a Sir Launcelot's party.” “Yes--that was the way of it. The king sent the queen to the stake, proposing to purify her with fire. Launcelot and his knights rescued her, and in doing it slew certain good old friends of yours and mine--in fact, some of the best we ever had; to wit, Sir Belias le Orgulous, Sir Segwarides, Sir Griflet le Fils de Dieu, Sir Brandiles, Sir Aglovale--” “Oh, you tear out my heartstrings.” “--wait, I'm not done yet--Sir Tor, Sir Gauter, Sir Gillimer--” “The very best man in my subordinate nine. What a handy right-fielder he was!” “--Sir Reynold's three brothers, Sir Damus, Sir Priamus, Sir Kay the Stranger--” “My peerless short-stop! I've seen him catch a daisy-cutter in his teeth.",
+  "text": "I timed him with a stop watch, and he made 1,244 revolutions in 24 minutes and 46 seconds. It seemed a pity to have all this power going to waste. It was one of the most useful motions in mechanics, the pedal movement; so I made a note in my memorandum book, purposing some day to apply a system of elastic cords to him and run a sewing machine with it. I afterward carried out that scheme, and got five years' good service out of him; in which time he turned out upward of eighteen thousand first-rate tow-linen shirts, which was ten a day. I worked him Sundays and all; he was going, Sundays, the same as week days, and it was no use to waste the power.",
   "words": [
     {
-      "word": "realm",
+      "word": "timed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pedal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "memorandum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

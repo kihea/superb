@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-009",
   "pool": "sourced",
-  "text": "Five of the worshipers lay dead, and two severely wounded ones were carried away on improvised stretchers by their fellow-prisoners. The image on the monolith, of course, was carefully removed and carried back by Legrasse. Examined at headquarters after a trip of intense strain and weariness, the prisoners all proved to be men of a very low, mixed-blooded, and mentally aberrant type. Most were seamen, and a sprinkling of negroes and mulattoes, largely West Indians or Brava Portuguese from the Cape Verde Islands, gave a coloring of voodooism to the heterogeneous cult. But before many questions were asked, it became manifest that something far deeper and older than negro fetishism was involved.",
+  "text": "No recognized school of sculpture had animated this terrible object, yet centuries and even thousands of years seemed recorded in its dim and greenish surface of unplaceable stone. The figure, which was finally passed slowly from man to man for close and careful study, was between seven and eight inches in height, and of exquisitely artistic workmanship. It represented a monster of vaguely anthropoid outline, but with an octopuslike head whose face was a mass of feelers, a scaly, rubbery-looking body, prodigious claws on hind and fore feet, and long, narrow wings behind. This thing, which seemed instinct with a fearsome and unnatural malignancy, was of a somewhat bloated corpulence, and squatted evilly on a rectangular block or pedestal covered with undecipherable characters. The tips of the wings touched the back edge of the block, the seat occupied the center, whilst the long, curved claws of the doubled-up, crouching hind legs gripped the front edge and extended a quarter of the way down toward the bottom of the pedestal.",
   "words": [
     {
-      "word": "improvised",
+      "word": "outline",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "examined",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blooded",
+      "word": "hind",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

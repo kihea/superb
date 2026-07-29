@@ -1,16 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-008",
   "pool": "sourced",
-  "text": "Captain Dillon, a shrewd old Pacific sailor, was the first to find unmistakable traces of the wrecks. On the 15th of May, 1824, his vessel, the St. Patrick, passed close to Tikopia, one of the New Hebrides. There a Lascar came alongside in a canoe, sold him the handle of a sword in silver that bore the print of characters engraved on the hilt. The Lascar pretended that six years before, during a stay at Vanikoro, he had seen two Europeans that belonged to some vessels that had run aground on the reefs some years ago. Dillon guessed that he meant La Perouse, whose disappearance had troubled the whole world.",
+  "text": "The electric light flooded everything; it was shed from four unpolished globes half sunk in the volutes of the ceiling. I looked with real admiration at this room, so ingeniously fitted up, and I could scarcely believe my eyes. “Captain Nemo,” said I to my host, who had just thrown himself on one of the divans, “this is a library which would do honour to more than one of the continental palaces, and I am absolutely astounded when I consider that it can follow you to the bottom of the seas.” “Where could one find greater solitude or silence, Professor?” replied Captain Nemo. “Did your study in the Museum afford you such perfect quiet?” “No, sir; and I must confess that it is a very poor one after yours. You must have six or seven thousand volumes here.” “Twelve thousand, M. Aronnax.",
   "words": [
     {
-      "word": "sailor",
+      "word": "ceiling",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "canoe",
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

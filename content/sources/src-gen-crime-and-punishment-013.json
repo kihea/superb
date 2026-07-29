@@ -1,10 +1,17 @@
 {
   "id": "src-gen-crime-and-punishment-013",
   "pool": "sourced",
-  "text": "Then he said that he would do his utmost to obtain an interview with you without my help. He assured me that his passion for you was a passing infatuation, now he has no feeling for you. He doesn’t want you to marry Luzhin.... His talk was altogether rather muddled.” “How do you explain him to yourself, Rodya? How did he strike you?” “I must confess I don’t quite understand him. He offers you ten thousand, and yet says he is not well off.",
+  "text": "Porfiry Petrovitch, the head of the Investigation Department here... But you know him.” “Is he a relation of yours, too?” “A very distant one. But why are you scowling? Because you quarrelled once, won’t you come then?” “I don’t care a damn for him.” “So much the better. Well, there will be some students, a teacher, a government clerk, a musician, an officer and Zametov.” “Do tell me, please, what you or he”--Zossimov nodded at Raskolnikov--“can have in common with this Zametov?” “Oh, you particular gentleman!",
   "words": [
     {
-      "word": "altogether",
+      "word": "clerk",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +22,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1866,
     "source": "Project Gutenberg #2554",
-    "url": "https://www.gutenberg.org/ebooks/2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

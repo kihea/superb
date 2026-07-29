@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-scarlet-letter-001",
   "pool": "sourced",
-  "text": "epose, even in such decay as had crept untimely over him at the period of which I speak. But I could imagine, even then, that, under some excitement which should go deeply into his consciousness—roused by a trumpet’s peal, loud enough to awaken all of his energies that were not dead, but only slumbering—he was yet capable of flinging off his infirmities like a sick man’s gown, dropping the staff of age to seize a battle-sword, and starting up once more a warrior. And, in so intense a moment his demeanour would have still been calm. Such an exhibition, however, was but to be pictured in fancy; not to be anticipated, nor desired.",
+  "text": "Many characteristics—and those, too, which contribute not the least forcibly to impart resemblance in a sketch—must have vanished, or been obscured, before I met the General. All merely graceful attributes are usually the most evanescent; nor does nature adorn the human ruin with blossoms of new beauty, that have their roots and proper nutriment only in the chinks and crevices of decay, as she sows wall-flowers over the ruined fortress of Ticonderoga. Still, even in respect of grace and beauty, there were points well worth noting. A ray of humour, now and then, would make its way through the veil of dim obstruction, and glimmer pleasantly upon our faces. A trait of native elegance, seldom seen in the masculine character after childhood or early youth, was shown in the General’s fondness for the sight and fragrance of flowers.",
   "words": [
     {
-      "word": "warrior",
+      "word": "sketch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "graceful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elegance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

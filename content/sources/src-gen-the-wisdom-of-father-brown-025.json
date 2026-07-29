@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-025",
+  "pool": "sourced",
+  "text": "The story goes that the lady of Sir Peter Pendragon built it in this place and to this height, because from the top you can just see the corner where vessels turn into the river mouth; and she wished to be the first to see her husband’s ship, as he sailed home from the Spanish Main.” “For what other reason,” asked Father Brown, “do you mean that it has been rebuilt?” “Oh, there’s a strange story about that, too,” said the young squire with relish. “You are really in a land of strange stories. King Arthur was here and Merlin and the fairies before him. The story goes that Sir Peter Pendragon, who (I fear) had some of the faults of the pirates as well as the virtues of the sailor, was bringing home three Spanish gentlemen in honourable captivity, intending to escort them to Elizabeth’s court. But he was a man of flaming and tigerish temper, and coming to high words with one of them, he caught him by the throat and flung him by accident or design, into the sea.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

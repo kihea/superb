@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-036",
+  "pool": "sourced",
+  "text": "“Stop shaking, youngster. The first time they put the full harness with all its chains on my back I stood on my forelegs and kicked every bit of it off. I hadn’t learned the real science of kicking then, but the battery said they had never seen anything like it.” “But this wasn’t harness or anything that jingled,” said the young mule. “You know I don’t mind that now, Billy. It was Things like trees, and they fell up and down the lines and bubbled; and my head-rope broke, and I couldn’t find my driver, and I couldn’t find you, Billy, so I ran off with--with these gentlemen.” “H’m!” said Billy.",
+  "words": [
+    {
+      "word": "youngster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

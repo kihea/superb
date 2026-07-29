@@ -1,16 +1,10 @@
 {
   "id": "src-gen-anne-of-green-gables-007",
   "pool": "sourced",
-  "text": "Anne returned no answer. It was asking too much of flesh and blood to expect her to tell before the whole school that she had been called “carrots.” Gilbert it was who spoke up stoutly. “It was my fault Mr. Phillips. I teased her.” Mr. Phillips paid no heed to Gilbert. “I am sorry to see a pupil of mine displaying such a temper and such a vindictive spirit,” he said in a solemn tone, as if the mere fact of being a pupil of his ought to root out all evil passions from the hearts of small imperfect mortals.",
+  "text": "Mrs. Lynde will have a nice story to tell about you everywhere--and she’ll tell it, too. It was a dreadful thing for you to lose your temper like that, Anne.” “Just imagine how you would feel if somebody told you to your face that you were skinny and ugly,” pleaded Anne tearfully. An old remembrance suddenly rose up before Marilla. She had been a very small child when she had heard one aunt say of her to another, “What a pity she is such a dark, homely little thing.” Marilla was every day of fifty before the sting had gone out of that memory. “I don’t say that I think Mrs. Lynde was exactly right in saying what she did to you, Anne,” she admitted in a softer tone.",
   "words": [
     {
-      "word": "carrots",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pupil",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

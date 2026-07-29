@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-captains-courageous-026",
+  "pool": "sourced",
+  "text": "Dip Harve! Here they come!\" The sea round them clouded and darkened, and then frizzed up in showers of tiny silver fish, and over a space of five or six acres the cod began to leap like trout in May; while behind the cod three or four broad gray-backs broke the water into boils. Then everybody shouted and tried to haul up his anchor to get among the school, and fouled his neighbour's line and said what was in his heart, and dipped furiously with his dip-net, and shrieked cautions and advice to his companions, while the deep fizzed like freshly opened soda-water, and cod, men, and whales together flung in upon the luckless bait. Harvey was nearly knocked overboard by the handle of Dan's net.",
+  "words": [
+    {
+      "word": "cod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bait",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

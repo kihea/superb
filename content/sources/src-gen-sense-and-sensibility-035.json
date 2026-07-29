@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-035",
+  "pool": "sourced",
+  "text": "how infinitely superior!\" \"Your indifference, however, towards that unfortunate girl--I must say it, unpleasant to me as the discussion of such a subject may well be--your indifference is no apology for your cruel neglect of her. Do not think yourself excused by any weakness, any natural defect of understanding on her side, in the wanton cruelty so evident on yours. You must have known, that while you were enjoying yourself in Devonshire pursuing fresh schemes, always gay, always happy, she was reduced to the extremest indigence.\" \"But, upon my soul, I did not know it,\" he warmly replied; \"I did not recollect that I had omitted to give her my direction; and common sense might have told her how to find it out.\"",
+  "words": [
+    {
+      "word": "cruelty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

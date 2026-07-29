@@ -1,18 +1,12 @@
 {
   "id": "src-gen-wives-and-daughters-010",
   "pool": "sourced",
-  "text": "The little crowd of inquirers around Mrs. Gibson thickened, to hear her confirm their disappointing surmise. After the duchess came Lady Cumnor, looking like Lady Macbeth in black velvet--a cloud upon her brow, made more conspicuous by the lines of age rapidly gathering on her handsome face; and Lady Harriet, and other ladies, amongst whom there was one dressed so like the duchess as to suggest the idea of a sister rather than a daughter, as far as dress went. There was Lord Hollingford, plain in face, awkward in person, gentlemanly in manner; and half-a-dozen younger men, Lord Albert Monson, Captain James, and others of their age and standing, who came in looking anything if not critical. This long-expected party swept up to the seats reserved for them at the head of the room, apparently regardless of the interruption they caused; for the dancers stood aside, and almost dispersed back to their seats, and when \"Money-musk\" struck up again, not half the former set of people stood up to finish the dance.",
+  "text": "By her dear old friends the Miss Brownings she was petted and caressed so much that she became ashamed of noticing the coarser and louder tones in which they spoke, the provincialism of their pronunciation, the absence of interest in things, and their greediness of details about persons. They asked her questions which she was puzzled enough to answer about her future stepmother; her loyalty to her father forbidding her to reply fully and truthfully. She was always glad when they began to make inquiries as to every possible affair at the Hall. She had been so happy there; she had liked them all, down to the very dogs, so thoroughly, that it was easy work replying: she did not mind telling them everything, even to the style of Mrs. Hamley's invalid dress; nor what wine the squire drank at dinner. Indeed, talking about these things helped her to recall the happiest time in her life.",
   "words": [
     {
-      "word": "velvet",
+      "word": "pronunciation",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dancers",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1866,
     "source": "Project Gutenberg #4274",
-    "url": "https://www.gutenberg.org/ebooks/4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

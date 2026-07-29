@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-thirty-nine-steps-029",
+  "pool": "sourced",
+  "text": "After Scotland the air smelt heavy and flat, but infinitely sweet, for the limes and chestnuts and lilac bushes were domes of blossom. Presently I came to a bridge, below which a clear slow stream flowed between snowy beds of water-buttercups. A little above it was a mill; and the lasher made a pleasant cool sound in the scented dusk. Somehow the place soothed me and put me at my ease. I fell to whistling as I looked into the green depths, and the tune which came to my lips was “Annie Laurie”.",
+  "words": [
+    {
+      "word": "scented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whistling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "depths",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "year": 1915,
+    "source": "Project Gutenberg #558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,10 @@
 {
   "id": "src-gen-a-tale-of-two-cities-011",
   "pool": "sourced",
-  "text": "I have cast up the years of her age, year after year. I have seen her married to a man who knew nothing of my fate. I have altogether perished from the remembrance of the living, and in the next generation my place was a blank.” “My father! Even to hear that you had such thoughts of a daughter who never existed, strikes to my heart as if I had been that child.” “You, Lucie? It is out of the Consolation and restoration you have brought to me, that these remembrances arise, and pass between us and the moon on this last night.--What did I say just now?” “She knew nothing of you.",
+  "text": "“You have had your bottle, I perceive, Sydney.” “Two to-night, I think. I have been dining with the day’s client; or seeing him dine--it’s all one!” “That was a rare point, Sydney, that you brought to bear upon the identification. How did you come by it? When did it strike you?” “I thought he was rather a handsome fellow, and I thought I should have been much the same sort of fellow, if I had had any luck.” Mr. Stryver laughed till he shook his precocious paunch. “You and your luck, Sydney!",
   "words": [
     {
-      "word": "perished",
+      "word": "identification",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

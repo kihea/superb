@@ -1,10 +1,22 @@
 {
   "id": "src-gen-robinson-crusoe-018",
   "pool": "sourced",
-  "text": "But it was all one; those in the cave, we were sure, could not hear; and those in our keeping, though they heard it well enough, yet durst give no answer to them. They were so astonished at the surprise of this, that, as they told us afterwards, they resolved to go all on board again to their ship, and let them know that the men were all murdered, and the long-boat staved; accordingly, they immediately launched their boat again, and got all of them on board. The captain was terribly amazed, and even confounded, at this, believing they would go on board the ship again and set sail, giving their comrades over for lost, and so he should still lose the ship, which he was in hopes we should have recovered; but he was quickly as much frightened the other way. They had not been long put off with the boat, when we perceived them all coming on shore again; but with this new measure in their conduct, which it seems they consulted together upon, viz.",
+  "text": "I had nothing to covet, for I had all that I was now capable of enjoying; I was lord of the whole manor; or, if I pleased, I might call myself king or emperor over the whole country which I had possession of: there were no rivals; I had no competitor, none to dispute sovereignty or command with me: I might have raised ship-loadings of corn, but I had no use for it; so I let as little grow as I thought enough for my occasion. I had tortoise or turtle enough, but now and then one was as much as I could put to any use: I had timber enough to have built a fleet of ships; and I had grapes enough to have made wine, or to have cured into raisins, to have loaded that fleet when it had been built. But all I could make use of was all that was valuable: I had enough to eat and supply my wants, and what was all the rest to me?",
   "words": [
     {
-      "word": "sail",
+      "word": "competitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turtle",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

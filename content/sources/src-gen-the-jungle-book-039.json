@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-039",
+  "pool": "sourced",
+  "text": "“It runs in our family. Now, where has that nasty little beast gone to?” I heard him feeling about with his trunk. “We all seem to be affected in various ways,” he went on, blowing his nose. “Now, you gentlemen were alarmed, I believe, when I trumpeted.” “Not alarmed, exactly,” said the troop-horse, “but it made me feel as though I had hornets where my saddle ought to be. Don’t begin again.” “I’m frightened of a little dog, and the camel here is frightened by bad dreams in the night.” “It is very lucky for us that we haven’t all got to fight in the same way,” said the troop-horse.",
+  "words": [
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "camel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,35 +1,16 @@
 {
   "id": "src-gen-gulliver-s-travels-012",
   "pool": "sourced",
-  "text": "My dinner was brought, and four persons of quality, whom I remembered to have seen very near the king’s person, did me the honour to dine with me. We had two courses, of three dishes each. In the first course, there was a shoulder of mutton cut into an equilateral triangle, a piece of beef into a rhomboides, and a pudding into a cycloid. The second course was two ducks trussed up in the form of fiddles; sausages and puddings resembling flutes and hautboys, and a breast of veal in the shape of a harp. The servants cut our bread into cones, cylinders, parallelograms, and several other mathematical figures.",
+  "text": "In the mean time I was not able to forbear groaning and shedding tears, and turning my head towards my sides; letting him know, as well as I could, how cruelly I was hurt by the pressure of his thumb and finger. He seemed to apprehend my meaning; for, lifting up the lappet of his coat, he put me gently into it, and immediately ran along with me to his master, who was a substantial farmer, and the same person I had first seen in the field. The farmer having (as I suppose by their talk) received such an account of me as his servant could give him, took a piece of a small straw, about the size of a walking-staff, and therewith lifted up the lappets of my coat; which it seems he thought to be some kind of covering that nature had given me. He blew my hairs aside to take a better view of my face. He called his hinds about him, and asked them, as I afterwards learned, whether they had ever seen in the fields any little creature that resembled me.",
   "words": [
     {
-      "word": "dine",
+      "word": "thumb",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "triangle",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pudding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cones",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cylinders",
+      "word": "lifting",
       "signals": [
         "gloss-overlap"
       ]
@@ -40,7 +21,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

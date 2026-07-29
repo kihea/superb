@@ -1,14 +1,8 @@
 {
   "id": "src-gen-walden-001",
   "pool": "sourced",
-  "text": "the large towns and cities, where civilization especially prevails, the number of those who own a shelter is a very small fraction of the whole. The rest pay an annual tax for this outside garment of all, become indispensable summer and winter, which would buy a village of Indian wigwams, but now helps to keep them poor as long as they live. I do not mean to insist here on the disadvantage of hiring compared with owning, but it is evident that the savage owns his shelter because it costs so little, while the civilized man hires his commonly because he cannot afford to own it; nor can he, in the long run, any better afford to hire. But, answers one, by merely paying this tax the poor civilized man secures an abode which is a palace compared with the savage’s. An annual rent of from twenty-five to a hundred dollars, these are the country rates, entitles him to the benefit of the improvements of centuries, spacious apartments, clean paint and paper, Rumford fireplace, back plastering, Venetian blinds, copper pump, spring lock, a commodious cellar, and many other things.",
+  "text": "ization especially prevails, the number of those who own a shelter is a very small fraction of the whole. The rest pay an annual tax for this outside garment of all, become indispensable summer and winter, which would buy a village of Indian wigwams, but now helps to keep them poor as long as they live. I do not mean to insist here on the disadvantage of hiring compared with owning, but it is evident that the savage owns his shelter because it costs so little, while the civilized man hires his commonly because he cannot afford to own it; nor can he, in the long run, any better afford to hire. But, answers one, by merely paying this tax the poor civilized man secures an abode which is a palace compared with the savage’s. An annual rent of from twenty-five to a hundred dollars, these are the country rates, entitles him to the benefit of the improvements of centuries, spacious apartments, clean paint and paper, Rumford fireplace, back plastering, Venetian blinds, copper pump, spring lock, a commodious cellar, and many other things.",
   "words": [
-    {
-      "word": "civilization",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
     {
       "word": "fraction",
       "signals": [
@@ -17,30 +11,6 @@
     },
     {
       "word": "indispensable",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "owning",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "owns",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hires",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "apartments",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +27,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

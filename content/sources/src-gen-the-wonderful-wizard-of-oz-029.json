@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-029",
+  "pool": "sourced",
+  "text": "Others took the Scarecrow and the Woodman and the Lion, and one little Monkey seized Toto and flew after them, although the dog tried hard to bite him. The Scarecrow and the Tin Woodman were rather frightened at first, for they remembered how badly the Winged Monkeys had treated them before; but they saw that no harm was intended, so they rode through the air quite cheerfully, and had a fine time looking at the pretty gardens and woods far below them. Dorothy found herself riding easily between two of the biggest Monkeys, one of them the King himself. They had made a chair of their hands and were careful not to hurt her. “Why do you have to obey the charm of the Golden Cap?” she asked.",
+  "words": [
+    {
+      "word": "flew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

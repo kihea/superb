@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-bleak-house-039",
+  "pool": "sourced",
+  "text": "Perhaps I ought to do so. I will be the mistress of Bleak House when you please.” “See,” he returned gaily, “what a sympathy there must be between us! I have had nothing else, poor Rick excepted—it’s a large exception—in my mind. When you came in, I was full of it. When shall we give Bleak House its mistress, little woman?” “When you please.” “Next month?” “Next month, dear guardian.” “The day on which I take the happiest and best step of my life—the day on which I shall be a man more exulting and more enviable than any other man in the world—the day on which I give Bleak House its little mistress—shall be next month then,” said my guardian.",
+  "words": [
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

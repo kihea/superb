@@ -1,16 +1,28 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-016",
   "pool": "sourced",
-  "text": "For he never means to swallow a single limb; he only thinks to terrify by feints. But sometimes he is like the old juggling fellow, formerly a patient of mine in Ceylon, that making believe swallow jack-knives, once upon a time let one drop into him in good earnest, and there it stayed for a twelvemonth or more; when I gave him an emetic, and he heaved it up in small tacks, d’ye see. No possible way for him to digest that jack-knife, and fully incorporate it into his general bodily system. Yes, Captain Boomer, if you are quick enough about it, and have a mind to pawn one arm for the sake of the privilege of giving decent burial to the other, why in that case the arm is yours; only let the whale have another chance at you shortly, that’s all.” “No, thank ye, Bunger,” said the English Captain, “he’s welcome to the arm he has, since I can’t help it, and didn’t know him then; but not to another one. No more White Whales for me; I’ve lowered for him once, and that has satisfied me.",
+  "text": "But in all vessels this broom business is the prescriptive province of the boys, if boys there be aboard. Besides, it was the stronger men in the Town-Ho that had been divided into gangs, taking turns at the pumps; and being the most athletic seaman of them all, Steelkilt had been regularly assigned captain of one of the gangs; consequently he should have been freed from any trivial business not connected with truly nautical duties, such being the case with his comrades. I mention all these particulars so that you may understand exactly how this affair stood between the two men. “But there was more than this: the order about the shovel was almost as plainly meant to sting and insult Steelkilt, as though Radney had spat in his face. Any man who has gone sailor in a whale-ship will understand this; and all this and doubtless much more, the Lakeman fully comprehended when the mate uttered his command.",
   "words": [
     {
-      "word": "limb",
+      "word": "aboard",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "knives",
+      "word": "seaman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shovel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

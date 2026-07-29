@@ -1,0 +1,60 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-033",
+  "pool": "sourced",
+  "text": "“She’s there, you little unhappy thing—there, there, there, and you see her as well as you see me!” I had said shortly before to Mrs. Grose that she was not at these times a child, but an old, old woman, and that description of her could not have been more strikingly confirmed than in the way in which, for all answer to this, she simply showed me, without a concession, an admission, of her eyes, a countenance of deeper and deeper, of indeed suddenly quite fixed, reprobation. I was by this time—if I can put the whole thing at all together—more appalled at what I may properly call her manner than at anything else, though it was simultaneously with this that I became aware of having Mrs. Grose also, and very formidably, to reckon with. My elder companion, the next moment, at any rate, blotted out everything but her own flushed face and her loud, shocked protest, a burst of high disapproval. “What a dreadful turn, to be sure, miss! Where on earth do you see anything?” I could only grasp her more quickly yet, for even while she spoke the hideous plain presence stood undimmed and undaunted.",
+  "words": [
+    {
+      "word": "strikingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "concession",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "appalled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "simultaneously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reckon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

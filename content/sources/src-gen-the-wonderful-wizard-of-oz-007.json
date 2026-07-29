@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-007",
   "pool": "sourced",
-  "text": "Then the Stork with her great claws grabbed the Scarecrow by the arm and carried him up into the air and back to the bank, where Dorothy and the Lion and the Tin Woodman and Toto were sitting. When the Scarecrow found himself among his friends again, he was so happy that he hugged them all, even the Lion and Toto; and as they walked along he sang “Tol-de-ri-de-oh!” at every step, he felt so gay. “I was afraid I should have to stay in the river forever,” he said, “but the kind Stork saved me, and if I ever get any brains I shall find the Stork again and do her some kindness in return.” “That’s all right,” said the Stork, who was flying along beside them. “I always like to help anyone in trouble. But I must go now, for my babies are waiting in the nest for me.",
+  "text": "“If you see any house, or any place where we can pass the night,” she said, “you must tell me; for it is very uncomfortable walking in the dark.” Soon after the Scarecrow stopped. “I see a little cottage at the right of us,” he said, “built of logs and branches. Shall we go there?” “Yes, indeed,” answered the child. “I am all tired out.” So the Scarecrow led her through the trees until they reached the cottage, and Dorothy entered and found a bed of dried leaves in one corner. She lay down at once, and with Toto beside her soon fell into a sound sleep.",
   "words": [
     {
-      "word": "hugged",
+      "word": "cottage",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "kindness",
+      "word": "dried",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

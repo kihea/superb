@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heart-of-darkness-032",
+  "pool": "sourced",
+  "text": "The bushes shook, the grass swayed for a time, and then everything stood still in attentive immobility. “‘Now, if he does not say the right thing to them we are all done for,’ said the Russian at my elbow. The knot of men with the stretcher had stopped, too, halfway to the steamer, as if petrified. I saw the man on the stretcher sit up, lank and with an uplifted arm, above the shoulders of the bearers. ‘Let us hope that the man who can talk so well of love in general will find some particular reason to spare us this time,’ I said.",
+  "words": [
+    {
+      "word": "shook",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "elbow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

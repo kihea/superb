@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-024",
+  "pool": "sourced",
+  "text": "lat., the Nautilus floated on the surface of the sea, approaching the Arabian coast. I saw Djeddah, the most important counting-house of Egypt, Syria, Turkey, and India. I distinguished clearly enough its buildings, the vessels anchored at the quays, and those whose draught of water obliged them to anchor in the roads. The sun, rather low on the horizon, struck full on the houses of the town, bringing out their whiteness. Outside, some wooden cabins, and some made of reeds, showed the quarter inhabited by the Bedouins.",
+  "words": [
+    {
+      "word": "anchored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

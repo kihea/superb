@@ -1,16 +1,47 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-010",
   "pool": "sourced",
-  "text": "“Haul in—haul in!” cried Stubb to the bowsman! and, facing round towards the whale, all hands began pulling the boat up to him, while yet the boat was being towed on. Soon ranging up by his flank, Stubb, firmly planting his knee in the clumsy cleat, darted dart after dart into the flying fish; at the word of command, the boat alternately sterning out of the way of the whale’s horrible wallow, and then ranging up for another fling. The red tide now poured from all sides of the monster like brooks down a hill. His tormented body rolled not in brine but in blood, which bubbled and seethed for furlongs behind in their wake.",
+  "text": "With the problem of the universe revolving in me, how could I—being left completely to myself at such a thought-engendering altitude—how could I but lightly hold my obligations to observe all whale-ships’ standing orders, “Keep your weather eye open, and sing out every time.” And let me in this place movingly admonish you, ye ship-owners of Nantucket! Beware of enlisting in your vigilant fisheries any lad with lean brow and hollow eye; given to unseasonable meditativeness; and who offers to ship with the Phædon instead of Bowditch in his head. Beware of such an one, I say; your whales must be seen before they can be killed; and this sunken-eyed young Platonist will tow you ten wakes round the world, and never make you one pint of sperm the richer. Nor are these monitions at all unneeded. For nowadays, the whale-fishery furnishes an asylum for many romantic, melancholy, and absent-minded young men, disgusted with the carking cares of earth, and seeking sentiment in tar and blubber.",
   "words": [
     {
-      "word": "haul",
+      "word": "lad",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "towed",
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nowadays",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "asylum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +52,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

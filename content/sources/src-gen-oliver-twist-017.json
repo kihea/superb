@@ -1,16 +1,10 @@
 {
   "id": "src-gen-oliver-twist-017",
   "pool": "sourced",
-  "text": "“No, no—none of that. It’s not in my department, that ain’t.” “Wot department has he got, Fagin?” inquired Master Bates, surveying Noah’s lank form with much disgust. “The cutting away when there’s anything wrong, and the eating all the wittles when there’s everything right; is that his branch?” “Never mind,” retorted Mr. Bolter; “and don’t yer take liberties with yer superiors, little boy, or yer’ll find yerself in the wrong shop.” Master Bates laughed so vehemently at this magnificent threat, that it was some time before Fagin could interpose, and represent to Mr. Bolter that he incurred no possible danger in visiting the police-office; that, inasmuch as no account of the little affair in which he had engaged, nor any description of his person, had yet been forwarded to the metropolis, it was very probable that he was not even suspected of having resorted to it for shelter; and that, if he were properly disguised, it would be as safe a spot for him to visit as any in London, inasmuch as it would be, of all places, the very last, to which he could be supposed likely to resort of his own free will.",
+  "text": "Rich gold, that might have saved her life!” “Gold!” echoed the matron, bending eagerly over the woman as she fell back. “Go on, go on—yes—what of it? Who was the mother? When was it?” “She charged me to keep it safe,” replied the woman with a groan, “and trusted me as the only woman about her. I stole it in my heart when she first showed it me hanging round her neck; and the child’s death, perhaps, is on me besides!",
   "words": [
     {
-      "word": "liberties",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "probable",
+      "word": "stole",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

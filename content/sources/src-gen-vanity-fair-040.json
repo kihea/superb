@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-vanity-fair-040",
+  "pool": "sourced",
+  "text": "Whilst the ladies were carrying on their conversation, Amelia's constant escort, the Major (who, of course, did not wish to interrupt their conference, and found himself rather tired of creaking about the narrow stair passage of which the roof brushed the nap from his hat) descended to the ground-floor of the house and into the great room common to all the frequenters of the Elephant, out of which the stair led. This apartment is always in a fume of smoke and liberally sprinkled with beer. On a dirty table stand scores of corresponding brass candlesticks with tallow candles for the lodgers, whose keys hang up in rows over the candles. Emmy had passed blushing through the room anon, where all sorts of people were collected; Tyrolese glove-sellers and Danubian linen-merchants, with their packs; students recruiting themselves with butterbrods and meat; idlers, playing cards or dominoes on the sloppy, beery tables; tumblers refreshing during the cessation of their performances--in a word, all the fumum and strepitus of a German inn in fair time.",
+  "words": [
+    {
+      "word": "escort",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

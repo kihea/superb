@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-custom-of-the-country-040",
+  "pool": "sourced",
+  "text": "No, no, don't cry--it ain't that kind of a story ... but I'll have a deck suite for you on the Semantic if you'll sail with me the day after to-morrow.\" XLVI In the great high-ceilinged library of a private hotel overlooking one of the new quarters of Paris, Paul Marvell stood listlessly gazing out into the twilight. The trees were budding symmetrically along the avenue below; and Paul, looking down, saw, between windows and tree-tops, a pair of tall iron gates with gilt ornaments, the marble curb of a semi-circular drive, and bands of spring flowers set in turf. He was now a big boy of nearly nine, who went to a fashionable private school, and he had come home that day for the Easter holidays. He had not been back since Christmas, and it was the first time he had seen the new hotel which his step-father had bought, and in which Mr. and Mrs. Moffatt had hastily established themselves, a few weeks earlier, on their return from a flying trip to America.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tops",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ornaments",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "curb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

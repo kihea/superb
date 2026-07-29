@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-031",
+  "pool": "sourced",
+  "text": "As he approached a little nearer, he thought he saw something white, hanging in the midst of the tree: he paused and ceased whistling but, on looking more narrowly, perceived that it was a place where the tree had been scathed by lightning, and the white wood laid bare. Suddenly he heard a groan--his teeth chattered, and his knees smote against the saddle: it was but the rubbing of one huge bough upon another, as they were swayed about by the breeze. He passed the tree in safety, but new perils lay before him. About two hundred yards from the tree, a small brook crossed the road, and ran into a marshy and thickly-wooded glen, known by the name of Wiley’s Swamp. A few rough logs, laid side by side, served for a bridge over this stream.",
+  "words": [
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

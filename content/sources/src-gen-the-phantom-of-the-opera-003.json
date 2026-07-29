@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-003",
   "pool": "sourced",
-  "text": "Giry, burst into song again--\"'Saint, unclose thy portals holy and accord the bliss, to a mortal bending lowly, of a pardon-kiss.' And then M. Maniera again hears the voice in his right ear, saying, this time, 'Ha, ha! Julie wouldn't mind according a kiss to Isidore!' Then he turns round again, but, this time, to the left; and what do you think he sees? Isidore, who had taken his lady's hand and was covering it with kisses through the little round place in the glove--like this, gentlemen\"--rapturously kissing the bit of palm left bare in the middle of her thread gloves.",
+  "text": "No one repeated the joke of the foyer, no one exclaimed: \"There's the Opera ghost!\" He himself did not speak a word and his very neighbors could not have stated at what precise moment he had sat down between them; but every one felt that if the dead did ever come and sit at the table of the living, they could not cut a more ghastly figure. The friends of Firmin Richard and Armand Moncharmin thought that this lean and skinny guest was an acquaintance of Debienne's or Poligny's, while Debienne's and Poligny's friends believed that the cadaverous individual belonged to Firmin Richard and Armand Moncharmin's party. The result was that no request was made for an explanation; no unpleasant remark; no joke in bad taste, which might have offended this visitor from the tomb. A few of those present who knew the story of the ghost and the description of him given by the chief scene-shifter--they did not know of Joseph Buquet's death--thought, in their own minds, that the man at the end of the table might easily have passed for him; and yet, according to the story, the ghost had no nose and the person in question had.",
   "words": [
     {
-      "word": "lowly",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hears",
+      "word": "visitor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "glove",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gloves",
+      "word": "tomb",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

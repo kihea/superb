@@ -1,10 +1,22 @@
 {
   "id": "src-gen-white-fang-005",
   "pool": "sourced",
-  "text": "At once the sapling shot up, and after that gave no more trouble, remaining in the decorous and perpendicular position in which nature had intended it to grow. Then, between them, the she-wolf and One Eye devoured the game which the mysterious sapling had caught for them. There were other run-ways and alleys where rabbits were hanging in the air, and the wolf-pair prospected them all, the she-wolf leading the way, old One Eye following and observant, learning the method of robbing snares—a knowledge destined to stand him in good stead in the days to come. THE LAIR For two days the she-wolf and One Eye hung about the Indian camp. He was worried and apprehensive, yet the camp lured his mate and she was loath to depart.",
+  "text": "Then the circle would lie down again, and here and there a wolf would resume its broken nap. But this circle had a continuous tendency to draw in upon him. Bit by bit, an inch at a time, with here a wolf bellying forward, and there a wolf bellying forward, the circle would narrow until the brutes were almost within springing distance. Then he would seize brands from the fire and hurl them into the pack. A hasty drawing back always resulted, accompanied by angry yelps and frightened snarls when a well-aimed brand struck and scorched a too daring animal.",
   "words": [
     {
-      "word": "stead",
+      "word": "resume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hasty",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

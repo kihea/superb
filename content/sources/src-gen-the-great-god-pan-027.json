@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-great-god-pan-027",
+  "pool": "sourced",
+  "text": "And all the time I was looking at her, and afterwards, when I was going home, I had a curious feeling that very expression was in some way or another familiar to me.” “You must have seen her in the Row.” “No, I am sure I never set eyes on the woman before; it is that which makes it puzzling. And to the best of my belief I have never seen anyone like her; what I felt was a kind of dim far-off memory, vague but persistent. The only sensation I can compare it to, is that odd feeling one sometimes has in a dream, when fantastic cities and wondrous lands and phantom personages appear familiar and accustomed.” Villiers nodded and glanced aimlessly round the room, possibly in search of something on which to turn the conversation. His eyes fell on an old chest somewhat like that in which the artist’s strange legacy lay hid beneath a Gothic scutcheon. “Have you written to the doctor about poor Meyrick?” he asked.",
+  "words": [
+    {
+      "word": "sensation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accustomed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,18 +1,17 @@
 {
   "id": "src-gen-the-call-of-the-wild-017",
   "pool": "sourced",
-  "text": "The salient thing of this other world seemed fear. When he watched the hairy man sleeping by the fire, head between his knees and hands clasped above, Buck saw that he slept restlessly, with many starts and awakenings, at which times he would peer fearfully into the darkness and fling more wood upon the fire. Did they walk by the beach of a sea, where the hairy man gathered shellfish and ate them as he gathered, it was with eyes that roved everywhere for hidden danger and with legs prepared to run like the wind at its first appearance. Through the forest they crept noiselessly, Buck at the hairy man’s heels; and they were alert and vigilant, the pair of them, ears twitching and moving and nostrils quivering, for the man heard and smelled as keenly as Buck. The hairy man could spring up into the trees and travel ahead as fast as on the ground, swinging by the arms from limb to limb, sometimes a dozen feet apart, letting go and catching, never falling, never missing his grip.",
+  "text": "On such occasions his elbows were on his knees, his hands clasped above his head as though to shed rain by the hairy arms. And beyond that fire, in the circling darkness, Buck could see many gleaming coals, two by two, always two by two, which he knew to be the eyes of great beasts of prey. And he could hear the crashing of their bodies through the undergrowth, and the noises they made in the night. And dreaming there by the Yukon bank, with lazy eyes blinking at the fire, these sounds and sights of another world would make the hair to rise along his back and stand on end across his shoulders and up his neck, till he whimpered low and suppressedly, or growled softly, and the half-breed cook shouted at him, “Hey, you Buck, wake up!” Whereupon the other world would vanish and the real world come into his eyes, and he would get up and yawn and stretch as though he had been asleep. It was a hard trip, with the mail behind them, and the heavy work wore them down.",
   "words": [
     {
-      "word": "crept",
+      "word": "hairy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "vigilant",
+      "word": "shoulders",
       "signals": [
-        "apposition",
         "gloss-overlap"
       ]
     }
@@ -22,7 +21,7 @@
     "author": "Jack London",
     "year": 1903,
     "source": "Project Gutenberg #215",
-    "url": "https://www.gutenberg.org/ebooks/215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

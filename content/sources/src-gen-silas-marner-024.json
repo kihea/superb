@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-silas-marner-024",
+  "pool": "sourced",
+  "text": "“That’s ‘Over the hills and far away,’ that is. My father used to say to me, whenever we heard that tune, ‘Ah, lad, I come from over the hills and far away.’ There’s a many tunes I don’t make head or tail of; but that speaks to me like the blackbird’s whistle. I suppose it’s the name: there’s a deal in the name of a tune.” But Solomon was already impatient to prelude again, and presently broke with much spirit into “Sir Roger de Coverley,” at which there was a sound of chairs pushed back, and laughing voices. “Aye, aye, Solomon, we know what that means,” said the Squire, rising. “It’s time to begin the dance, eh?",
+  "words": [
+    {
+      "word": "whistle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-024",
+  "pool": "sourced",
+  "text": "The Madness from the Sea. If heaven ever wishes to grant me a boon, it will be a total effacing of the results of a mere chance which fixed my eye on a certain stray piece of shelf-paper. It was nothing on which I would naturally have stumbled in the course of my daily round, for it was an old number of an Australian journal, Sydney Bulletin for April 18, 1925. It had escaped even the cutting bureau which had at the time of its issuance been avidly collecting material for my uncle's research. I had largely given over my inquiries into what Professor Angell called the \"Cthulhu Cult,\" and was visiting a learned friend of Paterson, New Jersey, the curator of a local museum and a mineralogist of note.",
+  "words": [
+    {
+      "word": "shelf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curator",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

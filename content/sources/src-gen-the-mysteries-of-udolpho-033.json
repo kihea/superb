@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-033",
+  "pool": "sourced",
+  "text": "Dorothée allowed, that this was possible, till she recollected, that, on entering the apartments, she had turned the key of the outer door, and this, which had been done to prevent their visit being noticed by any of the family, who might happen to be up, must effectually have excluded every person, except themselves, from the chambers; and she now persisted in affirming, that the ghastly countenance she had seen was nothing human, but some dreadful apparition. Emily was very solemnly affected. Of whatever nature might be the appearance she had witnessed, whether human or supernatural, the fate of the deceased Marchioness was a truth not to be doubted; and this unaccountable circumstance, occurring in the very scene of her sufferings, affected Emily’s imagination with a superstitious awe, to which, after having detected the fallacies at Udolpho, she might not have yielded, had she been ignorant of the unhappy story, related by the housekeeper. Her she now solemnly conjured to conceal the occurrence of this night, and to make light of the terror she had already betrayed, that the Count might not be distressed by reports, which would certainly spread alarm and confusion among his family.",
+  "words": [
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supernatural",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

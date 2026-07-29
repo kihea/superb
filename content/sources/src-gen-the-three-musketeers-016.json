@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-three-musketeers-016",
   "pool": "sourced",
-  "text": "Milady looked at this man, and hesitated. “Who are you, sir,” asked she, “who has the kindness to trouble yourself so particularly on my account?” “You may perceive, madame, by my uniform, that I am an officer in the English navy,” replied the young man. “But is it the custom for the officers in the English navy to place themselves at the service of their female compatriots when they land in a port of Great Britain, and carry their gallantry so far as to conduct them ashore?” “Yes, madame, it is the custom, not from gallantry but prudence, that in time of war foreigners should be conducted to particular hôtels, in order that they may remain under the eye of the government until full information can be obtained about them.” These words were pronounced with the most exact politeness and the most perfect calmness. Nevertheless, they had not the power of convincing Milady.",
+  "text": "The three men brought the carriage up quietly, and took out of it a little man, stout, short, elderly, and commonly dressed in clothes of a dark color, who ascended the ladder very carefully, looked suspiciously in at the window of the pavilion, came down as quietly as he had gone up, and whispered, ‘It is she!’ Immediately, he who had spoken to me approached the door of the pavilion, opened it with a key he had in his hand, closed the door and disappeared, while at the same time the other two men ascended the ladder. The little old man remained at the coach door; the coachman took care of his horses, the lackey held the saddlehorses. All at once great cries resounded in the pavilion, and a woman came to the window, and opened it, as if to throw herself out of it; but as soon as she perceived the other two men, she fell back and they went into the chamber. Then I saw no more; but I heard the noise of breaking furniture. The woman screamed, and cried for help; but her cries were soon stifled.",
   "words": [
     {
-      "word": "ashore",
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elderly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ladder",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

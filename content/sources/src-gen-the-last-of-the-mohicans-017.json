@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-017",
   "pool": "sourced",
-  "text": "But, while he was making this ostensible sacrifice to general considerations, Magua never lost sight of his individual motives. The latter had been frustrated by the unlooked-for events which had placed all his prisoners beyond his control; and he now found himself reduced to the necessity of suing for favors to those whom it had so lately been his policy to oblige. Several of the chiefs had proposed deep and treacherous schemes to surprise the Delawares and, by gaining possession of their camp, to recover their prisoners by the same blow; for all agreed that their honor, their interests, and the peace and happiness of their dead countrymen, imperiously required them speedily to immolate some victims to their revenge. But plans so dangerous to attempt, and of such doubtful issue, Magua found little difficulty in defeating. He exposed their risk and fallacy with his usual skill; and it was only after he had removed every impediment, in the shape of opposing advice, that he ventured to propose his own projects.",
+  "text": "I trust, monsieur, you come authorized to treat for the surrender of the place?” “Has your excellency found our defense so feeble as to believe the measure necessary?” “I should be sorry to have the defense protracted in such a manner as to irritate my red friends there,” continued Montcalm, glancing his eyes at the group of grave and attentive Indians, without attending to the other’s questions; “I find it difficult, even now, to limit them to the usages of war.” Heyward was silent; for a painful recollection of the dangers he had so recently escaped came over his mind, and recalled the images of those defenseless beings who had shared in all his sufferings. “Ces messieurs-là,” said Montcalm, following up the advantage which he conceived he had gained, “are most formidable when baffled; and it is unnecessary to tell you with what difficulty they are restrained in their anger. Eh bien, monsieur!",
   "words": [
     {
-      "word": "gaining",
+      "word": "attentive",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "opposing",
+      "word": "escaped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unnecessary",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

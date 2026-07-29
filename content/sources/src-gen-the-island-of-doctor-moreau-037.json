@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-037",
+  "pool": "sourced",
+  "text": "Some memory of pain, I found, still made that place the safest from the Beast Folk. It would be impossible to detail every step of the lapsing of these monsters,—to tell how, day by day, the human semblance left them; how they gave up bandagings and wrappings, abandoned at last every stitch of clothing; how the hair began to spread over the exposed limbs; how their foreheads fell away and their faces projected; how the quasi-human intimacy I had permitted myself with some of them in the first month of my loneliness became a shuddering horror to recall. The change was slow and inevitable. For them and for me it came without any definite shock. I still went among them in safety, because no jolt in the downward glide had released the increasing charge of explosive animalism that ousted the human day by day.",
+  "words": [
+    {
+      "word": "stitch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inevitable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

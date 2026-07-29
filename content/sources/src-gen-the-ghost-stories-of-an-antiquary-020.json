@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-020",
   "pool": "sourced",
-  "text": "And with Dr. Renton's \"good-night\" he stole up to bed, thoroughly happy, and determined to obey Miss Renton's future instructions to the letter. The shower of golden light which had been raining for the last two hours, had fallen, even on him. It would fall all day to-morrow in many places, and the day after, and for long years to come. Would that it could broaden and increase to a general deluge, and submerge the world! Now the whole house was still, and its master was weary.",
+  "text": "A look of trouble darkened the sleeping face. Stronger--stronger; brighter--brighter; until, at last, it stood before him, a glorious shape of light, with an awful look of commanding love in its shining features--and the sleeper sprang to his feet with a cry! The phantom had vanished. He saw nothing. His first impression was, not that he had dreamed, but that, awaking in the familiar room, he had seen the spirit of his dead friend, bright and awful by his side, and that it had gone!",
   "words": [
     {
-      "word": "morrow",
+      "word": "darkened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vanished",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

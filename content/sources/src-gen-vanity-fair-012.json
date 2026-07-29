@@ -1,10 +1,16 @@
 {
   "id": "src-gen-vanity-fair-012",
   "pool": "sourced",
-  "text": "Rawdon minor had made up his face for a tremendous howl--the severity of the blow indeed authorized that indulgence; but just as he was going to begin, the father interposed. \"For God's sake, Rawdy, don't wake Mamma,\" he cried. And the child, looking in a very hard and piteous way at his father, bit his lips, clenched his hands, and didn't cry a bit. Rawdon told that story at the clubs, at the mess, to everybody in town. \"By Gad, sir,\" he explained to the public in general, \"what a good plucked one that boy of mine is--what a trump he is!",
+  "text": "Young Fred Bullock, one of his chief informants, would have liked to make a bid for her himself (it was so the young banker expressed it), only he was booked to Maria Osborne. But not being able to secure her as a wife, the disinterested Fred quite approved of her as a sister-in-law. \"Let George cut in directly and win her,\" was his advice. \"Strike while the iron's hot, you know--while she's fresh to the town: in a few weeks some d---- fellow from the West End will come in with a title and a rotten rent-roll and cut all us City men out, as Lord Fitzrufus did last year with Miss Grogram, who was actually engaged to Podder, of Podder & Brown's. The sooner it is done the better, Mr. Osborne; them's my sentiments,\" the wag said; though, when Osborne had left the bank parlour, Mr. Bullock remembered Amelia, and what a pretty girl she was, and how attached to George Osborne; and he gave up at least ten seconds of his valuable time to regretting the misfortune which had befallen that unlucky young woman.",
   "words": [
     {
-      "word": "howl",
+      "word": "banker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unlucky",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

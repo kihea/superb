@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-o-pioneers-032",
+  "pool": "sourced",
+  "text": "All day Saturday the church was a scene of bustling activity, a little hushed by the thought of Amédée. The choir were busy rehearsing a mass of Rossini, which they had studied and practised for this occasion. The women were trimming the altar, the boys and girls were bringing flowers. On Sunday morning the bishop was to drive overland to Sainte-Agnes from Hanover, and Emil Bergson had been asked to take the place of one of Amédée’s cousins in the cavalcade of forty French boys who were to ride across country to meet the bishop’s carriage. At six o’clock on Sunday morning the boys met at the church.",
+  "words": [
+    {
+      "word": "bustling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overland",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

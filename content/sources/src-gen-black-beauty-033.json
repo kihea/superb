@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-033",
+  "pool": "sourced",
+  "text": "I often feel like an old man, though I'm only forty-five. You know how quick some of the gentry are to suspect us of cheating and overcharging; why, they stand with their purses in their hands counting it over to a penny and looking at us as if we were pickpockets. I wish some of 'em had got to sit on my box sixteen hours a day and get a living out of it and eighteen shillings beside, and that in all weathers; they would not be so uncommon particular never to give us a sixpence over or to cram all the luggage inside. Of course, some of 'em tip us pretty handsome now and then, or else we could not live; but you can't depend upon that.” The men who stood round much approved this speech, and one of them said, “It is desperate hard, and if a man sometimes does what is wrong it is no wonder, and if he gets a dram too much who's to blow him up?” Jerry had taken no part in this conversation, but I never saw his face look so sad before.",
+  "words": [
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cram",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

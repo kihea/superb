@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-black-beauty-026",
+  "pool": "sourced",
+  "text": "I was led into a comfortable, clean-smelling stall, with plenty of dry straw, and after a capital supper I lay down, thinking I was going to be happy. 33 A London Cab Horse Jeremiah Barker was my new master's name, but as every one called him Jerry, I shall do the same. Polly, his wife, was just as good a match as a man could have. She was a plump, trim, tidy little woman, with smooth, dark hair, dark eyes, and a merry little mouth. The boy was twelve years old, a tall, frank, good-tempered lad; and little Dorothy (Dolly they called her) was her mother over again, at eight years old.",
+  "words": [
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "merry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

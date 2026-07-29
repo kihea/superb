@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-032",
+  "pool": "sourced",
+  "text": "Then Kala Nag reached the crest of the ascent and stopped for a minute, and Little Toomai could see the tops of the trees lying all speckled and furry under the moonlight for miles and miles, and the blue-white mist over the river in the hollow. Toomai leaned forward and looked, and he felt that the forest was awake below him--awake and alive and crowded. A big brown fruit-eating bat brushed past his ear; a porcupine’s quills rattled in the thicket; and in the darkness between the tree stems he heard a hog-bear digging hard in the moist warm earth, and snuffing as it digged. Then the branches closed over his head again, and Kala Nag began to go down into the valley--not quietly this time, but as a runaway gun goes down a steep bank--in one rush. The huge limbs moved as steadily as pistons, eight feet to each stride, and the wrinkled skin of the elbow points rustled.",
+  "words": [
+    {
+      "word": "hollow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

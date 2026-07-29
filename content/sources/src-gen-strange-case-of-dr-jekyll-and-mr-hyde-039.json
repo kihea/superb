@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-039",
+  "pool": "sourced",
+  "text": "How was he to be reached? how persuaded? Supposing that I escaped capture in the streets, how was I to make my way into his presence? and how should I, an unknown and displeasing visitor, prevail on the famous physician to rifle the study of his colleague, Dr. Jekyll? Then I remembered that of my original character, one part remained to me: I could write my own hand; and once I had conceived that kindling spark, the way that I must follow became lighted up from end to end.",
+  "words": [
+    {
+      "word": "prevail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

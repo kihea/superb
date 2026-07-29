@@ -1,10 +1,16 @@
 {
   "id": "src-gen-jane-eyre-005",
   "pool": "sourced",
-  "text": "“A matter of six miles.” “How long shall we be before we get there?” “Happen an hour and a half.” He fastened the car door, climbed to his own seat outside, and we set off. Our progress was leisurely, and gave me ample time to reflect; I was content to be at length so near the end of my journey; and as I leaned back in the comfortable though not elegant conveyance, I meditated much at my ease. “I suppose,” thought I, “judging from the plainness of the servant and carriage, Mrs. Fairfax is not a very dashing person: so much the better; I never lived amongst fine people but once, and I was very miserable with them. I wonder if she lives alone except this little girl; if so, and if she is in any degree amiable, I shall surely be able to get on with her; I will do my best; it is a pity that doing one’s best does not always answer. At Lowood, indeed, I took that resolution, kept it, and succeeded in pleasing; but with Mrs. Reed, I remember my best was always spurned with scorn.",
+  "text": "I read these words over and over again: I felt that an explanation belonged to them, and was unable fully to penetrate their import. I was still pondering the signification of “Institution,” and endeavouring to make out a connection between the first words and the verse of Scripture, when the sound of a cough close behind me made me turn my head. I saw a girl sitting on a stone bench near; she was bent over a book, on the perusal of which she seemed intent: from where I stood I could see the title—it was “Rasselas;” a name that struck me as strange, and consequently attractive. In turning a leaf she happened to look up, and I said to her directly— “Is your book interesting?” I had already formed the intention of asking her to lend it to me some day. “I like it,” she answered, after a pause of a second or two, during which she examined me.",
   "words": [
     {
-      "word": "servant",
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cough",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

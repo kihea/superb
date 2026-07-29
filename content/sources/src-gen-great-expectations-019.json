@@ -1,28 +1,22 @@
 {
   "id": "src-gen-great-expectations-019",
   "pool": "sourced",
-  "text": "“When it turns at nine o’clock,” said Herbert, cheerfully, “look out for us, and stand ready, you over there at Mill Pond Bank!” It was one of those March days when the sun shines hot and the wind blows cold: when it is summer in the light, and winter in the shade. We had our pea-coats with us, and I took a bag. Of all my worldly possessions I took no more than the few necessaries that filled the bag. Where I might go, what I might do, or when I might return, were questions utterly unknown to me; nor did I vex my mind with them, for it was wholly set on Provis’s safety. I only wondered for the passing moment, as I stopped at the door and looked back, under what altered circumstances I should next see those rooms, if ever.",
+  "text": "I knew it was Joe, by his clumsy manner of coming upstairs,—his state boots being always too big for him,—and by the time it took him to read the names on the other floors in the course of his ascent. When at last he stopped outside our door, I could hear his finger tracing over the painted letters of my name, and I afterwards distinctly heard him breathing in at the keyhole. Finally he gave a faint single rap, and Pepper—such was the compromising name of the avenging boy—announced “Mr. Gargery!” I thought he never would have done wiping his feet, and that I must have gone out to lift him off the mat, but at last he came in. “Joe, how are you, Joe?” “Pip, how AIR you, Pip?” With his good honest face all glowing and shining, and his hat put down on the floor between us, he caught both my hands and worked them straight up and down, as if I had been the last-patented Pump.",
   "words": [
     {
-      "word": "shines",
+      "word": "upstairs",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shade",
+      "word": "distinctly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "possessions",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wondered",
+      "word": "mat",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

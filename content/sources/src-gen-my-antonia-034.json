@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-my-antonia-034",
+  "pool": "sourced",
+  "text": "The wheat harvest was over, and here and there along the horizon I could see black puffs of smoke from the steam threshing-machines. The old pasture land was now being broken up into wheatfields and cornfields, the red grass was disappearing, and the whole face of the country was changing. There were wooden houses where the old sod dwellings used to be, and little orchards, and big red barns; all this meant happy children, contented women, and men who saw their lives coming to a fortunate issue. The windy springs and the blazing summers, one after another, had enriched and mellowed that flat tableland; all the human effort that had gone into it was coming back in long, sweeping lines of fertility. The changes seemed beautiful and harmonious to me; it was like watching the growth of a great man or of a great idea.",
+  "words": [
+    {
+      "word": "wheat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pasture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

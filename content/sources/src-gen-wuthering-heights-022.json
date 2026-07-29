@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-wuthering-heights-022",
+  "pool": "sourced",
+  "text": "When I first looked into his face, I perceived that he had got intelligence of the catastrophe; and a foolish notion struck me that his heart was quelled and he prayed, because his lips moved and his gaze was bent on the ground. “Yes, she’s dead!” I answered, checking my sobs and drying my cheeks. “Gone to heaven, I hope; where we may, every one, join her, if we take due warning and leave our evil ways to follow good!” “Did she take due warning, then?” asked Heathcliff, attempting a sneer. “Did she die like a saint? Come, give me a true history of the event.",
+  "words": [
+    {
+      "word": "perceived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "catastrophe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

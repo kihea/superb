@@ -1,10 +1,10 @@
 {
   "id": "src-gen-jane-eyre-009",
   "pool": "sourced",
-  "text": "A ceremony followed, in dumb show, in which it was easy to recognise the pantomime of a marriage. At its termination, Colonel Dent and his party consulted in whispers for two minutes, then the Colonel called out— “Bride!” Mr. Rochester bowed, and the curtain fell. A considerable interval elapsed before it again rose. Its second rising displayed a more elaborately prepared scene than the last. The drawing-room, as I have before observed, was raised two steps above the dining-room, and on the top of the upper step, placed a yard or two back within the room, appeared a large marble basin, which I recognised as an ornament of the conservatory—where it usually stood, surrounded by exotics, and tenanted by gold fish—and whence it must have been transported with some trouble, on account of its size and weight.",
+  "text": "“No, Miss Jane, not exactly: you are genteel enough; you look like a lady, and it is as much as ever I expected of you: you were no beauty as a child.” I smiled at Bessie’s frank answer: I felt that it was correct, but I confess I was not quite indifferent to its import: at eighteen most people wish to please, and the conviction that they have not an exterior likely to second that desire brings anything but gratification. “I dare say you are clever, though,” continued Bessie, by way of solace. “What can you do? Can you play on the piano?” “A little.” There was one in the room; Bessie went and opened it, and then asked me to sit down and give her a tune: I played a waltz or two, and she was charmed. “The Miss Reeds could not play as well!” said she exultingly.",
   "words": [
     {
-      "word": "displayed",
+      "word": "import",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-moonstone-039",
+  "pool": "sourced",
+  "text": "The facts from which this conclusion is drawn, are derived partly from an examination of the room at the tavern; and partly from the evidence obtained at the Coroner’s Inquest. On forcing the door of the room, the deceased gentleman was discovered, dead, with the pillow of the bed over his face. The medical man who examined him, being informed of this circumstance, considered the post-mortem appearances as being perfectly compatible with murder by smothering—that is to say, with murder committed by some person, or persons, pressing the pillow over the nose and mouth of the deceased, until death resulted from congestion of the lungs. Next, as to the motive for the crime. A small box, with a sealed paper torn off from it (the paper containing an inscription) was found open, and empty, on a table in the room.",
+  "words": [
+    {
+      "word": "deceased",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compatible",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Moonstone",
+    "author": "Wilkie Collins",
+    "year": 1868,
+    "source": "Project Gutenberg #155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

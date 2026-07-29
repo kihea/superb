@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-great-god-pan-008",
   "pool": "sourced",
-  "text": "I don’t give his name, Villiers, because it has nothing to do with the story, and because it’s no good raking up these affairs about the dead when there are no relations living. The next curious point was that the medical men couldn’t agree as to how he met his death. There were some slight bruises on his shoulders, but they were so slight that it looked as if he had been pushed roughly out of the kitchen door, and not thrown over the railings from the street or even dragged down the steps. But there were positively no other marks of violence about him, certainly none that would account for his death; and when they came to the autopsy there wasn’t a trace of poison of any kind. Of course the police wanted to know all about the people at Number 20, and here again, so I have heard from private sources, one or two other very curious points came out.",
+  "text": "Joseph W. proceeded in the direction indicated by his son, and found Helen V. sitting on the grass in the middle of a glade or open space left by charcoal burners. He angrily charged her with frightening his little boy, but she entirely denied the accusation and laughed at the child’s story of a “strange man,” to which he himself did not attach much credence. Joseph W. came to the conclusion that the boy had woke up with a sudden fright, as children sometimes do, but Trevor persisted in his story, and continued in such evident distress that at last his father took him home, hoping that his mother would be able to soothe him. For many weeks, however, the boy gave his parents much anxiety; he became nervous and strange in his manner, refusing to leave the cottage by himself, and constantly alarming the household by waking in the night with cries of “The man in the wood!",
   "words": [
     {
-      "word": "autopsy",
+      "word": "charcoal",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "poison",
+      "word": "angrily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alarming",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

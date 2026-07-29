@@ -1,16 +1,10 @@
 {
   "id": "src-gen-o-pioneers-010",
   "pool": "sourced",
-  "text": "I don’t want to stand around and look on. I want to be doing something on my own account.” “That’s so,” Marie sighed. “There are so many, many things you can do. Almost anything you choose.” “And there are so many, many things I can’t do.” Emil echoed her tone sarcastically. “Sometimes I don’t want to do anything at all, and sometimes I want to pull the four corners of the Divide together,”—he threw out his arm and brought it back with a jerk,—“so, like a table-cloth.",
+  "text": "You know there has been talk.” “Talk about what, Ivar?” “About sending me away; to the asylum.” Alexandra put down her sewing-basket. “Nobody has come to me with such talk,” she said decidedly. “Why need you listen? You know I would never consent to such a thing.” Ivar lifted his shaggy head and looked at her out of his little eyes. “They say that you cannot prevent it if the folk complain of me, if your brothers complain to the authorities.",
   "words": [
     {
-      "word": "sighed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cloth",
+      "word": "decidedly",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Willa Cather",
     "year": 1913,
     "source": "Project Gutenberg #24",
-    "url": "https://www.gutenberg.org/ebooks/24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

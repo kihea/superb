@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sister-carrie-035",
+  "pool": "sourced",
+  "text": "You have probably seen notices of it in the papers.\" Carrie recognised the name as standing for one of the newest and most imposing hostelries. She had heard it spoken of as having a splendid restaurant. \"Just so,\" went on Mr. Withers, accepting her acknowledgment of familiarity. \"We have some very elegant rooms at present which we would like to have you look at, if you have not made up your mind where you intend to reside for the summer.",
+  "words": [
+    {
+      "word": "intend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

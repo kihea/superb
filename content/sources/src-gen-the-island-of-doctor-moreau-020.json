@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-020",
   "pool": "sourced",
-  "text": "All day I watched that sail, eating or drinking nothing, so that my head reeled; and the Beasts came and glared at me, and seemed to wonder, and went away. It was still distant when night came and swallowed it up; and all night I toiled to keep my blaze bright and high, and the eyes of the Beasts shone out of the darkness, marvelling. In the dawn the sail was nearer, and I saw it was the dirty lug-sail of a small boat. But it sailed strangely. My eyes were weary with watching, and I peered and could not believe them.",
+  "text": "No doubt their chief aim was artistic torture, but some at least of the inquisitors must have had a touch of scientific curiosity.” “But,” said I, “these things—these animals talk!” He said that was so, and proceeded to point out that the possibility of vivisection does not stop at a mere physical metamorphosis. A pig may be educated. The mental structure is even less determinate than the bodily. In our growing science of hypnotism we find the promise of a possibility of superseding old inherent instincts by new suggestions, grafting upon or replacing the inherited fixed ideas. Very much indeed of what we call moral education, he said, is such an artificial modification and perversion of instinct; pugnacity is trained into courageous self-sacrifice, and suppressed sexuality into religious emotion.",
   "words": [
     {
-      "word": "sail",
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "nearer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sailed",
+      "word": "instinct",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

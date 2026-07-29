@@ -1,40 +1,16 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-002",
   "pool": "sourced",
-  "text": "And the fire got into such a spasm of glowing indignation over the injury, that it lit a whole tier of black coals with a series of little explosions, before it could cool down, and sent a crimson gleam over the moody figure of its owner in the easy chair, and over the solemn furniture, and into the shadowy corner filled by the ghost. The spectre did not move when Dr. Renton arose and lit the chandelier. It stood there, still and gray, in the flood of mellow light. The curtains were drawn, and the twilight without had deepened into darkness. The fire was now burning in despite of itself, fanned by the wintry gusts, which found their way down the chimney.",
+  "text": "The furniture was grim, and sullen, and sulky; it made ugly shadows on the carpet and on the wall, in allopathic quantity; it took the red gleams from the fire on its polished surfaces, in hom opathic globules, and got no good from them. The fire itself peered out sulkily from the black bars of the grate, and seemed resolved not to burn the fresh deposit of black coals at the top, but to take this as a good time to remember that those coals had been bought in the summer at five dollars a ton--under price, mind you--when poor people, who cannot buy at advantage, but must get their firing in the winter, would then have given nine or ten dollars for them. And so (glowered the fire), I am determined to think of that outrage, and not to light them, but to go out myself, directly!",
   "words": [
     {
-      "word": "glowing",
+      "word": "polished",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lit",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chandelier",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "curtains",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twilight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chimney",
+      "word": "resolved",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

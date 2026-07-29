@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-wuthering-heights-028",
+  "pool": "sourced",
+  "text": "“Well,” said I, “where are your moor-game, Miss Cathy? We should be at them: the Grange park-fence is a great way off now.” “Oh, a little further—only a little further, Ellen,” was her answer, continually. “Climb to that hillock, pass that bank, and by the time you reach the other side I shall have raised the birds.” But there were so many hillocks and banks to climb and pass, that, at length, I began to be weary, and told her we must halt, and retrace our steps. I shouted to her, as she had outstripped me a long way; she either did not hear or did not regard, for she still sprang on, and I was compelled to follow. Finally, she dived into a hollow; and before I came in sight of her again, she was two miles nearer Wuthering Heights than her own home; and I beheld a couple of persons arrest her, one of whom I felt convinced was Mr. Heathcliff himself.",
+  "words": [
+    {
+      "word": "fence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

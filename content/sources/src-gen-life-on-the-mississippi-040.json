@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-life-on-the-mississippi-040",
+  "pool": "sourced",
+  "text": "'See, brothers,' said he, 'thus will I treat those whom we are going to fight.' 'Still, still,' once more said the leader; 'he to whom I am leading you is not to be compared to the rock.' Mudjikewis fell back thoughtful, saying to himself: 'I wonder who this can be that he is going to attack;' and he was afraid. Still they continued to see the remains of former warriors, who had been to the place where they were now going, some of whom had retreated as far back as the place where they first saw the bones, beyond which no one had ever escaped. At last they came to a piece of rising ground, from which they plainly distinguished, sleeping on a distant mountain, a mammoth bear.",
+  "words": [
+    {
+      "word": "escaped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mammoth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-012",
   "pool": "sourced",
-  "text": "Such was the dreadful end of my beloved sister.” “One moment,” said Holmes, “are you sure about this whistle and metallic sound? Could you swear to it?” “That was what the county coroner asked me at the inquiry. It is my strong impression that I heard it, and yet, among the crash of the gale and the creaking of an old house, I may possibly have been deceived.” “Was your sister dressed?” “No, she was in her night-dress. In her right hand was found the charred stump of a match, and in her left a match-box.” “Showing that she had struck a light and looked about her when the alarm took place. That is important.",
+  "text": "What can this be?’ Opening it hurriedly, out there jumped five little dried orange pips, which pattered down upon his plate. I began to laugh at this, but the laugh was struck from my lips at the sight of his face. His lip had fallen, his eyes were protruding, his skin the colour of putty, and he glared at the envelope which he still held in his trembling hand, ‘K. K. K.!’ he shrieked, and then, ‘My God, my God, my sins have overtaken me!’ “‘What is it, uncle?’ I cried. “‘Death,’ said he, and rising from the table he retired to his room, leaving me palpitating with horror.",
   "words": [
     {
-      "word": "whistle",
+      "word": "dried",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "coroner",
+      "word": "lip",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

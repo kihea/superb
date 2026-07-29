@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-howards-end-040",
+  "pool": "sourced",
+  "text": "People lost their humanity, and took values as arbitrary as those in a pack of playing-cards. It was natural that Henry should do this and cause Helen to do that, and then think her wrong for doing it; natural that she herself should think him wrong; natural that Leonard should want to know how Helen was, and come, and Charles be angry with him for coming—natural, but unreal. In this jangle of causes and effects what had become of their true selves? Here Leonard lay dead in the garden, from natural causes; yet life was a deep, deep river, death a blue sky, life was a house, death a wisp of hay, a flower, a tower, life and death were anything and everything, except this ordered insanity, where the king takes the queen, and the ace the king. Ah, no; there was beauty and adventure behind, such as the man at her feet had yearned for; there was hope this side of the grave; there were truer relationships beyond the limits that fetter us now.",
+  "words": [
+    {
+      "word": "hay",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Howards End",
+    "author": "E. M. Forster",
+    "year": 1910,
+    "source": "Project Gutenberg #2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

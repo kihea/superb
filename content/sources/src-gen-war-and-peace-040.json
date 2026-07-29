@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-war-and-peace-040",
+  "pool": "sourced",
+  "text": "We learn that Luther had a hot temper and said such and such things; we learn that Rousseau was suspicious and wrote such and such books; but we do not learn why after the Reformation the peoples massacred one another, nor why during the French Revolution they guillotined one another. If we unite both these kinds of history, as is done by the newest historians, we shall have the history of monarchs and writers, but not the history of the life of the peoples. The life of the nations is not contained in the lives of a few men, for the connection between those men and the nations has not been found. The theory that this connection is based on the transference of the collective will of a people to certain historical personages is an hypothesis unconfirmed by the experience of history. The theory of the transference of the collective will of the people to historic persons may perhaps explain much in the domain of jurisprudence and be essential for its purposes, but in its application to history, as soon as revolutions, conquests, or civil wars occur—that is, as soon as history begins—that theory explains nothing.",
+  "words": [
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revolutions",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

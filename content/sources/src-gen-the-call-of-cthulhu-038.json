@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-038",
+  "pool": "sourced",
+  "text": "Then Donovan felt over it delicately around the edge, pressing each point separately as he went. He climbed interminably along the grotesque stone molding--that is, one would call it climbing if the thing was not after all horizontal--and the men wondered how any door in the universe could be so vast. Then, very softly and slowly, the acre-great panel began to give inward at the top; and they saw that it was balanced. Donovan slid or somehow propelled himself down or along the jamb and rejoined his fellows, and everyone watched the queer recession of the monstrously carven portal. In this fantasy of prismatic distortion it moved anomalously in a diagonal way, so that all the rules of matter and perspective seemed upset.",
+  "words": [
+    {
+      "word": "climbed",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "grotesque",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "molding",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "portal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

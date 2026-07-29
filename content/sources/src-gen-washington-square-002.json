@@ -1,16 +1,10 @@
 {
   "id": "src-gen-washington-square-002",
   "pool": "sourced",
-  "text": "Only have to wait ten years—they’d all come up after you. But Marian says she wants some neighbours—she doesn’t want to be a pioneer. She says that if she’s got to be the first settler she had better go out to Minnesota. I guess we’ll move up little by little; when we get tired of one street we’ll go higher. So you see we’ll always have a new house; it’s a great advantage to have a new house; you get all the latest improvements.",
+  "text": "Half an hour later she saw her Aunt Penniman sitting in the embrasure of a window, with her head a little on one side, and her gold eye-glass raised to her eyes, which were wandering about the room. In front of her was a gentleman, bending forward a little, with his back turned to Catherine. She knew his back immediately, though she had never seen it; for when he had left her, at Marian’s instigation, he had retreated in the best order, without turning round. Morris Townsend—the name had already become very familiar to her, as if some one had been repeating it in her ear for the last half-hour—Morris Townsend was giving his impressions of the company to her aunt, as he had done to herself; he was saying clever things, and Mrs. Penniman was smiling, as if she approved of them. As soon as Catherine had perceived this she moved away; she would not have liked him to turn round and see her.",
   "words": [
     {
-      "word": "pioneer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "settler",
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

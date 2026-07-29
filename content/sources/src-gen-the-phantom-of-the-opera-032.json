@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-032",
+  "pool": "sourced",
+  "text": "The walls of this strange room gave the patient nothing to lay hold of, because, apart from the solid decorative object, they were simply furnished with mirrors, thick enough to withstand any onslaught of the victim, who was flung into the chamber empty-handed and barefoot. There was no furniture. The ceiling was capable of being lit up. An ingenious system of electric heating, which has since been imitated, allowed the temperature of the walls and room to be increased at will. I am giving all these details of a perfectly natural invention, producing, with a few painted branches, the supernatural illusion of an equatorial forest blazing under the tropical sun, so that no one may doubt the present balance of my brain or feel entitled to say that I am mad or lying or that I take him for a fool.",
+  "words": [
+    {
+      "word": "barefoot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tropical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

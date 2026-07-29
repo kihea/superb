@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-age-of-innocence-020",
   "pool": "sourced",
-  "text": "\"Men like you--\" how Archer had glowed at the phrase! How eagerly he had risen up at the call! It was an echo of Ned Winsett's old appeal to roll his sleeves up and get down into the muck; but spoken by a man who set the example of the gesture, and whose summons to follow him was irresistible. Archer, as he looked back, was not sure that men like himself were what his country needed, at least in the active service to which Theodore Roosevelt had pointed; in fact, there was reason to think it did not, for after a year in the State Assembly he had not been re-elected, and had dropped back thankfully into obscure if useful municipal work, and from that again to the writing of occasional articles in one of the reforming weeklies that were trying to shake the country out of its apathy.",
+  "text": "Then, in a moment, May was beside him, such radiance streaming from her that it sent a faint warmth through his numbness, and he straightened himself and smiled into her eyes. \"Dearly beloved, we are gathered together here,\" the Rector began ... The ring was on her hand, the Bishop's benediction had been given, the bridesmaids were a-poise to resume their place in the procession, and the organ was showing preliminary symptoms of breaking out into the Mendelssohn March, without which no newly-wedded couple had ever emerged upon New York. \"Your arm--I say, give her your arm!\" young Newland nervously hissed; and once more Archer became aware of having been adrift far off in the unknown.",
   "words": [
     {
-      "word": "risen",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gesture",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "summons",
+      "word": "beloved",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

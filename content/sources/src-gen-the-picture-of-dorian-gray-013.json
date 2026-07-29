@@ -1,64 +1,22 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-013",
   "pool": "sourced",
-  "text": "At another time he devoted himself entirely to music, and in a long latticed room, with a vermilion-and-gold ceiling and walls of olive-green lacquer, he used to give curious concerts in which mad gipsies tore wild music from little zithers, or grave, yellow-shawled Tunisians plucked at the strained strings of monstrous lutes, while grinning Negroes beat monotonously upon copper drums and, crouching upon scarlet mats, slim turbaned Indians blew through long pipes of reed or brass and charmed—or feigned to charm—great hooded snakes and horrible horned adders. The harsh intervals and shrill discords of barbaric music stirred him at times when Schubert’s grace, and Chopin’s beautiful sorrows, and the mighty harmonies of Beethoven himself, fell unheeded on his ear. He collected together from all parts of the world the strangest instruments that could be found, either in the tombs of dead nations or among the few savage tribes that have survived contact with Western civilizations, and loved to touch and try them.",
+  "text": "Night after night I go to see her play. One evening she is Rosalind, and the next evening she is Imogen. I have seen her die in the gloom of an Italian tomb, sucking the poison from her lover’s lips. I have watched her wandering through the forest of Arden, disguised as a pretty boy in hose and doublet and dainty cap. She has been mad, and has come into the presence of a guilty king, and given him rue to wear and bitter herbs to taste of.",
   "words": [
     {
-      "word": "devoted",
+      "word": "tomb",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "olive",
+      "word": "disguised",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "concerts",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "strings",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brass",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "snakes",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "harsh",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mighty",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tombs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "savage",
+      "word": "bitter",
       "signals": [
         "gloss-overlap"
       ]
@@ -69,7 +27,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -4,12 +4,6 @@
   "text": "Hall itself is practically a room. You open another door in it, and there are the stairs going up in a sort of tunnel to the first-floor. Three bedrooms in a row there, and three attics in a row above. That isn’t all the house really, but it’s all that one notices—nine windows as you look up from the front garden. Then there’s a very big wych-elm—to the left as you look up—leaning a little over the house, and standing on the boundary between the garden and meadow.",
   "words": [
     {
-      "word": "bedrooms",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "meadow",
       "signals": [
         "gloss-overlap"
@@ -21,7 +15,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

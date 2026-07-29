@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-island-022",
+  "pool": "sourced",
+  "text": "The sailor’s great idea was to make a voyage of discovery to Tabor Island, although Harding could not approve of a voyage simply for curiosity’s sake, for there was evidently nothing to be found on this desert and almost arid rock. A voyage of a hundred and fifty miles in a comparatively small vessel, over unknown seas, could not but cause him some anxiety. Suppose that their vessel, once out at sea, should be unable to reach Tabor Island, and could not return to Lincoln Island, what would become of her in the midst of the Pacific, so fruitful of disasters? Harding often talked over this project with Pencroft, and he found him strangely bent upon undertaking this voyage, for which determination he himself could give no sufficient reason. “Now,” said the engineer one day to him, “I must observe, my friend, that after having said so much, in praise of Lincoln Island, after having spoken so often of the sorrow you would feel if you were obliged to forsake it, you are the first to wish to leave it.” “Only to leave it for a few days,” replied Pencroft, “only for a few days, captain.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

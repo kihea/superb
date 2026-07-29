@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-through-the-looking-glass-022",
+  "pool": "sourced",
+  "text": "“You’ll be catching a crab directly.” “A dear little crab!” thought Alice. “I should like that.” “Didn’t you hear me say ‘Feather’?” the Sheep cried angrily, taking up quite a bunch of needles. “Indeed I did,” said Alice: “you’ve said it very often—and very loud. Please, where are the crabs?” “In the water, of course!” said the Sheep, sticking some of the needles into her hair, as her hands were full. “Feather, I say!” “Why do you say ‘feather’ so often?” Alice asked at last, rather vexed.",
+  "words": [
+    {
+      "word": "feather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

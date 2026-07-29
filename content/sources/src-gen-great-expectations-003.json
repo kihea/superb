@@ -1,10 +1,28 @@
 {
   "id": "src-gen-great-expectations-003",
   "pool": "sourced",
-  "text": "Was there ever such a boy as this!” from my sister,) I found Joe telling them about the convict’s confession, and all the visitors suggesting different ways by which he had got into the pantry. Mr. Pumblechook made out, after carefully surveying the premises, that he had first got upon the roof of the forge, and had then got upon the roof of the house, and had then let himself down the kitchen chimney by a rope made of his bedding cut into strips; and as Mr. Pumblechook was very positive and drove his own chaise-cart—over everybody—it was agreed that it must be so. Mr. Wopsle, indeed, wildly cried out, “No!” with the feeble malice of a tired man; but, as he had no theory, and no coat on, he was unanimously set at naught,—not to mention his smoking hard behind, as he stood with his back to the kitchen fire to draw the damp out: which was not calculated to inspire confidence.",
+  "text": "The time came, without bringing with it any relief to my feelings, and the company came. Mr. Wopsle, united to a Roman nose and a large shining bald forehead, had a deep voice which he was uncommonly proud of; indeed it was understood among his acquaintance that if you could only give him his head, he would read the clergyman into fits; he himself confessed that if the Church was “thrown open,” meaning to competition, he would not despair of making his mark in it. The Church not being “thrown open,” he was, as I have said, our clerk. But he punished the Amens tremendously; and when he gave out the psalm,—always giving the whole verse,—he looked all round the congregation first, as much as to say, “You have heard my friend overhead; oblige me with your opinion of this style!” I opened the door to the company,—making believe that it was a habit of ours to open that door,—and I opened it first to Mr. Wopsle, next to Mr. and Mrs. Hubble, and last of all to Uncle Pumblechook.",
   "words": [
     {
-      "word": "pantry",
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confessed",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overhead",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

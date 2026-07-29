@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-036",
+  "pool": "sourced",
+  "text": "“I was confident that the missing cup was that of Mademoiselle Cynthia. I had an additional reason for that belief in the fact that all the cups found contained sugar, which Mademoiselle Cynthia never took in her coffee. My attention was attracted by the story of Annie about some ‘salt’ on the tray of cocoa which she took every night to Mrs. Inglethorp’s room. I accordingly secured a sample of that cocoa, and sent it to be analysed.” “But that had already been done by Dr. Bauerstein,” said Lawrence quickly. “Not exactly.",
+  "words": [
+    {
+      "word": "cups",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-015",
   "pool": "sourced",
-  "text": "The king sings out: “Take y’r hands off!—leggo my throat!—I take it all back!” The duke says: “Well, you just own up, first, that you did hide that money there, intending to give me the slip one of these days, and come back and dig it up, and have it all to yourself.” “Wait jest a minute, duke—answer me this one question, honest and fair; if you didn’t put the money there, say it, and I’ll b’lieve you, and take back everything I said.” “You old scoundrel, I didn’t, and you know I didn’t. There, now!” “Well, then, I b’lieve you. But answer me only jest this one more—now don’t git mad; didn’t you have it in your mind to hook the money and hide it?” The duke never said nothing for a little bit; then he says: “Well, I don’t care if I did, I didn’t do it, anyway. But you not only had it in mind to do it, but you done it.” “I wisht I never die if I done it, duke, and that’s honest.",
+  "text": "I heard Buck’s gun go off at my ear, and Harney’s hat tumbled off from his head. He grabbed his gun and rode straight to the place where we was hid. But we didn’t wait. We started through the woods on a run. The woods warn’t thick, so I looked over my shoulder to dodge the bullet, and twice I seen Harney cover Buck with his gun; and then he rode away the way he come—to get his hat, I reckon, but I couldn’t see.",
   "words": [
     {
-      "word": "sings",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "intending",
+      "word": "dodge",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

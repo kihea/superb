@@ -1,10 +1,16 @@
 {
   "id": "src-gen-vanity-fair-014",
   "pool": "sourced",
-  "text": "The house had been much improved even since the Baronet's brief reign, and was pronounced by Becky to be perfect, charming, delightful, when she surveyed it in his company. As for little Rawdon, who examined it with the children for his guides, it seemed to him a perfect palace of enchantment and wonder. There were long galleries, and ancient state bedrooms, there were pictures and old China, and armour. There were the rooms in which Grandpapa died, and by which the children walked with terrified looks. \"Who was Grandpapa?\"",
+  "text": "And, O Sir, she's so dam kind to me.\" The water pumps were at work again, and I am not sure that the soft-hearted Captain's eyes did not also twinkle. The two ensigns, the Captain, and Mr. Chopper, dined together in the same box. Chopper brought the letter from Mr. Osborne, in which the latter briefly presented his compliments to Captain Dobbin, and requested him to forward the inclosed to Captain George Osborne. Chopper knew nothing further; he described Mr. Osborne's appearance, it is true, and his interview with his lawyer, wondered how the governor had sworn at nobody, and--especially as the wine circled round--abounded in speculations and conjectures.",
   "words": [
     {
-      "word": "bedrooms",
+      "word": "dam",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hearted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

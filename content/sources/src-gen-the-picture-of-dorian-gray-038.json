@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-038",
+  "pool": "sourced",
+  "text": "The grass of the forest had been spotted with blood. Then he wrote a note to Lord Henry, telling him that he was going up to town to consult his doctor and asking him to entertain his guests in his absence. As he was putting it into the envelope, a knock came to the door, and his valet informed him that the head-keeper wished to see him. He frowned and bit his lip. “Send him in,” he muttered, after some moments’ hesitation.",
+  "words": [
+    {
+      "word": "consult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "envelope",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

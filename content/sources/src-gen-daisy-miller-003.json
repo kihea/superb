@@ -8,12 +8,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "acquaintances",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -21,7 +15,7 @@
     "author": "Henry James",
     "year": 1878,
     "source": "Project Gutenberg #208",
-    "url": "https://www.gutenberg.org/ebooks/208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

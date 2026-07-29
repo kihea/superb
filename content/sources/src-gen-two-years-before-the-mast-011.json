@@ -1,30 +1,18 @@
 {
   "id": "src-gen-two-years-before-the-mast-011",
   "pool": "sourced",
-  "text": "All hands were then sent aloft, and for an hour or two we were hard at work, making the booms well fast; unreeving the studding-sail and royal and skysail gear; getting rolling-ropes on the yards; setting up the weather breast-backstays; and making other preparations for a storm. It was a fine night for a gale; just cool and bracing enough for quick work, without being cold, and as bright as day. It was sport to have a gale in such weather as this. Yet it blew like a hurricane. The wind seemed to come with a spite, an edge to it, which threatened to scrape us off the yards.",
+  "text": "A sailor's liberty is but for a day; yet while it lasts it is perfect. He is under no one's eye, and can do whatever, and go wherever, he pleases. This day, for the first time, I may truly say, in my whole life, I felt the meaning of a term which I had often heard--the sweets of liberty. My friend S---- was with me, and turning our backs upon the vessels, we walked slowly along, talking of the pleasure of being our own masters, of the times past, and when we were free in the midst of friends, in America, and of the prospect of our return; and planning where we would go, and what we would do, when we reached home. It was wonderful how the prospect brightened, and how short and tolerable the voyage appeared, when viewed in this new light.",
   "words": [
     {
-      "word": "sail",
+      "word": "midst",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "preparations",
+      "word": "prospect",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hurricane",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spite",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -33,7 +21,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

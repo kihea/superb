@@ -1,10 +1,17 @@
 {
   "id": "src-gen-the-woman-in-white-008",
   "pool": "sourced",
-  "text": "Sir Percival slowly drew his shoulder from under the Count’s hand, slowly turned his face away from the Count’s eyes, doggedly looked down for a little while at the parchment on the table, and then spoke, with the sullen submission of a tamed animal, rather than the becoming resignation of a convinced man. “I don’t want to offend anybody,” he said, “but my wife’s obstinacy is enough to try the patience of a saint. I have told her this is merely a formal document—and what more can she want? You may say what you please, but it is no part of a woman’s duty to set her husband at defiance. Once more, Lady Glyde, and for the last time, will you sign or will you not?” Laura returned to his side of the table, and took up the pen again.",
+  "text": "At a later period the cause of this sudden determination was fully explained to me. It is not my business to relate it imperfectly, on hearsay evidence. The circumstances came within the personal experience of Miss Halcombe, and when her narrative succeeds mine, she will describe them in every particular exactly as they happened. In the meantime, the plain duty for me to perform—before I, in my turn, lay down my pen and withdraw from the story—is to relate the one remaining event connected with Miss Fairlie’s proposed marriage in which I was concerned, namely, the drawing of the settlement. It is impossible to refer intelligibly to this document without first entering into certain particulars in relation to the bride’s pecuniary affairs.",
   "words": [
     {
-      "word": "parchment",
+      "word": "meantime",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bride",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +22,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

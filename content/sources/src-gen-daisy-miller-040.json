@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-daisy-miller-040",
+  "pool": "sourced",
+  "text": "A week after this, the poor girl died; it had been a terrible case of the fever. Daisy’s grave was in the little Protestant cemetery, in an angle of the wall of imperial Rome, beneath the cypresses and the thick spring flowers. Winterbourne stood there beside it, with a number of other mourners, a number larger than the scandal excited by the young lady’s career would have led you to expect. Near him stood Giovanelli, who came nearer still before Winterbourne turned away. Giovanelli was very pale: on this occasion he had no flower in his buttonhole; he seemed to wish to say something.",
+  "words": [
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

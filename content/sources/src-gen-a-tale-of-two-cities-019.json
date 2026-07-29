@@ -1,10 +1,10 @@
 {
   "id": "src-gen-a-tale-of-two-cities-019",
   "pool": "sourced",
-  "text": "Ask my husband, is that so.” “It is so,” assented Defarge, without being asked. “In the beginning of the great days, when the Bastille falls, he finds this paper of to-day, and he brings it home, and in the middle of the night when this place is clear and shut, we read it, here on this spot, by the light of this lamp. Ask him, is that so.” “It is so,” assented Defarge. “That night, I tell him, when the paper is read through, and the lamp is burnt out, and the day is gleaming in above those shutters and between those iron bars, that I have now a secret to communicate. Ask him, is that so.” “It is so,” assented Defarge again.",
+  "text": "The village looks at him by stealth, for it is afraid. But it always looks up, from a distance, at the prison on the crag; and in the evening, when the work of the day is achieved and it assembles to gossip at the fountain, all faces are turned towards the prison. Formerly, they were turned towards the posting-house; now, they are turned towards the prison. They whisper at the fountain, that although condemned to death he will not be executed; they say that petitions have been presented in Paris, showing that he was enraged and made mad by the death of his child; they say that a petition has been presented to the King himself. What do I know?",
   "words": [
     {
-      "word": "lamp",
+      "word": "enraged",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-a-christmas-carol-023",
+  "pool": "sourced",
+  "text": "Bob's voice was tremulous when he told them this, and trembled more when he said that Tiny Tim was growing strong and hearty. His active little crutch was heard upon the floor, and back came Tiny Tim before another word was spoken, escorted by his brother and sister to his stool before the fire; and while Bob, turning up his cuffs--as if, poor fellow, they were capable of being made more shabby--compounded some hot mixture in a jug with gin and lemons, and stirred it round and round and put it on the hob to simmer; Master Peter, and the two ubiquitous young Cratchits went to fetch the goose, with which they soon returned in high procession. Such a bustle ensued that you might have thought a goose the rarest of all birds; a feathered phenomenon, to which a black swan was a matter of course--and in truth it was something very like it in that house.",
+  "words": [
+    {
+      "word": "hearty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "goose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

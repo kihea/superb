@@ -1,16 +1,34 @@
 {
   "id": "src-gen-vanity-fair-016",
   "pool": "sourced",
-  "text": "Bedwin, his costumes, and black man, were hailed at Gaunt House as very valuable acquisitions. He led off the first charade. A Turkish officer with an immense plume of feathers (the Janizaries were supposed to be still in existence, and the tarboosh had not as yet displaced the ancient and majestic head-dress of the true believers) was seen couched on a divan, and making believe to puff at a narghile, in which, however, for the sake of the ladies, only a fragrant pastille was allowed to smoke. The Turkish dignitary yawns and expresses signs of weariness and idleness. He claps his hands and Mesrour the Nubian appears, with bare arms, bangles, yataghans, and every Eastern ornament--gaunt, tall, and hideous.",
+  "text": "George meanwhile, with his hat on one side, his elbows squared, and his swaggering martial air, made for Bedford Row, and stalked into the attorney's offices as if he was lord of every pale-faced clerk who was scribbling there. He ordered somebody to inform Mr. Higgs that Captain Osborne was waiting, in a fierce and patronizing way, as if the pekin of an attorney, who had thrice his brains, fifty times his money, and a thousand times his experience, was a wretched underling who should instantly leave all his business in life to attend on the Captain's pleasure. He did not see the sneer of contempt which passed all round the room, from the first clerk to the articled gents, from the articled gents to the ragged writers and white-faced runners, in clothes too tight for them, as he sate there tapping his boot with his cane, and thinking what a parcel of miserable poor devils these were. The miserable poor devils knew all about his affairs. They talked about them over their pints of beer at their public-house clubs to other clerks of a night.",
   "words": [
     {
-      "word": "costumes",
+      "word": "clerk",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "expresses",
+      "word": "thrice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wretched",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gents",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miserable",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-038",
+  "pool": "sourced",
+  "text": "I found Clarence alone in his quarters, drowned in melancholy; and in place of the electric light, he had reinstituted the ancient rag-lamp, and sat there in a grisly twilight with all curtains drawn tight. He sprang up and rushed for me eagerly, saying: “Oh, it's worth a billion milrays to look upon a live person again!” He knew me as easily as if I hadn't been disguised at all. Which frightened me; one may easily believe that. “Quick, now, tell me the meaning of this fearful disaster,” I said. “How did it come about?” “Well, if there hadn't been any Queen Guenever, it wouldn't have come so early; but it would have come, anyway.",
+  "words": [
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disguised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

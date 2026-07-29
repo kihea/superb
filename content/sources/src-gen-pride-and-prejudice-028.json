@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-pride-and-prejudice-028",
+  "pool": "sourced",
+  "text": "But, though this might be imaginary, she could not be deceived as to his behaviour to Miss Darcy, who had been set up as a rival to Jane. No look appeared on either side that spoke particular regard. Nothing occurred between them that could justify the hopes of his sister. On this point she was soon satisfied; and two or three little circumstances occurred ere they parted, which, in her anxious interpretation, denoted a recollection of Jane, not untinctured by tenderness, and a wish of saying more that might lead to the mention of her, had he dared. He observed to her, at a moment when the others were talking together, and in a tone which had something of real regret, that it “was a very long time since he had had the pleasure of seeing her;” and, before she could reply, he added, “It is above eight months.",
+  "words": [
+    {
+      "word": "ere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

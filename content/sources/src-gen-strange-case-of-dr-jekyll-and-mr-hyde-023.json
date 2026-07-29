@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-023",
+  "pool": "sourced",
+  "text": "“We have come too late,” he said sternly, “whether to save or punish. Hyde is gone to his account; and it only remains for us to find the body of your master.” The far greater proportion of the building was occupied by the theatre, which filled almost the whole ground storey and was lighted from above, and by the cabinet, which formed an upper storey at one end and looked upon the court. A corridor joined the theatre to the door on the by-street; and with this the cabinet communicated separately by a second flight of stairs. There were besides a few dark closets and a spacious cellar. All these they now thoroughly examined.",
+  "words": [
+    {
+      "word": "punish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "storey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corridor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cellar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

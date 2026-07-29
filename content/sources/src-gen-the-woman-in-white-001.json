@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-woman-in-white-001",
   "pool": "sourced",
-  "text": "From the place where I sat I could see Miss Halcombe’s graceful figure, half of it in soft light, half in mysterious shadow, bending intently over the letters in her lap; while, nearer to me, the fair profile of the player at the piano was just delicately defined against the faintly-deepening background of the inner wall of the room. Outside, on the terrace, the clustering flowers and long grasses and creepers waved so gently in the light evening air, that the sound of their rustling never reached us. The sky was without a cloud, and the dawning mystery of moonlight began to tremble already in the region of the eastern heaven. The sense of peace and seclusion soothed all thought and feeling into a rapt, unearthly repose; and the balmy quiet, that deepened ever with the deepening light, seemed to hover over us with a gentler influence still, when there stole upon it from the piano the heavenly tenderness of the music of Mozart. It was an evening of sights and sounds never to forget.",
+  "text": "as we entered the room, and the sweet evening scent of the flowers met us with its fragrant welcome through the open glass doors. Good Mrs. Vesey (always the first of the party to sit down) took possession of an arm-chair in a corner, and dozed off comfortably to sleep. At my request Miss Fairlie placed herself at the piano. As I followed her to a seat near the instrument, I saw Miss Halcombe retire into a recess of one of the side windows, to proceed with the search through her mother’s letters by the last quiet rays of the evening light. How vividly that peaceful home-picture of the drawing-room comes back to me while I write!",
   "words": [
     {
-      "word": "moonlight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hover",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stole",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "heavenly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sights",
+      "word": "fragrant",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

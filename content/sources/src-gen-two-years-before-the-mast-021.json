@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-021",
+  "pool": "sourced",
+  "text": "The mere force of the wind was greater than I had ever seen it before; but darkness, cold, and wet are the worst parts of a storm to a sailor. Having got on deck again, we looked round to see what time of night it was, and whose watch. In a few minutes the man at the wheel struck four bells, and we found that the other watch was out, and our own half out. Accordingly, the starboard watch went below, and left the ship to us for a couple of hours, yet with orders to stand by for a call. Hardly had they got below, before away went the fore-topmast staysail, blown to ribbons.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accordingly",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

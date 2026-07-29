@@ -1,34 +1,10 @@
 {
   "id": "src-gen-vanity-fair-009",
   "pool": "sourced",
-  "text": "Tom Tufto, with whose father he quarrelled ever so many years ago, declares that Mademoiselle de Jaisey, of the French theatre, pulled his grandpapa's hair off in the green-room; but Tom is notoriously spiteful and jealous; and the General's wig has nothing to do with our story. One day, as some of our friends of the --th were sauntering in the flower-market of Brussels, having been to see the Hotel de Ville, which Mrs. Major O'Dowd declared was not near so large or handsome as her fawther's mansion of Glenmalony, an officer of rank, with an orderly behind him, rode up to the market, and descending from his horse, came amongst the flowers, and selected the very finest bouquet which money could buy. The beautiful bundle being tied up in a paper, the officer remounted, giving the nosegay into the charge of his military groom, who carried it with a grin, following his chief, who rode away in great state and self-satisfaction. \"You should see the flowers at Glenmalony,\" Mrs. O'Dowd was remarking. \"Me fawther has three Scotch garners with nine helpers.",
+  "text": "\"It seems to me you didn't dislike that wonderful Mr. Joseph last year,\" Osborne said kindly. \"How severe of you! Well, entre nous, I didn't break my heart about him; yet if he had asked me to do what you mean by your looks (and very expressive and kind they are, too), I wouldn't have said no.\" Mr. Osborne gave a look as much as to say, \"Indeed, how very obliging!\" \"What an honour to have had you for a brother-in-law, you are thinking?",
   "words": [
     {
-      "word": "wig",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mansion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rode",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bouquet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "helpers",
+      "word": "kindly",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-moonstone-033",
+  "pool": "sourced",
+  "text": "The product (as the arithmeticians would say) is an intelligible statement—first, of something actually done in the past; secondly, of something which Mr. Candy contemplated doing in the future, if his illness had not got in the way, and stopped him. The question is whether this does, or does not, represent the lost recollection which he vainly attempted to find when you called on him this morning?” “Not a doubt of it!” I answered. “Let us go back directly, and look at the papers!” “Quite impossible, Mr. Blake.” “Why?” “Put yourself in my position for a moment,” said Ezra Jennings. “Would you disclose to another person what had dropped unconsciously from the lips of your suffering patient and your helpless friend, without first knowing that there was a necessity to justify you in opening your lips?” I felt that he was unanswerable, here; but I tried to argue the question, nevertheless. “My conduct in such a delicate matter as you describe,” I replied, “would depend greatly on whether the disclosure was of a nature to compromise my friend or not.” “I have disposed of all necessity for considering that side of the question, long since,” said Ezra Jennings.",
+  "words": [
+    {
+      "word": "depend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disclosure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Moonstone",
+    "author": "Wilkie Collins",
+    "year": 1868,
+    "source": "Project Gutenberg #155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-war-and-peace-019",
   "pool": "sourced",
-  "text": "You would think the women had spread out their linen,” said one of the men, gazing with admiration at the Milky Way. “That’s a sign of a good harvest next year.” “We shall want some more wood.” “You warm your back and your belly gets frozen. That’s queer.” “O Lord!” “What are you pushing for? Is the fire only for you? Look how he’s sprawling!” In the silence that ensued, the snoring of those who had fallen asleep could be heard.",
+  "text": "While she sat in the carriage beside her father, pensively watching the lights of the street lamps flickering on the frozen window, she felt still sadder and more in love, and forgot where she was going and with whom. Having fallen into the line of carriages, the Rostóvs’ carriage drove up to the theater, its wheels squeaking over the snow. Natásha and Sónya, holding up their dresses, jumped out quickly. The count got out helped by the footmen, and, passing among men and women who were entering and the program sellers, they all three went along the corridor to the first row of boxes. Through the closed doors the music was already audible.",
   "words": [
     {
-      "word": "admiration",
+      "word": "carriages",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "belly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sprawling",
+      "word": "corridor",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

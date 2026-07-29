@@ -1,22 +1,10 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-012",
   "pool": "sourced",
-  "text": "I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge. I could with pleasure have destroyed the cottage and its inhabitants and have glutted myself with their shrieks and misery. “When night came I quitted my retreat and wandered in the wood; and now, no longer restrained by the fear of discovery, I gave vent to my anguish in fearful howlings. I was like a wild beast that had broken the toils, destroying the objects that obstructed me and ranging through the wood with a stag-like swiftness. What a miserable night I passed!",
+  "text": "I prophesied truly, and failed only in one single circumstance, that in all the misery I imagined and dreaded, I did not conceive the hundredth part of the anguish I was destined to endure. It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village at the distance of half a league from the city. The sky was serene; and, as I was unable to rest, I resolved to visit the spot where my poor William had been murdered. As I could not pass through the town, I was obliged to cross the lake in a boat to arrive at Plainpalais. During this short voyage I saw the lightning playing on the summit of Mont Blanc in the most beautiful figures.",
   "words": [
     {
       "word": "anguish",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fearful",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "miserable",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

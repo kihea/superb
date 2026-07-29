@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-026",
+  "pool": "sourced",
+  "text": "I could, however, see that his face was deadly pale and filled with horror and loathing. He had ceased to strike and was gazing up at the ventilator when suddenly there broke from the silence of the night the most horrible cry to which I have ever listened. It swelled up louder and louder, a hoarse yell of pain and fear and anger all mingled in the one dreadful shriek. They say that away down in the village, and even in the distant parsonage, that cry raised the sleepers from their beds. It struck cold to our hearts, and I stood gazing at Holmes, and he at me, until the last echoes of it had died away into the silence from which it rose.",
+  "words": [
+    {
+      "word": "yell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

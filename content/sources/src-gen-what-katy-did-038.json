@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-what-katy-did-038",
+  "pool": "sourced",
+  "text": "After a while Katy grew wiser. She ceased teasing Debby to try new things, and the Carr family went back to plain roast and boiled, much to the advantage of all concerned. But then another series of experiments began. Katy got hold of a book upon \"The Stomach,\" and was seized with a rage for wholesome food. She entreated Clover and the other children to give up sugar, and butter, and gravy, and pudding-sauce, and buckwheat cakes, and pies, and almost everything else that they particularly liked.",
+  "words": [
+    {
+      "word": "roast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gravy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

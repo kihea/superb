@@ -1,16 +1,35 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-017",
   "pool": "sourced",
-  "text": "If I cannot persuade you to take a lenient view of the matter, Lord St. Simon, I have brought an advocate here who may be more successful.” He opened the door and ushered in a lady and gentleman. “Lord St. Simon,” said he “allow me to introduce you to Mr. and Mrs. Francis Hay Moulton. The lady, I think, you have already met.” At the sight of these newcomers our client had sprung from his seat and stood very erect, with his eyes cast down and his hand thrust into the breast of his frock-coat, a picture of offended dignity. The lady had taken a quick step forward and had held out her hand to him, but he still refused to raise his eyes. It was as well for his resolution, perhaps, for her pleading face was one which it was hard to resist.",
+  "text": "In the dim light of the lamp I saw him sitting there, an old briar pipe between his lips, his eyes fixed vacantly upon the corner of the ceiling, the blue smoke curling up from him, silent, motionless, with the light shining upon his strong-set aquiline features. So he sat as I dropped off to sleep, and so he sat when a sudden ejaculation caused me to wake up, and I found the summer sun shining into the apartment. The pipe was still between his lips, the smoke still curled upward, and the room was full of a dense tobacco haze, but nothing remained of the heap of shag which I had seen upon the previous night. “Awake, Watson?” he asked. “Yes.” “Game for a morning drive?” “Certainly.” “Then dress.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "lamp",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "newcomers",
+      "word": "ceiling",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haze",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +40,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

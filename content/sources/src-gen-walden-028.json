@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-walden-028",
+  "pool": "sourced",
+  "text": "Though mainly but a humble route to neighboring villages, or for the woodman’s team, it once amused the traveller more than now by its variety, and lingered longer in his memory. Where now firm open fields stretch from the village to the woods, it then ran through a maple swamp on a foundation of logs, the remnants of which, doubtless, still underlie the present dusty highway, from the Stratton, now the Alms House, Farm, to Brister’s Hill. East of my bean-field, across the road, lived Cato Ingraham, slave of Duncan Ingraham, Esquire, gentleman, of Concord village, who built his slave a house, and gave him permission to live in Walden Woods;—Cato, not Uticensis, but Concordiensis. Some say that he was a Guinea Negro. There are a few who remember his little patch among the walnuts, which he let grow up till he should be old and need them; but a younger and whiter speculator got them at last.",
+  "words": [
+    {
+      "word": "maple",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "logs",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "patch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

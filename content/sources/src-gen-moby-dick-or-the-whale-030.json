@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-030",
+  "pool": "sourced",
+  "text": "By midnight the works were in full operation. We were clear from the carcase; sail had been made; the wind was freshening; the wild ocean darkness was intense. But that darkness was licked up by the fierce flames, which at intervals forked forth from the sooty flues, and illuminated every lofty rope in the rigging, as with the famed Greek fire. The burning ship drove on, as if remorselessly commissioned to some vengeful deed. So the pitch and sulphur-freighted brigs of the bold Hydriote, Canaris, issuing from their midnight harbors, with broad sheets of flame for sails, bore down upon the Turkish frigates, and folded them in conflagrations.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rigging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-036",
+  "pool": "sourced",
+  "text": "“In the midst of one of these swoons I heard the door open. Terror recalled me to myself. “He entered the apartment followed by a man in a mask. He was masked likewise; but I knew his step, I knew his voice, I knew him by that imposing bearing which hell has bestowed upon his person for the curse of humanity. “‘Well,’ said he to me, ‘have you made your mind up to take the oath I requested of you?’ “‘You have said Puritans have but one word.",
+  "words": [
+    {
+      "word": "masked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-034",
+  "pool": "sourced",
+  "text": "I wouldn’t hurt a hair of your head for all the world. No—I’d protect you—I’d protect you. This Spaniard is not deaf and dumb; you’ve let that slip without intending it; you can’t cover that up now. You know something about that Spaniard that you want to keep dark. Now trust me—tell me what it is, and trust me—I won’t betray you.” Huck looked into the old man’s honest eyes a moment, then bent over and whispered in his ear: “’Tain’t a Spaniard—it’s Injun Joe!” The Welshman almost jumped out of his chair.",
+  "words": [
+    {
+      "word": "intending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "betray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

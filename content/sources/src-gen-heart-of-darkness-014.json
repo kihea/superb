@@ -1,16 +1,10 @@
 {
   "id": "src-gen-heart-of-darkness-014",
   "pool": "sourced",
-  "text": "‘The station!’ he cried. I edged in at once, still going half-speed. “Through my glasses I saw the slope of a hill interspersed with rare trees and perfectly free from undergrowth. A long decaying building on the summit was half buried in the high grass; the large holes in the peaked roof gaped black from afar; the jungle and the woods made a background. There was no enclosure or fence of any kind; but there had been one apparently, for near the house half-a-dozen slim posts remained in a row, roughly trimmed, and with their upper ends ornamented with round carved balls.",
+  "text": "We capered on the iron deck. A frightful clatter came out of that hulk, and the virgin forest on the other bank of the creek sent it back in a thundering roll upon the sleeping station. It must have made some of the pilgrims sit up in their hovels. A dark figure obscured the lighted doorway of the manager’s hut, vanished, then, a second or so after, the doorway itself vanished, too. We stopped, and the silence driven away by the stamping of our feet flowed back again from the recesses of the land.",
   "words": [
     {
-      "word": "jungle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fence",
+      "word": "obscured",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

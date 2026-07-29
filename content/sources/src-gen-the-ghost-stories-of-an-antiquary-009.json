@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-009",
   "pool": "sourced",
-  "text": "Rising from the sofa, he turned the lights of the chandelier low, and screened the fire. The room was still. The ghost stood, faintly radiant, in a remote corner. Dr. Renton lay down again, but not to repose. Things he had forgotten of his dead friend, now started up again in remembrance, fresh from the grave of many years; and not one of them but linked itself by some mysterious bond to something connected with his tenant, and became an accusation.",
+  "text": "Every man for himself, is a good general rule. Every man for humanity, as George has it, and in his acceptation of the principle, would send us all to the alms-house pretty soon. The greatest good of the greatest number--that's my rule of action. There are plenty of good institutions for the distressed, and I'm willing to help support 'em, and do. But as for making a martyr of one's self, or tilting against the necessary evils of society, or turning philanthropist at large, or any quixotism of that sort, I don't believe in it.",
   "words": [
     {
-      "word": "screened",
+      "word": "martyr",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "philanthropist",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

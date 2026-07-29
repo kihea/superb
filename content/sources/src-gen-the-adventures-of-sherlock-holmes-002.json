@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-002",
   "pool": "sourced",
-  "text": "“Eight weeks passed away like this, and I had written about Abbots and Archery and Armour and Architecture and Attica, and hoped with diligence that I might get on to the B’s before very long. It cost me something in foolscap, and I had pretty nearly filled a shelf with my writings. And then suddenly the whole business came to an end.” “To an end?” “Yes, sir. And no later than this morning. I went to my work as usual at ten o’clock, but the door was shut and locked, with a little square of cardboard hammered on to the middle of the panel with a tack.",
+  "text": "If my hair would only change colour, here’s a nice little crib all ready for me to step into.’ “‘Why, what is it, then?’ I asked. You see, Mr. Holmes, I am a very stay-at-home man, and as my business came to me instead of my having to go to it, I was often weeks on end without putting my foot over the door-mat. In that way I didn’t know much of what was going on outside, and I was always glad of a bit of news. “‘Have you never heard of the League of the Red-headed Men?’ he asked with his eyes open. “‘Never.’ “‘Why, I wonder at that, for you are eligible yourself for one of the vacancies.’ “‘And what are they worth?’ I asked.",
   "words": [
     {
-      "word": "diligence",
+      "word": "crib",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mat",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-age-of-innocence-040",
+  "pool": "sourced",
+  "text": "\"Oh, all right--of course,\" Dallas good-naturedly agreed. \"I'll take you to some jolly old-fashioned place--the Bristol say--\" leaving his father speechless at hearing that the century-long home of kings and emperors was now spoken of as an old-fashioned inn, where one went for its quaint inconveniences and lingering local colour. Archer had pictured often enough, in the first impatient years, the scene of his return to Paris; then the personal vision had faded, and he had simply tried to see the city as the setting of Madame Olenska's life. Sitting alone at night in his library, after the household had gone to bed, he had evoked the radiant outbreak of spring down the avenues of horse-chestnuts, the flowers and statues in the public gardens, the whiff of lilacs from the flower-carts, the majestic roll of the river under the great bridges, and the life of art and study and pleasure that filled each mighty artery to bursting.",
+  "words": [
+    {
+      "word": "speechless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "archer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "faded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carts",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "artery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

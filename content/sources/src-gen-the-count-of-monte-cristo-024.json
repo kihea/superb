@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-024",
+  "pool": "sourced",
+  "text": "I, of course, give him the same title, and everyone else does likewise.” “What a strange man you are! What next? You say M. Danglars dined here?” “Yes, with Count Cavalcanti, the marquis his father, Madame Danglars, M. and Madame de Villefort,—charming people,—M. Debray, Maximilian Morrel, and M. de Château-Renaud.” “Did they speak of me?” “Not a word.” “So much the worse.” “Why so? I thought you wished them to forget you?” “If they did not speak of me, I am sure they thought about me, and I am in despair.” “How will that affect you, since Mademoiselle Danglars was not among the number here who thought of you?",
+  "words": [
+    {
+      "word": "marquis",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,40 @@
 {
   "id": "src-gen-the-song-of-the-lark-002",
   "pool": "sourced",
-  "text": "Coming up from Laramie, the old man had told them that he was in Brownsville, Nebraska, when the first telegraph wires were put across the Missouri River, and that the first message that ever crossed the river was “Westward the course of Empire takes its way.” He had been in the room when the instrument began to click, and all the men there had, without thinking what they were doing, taken off their hats, waiting bareheaded to hear the message translated. Thea remembered that message when she sighted down the wagon tracks toward the blue mountains. She told herself she would never, never forget it. The spirit of human courage seemed to live up there with the eagles. For long after, when she was moved by a Fourth-of-July oration, or a band, or a circus parade, she was apt to remember that windy ridge.",
+  "text": "As they went farther, the illusion of the mirage became more instead of less convincing; a shallow silver lake that spread for many miles, a little misty in the sunlight. Here and there one saw reflected the image of a heifer, turned loose to live upon the sparse sand-grass. They were magnified to a preposterous height and looked like mammoths, prehistoric beasts standing solitary in the waters that for many thousands of years actually washed over that desert;—the mirage itself may be the ghost of that long-vanished sea. Beyond the phantom lake lay the line of many-colored hills; rich, sun-baked yellow, glowing turquoise, lavender, purple; all the open, pastel colors of the desert. After the first five miles the road grew heavier.",
   "words": [
     {
-      "word": "telegraph",
+      "word": "mirage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "phantom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pastel",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

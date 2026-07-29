@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-005",
   "pool": "sourced",
-  "text": "“Well?” “Nothing,” said he, throwing it down. “It is a blank half-sheet of paper, without even a water-mark upon it. I think we have drawn as much as we can from this curious letter; and now, Sir Henry, has anything else of interest happened to you since you have been in London?” “Why, no, Mr. Holmes. I think not.” “You have not observed anyone follow or watch you?” “I seem to have walked right into the thick of a dime novel,” said our visitor. “Why in thunder should anyone follow or watch me?” “We are coming to that.",
+  "text": "I checked and corroborated all the facts which were mentioned at the inquest. I followed the footsteps down the yew alley, I saw the spot at the moor-gate where he seemed to have waited, I remarked the change in the shape of the prints after that point, I noted that there were no other footsteps save those of Barrymore on the soft gravel, and finally I carefully examined the body, which had not been touched until my arrival. Sir Charles lay on his face, his arms out, his fingers dug into the ground, and his features convulsed with some strong emotion to such an extent that I could hardly have sworn to his identity. There was certainly no physical injury of any kind. But one false statement was made by Barrymore at the inquest.",
   "words": [
     {
-      "word": "blank",
+      "word": "inquest",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "visitor",
+      "word": "alley",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-026",
+  "pool": "sourced",
+  "text": "Mrs. John Dashwood had so much confidence in her husband's judgment, that she waited the very next day both on Mrs. Jennings and her daughter; and her confidence was rewarded by finding even the former, even the woman with whom her sisters were staying, by no means unworthy her notice; and as for Lady Middleton, she found her one of the most charming women in the world! Lady Middleton was equally pleased with Mrs. Dashwood. There was a kind of cold hearted selfishness on both sides, which mutually attracted them; and they sympathised with each other in an insipid propriety of demeanor, and a general want of understanding. The same manners, however, which recommended Mrs. John Dashwood to the good opinion of Lady Middleton did not suit the fancy of Mrs. Jennings, and to her she appeared nothing more than a little proud-looking woman of uncordial address, who met her husband's sisters without any affection, and almost without having anything to say to them; for of the quarter of an hour bestowed on Berkeley Street, she sat at least seven minutes and a half in silence.",
+  "words": [
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

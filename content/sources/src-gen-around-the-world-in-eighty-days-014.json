@@ -1,22 +1,16 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-014",
   "pool": "sourced",
-  "text": "Mr. Fogg, on reaching shore, proceeded to find out at what hour the first train left for New York, and learned that this was at six o’clock p.m.; he had, therefore, an entire day to spend in the Californian capital. Taking a carriage at a charge of three dollars, he and Aouda entered it, while Passepartout mounted the box beside the driver, and they set out for the International Hotel. From his exalted position Passepartout observed with much curiosity the wide streets, the low, evenly ranged houses, the Anglo-Saxon Gothic churches, the great docks, the palatial wooden and brick warehouses, the numerous conveyances, omnibuses, horse-cars, and upon the side-walks, not only Americans and Europeans, but Chinese and Indians. Passepartout was surprised at all he saw. San Francisco was no longer the legendary city of 1849—a city of banditti, assassins, and incendiaries, who had flocked hither in crowds in pursuit of plunder; a paradise of outlaws, where they gambled with gold-dust, a revolver in one hand and a bowie-knife in the other: it was now a great commercial emporium.",
+  "text": "Night came on; the train passed on at full speed, in the midst of the roaring of the tigers, bears, and wolves which fled before the locomotive; and the marvels of Bengal, Golconda ruined Gour, Murshedabad, the ancient capital, Burdwan, Hugly, and the French town of Chandernagor, where Passepartout would have been proud to see his country’s flag flying, were hidden from their view in the darkness. Calcutta was reached at seven in the morning, and the packet left for Hong Kong at noon; so that Phileas Fogg had five hours before him. According to his journal, he was due at Calcutta on the 25th of October, and that was the exact date of his actual arrival. He was therefore neither behind-hand nor ahead of time. The two days gained between London and Bombay had been lost, as has been seen, in the journey across India.",
   "words": [
     {
-      "word": "docks",
+      "word": "locomotive",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "warehouses",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "bowie",
+      "word": "noon",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

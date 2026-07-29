@@ -1,28 +1,16 @@
 {
   "id": "src-gen-middlemarch-011",
   "pool": "sourced",
-  "text": "But Mary, you understand, could do no such thing—would not be handling his iron chest, and so on. Now, you see, the will he wanted burnt was this last, so that if Mary had done what he wanted, Fred Vincy would have had ten thousand pounds. The old man did turn to him at the last. That touches poor Mary close; she couldn’t help it—she was in the right to do what she did, but she feels, as she says, much as if she had knocked down somebody’s property and broken it against her will, when she was rightfully defending herself. I feel with her, somehow, and if I could make any amends to the poor lad, instead of bearing him a grudge for the harm he did us, I should be glad to do it.",
+  "text": "“I hope you are thoroughly satisfied with our stay—I mean, with the result so far as your studies are concerned,” said Dorothea, trying to keep her mind fixed on what most affected her husband. “Yes,” said Mr. Casaubon, with that peculiar pitch of voice which makes the word half a negative. “I have been led farther than I had foreseen, and various subjects for annotation have presented themselves which, though I have no direct need of them, I could not pretermit. The task, notwithstanding the assistance of my amanuensis, has been a somewhat laborious one, but your society has happily prevented me from that too continuous prosecution of thought beyond the hours of study which has been the snare of my solitary life.” “I am very glad that my presence has made any difference to you,” said Dorothea, who had a vivid memory of evenings in which she had supposed that Mr. Casaubon’s mind had gone too deep during the day to be able to get to the surface again. I fear there was a little temper in her reply.",
   "words": [
     {
-      "word": "rightfully",
+      "word": "snare",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "amends",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lad",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grudge",
+      "word": "solitary",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

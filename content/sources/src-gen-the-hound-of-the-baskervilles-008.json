@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-008",
   "pool": "sourced",
-  "text": "“Is it not the very picture of an old family home? To think that this should be the same hall in which for five hundred years my people have lived. It strikes me solemn to think of it.” I saw his dark face lit up with a boyish enthusiasm as he gazed about him. The light beat upon him where he stood, but long shadows trailed down the walls and hung like a black canopy above him. Barrymore had returned from taking our luggage to our rooms.",
+  "text": "“Who knew that you were going to the Northumberland Hotel?” asked Holmes, glancing keenly across at our visitor. “No one could have known. We only decided after I met Dr. Mortimer.” “But Dr. Mortimer was no doubt already stopping there?” “No, I had been staying with a friend,” said the doctor. “There was no possible indication that we intended to go to this hotel.” “Hum! Someone seems to be very deeply interested in your movements.” Out of the envelope he took a half-sheet of foolscap paper folded into four.",
   "words": [
     {
-      "word": "lit",
+      "word": "visitor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shadows",
+      "word": "envelope",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

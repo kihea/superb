@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-little-princess-030",
+  "pool": "sourced",
+  "text": "\"I suppose soldiers feel like this when they are on a long and weary march,\" she often said to herself. She liked the sound of the phrase, \"long and weary march.\" It made her feel rather like a soldier. She had also a quaint sense of being a hostess in the attic. \"If I lived in a castle,\" she argued, \"and Ermengarde was the lady of another castle, and came to see me, with knights and squires and vassals riding with her, and pennons flying, when I heard the clarions sounding outside the drawbridge I should go down to receive her, and I should spread feasts in the banquet hall and call in minstrels to sing and play and relate romances.",
+  "words": [
+    {
+      "word": "attic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sounding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

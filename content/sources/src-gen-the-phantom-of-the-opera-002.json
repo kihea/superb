@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-002",
   "pool": "sourced",
-  "text": "And can we be sure that the figure was that of the Opera ghost himself? Who would venture to assert as much? I mention the incident, not because I wish for a second to make the reader believe--or even to try to make him believe--that the ghost was capable of such a sublime piece of impudence; but because, after all, the thing is impossible. M. Armand Moncharmin, in chapter eleven of his Memoirs, says: \"When I think of this first evening, I can not separate the secret confided to us by MM. Debienne and Poligny in their office from the presence at our supper of that GHOSTLY person whom none of us knew.\"",
+  "text": "Nevertheless, he did not go away, but, as though he feared lest he should be caught, he returned to his dark corner, determined to wait for the man to leave the room. At one and the same time, he had learned what love meant, and hatred. He knew that he loved. He wanted to know whom he hated. To his great astonishment, the door opened and Christine Daae appeared, wrapped in furs, with her face hidden in a lace veil, alone.",
   "words": [
     {
-      "word": "eleven",
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "veil",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

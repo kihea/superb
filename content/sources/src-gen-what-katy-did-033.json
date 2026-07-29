@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-what-katy-did-033",
+  "pool": "sourced",
+  "text": "Johnnie's envelope held a paper doll named \"Red Riding-Hood.\" These were the verses: \"I send you my picture, dear Johnnie, to show That I'm just as alive as you, And that you needn't cry over my fate Any more, as you used to do. \"The wolf didn't hurt me at all that day, For I kicked and fought and cried, Till he dropped me out of his mouth, and ran Away in the woods to hide. \"And Grandma and I have lived ever since In the little brown house so small, And churned fresh butter and made cream cheeses, Nor seen the wolf at all. \"So cry no more for fear I am eaten, The naughty wolf is shot, And if you will come to tea some evening You shall see for yourself I'm not.\"",
+  "words": [
+    {
+      "word": "envelope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doll",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eaten",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

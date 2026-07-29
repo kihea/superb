@@ -1,10 +1,40 @@
 {
   "id": "src-gen-robinson-crusoe-017",
   "pool": "sourced",
-  "text": "And now, having a full supply of food for all the guests I expected, I gave the Spaniard leave to go over to the main, to see what he could do with those he had left behind him there. I gave him a strict charge not to bring any man who would not first swear in the presence of himself and the old savage that he would in no way injure, fight with, or attack the person he should find in the island, who was so kind as to send for them in order to their deliverance; but that they would stand by him and defend him against all such attempts, and wherever they went would be entirely under and subjected to his command; and that this should be put in writing, and signed in their hands. How they were to have done this, when I knew they had neither pen nor ink, was a question which we never asked.",
+  "text": "I spent many a day to find out a great stone big enough to cut hollow, and make fit for a mortar, and could find none at all, except what was in the solid rock, and which I had no way to dig or cut out; nor indeed were the rocks in the island of hardness sufficient, but were all of a sandy, crumbling stone, which neither would bear the weight of a heavy pestle, nor would break the corn without filling it with sand. So, after a great deal of time lost in searching for a stone, I gave it over, and resolved to look out for a great block of hard wood, which I found, indeed, much easier; and getting one as big as I had strength to stir, I rounded it, and formed it on the outside with my axe and hatchet, and then with the help of fire and infinite labour, made a hollow place in it, as the Indians in Brazil make their canoes.",
   "words": [
     {
-      "word": "ink",
+      "word": "mortar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hardness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sandy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rounded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "axe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infinite",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

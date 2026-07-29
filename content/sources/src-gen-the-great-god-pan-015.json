@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-great-god-pan-015",
   "pool": "sourced",
-  "text": "I will look again. Yes, you are quite right.” “Quite so. Well, I am in a position to contradict that statement at all events. Crashaw was seen after that; considerably later indeed.” “How do you know?” “Because I happened to see Crashaw myself at about two o’clock this morning.” “You saw Crashaw? You, Villiers?” “Yes, I saw him quite distinctly; indeed, there were but a few feet between us.” “Where, in Heaven’s name, did you see him?” “Not far from here.",
+  "text": "I don’t give his name, Villiers, because it has nothing to do with the story, and because it’s no good raking up these affairs about the dead when there are no relations living. The next curious point was that the medical men couldn’t agree as to how he met his death. There were some slight bruises on his shoulders, but they were so slight that it looked as if he had been pushed roughly out of the kitchen door, and not thrown over the railings from the street or even dragged down the steps. But there were positively no other marks of violence about him, certainly none that would account for his death; and when they came to the autopsy there wasn’t a trace of poison of any kind. Of course the police wanted to know all about the people at Number 20, and here again, so I have heard from private sources, one or two other very curious points came out.",
   "words": [
     {
-      "word": "contradict",
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "autopsy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "poison",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

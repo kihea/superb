@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-033",
+  "pool": "sourced",
+  "text": "The temperature of the water at the surface showed twelve degrees, it was now only ten; we had gained two. I need not say the temperature of the Nautilus was raised by its heating apparatus to a much higher degree; every manœuvre was accomplished with wonderful precision. “We shall pass it, if you please, sir,” said Conseil. “I believe we shall,” I said, in a tone of firm conviction. In this open sea, the Nautilus had taken its course direct to the pole, without leaving the fifty-second meridian.",
+  "words": [
+    {
+      "word": "heating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apparatus",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meridian",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

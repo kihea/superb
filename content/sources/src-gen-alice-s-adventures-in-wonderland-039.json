@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-039",
+  "pool": "sourced",
+  "text": "“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.” “If you didn’t sign it,” said the King, “that only makes the matter worse. You must have meant some mischief, or else you’d have signed your name like an honest man.” There was a general clapping of hands at this: it was the first really clever thing the King had said that day. “That proves his guilt,” said the Queen. “It proves nothing of the sort!” said Alice. “Why, you don’t even know what they’re about!” “Read them,” said the King.",
+  "words": [
+    {
+      "word": "clever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

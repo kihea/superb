@@ -1,40 +1,22 @@
 {
   "id": "src-gen-the-old-curiosity-shop-008",
   "pool": "sourced",
-  "text": "If cattle have got their proper load, you never can persuade a woman that they’ll not bear something more. What is the cause of this here?’ ‘Would these two travellers make much difference to the horses, if we took them with us?’ asked his mistress, offering no reply to the philosophical inquiry, and pointing to Nell and the old man, who were painfully preparing to resume their journey on foot. ‘They’d make a difference in course,’ said George doggedly. ‘Would they make much difference?’ repeated his mistress. ‘They can’t be very heavy.’ ‘The weight o’ the pair, mum,’ said George, eyeing them with the look of a man who was calculating within half an ounce or so, ‘would be a trifle under that of Oliver Cromwell.’ Nell was very much surprised that the man should be so accurately acquainted with the weight of one whom she had read of in books as having lived considerably before their time, but speedily forgot the subject in the joy of hearing that they were to go forward in the caravan, for which she thanked its lady with unaffected earnestness.",
+  "text": "How could she ever have thought of bidding them farewell in triumph, when the recollection of the many hours she had passed among them rose to her swelling heart, and made her feel the wish a cruelty: lonely and sad though many of those hours had been! She sat down at the window where she had spent so many evenings--darker far than this--and every thought of hope or cheerfulness that had occurred to her in that place came vividly upon her mind, and blotted out all its dull and mournful associations in an instant. Her own little room too, where she had so often knelt down and prayed at night--prayed for the time which she hoped was dawning now--the little room where she had slept so peacefully, and dreamed such pleasant dreams! It was hard not to be able to glance round it once more, and to be forced to leave it without one kind look or grateful tear. There were some trifles there--poor useless things--that she would have liked to take away; but that was impossible.",
   "words": [
     {
-      "word": "persuade",
+      "word": "bidding",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "travellers",
+      "word": "farewell",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mistress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "resume",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "calculating",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "caravan",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

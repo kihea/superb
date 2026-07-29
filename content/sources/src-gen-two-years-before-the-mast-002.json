@@ -1,10 +1,16 @@
 {
   "id": "src-gen-two-years-before-the-mast-002",
   "pool": "sourced",
-  "text": "Sunday, October 5th. It was our morning watch; when, soon after the day began to break, a man on the forecastle called out, \"Land ho!\" I had never heard the cry before, and did not know what it meant, (and few would suspect what the words were, when hearing the strange sound for the first time,) but I soon found, by the direction of all eyes, that there was land stretching along our weather beam. We immediately took in studding-sails and hauled our wind, running in for the land. This was done to determine our longitude; for by the captain's chronometer we were in 25o W., but by his observations we were much farther, and he had been for some time in doubt whether it was his chronometer or his sextant which was out of order.",
+  "text": "from aloft, and soon saw two sails to windward, going directly athwart our hawse. This was the first time that I had seen a sail at sea. I thought then, and always have since, that it exceeds every other sight in interest and beauty. They passed to leeward of us, and out of hailing distance; but the captain could read the names on their sterns with the glass. They were the ship Helen Mar, of New York, and the brig Mermaid, of Boston.",
   "words": [
     {
       "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brig",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

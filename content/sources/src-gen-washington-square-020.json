@@ -1,16 +1,22 @@
 {
   "id": "src-gen-washington-square-020",
   "pool": "sourced",
-  "text": "“It pains me,” said Catherine. “I was afraid you would say that. But don’t you think you could get used to it? He wants so much to see you.” “Please don’t, Aunt Lavinia,” said Catherine, getting up from her seat. She moved quickly away, and went to the other window, which stood open to the balcony; and here, in the embrasure, concealed from her aunt by the white curtains, she remained a long time, looking out into the warm darkness.",
+  "text": "At last he heard her move away, and then her footstep creaked faintly upon the stairs. The Doctor took several turns round his study, with his hands in his pockets, and a thin sparkle, possibly of irritation, but partly also of something like humour, in his eye. “By Jove,” he said to himself, “I believe she will stick—I believe she will stick!” And this idea of Catherine “sticking” appeared to have a comical side, and to offer a prospect of entertainment. He determined, as he said to himself, to see it out. XIX IT was for reasons connected with this determination that on the morrow he sought a few words of private conversation with Mrs. Penniman.",
   "words": [
     {
-      "word": "balcony",
+      "word": "humour",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "curtains",
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "determination",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

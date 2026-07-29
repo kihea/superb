@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-012",
   "pool": "sourced",
-  "text": "A man must have something to grumble about; and if he can’t complain that his wife harries him to death with her perversity and ill-humour, he must complain that she wears him out with her kindness and gentleness.” “But why complain at all, unless because you are tired and dissatisfied?” “To excuse my own failings, to be sure. Do you think I’ll bear all the burden of my sins on my own shoulders, as long as there’s another ready to help me, with none of her own to carry?” “There is no such one on earth,” said she seriously; and then, taking his hand from her head, she kissed it with an air of genuine devotion, and tripped away to the door. “What now?” said he. “Where are you going?” “To tidy my hair,” she answered, smiling through her disordered locks; “you’ve made it all come down.” “Off with you then!—An excellent little woman,” he remarked when she was gone, “but a thought too soft—she almost melts in one’s hands. I positively think I ill-use her sometimes, when I’ve taken too much—but I can’t help it, for she never complains, either at the time or after.",
+  "text": "What was that story about his intrigue with a married lady—Lady who was it?—Miss Wilmot herself was telling you the other day?” “It was false—false!” I cried. “I don’t believe a word of it.” “You think, then, that he is a virtuous, well-conducted young man?” “I know nothing positive respecting his character. I only know that I have heard nothing definite against it—nothing that could be proved, at least; and till people can prove their slanderous accusations, I will not believe them.",
   "words": [
     {
-      "word": "devotion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "locks",
+      "word": "virtuous",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

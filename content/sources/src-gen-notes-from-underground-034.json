@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-notes-from-underground-034",
+  "pool": "sourced",
+  "text": "I always liked particularly sauntering along these streets in the dusk, just when there were crowds of working people of all sorts going home from their daily work, with faces looking cross with anxiety. What I liked was just that cheap bustle, that bare prose. On this occasion the jostling of the streets irritated me more than ever, I could not make out what was wrong with me, I could not find the clue, something seemed rising up continually in my soul, painfully, and refusing to be appeased. I returned home completely upset, it was just as though some crime were lying on my conscience. The thought that Liza was coming worried me continually.",
+  "words": [
+    {
+      "word": "bare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

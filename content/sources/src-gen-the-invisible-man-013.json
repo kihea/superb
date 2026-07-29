@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-invisible-man-013",
   "pool": "sourced",
-  "text": "I staggered out of the way of the cab, avoided a perambulator by a convulsive movement, and found myself behind the hansom. A happy thought saved me, and as this drove slowly along I followed in its immediate wake, trembling and astonished at the turn of my adventure. And not only trembling, but shivering. It was a bright day in January and I was stark naked and the thin slime of mud that covered the road was freezing. Foolish as it seems to me now, I had not reckoned that, transparent or not, I was still amenable to the weather and all its consequences.",
+  "text": "Mr. Bunting flushed slightly and brought his face nearer, apparently finding some difficulty with his glasses. Suddenly he became aware of a strange feeling at the nape of his neck. He tried to raise his head, and encountered an immovable resistance. The feeling was a curious pressure, the grip of a heavy, firm hand, and it bore his chin irresistibly to the table. “Don’t move, little men,” whispered a voice, “or I’ll brain you both!” He looked into the face of Cuss, close to his own, and each saw a horrified reflection of his own sickly astonishment.",
   "words": [
     {
-      "word": "slime",
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

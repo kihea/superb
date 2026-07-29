@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-015",
   "pool": "sourced",
-  "text": "“He would not be hanged if I did denounce him,” answered Wilfred with a wild but curiously happy smile. “When I went into the church this morning I found a madman praying there--that poor Joe, who has been wrong all his life. God knows what he prayed; but with such strange folk it is not incredible to suppose that their prayers are all upside down. Very likely a lunatic would pray before killing a man. When I last saw poor Joe he was with my brother.",
+  "text": "Matter had rebelled, and these machines had killed their master. But even so, what had they done with him? “Eaten him?” said the nightmare at his ear; and he sickened for an instant at the idea of rent, human remains absorbed and crushed into all that acephalous clockwork. He recovered his mental health by an emphatic effort, and said to Flambeau, “Well, there it is. The poor fellow has evaporated like a cloud and left a red streak on the floor.",
   "words": [
     {
-      "word": "madman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prayers",
+      "word": "streak",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

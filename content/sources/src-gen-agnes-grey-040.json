@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-agnes-grey-040",
+  "pool": "sourced",
+  "text": "I think he’s a very sensible man. But why did you sit back there, Agnes,” she added, “and talk so little?” “Because you talked so well, mamma, I thought you required no assistance from me: and, besides, he was your visitor, not mine.” After that, he often called upon us—several times in the course of a week. He generally addressed most of his conversation to my mother: and no wonder, for she could converse. I almost envied the unfettered, vigorous fluency of her discourse, and the strong sense evinced by everything she said—and yet, I did not; for, though I occasionally regretted my own deficiencies for his sake, it gave me very great pleasure to sit and hear the two beings I loved and honoured above every one else in the world, discoursing together so amicably, so wisely, and so well. I was not always silent, however; nor was I at all neglected.",
+  "words": [
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "visitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "converse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vigorous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

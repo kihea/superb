@@ -1,40 +1,10 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-005",
   "pool": "sourced",
-  "text": "In his devouring mind’s eye, he pictured to himself every roasting-pig running about with a pudding in his belly, and an apple in his mouth; the pigeons were snugly put to bed in a comfortable pie, and tucked in with a coverlet of crust; the geese were swimming in their own gravy; and the ducks pairing cosily in dishes, like snug married couples, with a decent competency of onion sauce. In the porkers he saw carved out the future sleek side of bacon, and juicy relishing ham; not a turkey but he beheld daintily trussed up, with its gizzard under its wing, and, peradventure, a necklace of savory sausages; and even bright chanticleer himself lay sprawling on his back, in a side dish, with uplifted claws, as if craving that quarter which his chivalrous spirit disdained to ask while living.",
+  "text": "The fireflies, too, which sparkled most vividly in the darkest places, now and then startled him, as one of uncommon brightness would stream across his path; and if, by chance, a huge blockhead of a beetle came winging his blundering flight against him, the poor varlet was ready to give up the ghost, with the idea that he was struck with a witch’s token. His only resource on such occasions, either to drown thought or drive away evil spirits, was to sing psalm tunes and the good people of Sleepy Hollow, as they sat by their doors of an evening, were often filled with awe at hearing his nasal melody, “in linked sweetness long drawn out,” floating from the distant hill, or along the dusky road.",
   "words": [
     {
-      "word": "roasting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pudding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "geese",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gravy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sleek",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bacon",
+      "word": "witch",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-021",
+  "pool": "sourced",
+  "text": "Then followed the legend of the Ear, amplified from Finn’s first letter, and then the substance of his later discoveries, as follows: I know it is the practice of journalists to put the end of the story at the beginning and call it a headline. I know that journalism largely consists in saying “Lord Jones Dead” to people who never knew that Lord Jones was alive. Your present correspondent thinks that this, like many other journalistic customs, is bad journalism; and that the Daily Reformer has to set a better example in such things. He proposes to tell his story as it occurred, step by step. He will use the real names of the parties, who in most cases are ready to confirm his testimony.",
+  "words": [
+    {
+      "word": "journalistic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,24 +1,12 @@
 {
   "id": "src-gen-anna-karenina-013",
   "pool": "sourced",
-  "text": "The smile was faint, scarcely perceptible, and in spite of the smile the stern expression of the eyes was unchanged. “You did not expect to find me like this,” he articulated with effort. “Yes ... no,” said Levin, hesitating over his words. “How was it you didn’t let me know before, that is, at the time of my wedding? I made inquiries in all directions.” He had to talk so as not to be silent, and he did not know what to say, especially as his brother made no reply, and simply stared without dropping his eyes, and evidently penetrated to the inner meaning of each word.",
+  "text": "Sergey Ivanovitch liked to stretch himself on the grass in the sun, and to lie so, basking and chatting lazily. “You wouldn’t believe,” he would say to his brother, “what a pleasure this rural laziness is to me. Not an idea in one’s brain, as empty as a drum!” But Konstantin Levin found it dull sitting and listening to him, especially when he knew that while he was away they would be carting dung onto the fields not ploughed ready for it, and heaping it all up anyhow; and would not screw the shares in the ploughs, but would let them come off and then say that the new ploughs were a silly invention, and there was nothing like the old Andreevna plough, and so on. “Come, you’ve done enough trudging about in the heat,” Sergey Ivanovitch would say to him. “No, I must just run round to the counting-house for a minute,” Levin would answer, and he would run off to the fields.",
   "words": [
     {
-      "word": "didn",
+      "word": "drum",
       "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "evidently",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "penetrated",
-      "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     }
   ],
@@ -27,7 +15,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

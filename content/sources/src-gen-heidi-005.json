@@ -1,10 +1,28 @@
 {
   "id": "src-gen-heidi-005",
   "pool": "sourced",
-  "text": "Even then she could not see what she longed for. In vain she went first to one and then the other of the windows--she could see nothing but walls and windows and again walls and windows. Heidi felt quite frightened. It was still early, for Heidi was accustomed to get up early and run out at once to see how everything was looking, if the sky was blue and if the sun was already above the mountains, or if the fir trees were waving and the flowers had opened their eyes. As a bird, when it first finds itself in its bright new cage, darts hither and thither, trying the bars in turn to see if it cannot get through them and fly again into the open, so Heidi continued to run backwards and forwards, trying to open first one and then the other of the windows, for she felt she could not bear to see nothing but walls and windows, and somewhere outside there must be the green grass, and the last unmelted snows on the mountain slopes, which Heidi so longed to see.",
+  "text": "All of a sudden she exclaimed, \"Grandmother, one of your shutters is flapping backwards and forwards; grandfather would put a nail in and make it all right in a minute, or else it will break one of the panes some day; look, look, how it keeps on banging!\" \"Ah, dear child,\" said the old woman, \"I am not able to see it, but I can hear that and many other things besides the shutter. Everything about the place rattles and creaks when the wind is blowing, and it gets inside through all the cracks and holes. The house is going to pieces, and in the night, when the two others are asleep, I often lie awake in fear and trembling, thinking that the whole place will give way and fall and kill us. And there is not a creature to mend anything for us, for Peter does not understand such work.\"",
   "words": [
     {
-      "word": "cage",
+      "word": "backwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awake",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

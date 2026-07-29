@@ -1,16 +1,22 @@
 {
   "id": "src-gen-peter-pan-018",
   "pool": "sourced",
-  "text": "First signing them to hide, Peter cut Wendy’s bonds, and then nothing could have been easier than for them all to fly off together; but one thing barred the way, an oath, “Hook or me this time.” So when he had freed Wendy, he whispered for her to conceal herself with the others, and himself took her place by the mast, her cloak around him so that he should pass for her. Then he took a great breath and crowed. To the pirates it was a voice crying that all the boys lay slain in the cabin; and they were panic-stricken. Hook tried to hearten them; but like the dogs he had made them they showed him their fangs, and he knew that if he took his eyes off them now they would leap at him. “Lads,” he said, ready to cajole or strike as need be, but never quailing for an instant, “I’ve thought it out.",
+  "text": "Perhaps a better one would be the night attack by the redskins on the house under the ground, when several of them stuck in the hollow trees and had to be pulled out like corks. Or we might tell how Peter saved Tiger Lily’s life in the Mermaids’ Lagoon, and so made her his ally. Or we could tell of that cake the pirates cooked so that the boys might eat it and perish; and how they placed it in one cunning spot after another; but always Wendy snatched it from the hands of her children, so that in time it lost its succulence, and became as hard as a stone, and was used as a missile, and Hook fell over it in the dark. Or suppose we tell of the birds that were Peter’s friends, particularly of the Never bird that built in a tree overhanging the lagoon, and how the nest fell into the water, and still the bird sat on her eggs, and Peter gave orders that she was not to be disturbed.",
   "words": [
     {
-      "word": "whispered",
+      "word": "missile",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "conceal",
+      "word": "lagoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nest",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,16 @@
 {
   "id": "src-gen-through-the-looking-glass-005",
   "pool": "sourced",
-  "text": "“I’m quite content to stay here—only I am so hot and thirsty!” “I know what you’d like!” the Queen said good-naturedly, taking a little box out of her pocket. “Have a biscuit?” Alice thought it would not be civil to say “No,” though it wasn’t at all what she wanted. So she took it, and ate it as well as she could: and it was very dry; and she thought she had never been so nearly choked in all her life. “While you’re refreshing yourself,” said the Queen, “I’ll just take the measurements.” And she took a ribbon out of her pocket, marked in inches, and began measuring the ground, and sticking little pegs in here and there. “At the end of two yards,” she said, putting in a peg to mark the distance, “I shall give you your directions—have another biscuit?” “No, thank you,” said Alice: “one’s quite enough!” “Thirst quenched, I hope?” said the Queen.",
+  "text": "I’d far better help you, hadn’t I?” But the King took no notice of the question: it was quite clear that he could neither hear her nor see her. So Alice picked him up very gently, and lifted him across more slowly than she had lifted the Queen, that she mightn’t take his breath away: but, before she put him on the table, she thought she might as well dust him a little, he was so covered with ashes. She said afterwards that she had never seen in all her life such a face as the King made, when he found himself held in the air by an invisible hand, and being dusted: he was far too much astonished to cry out, but his eyes and his mouth went on getting larger and larger, and rounder and rounder, till her hand shook so with laughing that she nearly let him drop upon the floor.",
   "words": [
     {
-      "word": "biscuit",
+      "word": "lifted",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "measurements",
+      "word": "invisible",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

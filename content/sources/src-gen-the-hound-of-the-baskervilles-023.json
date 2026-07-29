@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-023",
+  "pool": "sourced",
+  "text": "“Then get your revolver and put on your boots. The sooner we start the better, as the fellow may put out his light and be off.” In five minutes we were outside the door, starting upon our expedition. We hurried through the dark shrubbery, amid the dull moaning of the autumn wind and the rustle of the falling leaves. The night air was heavy with the smell of damp and decay. Now and again the moon peeped out for an instant, but clouds were driving over the face of the sky, and just as we came out on the moor a thin rain began to fall.",
+  "words": [
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,12 +1,12 @@
 {
   "id": "src-gen-peter-pan-006",
   "pool": "sourced",
-  "text": "“He is the worst of them all. He is the only man of whom Barbecue was afraid.” “That’s him,” said Peter. “What is he like? Is he big?” “He is not so big as he was.” “How do you mean?” “I cut off a bit of him.” “You!” “Yes, me,” said Peter sharply. “I wasn’t meaning to be disrespectful.” “Oh, all right.” “But, I say, what bit?” “His right hand.” “Then he can’t fight now?” “Oh, can’t he just!” “Left-hander?” “He has an iron hook instead of a right hand, and he claws with it.” “Claws!” “I say, John,” said Peter.",
+  "text": "“You’re dreadfully ignorant.” “No, I’m not.” But she was exulting in his ignorance. “I shall sew it on for you, my little man,” she said, though he was tall as herself, and she got out her housewife, and sewed the shadow on to Peter’s foot. “I daresay it will hurt a little,” she warned him. “Oh, I shan’t cry,” said Peter, who was already of the opinion that he had never cried in his life. And he clenched his teeth and did not cry, and soon his shadow was behaving properly, though still a little creased.",
   "words": [
     {
-      "word": "sharply",
+      "word": "ignorant",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

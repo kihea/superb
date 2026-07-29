@@ -1,16 +1,10 @@
 {
   "id": "src-gen-sense-and-sensibility-011",
   "pool": "sourced",
-  "text": "And so I shall always say, my dear, you may depend on it. I have no notion of men's going on in this way; and if ever I meet him again, I will give him such a dressing as he has not had this many a day. But there is one comfort, my dear Miss Marianne--he is not the only young man in the world worth having; and with your pretty face you will never want admirers. Well, poor thing! I won't disturb her any longer, for she had better have her cry out at once and have done with.",
+  "text": "You are very right in supposing how my money would be spent; some of it, at least--my loose cash--would certainly be employed in improving my collection of music and books.\" \"And the bulk of your fortune would be laid out in annuities on the authors or their heirs.\" \"No, Edward, I should have something else to do with it.\" \"Perhaps, then, you would bestow it as a reward on that person who wrote the ablest defence of your favourite maxim, that no one can ever be in love more than once in their life--for your opinion on that point is unchanged, I presume?\" \"Undoubtedly.",
   "words": [
     {
-      "word": "notion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "admirers",
+      "word": "presume",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

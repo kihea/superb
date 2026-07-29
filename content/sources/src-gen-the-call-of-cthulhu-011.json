@@ -1,46 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-011",
   "pool": "sourced",
-  "text": "The time would be easy to know, for then mankind would have become as the Great Old Ones; free and wild and beyond good and evil, with laws and morals thrown aside and all men shouting and killing and reveling in joy. Then the liberated Old Ones would teach them new ways to shout and kill and revel and enjoy themselves, and all the earth would flame with a holocaust of ecstasy and freedom. Meanwhile the cult, by appropriate rites, must keep alive the memory of those ancient ways and shadow forth the prophecy of their return. In the elder time chosen men had talked with the entombed Old Ones in dreams, but then something had happened. The great stone city R'lyeh, with its monoliths and sepulchers, had sunk beneath the waves; and the deep waters, full of the one primal mystery through which not even thought can pass, had cut off the spectral intercourse.",
+  "text": "At length the squatter settlement, a miserable huddle of huts, hove in sight; and hysterical dwellers ran out to cluster around the group of bobbing lanterns. The muffled beat of tom-toms was now faintly audible far, far ahead; and a curdling shriek came at infrequent intervals when the wind shifted. A reddish glare, too, seemed to filter through the pale undergrowth beyond endless avenues of forest night. Reluctant even to be left alone again, each one of the cowed squatters refused point-blank to advance another inch toward the scene of unholy worship, so Inspector Legrasse and his nineteen colleagues plunged on unguided into black arcades of horror that none of them had ever trod before. The region now entered by the police was one of traditionally evil repute, substantially unknown and untraversed by white men.",
   "words": [
     {
-      "word": "shouting",
+      "word": "cluster",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shout",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cult",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rites",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "elder",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sunk",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "primal",
+      "word": "blank",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

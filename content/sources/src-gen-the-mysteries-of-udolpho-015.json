@@ -1,58 +1,16 @@
 {
   "id": "src-gen-the-mysteries-of-udolpho-015",
   "pool": "sourced",
-  "text": "Borne on the gale, thou com’st to me; O! welcome, welcome to my home! In lily’s cell we’ll live in glee, Together o’er the mountains roam! When Lady Blanche returned to the château, instead of going to the apartment of the Countess, she amused herself with wandering over that part of the edifice, which she had not yet examined, of which the most ancient first attracted her curiosity; for, though what she had seen of the modern was gay and elegant, there was something in the former more interesting to her imagination. Having passed up the great staircase, and through the oak gallery, she entered upon a long suite of chambers, whose walls were either hung with tapestry, or wainscoted with cedar, the furniture of which looked almost as ancient as the rooms themselves; the spacious fire-places, where no mark of social cheer remained, presented an image of cold desolation; and the whole suite had so much the air of neglect and desertion, that it seemed, as if the venerable persons, whose portraits hung upon the walls, had been the last to inhabit them.",
+  "text": "As she leaned from the corridor, over the staircase, and her eyes wandered round, she again observed, with wonder, the vast strength of the walls, now somewhat decayed, and the pillars of solid marble, that rose from the hall, and supported the roof. A servant now appeared with Annette, and conducted Emily to her chamber, which was in a remote part of the castle, and at the very end of the corridor, from whence the suite of apartments opened, through which they had been wandering. The lonely aspect of her room made Emily unwilling that Annette should leave her immediately, and the dampness of it chilled her with more than fear. She begged Caterina, the servant of the castle, to bring some wood and light a fire. “Aye, lady, it’s many a year since a fire was lighted here,” said Caterina.",
   "words": [
     {
-      "word": "lily",
+      "word": "corridor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "glee",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "amused",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "examined",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chambers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tapestry",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cheer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "neglect",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "inhabit",
+      "word": "lighted",
       "signals": [
         "gloss-overlap"
       ]
@@ -63,7 +21,7 @@
     "author": "Ann Radcliffe",
     "year": 1794,
     "source": "Project Gutenberg #3268",
-    "url": "https://www.gutenberg.org/ebooks/3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

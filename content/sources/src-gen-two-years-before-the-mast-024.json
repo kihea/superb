@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-two-years-before-the-mast-024",
+  "pool": "sourced",
+  "text": "From this, if a man comes within an ace of breaking his neck and escapes, it is made a joke of; and no notice must be taken of a bruise or cut; and any expression of pity, or any show of attention, would look sisterly, and unbecoming a man who has to face the rough and tumble of such a life. From this, too, the sick are neglected at sea, and whatever sailors may be ashore, a sick man finds little sympathy or attention, forward or aft. A man, too, can have nothing peculiar or sacred on board ship; for all the nicer feelings they take pride in disregarding, both in themselves and others. A thin-skinned man could not live an hour on ship-board. One would be torn raw unless he had the hide of an ox.",
+  "words": [
+    {
+      "word": "bruise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ashore",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

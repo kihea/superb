@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-invisible-man-007",
   "pool": "sourced",
-  "text": "Mr. Bunting flushed slightly and brought his face nearer, apparently finding some difficulty with his glasses. Suddenly he became aware of a strange feeling at the nape of his neck. He tried to raise his head, and encountered an immovable resistance. The feeling was a curious pressure, the grip of a heavy, firm hand, and it bore his chin irresistibly to the table. “Don’t move, little men,” whispered a voice, “or I’ll brain you both!” He looked into the face of Cuss, close to his own, and each saw a horrified reflection of his own sickly astonishment.",
+  "text": "The bandages excited his professional interest, the report of the thousand and one bottles aroused his jealous regard. All through April and May he coveted an opportunity of talking to the stranger, and at last, towards Whitsuntide, he could stand it no longer, but hit upon the subscription-list for a village nurse as an excuse. He was surprised to find that Mr. Hall did not know his guest’s name. “He give a name,” said Mrs. Hall—an assertion which was quite unfounded—“but I didn’t rightly hear it.” She thought it seemed so silly not to know the man’s name. Cuss rapped at the parlour door and entered.",
   "words": [
     {
-      "word": "flushed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grip",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "whispered",
+      "word": "aroused",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

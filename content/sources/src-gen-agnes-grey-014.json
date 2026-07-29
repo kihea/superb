@@ -1,10 +1,28 @@
 {
   "id": "src-gen-agnes-grey-014",
   "pool": "sourced",
-  "text": "By this time the carriage was ready, and the footman was waiting, with an open umbrella, to escort Miss Murray through the churchyard. I was about to follow; but Mr. Weston had an umbrella too, and offered me the benefit of its shelter, for it was raining heavily. “No, thank you, I don’t mind the rain,” I said. I always lacked common sense when taken by surprise. “But you don’t like it, I suppose?—an umbrella will do you no harm at any rate,” he replied, with a smile that showed he was not offended; as a man of worse temper or less penetration would have been at such a refusal of his aid.",
+  "text": "I now flattered myself I was going to see something in the world: Mr. Murray’s residence was near a large town, and not in a manufacturing district, where the people had nothing to do but to make money; his rank from what I could gather, appeared to be higher than that of Mr. Bloomfield; and, doubtless, he was one of those genuine thoroughbred gentry my mother spoke of, who would treat his governess with due consideration as a respectable well-educated lady, the instructor and guide of his children, and not a mere upper servant. Then, my pupils being older, would be more rational, more teachable, and less troublesome than the last; they would be less confined to the schoolroom, and not require that constant labour and incessant watching; and, finally, bright visions mingled with my hopes, with which the care of children and the mere duties of a governess had little or nothing to do.",
   "words": [
     {
-      "word": "umbrella",
+      "word": "flattered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "instructor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

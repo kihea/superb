@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-040",
+  "pool": "sourced",
+  "text": "Slowly, amidst the distorted horrors of that indescribable scene, she began to churn the lethal waters; whilst on the masonry of that charnel shore that was not of earth the titan Thing from the stars slavered and gibbered like Polypheme cursing the fleeing ship of Odysseus. Then, bolder than the storied Cyclops, great Cthulhu slid greasily into the water and began to pursue with vast wave-raising strokes of cosmic potency. Briden looked back and went mad, laughing shrilly as he kept on laughing at intervals till death found him one night in the cabin whilst Johansen was wandering deliriously. But Johansen had not given out yet. Knowing that the Thing could surely overtake the Alert until steam was fully up, he resolved on a desperate chance; and, setting the engine for full speed, ran lightning-like on deck and reversed the wheel.",
+  "words": [
+    {
+      "word": "lethal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cursing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fleeing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

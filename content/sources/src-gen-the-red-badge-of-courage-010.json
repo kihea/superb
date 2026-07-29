@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-010",
   "pool": "sourced",
-  "text": "The commands to make way had the ring of a great importance in them. The men were going forward to the heart of the din. They were to confront the eager rush of the enemy. They felt the pride of their onward movement when the remainder of the army seemed trying to dribble down this road. They tumbled teams about with a fine feeling that it was no matter so long as their column got to the front in time.",
+  "text": "The youth shot a swift glance along the blue ranks of the regiment. The profiles were motionless, carven; and afterward he remembered that the color sergeant was standing with his legs apart, as if he expected to be pushed to the ground. The following throng went whirling around the flank. Here and there were officers carried along on the stream like exasperated chips. They were striking about them with their swords and with their left fists, punching every head they could reach.",
   "words": [
     {
-      "word": "din",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "onward",
+      "word": "sergeant",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

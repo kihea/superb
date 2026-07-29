@@ -1,42 +1,30 @@
 {
   "id": "src-gen-walden-009",
   "pool": "sourced",
-  "text": "Ancient poetry and mythology suggest, at least, that husbandry was once a sacred art; but it is pursued with irreverent haste and heedlessness by us, our object being to have large farms and large crops merely. We have no festival, nor procession, nor ceremony, not excepting our Cattle-shows and so called Thanksgivings, by which the farmer expresses a sense of the sacredness of his calling, or is reminded of its sacred origin. It is the premium and the feast which tempt him. He sacrifices not to Ceres and the Terrestrial Jove, but to the infernal Plutus rather. By avarice and selfishness, and a grovelling habit, from which none of us is free, of regarding the soil as property, or the means of acquiring property chiefly, the landscape is deformed, husbandry is degraded with us, and the farmer leads the meanest of lives.",
+  "text": "To speak critically, I never received more than one or two letters in my life—I wrote this some years ago—that were worth the postage. The penny-post is, commonly, an institution through which you seriously offer a man that penny for his thoughts which is so often safely offered in jest. And I am sure that I never read any memorable news in a newspaper. If we read of one man robbed, or murdered, or killed by accident, or one house burned, or one vessel wrecked, or one steamboat blown up, or one cow run over on the Western Railroad, or one mad dog killed, or one lot of grasshoppers in the winter,—we never need read of another. One is enough.",
   "words": [
     {
-      "word": "mythology",
+      "word": "postage",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "farms",
+      "word": "penny",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "farmer",
+      "word": "wrecked",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "feast",
+      "word": "cow",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sacrifices",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chiefly",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -45,7 +33,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

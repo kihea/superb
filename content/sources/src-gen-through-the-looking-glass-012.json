@@ -1,10 +1,22 @@
 {
   "id": "src-gen-through-the-looking-glass-012",
   "pool": "sourced",
-  "text": "“That’s what you call a History of England, that is. Now, take a good look at me! I’m one that has spoken to a King, I am: mayhap you’ll never see such another: and to show you I’m not proud, you may shake hands with me!” And he grinned almost from ear to ear, as he leant forwards (and as nearly as possible fell off the wall in doing so) and offered Alice his hand. She watched him a little anxiously as she took it. “If he smiled much more, the ends of his mouth might meet behind,” she thought: “and then I don’t know what would happen to his head!",
+  "text": "What she really wanted to know was, whether it could sting or not, but she thought this wouldn’t be quite a civil question to ask. “What, then you don’t—” the little voice began, when it was drowned by a shrill scream from the engine, and everybody jumped up in alarm, Alice among the rest. The Horse, who had put his head out of the window, quietly drew it in and said, “It’s only a brook we have to jump over.” Everybody seemed satisfied with this, though Alice felt a little nervous at the idea of trains jumping at all. “However, it’ll take us into the Fourth Square, that’s some comfort!” she said to herself. In another moment she felt the carriage rise straight up into the air, and in her fright she caught at the thing nearest to her hand, which happened to be the Goat’s beard.",
   "words": [
     {
-      "word": "smiled",
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

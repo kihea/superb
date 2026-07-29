@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-031",
+  "pool": "sourced",
+  "text": "“Is that your invention too?” The Knight looked down proudly at his helmet, which hung from the saddle. “Yes,” he said, “but I’ve invented a better one than that—like a sugar loaf. When I used to wear it, if I fell off the horse, it always touched the ground directly. So I had a very little way to fall, you see—But there was the danger of falling into it, to be sure. That happened to me once—and the worst of it was, before I could get out again, the other White Knight came and put it on.",
+  "words": [
+    {
+      "word": "invention",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

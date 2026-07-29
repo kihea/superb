@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-white-fang-025",
+  "pool": "sourced",
+  "text": "Bitter experiences these, which, perforce, he swallowed, calling upon all his wisdom to cope with them. In the old days he would have sprung upon White Fang in a fury of righteous wrath. But now his waning powers would not permit such a course. He bristled fiercely and looked ominously across the shin-bone at White Fang. And White Fang, resurrecting quite a deal of the old awe, seemed to wilt and to shrink in upon himself and grow small, as he cast about in his mind for a way to beat a retreat not too inglorious.",
+  "words": [
+    {
+      "word": "cope",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

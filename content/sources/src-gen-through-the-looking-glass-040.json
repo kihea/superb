@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-040",
+  "pool": "sourced",
+  "text": "At this moment she heard a hoarse laugh at her side, and turned to see what was the matter with the White Queen; but, instead of the Queen, there was the leg of mutton sitting in the chair. “Here I am!” cried a voice from the soup tureen, and Alice turned again, just in time to see the Queen’s broad good-natured face grinning at her for a moment over the edge of the tureen, before she disappeared into the soup. There was not a moment to be lost. Already several of the guests were lying down in the dishes, and the soup ladle was walking up the table towards Alice’s chair, and beckoning to her impatiently to get out of its way. “I can’t stand this any longer!” she cried as she jumped up and seized the table-cloth with both hands: one good pull, and plates, dishes, guests, and candles came crashing down together in a heap on the floor.",
+  "words": [
+    {
+      "word": "soup",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grinning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

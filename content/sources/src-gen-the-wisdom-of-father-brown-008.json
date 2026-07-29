@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-008",
   "pool": "sourced",
-  "text": "But I think,” he went on softly and reflectively, “I think you Americans are too modest. I think you idealize the English aristocracy--even in assuming it to be so aristocratic. You see a good-looking Englishman in evening-dress; you know he’s in the House of Lords; and you fancy he has a father. You don’t allow for our national buoyancy and uplift. Many of our most influential noblemen have not only risen recently, but--” “Oh, stop it!” cried Greywood Usher, wringing one lean hand in impatience against a shade of irony in the other’s face.",
+  "text": "The priest alone remained below, leaning against the wall, with his back to the whole theatre of events, and looking wistfully across to the park palings and the twinkling, twilit trees. The Duke, however stimulated, had the instincts of an aristocrat, and desired rather to stare at the house than to spy on it; but Flambeau, who had the instincts of a burglar (and a detective), had already swung himself from the wall into the fork of a straggling tree from which he could crawl quite close to the only illuminated window in the back of the high dark house. A red blind had been pulled down over the light, but pulled crookedly, so that it gaped on one side, and by risking his neck along a branch that looked as treacherous as a twig, Flambeau could just see Colonel Dubosc walking about in a brilliantly-lighted and luxurious bedroom. But close as Flambeau was to the house, he heard the words of his colleagues by the wall, and repeated them in a low voice. “Yes, they will meet now after all!” “They will never meet,” said Father Brown.",
   "words": [
     {
-      "word": "aristocratic",
+      "word": "crawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illuminated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

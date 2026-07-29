@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-pride-and-prejudice-034",
+  "pool": "sourced",
+  "text": "We were married, you know, at St. Clement’s, because Wickham’s lodgings were in that parish. And it was settled that we should all be there by eleven o’clock. My uncle and aunt and I were to go together; and the others were to meet us at the church. “Well, Monday morning came, and I was in such a fuss! I was so afraid, you know, that something would happen to put it off, and then I should have gone quite distracted.",
+  "words": [
+    {
+      "word": "parish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fuss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

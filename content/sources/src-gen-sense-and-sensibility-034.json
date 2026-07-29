@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-sense-and-sensibility-034",
+  "pool": "sourced",
+  "text": "The possibility of a relapse would of course, in some moments, occur to remind her of what anxiety was; but when she saw, on her frequent and minute examination, that every symptom of recovery continued, and saw Marianne at six o'clock sink into a quiet, steady, and to all appearance comfortable, sleep, she silenced every doubt. The time was now drawing on, when Colonel Brandon might be expected back. At ten o'clock, she trusted, or at least not much later her mother would be relieved from the dreadful suspense in which she must now be travelling towards them. The Colonel, too!--perhaps scarcely less an object of pity!",
+  "words": [
+    {
+      "word": "relapse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "symptom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "o'clock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

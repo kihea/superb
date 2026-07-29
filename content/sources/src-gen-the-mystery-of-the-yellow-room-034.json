@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-034",
+  "pool": "sourced",
+  "text": "The ordinary trains were so full that special trains had to be made up. The article in the “Epoque” had so excited the populace that discussion was rife everywhere even to the verge of blows. Partisans of Rouletabille fought with the supporters of Frédéric Larsan. Curiously enough the excitement was due less to the fact that an innocent man was in danger of a wrongful conviction than to the interest taken in their own ideas as to the Mystery of The Yellow Room. Each had his explanation to which each held fast.",
+  "words": [
+    {
+      "word": "excitement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conviction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

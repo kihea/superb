@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-034",
+  "pool": "sourced",
+  "text": "Yes, far in the distance was an oasis ... an oasis with limpid water, which reflected the iron trees! ... Tush, it was the scene of the mirage ... I recognized it at once ... the worst of the three! ... No one had been able to fight against it ... no one... I did my utmost to keep my head AND NOT TO HOPE FOR WATER, because I knew that, if a man hoped for water, the water that reflected the iron tree, and if, after hoping for water, he struck against the mirror, then there was only one thing for him to do: to hang himself on the iron tree!",
+  "words": [
+    {
+      "word": "oasis",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mirage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

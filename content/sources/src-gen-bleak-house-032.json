@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-bleak-house-032",
+  "pool": "sourced",
+  "text": "In my professional duty I shall not be wanting, sir, if I know it. I may, with the best intentions, be wanting in it without knowing it; but not if I know it, sir.” Mr. Woodcourt again mentioned the address. “Give me leave, sir,” said Mr. Vholes. “Bear with me for a moment. Sir, Mr. C. is playing for a considerable stake, and cannot play without—need I say what?” “Money, I presume?” “Sir,” said Mr. Vholes, “to be honest with you (honesty being my golden rule, whether I gain by it or lose, and I find that I generally lose), money is the word.",
+  "words": [
+    {
+      "word": "presume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "honesty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

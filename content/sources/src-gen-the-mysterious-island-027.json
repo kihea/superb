@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-027",
+  "pool": "sourced",
+  "text": "Copper was absolutely wanting to the engineer, who, notwithstanding all his researches, had never been able to find any trace of it in Lincoln Island, and was therefore obliged to do without it. Retort coal, that is to say, the hard graphite which is found in the retorts of gas manufactories, after the coal has been dehydrogenized, could have been obtained, but it would have been necessary to establish a special apparatus, involving great labor. As to zinc, it may be remembered that the case found at Flotsam Point was lined with this metal, which could not be better utilized than for this purpose. Cyrus Harding, after mature consideration, decided to manufacture a very simple battery, resembling as nearly as possible that invented by Becquerel in 1820, and in which zinc only is employed. The other substances, azotic acid and potash, were all at his disposal.",
+  "words": [
+    {
+      "word": "obliged",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "zinc",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

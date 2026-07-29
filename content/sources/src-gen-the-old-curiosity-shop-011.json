@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-old-curiosity-shop-011",
   "pool": "sourced",
-  "text": "‘The old man and his grandchild who travelled with you--where are they? It will be worth your while to speak out, I assure you; much better worth your while than you believe. They left you, you say--at those races, as I understand. They have been traced to that place, and there lost sight of. Have you no clue, can you suggest no clue, to their recovery?’ ‘Did I always say, Thomas,’ cried Short, turning with a look of amazement to his friend, ‘that there was sure to be an inquiry after them two travellers?’ ‘YOU said!’ returned Mr Codlin.",
+  "text": "‘All alone?’ said Mr Codlin, putting down his burden and wiping his forehead. ‘All alone as yet,’ rejoined the landlord, glancing at the sky, ‘but we shall have more company to-night I expect. Here one of you boys, carry that show into the barn. Make haste in out of the wet, Tom; when it came on to rain I told ‘em to make the fire up, and there’s a glorious blaze in the kitchen, I can tell you.’ Mr Codlin followed with a willing mind, and soon found that the landlord had not commended his preparations without good reason. A mighty fire was blazing on the hearth and roaring up the wide chimney with a cheerful sound, which a large iron cauldron, bubbling and simmering in the heat, lent its pleasant aid to swell.",
   "words": [
     {
-      "word": "travelled",
+      "word": "barn",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "assure",
+      "word": "blaze",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

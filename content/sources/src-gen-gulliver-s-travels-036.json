@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-gulliver-s-travels-036",
+  "pool": "sourced",
+  "text": "But he now found he had been mistaken, and that the dissensions of those brutes in his country were owing to the same cause with ours, as I had described them. For if,” said he, “you throw among five Yahoos as much food as would be sufficient for fifty, they will, instead of eating peaceably, fall together by the ears, each single one impatient to have all to itself; and therefore a servant was usually employed to stand by while they were feeding abroad, and those kept at home were tied at a distance from each other: that if a cow died of age or accident, before a Houyhnhnm could secure it for his own Yahoos, those in the neighbourhood would come in herds to seize it, and then would ensue such a battle as I had described, with terrible wounds made by their claws on both sides, although they seldom were able to kill one another, for want of such convenient instruments of death as we had invented.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "invented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

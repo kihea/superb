@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-wuthering-heights-029",
+  "pool": "sourced",
+  "text": "“Silence!” I interrupted. “We’ll not begin with your little notes. Get into bed.” She threw at me a very naughty look, so naughty that I would not kiss her good-night at first: I covered her up, and shut her door, in great displeasure; but, repenting half-way, I returned softly, and lo! there was Miss standing at the table with a bit of blank paper before her and a pencil in her hand, which she guiltily slipped out of sight on my entrance. “You’ll get nobody to take that, Catherine,” I said, “if you write it; and at present I shall put out your candle.” I set the extinguisher on the flame, receiving as I did so a slap on my hand and a petulant “cross thing!” I then quitted her again, and she drew the bolt in one of her worst, most peevish humours.",
+  "words": [
+    {
+      "word": "slap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bolt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

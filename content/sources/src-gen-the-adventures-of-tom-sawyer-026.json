@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-026",
+  "pool": "sourced",
+  "text": "Now he found out a new thing—namely, that to promise not to do a thing is the surest way in the world to make a body want to go and do that very thing. Tom soon found himself tormented with a desire to drink and swear; the desire grew to be so intense that nothing but the hope of a chance to display himself in his red sash kept him from withdrawing from the order. Fourth of July was coming; but he soon gave that up—gave it up before he had worn his shackles over forty-eight hours—and fixed his hopes upon old Judge Frazer, justice of the peace, who was apparently on his deathbed and would have a big public funeral, since he was so high an official. During three days Tom was deeply concerned about the Judge’s condition and hungry for news of it. Sometimes his hopes ran high—so high that he would venture to get out his regalia and practise before the looking-glass.",
+  "words": [
+    {
+      "word": "sash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "practise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

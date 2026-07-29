@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-great-god-pan-030",
+  "pool": "sourced",
+  "text": "“Well, Villiers, have you made any discoveries in the last three weeks?” “I think so; I have here one or two memoranda which struck me as singular, and there is a statement to which I shall call your attention.” “And these documents relate to Mrs. Beaumont? It was really Crashaw whom you saw that night standing on the doorstep of the house in Ashley Street?” “As to that matter my belief remains unchanged, but neither my inquiries nor their results have any special relation to Crashaw. But my investigations have had a strange issue. I have found out who Mrs. Beaumont is!” “Who is she? In what way do you mean?” “I mean that you and I know her better under another name.” “What name is that?” “Herbert.” “Herbert!” Austin repeated the word, dazed with astonishment.",
+  "words": [
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-mysterious-island-021",
+  "pool": "sourced",
+  "text": "“It is a ‘cycas revoluta,’ of which I have a picture in our dictionary of Natural History!” said Herbert. “But I can’t see any fruit on this shrub!” observed his companion. “No, captain,” replied Herbert; “but its stem contains a flour with which nature has provided us all ready ground.” “It is, then, the bread-tree?” “Yes, the bread-tree.” “Well, my boy,” replied the engineer, “this is a valuable discovery, since our wheat harvest is not yet ripe; I hope that you are not mistaken!” Herbert was not mistaken: he broke the stem of a cycas, which was composed of a glandulous tissue, containing a quantity of floury pith, traversed with woody fiber, separated by rings of the same substance, arranged concentrically. With this fecula was mingled a mucilaginous juice of disagreeable flavor, but which it would be easy to get rid of by pressure. This cellular substance was regular flour of a superior quality, extremely nourishing; its exportation was formerly forbidden by the Japanese laws.",
+  "words": [
+    {
+      "word": "dictionary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shrub",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wheat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ripe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flavor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

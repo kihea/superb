@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-030",
+  "pool": "sourced",
+  "text": "The train, on leaving Sacramento, and passing the junction, Roclin, Auburn, and Colfax, entered the range of the Sierra Nevada. ’Cisco was reached at seven in the morning; and an hour later the dormitory was transformed into an ordinary car, and the travellers could observe the picturesque beauties of the mountain region through which they were steaming. The railway track wound in and out among the passes, now approaching the mountain-sides, now suspended over precipices, avoiding abrupt angles by bold curves, plunging into narrow defiles, which seemed to have no outlet. The locomotive, its great funnel emitting a weird light, with its sharp bell, and its cow-catcher extended like a spur, mingled its shrieks and bellowings with the noise of torrents and cascades, and twined its smoke among the branches of the gigantic pines. There were few or no bridges or tunnels on the route.",
+  "words": [
+    {
+      "word": "locomotive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "funnel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

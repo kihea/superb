@@ -1,10 +1,28 @@
 {
   "id": "src-gen-little-women-004",
   "pool": "sourced",
-  "text": "“She means vampire, not seaweed, but it doesn’t matter. It’s too warm to be particular about one’s parts of speech,” murmured Jo. “What shall you do all your vacation?” asked Amy, changing the subject with tact. “I shall lie abed late, and do nothing,” replied Meg, from the depths of the rocking chair. “I’ve been routed up early all winter and had to spend my days working for other people, so now I’m going to rest and revel to my heart’s content.” “No,” said Jo, “that dozy way wouldn’t suit me.",
+  "text": "I’m sure it’s the least I can do when you have been so kind, lending me things and helping me get ready,” said Meg, glancing round the room at the very simple outfit, which seemed nearly perfect in their eyes. “What did Mother give you out of the treasure box?” asked Amy, who had not been present at the opening of a certain cedar chest in which Mrs. March kept a few relics of past splendor, as gifts for her girls when the proper time came. “A pair of silk stockings, that pretty carved fan, and a lovely blue sash. I wanted the violet silk, but there isn’t time to make it over, so I must be contented with my old tarlaton.” “It will look nice over my new muslin skirt, and the sash will set it off beautifully. I wish I hadn’t smashed my coral bracelet, for you might have had it,” said Jo, who loved to give and lend, but whose possessions were usually too dilapidated to be of much use.",
   "words": [
     {
-      "word": "vampire",
+      "word": "lending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treasure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skirt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lend",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-sea-wolf-029",
+  "pool": "sourced",
+  "text": "While all his ship was getting drunk as fast as it could, he remained sober. Not a drop of liquor passed his lips. He did not dare it under the circumstances, for he had only Louis and me to depend upon, and Louis was even now at the wheel. We were sailing on through the fog without a look-out and without lights. That Wolf Larsen had turned the liquor loose among his men surprised me, but he evidently knew their psychology and the best method of cementing in cordiality, what had begun in bloodshed.",
+  "words": [
+    {
+      "word": "sober",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

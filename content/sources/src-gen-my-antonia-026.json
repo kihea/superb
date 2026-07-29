@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-my-antonia-026",
+  "pool": "sourced",
+  "text": "Lena Lingard came across the stubble barefoot, in a short skirt, with a curved reaping-hook in her hand, and she was flushed like the dawn, with a kind of luminous rosiness all about her. She sat down beside me, turned to me with a soft sigh and said, ‘Now they are all gone, and I can kiss you as much as I like.’ I used to wish I could have this flattering dream about Ántonia, but I never did. XIII I noticed one afternoon that grandmother had been crying. Her feet seemed to drag as she moved about the house, and I got up from the table where I was studying and went to her, asking if she didn’t feel well, and if I couldn’t help her with her work. ‘No, thank you, Jim.",
+  "words": [
+    {
+      "word": "barefoot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flattering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

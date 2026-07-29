@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-jungle-book-021",
+  "pool": "sourced",
+  "text": "“Well done for a yearling!” said the Sea Lion, who could appreciate good swimming. “I suppose it is rather awful from your way of looking at it, but if you seals will come here year after year, of course the men get to know of it, and unless you can find an island where no men ever come you will always be driven.” “Isn’t there any such island?” began Kotick. “I’ve followed the poltoos for twenty years, and I can’t say I’ve found it yet. But look here--you seem to have a fondness for talking to your betters--suppose you go to Walrus Islet and talk to Sea Vitch. He may know something.",
+  "words": [
+    {
+      "word": "fondness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

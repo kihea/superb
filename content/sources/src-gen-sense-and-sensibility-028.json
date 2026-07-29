@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sense-and-sensibility-028",
+  "pool": "sourced",
+  "text": "The party, like other musical parties, comprehended a great many people who had real taste for the performance, and a great many more who had none at all; and the performers themselves were, as usual, in their own estimation, and that of their immediate friends, the first private performers in England. As Elinor was neither musical, nor affecting to be so, she made no scruple of turning her eyes from the grand pianoforte, whenever it suited her, and unrestrained even by the presence of a harp, and violoncello, would fix them at pleasure on any other object in the room. In one of these excursive glances she perceived among a group of young men, the very he, who had given them a lecture on toothpick-cases at Gray's. She perceived him soon afterwards looking at herself, and speaking familiarly to her brother; and had just determined to find out his name from the latter, when they both came towards her, and Mr. Dashwood introduced him to her as Mr. Robert Ferrars.",
+  "words": [
+    {
+      "word": "harp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lecture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

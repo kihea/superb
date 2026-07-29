@@ -1,10 +1,16 @@
 {
   "id": "src-gen-notes-from-underground-017",
   "pool": "sourced",
-  "text": "I was exhausted, shattered, in bewilderment. But behind the bewilderment the truth was already gleaming. The loathsome truth. VIII It was some time, however, before I consented to recognise that truth. Waking up in the morning after some hours of heavy, leaden sleep, and immediately realising all that had happened on the previous day, I was positively amazed at my last night’s sentimentality with Liza, at all those “outcries of horror and pity.” “To think of having such an attack of womanish hysteria, pah!” I concluded.",
+  "text": "I was standing by the billiard-table and in my ignorance blocking up the way, and he wanted to pass; he took me by the shoulders and without a word—without a warning or explanation—moved me from where I was standing to another spot and passed by as though he had not noticed me. I could have forgiven blows, but I could not forgive his having moved me without noticing me. Devil knows what I would have given for a real regular quarrel—a more decent, a more literary one, so to speak. I had been treated like a fly. This officer was over six foot, while I was a spindly little fellow.",
   "words": [
     {
-      "word": "recognise",
+      "word": "noticing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

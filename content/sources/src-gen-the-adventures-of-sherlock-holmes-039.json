@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-039",
+  "pool": "sourced",
+  "text": "After an hour or so, Mr. Rucastle suddenly remarked that it was time to commence the duties of the day, and that I might change my dress and go to little Edward in the nursery. “Two days later this same performance was gone through under exactly similar circumstances. Again I changed my dress, again I sat in the window, and again I laughed very heartily at the funny stories of which my employer had an immense répertoire, and which he told inimitably. Then he handed me a yellow-backed novel, and moving my chair a little sideways, that my own shadow might not fall upon the page, he begged me to read aloud to him. I read for about ten minutes, beginning in the heart of a chapter, and then suddenly, in the middle of a sentence, he ordered me to cease and to change my dress.",
+  "words": [
+    {
+      "word": "sideways",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,14 +1,8 @@
 {
   "id": "src-gen-the-invisible-man-014",
   "pool": "sourced",
-  "text": "And every dog that came in sight, with its pointing nose and curious sniffing, was a terror to me. “Then came men and boys running, first one and then others, and shouting as they ran. It was a fire. They ran in the direction of my lodging, and looking back down a street I saw a mass of black smoke streaming up above the roofs and telephone wires. It was my lodging burning; my clothes, my apparatus, all my resources indeed, except my cheque-book and the three volumes of memoranda that awaited me in Great Portland Street, were there.",
+  "text": "Mr. Huxter was stunned. Henfrey stopped to discover this, but Hall and the two labourers from the Tap rushed at once to the corner, shouting incoherent things, and saw Mr. Marvel vanishing by the corner of the church wall. They appear to have jumped to the impossible conclusion that this was the Invisible Man suddenly become visible, and set off at once along the lane in pursuit. But Hall had hardly run a dozen yards before he gave a loud shout of astonishment and went flying headlong sideways, clutching one of the labourers and bringing him to the ground. He had been charged just as one charges a man at football.",
   "words": [
-    {
-      "word": "sniffing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
     {
       "word": "shouting",
       "signals": [
@@ -16,7 +10,19 @@
       ]
     },
     {
-      "word": "volumes",
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sideways",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clutching",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-north-and-south-036",
+  "pool": "sourced",
+  "text": "Nature felt no change and was ever young. Mr. Bell knew something of what would be passing through her mind, and wisely and kindly held his tongue. They drove up to the Lennard Arms; half farm-house, half-inn, standing a little apart from the road, as much as to say, that the host did not so depend on the custom of travellers, as to have to court it by any obtrusiveness; they, rather, must seek him out. The house fronted the village green; and right before it stood an immemorial lime-tree benched all round, in some hidden recesses of whose leafy wealth hung the grim escutcheon of the Lennards. The door of the inn stood wide open, but there was no hospitable hurry to receive the travellers.",
+  "words": [
+    {
+      "word": "inn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "depend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

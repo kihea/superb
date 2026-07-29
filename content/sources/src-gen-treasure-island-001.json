@@ -1,10 +1,34 @@
 {
   "id": "src-gen-treasure-island-001",
   "pool": "sourced",
-  "text": "Well, then, you get on a horse, and go to--well, yes, I will!--to that eternal doctor swab, and tell him to pipe all hands--magistrates and sich--and he’ll lay ’em aboard at the Admiral Benbow--all old Flint’s crew, man and boy, all on ’em that’s left. I was first mate, I was, old Flint’s first mate, and I’m the on’y one as knows the place. He gave it me at Savannah, when he lay a-dying, like as if I was to now, you see. But you won’t peach unless they get the black spot on me, or unless you see that Black Dog again or a seafaring man with one leg, Jim--him above all.” “But what is the black spot, captain?” I asked. “That’s a summons, mate.",
+  "text": "What I should have done had all gone well I do not know. Probably I should have told the whole story to the doctor, for I was in mortal fear lest the captain should repent of his confessions and make an end of me. But as things fell out, my poor father died quite suddenly that evening, which put all other matters on one side. Our natural distress, the visits of the neighbours, the arranging of the funeral, and all the work of the inn to be carried on in the meanwhile kept me so busy that I had scarcely time to think of the captain, far less to be afraid of him. He got downstairs next morning, to be sure, and had his meals as usual, though he ate little and had more, I am afraid, than his usual supply of rum, for he helped himself out of the bar, scowling and blowing through his nose, and no one dared to cross him.",
   "words": [
     {
-      "word": "peach",
+      "word": "repent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distress",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "neighbours",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "scarcely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

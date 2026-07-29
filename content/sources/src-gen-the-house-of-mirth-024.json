@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-house-of-mirth-024",
+  "pool": "sourced",
+  "text": "“But things are not going as well as I expected,” Mrs. Fisher frankly admitted. “It’s all very well to say that every body with money can get into society; but it would be truer to say that NEARLY everybody can. And the London market is so glutted with new Americans that, to succeed there now, they must be either very clever or awfully queer. The Brys are neither. HE would get on well enough if she’d let him alone; they like his slang and his brag and his blunders.",
+  "words": [
+    {
+      "word": "clever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of Mirth",
+    "author": "Edith Wharton",
+    "year": 1905,
+    "source": "Project Gutenberg #284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

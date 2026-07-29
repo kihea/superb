@@ -1,18 +1,11 @@
 {
   "id": "src-gen-bleak-house-015",
   "pool": "sourced",
-  "text": "“Nor do I understand,” said he, “that any doubts tend towards you, my dear. Much suspicion may exist without that connexion.” “With the lawyer,” I returned. “But two other persons have come into my mind since I have been anxious. Then I told him all about Mr. Guppy, who I feared might have had his vague surmises when I little understood his meaning, but in whose silence after our last interview I expressed perfect confidence.” “Well,” said my guardian. “Then we may dismiss him for the present.",
+  "text": "I have known him do it,” says Grandfather Smallweed incautiously, “twenty times.” Incautiously, because his stricken better-half, who has been dozing over the fire for some time, is instantly aroused and jabbers “Twenty thousand pounds, twenty twenty-pound notes in a money-box, twenty guineas, twenty million twenty per cent, twenty—” and is then cut short by the flying cushion, which the visitor, to whom this singular experiment appears to be a novelty, snatches from her face as it crushes her in the usual manner. “You’re a brimstone idiot. You’re a scorpion—a brimstone scorpion! You’re a sweltering toad. You’re a chattering clattering broomstick witch that ought to be burnt!” gasps the old man, prostrate in his chair.",
   "words": [
     {
-      "word": "doubts",
+      "word": "burnt",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vague",
-      "signals": [
-        "definition-marker",
         "gloss-overlap"
       ]
     }
@@ -22,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1853,
     "source": "Project Gutenberg #1023",
-    "url": "https://www.gutenberg.org/ebooks/1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-two-years-before-the-mast-019",
   "pool": "sourced",
-  "text": "The same form is usually gone through in every case. In the first place, as to the previous good character of the party. Witnesses are brought from the town in which he resides, to testify to his good character, and to his unexceptionable conduct when on shore. They say that he is a good father, or husband, or son, or neighbor, and that they never saw in him any signs of a cruel or tyrannical disposition. I have even known evidence admitted to show the character he bore when a boy at school.",
+  "text": "The captain sent me, who was the only one of the crew that had ever been there before, to the top, to count the hides and pitch them down. There I stood again, as six months before, throwing off the hides, and watching them, pitching and scaling, to the bottom, while the men, dwarfed by the distance, were walking to and fro on the beach, carrying the hides, as they picked them up, to the distant boats, upon the tops of their heads. Two or three boat-loads were sent off, until, at last, all were thrown down, and the boats nearly loaded again; when we were delayed by a dozen or twenty hides which had lodged in the recesses of the hill, and which we could not reach by any missiles, as the general line of the side was exactly perpendicular, and these places were caved in, and could not be seen or reached from the top.",
   "words": [
     {
-      "word": "testify",
+      "word": "pitching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scaling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

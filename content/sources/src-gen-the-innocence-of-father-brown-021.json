@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-021",
+  "pool": "sourced",
+  "text": "Don’t you ever feel that about Eastern art? The colours are intoxicatingly lovely; but the shapes are mean and bad--deliberately mean and bad. I have seen wicked things in a Turkey carpet.” “Mon Dieu!” cried Flambeau, laughing. “They are letters and symbols in a language I don’t know; but I know they stand for evil words,” went on the priest, his voice growing lower and lower. “The lines go wrong on purpose--like serpents doubling to escape.” “What the devil are you talking about?” said the doctor with a loud laugh.",
+  "words": [
+    {
+      "word": "wicked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

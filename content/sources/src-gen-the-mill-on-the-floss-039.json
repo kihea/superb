@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-039",
+  "pool": "sourced",
+  "text": "While Mrs Pullet could do nothing but shake her head and cry, and wish that cousin Abbot had died, or any number of funerals had happened rather than this, which had never happened before, so that there was no knowing how to act, and Mrs Pullet could never enter St Ogg’s again, because “acquaintances” knew of it all, Mrs Glegg only hoped that Mrs Wooll, or any one else, would come to her with their false tales about her own niece, and she would know what to say to that ill-advised person! Again she had a scene of remonstrance with Tom, all the more severe in proportion to the greater strength of her present position. But Tom, like other immovable things, seemed only the more rigidly fixed under that attempt to shake him.",
+  "words": [
+    {
+      "word": "tales",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proportion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

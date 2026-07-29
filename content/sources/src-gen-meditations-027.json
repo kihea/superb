@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-meditations-027",
+  "pool": "sourced",
+  "text": "And what a matter of either grief or wonder is this, if he that is unlearned, do the deeds of one that is unlearned? Should not thou rather blame thyself, who, when upon very good grounds of reason, thou mightst have thought it very probable, that such a thing would by such a one be committed, didst not only not foresee it, but moreover dost wonder at it, that such a thing should be. But then especially, when thou dost find fault with either an unthankful, or a false man, must thou reflect upon thyself. For without all question, thou thyself art much in fault, if either of one that were of such a disposition, thou didst expect that he should be true unto thee: or when unto any thou didst a good turn, thou didst not there bound thy thoughts, as one that had obtained his end; nor didst not think that from the action itself thou hadst received a full reward of the good that thou hadst done. For what wouldst thou have more?",
+  "words": [
+    {
+      "word": "thou",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "probable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,24 +1,24 @@
 {
   "id": "src-gen-anna-karenina-017",
   "pool": "sourced",
-  "text": "The meeting was opened by the governor, who made a speech to the nobles, urging them to elect the public functionaries, not from regard for persons, but for the service and welfare of their fatherland, and hoping that the honorable nobility of the Kashinsky province would, as at all former elections, hold their duty as sacred, and vindicate the exalted confidence of the monarch. When he had finished with his speech, the governor walked out of the hall, and the noblemen noisily and eagerly—some even enthusiastically—followed him and thronged round him while he put on his fur coat and conversed amicably with the marshal of the province. Levin, anxious to see into everything and not to miss anything, stood there too in the crowd, and heard the governor say: “Please tell Marya Ivanovna my wife is very sorry she couldn’t come to the Home.” And thereupon the nobles in high good-humor sorted out their fur coats and all drove off to the cathedral. In the cathedral Levin, lifting his hand like the rest and repeating the words of the archdeacon, swore with most terrible oaths to do all the governor had hoped they would do.",
+  "text": "But he saw clearly now (his work on a book of agriculture, in which the chief element in husbandry was to have been the laborer, greatly assisted him in this) that the sort of farming he was carrying on was nothing but a cruel and stubborn struggle between him and the laborers, in which there was on one side—his side—a continual intense effort to change everything to a pattern he considered better; on the other side, the natural order of things. And in this struggle he saw that with immense expenditure of force on his side, and with no effort or even intention on the other side, all that was attained was that the work did not go to the liking of either side, and that splendid tools, splendid cattle and land were spoiled with no good to anyone. Worst of all, the energy expended on this work was not simply wasted. He could not help feeling now, since the meaning of this system had become clear to him, that the aim of his energy was a most unworthy one. In reality, what was the struggle about?",
   "words": [
     {
-      "word": "fur",
+      "word": "farming",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "marshal",
+      "word": "stubborn",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "repeating",
+      "word": "wasted",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -27,7 +27,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

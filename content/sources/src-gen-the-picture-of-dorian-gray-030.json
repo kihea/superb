@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-030",
+  "pool": "sourced",
+  "text": "No one was about. For a few seconds he stood bending over the balustrade and peering down into the black seething well of darkness. Then he took out the key and returned to the room, locking himself in as he did so. The thing was still seated in the chair, straining over the table with bowed head, and humped back, and long fantastic arms. Had it not been for the red jagged tear in the neck and the clotted black pool that was slowly widening on the table, one would have said that the man was simply asleep.",
+  "words": [
+    {
+      "word": "locking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "straining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

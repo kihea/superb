@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-031",
+  "pool": "sourced",
+  "text": "Could not you, sir, estimate their maximum?” “How, Conseil?” “By calculation; given the size of the vessel, which you know, sir, and consequently the quantity of air it contains, knowing also how much each man expends at a breath, and comparing these results with the fact that the Nautilus is obliged to go to the surface every twenty-four hours.” Conseil had not finished the sentence before I saw what he was driving at. “I understand,” said I; “but that calculation, though simple enough, can give but a very uncertain result.” “Never mind,” said Ned Land urgently. “Here it is, then,” said I. “In one hour each man consumes the oxygen contained in twenty gallons of air; and in twenty-four, that contained in 480 gallons. We must, therefore find how many times 480 gallons of air the Nautilus contains.” “Just so,” said Conseil.",
+  "words": [
+    {
+      "word": "consequently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

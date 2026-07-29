@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-cranford-027",
+  "pool": "sourced",
+  "text": "when I knew I had only two days’ journey more before me, I could not help it, ma’am—it might be idolatry, I cannot tell—but I was near one of the native temples, and I went into it with my baby to thank God for His great mercy; for it seemed to me that where others had prayed before to their God, in their joy or in their agony, was of itself a sacred place. And I got as servant to an invalid lady, who grew quite fond of my baby aboard-ship; and, in two years’ time, Sam earned his discharge, and came home to me, and to our child. Then he had to fix on a trade; but he knew of none; and once, once upon a time, he had learnt some tricks from an Indian juggler; so he set up conjuring, and it answered so well that he took Thomas to help him—as his man, you know, not as another conjuror, though Thomas has set it up now on his own hook.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

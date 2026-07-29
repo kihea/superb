@@ -1,10 +1,16 @@
 {
   "id": "src-gen-meditations-007",
   "pool": "sourced",
-  "text": "But if the latter be, then am not I religious in vain; then will I be quiet and patient, and put my trust in Him, who is the Governor of all. Whensoever by some present hard occurrences thou art constrained to be in some sort troubled and vexed, return unto thyself as soon as may be, and be not out of tune longer than thou must needs. For so shalt thou be the better able to keep thy part another time, and to maintain the harmony, if thou dost use thyself to this continually; once out, presently to have recourse unto it, and to begin again. If it were that thou hadst at one time both a stepmother, and a natural mother living, thou wouldst honour and respect her also; nevertheless to thine own natural mother would thy refuge, and recourse be continually. So let the court and thy philosophy be unto thee.",
+  "text": "As physicians and chirurgeons have always their instruments ready at hand for all sudden cures; so have thou always thy dogmata in a readiness for the knowledge of things, both divine and human: and whatsoever thou dost, even in the smallest things that thou dost, thou must ever remember that mutual relation, and connection that is between these two things divine, and things human. For without relation unto God, thou shalt never speed in any worldly actions; nor on the other side in any divine, without some respect had to things human.",
   "words": [
     {
-      "word": "stepmother",
+      "word": "readiness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "worldly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

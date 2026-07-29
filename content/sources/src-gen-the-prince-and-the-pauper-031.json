@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-031",
+  "pool": "sourced",
+  "text": "Next there was a deal of bustle and preparation, and much passing and repassing of officials through that part of the crowd that stood on the further side of the women; and whilst this proceeded a deep hush gradually fell upon the people. Now, by command, the masses parted and fell aside, and the King saw a spectacle that froze the marrow in his bones. Faggots had been piled about the two women, and a kneeling man was lighting them! The women bowed their heads, and covered their faces with their hands; the yellow flames began to climb upward among the snapping and crackling faggots, and wreaths of blue smoke to stream away on the wind; the clergyman lifted his hands and began a prayer--just then two young girls came flying through the great gate, uttering piercing screams, and threw themselves upon the women at the stake. Instantly they were torn away by the officers, and one of them was kept in a tight grip, but the other broke loose, saying she would die with her mother; and before she could be stopped she had flung her arms about her mother’s neck again.",
+  "words": [
+    {
+      "word": "masses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "marrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

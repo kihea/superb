@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-vanity-fair-024",
+  "pool": "sourced",
+  "text": "I know no sort of lying which is more frequent in Vanity Fair than this, and it may be remarked how people who practise it take credit to themselves for their hypocrisy, and fancy that they are exceedingly virtuous and praiseworthy, because they are able to deceive the world with regard to the extent of their means. Mrs. Bute certainly thought herself one of the most virtuous women in England, and the sight of her happy family was an edifying one to strangers. They were so cheerful, so loving, so well-educated, so simple! Martha painted flowers exquisitely and furnished half the charity bazaars in the county. Emma was a regular County Bulbul, and her verses in the Hampshire Telegraph were the glory of its Poet's Corner.",
+  "words": [
+    {
+      "word": "exceedingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheerful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

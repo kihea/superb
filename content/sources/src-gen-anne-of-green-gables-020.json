@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anne-of-green-gables-020",
   "pool": "sourced",
-  "text": "You must read the announcements and then come and tell me, Jane. And I implore you in the name of our old friendship to do it as quickly as possible. If I have failed just say so, without trying to break it gently; and whatever you do don’t sympathize with me. Promise me this, Jane.” Jane promised solemnly; but, as it happened, there was no necessity for such a promise. When they went up the entrance steps of Queen’s they found the hall full of boys who were carrying Gilbert Blythe around on their shoulders and yelling at the tops of their voices, “Hurrah for Blythe, Medalist!” For a moment Anne felt one sickening pang of defeat and disappointment.",
+  "text": "Barry told Diana that we might sleep in the spare-room bed. Think of the honor of your little Anne being put in the spare-room bed.” “It’s an honor you’ll have to get along without. Go to bed, Anne, and don’t let me hear another word out of you.” When Anne, with tears rolling over her cheeks, had gone sorrowfully upstairs, Matthew, who had been apparently sound asleep on the lounge during the whole dialogue, opened his eyes and said decidedly: “Well now, Marilla, I think you ought to let Anne go.” “I don’t then,” retorted Marilla. “Who’s bringing this child up, Matthew, you or me?” “Well now, you,” admitted Matthew. “Don’t interfere then.” “Well now, I ain’t interfering.",
   "words": [
     {
-      "word": "disappointment",
+      "word": "decidedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "interfere",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

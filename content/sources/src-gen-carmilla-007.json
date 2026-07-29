@@ -1,22 +1,16 @@
 {
   "id": "src-gen-carmilla-007",
   "pool": "sourced",
-  "text": "On coming in he told us that there had been another case very similar to the two fatal ones which had lately occurred. The sister of a young peasant on his estate, only a mile away, was very ill, had been, as she described it, attacked very nearly in the same way, and was now slowly but steadily sinking. “All this,” said my father, “is strictly referable to natural causes. These poor people infect one another with their superstitions, and so repeat in imagination the images of terror that have infested their neighbors.” “But that very circumstance frightens one horribly,” said Carmilla. “How so?” inquired my father.",
+  "text": "The doctor did not arrive till nearly one o’clock; but I could no more have gone to my bed and slept, than I could have overtaken, on foot, the carriage in which the princess in black velvet had driven away. When the physician came down to the drawing room, it was to report very favorably upon his patient. She was now sitting up, her pulse quite regular, apparently perfectly well. She had sustained no injury, and the little shock to her nerves had passed away quite harmlessly. There could be no harm certainly in my seeing her, if we both wished it; and, with this permission I sent, forthwith, to know whether she would allow me to visit her for a few minutes in her room.",
   "words": [
     {
-      "word": "infect",
+      "word": "velvet",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "circumstance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "horribly",
+      "word": "pulse",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

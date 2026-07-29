@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-019",
   "pool": "sourced",
-  "text": "At the end of another day or two, Marianne growing visibly stronger every twelve hours, Mrs. Dashwood, urged equally by her own and her daughter's wishes, began to talk of removing to Barton. On her measures depended those of her two friends; Mrs. Jennings could not quit Cleveland during the Dashwoods' stay; and Colonel Brandon was soon brought, by their united request, to consider his own abode there as equally determinate, if not equally indispensable. At his and Mrs. Jennings's united request in return, Mrs. Dashwood was prevailed on to accept the use of his carriage on her journey back, for the better accommodation of her sick child; and the Colonel, at the joint invitation of Mrs. Dashwood and Mrs. Jennings, whose active good-nature made her friendly and hospitable for other people as well as herself, engaged with pleasure to redeem it by a visit at the cottage, in the course of a few weeks.",
+  "text": "Marianne rose the next morning with recovered spirits and happy looks. The disappointment of the evening before seemed forgotten in the expectation of what was to happen that day. They had not long finished their breakfast before Mrs. Palmer's barouche stopped at the door, and in a few minutes she came laughing into the room: so delighted to see them all, that it was hard to say whether she received most pleasure from meeting her mother or the Miss Dashwoods again. So surprised at their coming to town, though it was what she had rather expected all along; so angry at their accepting her mother's invitation after having declined her own, though at the same time she would never have forgiven them if they had not come! \"Mr. Palmer will be so happy to see you,\" said she; \"What do you think he said when he heard of your coming with Mamma?",
   "words": [
     {
-      "word": "redeem",
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expectation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,16 @@
 {
   "id": "src-gen-silas-marner-002",
   "pool": "sourced",
-  "text": "But at six o’clock, as he was thinking of going to seek his friend, William came, and with him the minister. They came to summon him to Lantern Yard, to meet the church members there; and to his inquiry concerning the cause of the summons the only reply was, “You will hear.” Nothing further was said until Silas was seated in the vestry, in front of the minister, with the eyes of those who to him represented God’s people fixed solemnly upon him. Then the minister, taking out a pocket-knife, showed it to Silas, and asked him if he knew where he had left that knife? Silas said, he did not know that he had left it anywhere out of his own pocket—but he was trembling at this strange interrogation. He was then exhorted not to hide his sin, but to confess and repent.",
+  "text": "But it was nestled in a snug well-wooded hollow, quite an hour’s journey on horseback from any turnpike, where it was never reached by the vibrations of the coach-horn, or of public opinion. It was an important-looking village, with a fine old church and large churchyard in the heart of it, and two or three large brick-and-stone homesteads, with well-walled orchards and ornamental weathercocks, standing close upon the road, and lifting more imposing fronts than the rectory, which peeped from among the trees on the other side of the churchyard:—a village which showed at once the summits of its social life, and told the practised eye that there was no great park and manor-house in the vicinity, but that there were several chiefs in Raveloe who could farm badly quite at their ease, drawing enough money from their bad farming, in those war times, to live in a rollicking fashion, and keep a jolly Christmas, Whitsun, and Easter tide.",
   "words": [
     {
-      "word": "summon",
+      "word": "wooded",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "summons",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "interrogation",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "repent",
+      "word": "turnpike",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-029",
+  "pool": "sourced",
+  "text": "I have no doubt, for example, that the Fernworthy people will burn me in effigy tonight. I told the police last time they did it that they should stop these disgraceful exhibitions. The County Constabulary is in a scandalous state, sir, and it has not afforded me the protection to which I am entitled. The case of Frankland v. Regina will bring the matter before the attention of the public. I told them that they would have occasion to regret their treatment of me, and already my words have come true.” “How so?” I asked.",
+  "words": [
+    {
+      "word": "scandalous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

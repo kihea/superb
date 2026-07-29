@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-035",
+  "pool": "sourced",
+  "text": "The whole garden has already been minutely examined.” “Now, my dear sir,” said Holmes, “is it not obvious to you now that this matter really strikes very much deeper than either you or the police were at first inclined to think? It appeared to you to be a simple case; to me it seems exceedingly complex. Consider what is involved by your theory. You suppose that your son came down from his bed, went, at great risk, to your dressing-room, opened your bureau, took out your coronet, broke off by main force a small portion of it, went off to some other place, concealed three gems out of the thirty-nine, with such skill that nobody can find them, and then returned with the other thirty-six into the room in which he exposed himself to the greatest danger of being discovered. I ask you now, is such a theory tenable?” “But what other is there?” cried the banker with a gesture of despair.",
+  "words": [
+    {
+      "word": "exceedingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

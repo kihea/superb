@@ -1,34 +1,40 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-014",
   "pool": "sourced",
-  "text": "A gentle slope descends from it to a silver sheet of water, bordered by high trees, between which, peeps may be caught at the blue hills of the Hudson. To look upon its grass-grown yard, where the sunbeams seem to sleep so quietly, one would think that there at least the dead might rest in peace. On one side of the church extends a wide woody dell, along which raves a large brook among broken rocks and trunks of fallen trees. Over a deep black part of the stream, not far from the church, was formerly thrown a wooden bridge; the road that led to it, and the bridge itself, were thickly shaded by overhanging trees, which cast a gloom about it, even in the daytime; but occasioned a fearful darkness at night. Such was one of the favorite haunts of the Headless Horseman, and the place where he was most frequently encountered.",
+  "text": "Ichabod, therefore, made his advances in a quiet and gently insinuating manner. Under cover of his character of singing-master, he made frequent visits at the farmhouse; not that he had anything to apprehend from the meddlesome interference of parents, which is so often a stumbling-block in the path of lovers. Balt Van Tassel was an easy indulgent soul; he loved his daughter better even than his pipe, and, like a reasonable man and an excellent father, let her have her way in everything. His notable little wife, too, had enough to do to attend to her housekeeping and manage her poultry; for, as she sagely observed, ducks and geese are foolish things, and must be looked after, but girls can take care of themselves. Thus, while the busy dame bustled about the house, or plied her spinning-wheel at one end of the piazza, honest Balt would sit smoking his evening pipe at the other, watching the achievements of a little wooden warrior, who, armed with a sword in each hand, was most valiantly fighting the wind on the pinnacle of the barn.",
   "words": [
     {
-      "word": "dell",
+      "word": "gently",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "trunks",
+      "word": "farmhouse",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shaded",
+      "word": "stumbling",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "gloom",
+      "word": "housekeeping",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "haunts",
+      "word": "poultry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barn",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +45,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-003",
   "pool": "sourced",
-  "text": "Your influence would be bad. The world is wide, and has many marvellous people in it. Don’t take away from me the one person who gives to my art whatever charm it possesses: my life as an artist depends on him. Mind, Harry, I trust you.” He spoke very slowly, and the words seemed wrung out of him almost against his will. “What nonsense you talk!” said Lord Henry, smiling, and taking Hallward by the arm, he almost led him into the house.",
+  "text": "I am sure of that. Dorian told me so afterwards. He, too, felt that we were destined to know each other.” “And how did Lady Brandon describe this wonderful young man?” asked his companion. “I know she goes in for giving a rapid précis of all her guests. I remember her bringing me up to a truculent and red-faced old gentleman covered all over with orders and ribbons, and hissing into my ear, in a tragic whisper which must have been perfectly audible to everybody in the room, the most astounding details.",
   "words": [
     {
-      "word": "charm",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "nonsense",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

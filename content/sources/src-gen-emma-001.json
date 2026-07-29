@@ -16,12 +16,6 @@
       ]
     },
     {
-      "word": "youngest",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "affectionate",
       "signals": [
         "gloss-overlap"
@@ -45,7 +39,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

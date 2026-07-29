@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-022",
+  "pool": "sourced",
+  "text": "If the beach was good and hard, with a slope behind it for seals to play on, there was always the smoke of a whaler on the horizon, boiling down blubber, and Kotick knew what that meant. Or else he could see that seals had once visited the island and been killed off, and Kotick knew that where men had come once they would come again. He picked up with an old stumpy-tailed albatross, who told him that Kerguelen Island was the very place for peace and quiet, and when Kotick went down there he was all but smashed to pieces against some wicked black cliffs in a heavy sleet-storm with lightning and thunder. Yet as he pulled out against the gale he could see that even there had once been a seal nursery. And it was so in all the other islands that he visited.",
+  "words": [
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

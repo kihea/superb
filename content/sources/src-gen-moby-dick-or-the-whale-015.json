@@ -1,34 +1,16 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-015",
   "pool": "sourced",
-  "text": "So, though in the clear air of day, suspended against a blue-veined neck, the pure-watered diamond drop will healthful glow; yet, when the cunning jeweller would show you the diamond in its most impressive lustre, he lays it against a gloomy ground, and then lights it up, not by the sun, but by some unnatural gases. Then come out those fiery effulgences, infernally superb; then the evil-blazing diamond, once the divinest symbol of the crystal skies, looks like some crown-jewel stolen from the King of Hell. But let us to the story. It came to pass, that in the ambergris affair Stubb’s after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place. The first time Stubb lowered with him, Pip evinced much nervousness; but happily, for that time, escaped close contact with the whale; and therefore came off not altogether discreditably; though Stubb observing him, took care, afterwards, to exhort him to cherish his courageousness to the utmost, for he might often find it needful.",
+  "text": "Meantime, the crew driven from the forward part of the ship by the perilous seas that burstingly broke over its bows, stood in a line along the bulwarks in the waist; and the better to guard against the leaping waves, each man had slipped himself into a sort of bowline secured to the rail, in which he swung as in a loosened belt. Few or no words were spoken; and the silent ship, as if manned by painted sailors in wax, day after day tore on through all the swift madness and gladness of the demoniac waves. By night the same muteness of humanity before the shrieks of the ocean prevailed; still in silence the men swung in the bowlines; still wordless Ahab stood up to the blast. Even when wearied nature seemed demanding repose he would not seek that repose in his hammock.",
   "words": [
     {
-      "word": "watered",
+      "word": "waist",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "gases",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "superb",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "temporarily",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cherish",
+      "word": "slipped",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

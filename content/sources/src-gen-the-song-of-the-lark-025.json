@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-song-of-the-lark-025",
+  "pool": "sourced",
+  "text": "Wednesday was her third day in bed. The medical student who lived in the house had been in to see her, had left some tablets and a foamy gargle, and told her that she could probably go back to work on Monday. The landlady stuck her head in once a day, but Thea did not encourage her visits. The Hungarian chambermaid brought her soup and toast. She made a sloppy pretense of putting the room in order, but she was such a dirty creature that Thea would not let her touch her cot; she got up every morning and turned the mattress and made the bed herself.",
+  "words": [
+    {
+      "word": "soup",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cot",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

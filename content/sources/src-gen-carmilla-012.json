@@ -1,22 +1,10 @@
 {
   "id": "src-gen-carmilla-012",
   "pool": "sourced",
-  "text": "The Doctor As Carmilla would not hear of an attendant sleeping in her room, my father arranged that a servant should sleep outside her door, so that she would not attempt to make another such excursion without being arrested at her own door. That night passed quietly; and next morning early, the doctor, whom my father had sent for without telling me a word about it, arrived to see me. Madame accompanied me to the library; and there the grave little doctor, with white hair and spectacles, whom I mentioned before, was waiting to receive me. I told him my story, and as I proceeded he grew graver and graver. We were standing, he and I, in the recess of one of the windows, facing one another.",
+  "text": "Have I offended her?” The young lady, indeed, looked very angry as she drew back from the window. “How dares that mountebank insult us so? Where is your father? I shall demand redress from him. My father would have had the wretch tied up to the pump, and flogged with a cart whip, and burnt to the bones with the cattle brand!” She retired from the window a step or two, and sat down, and had hardly lost sight of the offender, when her wrath subsided as suddenly as it had risen, and she gradually recovered her usual tone, and seemed to forget the little hunchback and his follies.",
   "words": [
     {
-      "word": "attendant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "servant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "quietly",
+      "word": "cart",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

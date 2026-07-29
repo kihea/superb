@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-kidnapped-032",
+  "pool": "sourced",
+  "text": "I was but new risen from a bed of sickness; and there was nothing in the state of our affairs to hearten me for much exertion; travelling, as we did, over the most dismal deserts in Scotland, under a cloudy heaven, and with divided hearts among the travellers. For long, we said nothing; marching alongside or one behind the other, each with a set countenance: I, angry and proud, and drawing what strength I had from these two violent and sinful feelings; Alan angry and ashamed, ashamed that he had lost my money, angry that I should take it so ill. The thought of a separation ran always the stronger in my mind; and the more I approved of it, the more ashamed I grew of my approval.",
+  "words": [
+    {
+      "word": "sickness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "travelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "separation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

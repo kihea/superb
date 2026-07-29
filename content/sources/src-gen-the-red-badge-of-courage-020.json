@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-red-badge-of-courage-020",
   "pool": "sourced",
-  "text": "But at one part of the line there was a grim and obdurate group that made no movement. They were settled firmly down behind posts and rails. A flag, ruffled and fierce, waved over them and their rifles dinned fiercely. The blue whirl of men got very near, until it seemed that in truth there would be a close and frightful scuffle. There was an expressed disdain in the opposition of the little group, that changed the meaning of the cheers of the men in blue.",
+  "text": "The bed of the former torrent was choked with the bodies of horses and splintered parts of war machines. It had come to pass that his wound pained him but little. He was afraid to move rapidly, however, for a dread of disturbing it. He held his head very still and took many precautions against stumbling. He was filled with anxiety, and his face was pinched and drawn in anticipation of the pain of any sudden mistake of his feet in the gloom.",
   "words": [
     {
-      "word": "fiercely",
+      "word": "torrent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "choked",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pinched",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

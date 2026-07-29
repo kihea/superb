@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-034",
+  "pool": "sourced",
+  "text": "“We belong to this country alone, and cannot leave it. There has never been a Winged Monkey in Kansas yet, and I suppose there never will be, for they don’t belong there. We shall be glad to serve you in any way in our power, but we cannot cross the desert. Good-bye.” And with another bow, the Monkey King spread his wings and flew away through the window, followed by all his band. Dorothy was ready to cry with disappointment.",
+  "words": [
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

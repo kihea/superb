@@ -1,10 +1,16 @@
 {
   "id": "src-gen-little-women-017",
   "pool": "sourced",
-  "text": "Now I take it all back, for I don’t think you half so nice as when I left you at home. You have grown abominably lazy, you like gossip, and waste time on frivolous things, you are contented to be petted and admired by silly people, instead of being loved and respected by wise ones. With money, talent, position, health, and beauty, ah you like that old Vanity! But it’s the truth, so I can’t help saying it, with all these splendid things to use and enjoy, you can find nothing to do but dawdle, and instead of being the man you ought to be, you are only...” there she stopped, with a look that had both pain and pity in it. “Saint Laurence on a gridiron,” added Laurie, blandly finishing the sentence.",
+  "text": "John Brooke’, and evidently laboring under the delusion that the whole affair had been brought about by his excellent management. “I knew Brooke would have it all his own way, he always does, for when he makes up his mind to accomplish anything, it’s done though the sky falls,” said Laurie, when he had presented his offering and his congratulations. “Much obliged for that recommendation. I take it as a good omen for the future and invite you to my wedding on the spot,” answered Mr. Brooke, who felt at peace with all mankind, even his mischievous pupil. “I’ll come if I’m at the ends of the earth, for the sight of Jo’s face alone on that occasion would be worth a long journey.",
   "words": [
     {
-      "word": "frivolous",
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "omen",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

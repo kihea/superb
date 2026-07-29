@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-009",
   "pool": "sourced",
-  "text": "As he drew nearer and nearer I saw that he was dark and bearded, and that his eyes were marked with dark spectacles. He was dressed poorly but respectably in black, from the old black top hat on his head to the solid black boots on his feet. In spite of these he walked straight into the sea without a flash of hesitation, and came on at me with the steadiness of a travelling bullet. “I can’t tell you the sense of monstrosity and miracle I had when he thus silently burst the barrier between land and water. It was as if he had walked straight off a cliff and still marched steadily in mid-air.",
+  "text": "You could not get away from hearing of him wherever you were; his portrait was on every other postcard; his maps and battles in every other illustrated paper; songs in his honour in every other music-hall turn or on every other barrel-organ. His fame, though probably more temporary, was ten times more wide, popular and spontaneous than the other man’s. In thousands of English homes he appeared enormous above England, like Nelson. Yet he had infinitely less power in England than Sir Wilson Seymour. The door was opened to them by an aged servant or “dresser”, whose broken-down face and figure and black shabby coat and trousers contrasted queerly with the glittering interior of the great actress’s dressing-room.",
   "words": [
     {
-      "word": "poorly",
+      "word": "postcard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dresser",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

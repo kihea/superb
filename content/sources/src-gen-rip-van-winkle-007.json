@@ -20,6 +20,12 @@
       "signals": [
         "gloss-overlap"
       ]
+    },
+    {
+      "word": "daring",
+      "signals": [
+        "gloss-overlap"
+      ]
     }
   ],
   "provenance": {
@@ -27,7 +33,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

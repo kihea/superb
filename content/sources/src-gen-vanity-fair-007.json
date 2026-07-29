@@ -1,34 +1,28 @@
 {
   "id": "src-gen-vanity-fair-007",
   "pool": "sourced",
-  "text": "Sometimes it is towards the ocean--smiling with countless dimples, speckled with white sails, with a hundred bathing-machines kissing the skirt of his blue garment--that the Londoner looks enraptured: sometimes, on the contrary, a lover of human nature rather than of prospects of any kind, it is towards the bow windows that he turns, and that swarm of human life which they exhibit. From one issue the notes of a piano, which a young lady in ringlets practises six hours daily, to the delight of the fellow-lodgers: at another, lovely Polly, the nurse-maid, may be seen dandling Master Omnium in her arms: whilst Jacob, his papa, is beheld eating prawns, and devouring the Times for breakfast, at the window below.",
+  "text": "\"She is fade and insipid,\" and adds some more kind remarks in this strain, which I should never have repeated at all, but that they are in truth prodigiously complimentary to the young lady whom they concern. Has the beloved reader, in his experience of society, never heard similar remarks by good-natured female friends; who always wonder what you CAN see in Miss Smith that is so fascinating; or what COULD induce Major Jones to propose for that silly insignificant simpering Miss Thompson, who has nothing but her wax-doll face to recommend her? What is there in a pair of pink cheeks and blue eyes forsooth? these dear Moralists ask, and hint wisely that the gifts of genius, the accomplishments of the mind, the mastery of Mangnall's Questions, and a ladylike knowledge of botany and geology, the knack of making poetry, the power of rattling sonatas in the Herz-manner, and so forth, are far more valuable endowments for a female, than those fugitive charms which a few years will inevitably tarnish. It is quite edifying to hear women speculate upon the worthlessness and the duration of beauty.",
   "words": [
     {
-      "word": "sails",
+      "word": "fade",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "contrary",
+      "word": "wisely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "geology",
       "signals": [
         "apposition"
       ]
     },
     {
-      "word": "prospects",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "maid",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "papa",
+      "word": "inevitably",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "source": "Project Gutenberg #599",
-    "url": "https://www.gutenberg.org/ebooks/599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

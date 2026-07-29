@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-washington-square-024",
+  "pool": "sourced",
+  "text": "“Did you get it from Mr. Townsend?” “Oh no; it’s my own!” said Catherine eagerly. “Keep it to yourself, then,” her father answered, more than ever determined she should go to Europe. XXIII IF Morris Townsend was not to be included in this journey, no more was Mrs. Penniman, who would have been thankful for an invitation, but who (to do her justice) bore her disappointment in a perfectly ladylike manner. “I should enjoy seeing the works of Raphael and the ruins—the ruins of the Pantheon,” she said to Mrs. Almond; “but, on the other hand, I shall not be sorry to be alone and at peace for the next few months in Washington Square. I want rest; I have been through so much in the last four months.” Mrs. Almond thought it rather cruel that her brother should not take poor Lavinia abroad; but she easily understood that, if the purpose of his expedition was to make Catherine forget her lover, it was not in his interest to give his daughter this young man’s best friend as a companion.",
+  "words": [
+    {
+      "word": "eagerly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expedition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Washington Square",
+    "author": "Henry James",
+    "year": 1880,
+    "source": "Project Gutenberg #2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

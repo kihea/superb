@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-023",
+  "pool": "sourced",
+  "text": "As she went jumping about Heidi suddenly caught sight of the grandmother's song book, and another happy idea struck her, \"Grandmother, I can also read now, would you like me to read you one of your hymns from your old book?\" \"Oh, yes,\" said the grandmother, surprised and delighted; \"but can you really read, child, really?\" Heidi had climbed on to a chair and had already lifted down the book, bringing a cloud of dust with it, for it had lain untouched on the shelf for a long time. Heidi wiped it, sat herself down on a stool beside the old woman, and asked her which hymn she should read. \"What you like, child, what you like,\" and the grandmother pushed her spinning-wheel aside and sat in eager expectation waiting for Heidi to begin.",
+  "words": [
+    {
+      "word": "stool",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hymn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

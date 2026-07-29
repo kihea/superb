@@ -1,10 +1,16 @@
 {
   "id": "src-gen-through-the-looking-glass-007",
   "pool": "sourced",
-  "text": "you’re a human child!” A sudden look of alarm came into its beautiful brown eyes, and in another moment it had darted away at full speed. Alice stood looking after it, almost ready to cry with vexation at having lost her dear little fellow-traveller so suddenly. “However, I know my name now.” she said, “that’s some comfort. Alice—Alice—I won’t forget it again. And now, which of these finger-posts ought I to follow, I wonder?” It was not a very difficult question to answer, as there was only one road through the wood, and the two finger-posts both pointed along it.",
+  "text": "“Silence, every one of you!” cried the Tiger-lily, waving itself passionately from side to side, and trembling with excitement. “They know I can’t get at them!” it panted, bending its quivering head towards Alice, “or they wouldn’t dare to do it!” “Never mind!” Alice said in a soothing tone, and stooping down to the daisies, who were just beginning again, she whispered, “If you don’t hold your tongues, I’ll pick you!” There was silence in a moment, and several of the pink daisies turned white. “That’s right!” said the Tiger-lily. “The daisies are worst of all. When one speaks, they all begin together, and it’s enough to make one wither to hear the way they go on!” “How is it you can all talk so nicely?” Alice said, hoping to get it into a better temper by a compliment.",
   "words": [
     {
-      "word": "traveller",
+      "word": "lily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

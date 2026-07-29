@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-meditations-038",
+  "pool": "sourced",
+  "text": "Never have I read anything more refined, anything more after the ancient type, anything more delicious, anything more Latin. O happy you, to be endowed with eloquence so great! O happy I, to be tinder the charge of such a master! O arguments, O arrangement, O elegance, O wit, O beauty, O words, O brilliancy, O subtilty, O grace, O treatment, O everything! Mischief take me, if you ought not to have a rod put in your hand one day, a diadem on your brow, a tribunal raised for you; then the herald would summon us all-why do I say \"us\"?",
+  "words": [
+    {
+      "word": "elegance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tribunal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "herald",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

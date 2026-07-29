@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-ghost-stories-of-an-antiquary-022",
+  "pool": "sourced",
+  "text": "The night was still and cold. The full moon was in the zenith. Its icy splendor lay on the bare streets, and on the walls of the dwellings. The lighted oblong squares of curtained windows, here and there, seemed dim and waxen in the frigid glory. The familiar aspect of the quarter had passed away, leaving behind only a corpse-like neighborhood, whose huge, dead features, staring rigidly through the thin, white shroud of moonlight that covered all, left no breath upon the stainless skies.",
+  "words": [
+    {
+      "word": "icy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "corpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Ghost Stories of an Antiquary",
+    "author": "M. R. James",
+    "year": 1904,
+    "source": "Project Gutenberg #26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

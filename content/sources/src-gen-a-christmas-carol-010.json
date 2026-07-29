@@ -1,28 +1,10 @@
 {
   "id": "src-gen-a-christmas-carol-010",
   "pool": "sourced",
-  "text": "In easy state upon this couch, there sat a jolly Giant, glorious to see; who bore a glowing torch, in shape not unlike Plenty's horn, and held it up, high up, to shed its light on Scrooge, as he came peeping round the door. exclaimed the Ghost. and know me better, man!\" Scrooge entered timidly, and hung his head before this Spirit. He was not the dogged Scrooge he had been; and though the Spirit's eyes were clear and kind, he did not like to meet them.",
+  "text": "Every time he resolved within himself, after mature inquiry, that it was all a dream, his mind flew back again, like a strong spring released, to its first position, and presented the same problem to be worked all through, \"Was it a dream or not?\" Scrooge lay in this state until the chime had gone three quarters more, when he remembered, on a sudden, that the Ghost had warned him of a visitation when the bell tolled one. He resolved to lie awake until the hour was passed; and, considering that he could no more go to sleep than go to Heaven, this was perhaps the wisest resolution in his power. The quarter was so long, that he was more than once convinced he must have sunk into a doze unconsciously, and missed the clock. At length it broke upon his listening ear.",
   "words": [
     {
-      "word": "jolly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glowing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "torch",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "horn",
+      "word": "chime",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

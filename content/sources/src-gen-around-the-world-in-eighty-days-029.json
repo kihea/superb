@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-029",
+  "pool": "sourced",
+  "text": "A big brawny fellow with a red beard, flushed face, and broad shoulders, who seemed to be the chief of the band, raised his clenched fist to strike Mr. Fogg, whom he would have given a crushing blow, had not Fix rushed in and received it in his stead. An enormous bruise immediately made its appearance under the detective’s silk hat, which was completely smashed in. “Yankee!” exclaimed Mr. Fogg, darting a contemptuous look at the ruffian. “Englishman!” returned the other. “We will meet again!” “When you please.” “What is your name?” “Phileas Fogg.",
+  "words": [
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bruise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

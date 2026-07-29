@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-029",
+  "pool": "sourced",
+  "text": "“I’m sure your face don’t praise your mistress’s table, Joseph.” “I’ve had a very pale companion for the last five miles,” said Joseph, indulging in a shudder toned down by resignation. “And to speak the truth, ’twas beginning to tell upon me. I assure ye, I ha’n’t seed the colour of victuals or drink since breakfast time this morning, and that was no more than a dew-bit afield.” “Then drink, Joseph, and don’t restrain yourself!” said Coggan, handing him a hooped mug three-quarters full. Joseph drank for a moderately long time, then for a longer time, saying, as he lowered the jug, “’Tis pretty drinking—very pretty drinking, and is more than cheerful on my melancholy errand, so to speak it.” “True, drink is a pleasant delight,” said Jan, as one who repeated a truism so familiar to his brain that he hardly noticed its passage over his tongue; and, lifting the cup, Coggan tilted his head gradually backwards, with closed eyes, that his expectant soul might not be diverted for one instant from its bliss by irrelevant surroundings. “Well, I must be on again,” said Poorgrass.",
+  "words": [
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,52 +1,22 @@
 {
   "id": "src-gen-the-souls-of-black-folk-002",
   "pool": "sourced",
-  "text": "Bureau courts tended to become centres simply for punishing whites, while the regular civil courts tended to become solely institutions for perpetuating the slavery of blacks. Almost every law and method ingenuity could devise was employed by the legislatures to reduce the Negroes to serfdom,—to make them the slaves of the State, if not of individual owners; while the Bureau officials too often were found striving to put the “bottom rail on top,” and gave the freedmen a power and independence which they could not yet use. It is all well enough for us of another generation to wax wise with advice to those who bore the burden in the heat of the day. It is full easy now to see that the man who lost home, fortune, and family at a stroke, and saw his land ruled by “mules and niggers,” was really benefited by the passing of slavery. It is not difficult now to say to the young freedman, cheated and cuffed about who has seen his father’s head beaten to a jelly and his own mother namelessly assaulted, that the meek shall inherit the earth.",
+  "text": "In a time of perfect calm, amid willing neighbors and streaming wealth, the social uplifting of four million slaves to an assured and self-sustaining place in the body politic and economic would have been a herculean task; but when to the inherent difficulties of so delicate and nice a social operation were added the spite and hate of conflict, the hell of war; when suspicion and cruelty were rife, and gaunt Hunger wept beside Bereavement,—in such a case, the work of any instrument of social regeneration was in large part foredoomed to failure. The very name of the Bureau stood for a thing in the South which for two centuries and better men had refused even to argue,—that life amid free Negroes was simply unthinkable, the maddest of experiments. The agents that the Bureau could command varied all the way from unselfish philanthropists to narrow-minded busybodies and thieves; and even though it be true that the average was far better than the worst, it was the occasional fly that helped spoil the ointment. Then amid all crouched the freed slave, bewildered between friend and foe.",
   "words": [
     {
-      "word": "tended",
+      "word": "inherent",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "slavery",
+      "word": "regeneration",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ingenuity",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "devise",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "legislatures",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "slaves",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "beaten",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "jelly",
+      "word": "occasional",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +27,7 @@
     "author": "W. E. B. Du Bois",
     "year": 1903,
     "source": "Project Gutenberg #408",
-    "url": "https://www.gutenberg.org/ebooks/408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

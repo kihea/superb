@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-032",
+  "pool": "sourced",
+  "text": "Nicholas had been struck by the peculiar moral beauty he observed in her at this time. He was, however, preparing to go away and it had not entered his head to regret that he was thus depriving himself of chances of meeting her. But that day’s encounter in church had, he felt, sunk deeper than was desirable for his peace of mind. That pale, sad, refined face, that radiant look, those gentle graceful gestures, and especially the deep and tender sorrow expressed in all her features agitated him and evoked his sympathy. In men Rostóv could not bear to see the expression of a higher spiritual life (that was why he did not like Prince Andrew) and he referred to it contemptuously as philosophy and dreaminess, but in Princess Mary that very sorrow which revealed the depth of a whole spiritual world foreign to him was an irresistible attraction.",
+  "words": [
+    {
+      "word": "gentle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

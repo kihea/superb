@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-robinson-crusoe-039",
+  "pool": "sourced",
+  "text": "To mend the matter, when we came to Pampeluna it continued snowing with so much violence and so long, that the people said winter was come before its time; and the roads, which were difficult before, were now quite impassable; for, in a word, the snow lay in some places too thick for us to travel, and being not hard frozen, as is the case in the northern countries, there was no going without being in danger of being buried alive every step. We stayed no less than twenty days at Pampeluna; when (seeing the winter coming on, and no likelihood of its being better, for it was the severest winter all over Europe that had been known in the memory of man) I proposed that we should go away to Fontarabia, and there take shipping for Bordeaux, which was a very little voyage.",
+  "words": [
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

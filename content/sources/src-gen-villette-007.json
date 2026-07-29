@@ -1,34 +1,16 @@
 {
   "id": "src-gen-villette-007",
   "pool": "sourced",
-  "text": "May I inquire did she ever speak of me to you?” “Under the name of ‘Isidore’ she has talked about you often; but I must add that it is only within the last ten minutes I have discovered that you and ‘Isidore’ are identical. It is only, Dr. John, within that brief space of time I have learned that Ginevra Fanshawe is the person, under this roof, in whom you have long been interested—that she is the magnet which attracts you to the Rue Fossette, that for her sake you venture into this garden, and seek out caskets dropped by rivals.” “You know all?” “I know so much.” “For more than a year I have been accustomed to meet her in society. Mrs. Cholmondeley, her friend, is an acquaintance of mine; thus I see her every Sunday. But you observed that under the name of ‘Isidore’ she often spoke of me: may I—without inviting you to a breach of confidence—inquire what was the tone, what the feeling of her remarks?",
+  "text": "On her arrival in the Rue Fossette, two or three days after my sudden settlement there, she encountered me with very little surprise. She must have had good blood in her veins, for never was any duchess more perfectly, radically, unaffectedly nonchalante than she: a weak, transient amaze was all she knew of the sensation of wonder. Most of her other faculties seemed to be in the same flimsy condition: her liking and disliking, her love and hate, were mere cobweb and gossamer; but she had one thing about her that seemed strong and durable enough, and that was—her selfishness. She was not proud; and—bonne d’enfants as I was—she would forthwith have made of me a sort of friend and confidant. She teased me with a thousand vapid complaints about school-quarrels and household economy: the cookery was not to her taste; the people about her, teachers and pupils, she held to be despicable, because they were foreigners.",
   "words": [
     {
-      "word": "magnet",
+      "word": "amaze",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "attracts",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rivals",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "acquaintance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "breach",
+      "word": "selfishness",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-carmilla-006",
   "pool": "sourced",
-  "text": "Between these passionate moments there were long intervals of commonplace, of gaiety, of brooding melancholy, during which, except that I detected her eyes so full of melancholy fire, following me, at times I might have been as nothing to her. Except in these brief periods of mysterious excitement her ways were girlish; and there was always a languor about her, quite incompatible with a masculine system in a state of health. In some respects her habits were odd. Perhaps not so singular in the opinion of a town lady like you, as they appeared to us rustic people. She used to come down very late, generally not till one o’clock, she would then take a cup of chocolate, but eat nothing; we then went out for a walk, which was a mere saunter, and she seemed, almost immediately, exhausted, and either returned to the schloss or sat on one of the benches that were placed, here and there, among the trees.",
+  "text": "The young stranger had hardly lain down in her bed when she sank into a deep sleep; and those ladies had left her in the care of a servant. “How do you like our guest?” I asked, as soon as Madame entered. “Tell me all about her?” “I like her extremely,” answered Madame, “she is, I almost think, the prettiest creature I ever saw; about your age, and so gentle and nice.” “She is absolutely beautiful,” threw in Mademoiselle, who had peeped for a moment into the stranger’s room. “And such a sweet voice!” added Madame Perrodon. “Did you remark a woman in the carriage, after it was set up again, who did not get out,” inquired Mademoiselle, “but only looked from the window?” “No, we had not seen her.” Then she described a hideous black woman, with a sort of colored turban on her head, and who was gazing all the time from the carriage window, nodding and grinning derisively towards the ladies, with gleaming eyes and large white eyeballs, and her teeth set as if in fury.",
   "words": [
     {
-      "word": "brooding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "melancholy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "excitement",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "singular",
+      "word": "hideous",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-prairie-003",
   "pool": "sourced",
-  "text": "And as I had the good sense to bring out with me no less than three cook-books, from Brentano's, I am able to attempt more and more elaborate dishes. Olie has a wire-fenced square where he grew beets and carrots and onions and turnips, and the biggest potatoes I ever saw. These will be pitted before the heavy frosts come. We get our butter and lard by the pail, and our flour by the sack, but getting things in quantities sometimes has its drawbacks. When I examined the oatmeal box I found it had weavels in it, and promptly threw all that meal away.",
+  "text": "As Olie had disappeared from the scene and was nowhere to be found, I went in and got my own breakfast. It was supper over again, only I scrambled my eggs instead of frying them. And all the while I was eating that meal I studied those shack-walls and made mental note of what should be changed and what should be done. There was so much, that it rather overwhelmed me. I sat at the table, littered with its dirty dishes, wondering where to begin.",
   "words": [
     {
-      "word": "flour",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "drawbacks",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "oatmeal",
+      "word": "supper",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-011",
   "pool": "sourced",
-  "text": "In the one case a man lies dead-alive four generations--mummified in ignorance and sloth--and that qualifies him to command live people, and take their weal and woe into his impotent hands; and in the other case, a man lies bedded with death and worms four generations, and that qualifies him for office in the celestial camp. Does the king's grace approve of this strange law?” The king said: “Why, truly I see naught about it that is strange. All places of honor and of profit do belong, by natural right, to them that be of noble blood, and so these dignities in the army are their property and would be so without this or any rule. The rule is but to mark a limit. Its purpose is to keep out too recent blood, which would bring into contempt these offices, and men of lofty lineage would turn their backs and scorn to take them.",
+  "text": "The humblest hello-girl along ten thousand miles of wire could teach gentleness, patience, modesty, manners, to the highest duchess in Arthur's land.” “Hello-girl?” “Yes, but don't you ask me to explain; it's a new kind of a girl; they don't have them here; one often speaks sharply to them when they are not the least in fault, and he can't get over feeling sorry for it and ashamed of himself in thirteen hundred years, it's such shabby mean conduct and so unprovoked; the fact is, no gentleman ever does it--though I--well, I myself, if I've got to confess--” “Peradventure she--” “Never mind her; never mind her; I tell you I couldn't ever explain her so you would understand.” “Even so be it, sith ye are so minded. Then Sir Gawaine and Sir Uwaine went and saluted them, and asked them why they did that despite to the shield. Sirs, said the damsels, we shall tell you. There is a knight in this country that owneth this white shield, and he is a passing good man of his hands, but he hateth all ladies and gentlewomen, and therefore we do all this despite to the shield.",
   "words": [
     {
-      "word": "contempt",
+      "word": "ashamed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "scorn",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "minded",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

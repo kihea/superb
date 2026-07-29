@@ -1,65 +1,16 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-011",
   "pool": "sourced",
-  "text": "Fain would I pause to dwell upon the world of charms that burst upon the enraptured gaze of my hero, as he entered the state parlor of Van Tassel’s mansion. Not those of the bevy of buxom lasses, with their luxurious display of red and white; but the ample charms of a genuine Dutch country tea-table, in the sumptuous time of autumn. Such heaped up platters of cakes of various and almost indescribable kinds, known only to experienced Dutch housewives! There was the doughty doughnut, the tender oly koek, and the crisp and crumbling cruller; sweet cakes and short cakes, ginger cakes and honey cakes, and the whole family of cakes. And then there were apple pies, and peach pies, and pumpkin pies; besides slices of ham and smoked beef; and moreover delectable dishes of preserved plums, and peaches, and pears, and quinces; not to mention broiled shad and roasted chickens; together with bowls of milk and cream, all mingled higgledy-piggledy, pretty much as I have enumerated them, with the motherly teapot sending up its clouds of vapor from the midst--Heaven bless the mark!",
+  "text": "In this enterprise, however, he had more real difficulties than generally fell to the lot of a knight-errant of yore, who seldom had anything but giants, enchanters, fiery dragons, and such like easily conquered adversaries, to contend with and had to make his way merely through gates of iron and brass, and walls of adamant to the castle keep, where the lady of his heart was confined; all which he achieved as easily as a man would carve his way to the centre of a Christmas pie; and then the lady gave him her hand as a matter of course. Ichabod, on the contrary, had to win his way to the heart of a country coquette, beset with a labyrinth of whims and caprices, which were forever presenting new difficulties and impediments; and he had to encounter a host of fearful adversaries of real flesh and blood, the numerous rustic admirers, who beset every portal to her heart, keeping a watchful and angry eye upon each other, but ready to fly out in the common cause against any new competitor.",
   "words": [
     {
-      "word": "pause",
+      "word": "labyrinth",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dwell",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mansion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cakes",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "doughnut",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pies",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "smoked",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "preserved",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pears",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "roasted",
+      "word": "rustic",
       "signals": [
         "gloss-overlap"
       ]
@@ -70,7 +21,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-vanity-fair-021",
+  "pool": "sourced",
+  "text": "Becky had it made into a pelisse for herself, in which she rode in the Bois de Boulogne to the admiration of all: and you should have seen the scene between her and her delighted husband, whom she rejoined after the army had entered Cambray, and when she unsewed herself, and let out of her dress all those watches, knick-knacks, bank-notes, cheques, and valuables, which she had secreted in the wadding, previous to her meditated flight from Brussels! Tufto was charmed, and Rawdon roared with delighted laughter, and swore that she was better than any play he ever saw, by Jove. And the way in which she jockeyed Jos, and which she described with infinite fun, carried up his delight to a pitch of quite insane enthusiasm. He believed in his wife as much as the French soldiers in Napoleon. Her success in Paris was remarkable.",
+  "words": [
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

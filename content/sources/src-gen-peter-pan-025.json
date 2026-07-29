@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-peter-pan-025",
+  "pool": "sourced",
+  "text": "The day, as if quietly gathering its forces, had been almost uneventful, and now the redskins in their blankets were at their posts above, while, below, the children were having their evening meal; all except Peter, who had gone out to get the time. The way you got the time on the island was to find the crocodile, and then stay near him till the clock struck. The meal happened to be a make-believe tea, and they sat around the board, guzzling in their greed; and really, what with their chatter and recriminations, the noise, as Wendy said, was positively deafening. To be sure, she did not mind noise, but she simply would not have them grabbing things, and then excusing themselves by saying that Tootles had pushed their elbow. There was a fixed rule that they must never hit back at meals, but should refer the matter of dispute to Wendy by raising the right arm politely and saying, “I complain of so-and-so;” but what usually happened was that they forgot to do this or did it too much.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elbow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-005",
   "pool": "sourced",
-  "text": "So the banquet began. By midnight the revelry was at its height. Now came one of those picturesque spectacles so admired in that old day. A description of it is still extant in the quaint wording of a chronicler who witnessed it: ‘Space being made, presently entered a baron and an earl appareled after the Turkish fashion in long robes of bawdkin powdered with gold; hats on their heads of crimson velvet, with great rolls of gold, girded with two swords, called scimitars, hanging by great bawdricks of gold. Next came yet another baron and another earl, in two long gowns of yellow satin, traversed with white satin, and in every bend of white was a bend of crimson satin, after the fashion of Russia, with furred hats of gray on their heads; either of them having an hatchet in their hands, and boots with pykes’ (points a foot long), ’turned up.",
+  "text": "{1} His question was answered with grave respect, and no surprise manifested. When he had finished his dessert, he filled his pockets with nuts; but nobody appeared to be aware of it, or disturbed by it. But the next moment he was himself disturbed by it, and showed discomposure; for this was the only service he had been permitted to do with his own hands during the meal, and he did not doubt that he had done a most improper and unprincely thing. At that moment the muscles of his nose began to twitch, and the end of that organ to lift and wrinkle. This continued, and Tom began to evince a growing distress.",
   "words": [
     {
-      "word": "extant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "earl",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "robes",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "velvet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "swords",
+      "word": "dessert",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

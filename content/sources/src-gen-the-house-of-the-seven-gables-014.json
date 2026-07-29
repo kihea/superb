@@ -1,12 +1,36 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-014",
   "pool": "sourced",
-  "text": "“We shall miss you, next Sabbath afternoon,” observed the street philosopher. “It is unaccountable how little while it takes some folks to grow just as natural to a man as his own breath; and, begging your pardon, Miss Phœbe (though there can be no offence in an old man’s saying it), that’s just what you’ve grown to me! My years have been a great many, and your life is but just beginning; and yet, you are somehow as familiar to me as if I had found you at my mother’s door, and you had blossomed, like a running vine, all along my pathway since. Come back soon, or I shall be gone to my farm; for I begin to find these wood-sawing jobs a little too tough for my back-ache.” “Very soon, Uncle Venner,” replied Phœbe. “And let it be all the sooner, Phœbe, for the sake of those poor souls yonder,” continued her companion.",
+  "text": "And not merely so, but was it hereditary in him, and transmitted down, as a precious heirloom, from that bearded ancestor, in whose picture both the expression and, to a singular degree, the features of the modern Judge were shown as by a kind of prophecy? A deeper philosopher than Phœbe might have found something very terrible in this idea. It implied that the weaknesses and defects, the bad passions, the mean tendencies, and the moral diseases which lead to crime are handed down from one generation to another, by a far surer process of transmission than human law has been able to establish in respect to the riches and honors which it seeks to entail upon posterity. But, as it happened, scarcely had Phœbe’s eyes rested again on the Judge’s countenance than all its ugly sternness vanished; and she found herself quite overpowered by the sultry, dog-day heat, as it were, of benevolence, which this excellent man diffused out of his great heart into the surrounding atmosphere,—very much like a serpent, which, as a preliminary to fascination, is said to fill the air with his peculiar odor.",
   "words": [
     {
-      "word": "pardon",
+      "word": "ancestor",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prophecy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "defects",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "passions",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +39,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

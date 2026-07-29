@@ -1,28 +1,16 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-013",
   "pool": "sourced",
-  "text": "Every one knows the fine story of Perseus and Andromeda; how the lovely Andromeda, the daughter of a king, was tied to a rock on the sea-coast, and as Leviathan was in the very act of carrying her off, Perseus, the prince of whalemen, intrepidly advancing, harpooned the monster, and delivered and married the maid. It was an admirable artistic exploit, rarely achieved by the best harpooneers of the present day; inasmuch as this Leviathan was slain at the very first dart. And let no man doubt this Arkite story; for in the ancient Joppa, now Jaffa, on the Syrian coast, in one of the Pagan temples, there stood for many ages the vast skeleton of a whale, which the city’s legends and all the inhabitants asserted to be the identical bones of the monster that Perseus slew. When the Romans took Joppa, the same skeleton was carried to Italy in triumph. What seems most singular and suggestively important in this story, is this: it was from Joppa that Jonah set sail.",
+  "text": "45,—he speaks of “the mysterious and mortal attack of the animal.” Secondly: The ship Union, also of Nantucket, was in the year 1807 totally lost off the Azores by a similar onset, but the authentic particulars of this catastrophe I have never chanced to encounter, though from the whale hunters I have now and then heard casual allusions to it. Thirdly: Some eighteen or twenty years ago Commodore J——, then commanding an American sloop-of-war of the first class, happened to be dining with a party of whaling captains, on board a Nantucket ship in the harbor of Oahu, Sandwich Islands. Conversation turning upon whales, the Commodore was pleased to be sceptical touching the amazing strength ascribed to them by the professional gentlemen present. He peremptorily denied for example, that any whale could so smite his stout sloop-of-war as to cause her to leak so much as a thimbleful. Very good; but there is more coming.",
   "words": [
     {
-      "word": "skeleton",
+      "word": "onset",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "legends",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "identical",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "singular",
+      "word": "whaling",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

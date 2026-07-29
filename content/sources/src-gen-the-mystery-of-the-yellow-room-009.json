@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-mystery-of-the-yellow-room-009",
   "pool": "sourced",
-  "text": "Besides, he had a way of expressing himself that left us guessing as to whether he was mocking us or not. I know quite well that the “Epoque” is an influential paper with which it is well to be on good terms, but the paper ought not to allow itself to be represented by sneaking reporters. Monsieur Joseph Rouletabille entered the laboratory, bowed to us, and waited for Monsieur de Marquet to ask him to explain his presence. “You pretend, Monsieur, that you know the motive for the crime, and that that motive—in the face of all the evidence that has been forthcoming—was robbery?” “No, Monsieur, I do not pretend that. I do not say that robbery was the motive for the crime, and I don’t believe it was.” “Then, what is the meaning of this card?” “It means that robbery was one of the motives for the crime.” “What leads you to think that?” “If you will be good enough to accompany me, I will show you.” The young man asked us to follow him into the vestibule, and we did.",
+  "text": "“Friends,” said our guide. “Nobody in the pavilion, Daddy Jacques?” “I ought not to allow anybody to enter, Monsieur Robert, but of course the order does not apply to you. These gentlemen of justice have seen everything there is to be seen, and made enough drawings, and drawn up enough reports—” “Excuse me, Monsieur Jacques, one question before anything else,” said Rouletabille. “What is it, young man? If I can answer it—” “Did your mistress wear her hair in bands, that evening?",
   "words": [
     {
-      "word": "sneaking",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "motive",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "motives",
+      "word": "mistress",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1907,
     "source": "Project Gutenberg #1685",
-    "url": "https://www.gutenberg.org/ebooks/1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

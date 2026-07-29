@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-032",
+  "pool": "sourced",
+  "text": "But Captain Nemo went from one opening to another, still going higher. I cannot express my astonishment at the beauties of these new regions. The ice took most surprising forms. Here the grouping formed an oriental town, with innumerable mosques and minarets; there a fallen city thrown to the earth, as it were, by some convulsion of nature. The whole aspect was constantly changed by the oblique rays of the sun, or lost in the greyish fog amidst hurricanes of snow.",
+  "words": [
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

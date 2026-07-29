@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-ethan-frome-024",
+  "pool": "sourced",
+  "text": "As soon as the sledge was loaded he meant to send Jotham back to the farm and hurry on foot into the village to buy the glue for the pickle-dish. With ordinary luck he should have had time to carry out this plan; but everything went wrong from the start. On the way over to the wood-lot one of the greys slipped on a glare of ice and cut his knee; and when they got him up again Jotham had to go back to the barn for a strip of rag to bind the cut. Then, when the loading finally began, a sleety rain was coming down once more, and the tree trunks were so slippery that it took twice as long as usual to lift them and get them in place on the sledge. It was what Jotham called a sour morning for work, and the horses, shivering and stamping under their wet blankets, seemed to like it as little as the men.",
+  "words": [
+    {
+      "word": "barn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "loading",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stamping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

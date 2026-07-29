@@ -1,10 +1,34 @@
 {
   "id": "src-gen-walden-005",
   "pool": "sourced",
-  "text": "If men would steadily observe realities only, and not allow themselves to be deluded, life, to compare it with such things as we know, would be like a fairy tale and the Arabian Nights’ Entertainments. If we respected only what is inevitable and has a right to be, music and poetry would resound along the streets. When we are unhurried and wise, we perceive that only great and worthy things have any permanent and absolute existence,—that petty fears and petty pleasures are but the shadow of the reality. This is always exhilarating and sublime. By closing the eyes and slumbering, and consenting to be deceived by shows, men establish and confirm their daily life of routine and habit everywhere, which still is built on purely illusory foundations.",
+  "text": "Yet so far are we from simplicity and independence that, in Concord, fresh and sweet meal is rarely sold in the shops, and hominy and corn in a still coarser form are hardly used by any. For the most part the farmer gives to his cattle and hogs the grain of his own producing, and buys flour, which is at least no more wholesome, at a greater cost, at the store. I saw that I could easily raise my bushel or two of rye and Indian corn, for the former will grow on the poorest land, and the latter does not require the best, and grind them in a hand-mill, and so do without rice and pork; and if I must have some concentrated sweet, I found by experiment that I could make a very good molasses either of pumpkins or beets, and I knew that I needed only to set out a few maples to obtain it more easily still, and while these were growing I could use various substitutes beside those which I have named.",
   "words": [
     {
-      "word": "fairy",
+      "word": "corn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flour",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wholesome",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rye",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

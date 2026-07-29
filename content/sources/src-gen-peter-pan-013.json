@@ -1,18 +1,12 @@
 {
   "id": "src-gen-peter-pan-013",
   "pool": "sourced",
-  "text": "“Slightly is coughing on the table.” “The twins began with cheese-cakes.” “Curly is taking both butter and honey.” “Nibs is speaking with his mouth full.” “I complain of the twins.” “I complain of Curly.” “I complain of Nibs.” “Oh dear, oh dear,” cried Wendy, “I’m sure I sometimes think that spinsters are to be envied.” She told them to clear away, and sat down to her work-basket, a heavy load of stockings and every knee with a hole in it as usual. “Wendy,” remonstrated Michael, “I’m too big for a cradle.” “I must have somebody in a cradle,” she said almost tartly, “and you are the littlest. A cradle is such a nice homely thing to have about a house.” While she sewed they played around her; such a group of happy faces and dancing limbs lit up by that romantic fire. It had become a very familiar scene, this, in the home under the ground, but we are looking on it for the last time. There was a step above, and Wendy, you may be sure, was the first to recognize it.",
+  "text": "Observe how they pass over fallen twigs without making the slightest noise. The only sound to be heard is their somewhat heavy breathing. The fact is that they are all a little fat just now after the heavy gorging, but in time they will work this off. For the moment, however, it constitutes their chief danger. The redskins disappear as they have come like shadows, and soon their place is taken by the beasts, a great and motley procession: lions, tigers, bears, and the innumerable smaller savage things that flee from them, for every kind of beast, and, more particularly, all the man-eaters, live cheek by jowl on the favoured island.",
   "words": [
     {
-      "word": "coughing",
+      "word": "beasts",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twins",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

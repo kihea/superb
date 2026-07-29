@@ -1,22 +1,16 @@
 {
   "id": "src-gen-heart-of-darkness-017",
   "pool": "sourced",
-  "text": "A light was burning within, but Mr. Kurtz was not there. “I think I would have raised an outcry if I had believed my eyes. But I didn’t believe them at first—the thing seemed so impossible. The fact is I was completely unnerved by a sheer blank fright, pure abstract terror, unconnected with any distinct shape of physical danger. What made this emotion so overpowering was—how shall I define it?—the moral shock I received, as if something altogether monstrous, intolerable to thought and odious to the soul, had been thrust upon me unexpectedly.",
+  "text": "I had to keep guessing at the channel; I had to discern, mostly by inspiration, the signs of hidden banks; I watched for sunken stones; I was learning to clap my teeth smartly before my heart flew out, when I shaved by a fluke some infernal sly old snag that would have ripped the life out of the tin-pot steamboat and drowned all the pilgrims; I had to keep a lookout for the signs of dead wood we could cut up in the night for next day’s steaming. When you have to attend to things of that sort, to the mere incidents of the surface, the reality—the reality, I tell you—fades. The inner truth is hidden—luckily, luckily. But I felt it all the same; I felt often its mysterious stillness watching me at my monkey tricks, just as it watches you fellows performing on your respective tight-ropes for—what is it? half-a-crown a tumble—” “Try to be civil, Marlow,” growled a voice, and I knew there was at least one listener awake besides myself.",
   "words": [
     {
-      "word": "fright",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "altogether",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "thrust",
+      "word": "respective",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

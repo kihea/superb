@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sense-and-sensibility-029",
+  "pool": "sourced",
+  "text": "Elinor was to be the comforter of others in her own distresses, no less than in theirs; and all the comfort that could be given by assurances of her own composure of mind, and a very earnest vindication of Edward from every charge but of imprudence, was readily offered. But Marianne for some time would give credit to neither. Edward seemed a second Willoughby; and acknowledging as Elinor did, that she had loved him most sincerely, could she feel less than herself! As for Lucy Steele, she considered her so totally unamiable, so absolutely incapable of attaching a sensible man, that she could not be persuaded at first to believe, and afterwards to pardon, any former affection of Edward for her. She would not even admit it to have been natural; and Elinor left her to be convinced that it was so, by that which only could convince her, a better knowledge of mankind.",
+  "words": [
+    {
+      "word": "composure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincerely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

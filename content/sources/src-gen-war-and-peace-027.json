@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-027",
+  "pool": "sourced",
+  "text": "Two were occupied, and on the third they placed Prince Andrew. For a little while he was left alone and involuntarily witnessed what was taking place on the other two tables. On the nearest one sat a Tartar, probably a Cossack, judging by the uniform thrown down beside him. Four soldiers were holding him, and a spectacled doctor was cutting into his muscular brown back. “Ooh, ooh, ooh!” grunted the Tartar, and suddenly lifting up his swarthy snub-nosed face with its high cheekbones, and baring his white teeth, he began to wriggle and twitch his body and utter piercing, ringing, and prolonged yells.",
+  "words": [
+    {
+      "word": "twitch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "piercing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

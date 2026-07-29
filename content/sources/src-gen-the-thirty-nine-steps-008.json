@@ -1,34 +1,22 @@
 {
   "id": "src-gen-the-thirty-nine-steps-008",
   "pool": "sourced",
-  "text": "The Adventure of the Spectacled Roadman I sat down on the very crest of the pass and took stock of my position. Behind me was the road climbing through a long cleft in the hills, which was the upper glen of some notable river. In front was a flat space of maybe a mile, all pitted with bog-holes and rough with tussocks, and then beyond it the road fell steeply down another glen to a plain whose blue dimness melted into the distance. To left and right were round-shouldered green hills as smooth as pancakes, but to the south—that is, the left hand—there was a glimpse of high heathery mountains, which I remembered from the map as the big knot of hill which I had chosen for my sanctuary. I was on the central boss of a huge upland country, and could see everything moving for miles.",
+  "text": "Nevertheless I started to run. Crouching low in the runnels of the bog, I ran till the sweat blinded my eyes. The mood did not leave me till I had reached the rim of mountain and flung myself panting on a ridge high above the young waters of the brown river. From my vantage-ground I could scan the whole moor right away to the railway line and to the south of it where green fields took the place of heather. I have eyes like a hawk, but I could see nothing moving in the whole countryside.",
   "words": [
     {
-      "word": "crest",
+      "word": "bog",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "glen",
+      "word": "sweat",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pancakes",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "glimpse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "knot",
+      "word": "moor",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +27,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

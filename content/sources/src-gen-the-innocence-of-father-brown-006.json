@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-006",
   "pool": "sourced",
-  "text": "Blue Beard’s more in my line, and him I like best when he turned into the pantaloon.” “I’m all for making a policeman into sausages,” said John Crook. “It’s a better definition of Socialism than some recently given. But surely the get-up would be too big a business.” “Not a scrap,” cried Blount, quite carried away. “A harlequinade’s the quickest thing we can do, for two reasons. First, one can gag to any degree; and, second, all the objects are household things--tables and towel-horses and washing baskets, and things like that.” “That’s true,” admitted Crook, nodding eagerly and walking about.",
+  "text": "Men of his type walk with a rapid waddle, or they sit still. It could not be any servant or messenger waiting for directions. It did not sound like it. The poorer orders (in an oligarchy) sometimes lurch about when they are slightly drunk, but generally, and especially in such gorgeous scenes, they stand or sit in constrained attitudes. No; that heavy yet springy step, with a kind of careless emphasis, not specially noisy, yet not caring what noise it made, belonged to only one of the animals of this earth.",
   "words": [
     {
-      "word": "towel",
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "messenger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noisy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "caring",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

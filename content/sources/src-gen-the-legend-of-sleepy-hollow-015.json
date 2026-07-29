@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-015",
   "pool": "sourced",
-  "text": "Could that girl have been playing off any of her coquettish tricks? Was her encouragement of the poor pedagogue all a mere sham to secure her conquest of his rival? Heaven only knows, not I! Let it suffice to say, Ichabod stole forth with the air of one who had been sacking a henroost, rather than a fair lady’s heart. Without looking to the right or left to notice the scene of rural wealth, on which he had so often gloated, he went straight to the stable, and with several hearty cuffs and kicks roused his steed most uncourteously from the comfortable quarters in which he was soundly sleeping, dreaming of mountains of corn and oats, and whole valleys of timothy and clover.",
+  "text": "In the mean time, Ichabod would carry on his suit with the daughter by the side of the spring under the great elm, or sauntering along in the twilight, that hour so favorable to the lover’s eloquence. I profess not to know how women’s hearts are wooed and won. To me they have always been matters of riddle and admiration. Some seem to have but one vulnerable point, or door of access; while others have a thousand avenues, and may be captured in a thousand different ways. It is a great triumph of skill to gain the former, but a still greater proof of generalship to maintain possession of the latter, for man must battle for his fortress at every door and window.",
   "words": [
     {
-      "word": "stole",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dreaming",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "valleys",
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-call-of-cthulhu-018",
   "pool": "sourced",
-  "text": "Awe at the unbelievable size of the greenish stone blocks, at the dizzying height of the great carven monolith, and at the stupefying identity of the colossal statues and bas-reliefs with the queer image found in the shrine on the Alert, is poignantly visible in every line of the mate's frightened description. Without knowing what futurism is like, Johansen achieved something very close to it when he spoke of the city; for instead of describing any definite structure or building, he dwells only on the broad impressions of vast angles and stone surfaces--surfaces too great to belong to anything right or proper for this earth, and impious with horrible images and hieroglyphs. I mention his talk about angles because it suggests something Wilcox had told me of his awful dreams. He had said that the geometry of the dream-place he saw was abnormal, non-Euclidean, and loathsomely redolent of spheres and dimensions apart from ours. Now an unlettered seaman felt the same thing whilst gazing at the terrible reality.",
+  "text": "When the stars were right, They could plunge from world to world through the sky; but when the stars were wrong, They could not live. But although They no longer lived, They would never really die. They all lay in stone houses in Their great city of R'lyeh, preserved by the spells of mighty Cthulhu for a glorious resurrection when the stars and the earth might once more be ready for Them. But at that time some force from outside must serve to liberate Their bodies. The spells that preserved Them intact likewise prevented Them from making an initial move, and They could only lie awake in the dark and think whilst uncounted millions of years rolled by.",
   "words": [
     {
-      "word": "colossal",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shrine",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spheres",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dimensions",
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

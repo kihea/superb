@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-heart-of-darkness-021",
+  "pool": "sourced",
+  "text": "About three in the morning some large fish leaped, and the loud splash made me jump as though a gun had been fired. When the sun rose there was a white fog, very warm and clammy, and more blinding than the night. It did not shift or drive; it was just there, standing all round you like something solid. At eight or nine, perhaps, it lifted as a shutter lifts. We had a glimpse of the towering multitude of trees, of the immense matted jungle, with the blazing little ball of the sun hanging over it—all perfectly still—and then the white shutter came down again, smoothly, as if sliding in greased grooves.",
+  "words": [
+    {
+      "word": "splash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glimpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "immense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jungle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sliding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

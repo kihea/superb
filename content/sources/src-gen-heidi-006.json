@@ -1,16 +1,34 @@
 {
   "id": "src-gen-heidi-006",
   "pool": "sourced",
-  "text": "The lady's distressed cries for help had ceased before he had sufficiently regained his composure to go back into the dining- room. It was all peace and quietness there now, Clara had the kittens on her lap, and Heidi was kneeling beside her, both laughing and playing with the tiny, graceful little animals. \"Sebastian,\" exclaimed Clara as he came in, \"you must help us; you must find a bed for the kittens where Fraulein Rottenmeier will not spy them out, for she is so afraid of them that she will send them away at once; but we want to keep them, and have them out whenever we are alone. Where can you put them?\" \"I will see to that,\" answered Sebastian willingly.",
+  "text": "And she continued to dwell with delight on the thought of the child until she went to bed, still saying now and again, \"If only she will come again! Now I have really something left in the world to take pleasure in.\" And Brigitta agreed with all her mother said, and Peter nodded his head in approval each time his grandmother spoke, saying, with a broad smile of satisfaction, \"I told you so!\" Meanwhile Heidi was chattering away to her grandfather from inside her sack; her voice, however, could not reach him through the many thick folds of her wrap, and as therefore it was impossible to understand a word she was saying, he called to her, \"Wait till we get home, and then you can tell me all about it.\" They had no sooner got inside the hut than Heidi, having been released from her covering, at once began what she had to say, \"Grandfather, to-morrow we must take the hammer and the long nails and fasten grandmother's shutter, and drive in a lot more nails in other places, for her house shakes and rattles all over.\"",
   "words": [
     {
-      "word": "regained",
+      "word": "dwell",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "willingly",
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hammer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutter",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,23 @@
 {
   "id": "src-gen-crime-and-punishment-018",
   "pool": "sourced",
-  "text": "“Well, well, come in if you want me; I am here!” he shouted from the window. Raskolnikov went up into the tavern. He found Svidrigaïlov in a tiny back room, adjoining the saloon in which merchants, clerks and numbers of people of all sorts were drinking tea at twenty little tables to the desperate bawling of a chorus of singers. The click of billiard balls could be heard in the distance. On the table before Svidrigaïlov stood an open bottle and a glass half full of champagne.",
+  "text": "You’ll come to it in the end! So does it matter whether it’s sooner or later? There’s the feather-bed element here, brother--ach! and not only that! There’s an attraction here--here you have the end of the world, an anchorage, a quiet haven, the navel of the earth, the three fishes that are the foundation of the world, the essence of pancakes, of savoury fish-pies, of the evening samovar, of soft sighs and warm shawls, and hot stoves to sleep on--as snug as though you were dead, and yet you’re alive--the advantages of both at once!",
   "words": [
     {
-      "word": "saloon",
+      "word": "anchorage",
       "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "haven",
+      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "chorus",
+      "word": "fishes",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +28,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1866,
     "source": "Project Gutenberg #2554",
-    "url": "https://www.gutenberg.org/ebooks/2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-024",
+  "pool": "sourced",
+  "text": "Most striking, perhaps, in their general appearance was the disproportion between the legs of these creatures and the length of their bodies; and yet—so relative is our idea of grace—my eye became habituated to their forms, and at last I even fell in with their persuasion that my own long thighs were ungainly. Another point was the forward carriage of the head and the clumsy and inhuman curvature of the spine. Even the Ape-man lacked that inward sinuous curve of the back which makes the human figure so graceful. Most had their shoulders hunched clumsily, and their short forearms hung weakly at their sides. Few of them were conspicuously hairy, at least until the end of my time upon the island.",
+  "words": [
+    {
+      "word": "persuasion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clumsy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "graceful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

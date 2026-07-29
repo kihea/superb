@@ -1,28 +1,10 @@
 {
   "id": "src-gen-main-street-010",
   "pool": "sourced",
-  "text": "Kennicott drove with clucks of “There boy, take it easy!” He was thinking. He paid no attention to Carol. Yet it was he who commented, “Pretty nice, over there,” as they approached an oak-grove where shifty winter sunlight quivered in the hollow between two snow-drifts. They drove from the natural prairie to a cleared district which twenty years ago had been forest. The country seemed to stretch unchanging to the North Pole: low hill, brush-scraggly bottom, reedy creek, muskrat mound, fields with frozen brown clods thrust up through the snow.",
+  "text": "I don't know what the country's coming to, with these Scandahoofian clodhoppers demanding every cent you can save, and so ignorant and impertinent, and on my word, demanding bath-tubs and everything--as if they weren't mighty good and lucky at home if they got a bath in the wash-tub.” They were off, riding hard. Carol thought of Bea and waylaid them: “But isn't it possibly the fault of the mistresses if the maids are ungrateful? For generations we've given them the leavings of food, and holes to live in. I don't want to boast, but I must say I don't have much trouble with Bea. She's so friendly.",
   "words": [
     {
-      "word": "oak",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grove",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prairie",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mound",
+      "word": "demanding",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Sinclair Lewis",
     "year": 1920,
     "source": "Project Gutenberg #543",
-    "url": "https://www.gutenberg.org/ebooks/543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

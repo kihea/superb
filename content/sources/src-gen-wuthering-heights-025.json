@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-wuthering-heights-025",
+  "pool": "sourced",
+  "text": "I wonder what lies on the other side—is it the sea?” “No, Miss Cathy,” I would answer; “it is hills again, just like these.” “And what are those golden rocks like when you stand under them?” she once asked. The abrupt descent of Penistone Crags particularly attracted her notice; especially when the setting sun shone on it and the topmost heights, and the whole extent of landscape besides lay in shadow. I explained that they were bare masses of stone, with hardly enough earth in their clefts to nourish a stunted tree. “And why are they bright so long after it is evening here?” she pursued. “Because they are a great deal higher up than we are,” replied I; “you could not climb them, they are too high and steep.",
+  "words": [
+    {
+      "word": "bare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "masses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

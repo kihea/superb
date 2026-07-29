@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anne-of-green-gables-014",
   "pool": "sourced",
-  "text": "I found it rather hard to imagine the proposal because I had no experience to go by. I asked Ruby Gillis if she knew anything about how men proposed because I thought she’d likely be an authority on the subject, having so many sisters married. Ruby told me she was hid in the hall pantry when Malcolm Andres proposed to her sister Susan. She said Malcolm told Susan that his dad had given him the farm in his own name and then said, ‘What do you say, darling pet, if we get hitched this fall?’ And Susan said, ‘Yes--no--I don’t know--let me see’--and there they were, engaged as quick as that. But I didn’t think that sort of a proposal was a very romantic one, so in the end I had to imagine it out as well as I could.",
+  "text": "You’ll go to school tomorrow as usual.” “Oh, no.” Anne shook her head gently. “I’m not going back, Marilla. I’ll learn my lessons at home and I’ll be as good as I can be and hold my tongue all the time if it’s possible at all. But I will not go back to school, I assure you.” Marilla saw something remarkably like unyielding stubbornness looking out of Anne’s small face. She understood that she would have trouble in overcoming it; but she resolved wisely to say nothing more just then.",
   "words": [
     {
-      "word": "darling",
+      "word": "overcoming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wisely",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

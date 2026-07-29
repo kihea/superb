@@ -1,34 +1,40 @@
 {
   "id": "src-gen-the-old-curiosity-shop-015",
   "pool": "sourced",
-  "text": "‘I don’t know.’ ‘What’s your name?’ ‘Nothing.’ ‘Nonsense!’ retorted Quilp. ‘What does your mistress call you when she wants you?’ ‘A little devil,’ said the child. She added in the same breath, as if fearful of any further questioning, ‘But please will you leave a card or message?’ These unusual answers might naturally have provoked some more inquiries. Quilp, however, without uttering another word, withdrew his eyes from the small servant, stroked his chin more thoughtfully than before, and then, bending over the note as if to direct it with scrupulous and hair-breadth nicety, looked at her, covertly but very narrowly, from under his bushy eyebrows. The result of this secret survey was, that he shaded his face with his hands, and laughed slyly and noiselessly, until every vein in it was swollen almost to bursting.",
+  "text": "The other half served for a kitchen, and was fitted up with a stove whose small chimney passed through the roof. It held also a closet or larder, several chests, a great pitcher of water, and a few cooking-utensils and articles of crockery. These latter necessaries hung upon the walls, which, in that portion of the establishment devoted to the lady of the caravan, were ornamented with such gayer and lighter decorations as a triangle and a couple of well-thumbed tambourines. The lady of the caravan sat at one window in all the pride and poetry of the musical instruments, and little Nell and her grandfather sat at the other in all the humility of the kettle and saucepans, while the machine jogged on and shifted the darkening prospect very slowly. At first the two travellers spoke little, and only in whispers, but as they grew more familiar with the place they ventured to converse with greater freedom, and talked about the country through which they were passing, and the different objects that presented themselves, until the old man fell asleep; which the lady of the caravan observing, invited Nell to come and sit beside her.",
   "words": [
     {
-      "word": "questioning",
+      "word": "closet",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "inquiries",
+      "word": "chests",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "pitcher",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "chin",
+      "word": "caravan",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "narrowly",
+      "word": "kettle",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "eyebrows",
+      "word": "prospect",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +45,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

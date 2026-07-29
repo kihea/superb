@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-032",
+  "pool": "sourced",
+  "text": "One of them, a person of a certain age, in spectacles, with a fresh complexion and a full cheek, had a more discriminating manner than her colleague, as well as the responsibility of their errand, which apparently related to the young girl. This object of interest wore her hat--an ornament of extreme simplicity and not at variance with her plain muslin gown, too short for her years, though it must already have been “let out.” The gentleman who might have been supposed to be entertaining the two nuns was perhaps conscious of the difficulties of his function, it being in its way as arduous to converse with the very meek as with the very mighty. At the same time he was clearly much occupied with their quiet charge, and while she turned her back to him his eyes rested gravely on her slim, small figure. He was a man of forty, with a high but well-shaped head, on which the hair, still dense, but prematurely grizzled, had been cropped close.",
+  "words": [
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "arduous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prematurely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cropped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,18 +1,12 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-020",
   "pool": "sourced",
-  "text": "The old gentleman could not be decoyed outside of his grounds at night. Several times Stapleton lurked about with his hound, but without avail. It was during these fruitless quests that he, or rather his ally, was seen by peasants, and that the legend of the demon dog received a new confirmation. He had hoped that his wife might lure Sir Charles to his ruin, but here she proved unexpectedly independent. She would not endeavour to entangle the old gentleman in a sentimental attachment which might deliver him over to his enemy.",
+  "text": "But there is nothing to eat unless he were to catch and slaughter one of the moor sheep. We think, therefore, that he has gone, and the outlying farmers sleep the better in consequence. We are four able-bodied men in this household, so that we could take good care of ourselves, but I confess that I have had uneasy moments when I have thought of the Stapletons. They live miles from any help. There are one maid, an old manservant, the sister, and the brother, the latter not a very strong man.",
   "words": [
     {
-      "word": "hound",
+      "word": "maid",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sentimental",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

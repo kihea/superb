@@ -1,16 +1,22 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-017",
   "pool": "sourced",
-  "text": "We went through the yard so as to see what the hounds would do. They knowed us, and didn’t make no more noise than country dogs is always doing when anything comes by in the night. When we got to the cabin we took a look at the front and the two sides; and on the side I warn’t acquainted with—which was the north side—we found a square window-hole, up tolerable high, with just one stout board nailed across it. I says: “Here’s the ticket. This hole’s big enough for Jim to get through if we wrench off the board.” Tom says: “It’s as simple as tit-tat-toe, three-in-a-row, and as easy as playing hooky.",
+  "text": "Once there was a thick fog, and the rafts and things that went by was beating tin pans so the steamboats wouldn’t run over them. A scow or a raft went by so close we could hear them talking and cussing and laughing—heard them plain; but we couldn’t see no sign of them; it made you feel crawly; it was like spirits carrying on that way in the air. Jim said he believed it was spirits; but I says: “No; spirits wouldn’t say, ‘Dern the dern fog.’” Soon as it was night out we shoved; when we got her out to about the middle we let her alone, and let her float wherever the current wanted her to; then we lit the pipes, and dangled our legs in the water, and talked about all kinds of things—we was always naked, day and night, whenever the mosquitoes would let us—the new clothes Buck’s folks made for me was too good to be comfortable, and besides I didn’t go much on clothes, nohow. Sometimes we’d have that whole river all to ourselves for the longest time.",
   "words": [
     {
-      "word": "cabin",
+      "word": "fog",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "warn",
+      "word": "raft",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

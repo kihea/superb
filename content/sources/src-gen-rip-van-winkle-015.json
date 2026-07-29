@@ -1,30 +1,18 @@
 {
   "id": "src-gen-rip-van-winkle-015",
   "pool": "sourced",
-  "text": "The very character of the people seemed changed. There was a busy, bustling, disputatious tone about it, instead of the accustomed phlegm and drowsy tranquillity. He looked in vain for the sage Nicholas Vedder, with his broad face, double chin, and fair long pipe, uttering clouds of tobacco-smoke instead of idle speeches; or Van Bummel, the schoolmaster, doling forth the contents of an ancient newspaper. In place of these, a lean, bilious-looking fellow, with his pockets full of handbills, was haranguing vehemently about rights of citizens--elections--members of congress--liberty--Bunker’s Hill--heroes of seventy-six--and other words, which were a perfect Babylonish jargon to the bewildered Van Winkle. The appearance of Rip, with his long, grizzled beard, his rusty fowling-piece, his uncouth dress, and an army of women and children at his heels, soon attracted the attention of the tavern politicians.",
+  "text": "The strange man with a keg of liquor--the mountain ravine--the wild retreat among the rocks--the woebegone party at ninepins--the flagon--“Oh! that flagon! that wicked flagon!” thought Rip,--“what excuse shall I make to Dame Van Winkle?” He looked round for his gun, but in place of the clean, well-oiled fowling-piece, he found an old firelock lying by him, the barrel incrusted with rust, the lock falling off, and the stock worm-eaten. He now suspected that the grave roysterers of the mountains had put a trick upon him, and, having dosed him with liquor, had robbed him of his gun. Wolf, too, had disappeared, but he might have strayed away after a squirrel or partridge.",
   "words": [
     {
-      "word": "vain",
+      "word": "barrel",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "chin",
+      "word": "rust",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "speeches",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "beard",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -33,7 +21,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

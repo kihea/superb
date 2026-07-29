@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-034",
+  "pool": "sourced",
+  "text": "“In order that his wounds might be examined he was undressed, and his clothes were thrown into a corner, where the police picked them up, with the exception of the waistcoat, which they overlooked.” Andrea turned pale, and drew towards the door; he saw a cloud rising in the horizon, which appeared to forebode a coming storm. “Well, this waistcoat was discovered today, covered with blood, and with a hole over the heart.” The ladies screamed, and two or three prepared to faint. “It was brought to me. No one could guess what the dirty rag could be; I alone suspected that it was the waistcoat of the murdered man. My valet, in examining this mournful relic, felt a paper in the pocket and drew it out; it was a letter addressed to you, baron.” “To me?” cried Danglars.",
+  "words": [
+    {
+      "word": "rag",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "valet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

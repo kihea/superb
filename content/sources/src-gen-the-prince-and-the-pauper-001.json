@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-001",
   "pool": "sourced",
-  "text": "ver for poor and forsaken children, and new-named it Christ’s Church. Right gladly will they serve the son of him who hath done so generously by them--and the more that that son is himself as poor and as forlorn as any that be sheltered here this day, or ever shall be.” He was soon in the midst of a crowd of boys who were running, jumping, playing at ball and leap-frog, and otherwise disporting themselves, and right noisily, too. They were all dressed alike, and in the fashion which in that day prevailed among serving-men and ‘prentices{1}--that is to say, each had on the crown of his head a flat black cap about the size of a saucer, which was not useful as a covering, it being of such scanty dimensions, neither was it ornamental; from beneath it the hair fell, unparted, to the middle of the forehead, and was cropped straight around; a clerical band at the neck; a blue gown that fitted closely and hung as low as the knees or lower; full sleeves; a broad red belt; bright yellow stockings, gartered above the knees; low shoes with large metal buckles. It was a sufficiently ugly costume.",
+  "text": "The boys stopped their play and flocked about the prince, who said with native dignity-- “Good lads, say to your master that Edward Prince of Wales desireth speech with him.” A great shout went up at this, and one rude fellow said-- “Marry, art thou his grace’s messenger, beggar?” The prince’s face flushed with anger, and his ready hand flew to his hip, but there was nothing there. There was a storm of laughter, and one boy said-- “Didst mark that? He fancied he had a sword--belike he is the prince himself.” This sally brought more laughter. Poor Edward drew himself up proudly and said-- “I am the prince; and it ill beseemeth you that feed upon the king my father’s bounty to use me so.” This was vastly enjoyed, as the laughter testified. The youth who had first spoken, shouted to his comrades-- “Ho, swine, slaves, pensioners of his grace’s princely father, where be your manners?",
   "words": [
     {
-      "word": "midst",
+      "word": "shout",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "prevailed",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "ornamental",
+      "word": "messenger",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "knees",
+      "word": "flushed",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

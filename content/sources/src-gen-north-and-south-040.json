@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-north-and-south-040",
+  "pool": "sourced",
+  "text": "Could he stand? Night after night he took books and papers into his own private room, and sate up there long after the family were gone to bed. He thought no one knew of this occupation of the hours he should have spent in sleep. One morning, when daylight was stealing in through the crevices of his shutters, and he had never been in bed, and, in hopeless indifference of mind, was thinking that he could do without the hour or two of rest, which was all that he should be able to take before the stir of daily labour began again, the door of his room opened, and his mother stood there, dressed as she had been the day before. She had never laid herself down to slumber any more than he.",
+  "words": [
+    {
+      "word": "occupation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hopeless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slumber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

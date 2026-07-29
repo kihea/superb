@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-022",
+  "pool": "sourced",
+  "text": "Being disturbed now, it scampered away. The boy smiled, and said, “Poor fool, why so fearful? I am as forlorn as thou. ‘Twould be a sham in me to hurt the helpless, who am myself so helpless. Moreover, I owe you thanks for a good omen; for when a king has fallen so low that the very rats do make a bed of him, it surely meaneth that his fortunes be upon the turn, since it is plain he can no lower go.” He got up and stepped out of the stall, and just then he heard the sound of children’s voices.",
+  "words": [
+    {
+      "word": "moreover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "omen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

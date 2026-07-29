@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-age-of-innocence-006",
   "pool": "sourced",
-  "text": "The popularity of the admirable English company was at its height, and the Shaughraun always packed the house. In the galleries the enthusiasm was unreserved; in the stalls and boxes, people smiled a little at the hackneyed sentiments and clap-trap situations, and enjoyed the play as much as the galleries did. There was one episode, in particular, that held the house from floor to ceiling. It was that in which Harry Montague, after a sad, almost monosyllabic scene of parting with Miss Dyas, bade her good-bye, and turned to go. The actress, who was standing near the mantelpiece and looking down into the fire, wore a gray cashmere dress without fashionable loopings or trimmings, moulded to her tall figure and flowing in long lines about her feet.",
+  "text": "Wherever I go I have that feeling. That's why I came home. I want to forget everything else, to become a complete American again, like the Mingotts and Wellands, and you and your delightful mother, and all the other good people here tonight. Ah, here's May arriving, and you will want to hurry away to her,\" she added, but without moving; and her eyes turned back from the door to rest on the young man's face. The drawing-rooms were beginning to fill up with after-dinner guests, and following Madame Olenska's glance Archer saw May Welland entering with her mother.",
   "words": [
     {
-      "word": "smiled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flowing",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

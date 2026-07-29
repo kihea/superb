@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-014",
   "pool": "sourced",
-  "text": "Tale of Desperate Battle and Deaths at Sea. Rescued Seaman Refuses Particulars of Strange Experience. Odd Idol Found in His Possession. Inquiry to Follow. * * * * * The Morrison Co.'s freighter Vigilant, bound from Valparaiso, arrived this morning at its wharf in Darling Harbour, having in tow the battled and disabled but heavily armed steam yacht Alert of Dunedin, N. Z., which was sighted April 12th in S. Latitude 34° 21', W. Longitude 152° 17', with one living and one dead man aboard.",
+  "text": "The image on the monolith, of course, was carefully removed and carried back by Legrasse. Examined at headquarters after a trip of intense strain and weariness, the prisoners all proved to be men of a very low, mixed-blooded, and mentally aberrant type. Most were seamen, and a sprinkling of negroes and mulattoes, largely West Indians or Brava Portuguese from the Cape Verde Islands, gave a coloring of voodooism to the heterogeneous cult. But before many questions were asked, it became manifest that something far deeper and older than negro fetishism was involved. Degraded and ignorant as they were, the creatures held with surprizing consistency to the central idea of their loathsome faith.",
   "words": [
     {
-      "word": "tow",
+      "word": "mentally",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coloring",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

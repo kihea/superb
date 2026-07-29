@@ -1,22 +1,22 @@
 {
   "id": "src-gen-the-mysterious-island-015",
   "pool": "sourced",
-  "text": "The sun had disappeared twenty minutes ago behind Granite House. Consequently the Eastern horizon was becoming obscured. In the meanwhile the brig continued to advance towards Union Bay. She was now not more than two miles off, and exactly opposite the plateau of Prospect Heights, for after having tacked off Claw Cape, she had drifted towards the north in the current of the rising tide. One might have said that at this distance she had already entered the vast bay, for a straight line drawn from Claw Cape to Cape Mandible would have rested on her starboard quarter.",
+  "text": "Pieces of bark, fastened one to the other, would form a light boat; and in case of natural obstacles, which would render a portage necessary, it would be easily carried. Pencroft intended to secure the pieces of bark by means of nails, to insure the canoe being water-tight. It was first necessary to select the trees which would afford a strong and supple bark for the work. Now the last storm had brought down a number of large birch-trees, the bark of which would be perfectly suited for their purpose. Some of these trees lay on the ground, and they had only to be barked, which was the most difficult thing of all, owing to the imperfect tools which the settlers possessed.",
   "words": [
     {
-      "word": "horizon",
+      "word": "insure",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "brig",
+      "word": "canoe",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tide",
+      "word": "birch",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

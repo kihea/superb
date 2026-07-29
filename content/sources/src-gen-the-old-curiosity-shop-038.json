@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-old-curiosity-shop-038",
+  "pool": "sourced",
+  "text": "Mr Garland has a coach waiting in a neighbouring street, and, taking Kit inside with him, bids the man drive home. At first, they can only travel at a foot pace, and then with torches going on before, because of the heavy fog. But, as they get farther from the river, and leave the closer portions of the town behind, they are able to dispense with this precaution and to proceed at a brisker rate. On the road, hard galloping would be too slow for Kit; but, when they are drawing near their journey’s end, he begs they may go more slowly, and, when the house appears in sight, that they may stop--only for a minute or two, to give him time to breathe. But there is no stopping then, for the old gentleman speaks stoutly to him, the horses mend their pace, and they are already at the garden-gate.",
+  "words": [
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Old Curiosity Shop",
+    "author": "Charles Dickens",
+    "year": 1841,
+    "source": "Project Gutenberg #700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

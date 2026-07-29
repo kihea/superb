@@ -1,10 +1,16 @@
 {
   "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-014",
   "pool": "sourced",
-  "text": "And even granting some impediment, why was this gentleman to be received by me in secret? The more I reflected the more convinced I grew that I was dealing with a case of cerebral disease; and though I dismissed my servants to bed, I loaded an old revolver, that I might be found in some posture of self-defence. Twelve o’clock had scarce rung out over London, ere the knocker sounded very gently on the door. I went myself at the summons, and found a small man crouching against the pillars of the portico. “Are you come from Dr. Jekyll?” I asked.",
+  "text": "Much of his past was unearthed, indeed, and all disreputable: tales came out of the man’s cruelty, at once so callous and violent; of his vile life, of his strange associates, of the hatred that seemed to have surrounded his career; but of his present whereabouts, not a whisper. From the time he had left the house in Soho on the morning of the murder, he was simply blotted out; and gradually, as time drew on, Mr. Utterson began to recover from the hotness of his alarm, and to grow more at quiet with himself. The death of Sir Danvers was, to his way of thinking, more than paid for by the disappearance of Mr. Hyde. Now that that evil influence had been withdrawn, a new life began for Dr. Jekyll. He came out of his seclusion, renewed relations with his friends, became once more their familiar guest and entertainer; and whilst he had always been known for charities, he was now no less distinguished for religion.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distinguished",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

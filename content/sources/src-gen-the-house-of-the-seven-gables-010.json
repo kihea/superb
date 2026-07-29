@@ -1,52 +1,10 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-010",
   "pool": "sourced",
-  "text": "In fact, it was sometimes observable that Clifford half wilfully hid from himself the consciousness of being stricken in years, and cherished visions of an earthly future still before him; visions, however, too indistinctly drawn to be followed by disappointment—though, doubtless, by depression—when any casual incident or recollection made him sensible of the withered leaf. So this oddly composed little social party used to assemble under the ruinous arbor. Hepzibah—stately as ever at heart, and yielding not an inch of her old gentility, but resting upon it so much the more, as justifying a princess-like condescension—exhibited a not ungraceful hospitality. She talked kindly to the vagrant artist, and took sage counsel—lady as she was—with the wood-sawyer, the messenger of everybody’s petty errands, the patched philosopher. And Uncle Venner, who had studied the world at street-corners, and other posts equally well adapted for just observation, was as ready to give out his wisdom as a town-pump to give water.",
+  "text": "And yet, if you could only see the benign smile of the original! It is so much the more unfortunate, as he is a public character of some eminence, and the likeness was intended to be engraved.” “Well, I don’t wish to see it any more,” observed Phœbe, turning away her eyes. “It is certainly very like the old portrait. But my cousin Hepzibah has another picture,—a miniature. If the original is still in the world, I think he might defy the sun to make him look stern and hard.” “You have seen that picture, then!” exclaimed the artist, with an expression of much interest.",
   "words": [
     {
-      "word": "earthly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sensible",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "yielding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sawyer",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "petty",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "patched",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "philosopher",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "observation",
+      "word": "likeness",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +15,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

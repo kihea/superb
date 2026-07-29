@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-carmilla-039",
+  "pool": "sourced",
+  "text": "The grave of the Countess Mircalla was opened; and the General and my father recognized each his perfidious and beautiful guest, in the face now disclosed to view. The features, though a hundred and fifty years had passed since her funeral, were tinted with the warmth of life. Her eyes were open; no cadaverous smell exhaled from the coffin. The two medical men, one officially present, the other on the part of the promoter of the inquiry, attested the marvelous fact that there was a faint but appreciable respiration, and a corresponding action of the heart. The limbs were perfectly flexible, the flesh elastic; and the leaden coffin floated with blood, in which to a depth of seven inches, the body lay immersed.",
+  "words": [
+    {
+      "word": "coffin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "promoter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flesh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

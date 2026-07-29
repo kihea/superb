@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-black-beauty-022",
+  "pool": "sourced",
+  "text": "Then these cockneys, instead of starting at an easy pace, as a gentleman would do, generally set off at full speed from the very stable-yard; and when they want to stop, they first whip us, and then pull up so suddenly that we are nearly thrown on our haunches, and our mouths jagged with the bit--they call that pulling up with a dash; and when they turn a corner they do it as sharply as if there were no right side or wrong side of the road. I well remember one spring evening I and Rory had been out for the day. (Rory was the horse that mostly went with me when a pair was ordered, and a good honest fellow he was.) We had our own driver, and as he was always considerate and gentle with us, we had a very pleasant day. We were coming home at a good smart pace, about twilight.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

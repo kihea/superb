@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-029",
+  "pool": "sourced",
+  "text": "“It wasn’t Ethan’s fault, Zeena! The cat did break the dish; but I got it down from the china-closet, and I’m the one to blame for its getting broken.” Zeena stood beside the ruin of her treasure, stiffening into a stony image of resentment, “You got down my pickle-dish—what for?” A bright flush flew to Mattie’s cheeks. “I wanted to make the supper-table pretty,” she said. “You wanted to make the supper-table pretty; and you waited till my back was turned, and took the thing I set most store by of anything I’ve got, and wouldn’t never use it, not even when the minister come to dinner, or Aunt Martha Pierce come over from Bettsbridge—” Zeena paused with a gasp, as if terrified by her own evocation of the sacrilege. “You’re a bad girl, Mattie Silver, and I always known it.",
+  "words": [
+    {
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resentment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

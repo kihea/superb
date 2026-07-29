@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-027",
+  "pool": "sourced",
+  "text": "The incidents of the next few days are indelibly graven upon my recollection, and I can tell them without reference to the notes made at the time. I start them from the day which succeeded that upon which I had established two facts of great importance, the one that Mrs. Laura Lyons of Coombe Tracey had written to Sir Charles Baskerville and made an appointment with him at the very place and hour that he met his death, the other that the lurking man upon the moor was to be found among the stone huts upon the hillside. With these two facts in my possession I felt that either my intelligence or my courage must be deficient if I could not throw some further light upon these dark places. I had no opportunity to tell the baronet what I had learned about Mrs. Lyons upon the evening before, for Dr. Mortimer remained with him at cards until it was very late. At breakfast, however, I informed him about my discovery and asked him whether he would care to accompany me to Coombe Tracey.",
+  "words": [
+    {
+      "word": "lurking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

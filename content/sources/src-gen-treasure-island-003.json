@@ -1,28 +1,10 @@
 {
   "id": "src-gen-treasure-island-003",
   "pool": "sourced",
-  "text": "Hawkins, will you ring that bell? Mr. Dance must have some ale.” “And so, Jim,” said the doctor, “you have the thing that they were after, have you?” “Here it is, sir,” said I, and gave him the oilskin packet. The doctor looked it all over, as if his fingers were itching to open it; but instead of doing that, he put it quietly in the pocket of his coat. “Squire,” said he, “when Dance has had his ale he must, of course, be off on his Majesty’s service; but I mean to keep Jim Hawkins here to sleep at my house, and with your permission, I propose we should have up the cold pie and let him sup.” “As you will, Livesey,” said the squire; “Hawkins has earned better than cold pie.” So a big pigeon pie was brought in and put on a sidetable, and I made a hearty supper, for I was as hungry as a hawk, while Mr. Dance was further complimented and at last dismissed. “And now, squire,” said the doctor.",
+  "text": "“Mother,” said I, “take the whole and let’s be going,” for I was sure the bolted door must have seemed suspicious and would bring the whole hornet’s nest about our ears, though how thankful I was that I had bolted it, none could tell who had never met that terrible blind man. But my mother, frightened as she was, would not consent to take a fraction more than was due to her and was obstinately unwilling to be content with less. It was not yet seven, she said, by a long way; she knew her rights and she would have them; and she was still arguing with me when a little low whistle sounded a good way off upon the hill. That was enough, and more than enough, for both of us. “I’ll take what I have,” she said, jumping to her feet.",
   "words": [
     {
-      "word": "ale",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "itching",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "propose",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dismissed",
+      "word": "fraction",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

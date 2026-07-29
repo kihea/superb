@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-custom-of-the-country-002",
   "pool": "sourced",
-  "text": "Material resources were limited on both sides of the house, but there would always be enough for his frugal wants--enough to buy books (not \"editions\"), and pay now and then for a holiday dash to the great centres of art and ideas. And meanwhile there was the world of wonders within him. As a boy at the sea-side, Ralph, between tides, had once come on a cave--a secret inaccessible place with glaucous lights, mysterious murmurs, and a single shaft of communication with the sky. He had kept his find from the other boys, not churlishly, for he was always an outspoken lad, but because he felt there were things about the cave that the others, good fellows as they all were, couldn't be expected to understand, and that, anyhow, it would never be quite his cave again after he had let his thick-set freckled cousins play smuggler and pirate in it. And so with his inner world.",
+  "text": "A brief murmur from Mr. Popple made his companion known to the two ladies, and Mr. Van Degen promptly seated himself behind Undine, relegating the painter to Mrs. Lipscomb's elbow. \"Queer go--I happened to see your friend there waving to old Popp across the house. So I bolted over and collared him: told him he'd got to introduce me before he was a minute older. I tried to find out who you were the other day at the Motor Show--no, where was it? Oh, those pictures at Goldmark's.",
   "words": [
     {
-      "word": "tides",
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lad",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pirate",
+      "word": "painter",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1913,
     "source": "Project Gutenberg #11052",
-    "url": "https://www.gutenberg.org/ebooks/11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

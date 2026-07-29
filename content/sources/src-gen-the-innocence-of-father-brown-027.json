@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-027",
+  "pool": "sourced",
+  "text": "Almost as he had the thought the ringing of the rapiers quickened to a rattle, the prince’s arms flew up, and the point shot out behind between his shoulder-blades. He went over with a great whirling movement, almost like one throwing the half of a boy’s cart-wheel. The sword flew from his hand like a shooting star, and dived into the distant river. And he himself sank with so earth-shaking a subsidence that he broke a big rose-tree with his body and shook up into the sky a cloud of red earth--like the smoke of some heathen sacrifice. The Sicilian had made blood-offering to the ghost of his father.",
+  "words": [
+    {
+      "word": "rattle",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

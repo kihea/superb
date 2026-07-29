@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-gulliver-s-travels-021",
+  "pool": "sourced",
+  "text": "And, as truth always forces its way into rational minds, so this honest worthy gentleman, who had some tincture of learning, and very good sense, was immediately convinced of my candour and veracity. But further to confirm all I had said, I entreated him to give order that my cabinet should be brought, of which I had the key in my pocket; for he had already informed me how the seamen disposed of my closet. I opened it in his own presence, and showed him the small collection of rarities I made in the country from which I had been so strangely delivered. There was the comb I had contrived out of the stumps of the king’s beard, and another of the same materials, but fixed into a paring of her majesty’s thumb-nail, which served for the back. There was a collection of needles and pins, from a foot to half a yard long; four wasp stings, like joiner’s tacks; some combings of the queen’s hair; a gold ring, which one day she made me a present of, in a most obliging manner, taking it from her little finger, and throwing it over my head like a collar.",
+  "words": [
+    {
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strangely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contrived",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thumb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-call-of-cthulhu-016",
   "pool": "sourced",
-  "text": "March 1st--our February 28th according to the International Date Line--the earthquake and storm had come. From Dunedin the Alert and her noisome crew had darted eagerly forth as if imperiously summoned, and on the other side of the earth poets and artists had begun to dream of a strange, dank Cyclopean city whilst a young sculptor had molded in his sleep the form of the dreaded Cthulhu. March 23rd the crew of the Emma landed on an unknown island and left six men dead; and on that date the dreams of sensitive men assumed a heightened vividness and darkened with dread of a giant monster's malign pursuit, whilst an architect had gone mad and a sculptor had lapsed suddenly into delirium! And what of this storm of April 2nd--the date on which all dreams of the dank city ceased, and Wilcox emerged unharmed from the bondage of strange fever? What of all this--and of those hints of old Castro about the sunken, star-born Old Ones and their coming reign; their faithful cult and their mastery of dreams?",
+  "text": "All denied a part in the ritual murders, and averred that the killing had been done by Black-winged Ones which had come to them from their immemorial meeting-place in the haunted wood. But of those mysterious allies no coherent account could ever be gained. What the police did extract came mainly from an immensely aged mestizo named Castro, who claimed to have sailed to strange ports and talked with undying leaders of the cult in the mountains of China. Old Castro remembered bits of hideous legend that paled the speculations of theosophists and made man and the world seem recent and transient indeed. There had been eons when other Things ruled on the earth, and They had had great cities.",
   "words": [
     {
-      "word": "molded",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "emerged",
+      "word": "immensely",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

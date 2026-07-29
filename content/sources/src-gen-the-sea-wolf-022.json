@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-sea-wolf-022",
+  "pool": "sourced",
+  "text": "We ran down the flying jib, hauled the jib-sheets to wind-ward and the main-sheet flat, and came up into the wind. The oars struck the water, and with a few strokes the boat was alongside. I now caught my first fair glimpse of the woman. She was wrapped in a long ulster, for the morning was raw; and I could see nothing but her face and a mass of light brown hair escaping from under the seaman’s cap on her head. The eyes were large and brown and lustrous, the mouth sweet and sensitive, and the face itself a delicate oval, though sun and exposure to briny wind had burnt the face scarlet.",
+  "words": [
+    {
+      "word": "glimpse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ulster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

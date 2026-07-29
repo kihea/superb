@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-main-street-021",
+  "pool": "sourced",
+  "text": "After breakfast Carol bustled to a hair-dresser's, bought gloves and a blouse, and importantly met Kennicott in front of an optician's, in accordance with plans laid down, revised, and verified. They admired the diamonds and furs and frosty silverware and mahogany chairs and polished morocco sewing-boxes in shop-windows, and were abashed by the throngs in the department-stores, and were bullied by a clerk into buying too many shirts for Kennicott, and gaped at the “clever novelty perfumes--just in from New York.” Carol got three books on the theater, and spent an exultant hour in warning herself that she could not afford this rajah-silk frock, in thinking how envious it would make Juanita Haydock, in closing her eyes, and buying it. Kennicott went from shop to shop, earnestly hunting down a felt-covered device to keep the windshield of his car clear of rain. They dined extravagantly at their hotel at night, and next morning sneaked round the corner to economize at a Childs' Restaurant.",
+  "words": [
+    {
+      "word": "mahogany",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "novelty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "windshield",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

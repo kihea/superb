@@ -1,10 +1,28 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-018",
   "pool": "sourced",
-  "text": "However, after a lapse of twelve hours, we had only raised a block of ice one yard thick, on the marked surface, which was about 600 cubic yards! Reckoning that it took twelve hours to accomplish this much it would take five nights and four days to bring this enterprise to a satisfactory conclusion. Five nights and four days! And we have only air enough for two days in the reservoirs! “Without taking into account,” said Ned, “that, even if we get out of this infernal prison, we shall also be imprisoned under the iceberg, shut out from all possible communication with the atmosphere.” True enough!",
+  "text": "Some chiefs had ornamented their necks with a crescent and collars of glass beads, red and white; nearly all were armed with bows, arrows, and shields and carried on their shoulders a sort of net containing those round stones which they cast from their slings with great skill. One of these chiefs, rather near to the Nautilus, examined it attentively. He was, perhaps, a “mado” of high rank, for he was draped in a mat of banana-leaves, notched round the edges, and set off with brilliant colours. I could easily have knocked down this native, who was within a short length; but I thought that it was better to wait for real hostile demonstrations. Between Europeans and savages, it is proper for the Europeans to parry sharply, not to attack.",
   "words": [
     {
-      "word": "reckoning",
+      "word": "crescent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "arrows",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parry",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anne-of-green-gables-019",
   "pool": "sourced",
-  "text": "Or the pink lady, kind and nice as she is, so stout and short that you’d really no figure at all? Or even Mrs. Evans, with that sad, sad look in her eyes? She must have been dreadfully unhappy sometime to have such a look. You know you wouldn’t, Jane Andrews!” “I don’t know--exactly,” said Jane unconvinced. “I think diamonds would comfort a person for a good deal.” “Well, I don’t want to be anyone but myself, even if I go uncomforted by diamonds all my life,” declared Anne.",
+  "text": "I never saw anything like the eyes of her when she was explaining the case to me.” Anne had gone home in the wonderful, white-frosted winter morning, heavy eyed from loss of sleep, but still talking unweariedly to Matthew as they crossed the long white field and walked under the glittering fairy arch of the Lover’s Lane maples. “Oh, Matthew, isn’t it a wonderful morning? The world looks like something God had just imagined for His own pleasure, doesn’t it? Those trees look as if I could blow them away with a breath--pouf! I’m so glad I live in a world where there are white frosts, aren’t you?",
   "words": [
     {
-      "word": "unhappy",
+      "word": "eyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

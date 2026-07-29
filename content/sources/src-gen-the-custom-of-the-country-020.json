@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-custom-of-the-country-020",
   "pool": "sourced",
-  "text": "Mrs. Spragg's letters gave the impression that the days of big strokes were over for her husband, that he had gone down in the conflict with forces beyond his measure. If he had remained in Apex the tide of its new prosperity might have carried him to wealth; but New York's huge waves of success had submerged instead of floating him, and Rolliver's enmity was a hand perpetually stretched out to strike him lower. At most, Mr. Spragg's tenacity would keep him at the level he now held, and though he and his wife had still further simplified their way of living Undine understood that their self-denial would not increase her opportunities. She felt no compunction in continuing to accept an undiminished allowance: it was the hereditary habit of the parent animal to despoil himself for his progeny. But this conviction did not seem incompatible with a sentimental pity for her parents.",
+  "text": "As she spoke she tossed the telegram into the basket beneath the writing-table. \"As if I didn't HAVE to go anyhow?\" she exclaimed. With an aching clearness of vision she saw what lay before her--the hurried preparations, the long tedious voyage on a steamer chosen at haphazard, the arrival in the deadly July heat, and the relapse into all the insufferable daily fag of nursery and kitchen--she saw it and her imagination recoiled. Van Degen's eyes still hung on her: she guessed that he was intensely engaged in trying to follow what was passing through her mind.",
   "words": [
     {
-      "word": "tide",
+      "word": "preparations",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "conviction",
+      "word": "voyage",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1913,
     "source": "Project Gutenberg #11052",
-    "url": "https://www.gutenberg.org/ebooks/11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

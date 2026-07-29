@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-040",
+  "pool": "sourced",
+  "text": "Two days before Maggie received that letter, she had been to the Rectory for the last time. The heavy rain would have prevented her from going since; but there was another reason. Dr Kenn, at first enlightened only by a few hints as to the new turn which gossip and slander had taken in relation to Maggie, had recently been made more fully aware of it by an earnest remonstrance from one of his male parishioners against the indiscretion of persisting in the attempt to overcome the prevalent feeling in the parish by a course of resistance. Dr Kenn, having a conscience void of offence in the matter, was still inclined to persevere,—was still averse to give way before a public sentiment that was odious and contemptible; but he was finally wrought upon by the consideration of the peculiar responsibility attached to his office, of avoiding the appearance of evil,—an “appearance” that is always dependent on the average quality of surrounding minds. Where these minds are low and gross, the area of that “appearance” is proportionately widened.",
+  "words": [
+    {
+      "word": "slander",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "offence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sentiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

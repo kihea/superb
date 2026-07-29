@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-red-badge-of-courage-030",
+  "pool": "sourced",
+  "text": "Its foliages now seemed to veil powers and horrors. He was unaware of the machinery of orders that started the charge, although from the corners of his eyes he saw an officer, who looked like a boy a-horseback, come galloping, waving his hat. Suddenly he felt a straining and heaving among the men. The line fell slowly forward like a toppling wall, and, with a convulsive gasp that was intended for a cheer, the regiment began its journey. The youth was pushed and jostled for a moment before he understood the movement at all, but directly he lunged ahead and began to run.",
+  "words": [
+    {
+      "word": "gasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Red Badge of Courage",
+    "author": "Stephen Crane",
+    "year": 1895,
+    "source": "Project Gutenberg #73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

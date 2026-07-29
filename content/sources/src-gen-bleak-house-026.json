@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-bleak-house-026",
+  "pool": "sourced",
+  "text": "“As to Peepy,” said Caddy with a little hesitation, “whom I was most afraid of—next to having any family of my own, Esther—as an inconvenience to Mr. Turveydrop, the kindness of the old gentleman to that child is beyond everything. He asks to see him, my dear! He lets him take the newspaper up to him in bed; he gives him the crusts of his toast to eat; he sends him on little errands about the house; he tells him to come to me for sixpences. In short,” said Caddy cheerily, “and not to prose, I am a very fortunate girl and ought to be very grateful. Where are we going, Esther?” “To the Old Street Road,” said I, “where I have a few words to say to the solicitor’s clerk who was sent to meet me at the coach-office on the very day when I came to London and first saw you, my dear.",
+  "words": [
+    {
+      "word": "clerk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

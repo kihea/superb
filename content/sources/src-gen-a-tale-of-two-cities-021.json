@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-021",
+  "pool": "sourced",
+  "text": "And as Madame Defarge moved on from group to group, all three went quicker and fiercer among every little knot of women that she had spoken with, and left behind. Her husband smoked at his door, looking after her with admiration. “A great woman,” said he, “a strong woman, a grand woman, a frightfully grand woman!” Darkness closed around, and then came the ringing of church bells and the distant beating of the military drums in the Palace Courtyard, as the women sat knitting, knitting. Darkness encompassed them. Another darkness was closing in as surely, when the church bells, then ringing pleasantly in many an airy steeple over France, should be melted into thundering cannon; when the military drums should be beating to drown a wretched voice, that night all potent as the voice of Power and Plenty, Freedom and Life.",
+  "words": [
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "potent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

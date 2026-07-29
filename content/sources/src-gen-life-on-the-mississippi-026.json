@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-life-on-the-mississippi-026",
+  "pool": "sourced",
+  "text": "We were certainly in the South at last; for here the sugar region begins, and the plantations--vast green levels, with sugar-mill and negro quarters clustered together in the middle distance--were in view. And there was a tropical sun overhead and a tropical swelter in the air. And at this point, also, begins the pilot's paradise: a wide river hence to New Orleans, abundance of water from shore to shore, and no bars, snags, sawyers, or wrecks in his road. Sir Walter Scott is probably responsible for the Capitol building; for it is not conceivable that this little sham castle would ever have been built if he had not run the people mad, a couple of generations ago, with his medieval romances. The South has not yet recovered from the debilitating influence of his books.",
+  "words": [
+    {
+      "word": "tropical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "medieval",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Life on the Mississippi",
+    "author": "Mark Twain",
+    "year": 1883,
+    "source": "Project Gutenberg #245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

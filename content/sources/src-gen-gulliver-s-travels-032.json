@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-gulliver-s-travels-032",
+  "pool": "sourced",
+  "text": "Beyond this room there were three others, reaching the length of the house, to which you passed through three doors, opposite to each other, in the manner of a vista. We went through the second room towards the third. Here the gray walked in first, beckoning me to attend: I waited in the second room, and got ready my presents for the master and mistress of the house; they were two knives, three bracelets of false pearls, a small looking-glass, and a bead necklace. The horse neighed three or four times, and I waited to hear some answers in a human voice, but I heard no other returns than in the same dialect, only one or two a little shriller than his. I began to think that this house must belong to some person of great note among them, because there appeared so much ceremony before I could gain admittance.",
+  "words": [
+    {
+      "word": "vista",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pearls",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "necklace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

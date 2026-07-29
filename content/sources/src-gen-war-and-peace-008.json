@@ -1,16 +1,10 @@
 {
   "id": "src-gen-war-and-peace-008",
   "pool": "sourced",
-  "text": "A solemn meeting of the lodge of the second degree was convened, at which Pierre promised to communicate to the Petersburg Brothers what he had to deliver to them from the highest leaders of their order. The meeting was a full one. After the usual ceremonies Pierre rose and began his address. “Dear Brothers,” he began, blushing and stammering, with a written speech in his hand, “it is not sufficient to observe our mysteries in the seclusion of our lodge—we must act—act! We are drowsing, but we must act.” Pierre raised his notebook and began to read.",
+  "text": "Having received this information, the little princess and Mademoiselle Bourienne, whose chattering voices had reached her from the corridor, went into Princess Mary’s room. “You know they’ve come, Marie?” said the little princess, waddling in, and sinking heavily into an armchair. She was no longer in the loose gown she generally wore in the morning, but had on one of her best dresses. Her hair was carefully done and her face was animated, which, however, did not conceal its sunken and faded outlines. Dressed as she used to be in Petersburg society, it was still more noticeable how much plainer she had become.",
   "words": [
     {
-      "word": "solemn",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "notebook",
+      "word": "gown",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

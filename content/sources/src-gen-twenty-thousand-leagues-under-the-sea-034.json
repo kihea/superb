@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-034",
+  "pool": "sourced",
+  "text": "The soil was still of the same volcanic nature; everywhere were traces of lava, scoriae, and basalt; but the crater which had vomited them I could not see. Here, as lower down, this continent was alive with myriads of birds. But their rule was now divided with large troops of sea-mammals, looking at us with their soft eyes. There were several kinds of seals, some stretched on the earth, some on flakes of ice, many going in and out of the sea. They did not flee at our approach, never having had anything to do with man; and I reckoned that there were provisions there for hundreds of vessels.",
+  "words": [
+    {
+      "word": "lava",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

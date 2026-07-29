@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-what-katy-did-026",
+  "pool": "sourced",
+  "text": "Nobody had ever heard of such a thing before! There sat Aunt Izzie on the floor, with three long lamp-lighters stuck in her hair, playing, \"I'm a genteel Lady, always genteel,\" in the jolliest manner possible. The children were so enchanted at the spectacle, that they could hardly attend to the game, and were always forgetting how many \"horns\" they had. Clover privately thought that Cousin Helen must be a witch; and Papa, when he came home at noon, said almost the same thing. \"What have you been doing to them, Helen?\"",
+  "words": [
+    {
+      "word": "clover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "privately",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

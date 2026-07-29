@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-024",
+  "pool": "sourced",
+  "text": "When Fanshaw more excitedly indicated a rock that was like Merlin, he looked at it, and signified assent. When Flambeau asked whether this rocky gate of the twisted river was not the gate of Fairyland, he said “Yes.” He heard the most important things and the most trivial with the same tasteless absorption. He heard that the coast was death to all but careful seamen; he also heard that the ship’s cat was asleep. He heard that Fanshaw couldn’t find his cigar-holder anywhere; he also heard the pilot deliver the oracle “Both eyes bright, she’s all right; one eye winks, down she sinks.” He heard Flambeau say to Fanshaw that no doubt this meant the pilot must keep both eyes open and be spry. And he heard Fanshaw say to Flambeau that, oddly enough, it didn’t mean this: it meant that while they saw two of the coast lights, one near and the other distant, exactly side by side, they were in the right river-channel; but that if one light was hidden behind the other, they were going on the rocks.",
+  "words": [
+    {
+      "word": "rocky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

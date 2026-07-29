@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-christmas-carol-025",
+  "pool": "sourced",
+  "text": "The compound in the jug being tasted, and considered perfect, apples and oranges were put upon the table, and a shovel-full of chestnuts on the fire. Then all the Cratchit family drew round the hearth, in what Bob Cratchit called a circle, meaning half a one; and at Bob Cratchit's elbow stood the family display of glass. Two tumblers, and a custard-cup without a handle. These held the hot stuff from the jug, however, as well as golden goblets would have done; and Bob served it out with beaming looks, while the chestnuts on the fire sputtered and cracked noisily. Then Bob proposed: \"A Merry Christmas to us all, my dears.",
+  "words": [
+    {
+      "word": "jug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shovel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "custard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

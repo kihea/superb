@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-captains-courageous-038",
+  "pool": "sourced",
+  "text": "The millionaire only laughed. He presumed Harvey might need a body-servant some day or other, and was sure that one volunteer was worth five hirelings. Let the man stay, therefore; even though he called himself MacDonald and swore in Gaelic. The car could go back to Boston, where, if he were still of the same mind, they would take him West. With the \"Constance,\" which in his heart of hearts he loathed, departed the last remnant of Cheyne's millionairedom, and he gave himself up to an energetic idleness.",
+  "words": [
+    {
+      "word": "millionaire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

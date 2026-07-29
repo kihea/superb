@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-027",
+  "pool": "sourced",
+  "text": "“Did you know, sir,” he asked, smiling, “that the sea contained such riches?” “I knew,” I answered, “that they value money held in suspension in these waters at two millions.” “Doubtless; but to extract this money the expense would be greater than the profit. Here, on the contrary, I have but to pick up what man has lost—and not only in Vigo Bay, but in a thousand other ports where shipwrecks have happened, and which are marked on my submarine map. Can you understand now the source of the millions I am worth?” “I understand, Captain. But allow me to tell you that in exploring Vigo Bay you have only been beforehand with a rival society.” “And which?” “A society which has received from the Spanish Government the privilege of seeking those buried galleons. The shareholders are led on by the allurement of an enormous bounty, for they value these rich shipwrecks at five hundred millions.” “Five hundred millions they were,” answered Captain Nemo, “but they are so no longer.” “Just so,” said I; “and a warning to those shareholders would be an act of charity.",
+  "words": [
+    {
+      "word": "riches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "submarine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bounty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

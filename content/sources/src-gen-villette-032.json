@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-villette-032",
+  "pool": "sourced",
+  "text": "Indeed, at the worst, it was only his nerves that were irritable, not his temper that was radically bad; soothe, comprehend, comfort him, and he was a lamb; he would not harm a fly. Only to the very stupid, perverse, or unsympathizing, was he in the slightest degree dangerous. Mindful always of his religion, he made the youngest of the party say a little prayer before we began breakfast, crossing himself as devotedly as a woman. I had never seen him pray before, or make that pious sign; he did it so simply, with such child-like faith, I could not help smiling pleasurably as I watched; his eyes met my smile; he just stretched out his kind hand, saying, “Donnez-moi la main! I see we worship the same God, in the same spirit, though by different rites.” Most of M. Emanuel’s brother Professors were emancipated free-thinkers, infidels, atheists; and many of them men whose lives would not bear scrutiny; he was more like a knight of old, religious in his way, and of spotless fame.",
+  "words": [
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "soothe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

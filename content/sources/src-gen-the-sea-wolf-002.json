@@ -1,58 +1,22 @@
 {
   "id": "src-gen-the-sea-wolf-002",
   "pool": "sourced",
-  "text": "So fierce had this final struggle become that the sailor paused in the act of flinging more water over him and stared curiously, the canvas bucket partly tilted and dripping its contents to the deck. The dying man beat a tattoo on the hatch with his heels, straightened out his legs, and stiffened in one great tense effort, and rolled his head from side to side. Then the muscles relaxed, the head stopped rolling, and a sigh, as of profound relief, floated upward from his lips. The jaw dropped, the upper lip lifted, and two rows of tobacco-discoloured teeth appeared. It seemed as though his features had frozen into a diabolical grin at the world he had left and outwitted.",
+  "text": "I tried to reach it, in a mad resolve to claw into the wood with my nails, but my arms were heavy and lifeless. Again I strove to call out, but made no sound. The stern of the vessel shot by, dropping, as it did so, into a hollow between the waves; and I caught a glimpse of a man standing at the wheel, and of another man who seemed to be doing little else than smoke a cigar. I saw the smoke issuing from his lips as he slowly turned his head and glanced out over the water in my direction. It was a careless, unpremeditated glance, one of those haphazard things men do when they have no immediate call to do anything in particular, but act because they are alive and must do something.",
   "words": [
     {
-      "word": "sailor",
+      "word": "glimpse",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "paused",
+      "word": "issuing",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dripping",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "straightened",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "relaxed",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "profound",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "jaw",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lip",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grin",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -63,7 +27,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

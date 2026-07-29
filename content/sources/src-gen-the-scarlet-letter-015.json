@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-scarlet-letter-015",
   "pool": "sourced",
-  "text": "“As concerns the good which I may appear to do, I have no faith in it. It must needs be a delusion. What can a ruined soul like mine effect towards the redemption of other souls?—or a polluted soul towards their purification? And as for the people’s reverence, would that it were turned to scorn and hatred! Canst thou deem it, Hester, a consolation that I must stand up in my pulpit, and meet so many eyes turned upward to my face, as if the light of heaven were beaming from it!—must see my flock hungry for the truth, and listening to my words as if a tongue of Pentecost were speaking!—and then look inward, and discern the black reality of what they idolise?",
+  "text": "THE ELF-CHILD AND THE MINISTER Governor Bellingham, in a loose gown and easy cap—such as elderly gentlemen loved to endue themselves with, in their domestic privacy—walked foremost, and appeared to be showing off his estate, and expatiating on his projected improvements. The wide circumference of an elaborate ruff, beneath his grey beard, in the antiquated fashion of King James’s reign, caused his head to look not a little like that of John the Baptist in a charger. The impression made by his aspect, so rigid and severe, and frost-bitten with more than autumnal age, was hardly in keeping with the appliances of worldly enjoyment wherewith he had evidently done his utmost to surround himself. But it is an error to suppose that our great forefathers—though accustomed to speak and think of human existence as a state merely of trial and warfare, and though unfeignedly prepared to sacrifice goods and life at the behest of duty—made it a matter of conscience to reject such means of comfort, or even luxury, as lay fairly within their grasp.",
   "words": [
     {
-      "word": "discern",
+      "word": "gown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "worldly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-house-of-mirth-002",
   "pool": "sourced",
-  "text": "Lily, with the flavour of Selden’s caravan tea on her lips, had no great fancy to drown it in the railway brew which seemed such nectar to her companion; but, rightly judging that one of the charms of tea is the fact of drinking it together, she proceeded to give the last touch to Mr. Gryce’s enjoyment by smiling at him across her lifted cup. “Is it quite right—I haven’t made it too strong?” she asked solicitously; and he replied with conviction that he had never tasted better tea. “I daresay it is true,” she reflected; and her imagination was fired by the thought that Mr. Gryce, who might have sounded the depths of the most complex self-indulgence, was perhaps actually taking his first journey alone with a pretty woman. It struck her as providential that she should be the instrument of his initiation. Some girls would not have known how to manage him.",
+  "text": "“Well, then——?” He had carried his cup to the fireplace, and stood leaning against the chimney-piece and looking down on her with an air of indolent amusement. The provocation in her eyes increased his amusement—he had not supposed she would waste her powder on such small game; but perhaps she was only keeping her hand in; or perhaps a girl of her type had no conversation but of the personal kind. At any rate, she was amazingly pretty, and he had asked her to tea and must live up to his obligations. “Well, then,” he said with a plunge, “perhaps THAT’S the reason.” “What?” “The fact that you don’t want to marry me. Perhaps I don’t regard it as such a strong inducement to go and see you.” He felt a slight shiver down his spine as he ventured this, but her laugh reassured him.",
   "words": [
     {
-      "word": "lily",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brew",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rightly",
+      "word": "fireplace",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

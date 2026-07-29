@@ -1,26 +1,8 @@
 {
   "id": "src-gen-the-mysteries-of-udolpho-020",
   "pool": "sourced",
-  "text": "As she crossed the lawn, that sloped from the front of the monastery towards the sea, she was struck with the picture of repose, exhibited by some monks, sitting in the cloisters, which extended under the brow of the woods, that crowned this eminence; where, as they meditated, at this twilight hour, holy subjects, they sometimes suffered their attention to be relieved by the scene before them, nor thought it profane to look at nature, now that it had exchanged the brilliant colours of day for the sober hue of evening. Before the cloisters, however, spread an ancient chesnut, whose ample branches were designed to screen the full magnificence of a scene, that might tempt the wish to worldly pleasures; but still, beneath the dark and spreading foliage, gleamed a wide extent of ocean, and many a passing sail; while, to the right and left, thick woods were seen stretching along the winding shores. So much as this had been admitted, perhaps, to give to the secluded votary an image of the dangers and vicissitudes of life, and to console him, now that he had renounced its pleasures, by the certainty of having escaped its evils.",
+  "text": "The sun, at length, set behind the western mountains; his fiery beams faded from the clouds, and then a dun melancholy purple drew over them, and gradually involved the features of the country below. Soon after, the sentinels passed on the rampart to commence the watch. Twilight had now spread its gloom over every object; the dismal obscurity of her chamber recalled fearful thoughts, but she remembered, that to procure a light she must pass through a great extent of the castle, and, above all, through the halls, where she had already experienced so much horror. Darkness, indeed, in the present state of her spirits, made silence and solitude terrible to her; it would also prevent the possibility of her finding her way to the turret, and condemn her to remain in suspense, concerning the fate of her aunt; yet she dared not to venture forth for a lamp. Continuing at the casement, that she might catch the last lingering gleam of evening, a thousand vague images of fear floated on her fancy.",
   "words": [
-    {
-      "word": "lawn",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "monastery",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "monks",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
     {
       "word": "twilight",
       "signals": [
@@ -28,19 +10,37 @@
       ]
     },
     {
-      "word": "ample",
+      "word": "gloom",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sail",
+      "word": "obscurity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "console",
+      "word": "fearful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turret",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +51,7 @@
     "author": "Ann Radcliffe",
     "year": 1794,
     "source": "Project Gutenberg #3268",
-    "url": "https://www.gutenberg.org/ebooks/3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-bleak-house-022",
+  "pool": "sourced",
+  "text": "How this account of Mr. Swills is entirely corroborated by two intelligent married females residing in the same court and known respectively by the names of Mrs. Piper and Mrs. Perkins, both of whom observed the foetid effluvia and regarded them as being emitted from the premises in the occupation of Krook, the unfortunate deceased. All this and a great deal more the two gentlemen who have formed an amicable partnership in the melancholy catastrophe write down on the spot; and the boy population of the court (out of bed in a moment) swarm up the shutters of the Sol’s Arms parlour, to behold the tops of their heads while they are about it. The whole court, adult as well as boy, is sleepless for that night, and can do nothing but wrap up its many heads, and talk of the ill-fated house, and look at it. Miss Flite has been bravely rescued from her chamber, as if it were in flames, and accommodated with a bed at the Sol’s Arms.",
+  "words": [
+    {
+      "word": "catastrophe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-o-pioneers-030",
+  "pool": "sourced",
+  "text": "Emil was already at the other end of the hall, walking about with the shoulder-motion he had acquired among the Mexicans, studying the floor with his intent, deep-set eyes. Marie began to take down and fold her shawls. She did not glance up again. The young people drifted to the other end of the hall where the guitar was sounding. In a moment she heard Emil and Raoul singing:— “Across the Rio Grand-e There lies a sunny land-e, My bright-eyed Mexico!” Alexandra Bergson came up to the card booth.",
+  "words": [
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eyed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

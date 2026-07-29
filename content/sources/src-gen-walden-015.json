@@ -1,40 +1,28 @@
 {
   "id": "src-gen-walden-015",
   "pool": "sourced",
-  "text": "For a week of even weather I took exactly the same number of steps, and of the same length, coming and going, stepping deliberately and with the precision of a pair of dividers in my own deep tracks,—to such routine the winter reduces us,—yet often they were filled with heaven’s own blue. But no weather interfered fatally with my walks, or rather my going abroad, for I frequently tramped eight or ten miles through the deepest snow to keep an appointment with a beech-tree, or a yellow-birch, or an old acquaintance among the pines; when the ice and snow causing their limbs to droop, and so sharpening their tops, had changed the pines into fir-trees; wading to the tops of the highest hills when the snow was nearly two feet deep on a level, and shaking down another snow-storm on my head at every step; or sometimes creeping and floundering thither on my hands and knees, when the hunters had gone into winter quarters.",
+  "text": "I should be proud to have for the motto of my cabin those lines of Spenser which one of my visitors inscribed on a yellow walnut leaf for a card:— “Arrivéd there, the little house they fill, Ne looke for entertainment where none was; Rest is their feast, and all things at their will: The noblest mind the best contentment has.” When Winslow, afterward governor of the Plymouth Colony, went with a companion on a visit of ceremony to Massasoit on foot through the woods, and arrived tired and hungry at his lodge, they were well received by the king, but nothing was said about eating that day. When the night arrived, to quote their own words,—“He laid us on the bed with himself and his wife, they at the one end and we at the other, it being only planks laid a foot from the ground, and a thin mat upon them.",
   "words": [
     {
-      "word": "interfered",
+      "word": "feast",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "beech",
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "birch",
+      "word": "lodge",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "acquaintance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pines",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tops",
+      "word": "mat",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +33,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

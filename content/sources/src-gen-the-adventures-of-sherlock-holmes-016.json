@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-016",
   "pool": "sourced",
-  "text": "Two days later—that is, on Wednesday last—there is a curt announcement that the wedding had taken place, and that the honeymoon would be passed at Lord Backwater’s place, near Petersfield. Those are all the notices which appeared before the disappearance of the bride.” “Before the what?” asked Holmes with a start. “The vanishing of the lady.” “When did she vanish, then?” “At the wedding breakfast.” “Indeed. This is more interesting than it promised to be; quite dramatic, in fact.” “Yes; it struck me as being a little out of the common.” “They often vanish before the ceremony, and occasionally during the honeymoon; but I cannot call to mind anything quite so prompt as this. Pray let me have the details.” “I warn you that they are very incomplete.” “Perhaps we may make them less so.” “Such as they are, they are set forth in a single article of a morning paper of yesterday, which I will read to you.",
+  "text": "Suppose that this man Boone had thrust Neville St. Clair through the window, there is no human eye which could have seen the deed. What would he do then? It would of course instantly strike him that he must get rid of the tell-tale garments. He would seize the coat, then, and be in the act of throwing it out, when it would occur to him that it would swim and not sink. He has little time, for he has heard the scuffle downstairs when the wife tried to force her way up, and perhaps he has already heard from his Lascar confederate that the police are hurrying up the street.",
   "words": [
     {
-      "word": "disappearance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bride",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "warn",
+      "word": "deed",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

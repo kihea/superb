@@ -1,28 +1,28 @@
 {
   "id": "src-gen-the-scarlet-letter-013",
   "pool": "sourced",
-  "text": "The occasion was not long to seek. One afternoon, walking with Pearl in a retired part of the peninsula, she beheld the old physician with a basket on one arm and a staff in the other hand, stooping along the ground in quest of roots and herbs to concoct his medicine withal. HESTER AND THE PHYSICIAN Hester bade little Pearl run down to the margin of the water, and play with the shells and tangled sea-weed, until she should have talked awhile with yonder gatherer of herbs. So the child flew away like a bird, and, making bare her small white feet went pattering along the moist margin of the sea. Here and there she came to a full stop, and peeped curiously into a pool, left by the retiring tide as a mirror for Pearl to see her face in.",
+  "text": "The unlikeliest materials—a stick, a bunch of rags, a flower—were the puppets of Pearl’s witchcraft, and, without undergoing any outward change, became spiritually adapted to whatever drama occupied the stage of her inner world. Her one baby-voice served a multitude of imaginary personages, old and young, to talk withal. The pine-trees, aged, black, and solemn, and flinging groans and other melancholy utterances on the breeze, needed little transformation to figure as Puritan elders; the ugliest weeds of the garden were their children, whom Pearl smote down and uprooted most unmercifully. It was wonderful, the vast variety of forms into which she threw her intellect, with no continuity, indeed, but darting up and dancing, always in a state of preternatural activity—soon sinking down, as if exhausted by so rapid and feverish a tide of life—and succeeded by other shapes of a similar wild energy. It was like nothing so much as the phantasmagoric play of the northern lights.",
   "words": [
     {
-      "word": "peninsula",
+      "word": "rags",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "adapted",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "physician",
+      "word": "melancholy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "retiring",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tide",
+      "word": "transformation",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +33,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

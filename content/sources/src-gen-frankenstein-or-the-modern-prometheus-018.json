@@ -1,10 +1,28 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-018",
   "pool": "sourced",
-  "text": "Everywhere I turn I see the same figure—her bloodless arms and relaxed form flung by the murderer on its bridal bier. Could I behold this and live? Life is obstinate and clings closest where it is most hated. For a moment only did I lose recollection; I fell senseless on the ground. When I recovered I found myself surrounded by the people of the inn; their countenances expressed a breathless terror, but the horror of others appeared only as a mockery, a shadow of the feelings that oppressed me.",
+  "text": "As soon as morning dawned I crept from my kennel, that I might view the adjacent cottage and discover if I could remain in the habitation I had found. It was situated against the back of the cottage and surrounded on the sides which were exposed by a pig sty and a clear pool of water. One part was open, and by that I had crept in; but now I covered every crevice by which I might be perceived with stones and wood, yet in such a manner that I might move them on occasion to pass out; all the light I enjoyed came through the sty, and that was sufficient for me. “Having thus arranged my dwelling and carpeted it with clean straw, I retired, for I saw the figure of a man at a distance, and I remembered too well my treatment the night before to trust myself in his power. I had first, however, provided for my sustenance for that day by a loaf of coarse bread, which I purloined, and a cup with which I could drink more conveniently than from my hand of the pure water which flowed by my retreat.",
   "words": [
     {
-      "word": "behold",
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "loaf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conveniently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "retreat",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

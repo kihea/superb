@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-026",
+  "pool": "sourced",
+  "text": "’Tis wicked fabrication of the whites, and I say it to the shame of my color that would make the warrior bow down before images of his own creation. It is true, they endeavor to make truces to the wicked one—as who would not with an enemy he cannot conquer! but they look up for favor and assistance to the Great and Good Spirit only.” “It may be so,” said David; “but I have seen strange and fantastic images drawn in their paint, of which their admiration and care savored of spiritual pride; especially one, and that, too, a foul and loathsome object.” “Was it a sarpent?” quickly demanded the scout. “Much the same. It was in the likeness of an abject and creeping tortoise.” “Hugh!” exclaimed both the attentive Mohicans in a breath; while the scout shook his head with the air of one who had made an important but by no means a pleasing discovery.",
+  "words": [
+    {
+      "word": "whites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tortoise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

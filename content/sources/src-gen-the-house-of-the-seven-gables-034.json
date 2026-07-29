@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-034",
+  "pool": "sourced",
+  "text": "Governor Pyncheon Judge Pyncheon, while his two relatives have fled away with such ill-considered haste, still sits in the old parlor, keeping house, as the familiar phrase is, in the absence of its ordinary occupants. To him, and to the venerable House of the Seven Gables, does our story now betake itself, like an owl, bewildered in the daylight, and hastening back to his hollow tree. The Judge has not shifted his position for a long while now. He has not stirred hand or foot, nor withdrawn his eyes so much as a hair’s-breadth from their fixed gaze towards the corner of the room, since the footsteps of Hepzibah and Clifford creaked along the passage, and the outer door was closed cautiously behind their exit. He holds his watch in his left hand, but clutched in such a manner that you cannot see the dial-plate.",
+  "words": [
+    {
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "venerable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cautiously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

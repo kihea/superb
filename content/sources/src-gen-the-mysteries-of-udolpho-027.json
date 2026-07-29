@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-027",
+  "pool": "sourced",
+  "text": "Emily listened, with mingled awe and expectation, hope and fear; and again the melting sweetness of the lute was heard, and the same solemn-breathing voice. Convinced that these came from an apartment underneath, she leaned far out of her window, that she might discover whether any light was there; but the casements below, as well as those above, were sunk so deep in the thick walls of the castle, that she could not see them, or even the faint ray, that probably glimmered through their bars. She then ventured to call; but the wind bore her voice to the other end of the terrace, and then the music was heard as before, in the pause of the gust. Suddenly, she thought she heard a noise in her chamber, and she drew herself within the casement; but, in a moment after, distinguishing Annette’s voice at the door, she concluded it was her she had heard before, and she let her in. “Move softly, Annette, to the casement,” said she, “and listen with me; the music is returned.” They were silent till, the measure changing, Annette exclaimed, “Holy Virgin!",
+  "words": [
+    {
+      "word": "awe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

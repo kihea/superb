@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-age-of-innocence-038",
+  "pool": "sourced",
+  "text": "In the drawing-room, where they presently joined the ladies, he met May's triumphant eyes, and read in them the conviction that everything had \"gone off\" beautifully. She rose from Madame Olenska's side, and immediately Mrs. van der Luyden beckoned the latter to a seat on the gilt sofa where she throned. Mrs. Selfridge Merry bore across the room to join them, and it became clear to Archer that here also a conspiracy of rehabilitation and obliteration was going on. The silent organisation which held his little world together was determined to put itself on record as never for a moment having questioned the propriety of Madame Olenska's conduct, or the completeness of Archer's domestic felicity. All these amiable and inexorable persons were resolutely engaged in pretending to each other that they had never heard of, suspected, or even conceived possible, the least hint to the contrary; and from this tissue of elaborate mutual dissimulation Archer once more disengaged the fact that New York believed him to be Madame Olenska's lover.",
+  "words": [
+    {
+      "word": "presently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conviction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

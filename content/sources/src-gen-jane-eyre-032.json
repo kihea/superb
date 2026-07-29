@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-032",
+  "pool": "sourced",
+  "text": "I was brought up a dependent; educated in a charitable institution. I will even tell you the name of the establishment, where I passed six years as a pupil, and two as a teacher—Lowood Orphan Asylum, ——shire: you will have heard of it, Mr. Rivers?—the Rev. Robert Brocklehurst is the treasurer.” “I have heard of Mr. Brocklehurst, and I have seen the school.” “I left Lowood nearly a year since to become a private governess. I obtained a good situation, and was happy. This place I was obliged to leave four days before I came here.",
+  "words": [
+    {
+      "word": "pupil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

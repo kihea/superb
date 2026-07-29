@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-great-god-pan-022",
+  "pool": "sourced",
+  "text": "“How very curious that you should experience such an unpleasant sensation in that room!” he said at length. “I hardly gather that it was a mere matter of the imagination; a feeling of repulsion, in short.” “No, it was more physical than mental. It was as if I were inhaling at every breath some deadly fume, which seemed to penetrate to every nerve and bone and sinew of my body. I felt racked from head to foot, my eyes began to grow dim; it was like the entrance of death.” “Yes, yes, very strange certainly. You see, your friend confesses that there is some very black story connected with this woman.",
+  "words": [
+    {
+      "word": "sensation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

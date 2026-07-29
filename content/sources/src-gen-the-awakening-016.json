@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-awakening-016",
   "pool": "sourced",
-  "text": "“La Folle done cross de bayer!” Quickly the cry passed down the line of cabins. “Yonda, La Folle done cross de bayou!” Children, old men, old women, young ones with infants in their arms, flocked to doors and windows to see this awe-inspiring spectacle. Most of them shuddered with superstitious dread of what it might portend. “She totin’ Chéri!” some of them shouted. Some of the more daring gathered about her, and followed at her heels, only to fall back with new terror when she turned her distorted face upon them.",
+  "text": "The candor of Mrs. Pontellier’s admission greatly pleased Mademoiselle Reisz. She expressed her gratification by repairing forthwith to the region of the gasoline stove and rewarding her guest with the promised cup of coffee. The coffee and the biscuit accompanying it proved very acceptable to Edna, who had declined refreshment at Madame Lebrun’s and was now beginning to feel hungry. Mademoiselle set the tray which she brought in upon a small table near at hand, and seated herself once again on the lumpy sofa. “I have had a letter from your friend,” she remarked, as she poured a little cream into Edna’s cup and handed it to her.",
   "words": [
     {
-      "word": "infants",
+      "word": "biscuit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tray",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Kate Chopin",
     "year": 1899,
     "source": "Project Gutenberg #160",
-    "url": "https://www.gutenberg.org/ebooks/160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-time-machine-037",
+  "pool": "sourced",
+  "text": "“As I stared at this sinister apparition crawling towards me, I felt a tickling on my cheek as though a fly had lighted there. I tried to brush it away with my hand, but in a moment it returned, and almost immediately came another by my ear. I struck at this, and caught something threadlike. It was drawn swiftly out of my hand. With a frightful qualm, I turned, and I saw that I had grasped the antenna of another monster crab that stood just behind me.",
+  "words": [
+    {
+      "word": "crawling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "antenna",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": 1895,
+    "source": "Project Gutenberg #35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

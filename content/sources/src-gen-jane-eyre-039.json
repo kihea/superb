@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-jane-eyre-039",
+  "pool": "sourced",
+  "text": "To this house I came just ere dark on an evening marked by the characteristics of sad sky, cold gale, and continued small penetrating rain. The last mile I performed on foot, having dismissed the chaise and driver with the double remuneration I had promised. Even when within a very short distance of the manor-house, you could see nothing of it, so thick and dark grew the timber of the gloomy wood about it. Iron gates between granite pillars showed me where to enter, and passing through them, I found myself at once in the twilight of close-ranked trees. There was a grass-grown track descending the forest aisle between hoar and knotty shafts and under branched arches.",
+  "words": [
+    {
+      "word": "timber",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "granite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

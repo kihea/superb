@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-age-of-innocence-025",
+  "pool": "sourced",
+  "text": "Beyond it lay the flat reaches and ugly government chimneys of Goat Island, the bay spreading northward in a shimmer of gold to Prudence Island with its low growth of oaks, and the shores of Conanicut faint in the sunset haze. From the willow walk projected a slight wooden pier ending in a sort of pagoda-like summer-house; and in the pagoda a lady stood, leaning against the rail, her back to the shore. Archer stopped at the sight as if he had waked from sleep. That vision of the past was a dream, and the reality was what awaited him in the house on the bank overhead: was Mrs. Welland's pony-carriage circling around and around the oval at the door, was May sitting under the shameless Olympians and glowing with secret hopes, was the Welland villa at the far end of Bellevue Avenue, and Mr. Welland, already dressed for dinner, and pacing the drawing-room floor, watch in hand, with dyspeptic impatience--for it was one of the houses in which one always knew exactly what is happening at a given hour.",
+  "words": [
+    {
+      "word": "pier",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "archer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "villa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-my-antonia-009",
   "pool": "sourced",
-  "text": "Mr. Harling, therefore, seemed to me autocratic and imperial in his ways. He walked, talked, put on his gloves, shook hands, like a man who felt that he had power. He was not tall, but he carried his head so haughtily that he looked a commanding figure, and there was something daring and challenging in his eyes. I used to imagine that the ‘nobles’ of whom Ántonia was always talking probably looked very much like Christian Harling, wore caped overcoats like his, and just such a glittering diamond upon the little finger. Except when the father was at home, the Harling house was never quiet.",
+  "text": "When he mounted his horse at the door, I saw that he had a hatchet slung to his belt, and he gave grandmother a meaning look which told me he was planning a surprise for me. That afternoon I watched long and eagerly from the sitting-room window. At last I saw a dark spot moving on the west hill, beside the half-buried cornfield, where the sky was taking on a coppery flush from the sun that did not quite break through. I put on my cap and ran out to meet Jake. When I got to the pond, I could see that he was bringing in a little cedar tree across his pommel.",
   "words": [
     {
-      "word": "shook",
+      "word": "grandmother",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "commanding",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "daring",
+      "word": "cedar",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1918,
     "source": "Project Gutenberg #242",
-    "url": "https://www.gutenberg.org/ebooks/242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

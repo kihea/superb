@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-heart-of-darkness-031",
+  "pool": "sourced",
+  "text": "“I am not disclosing any trade secrets. In fact, the manager said afterwards that Mr. Kurtz’s methods had ruined the district. I have no opinion on that point, but I want you clearly to understand that there was nothing exactly profitable in these heads being there. They only showed that Mr. Kurtz lacked restraint in the gratification of his various lusts, that there was something wanting in him—some small matter which, when the pressing need arose, could not be found under his magnificent eloquence. Whether he knew of this deficiency himself I can’t say.",
+  "words": [
+    {
+      "word": "restraint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

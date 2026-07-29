@@ -1,18 +1,12 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-008",
   "pool": "sourced",
-  "text": "Yes, that would be a wise course--he would practise on this boy, and see what sort of success he might achieve. So he stroked his brow perplexedly a moment or two, and presently said-- “Now I seem to remember thee somewhat--but my wit is clogged and dim with suffering--” “Alack, my poor master!” ejaculated the whipping-boy, with feeling; adding, to himself, “In truth ’tis as they said--his mind is gone--alas, poor soul! But misfortune catch me, how am I forgetting! They said one must not seem to observe that aught is wrong with him.” “‘Tis strange how my memory doth wanton with me these days,” said Tom. “But mind it not--I mend apace--a little clue doth often serve to bring me back again the things and names which had escaped me.",
+  "text": "And while she listened, the measured breathing was broken by a soft, startled cry, such as one utters in a troubled dream. This chance occurrence furnished her instantly with a plan worth all her laboured tests combined. She at once set herself feverishly, but noiselessly, to work to relight her candle, muttering to herself, “Had I but seen him then, I should have known! Since that day, when he was little, that the powder burst in his face, he hath never been startled of a sudden out of his dreams or out of his thinkings, but he hath cast his hand before his eyes, even as he did that day; and not as others would do it, with the palm inward, but always with the palm turned outward--I have seen it a hundred times, and it hath never varied nor ever failed. Yes, I shall soon know, now!” By this time she had crept to the slumbering boy’s side, with the candle, shaded, in her hand.",
   "words": [
     {
-      "word": "clogged",
+      "word": "listened",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "clue",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

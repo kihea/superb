@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-035",
+  "pool": "sourced",
+  "text": "Thursday, September 15th. This morning the temperature and peculiar appearance of the water, the quantities of gulf-weed floating about, and a bank of clouds lying directly before us, showed that we were on the border of the Gulf Stream. This remarkable current, running north-east, nearly across the ocean, is almost constantly shrouded in clouds, and is the region of storms and heavy seas. Vessels often run from a clear sky and light wind, with all sail, at once into a heavy sea and cloudy sky, with double-reefed topsails. A sailor told me that on a passage from Gibraltar to Boston, his vessel neared the Gulf Stream with a light breeze, clear sky, and studding-sails out, alow and aloft; while, before it, was a long line of heavy, black clouds, lying like a bank upon the water, and a vessel coming out of it, under double-reefed topsails, and with royal yards sent down.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cloudy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

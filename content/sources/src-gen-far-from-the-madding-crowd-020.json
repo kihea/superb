@@ -1,10 +1,34 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-020",
   "pool": "sourced",
-  "text": "The doctor went in, and after a few minutes returned to the landing again, where Oak and the parson still waited. “It is all done, indeed, as she says,” remarked Mr. Granthead, in a subdued voice. “The body has been undressed and properly laid out in grave clothes. Gracious heaven—this mere girl! She must have the nerve of a stoic!” “The heart of a wife merely,” floated in a whisper about the ears of the three, and turning they saw Bathsheba in the midst of them.",
+  "text": "“Why, it is magic!” said Bathsheba, amazed. “Oh no—dexterity. I merely gave point to your bosom where the caterpillar was, and instead of running you through checked the extension a thousandth of an inch short of your surface.” “But how could you chop off a curl of my hair with a sword that has no edge?” “No edge! This sword will shave like a razor. Look here.” He touched the palm of his hand with the blade, and then, lifting it, showed her a thin shaving of scarf-skin dangling therefrom.",
   "words": [
     {
-      "word": "whisper",
+      "word": "curl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "razor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shaving",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

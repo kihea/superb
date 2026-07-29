@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sister-carrie-040",
+  "pool": "sourced",
+  "text": "\"I want to get a shave.\" \"All right,\" said Drouet, creaking off in his good shoes toward the elevator. The old butterfly was as light on the wing as ever. * * * * * On an incoming vestibuled Pullman, speeding at forty miles an hour through the snow of the evening, were three others, all related. \"First call for dinner in the dining-car,\" a Pullman servitor was announcing, as he hastened through the aisle in snow-white apron and jacket.",
+  "words": [
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aisle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

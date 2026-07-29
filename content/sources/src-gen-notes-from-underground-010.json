@@ -1,18 +1,18 @@
 {
   "id": "src-gen-notes-from-underground-010",
   "pool": "sourced",
-  "text": "After my affair with the officer I felt even more drawn there than before: it was on the Nevsky that I met him most frequently, there I could admire him. He, too, went there chiefly on holidays, He, too, turned out of his path for generals and persons of high rank, and he too, wriggled between them like an eel; but people, like me, or even better dressed than me, he simply walked over; he made straight for them as though there was nothing but empty space before him, and never, under any circumstances, turned aside. I gloated over my resentment watching him and ... always resentfully made way for him. It exasperated me that even in the street I could not be on an even footing with him. “Why must you invariably be the first to move aside?” I kept asking myself in hysterical rage, waking up sometimes at three o’clock in the morning.",
+  "text": "You think, gentlemen, perhaps that I am mad? Allow me to defend myself. I agree that man is pre-eminently a creative animal, predestined to strive consciously for an object and to engage in engineering—that is, incessantly and eternally to make new roads, wherever they may lead. But the reason why he wants sometimes to go off at a tangent may just be that he is predestined to make the road, and perhaps, too, that however stupid the “direct” practical man may be, the thought sometimes will occur to him that the road almost always does lead somewhere, and that the destination it leads to is less important than the process of making it, and that the chief thing is to save the well-conducted child from despising engineering, and so giving way to the fatal idleness, which, as we all know, is the mother of all the vices. Man likes to make roads and to create, that is a fact beyond dispute.",
   "words": [
     {
-      "word": "footing",
+      "word": "strive",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "invariably",
+      "word": "consciously",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

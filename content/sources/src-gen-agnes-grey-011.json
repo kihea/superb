@@ -1,12 +1,36 @@
 {
   "id": "src-gen-agnes-grey-011",
   "pool": "sourced",
-  "text": "I went on with my sewing as long as I could see, and then bade Nancy good-evening; checking her too lively gratitude by the undeniable assurance that I had only done for her what she would have done for me, if she had been in my place and I in hers. I hastened back to Horton Lodge, where, having entered the schoolroom, I found the tea-table all in confusion, the tray flooded with slops, and Miss Matilda in a most ferocious humour. “Miss Grey, whatever have you been about? I’ve had tea half an hour ago, and had to make it myself, and drink it all alone! I wish you would come in sooner!” “I’ve been to see Nancy Brown.",
+  "text": "I heard you were going to leave.” “Eh, bless you, yes! Missis gave me warning a three wik sin”. She told me afore Christmas how it mud be, if I hit ’em again; but I couldn’t hold my hand off ’em at nothing. I know not how you do, for Miss Mary Ann’s worse by the half nor her sisters!” THE UNCLE Besides the old lady, there was another relative of the family, whose visits were a great annoyance to me—this was “Uncle Robson,” Mrs. Bloomfield’s brother; a tall, self-sufficient fellow, with dark hair and sallow complexion like his sister, a nose that seemed to disdain the earth, and little grey eyes, frequently half-closed, with a mixture of real stupidity and affected contempt of all surrounding objects. He was a thick-set, strongly-built man, but he had found some means of compressing his waist into a remarkably small compass; and that, together with the unnatural stillness of his form, showed that the lofty-minded, manly Mr. Robson, the scorner of the female sex, was not above the foppery of stays.",
   "words": [
     {
-      "word": "confusion",
+      "word": "mud",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disdain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contempt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "manly",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +39,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-017",
   "pool": "sourced",
-  "text": "\"It is necessary to keep the rooms cool just now, but this air seems to me cold.\" Receiving no answer, he looked at her, and saw the sad truth in her averted face. \"I beg your pardon,\" he said quickly, flushing to the roots of his hair. \"I might have known, after what you said to me this evening.\" \"We had a little fire here to-day, sir,\" she said, struggling with the pride and shame of poverty; \"but we have been out of firing for two or three days, and we owe the wharfman something now.",
+  "text": "Gradually, as he listened to it, the fires in his brain were allayed, and all yielded to a sense of coolness and repose. He seemed to sink from trance to trance of utter rest, and yet was dimly aware that either something in his own condition, or some supernatural accession of tone, was changing the music from its proper quality to a harmony more infinite and awful. It was still low and indeterminate and sweet, but had unaccountably and strangely swelled into a gentle and sombre dirge, incommunicably mournful, and filled with a dark significance that touched him in his depth of rest with a secret tremor and awe. As he listened, rapt and vaguely wondering, the sense of his tranced sinking seemed to come to an end, and with the feeling of one who had been descending for many hours, and at length lay motionless at the bottom of a deep, dark chasm, he heard the music fail and cease.",
   "words": [
     {
-      "word": "owe",
+      "word": "sink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "significance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "awe",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

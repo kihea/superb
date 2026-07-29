@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-008",
   "pool": "sourced",
-  "text": "I cannot shut my eyes to Arthur’s faults; and the more I love him the more they trouble me. His very heart, that I trusted so, is, I fear, less warm and generous than I thought it. At least, he gave me a specimen of his character to-day that seemed to merit a harder name than thoughtlessness. He and Lord Lowborough were accompanying Annabella and me in a long, delightful ride; he was riding by my side, as usual, and Annabella and Lord Lowborough were a little before us, the latter bending towards his companion as if in tender and confidential discourse. “Those two will get the start of us, Helen, if we don’t look sharp,” observed Huntingdon.",
+  "text": "“I will not,” I replied. “But you pardon this offence?” “On condition that you never repeat it.” “And may I come to see you now and then?” “Perhaps—occasionally; provided you never abuse the privilege.” “I make no empty promises, but you shall see.” “The moment you do our intimacy is at an end, that’s all.” “And will you always call me Gilbert? It sounds more sisterly, and it will serve to remind me of our contract.” She smiled, and once more bid me go; and at length I judged it prudent to obey, and she re-entered the house and I went down the hill. But as I went the tramp of horses’ hoofs fell on my ear, and broke the stillness of the dewy evening; and, looking towards the lane, I saw a solitary equestrian coming up. Inclining to dusk as it was, I knew him at a glance: it was Mr. Lawrence on his grey pony.",
   "words": [
     {
-      "word": "accompanying",
+      "word": "pardon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intimacy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

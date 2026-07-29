@@ -1,10 +1,28 @@
 {
   "id": "src-gen-cranford-009",
   "pool": "sourced",
-  "text": "“Oh, she’s the widow of Mr Jamieson—that’s Mrs Jamieson’s late husband, you know—widow of his eldest brother. Mrs Jamieson was a Miss Walker, daughter of Governor Walker. ‘Your ladyship.’ My dear, if they fix on that way of speaking, you must just let me practice a little on you first, for I shall feel so foolish and hot saying it the first time to Lady Glenmire.” It was really a relief to Miss Matty when Mrs Jamieson came on a very unpolite errand. I notice that apathetic people have more quiet impertinence than others; and Mrs Jamieson came now to insinuate pretty plainly that she did not particularly wish that the Cranford ladies should call upon her sister-in-law. I can hardly say how she made this clear; for I grew very indignant and warm, while with slow deliberation she was explaining her wishes to Miss Matty, who, a true lady herself, could hardly understand the feeling which made Mrs Jamieson wish to appear to her noble sister-in-law as if she only visited “county” families.",
+  "text": "When he and I went in, we found that dinner was nearly ready in the kitchen—for so I suppose the room ought to be called, as there were oak dressers and cupboards all round, all over by the side of the fireplace, and only a small Turkey carpet in the middle of the flag-floor. The room might have been easily made into a handsome dark oak dining-parlour by removing the oven and a few other appurtenances of a kitchen, which were evidently never used, the real cooking-place being at some distance. The room in which we were expected to sit was a stiffly-furnished, ugly apartment; but that in which we did sit was what Mr Holbrook called the counting-house, where he paid his labourers their weekly wages at a great desk near the door. The rest of the pretty sitting-room—looking into the orchard, and all covered over with dancing tree-shadows—was filled with books. They lay on the ground, they covered the walls, they strewed the table.",
   "words": [
     {
-      "word": "eldest",
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carpet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oven",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

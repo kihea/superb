@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-cranford-024",
+  "pool": "sourced",
+  "text": "We all applauded this ingenious contrivance, and Miss Matty sank back into satisfied silence, with a look at Mrs Forrester as if to ask for her private weakness. Mrs Forrester looked askance at Miss Pole, and tried to change the subject a little by telling us that she had borrowed a boy from one of the neighbouring cottages and promised his parents a hundredweight of coals at Christmas, and his supper every evening, for the loan of him at nights. She had instructed him in his possible duties when he first came; and, finding him sensible, she had given him the Major’s sword (the Major was her late husband), and desired him to put it very carefully behind his pillow at night, turning the edge towards the head of the pillow. He was a sharp lad, she was sure; for, spying out the Major’s cocked hat, he had said, if he might have that to wear, he was sure he could frighten two Englishmen, or four Frenchmen any day.",
+  "words": [
+    {
+      "word": "pillow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

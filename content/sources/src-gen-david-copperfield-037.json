@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-david-copperfield-037",
+  "pool": "sourced",
+  "text": "My aunt and Agnes were there, busily making some little extra comforts, in the way of dress, for the children. Peggotty was quietly assisting, with the old insensible work-box, yard-measure, and bit of wax-candle before her, that had now outlived so much. It was not easy to answer her inquiries; still less to whisper Mr. Peggotty, when Mr. Micawber brought him in, that I had given the letter, and all was well. But I did both, and made them happy. If I showed any trace of what I felt, my own sorrows were sufficient to account for it.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assisting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

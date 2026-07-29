@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-021",
+  "pool": "sourced",
+  "text": "When the music began, he stood up and looked across at his mother, smiling. He was very fond of music, and his mother and he often sang together, so he joined in with the rest, his pure, sweet, high voice rising as clear as the song of a bird. He quite forgot himself in his pleasure in it. The Earl forgot himself a little too, as he sat in his curtain-shielded corner of the pew and watched the boy. Cedric stood with the big psalter open in his hands, singing with all his childish might, his face a little uplifted, happily; and as he sang, a long ray of sunshine crept in and, slanting through a golden pane of a stained glass window, brightened the falling hair about his young head.",
+  "words": [
+    {
+      "word": "sang",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-room-with-a-view-021",
+  "pool": "sourced",
+  "text": "“Welcome as one of the family!” said Mrs. Honeychurch, waving her hand at the furniture. “This is indeed a joyous day! I feel sure that you will make our dear Lucy happy.” “I hope so,” replied the young man, shifting his eyes to the ceiling. “We mothers—” simpered Mrs. Honeychurch, and then realized that she was affected, sentimental, bombastic—all the things she hated most. Why could she not be Freddy, who stood stiff in the middle of the room; looking very cross and almost handsome?",
+  "words": [
+    {
+      "word": "joyous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Room with a View",
+    "author": "E. M. Forster",
+    "year": 1908,
+    "source": "Project Gutenberg #2641",
+    "url": "https://www.gutenberg.org/ebooks/2641.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

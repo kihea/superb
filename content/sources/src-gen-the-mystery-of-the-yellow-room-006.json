@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-mystery-of-the-yellow-room-006",
   "pool": "sourced",
-  "text": "At last, he gave a grunt of satisfaction and declared “Now I am at ease!” “Well,—do you believe that the poor dear young lady was shut up when she was being murdered—when she cried out for help?” wailed Daddy Jacques. “Yes,” said the young reporter, drying his forehead, “The Yellow Room was as tightly shut as an iron safe.” “That,” I said, “is why this mystery is the most surprising I know. Edgar Allan Poe, in the ‘Double Assassination of the Rue Morgue,’ invented nothing like it. The place of that crime was sufficiently closed to prevent the escape of a man; but there was that window through which the monkey, the perpetrator of the murder, could slip away! But here, there can be no question of an opening of any sort.",
+  "text": "Some of them expressed their astonishment, and to their questions he answered: “It is my daughter’s wish. I can refuse her nothing. She has chosen the Glandier.” Interrogated in her turn, the young girl replied calmly: “Where could we work better than in this solitude?” For Mademoiselle Stangerson had already begun to collaborate with her father in his work. It could not at the time be imagined that her passion for science would lead her so far as to refuse all the suitors who presented themselves to her for over fifteen years. So secluded was the life led by the two, father and daughter, that they showed themselves only at a few official receptions and, at certain times in the year, in two or three friendly drawing-rooms, where the fame of the professor and the beauty of Mathilde made a sensation.",
   "words": [
     {
-      "word": "monkey",
+      "word": "collaborate",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "perpetrator",
+      "word": "fifteen",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1907,
     "source": "Project Gutenberg #1685",
-    "url": "https://www.gutenberg.org/ebooks/1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

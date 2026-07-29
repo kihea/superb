@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sense-and-sensibility-036",
+  "pool": "sourced",
+  "text": "Let me be able to fancy that a better knowledge of my heart, and of my present feelings, will draw from her a more spontaneous, more natural, more gentle, less dignified, forgiveness. Tell her of my misery and my penitence--tell her that my heart was never inconstant to her, and if you will, that at this moment she is dearer to me than ever.\" \"I will tell her all that is necessary to what may comparatively be called, your justification. But you have not explained to me the particular reason of your coming now, nor how you heard of her illness.\" \"Last night, in Drury Lane lobby, I ran against Sir John Middleton, and when he saw who I was, for the first time these two months--he spoke to me.",
+  "words": [
+    {
+      "word": "spontaneous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "justification",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

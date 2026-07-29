@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-david-copperfield-040",
+  "pool": "sourced",
+  "text": "‘Riding today, Trot?’ said my aunt, putting her head in at the door. ‘Yes,’ said I, ‘I am going over to Canterbury. It’s a good day for a ride.’ ‘I hope your horse may think so too,’ said my aunt; ‘but at present he is holding down his head and his ears, standing before the door there, as if he thought his stable preferable.’ My aunt, I may observe, allowed my horse on the forbidden ground, but had not at all relented towards the donkeys. ‘He will be fresh enough, presently!’ said I. ‘The ride will do his master good, at all events,’ observed my aunt, glancing at the papers on my table.",
+  "words": [
+    {
+      "word": "forbidden",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

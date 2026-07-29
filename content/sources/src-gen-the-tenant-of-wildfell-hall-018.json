@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-018",
   "pool": "sourced",
-  "text": "“Where are they?” said he: “have they all left me—servants and all?” “There are servants within call if you want them; but you had better lie down now and be quiet: none of them could or would attend you as carefully as I shall do.” “I can’t understand it at all,” said he, in bewildered perplexity. “Was it a dream that—” and he covered his eyes with his hands, as if trying to unravel the mystery. “No, Arthur, it was not a dream, that your conduct was such as to oblige me to leave you; but I heard that you were ill and alone, and I am come back to nurse you. You need not fear to trust me: tell me all your wants, and I will try to satisfy them. There is no one else to care for you; and I shall not upbraid you now.” “Oh!",
+  "text": "I can take my rides and walks in the Park as usual; and your business cannot occupy all your time: I shall see you at meal-times, and in the evenings at least, and that will be better than being leagues away and never seeing you at all.” “But, my love, I cannot let you stay. How can I settle my affairs when I know that you are here, neglected—?” “I shall not feel myself neglected: while you are doing your duty, Arthur, I shall never complain of neglect. If you had told me before, that you had anything to do, it would have been half done before this; and now you must make up for lost time by redoubled exertions. Tell me what it is; and I will be your taskmaster, instead of being a hindrance.” “No, no,” persisted the impracticable creature; “you must go home, Helen; I must have the satisfaction of knowing that you are safe and well, though far away.",
   "words": [
     {
-      "word": "servants",
+      "word": "occupy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neglected",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

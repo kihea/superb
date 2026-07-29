@@ -1,16 +1,28 @@
 {
   "id": "src-gen-dracula-019",
   "pool": "sourced",
-  "text": "let me speak, and you shall learn. Oh, John, my friend, we are in awful straits. I fear, as I never feared before. We can only trust the good God. here she comes!” I thought that the Professor was going to break down and have hysterics, just as he had when Lucy died, but with a great effort he controlled himself and was at perfect nervous poise when Mrs. Harker tripped into the room, bright and happy-looking and, in the doing of work, seemingly forgetful of her misery.",
+  "text": "how beautiful she was. Every hour seemed to be enhancing her loveliness. It frightened and amazed me somewhat; and as for Arthur, he fell a-trembling, and finally was shaken with doubt as with an ague. At last, after a long pause, he said to me in a faint whisper:-- “Jack, is she really dead?” I assured him sadly that it was so, and went on to suggest--for I felt that such a horrible doubt should not have life for a moment longer than I could help--that it often happened that after death faces became softened and even resolved into their youthful beauty; that this was especially so when death had been preceded by any acute or prolonged suffering. It seemed to quite do away with any doubt, and, after kneeling beside the couch for a while and looking at her lovingly and long, he turned aside.",
   "words": [
     {
-      "word": "straits",
+      "word": "frightened",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "misery",
+      "word": "amazed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "couch",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

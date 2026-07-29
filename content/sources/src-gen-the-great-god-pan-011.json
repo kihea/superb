@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-great-god-pan-011",
   "pool": "sourced",
-  "text": "What do you think?” “I couldn’t say. To the best of my belief it was after turning the portrait in his hands that he nearly dropped from the chair. The name, you know, was written on the back.” “Quite so. After all, it is impossible to come to any resolution in a case like this. I hate melodrama, and nothing strikes me as more commonplace and tedious than the ordinary ghost story of commerce; but really, Villiers, it looks as if there were something very queer at the bottom of all this.” The two men had, without noticing it, turned up Ashley Street, leading northward from Piccadilly.",
+  "text": "My friends had come to know her at Florence; she told them she was an orphan, the child of an English father and an Italian mother, and she charmed them as she charmed me. The first time I saw her was at an evening party. I was standing by the door talking to a friend, when suddenly above the hum and babble of conversation I heard a voice which seemed to thrill to my heart. She was singing an Italian song. I was introduced to her that evening, and in three months I married Helen.",
   "words": [
     {
-      "word": "commonplace",
+      "word": "orphan",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "thrill",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

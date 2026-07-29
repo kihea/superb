@@ -1,10 +1,16 @@
 {
   "id": "src-gen-persuasion-015",
   "pool": "sourced",
-  "text": "I walk: I prefer walking.” “But it rains.” “Oh! very little. Nothing that I regard.” After a moment’s pause he said: “Though I came only yesterday, I have equipped myself properly for Bath already, you see,” (pointing to a new umbrella); “I wish you would make use of it, if you are determined to walk; though I think it would be more prudent to let me get you a chair.” She was very much obliged to him, but declined it all, repeating her conviction, that the rain would come to nothing at present, and adding, “I am only waiting for Mr Elliot. He will be here in a moment, I am sure.” She had hardly spoken the words when Mr Elliot walked in. Captain Wentworth recollected him perfectly.",
+  "text": "If Louisa Musgrove would be beautiful and happy in her November of life, she will cherish all her present powers of mind.” He had done, and was unanswered. It would have surprised Anne if Louisa could have readily answered such a speech: words of such interest, spoken with such serious warmth! She could imagine what Louisa was feeling. For herself, she feared to move, lest she should be seen. While she remained, a bush of low rambling holly protected her, and they were moving on.",
   "words": [
     {
-      "word": "umbrella",
+      "word": "unanswered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rambling",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

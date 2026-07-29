@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-023",
+  "pool": "sourced",
+  "text": "“But,” he ended, “he does really conceal his toilet.” It somehow completed the thrill of my fanciful nerves that at that instant the Duke appeared again silently among the glimmering trees, with his soft foot and sunset-hued hair, coming round the corner of the house in company with his librarian. Before he came within earshot, Father Brown had added quite composedly, “Why does he really hide the secret of what he does with the purple wig? Because it isn’t the sort of secret we suppose.” The Duke came round the corner and resumed his seat at the head of the table with all his native dignity. The embarrassment of the librarian left him hovering on his hind legs, like a huge bear. The Duke addressed the priest with great seriousness.",
+  "words": [
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

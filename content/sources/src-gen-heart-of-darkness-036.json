@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heart-of-darkness-036",
+  "pool": "sourced",
+  "text": "When we came abreast again, they faced the river, stamped their feet, nodded their horned heads, swayed their scarlet bodies; they shook towards the fierce river-demon a bunch of black feathers, a mangy skin with a pendent tail—something that looked a dried gourd; they shouted periodically together strings of amazing words that resembled no sounds of human language; and the deep murmurs of the crowd, interrupted suddenly, were like the responses of some satanic litany. “We had carried Kurtz into the pilot-house: there was more air there. Lying on the couch, he stared through the open shutter. There was an eddy in the mass of human bodies, and the woman with helmeted head and tawny cheeks rushed out to the very brink of the stream. She put out her hands, shouted something, and all that wild mob took up the shout in a roaring chorus of articulated, rapid, breathless utterance.",
+  "words": [
+    {
+      "word": "dried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eddy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anne-of-green-gables-035",
+  "pool": "sourced",
+  "text": "“Oh, Diana, if only the geometry examination were over! But there, as Mrs. Lynde would say, the sun will go on rising and setting whether I fail in geometry or not. That is true but not especially comforting. I think I’d rather it didn’t go on if I failed! “Yours devotedly, “Anne” The geometry examination and all the others were over in due time and Anne arrived home on Friday evening, rather tired but with an air of chastened triumph about her.",
+  "words": [
+    {
+      "word": "comforting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

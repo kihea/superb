@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-006",
   "pool": "sourced",
-  "text": "In this enterprise, however, he had more real difficulties than generally fell to the lot of a knight-errant of yore, who seldom had anything but giants, enchanters, fiery dragons, and such like easily conquered adversaries, to contend with and had to make his way merely through gates of iron and brass, and walls of adamant to the castle keep, where the lady of his heart was confined; all which he achieved as easily as a man would carve his way to the centre of a Christmas pie; and then the lady gave him her hand as a matter of course. Ichabod, on the contrary, had to win his way to the heart of a country coquette, beset with a labyrinth of whims and caprices, which were forever presenting new difficulties and impediments; and he had to encounter a host of fearful adversaries of real flesh and blood, the numerous rustic admirers, who beset every portal to her heart, keeping a watchful and angry eye upon each other, but ready to fly out in the common cause against any new competitor.",
+  "text": "Another of his sources of fearful pleasure was to pass long winter evenings with the old Dutch wives, as they sat spinning by the fire, with a row of apples roasting and spluttering along the hearth, and listen to their marvellous tales of ghosts and goblins, and haunted fields, and haunted brooks, and haunted bridges, and haunted houses, and particularly of the headless horseman, or Galloping Hessian of the Hollow, as they sometimes called him. He would delight them equally by his anecdotes of witchcraft, and of the direful omens and portentous sights and sounds in the air, which prevailed in the earlier times of Connecticut; and would frighten them woefully with speculations upon comets and shooting stars; and with the alarming fact that the world did absolutely turn round, and that they were half the time topsy-turvy! But if there was a pleasure in all this, while snugly cuddling in the chimney corner of a chamber that was all of a ruddy glow from the crackling wood fire, and where, of course, no spectre dared to show its face, it was dearly purchased by the terrors of his subsequent walk homewards.",
   "words": [
     {
-      "word": "labyrinth",
+      "word": "haunted",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "rustic",
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chimney",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

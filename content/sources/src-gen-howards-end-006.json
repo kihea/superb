@@ -1,10 +1,22 @@
 {
   "id": "src-gen-howards-end-006",
   "pool": "sourced",
-  "text": "“They have gone to Naples for their honeymoon.” “Lucky people!” “I can hardly imagine Charles in Italy.” “Doesn’t he care for travelling?” “He likes travel, but he does see through foreigners so. What he enjoys most is a motor tour in England, and I think that would have carried the day if the weather had not been so abominable. His father gave him a car of his own for a wedding present, which for the present is being stored at Howards End.” “I suppose you have a garage there?” “Yes. My husband built a little one only last month, to the west of the house, not far from the wych-elm, in what used to be the paddock for the pony.” The last words had an indescribable ring about them. “Where’s the pony gone?” asked Margaret after a pause.",
+  "text": "How interesting that row of people was! What diverse influences had gone to the making! Here Beethoven, after humming and hawing with great sweetness, said “Heigho,” and the Andante came to an end. Applause, and a round of “wunderschöning” and “prachtvolleying” from the German contingent. Margaret started talking to her new young man; Helen said to her aunt: “Now comes the wonderful movement: first of all the goblins, and then a trio of elephants dancing;” and Tibby implored the company generally to look out for the transitional passage on the drum.",
   "words": [
     {
-      "word": "travelling",
+      "word": "humming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trio",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drum",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

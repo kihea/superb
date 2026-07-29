@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-meditations-033",
+  "pool": "sourced",
+  "text": "Secondly, what manner of men they be, at board, and upon their beds, and so forth. But above all things, how they are forced by their opinions that they hold, to do what they do; and even those things that they do, with what pride and self-conceit they do them. Thirdly, that if they do these things rightly, thou hast no reason to be grieved. But if not rightly, it must needs be that they do them against their wills, and through mere ignorance. For as, according to Plato's opinion, no soul doth willingly err, so by consequent neither doth it anything otherwise than it ought, but against her will.",
+  "words": [
+    {
+      "word": "rightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Meditations",
+    "author": "Marcus Aurelius",
+    "year": 180,
+    "source": "Project Gutenberg #2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

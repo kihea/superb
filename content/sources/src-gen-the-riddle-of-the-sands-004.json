@@ -1,24 +1,36 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-004",
   "pool": "sourced",
-  "text": "“Germany’s a thundering great nation,” he said; “I wonder if we shall ever fight her.” A little incident that happened after we anchored deepened the impression left by this conversation. We crept at dusk into a shaded back-water, where our keel almost touched the gravel bed. Opposite us on the Alsen shore there showed, clean-cut against the sky, the spire of a little monument rising from a leafy hollow. “I wonder what that is,” I said. It was scarcely a minute’s row in the dinghy, and when the anchor was down we sculled over to it.",
+  "text": "Come up and bathe. Slept well?” I heard a voice saying from aloft. “Fairly well,” I growled, stepping out into a pool of water on the oilcloth. Thence I stumbled up the ladder, dived overboard, and buried bad dreams, stiffness, frowsiness, and tormented nerves in the loveliest fiord of the lovely Baltic. A short and furious swim and I was back again, searching for a means of ascent up the smooth black side, which, low as it was, was slippery and unsympathetic.",
   "words": [
     {
-      "word": "monument",
+      "word": "bathe",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "leafy",
+      "word": "ladder",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "hollow",
+      "word": "overboard",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swim",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slippery",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -27,7 +39,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

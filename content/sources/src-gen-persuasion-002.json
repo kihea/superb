@@ -1,16 +1,17 @@
 {
   "id": "src-gen-persuasion-002",
   "pool": "sourced",
-  "text": "Kellynch Hall was to be let. This, however, was a profound secret, not to be breathed beyond their own circle. Sir Walter could not have borne the degradation of being known to design letting his house. Mr Shepherd had once mentioned the word “advertise,” but never dared approach it again. Sir Walter spurned the idea of its being offered in any manner; forbad the slightest hint being dropped of his having such an intention; and it was only on the supposition of his being spontaneously solicited by some most unexceptionable applicant, on his own terms, and as a great favour, that he would let it at all.",
+  "text": "The disgrace of his first marriage might, perhaps, as there was no reason to suppose it perpetuated by offspring, have been got over, had he not done worse; but he had, as by the accustomary intervention of kind friends, they had been informed, spoken most disrespectfully of them all, most slightingly and contemptuously of the very blood he belonged to, and the honours which were hereafter to be his own. This could not be pardoned. Such were Elizabeth Elliot’s sentiments and sensations; such the cares to alloy, the agitations to vary, the sameness and the elegance, the prosperity and the nothingness of her scene of life; such the feelings to give interest to a long, uneventful residence in one country circle, to fill the vacancies which there were no habits of utility abroad, no talents or accomplishments for home, to occupy. But now, another occupation and solicitude of mind was beginning to be added to these. Her father was growing distressed for money.",
   "words": [
     {
-      "word": "profound",
+      "word": "alloy",
       "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "spontaneously",
+      "word": "occupation",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +22,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

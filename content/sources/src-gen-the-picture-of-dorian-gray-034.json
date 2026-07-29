@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-034",
+  "pool": "sourced",
+  "text": "From some of the bars came the sound of horrible laughter. In others, drunkards brawled and screamed. Lying back in the hansom, with his hat pulled over his forehead, Dorian Gray watched with listless eyes the sordid shame of the great city, and now and then he repeated to himself the words that Lord Henry had said to him on the first day they had met, “To cure the soul by means of the senses, and the senses by means of the soul.” Yes, that was the secret. He had often tried it, and would try it again now. There were opium dens where one could buy oblivion, dens of horror where the memory of old sins could be destroyed by the madness of sins that were new.",
+  "words": [
+    {
+      "word": "laughter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

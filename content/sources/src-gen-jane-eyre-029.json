@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-jane-eyre-029",
+  "pool": "sourced",
+  "text": "I used to enjoy a chance meeting with you, Jane, at this time: there was a curious hesitation in your manner: you glanced at me with a slight trouble—a hovering doubt: you did not know what my caprice might be—whether I was going to play the master and be stern, or the friend and be benignant. I was now too fond of you often to simulate the first whim; and, when I stretched my hand out cordially, such bloom and light and bliss rose to your young, wistful features, I had much ado often to avoid straining you then and there to my heart.” “Don’t talk any more of those days, sir,” I interrupted, furtively dashing away some tears from my eyes; his language was torture to me; for I knew what I must do—and do soon—and all these reminiscences, and these revelations of his feelings only made my work more difficult. “No, Jane,” he returned: “what necessity is there to dwell on the Past, when the Present is so much surer—the Future so much brighter?” I shuddered to hear the infatuated assertion. “You see now how the case stands—do you not?” he continued.",
+  "words": [
+    {
+      "word": "stern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ado",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

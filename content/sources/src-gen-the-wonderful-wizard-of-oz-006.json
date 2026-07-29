@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-006",
   "pool": "sourced",
-  "text": "When Dorothy presently asked him a question the Tin Woodman could not open his mouth, for his jaws were tightly rusted together. He became greatly frightened at this and made many motions to Dorothy to relieve him, but she could not understand. The Lion was also puzzled to know what was wrong. But the Scarecrow seized the oil-can from Dorothy’s basket and oiled the Woodman’s jaws, so that after a few moments he could talk as well as before. “This will serve me a lesson,” said he, “to look where I step.",
+  "text": "So we know you are a friendly witch.” Dorothy did not know what to say to this, for all the people seemed to think her a witch, and she knew very well she was only an ordinary little girl who had come by the chance of a cyclone into a strange land. When she had tired watching the dancing, Boq led her into the house, where he gave her a room with a pretty bed in it. The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her. She ate a hearty breakfast, and watched a wee Munchkin baby, who played with Toto and pulled his tail and crowed and laughed in a way that greatly amused Dorothy. Toto was a fine curiosity to all the people, for they had never seen a dog before.",
   "words": [
     {
-      "word": "jaws",
+      "word": "cloth",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "puzzled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "basket",
+      "word": "wee",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

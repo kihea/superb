@@ -1,10 +1,16 @@
 {
   "id": "src-gen-dracula-012",
   "pool": "sourced",
-  "text": "Arthur went on: “And when there?” “To enter the tomb!” Arthur stood up. “Professor, are you in earnest; or it is some monstrous joke? Pardon me, I see that you are in earnest.” He sat down again, but I could see that he sat firmly and proudly, as one who is on his dignity. There was silence until he asked again:-- “And when in the tomb?” “To open the coffin.” “This is too much!” he said, angrily rising again. “I am willing to be patient in all things that are reasonable; but in this--this desecration of the grave--of one who----” He fairly choked with indignation.",
+  "text": "We were coming home for dinner, and had come to the top of the steps up from the West Pier and stopped to look at the view, as we generally do. The setting sun, low down in the sky, was just dropping behind Kettleness; the red light was thrown over on the East Cliff and the old abbey, and seemed to bathe everything in a beautiful rosy glow. We were silent for a while, and suddenly Lucy murmured as if to herself:-- “His red eyes again! They are just the same.” It was such an odd expression, coming apropos of nothing, that it quite startled me. I slewed round a little, so as to see Lucy well without seeming to stare at her, and saw that she was in a half-dreamy state, with an odd look on her face that I could not quite make out; so I said nothing, but followed her eyes.",
   "words": [
     {
-      "word": "tomb",
+      "word": "glow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stare",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

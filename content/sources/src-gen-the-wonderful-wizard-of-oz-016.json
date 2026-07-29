@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-016",
   "pool": "sourced",
-  "text": "As it fell with a crash they looked that way, and the next moment all of them were filled with wonder. For they saw, standing in just the spot the screen had hidden, a little old man, with a bald head and a wrinkled face, who seemed to be as much surprised as they were. The Tin Woodman, raising his axe, rushed toward the little man and cried out, “Who are you?” “I am Oz, the Great and Terrible,” said the little man, in a trembling voice. “But don’t strike me—please don’t—and I’ll do anything you want me to.” Our friends looked at him in surprise and dismay. “I thought Oz was a great Head,” said Dorothy.",
+  "text": "So hereafter you must all serve him, and obey his slightest wish.” “We will!” cried all the mice, in a shrill chorus. And then they scampered in all directions, for Toto had awakened from his sleep, and seeing all these mice around him he gave one bark of delight and jumped right into the middle of the group. Toto had always loved to chase mice when he lived in Kansas, and he saw no harm in it. But the Tin Woodman caught the dog in his arms and held him tight, while he called to the mice, “Come back! Come back!",
   "words": [
     {
-      "word": "bald",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dismay",
+      "word": "chorus",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

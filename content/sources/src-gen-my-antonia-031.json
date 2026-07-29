@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-my-antonia-031",
+  "pool": "sourced",
+  "text": "I had never heard in the theatre lines that were alive, that presupposed and took for granted, like those which passed between Varville and Marguerite in the brief encounter before her friends entered. This introduced the most brilliant, worldly, the most enchantingly gay scene I had ever looked upon. I had never seen champagne bottles opened on the stage before—indeed, I had never seen them opened anywhere. The memory of that supper makes me hungry now; the sight of it then, when I had only a students’ boarding-house dinner behind me, was delicate torment. I seem to remember gilded chairs and tables (arranged hurriedly by footmen in white gloves and stockings), linen of dazzling whiteness, glittering glass, silver dishes, a great bowl of fruit, and the reddest of roses.",
+  "words": [
+    {
+      "word": "champagne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dishes",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

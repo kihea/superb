@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-010",
   "pool": "sourced",
-  "text": "I was distressed therefore when another member of the family came down to live here, and I felt that he should be warned of the danger which he will run. That was all which I intended to convey.” “But what is the danger?” “You know the story of the hound?” “I do not believe in such nonsense.” “But I do. If you have any influence with Sir Henry, take him away from a place which has always been fatal to his family. The world is wide. Why should he wish to live at the place of danger?” “Because it is the place of danger.",
+  "text": "I should like to have a quiet hour by myself to make up my mind. Now, look here, Mr. Holmes, it’s half-past eleven now and I am going back right away to my hotel. Suppose you and your friend, Dr. Watson, come round and lunch with us at two. I’ll be able to tell you more clearly then how this thing strikes me.” “Is that convenient to you, Watson?” “Perfectly.” “Then you may expect us. Shall I have a cab called?” “I’d prefer to walk, for this affair has flurried me rather.” “I’ll join you in a walk, with pleasure,” said his companion.",
   "words": [
     {
-      "word": "convey",
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-017",
   "pool": "sourced",
-  "text": "“I’m glad they’ve taught you to obey,” said Madame Merle. “That’s what good little girls should do.” “Oh yes, I obey very well,” cried Pansy with soft eagerness, almost with boastfulness, as if she had been speaking of her piano-playing. And then she gave a faint, just audible sigh. Madame Merle, holding her hand, drew it across her own fine palm and looked at it. The gaze was critical, but it found nothing to deprecate; the child’s small hand was delicate and fair.",
+  "text": "You don’t know how to take such ideas. Mr. Goodwood does, however; and that’s what I like about him. He’s a splendid man and a perfect gentleman, and Isabel knows it.” “Is she very fond of him?” “If she isn’t she ought to be. He’s simply wrapped up in her.” “And you wish me to ask him here,” said Ralph reflectively. “It would be an act of true hospitality.” “Caspar Goodwood,” Ralph continued--“it’s rather a striking name.” “I don’t care anything about his name.",
   "words": [
     {
-      "word": "sigh",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hospitality",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

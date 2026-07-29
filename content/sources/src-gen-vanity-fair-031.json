@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-vanity-fair-031",
+  "pool": "sourced",
+  "text": "During the intervals of the stanzas of this ditty, the good-natured personage addressed as Mamma by the singer, and whose large whiskers appeared under her cap, seemed very anxious to exhibit her maternal affection by embracing the innocent creature who performed the daughter's part. Every caress was received with loud acclamations of laughter by the sympathizing audience. At its conclusion (while the music was performing a symphony as if ever so many birds were warbling) the whole house was unanimous for an encore: and applause and bouquets without end were showered upon the Nightingale of the evening. Lord Steyne's voice of applause was loudest of all. Becky, the nightingale, took the flowers which he threw to her and pressed them to her heart with the air of a consummate comedian.",
+  "words": [
+    {
+      "word": "laughter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "symphony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "becky",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

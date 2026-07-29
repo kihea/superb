@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-028",
+  "pool": "sourced",
+  "text": "At length we saw the numerous steeples of London, St. Paul’s towering above all, and the Tower famed in English history. London was our present point of rest; we determined to remain several months in this wonderful and celebrated city. Clerval desired the intercourse of the men of genius and talent who flourished at this time, but this was with me a secondary object; I was principally occupied with the means of obtaining the information necessary for the completion of my promise and quickly availed myself of the letters of introduction that I had brought with me, addressed to the most distinguished natural philosophers. If this journey had taken place during my days of study and happiness, it would have afforded me inexpressible pleasure. But a blight had come over my existence, and I only visited these people for the sake of the information they might give me on the subject in which my interest was so terribly profound.",
+  "words": [
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

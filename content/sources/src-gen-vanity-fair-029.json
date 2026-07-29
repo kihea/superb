@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-vanity-fair-029",
+  "pool": "sourced",
+  "text": "Mrs. Bute Crawley and her young ladies in the country had a copy of the Morning Post from town, and gave a vent to their honest indignation. \"If you had been sandy-haired, green-eyed, and a French rope-dancer's daughter,\" Mrs. Bute said to her eldest girl (who, on the contrary, was a very swarthy, short, and snub-nosed young lady), \"You might have had superb diamonds forsooth, and have been presented at Court by your cousin, the Lady Jane. But you're only a gentlewoman, my poor dear child. You have only some of the best blood in England in your veins, and good principles and piety for your portion. I, myself, the wife of a Baronet's younger brother, too, never thought of such a thing as going to Court--nor would other people, if good Queen Charlotte had been alive.\"",
+  "words": [
+    {
+      "word": "superb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

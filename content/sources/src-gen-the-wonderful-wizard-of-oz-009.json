@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-009",
   "pool": "sourced",
-  "text": "Toto ate a little of everything, and was glad to get a good supper again. The woman now gave Dorothy a bed to sleep in, and Toto lay down beside her, while the Lion guarded the door of her room so she might not be disturbed. The Scarecrow and the Tin Woodman stood up in a corner and kept quiet all night, although of course they could not sleep. The next morning, as soon as the sun was up, they started on their way, and soon saw a beautiful green glow in the sky just before them. “That must be the Emerald City,” said Dorothy.",
+  "text": "I had now no heart, so that I lost all my love for the Munchkin girl, and did not care whether I married her or not. I suppose she is still living with the old woman, waiting for me to come after her. “My body shone so brightly in the sun that I felt very proud of it and it did not matter now if my axe slipped, for it could not cut me. There was only one danger—that my joints would rust; but I kept an oil-can in my cottage and took care to oil myself whenever I needed it. However, there came a day when I forgot to do this, and, being caught in a rainstorm, before I thought of the danger my joints had rusted, and I was left to stand in the woods until you came to help me.",
   "words": [
     {
-      "word": "supper",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "disturbed",
+      "word": "axe",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,29 +1,18 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-008",
   "pool": "sourced",
-  "text": "But I must owe something. Find what I owe, Watson. I am all off colour. I can do nothing for myself.” I walked down the narrow passage between the double row of sleepers, holding my breath to keep out the vile, stupefying fumes of the drug, and looking about for the manager. As I passed the tall man who sat by the brazier I felt a sudden pluck at my skirt, and a low voice whispered, “Walk past me, and then look back at me.” The words fell quite distinctly upon my ear.",
+  "text": "I have done nothing actionable from the first, but as long as you keep that door locked you lay yourself open to an action for assault and illegal constraint.” “The law cannot, as you say, touch you,” said Holmes, unlocking and throwing open the door, “yet there never was a man who deserved punishment more. If the young lady has a brother or a friend, he ought to lay a whip across your shoulders. By Jove!” he continued, flushing up at the sight of the bitter sneer upon the man’s face, “it is not part of my duties to my client, but here’s a hunting crop handy, and I think I shall just treat myself to—” He took two swift steps to the whip, but before he could grasp it there was a wild clatter of steps upon the stairs, the heavy hall door banged, and from the window we could see Mr. James Windibank running at the top of his speed down the road. “There’s a cold-blooded scoundrel!” said Holmes, laughing, as he threw himself down into his chair once more.",
   "words": [
     {
-      "word": "owe",
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "vile",
+      "word": "stairs",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pluck",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "whispered",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -33,7 +22,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

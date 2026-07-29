@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-war-of-the-worlds-016",
   "pool": "sourced",
-  "text": "The curate had possession of the slit when the first men were brought to the pit. I was sitting below, huddled up, listening with all my ears. He made a sudden movement backward, and I, fearful that we were observed, crouched in a spasm of terror. He came sliding down the rubbish and crept beside me in the darkness, inarticulate, gesticulating, and for a moment I shared his panic. His gesture suggested a resignation of the slit, and after a little while my curiosity gave me courage, and I rose up, stepped across him, and clambered up to it.",
+  "text": "In London, also, on Saturday night there was a thunderstorm, and my brother reached Waterloo in a cab. On the platform from which the midnight train usually starts he learned, after some waiting, that an accident prevented trains from reaching Woking that night. The nature of the accident he could not ascertain; indeed, the railway authorities did not clearly know at that time. There was very little excitement in the station, as the officials, failing to realise that anything further than a breakdown between Byfleet and Woking junction had occurred, were running the theatre trains which usually passed through Woking round by Virginia Water or Guildford. They were busy making the necessary arrangements to alter the route of the Southampton and Portsmouth Sunday League excursions.",
   "words": [
     {
-      "word": "gesture",
+      "word": "thunderstorm",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "stepped",
+      "word": "cab",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breakdown",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

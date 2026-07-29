@@ -1,52 +1,22 @@
 {
   "id": "src-gen-the-custom-of-the-country-003",
   "pool": "sourced",
-  "text": "Undine, seated at Ralph Marvell's side, and feeling the thrill of his proximity as a subtler element in the general interest she was exciting, was at last repaid for the disappointment of her evening at the opera. It was characteristic of her that she remembered her failures as keenly as her triumphs, and that the passionate desire to obliterate, to \"get even\" with them, was always among the latent incentives of her conduct. Now at last she was having what she wanted--she was in conscious possession of the \"real thing\"; and through her other, diffused, sensations Ralph's adoration gave her such a last refinement of pleasure as might have come to some warrior Queen borne in triumph by captive princes, and reading in the eyes of one the passion he dared not speak. When the curtain fell this vague enjoyment was heightened by various acts of recognition. All the people she wanted to \"go with,\" as they said in Apex, seemed to be about her in the stalls and boxes; and her eyes continued to revert with special satisfaction to the incongruous group formed by Mrs. Peter Van Degen and Miss Ray.",
+  "text": "Nothing in the Dagonet and Marvell tradition was opposed to this desultory dabbling with life. For four or five generations it had been the rule of both houses that a young fellow should go to Columbia or Harvard, read law, and then lapse into more or less cultivated inaction. The only essential was that he should live \"like a gentleman\"--that is, with a tranquil disdain for mere money-getting, a passive openness to the finer sensations, one or two fixed principles as to the quality of wine, and an archaic probity that had not yet learned to distinguish between private and \"business\" honour. No equipment could more thoroughly have unfitted the modern youth for getting on: it hardly needed the scribbled pages on the desk to complete the hopelessness of Ralph Marvell's case. He had accepted the fact with a humorous fatalism.",
   "words": [
     {
-      "word": "thrill",
+      "word": "gentleman",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "finer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "disappointment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "characteristic",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "passionate",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sensations",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "captive",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "revert",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "satisfaction",
+      "word": "thoroughly",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +27,7 @@
     "author": "Edith Wharton",
     "year": 1913,
     "source": "Project Gutenberg #11052",
-    "url": "https://www.gutenberg.org/ebooks/11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

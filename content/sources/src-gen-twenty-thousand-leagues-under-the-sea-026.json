@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-026",
+  "pool": "sourced",
+  "text": "“You see, I have marked the new islands.” I returned to the glass. The Nautilus was no longer moving, the heat was becoming unbearable. The sea, which till now had been white, was red, owing to the presence of salts of iron. In spite of the ship’s being hermetically sealed, an insupportable smell of sulphur filled the saloon, and the brilliancy of the electricity was entirely extinguished by bright scarlet flames. I was in a bath, I was choking, I was broiled.",
+  "words": [
+    {
+      "word": "sealed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "scarlet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

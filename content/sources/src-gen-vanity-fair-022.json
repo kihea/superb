@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-vanity-fair-022",
+  "pool": "sourced",
+  "text": "Now, our friend the Colonel had a great aptitude for all games of chance: and exercising himself, as he continually did, with the cards, the dice-box, or the cue, it is natural to suppose that he attained a much greater skill in the use of these articles than men can possess who only occasionally handle them. To use a cue at billiards well is like using a pencil, or a German flute, or a small-sword--you cannot master any one of these implements at first, and it is only by repeated study and perseverance, joined to a natural taste, that a man can excel in the handling of either. Now Crawley, from being only a brilliant amateur, had grown to be a consummate master of billiards. Like a great General, his genius used to rise with the danger, and when the luck had been unfavourable to him for a whole game, and the bets were consequently against him, he would, with consummate skill and boldness, make some prodigious hits which would restore the battle, and come in a victor at the end, to the astonishment of everybody--of everybody, that is, who was a stranger to his play.",
+  "words": [
+    {
+      "word": "aptitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-021",
+  "pool": "sourced",
+  "text": "“How?” asked Mr. Fogg. “By going to Nagasaki, at the extreme south of Japan, or even to Shanghai, which is only eight hundred miles from here. In going to Shanghai we should not be forced to sail wide of the Chinese coast, which would be a great advantage, as the currents run northward, and would aid us.” “Pilot,” said Mr. Fogg, “I must take the American steamer at Yokohama, and not at Shanghai or Nagasaki.” “Why not?” returned the pilot. “The San Francisco steamer does not start from Yokohama. It puts in at Yokohama and Nagasaki, but it starts from Shanghai.” “You are sure of that?” “Perfectly.” “And when does the boat leave Shanghai?” “On the 11th, at seven in the evening.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

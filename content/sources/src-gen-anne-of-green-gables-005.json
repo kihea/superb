@@ -1,16 +1,40 @@
 {
   "id": "src-gen-anne-of-green-gables-005",
   "pool": "sourced",
-  "text": "If she has heard about your outburst to Mrs. Lynde and going to church with buttercups round your hat I don’t know what she’ll think of you. You must be polite and well behaved, and don’t make any of your startling speeches. For pity’s sake, if the child isn’t actually trembling!” Anne was trembling. Her face was pale and tense. “Oh, Marilla, you’d be excited, too, if you were going to meet a little girl you hoped to be your bosom friend and whose mother mightn’t like you,” she said as she hastened to get her hat.",
+  "text": "Anne’s Bringing-up Is Begun FOR reasons best known to herself, Marilla did not tell Anne that she was to stay at Green Gables until the next afternoon. During the forenoon she kept the child busy with various tasks and watched over her with a keen eye while she did them. By noon she had concluded that Anne was smart and obedient, willing to work and quick to learn; her most serious shortcoming seemed to be a tendency to fall into daydreams in the middle of a task and forget all about it until such time as she was sharply recalled to earth by a reprimand or a catastrophe. When Anne had finished washing the dinner dishes she suddenly confronted Marilla with the air and expression of one desperately determined to learn the worst. Her thin little body trembled from head to foot; her face flushed and her eyes dilated until they were almost black; she clasped her hands tightly and said in an imploring voice: “Oh, please, Miss Cuthbert, won’t you tell me if you are going to send me away or not?",
   "words": [
     {
-      "word": "polite",
+      "word": "keen",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "behaved",
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obedient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tendency",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sharply",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +45,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

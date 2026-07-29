@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-vanity-fair-028",
+  "pool": "sourced",
+  "text": "The remaining three sides are composed of mansions that have passed away into dowagerism--tall, dark houses, with window-frames of stone, or picked out of a lighter red. Little light seems to be behind those lean, comfortless casements now, and hospitality to have passed away from those doors as much as the laced lacqueys and link-boys of old times, who used to put out their torches in the blank iron extinguishers that still flank the lamps over the steps. Brass plates have penetrated into the square--Doctors, the Diddlesex Bank Western Branch--the English and European Reunion, &c.--it has a dreary look--nor is my Lord Steyne's palace less dreary. All I have ever seen of it is the vast wall in front, with the rustic columns at the great gate, through which an old porter peers sometimes with a fat and gloomy red face--and over the wall the garret and bedroom windows, and the chimneys, out of which there seldom comes any smoke now. For the present Lord Steyne lives at Naples, preferring the view of the Bay and Capri and Vesuvius to the dreary aspect of the wall in Gaunt Square.",
+  "words": [
+    {
+      "word": "laced",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brass",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

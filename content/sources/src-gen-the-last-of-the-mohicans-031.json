@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-031",
+  "pool": "sourced",
+  "text": "At the precise moment when his ungainly person came under the observation of the scout, in the manner just mentioned, the woodsman himself, though in his assumed character, was the subject of the solitary being’s profounded reflections. However implicit the faith of David was in the performance of ancient miracles, he eschewed the belief of any direct supernatural agency in the management of modern morality. In other words, while he had implicit faith in the ability of Balaam’s ass to speak, he was somewhat skeptical on the subject of a bear’s singing; and yet he had been assured of the latter, on the testimony of his own exquisite organs. There was something in his air and manner that betrayed to the scout the utter confusion of the state of his mind. He was seated on a pile of brush, a few twigs from which occasionally fed his low fire, with his head leaning on his arm, in a posture of melancholy musing.",
+  "words": [
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supernatural",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "morality",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "posture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

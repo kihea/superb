@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-white-fang-030",
+  "pool": "sourced",
+  "text": "The last growl could never be extracted from him. No matter how terribly he was beaten, he had always another growl; and when Beauty Smith gave up and withdrew, the defiant growl followed after him, or White Fang sprang at the bars of the cage bellowing his hatred. When the steamboat arrived at Dawson, White Fang went ashore. But he still lived a public life, in a cage, surrounded by curious men. He was exhibited as “the Fighting Wolf,” and men paid fifty cents in gold dust to see him.",
+  "words": [
+    {
+      "word": "withdrew",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "cage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

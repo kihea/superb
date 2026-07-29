@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-021",
+  "pool": "sourced",
+  "text": "“So it will walk all day, sir,” whispered Poole; “ay, and the better part of the night. Only when a new sample comes from the chemist, there’s a bit of a break. Ah, it’s an ill conscience that’s such an enemy to rest! Ah, sir, there’s blood foully shed in every step of it! But hark again, a little closer—put your heart in your ears, Mr. Utterson, and tell me, is that the doctor’s foot?” The steps fell lightly and oddly, with a certain swing, for all they went so slowly; it was different indeed from the heavy creaking tread of Henry Jekyll.",
+  "words": [
+    {
+      "word": "tread",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

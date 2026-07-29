@@ -1,10 +1,40 @@
 {
   "id": "src-gen-meditations-012",
   "pool": "sourced",
-  "text": "Particular wickedness doth not hurt any other: only unto him it is hurtful, whosoever he be that offends, unto whom in great favour and mercy it is granted, that whensoever he himself shall but first desire it, he may be presently delivered of it. Unto my free-will my neighbour's free-will, whoever he be, (as his life, or his bode), is altogether indifferent. For though we are all made one for another, yet have our minds and understandings each of them their own proper and limited jurisdiction. For else another man's wickedness might be my evil which God would not have, that it might not be in another man's power to make me unhappy: which nothing now can do but mine own wickedness. The sun seemeth to be shed abroad.",
+  "text": "for which of these sayest thou; that which is according to nature or against it, is of itself more kind and pleasing? Is it not for that respect especially, that pleasure itself is to so many men's hurt and overthrow, most prevalent, because esteemed commonly most kind, and natural? But consider well whether magnanimity rather, and true liberty, and true simplicity, and equanimity, and holiness; whether these be not most kind and natural? And prudency itself, what more kind and amiable than it, when thou shalt truly consider with thyself, what it is through all the proper objects of thy rational intellectual faculty currently to go on without any fall or stumble? As for the things of the world, their true nature is in a manner so involved with obscurity, that unto many philosophers, and those no mean ones, they seemed altogether incomprehensible, and the Stoics themselves, though they judge them not altogether incomprehensible, yet scarce and not without much difficulty, comprehensible, so that all assent of ours is fallible, for who is he that is infallible in his conclusions?",
   "words": [
     {
-      "word": "jurisdiction",
+      "word": "thou",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pleasing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overthrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "esteemed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stumble",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altogether",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

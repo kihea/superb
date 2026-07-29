@@ -1,12 +1,12 @@
 {
   "id": "src-gen-heart-of-darkness-006",
   "pool": "sourced",
-  "text": "“... Yes—I let him run on,” Marlow began again, “and think what he pleased about the powers that were behind me. And there was nothing behind me! There was nothing but that wretched, old, mangled steamboat I was leaning against, while he talked fluently about ‘the necessity for every man to get on.’ ‘And when one comes out here, you conceive, it is not to gaze at the moon.’ Mr. Kurtz was a ‘universal genius,’ but even a genius would find it easier to work with ‘adequate tools—intelligent men.’ He did not make bricks—why, there was a physical impossibility in the way—as I was well aware; and if he did secretarial work for the manager, it was because ‘no sensible man rejects wantonly the confidence of his superiors.’ Did I see it? What more did I want? What I really wanted was rivets, by heaven!",
+  "text": "I began to distinguish the gleam of the eyes under the trees. Then, glancing down, I saw a face near my hand. The black bones reclined at full length with one shoulder against the tree, and slowly the eyelids rose and the sunken eyes looked up at me, enormous and vacant, a kind of blind, white flicker in the depths of the orbs, which died out slowly. The man seemed young—almost a boy—but you know with them it’s hard to tell. I found nothing else to do but to offer him one of my good Swede’s ship’s biscuits I had in my pocket.",
   "words": [
     {
-      "word": "sensible",
+      "word": "vacant",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

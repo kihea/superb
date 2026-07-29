@@ -1,46 +1,16 @@
 {
   "id": "src-gen-a-christmas-carol-009",
   "pool": "sourced",
-  "text": "The scaling him with chairs for ladders to dive into his pockets, despoil him of brown-paper parcels, hold on tight by his cravat, hug him round his neck, pommel his back, and kick his legs in irrepressible affection! The shouts of wonder and delight with which the development of every package was received! The terrible announcement that the baby had been taken in the act of putting a doll's frying-pan into his mouth, and was more than suspected of having swallowed a fictitious turkey, glued on a wooden platter! The immense relief of finding this a false alarm! The joy, and gratitude, and ecstasy!",
+  "text": "Its rapid little pulse beat twelve: and stopped. \"Why, it isn't possible,\" said Scrooge, \"that I can have slept through a whole day and far into another night. It isn't possible that anything has happened to the sun, and this is twelve at noon!\" The idea being an alarming one, he scrambled out of bed, and groped his way to the window. He was obliged to rub the frost off with the sleeve of his dressing-gown before he could see anything; and could see very little then.",
   "words": [
     {
-      "word": "chairs",
+      "word": "pulse",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "parcels",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hug",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "affection",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shouts",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "delight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "swallowed",
+      "word": "noon",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

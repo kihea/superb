@@ -1,22 +1,22 @@
 {
   "id": "src-gen-robinson-crusoe-012",
   "pool": "sourced",
-  "text": "But now, when, as I have said, I began to be weary of the fruitless excursion which I had made so long and so far every morning in vain, so my opinion of the action itself began to alter; and I began, with cooler and calmer thoughts, to consider what I was going to engage in; what authority or call I had to pretend to be judge and executioner upon these men as criminals, whom Heaven had thought fit for so many ages to suffer unpunished to go on, and to be as it were the executioners of His judgments one upon another; how far these people were offenders against me, and what right I had to engage in the quarrel of that blood which they shed promiscuously upon one another. I debated this very often with myself thus: “How do I know what God Himself judges in this particular case?",
+  "text": "When I was delivered and taken up at sea by the Portugal captain, well used, and dealt justly and honourably with, as well as charitably, I had not the least thankfulness in my thoughts. When, again, I was shipwrecked, ruined, and in danger of drowning on this island, I was as far from remorse, or looking on it as a judgment. I only said to myself often, that I was an unfortunate dog, and born to be always miserable. It is true, when I got on shore first here, and found all my ship’s crew drowned and myself spared, I was surprised with a kind of ecstasy, and some transports of soul, which, had the grace of God assisted, might have come up to true thankfulness; but it ended where it began, in a mere common flight of joy, or, as I may say, being glad I was alive, without the least reflection upon the distinguished goodness of the hand which had preserved me, and had singled me out to be preserved when all the rest were destroyed, or an inquiry why Providence had been thus merciful unto me.",
   "words": [
     {
-      "word": "vain",
+      "word": "drowned",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "offenders",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "quarrel",
+      "word": "distinguished",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

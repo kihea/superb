@@ -1,10 +1,28 @@
 {
   "id": "src-gen-ethan-frome-019",
   "pool": "sourced",
-  "text": "“Time for what? You don’t suppose I’m going to leave you now?” “If I missed my train where’d I go?” “Where are you going if you catch it?” She stood silent, her hands lying cold and relaxed in his. “What’s the good of either of us going anywheres without the other one now?” he said. She remained motionless, as if she had not heard him. Then she snatched her hands from his, threw her arms about his neck, and pressed a sudden drenched cheek against his face.",
+  "text": "In an hour or two the moon would push over the ridge behind the farm, burn a gold-edged rent in the clouds, and then be swallowed by them. A mournful peace hung on the fields, as though they felt the relaxing grasp of the cold and stretched themselves in their long winter sleep. Ethan’s ears were alert for the jingle of sleigh-bells, but not a sound broke the silence of the lonely road. As he drew near the farm he saw, through the thin screen of larches at the gate, a light twinkling in the house above him. “She’s up in her room,” he said to himself, “fixing herself up for supper”; and he remembered Zeena’s sarcastic stare when Mattie, on the evening of her arrival, had come down to supper with smoothed hair and a ribbon at her neck.",
   "words": [
     {
-      "word": "cheek",
+      "word": "jingle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bells",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ribbon",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

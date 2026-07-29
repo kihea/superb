@@ -8,30 +8,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "veiled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "clouds",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rolled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "forests",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -39,7 +15,7 @@
     "author": "Ann Radcliffe",
     "year": 1794,
     "source": "Project Gutenberg #3268",
-    "url": "https://www.gutenberg.org/ebooks/3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

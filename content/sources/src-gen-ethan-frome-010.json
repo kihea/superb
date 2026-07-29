@@ -1,10 +1,16 @@
 {
   "id": "src-gen-ethan-frome-010",
   "pool": "sourced",
-  "text": "The two leaned forward at the same moment and their hands met on the handle of the jug. Mattie’s hand was underneath, and Ethan kept his clasped on it a moment longer than was necessary. The cat, profiting by this unusual demonstration, tried to effect an unnoticed retreat, and in doing so backed into the pickle-dish, which fell to the floor with a crash. Mattie, in an instant, had sprung from her chair and was down on her knees by the fragments. “Oh, Ethan, Ethan—it’s all to pieces!",
+  "text": "The other he tried to slip through hers; but she eluded him nimbly, and Frome’s heart, which had swung out over a black void, trembled back to safety. A moment later he heard the jingle of departing sleigh bells and discerned a figure advancing alone toward the empty expanse of snow before the church. In the black shade of the Varnum spruces he caught up with her and she turned with a quick “Oh!” “Think I’d forgotten you, Matt?” he asked with sheepish glee. She answered seriously: “I thought maybe you couldn’t come back for me.” “Couldn’t? What on earth could stop me?” “I knew Zeena wasn’t feeling any too good to-day.” “Oh, she’s in bed long ago.” He paused, a question struggling in him.",
   "words": [
     {
-      "word": "jug",
+      "word": "void",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glee",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

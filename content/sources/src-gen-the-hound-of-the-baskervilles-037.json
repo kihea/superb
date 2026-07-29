@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-037",
+  "pool": "sourced",
+  "text": "“There is no smell which might have interfered with his power of scent. We owe you a deep apology, Sir Henry, for having exposed you to this fright. I was prepared for a hound, but not for such a creature as this. And the fog gave us little time to receive him.” “You have saved my life.” “Having first endangered it. Are you strong enough to stand?” “Give me another mouthful of that brandy and I shall be ready for anything.",
+  "words": [
+    {
+      "word": "scent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "owe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "apology",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hound",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "endangered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

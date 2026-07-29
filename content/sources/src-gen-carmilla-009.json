@@ -1,10 +1,22 @@
 {
   "id": "src-gen-carmilla-009",
   "pool": "sourced",
-  "text": "But I shall do my best; and one thing is certain, that you must not think of leaving us without her distinct direction to that effect. We should suffer too much in parting from you to consent to it easily.” “Thank you, sir, a thousand times for your hospitality,” she answered, smiling bashfully. “You have all been too kind to me; I have seldom been so happy in all my life before, as in your beautiful chateau, under your care, and in the society of your dear daughter.” So he gallantly, in his old-fashioned way, kissed her hand, smiling and pleased at her little speech. I accompanied Carmilla as usual to her room, and sat and chatted with her while she was preparing for bed. “Do you think,” I said at length, “that you will ever confide fully in me?” She turned round smiling, but made no answer, only continued to smile on me.",
+  "text": "I see there is a key in the lock.” She held me close in her pretty arms for a moment and whispered in my ear, “Good night, darling, it is very hard to part with you, but good night; tomorrow, but not early, I shall see you again.” She sank back on the pillow with a sigh, and her fine eyes followed me with a fond and melancholy gaze, and she murmured again “Good night, dear friend.” Young people like, and even love, on impulse. I was flattered by the evident, though as yet undeserved, fondness she showed me. I liked the confidence with which she at once received me. She was determined that we should be very near friends. Next day came and we met again.",
   "words": [
     {
-      "word": "smiling",
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fondness",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-037",
+  "pool": "sourced",
+  "text": "“Oh, yes; but one is never so pretty after being mended, you know,” replied the Princess. “I suppose not,” said Dorothy. “Now there is Mr. Joker, one of our clowns,” continued the china lady, “who is always trying to stand upon his head. He has broken himself so often that he is mended in a hundred places, and doesn’t look at all pretty. Here he comes now, so you can see for yourself.” Indeed, a jolly little clown came walking toward them, and Dorothy could see that in spite of his pretty clothes of red and yellow and green he was completely covered with cracks, running every which way and showing plainly that he had been mended in many places.",
+  "words": [
+    {
+      "word": "clown",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

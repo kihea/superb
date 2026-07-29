@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-022",
+  "pool": "sourced",
+  "text": "“By-the-bye, what became of the baby?” said the Cat. “I’d nearly forgotten to ask.” “It turned into a pig,” Alice quietly said, just as if it had come back in a natural way. “I thought it would,” said the Cat, and vanished again. Alice waited a little, half expecting to see it again, but it did not appear, and after a minute or two she walked on in the direction in which the March Hare was said to live. “I’ve seen hatters before,” she said to herself; “the March Hare will be much the most interesting, and perhaps as this is May it won’t be raving mad—at least not so mad as it was in March.” As she said this, she looked up, and there was the Cat again, sitting on a branch of a tree.",
+  "words": [
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

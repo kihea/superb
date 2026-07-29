@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-silas-marner-038",
+  "pool": "sourced",
+  "text": "Silas, always ill at ease when he was being spoken to by “betters,” such as Mr. Cass—tall, powerful, florid men, seen chiefly on horseback—answered with some constraint— “Sir, I’ve a deal to thank you for a’ready. As for the robbery, I count it no loss to me. And if I did, you couldn’t help it: you aren’t answerable for it.” “You may look at it in that way, Marner, but I never can; and I hope you’ll let me act according to my own feeling of what’s just. I know you’re easily contented: you’ve been a hard-working man all your life.” “Yes, sir, yes,” said Marner, meditatively. “I should ha’ been bad off without my work: it was what I held by when everything else was gone from me.” “Ah,” said Godfrey, applying Marner’s words simply to his bodily wants, “it was a good trade for you in this country, because there’s been a great deal of linen-weaving to be done.",
+  "words": [
+    {
+      "word": "robbery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

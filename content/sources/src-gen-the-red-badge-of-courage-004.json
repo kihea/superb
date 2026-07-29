@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-004",
   "pool": "sourced",
-  "text": "The men began to speak of victory as of a thing they knew. Also, the tall soldier received his vindication. They were certainly going to come around in behind the enemy. They expressed commiseration for that part of the army which had been left upon the river bank, felicitating themselves upon being a part of a blasting host. The youth, considering himself as separated from the others, was saddened by the blithe and merry speeches that went from rank to rank.",
+  "text": "The youth of this tale felt gratitude for these words of his comrade. He had feared that all of the untried men possessed great and correct confidence. He now was in a measure reassured. The next morning the youth discovered that his tall comrade had been the fast-flying messenger of a mistake. There was much scoffing at the latter by those who had yesterday been firm adherents of his views, and there was even a little sneering by men who had never believed the rumor.",
   "words": [
     {
-      "word": "blasting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "speeches",
+      "word": "feared",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-ethan-frome-005",
   "pool": "sourced",
-  "text": "A moment later he heard the jingle of departing sleigh bells and discerned a figure advancing alone toward the empty expanse of snow before the church. In the black shade of the Varnum spruces he caught up with her and she turned with a quick “Oh!” “Think I’d forgotten you, Matt?” he asked with sheepish glee. She answered seriously: “I thought maybe you couldn’t come back for me.” “Couldn’t? What on earth could stop me?” “I knew Zeena wasn’t feeling any too good to-day.” “Oh, she’s in bed long ago.” He paused, a question struggling in him. “Then you meant to walk home all alone?” “Oh, I ain’t afraid!” she laughed.",
+  "text": "Four or five years earlier he had taken a year’s course at a technological college at Worcester, and dabbled in the laboratory with a friendly professor of physics; and the images supplied by that experience still cropped up, at unexpected moments, through the totally different associations of thought in which he had since been living. His father’s death, and the misfortunes following it, had put a premature end to Ethan’s studies; but though they had not gone far enough to be of much practical use they had fed his fancy and made him aware of huge cloudy meanings behind the daily face of things. As he strode along through the snow the sense of such meanings glowed in his brain and mingled with the bodily flush produced by his sharp tramp. At the end of the village he paused before the darkened front of the church. He stood there a moment, breathing quickly, and looking up and down the street, in which not another figure moved.",
   "words": [
     {
-      "word": "glee",
+      "word": "cloudy",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "darkened",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

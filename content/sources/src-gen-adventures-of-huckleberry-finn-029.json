@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-029",
+  "pool": "sourced",
+  "text": "The minute I was far enough above the town to see I could make the tow-head, I begun to look sharp for a boat to borrow, and the first time the lightning showed me one that wasn’t chained I snatched it and shoved. It was a canoe, and warn’t fastened with nothing but a rope. The tow-head was a rattling big distance off, away out there in the middle of the river, but I didn’t lose no time; and when I struck the raft at last I was so fagged I would a just laid down to blow and gasp if I could afforded it. But I didn’t. As I sprung aboard I sung out: “Out with you, Jim, and set her loose!",
+  "words": [
+    {
+      "word": "tow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

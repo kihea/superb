@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-005",
   "pool": "sourced",
-  "text": "“The two children grew up together, passing all their time with each other, and giving themselves up to the wild ideas of their different characters. Thus, in all their dreams, their wishes, and their conversations, Vampa saw himself the captain of a vessel, general of an army, or governor of a province. Teresa saw herself rich, superbly attired, and attended by a train of liveried domestics. Then, when they had thus passed the day in building castles in the air, they separated their flocks, and descended from the elevation of their dreams to the reality of their humble position. “One day the young shepherd told the count’s steward that he had seen a wolf come out of the Sabine mountains, and prowl around his flock.",
+  "text": "At last it seemed to him that one part of the wall gave forth a more hollow and deeper echo; he eagerly advanced, and with the quickness of perception that no one but a prisoner possesses, saw that there, in all probability, the opening must be. However, he, like Cæsar Borgia, knew the value of time; and, in order to avoid fruitless toil, he sounded all the other walls with his pickaxe, struck the earth with the butt of his gun, and finding nothing that appeared suspicious, returned to that part of the wall whence issued the consoling sound he had before heard. He again struck it, and with greater force. Then a singular thing occurred. As he struck the wall, pieces of stucco similar to that used in the ground work of arabesques broke off, and fell to the ground in flakes, exposing a large white stone.",
   "words": [
     {
-      "word": "castles",
+      "word": "echo",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "descended",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shepherd",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flock",
+      "word": "singular",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

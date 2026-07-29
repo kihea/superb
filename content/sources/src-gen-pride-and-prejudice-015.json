@@ -1,22 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-015",
   "pool": "sourced",
-  "text": "But above all, above respect and esteem, there was a motive within her of good-will which could not be overlooked. It was gratitude;--gratitude, not merely for having once loved her, but for loving her still well enough to forgive all the petulance and acrimony of her manner in rejecting him, and all the unjust accusations accompanying her rejection. He who, she had been persuaded, would avoid her as his greatest enemy, seemed, on this accidental meeting, most eager to preserve the acquaintance; and without any indelicate display of regard, or any peculiarity of manner, where their two selves only were concerned, was soliciting the good opinion of her friends, and bent on making her known to his sister. Such a change in a man of so much pride excited not only astonishment but gratitude--for to love, ardent love, it must be attributed; and, as such, its impression on her was of a sort to be encouraged, as by no means unpleasing, though it could not be exactly defined.",
+  "text": "Now is your time. Here are officers enough at Meryton to disappoint all the young ladies in the country. Let Wickham be your man. He is a pleasant fellow, and would jilt you creditably.” “Thank you, sir, but a less agreeable man would satisfy me. We must not all expect Jane’s good fortune.” “True,” said Mr. Bennet; “but it is a comfort to think that, whatever of that kind may befall you, you have an affectionate mother who will always make the most of it.” Mr. Wickham’s society was of material service in dispelling the gloom which the late perverse occurrences had thrown on many of the Longbourn family.",
   "words": [
     {
-      "word": "esteem",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rejection",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bent",
+      "word": "satisfy",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

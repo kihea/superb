@@ -1,28 +1,22 @@
 {
   "id": "src-gen-two-years-before-the-mast-013",
   "pool": "sourced",
-  "text": "A few stifled rats were found; and what bugs, cockroaches, fleas, and other vermin, there might have been on board, must have unrove their life-lines before the hatches were opened. The ship being now ready, we covered the bottom of the hold over, fore and aft, with dried brush for dunnage, and having levelled everything away, we were ready to take in our cargo. All the hides that had been collected since the California left the coast, (a little more than two years,) amounting to about forty thousand, were cured, dried, and stowed away in the house, waiting for our good ship to take them to Boston. Now began the operation of taking in our cargo, which kept us hard at work, from the grey of the morning till star-light, for six weeks, with the exception of Sundays, and of just time to swallow our meals. To carry the work on quicker, a division of labor was made.",
+  "text": "We overhauled our bags and took out our old tarry trowsers and frocks, which we had used when we tarred down before, and were all at work in the rigging by sunrise. After breakfast, we had the satisfaction of seeing the Italian ship's boat go ashore, filled with men, gaily dressed, as on the day before, and singing their barcarollas. The Easter holydays are kept up on shore during three days; and being a Catholic vessel, the crew had the advantage of them. For two successive days, while perched up in the rigging, covered with tar and engaged in our disagreeable work, we saw these fellows going ashore in the morning, and coming off again at night, in high spirits. So much for being Protestants.",
   "words": [
     {
-      "word": "cargo",
+      "word": "rigging",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cured",
+      "word": "sunrise",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "swallow",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "meals",
+      "word": "successive",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

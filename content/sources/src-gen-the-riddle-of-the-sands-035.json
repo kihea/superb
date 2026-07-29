@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-035",
+  "pool": "sourced",
+  "text": "The siding entered a fenced enclosure by a locked gate—a gate I could have easily climbed, but I judged it wiser to go round by the bridge again and look across. The enclosure was a small coal-store, nothing more; there were gaunt heaps of coal glittering in the moonlight; a barge half loaded lying alongside, and a deserted office building. I skulked along a sandy towpath in solitude. Fens and field were round me, as the map had said; willows and osier-beds; the dim forms of cattle; the low melody of wind roaming unfettered over a plain; once or twice the flutter and quack of a startled wild-duck. Presently I came to a farmhouse, dark and silent; opposite it, in the canal, a couple of empty barges.",
+  "words": [
+    {
+      "word": "siding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

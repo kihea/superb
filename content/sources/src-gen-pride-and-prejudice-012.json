@@ -1,10 +1,22 @@
 {
   "id": "src-gen-pride-and-prejudice-012",
   "pool": "sourced",
-  "text": "Lady Catherine observed, after dinner, that Miss Bennet seemed out of spirits; and immediately accounting for it herself, by supposing that she did not like to go home again so soon, she added,-- “But if that is the case, you must write to your mother to beg that you may stay a little longer. Mrs. Collins will be very glad of your company, I am sure.” “I am much obliged to your Ladyship for your kind invitation,” replied Elizabeth; “but it is not in my power to accept it. I must be in town next Saturday.” “Why, at that rate, you will have been here only six weeks. I expected you to stay two months. I told Mrs. Collins so before you came.",
+  "text": "People who suffer as I do from nervous complaints can have no great inclination for talking. Nobody can tell what I suffer! But it is always so. Those who do not complain are never pitied.” Her daughters listened in silence to this effusion, sensible that any attempt to reason with or soothe her would only increase the irritation. She talked on, therefore, without interruption from any of them till they were joined by Mr. Collins, who entered with an air more stately than usual, and on perceiving whom, she said to the girls,-- “Now, I do insist upon it, that you, all of you, hold your tongues, and let Mr. Collins and me have a little conversation together.” Elizabeth passed quietly out of the room, Jane and Kitty followed, but Lydia stood her ground, determined to hear all she could; and Charlotte, detained first by the civility of Mr. Collins, whose inquiries after herself and all her family were very minute, and then by a little curiosity, satisfied herself with walking to the window and pretending not to hear.",
   "words": [
     {
-      "word": "invitation",
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "insist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

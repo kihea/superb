@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-dracula-032",
+  "pool": "sourced",
+  "text": "Your police must indeed be zealous men and clever--oh, so clever!--in reading the heart, that they trouble themselves in such matter. No, no, my friend Jonathan, you go take the lock off a hundred empty house in this your London, or of any city in the world; and if you do it as such things are rightly done, and at the time such things are rightly done, no one will interfere. I have read of a gentleman who owned a so fine house in London, and when he went for months of summer to Switzerland and lock up his house, some burglar came and broke window at back and got in. Then he went and made open the shutters in front and walk out and in through the door, before the very eyes of the police. Then he have an auction in that house, and advertise it, and put up big notice; and when the day come he sell off by a great auctioneer all the goods of that other man who own them.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "advertise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "auctioneer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-king-in-yellow-030",
+  "pool": "sourced",
+  "text": "A lantern passed, a file of bayonets, then another lantern which glimmered on a deathly face behind, and Colette gasped, “Hartman!” and he was gone. They peered fearfully across the embankment, holding their breath. There was a shuffle of feet on the quay, and the gate of the barracks slammed. A lantern shone for a moment at the postern, the crowd pressed to the grille, then came the clang of the volley from the stone parade. One by one the petroleum torches flared up along the embankment, and now the whole square was in motion.",
+  "words": [
+    {
+      "word": "embankment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

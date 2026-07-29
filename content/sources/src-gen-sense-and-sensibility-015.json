@@ -1,34 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-015",
   "pool": "sourced",
-  "text": "No time was to be lost in undeceiving her, in making her acquainted with the real truth, and in endeavouring to bring her to hear it talked of by others, without betraying that she felt any uneasiness for her sister, or any resentment against Edward. Elinor's office was a painful one. She was going to remove what she really believed to be her sister's chief consolation,--to give such particulars of Edward as she feared would ruin him for ever in her good opinion,-and to make Marianne, by a resemblance in their situations, which to her fancy would seem strong, feel all her own disappointment over again. But unwelcome as such a task must be, it was necessary to be done, and Elinor therefore hastened to perform it. She was very far from wishing to dwell on her own feelings, or to represent herself as suffering much, any otherwise than as the self-command she had practised since her first knowledge of Edward's engagement, might suggest a hint of what was practicable to Marianne.",
+  "text": "And she did not feel much delighted with the idea of such a sister-in-law. \"No,\" replied Lucy, \"not to Mr. Robert Ferrars--I never saw him in my life; but,\" fixing her eyes upon Elinor, \"to his eldest brother.\" What felt Elinor at that moment? Astonishment, that would have been as painful as it was strong, had not an immediate disbelief of the assertion attended it. She turned towards Lucy in silent amazement, unable to divine the reason or object of such a declaration; and though her complexion varied, she stood firm in incredulity, and felt in no danger of an hysterical fit, or a swoon.",
   "words": [
     {
-      "word": "betraying",
+      "word": "assertion",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "resentment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "feared",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "disappointment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dwell",
+      "word": "declaration",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

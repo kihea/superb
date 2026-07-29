@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-015",
   "pool": "sourced",
-  "text": "And when you hear such words spoken, Arthur, remember never to repeat them: it is wicked to say such things of others, not to have them said against you.” “Then it’s papa that’s wicked,” said he, ruefully. “Papa is wrong to say such things, and you will be very wrong to imitate him now that you know better.” “What is imitate?” “To do as he does.” “Does he know better?” “Perhaps he does; but that is nothing to you.” “If he doesn’t, you ought to tell him, mamma.” “I have told him.” The little moralist paused and pondered. I tried in vain to divert his mind from the subject. “I’m sorry papa’s wicked,” said he mournfully, at length, “for I don’t want him to go to hell.” And so saying he burst into tears. I consoled him with the hope that perhaps his papa would alter and become good before he died—; but is it not time to deliver him from such a parent?",
+  "text": "“And so am I,” said he. “And look at this. This is Hattersley’s—every page stuffed full of railing accusations, bitter curses, and lamentable complaints, ending up with swearing that he’ll get married himself in revenge: he’ll throw himself away on the first old maid that chooses to set her cap at him,—as if I cared what he did with himself.” “Well,” said I, “if you do give up your intimacy with these men, I don’t think you will have much cause to regret the loss of their society; for it’s my belief they never did you much good.” “Maybe not; but we’d a merry time of it, too, though mingled with sorrow and pain, as Lowborough knows to his cost—Ha, ha!” and while he was laughing at the recollection of Lowborough’s troubles, my uncle came and slapped him on the shoulder. “Come, my lad!” said he. “Are you too busy making love to my niece to make war with the pheasants?—First of October, remember!",
   "words": [
     {
-      "word": "wicked",
+      "word": "stuffed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mamma",
+      "word": "swearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "merry",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

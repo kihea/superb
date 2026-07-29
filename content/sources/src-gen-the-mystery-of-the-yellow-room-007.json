@@ -1,18 +1,12 @@
 {
   "id": "src-gen-the-mystery-of-the-yellow-room-007",
   "pool": "sourced",
-  "text": "“The murderer, with his rough boots, mounted a bicycle. His accomplice, the wearer of the neat boots, had come to wait for him on the edge of the lake with the bicycle. It might be supposed that the murderer was working for the other.” “No, no!” replied Rouletabille with a strange smile. “I have expected to find these footmarks from the very beginning. These are not the footmarks of the murderer!” “Then there were two?” “No—there was but one, and he had no accomplice.” “Very good!—Very good!” cried Frédéric Larsan.",
+  "text": "Larsan turned his head at the sound of a vehicle which had come from the château and reached the gate behind him. We recognised the cab which had conveyed the examining magistrate and his Registrar from the station at Epinay. “Ah!” said Frédéric Larsan, “if you want to speak with Monsieur Robert Darzac, he is here.” The cab was already at the park gate and Robert Darzac was begging Frédéric Larsan to open it for him, explaining that he was pressed for time to catch the next train leaving Epinay for Paris. Then he recognised me. While Larsan was unlocking the gate, Monsieur Darzac inquired what had brought me to the Glandier at such a tragic moment.",
   "words": [
     {
-      "word": "bicycle",
+      "word": "cab",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "accomplice",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1907,
     "source": "Project Gutenberg #1685",
-    "url": "https://www.gutenberg.org/ebooks/1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

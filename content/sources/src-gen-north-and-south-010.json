@@ -1,10 +1,16 @@
 {
   "id": "src-gen-north-and-south-010",
   "pool": "sourced",
-  "text": "But that is his fault, not mine. I would do it again, if need were, though it does lead me into all this shame and trouble.” FREDERICK. “Revenge may have her own; Roused discipline aloud proclaims their cause, And injured navies urge their broken laws.” BYRON. Margaret began to wonder whether all offers were as unexpected beforehand,—as distressing at the time of their occurrence, as the two she had had. An involuntary comparison between Mr. Lennox and Mr. Thornton arose in her mind.",
+  "text": "Every improvement of machinery is, I believe, to be seen there, in its highest perfection.” “I am so glad you don’t like mills and manufactories, and all those kind of things,” said Fanny, in a half-whisper, as she rose to accompany her mother, who was taking leave of Mrs. Hale with rustling dignity. “I think I should like to know all about them, if I were you,” replied Margaret quietly. “Fanny!” said her mother, as they drove away, “we will be civil to these Hales: but don’t form one of your hasty friendships with the daughter. She will do you no good, I see. The mother looks very ill, and seems a nice, quiet kind of person.” “I don’t want to form any friendship with Miss Hale, mamma,” said Fanny, pouting.",
   "words": [
     {
-      "word": "beforehand",
+      "word": "perfection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whisper",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

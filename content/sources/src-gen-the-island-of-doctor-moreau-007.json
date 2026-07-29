@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-007",
   "pool": "sourced",
-  "text": "At that, though I was faint and horribly fatigued, I gathered together all my strength, and began running again towards the light. I thought I heard a voice calling me. As I drew near the house I saw that the light shone from the open door of my room; and then I heard coming from out of the darkness at the side of that orange oblong of light, the voice of Montgomery shouting, “Prendick!” I continued running. Presently I heard him again. I replied by a feeble “Hullo!” and in another moment had staggered up to him.",
+  "text": "I let my eyes wander over this scene for a while, and then began to turn over in my mind again the strange peculiarities of Montgomery’s man. But it was too hot to think elaborately, and presently I fell into a tranquil state midway between dozing and waking. From this I was aroused, after I know not how long, by a rustling amidst the greenery on the other side of the stream. For a moment I could see nothing but the waving summits of the ferns and reeds. Then suddenly upon the bank of the stream appeared something—at first I could not distinguish what it was.",
   "words": [
     {
-      "word": "faint",
+      "word": "waving",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shone",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shouting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "feeble",
+      "word": "distinguish",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

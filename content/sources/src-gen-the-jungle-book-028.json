@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-jungle-book-028",
+  "pool": "sourced",
+  "text": "“If I could get up to your nest, I’d roll your babies out!” said Rikki-tikki. “You don’t know when to do the right thing at the right time. You’re safe enough in your nest there, but it’s war for me down here. Stop singing a minute, Darzee.” “For the great, the beautiful Rikki-tikki’s sake I will stop,” said Darzee. “What is it, O Killer of the terrible Nag?” “Where is Nagaina, for the third time?” “On the rubbish heap by the stables, mourning for Nag.",
+  "words": [
+    {
+      "word": "heap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

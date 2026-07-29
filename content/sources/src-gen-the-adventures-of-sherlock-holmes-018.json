@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-018",
   "pool": "sourced",
-  "text": "‘I shall have this matter probed to the bottom.’ “‘You shall learn nothing from me,’ said he with a passion such as I should not have thought was in his nature. ‘If you choose to call the police, let the police find what they can.’ “By this time the whole house was astir, for I had raised my voice in my anger. Mary was the first to rush into my room, and, at the sight of the coronet and of Arthur’s face, she read the whole story and, with a scream, fell down senseless on the ground. I sent the housemaid for the police and put the investigation into their hands at once. When the inspector and a constable entered the house, Arthur, who had stood sullenly with his arms folded, asked me whether it was my intention to charge him with theft.",
+  "text": "“I wrote my articles and thought little more of the matter until, some time later, I backed a bill for a friend and had a writ served upon me for £ 25. I was at my wit’s end where to get the money, but a sudden idea came to me. I begged a fortnight’s grace from the creditor, asked for a holiday from my employers, and spent the time in begging in the City under my disguise. In ten days I had the money and had paid the debt. “Well, you can imagine how hard it was to settle down to arduous work at £ 2 a week when I knew that I could earn as much in a day by smearing my face with a little paint, laying my cap on the ground, and sitting still.",
   "words": [
     {
-      "word": "scream",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "constable",
+      "word": "arduous",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-agnes-grey-024",
+  "pool": "sourced",
+  "text": "The fact was she had purchased it when but a small puppy, insisting at first that no one should touch it but herself; but soon becoming tired of so helpless and troublesome a nursling, she had gladly yielded to my entreaties to be allowed to take charge of it; and I, by carefully nursing the little creature from infancy to adolescence, of course, had obtained its affections: a reward I should have greatly valued, and looked upon as far outweighing all the trouble I had had with it, had not poor Snap’s grateful feelings exposed him to many a harsh word and many a spiteful kick and pinch from his owner, and were he not now in danger of being “put away” in consequence, or transferred to some rough, stony-hearted master. But how could I help it? I could not make the dog hate me by cruel treatment, and she would not propitiate him by kindness. However, while I thus sat, working away with my pencil, Mrs. Murray came, half-sailing, half-bustling, into the room. “Miss Grey,” she began,—“dear!",
+  "words": [
+    {
+      "word": "puppy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "troublesome",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "adolescence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harsh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pinch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

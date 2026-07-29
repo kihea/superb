@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-029",
+  "pool": "sourced",
+  "text": "“A présent c’est un fait accompli,” said he, re-adjusting his paletôt; and we had no more words on the subject. After looking over the two volumes he had brought, and cutting away some pages with his penknife (he generally pruned before lending his books, especially if they were novels, and sometimes I was a little provoked at the severity of his censorship, the retrenchments interrupting the narrative), he rose, politely touched his bonnet-grec, and bade me a civil good-day. “We are friends now,” thought I, “till the next time we quarrel.” We might have quarrelled again that very same evening, but, wonderful to relate, failed, for once, to make the most of our opportunity. Contrary to all expectation, M. Paul arrived at the study-hour. Having seen so much of him in the morning, we did not look for his presence at night.",
+  "words": [
+    {
+      "word": "censorship",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expectation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-two-years-before-the-mast-031",
+  "pool": "sourced",
+  "text": "In a picture, they are huge, uncouth masses, stuck in the sea, while their chief beauty and grandeur,--their slow, stately motion; the whirling of the snow about their summits, and the fearful groaning and cracking of their parts,--the picture cannot give. This is the large iceberg; while the small and distant islands, floating on the smooth sea, in the light of a clear day, look like little floating fairy isles of sapphire. From a north-east course we gradually hauled to the eastward, and after sailing about two hundred miles, which brought us as near to the western coast of Terra del Fuego as was safe, and having lost sight of the ice altogether,--for the third time we put the ship's head to the southward, to try the passage of the Cape. The weather continued clear and cold, with a strong gale from the westward, and we were fast getting up with the latitude of the Cape, with a prospect of soon being round. One fine afternoon, a man who had gone into the fore-top to shift the rolling tackles, sung out, at the top of his voice, and with evident glee,--\"Sail ho!\"",
+  "words": [
+    {
+      "word": "masses",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sapphire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eastward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "latitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

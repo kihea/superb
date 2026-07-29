@@ -1,16 +1,10 @@
 {
   "id": "src-gen-daisy-miller-017",
   "pool": "sourced",
-  "text": "“He is very handsome. One easily sees how it is. She thinks him the most elegant man in the world, the finest gentleman. She has never seen anything like him; he is better, even, than the courier. It was the courier probably who introduced him; and if he succeeds in marrying the young lady, the courier will come in for a magnificent commission.” “I don’t believe she thinks of marrying him,” said Winterbourne, “and I don’t believe he hopes to marry her.” “You may be very sure she thinks of nothing.",
+  "text": "“Is it Mr. Giovanelli?” asked the hostess. Winterbourne was watching the young girl; at this question his attention quickened. She stood there, smiling and smoothing her bonnet ribbons; she glanced at Winterbourne. Then, while she glanced and smiled, she answered, without a shade of hesitation, “Mr. Giovanelli--the beautiful Giovanelli.” “My dear young friend,” said Mrs. Walker, taking her hand pleadingly, “don’t walk off to the Pincio at this hour to meet a beautiful Italian.” “Well, he speaks English,” said Mrs. Miller.",
   "words": [
     {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "magnificent",
+      "word": "bonnet",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Henry James",
     "year": 1878,
     "source": "Project Gutenberg #208",
-    "url": "https://www.gutenberg.org/ebooks/208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

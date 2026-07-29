@@ -1,40 +1,28 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-012",
   "pool": "sourced",
-  "text": "Ichabod prided himself upon his dancing as much as upon his vocal powers. Not a limb, not a fibre about him was idle; and to have seen his loosely hung frame in full motion, and clattering about the room, you would have thought St. Vitus himself, that blessed patron of the dance, was figuring before you in person. He was the admiration of all the negroes; who, having gathered, of all ages and sizes, from the farm and the neighborhood, stood forming a pyramid of shining black faces at every door and window, gazing with delight at the scene, rolling their white eyeballs, and showing grinning rows of ivory from ear to ear. How could the flogger of urchins be otherwise than animated and joyous? The lady of his heart was his partner in the dance, and smiling graciously in reply to all his amorous oglings; while Brom Bones, sorely smitten with love and jealousy, sat brooding by himself in one corner.",
+  "text": "Among these, the most formidable was a burly, roaring, roystering blade, of the name of Abraham, or, according to the Dutch abbreviation, Brom Van Brunt, the hero of the country round, which rang with his feats of strength and hardihood. He was broad-shouldered and double-jointed, with short curly black hair, and a bluff but not unpleasant countenance, having a mingled air of fun and arrogance. From his Herculean frame and great powers of limb he had received the nickname of BROM BONES, by which he was universally known. He was famed for great knowledge and skill in horsemanship, being as dexterous on horseback as a Tartar. He was foremost at all races and cock fights; and, with the ascendancy which bodily strength always acquires in rustic life, was the umpire in all disputes, setting his hat on one side, and giving his decisions with an air and tone that admitted of no gainsay or appeal.",
   "words": [
     {
-      "word": "patron",
+      "word": "formidable",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "admiration",
+      "word": "bluff",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ivory",
+      "word": "nickname",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "joyous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "smiling",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "brooding",
+      "word": "rustic",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +33,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

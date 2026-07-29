@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-030",
+  "pool": "sourced",
+  "text": "I saw it as I passed through. To-morrow it will all fall upon you again, they won’t have a crust of bread. It’s absurd, really, and so, to my thinking, a subscription ought to be raised so that the unhappy widow should not know of the money, but only you, for instance. Am I right?” “I don’t know... this is only to-day, once in her life.... She was so anxious to do honour, to celebrate the memory.... And she is very sensible... but just as you think and I shall be very, very... they will all be... and God will reward... and the orphans...” Sonia burst into tears. “Very well, then, keep it in mind; and now will you accept for the benefit of your relation the small sum that I am able to spare, from me personally.",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

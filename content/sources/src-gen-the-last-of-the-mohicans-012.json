@@ -1,10 +1,23 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-012",
   "pool": "sourced",
-  "text": "The compass of their voices, particularly that of the youth, was wonderful—extending from the deepest bass to tones that were even feminine in softness. The eyes of the father followed the plastic and ingenious movements of the son with open delight, and he never failed to smile in reply to the other’s contagious but low laughter. While under the influence of these gentle and natural feelings, no trace of ferocity was to be seen in the softened features of the Sagamore. His figured panoply of death looked more like a disguise assumed in mockery than a fierce annunciation of a desire to carry destruction in his footsteps. After an hour had passed in the indulgence of their better feelings, Chingachgook abruptly announced his desire to sleep, by wrapping his head in his blanket and stretching his form on the naked earth.",
+  "text": "Let us find leisure, with our dying breath, to ask for him penitence and pardon.” “Pardon!” echoed the fierce Huron, mistaking in his anger, the meaning of her words; “the memory of an Indian is no longer than the arm of the pale faces; his mercy shorter than their justice! Say; shall I send the yellow hair to her father, and will you follow Magua to the great lakes, to carry his water, and feed him with corn?” Cora beckoned him away, with an emotion of disgust she could not control. “Leave me,” she said, with a solemnity that for a moment checked the barbarity of the Indian; “you mingle bitterness in my prayers; you stand between me and my God!” The slight impression produced on the savage was, however, soon forgotten, and he continued pointing, with taunting irony, toward Alice.",
   "words": [
     {
-      "word": "deepest",
+      "word": "echoed",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "fierce",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "irony",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +28,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

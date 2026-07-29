@@ -1,16 +1,10 @@
 {
   "id": "src-gen-a-christmas-carol-020",
   "pool": "sourced",
-  "text": "Heaven, and the Christmas Time be praised for this! I say it on my knees, old Jacob; on my knees!\" He was so fluttered and so glowing with his good intentions, that his broken voice would scarcely answer to his call. He had been sobbing violently in his conflict with the Spirit, and his face was wet with tears. \"They are not torn down,\" cried Scrooge, folding one of his bed-curtains in his arms, \"they are not torn down, rings and all.",
+  "text": "Nor was it that the figs were moist and pulpy, or that the French plums blushed in modest tartness from their highly-decorated boxes, or that everything was good to eat and in its Christmas dress; but the customers were all so hurried and so eager in the hopeful promise of the day, that they tumbled up against each other at the door, crashing their wicker baskets wildly, and left their purchases upon the counter, and came running back to fetch them, and committed hundreds of the like mistakes, in the best humour possible; while the Grocer and his people were so frank and fresh that the polished hearts with which they fastened their aprons behind might have been their own, worn outside for general inspection, and for Christmas daws to peck at if they chose. But soon the steeples called good people all, to church and chapel, and away they came, flocking through the streets in their best clothes, and with their gayest faces. And at the same time there emerged from scores of bye-streets, lanes, and nameless turnings, innumerable people, carrying their dinners to the bakers' shops.",
   "words": [
     {
-      "word": "cried",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "curtains",
+      "word": "chapel",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

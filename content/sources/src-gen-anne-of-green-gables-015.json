@@ -1,10 +1,16 @@
 {
   "id": "src-gen-anne-of-green-gables-015",
   "pool": "sourced",
-  "text": "“Ruby, you must be King Arthur and Jane will be Guinevere and Diana must be Lancelot. But first you must be the brothers and the father. We can’t have the old dumb servitor because there isn’t room for two in the flat when one is lying down. We must pall the barge all its length in blackest samite. That old black shawl of your mother’s will be just the thing, Diana.” The black shawl having been procured, Anne spread it over the flat and then lay down on the bottom, with closed eyes and hands folded over her breast.",
+  "text": "Can I take her into the spare room to lay off her hat when she comes? And then into the parlor to sit?” “No. The sitting room will do for you and your company. But there’s a bottle half full of raspberry cordial that was left over from the church social the other night. It’s on the second shelf of the sitting-room closet and you and Diana can have it if you like, and a cooky to eat with it along in the afternoon, for I daresay Matthew ‘ll be late coming in to tea since he’s hauling potatoes to the vessel.” Anne flew down to the hollow, past the Dryad’s Bubble and up the spruce path to Orchard Slope, to ask Diana to tea.",
   "words": [
     {
-      "word": "barge",
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "closet",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "L. M. Montgomery",
     "year": 1908,
     "source": "Project Gutenberg #45",
-    "url": "https://www.gutenberg.org/ebooks/45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

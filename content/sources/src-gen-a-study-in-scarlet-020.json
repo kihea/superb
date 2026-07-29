@@ -1,34 +1,10 @@
 {
   "id": "src-gen-a-study-in-scarlet-020",
   "pool": "sourced",
-  "text": "I was standing in the yard when a ragged youngster asked if there was a cabby there called Jefferson Hope, and said that his cab was wanted by a gentleman at 221B, Baker Street. I went round, suspecting no harm, and the next thing I knew, this young man here had the bracelets on my wrists, and as neatly shackled as ever I saw in my life. That’s the whole of my story, gentlemen. You may consider me to be a murderer; but I hold that I am just as much an officer of justice as you are.” So thrilling had the man’s narrative been, and his manner was so impressive that we had sat silent and absorbed. Even the professional detectives, blasé as they were in every detail of crime, appeared to be keenly interested in the man’s story.",
+  "text": "I placed it upon a cushion on the rug. “I will now cut one of these pills in two,” said Holmes, and drawing his penknife he suited the action to the word. “One half we return into the box for future purposes. The other half I will place in this wine glass, in which is a teaspoonful of water. You perceive that our friend, the Doctor, is right, and that it readily dissolves.” “This may be very interesting,” said Lestrade, in the injured tone of one who suspects that he is being laughed at, “I cannot see, however, what it has to do with the death of Mr. Joseph Stangerson.” “Patience, my friend, patience!",
   "words": [
     {
-      "word": "youngster",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "neatly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentlemen",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "detectives",
+      "word": "perceive",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1887,
     "source": "Project Gutenberg #244",
-    "url": "https://www.gutenberg.org/ebooks/244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

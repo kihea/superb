@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-029",
+  "pool": "sourced",
+  "text": "The blaze of one of these fires lighted the way of the chief and Duncan, and gave a character of additional wildness to the rude scenery. At a little distance from a bald rock, and directly in its front, they entered a grassy opening, which they prepared to cross. Just then fresh fuel was added to the fire, and a powerful light penetrated even to that distant spot. It fell upon the white surface of the mountain, and was reflected downward upon a dark and mysterious-looking being that arose, unexpectedly, in their path. The Indian paused, as if doubtful whether to proceed, and permitted his companion to approach his side.",
+  "words": [
+    {
+      "word": "blaze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bald",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-what-katy-did-017",
   "pool": "sourced",
-  "text": "\"Yes--but to-night you are to take tea in Katy's room,\" said Aunt Izzie; \"here are the invitations: one for each of you.\" Sure enough, there was a neat little note for each, requesting the pleasure of their company at \"Queen Katharine's Palace,\" that afternoon, at six o'clock. This put quite a different aspect on the affair. The children scampered up stairs, and pretty soon, all nicely brushed and washed, they were knocking formally at the door of the \"Palace.\" How fine it sounded!",
+  "text": "Now John, it's your turn.\" But Johnnie would persist in holding her hands over her mouth, while her fat little shoulders shook with laughter. At last, with a great effort, she pulled her face straight, and speaking as fast as she possibly could, repeated, in a sort of burst: \"Balaam's donkey saw the Angel, And stopped short in fear. Balaam didn't see the Angel, Which is very queer.\" After which she took refuge again behind her fingers, while Elsie went on-- \"Elijah by the creek, He by ravens fed, Took from their horny beak Pieces of meat and bread.\"",
   "words": [
     {
-      "word": "invitations",
+      "word": "shook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beak",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Susan Coolidge",
     "year": 1872,
     "source": "Project Gutenberg #8994",
-    "url": "https://www.gutenberg.org/ebooks/8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

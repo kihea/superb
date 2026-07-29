@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-011",
   "pool": "sourced",
-  "text": "And that he insists on doing in a literal solitude like a desert. Anybody is kicked out of the house without a character who is so much as found near his dressing-room door. “He seems a pleasant old party,” I remarked. “No,” replied Dr Mull quite simply; “and yet that is just what I mean by saying you are unjust to him after all. Gentlemen, the Duke does really feel the bitterness about the curse that he uttered just now.",
+  "text": "The medical evidence involved no contradictions, the doctor, whom Seymour had summoned on the spot, agreeing with the eminent surgeon who had later examined the body. Aurora Rome had been stabbed with some sharp instrument such as a knife or dagger; some instrument, at least, of which the blade was short. The wound was just over the heart, and she had died instantly. When the doctor first saw her she could hardly have been dead for twenty minutes. Therefore when Father Brown found her she could hardly have been dead for three.",
   "words": [
     {
-      "word": "literal",
+      "word": "contradictions",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "surgeon",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "unjust",
+      "word": "dagger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blade",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

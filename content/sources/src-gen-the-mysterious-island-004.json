@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-mysterious-island-004",
   "pool": "sourced",
-  "text": "“Certainly,” replied the engineer, “for it must be fed by the water which flows from the mountain.” “I see a little river which runs into it,” said Herbert, pointing out a narrow stream, which evidently took its source somewhere in the west. “Yes,” said Harding; “and since this stream feeds the lake, most probably on the side near the sea there is an outlet by which the surplus water escapes. We shall see that on our return.” This little winding watercourse and the river already mentioned constituted the water-system, at least such as it was displayed to the eyes of the explorers. However, it was possible that under the masses of trees which covered two-thirds of the island, forming an immense forest, other rivers ran towards the sea. It might even be inferred that such was the case, so rich did this region appear in the most magnificent specimens of the flora of the temperate zones.",
+  "text": "Herbert picked up a few of these feathers, and after having examined them,-- “These are couroucous,” said he. “I should prefer a moor-cock or guinea-fowl,” replied Pencroft, “still, if they are good to eat--” “They are good to eat, and also their flesh is very delicate,” replied Herbert. “Besides, if I don’t mistake, it is easy to approach and kill them with a stick.” The sailor and the lad, creeping among the grass, arrived at the foot of a tree, whose lower branches were covered with little birds. The couroucous were waiting the passage of insects which served for their nourishment. Their feathery feet could be seen clasping the slender twigs which supported them.",
   "words": [
     {
-      "word": "evidently",
+      "word": "moor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "flora",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "zones",
+      "word": "sailor",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

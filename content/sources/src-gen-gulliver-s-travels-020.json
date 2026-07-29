@@ -1,12 +1,12 @@
 {
   "id": "src-gen-gulliver-s-travels-020",
   "pool": "sourced",
-  "text": "I therefore hoped they would not treat me as an enemy, since I meant them no harm, but was a poor Yahoo seeking some desolate place where to pass the remainder of his unfortunate life.” When they began to talk, I thought I never heard or saw any thing more unnatural; for it appeared to me as monstrous as if a dog or a cow should speak in England, or a Yahoo in Houyhnhnmland. The honest Portuguese were equally amazed at my strange dress, and the odd manner of delivering my words, which, however, they understood very well. They spoke to me with great humanity, and said, “they were sure the captain would carry me gratis to Lisbon, whence I might return to my own country; that two of the seamen would go back to the ship, inform the captain of what they had seen, and receive his orders; in the mean time, unless I would give my solemn oath not to fly, they would secure me by force. I thought it best to comply with their proposal.",
+  "text": "I found myself not very well, and told the page that I had a mind to take a nap in my hammock, which I hoped would do me good. I got in, and the boy shut the window close down, to keep out the cold. I soon fell asleep, and all I can conjecture is, while I slept, the page, thinking no danger could happen, went among the rocks to look for birds’ eggs, having before observed him from my window searching about, and picking up one or two in the clefts. Be that as it will, I found myself suddenly awaked with a violent pull upon the ring, which was fastened at the top of my box for the conveniency of carriage. I felt my box raised very high in the air, and then borne forward with prodigious speed.",
   "words": [
     {
-      "word": "oath",
+      "word": "slept",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

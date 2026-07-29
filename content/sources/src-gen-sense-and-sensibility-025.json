@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-025",
+  "pool": "sourced",
+  "text": "Early in February, within a fortnight from the receipt of Willoughby's letter, Elinor had the painful office of informing her sister that he was married. She had taken care to have the intelligence conveyed to herself, as soon as it was known that the ceremony was over, as she was desirous that Marianne should not receive the first notice of it from the public papers, which she saw her eagerly examining every morning. She received the news with resolute composure; made no observation on it, and at first shed no tears; but after a short time they would burst out, and for the rest of the day, she was in a state hardly less pitiable than when she first learnt to expect the event. The Willoughbys left town as soon as they were married; and Elinor now hoped, as there could be no danger of her seeing either of them, to prevail on her sister, who had never yet left the house since the blow first fell, to go out again by degrees as she had done before.",
+  "words": [
+    {
+      "word": "receipt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

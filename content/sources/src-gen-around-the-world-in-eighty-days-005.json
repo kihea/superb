@@ -1,46 +1,16 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-005",
   "pool": "sourced",
-  "text": "The locomotive, guided by an English engineer and fed with English coal, threw out its smoke upon cotton, coffee, nutmeg, clove, and pepper plantations, while the steam curled in spirals around groups of palm-trees, in the midst of which were seen picturesque bungalows, viharis (sort of abandoned monasteries), and marvellous temples enriched by the exhaustless ornamentation of Indian architecture. Then they came upon vast tracts extending to the horizon, with jungles inhabited by snakes and tigers, which fled at the noise of the train; succeeded by forests penetrated by the railway, and still haunted by elephants which, with pensive eyes, gazed at the train as it passed. The travellers crossed, beyond Milligaum, the fatal country so often stained with blood by the sectaries of the goddess Kali. Not far off rose Ellora, with its graceful pagodas, and the famous Aurungabad, capital of the ferocious Aureng-Zeb, now the chief town of one of the detached provinces of the kingdom of the Nizam. It was thereabouts that Feringhea, the Thuggee chief, king of the stranglers, held his sway.",
+  "text": "One was the British consul at Suez, who, despite the prophecies of the English Government, and the unfavourable predictions of Stephenson, was in the habit of seeing, from his office window, English ships daily passing to and fro on the great canal, by which the old roundabout route from England to India by the Cape of Good Hope was abridged by at least a half. The other was a small, slight-built personage, with a nervous, intelligent face, and bright eyes peering out from under eyebrows which he was incessantly twitching. He was just now manifesting unmistakable signs of impatience, nervously pacing up and down, and unable to stand still for a moment. This was Fix, one of the detectives who had been dispatched from England in search of the bank robber; it was his task to narrowly watch every passenger who arrived at Suez, and to follow up all who seemed to be suspicious characters, or bore a resemblance to the description of the criminal, which he had received two days before from the police headquarters at London.",
   "words": [
     {
-      "word": "locomotive",
+      "word": "consul",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "guided",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "plantations",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "forests",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "haunted",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "travellers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "provinces",
+      "word": "nervously",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

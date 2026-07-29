@@ -1,10 +1,34 @@
 {
   "id": "src-gen-the-jungle-book-020",
   "pool": "sourced",
-  "text": "“What I want to know,” said the young mule, who had been quiet for a long time--“what I want to know is, why we have to fight at all.” “Because we’re told to,” said the troop-horse, with a snort of contempt. “Orders,” said Billy the mule, and his teeth snapped. “Hukm hai!” (It is an order! ), said the camel with a gurgle, and Two Tails and the bullocks repeated, “Hukm hai!” “Yes, but who gives the orders?” said the recruit-mule. “The man who walks at your head--Or sits on your back--Or holds the nose rope--Or twists your tail,” said Billy and the troop-horse and the camel and the bullocks one after the other.",
+  "text": "Come along! The water feels bad here.” This was one of very many things that Kotick learned, and he was always learning. Matkah taught him to follow the cod and the halibut along the under-sea banks and wrench the rockling out of his hole among the weeds; how to skirt the wrecks lying a hundred fathoms below water and dart like a rifle bullet in at one porthole and out at another as the fishes ran; how to dance on the top of the waves when the lightning was racing all over the sky, and wave his flipper politely to the stumpy-tailed Albatross and the Man-of-war Hawk as they went down the wind; how to jump three or four feet clear of the water like a dolphin, flippers close to the side and tail curved; to leave the flying fish alone because they are all bony; to take the shoulder-piece out of a cod at full speed ten fathoms deep, and never to stop and look at a boat or a ship, but particularly a row-boat. At the end of six months what Kotick did not know about deep-sea fishing was not worth the knowing.",
   "words": [
     {
-      "word": "mule",
+      "word": "cod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rifle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fishes",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tailed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dolphin",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

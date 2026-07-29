@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-prairie-024",
+  "pool": "sourced",
+  "text": "The snow was fine and hard, really minute particles of ice, and not snow at all, as we know it in the East, little sharp-angled diamond-points that stung the skin like fire. It came in almost horizontal lines, driving flat across the unbroken prairie and defying anything made of God or man to stop it. Nothing did stop it. Our shack and the bunk-house and stables and hay-stacks tore a few pin-feathers off its breast, though; and those few feathers are drifts higher than my head, heaped up against each and all of the buildings. I scratched the frost off a window-pane, where feathery little drifts were seeping in through the sill-cracks, when it first began.",
+  "words": [
+    {
+      "word": "horizontal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prairie",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frost",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

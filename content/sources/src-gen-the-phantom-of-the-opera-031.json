@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-031",
+  "pool": "sourced",
+  "text": "Wait, don't move, I will release you ... You have only one word to say: 'NO!' And it will at once be over WITH EVERYBODY! ... You are right, you are right; why wait till eleven o'clock to-morrow evening? True, it would have been grander, finer ... But that is childish nonsense ... We should only think of ourselves in this life, of our own death ... the rest doesn't matter... YOU'RE LOOKING AT ME BECAUSE I AM ALL WET?",
+  "words": [
+    {
+      "word": "finer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

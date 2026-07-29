@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-heart-of-darkness-026",
+  "pool": "sourced",
+  "text": "The bush began to howl. Our wood-cutters raised a warlike whoop; the report of a rifle just at my back deafened me. I glanced over my shoulder, and the pilot-house was yet full of noise and smoke when I made a dash at the wheel. The fool-nigger had dropped everything, to throw the shutter open and let off that Martini-Henry. He stood before the wide opening, glaring, and I yelled at him to come back, while I straightened the sudden twist out of that steamboat.",
+  "words": [
+    {
+      "word": "rifle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

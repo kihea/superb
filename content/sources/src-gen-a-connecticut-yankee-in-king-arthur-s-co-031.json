@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-031",
+  "pool": "sourced",
+  "text": "Why, they weren't any better than so many dead men. It was very uncomfortable. Of course, I thought they would appeal to me to keep mum, and then we would shake hands, and take a drink all round, and laugh it off, and there an end. But no; you see I was an unknown person, among a cruelly oppressed and suspicious people, a people always accustomed to having advantage taken of their helplessness, and never expecting just or kind treatment from any but their own families and very closest intimates. Appeal to me to be gentle, to be fair, to be generous?",
+  "words": [
+    {
+      "word": "accustomed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

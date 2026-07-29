@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-029",
+  "pool": "sourced",
+  "text": "Had Moreau had any intelligible object, I could have sympathised at least a little with him. I am not so squeamish about pain as that. I could have forgiven him a little even, had his motive been only hate. But he was so irresponsible, so utterly careless! His curiosity, his mad, aimless investigations, drove him on; and the Things were thrown out to live a year or so, to struggle and blunder and suffer, and at last to die painfully.",
+  "words": [
+    {
+      "word": "curiosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "painfully",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-three-musketeers-035",
+  "pool": "sourced",
+  "text": "Milady was all attention. “Listen,” said the young man to the sentinel. “On no pretense leave the door, for you know that last night my Lord punished a soldier for having quit his post for an instant, although I, during his absence, watched in his place.” “Yes, I know it,” said the soldier. “I recommend you therefore to keep the strictest watch. For my part I am going to pay a second visit to this woman, who I fear entertains sinister intentions upon her own life, and I have received orders to watch her.” “Good!” murmured Milady; “the austere Puritan lies.” As to the soldier, he only smiled.",
+  "words": [
+    {
+      "word": "sentinel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

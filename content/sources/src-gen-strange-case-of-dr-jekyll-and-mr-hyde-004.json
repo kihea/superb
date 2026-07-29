@@ -1,10 +1,40 @@
 {
   "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-004",
   "pool": "sourced",
-  "text": "God bless me, the man seems hardly human! Something troglodytic, shall we say? or can it be the old story of Dr. Fell? or is it the mere radiance of a foul soul that thus transpires through, and transfigures, its clay continent? The last, I think; for, O my poor old Harry Jekyll, if ever I read Satan’s signature upon a face, it is on that of your new friend.” Round the corner from the by-street, there was a square of ancient, handsome houses, now for the most part decayed from their high estate and let in flats and chambers to all sorts and conditions of men; map-engravers, architects, shady lawyers and the agents of obscure enterprises.",
+  "text": "And still the figure had no face by which he might know it; even in his dreams, it had no face, or one that baffled him and melted before his eyes; and thus it was that there sprang up and grew apace in the lawyer’s mind a singularly strong, almost an inordinate, curiosity to behold the features of the real Mr. Hyde. If he could but once set eyes on him, he thought the mystery would lighten and perhaps roll altogether away, as was the habit of mysterious things when well examined. He might see a reason for his friend’s strange preference or bondage (call it which you please) and even for the startling clauses of the will. At least it would be a face worth seeing: the face of a man who was without bowels of mercy: a face which had but to show itself to raise up, in the mind of the unimpressionable Enfield, a spirit of enduring hatred. From that time forward, Mr. Utterson began to haunt the door in the by-street of shops.",
   "words": [
     {
-      "word": "bless",
+      "word": "curiosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preference",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enduring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hatred",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-026",
+  "pool": "sourced",
+  "text": "I released him from my arms, and never were more bitter tears than those that now concealed him from my blinded, burning eyes. Hearing his cries, the father came to the room. I instantly turned away, lest he should see and misconstrue my emotion. He swore at me, and took the now pacified child away. It is hard that my little darling should love him more than me; and that, when the well-being and culture of my son is all I have to live for, I should see my influence destroyed by one whose selfish affection is more injurious than the coldest indifference or the harshest tyranny could be.",
+  "words": [
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tyranny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

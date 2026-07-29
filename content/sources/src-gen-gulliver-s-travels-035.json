@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-gulliver-s-travels-035",
+  "pool": "sourced",
+  "text": "My master was yet wholly at a loss to understand what motives could incite this race of lawyers to perplex, disquiet, and weary themselves, and engage in a confederacy of injustice, merely for the sake of injuring their fellow-animals; neither could he comprehend what I meant in saying, they did it for hire. Whereupon I was at much pains to describe to him the use of money, the materials it was made of, and the value of the metals; “that when a Yahoo had got a great store of this precious substance, he was able to purchase whatever he had a mind to; the finest clothing, the noblest houses, great tracts of land, the most costly meats and drinks, and have his choice of the most beautiful females.",
+  "words": [
+    {
+      "word": "comprehend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

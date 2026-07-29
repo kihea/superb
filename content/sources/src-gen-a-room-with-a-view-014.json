@@ -1,16 +1,22 @@
 {
   "id": "src-gen-a-room-with-a-view-014",
   "pool": "sourced",
-  "text": "Mr. Beebe watched them, and watched the seeds of the willow-herb dance chorically above their heads. “Apooshoo, apooshoo, apooshoo,” went Freddy, swimming for two strokes in either direction, and then becoming involved in reeds or mud. “Is it worth it?” asked the other, Michelangelesque on the flooded margin. The bank broke away, and he fell into the pool before he had weighed the question properly. “Hee-poof—I’ve swallowed a pollywog, Mr. Beebe, water’s wonderful, water’s simply ripping.” “Water’s not so bad,” said George, reappearing from his plunge, and sputtering at the sun.",
+  "text": "“Generally,” replied Mr. Eager, “one has only sympathy for their success. The desire for education and for social advance—in these things there is something not wholly vile. There are some working men whom one would be very willing to see out here in Florence—little as they would make of it.” “Is he a journalist now?” Miss Bartlett asked. “He is not; he made an advantageous marriage.” He uttered this remark with a voice full of meaning, and ended with a sigh.",
   "words": [
     {
-      "word": "mud",
+      "word": "uttered",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "flooded",
+      "word": "remark",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "sigh",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "E. M. Forster",
     "year": 1908,
     "source": "Project Gutenberg #2641",
-    "url": "https://www.gutenberg.org/ebooks/2641",
+    "url": "https://www.gutenberg.org/ebooks/2641.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-christmas-carol-035",
+  "pool": "sourced",
+  "text": "Alleys and archways, like so many cesspools, disgorged their offences of smell, and dirt, and life, upon the straggling streets; and the whole quarter reeked with crime, with filth, and misery. Far in this den of infamous resort, there was a low-browed, beetling shop, below a pent-house roof, where iron, old rags, bottles, bones, and greasy offal, were bought. Upon the floor within, were piled up heaps of rusty keys, nails, chains, hinges, files, scales, weights, and refuse iron of all kinds. Secrets that few would like to scrutinise were bred and hidden in mountains of unseemly rags, masses of corrupted fat, and sepulchres of bones. Sitting in among the wares he dealt in, by a charcoal stove, made of old bricks, was a grey-haired rascal, nearly seventy years of age; who had screened himself from the cold air without, by a frousy curtaining of miscellaneous tatters, hung upon a line; and smoked his pipe in all the luxury of calm retirement.",
+  "words": [
+    {
+      "word": "filth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "den",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

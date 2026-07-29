@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-hard-times-040",
+  "pool": "sourced",
+  "text": "Mr. Bounderby felt that Mrs. Sparsit had audaciously anticipated him, and presumed to be wiser than he. Inappeasably indignant with her for her triumphant discovery of Mrs. Pegler, he turned this presumption, on the part of a woman in her dependent position, over and over in his mind, until it accumulated with turning like a great snowball. At last he made the discovery that to discharge this highly connected female—to have it in his power to say, ‘She was a woman of family, and wanted to stick to me, but I wouldn’t have it, and got rid of her’—would be to get the utmost possible amount of crowning glory out of the connection, and at the same time to punish Mrs. Sparsit according to her deserts. Filled fuller than ever, with this great idea, Mr. Bounderby came in to lunch, and sat himself down in the dining-room of former days, where his portrait was. Mrs. Sparsit sat by the fire, with her foot in her cotton stirrup, little thinking whither she was posting.",
+  "words": [
+    {
+      "word": "presumed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "presumption",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "snowball",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

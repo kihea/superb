@@ -1,22 +1,16 @@
 {
   "id": "src-gen-peter-pan-010",
   "pool": "sourced",
-  "text": "Little shivers ran over it, and the sun went away and shadows stole across the water, turning it cold. Wendy could no longer see to thread her needle, and when she looked up, the lagoon that had always hitherto been such a laughing place seemed formidable and unfriendly. It was not, she knew, that night had come, but something as dark as night had come. No, worse than that. It had not come, but it had sent that shiver through the sea to say that it was coming.",
+  "text": "Eventually Peter would dive through the air, and catch Michael just before he could strike the sea, and it was lovely the way he did it; but he always waited till the last moment, and you felt it was his cleverness that interested him and not the saving of human life. Also he was fond of variety, and the sport that engrossed him one moment would suddenly cease to engage him, so there was always the possibility that the next time you fell he would let you go. He could sleep in the air without falling, by merely lying on his back and floating, but this was, partly at least, because he was so light that if you got behind him and blew he went faster. “Do be more polite to him,” Wendy whispered to John, when they were playing “Follow my Leader.” “Then tell him to stop showing off,” said John. When playing Follow my Leader, Peter would fly close to the water and touch each shark’s tail in passing, just as in the street you may run your finger along an iron railing.",
   "words": [
     {
-      "word": "shadows",
+      "word": "dive",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "stole",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lagoon",
+      "word": "cease",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-023",
+  "pool": "sourced",
+  "text": "At present I am going to take the children to the nursery.” “But can’t you ring and send them?” “No; I want the exercise of a run to the top of the house. Come, Arthur.” “But you will return?” “Not yet; don’t wait.” “Then when may I see you again?” “At lunch,” said I, departing with little Helen in one arm and leading Arthur by the hand. He turned away, muttering some sentence of impatient censure or complaint, in which “heartless” was the only distinguishable word. “What nonsense is this, Mr. Hargrave?” said I, pausing in the doorway. “What do you mean?” “Oh, nothing; I did not intend you should hear my soliloquy.",
+  "words": [
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,52 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-011",
   "pool": "sourced",
-  "text": "A moving hymn was sung, and the text followed: “I am the Resurrection and the Life.” As the service proceeded, the clergyman drew such pictures of the graces, the winning ways, and the rare promise of the lost lads that every soul there, thinking he recognized these pictures, felt a pang in remembering that he had persistently blinded himself to them always before, and had as persistently seen only faults and flaws in the poor boys. The minister related many a touching incident in the lives of the departed, too, which illustrated their sweet, generous natures, and the people could easily see, now, how noble and beautiful those episodes were, and remembered with grief that at the time they occurred they had seemed rank rascalities, well deserving of the cowhide. The congregation became more and more moved, as the pathetic tale went on, till at last the whole company broke down and joined the weeping mourners in a chorus of anguished sobs, the preacher himself giving way to his feelings, and crying in the pulpit.",
+  "text": "In it lay a marble. Tom’s astonishment was boundless! He scratched his head with a perplexed air, and said: “Well, that beats anything!” Then he tossed the marble away pettishly, and stood cogitating. The truth was, that a superstition of his had failed, here, which he and all his comrades had always looked upon as infallible. If you buried a marble with certain necessary incantations, and left it alone a fortnight, and then opened the place with the incantation he had just used, you would find that all the marbles you had ever lost had gathered themselves together there, meantime, no matter how widely they had been separated.",
   "words": [
     {
-      "word": "proceeded",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "clergyman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blinded",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "illustrated",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "generous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sobs",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "preacher",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pulpit",
+      "word": "marbles",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

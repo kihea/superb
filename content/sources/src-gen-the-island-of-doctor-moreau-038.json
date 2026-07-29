@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-038",
+  "pool": "sourced",
+  "text": "Perhaps it is as well that I was saved from launching it; but at the time my misery at my failure was so acute that for some days I simply moped on the beach, and stared at the water and thought of death. I did not, however, mean to die, and an incident occurred that warned me unmistakably of the folly of letting the days pass so,—for each fresh day was fraught with increasing danger from the Beast People. I was lying in the shade of the enclosure wall, staring out to sea, when I was startled by something cold touching the skin of my heel, and starting round found the little pink sloth-creature blinking into my face. He had long since lost speech and active movement, and the lank hair of the little brute grew thicker every day and his stumpy claws more askew. He made a moaning noise when he saw he had attracted my attention, went a little way towards the bushes and looked back at me.",
+  "words": [
+    {
+      "word": "launching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enclosure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

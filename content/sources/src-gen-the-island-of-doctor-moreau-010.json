@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-010",
   "pool": "sourced",
-  "text": "Then it came into my head that there was one chance before me yet. While Moreau and Montgomery and their bestial rabble chased me through the island, might I not go round the beach until I came to their enclosure,—make a flank march upon them, in fact, and then with a rock lugged out of their loosely-built wall, perhaps, smash in the lock of the smaller door and see what I could find (knife, pistol, or what not) to fight them with when they returned? It was at any rate something to try. So I turned to the westward and walked along by the water’s edge. The setting sun flashed his blinding heat into my eyes.",
+  "text": "I turned suddenly, and stared at the uncertain trees behind me. One black shadow seemed to leap into another. I listened, rigid, and heard nothing but the creep of the blood in my ears. I thought that my nerves were unstrung, and that my imagination was tricking me, and turned resolutely towards the sound of the sea again. In a minute or so the trees grew thinner, and I emerged upon a bare, low headland running out into the sombre water.",
   "words": [
     {
-      "word": "chased",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "enclosure",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blinding",
+      "word": "thinner",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

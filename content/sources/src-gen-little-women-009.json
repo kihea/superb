@@ -1,10 +1,16 @@
 {
   "id": "src-gen-little-women-009",
   "pool": "sourced",
-  "text": "But recollecting how nearly he had lost her, he held her close, saying tenderly, with her cheek against his own, “I’ve got you safe, my Beth, and I’ll keep you so, please God.” After a minute’s silence, he looked down at Amy, who sat on the cricket at his feet, and said, with a caress of the shining hair... “I observed that Amy took drumsticks at dinner, ran errands for her mother all the afternoon, gave Meg her place tonight, and has waited on every one with patience and good humor. I also observe that she does not fret much nor look in the glass, and has not even mentioned a very pretty ring which she wears, so I conclude that she has learned to think of other people more and of herself less, and has decided to try and mold her character as carefully as she molds her little clay figures.",
+  "text": "Now, Laurie.” “After I’d seen as much of the world as I want to, I’d like to settle in Germany and have just as much music as I choose. I’m to be a famous musician myself, and all creation is to rush to hear me. And I’m never to be bothered about money or business, but just enjoy myself and live for what I like. That’s my favorite castle. What’s yours, Meg?” Margaret seemed to find it a little hard to tell hers, and waved a brake before her face, as if to disperse imaginary gnats, while she said slowly, “I should like a lovely house, full of all sorts of luxurious things—nice food, pretty clothes, handsome furniture, pleasant people, and heaps of money.",
   "words": [
     {
-      "word": "observe",
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waved",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

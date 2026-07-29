@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-035",
+  "pool": "sourced",
+  "text": "The Sioux were armed with guns, from which came the reports, to which the passengers, who were almost all armed, responded by revolver-shots. The Indians had first mounted the engine, and half stunned the engineer and stoker with blows from their muskets. A Sioux chief, wishing to stop the train, but not knowing how to work the regulator, had opened wide instead of closing the steam-valve, and the locomotive was plunging forward with terrific velocity. The Sioux had at the same time invaded the cars, skipping like enraged monkeys over the roofs, thrusting open the doors, and fighting hand to hand with the passengers. Penetrating the baggage-car, they pillaged it, throwing the trunks out of the train.",
+  "words": [
+    {
+      "word": "revolver",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "locomotive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velocity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

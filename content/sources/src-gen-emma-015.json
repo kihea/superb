@@ -1,22 +1,28 @@
 {
   "id": "src-gen-emma-015",
   "pool": "sourced",
-  "text": "Where is it? This is a sort of dull-looking evening, that ought to be treated rather as winter than summer. We had great amusement with those letters one morning. I want to puzzle you again.” Emma was pleased with the thought; and producing the box, the table was quickly scattered over with alphabets, which no one seemed so much disposed to employ as their two selves. They were rapidly forming words for each other, or for any body else who would be puzzled.",
+  "text": "Ambition, as well as love, had probably been mortified. They might all have hoped to rise by Harriet’s acquaintance: and besides, what was the value of Harriet’s description?—So easily pleased—so little discerning;—what signified her praise? She exerted herself, and did try to make her comfortable, by considering all that had passed as a mere trifle, and quite unworthy of being dwelt on, “It might be distressing, for the moment,” said she; “but you seem to have behaved extremely well; and it is over—and may never—can never, as a first meeting, occur again, and therefore you need not think about it.” Harriet said, “very true,” and she “would not think about it;” but still she talked of it—still she could talk of nothing else; and Emma, at last, in order to put the Martins out of her head, was obliged to hurry on the news, which she had meant to give with so much tender caution; hardly knowing herself whether to rejoice or be angry, ashamed or only amused, at such a state of mind in poor Harriet—such a conclusion of Mr. Elton’s importance with her! Mr. Elton’s rights, however, gradually revived.",
   "words": [
     {
-      "word": "puzzle",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "selves",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "puzzled",
+      "word": "unworthy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "caution",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

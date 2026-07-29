@@ -1,10 +1,28 @@
 {
   "id": "src-gen-meditations-019",
   "pool": "sourced",
-  "text": "Good-bye, best and sweetest master. My lady sends you greeting.' 'What words can I find to fit my had luck, or how shall I upbraid as it deserves the hard constraint which is laid upon me? It ties me fast here, troubled my heart is, and beset by such anxiety; nor does it allow me to make haste to my Fronto, my life and delight, to be near him at such a moment of ill-health in particular, to hold his hands, to chafe gently that identical foot, so far as may be done without discomfort, to attend him in the bath, to support his steps with my arm.' 'This morning I did not write to you, because I heard you were better, and because I was myself engaged in other business, and I cannot ever endure to write anything to you unless with mind at ease and untroubled and free.",
+  "text": "if thou supposest that he that is of any worth at all, should apprehend either life or death, as a matter of great hazard and danger; and should not make this rather his only care, to examine his own actions, whether just or unjust: whether actions of a good, or of a wicked man, &c. For thus in very truth stands the case, O ye men of Athens. What place or station soever a man either hath chosen to himself, judging it best for himself; or is by lawful authority put and settled in, therein do I think (all appearance of danger notwithstanding) that he should continue, as one who feareth neither death, nor anything else, so much as he feareth to commit anything that is vicious and shameful, &c. But, O noble sir, consider I pray, whether true generosity and true happiness, do not consist in somewhat else rather, than in the preservation either of our, or other men's lives.",
   "words": [
     {
-      "word": "sends",
+      "word": "hazard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unjust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "therein",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preservation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-035",
+  "pool": "sourced",
+  "text": "You know the young lady’s father, Pip?” said Mr. Jaggers. “Yes,” I replied, “and his name is Provis—from New South Wales.” Even Mr. Jaggers started when I said those words. It was the slightest start that could escape a man, the most carefully repressed and the sooner checked, but he did start, though he made it a part of the action of taking out his pocket-handkerchief. How Wemmick received the announcement I am unable to say; for I was afraid to look at him just then, lest Mr. Jaggers’s sharpness should detect that there had been some communication unknown to him between us. “And on what evidence, Pip,” asked Mr. Jaggers, very coolly, as he paused with his handkerchief half way to his nose, “does Provis make this claim?” “He does not make it,” said I, “and has never made it, and has no knowledge or belief that his daughter is in existence.” For once, the powerful pocket-handkerchief failed.",
+  "words": [
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

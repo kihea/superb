@@ -1,16 +1,10 @@
 {
   "id": "src-gen-gulliver-s-travels-008",
   "pool": "sourced",
-  "text": "I fell over head and ears, and, if I had not been a good swimmer, it might have gone very hard with me; for Glumdalclitch in that instant happened to be at the other end of the room, and the queen was in such a fright, that she wanted presence of mind to assist me. But my little nurse ran to my relief, and took me out, after I had swallowed above a quart of cream. I was put to bed: however, I received no other damage than the loss of a suit of clothes, which was utterly spoiled. The dwarf was soundly whipt, and as a farther punishment, forced to drink up the bowl of cream into which he had thrown me: neither was he ever restored to favour; for soon after the queen bestowed him on a lady of high quality, so that I saw him no more, to my very great satisfaction; for I could not tell to what extremities such a malicious urchin might have carried his resentment.",
+  "text": "The meaner families who have children at these nurseries, are obliged, besides their annual pension, which is as low as possible, to return to the steward of the nursery a small monthly share of their gettings, to be a portion for the child; and therefore all parents are limited in their expenses by the law. For the Lilliputians think nothing can be more unjust, than for people, in subservience to their own appetites, to bring children into the world, and leave the burthen of supporting them on the public. As to persons of quality, they give security to appropriate a certain sum for each child, suitable to their condition; and these funds are always managed with good husbandry and the most exact justice. The cottagers and labourers keep their children at home, their business being only to till and cultivate the earth, and therefore their education is of little consequence to the public: but the old and diseased among them are supported by hospitals; for begging is a trade unknown in this empire.",
   "words": [
     {
-      "word": "swallowed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "farther",
+      "word": "nursery",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

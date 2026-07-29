@@ -1,10 +1,40 @@
 {
   "id": "src-gen-the-call-of-cthulhu-008",
   "pool": "sourced",
-  "text": "The present voodoo orgy was, indeed, on the merest fringe of this abhorred area, but that location was bad enough; hence perhaps the very place of the worship had terrified the squatters more than the shocking sounds and incidents. Only poetry or madness could do justice to the noises heard by Legrasse's men as they plowed on through the black morass toward the red glare and the muffled tom-toms. There are vocal qualities peculiar to men, and vocal qualities peculiar to beasts; and it is terrible to hear the one when the source should yield the other. Animal fury and orgiastic license here whipped themselves to demoniac heights by howls and squawking ecstasies that tore and reverberated through those nighted woods like pestilential tempests from the gulfs of hell. Now and then the less organized ululations would cease, and from what seemed a well-drilled chorus of hoarse voices would rise in singsong chant that hideous phrase or ritual: \"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.\"",
+  "text": "The statuette, idol, fetish, or whatever it was, had been captured some months before in the wooded swamps south of New Orleans during a raid on a supposed voodoo meeting; and so singular and hideous were the rites connected with it, that the police could not but realize that they had stumbled on a dark cult totally unknown to them, and infinitely more diabolic than even the blackest of the African voodoo circles. Of its origin, apart from the erratic and unbelievable tales extorted from the captured members, absolutely nothing was to be discovered; hence the anxiety of the police for any antiquarian lore which might help them to place the frightful symbol, and through it track down the cult to its fountain-head. Inspector Legrasse was scarcely prepared for the sensation which his offering created. One sight of the thing had been enough to throw the assembled men of science into a state of tense excitement, and they lost no time in crowding around him to gaze at the diminutive figure whose utter strangeness and air of genuinely abysmal antiquity hinted so potently at unopened and archaic vistas.",
   "words": [
     {
-      "word": "noises",
+      "word": "voodoo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cult",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excitement",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

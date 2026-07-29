@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-035",
+  "pool": "sourced",
+  "text": "“We should like to keep you with us, but if it is your wish to return to Kansas, I hope you will find a way.” He then opened the gate of the outer wall, and they walked forth and started upon their journey. The sun shone brightly as our friends turned their faces toward the Land of the South. They were all in the best of spirits, and laughed and chatted together. Dorothy was once more filled with the hope of getting home, and the Scarecrow and the Tin Woodman were glad to be of use to her. As for the Lion, he sniffed the fresh air with delight and whisked his tail from side to side in pure joy at being in the country again, while Toto ran around them and chased the moths and butterflies, barking merrily all the time.",
+  "words": [
+    {
+      "word": "delight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-029",
+  "pool": "sourced",
+  "text": "“No, I don’t think I shall. He can come up here if he wants to see us.” “Oh!” Lawrence looked indeterminate. Something unusually nervous and excited in his manner roused my curiosity. “What is it?” I asked. “I could go if there’s anything special.” “It’s nothing much, but—well, if you are going, will you tell him——” he dropped his voice to a whisper—“I think I’ve found the extra coffee-cup!” I had almost forgotten that enigmatical message of Poirot’s, but now my curiosity was aroused afresh.",
+  "words": [
+    {
+      "word": "unusually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aroused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

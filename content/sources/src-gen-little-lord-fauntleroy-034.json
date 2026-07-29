@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-034",
+  "pool": "sourced",
+  "text": "On market-days, people stood in groups and talked and wondered what would be done; the farmers' wives invited one another to tea that they might tell one another all they had heard and all they thought and all they thought other people thought. They related wonderful anecdotes about the Earl's rage and his determination not to acknowledge the new Lord Fauntleroy, and his hatred of the woman who was the claimant's mother. But, of course, it was Mrs. Dibble who could tell the most, and who was more in demand than ever. “An' a bad lookout it is,” she said. “An' if you were to ask me, ma'am, I should say as it was a judgment on him for the way he's treated that sweet young cre'tur' as he parted from her child,--for he's got that fond of him an' that set on him an' that proud of him as he's a'most drove mad by what's happened.",
+  "words": [
+    {
+      "word": "wondered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

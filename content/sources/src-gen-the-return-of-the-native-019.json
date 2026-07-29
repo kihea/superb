@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-return-of-the-native-019",
   "pool": "sourced",
-  "text": "“Clym’s alive!” she exclaimed. He soon breathed distinctly, and again and again did she attempt to revive her husband by the same means; but Wildeve gave no sign. There was too much reason to think that he and Eustacia both were for ever beyond the reach of stimulating perfumes. Their exertions did not relax till the doctor arrived, when one by one, the senseless three were taken upstairs and put into warm beds. Venn soon felt himself relieved from further attendance, and went to the door, scarcely able yet to realize the strange catastrophe that had befallen the family in which he took so great an interest.",
+  "text": "Whenever any little occurrence had brought into more prominence than usual the disappointment that he was causing her it had sent him on lone and moody walks; or he was kept awake a great part of the night by the turmoil of spirit which such a recognition created. If Mrs. Yeobright could only have been led to see what a sound and worthy purpose this purpose of his was and how little it was being affected by his devotions to Eustacia, how differently would she regard him! Thus as his sight grew accustomed to the first blinding halo kindled about him by love and beauty, Yeobright began to perceive what a strait he was in. Sometimes he wished that he had never known Eustacia, immediately to retract the wish as brutal. Three antagonistic growths had to be kept alive: his mother’s trust in him, his plan for becoming a teacher, and Eustacia’s happiness.",
   "words": [
     {
-      "word": "catastrophe",
+      "word": "prominence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turmoil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perceive",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

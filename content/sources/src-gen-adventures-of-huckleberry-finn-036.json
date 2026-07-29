@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-036",
+  "pool": "sourced",
+  "text": "But not long, because she says: “It’s just as I expected. So you had it in your pocket all the time; and like as not you’ve got the other things there, too. How’d it get there?” “I reely don’t know, Sally,” he says, kind of apologizing, “or you know I would tell. I was a-studying over my text in Acts Seventeen before breakfast, and I reckon I put it in there, not noticing, meaning to put my Testament in, and it must be so, because my Testament ain’t in; but I’ll go and see; and if the Testament is where I had it, I’ll know I didn’t put it in, and that will show that I laid the Testament down and took up the spoon, and—” “Oh, for the land’s sake! Give a body a rest!",
+  "words": [
+    {
+      "word": "reckon",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "noticing",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "spoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

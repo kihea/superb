@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-war-of-the-worlds-007",
   "pool": "sourced",
-  "text": "I heard answering shouts from the people in the water about me. I could have leaped out of the water with that momentary exultation. The decapitated colossus reeled like a drunken giant; but it did not fall over. It recovered its balance by a miracle, and, no longer heeding its steps and with the camera that fired the Heat-Ray now rigidly upheld, it reeled swiftly upon Shepperton. The living intelligence, the Martian within the hood, was slain and splashed to the four winds of heaven, and the Thing was now but a mere intricate device of metal whirling to destruction.",
+  "text": "I saw the doctor’s cart ahead of me. At the bottom of the hill I turned my head to look at the hillside I was leaving. Thick streamers of black smoke shot with threads of red fire were driving up into the still air, and throwing dark shadows upon the green treetops eastward. The smoke already extended far away to the east and west—to the Byfleet pine woods eastward, and to Woking on the west. The road was dotted with people running towards us.",
   "words": [
     {
-      "word": "shouts",
+      "word": "hillside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eastward",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

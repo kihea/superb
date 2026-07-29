@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prairie-026",
+  "pool": "sourced",
+  "text": "I think they make him look rather distingue. But they worry my poor Dinky-Dunk. \"Hully Gee,\" he said yesterday, studying himself for the third time in his shaving-glass, \"I'm getting old!\" He laughed when I started to whistle \"Believe me if all those endearing young charms, which I gaze on so fondly to-day,\" but at heart he was really disturbed by the discovery of those few white hairs. I've been telling him that the ladies won't love him any more, and that his cut-up days are over.",
+  "words": [
+    {
+      "word": "whistle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "endearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

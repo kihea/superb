@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-persuasion-023",
+  "pool": "sourced",
+  "text": "Mr Elliot appeared to think that he (Sir Walter) was looking exactly as he had done when they last parted;” but Sir Walter had “not been able to return the compliment entirely, which had embarrassed him. He did not mean to complain, however. Mr Elliot was better to look at than most men, and he had no objection to being seen with him anywhere.” Mr Elliot, and his friends in Marlborough Buildings, were talked of the whole evening. “Colonel Wallis had been so impatient to be introduced to them! and Mr Elliot so anxious that he should!” and there was a Mrs Wallis, at present known only to them by description, as she was in daily expectation of her confinement; but Mr Elliot spoke of her as “a most charming woman, quite worthy of being known in Camden Place,” and as soon as she recovered they were to be acquainted.",
+  "words": [
+    {
+      "word": "expectation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquainted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

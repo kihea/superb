@@ -1,16 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-007",
   "pool": "sourced",
-  "text": "“What do you mean, Mr. Bennet, by talking in this way? You promised me to insist upon her marrying him.” “My dear,” replied her husband, “I have two small favours to request. First, that you will allow me the free use of my understanding on the present occasion; and, secondly, of my room. I shall be glad to have the library to myself as soon as may be.” Not yet, however, in spite of her disappointment in her husband, did Mrs. Bennet give up the point. She talked to Elizabeth again and again; coaxed and threatened her by turns.",
+  "text": "The attention of the younger ones was then no longer to be gained by him. Their eyes were immediately wandering up the street in quest of the officers, and nothing less than a very smart bonnet, indeed, or a really new muslin in a shop window, could recall them. But the attention of every lady was soon caught by a young man, whom they had never seen before, of most gentlemanlike appearance, walking with an officer on the other side of the way. The officer was the very Mr. Denny concerning whose return from London Lydia came to inquire, and he bowed as they passed. All were struck with the stranger’s air, all wondered who he could be; and Kitty and Lydia, determined if possible to find out, led the way across the street, under pretence of wanting something in an opposite shop, and fortunately had just gained the pavement, when the two gentlemen, turning back, had reached the same spot.",
   "words": [
     {
-      "word": "marrying",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spite",
+      "word": "inquire",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

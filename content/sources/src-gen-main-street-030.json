@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-main-street-030",
+  "pool": "sourced",
+  "text": "We've got respect for your dead, but we haven't got any for a blasphemer and a traitor that won't do anything for his country and only bought one Liberty Bond.” Some of the people who had been at the station declared that Miles made some dreadful seditious retort: something about loving German workmen more than American bankers; but others asserted that he couldn't find one word with which to answer the veteran; that he merely sneaked up on the platform of the train. He must have felt guilty, everybody agreed, for as the train left town, a farmer saw him standing in the vestibule and looking out. His house--with the addition which he had built four months ago--was very near the track on which his train passed. When Carol went there, for the last time, she found Olaf's chariot with its red spool wheels standing in the sunny corner beside the stable. She wondered if a quick eye could have noticed it from a train.",
+  "words": [
+    {
+      "word": "traitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreadful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "asserted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "farmer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beside",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Main Street",
+    "author": "Sinclair Lewis",
+    "year": 1920,
+    "source": "Project Gutenberg #543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

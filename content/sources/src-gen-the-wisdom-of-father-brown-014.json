@@ -1,34 +1,10 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-014",
   "pool": "sourced",
-  "text": "“Put down that hose,” he shouted; “put down that hose and go to your--” “I am fearfully clumsy,” replied the reverend gentleman weakly; “do you know, I upset some wine at dinner.” He made a wavering half-turn of apology towards the gardener, with the hose still spouting in his hand. The gardener caught the cold crash of the water full in his face like the crash of a cannon-ball; staggered, slipped and went sprawling with his boots in the air. “How very dreadful!” said Father Brown, looking round in a sort of wonder. “Why, I’ve hit a man!” He stood with his head forward for a moment as if looking or listening; and then set off at a trot towards the tower, still trailing the hose behind him. The tower was quite close, but its outline was curiously dim.",
+  "text": "Now, in my opinion, that machine can’t lie.” “No machine can lie,” said Father Brown; “nor can it tell the truth.” “It did in this case, as I’ll show you,” went on Usher positively. “I sat the man in the ill-fitting clothes in a comfortable chair, and simply wrote words on a blackboard; and the machine simply recorded the variations of his pulse; and I simply observed his manner. The trick is to introduce some word connected with the supposed crime in a list of words connected with something quite different, yet a list in which it occurs quite naturally. Thus I wrote ‘heron’ and ‘eagle’ and ‘owl’, and when I wrote ‘falcon’ he was tremendously agitated; and when I began to make an ‘r’ at the end of the word, that machine just bounded. Who else in this republic has any reason to jump at the name of a newly-arrived Englishman like Falconroy except the man who’s shot him?",
   "words": [
     {
-      "word": "hose",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "apology",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dreadful",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "trailing",
+      "word": "positively",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

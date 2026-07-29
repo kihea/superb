@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-021",
+  "pool": "sourced",
+  "text": "Forth, likewise, from the portal of the old house stepped Phœbe, putting up her small green sunshade, and throwing upward a glance and smile of parting kindness to the faces at the arched window. In her aspect there was a familiar gladness, and a holiness that you could play with, and yet reverence it as much as ever. She was like a prayer, offered up in the homeliest beauty of one’s mother-tongue. Fresh was Phœbe, moreover, and airy and sweet in her apparel; as if nothing that she wore—neither her gown, nor her small straw bonnet, nor her little kerchief, any more than her snowy stockings—had ever been put on before; or, if worn, were all the fresher for it, and with a fragrance as if they had lain among the rosebuds. The girl waved her hand to Hepzibah and Clifford, and went up the street; a religion in herself, warm, simple, true, with a substance that could walk on earth, and a spirit that was capable of heaven.",
+  "words": [
+    {
+      "word": "bonnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

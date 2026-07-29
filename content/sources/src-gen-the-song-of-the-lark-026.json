@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-song-of-the-lark-026",
+  "pool": "sourced",
+  "text": "The hard stratum below was an everlasting floor. The houses stood along in a row, like the buildings in a city block, or like a barracks. In both walls of the canyon the same streak of soft rock had been washed out, and the long horizontal groove had been built up with houses. The dead city had thus two streets, one set in either cliff, facing each other across the ravine, with a river of blue air between them. The canyon twisted and wound like a snake, and these two streets went on for four miles or more, interrupted by the abrupt turnings of the gorge, but beginning again within each turn.",
+  "words": [
+    {
+      "word": "barracks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canyon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "groove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cliff",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ravine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-carmilla-030",
+  "pool": "sourced",
+  "text": "Had I found that you had seen me, I would have thrown myself on your high sense of honor to keep my secret some weeks. As it is, I am satisfied that you did not see me; but if you now suspect, or, on reflection, should suspect, who I am, I commit myself, in like manner, entirely to your honor. My daughter will observe the same secrecy, and I well know that you will, from time to time, remind her, lest she should thoughtlessly disclose it.’ “She whispered a few words to her daughter, kissed her hurriedly twice, and went away, accompanied by the pale gentleman in black, and disappeared in the crowd. “‘In the next room,’ said Millarca, ‘there is a window that looks upon the hall door. I should like to see the last of mamma, and to kiss my hand to her.’ “We assented, of course, and accompanied her to the window.",
+  "words": [
+    {
+      "word": "secrecy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,34 +1,28 @@
 {
   "id": "src-gen-the-old-curiosity-shop-014",
   "pool": "sourced",
-  "text": "Popular rumour concerning the single gentleman and his errand, travelling from mouth to mouth, and waxing stronger in the marvellous as it was bandied about--for your popular rumour, unlike the rolling stone of the proverb, is one which gathers a deal of moss in its wanderings up and down--occasioned his dismounting at the inn-door to be looked upon as an exciting and attractive spectacle, which could scarcely be enough admired; and drew together a large concourse of idlers, who having recently been, as it were, thrown out of employment by the closing of the wax-work and the completion of the nuptial ceremonies, considered his arrival as little else than a special providence, and hailed it with demonstrations of the liveliest joy. Not at all participating in the general sensation, but wearing the depressed and wearied look of one who sought to meditate on his disappointment in silence and privacy, the single gentleman alighted, and handed out Kit’s mother with a gloomy politeness which impressed the lookers-on extremely.",
+  "text": "Displayed on hooks upon the wall in all their terrors, were the cane and ruler; and near them, on a small shelf of its own, the dunce’s cap, made of old newspapers and decorated with glaring wafers of the largest size. But, the great ornaments of the walls were certain moral sentences fairly copied in good round text, and well-worked sums in simple addition and multiplication, evidently achieved by the same hand, which were plentifully pasted all round the room: for the double purpose, as it seemed, of bearing testimony to the excellence of the school, and kindling a worthy emulation in the bosoms of the scholars. ‘Yes,’ said the old schoolmaster, observing that her attention was caught by these latter specimens. ‘That’s beautiful writing, my dear.’ ‘Very, Sir,’ replied the child modestly, ‘is it yours?’ ‘Mine!’ he returned, taking out his spectacles and putting them on, to have a better view of the triumphs so dear to his heart. ‘I couldn’t write like that, now-a-days.",
   "words": [
     {
-      "word": "travelling",
+      "word": "cane",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "marvellous",
+      "word": "shelf",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "proverb",
+      "word": "multiplication",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "spectacle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "disappointment",
+      "word": "testimony",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

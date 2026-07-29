@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-house-of-mirth-017",
   "pool": "sourced",
-  "text": "I’ll be as quiet as a mouse,” Gerty urged affectionately. “No—no; don’t be quiet; talk to me—keep me awake! I don’t sleep at night, and in the afternoon a dreadful drowsiness creeps over me.” “You don’t sleep at night? Since when?” “I don’t know—I can’t remember.” She rose and put the empty cup on the tea-tray. “Another, and stronger, please; if I don’t keep awake now I shall see horrors tonight—perfect horrors!” “But they’ll be worse if you drink too much tea.” “No, no—give it to me; and don’t preach, please,” Lily returned imperiously.",
+  "text": "Mrs. Fisher, to whom they had entrusted the conduct of the affair, had decided that TABLEAUX VIVANTS and expensive music were the two baits most likely to attract the desired prey, and after prolonged negotiations, and the kind of wire-pulling in which she was known to excel, she had induced a dozen fashionable women to exhibit themselves in a series of pictures which, by a farther miracle of persuasion, the distinguished portrait painter, Paul Morpeth, had been prevailed upon to organize. Lily was in her element on such occasions. Under Morpeth’s guidance her vivid plastic sense, hitherto nurtured on no higher food than dress-making and upholstery, found eager expression in the disposal of draperies, the study of attitudes, the shifting of lights and shadows. Her dramatic instinct was roused by the choice of subjects, and the gorgeous reproductions of historic dress stirred an imagination which only visual impressions could reach. But keenest of all was the exhilaration of displaying her own beauty under a new aspect: of showing that her loveliness was no mere fixed quality, but an element shaping all emotions to fresh forms of grace.",
   "words": [
     {
-      "word": "preach",
+      "word": "persuasion",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "distinguished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "painter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "displaying",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

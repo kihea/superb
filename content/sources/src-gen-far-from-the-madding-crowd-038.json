@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-038",
+  "pool": "sourced",
+  "text": "Well, you’ll do as you like about going, of course, sergeant, and as for me, I’ll do as you tell me.” “Now, let me see what the time is,” said Troy, after emptying his glass in one draught as he stood. “Half-past six o’clock. I shall not hurry along the road, and shall be there then before nine.” CONCURRITUR—HORÆ MOMENTO Outside the front of Boldwood’s house a group of men stood in the dark, with their faces towards the door, which occasionally opened and closed for the passage of some guest or servant, when a golden rod of light would stripe the ground for the moment and vanish again, leaving nothing outside but the glowworm shine of the pale lamp amid the evergreens over the door. “He was seen in Casterbridge this afternoon—so the boy said,” one of them remarked in a whisper. “And I for one believe it.",
+  "words": [
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pale",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

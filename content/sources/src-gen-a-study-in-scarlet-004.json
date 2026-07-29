@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-study-in-scarlet-004",
   "pool": "sourced",
-  "text": "My companion was in the best of spirits, and prattled away about Cremona fiddles, and the difference between a Stradivarius and an Amati. As for myself, I was silent, for the dull weather and the melancholy business upon which we were engaged, depressed my spirits. “You don’t seem to give much thought to the matter in hand,” I said at last, interrupting Holmes’ musical disquisition. “No data yet,” he answered. “It is a capital mistake to theorize before you have all the evidence.",
+  "text": "Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City. Nothing could exceed his energy when the working fit was upon him; but now and again a reaction would seize him, and for days on end he would lie upon the sofa in the sitting-room, hardly uttering a word or moving a muscle from morning to night. On these occasions I have noticed such a dreamy, vacant expression in his eyes, that I might have suspected him of being addicted to the use of some narcotic, had not the temperance and cleanliness of his whole life forbidden such a notion. As the weeks went by, my interest in him and my curiosity as to his aims in life, gradually deepened and increased. His very person and appearance were such as to strike the attention of the most casual observer.",
   "words": [
     {
-      "word": "melancholy",
+      "word": "seize",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sofa",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1887,
     "source": "Project Gutenberg #244",
-    "url": "https://www.gutenberg.org/ebooks/244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

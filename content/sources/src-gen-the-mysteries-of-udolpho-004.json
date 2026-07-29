@@ -1,58 +1,22 @@
 {
   "id": "src-gen-the-mysteries-of-udolpho-004",
   "pool": "sourced",
-  "text": "SONNET Now the bat circles on the breeze of eve, That creeps, in shudd’ring fits, along the wave, And trembles ’mid the woods, and through the cave Whose lonely sighs the wanderer deceive; For oft, when melancholy charms his mind, He thinks the Spirit of the rock he hears, Nor listens, but with sweetly-thrilling fears, To the low, mystic murmurs of the wind! Now the bat circles, and the twilight-dew Falls silent round, and, o’er the mountain-cliff, The gleaming wave, and far-discover’d skiff, Spreads the grey veil of soft, harmonious hue. So falls o’er Grief the dew of pity’s tear Dimming her lonely visions of despair. Emily, wandering on, came to St. Aubert’s favourite plane-tree, where so often, at this hour, they had sat beneath the shade together, and with her dear mother so often had conversed on the subject of a future state. How often, too, had her father expressed the comfort he derived from believing, that they should meet in another world!",
+  "text": "St. Aubert, on enquiring the occasion of her sorrow, learned that her husband, who was a shepherd, and lived here in the summer months to watch over the flocks he led to feed upon these mountains, had lost, on the preceding night, his little all. A gang of gipsies, who had for some time infested the neighbourhood, had driven away several of his master’s sheep. “Jacques,” added the shepherd’s wife, “had saved a little money, and had bought a few sheep with it, and now they must go to his master for those that are stolen; and what is worse than all, his master, when he comes to know how it is, will trust him no longer with the care of his flocks, for he is a hard man! and then what is to become of our children!” The innocent countenance of the woman, and the simplicity of her manner in relating her grievance, inclined St. Aubert to believe her story; and Valancourt, convinced that it was true, asked eagerly what was the value of the stolen sheep; on hearing which he turned away with a look of disappointment.",
   "words": [
     {
-      "word": "circles",
+      "word": "shepherd",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "breeze",
+      "word": "preceding",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cave",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sighs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "oft",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twilight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cliff",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "hue",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wandering",
+      "word": "eagerly",
       "signals": [
         "gloss-overlap"
       ]
@@ -63,7 +27,7 @@
     "author": "Ann Radcliffe",
     "year": 1794,
     "source": "Project Gutenberg #3268",
-    "url": "https://www.gutenberg.org/ebooks/3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

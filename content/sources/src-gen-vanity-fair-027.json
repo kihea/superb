@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-vanity-fair-027",
+  "pool": "sourced",
+  "text": "\"I can lend you, Pitt, till then,\" Rawdon answered rather ruefully; and they went in and looked at the restored lodge, where the family arms were just new scraped in stone, and where old Mrs. Lock, for the first time these many long years, had tight doors, sound roofs, and whole windows. Between Hampshire and London Sir Pitt Crawley had done more than repair fences and restore dilapidated lodges on the Queen's Crawley estate. Like a wise man he had set to work to rebuild the injured popularity of his house and stop up the gaps and ruins in which his name had been left by his disreputable and thriftless old predecessor. He was elected for the borough speedily after his father's demise; a magistrate, a member of parliament, a county magnate and representative of an ancient family, he made it his duty to show himself before the Hampshire public, subscribed handsomely to the county charities, called assiduously upon all the county folk, and laid himself out in a word to take that position in Hampshire, and in the Empire afterwards, to which he thought his prodigious talents justly entitled him.",
+  "words": [
+    {
+      "word": "predecessor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "demise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "magistrate",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

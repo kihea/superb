@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-035",
+  "pool": "sourced",
+  "text": "And the immense stack of straw where in the morning there had been nothing, appeared as the faeces of the same buzzing red glutton. From the west sky a wrathful shine—all that wild March could afford in the way of sunset—had burst forth after the cloudy day, flooding the tired and sticky faces of the threshers, and dyeing them with a coppery light, as also the flapping garments of the women, which clung to them like dull flames. A panting ache ran through the rick. The man who fed was weary, and Tess could see that the red nape of his neck was encrusted with dirt and husks. She still stood at her post, her flushed and perspiring face coated with the corndust, and her white bonnet embrowned by it.",
+  "words": [
+    {
+      "word": "shine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ache",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bonnet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

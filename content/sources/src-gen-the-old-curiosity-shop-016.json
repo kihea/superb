@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-old-curiosity-shop-016",
   "pool": "sourced",
-  "text": "The old man sat and listened--with little understanding for the words, but with his eyes fixed upon the child--and if she smiled or brightened with the story, he would say it was a good one, and conceive a fondness for the very book. When, in their evening talk, the bachelor told some tale that pleased her (as his tales were sure to do), the old man would painfully try to store it in his mind; nay, when the bachelor left them, he would sometimes slip out after him, and humbly beg that he would tell him such a part again, that he might learn to win a smile from Nell. But these were rare occasions, happily; for the child yearned to be out of doors, and walking in her solemn garden. Parties, too, would come to see the church; and those who came, speaking to others of the child, sent more; so even at that season of the year they had visitors almost daily.",
+  "text": "All the gentlemen were very pigeon-breasted and very blue about the beards; and all the ladies were miraculous figures; and all the ladies and all the gentlemen were looking intensely nowhere, and staring with extraordinary earnestness at nothing. When Nell had exhausted her first raptures at this glorious sight, Mrs Jarley ordered the room to be cleared of all but herself and the child, and, sitting herself down in an arm-chair in the centre, formally invested Nell with a willow wand, long used by herself for pointing out the characters, and was at great pains to instruct her in her duty. ‘That,’ said Mrs Jarley in her exhibition tone, as Nell touched a figure at the beginning of the platform, ‘is an unfortunate Maid of Honour in the Time of Queen Elizabeth, who died from pricking her finger in consequence of working upon a Sunday. Observe the blood which is trickling from her finger; also the gold-eyed needle of the period, with which she is at work.’ All this, Nell repeated twice or thrice: pointing to the finger and the needle at the right times: and then passed on to the next.",
   "words": [
     {
-      "word": "conceive",
+      "word": "wand",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bachelor",
+      "word": "needle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrice",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

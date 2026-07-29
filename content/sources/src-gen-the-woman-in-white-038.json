@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-woman-in-white-038",
+  "pool": "sourced",
+  "text": "The extraordinary anxiety which he had expressed to remain unenlightened as to the Count’s identity—or, in other words, to be left uncertain enough about facts to justify him to his own conscience in remaining passive—betrayed plainly that the means of exercising the terrible justice of the Brotherhood were ready to his hand, although, as a naturally humane man, he had shrunk from plainly saying as much in my presence. The deadly certainty with which the vengeance of foreign political societies can hunt down a traitor to the cause, hide himself where he may, had been too often exemplified, even in my superficial experience, to allow of any doubt. Considering the subject only as a reader of newspapers, cases recurred to my memory, both in London and in Paris, of foreigners found stabbed in the streets, whose assassins could never be traced—of bodies and parts of bodies thrown into the Thames and the Seine, by hands that could never be discovered—of deaths by secret violence which could only be accounted for in one way.",
+  "words": [
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "traitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

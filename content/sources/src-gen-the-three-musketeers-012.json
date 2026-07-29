@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-three-musketeers-012",
   "pool": "sourced",
-  "text": "Hardly was he concealed when the little bell sounded. Kitty went to her mistress, and did not leave the door open; but the partition was so thin that one could hear nearly all that passed between the two women. Milady seemed overcome with joy, and made Kitty repeat the smallest details of the pretended interview of the soubrette with De Wardes when he received the letter; how he had responded; what was the expression of his face; if he seemed very amorous. And to all these questions poor Kitty, forced to put on a pleasant face, responded in a stifled voice whose dolorous accent her mistress did not however remark, solely because happiness is egotistical. Finally, as the hour for her interview with the count approached, Milady had everything about her darkened, and ordered Kitty to return to her own chamber, and introduce De Wardes whenever he presented himself.",
+  "text": "And, morbleu, why do you not go yourself? For in truth, I think I have hitherto been deceived in you. I really believe you are a man, and a violent one, too.” “And you, you are a woman—a miserable woman, stupid and brutal. You are afraid, are you? Well, if you do not go this very instant, I will have you arrested by the queen’s orders, and I will have you placed in the Bastille which you dread so much.” Bonacieux fell into a profound reflection.",
   "words": [
     {
-      "word": "mistress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "partition",
+      "word": "brutal",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

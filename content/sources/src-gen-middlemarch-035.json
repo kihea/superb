@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-middlemarch-035",
+  "pool": "sourced",
+  "text": "“This is sudden, Mr. Garth,” was all he could say at first. “It is,” said Caleb; “but it is quite fixed. I must give it up.” He spoke with a firmness which was very gentle, and yet he could see that Bulstrode seemed to cower under that gentleness, his face looking dried and his eyes swerving away from the glance which rested on him. Caleb felt a deep pity for him, but he could have used no pretexts to account for his resolve, even if they would have been of any use. “You have been led to this, I apprehend, by some slanders concerning me uttered by that unhappy creature,” said Bulstrode, anxious now to know the utmost.",
+  "words": [
+    {
+      "word": "dried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

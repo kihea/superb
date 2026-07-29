@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-038",
+  "pool": "sourced",
+  "text": "Will he succeed at last? Will that stubborn door be suddenly flung open? Will a group of joyous children, the young ones of the house, come dancing, shouting, laughing, into the open air, and cluster round the show-box, looking with eager merriment at the puppets, and tossing each a copper for long-tailed Mammon, the monkey, to pick up? But to us, who know the inner heart of the Seven Gables as well as its exterior face, there is a ghastly effect in this repetition of light popular tunes at its door-step. It would be an ugly business, indeed, if Judge Pyncheon (who would not have cared a fig for Paganini’s fiddle in his most harmonious mood) should make his appearance at the door, with a bloody shirt-bosom, and a grim frown on his swarthily white visage, and motion the foreign vagabond away!",
+  "words": [
+    {
+      "word": "cluster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tossing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

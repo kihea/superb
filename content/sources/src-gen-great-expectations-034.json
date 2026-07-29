@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-034",
+  "pool": "sourced",
+  "text": "“My name is on the first leaf. If you can ever write under my name, “I forgive her,” though ever so long after my broken heart is dust pray do it!” “O Miss Havisham,” said I, “I can do it now. There have been sore mistakes; and my life has been a blind and thankless one; and I want forgiveness and direction far too much, to be bitter with you.” She turned her face to me for the first time since she had averted it, and, to my amazement, I may even add to my terror, dropped on her knees at my feet; with her folded hands raised to me in the manner in which, when her poor heart was young and fresh and whole, they must often have been raised to heaven from her mother’s side. To see her with her white hair and her worn face kneeling at my feet gave me a shock through all my frame. I entreated her to rise, and got my arms about her to help her up; but she only pressed that hand of mine which was nearest to her grasp, and hung her head over it and wept.",
+  "words": [
+    {
+      "word": "grasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

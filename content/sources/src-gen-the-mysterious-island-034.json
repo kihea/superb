@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-034",
+  "pool": "sourced",
+  "text": "The fever was not as yet very high, but it soon appeared that it would probably recur at regular intervals. Gideon Spilett first recognized this on the 6th of December. The poor boy, whose fingers, nose, and ears had become extremely pale, was at first seized with slight shiverings, horripilations, and tremblings. His pulse was weak and irregular, his skin dry, his thirst intense. To this soon succeeded a hot fit; his face became flushed; his skin reddened; his pulse quick; then a profuse perspiration broke out after which the fever seemed to diminish.",
+  "words": [
+    {
+      "word": "pulse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flushed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

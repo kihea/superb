@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-027",
+  "pool": "sourced",
+  "text": "Occasionally, the smoke came rolling down the chimney as though it could not bear to go out into such a night; and when I set the doors open and looked down the staircase, the staircase lamps were blown out; and when I shaded my face with my hands and looked through the black windows (opening them ever so little was out of the question in the teeth of such wind and rain), I saw that the lamps in the court were blown out, and that the lamps on the bridges and the shore were shuddering, and that the coal-fires in barges on the river were being carried away before the wind like red-hot splashes in the rain. I read with my watch upon the table, purposing to close my book at eleven o’clock. As I shut it, Saint Paul’s, and all the many church-clocks in the City—some leading, some accompanying, some following—struck that hour. The sound was curiously flawed by the wind; and I was listening, and thinking how the wind assailed and tore it, when I heard a footstep on the stair.",
+  "words": [
+    {
+      "word": "stair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

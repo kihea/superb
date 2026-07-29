@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-006",
   "pool": "sourced",
-  "text": "The early sunshine—as fresh as that which peeped into Eve’s bower while she and Adam sat at breakfast there—came twinkling through the branches of the pear-tree, and fell quite across the table. All was now ready. There were chairs and plates for three. A chair and plate for Hepzibah,—the same for Phœbe,—but what other guest did her cousin look for? Throughout this preparation there had been a constant tremor in Hepzibah’s frame; an agitation so powerful that Phœbe could see the quivering of her gaunt shadow, as thrown by the firelight on the kitchen wall, or by the sunshine on the parlor floor.",
+  "text": "In his younger days—for, after all, there was a dim tradition that he had been, not young, but younger—Uncle Venner was commonly regarded as rather deficient, than otherwise, in his wits. In truth he had virtually pleaded guilty to the charge, by scarcely aiming at such success as other men seek, and by taking only that humble and modest part in the intercourse of life which belongs to the alleged deficiency. But now, in his extreme old age,—whether it were that his long and hard experience had actually brightened him, or that his decaying judgment rendered him less capable of fairly measuring himself,—the venerable man made pretensions to no little wisdom, and really enjoyed the credit of it. There was likewise, at times, a vein of something like poetry in him; it was the moss or wall-flower of his mind in its small dilapidation, and gave a charm to what might have been vulgar and commonplace in his earlier and middle life. Hepzibah had a regard for him, because his name was ancient in the town and had formerly been respectable.",
   "words": [
     {
-      "word": "branches",
+      "word": "deficient",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pear",
+      "word": "modest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "venerable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moss",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

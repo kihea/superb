@@ -1,16 +1,34 @@
 {
   "id": "src-gen-peter-pan-017",
   "pool": "sourced",
-  "text": "What arrested him was this reflection: “To claw a man because he is good form, what would that be?” “Bad form!” The unhappy Hook was as impotent as he was damp, and he fell forward like a cut flower. His dogs thinking him out of the way for a time, discipline instantly relaxed; and they broke into a bacchanalian dance, which brought him to his feet at once, all traces of human weakness gone, as if a bucket of water had passed over him. “Quiet, you scugs,” he cried, “or I’ll cast anchor in you;” and at once the din was hushed. “Are all the children chained, so that they cannot fly away?” “Ay, ay.” “Then hoist them up.” The wretched prisoners were dragged from the hold, all except Wendy, and ranged in line in front of him. For a time he seemed unconscious of their presence.",
+  "text": "The couch, as she always called it, was a genuine Queen Mab, with club legs; and she varied the bedspreads according to what fruit-blossom was in season. Her mirror was a Puss-in-Boots, of which there are now only three, unchipped, known to fairy dealers; the washstand was Pie-crust and reversible, the chest of drawers an authentic Charming the Sixth, and the carpet and rugs the best (the early) period of Margery and Robin. There was a chandelier from Tiddlywinks for the look of the thing, but of course she lit the residence herself. Tink was very contemptuous of the rest of the house, as indeed was perhaps inevitable, and her chamber, though beautiful, looked rather conceited, having the appearance of a nose permanently turned up. I suppose it was all especially entrancing to Wendy, because those rampagious boys of hers gave her so much to do.",
   "words": [
     {
-      "word": "din",
+      "word": "blossom",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ranged",
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reversible",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "drawers",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "authentic",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

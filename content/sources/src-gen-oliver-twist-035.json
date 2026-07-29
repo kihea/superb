@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-035",
+  "pool": "sourced",
+  "text": "Mortification at the overthrow of his notable scheme; hatred of the girl who had dared to palter with strangers; and utter distrust of the sincerity of her refusal to yield him up; bitter disappointment at the loss of his revenge on Sikes; the fear of detection, and ruin, and death; and a fierce and deadly rage kindled by all; these were the passionate considerations which, following close upon each other with rapid and ceaseless whirl, shot through the brain of Fagin, as every evil thought and blackest purpose lay working at his heart. He sat without changing his attitude in the least, or appearing to take the smallest heed of time, until his quick ear seemed to be attracted by a footstep in the street. “At last,” he muttered, wiping his dry and fevered mouth. “At last!” The bell rang gently as he spoke. He crept upstairs to the door, and presently returned accompanied by a man muffled to the chin, who carried a bundle under one arm.",
+  "words": [
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deadly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

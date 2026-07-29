@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-014",
   "pool": "sourced",
-  "text": "The darkness was thick around them, the silence heavy and terrible. Then the Persian began to make play with the dark lantern again, turning the rays over their heads, looking for the hole through which they had come, and failing to find it: \"Oh!\" \"The stone has closed of itself!\" And the light of the lantern swept down the wall and over the floor. The Persian stooped and picked up something, a sort of cord, which he examined for a second and flung away with horror.",
+  "text": "Then Christine, whom he recognized by the sound of her voice, closed the door behind them and warned him, in a whisper, to remain at the back of the box and on no account to show himself. Raoul took off his mask. Christine kept hers on. And, when Raoul was about to ask her to remove it, he was surprised to see her put her ear to the partition and listen eagerly for a sound outside. Then she opened the door ajar, looked out into the corridor and, in a low voice, said: \"He must have gone up higher.\"",
   "words": [
     {
-      "word": "lantern",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rays",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "examined",
+      "word": "whisper",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

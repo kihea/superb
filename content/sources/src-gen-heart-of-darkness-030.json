@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-heart-of-darkness-030",
+  "pool": "sourced",
+  "text": "‘It isn’t what you think,’ he cried, almost passionately. ‘It was in general. He made me see things—things.’ “He threw his arms up. We were on deck at the time, and the headman of my wood-cutters, lounging near by, turned upon him his heavy and glittering eyes. I looked around, and I don’t know why, but I assure you that never, never before, did this land, this river, this jungle, the very arch of this blazing sky, appear to me so hopeless and so dark, so impenetrable to human thought, so pitiless to human weakness.",
+  "words": [
+    {
+      "word": "jungle",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

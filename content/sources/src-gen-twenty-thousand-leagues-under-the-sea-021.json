@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-021",
+  "pool": "sourced",
+  "text": "Soon the Nautilus returned to her native element, and the manometer showed that she was about thirty feet deep. “Well, sir,” said Captain Nemo, “you and your companions shall visit the Bank of Manaar, and if by chance some fisherman should be there, we shall see him at work.” “Agreed, Captain!” “By the bye, M. Aronnax you are not afraid of sharks?” “Sharks!” exclaimed I. This question seemed a very hard one. “Well?” continued Captain Nemo. “I admit, Captain, that I am not yet very familiar with that kind of fish.” “We are accustomed to them,” replied Captain Nemo, “and in time you will be too.",
+  "words": [
+    {
+      "word": "accustomed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

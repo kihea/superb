@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-call-of-the-wild-014",
   "pool": "sourced",
-  "text": "“No, it is splendid, and it is terrible, too. Do you know, it sometimes makes me afraid.” “I’m not hankering to be the man that lays hands on you while he’s around,” Pete announced conclusively, nodding his head toward Buck. “Py Jingo!” was Hans’s contribution. “Not mineself either.” It was at Circle City, ere the year was out, that Pete’s apprehensions were realized. “Black” Burton, a man evil-tempered and malicious, had been picking a quarrel with a tenderfoot at the bar, when Thornton stepped good-naturedly between.",
+  "text": "François swore strange barbarous oaths, and stamped the snow in futile rage, and tore his hair. His lash was always singing among the dogs, but it was of small avail. Directly his back was turned they were at it again. He backed up Spitz with his whip, while Buck backed up the remainder of the team. François knew he was behind all the trouble, and Buck knew he knew; but Buck was too clever ever again to be caught red-handed.",
   "words": [
     {
-      "word": "nodding",
+      "word": "lash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1903,
     "source": "Project Gutenberg #215",
-    "url": "https://www.gutenberg.org/ebooks/215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

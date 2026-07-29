@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-004",
   "pool": "sourced",
-  "text": "A dispatch from California describes a theosophist colony as donning white robes en masse for some \"glorious fulfilment\" which never arrives, whilst items from India speak guardedly of serious native unrest toward the end of March. Voodoo orgies multiply in Haiti, and African outposts report ominous mutterings. American officers in the Philippines find certain tribes bothersome about this time, and New York policemen are mobbed by hysterical Levantines on the night of March 22-23. The west of Ireland, too, is full of wild rumor and legendry, and a fantastic painter named Ardois-Bonnot hangs a blasphemous Dream Landscape in the Paris spring salon of 1926. And so numerous are the recorded troubles in insane asylums that only a miracle can have stopped the medical fraternity from noting strange parallelisms and drawing mystified conclusions.",
+  "text": "Pronounced well by his physician, he returned to his quarters in three days; but to Professor Angell he was of no further assistance. All traces of strange dreaming had vanished with his recovery, and my uncle kept no record of his night-thoughts after a week of pointless and irrelevant accounts of thoroughly usual visions. * * * * * Here the first part of the manuscript ended, but references to certain of the scattered notes gave me much material for thought--so much, in fact, that only the ingrained skepticism then forming my philosophy can account for my continued distrust of the artist. The notes in question were those descriptive of the dreams of various persons covering the same period as that in which young Wilcox had had his strange visitations. My uncle, it seems, had quickly instituted a prodigiously far-flung body of inquiries amongst nearly all the friends whom he could question without impertinence, asking for nightly reports of their dreams, and the dates of any notable visions for some time past.",
   "words": [
     {
-      "word": "arrives",
+      "word": "skepticism",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "unrest",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "voodoo",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "conclusions",
+      "word": "nightly",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

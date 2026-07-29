@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-treasure-island-032",
+  "pool": "sourced",
+  "text": "I stopped, with much wonder in my heart, and perhaps a little terror also. It had not been our way to build great fires; we were, indeed, by the captain’s orders, somewhat niggardly of firewood, and I began to fear that something had gone wrong while I was absent. I stole round by the eastern end, keeping close in shadow, and at a convenient place, where the darkness was thickest, crossed the palisade. To make assurance surer, I got upon my hands and knees and crawled, without a sound, towards the corner of the house. As I drew nearer, my heart was suddenly and greatly lightened.",
+  "words": [
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

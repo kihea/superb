@@ -1,10 +1,34 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-018",
   "pool": "sourced",
-  "text": "“If ever there was a woman who made small claims--!” “You put your finger on it,” Ralph interrupted. “Her modesty’s exaggerated. She has no business with small claims--she has a perfect right to make large ones.” “Her merits are large then. You contradict yourself.” “Her merits are immense,” said Ralph. “She’s indescribably blameless; a pathless desert of virtue; the only woman I know who never gives one a chance.” “A chance for what?” “Well, say to call her a fool!",
+  "text": "Isabel, who was nervous and had no relish for the prospect of again arguing the question he had so prematurely opened, could not help admiring his good-humoured self-possession, which quite disguised the symptoms of that preoccupation with her presence it was natural she should suppose him to feel. He neither looked at her nor spoke to her, and the only sign of his emotion was that he avoided meeting her eyes. He had plenty of talk for the others, however, and he appeared to eat his luncheon with discrimination and appetite. Miss Molyneux, who had a smooth, nun-like forehead and wore a large silver cross suspended from her neck, was evidently preoccupied with Henrietta Stackpole, upon whom her eyes constantly rested in a manner suggesting a conflict between deep alienation and yearning wonder. Of the two ladies from Lockleigh she was the one Isabel had liked best; there was such a world of hereditary quiet in her.",
   "words": [
     {
-      "word": "immense",
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prematurely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disguised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "appetite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

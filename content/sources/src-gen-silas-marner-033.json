@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-silas-marner-033",
+  "pool": "sourced",
+  "text": "Anyhow, I shouldn’t like you to do it, for it ’ud be too hard work for you.” “Yes, I could do it, child, if you want a bit o’ garden: these long evenings, I could work at taking in a little bit o’ the waste, just enough for a root or two o’ flowers for you; and again, i’ the morning, I could have a turn wi’ the spade before I sat down to the loom. Why didn’t you tell me before as you wanted a bit o’ garden?” “I can dig it for you, Master Marner,” said the young man in fustian, who was now by Eppie’s side, entering into the conversation without the trouble of formalities. “It’ll be play to me after I’ve done my day’s work, or any odd bits o’ time when the work’s slack. And I’ll bring you some soil from Mr. Cass’s garden—he’ll let me, and willing.” “Eh, Aaron, my lad, are you there?” said Silas; “I wasn’t aware of you; for when Eppie’s talking o’ things, I see nothing but what she’s a-saying.",
+  "words": [
+    {
+      "word": "spade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

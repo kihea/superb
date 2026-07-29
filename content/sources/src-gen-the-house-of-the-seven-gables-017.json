@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-017",
   "pool": "sourced",
-  "text": "“These rapping spirits, that little Phœbe told us of, the other day,” said Clifford,—“what are these but the messengers of the spiritual world, knocking at the door of substance? And it shall be flung wide open!” “A humbug, again!” cried the old gentleman, growing more and more testy at these glimpses of Clifford’s metaphysics. “I should like to rap with a good stick on the empty pates of the dolts who circulate such nonsense!” “Then there is electricity,—the demon, the angel, the mighty physical power, the all-pervading intelligence!” exclaimed Clifford. “Is that a humbug, too? Is it a fact—or have I dreamt it—that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?",
+  "text": "Nor was it necessary. The fire upon the hearth can gladden a whole semicircle of faces round about it, but need not know the individuality of one among them all. Indeed, there was something too fine and delicate in Clifford’s traits to be perfectly appreciated by one whose sphere lay so much in the Actual as Phœbe’s did. For Clifford, however, the reality, and simplicity, and thorough homeliness of the girl’s nature were as powerful a charm as any that she possessed. Beauty, it is true, and beauty almost perfect in its own style, was indispensable.",
   "words": [
     {
-      "word": "knocking",
+      "word": "individuality",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "demon",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "mighty",
+      "word": "indispensable",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-war-and-peace-009",
   "pool": "sourced",
-  "text": "On the fifteenth, when young Rostóv, in his dressing gown, looked out of the window, he saw it was an unsurpassable morning for hunting: it was as if the sky were melting and sinking to the earth without any wind. The only motion in the air was that of the dripping, microscopic particles of drizzling mist. The bare twigs in the garden were hung with transparent drops which fell on the freshly fallen leaves. The earth in the kitchen garden looked wet and black and glistened like poppy seed and at a short distance merged into the dull, moist veil of mist. Nicholas went out into the wet and muddy porch.",
+  "text": "The Emperor!” was suddenly heard among the hussars. All began to run and bustle, and Rostóv saw coming up the road behind him several riders with white plumes in their hats. In a moment everyone was in his place, waiting. Rostóv did not know or remember how he ran to his place and mounted. Instantly his regret at not having been in action and his dejected mood amid people of whom he was weary had gone, instantly every thought of himself had vanished.",
   "words": [
     {
-      "word": "moist",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "veil",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "muddy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "porch",
+      "word": "vanished",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

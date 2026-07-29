@@ -1,10 +1,16 @@
 {
   "id": "src-gen-silas-marner-004",
   "pool": "sourced",
-  "text": "So, don’t flatter yourself that your secrecy’s worth any price you choose to ask. You drain me of money till I have got nothing to pacify her with, and she’ll do as she threatens some day. It’s all one. I’ll tell my father everything myself, and you may go to the devil.” Dunsey perceived that he had overshot his mark, and that there was a point at which even the hesitating Godfrey might be driven into decision. But he said, with an air of unconcern— “As you please; but I’ll have a draught of ale first.” And ringing the bell, he threw himself across two chairs, and began to rap the window-seat with the handle of his whip.",
+  "text": "William said meekly, “I leave our brethren to judge whether this is the voice of Satan or not. I can do nothing but pray for you, Silas.” Poor Marner went out with that despair in his soul—that shaken trust in God and man, which is little short of madness to a loving nature. In the bitterness of his wounded spirit, he said to himself, “She will cast me off too.” And he reflected that, if she did not believe the testimony against him, her whole faith must be upset as his was. To people accustomed to reason about the forms in which their religious feeling has incorporated itself, it is difficult to enter into that simple, untaught state of mind in which the form and the feeling have never been severed by an act of reflection.",
   "words": [
     {
-      "word": "chairs",
+      "word": "madness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflection",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

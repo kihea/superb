@@ -1,22 +1,40 @@
 {
   "id": "src-gen-the-mill-on-the-floss-011",
   "pool": "sourced",
-  "text": "As for uncle Glegg, the thing lay quite beyond his imagination; the good-natured man felt sincere pity for the Tulliver family, but his money was all locked up in excellent mortgages, and he could run no risk; that would be unfair to his own relatives; but he had made up his mind that Tulliver should have some new flannel waistcoats which he had himself renounced in favour of a more elastic commodity, and that he would buy Mrs Tulliver a pound of tea now and then; it would be a journey which his benevolence delighted in beforehand, to carry the tea and see her pleasure on being assured it was the best black. Still, it was clear that Mr Deane was kindly disposed toward the Tullivers. One day he had brought Lucy, who was come home for the Christmas holidays, and the little blond angel-head had pressed itself against Maggie’s darker cheek with many kisses and some tears.",
+  "text": "And his second subject of meditation was the “contrairiness” of the female mind, as typically exhibited in Mrs Glegg. That a creature made—in a genealogical sense—out of a man’s rib, and in this particular case maintained in the highest respectability without any trouble of her own, should be normally in a state of contradiction to the blandest propositions and even to the most accommodating concessions, was a mystery in the scheme of things to which he had often in vain sought a clew in the early chapters of Genesis. Mr Glegg had chosen the eldest Miss Dodson as a handsome embodiment of female prudence and thrift, and being himself of a money-getting, money-keeping turn, had calculated on much conjugal harmony. But in that curious compound, the feminine character, it may easily happen that the flavour is unpleasant in spite of excellent ingredients; and a fine systematic stinginess may be accompanied with a seasoning that quite spoils its relish. Now, good Mr Glegg himself was stingy in the most amiable manner; his neighbours called him “near,” which always means that the person in question is a lovable skinflint.",
   "words": [
     {
-      "word": "sincere",
+      "word": "thrift",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "commodity",
+      "word": "compound",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "feminine",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "delighted",
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seasoning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "relish",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +45,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

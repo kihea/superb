@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-sense-and-sensibility-032",
+  "pool": "sourced",
+  "text": "\"We think now,\"--said Mr. Dashwood, after a short pause, \"of Robert's marrying Miss Morton.\" Elinor, smiling at the grave and decisive importance of her brother's tone, calmly replied-- \"The lady, I suppose, has no choice in the affair.\" \"Choice!--how do you mean?\" \"I only mean that I suppose, from your manner of speaking, it must be the same to Miss Morton whether she marry Edward or Robert.\" \"Certainly, there can be no difference; for Robert will now to all intents and purposes be considered as the eldest son;--and as to any thing else, they are both very agreeable young men: I do not know that one is superior to the other.\"",
+  "words": [
+    {
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "calmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

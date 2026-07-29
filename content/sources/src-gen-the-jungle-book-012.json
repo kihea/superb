@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-jungle-book-012",
   "pool": "sourced",
-  "text": "But next spring, when they all met off the fishing banks of the Pacific, Kotick’s seals told such tales of the new beaches beyond Sea Cow’s tunnel that more and more seals left Novastoshnah. Of course it was not all done at once, for the seals are not very clever, and they need a long time to turn things over in their minds, but year after year more seals went away from Novastoshnah, and Lukannon, and the other nurseries, to the quiet, sheltered beaches where Kotick sits all the summer through, getting bigger and fatter and stronger each year, while the holluschickie play around him, in that sea where no man comes. Lukannon This is the great deep-sea song that all the St. Paul seals sing when they are heading back to their beaches in the summer. It is a sort of very sad seal National Anthem. I met my mates in the morning (and, oh, but I am old!)",
+  "text": "So he hurried on, keeping to the rough road that ran down the valley, and followed it at a steady jog-trot for nearly twenty miles, till he came to a country that he did not know. The valley opened out into a great plain dotted over with rocks and cut up by ravines. At one end stood a little village, and at the other the thick jungle came down in a sweep to the grazing-grounds, and stopped there as though it had been cut off with a hoe. All over the plain, cattle and buffaloes were grazing, and when the little boys in charge of the herds saw Mowgli they shouted and ran away, and the yellow pariah dogs that hang about every Indian village barked. Mowgli walked on, for he was feeling hungry, and when he came to the village gate he saw the big thorn-bush that was drawn up before the gate at twilight, pushed to one side.",
   "words": [
     {
-      "word": "seals",
+      "word": "jog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jungle",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-king-in-yellow-015",
   "pool": "sourced",
-  "text": "“Quick!” whispered Braith. “Jump!” and West hung dangling until Colette grasped him by the collar, and he was dragged out. Then her nerves gave way and she wept hysterically, but West threw his arm around her and led her across the gardens into the next street, where Braith, after replacing the man-hole cover and piling some stone slabs from the wall over it, rejoined them. It was almost dark. They hurried through the street, now only lighted by burning buildings, or the swift glare of the shells.",
+  "text": "A great bird hung quivering in the air above my face. For an instant I stared, incapable of motion; then something leaped past me in the ferns and the bird rose, wheeled, and pitched headlong into the brake. I was on my feet in an instant peering through the gorse. There came the sound of a struggle from a bunch of heather close by, and then all was quiet. I stepped forward, my gun poised, but when I came to the heather the gun fell under my arm again, and I stood motionless in silent astonishment.",
   "words": [
     {
-      "word": "swift",
+      "word": "incapable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brake",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

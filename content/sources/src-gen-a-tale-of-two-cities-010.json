@@ -1,20 +1,8 @@
 {
   "id": "src-gen-a-tale-of-two-cities-010",
   "pool": "sourced",
-  "text": "Saving for a mysterious dread of madame by which he was constantly haunted, his life was very new and agreeable. But, madame sat all day at her counter, so expressly unconscious of him, and so particularly determined not to perceive that his being there had any connection with anything below the surface, that he shook in his wooden shoes whenever his eye lighted on her. For, he contended with himself that it was impossible to foresee what that lady might pretend next; and he felt assured that if she should take it into her brightly ornamented head to pretend that she had seen him do a murder and afterwards flay the victim, she would infallibly go through with it until the play was played out. Therefore, when Sunday came, the mender of roads was not enchanted (though he said he was) to find that madame was to accompany monsieur and himself to Versailles.",
+  "text": "Have you got it?” “Yes, sir.” Hastily written on the paper was the word “ACQUITTED.” “If you had sent the message, ‘Recalled to Life,’ again,” muttered Jerry, as he turned, “I should have known what you meant, this time.” He had no opportunity of saying, or so much as thinking, anything else, until he was clear of the Old Bailey; for, the crowd came pouring out with a vehemence that nearly took him off his legs, and a loud buzz swept into the street as if the baffled blue-flies were dispersing in search of other carrion. Congratulatory From the dimly-lighted passages of the court, the last sediment of the human stew that had been boiling there all day, was straining off, when Doctor Manette, Lucie Manette, his daughter, Mr. Lorry, the solicitor for the defence, and its counsel, Mr. Stryver, stood gathered round Mr. Charles Darnay--just released--congratulating him on his escape from death. It would have been difficult by a far brighter light, to recognise in Doctor Manette, intellectual of face and upright of bearing, the shoemaker of the garret in Paris.",
   "words": [
-    {
-      "word": "madame",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "unconscious",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
     {
       "word": "lighted",
       "signals": [
@@ -22,7 +10,7 @@
       ]
     },
     {
-      "word": "foresee",
+      "word": "stew",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,28 @@
 {
   "id": "src-gen-through-the-looking-glass-015",
   "pool": "sourced",
-  "text": "“The Monster has given the Lion twice as much as me!” “She’s kept none for herself, anyhow,” said the Lion. “Do you like plum-cake, Monster?” But before Alice could answer him, the drums began. Where the noise came from, she couldn’t make out: the air seemed full of it, and it rang through and through her head till she felt quite deafened. She started to her feet and sprang across the little brook in her terror, * * * * * * * * * * * * * * * * * * * * and had just time to see the Lion and the Unicorn rise to their feet, with angry looks at being interrupted in their feast, before she dropped to her knees, and put her hands over her ears, vainly trying to shut out the dreadful uproar. “If that doesn’t ‘drum them out of town,’” she thought to herself, “nothing ever will!” “It’s my own Invention” After a while the noise seemed gradually to die away, till all was dead silence, and Alice lifted up her head in some alarm.",
+  "text": "Wax-works weren’t made to be looked at for nothing, nohow!” “Contrariwise,” added the one marked “DEE,” “if you think we’re alive, you ought to speak.” “I’m sure I’m very sorry,” was all Alice could say; for the words of the old song kept ringing through her head like the ticking of a clock, and she could hardly help saying them out loud:— “Tweedledum and Tweedledee Agreed to have a battle; For Tweedledum said Tweedledee Had spoiled his nice new rattle. Just then flew down a monstrous crow, As black as a tar-barrel; Which frightened both the heroes so, They quite forgot their quarrel.” “I know what you’re thinking about,” said Tweedledum: “but it isn’t so, nohow.” “Contrariwise,” continued Tweedledee, “if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.” “I was thinking,” Alice said very politely, “which is the best way out of this wood: it’s getting so dark. Would you tell me, please?” But the little men only looked at each other and grinned.",
   "words": [
     {
-      "word": "brook",
+      "word": "crow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dreadful",
+      "word": "tar",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lifted",
+      "word": "barrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

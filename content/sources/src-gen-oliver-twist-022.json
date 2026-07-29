@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-oliver-twist-022",
+  "pool": "sourced",
+  "text": "INVOLVES A CRITICAL POSITION “Who’s that?” inquired Brittles, opening the door a little way, with the chain up, and peeping out, shading the candle with his hand. “Open the door,” replied a man outside; “it’s the officers from Bow Street, as was sent to today.” Much comforted by this assurance, Brittles opened the door to its full width, and confronted a portly man in a great-coat; who walked in, without saying anything more, and wiped his shoes on the mat, as coolly as if he lived there. “Just send somebody out to relieve my mate, will you, young man?” said the officer; “he’s in the gig, a-minding the prad. Have you got a coach ’us here, that you could put it up in, for five or ten minutes?” Brittles replying in the affirmative, and pointing out the building, the portly man stepped back to the garden-gate, and helped his companion to put up the gig: while Brittles lighted them, in a state of great admiration. This done, they returned to the house, and, being shown into a parlour, took off their great-coats and hats, and showed like what they were.",
+  "words": [
+    {
+      "word": "assurance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "width",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

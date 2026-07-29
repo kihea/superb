@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-song-of-the-lark-018",
   "pool": "sourced",
-  "text": "“Let me look at you. Yes; hands, feet, head, shoulders—just the same. You’ve grown no older. You can’t say as much for me, can you?” She was standing in the middle of the room, in a white silk shirtwaist and a short black velvet skirt, which somehow suggested that they had ‘cut off her petticoats all round about.’ She looked distinctly clipped and plucked. Her hair was parted in the middle and done very close to her head, as she had worn it under the wig.",
+  "text": "When Thea emerged from the concert hall, Mrs. Lorch’s predictions had been fulfilled. A furious gale was beating over the city from Lake Michigan. The streets were full of cold, hurrying, angry people, running for street-cars and barking at each other. The sun was setting in a clear, windy sky, that flamed with red as if there were a great fire somewhere on the edge of the city. For almost the first time Thea was conscious of the city itself, of the congestion of life all about her, of the brutality and power of those streams that flowed in the streets, threatening to drive one under.",
   "words": [
     {
-      "word": "velvet",
+      "word": "furious",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "skirt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wig",
+      "word": "congestion",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

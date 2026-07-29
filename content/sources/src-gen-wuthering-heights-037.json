@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-wuthering-heights-037",
+  "pool": "sourced",
+  "text": "How far is it from this?” “Happen fourteen mile o’er th’ hills; and a rough road,” he answered. A sudden impulse seized me to visit Thrushcross Grange. It was scarcely noon, and I conceived that I might as well pass the night under my own roof as in an inn. Besides, I could spare a day easily to arrange matters with my landlord, and thus save myself the trouble of invading the neighbourhood again. Having rested awhile, I directed my servant to inquire the way to the village; and, with great fatigue to our beasts, we managed the distance in some three hours.",
+  "words": [
+    {
+      "word": "impulse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

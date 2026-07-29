@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-carmilla-028",
+  "pool": "sourced",
+  "text": "The knowledge she showed of many passages in my life seemed to me all but unaccountable; and she appeared to take a not unnatural pleasure in foiling my curiosity, and in seeing me flounder in my eager perplexity, from one conjecture to another. “In the meantime the young lady, whom her mother called by the odd name of Millarca, when she once or twice addressed her, had, with the same ease and grace, got into conversation with my ward. “She introduced herself by saying that her mother was a very old acquaintance of mine. She spoke of the agreeable audacity which a mask rendered practicable; she talked like a friend; she admired her dress, and insinuated very prettily her admiration of her beauty. She amused her with laughing criticisms upon the people who crowded the ballroom, and laughed at my poor child’s fun.",
+  "words": [
+    {
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

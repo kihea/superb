@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-thirty-nine-steps-013",
   "pool": "sourced",
-  "text": "I got a detonator, and fixed it to a couple of feet of fuse. Then I took a quarter of a lentonite brick, and buried it near the door below one of the sacks in a crack of the floor, fixing the detonator in it. For all I knew half those boxes might be dynamite. If the cupboard held such deadly explosives, why not the boxes? In that case there would be a glorious skyward journey for me and the German servants and about an acre of surrounding country.",
+  "text": "Well, you see I’m Liberal Candidate for this part of the world, and I had a meeting on tonight at Brattleburn—that’s my chief town, and an infernal Tory stronghold. I had got the Colonial ex-Premier fellow, Crumpleton, coming to speak for me tonight, and had the thing tremendously billed and the whole place ground-baited. This afternoon I had a wire from the ruffian saying he had got influenza at Blackpool, and here am I left to do the whole thing myself. I had meant to speak for ten minutes and must now go on for forty, and, though I’ve been racking my brains for three hours to think of something, I simply cannot last the course. Now you’ve got to be a good chap and help me.",
   "words": [
     {
-      "word": "dynamite",
+      "word": "stronghold",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "servants",
+      "word": "influenza",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chap",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

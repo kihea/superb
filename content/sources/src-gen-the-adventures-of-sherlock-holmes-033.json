@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-033",
+  "pool": "sourced",
+  "text": "I fancy that I hear his step now upon the stairs.” It was indeed our visitor of the afternoon who came bustling in, dangling his glasses more vigorously than ever, and with a very perturbed expression upon his aristocratic features. “My messenger reached you, then?” asked Holmes. “Yes, and I confess that the contents startled me beyond measure. Have you good authority for what you say?” “The best possible.” Lord St. Simon sank into a chair and passed his hand over his forehead. “What will the Duke say,” he murmured, “when he hears that one of the family has been subjected to such humiliation?” “It is the purest accident.",
+  "words": [
+    {
+      "word": "messenger",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-010",
   "pool": "sourced",
-  "text": "“This man does not understand French.” I gave a last look at the wounded man. “He will be dead in two hours.” “Can nothing save him?” “Nothing.” Captain Nemo’s hand contracted, and some tears glistened in his eyes, which I thought incapable of shedding any. For some moments I still watched the dying man, whose life ebbed slowly. His pallor increased under the electric light that was shed over his death-bed. I looked at his intelligent forehead, furrowed with premature wrinkles, produced probably by misfortune and sorrow.",
+  "text": "“I admit your calculations, Captain,” I replied; “I should be wrong to dispute them since daily experience confirms them; but I foresee a real difficulty in the way.” “What, sir?” “When you are about 1000 feet deep, the walls of the Nautilus bear a pressure of 100 atmospheres. If, then, just now you were to empty the supplementary reservoirs, to lighten the vessel, and to go up to the surface, the pumps must overcome the pressure of 100 atmospheres, which is 1500 pounds per square inch. From that a power——” “That electricity alone can give,” said the Captain, hastily. “I repeat, sir, that the dynamic power of my engines is almost infinite. The pumps of the Nautilus have an enormous power, as you must have observed when their jets of water burst like a torrent upon the Abraham Lincoln.",
   "words": [
     {
-      "word": "contracted",
+      "word": "burst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torrent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

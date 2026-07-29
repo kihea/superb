@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-war-of-the-worlds-020",
   "pool": "sourced",
-  "text": "I remember, clearly and coldly and vividly, all that I did that day until the time that I stood weeping and praising God upon the summit of Primrose Hill. And then I forget. Of the next three days I know nothing. I have learned since that, so far from my being the first discoverer of the Martian overthrow, several such wanderers as myself had already discovered this on the previous night. One man—the first—had gone to St. Martin’s-le-Grand, and, while I sheltered in the cabmen’s hut, had contrived to telegraph to Paris.",
+  "text": "Presently he came upon a stile, and, crossing it, followed a footpath northeastward. He passed near several farmhouses and some little places whose names he did not learn. He saw few fugitives until, in a grass lane towards High Barnet, he happened upon two ladies who became his fellow travellers. He came upon them just in time to save them. He heard their screams, and, hurrying round the corner, saw a couple of men struggling to drag them out of the little pony-chaise in which they had been driving, while a third with difficulty held the frightened pony’s head.",
   "words": [
     {
-      "word": "wanderers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sheltered",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hut",
+      "word": "pony",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

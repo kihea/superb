@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-023",
+  "pool": "sourced",
+  "text": "Mrs Tulliver carried the proud integrity of the Dodsons in her blood, and had been brought up to think that to wrong people of their money, which was another phrase for debt, was a sort of moral pillory; it would have been wickedness, to her mind, to have run counter to her husband’s desire to “do the right thing,” and retrieve his name. She had a confused, dreamy notion that, if the creditors were all paid, her plate and linen ought to come back to her; but she had an inbred perception that while people owed money they were unable to pay, they couldn’t rightly call anything their own. She murmured a little that Mr Tulliver so peremptorily refused to receive anything in repayment from Mr and Mrs Moss; but to all his requirements of household economy she was submissive to the point of denying herself the cheapest indulgences of mere flavour; her only rebellion was to smuggle into the kitchen something that would make rather a better supper than usual for Tom.",
+  "words": [
+    {
+      "word": "retrieve",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "denying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

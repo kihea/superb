@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-021",
+  "pool": "sourced",
+  "text": "Meanwhile a third, running unharmed all around the house, appeared suddenly in the doorway and fell with his cutlass on the doctor. Our position was utterly reversed. A moment since we were firing, under cover, at an exposed enemy; now it was we who lay uncovered and could not return a blow. The log-house was full of smoke, to which we owed our comparative safety. Cries and confusion, the flashes and reports of pistol-shots, and one loud groan rang in my ears.",
+  "words": [
+    {
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confusion",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

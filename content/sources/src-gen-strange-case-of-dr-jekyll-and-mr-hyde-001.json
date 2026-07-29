@@ -4,12 +4,6 @@
   "text": "I never saw a man I so disliked, and yet I scarce know why. He must be deformed somewhere; he gives a strong feeling of deformity, although I couldn’t specify the point. He’s an extraordinary looking man, and yet I really can name nothing out of the way. No, sir; I can make no hand of it; I can’t describe him. And it’s not want of memory; for I declare I can see him this moment.” Mr. Utterson again walked some way in silence and obviously under a weight of consideration.",
   "words": [
     {
-      "word": "disliked",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "declare",
       "signals": [
         "gloss-overlap"
@@ -21,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-island-036",
+  "pool": "sourced",
+  "text": "The arrival of the Scotch yacht at Tabor Island is very uncertain. It may even be that, having arrived several months ago, she has again sailed after having vainly searched for some trace of Ayrton. Will it not then be best to build a ship which, if necessary, could take us either to the Polynesian Archipelago or to New Zealand? What do you think?” “I think, captain,” answered the sailor; “I think that you are as capable of building a large vessel as a small one. Neither the wood nor the tools are wanting.",
+  "words": [
+    {
+      "word": "yacht",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

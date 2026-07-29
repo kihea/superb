@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-anne-of-green-gables-027",
+  "pool": "sourced",
+  "text": "First a card with “For the Anne-girl and Merry Christmas,” written on it; and then, a pair of the daintiest little kid slippers, with beaded toes and satin bows and glistening buckles. “Oh,” said Anne, “Diana, this is too much. I must be dreaming.” “I call it providential,” said Diana. “You won’t have to borrow Ruby’s slippers now, and that’s a blessing, for they’re two sizes too big for you, and it would be awful to hear a fairy shuffling. Josie Pye would be delighted.",
+  "words": [
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

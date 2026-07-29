@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-003",
   "pool": "sourced",
-  "text": "So excited and alarmed was he that I was compelled to go down to the spot where the animal had been and look around for it. It was gone, however, and the incident appeared to make the worst impression upon his mind. I stayed with him all the evening, and it was on that occasion, to explain the emotion which he had shown, that he confided to my keeping that narrative which I read to you when first I came. I mention this small episode because it assumes some importance in view of the tragedy which followed, but I was convinced at the time that the matter was entirely trivial and that his excitement had no justification. “It was at my advice that Sir Charles was about to go to London.",
+  "text": "“Know then that in the time of the Great Rebellion (the history of which by the learned Lord Clarendon I most earnestly commend to your attention) this Manor of Baskerville was held by Hugo of that name, nor can it be gainsaid that he was a most wild, profane, and godless man. This, in truth, his neighbours might have pardoned, seeing that saints have never flourished in those parts, but there was in him a certain wanton and cruel humour which made his name a by-word through the West. It chanced that this Hugo came to love (if, indeed, so dark a passion may be known under so bright a name) the daughter of a yeoman who held lands near the Baskerville estate. But the young maiden, being discreet and of good repute, would ever avoid him, for she feared his evil name. So it came to pass that one Michaelmas this Hugo, with five or six of his idle and wicked companions, stole down upon the farm and carried off the maiden, her father and brothers being from home, as he well knew.",
   "words": [
     {
-      "word": "excitement",
+      "word": "maiden",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discreet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wicked",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

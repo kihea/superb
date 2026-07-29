@@ -1,16 +1,10 @@
 {
   "id": "src-gen-sense-and-sensibility-010",
   "pool": "sourced",
-  "text": "Mrs. Jennings soon appeared, and the note being given her, she read it aloud. It was from Lady Middleton, announcing their arrival in Conduit Street the night before, and requesting the company of her mother and cousins the following evening. Business on Sir John's part, and a violent cold on her own, prevented their calling in Berkeley Street. The invitation was accepted; but when the hour of appointment drew near, necessary as it was in common civility to Mrs. Jennings, that they should both attend her on such a visit, Elinor had some difficulty in persuading her sister to go, for still she had seen nothing of Willoughby; and therefore was not more indisposed for amusement abroad, than unwilling to run the risk of his calling again in her absence. Elinor found, when the evening was over, that disposition is not materially altered by a change of abode, for although scarcely settled in town, Sir John had contrived to collect around him, nearly twenty young people, and to amuse them with a ball.",
+  "text": "I have explained it to myself in the most satisfactory way; but you, Elinor, who love to doubt where you can--it will not satisfy you, I know; but you shall not talk me out of my trust in it. I am persuaded that Mrs. Smith suspects his regard for Marianne, disapproves of it, (perhaps because she has other views for him,) and on that account is eager to get him away; and that the business which she sends him off to transact is invented as an excuse to dismiss him. This is what I believe to have happened. He is, moreover, aware that she does disapprove the connection, he dares not therefore at present confess to her his engagement with Marianne, and he feels himself obliged, from his dependent situation, to give into her schemes, and absent himself from Devonshire for a while. You will tell me, I know, that this may or may not have happened; but I will listen to no cavil, unless you can point out any other method of understanding the affair as satisfactory at this.",
   "words": [
     {
-      "word": "cousins",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "invitation",
+      "word": "absent",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

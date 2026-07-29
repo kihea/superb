@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-006",
   "pool": "sourced",
-  "text": "The mercer fancied himself already on the high road to honors and fortune. On her side Mme. Bonacieux had also reflected; but, it must be admitted, upon something widely different from ambition. In spite of herself her thoughts constantly reverted to that handsome young man who was so brave and appeared to be so much in love. Married at eighteen to M. Bonacieux, having always lived among her husband’s friends—people little capable of inspiring any sentiment whatever in a young woman whose heart was above her position—Mme.",
+  "text": "Porthos would have given ten years of his life to possess this sword. One day, when he had an appointment with a duchess, he endeavored even to borrow it of Athos. Athos, without saying anything, emptied his pockets, got together all his jewels, purses, aiguillettes, and gold chains, and offered them all to Porthos; but as to the sword, he said it was sealed to its place and should never quit it until its master should himself quit his lodgings. In addition to the sword, there was a portrait representing a nobleman of the time of Henry III., dressed with the greatest elegance, and who wore the Order of the Holy Ghost; and this portrait had certain resemblances of lines with Athos, certain family likenesses which indicated that this great noble, a knight of the Order of the King, was his ancestor. Besides these, a casket of magnificent goldwork, with the same arms as the sword and the portrait, formed a middle ornament to the mantelpiece, and assorted badly with the rest of the furniture.",
   "words": [
     {
-      "word": "ambition",
+      "word": "jewels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ancestor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

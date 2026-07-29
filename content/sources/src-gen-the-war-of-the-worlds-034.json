@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-war-of-the-worlds-034",
+  "pool": "sourced",
+  "text": "I managed to make out the road by means of occasional ruins of its villas and fences and lamps, and so presently I got out of this spate and made my way to the hill going up towards Roehampton and came out on Putney Common. Here the scenery changed from the strange and unfamiliar to the wreckage of the familiar: patches of ground exhibited the devastation of a cyclone, and in a few score yards I would come upon perfectly undisturbed spaces, houses with their blinds trimly drawn and doors closed, as if they had been left for a day by the owners, or as if their inhabitants slept within. The red weed was less abundant; the tall trees along the lane were free from the red creeper. I hunted for food among the trees, finding nothing, and I also raided a couple of silent houses, but they had already been broken into and ransacked. I rested for the remainder of the daylight in a shrubbery, being, in my enfeebled condition, too fatigued to push on.",
+  "words": [
+    {
+      "word": "unfamiliar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remainder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "source": "Project Gutenberg #36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

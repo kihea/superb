@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-what-katy-did-035",
+  "pool": "sourced",
+  "text": "\"I think he would if we asked him,\" said Dr. Carr, pleased to see Katy waking up with something like life again. So the arrangement was made. Mr. Berger came twice every week, and sat beside the big chair, correcting Katy's exercises and practising her in the verbs and pronunciation. He was a lively little old Frenchman, and knew how to make lesson-time pleasant. \"You take more pain than you used, Mademoiselle,\" he said one day; \"if you go on so, you shall be my best scholar.",
+  "words": [
+    {
+      "word": "pronunciation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scholar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

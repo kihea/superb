@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-island-028",
+  "pool": "sourced",
+  "text": "“A very fine wind,” replied the sailor; “but we must tack to enter the gulf, and I should like to see my way clear in these unknown quarters.” “Quarters which appear to be filled with rocks,” added Herbert, “if we judge by what we saw on the south coast of Shark Gulf.” “Pencroft,” said Cyrus Harding, “do as you think best, we will leave it to you.” “Don’t make your mind uneasy, captain,” replied the sailor, “I shall not expose myself needlessly! I would rather a knife were run into my ribs than a sharp rock into those of my ‘Bonadventure!’” That which Pencroft called ribs was the part of his vessel under water, and he valued it more than his own skin. “What o’clock is it?” asked Pencroft. “Ten o’clock,” replied Gideon Spilett. “And what distance is it to the Cape, captain?” “About fifteen miles,” replied the engineer.",
+  "words": [
+    {
+      "word": "expose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

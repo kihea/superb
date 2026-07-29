@@ -1,30 +1,11 @@
 {
   "id": "src-gen-the-yellow-wallpaper-005",
   "pool": "sourced",
-  "text": "I verily believe she thinks it is the writing which made me sick! But I can write when she is out, and see her a long way off from these windows. There is one that commands the road, a lovely, shaded, winding road, and one that just looks off over the country. A lovely country, too, full of great elms and velvet meadows. This wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.",
+  "text": "I cry at nothing, and cry most of the time. Of course I don’t when John is here, or anybody else, but when I am alone. And I am alone a good deal just now. John is kept in town very often by serious cases, and Jennie is good and lets me alone when I want her to. So I walk a little in the garden or down that lovely lane, sit on the porch under the roses, and lie down up here a good deal.",
   "words": [
     {
-      "word": "shaded",
+      "word": "porch",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "velvet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "meadows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shade",
-      "signals": [
-        "apposition",
         "gloss-overlap"
       ]
     }
@@ -34,7 +15,7 @@
     "author": "Charlotte Perkins Gilman",
     "year": 1892,
     "source": "Project Gutenberg #1952",
-    "url": "https://www.gutenberg.org/ebooks/1952",
+    "url": "https://www.gutenberg.org/ebooks/1952.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

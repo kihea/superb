@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-awakening-013",
   "pool": "sourced",
-  "text": "The key was always left in a secret hiding-place in the entry, which Edna knew. If Mademoiselle happened to be away, Edna would usually enter and wait for her return. When she knocked at Mademoiselle Reisz’s door one afternoon there was no response; so unlocking the door, as usual, she entered and found the apartment deserted, as she had expected. Her day had been quite filled up, and it was for a rest, for a refuge, and to talk about Robert, that she sought out her friend. She had worked at her canvas—a young Italian character study—all the morning, completing the work without the model; but there had been many interruptions, some incident to her modest housekeeping, and others of a social nature.",
+  "text": "All the mystery and witchery of the night seemed to have gathered there amid the perfumes and the dusky and tortuous outlines of flowers and foliage. She was seeking herself and finding herself in just such sweet, half-darkness which met her moods. But the voices were not soothing that came to her from the darkness and the sky above and the stars. They jeered and sounded mournful notes without promise, devoid even of hope. She turned back into the room and began to walk to and fro down its whole length without stopping, without resting.",
   "words": [
     {
-      "word": "unlocking",
+      "word": "devoid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fro",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Kate Chopin",
     "year": 1899,
     "source": "Project Gutenberg #160",
-    "url": "https://www.gutenberg.org/ebooks/160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

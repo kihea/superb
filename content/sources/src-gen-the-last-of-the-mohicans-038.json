@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-038",
+  "pool": "sourced",
+  "text": "During the time Uncas was making this disposition of his forces, the woods were as still, and, with the exception of those who had met in council, apparently as much untenanted as when they came fresh from the hands of their Almighty Creator. The eye could range, in every direction, through the long and shadowed vistas of the trees; but nowhere was any object to be seen that did not properly belong to the peaceful and slumbering scenery. Here and there a bird was heard fluttering among the branches of the beeches, and occasionally a squirrel dropped a nut, drawing the startled looks of the party for a moment to the place; but the instant the casual interruption ceased, the passing air was heard murmuring above their heads, along that verdant and undulating surface of forest, which spread itself unbroken, unless by stream or lake, over such a vast region of country. Across the tract of wilderness which lay between the Delawares and the village of their enemies, it seemed as if the foot of man had never trodden, so breathing and deep was the silence in which it lay.",
+  "words": [
+    {
+      "word": "ceased",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "wilderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

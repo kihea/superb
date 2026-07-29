@@ -1,16 +1,28 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-002",
   "pool": "sourced",
-  "text": "Soon after, when he was alone with me, he said, “I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make inquiries.” “Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.” “And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.” Soon after this he inquired if I thought that the breaking up of the ice had destroyed the other sledge. I replied that I could not answer with any degree of certainty, for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge. From this time a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness to be upon deck to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere.",
+  "text": "Some years ago he loved a young Russian lady of moderate fortune, and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her lover, instantly abandoned his pursuit. He had already bought a farm with his money, on which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend, who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations.",
   "words": [
     {
-      "word": "curiosity",
+      "word": "consented",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "considerate",
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remainder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rival",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

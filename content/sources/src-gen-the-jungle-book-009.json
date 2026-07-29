@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-jungle-book-009",
   "pool": "sourced",
-  "text": "You’ve taken the old place again.” “I should think I had,” said Sea Catch. “Look at me!” He was scratched and bleeding in twenty places; one eye was almost out, and his sides were torn to ribbons. “Oh, you men, you men!” Matkah said, fanning herself with her hind flipper. “Why can’t you be sensible and settle your places quietly? You look as though you had been fighting with the Killer Whale.” “I haven’t been doing anything but fight since the middle of May.",
+  "text": "Do they never go to sleep? Now there is a cloud coming to cover that moon. If it were only a big enough cloud I might try to run away in the darkness. But I am tired.” That same cloud was being watched by two good friends in the ruined ditch below the city wall, for Bagheera and Kaa, knowing well how dangerous the Monkey-People were in large numbers, did not wish to run any risks. The monkeys never fight unless they are a hundred to one, and few in the jungle care for those odds.",
   "words": [
     {
-      "word": "torn",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hind",
+      "word": "jungle",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

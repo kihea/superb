@@ -1,10 +1,29 @@
 {
   "id": "src-gen-heart-of-darkness-008",
   "pool": "sourced",
-  "text": "The air was warm, thick, heavy, sluggish. There was no joy in the brilliance of sunshine. The long stretches of the waterway ran on, deserted, into the gloom of overshadowed distances. On silvery sand-banks hippos and alligators sunned themselves side by side. The broadening waters flowed through a mob of wooded islands; you lost your way on that river as you would in a desert, and butted all day long against shoals, trying to find the channel, till you thought yourself bewitched and cut off for ever from everything you had known once—somewhere—far away—in another existence perhaps.",
+  "text": "Camp, cook, sleep, strike camp, march. Now and then a carrier dead in harness, at rest in the long grass near the path, with an empty water-gourd and his long staff lying by his side. A great silence around and above. Perhaps on some quiet night the tremor of far-off drums, sinking, swelling, a tremor vast, faint; a sound weird, appealing, suggestive, and wild—and perhaps with as profound a meaning as the sound of bells in a Christian country. Once a white man in an unbuttoned uniform, camping on the path with an armed escort of lank Zanzibaris, very hospitable and festive—not to say drunk.",
   "words": [
     {
-      "word": "waterway",
+      "word": "swelling",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "suggestive",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "profound",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "escort",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +34,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

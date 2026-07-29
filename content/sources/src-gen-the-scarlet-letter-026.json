@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-scarlet-letter-026",
+  "pool": "sourced",
+  "text": "“I wonder if mother will ask me what it means?” thought Pearl. Just then she heard her mother’s voice, and, flitting along as lightly as one of the little sea-birds, appeared before Hester Prynne dancing, laughing, and pointing her finger to the ornament upon her bosom. “My little Pearl,” said Hester, after a moment’s silence, “the green letter, and on thy childish bosom, has no purport. But dost thou know, my child, what this letter means which thy mother is doomed to wear?” “Yes, mother,” said the child. “It is the great letter A. Thou hast taught me in the horn-book.” Hester looked steadily into her little face; but though there was that singular expression which she had so often remarked in her black eyes, she could not satisfy herself whether Pearl really attached any meaning to the symbol.",
+  "words": [
+    {
+      "word": "childish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thou",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satisfy",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

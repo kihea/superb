@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-king-in-yellow-018",
   "pool": "sourced",
-  "text": "Scarcely a leaf moved. Sounds from a distant farm came faintly, the shrill cock-crow and dull baying. Now and then a steam-tug with big raking smoke-pipe, bearing the name “Guêpe 27,” ploughed up the river dragging its interminable train of barges, or a sailboat dropped down with the current toward sleepy Rouen. A faint fresh odour of earth and water hung in the air, and through the sunlight, orange-tipped butterflies danced above the marsh grass, soft velvety butterflies flapped through the mossy woods. Hastings was thinking of Valentine.",
+  "text": "In falconry we call it ‘noble’ because it rises over the quarry, and wheeling, drops upon it from above. This white bird is a gerfalcon from the north. It is also ‘noble!’ Here is a merlin, and this tiercelet is a falcon-heroner.” I asked her how she had learned the old language of falconry. She did not remember, but thought her father must have taught it to her when she was very young. Then she led me away and showed me the young falcons still in the nest.",
   "words": [
     {
-      "word": "sunlight",
+      "word": "merlin",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "marsh",
+      "word": "falcon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nest",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

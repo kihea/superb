@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-emma-026",
+  "pool": "sourced",
+  "text": "Mr. Weston—(laughing affectedly) I must protest against that.—A most dangerous precedent indeed!—I beg you will not let your neighbours follow your example.—Upon my word, if this is what I am to expect, we married women must begin to exert ourselves!—Oh! Mr. Weston, I could not have believed it of you!” “Aye, we men are sad fellows. You must take care of yourself, Mrs. Elton.—This letter tells us—it is a short letter—written in a hurry, merely to give us notice—it tells us that they are all coming up to town directly, on Mrs. Churchill’s account—she has not been well the whole winter, and thinks Enscombe too cold for her—so they are all to move southward without loss of time.” “Indeed!—from Yorkshire, I think. Enscombe is in Yorkshire?” “Yes, they are about one hundred and ninety miles from London, a considerable journey.” “Yes, upon my word, very considerable. Sixty-five miles farther than from Maple Grove to London.",
+  "words": [
+    {
+      "word": "precedent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

@@ -1,30 +1,12 @@
 {
   "id": "src-gen-king-solomon-s-mines-003",
   "pool": "sourced",
-  "text": "“Three single-action Colt’s revolvers, with the heavier, or American pattern of cartridge.” This was our total armament, and doubtless the reader will observe that the weapons of each class were of the same make and calibre, so that the cartridges were interchangeable, a very important point. I make no apology for detailing it at length, as every experienced hunter will know how vital a proper supply of guns and ammunition is to the success of an expedition. Now as to the men who were to go with us. After much consultation we decided that their number should be limited to five, namely, a driver, a leader, and three servants. The driver and leader I found without much difficulty, two Zulus, named respectively Goza and Tom; but to get the servants proved a more difficult matter.",
+  "text": "Also, about twenty paces in, the gallery is built across, and a beautiful bit of masonry it is.” “‘Ay,’ said Evans, ‘but I will spin you a queerer yarn than that’; and he went on to tell me how he had found in the far interior a ruined city, which he believed to be the Ophir of the Bible, and, by the way, other more learned men have said the same long since poor Evans’s time. I was, I remember, listening open-eared to all these wonders, for I was young at the time, and this story of an ancient civilisation and of the treasures which those old Jewish or Phoenician adventurers used to extract from a country long since lapsed into the darkest barbarism took a great hold upon my imagination, when suddenly he said to me, ‘Lad, did you ever hear of the Suliman Mountains up to the north-west of the Mushakulumbwe country?’ I told him I never had. ‘Ah, well,’ he said, ‘that is where Solomon really had his mines, his diamond mines, I mean.’ “‘How do you know that?’ I asked.",
   "words": [
     {
-      "word": "cartridge",
+      "word": "yarn",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cartridges",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "interchangeable",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "namely",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -33,7 +15,7 @@
     "author": "H. Rider Haggard",
     "year": 1885,
     "source": "Project Gutenberg #2166",
-    "url": "https://www.gutenberg.org/ebooks/2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

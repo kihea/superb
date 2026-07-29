@@ -1,18 +1,12 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-019",
   "pool": "sourced",
-  "text": "The leanest gentleman can always consider himself, and fortunately I was, though lean, a gentleman. I could do nothing in Italy--I couldn’t even be an Italian patriot. To do that I should have had to get out of the country; and I was too fond of it to leave it, to say nothing of my being too well satisfied with it, on the whole, as it then was, to wish it altered. So I’ve passed a great many years here on that quiet plan I spoke of. I’ve not been at all unhappy.",
+  "text": "We’ll go.” “I hoped you would resist!” Henrietta exclaimed. “I wanted to see what Miss Molyneux would do.” “I never do anything,” said this young lady. “I suppose in your position it’s sufficient for you to exist!” Miss Stackpole returned. “I should like very much to see you at home.” “You must come to Lockleigh again,” said Miss Molyneux, very sweetly, to Isabel, ignoring this remark of Isabel’s friend. Isabel looked into her quiet eyes a moment, and for that moment seemed to see in their grey depths the reflexion of everything she had rejected in rejecting Lord Warburton--the peace, the kindness, the honour, the possessions, a deep security and a great exclusion.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "kindness",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "patriot",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

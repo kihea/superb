@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-robinson-crusoe-025",
+  "pool": "sourced",
+  "text": "WRECK OF A SPANISH SHIP I was now in the twenty-third year of my residence in this island, and was so naturalised to the place and the manner of living, that, could I but have enjoyed the certainty that no savages would come to the place to disturb me, I could have been content to have capitulated for spending the rest of my time there, even to the last moment, till I had laid me down and died, like the old goat in the cave. I had also arrived to some little diversions and amusements, which made the time pass a great deal more pleasantly with me than it did before—first, I had taught my Poll, as I noted before, to speak; and he did it so familiarly, and talked so articulately and plain, that it was very pleasant to me; and he lived with me no less than six-and-twenty years. How long he might have lived afterwards I know not, though I know they have a notion in the Brazils that they live a hundred years.",
+  "words": [
+    {
+      "word": "pleasantly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

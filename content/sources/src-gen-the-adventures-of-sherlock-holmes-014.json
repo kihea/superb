@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-014",
   "pool": "sourced",
-  "text": "We shall just be in time to have a little breakfast with him. Do you feel equal to it?” “Yes; I shall not feel easy until I have told my story.” “Then my servant will call a cab, and I shall be with you in an instant.” I rushed upstairs, explained the matter shortly to my wife, and in five minutes was inside a hansom, driving with my new acquaintance to Baker Street. Sherlock Holmes was, as I expected, lounging about his sitting-room in his dressing-gown, reading the agony column of The Times and smoking his before-breakfast pipe, which was composed of all the plugs and dottles left from his smokes of the day before, all carefully dried and collected on the corner of the mantelpiece. He received us in his quietly genial fashion, ordered fresh rashers and eggs, and joined us in a hearty meal. When it was concluded he settled our new acquaintance upon the sofa, placed a pillow beneath his head, and laid a glass of brandy and water within his reach.",
+  "text": "I have had nothing since breakfast.” “Nothing?” “Not a bite. I had no time to think of it.” “And how have you succeeded?” “Well.” “You have a clue?” “I have them in the hollow of my hand. Young Openshaw shall not long remain unavenged. Why, Watson, let us put their own devilish trade-mark upon them. It is well thought of!” “What do you mean?” He took an orange from the cupboard, and tearing it to pieces he squeezed out the pips upon the table.",
   "words": [
     {
-      "word": "quietly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sofa",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pillow",
+      "word": "cupboard",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

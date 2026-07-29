@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-red-badge-of-courage-008",
   "pool": "sourced",
-  "text": "An officer on a bounding horse made maniacal motions with his arms. The teams went swinging up from the rear, the guns were whirled about, and the battery scampered away. The cannon with their noses poked slantingly at the ground grunted and grumbled like stout men, brave but with objections to hurry. The youth went on, moderating his pace since he had left the place of noises. Later he came upon a general of division seated upon a horse that pricked its ears in an interested way at the battle.",
+  "text": "The regiment, relieved of a burden, received a new impetus. But there was much loss of valuable knapsacks, and, on the whole, very good shirts. But the regiment was not yet veteranlike in appearance. Veteran regiments in the army were likely to be very small aggregations of men. Once, when the command had first come to the field, some perambulating veterans, noting the length of their column, had accosted them thus: “Hey, fellers, what brigade is that?” And when the men had replied that they formed a regiment and not a brigade, the older soldiers had laughed, and said, “O Gawd!” Also, there was too great a similarity in the hats.",
   "words": [
     {
-      "word": "motions",
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brigade",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "similarity",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

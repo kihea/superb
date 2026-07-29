@@ -1,16 +1,10 @@
 {
   "id": "src-gen-middlemarch-007",
   "pool": "sourced",
-  "text": "Fred believed in the excellence of his bargain, and even before the fair had well set in, had got possession of the dappled gray, at the price of his old horse and thirty pounds in addition—only five pounds more than he had expected to give. But he felt a little worried and wearied, perhaps with mental debate, and without waiting for the further gayeties of the horse-fair, he set out alone on his fourteen miles’ journey, meaning to take it very quietly and keep his horse fresh. “The offender’s sorrow brings but small relief To him who wears the strong offence’s cross.” —SHAKESPEARE: Sonnets. I am sorry to say that only the third day after the propitious events at Houndsley Fred Vincy had fallen into worse spirits than he had known in his life before.",
+  "text": "“However,” he went on, accenting the word, as if to dismiss all irrelevance, “what I came here to talk about was a little affair of my young scapegrace, Fred’s.” “That is a subject on which you and I are likely to take quite as different views as on diet, Vincy.” “I hope not this time.” (Mr. Vincy was resolved to be good-humored.) “The fact is, it’s about a whim of old Featherstone’s. Somebody has been cooking up a story out of spite, and telling it to the old man, to try to set him against Fred. He’s very fond of Fred, and is likely to do something handsome for him; indeed he has as good as told Fred that he means to leave him his land, and that makes other people jealous.” “Vincy, I must repeat, that you will not get any concurrence from me as to the course you have pursued with your eldest son.",
   "words": [
     {
-      "word": "fourteen",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "quietly",
+      "word": "spite",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

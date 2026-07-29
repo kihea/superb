@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-027",
+  "pool": "sourced",
+  "text": "At last he mastered her arms; Grace Poole gave him a cord, and he pinioned them behind her: with more rope, which was at hand, he bound her to a chair. The operation was performed amidst the fiercest yells and the most convulsive plunges. Mr. Rochester then turned to the spectators: he looked at them with a smile both acrid and desolate. “That is my wife,” said he. “Such is the sole conjugal embrace I am ever to know—such are the endearments which are to solace my leisure hours!",
+  "words": [
+    {
+      "word": "cord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "embrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

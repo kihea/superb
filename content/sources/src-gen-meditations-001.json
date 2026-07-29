@@ -1,14 +1,8 @@
 {
   "id": "src-gen-meditations-001",
   "pool": "sourced",
-  "text": "partially to favour any of the gladiators, or fencers, as either the Parmularii, or the Secutores. Moreover, to endure labour; nor to need many things; when I have anything to do, to do it myself rather than by others; not to meddle with many businesses; and not easily to admit of any slander. Of Diognetus, not to busy myself about vain things, and not easily to believe those things, which are commonly spoken, by such as take upon them to work wonders, and by sorcerers, or prestidigitators, and impostors; concerning the power of charms, and their driving out of demons, or evil spirits; and the like. Not to keep quails for the game; nor to be mad after such things. Not to be offended with other men's liberty of speech, and to apply myself unto philosophy.",
+  "text": "Of Diognetus, not to busy myself about vain things, and not easily to believe those things, which are commonly spoken, by such as take upon them to work wonders, and by sorcerers, or prestidigitators, and impostors; concerning the power of charms, and their driving out of demons, or evil spirits; and the like. Not to keep quails for the game; nor to be mad after such things. Not to be offended with other men's liberty of speech, and to apply myself unto philosophy. Him also I must thank, that ever I heard first Bacchius, then Tandasis and Marcianus, and that I did write dialogues in my youth; and that I took liking to the philosophers' little couch and skins, and such other things, which by the Grecian discipline are proper to those who profess philosophy.",
   "words": [
-    {
-      "word": "slander",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
     {
       "word": "vain",
       "signals": [
@@ -16,7 +10,7 @@
       ]
     },
     {
-      "word": "charms",
+      "word": "liking",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

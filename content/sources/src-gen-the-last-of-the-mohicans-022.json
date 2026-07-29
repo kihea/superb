@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-022",
+  "pool": "sourced",
+  "text": "Look at the Sagamore, how like a grand Indian chief he sits by the fire. If there are any skulkers out in the darkness, they will never discover, by his countenance, that we suspect danger at hand.” “But they may discover him, and it will prove his death. His person can be too plainly seen by the light of that fire, and he will become the first and most certain victim.” “It is undeniable that now you speak the truth,” returned the scout, betraying more anxiety than was usual; “yet what can be done? A single suspicious look might bring on an attack before we are ready to receive it. He knows, by the call I gave to Uncas, that we have struck a scent; I will tell him that we are on the trail of the Mingoes; his Indian nature will teach him how to act.” The scout applied his fingers to his mouth, and raised a low hissing sound, that caused Duncan at first to start aside, believing that he heard a serpent.",
+  "words": [
+    {
+      "word": "scout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "believing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

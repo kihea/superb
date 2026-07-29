@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-026",
+  "pool": "sourced",
+  "text": "The day after to-morrow, if you please. You are to pay all charges out of my purse. You hear the condition of your going?” “And must obey,” said I. This was all the preparation I received for that visit, or for others like it; Miss Havisham never wrote to me, nor had I ever so much as seen her handwriting. We went down on the next day but one, and we found her in the room where I had first beheld her, and it is needless to add that there was no change in Satis House.",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

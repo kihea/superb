@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-038",
+  "pool": "sourced",
+  "text": "The Count wanted isolation. My surmise is, this: that in London the Count decided to get back to his castle by water, as the most safe and secret way. He was brought from the castle by Szgany, and probably they delivered their cargo to Slovaks who took the boxes to Varna, for there they were shipped for London. Thus the Count had knowledge of the persons who could arrange this service. When the box was on land, before sunrise or after sunset, he came out from his box, met Skinsky and instructed him what to do as to arranging the carriage of the box up some river.",
+  "words": [
+    {
+      "word": "shipped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

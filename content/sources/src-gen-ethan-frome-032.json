@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-ethan-frome-032",
+  "pool": "sourced",
+  "text": "The early mist had vanished and the fields lay like a silver shield under the sun. It was one of the days when the glitter of winter shines through a pale haze of spring. Every yard of the road was alive with Mattie’s presence, and there was hardly a branch against the sky or a tangle of brambles on the bank in which some bright shred of memory was not caught. Once, in the stillness, the call of a bird in a mountain ash was so like her laughter that his heart tightened and then grew large; and all these things made him see that something must be done at once. Suddenly it occurred to him that Andrew Hale, who was a kind-hearted man, might be induced to reconsider his refusal and advance a small sum on the lumber if he were told that Zeena’s ill-health made it necessary to hire a servant.",
+  "words": [
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glitter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "haze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shred",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

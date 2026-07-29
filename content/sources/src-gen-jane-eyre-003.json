@@ -1,18 +1,12 @@
 {
   "id": "src-gen-jane-eyre-003",
   "pool": "sourced",
-  "text": "I read these words over and over again: I felt that an explanation belonged to them, and was unable fully to penetrate their import. I was still pondering the signification of “Institution,” and endeavouring to make out a connection between the first words and the verse of Scripture, when the sound of a cough close behind me made me turn my head. I saw a girl sitting on a stone bench near; she was bent over a book, on the perusal of which she seemed intent: from where I stood I could see the title—it was “Rasselas;” a name that struck me as strange, and consequently attractive. In turning a leaf she happened to look up, and I said to her directly— “Is your book interesting?” I had already formed the intention of asking her to lend it to me some day. “I like it,” she answered, after a pause of a second or two, during which she examined me.",
+  "text": "and what are you doing now? You look quite red, as if you had been about some mischief: what were you opening the window for?” I was spared the trouble of answering, for Bessie seemed in too great a hurry to listen to explanations; she hauled me to the washstand, inflicted a merciless, but happily brief scrub on my face and hands with soap, water, and a coarse towel; disciplined my head with a bristly brush, denuded me of my pinafore, and then hurrying me to the top of the stairs, bid me go down directly, as I was wanted in the breakfast-room. I would have asked who wanted me: I would have demanded if Mrs. Reed was there; but Bessie was already gone, and had closed the nursery-door upon me. I slowly descended. For nearly three months, I had never been called to Mrs. Reed’s presence; restricted so long to the nursery, the breakfast, dining, and drawing-rooms were become for me awful regions, on which it dismayed me to intrude.",
   "words": [
     {
-      "word": "penetrate",
+      "word": "nursery",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cough",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-sea-wolf-008",
   "pool": "sourced",
-  "text": "I followed with a quaking heart. What was to happen I knew no more than did I know what had happened. But blood had been shed, and it was through no whim of Wolf Larsen that he had gone over the side with his scalp laid open. Besides, Johansen was missing. It was my first descent into the forecastle, and I shall not soon forget my impression of it, caught as I stood on my feet at the bottom of the ladder.",
+  "text": "The other lingered desperately for a moment, and followed. His body pitched out and down, but in some way he managed to save himself with his legs. He was hanging by them, head downward. A quick effort brought his hands up to the halyards again; but he was a long time regaining his former position, where he hung, a pitiable object. “I’ll bet he has no appetite for supper,” I heard Wolf Larsen’s voice, which came to me from around the corner of the galley.",
   "words": [
     {
-      "word": "ladder",
+      "word": "hung",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "galley",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

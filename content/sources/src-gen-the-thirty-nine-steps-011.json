@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-thirty-nine-steps-011",
   "pool": "sourced",
-  "text": "Two dived into the glen and began to climb my ridge, while the others kept their own side of the hill. I felt as if I were taking part in a schoolboy game of hare and hounds. But very soon it began to seem less of a game. Those fellows behind were hefty men on their native heath. Looking back I saw that only three were following direct, and I guessed that the others had fetched a circuit to cut me off.",
+  "text": "I had no very clear purpose in my journey, but I steered east by the sun, for I remembered from the map that if I went north I would come into a region of coalpits and industrial towns. Presently I was down from the moorlands and traversing the broad haugh of a river. For miles I ran alongside a park wall, and in a break of the trees I saw a great castle. I swung through little old thatched villages, and over peaceful lowland streams, and past gardens blazing with hawthorn and yellow laburnum. The land was so deep in peace that I could scarcely believe that somewhere behind me were those who sought my life; ay, and that in a month’s time, unless I had the almightiest of luck, these round country faces would be pinched and staring, and men would be lying dead in English fields.",
   "words": [
     {
-      "word": "ridge",
+      "word": "hawthorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ay",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

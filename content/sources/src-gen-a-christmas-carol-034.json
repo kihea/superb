@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-christmas-carol-034",
+  "pool": "sourced",
+  "text": "Nor could he think of any one immediately connected with himself, to whom he could apply them. But nothing doubting that to whomsoever they applied they had some latent moral for his own improvement, he resolved to treasure up every word he heard, and everything he saw; and especially to observe the shadow of himself when it appeared. For he had an expectation that the conduct of his future self would give him the clue he missed, and would render the solution of these riddles easy. He looked about in that very place for his own image; but another man stood in his accustomed corner, and though the clock pointed to his usual time of day for being there, he saw no likeness of himself among the multitudes that poured in through the Porch. It gave him little surprise, however; for he had been revolving in his mind a change of life, and thought and hoped he saw his new-born resolutions carried out in this.",
+  "words": [
+    {
+      "word": "observe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

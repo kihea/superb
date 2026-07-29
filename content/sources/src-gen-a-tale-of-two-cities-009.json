@@ -1,16 +1,34 @@
 {
   "id": "src-gen-a-tale-of-two-cities-009",
   "pool": "sourced",
-  "text": "Try again!” “No, Miss Manette; all through it, I have known myself to be quite undeserving. And yet I have had the weakness, and have still the weakness, to wish you to know with what a sudden mastery you kindled me, heap of ashes that I am, into fire--a fire, however, inseparable in its nature from myself, quickening nothing, lighting nothing, doing no service, idly burning away.” “Since it is my misfortune, Mr. Carton, to have made you more unhappy than you were before you knew me--” “Don’t say that, Miss Manette, for you would have reclaimed me, if anything could. You will not be the cause of my becoming worse.” “Since the state of your mind that you describe, is, at all events, attributable to some influence of mine--this is what I mean, if I can make it plain--can I use no influence to serve you? Have I no power for good, with you, at all?” “The utmost good that I am capable of now, Miss Manette, I have come here to realise.",
+  "text": "Standing, as it were, apart with her on the edge of his grave, not all the staring curiosity that looked on, could, for the moment, nerve him to remain quite still. His hurried right hand parcelled out the herbs before him into imaginary beds of flowers in a garden; and his efforts to control and steady his breathing shook the lips from which the colour rushed to his heart. The buzz of the great flies was loud again. “Miss Manette, have you seen the prisoner before?” “Yes, sir.” “Where?” “On board of the packet-ship just now referred to, sir, and on the same occasion.” “You are the young lady just now referred to?” “O! most unhappily, I am!” The plaintive tone of her compassion merged into the less musical voice of the Judge, as he said something fiercely: “Answer the questions put to you, and make no remark upon them.” “Miss Manette, had you any conversation with the prisoner on that passage across the Channel?” “Yes, sir.” “Recall it.” In the midst of a profound stillness, she faintly began: “When the gentleman came on board--” “Do you mean the prisoner?” inquired the Judge, knitting his brows.",
   "words": [
     {
-      "word": "reclaimed",
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "attributable",
+      "word": "hurried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buzz",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "profound",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

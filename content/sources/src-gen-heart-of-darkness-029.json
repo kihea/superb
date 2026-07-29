@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heart-of-darkness-029",
+  "pool": "sourced",
+  "text": "‘The station!’ he cried. I edged in at once, still going half-speed. “Through my glasses I saw the slope of a hill interspersed with rare trees and perfectly free from undergrowth. A long decaying building on the summit was half buried in the high grass; the large holes in the peaked roof gaped black from afar; the jungle and the woods made a background. There was no enclosure or fence of any kind; but there had been one apparently, for near the house half-a-dozen slim posts remained in a row, roughly trimmed, and with their upper ends ornamented with round carved balls.",
+  "words": [
+    {
+      "word": "jungle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

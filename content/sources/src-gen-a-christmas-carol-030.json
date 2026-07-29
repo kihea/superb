@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-christmas-carol-030",
+  "pool": "sourced",
+  "text": "I mean to give him the same chance every year, whether he likes it or not, for I pity him. He may rail at Christmas till he dies, but he can't help thinking better of it--I defy him--if he finds me going there, in good temper, year after year, and saying Uncle Scrooge, how are you? If it only puts him in the vein to leave his poor clerk fifty pounds, that's something; and I think I shook him yesterday.\" It was their turn to laugh now at the notion of his shaking Scrooge. But being thoroughly good-natured, and not much caring what they laughed at, so that they laughed at any rate, he encouraged them in their merriment, and passed the bottle joyously.",
+  "words": [
+    {
+      "word": "pity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

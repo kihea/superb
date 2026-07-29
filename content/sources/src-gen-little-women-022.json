@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-little-women-022",
+  "pool": "sourced",
+  "text": "Turn slowly round, and let me get a careful view.” Jo revolved, and Amy gave a touch here and there, then fell back, with her head on one side, observing graciously, “Yes, you’ll do. Your head is all I could ask, for that white bonnet with the rose is quite ravishing. Hold back your shoulders, and carry your hands easily, no matter if your gloves do pinch. There’s one thing you can do well, Jo, that is, wear a shawl. I can’t, but it’s very nice to see you, and I’m so glad Aunt March gave you that lovely one.",
+  "words": [
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gloves",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "pinch",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

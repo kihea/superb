@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-moonstone-016",
   "pool": "sourced",
-  "text": "I arranged with Penelope to give you the letter when nobody was near. I planned to shut myself into my bedroom, and to have the sitting-room left open and empty all the morning. And I hoped—with all my heart and soul I hoped!—that you would take the opportunity, and put the Diamond back secretly in the drawer.” I attempted to speak. She lifted her hand impatiently, and stopped me. In the rapid alternations of her temper, her anger was beginning to rise again.",
+  "text": "As to the usual course of taking people in custody on suspicion, going before the magistrate, and all the rest of it—nothing of the sort was to be thought of, when your ladyship’s daughter was (as I believed) at the bottom of the whole business. In this case, I felt that a person of Mr. Betteredge’s character and position in the house—knowing the servants as he did, and having the honour of the family at heart—would be safer to take as an assistant than any other person whom I could lay my hand on. I should have tried Mr. Blake as well—but for one obstacle in the way. He saw the drift of my proceedings at a very early date; and, with his interest in Miss Verinder, any mutual understanding was impossible between him and me. I trouble your ladyship with these particulars to show you that I have kept the family secret within the family circle.",
   "words": [
     {
-      "word": "lifted",
+      "word": "obstacle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proceedings",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Wilkie Collins",
     "year": 1868,
     "source": "Project Gutenberg #155",
-    "url": "https://www.gutenberg.org/ebooks/155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

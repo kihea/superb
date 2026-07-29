@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-awakening-011",
   "pool": "sourced",
-  "text": "After all, it was no great matter to have one’s hand kissed. She was provoked at his having written the apology. She answered in as light and bantering a spirit as she fancied it deserved, and said she would be glad to have him look in upon her at work whenever he felt the inclination and his business gave him the opportunity. He responded at once by presenting himself at her home with all his disarming naïveté. And then there was scarcely a day which followed that she did not see him or was not reminded of him.",
+  "text": "The future was a mystery which she never attempted to penetrate. The present alone was significant; was hers, to torture her as it was doing then with the biting conviction that she had lost that which she had held, that she had been denied that which her impassioned, newly awakened being demanded. XVI “Do you miss your friend greatly?” asked Mademoiselle Reisz one morning as she came creeping up behind Edna, who had just left her cottage on her way to the beach. She spent much of her time in the water since she had acquired finally the art of swimming. As their stay at Grand Isle drew near its close, she felt that she could not give too much time to a diversion which afforded her the only real pleasurable moments that she knew.",
   "words": [
     {
-      "word": "apology",
+      "word": "penetrate",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "reminded",
+      "word": "conviction",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diversion",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Kate Chopin",
     "year": 1899,
     "source": "Project Gutenberg #160",
-    "url": "https://www.gutenberg.org/ebooks/160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

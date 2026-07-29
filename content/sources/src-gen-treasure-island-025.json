@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-treasure-island-025",
+  "pool": "sourced",
+  "text": "And I had hardly moved before the boat, giving up at once her gentle dancing movement, ran straight down a slope of water so steep that it made me giddy, and struck her nose, with a spout of spray, deep into the side of the next wave. I was drenched and terrified, and fell instantly back into my old position, whereupon the coracle seemed to find her head again and led me as softly as before among the billows. It was plain she was not to be interfered with, and at that rate, since I could in no way influence her course, what hope had I left of reaching land? I began to be horribly frightened, but I kept my head, for all that. First, moving with all care, I gradually baled out the coracle with my sea-cap; then, getting my eye once more above the gunwale, I set myself to study how it was she managed to slip so quietly through the rollers.",
+  "words": [
+    {
+      "word": "steep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "giddy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terrified",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horribly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

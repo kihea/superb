@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-039",
+  "pool": "sourced",
+  "text": "The Phantom was exactly as it had been, but he dreaded that he saw new meaning in its solemn shape. \"Before I draw nearer to that stone to which you point,\" said Scrooge, \"answer me one question. Are these the shadows of the things that Will be, or are they shadows of things that May be, only?\" Still the Ghost pointed downward to the grave by which it stood. \"Men's courses will foreshadow certain ends, to which, if persevered in, they must lead,\" said Scrooge.",
+  "words": [
+    {
+      "word": "dreaded",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

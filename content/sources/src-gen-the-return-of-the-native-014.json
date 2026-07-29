@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-return-of-the-native-014",
   "pool": "sourced",
-  "text": "I cannot understand this visit—what does she mean? And she suspects that past time of ours.” “I am in your hands. If you think she had better not see me here I’ll go into the next room.” “Well, yes—go.” Wildeve at once withdrew; but before he had been half a minute in the adjoining apartment Eustacia came after him. “No,” she said, “we won’t have any of this. If she comes in she must see you—and think if she likes there’s something wrong!",
+  "text": "Wildeve had told her at their last meeting that Venn had been thrust forward by Mrs. Yeobright as one ready and anxious to take his place as Thomasin’s betrothed. His figure was perfect, his face young and well outlined, his eye bright, his intelligence keen, and his position one which he could readily better if he chose. But in spite of possibilities it was not likely that Thomasin would accept this Ishmaelitish creature while she had a cousin like Yeobright at her elbow, and Wildeve at the same time not absolutely indifferent. Eustacia was not long in guessing that poor Mrs. Yeobright, in her anxiety for her niece’s future, had mentioned this lover to stimulate the zeal of the other. Eustacia was on the side of the Yeobrights now, and entered into the spirit of the aunt’s desire.",
   "words": [
     {
-      "word": "suspects",
+      "word": "spite",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "withdrew",
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "aunt",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

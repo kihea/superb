@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-typhoon-022",
+  "pool": "sourced",
+  "text": "Nothing could be prevented now, and nothing could be remedied. The men on board did not count, and the ship could not last. This weather was too impossible. Jukes felt an arm thrown heavily over his shoulders; and to this overture he responded with great intelligence by catching hold of his captain round the waist. They stood clasped thus in the blind night, bracing each other against the wind, cheek to cheek and lip to ear, in the manner of two hulks lashed stem to stern together.",
+  "words": [
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

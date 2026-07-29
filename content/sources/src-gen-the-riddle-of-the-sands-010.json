@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-010",
   "pool": "sourced",
-  "text": "I exclude all the technicalities that I can, but the reader should take note that the tide-table is very important henceforward. “A galliot passed us, going west, just as we were stowing sails; too dark to see her name. Later, we saw her anchor-light higher up our channel. “The great event of the day has been the sighting of a small German gunboat, steaming slowly west along the coast. That was about half-past four, when we were sounding along the Harle.",
+  "text": "I followed by compass, as you know, and found nothing but breakers ahead. How did I get through? That’s where the luck came in. I spoke of only two channels, that is, round the bank—one to the north, the other to the south. But look closely and you’ll see that right through the centre of the West Hohenhörn runs another, a very narrow and winding one, so small that I hadn’t even noticed it the night before, when I was going over the chart.",
   "words": [
     {
-      "word": "sails",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sighting",
+      "word": "compass",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-005",
   "pool": "sourced",
-  "text": "“There is reason in her words!” at length broke from his compressed and trembling lips; “ay, and they bear the spirit of Christianity; what might be right and proper in a red-skin, may be sinful in a man who has not even a cross in blood to plead for his ignorance. Chingachgook! hear you the talk of the dark-eyed woman?” He now spoke in Delaware to his companions, and his address, though calm and deliberate, seemed very decided. The elder Mohican heard with deep gravity, and appeared to ponder on his words, as though he felt the importance of their import. After a moment of hesitation, he waved his hand in assent, and uttered the English word “Good!” with the peculiar emphasis of his people.",
+  "text": "Yielding to his powerful interest in the subject, and impatient of a delay that seemed fraught with so much additional danger, Heyward drew still nigher to the dusky group, with an intention of making his offers of compensation more definite, when the white man, motioning with his hand, as if he conceded the disputed point, turned away, saying in a sort of soliloquy, and in the English tongue: “Uncas is right! it would not be the act of men to leave such harmless things to their fate, even though it breaks up the harboring place forever. If you would save these tender blossoms from the fangs of the worst of serpents, gentleman, you have neither time to lose nor resolution to throw away!” “How can such a wish be doubted! Have I not already offered—” “Offer your prayers to Him who can give us wisdom to circumvent the cunning of the devils who fill these woods,” calmly interrupted the scout, “but spare your offers of money, which neither you may live to realize, nor I to profit by.",
   "words": [
     {
-      "word": "waved",
+      "word": "yielding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harmless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

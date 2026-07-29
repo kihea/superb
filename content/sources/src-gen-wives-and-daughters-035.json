@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-wives-and-daughters-035",
+  "pool": "sourced",
+  "text": "Molly had never felt that Osborne was really dead till she heard those words. They rode quick under the shadows of the hedgerow trees, but when they slackened speed, to go up a brow, or to give their horses breath, Molly heard those two little words again in her ears; and said them over again to herself, in hopes of forcing the sharp truth into her unwilling sense. But when they came in sight of the square stillness of the house, shining in the moonlight--the moon had risen by this time--Molly caught at her breath, and for an instant she thought she never could go in, and face the presence in that dwelling. One yellow light burnt steadily, spotting the silver shining with its earthly coarseness. The man pointed it out: it was almost the first word he had spoken since they had left Hollingford.",
+  "words": [
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wives and Daughters",
+    "author": "Elizabeth Gaskell",
+    "year": 1866,
+    "source": "Project Gutenberg #4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

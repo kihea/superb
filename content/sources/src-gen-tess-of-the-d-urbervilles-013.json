@@ -1,10 +1,16 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-013",
   "pool": "sourced",
-  "text": "“O Angel—my mother says that it sometimes happens so!—she knows several cases where they were worse than I, and the husband has not minded it much—has got over it at least. And yet the woman had not loved him as I do you!” “Don’t, Tess; don’t argue. Different societies, different manners. You almost make me say you are an unapprehending peasant woman, who have never been initiated into the proportions of social things. You don’t know what you say.” “I am only a peasant by position, not by nature!” She spoke with an impulse to anger, but it went as it came.",
+  "text": "Well, William had to turn about and play on, willy-nilly; and ’twas only three o’clock in the world, and ’a knowed that nobody would come that way for hours, and he so leery and tired that ’a didn’t know what to do. When he had scraped till about four o’clock he felt that he verily would have to give over soon, and he said to himself, ‘There’s only this last tune between me and eternal welfare! Heaven save me, or I’m a done man.’ Well, then he called to mind how he’d seen the cattle kneel o’ Christmas Eves in the dead o’ night. It was not Christmas Eve then, but it came into his head to play a trick upon the bull. So he broke into the ’Tivity Hymm, just as at Christmas carol-singing; when, lo and behold, down went the bull on his bended knees, in his ignorance, just as if ’twere the true ’Tivity night and hour.",
   "words": [
     {
-      "word": "peasant",
+      "word": "kneel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carol",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

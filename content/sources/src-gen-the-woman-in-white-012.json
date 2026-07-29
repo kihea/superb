@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-woman-in-white-012",
   "pool": "sourced",
-  "text": "Our faith in Mr. Dawson revived. He appeared to be very confident about the case, and he assured Lady Glyde, when she spoke to him on the subject, that he would himself propose to send for a physician the moment he felt so much as the shadow of a doubt crossing his own mind. The only person among us who did not appear to be relieved by these words was the Countess. She said to me privately, that she could not feel easy about Miss Halcombe on Mr. Dawson’s authority, and that she should wait anxiously for her husband’s opinion on his return. That return, his letters informed her, would take place in three days’ time.",
+  "text": "None of the rooms are anything like so large and airy as our rooms at Limmeridge, but they all look pleasant to live in. I was terribly afraid, from what I had heard of Blackwater Park, of fatiguing antique chairs, and dismal stained glass, and musty, frouzy hangings, and all the barbarous lumber which people born without a sense of comfort accumulate about them, in defiance of the consideration due to the convenience of their friends. It is an inexpressible relief to find that the nineteenth century has invaded this strange future home of mine, and has swept the dirty “good old times” out of the way of our daily life. I dawdled away the morning—part of the time in the rooms downstairs, and part out of doors in the great square which is formed by the three sides of the house, and by the lofty iron railings and gates which protect it in front. A large circular fish-pond with stone sides, and an allegorical leaden monster in the middle, occupies the centre of the square.",
   "words": [
     {
-      "word": "revived",
+      "word": "antique",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "relieved",
+      "word": "accumulate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lofty",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-house-of-mirth-007",
   "pool": "sourced",
-  "text": "“Well, if it comes to that, I guess it’s mine as much as anybody’s,” she returned. Lily looked at her perplexedly. She was sure, now, that her visitor’s manner conveyed a threat; but, expert as she was in certain directions, there was nothing in her experience to prepare her for the exact significance of the present scene. She felt, however, that it must be ended as promptly as possible. “I don’t understand; if this parcel is not mine, why have you asked for me?” The woman was unabashed by the question.",
+  "text": "And she had no doubts as to the extent of her power. She knew that Mr. Gryce was of the small chary type most inaccessible to impulses and emotions. He had the kind of character in which prudence is a vice, and good advice the most dangerous nourishment. But Lily had known the species before: she was aware that such a guarded nature must find one huge outlet of egoism, and she determined to be to him what his Americana had hitherto been: the one possession in which he took sufficient pride to spend money on it. She knew that this generosity to self is one of the forms of meanness, and she resolved so to identify herself with her husband’s vanity that to gratify her wishes would be to him the most exquisite form of self-indulgence.",
   "words": [
     {
-      "word": "promptly",
+      "word": "generosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resolved",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

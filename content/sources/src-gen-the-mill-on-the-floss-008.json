@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-mill-on-the-floss-008",
   "pool": "sourced",
-  "text": "And Mr Stelling was convinced that a boy so stupid at signs and abstractions must be stupid at everything else, even if that reverend gentleman could have taught him everything else. It was the practice of our venerable ancestors to apply that ingenious instrument the thumb-screw, and to tighten and tighten it in order to elicit non-existent facts; they had a fixed opinion to begin with, that the facts were existent, and what had they to do but to tighten the thumb-screw? In like manner, Mr Stelling had a fixed opinion that all boys with any capacity could learn what it was the only regular thing to teach; if they were slow, the thumb-screw must be tightened,—the exercises must be insisted on with increased severity, and a page of Virgil be awarded as a penalty, to encourage and stimulate a too languid inclination to Latin verse. The thumb-screw was a little relaxed, however, during this second half-year. Philip was so advanced in his studies, and so apt, that Mr Stelling could obtain credit by his facility, which required little help, much more easily than by the troublesome process of overcoming Tom’s dulness.",
+  "text": "Aunt Pullet paused and unlocked a door which opened on something still more solemn than the passage,—a darkened room, in which the outer light, entering feebly, showed what looked like the corpses of furniture in white shrouds. Everything that was not shrouded stood with its legs upward. Lucy laid hold of Maggie’s frock, and Maggie’s heart beat rapidly. Aunt Pullet half-opened the shutter and then unlocked the wardrobe, with a melancholy deliberateness which was quite in keeping with the funereal solemnity of the scene. The delicious scent of rose-leaves that issued from the wardrobe made the process of taking out sheet after sheet of silver paper quite pleasant to assist at, though the sight of the bonnet at last was an anticlimax to Maggie, who would have preferred something more strikingly preternatural.",
   "words": [
     {
-      "word": "stimulate",
+      "word": "darkened",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "verse",
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

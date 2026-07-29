@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-anna-karenina-033",
+  "pool": "sourced",
+  "text": "Levin could not make out why the opposition was to ask the marshal to stand whom they wanted to supersede. Stepan Arkadyevitch, who had just been drinking and taking some lunch, came up to them in his uniform of a gentleman of the bedchamber, wiping his lips with a perfumed handkerchief of bordered batiste. “We are placing our forces,” he said, pulling out his whiskers, “Sergey Ivanovitch!” And listening to the conversation, he supported Sviazhsky’s contention. “One district’s enough, and Sviazhsky’s obviously of the opposition,” he said, words evidently intelligible to all except Levin. “Why, Kostya, you here too!",
+  "words": [
+    {
+      "word": "marshal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,18 +1,36 @@
 {
   "id": "src-gen-the-war-of-the-worlds-019",
   "pool": "sourced",
-  "text": "A jeweller’s window had been broken open in one place, but apparently the thief had been disturbed, and a number of gold chains and a watch lay scattered on the pavement. I did not trouble to touch them. Farther on was a tattered woman in a heap on a doorstep; the hand that hung over her knee was gashed and bled down her rusty brown dress, and a smashed magnum of champagne formed a pool across the pavement. She seemed asleep, but she was dead. The farther I penetrated into London, the profounder grew the stillness.",
+  "text": "One has to imagine, as well as one may, the fate of those batteries towards Esher, waiting so tensely in the twilight. Survivors there were none. One may picture the orderly expectation, the officers alert and watchful, the gunners ready, the ammunition piled to hand, the limber gunners with their horses and waggons, the groups of civilian spectators standing as near as they were permitted, the evening stillness, the ambulances and hospital tents with the burned and wounded from Weybridge; then the dull resonance of the shots the Martians fired, and the clumsy projectile whirling over the trees and houses and smashing amid the neighbouring fields. One may picture, too, the sudden shifting of the attention, the swiftly spreading coils and bellyings of that blackness advancing headlong, towering heavenward, turning the twilight to a palpable darkness, a strange and horrible antagonist of vapour striding upon its victims, men and horses near it seen dimly, running, shrieking, falling headlong, shouts of dismay, the guns suddenly abandoned, men choking and writhing on the ground, and the swift broadening-out of the opaque cone of smoke. And then night and extinction—nothing but a silent mass of impenetrable vapour hiding its dead.",
   "words": [
     {
-      "word": "thief",
+      "word": "twilight",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "heap",
+      "word": "expectation",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "permitted",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "swiftly",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dismay",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -21,7 +39,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,34 +1,28 @@
 {
   "id": "src-gen-the-scarlet-letter-007",
   "pool": "sourced",
-  "text": "Mother and daughter stood together in the same circle of seclusion from human society; and in the nature of the child seemed to be perpetuated those unquiet elements that had distracted Hester Prynne before Pearl’s birth, but had since begun to be soothed away by the softening influences of maternity. At home, within and around her mother’s cottage, Pearl wanted not a wide and various circle of acquaintance. The spell of life went forth from her ever-creative spirit, and communicated itself to a thousand objects, as a torch kindles a flame wherever it may be applied. The unlikeliest materials—a stick, a bunch of rags, a flower—were the puppets of Pearl’s witchcraft, and, without undergoing any outward change, became spiritually adapted to whatever drama occupied the stage of her inner world. Her one baby-voice served a multitude of imaginary personages, old and young, to talk withal.",
+  "text": "“Hester Prynne,” said the clergyman, “I have striven with my young brother here, under whose preaching of the Word you have been privileged to sit”—here Mr. Wilson laid his hand on the shoulder of a pale young man beside him—“I have sought, I say, to persuade this godly youth, that he should deal with you, here in the face of Heaven, and before these wise and upright rulers, and in hearing of all the people, as touching the vileness and blackness of your sin. Knowing your natural temper better than I, he could the better judge what arguments to use, whether of tenderness or terror, such as might prevail over your hardness and obstinacy, insomuch that you should no longer hide the name of him who tempted you to this grievous fall. But he opposes to me—with a young man’s over-softness, albeit wise beyond his years—that it were wronging the very nature of woman to force her to lay open her heart’s secrets in such broad daylight, and in presence of so great a multitude. Truly, as I sought to convince him, the shame lay in the commission of the sin, and not in the showing of it forth.",
   "words": [
     {
-      "word": "influences",
+      "word": "persuade",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "maternity",
+      "word": "prevail",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "torch",
+      "word": "daylight",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "rags",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "spiritually",
+      "word": "multitude",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-jane-eyre-016",
   "pool": "sourced",
-  "text": "Hannah had brought me some gruel and dry toast, about, as I supposed, the dinner-hour. I had eaten with relish: the food was good—void of the feverish flavour which had hitherto poisoned what I had swallowed. When she left me, I felt comparatively strong and revived: ere long satiety of repose and desire for action stirred me. I wished to rise; but what could I put on? Only my damp and bemired apparel; in which I had slept on the ground and fallen in the marsh.",
+  "text": "Blanche and Mary were of equal stature,—straight and tall as poplars. Mary was too slim for her height, but Blanche was moulded like a Dian. I regarded her, of course, with special interest. First, I wished to see whether her appearance accorded with Mrs. Fairfax’s description; secondly, whether it at all resembled the fancy miniature I had painted of her; and thirdly—it will out!—whether it were such as I should fancy likely to suit Mr. Rochester’s taste. As far as person went, she answered point for point, both to my picture and Mrs. Fairfax’s description.",
   "words": [
     {
-      "word": "relish",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "swallowed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wished",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "damp",
+      "word": "stature",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

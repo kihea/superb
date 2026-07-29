@@ -1,10 +1,34 @@
 {
   "id": "src-gen-war-and-peace-011",
   "pool": "sourced",
-  "text": "Let not a trace of you remain here!...” Prince Andrew wished to leave at once, but Princess Mary persuaded him to stay another day. That day he did not see his father, who did not leave his room and admitted no one but Mademoiselle Bourienne and Tíkhon, but asked several times whether his son had gone. Next day, before leaving, Prince Andrew went to his son’s rooms. The boy, curly-headed like his mother and glowing with health, sat on his knee, and Prince Andrew began telling him the story of Bluebeard, but fell into a reverie without finishing the story. He thought not of this pretty child, his son whom he held on his knee, but of himself.",
+  "text": "Can’t I go away from here, run away, bury myself somewhere?” passed through his mind. But just at moments when such thoughts occurred to him, he would ask in a particularly calm and absent-minded way, which inspired the respect of the onlookers, “Will it be long? Are things ready?” When all was ready, the sabers stuck in the snow to mark the barriers, and the pistols loaded, Nesvítski went up to Pierre. “I should not be doing my duty, Count,” he said in timid tones, “and should not justify your confidence and the honor you have done me in choosing me for your second, if at this grave, this very grave, moment I did not tell you the whole truth. I think there is no sufficient ground for this affair, or for blood to be shed over it.... You were not right, not quite in the right, you were impetuous...” “Oh yes, it is horribly stupid,” said Pierre.",
   "words": [
     {
-      "word": "glowing",
+      "word": "bury",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "minded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "timid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horribly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

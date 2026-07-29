@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-020",
   "pool": "sourced",
-  "text": "The conflict was brief; on your side, glorious. This mighty victory, having been achieved utterly without loss, stands without example in history. So long as the planets shall continue to move in their orbits, the Battle Of The Sand-Belt will not perish out of the memories of men. I read it well, and the applause I got was very gratifying to me. I then wound up with these remarks: “The war with the English nation, as a nation, is at an end.",
+  "text": "Now was the time to pile in the effects. I lifted my hands and groaned out this word--as it were in agony: “Nihilistendynamittheaterkaestchenssprengungsattentaetsversuchungen!” --and turned on the red fire! You should have heard that Atlantic of people moan and howl when that crimson hell joined the blue! After sixty seconds I shouted: “Transvaaltruppentropentransporttrampelthiertreibertrauungsthraenentrag- oedie!” --and lit up the green fire! After waiting only forty seconds this time, I spread my arms abroad and thundered out the devastating syllables of this word of words: “Mekkamuselmannenmassenmenchenmoerdermohrenmuttermarmormonumentenmacher!” --and whirled on the purple glare!",
   "words": [
     {
-      "word": "planets",
+      "word": "crimson",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sixty",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

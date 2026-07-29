@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-024",
+  "pool": "sourced",
+  "text": "If hereafter any highly cultured, poetical nation shall lure back to their birth-right, the merry May-day gods of old; and livingly enthrone them again in the now egotistical sky; in the now unhaunted hill; then be sure, exalted to Jove’s high seat, the great Sperm Whale shall lord it. Champollion deciphered the wrinkled granite hieroglyphics. But there is no Champollion to decipher the Egypt of every man’s and every being’s face. Physiognomy, like every other human science, is but a passing fable. If then, Sir William Jones, who read in thirty languages, could not read the simplest peasant’s face in its profounder and more subtle meanings, how may unlettered Ishmael hope to read the awful Chaldee of the Sperm Whale’s brow?",
+  "words": [
+    {
+      "word": "merry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "granite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "simplest",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "peasant",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "subtle",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

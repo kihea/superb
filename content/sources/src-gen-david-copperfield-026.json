@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-david-copperfield-026",
+  "pool": "sourced",
+  "text": "‘He is an excellent man, most exemplary in every way; and he pointed out to her that she ought, as a Christian, to reconcile herself to the sacrifice (especially as it was so uncertain), and to bear no uncharitable feeling towards me. As to myself, Copperfield, I give you my word, I felt a perfect bird of prey towards the family.’ ‘The sisters took your part, I hope, Traddles?’ ‘Why, I can’t say they did,’ he returned. ‘When we had comparatively reconciled Mrs. Crewler to it, we had to break it to Sarah. You recollect my mentioning Sarah, as the one that has something the matter with her spine?’ ‘Perfectly!’ ‘She clenched both her hands,’ said Traddles, looking at me in dismay; ‘shut her eyes; turned lead-colour; became perfectly stiff; and took nothing for two days but toast-and-water, administered with a tea-spoon.’ ‘What a very unpleasant girl, Traddles!’ I remarked. ‘Oh, I beg your pardon, Copperfield!’ said Traddles.",
+  "words": [
+    {
+      "word": "mentioning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

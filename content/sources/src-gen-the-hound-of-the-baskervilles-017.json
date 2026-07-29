@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-017",
   "pool": "sourced",
-  "text": "“How was that?” “This poor wretch was dressed in your clothes. I fear your servant who gave them to him may get into trouble with the police.” “That is unlikely. There was no mark on any of them, as far as I know.” “That’s lucky for him—in fact, it’s lucky for all of you, since you are all on the wrong side of the law in this matter. I am not sure that as a conscientious detective my first duty is not to arrest the whole household. Watson’s reports are most incriminating documents.” “But how about the case?” asked the baronet.",
+  "text": "A steep, boulder-sprinkled hill lay upon the right which had in bygone days been cut into a granite quarry. The face which was turned towards us formed a dark cliff, with ferns and brambles growing in its niches. From over a distant rise there floated a grey plume of smoke. “A moderate walk along this moor-path brings us to Merripit House,” said he. “Perhaps you will spare an hour that I may have the pleasure of introducing you to my sister.” My first thought was that I should be by Sir Henry’s side.",
   "words": [
     {
-      "word": "servant",
+      "word": "granite",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "detective",
+      "word": "cliff",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-005",
   "pool": "sourced",
-  "text": "Invisible things seemed watching me. I resolved to go back to the enclosure on the beach. I suddenly turned away and thrust myself violently, possibly even frantically, through the bushes, anxious to get a clear space about me again. I stopped just in time to prevent myself emerging upon an open space. It was a kind of glade in the forest, made by a fall; seedlings were already starting up to struggle for the vacant space; and beyond, the dense growth of stems and twining vines and splashes of fungus and flowers closed in again.",
+  "text": "Then I remembered distinctly all about it. That long-forgotten pamphlet came back with startling vividness to my mind. I had been a mere lad then, and Moreau was, I suppose, about fifty,—a prominent and masterful physiologist, well-known in scientific circles for his extraordinary imagination and his brutal directness in discussion. Was this the same Moreau? He had published some very astonishing facts in connection with the transfusion of blood, and in addition was known to be doing valuable work on morbid growths.",
   "words": [
     {
-      "word": "thrust",
+      "word": "pamphlet",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bushes",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vines",
+      "word": "transfusion",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

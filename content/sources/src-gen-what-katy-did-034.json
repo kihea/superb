@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-what-katy-did-034",
+  "pool": "sourced",
+  "text": "\"One of the infant class I am With little, easy lessons, set In a great book; the higher class Have harder ones than I, and yet I find mine hard, and can't restrain My tears while studying thus with Pain. \"There are two Teachers in the school, One has a gentle voice and low, And smiles upon her scholars, as She softly passes to and fro. Her name is Love; 'tis very plain She shuns the sharper teacher, Pain. \"Or so I sometimes think; and then, At other times, they meet and kiss, And look so strangely like, that I Am puzzled to tell how it is, Or whence the change which makes it vain To guess if it be--Love or Pain. \"They tell me if I study well, And learn my lessons, I shall be Moved upward to that higher class Where dear Love teaches constantly; And I work hard, in hopes to gain Reward, and get away from Pain.",
+  "words": [
+    {
+      "word": "infant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fro",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sharper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

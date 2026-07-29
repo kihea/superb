@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-022",
+  "pool": "sourced",
+  "text": "After those involuntary words—that if he were free he would have asked on his knees for her hand and her love—uttered at a moment when she was so strongly agitated, Pierre never spoke to Natásha of his feelings; and it seemed plain to her that those words, which had then so comforted her, were spoken as all sorts of meaningless words are spoken to comfort a crying child. It was not because Pierre was a married man, but because Natásha felt very strongly with him that moral barrier the absence of which she had experienced with Kurágin that it never entered her head that the relations between him and herself could lead to love on her part, still less on his, or even to the kind of tender, self-conscious, romantic friendship between a man and a woman of which she had known several instances. Before the end of the fast of St. Peter, Agraféna Ivánovna Belóva, a country neighbor of the Rostóvs, came to Moscow to pay her devotions at the shrines of the Moscow saints. She suggested that Natásha should fast and prepare for Holy Communion, and Natásha gladly welcomed the idea.",
+  "words": [
+    {
+      "word": "comforted",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "sorts",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

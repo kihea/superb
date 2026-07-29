@@ -1,0 +1,24 @@
+{
+  "id": "src-gen-robinson-crusoe-040",
+  "pool": "sourced",
+  "text": "I scarce knew in what manner to receive them, but found to draw ourselves in a close line was the only way; so we formed in a moment; but that we might not have too much interval, I ordered that only every other man should fire, and that the others, who had not fired, should stand ready to give them a second volley immediately, if they continued to advance upon us; and then that those that had fired at first should not pretend to load their fusees again, but stand ready, every one with a pistol, for we were all armed with a fusee and a pair of pistols each man; so we were, by this method, able to fire six volleys, half of us at a time; however, at present we had no necessity; for upon firing the first volley, the enemy made a full stop, being terrified as well with the noise as with the fire. Four of them being shot in the head, dropped; several others were wounded, and went bleeding off, as we could see by the snow.",
+  "words": [
+    {
+      "word": "volley",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

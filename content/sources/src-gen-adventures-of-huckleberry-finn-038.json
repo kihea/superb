@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-038",
+  "pool": "sourced",
+  "text": "The shirt was sent in early, in a pie, and every time a rat bit Jim he would get up and write a little in his journal whilst the ink was fresh; the pens was made, the inscriptions and so on was all carved on the grindstone; the bed-leg was sawed in two, and we had et up the sawdust, and it give us a most amazing stomach-ache. We reckoned we was all going to die, but didn’t. It was the most undigestible sawdust I ever see; and Tom said the same. But as I was saying, we’d got all the work done now, at last; and we was all pretty much fagged out, too, but mainly Jim. The old man had wrote a couple of times to the plantation below Orleans to come and get their runaway nigger, but hadn’t got no answer, because there warn’t no such plantation; so he allowed he would advertise Jim in the St. Louis and New Orleans papers; and when he mentioned the St. Louis ones it give me the cold shivers, and I see we hadn’t no time to lose.",
+  "words": [
+    {
+      "word": "carved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "advertise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

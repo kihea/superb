@@ -1,28 +1,46 @@
 {
   "id": "src-gen-jane-eyre-013",
   "pool": "sourced",
-  "text": "“I will run down to the gates: it is moonlight at intervals; I can see a good way on the road. He may be coming now, and to meet him will save some minutes of suspense.” The wind roared high in the great trees which embowered the gates; but the road as far as I could see, to the right hand and the left, was all still and solitary: save for the shadows of clouds crossing it at intervals as the moon looked out, it was but a long pale line, unvaried by one moving speck. A puerile tear dimmed my eye while I looked—a tear of disappointment and impatience; ashamed of it, I wiped it away. I lingered; the moon shut herself wholly within her chamber, and drew close her curtain of dense cloud: the night grew dark; rain came driving fast on the gale. “I wish he would come!",
+  "text": "Already it has done me good: my heart was a sort of charnel; it will now be a shrine.” “To speak truth, sir, I don’t understand you at all: I cannot keep up the conversation, because it has got out of my depth. Only one thing, I know: you said you were not as good as you should like to be, and that you regretted your own imperfection;—one thing I can comprehend: you intimated that to have a sullied memory was a perpetual bane. It seems to me, that if you tried hard, you would in time find it possible to become what you yourself would approve; and that if from this day you began with resolution to correct your thoughts and actions, you would in a few years have laid up a new and stainless store of recollections, to which you might revert with pleasure.” “Justly thought; rightly said, Miss Eyre; and, at this moment, I am paving hell with energy.” “Sir?” “I am laying down good intentions, which I believe durable as flint. Certainly, my associates and pursuits shall be other than they have been.” “And better?” “And better—so much better as pure ore is than foul dross.",
   "words": [
     {
-      "word": "moonlight",
+      "word": "shrine",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shadows",
+      "word": "comprehend",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "disappointment",
+      "word": "perpetual",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dense",
+      "word": "revert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "laying",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flint",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +51,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

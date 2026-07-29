@@ -1,10 +1,16 @@
 {
   "id": "src-gen-great-expectations-016",
   "pool": "sourced",
-  "text": "And I should be false and base if I did not tell you, whether it is acceptable to you or no, and whether you are inclined to give credence to it or no, that you deeply wrong both Mr. Matthew Pocket and his son Herbert, if you suppose them to be otherwise than generous, upright, open, and incapable of anything designing or mean.” “They are your friends,” said Miss Havisham. “They made themselves my friends,” said I, “when they supposed me to have superseded them; and when Sarah Pocket, Miss Georgiana, and Mistress Camilla were not my friends, I think.” This contrasting of them with the rest seemed, I was glad to see, to do them good with her. She looked at me keenly for a little while, and then said quietly,— “What do you want for them?” “Only,” said I, “that you would not confound them with the others.",
+  "text": "I informed him in exchange that my Christian name was Philip. “I don’t take to Philip,” said he, smiling, “for it sounds like a moral boy out of the spelling-book, who was so lazy that he fell into a pond, or so fat that he couldn’t see out of his eyes, or so avaricious that he locked up his cake till the mice ate it, or so determined to go a bird’s-nesting that he got himself eaten by bears who lived handy in the neighbourhood. I tell you what I should like. We are so harmonious, and you have been a blacksmith,—would you mind it?” “I shouldn’t mind anything that you propose,” I answered, “but I don’t understand you.” “Would you mind Handel for a familiar name? There’s a charming piece of music by Handel, called the Harmonious Blacksmith.” “I should like it very much.” “Then, my dear Handel,” said he, turning round as the door opened, “here is the dinner, and I must beg of you to take the top of the table, because the dinner is of your providing.” This I would not hear of, so he took the top, and I faced him.",
   "words": [
     {
-      "word": "quietly",
+      "word": "nesting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbourhood",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

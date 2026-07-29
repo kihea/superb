@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-034",
+  "pool": "sourced",
+  "text": "But Clara paused after every sentence to look about her; it was too beautiful for much letter writing. The breeze had sunk a little, and now only gently fanned her face and whispered lightly through the fir trees. Little winged insects hummed and danced around her in the clear air, and a great stillness lay over the far, wide, sunny pasture lands. Lofty and silent rose the high mountain peaks above her, and below lay the whole broad valley full of quiet peace. Only now and again the call of some shepherd-boy rang out through the air, and echo answered softly from the rocks.",
+  "words": [
+    {
+      "word": "lofty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "softly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

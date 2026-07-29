@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-030",
+  "pool": "sourced",
+  "text": "We knew that, because we had seen him at the window looking on to the court. The door of the room opens on to the end of the gallery, exactly facing the east window, at the extremity of the “right” gallery, where Rouletabille had placed Daddy Jacques, and commands an uninterrupted view of the gallery from end to end of the château. “That ‘off-turning’ gallery,” said Rouletabille, “I reserve for myself; when I tell you you’ll come and take your place here.” And he made me enter a little dark, triangular closet built in a bend of the wall, to the left of the door of Arthur Rance’s room. From this recess I could see all that occurred in the gallery as well as if I had been standing in front of Arthur Rance’s door, and I could watch that door, too. The door of the closet, which was to be my place of observation, was fitted with panels of transparent glass.",
+  "words": [
+    {
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "observation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

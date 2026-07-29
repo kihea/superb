@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-thirty-nine-steps-039",
+  "pool": "sourced",
+  "text": "But when I found myself in that neat hall the place mastered me. There were the golf-clubs and tennis-rackets, the straw hats and caps, the rows of gloves, the sheaf of walking-sticks, which you will find in ten thousand British homes. A stack of neatly folded coats and waterproofs covered the top of an old oak chest; there was a grandfather clock ticking; and some polished brass warming-pans on the walls, and a barometer, and a print of Chiltern winning the St Leger. The place was as orthodox as an Anglican church. When the maid asked me for my name I gave it automatically, and was shown into the smoking-room, on the right side of the hall.",
+  "words": [
+    {
+      "word": "caps",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "gloves",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "neatly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "year": 1915,
+    "source": "Project Gutenberg #558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

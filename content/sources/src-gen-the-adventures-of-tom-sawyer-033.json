@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-033",
+  "pool": "sourced",
+  "text": "My boys will be with them presently. I wish we had some sort of description of those rascals—’twould help a good deal. But you couldn’t see what they were like, in the dark, lad, I suppose?” “Oh yes; I saw them downtown and follered them.” “Splendid! Describe them—describe them, my boy!” “One’s the old deaf and dumb Spaniard that’s ben around here once or twice, and t’other’s a mean-looking, ragged—” “That’s enough, lad, we know the men! Happened on them in the woods back of the widow’s one day, and they slunk away.",
+  "words": [
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

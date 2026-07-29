@@ -1,12 +1,36 @@
 {
   "id": "src-gen-the-time-machine-012",
   "pool": "sourced",
-  "text": "Some way down the central vista was a little table of white metal, laid with what seemed a meal. The Morlocks at any rate were carnivorous! Even at the time, I remember wondering what large animal could have survived to furnish the red joint I saw. It was all very indistinct: the heavy smell, the big unmeaning shapes, the obscene figures lurking in the shadows, and only waiting for the darkness to come at me again! Then the match burnt down, and stung my fingers, and fell, a wriggling red spot in the blackness.",
+  "text": "Then, sobbing and raving in my anguish of mind, I went down to the great building of stone. The big hall was dark, silent, and deserted. I slipped on the uneven floor, and fell over one of the malachite tables, almost breaking my shin. I lit a match and went on past the dusty curtains, of which I have told you. “There I found a second great hall covered with cushions, upon which, perhaps, a score or so of the little people were sleeping.",
   "words": [
     {
-      "word": "shapes",
+      "word": "sobbing",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anguish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deserted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uneven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dusty",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +39,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },
