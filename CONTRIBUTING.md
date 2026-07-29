@@ -173,19 +173,14 @@ looks like in practice.
 
 ## Conventions
 
-<<<<<<< HEAD
 - Pull requests target `dev`, never `main`. Fill in the pull request template
   rather than deleting it — it asks what changed, what it looks like before and
   after, and what you ran to check.
-=======
-- Pull requests target `dev`, never `main`.
->>>>>>> main
 - `cargo fmt --all --check` and
   `cargo clippy --all-targets --all-features --locked -- -D warnings` must
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-<<<<<<< HEAD
 - Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
   be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
@@ -225,24 +220,13 @@ and no account to create.
 
 **Contributed passages and excerpts are CC0** under the provenance rules
 above, not MIT — content and code are separate throughout this project.
-=======
-- Code is MIT and content is CC0, and no GPL dependency can be accepted at
-  any tier.
-- Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in
-  `superb-core` requires a matching entry in `wire-roster.toml`, or the build
-  fails.
->>>>>>> main
 
 ---
 
 ## Proposing new features
 
-<<<<<<< HEAD
 You can propose a feature by opening an issue and picking the feature request
 form, which tags it for you. You can also submit passages
-=======
-You can propose a feature using issues, tagged with the feature label. You can also submit passages
->>>>>>> main
 in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context
 are approved and added to the engine sourcing. The submission of passages is intended to highlight
 intentional, high level, or sophisticated human-written literature.

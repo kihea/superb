@@ -282,7 +282,6 @@ pub struct LearnerState {
     /// [`LearnerState::theta_se`], and
     /// [`LearnerState::set_theta_and_information`].
     theta_information: f64,
-<<<<<<< HEAD
     /// How many pseudowords this learner has been shown, and how many of
     /// those they claimed to know. Together they are the over-claim rate
     /// [`crate::ability::overclaim_correction`] spends.
@@ -320,8 +319,6 @@ pub struct LearnerState {
     pseudowords_seen: u64,
     #[serde(default, skip_serializing_if = "is_zero")]
     pseudowords_overclaimed: u64,
-=======
->>>>>>> main
     /// Word id (opaque to this crate) to that word's record.
     pub words: BTreeMap<String, WordRecord>,
     /// Topic id (opaque to this crate) to what this reader has done with it.
@@ -332,7 +329,6 @@ pub struct LearnerState {
     pub topic_affinities: BTreeMap<String, TopicRecord>,
 }
 
-<<<<<<< HEAD
 /// `serde`'s `skip_serializing_if` wants a predicate over a reference; this
 /// is that predicate for the pseudoword counters, whose zero means "nothing
 /// has happened yet" rather than a measured zero.
@@ -340,8 +336,6 @@ fn is_zero(count: &u64) -> bool {
     *count == 0
 }
 
-=======
->>>>>>> main
 /// What one reader has done with one topic: how many passages about it they
 /// read to the end, and how many they left.
 ///
@@ -538,17 +532,13 @@ impl LearnerState {
             draw_count,
             theta,
             theta_information,
-<<<<<<< HEAD
             pseudowords_seen: 0,
             pseudowords_overclaimed: 0,
-=======
->>>>>>> main
             words,
             topic_affinities,
         }
     }
 
-<<<<<<< HEAD
     /// The learner's ability estimate: the raw θ the estimator maintains,
     /// less the over-claim correction the pseudoword counters have earned,
     /// clamped back into `[tuning.theta_min, tuning.theta_max]`.
@@ -622,15 +612,6 @@ impl LearnerState {
         }
     }
 
-=======
-    /// The learner's current ability estimate. Read-only outside this
-    /// module — see [`LearnerState::set_theta_and_information`] to change
-    /// it.
-    pub fn theta(&self) -> f64 {
-        self.theta
-    }
-
->>>>>>> main
     /// θ's raw accumulated Fisher information — how much evidence
     /// [`crate::ability::update_theta`] has folded into this estimate so
     /// far. Read-only outside this module; most callers want
@@ -750,11 +731,7 @@ mod theta_privacy_tests {
     fn accessors_agree_with_what_set_theta_and_information_wrote() {
         let tuning = Tuning::default();
         let mut state = LearnerState::new(0, 0, 0.0, 1.0, BTreeMap::new(), BTreeMap::new());
-<<<<<<< HEAD
         assert_eq!(state.theta_raw(), 0.0);
-=======
-        assert_eq!(state.theta(), 0.0);
->>>>>>> main
         assert_eq!(state.theta_information(), 1.0);
         assert_eq!(state.theta_se(), 1.0);
 
@@ -762,11 +739,7 @@ mod theta_privacy_tests {
             .set_theta_and_information(0.42, 4.0, &tuning)
             .expect("0.42 is inside the shipped theta range and 4.0 is strictly positive");
 
-<<<<<<< HEAD
         assert_eq!(state.theta_raw(), 0.42);
-=======
-        assert_eq!(state.theta(), 0.42);
->>>>>>> main
         assert_eq!(state.theta_information(), 4.0);
         assert_eq!(state.theta_se(), 0.5);
     }
@@ -790,11 +763,7 @@ mod theta_privacy_tests {
             })
         );
         // Refused, so nothing was written.
-<<<<<<< HEAD
         assert_eq!(state.theta_raw(), 0.0);
-=======
-        assert_eq!(state.theta(), 0.0);
->>>>>>> main
         assert_eq!(state.theta_information(), 1.0);
     }
 
@@ -813,11 +782,7 @@ mod theta_privacy_tests {
                 theta_information: -0.5
             })
         );
-<<<<<<< HEAD
         assert_eq!(state.theta_raw(), 0.0);
-=======
-        assert_eq!(state.theta(), 0.0);
->>>>>>> main
         assert_eq!(state.theta_information(), 1.0);
 
         let zero_result = state.set_theta_and_information(0.0, 0.0, &tuning);

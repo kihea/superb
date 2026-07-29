@@ -27,7 +27,6 @@
 //! - **Pseudoword pool** — ids only; a pseudoword carries no difficulty
 //!   (`ability::update_theta`'s own doc comment: "there is no difficulty for
 //!   one to be evaluated against").
-<<<<<<< HEAD
 //!
 //! **[`generate_real`] collapses the first two pools on purpose — see its own
 //! doc comment.** It exists for issue #35's real-corpus battery, where the
@@ -36,10 +35,6 @@
 //! to be a word the real content can actually reach.
 
 use std::collections::{BTreeMap, BTreeSet};
-=======
-
-use std::collections::BTreeMap;
->>>>>>> main
 
 use crate::rng::Rng;
 
@@ -131,7 +126,6 @@ pub fn generate(
     }
 }
 
-<<<<<<< HEAD
 /// Build a vocabulary over a fixed real-word population instead of inventing
 /// ids. Same borrowed logic `generate` uses for everything it *has* to
 /// invent — `true_difficulty` (no real difficulty exists for these words;
@@ -183,8 +177,6 @@ pub fn generate_real(
     }
 }
 
-=======
->>>>>>> main
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -235,7 +227,6 @@ mod tests {
             vocab.calibration[0].true_difficulty
         );
     }
-<<<<<<< HEAD
 
     #[test]
     fn generate_real_is_deterministic_from_its_seed() {
@@ -289,6 +280,4 @@ mod tests {
         assert!(harbour.sourced_eligible);
         assert!(!quay.sourced_eligible);
     }
-=======
->>>>>>> main
 }

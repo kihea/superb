@@ -94,29 +94,21 @@ impl Library {
     /// excerpts are available for a given due list is a real constraint rather
     /// than a formality — this is what stops the sourced pool from behaving
     /// like a composed pool with a multiplier attached.
-<<<<<<< HEAD
     ///
     /// `composed_count` and `sourced_count` default to [`COMPOSED_PASSAGES`]
     /// and [`SOURCED_EXCERPTS`] at every call site but one:
     /// `src/calibration.rs` varies `sourced_count` deliberately, to answer
     /// "what corpus size does the sourced share need," which is a question
     /// about the *library*, not about `sourced_preference`.
-=======
->>>>>>> main
     pub fn build(
         rng: &mut Rng,
         vocabulary: &Vocabulary,
         composed_cap: usize,
         sourced_cap: usize,
-<<<<<<< HEAD
         composed_count: usize,
         sourced_count: usize,
     ) -> Library {
         let composed = (0..composed_count)
-=======
-    ) -> Library {
-        let composed = (0..COMPOSED_PASSAGES)
->>>>>>> main
             .map(|index| Candidate {
                 id: format!("comp-{index:04}"),
                 pool: Pool::Composed,
@@ -148,11 +140,7 @@ impl Library {
             .map(|word| word.id.as_str())
             .collect();
 
-<<<<<<< HEAD
         let sourced = (0..sourced_count)
-=======
-        let sourced = (0..SOURCED_EXCERPTS)
->>>>>>> main
             .map(|index| {
                 let mut words: Vec<String> = Vec::new();
                 // Sample without replacement within one excerpt: a real

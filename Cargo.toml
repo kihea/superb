@@ -21,6 +21,5 @@ repository = "https://github.com/kihea/superb"
 serde = { version = "1", features = ["derive"] }
 proptest = "1"
 serde_json = { version = "1", features = ["float_roundtrip"] }
-serde_json = { version = "1", features = ["float_roundtrip"] }
 toml = "0.8"
 syn = { version = "2", features = ["full"] }

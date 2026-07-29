@@ -60,7 +60,6 @@ def best_gloss(existing: str | None, candidate_tags: list[str], candidate_glosse
     return existing if existing is not None else gloss
 
 
-<<<<<<< HEAD
 def redirect_target(sense: dict, tags: list[str]) -> str | None:
     """The lemma a `form-of` or `alt-of` sense points at, e.g. "shook" ->
     "shake" ("simple past of shake", tags ["form-of", "past"]).
@@ -119,13 +118,6 @@ def build(words: set[str], source) -> dict[str, str]:
     # stable within a snapshot) and never overwritten once set.
     redirect: dict[str, str] = {}
     for raw_line in source:
-=======
-def build(words: set[str], source) -> dict[str, str]:
-    result: dict[str, str] = {}
-    for raw_line in source:
-        if len(result) >= len(words):
-            break
->>>>>>> main
         line = raw_line.decode("utf-8", errors="ignore") if isinstance(raw_line, bytes) else raw_line
         line = line.strip()
         if not line:
@@ -137,7 +129,6 @@ def build(words: set[str], source) -> dict[str, str]:
         if entry.get("lang_code") != "en":
             continue
         word = entry.get("word", "")
-<<<<<<< HEAD
         # No early-exit on len(result) >= len(words): a word already holding
         # a substantive gloss from one homograph entry can still be
         # overridden by a redirect discovered in a later entry (see
@@ -216,17 +207,6 @@ def build(words: set[str], source) -> dict[str, str]:
         # `is_informative` already tolerates via its other two gating
         # signals); a wrong one corrupts a claim, which is item 5b's whole
         # subject.
-=======
-        if word not in words or word in result:
-            continue
-        if entry.get("pos") not in CONTENT_POS:
-            continue
-        for sense in entry.get("senses", []):
-            gloss = best_gloss(result.get(word), sense.get("tags", []), sense.get("glosses", []))
-            if gloss is not None:
-                result[word] = gloss
-                break
->>>>>>> main
     return result
 
 

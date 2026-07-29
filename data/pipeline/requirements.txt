@@ -1,7 +1,6 @@
 # Build-time only. Nothing here ships in the app; see data/MANIFEST.md for
 # the licence of every dataset these scripts touch.
 wordfreq==3.1.1
-<<<<<<< HEAD
 # Also covers content/scripts/validate_schema.py's import — pinned once here
 # since CI installs both requirements files together, not in
 # content/scripts/requirements.txt too.
@@ -10,6 +9,3 @@ jsonschema==4.26.0
 # dependency content/scripts/requirements.txt already carries for
 # check_classes.py's WordNet lookup — Apache-2.0, no new licence surface.
 nltk==3.9.1
-=======
-jsonschema==4.26.0
->>>>>>> main
