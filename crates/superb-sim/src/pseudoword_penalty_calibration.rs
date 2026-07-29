@@ -270,6 +270,17 @@ pub struct Calibration {
     /// zero) and reported both ways rather than silently excluded.
     pub calibrated_mean_bluffing_only: f64,
     pub max_fraction_bluffing_only: f64,
+    /// The same mean and spread, computed only over the "free" cells — bluff
+    /// rates where over-claiming happens (`bluff_rate > 0.0`) *and* the
+    /// estimate is not pinned against `theta_max` (`bluff_rate < 1.0`). At
+    /// `b = 1.0` every one of the 150 runs saturates the clamp regardless of
+    /// true θ, which is a different but structurally equal degeneracy to
+    /// `b = 0.0`'s (see `PSEUDOWORD-PENALTY.md`): a uniform raw signal
+    /// produces a uniform corrected value for any penalty, so that cell's
+    /// zero-crossing is an equation about the clamp and the grid's own
+    /// symmetry, not about the correction's dynamics.
+    pub calibrated_mean_free_cells: f64,
+    pub max_fraction_free_cells: f64,
 }
 
 /// Run the whole sweep: every bluff rate, every candidate penalty, every
@@ -329,12 +340,21 @@ pub fn generate() -> Calibration {
         .collect();
     let (calibrated_mean_bluffing_only, max_fraction_bluffing_only) = spread(&bluffing_only);
 
+    let free_cells: Vec<f64> = rows
+        .iter()
+        .filter(|row| row.bluff_rate > 0.0 && row.bluff_rate < 1.0)
+        .map(|row| row.calibrated().penalty)
+        .collect();
+    let (calibrated_mean_free_cells, max_fraction_free_cells) = spread(&free_cells);
+
     Calibration {
         rows,
         calibrated_mean_all,
         max_fraction_all,
         calibrated_mean_bluffing_only,
         max_fraction_bluffing_only,
+        calibrated_mean_free_cells,
+        max_fraction_free_cells,
     }
 }
 
@@ -467,13 +487,32 @@ pub fn to_markdown(calibration: &Calibration) -> String {
          which one governs the done clause's own one-sentence verdict is recorded as an open \
          question in `BRIEF-017`'s own UNRESOLVED block rather than decided here.\n\n",
     );
+    out.push_str(
+        "**`b = 1.0` is degenerate too, and for the mirror-image reason.** At `b = 1.0` raw θ̂ \
+         walks to `theta_max` (4.0) on every one of the 150 runs, regardless of true θ, seed, or \
+         session — the bluffer claims every pseudoword, so `overclaim_rate` is exactly `1.0` and \
+         the raw signal is pinned against the clamp before any correction is applied. The \
+         correction is then exactly `penalty × 1.0`, so the mean signed error is exactly `4.0 − \
+         penalty`, and it reaches zero at exactly `penalty = theta_max − mean(THETA_SWEEP) = 4.0 \
+         − 0.0 = 4.0` — this row's \"calibrated\" value would read `4.0` whatever the true answer \
+         were, because it is solving an equation about the clamp and the grid's own symmetry, not \
+         about the correction's dynamics. It is the low end of the cluster the Verdict section \
+         below quotes. The two degeneracies are mirror images of each other — at `b = 0.0` the \
+         term under test is multiplied by zero, at `b = 1.0` the quantity the correction is meant \
+         to recover is pinned against a wall — and neither could have answered the pre-registered \
+         question, both provable from algebra alone before any run.\n\n",
+    );
 
     out.push_str("## The pre-registered ±25% band\n\n");
     out.push_str(&format!(
         "**Including `b = 0.0`** (the brief's literal grid): mean calibrated penalty {:.4}, \
          largest deviation from that mean {:.1}% of it. {}\n\n\
          **Excluding `b = 0.0`** (only the bluff rates where over-claiming actually occurs): \
-         mean calibrated penalty {:.4}, largest deviation {:.1}% of it. {}\n\n",
+         mean calibrated penalty {:.4}, largest deviation {:.1}% of it. {}\n\n\
+         **Excluding both degenerate cells** (`b ∈ {{0.1, 0.25, 0.5, 0.75}}` — the only rates \
+         where over-claiming happens and the estimate is not pinned against the clamp): mean \
+         calibrated penalty {:.4}, largest deviation {:.1}% of it. {} This is the narrowest \
+         honest statement the sweep supports.\n\n",
         calibration.calibrated_mean_all,
         calibration.max_fraction_all * 100.0,
         if calibration.max_fraction_all <= BAND_FRACTION {
@@ -484,6 +523,13 @@ pub fn to_markdown(calibration: &Calibration) -> String {
         calibration.calibrated_mean_bluffing_only,
         calibration.max_fraction_bluffing_only * 100.0,
         if calibration.max_fraction_bluffing_only <= BAND_FRACTION {
+            "Inside the ±25% band."
+        } else {
+            "Outside the ±25% band."
+        },
+        calibration.calibrated_mean_free_cells,
+        calibration.max_fraction_free_cells * 100.0,
+        if calibration.max_fraction_free_cells <= BAND_FRACTION {
             "Inside the ±25% band."
         } else {
             "Outside the ±25% band."
@@ -505,27 +551,35 @@ pub fn to_markdown(calibration: &Calibration) -> String {
     out.push_str("## Verdict\n\n");
     out.push_str(&format!(
         "Read literally against the brief's own grid, `b = 0.0` included: {verdict}\n\n\
-         **That reading is driven almost entirely by the degenerate `b = 0.0` cell above, not by \
-         a real disagreement about the correction's shape.** Restricted to the bluff rates where \
-         over-claiming actually occurs (`b ∈ {{0.1, 0.25, 0.5, 0.75, 1.0}}`), the calibrated \
-         penalty clusters tightly — {:.1} to {:.1}, spread {:.1}% of its mean {:.4} — comfortably \
-         **inside** the ±25% band, at a value roughly fifteen times the incumbent `0.3`. Whether \
-         the degenerate cell should count toward the pre-registered check is not decided in this \
-         file; see BRIEF-017's own UNRESOLVED block.\n\n",
+         **That reading is driven almost entirely by the two degenerate cells above (`b = 0.0` \
+         and `b = 1.0`), not by a real disagreement about the correction's shape.** Restricted to \
+         the four bluff rates where over-claiming actually happens and the estimate is not pinned \
+         against the clamp (`b ∈ {{0.1, 0.25, 0.5, 0.75}}`), the calibrated penalty clusters \
+         tightly — {:.1} to {:.1}, spread {:.1}% of its mean {:.4} — comfortably **inside** the \
+         ±25% band, at a value roughly fifteen times the incumbent `0.3`. This section previously \
+         quoted a range whose floor, `4.0`, was supplied by the clamped `b = 1.0` cell; removing \
+         both degeneracies moves the estimate slightly up and tightens the spread by roughly four \
+         times, and the qualitative conclusion is unchanged precisely because four independent \
+         cells agree without either degenerate one. Whether the exclusions are permitted at all is \
+         not decided in this file — excluding cells after seeing a result is the same move as \
+         loosening a bar after seeing one, however good the algebra, so the architect has filed \
+         both readings for the next steer rather than settling it here; see BRIEF-017's own \
+         UNRESOLVED block and `workspace/steering/INPUT-2026-07-29-kihea-direction.md` question \
+         6.\n\n",
         calibration
             .rows
             .iter()
-            .filter(|row| row.bluff_rate > 0.0)
+            .filter(|row| row.bluff_rate > 0.0 && row.bluff_rate < 1.0)
             .map(|row| row.calibrated().penalty)
             .fold(f64::INFINITY, f64::min),
         calibration
             .rows
             .iter()
-            .filter(|row| row.bluff_rate > 0.0)
+            .filter(|row| row.bluff_rate > 0.0 && row.bluff_rate < 1.0)
             .map(|row| row.calibrated().penalty)
             .fold(f64::NEG_INFINITY, f64::max),
-        calibration.max_fraction_bluffing_only * 100.0,
-        calibration.calibrated_mean_bluffing_only,
+        calibration.max_fraction_free_cells * 100.0,
+        calibration.calibrated_mean_free_cells,
     ));
 
     out.push_str("## Watched red before green\n\n");
