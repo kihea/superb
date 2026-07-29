@@ -26,7 +26,36 @@ import pathlib
 
 HERE = pathlib.Path(__file__).parent
 RETRIEVED = "2026-07-25"
-LICENCE = "Public Domain (US, life+70 expired)"
+# The public-domain basis, stated as the rule that actually applies and
+# checked per work by data/pipeline/check_license_gate.py against the `year`
+# in each record -- so this is one string here but a claim tested 2,599 times
+# there, which is what ADR-008's "per work" asks for.
+#
+# It used to read "Public Domain (US, life+70 expired)", which was the wrong
+# rule twice over. US copyright runs 95 years from publication for works of
+# this era; life+70 applies to works created from 1978 onward. For most of
+# these the conclusion was right by accident, and for one it was not:
+# W. E. B. Du Bois died in 1963, so life+70 runs to 2033, and the excerpt from
+# The Souls of Black Folk stated a justification that has not happened for a
+# conclusion that is true anyway -- the book is public domain because it was
+# published in 1903. A provenance record exists to be checked by a stranger,
+# and that one did not survive being checked.
+#
+# If this string changes, change it in data/pipeline/excerpts.py too, and in
+# the gate's VERIFIABLE_PUBLIC_DOMAIN_BASES -- the gate rejects any basis it
+# does not know how to verify, so drift between the three fails CI rather than
+# passing quietly.
+#
+# NOTE, and read this before re-running: as of ADR-026 (53f52e9) this script
+# can no longer reproduce the files it nominally authors. That commit gave
+# every word a `signals` array and rewrote all 2,599 excerpts without
+# updating this table, so re-running here silently reverts the 60
+# hand-authored files to the old bare-string `words` shape. The licence
+# migration in this commit was therefore applied to the JSON directly, by
+# rewriting one field and re-serialising with the same writer this script
+# uses -- verified byte-identical on every untouched file first. Filed as
+# https://github.com/kihea/superb/issues/58.
+LICENCE = "Public Domain (US: published before 1929)"
 
 # ADR-022: the engine's topic-affinity table looks up a topic for every
 # passage id it finished or abandoned, sourced or composed alike, so these
