@@ -14,9 +14,12 @@ by definition.
 
 ## Status
 
-Early. The engine is being built before any interface exists, which is
-deliberate — the scheduling behaviour is the product, and it is provable
-without a screen.
+Early, and moving. The engine — word state, scheduler, ability estimate,
+passage composer — is built and proven by simulation before any interface
+uses it, which is deliberate: the scheduling behaviour is the product, and it
+is provable without a screen. A first reading screen now exists on the web,
+wired directly to the real, compiled engine. Nothing you see there yet is a
+finished product screen.
 
 ## Shape
 
@@ -24,10 +27,15 @@ One pure Rust engine, three thin shells, no server.
 
 - `crates/superb-core` — the engine. Word state machine, scheduler, ability
   estimator, passage composer. Pure: no clock, no RNG, no I/O. `now` and seeds
-  are parameters. This is the primary artifact.
+  are parameters. This is the primary artifact, built as one library so all
+  three shells can eventually run from the same decisions rather than three
+  reimplementations of them. It compiles to WebAssembly for the web app,
+  which exists today; Android and iOS binding to it is intended, not built
+  yet.
 - `crates/superb-sim` — headless simulator. Synthetic learners with known
   vocabularies, run over many sessions to prove the schedule converges.
-- `apps/web` — React + Vite PWA. First platform.
+- `apps/web` — React + Vite PWA. First platform, and the only one with code
+  in the repository so far.
 - `apps/android` — Jetpack Compose. Second.
 - `apps/ios` — SwiftUI. Third.
 - `data/` + `content/` — reference corpora, the composed passage library, and
@@ -46,6 +54,10 @@ hosted AI, never the ability to own two devices.
 
 ```sh
 cargo test -p superb-core     # the engine and its property tests
+```
+
+```sh
+cd apps/web && npm install && npm run dev     # the web reading screen
 ```
 
 More arrives as the milestones do.
@@ -81,14 +93,14 @@ on every commit.
 
 ## Contributing
 
-Not yet open; `CONTRIBUTING.md` lands before it is. When it does, the
-well-bounded lanes are passage and slot authoring, sourcing and citing
-public-domain excerpts, gloss rewrites, example-sentence curation, and
-phonetics edge cases.
+Open. See `CONTRIBUTING.md` for setup, tests, and conventions; bug reports
+and feature requests use the issue forms. The well-bounded lanes are passage
+and slot authoring, sourcing and citing public-domain excerpts, gloss
+rewrites, example-sentence curation, and phonetics edge cases.
 
 A contributed excerpt needs a complete, checkable citation and has to use its
 target vocabulary in genuinely informative context — where meaning can be
 inferred from the writing itself. That is the whole bar; it is also a higher
 bar than it sounds.
 
-Contributions will be DCO sign-off, not a CLA.
+Contributions are DCO sign-off (`git commit -s`), not a CLA.
