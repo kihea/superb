@@ -43,6 +43,32 @@
 //! `src/` (none does today) is invisible by the same construction that keeps
 //! this reading `src/` and not the compiled artifact.
 //!
+//! **A `macro_rules!` invocation that expands to a `#[derive(Serialize)]`
+//! struct declaration is a distinct blind spot from "an impl produced by a
+//! macro" above, found by PR #70's review (finding I-1) and not covered by
+//! that sentence** — the earlier line is about an *impl block* a macro
+//! produces; this is about a *struct or enum declaration, carrying its own
+//! derive attribute,* that only exists at the macro's expansion site. The
+//! invocation itself (`scratch_wire_struct!(Name);`) parses as `Item::Macro`
+//! with no struct or enum in it at all — `walk_items`'s `_ => {}` arm passes
+//! over it in silence, and the type it expands into, along with its derive,
+//! is never seen by a parser that only reads source, never expanded output.
+//! Genuinely expanding macros here — running the same expansion `rustc`
+//! would — is disproportionate to what this file otherwise costs: it would
+//! mean shelling out to `cargo expand` or embedding a macro interpreter, on
+//! every test run, for a blind spot with no known instance in this
+//! workspace. The floor taken instead is a second, cheaper mechanism rather
+//! than silence: `no_macro_rules_body_names_a_tracked_derive` below is a
+//! **tripwire, not a proof** — it reads every `macro_rules!` *definition*'s
+//! own body as text and fails if a tracked derive name sits beside the word
+//! `derive` in it, which is what a `#[derive(Serialize)]` inside an
+//! expansion template looks like as source, whether or not the macro is ever
+//! invoked. `MACRO_TRIPWIRE_ALLOWLIST` is the escape hatch for a macro that
+//! genuinely needs to write `derive` and a tracked name without expanding to
+//! a wire type — empty today, because no such macro exists in this
+//! workspace, and adding an entry is a one-line, reviewable admission that a
+//! human looked and the derive is not what it appears to name.
+//!
 //! It reads `src/` in the repository, not the compiled artifact. The honest
 //! statement of the guarantee is **default-deny against declaration-position
 //! items in every workspace member's own source** — not default-deny in the
@@ -256,6 +282,105 @@ fn workspace_member_src_dirs(metadata: &Value) -> Vec<(String, PathBuf)> {
             (name, src_dir)
         })
         .collect()
+}
+
+/// `(crate, macro name)` pairs a human has looked at and confirmed do not
+/// expand to a wire type despite a tracked derive name sitting beside
+/// `derive` in their body — empty, because no such macro exists in this
+/// workspace today. See this file's own module doc, "A `macro_rules!`
+/// invocation..." for what this tripwire is and is not.
+const MACRO_TRIPWIRE_ALLOWLIST: &[(&str, &str)] = &[];
+
+/// Every `macro_rules! name { .. }` *definition* found under `items`
+/// (recursing into `mod { .. }`, same as `walk_items`) whose own body text
+/// contains the word `derive` alongside one of `TRACKED_DERIVES` — a
+/// `#[derive(Serialize)]` written inside an expansion template reads exactly
+/// this way as source, whether or not the macro is ever invoked. Returns
+/// `(macro name, the matched derive name)` pairs, not yet filtered against
+/// the allow-list.
+fn macro_rules_naming_a_tracked_derive(items: &[Item], found: &mut Vec<(String, String)>) {
+    for item in items {
+        match item {
+            Item::Macro(item_macro) => {
+                // `macro_rules! name { .. }` parses as an item-position
+                // invocation of the path `macro_rules` — a regular macro
+                // invocation at item position (`scratch_wire_struct!(Name);`)
+                // has a different path and is not a definition to read the
+                // body of; there is nothing in it to read.
+                if !item_macro.mac.path.is_ident("macro_rules") {
+                    continue;
+                }
+                let Some(name) = &item_macro.ident else {
+                    continue; // a macro_rules! invocation always names itself; absent is not this shape.
+                };
+                let body = item_macro.mac.tokens.to_string();
+                if !body.contains("derive") {
+                    continue;
+                }
+                for derive in TRACKED_DERIVES {
+                    if body.contains(derive) {
+                        found.push((name.to_string(), derive.to_string()));
+                    }
+                }
+            }
+            Item::Mod(item_mod) => {
+                if let Some((_, inner_items)) = &item_mod.content {
+                    macro_rules_naming_a_tracked_derive(inner_items, found);
+                }
+            }
+            _ => {}
+        }
+    }
+}
+
+/// **A tripwire, not a proof** — see this file's own module doc for what it
+/// closes and what it does not. Every `macro_rules!` definition under every
+/// workspace member's `src/` whose body mentions `derive` beside a tracked
+/// derive name must be on `MACRO_TRIPWIRE_ALLOWLIST`, or this fails naming
+/// the crate and the macro.
+#[test]
+fn no_macro_rules_body_names_a_tracked_derive_without_being_allow_listed() {
+    let crate_root = Path::new(env!("CARGO_MANIFEST_DIR"));
+    let metadata = cargo_metadata(crate_root);
+    let members = workspace_member_src_dirs(&metadata);
+
+    let mut violations: Vec<String> = Vec::new();
+    for (crate_name, src_dir) in &members {
+        let mut source_files = Vec::new();
+        collect_rs_files(src_dir, &mut source_files);
+        source_files.sort();
+
+        for file in &source_files {
+            let source =
+                fs::read_to_string(file).unwrap_or_else(|e| panic!("read {}: {e}", file.display()));
+            let parsed = syn::parse_file(&source)
+                .unwrap_or_else(|e| panic!("{} does not parse as Rust: {e}", file.display()));
+            let mut found = Vec::new();
+            macro_rules_naming_a_tracked_derive(&parsed.items, &mut found);
+            for (macro_name, derive) in found {
+                if MACRO_TRIPWIRE_ALLOWLIST.contains(&(crate_name.as_str(), macro_name.as_str())) {
+                    continue;
+                }
+                violations.push(format!(
+                    "{crate_name}::{macro_name} (in {}) — body mentions \"derive\" beside \
+                     {derive:?}",
+                    file.display()
+                ));
+            }
+        }
+    }
+
+    assert!(
+        violations.is_empty(),
+        "macro_rules! definition(s) mention a tracked derive beside \"derive\" in their own \
+         body — this parser cannot see whether the expansion is a wire type, only that it \
+         could be (issue #33 / PR #70 review finding I-1). Confirm by hand whether the \
+         expansion is a wire type: if it is, give it a roster entry the ordinary way and \
+         understand this tripwire cannot verify that entry stays accurate as the macro \
+         changes; if it is not, add (crate, macro name) to MACRO_TRIPWIRE_ALLOWLIST with a \
+         one-line reason:\n{}",
+        violations.join("\n")
+    );
 }
 
 #[test]
