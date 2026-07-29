@@ -18,8 +18,8 @@ Early, and moving. The engine — word state, scheduler, ability estimate,
 passage composer — is built and proven by simulation before any interface
 uses it, which is deliberate: the scheduling behaviour is the product, and it
 is provable without a screen. A first reading screen now exists on the web,
-running against a stand-in for the real engine while that connection is
-finished. Nothing you see there yet is a finished product screen.
+wired directly to the real, compiled engine. Nothing you see there yet is a
+finished product screen.
 
 ## Shape
 
@@ -27,10 +27,11 @@ One pure Rust engine, three thin shells, no server.
 
 - `crates/superb-core` — the engine. Word state machine, scheduler, ability
   estimator, passage composer. Pure: no clock, no RNG, no I/O. `now` and seeds
-  are parameters. This is the primary artifact. It compiles to WebAssembly for
-  the web app and binds to Kotlin and Swift for the other two, so all three
-  shells run from the same decisions rather than three reimplementations of
-  them.
+  are parameters. This is the primary artifact, built as one library so all
+  three shells can eventually run from the same decisions rather than three
+  reimplementations of them. It compiles to WebAssembly for the web app,
+  which exists today; Android and iOS binding to it is intended, not built
+  yet.
 - `crates/superb-sim` — headless simulator. Synthetic learners with known
   vocabularies, run over many sessions to prove the schedule converges.
 - `apps/web` — React + Vite PWA. First platform, and the only one with code
