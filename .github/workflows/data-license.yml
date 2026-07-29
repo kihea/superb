@@ -10,9 +10,9 @@ name: data-license
 on:
   push:
     branches: [main]
-    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]
   pull_request:
-    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]
 
 concurrency:
   group: data-license-${{ github.ref }}
@@ -51,3 +51,12 @@ jobs:
 
       - name: Prove the licence gate fails on a broken fixture, then run it for real
         run: python data/pipeline/tests/test_check_license_gate.py
+
+      # ADR-028. The committed word-difficulty table is regenerated here and
+      # compared byte for byte, so a word added to a slot class without
+      # regenerating fails the build instead of shipping a word the app
+      # cannot rank. Also re-checks the mapping's measured claims: every word
+      # reachable inside the ability clamp, the ordering still the frequency
+      # ordering, and a fresh reader's band big enough to fill a passage.
+      - name: Difficulty table — regenerate, byte-diff, and re-check ADR-028's claims
+        run: python data/pipeline/tests/test_difficulty.py

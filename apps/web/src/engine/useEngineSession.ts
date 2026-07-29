@@ -5,7 +5,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { EnginePort, Passage, Request } from "./port";
 import { createWasmEngine } from "./wasmEngine";
-import { candidatesFor, resolve, topicsFor } from "../content/store";
+import { candidatesFor, difficultyOf, resolve, topicsFor } from "../content/store";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
 import {
   loadCurrentPassage,
@@ -47,14 +47,28 @@ async function fetchFrame(engine: EnginePort, request: Request, now: number, rec
     // construction, not by omission -- see candidatesFor's own comment and
     // tests/candidates-ranking.test.ts.
     const excluded = new Set(recent);
-    const content = await candidatesFor(excluded);
+    // The band is the engine's, computed from its own θ estimate; the shell
+    // reads it and answers, never widens it. ADR-028 is what makes an answer
+    // possible at all -- before it there was no mapping from a word to this
+    // scale, so these two numbers arrived and were thrown away.
+    const content = await candidatesFor(excluded, needs.bandLow, needs.bandHigh);
     return { kind: "Content" as const, content };
   }
   if (needs.kind === "PassageTopics") {
     const topics = await topicsFor(needs.passage);
     return { kind: "Topics" as const, topics };
   }
-  // ItemDifficulty is not needed by anything this build's screens ask for.
+  if (needs.kind === "ItemDifficulty") {
+    // The deck is not on screen in this build, so nothing asks for this
+    // today -- but the table ADR-028 generates answers it, and wiring it
+    // here now means the deck meets a working path rather than rediscovering
+    // issue #50 under a different name. A word the table does not know
+    // (a pseudoword, or a deck item outside the slot lexicon) answers
+    // Nothing, and superb-core falls back to the scale's neutral point.
+    const difficulty = await difficultyOf(needs.itemId);
+    if (difficulty === undefined) return { kind: "Nothing" as const };
+    return { kind: "ItemDifficulty" as const, difficulty };
+  }
   return { kind: "Nothing" as const };
 }
 
