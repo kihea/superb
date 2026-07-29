@@ -248,13 +248,29 @@ has. The source must be **Standard Ebooks**, **Project Gutenberg**, or
 can change under the citation. Any other source is a change to this file,
 never a contributor's judgment call.
 
+A sourced excerpt exists to carry a word in a context that actually teaches
+it — the surrounding sentence should let a reader who has never seen the
+word work out what it means, not just show the word used correctly. Only
+claim a word from the excerpt if the passage itself explains it; a word that
+merely appears in the excerpt, with nothing around it doing any teaching,
+does not belong in the claim list.
+
 The citation must state:
 
 - the work and its author
-- the year of the cited edition
+- **the year the work was first published** — not the year of the
+  Gutenberg/Standard Ebooks/Wikisource edition you retrieved it from. *Heart
+  of Darkness* is cited as `1899`, the year Conrad published it, never the
+  year its Project Gutenberg edition happened to be posted.
 - the edition or a stable URL
 - the public-domain basis
-- the exact excerpt boundaries
+- **the excerpt itself, quoted verbatim and as one continuous span from the
+  source.** That quoted text is what makes the excerpt's boundaries
+  checkable — there is no separate field for them, because a stranger
+  verifies a citation by searching the source for the exact words you
+  quoted. If you must leave part of a passage out, mark the gap rather than
+  joining the remaining pieces silently; an unmarked cut is a misquotation,
+  not a shorter citation.
 
 An excerpt without a checkable citation does not enter a build, whatever its
 quality.
