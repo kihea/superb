@@ -119,8 +119,24 @@ fn words_reach_automatic_in_a_small_positive_number_of_varied_context_encounters
     assert!(assertion.mode().is_some());
 }
 
-/// Assertion 3. The due list stays bounded: it never grows to cover the
-/// whole vocabulary, across every seed in the fixed sweep.
+/// Assertion 3. The due list stays bounded to a fraction of vocabulary,
+/// across every seed in the fixed sweep.
+///
+/// **Where the bound sits, and why it is not `reading_vocabulary_size`
+/// itself.** PR-21's review (ADVISORY-015's third addendum) found the old
+/// bound — `max_due < reading_vocabulary_size` — holds by construction,
+/// since the due list is drawn from a subset of the reading vocabulary, and
+/// measured that disabling ADR-015's backlog override (`backlog_override_due`
+/// 100000, `backlog_override_age_days` 3650) moves the peak from 60 of 240 to
+/// 84 of 240 without coming close to failing it. Re-measured here across the
+/// same three fixed seeds: shipped tuning peaks at {50, 59, 60} of 240 (max
+/// 60, 25% of vocabulary); with the override disabled it peaks at {80, 84,
+/// 80} (min 80, 33%). The two populations do not overlap, so the bound is set
+/// at 30% of vocabulary — `reading_vocabulary_size * 3 / 10`, 72 of 240 —
+/// which leaves shipped tuning 12 words of headroom and the disabled override
+/// 8 words over. (Second-half peaks equal full-run peaks in every seed here,
+/// so a non-growth condition over the run's back half would not separate the
+/// two tunings; only a fraction-of-vocabulary bound does.)
 #[test]
 fn the_due_list_stays_bounded_across_sixty_sessions() {
     let config = SimConfig::default();
@@ -129,11 +145,13 @@ fn the_due_list_stays_bounded_across_sixty_sessions() {
         .map(|&seed| simulation::run(seed, 0.0, &config))
         .collect();
     let assertion = Assertion3::from_outcomes(&outcomes, config.reading_vocabulary_size);
+    let bound = config.reading_vocabulary_size * 3 / 10;
 
     for run in &assertion.per_run {
         assert!(
-            run.max_due < config.reading_vocabulary_size,
-            "seed {}: due list reached {} of {} words — did not stay bounded",
+            run.max_due < bound,
+            "seed {}: due list reached {} of {} words (bound {bound}, 30% of vocabulary) — \
+             did not stay bounded",
             run.seed,
             run.max_due,
             config.reading_vocabulary_size
