@@ -64,6 +64,16 @@ CACHE_DIR = ROOT / "data" / "cache" / "gutenberg"
 FREQUENCY_PATH = ROOT / "data" / "out" / "frequency.json"
 GLOSSES_PATH = ROOT / "data" / "out" / "glosses.json"
 
+# The same basis string content/sources/_seed.py writes and
+# check_license_gate.py verifies against each record's own year. It used to
+# read "Public Domain (Project Gutenberg, US)" here and "Public Domain (US,
+# life+70 expired)" there, so the corpus asserted two different legal bases
+# for identically-situated works -- worse than either alone. Project
+# Gutenberg's clearance is why these texts were *available*; publication
+# before 1929 is why they are public domain, and the second is the one a
+# stranger can check against the year in the same record.
+PUBLIC_DOMAIN_BASIS = "Public Domain (US: published before 1929)"
+
 BAND_MIN_RANK = 5_000
 BAND_MAX_RANK = 25_000
 MIN_WORDS = 80
@@ -693,7 +703,7 @@ def process_book(
                 "year": entry["year"],
                 "source": source_name,
                 "url": url,
-                "licence": "Public Domain (Project Gutenberg, US)",
+                "licence": PUBLIC_DOMAIN_BASIS,
                 "retrieved": RETRIEVED,
             },
             "topic": entry["topic"],
