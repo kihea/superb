@@ -6,9 +6,13 @@ on:
     # at all: dev sat red for a day with the failing test merged and nothing
     # reporting it.
     branches: [main, dev]
-    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]
+    # wire-roster.toml moved to the workspace root when the roster went
+    # workspace-wide (issue #32) and stopped being covered by "crates/**".
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", "wire-roster.toml", ".github/workflows/core.yml"]
   pull_request:
-    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", ".github/workflows/core.yml"]
+    # wire-roster.toml moved to the workspace root when the roster went
+    # workspace-wide (issue #32) and stopped being covered by "crates/**".
+    paths: ["crates/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "deny.toml", "wire-roster.toml", ".github/workflows/core.yml"]
 
 concurrency:
   group: core-${{ github.ref }}

@@ -1,10 +1,27 @@
-//! Two checks on what `superb-core` is allowed to put on the wire.
+//! Two checks. The first is workspace-wide; the second is `superb-core`'s
+//! own.
 //!
-//! The first confirms `wire-roster.toml` and every `.rs` file under `src/`
-//! cannot disagree about which types carry a tracked derive or a
-//! hand-written impl of the trait a derive would have provided (ADR-016 D3,
-//! D4). Default-deny only holds if something checks it; this is that
-//! something.
+//! **The first** confirms `wire-roster.toml` (workspace root) and every
+//! `.rs` file under every workspace member's `src/` cannot disagree about
+//! which types carry a tracked derive or a hand-written impl of the trait a
+//! derive would have provided (ADR-016 D3, D4). Default-deny only holds if
+//! something checks it; this is that something.
+//!
+//! **Workspace-wide, not `superb-core`-only, since issue #32.** The roster
+//! used to scan `superb-core`'s own `src/` alone, on the strength of being
+//! the only crate that carried a tracked derive when it was written. That
+//! stopped being true the day `superb-wasm/src/wire.rs` grew its own
+//! camelCase mirror of the seam — eleven types, entirely outside the
+//! roster's field of view, disclosed and reviewed but not *enforced*. The
+//! member list is read from `cargo metadata`, never hand-maintained here:
+//! the whole failure mode issue #32 names is a second (and predictably, a
+//! third — `superb-ffi` is next) crate arriving with nobody having
+//! remembered to add its path to a list. A crate that is a workspace member
+//! is in scope by construction; there is no path to add.
+//!
+//! Because two crates are free to declare a type of the same simple name,
+//! the roster and the code are compared keyed on **`(crate, type)`**, not
+//! bare type name — `wire-roster.toml`'s own header explains why.
 //!
 //! This parses source with `syn` rather than scanning lines, so it sees a
 //! derive list `cargo fmt` wraps across lines, a type of any visibility in
@@ -21,17 +38,21 @@
 //! one level. An aliased import (`use serde::Serialize as Ser`) reads as an
 //! unrelated trait. Beyond the walk: an impl produced by a macro this parser
 //! does not expand, `#[serde(remote = "...")]`, a blanket impl arriving from
-//! another crate, and anything `build.rs` generates.
+//! another crate, and anything `build.rs` generates. And new with the
+//! workspace-wide walk: a `[[bin]]` or example living outside a member's
+//! `src/` (none does today) is invisible by the same construction that keeps
+//! this reading `src/` and not the compiled artifact.
 //!
 //! It reads `src/` in the repository, not the compiled artifact. The honest
 //! statement of the guarantee is **default-deny against declaration-position
-//! items in this crate's own source** — not default-deny in the absolute
-//! sense, and not yet default-deny over all of its source.
+//! items in every workspace member's own source** — not default-deny in the
+//! absolute sense.
 //!
-//! The second confirms the crate's *runtime* dependency graph — a different
-//! and wider-reaching kind of promise — has not grown past what `serde`,
-//! `toml`, and `serde_json` themselves require (engine-contract §1, CLAUDE.md
-//! law 2).
+//! **The second** confirms `superb-core`'s *runtime* dependency graph — a
+//! different and wider-reaching kind of promise, and one that has no reason
+//! to generalize to every crate the way the roster does — has not grown past
+//! what `serde`, `toml`, and `serde_json` themselves require (engine-contract
+//! §1, CLAUDE.md law 2).
 
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs;
@@ -162,10 +183,11 @@ fn walk_items(items: &[Item], found: &mut BTreeMap<String, BTreeSet<String>>) {
 }
 
 /// `wire-roster.toml`, deserialized against its own schema — every entry
-/// requires `name`, `tier`, `derives`, `consumer` and `authorized_by`, `note`
-/// is optional, no other field is accepted, and `tier` is one of exactly two
-/// values. A roster that does not match this schema fails here rather than
-/// silently keeping only the two fields the comparison below reads.
+/// requires `name`, `crate`, `tier`, `derives`, `consumer` and
+/// `authorized_by`, `note` is optional, no other field is accepted, and
+/// `tier` is one of exactly two values. A roster that does not match this
+/// schema fails here rather than silently keeping only the fields the
+/// comparison below reads.
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
 struct Roster {
@@ -177,6 +199,8 @@ struct Roster {
 #[serde(deny_unknown_fields)]
 struct RosterEntry {
     name: String,
+    #[serde(rename = "crate")]
+    crate_name: String,
     #[allow(dead_code)] // read by the schema check; the comparison below does not need it
     tier: Tier,
     derives: Vec<String>,
@@ -196,58 +220,131 @@ enum Tier {
     Boundary,
 }
 
+/// Every workspace member's package name and the absolute path to its
+/// `src/` directory, read from `cargo metadata` rather than a list this file
+/// would have to keep in sync with `Cargo.toml` by hand (issue #32's own
+/// discharge condition: "the scan must be derived from the workspace
+/// members"). `workspace_members` names the packages; `packages[].manifest_path`
+/// gives each one's `Cargo.toml`, whose parent directory is the crate root.
+fn workspace_member_src_dirs(metadata: &Value) -> Vec<(String, PathBuf)> {
+    let member_ids: BTreeSet<&str> = metadata["workspace_members"]
+        .as_array()
+        .expect("metadata has a workspace_members array")
+        .iter()
+        .map(|id| id.as_str().expect("workspace member id is a string"))
+        .collect();
+
+    metadata["packages"]
+        .as_array()
+        .expect("metadata has a packages array")
+        .iter()
+        .filter(|package| {
+            member_ids.contains(package["id"].as_str().expect("package id is a string"))
+        })
+        .map(|package| {
+            let name = package["name"]
+                .as_str()
+                .expect("package name is a string")
+                .to_string();
+            let manifest_path = package["manifest_path"]
+                .as_str()
+                .expect("manifest_path is a string");
+            let src_dir = Path::new(manifest_path)
+                .parent()
+                .expect("Cargo.toml has a parent directory")
+                .join("src");
+            (name, src_dir)
+        })
+        .collect()
+}
+
 #[test]
 fn wire_roster_matches_the_code_exactly() {
     let crate_root = Path::new(env!("CARGO_MANIFEST_DIR"));
+    let metadata = cargo_metadata(crate_root);
+    let members = workspace_member_src_dirs(&metadata);
+    assert!(
+        members.len() >= 2,
+        "expected at least superb-core and one sibling crate in the workspace, found {}: this \
+         check's whole point is scanning more than one crate",
+        members.len()
+    );
 
-    let mut source_files = Vec::new();
-    collect_rs_files(&crate_root.join("src"), &mut source_files);
-    source_files.sort();
-    assert!(!source_files.is_empty(), "src/ has no .rs files to check");
+    // Keyed on (crate, type name), not bare type name — two crates are free
+    // to declare a type of the same simple name, and merging them under one
+    // key would let one crate's roster entry silently cover another's type.
+    let mut code: BTreeMap<(String, String), BTreeSet<String>> = BTreeMap::new();
+    for (crate_name, src_dir) in &members {
+        let mut source_files = Vec::new();
+        collect_rs_files(src_dir, &mut source_files);
+        source_files.sort();
+        assert!(
+            !source_files.is_empty(),
+            "{crate_name}'s src/ ({}) has no .rs files to check",
+            src_dir.display()
+        );
 
-    let mut code: BTreeMap<String, BTreeSet<String>> = BTreeMap::new();
-    for file in &source_files {
-        let source =
-            fs::read_to_string(file).unwrap_or_else(|e| panic!("read {}: {e}", file.display()));
-        let parsed = syn::parse_file(&source)
-            .unwrap_or_else(|e| panic!("{} does not parse as Rust: {e}", file.display()));
-        walk_items(&parsed.items, &mut code);
+        let mut found: BTreeMap<String, BTreeSet<String>> = BTreeMap::new();
+        for file in &source_files {
+            let source =
+                fs::read_to_string(file).unwrap_or_else(|e| panic!("read {}: {e}", file.display()));
+            let parsed = syn::parse_file(&source)
+                .unwrap_or_else(|e| panic!("{} does not parse as Rust: {e}", file.display()));
+            walk_items(&parsed.items, &mut found);
+        }
+        for (type_name, derives) in found {
+            code.insert((crate_name.clone(), type_name), derives);
+        }
     }
 
-    let roster_source =
-        fs::read_to_string(crate_root.join("wire-roster.toml")).expect("read wire-roster.toml");
+    // `workspace_root` comes from the same `cargo metadata` call as the
+    // member list above, not a hand-counted `../..` — the crate's own
+    // nesting depth under `crates/` is exactly the kind of assumption issue
+    // #32 exists to stop encoding by hand.
+    let workspace_root = metadata["workspace_root"]
+        .as_str()
+        .expect("metadata has a workspace_root string");
+    let roster_source = fs::read_to_string(Path::new(workspace_root).join("wire-roster.toml"))
+        .expect("read wire-roster.toml at the workspace root");
     let roster: Roster = toml::from_str(&roster_source).unwrap_or_else(|e| {
         panic!(
-            "wire-roster.toml does not match its schema (name, tier, derives, consumer, \
+            "wire-roster.toml does not match its schema (name, crate, tier, derives, consumer, \
              authorized_by required; note optional; tier is \"durable\" or \"boundary\"; no \
              unknown fields): {e}"
         )
     });
 
-    let listed: BTreeMap<String, BTreeSet<String>> = roster
+    let listed: BTreeMap<(String, String), BTreeSet<String>> = roster
         .entries
         .iter()
-        .map(|entry| (entry.name.clone(), entry.derives.iter().cloned().collect()))
+        .map(|entry| {
+            (
+                (entry.crate_name.clone(), entry.name.clone()),
+                entry.derives.iter().cloned().collect(),
+            )
+        })
         .collect();
 
-    for (name, derives) in &code {
-        match listed.get(name) {
+    for ((crate_name, type_name), derives) in &code {
+        match listed.get(&(crate_name.clone(), type_name.clone())) {
             None => panic!(
-                "{name} carries a tracked derive or impl {derives:?} somewhere under src/ but \
-                 has no entry in wire-roster.toml"
+                "{crate_name}::{type_name} carries a tracked derive or impl {derives:?} \
+                 somewhere under its src/ but has no entry in wire-roster.toml"
             ),
             Some(listed_derives) => assert_eq!(
                 derives, listed_derives,
-                "{name}: src/ carries {derives:?} but wire-roster.toml lists {listed_derives:?}"
+                "{crate_name}::{type_name}: src/ carries {derives:?} but wire-roster.toml lists \
+                 {listed_derives:?}"
             ),
         }
     }
 
-    for name in listed.keys() {
+    for (crate_name, type_name) in listed.keys() {
         assert!(
-            code.contains_key(name),
-            "wire-roster.toml lists {name}, but nothing under src/ carries a tracked derive or \
-             impl for it — remove the entry or restore the derive"
+            code.contains_key(&(crate_name.clone(), type_name.clone())),
+            "wire-roster.toml lists {crate_name}::{type_name}, but nothing under {crate_name}'s \
+             src/ carries a tracked derive or impl for it — remove the entry or restore the \
+             derive"
         );
     }
 }
