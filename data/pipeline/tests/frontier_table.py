@@ -51,7 +51,17 @@ def survives(word: str, text: str, glosses: dict, rank: dict, floor: int) -> tup
     and moving a floor that structural signals don't need would misattribute
     the frontier to a mechanism the diagnosis never implicated."""
     ok, reason = ex.is_informative(word, text, glosses)
-    if not ok or reason != "gloss-overlap" or floor <= 0:
+    # `is_informative` returns every gating signal that fired, as a list
+    # (ADR-026, checked regardless of a co-firing trusted signal), not the
+    # single string this comparison originally assumed -- unrelated to
+    # corpus size, this line has silently never matched since ADR-026
+    # landed, which disabled the floor sweep below at every floor above 0
+    # (confirmed: it produces identical rows for every floor without this
+    # fix). A claim survives the floor check only when gloss-overlap is its
+    # *sole* fired signal -- if apposition or definition-marker also fired,
+    # it is untouched at every floor, matching this function's own
+    # docstring.
+    if not ok or reason != ["gloss-overlap"] or floor <= 0:
         return ok, reason
     gloss = glosses.get(word.lower())
     if not gloss:
@@ -108,7 +118,13 @@ def corpus_claims() -> list[dict]:
             continue
         doc = json.loads(path.read_text(encoding="utf-8"))
         for w in doc.get("words", []):
-            claims.append({"word": w, "text": doc["text"]})
+            # ADR-026's schema stores each claim as {"word": ..., "signals":
+            # [...]}, not a bare string -- unrelated to corpus size, this
+            # script has never read that shape correctly (confirmed: it
+            # crashes the same way against the corpus as it stood the day
+            # FRONTIER-TABLE.md was first generated, commit 2b49451).
+            word = w["word"] if isinstance(w, dict) else w
+            claims.append({"word": word, "text": doc["text"]})
     return claims
 
 
