@@ -16,6 +16,19 @@
 // Run after `cargo build -p superb-wasm --target wasm32-unknown-unknown
 // --release` and `wasm-bindgen --target nodejs --out-dir pkg ...` have
 // produced `../pkg/superb_wasm.js` — see `.github/workflows/wasm.yml`.
+//
+// ADR-030: a fixture header now names its request one of two ways —
+// `event` alone (every vector committed before the ADR, meaning
+// `ProcessEvent`) or `request: "NEXT_PASSAGE"` with no `event` (meaning
+// `Request::NextPassage`). `nativeHeaderToWireRequest` below is this file's
+// own translation of that choice, independently re-derived from
+// `golden_vectors.rs`'s `Header::header_request` rather than imported, for
+// the same reason every other translator here is hand-written: a bug in one
+// side's translation must not be able to cancel out against the same bug in
+// the other. This is also the first test in this file that ever exercises
+// `nativeContentFrameToWire` and the `"PassageComposed"` arm below — both
+// were written for the seam and, before ADR-030's fixture existed, never
+// once executed.
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -47,6 +60,19 @@ function nativeEventToWire(event) {
     default:
       throw new Error(`golden.test.mjs: unknown native Event tag ${tag}`);
   }
+}
+
+function nativeHeaderToWireRequest(header) {
+  if (header.request === "NEXT_PASSAGE") {
+    if (header.event !== undefined) {
+      throw new Error("golden.test.mjs: header names both request and event");
+    }
+    return { kind: "NextPassage" };
+  }
+  if (header.event === undefined) {
+    throw new Error("golden.test.mjs: header names neither request nor event");
+  }
+  return { kind: "ProcessEvent", event: nativeEventToWire(header.event) };
 }
 
 function nativeFrameToWire(frame) {
@@ -124,7 +150,7 @@ for (const file of goldenFiles) {
     const document = JSON.stringify({ v: 1, ...header.initial_state });
     engine.load(document);
 
-    const wireRequest = { kind: "ProcessEvent", event: nativeEventToWire(header.event) };
+    const wireRequest = nativeHeaderToWireRequest(header);
     const wireFrame = nativeFrameToWire(header.frame);
 
     const actualEffects = engine.decide(wireRequest, wireFrame, header.now);
