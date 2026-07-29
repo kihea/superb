@@ -74,6 +74,18 @@ def pipeline_normalized(raw: str) -> str:
     """
     body = pipeline.strip_boilerplate(raw)
     body = pipeline.strip_chapter_headings(body)
+    # strip_boilerplate's own italic-markup pass is deliberately tight
+    # (`ITALIC_SPAN_MAX_BODY`, 200 characters) to guard against an unpaired
+    # underscore swallowing a whole chapter at the book-wide level — but the
+    # pipeline also runs a second, looser pass per finished window
+    # (`ITALIC_SPAN_MAX_WINDOW`), which is the pass that actually guarantees
+    # no markup reaches a shipped excerpt (see excerpts.py's own comment).
+    # Applying only the tight pass here would compare a shipped excerpt
+    # (markup-free) against a normalized source that still carries a longer
+    # paired span, misreporting a real match as a gap. Re-running the looser
+    # pass keeps this instrument's normalization a genuine superset of what
+    # the pipeline can emit.
+    body = pipeline.strip_italic_markup(body, pipeline.ITALIC_SPAN_MAX_WINDOW)
     body = unicodedata.normalize("NFKC", body)
     return ws(body)
 

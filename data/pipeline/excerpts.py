@@ -157,6 +157,36 @@ def fetch_book(gutenberg_id: int) -> str:
     return text
 
 
+# Gutenberg's plain-text convention marks italics/emphasis with underscores
+# (_casa_, _haute noblesse_). Left in, they survive as literal underscores in
+# what is supposed to be clean reading prose — content/scripts/check_sources.py's
+# own word-boundary check caught this indirectly (an underscore is a \w
+# character, so `_casa_` never satisfies \bcasa\b). `strip_italic_markup`
+# keeps the text, drops the markup, and matches across newlines (the
+# emphasised span can itself be line-wrapped: "_haute\n\nnoblesse_").
+#
+# Two different caps, because the risk they guard against is different at
+# each call site. Book-wide (`strip_boilerplate`), an unpaired stray
+# underscore could otherwise swallow everything up to the next one, possibly
+# an entire chapter — 200 characters is deliberately tight there. A finished
+# window (`process_book`) is already bounded to 80-200 words by construction
+# (`MAX_WORDS`), so the same runaway-match risk does not exist: the whole
+# window is at most a few hundred words, meaning a legitimately-paired
+# italic span can be nearly the length of the window itself. The tight
+# book-wide cap alone was found to let a genuinely-paired ~300-character
+# italic span survive uncut into a shipped excerpt
+# (src-gen-the-mysterious-affair-at-styles-037, PR #64 review) — the second,
+# looser pass at the window level is what actually guarantees no underscore
+# markup reaches reader-facing text, regardless of how long the span was in
+# the source.
+ITALIC_SPAN_MAX_BODY = 200
+ITALIC_SPAN_MAX_WINDOW = 2_000  # comfortably above any 80-200 word window
+
+
+def strip_italic_markup(text: str, max_span: int) -> str:
+    return re.sub(rf"_([^_]{{1,{max_span}}})_", r"\1", text)
+
+
 def strip_boilerplate(raw: str) -> str:
     """Cut Gutenberg's licence header/footer, leaving the book itself."""
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
@@ -171,17 +201,7 @@ def strip_boilerplate(raw: str) -> str:
     # rather than risk it surviving into a window's text.
     body = re.sub(r"\[[^\]]{0,120}\]", " ", body)
     body = re.sub(r"[\[\]]", " ", body)
-    # Gutenberg's plain-text convention marks italics/emphasis with
-    # underscores (_casa_, _haute noblesse_). Left in, they survive as
-    # literal underscores in what is supposed to be clean reading prose —
-    # content/scripts/check_sources.py's own word-boundary check caught
-    # this indirectly (an underscore is a \w character, so `_casa_` never
-    # satisfies \bcasa\b). Keep the text, drop the markup. The emphasised
-    # span can itself be line-wrapped ("_haute\n\nnoblesse_"), so this
-    # matches across newlines too — capped at 200 chars so an unpaired
-    # stray underscore later in the same chapter can't swallow everything
-    # between it and the next one.
-    body = re.sub(r"_([^_]{1,200})_", r"\1", body)
+    body = strip_italic_markup(body, ITALIC_SPAN_MAX_BODY)
     return body
 
 
@@ -726,6 +746,10 @@ def process_book(
     start = find_body_start(body)
     body = strip_chapter_headings(body[start:])
     windows = windows_from_book(body)
+    # A second, looser italic-markup pass per finished window — see
+    # `strip_italic_markup`'s docstring comment for why the book-wide cap in
+    # `strip_boilerplate` is not enough on its own.
+    windows = [strip_italic_markup(w, ITALIC_SPAN_MAX_WINDOW) for w in windows]
 
     # Collect every surviving window first, then — if there are more than
     # the cap — take an evenly spaced sample across the whole book rather

@@ -1,5 +1,13 @@
 # The precision/coverage frontier table
 
+**Corpus size note, 2026-07-28.** The sourced corpus was regenerated and
+grew after the figures below were measured (2,599 excerpts here; 5,096 as
+of the corpus-repair PR that added this note). The coverage figures in this
+file — the census over "the full, current 2,599-excerpt corpus" — were
+measured against the smaller corpus and have not been re-run since. The
+precision figures (the hand-judged sample) do not depend on corpus size and
+are unaffected.
+
 ADVISORY-010 SS2's ruling on M2 item 5b: a bare precision floor "is a
 coverage decision wearing a precision costume" — stating one number
 silently picks how much of the teaching band gets discarded, and nobody had
