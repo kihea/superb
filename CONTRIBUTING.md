@@ -2,16 +2,15 @@
 
 Welcome, and thank you for your interest in contributing to Superb!
 
-**One thing before anything else: the person reading comes first, and you come
-second.** That is not politeness — it decides pull requests. Superb is a
+**We prioritize the user experience, both for the person reading and the person contributing.** Superb is a
 vocabulary app that never admits it is teaching, so a change that makes the
 project nicer to work on but puts one number, one badge or one explanation in
 front of a reader is rejected, and a change that makes your life harder while
 leaving the reading surface silent is the one that gets merged.
 
-In practice that means a few things you would not guess from the code:
+In practice we generally opt for these rules:
 
-- **The surface never explains itself.** No review queue, no streak, no level,
+- **The surface never explains itself.** No review queue, no level,
   no score, no congratulation, and no numbers facing the reader outside
   Settings. Target words are never marked. If a feature has to be explained to
   a reader, it is wrong by definition, however well it is built.
@@ -53,7 +52,6 @@ This project is governed by the principles of education for all. Meaning, anythi
 cost to supply doesn't cost to the user. The architecture is outlined below:
 ```
 superb/                      PRIVATE · the working root
-├─ CLAUDE.md                     project constitution — read first
 │
 └─ app/  ──────────▶  PUBLIC · source-available · github.com/kihea/superb
    │                             a git submodule. everything a person needs to
@@ -158,7 +156,9 @@ the planned shape, not a directory you can clone and open yet.
 ## Testing
 
 Testing should be built into your contributions. A test lands in the same
-commit as the behaviour it covers.
+commit as the behaviour it covers. Try not to go too crazy though, I understand
+how tenacious tests can get with modern LLMs, the goal is polished and complete
+features, not a laundry list of code funneled through an array of tests.
 
 - `cargo test -p superb-core` — the engine and its property tests.
 - `cargo test --workspace --all-features --locked` — the full suite, exactly
