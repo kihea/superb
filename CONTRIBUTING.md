@@ -202,7 +202,8 @@ free. What you may not do is sell it, or sell a product or service whose value
 comes substantially from it. The full text is in `LICENSE`, and the reasoning
 is in the project's decision record.
 
-The **content** is different, and it splits three ways.
+The **content** is different, and what decides is not who typed it — it is whose
+work it came from. It splits three ways.
 
 - **What you write from nothing** — a passage, a slot class — is CC0,
   dedicated to the public domain. Attribution is encouraged and never required.
