@@ -1,5 +1,7 @@
-// Renders the landing page. Two variants only differ in which opening
-// statistic leads the facts section (job 5) — everything else is shared.
+// Renders the landing page. One page now (ADR-038 Amendment 1: Kihea settled
+// the opening statistic on issue #89 — "true and accurate" was the whole
+// criterion — so the A/B split and compare page this file used to carry are
+// retired along with variant A).
 //
 // Type note: the reading app's tokens name Source Serif 4 (passage) and Inter
 // (UI). This page has no passage and is not the app's chrome either — it is
@@ -100,7 +102,7 @@ function library() {
 }
 
 function facts(openingFigure) {
-  const data = openingFigure; // variantA or variantB, already resolved by caller
+  const data = openingFigure;
   return `<section id="the-case" class="facts">
   <div class="shell" style="padding-top: clamp(64px,7vw,104px); padding-bottom: clamp(80px,9vw,120px); display:flex; flex-direction:column; gap: clamp(44px,5vw,76px)">
     <div class="facts-head">
@@ -120,8 +122,8 @@ function facts(openingFigure) {
 </section>`;
 }
 
-// figures.json's session/mechanism entries are shared by both variants; the
-// caller injects the variant-specific opening figure only.
+// figures.json's session/mechanism entries sit alongside the one opening
+// figure; the caller injects the whole figures object via setFigures.
 let _figures = null;
 export function setFigures(figures) { _figures = figures; }
 function fixtureSession() { return _figures.session; }
@@ -170,18 +172,15 @@ function footer() {
 }
 
 /**
- * @param {{label: string, figures: any, variantBanner?: string}} args
+ * @param {{figures: any}} args
  */
-export function renderPage({ label, figures, variantBanner = undefined }) {
+export function renderPage({ figures }) {
   setFigures(figures);
   const opening = figures.opening;
-  const banner = variantBanner
-    ? `<div class="variant-banner">Variant ${escapeHtml(variantBanner)} — not a live URL. For review only; not the published page.</div>`
-    : '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-${head(`Superb — ${label}`)}
+${head('Superb — vocabulary, through reading')}
 </head>
 <body>
 ${header()}
@@ -190,7 +189,6 @@ ${library()}
 ${facts(opening)}
 ${pricing()}
 ${footer()}
-${banner}
 </body>
 </html>
 `;

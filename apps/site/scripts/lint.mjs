@@ -49,12 +49,11 @@ function main() {
     }
   }
 
-  for (const key of ['variantA', 'variantB']) {
-    const fig = figures[key];
-    const target = key === 'variantA' ? path.join(DIST, 'a', 'index.html') : path.join(DIST, 'b', 'index.html');
-    if (!existsSync(target)) continue;
+  const target = path.join(DIST, 'index.html');
+  if (existsSync(target)) {
     const html = readFileSync(target, 'utf8');
-    if (!html.includes(fig.citation)) {
+    const fig = figures.opening;
+    if (fig.kind === 'cited' && !html.includes(fig.citation)) {
       console.error(`RED "${fig.id}" is a cited figure but its citation text is missing from ${path.relative(DIST, target)}`);
       failed = true;
     }
