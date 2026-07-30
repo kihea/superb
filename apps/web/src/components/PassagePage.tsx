@@ -94,6 +94,15 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          card's own surface, styled for the dark ground behind it -- pale
          text on a pale card, unreadable. Escaping to document.body is the
          fix that holds regardless of how tall the passage or its card is. */}
+      {/* ADR-036's pixel break (B4) does NOT live here -- an earlier
+         version mounted <PixelBreak> as this button's own child and fired
+         onFinish in the same click handler, and that lost the animation
+         outright: onFinish triggers PassagePage's own remount (a new
+         `passage.id` key on ReadingScreen), which tears this button and
+         its child down before the flourish paints a frame, watched
+         failing even single-worker, not merely under load. ReadingScreen
+         owns the break instead, since it is the one thing that survives a
+         passage-to-passage transition -- see its own comment. */}
       {createPortal(
         <div className={`passage-continue${nearEnd ? " passage-continue--visible" : ""}`}>
           <button type="button" className="passage-continue-button metal" onClick={onFinish}>

@@ -4,13 +4,62 @@
 // definitions are read the same way the passage is -- and only its outer
 // edge answers to the register underneath it.
 import "./GlossCard.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { glossFor } from "../fixtures/glosses";
+import { PixelScatter } from "./chrome/PixelScatter";
 
 export interface GlossCardProps {
   word: string;
   onDismiss: () => void;
+}
+
+// ADR-036 -- the reader's own Keep gesture, the one flourish the reading
+// state now admits (A3, DERIVATION-002/003's held boundary, overruled by
+// Kihea's answer on issue #79: "Sure yeah lets do a pixel scatter as
+// well"). Deliberately its own tiny component rather than the chrome
+// ConfirmButton: this button takes no prop and reads no value that could
+// ever depend on whether `word` is a target -- GlossCardProps above has no
+// such field to pass down, so ADR-036 Decision 3's pixel-identity bound
+// holds by construction, not by care. The PixelScatter it fires is the
+// same component components/chrome/ConfirmButton uses, imported directly
+// rather than through ConfirmButton, since ConfirmButton itself stays
+// chrome-only (Job 3's containment line) and this is the one licensed
+// crossing.
+function KeepButton({ onKept }: { onKept: () => void }) {
+  const [kept, setKept] = useState(false);
+  const [burst, setBurst] = useState(false);
+
+  function handleClick() {
+    setKept(true);
+    setBurst(true);
+  }
+
+  return (
+    <button
+      type="button"
+      className="gloss-keep-button"
+      onClick={handleClick}
+      aria-pressed={kept}
+      aria-label="Keep"
+    >
+      <span className="gloss-keep-button__icon" aria-hidden="true">
+        <span className={`gloss-keep-button__face${kept ? "" : " gloss-keep-button__face--visible"}`}>
+          ⌂
+        </span>
+        <span className={`gloss-keep-button__face${kept ? " gloss-keep-button__face--visible" : ""}`}>
+          ✓
+        </span>
+      </span>
+      <PixelScatter
+        active={burst}
+        onDone={() => {
+          setBurst(false);
+          onKept();
+        }}
+      />
+    </button>
+  );
 }
 
 export function GlossCard({ word, onDismiss }: GlossCardProps) {
@@ -46,6 +95,15 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
         <p className="gloss-word">{word}</p>
         <p className="gloss-definition">{entry.definition}</p>
         <p className="gloss-elsewhere">{entry.elsewhere}</p>
+        {/* "Keep" is how the reader closes this card -- there is no reject
+           gesture (docs/seams.md's GlossTap already fired at open time and
+           the engine's event set is frozen; this track adds no new engine
+           semantics, only the flourish ADR-036 licensed). The scatter runs
+           first and the card follows it into stillness once it finishes,
+           rather than cutting the animation off mid-flight. */}
+        <div className="gloss-keep-row">
+          <KeepButton onKept={onDismiss} />
+        </div>
         {/* A one-shot light run around the edge as the card lands --
            re-derived from the doodle-intake prototype's .beam (border-beam,
            interface-inspiration/border-beam.png; ADR-019 Decision 4).

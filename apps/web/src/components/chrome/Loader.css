@@ -1,0 +1,58 @@
+.chrome-loader {
+  display: inline-flex;
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  perspective: 800px;
+}
+
+.chrome-loader__ring {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+  transform-style: preserve-3d;
+}
+
+/* Brand ring: bright on top, fading around, transparent on the left --
+   the same partial-border trick the inspiration file uses to read as a
+   ring turning in space rather than a flat disc. */
+.chrome-loader__ring--brand {
+  border-top-color: var(--chrome-accent);
+  border-right-color: color-mix(in srgb, var(--chrome-accent) 30%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--chrome-accent) 10%, transparent);
+  animation: chrome-loader-spin-a var(--chrome-loader-duration-a, 1.1s) linear infinite;
+}
+
+/* Support ring: the cool tone, per DERIVATION-003 C2 -- brand on one,
+   support on the other. */
+.chrome-loader__ring--support {
+  border-bottom-color: var(--chrome-accent-cool);
+  border-top-color: color-mix(in srgb, var(--chrome-accent-cool) 30%, transparent);
+  border-left-color: color-mix(in srgb, var(--chrome-accent-cool) 10%, transparent);
+  animation: chrome-loader-spin-b var(--motion-duration-loop-idle) linear infinite;
+}
+
+@keyframes chrome-loader-spin-a {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(180deg);
+  }
+}
+
+@keyframes chrome-loader-spin-b {
+  from {
+    transform: rotateX(180deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(180deg) rotateY(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome-loader__ring {
+    animation: none;
+  }
+}
