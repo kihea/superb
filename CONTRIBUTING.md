@@ -181,8 +181,12 @@ looks like in practice.
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
-  be accepted at any tier.
+- Code is MIT + Commons Clause. Content written here from nothing is CC0;
+  anything built from or brought in from elsewhere keeps its own terms —
+  including a gloss rewritten from a Wiktionary entry, which keeps Wiktionary's.
+  Each obligation is recorded next to the thing it binds: a row in
+  `data/MANIFEST.md` for a dataset, a provenance record beside each excerpt and
+  each book. No GPL dependency can be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
   crate requires a matching entry in `wire-roster.toml` (workspace root), or
   the build fails.
@@ -198,8 +202,23 @@ free. What you may not do is sell it, or sell a product or service whose value
 comes substantially from it. The full text is in `LICENSE`, and the reasoning
 is in the project's decision record.
 
-The **content** is different and unchanged: passages and excerpts are CC0,
-dedicated to the public domain. Attribution is encouraged and never required.
+The **content** is different, and what decides is not who typed it — it is whose
+work it came from. It splits three ways.
+
+- **What you write from nothing** — a passage, a slot class — is CC0,
+  dedicated to the public domain. Attribution is encouraged and never required.
+- **What you build from somebody else's work** carries that work's terms, even
+  though you did the building. A gloss rewritten from a Wiktionary entry is the
+  case you are most likely to hit: it keeps Wiktionary's credit and its
+  pass-on-the-same-freedom terms. `content/difficulty.json` is the same shape —
+  our script builds it, and it travels with the credit its source list requires.
+- **The text you bring**, like the words inside an excerpt you cite or a book
+  added to the library, keeps whatever terms it arrived under. Your
+  contribution is finding it, quoting it exactly, citing it so a stranger can
+  check, and saying what those terms are.
+
+Nothing non-commercial and nothing all-rights-reserved is accepted in any of
+the three.
 
 **When you contribute code, you license it to the project under MIT**, and the
 project distributes it under the licence above. This is deliberate and it is
@@ -218,8 +237,10 @@ That adds a `Signed-off-by:` line, which is your assertion of the
 you wrote the change, or have the right to submit it. There is no CLA to sign
 and no account to create.
 
-**Contributed passages and excerpts are CC0** under the provenance rules
-above, not MIT — content and code are separate throughout this project.
+**What you write for the project is CC0** under the provenance rules above, not
+MIT — content and code are separate throughout this project. What you *bring*,
+like the text of a cited excerpt, keeps its own terms; your part is finding it,
+citing it properly, and saying what those terms are.
 
 ---
 
