@@ -6,27 +6,29 @@
     "copy and to generate the squares/ticks; scripts/check-devices.mjs reads the",
     "built HTML and refuses to pass if a rendered count and this file disagree.",
     "Nothing here is a placeholder: if a figure cannot be defended at this level",
-    "of care, it does not get an entry, and the page does not get a device."
+    "of care, it does not get an entry, and the page does not get a device.",
+    "",
+    "ADR-038 Amendment 1 (Kihea, on issue #89): the opening statistic is the",
+    "NCES/PIAAC 48% — 'true and accurate' was the whole criterion, and it needs",
+    "no third-party gloss the way the Gallup 54% needed PIAAC's own units",
+    "substituted for a phrase PIAAC discourages. `opening` replaces the old",
+    "`variantA`/`variantB` split; there is one page now, not two plus a",
+    "compare view. The headline text below was checked directly against",
+    "NCES's own description of PIAAC Level 3",
+    "(nces.ed.gov/surveys/piaac/measure.asp), not against the earlier draft's",
+    "paraphrase of it — the draft's 'compare, contrast and reason about what",
+    "they have read' was itself a gloss NCES never wrote, caught the same way",
+    "the sixth-grade phrasing was: by opening the source instead of trusting",
+    "the phrase everyone repeats."
   ],
 
-  "variantA": {
+  "opening": {
     "kind": "cited",
-    "id": "adults-level2-or-below",
-    "value": 54,
-    "total": 100,
-    "displayValue": "54%",
-    "headline": "of US adults aged 16–74 score at PIAAC Level 2 or below — about 130 million people.",
-    "citation": "Gallup, 2020 analysis of OECD PIAAC data, for the Barbara Bush Foundation.",
-    "deviceCaption": "54 squares in 100, at PIAAC's own levels — not a school grade."
-  },
-
-  "variantB": {
-    "kind": "cited",
-    "id": "adults-below-level3",
+    "id": "adults-level3-or-above",
     "value": 48,
     "total": 100,
     "displayValue": "48%",
-    "headline": "of US adults read at a level where they can compare, contrast and reason about what they have read.",
+    "headline": "of US adults aged 16–65 hold meaning together across a longer piece of writing — PIAAC's Level 3 or above.",
     "citation": "National Center for Education Statistics, U.S. results from the OECD's PIAAC survey, 2017.",
     "deviceCaption": "48 squares in 100."
   },
