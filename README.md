@@ -75,28 +75,31 @@ plainly rather than borrowing a word it is no longer entitled to.
 
 There are three kinds of content here and they are not under one licence.
 
-**What this project wrote** — the passages, the slot library, the rewritten
-glosses, the schemas — is CC0 and unrestricted. Attribution is encouraged and
-never required; the project claims the infrastructure that serves the content,
-not the content itself.
+**Written here from nothing** — the passages, the slot library, the schemas.
+CC0 and unrestricted. Attribution is encouraged and never required; the project
+claims the infrastructure that serves the content, not the content itself.
 
-**Files built from someone else's data** carry that data's terms, not ours,
-even though our scripts generated them. `content/difficulty.json` is the live
-example: it ships in the app, and every number in it is derived from Robyn
-Speer's `wordfreq`, so it travels with the credit that list requires. Running a
-dataset through a script of ours does not make the result ours.
+**Built here from somebody else's work.** These carry that work's terms, not
+ours, even though our scripts produced them — running a dataset through a script
+of ours does not make the result ours. Two live cases:
+`content/difficulty.json`, whose numbers come from Robyn Speer's `wordfreq` and
+which travels with the credit that list requires; and the rewritten glosses,
+which start from Wiktionary and so carry its credit and its
+pass-on-the-same-freedom terms.
 
-**Writing this project did not author** — cited excerpts, and the books in the
-[library](https://github.com/superb-catalogue/library) — keeps whatever terms it
-arrived under: public domain and CC0 where possible, and licences asking for
-credit or for the same freedom to be passed on where that is what the good
-source carries.
+**Not authored here at all** — the text inside cited excerpts, and the books in
+the [library](https://github.com/superb-catalogue/library). Each keeps whatever
+terms it arrived under: public domain and CC0 where possible, and licences
+asking for credit or for the same freedom to be passed on where that is what the
+good source carries.
 
 Nothing non-commercial and nothing all-rights-reserved enters a build, ever.
-Every file in the second and third groups stands on its own with its own licence
-row, so an obligation stays with the file it belongs to and never spreads into
-ours or into the code. `data/MANIFEST.md` is the per-file ledger and
-`data/NOTICE.md` carries the credits that must travel.
+
+Each obligation is written down next to the thing it binds, so it stays with
+that file and never spreads into ours or into the code: **datasets** have a row
+in `data/MANIFEST.md`, with the credits that must travel in `data/NOTICE.md`;
+**each excerpt** carries its own provenance record beside it in
+`content/sources/`; **each book** carries its own beside it in the library.
 
 No GPL enters the dependency tree. Every dataset has a row in
 `data/MANIFEST.md` with its source, licence, and redistribution basis, and CI

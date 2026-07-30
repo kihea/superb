@@ -181,10 +181,11 @@ looks like in practice.
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT + Commons Clause. Content written for this project is CC0;
-  anything brought in from elsewhere — including a file our own script
-  generated from someone else's dataset — keeps its own terms, recorded per
-  file in `data/MANIFEST.md`. No GPL dependency can be accepted at any tier.
+- Code is MIT + Commons Clause. Content written here from nothing is CC0;
+  anything built from or brought in from elsewhere keeps its own terms,
+  recorded next to the thing it binds — a row in `data/MANIFEST.md` for a
+  dataset, a provenance record beside each excerpt and each book. No GPL
+  dependency can be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
   crate requires a matching entry in `wire-roster.toml` (workspace root), or
   the build fails.
@@ -202,17 +203,17 @@ is in the project's decision record.
 
 The **content** is different, and it splits three ways.
 
-- **What you write for the project** — passages, slot classes, rewritten
-  glosses — is CC0, dedicated to the public domain. Attribution is encouraged
-  and never required.
+- **What you write from nothing** — a passage, a slot class — is CC0,
+  dedicated to the public domain. Attribution is encouraged and never required.
+- **What you build from somebody else's work** carries that work's terms, even
+  though you did the building. A gloss rewritten from a Wiktionary entry is the
+  case you are most likely to hit: it keeps Wiktionary's credit and its
+  pass-on-the-same-freedom terms. `content/difficulty.json` is the same shape —
+  our script builds it, and it travels with the credit its source list requires.
 - **The text you bring**, like the words inside an excerpt you cite or a book
   added to the library, keeps whatever terms it arrived under. Your
   contribution is finding it, quoting it exactly, citing it so a stranger can
   check, and saying what those terms are.
-- **Files generated from somebody else's dataset** carry that dataset's terms,
-  even though a script here produced them. `content/difficulty.json` is the
-  live example — our script builds it, and it travels with the credit its
-  source list requires.
 
 Nothing non-commercial and nothing all-rights-reserved is accepted in any of
 the three.

@@ -57,8 +57,10 @@ This makes Superb's code source-available rather than open source, and the
 project says so plainly wherever it describes itself.
 
 Content is separate from code, and it is not all under one licence. Content
-written for this project — passages, slot classes, rewritten glosses, schemas —
-is dedicated to the public domain under CC0. Files built from someone else's
-data, and writing this project did not author, carry the terms they came under;
-those are recorded per file in `data/MANIFEST.md`, with the credits that must
-travel with them in `data/NOTICE.md`. See README.md.
+written here from nothing — passages, slot classes, schemas — is dedicated to
+the public domain under CC0. Content built here from somebody else's work, and
+content this project did not author at all, carry the terms they came under
+instead. Each of those obligations is recorded next to the thing it binds:
+datasets have a row in `data/MANIFEST.md`, with the credits that must travel in
+`data/NOTICE.md`; each cited excerpt and each book carries its own provenance
+record beside it. See README.md.
