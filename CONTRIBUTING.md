@@ -181,8 +181,9 @@ looks like in practice.
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT + Commons Clause and content is CC0, and no GPL dependency can
-  be accepted at any tier.
+- Code is MIT + Commons Clause and everything this project writes is CC0;
+  material brought in from elsewhere keeps its own terms, recorded per file.
+  No GPL dependency can be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
   crate requires a matching entry in `wire-roster.toml` (workspace root), or
   the build fails.
@@ -198,8 +199,12 @@ free. What you may not do is sell it, or sell a product or service whose value
 comes substantially from it. The full text is in `LICENSE`, and the reasoning
 is in the project's decision record.
 
-The **content** is different and unchanged: passages and excerpts are CC0,
-dedicated to the public domain. Attribution is encouraged and never required.
+The **content** is different: anything written for this project — passages,
+slot classes, rewritten glosses — is CC0, dedicated to the public domain, and
+attribution is encouraged and never required. Writing that came from somewhere
+else, like a cited excerpt or a whole book, keeps whatever terms it arrived
+under, recorded beside it. Nothing non-commercial and nothing
+all-rights-reserved is accepted either way.
 
 **When you contribute code, you license it to the project under MIT**, and the
 project distributes it under the licence above. This is deliberate and it is
@@ -218,8 +223,10 @@ That adds a `Signed-off-by:` line, which is your assertion of the
 you wrote the change, or have the right to submit it. There is no CLA to sign
 and no account to create.
 
-**Contributed passages and excerpts are CC0** under the provenance rules
-above, not MIT — content and code are separate throughout this project.
+**What you write for the project is CC0** under the provenance rules above, not
+MIT — content and code are separate throughout this project. What you *bring*,
+like the text of a cited excerpt, keeps its own terms; your part is finding it,
+citing it properly, and saying what those terms are.
 
 ---
 
