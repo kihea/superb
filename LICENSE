@@ -56,5 +56,9 @@ is free.
 This makes Superb's code source-available rather than open source, and the
 project says so plainly wherever it describes itself.
 
-The content in this repository is separate and is dedicated to the public
-domain under CC0. See README.md.
+Content is separate from code, and it is not all under one licence. Content
+written for this project — passages, slot classes, rewritten glosses, schemas —
+is dedicated to the public domain under CC0. Files built from someone else's
+data, and writing this project did not author, carry the terms they came under;
+those are recorded per file in `data/MANIFEST.md`, with the credits that must
+travel with them in `data/NOTICE.md`. See README.md.

@@ -64,7 +64,8 @@ More arrives as the milestones do.
 
 ## Licensing
 
-**Code is source-available: MIT + Commons Clause. Everything we write is CC0.**
+**Code is source-available: MIT + Commons Clause. Content is CC0 where we wrote
+it, and carries its own terms where we didn't.**
 
 You may read the code, run it, change it, and pass it on — including changed
 versions — as long as it is free. You may not sell it, or sell a product or
@@ -72,19 +73,30 @@ service whose value comes substantially from it. That one restriction is what
 makes this source-available rather than open source, and the project says so
 plainly rather than borrowing a word it is no longer entitled to.
 
-The content this project writes — the passages, the slot library, the rewritten
-glosses, the schemas — is unrestricted. Attribution is encouraged and never
-required; the project claims the infrastructure that serves the content, not the
-content itself.
+There are three kinds of content here and they are not under one licence.
 
-Things we did not write keep their own terms, recorded per file. Books and
-reference data come in under whatever their authors and editors chose — public
-domain and CC0 where possible, and licences asking for credit or for the same
-freedom to be passed on where that is what the good source carries. Nothing
-non-commercial and nothing all-rights-reserved enters a build, ever. Each of
-those files stands on its own with its own licence row, so a share-alike
-obligation stays with the file it belongs to and never spreads into ours or
-into the code.
+**What this project wrote** — the passages, the slot library, the rewritten
+glosses, the schemas — is CC0 and unrestricted. Attribution is encouraged and
+never required; the project claims the infrastructure that serves the content,
+not the content itself.
+
+**Files built from someone else's data** carry that data's terms, not ours,
+even though our scripts generated them. `content/difficulty.json` is the live
+example: it ships in the app, and every number in it is derived from Robyn
+Speer's `wordfreq`, so it travels with the credit that list requires. Running a
+dataset through a script of ours does not make the result ours.
+
+**Writing this project did not author** — cited excerpts, and the books in the
+[library](https://github.com/superb-catalogue/library) — keeps whatever terms it
+arrived under: public domain and CC0 where possible, and licences asking for
+credit or for the same freedom to be passed on where that is what the good
+source carries.
+
+Nothing non-commercial and nothing all-rights-reserved enters a build, ever.
+Every file in the second and third groups stands on its own with its own licence
+row, so an obligation stays with the file it belongs to and never spreads into
+ours or into the code. `data/MANIFEST.md` is the per-file ledger and
+`data/NOTICE.md` carries the credits that must travel.
 
 No GPL enters the dependency tree. Every dataset has a row in
 `data/MANIFEST.md` with its source, licence, and redistribution basis, and CI

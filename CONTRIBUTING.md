@@ -181,9 +181,10 @@ looks like in practice.
   pass.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
-- Code is MIT + Commons Clause and everything this project writes is CC0;
-  material brought in from elsewhere keeps its own terms, recorded per file.
-  No GPL dependency can be accepted at any tier.
+- Code is MIT + Commons Clause. Content written for this project is CC0;
+  anything brought in from elsewhere — including a file our own script
+  generated from someone else's dataset — keeps its own terms, recorded per
+  file in `data/MANIFEST.md`. No GPL dependency can be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
   crate requires a matching entry in `wire-roster.toml` (workspace root), or
   the build fails.
@@ -199,12 +200,22 @@ free. What you may not do is sell it, or sell a product or service whose value
 comes substantially from it. The full text is in `LICENSE`, and the reasoning
 is in the project's decision record.
 
-The **content** is different: anything written for this project — passages,
-slot classes, rewritten glosses — is CC0, dedicated to the public domain, and
-attribution is encouraged and never required. Writing that came from somewhere
-else, like a cited excerpt or a whole book, keeps whatever terms it arrived
-under, recorded beside it. Nothing non-commercial and nothing
-all-rights-reserved is accepted either way.
+The **content** is different, and it splits three ways.
+
+- **What you write for the project** — passages, slot classes, rewritten
+  glosses — is CC0, dedicated to the public domain. Attribution is encouraged
+  and never required.
+- **The text you bring**, like the words inside an excerpt you cite or a book
+  added to the library, keeps whatever terms it arrived under. Your
+  contribution is finding it, quoting it exactly, citing it so a stranger can
+  check, and saying what those terms are.
+- **Files generated from somebody else's dataset** carry that dataset's terms,
+  even though a script here produced them. `content/difficulty.json` is the
+  live example — our script builds it, and it travels with the credit its
+  source list requires.
+
+Nothing non-commercial and nothing all-rights-reserved is accepted in any of
+the three.
 
 **When you contribute code, you license it to the project under MIT**, and the
 project distributes it under the licence above. This is deliberate and it is
