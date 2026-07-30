@@ -63,6 +63,75 @@
   text-wrap: pretty;
 }
 
+.gloss-keep-row {
+  display: flex;
+  justify-content: flex-end;
+  /* Clearance above the button so the scatter's cells (a small radius
+     around the button's own box) never reach up into gloss-elsewhere's
+     text -- ADR-036 Decision 5: text is never occluded. */
+  margin-top: var(--space-4);
+}
+
+.gloss-keep-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--page-card-border);
+  background: transparent;
+  color: var(--page-ink-muted);
+  cursor: pointer;
+  transition:
+    color var(--motion-duration-fast) var(--motion-easing-standard),
+    border-color var(--motion-duration-fast) var(--motion-easing-standard);
+}
+
+.gloss-keep-button:hover,
+.gloss-keep-button[aria-pressed="true"] {
+  color: var(--chrome-accent);
+  border-color: var(--chrome-accent);
+}
+
+.gloss-keep-button:focus-visible {
+  outline: 2px solid var(--chrome-accent);
+  outline-offset: 2px;
+}
+
+.gloss-keep-button__icon {
+  position: relative;
+  display: inline-grid;
+  width: 1em;
+  height: 1em;
+  font-size: 1.1rem;
+}
+
+.gloss-keep-button__face {
+  grid-area: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(-4px) scale(0.85);
+  transition:
+    opacity var(--motion-duration-fast) var(--motion-easing-spring-loud),
+    transform var(--motion-duration-fast) var(--motion-easing-spring-loud);
+}
+
+.gloss-keep-button__face--visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gloss-keep-button,
+  .gloss-keep-button__face {
+    transition: none;
+  }
+}
+
 /* The one-shot border beam: a light run around the machined edge as the
    card lands, then gone. Conic gradient in a mask, one lap. Reader-
    initiated (only exists because a word was tapped), so it is legal

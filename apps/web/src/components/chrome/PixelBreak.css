@@ -1,0 +1,51 @@
+.chrome-pixel-break {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.chrome-pixel-break__cell {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  margin: -1.5px 0 0 -1.5px;
+  background: var(--chrome-accent);
+  opacity: 0;
+  animation: chrome-pixel-break-cycle
+    calc(var(--pb-assemble) + var(--pb-hold) + var(--pb-disassemble))
+    var(--motion-easing-standard) both;
+}
+
+/* Assemble (fly in from --dx/--dy to centre), hold at the centre, then
+   disassemble (fly back out and fade) -- two phases, not one, which is
+   what makes this B4 rather than a second copy of A3's one-way scatter.
+   Percentages below are relative to the whole animation duration, computed
+   from the three named phase lengths at the call sites above. */
+@keyframes chrome-pixel-break-cycle {
+  0% {
+    transform: translate(var(--dx), var(--dy)) scale(0.6);
+    opacity: 0;
+  }
+  22% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  32% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), var(--dy)) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome-pixel-break__cell {
+    animation: none;
+    opacity: 0;
+  }
+}
