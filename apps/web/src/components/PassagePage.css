@@ -69,6 +69,7 @@
    rim. */
 .passage-continue-button {
   --metal-fill: var(--page-card-ground);
+  position: relative;
   background-color: var(--page-card-ground);
   display: inline-flex;
   align-items: center;
