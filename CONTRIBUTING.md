@@ -182,10 +182,11 @@ looks like in practice.
 - Dependencies are added with `--locked`, and every new crate must satisfy
   `deny.toml`.
 - Code is MIT + Commons Clause. Content written here from nothing is CC0;
-  anything built from or brought in from elsewhere keeps its own terms,
-  recorded next to the thing it binds — a row in `data/MANIFEST.md` for a
-  dataset, a provenance record beside each excerpt and each book. No GPL
-  dependency can be accepted at any tier.
+  anything built from or brought in from elsewhere keeps its own terms —
+  including a gloss rewritten from a Wiktionary entry, which keeps Wiktionary's.
+  Each obligation is recorded next to the thing it binds: a row in
+  `data/MANIFEST.md` for a dataset, a provenance record beside each excerpt and
+  each book. No GPL dependency can be accepted at any tier.
 - Adding `Serialize`, `Deserialize`, `PartialOrd` or `Ord` to a type in any
   crate requires a matching entry in `wire-roster.toml` (workspace root), or
   the build fails.

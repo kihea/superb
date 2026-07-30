@@ -73,7 +73,8 @@ service whose value comes substantially from it. That one restriction is what
 makes this source-available rather than open source, and the project says so
 plainly rather than borrowing a word it is no longer entitled to.
 
-There are three kinds of content here and they are not under one licence.
+Content is not all under one licence, and the thing that decides is not who
+typed it — it is whose work it came from. Three kinds:
 
 **Written here from nothing** — the passages, the slot library, the schemas.
 CC0 and unrestricted. Attribution is encouraged and never required; the project
