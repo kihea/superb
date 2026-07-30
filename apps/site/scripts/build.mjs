@@ -43,7 +43,7 @@ function main() {
 
   for (const [key, v] of Object.entries(variants)) {
     const figures = { opening: v.opening, session: figuresRaw.session, mechanism: figuresRaw.mechanism };
-    const html = renderPage({ label: v.label, figures });
+    const html = renderPage({ label: v.label, figures, variantBanner: key.toUpperCase() });
     writeFile(`${key}/index.html`, html);
   }
 

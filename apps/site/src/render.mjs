@@ -11,8 +11,6 @@
 
 import { renderCountDevice, renderMechanismDevice } from './devices.mjs';
 
-const SITE_NAME = 'Superb';
-
 function escapeHtml(s) {
   return String(s).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
 }
