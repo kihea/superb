@@ -392,9 +392,9 @@ Mean signed error and its standard error, each cell aggregated over 30 seeds × 
 | 0.75 | 4.5 | +0.0298 | 0.1617 | +3.1753 | 0.1613 |
 | 1.00 | 4.0 | +0.0000 | 0.1973 | +3.7000 | 0.1973 |
 
-**`b = 0.0` is degenerate for this table, and it is worth saying plainly.** At `b = 0.0` the synthetic learner never over-claims a pseudoword, so `overclaim_rate` is `0.0` on every run and **every candidate penalty from 0.0 to 6.0 produces the exact same mean signed error, -0.0071, to the last printed digit** — there is nothing to fit, and whichever value this row lists as "calibrated" is an artifact of this sweep's own nearest-zero tie-break (which keeps the first, smallest, candidate it meets) rather than evidence that `0.0` specifically is what `b = 0.0` needs. Any candidate, including the ~4.5 the other five rows converge on, is equally consistent with this row's own numbers. It is included in the table because the brief's own bluff-rate grid names `0.0` without carving it out, and excluding it silently would be a judgment this report does not get to make unannounced — both readings of the pre-registered band are computed below, and which one governs the done clause's own one-sentence verdict is recorded as an open question in `BRIEF-017`'s own UNRESOLVED block rather than decided here.
+**`b = 0.0` is degenerate for this table, and it is worth saying plainly.** At `b = 0.0` the synthetic learner never over-claims a pseudoword, so `overclaim_rate` is `0.0` on every run and **every candidate penalty from 0.0 to 6.0 produces the exact same mean signed error, -0.0071, to the last printed digit** — there is nothing to fit, and whichever value this row lists as "calibrated" is an artifact of this sweep's own nearest-zero tie-break (which keeps the first, smallest, candidate it meets) rather than evidence that `0.0` specifically is what `b = 0.0` needs. Any candidate, including the ~4.5 the other five rows converge on, is equally consistent with this row's own numbers. It is included in the table because the brief's own bluff-rate grid names `0.0` without carving it out, and excluding it silently would be a judgment this report does not get to make unannounced — the three readings of the pre-registered band below are kept for the record, and the Admissibility section further down states, mechanically rather than by anyone's choice, exactly why this row cannot inform the constant (clause 1: mean signed error is identically constant in the candidate penalty).
 
-**`b = 1.0` is degenerate too, and for the mirror-image reason.** At `b = 1.0` raw θ̂ walks to `theta_max` (4.0) on every one of the 150 runs, regardless of true θ, seed, or session — the bluffer claims every pseudoword, so `overclaim_rate` is exactly `1.0` and the raw signal is pinned against the clamp before any correction is applied. The correction is then exactly `penalty × 1.0`, so the mean signed error is exactly `4.0 − penalty`, and it reaches zero at exactly `penalty = theta_max − mean(THETA_SWEEP) = 4.0 − 0.0 = 4.0` — this row's "calibrated" value would read `4.0` whatever the true answer were, because it is solving an equation about the clamp and the grid's own symmetry, not about the correction's dynamics. It is the low end of the cluster the Verdict section below quotes. The two degeneracies are mirror images of each other — at `b = 0.0` the term under test is multiplied by zero, at `b = 1.0` the quantity the correction is meant to recover is pinned against a wall — and neither could have answered the pre-registered question, both provable from algebra alone before any run.
+**`b = 1.0` is degenerate too, and for the mirror-image reason.** At `b = 1.0` raw θ̂ walks to `theta_max` (4.0) on every one of the 150 runs, regardless of true θ, seed, or session — the bluffer claims every pseudoword, so `overclaim_rate` is exactly `1.0` and the raw signal is pinned against the clamp before any correction is applied. The correction is then exactly `penalty × 1.0`, so the mean signed error is exactly `4.0 − penalty`, and it reaches zero at exactly `penalty = theta_max − mean(THETA_SWEEP) = 4.0 − 0.0 = 4.0` — this row's "calibrated" value would read `4.0` whatever the true answer were, because it is solving an equation about the clamp and the grid's own symmetry, not about the correction's dynamics. The Admissibility section below marks this row INADMISSIBLE under clause 2 for exactly this reason. The two degeneracies are mirror images of each other — at `b = 0.0` the term under test is multiplied by zero, at `b = 1.0` the quantity the correction is meant to recover is pinned against a wall — and neither could have answered the pre-registered question, both provable from algebra alone before any run.
 
 ## The pre-registered ±25% band
 
@@ -402,15 +402,85 @@ Mean signed error and its standard error, each cell aggregated over 30 seeds × 
 
 **Excluding `b = 0.0`** (only the bluff rates where over-claiming actually occurs): mean calibrated penalty 4.4600, largest deviation 10.3% of it. Inside the ±25% band.
 
-**Excluding both degenerate cells** (`b ∈ {0.1, 0.25, 0.5, 0.75}` — the only rates where over-claiming happens and the estimate is not pinned against the clamp): mean calibrated penalty 4.5750, largest deviation 2.7% of it. Inside the ±25% band. This is the narrowest honest statement the sweep supports.
+**Excluding both degenerate cells** (`b ∈ {0.1, 0.25, 0.5, 0.75}` — the only rates where over-claiming happens and the estimate is not pinned against the clamp): mean calibrated penalty 4.5750, largest deviation 2.7% of it. Inside the ±25% band. These three readings are kept for the record; the architect's ruling on question 6 replaces the choice between them with the mechanical admissibility rule below, and the reading that now governs the Verdict section is whichever rows that rule keeps, not any of these three named sets.
+
+## Per-`(b, θ_true)` saturation diagnostics
+
+Architect's ruling on question 6, addition 1. For every `(b, θ_true)` sub-cell (30 seeds): the fraction of runs whose *uncorrected* θ̂ reached `theta_max` or `theta_min` at any point during the run, and the fraction still pinned there at the run's final observation. This is what clause 2 of the admissibility rule below is checked against — a matter of degree, not a single yes/no per bluff rate.
+
+| b | θ_true | n | ever saturated | final saturated |
+|---|---|---|---|---|
+| 0.00 | -3.5 | 30 | 0.0% | 0.0% |
+| 0.00 | -1.5 | 30 | 0.0% | 0.0% |
+| 0.00 | 0.0 | 30 | 0.0% | 0.0% |
+| 0.00 | 1.5 | 30 | 0.0% | 0.0% |
+| 0.00 | 3.5 | 30 | 0.0% | 0.0% |
+| 0.10 | -3.5 | 30 | 0.0% | 0.0% |
+| 0.10 | -1.5 | 30 | 0.0% | 0.0% |
+| 0.10 | 0.0 | 30 | 0.0% | 0.0% |
+| 0.10 | 1.5 | 30 | 0.0% | 0.0% |
+| 0.10 | 3.5 | 30 | 3.3% | 0.0% |
+| 0.25 | -3.5 | 30 | 0.0% | 0.0% |
+| 0.25 | -1.5 | 30 | 0.0% | 0.0% |
+| 0.25 | 0.0 | 30 | 0.0% | 0.0% |
+| 0.25 | 1.5 | 30 | 0.0% | 0.0% |
+| 0.25 | 3.5 | 30 | 20.0% | 3.3% |
+| 0.50 | -3.5 | 30 | 0.0% | 0.0% |
+| 0.50 | -1.5 | 30 | 0.0% | 0.0% |
+| 0.50 | 0.0 | 30 | 0.0% | 0.0% |
+| 0.50 | 1.5 | 30 | 0.0% | 0.0% |
+| 0.50 | 3.5 | 30 | 80.0% | 36.7% |
+| 0.75 | -3.5 | 30 | 0.0% | 0.0% |
+| 0.75 | -1.5 | 30 | 10.0% | 0.0% |
+| 0.75 | 0.0 | 30 | 23.3% | 3.3% |
+| 0.75 | 1.5 | 30 | 60.0% | 10.0% |
+| 0.75 | 3.5 | 30 | 93.3% | 63.3% |
+| 1.00 | -3.5 | 30 | 100.0% | 100.0% |
+| 1.00 | -1.5 | 30 | 100.0% | 100.0% |
+| 1.00 | 0.0 | 30 | 100.0% | 100.0% |
+| 1.00 | 1.5 | 30 | 100.0% | 100.0% |
+| 1.00 | 3.5 | 30 | 100.0% | 100.0% |
+
+## Admissibility
+
+Architect's ruling on question 6, addition 2: a bluff rate informs the calibrated constant only if **both** hold, checked mechanically rather than argued —
+
+1. Mean signed error is a **non-constant function of the candidate penalty** across the swept grid (the spread of mean signed error across every candidate in the row is above `1e-9`).
+2. The **uncorrected** θ̂ still varies with true ability (the spread of the mean raw θ̂ across the five `THETA_SWEEP` groups is above `1e-9`) — rather than sitting against `theta_max`/`theta_min` regardless of it.
+
+The ±25% band is then checked over exactly the ADMISSIBLE rows, by rule.
+
+| b | clause 1 (varies with penalty) | clause 1 spread | clause 2 (varies with true θ) | clause 2 spread | verdict | disqualifying clause |
+|---|---|---|---|---|---|---|
+| 0.00 | false | 0.000000 | true | 6.376969 | INADMISSIBLE | clause 1 (spread 0.000000) |
+| 0.10 | true | 0.602479 | true | 5.669916 | ADMISSIBLE | — |
+| 0.25 | true | 1.514228 | true | 4.780578 | ADMISSIBLE | — |
+| 0.50 | true | 3.077734 | true | 3.200342 | ADMISSIBLE | — |
+| 0.75 | true | 4.493679 | true | 1.358093 | ADMISSIBLE | — |
+| 1.00 | true | 6.000000 | false | 0.000000 | INADMISSIBLE | clause 2 (spread 0.000000) |
+
+### The admissible cluster's calibrated values, clamp-hit fraction beside each
+
+A row admissible under both clauses can still carry a non-trivial clamp-hit fraction — printed here rather than folded away, since an admissible-but-partially-saturated row is a measurement with a stated caveat, not a clean one.
+
+| b | calibrated penalty | mean signed error | ever saturated (row) | final saturated (row) |
+|---|---|---|---|---|
+| 0.10 | 4.6 | +0.0007 | 0.7% | 0.0% |
+| 0.25 | 4.7 | -0.0095 | 4.0% | 0.7% |
+| 0.50 | 4.5 | +0.0218 | 16.0% | 7.3% |
+| 0.75 | 4.5 | +0.0298 | 37.3% | 15.3% |
+
+## The admissible cluster's ±25% band
+
+Mean calibrated penalty over the ADMISSIBLE rows only: 4.5750, largest deviation 2.7% of it. Inside the ±25% band.
 
 ## Verdict
 
-Read literally against the brief's own grid, `b = 0.0` included: **No single constant fits; the spread is 100.0% and the functional form is the problem.**
-
-**That reading is driven almost entirely by the two degenerate cells above (`b = 0.0` and `b = 1.0`), not by a real disagreement about the correction's shape.** Restricted to the four bluff rates where over-claiming actually happens and the estimate is not pinned against the clamp (`b ∈ {0.1, 0.25, 0.5, 0.75}`), the calibrated penalty clusters tightly — 4.5 to 4.7, spread 2.7% of its mean 4.5750 — comfortably **inside** the ±25% band, at a value roughly fifteen times the incumbent `0.3`. This section previously quoted a range whose floor, `4.0`, was supplied by the clamped `b = 1.0` cell; removing both degeneracies moves the estimate slightly up and tightens the spread by roughly four times, and the qualitative conclusion is unchanged precisely because four independent cells agree without either degenerate one. Whether the exclusions are permitted at all is not decided in this file — excluding cells after seeing a result is the same move as loosening a bar after seeing one, however good the algebra, so the architect has filed both readings for the next steer rather than settling it here; see BRIEF-017's own UNRESOLVED block and `workspace/steering/INPUT-2026-07-29-kihea-direction.md` question 6.
+**The clamp is biting inside the admissible cluster (highest ever-saturated fraction 37.3%), so this sweep cannot locate the constant with this θ grid** — the admissible rows still pass both mechanical clauses (raw θ̂ is not *uniformly* pinned, and mean signed error is not *identically* constant in the penalty), but a non-trivial share of their own runs walk raw θ̂ into the clamp before the correction is ever applied, which means part of what looks like "the correction's effect" in those rows is actually the grid's own ceiling. The follow-up is a grid whose top does not collide with `theta_max` — a re-run, not a re-argument.**
 
 ## Watched red before green
 
 `forcing_the_penalty_to_zero_leaves_the_highest_bluff_cell_strongly_biased_upward` (`src/pseudoword_penalty_calibration.rs`) first asserted the wrong direction — that forcing the candidate penalty to `0.0` at `b = 1.0` would leave the mean signed error *negative* — and failed with `mean signed error at (b=1.0, penalty=0.0): 4.000000, expected < 0.0`: every one of the 150 runs at that cell walked raw θ̂ to `theta_max` exactly, so the mean sits on the clamp. Corrected to assert `> 0.3` and that a higher candidate penalty (`1.0`) reads a lower signed error than `0.0` does — the direction the correction is supposed to move in — and both now pass.
+
+**The admissibility rule itself was watched red too.** `admissibility_flags_b_equals_zero_under_clause_1_and_b_equals_one_under_clause_2` was first run against `admissibility_with_epsilon(b, &cells, &outcomes, 10.0)` in place of the real constant, and failed with `bluff rate 0.10 should be ADMISSIBLE (clause 1 spread 0.602479, clause 2 spread 5.669916)` — an epsilon of `10.0` is larger than every genuine row's spread, so it cleared every bluff rate as "constant," including the four rows that are the whole point of the rule. Corrected to call `admissibility` (which reads `DEGENERACY_EPSILON = 1e-9`, comfortably below every genuine spread and comfortably above the floating-point noise the two truly degenerate rows produce), and the test now passes.
 
