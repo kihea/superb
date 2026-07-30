@@ -28,6 +28,21 @@
 //! itself `Deserialize` from a bare event object — modelling it as two
 //! optional sibling fields is what lets every already-committed header stay
 //! byte-for-byte unchanged (ADR-030 Decision 1, "one format, one harness").
+//!
+//! **The `NextPassage` fixture's frame carries two candidates the composer
+//! must actually choose between** — a composed template and a sourced
+//! excerpt that can both serve the one due word — rather than one candidate
+//! with nothing to be scored against. ADR-030's own "Costs" section named
+//! the risk this closes: "a frame with two candidates that scoring never has
+//! to choose between pins very little, and nothing mechanical catches that."
+//! With one candidate, no tuning constant that governs the choice between
+//! pools (`min_sourced_coverage`, `sourced_preference`, the affinity table)
+//! can be observed to change this fixture's outcome, so a red-before-trusted
+//! check against `tuning.toml` would have nothing to bite. Lowering
+//! `min_sourced_coverage` from 2 to 1 makes the sourced candidate eligible
+//! and it outscores the composed one outright — the vector fails, restoring
+//! the constant makes it pass again — which is the demonstration this file's
+//! own doc comment above asks whoever adds a fixture to actually run.
 
 use std::fs;
 use std::path::Path;
