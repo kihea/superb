@@ -1,0 +1,51 @@
+{
+  "_comment": [
+    "Every number that appears on the landing page lives here, once, with the",
+    "kind of statement it is (ADR-038 Decision 1) and — for a cited fact — the",
+    "source whose own wording it matches. The build reads this file to fill in",
+    "copy and to generate the squares/ticks; scripts/check-devices.mjs reads the",
+    "built HTML and refuses to pass if a rendered count and this file disagree.",
+    "Nothing here is a placeholder: if a figure cannot be defended at this level",
+    "of care, it does not get an entry, and the page does not get a device."
+  ],
+
+  "variantA": {
+    "kind": "cited",
+    "id": "adults-level2-or-below",
+    "value": 54,
+    "total": 100,
+    "displayValue": "54%",
+    "headline": "of US adults aged 16–74 score at PIAAC Level 2 or below — about 130 million people.",
+    "citation": "Gallup, 2020 analysis of OECD PIAAC data, for the Barbara Bush Foundation.",
+    "deviceCaption": "54 squares in 100, at PIAAC's own levels — not a school grade."
+  },
+
+  "variantB": {
+    "kind": "cited",
+    "id": "adults-below-level3",
+    "value": 48,
+    "total": 100,
+    "displayValue": "48%",
+    "headline": "of US adults read at a level where they can compare, contrast and reason about what they have read.",
+    "citation": "National Center for Education Statistics, U.S. results from the OECD's PIAAC survey, 2017.",
+    "deviceCaption": "48 squares in 100."
+  },
+
+  "session": {
+    "kind": "product-fact",
+    "id": "session-length",
+    "value": 6,
+    "total": 6,
+    "displayValue": "6 min",
+    "headline": "A session is about six minutes.",
+    "deviceCaption": "six minutes, not a fraction of anything else."
+  },
+
+  "mechanism": {
+    "kind": "mechanism",
+    "id": "word-returns",
+    "displayValue": null,
+    "headline": "A word you tap comes back until it’s yours.",
+    "deviceCaption": "no figure here — the mechanism replaces one that would have had to be invented (ADR-038 Decision 4)."
+  }
+}

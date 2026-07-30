@@ -1,0 +1,236 @@
+/* apps/site — the landing page's own stylesheet.
+   Colour comes from tokens.css (generated at build time from
+   app/design/tokens.json's `chrome.dark` — job 6: brand palette wins on
+   colour). Layout and rhythm below keep the mockup's feel: a fixed
+   translucent header, a tall hero, a facts section with three top-ruled
+   stat cards, and a plain-language pricing block. Geist is kept as the
+   landing page's own display face — see src/render.mjs's top comment. */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--site-ground);
+  color: var(--site-ink);
+  font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--site-accent); }
+
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: clamp(20px, 3.4vw, 48px);
+  padding-right: clamp(20px, 3.4vw, 48px);
+}
+
+/* header */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: var(--site-space-8);
+  padding: var(--site-space-6) clamp(20px, 3.4vw, 48px);
+  background: linear-gradient(to bottom, rgba(10, 12, 16, 0.72), rgba(10, 12, 16, 0));
+  backdrop-filter: blur(6px);
+}
+.site-header .wordmark {
+  display: flex; align-items: baseline; gap: 10px;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+.site-header .wordmark .slash {
+  color: var(--site-accent); font-weight: 500; letter-spacing: -0.06em;
+  transform: skewX(-14deg); display: inline-block;
+}
+.site-header .wordmark .name { font-size: 19px; color: var(--site-ink); }
+.site-header nav {
+  display: flex; gap: var(--site-space-7); margin-left: auto;
+  align-items: center; font-size: 13.5px; font-weight: 450;
+  color: var(--site-ink-muted); white-space: nowrap;
+}
+.site-header nav a.accent { color: var(--site-accent); }
+
+/* hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 88svh;
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(60% 50% at 18% 8%, var(--site-glow-a), transparent 60%),
+    radial-gradient(50% 45% at 92% 78%, var(--site-glow-b), transparent 65%),
+    var(--site-ground-gradient);
+  padding-top: var(--site-space-9);
+}
+.hero-inner { position: relative; z-index: 2; max-width: 660px; }
+.eyebrow {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 11px; font-weight: 500; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--site-accent);
+}
+.hero h1 {
+  margin: var(--site-space-5) 0 0;
+  font-weight: 400;
+  font-size: clamp(34px, 4.7vw, 64px);
+  line-height: 1.1;
+  color: var(--site-ink);
+  text-wrap: balance;
+}
+.hero p.lede {
+  margin: var(--site-space-6) 0 0;
+  max-width: 46ch;
+  font-size: clamp(15px, 1.2vw, 17.5px);
+  line-height: 1.62;
+  color: var(--site-ink-muted);
+}
+.cta-row {
+  display: flex; gap: var(--site-space-6); align-items: center;
+  flex-wrap: wrap; margin-top: var(--site-space-6);
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 15px 24px;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 13.5px; font-weight: 500; letter-spacing: 0.02em;
+  border-radius: var(--site-radius-md);
+  transition: transform 160ms cubic-bezier(.2,.8,.25,1), background 160ms;
+}
+.btn:active { transform: scale(0.98); }
+.btn--primary {
+  background: var(--site-accent);
+  color: #14100a;
+}
+.btn--secondary {
+  border: 1px solid var(--site-metal-1);
+  color: var(--site-ink);
+}
+.hero .fine-print {
+  display: block;
+  margin-top: var(--site-space-6);
+  max-width: 52ch;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12px; line-height: 1.55;
+  color: var(--site-ink-muted);
+}
+
+/* facts */
+.facts { position: relative; background: var(--site-ground); }
+.facts-head { display: flex; flex-direction: column; gap: var(--site-space-6); max-width: 30ch; }
+.facts-head .eyebrow { color: var(--site-ink-muted); }
+.facts-head h2 {
+  margin: 0; font-weight: 400;
+  font-size: clamp(24px, 3vw, 40px); line-height: 1.2;
+  color: var(--site-ink); text-wrap: balance;
+}
+.facts-head h2 .accent { color: var(--site-accent); }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(28px, 3.4vw, 56px);
+  margin-top: clamp(44px, 5vw, 76px);
+  align-items: stretch;
+}
+.stat-card {
+  display: grid; grid-template-rows: auto auto auto;
+  gap: var(--site-space-6);
+  padding-top: var(--site-space-6);
+  border-top: 2px solid var(--site-accent);
+}
+.stat-card.stat-card--secondary { border-top-color: rgba(217, 164, 65, 0.55); }
+.stat-card .stat-value {
+  font-size: clamp(32px, 3.4vw, 46px); line-height: 1; color: var(--site-ink);
+}
+.stat-card .device-caption {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 11.5px; color: var(--site-ink-muted); opacity: 0.7;
+}
+.stat-card .stat-caption { font-size: 14px; line-height: 1.55; color: var(--site-ink-muted); max-width: 30ch; }
+.stat-card .stat-citation {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 11.5px; line-height: 1.5; color: var(--site-ink-muted); opacity: 0.8;
+}
+
+/* count devices — squares/ticks generated from the figure, never hand-drawn */
+.device--grid .device__grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 10), 1fr);
+  gap: 3px;
+}
+.device--grid .cell {
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+  background: rgba(236, 238, 242, 0.12);
+}
+.device--grid .cell--filled { background: var(--site-accent); }
+
+/* mechanism device (no number) */
+.device--loop {
+  display: flex; align-items: center; gap: var(--site-space-4);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 13px;
+}
+.loop__chip {
+  padding: 6px 12px;
+  border-radius: var(--site-radius-pill);
+  border: 1px solid var(--site-metal-1);
+  color: var(--site-ink-muted);
+}
+.loop__chip--tap { color: var(--site-ink); border-color: var(--site-accent); }
+.loop__chip--back { color: var(--site-ink); border-color: var(--site-accent); }
+.loop__arrow { color: var(--site-ink-muted); }
+
+.facts-footnote {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--site-space-7); flex-wrap: wrap;
+  margin-top: var(--site-space-7);
+  padding-top: var(--site-space-6);
+  border-top: 1px solid rgba(236, 238, 242, 0.09);
+}
+.facts-footnote span {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12px; color: var(--site-ink-muted); opacity: 0.75; max-width: 52ch;
+}
+
+/* pricing */
+.pricing { background: var(--site-ground); border-top: 1px solid rgba(236, 238, 242, 0.08); }
+.pricing-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(28px, 3.4vw, 56px); margin-top: var(--site-space-7);
+}
+.pricing-card {
+  padding: var(--site-space-7);
+  border-radius: var(--site-radius-lg);
+  background: var(--site-panel-fill);
+  backdrop-filter: blur(var(--site-panel-blur));
+  border: 1px solid var(--site-metal-1);
+}
+.pricing-card h3 { margin: 0 0 var(--site-space-4); font-size: 18px; font-weight: 500; }
+.pricing-card ul { margin: 0; padding-left: 1.1em; color: var(--site-ink-muted); font-size: 14.5px; line-height: 1.7; }
+
+/* variant labels — only present on /a/ and /b/, never on a page meant to publish as-is */
+.variant-banner {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 30;
+  padding: 10px clamp(20px, 3.4vw, 48px);
+  background: #14100a; color: #F6EEE2;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12.5px; text-align: center;
+  border-top: 1px solid var(--site-metal-2);
+}
+
+footer.site-footer {
+  padding: clamp(48px, 6vw, 88px) 0 clamp(64px, 7vw, 96px);
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  gap: var(--site-space-6);
+}
+footer.site-footer .foot-note { font-size: 13px; color: var(--site-ink-muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.001ms !important; animation-duration: 0.001ms !important; }
+}

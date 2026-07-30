@@ -1,0 +1,18 @@
+{
+  "name": "site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "The public landing page (T9). Static output, no framework, no dependency on apps/web's toolchain — its own package.json and its own build.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-devices.mjs",
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck && npm run build && npm run check && npm run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}

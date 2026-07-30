@@ -1,0 +1,45 @@
+name: site
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      ["apps/site/**", "design/tokens.json", ".github/workflows/site.yml"]
+  pull_request:
+    paths:
+      ["apps/site/**", "design/tokens.json", ".github/workflows/site.yml"]
+
+concurrency:
+  group: site-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: apps/site
+
+jobs:
+  check:
+    name: build, device check, lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # No install step: this surface has zero dependencies on purpose (T9
+      # job 1 — it must not drag apps/web's toolchain, or any toolchain,
+      # behind it).
+      - name: Build
+        run: npm run build
+
+      # T9 job 4: every visual device is generated from the figure it
+      # illustrates; this is the check that fails when a rendered count and
+      # the cited figure disagree.
+      - name: Device count check
+        run: npm run check
+
+      # T9 DONE #4: the three retired phrases never come back.
+      - name: Lint (banned phrases, citation presence)
+        run: npm run lint
