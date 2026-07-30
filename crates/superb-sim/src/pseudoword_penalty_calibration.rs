@@ -770,9 +770,7 @@ pub fn to_markdown(calibration: &Calibration) -> String {
          observation. This is what clause 2 of the admissibility rule below is checked against — \
          a matter of degree, not a single yes/no per bluff rate.\n\n",
     );
-    out.push_str(
-        "| b | θ_true | n | ever saturated | final saturated |\n|---|---|---|---|---|\n",
-    );
+    out.push_str("| b | θ_true | n | ever saturated | final saturated |\n|---|---|---|---|---|\n");
     for row in &calibration.saturation_rows {
         for cell in &row.cells {
             out.push_str(&format!(
@@ -832,7 +830,9 @@ pub fn to_markdown(calibration: &Calibration) -> String {
     }
     out.push('\n');
 
-    out.push_str("### The admissible cluster's calibrated values, clamp-hit fraction beside each\n\n");
+    out.push_str(
+        "### The admissible cluster's calibrated values, clamp-hit fraction beside each\n\n",
+    );
     out.push_str(
         "A row admissible under both clauses can still carry a non-trivial clamp-hit fraction — \
          printed here rather than folded away, since an admissible-but-partially-saturated row is \
@@ -842,7 +842,11 @@ pub fn to_markdown(calibration: &Calibration) -> String {
         "| b | calibrated penalty | mean signed error | ever saturated (row) | final saturated \
          (row) |\n|---|---|---|---|---|\n",
     );
-    for (row, admissibility) in calibration.rows.iter().zip(calibration.admissibility.iter()) {
+    for (row, admissibility) in calibration
+        .rows
+        .iter()
+        .zip(calibration.admissibility.iter())
+    {
         if !admissibility.admissible {
             continue;
         }
@@ -902,7 +906,9 @@ pub fn to_markdown(calibration: &Calibration) -> String {
             calibration.admissible_max_fraction * 100.0,
             calibration.rows[0].incumbent().mean_signed_error,
             calibration.rows[0].bluff_rate,
-            calibration.rows[calibration.rows.len() - 1].incumbent().mean_signed_error,
+            calibration.rows[calibration.rows.len() - 1]
+                .incumbent()
+                .mean_signed_error,
             calibration.rows[calibration.rows.len() - 1].bluff_rate,
         ));
     } else if admissible_ever_max <= NONTRIVIAL_CLAMP_HIT_THRESHOLD {
