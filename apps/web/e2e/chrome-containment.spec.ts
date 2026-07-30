@@ -58,3 +58,17 @@ test("no chrome device is present in the room around the passage either, while r
   const leaked = await page.locator(`.reading-screen ${LEAK_SELECTOR}`).count();
   expect(leaked).toBe(0);
 });
+
+// The DONE list asks for one assertion per Job 2 device, not only the
+// combined sweep above -- named individually so a future device that sets
+// the shared attribute wrong (say, misspells its own name) fails on its
+// own line instead of vanishing into a passing combined count.
+const JOB_2_DEVICES = ["loader", "orb", "quiet-button", "confirm-button", "sheen-switch", "screen-transition", "beam-card"];
+
+for (const device of JOB_2_DEVICES) {
+  test(`${device} is absent from the reading state`, async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+    expect(await page.locator(`.reading-screen [data-chrome-device="${device}"]`).count()).toBe(0);
+  });
+}
