@@ -16,9 +16,26 @@ import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { MarginMark } from "./doodle/MarginMark";
+import { PixelBreak } from "./chrome/PixelBreak";
+import { useState } from "react";
 
 export function ReadingScreen() {
   const session = useEngineSession();
+  const [breaking, setBreaking] = useState(false);
+
+  // ADR-036's B4 lives here, not inside PassagePage's own "Keep reading"
+  // button: that button unmounts the instant `session.finish` swaps the
+  // passage (PassagePage remounts on the new `passage.id` key), which tore
+  // the flourish down before it painted a frame when it was a child of the
+  // button -- watched failing deterministically, not merely under load.
+  // ReadingScreen persists across that swap, so the break is anchored here
+  // instead, at the same fixed bottom-centre spot the button itself sits
+  // at (see the CSS), reading as if it came from the button without being
+  // tied to its lifecycle.
+  function handleFinish() {
+    setBreaking(true);
+    session.finish();
+  }
 
   return (
     <div className="reading-screen">
@@ -50,9 +67,18 @@ export function ReadingScreen() {
             record={session.record}
             passage={session.passage}
             onWordTap={session.tapWord}
-            onFinish={session.finish}
+            onFinish={handleFinish}
           />
         )}
+      </div>
+      {/* Fixed at the same bottom-centre spot as the "Keep reading" button
+         (PassagePage.css's own .passage-continue), so the flourish reads as
+         coming from that button even though it outlives it -- the layering
+         fix ADR-036 Decision 2 names is satisfied the same way it would be
+         inside the button: nowhere near the passage text, extent bounded to
+         this one small area rather than the whole screen. */}
+      <div className="reading-screen-break" aria-hidden="true">
+        <PixelBreak active={breaking} onDone={() => setBreaking(false)} />
       </div>
     </div>
   );

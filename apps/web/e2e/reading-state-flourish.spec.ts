@@ -106,7 +106,7 @@ test("the pixel break fires from Keep reading, bounded to the button, and the pa
   await expect(page.locator(".passage-continue")).toHaveClass(/passage-continue--visible/, { timeout: 15_000 });
   await page.locator(".passage-continue-button").click();
 
-  await expect(page.locator('.passage-continue-button [data-chrome-device="pixel-break"]')).toBeVisible();
+  await expect(page.locator('.reading-screen-break [data-chrome-device="pixel-break"]')).toBeVisible();
 
   // Ends in stillness, and only then does the next passage arrive -- the
   // trigger does not unmount the animation out from under itself.

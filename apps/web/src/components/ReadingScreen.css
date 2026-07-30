@@ -46,6 +46,22 @@
   z-index: 1;
 }
 
+/* ADR-036's B4 -- see ReadingScreen.tsx's own comment for why this lives
+   here rather than inside PassagePage's "Keep reading" button. Same fixed
+   bottom-centre spot as .passage-continue (PassagePage.css), so the break
+   reads as coming from that button. A small, fixed box, not the whole
+   viewport -- the layering fix's bound holds by construction here too. */
+.reading-screen-break {
+  position: fixed;
+  left: 50%;
+  bottom: var(--space-4);
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3rem;
+  pointer-events: none;
+  z-index: 30;
+}
+
 /* The register decision, receipted 2026-07-27 (workspace/decisions/
    README.md): Kihea chose "a little of his own hand" -- these are the
    values his choice picked, item 7's `drawn` candidate, now the only

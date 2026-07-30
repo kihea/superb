@@ -10,7 +10,6 @@ import { fillTemplate, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
 import { BreakChain } from "./doodle/BreakChain";
 import { DoodleArrow } from "./doodle/DoodleArrow";
-import { PixelBreak } from "./chrome/PixelBreak";
 
 export interface PassagePageProps {
   record: ComposedPassage | SourceExcerpt;
@@ -23,7 +22,6 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   const [activeWord, setActiveWord] = useState<string | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
-  const [breaking, setBreaking] = useState(false);
 
   const text = record.pool === "composed" ? fillTemplate(record.text, passage.fills) : record.text;
   const tokens = tokenize(text);
@@ -96,28 +94,22 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          card's own surface, styled for the dark ground behind it -- pale
          text on a pale card, unreadable. Escaping to document.body is the
          fix that holds regardless of how tall the passage or its card is. */}
-      {/* ADR-036 -- B4's pixel break, the passage-to-passage flourish the
-         reading state now admits. Bounded to this button's own box
-         (position: relative in PassagePage.css), which is why the
-         layering fix ADR-036 Decision 2 names is satisfied here without
-         extra work: this button sits at the foot of the viewport, nowhere
-         near the passage text, so the flourish's extent never approaches
-         it. Reader-started (the tap itself) and ends in stillness -- the
-         next passage is not requested until the break finishes, so the
-         animation is never cut off by its own trigger unmounting it. */}
+      {/* ADR-036's pixel break (B4) does NOT live here -- an earlier
+         version mounted <PixelBreak> as this button's own child and fired
+         onFinish in the same click handler, and that lost the animation
+         outright: onFinish triggers PassagePage's own remount (a new
+         `passage.id` key on ReadingScreen), which tears this button and
+         its child down before the flourish paints a frame, watched
+         failing even single-worker, not merely under load. ReadingScreen
+         owns the break instead, since it is the one thing that survives a
+         passage-to-passage transition -- see its own comment. */}
       {createPortal(
         <div className={`passage-continue${nearEnd ? " passage-continue--visible" : ""}`}>
-          <button
-            type="button"
-            className="passage-continue-button metal"
-            onClick={() => setBreaking(true)}
-            disabled={breaking}
-          >
+          <button type="button" className="passage-continue-button metal" onClick={onFinish}>
             Keep reading
             <span className="passage-continue-arrow" aria-hidden="true">
               <DoodleArrow />
             </span>
-            <PixelBreak active={breaking} onDone={onFinish} />
           </button>
         </div>,
         document.body,
