@@ -43,7 +43,9 @@ function header() {
 function hero() {
   // "Free while you're building the habit" is gone (ADR-010 / job 2): the
   // reading itself never becomes paid. What costs money is the part that
-  // costs us money to run.
+  // costs us money to run — and that part (voice, hosted AI) is not built
+  // yet, so this line is careful to say "will be," not "is" (PR-90 finding:
+  // the pricing section had this same present-tense slip; fixed here too).
   return `<section class="hero">
   <div class="shell hero-inner">
     <span class="eyebrow">Vocabulary, through reading</span>
@@ -53,7 +55,7 @@ function hero() {
       <a href="#" class="btn btn--primary">Start with six minutes</a>
       <a href="#library" class="btn btn--secondary">See a passage</a>
     </div>
-    <span class="fine-print">The reading is free — no account, fully usable offline. Cloud voice and hosted AI cost money to run, so those are the paid part; a local option keeps that free too.</span>
+    <span class="fine-print">The reading is free — no account, fully usable offline. Cloud voice and hosted AI will be the paid part, once they ship; a local-model option will keep that free too.</span>
   </div>
 </section>`;
 }
@@ -126,11 +128,17 @@ function fixtureSession() { return _figures.session; }
 function fixtureMechanism() { return _figures.mechanism; }
 
 function pricing() {
+  // Voice and hosted AI are not built yet (T9 job 2) — sync already carried
+  // an honest "when it ships" hedge here, and PR-90's review correctly found
+  // that voice and AI didn't get the same one. ADR-038 treats an unbuilt
+  // feature described as present as the same defect as an uncited number, so
+  // this card is written entirely in "when it ships" terms rather than flat
+  // present tense, with no date implied either way.
   return `<section id="pricing" class="pricing">
   <div class="shell" style="padding-top: clamp(56px,6vw,88px); padding-bottom: clamp(56px,6vw,88px)">
     <div class="facts-head">
       <span class="eyebrow">Pricing</span>
-      <h2>Reading is free. Voice and hosted AI are not.</h2>
+      <h2>Reading is free. Voice and hosted AI, when they ship, are the paid part.</h2>
     </div>
     <div class="pricing-grid">
       <div class="pricing-card">
@@ -142,11 +150,11 @@ function pricing() {
         </ul>
       </div>
       <div class="pricing-card">
-        <h3>Paid, because it costs us to run</h3>
+        <h3>Paid, once it ships — because it costs us to run</h3>
         <ul>
-          <li>Cloud voice</li>
-          <li>Hosted AI features</li>
-          <li>A local-model option keeps this free too, if you’d rather not pay for it</li>
+          <li>Cloud voice — not built yet</li>
+          <li>Hosted AI features — not built yet</li>
+          <li>A local-model option will keep this free too, for anyone who’d rather not pay for it</li>
         </ul>
       </div>
     </div>
