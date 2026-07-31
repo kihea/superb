@@ -105,6 +105,146 @@ test("the drawn register does not narrate its own pedagogy in rendered text", as
   }
 });
 
+/** Every reader-facing digit on the reading screen, across every channel a
+ *  browser can paint a number through and this test can actually audit:
+ *
+ *    - DOM text, anywhere it lives -- the main document, any *open* shadow
+ *      root (a closed one is opaque even to this, which is the one gap a
+ *      closed shadow root would leave; nothing in this app opens one), and
+ *      any *same-origin* iframe's own document (recursed the same way,
+ *      `srcdoc` included).
+ *    - Generated content on `::before`/`::after`/`::marker`.
+ *    - A rendered list item's own UA-drawn number or bullet. This can't be
+ *      read out of computed style at all -- `content` on a UA marker
+ *      reports `normal`, not the digit it paints -- so it is forbidden by
+ *      existence instead: nothing on this surface may render as a visible
+ *      `display: list-item` with `list-style-type` other than `none`.
+ *    - Visible form controls' `value`, `placeholder`, and (for `<select>`)
+ *      the selected option's own text.
+ *    - Canvas pixels, forbidden the same way list markers are: nothing can
+ *      read what a canvas painted, so nothing may sit on this surface as a
+ *      canvas except the voice orb's own (`.voice-orb`) -- any other one is
+ *      a violation by existence, not by content.
+ *    - A cross-origin iframe is a violation by existence too, for the same
+ *      reason: its content cannot be reached from here to be audited at
+ *      all, so it may not sit on this surface either.
+ *
+ *  Two channels are named rather than closed, because closing them would
+ *  forbid things this surface may legitimately need later: the sanctioned
+ *  orb canvas's own pixels (it is allowed to exist; what it paints is not
+ *  re-audited here), and image content (`<img>`, `background-image`) --
+ *  nothing renders one today, but nothing structurally forbids one either.
+ *  Both are residual, honest bounds, not oversights. */
+async function readerFacingNumberViolations(page: Page): Promise<{ route: string; selector: string; text: string }[]> {
+  return page.evaluate(() => {
+    type Violation = { route: string; selector: string; text: string };
+    const violations: Violation[] = [];
+
+    // Only meaningful against the main document -- the passage never
+    // renders into a shadow root or an iframe, so an element from either
+    // fails this by construction (`Node.contains` does not cross those
+    // boundaries), without needing its own branch to say so.
+    const passageText = document.querySelector(".passage-text");
+    const passageRect = passageText?.getBoundingClientRect();
+    const isPassageProse = (el: Element): boolean => {
+      if (!passageText || !passageRect || !passageText.contains(el)) return false;
+      const range = document.createRange();
+      range.selectNodeContents(el);
+      const r = range.getBoundingClientRect();
+      const pad = 1; // sub-pixel rounding, not a loophole width.
+      return (
+        r.left >= passageRect.left - pad &&
+        r.right <= passageRect.right + pad &&
+        r.top >= passageRect.top - pad &&
+        r.bottom <= passageRect.bottom + pad
+      );
+    };
+    const isPermittedClass = (el: Element): boolean =>
+      el.classList.contains("hold-menu__count") || el.classList.contains("passage-citation");
+    const describe = (el: Element): string =>
+      `${el.tagName.toLowerCase()}${el.classList.length ? "." + [...el.classList].join(".") : ""}`;
+    const isVisible = (el: Element): boolean => el.getClientRects().length > 0;
+
+    const visitedRoots = new Set<Node>();
+
+    function scan(root: Node, label: string): void {
+      if (visitedRoots.has(root)) return;
+      visitedRoots.add(root);
+
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+        const text = (node.textContent ?? "").trim();
+        if (!text || !/\d/.test(text)) continue;
+        // `parentElement` is null when the direct parent isn't an Element --
+        // a Text node set straight onto a ShadowRoot via `.textContent` has
+        // exactly this shape, and `continue`-ing past a null element here
+        // was a real gap: neither exemption is keyed to anything but an
+        // Element, so no element to check against means no exemption
+        // applies, not that the text is safe to skip.
+        const el = node.parentElement;
+        if (el && (isPassageProse(el) || isPermittedClass(el))) continue;
+        violations.push({ route: `${label} text`, selector: el ? describe(el) : "(no element parent)", text });
+      }
+
+      const elements = (root as ParentNode).querySelectorAll("*");
+      for (const el of elements) {
+        for (const pseudo of ["::before", "::after", "::marker"] as const) {
+          const content = getComputedStyle(el, pseudo).content;
+          const text = (content ?? "").replace(/^"|"$/g, "");
+          if (/\d/.test(text)) violations.push({ route: `${label} pseudo`, selector: `${describe(el)}${pseudo}`, text });
+        }
+
+        const cs = getComputedStyle(el);
+        if (cs.display === "list-item" && cs.listStyleType !== "none" && isVisible(el)) {
+          violations.push({ route: `${label} list-item`, selector: describe(el), text: "(UA list marker)" });
+        }
+
+        if (el.tagName === "CANVAS" && !el.classList.contains("voice-orb")) {
+          violations.push({ route: `${label} canvas`, selector: describe(el), text: "(unaudited canvas)" });
+        }
+
+        if ((el.tagName === "INPUT" || el.tagName === "TEXTAREA") && isVisible(el)) {
+          const value = (el as HTMLInputElement | HTMLTextAreaElement).value;
+          const placeholder = el.getAttribute("placeholder") ?? "";
+          if (/\d/.test(value)) violations.push({ route: `${label} value`, selector: describe(el), text: value });
+          if (/\d/.test(placeholder)) {
+            violations.push({ route: `${label} placeholder`, selector: describe(el), text: placeholder });
+          }
+        }
+        if (el.tagName === "SELECT" && isVisible(el)) {
+          const select = el as HTMLSelectElement;
+          const selected = select.options[select.selectedIndex]?.text ?? "";
+          if (/\d/.test(selected)) violations.push({ route: `${label} select`, selector: describe(el), text: selected });
+        }
+
+        // Not visited by the walker or querySelectorAll above at all --
+        // each is its own node tree and needs its own recursion.
+        if (el.shadowRoot) scan(el.shadowRoot, `${label} > shadow(${describe(el)})`);
+        if (el.tagName === "IFRAME") {
+          let doc: Document | null = null;
+          try {
+            doc = (el as HTMLIFrameElement).contentDocument;
+          } catch {
+            doc = null;
+          }
+          if (!doc) {
+            violations.push({
+              route: `${label} iframe`,
+              selector: describe(el),
+              text: "(cross-origin iframe, cannot be audited)",
+            });
+          } else if (doc.body) {
+            scan(doc.body, `${label} > iframe(${describe(el)})`);
+          }
+        }
+      }
+    }
+
+    scan(document.body, "document");
+    return violations;
+  });
+}
+
 // ADR-039's bound on issue #102: the held sentence's own "· N new" is law
 // 3's first and only named exception -- the count of *that sentence's*
 // first-contact words, in the menu the reader's own hold raised, nothing
@@ -112,9 +252,7 @@ test("the drawn register does not narrate its own pedagogy in rendered text", as
 // the count is the *only* reader-facing number anywhere in the document
 // once a sentence is held, and that it is actually the right number (a
 // sweep that only watches for extras would still pass with the exception
-// quietly gutted to always read zero). Watched red both ways in review:
-// once with HoldMenu's count stripped back out, and once with an
-// unrelated digit added somewhere else on the reading screen.
+// quietly gutted to always read zero).
 test("the held sentence's new-word count is the only number facing the reader", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
@@ -148,78 +286,8 @@ test("the held sentence's new-word count is the only number facing the reader", 
   await expect(menu).toBeVisible();
   await expect(page.locator(".hold-menu__count")).toHaveText(new RegExp(`^\\s*·\\s*${expectedCount}\\s*new$`));
 
-  // Every other digit anywhere near the reader: the passage's own prose is
-  // excluded, the same way reading.spec.ts's topic-affinity test excludes
-  // the passage's own topic word -- content a book or a composed template
-  // legitimately carries is not a measurement of the reader, and is not
-  // what law 3 is about. The citation year (ADR-023) is the other named
-  // legitimate case. Anything left over is unexplained.
-  //
-  // A review attacked the first version of this sweep and won three ways,
-  // all reproduced and closed here:
-  //
-  //   1. The exclusions were substring class checks (`.includes(...)`), so
-  //      an unrelated class merely *containing* "passage-citation" or
-  //      "hold-menu__count" escaped. `classList.contains` is exact per
-  //      class token instead.
-  //   2. "Passage prose" was any DOM descendant of `.passage-text`, which a
-  //      `position: fixed` badge nested inside the paragraph satisfies
-  //      while rendering nowhere near the actual text. Prose now also has
-  //      to be geometrically inside the passage's own rendered box -- a
-  //      fixed-position escape fails that regardless of where it sits in
-  //      the DOM.
-  //   3. `::before`/`::after` generated content is invisible to a DOM text
-  //      walker by construction. There is no legitimate reason for a
-  //      pseudo-element to carry a digit on this surface at all, so this
-  //      now scans computed pseudo-element content too and treats any
-  //      digit found there as unexplained, unconditionally.
-  //
-  // The lesson that produced this list: watching the sweep go red proves
-  // the mechanism fires, not that the exclusions are the right shape --
-  // each carve-out has to be attacked on its own before it can be trusted.
-  const digitNodes = await page.evaluate(() => {
-    const out: { selector: string; text: string }[] = [];
-
-    const passageText = document.querySelector(".passage-text");
-    const passageRect = passageText?.getBoundingClientRect();
-    const isPassageProse = (el: Element): boolean => {
-      if (!passageText || !passageRect || !passageText.contains(el)) return false;
-      const range = document.createRange();
-      range.selectNodeContents(el);
-      const r = range.getBoundingClientRect();
-      const pad = 1; // sub-pixel rounding, not a loophole width.
-      return (
-        r.left >= passageRect.left - pad &&
-        r.right <= passageRect.right + pad &&
-        r.top >= passageRect.top - pad &&
-        r.bottom <= passageRect.bottom + pad
-      );
-    };
-    const describe = (el: Element): string =>
-      `${el.tagName.toLowerCase()}${el.classList.length ? "." + [...el.classList].join(".") : ""}`;
-
-    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-      const text = (node.textContent ?? "").trim();
-      if (!text || !/\d/.test(text)) continue;
-      const el = node.parentElement;
-      if (!el) continue;
-      if (isPassageProse(el)) continue;
-      if (el.classList.contains("hold-menu__count") || el.classList.contains("passage-citation")) continue;
-      out.push({ selector: describe(el), text });
-    }
-
-    for (const el of document.querySelectorAll("*")) {
-      for (const pseudo of ["::before", "::after"] as const) {
-        const content = getComputedStyle(el, pseudo).content;
-        const text = content.replace(/^"|"$/g, "");
-        if (/\d/.test(text)) out.push({ selector: `${describe(el)}${pseudo}`, text });
-      }
-    }
-
-    return out;
-  });
-  expect(digitNodes, "a number faced the reader outside the one sanctioned exception").toEqual([]);
+  const violations = await readerFacingNumberViolations(page);
+  expect(violations, "a number faced the reader outside the one sanctioned exception").toEqual([]);
 });
 
 // The seam audit (ADVISORY-008 §5 item 4): none of the three drawn motifs
