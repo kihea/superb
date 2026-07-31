@@ -16,6 +16,12 @@ export default defineConfig({
     baseURL: "http://localhost:4319",
     trace: "retain-on-failure",
   },
+  // Running this by hand in a rapid edit-rebuild-retest loop: kill any
+  // process still holding port 4319 and don't reuse it, and clear the
+  // browser's own storage/service-worker cache between runs too -- two
+  // reviewers this week lost time to a stale preview server (or the PWA's
+  // own precache) quietly serving an old build against a fresh test run,
+  // reading a broken build as green and a fixed one as red.
   webServer: {
     command: "npm run build && npm run preview -- --port 4319 --strictPort",
     url: "http://localhost:4319",
