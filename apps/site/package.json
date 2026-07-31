@@ -6,7 +6,11 @@
   "description": "The public landing page — Kihea's designed page, served verbatim. Static output, no framework, nothing from apps/web's toolchain.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "npm run build"
+    "test": "npm run build",
+    "assemble": "node scripts/assemble.mjs",
+    "smoke": "node scripts/check-assembled.mjs"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
 }

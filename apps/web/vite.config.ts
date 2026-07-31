@@ -2,8 +2,18 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
+// T10 job 1: the app is served from a subpath (superb.works/read/) inside
+// the assembled deploy, but stands alone at "/" for its own CI (web.yml) and
+// local dev. One constant, changed in one place -- .github/workflows/site.yml
+// sets VITE_BASE when it builds this app into the assembled artifact; every
+// other caller (dev, web.yml's own build/test, `vite preview`) gets the "/"
+// default. src/content/store.ts reads the same value back at runtime via
+// import.meta.env.BASE_URL, which vite derives from this.
+const BASE = process.env.VITE_BASE ?? "/";
+
 // https://vite.dev/config/
 export default defineConfig({
+  base: BASE,
   plugins: [
     react(),
     VitePWA({
@@ -13,13 +23,15 @@ export default defineConfig({
         name: "Superb",
         short_name: "Superb",
         description: "A quiet place to read.",
-        start_url: "/",
+        start_url: BASE,
+        scope: BASE,
         display: "standalone",
         // The paper the app actually opens on now (design/ox.css's
-        // --ox-paper), not the dark room it used to.
+        // --ox-paper), not the dark room it used to. The icon keeps the
+        // BASE prefix so it resolves when the app is assembled at /read/.
         background_color: "#F6EFE4",
         theme_color: "#F6EFE4",
-        icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" }],
+        icons: [{ src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" }],
       },
       workbox: {
         // The app shell and self-hosted fonts are small and stable --

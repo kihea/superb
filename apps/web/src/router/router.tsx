@@ -10,8 +10,26 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import { RouterContext, useNavigate } from "./context";
 
+// The app stands alone at "/" but is served from a subpath (superb.works/
+// read/) inside the assembled deploy -- vite.config.ts's own BASE constant,
+// read back here the same way store.ts reads it. Routes stay written and
+// matched in app-space ("/shelf"); the base is stripped on the way in and
+// put back on the way out, so this is the only file that knows about it.
+const BASE = import.meta.env.BASE_URL || "/";
+
+function stripBase(pathname: string): string {
+  if (BASE === "/") return pathname || "/";
+  if (pathname === BASE || pathname + "/" === BASE) return "/";
+  if (pathname.startsWith(BASE)) return "/" + pathname.slice(BASE.length);
+  return pathname || "/";
+}
+
+function withBase(to: string): string {
+  return BASE === "/" ? to : BASE.replace(/\/$/, "") + to;
+}
+
 function currentPath(): string {
-  return window.location.pathname || "/";
+  return stripBase(window.location.pathname || "/");
 }
 
 export function Router({ children }: { children: ReactNode }) {
@@ -27,8 +45,8 @@ export function Router({ children }: { children: ReactNode }) {
 
   const navigate = useCallback((to: string, options?: { replace?: boolean }) => {
     if (to === currentPath()) return;
-    if (options?.replace) window.history.replaceState(null, "", to);
-    else window.history.pushState(null, "", to);
+    if (options?.replace) window.history.replaceState(null, "", withBase(to));
+    else window.history.pushState(null, "", withBase(to));
     setPath(to);
     window.scrollTo(0, 0);
   }, []);
@@ -56,7 +74,7 @@ export function Link({
   const navigate = useNavigate();
   return (
     <a
-      href={to}
+      href={withBase(to)}
       className={className}
       aria-label={ariaLabel}
       onClick={(e) => {

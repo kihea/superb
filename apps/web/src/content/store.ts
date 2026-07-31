@@ -21,6 +21,14 @@ let difficulties: Record<string, number> | null = null;
 // module has run once online, regardless of whether a worker exists at all.
 const CONTENT_CACHE = "superb-content-v1";
 
+// T10 job 1: these used to be root-absolute ("/content/...") and broke the
+// moment the app served from anywhere but "/" -- vite only rewrites paths it
+// sees in index.html at build time, never a string a fetch() call builds at
+// runtime. import.meta.env.BASE_URL is vite's own base config (already
+// slash-terminated), so this is the one place the subpath has to be spelled
+// out for content fetches, matching vite.config.ts's single BASE constant.
+const contentUrl = (name: string) => `${import.meta.env.BASE_URL}content/${name}`;
+
 async function fetchJson<T>(url: string): Promise<T> {
   if (!("caches" in window)) return fetch(url).then((r) => r.json() as Promise<T>);
 
@@ -39,8 +47,8 @@ async function fetchJson<T>(url: string): Promise<T> {
 async function ensureLoaded(): Promise<Map<string, Record_>> {
   if (byId) return byId;
   const [passages, sources] = await Promise.all([
-    fetchJson<ComposedPassage[]>("/content/passages.json"),
-    fetchJson<SourceExcerpt[]>("/content/sources.json"),
+    fetchJson<ComposedPassage[]>(contentUrl("passages.json")),
+    fetchJson<SourceExcerpt[]>(contentUrl("sources.json")),
   ]);
   const map = new Map<string, Record_>();
   for (const p of passages) map.set(p.id, p);
@@ -61,7 +69,7 @@ async function ensureLoaded(): Promise<Map<string, Record_>> {
  *  which is the difference from what this function used to return. */
 async function ensureLexiconLoaded(): Promise<{ wordClasses: Record<string, string[]>; words: string[] }> {
   if (lexicon) return lexicon;
-  const classes = await fetchJson<WordClass[]>("/content/classes.json");
+  const classes = await fetchJson<WordClass[]>(contentUrl("classes.json"));
   const sorted = [...classes].sort((a, b) => a.id.localeCompare(b.id));
 
   const wordClasses: Record<string, string[]> = {};
@@ -87,7 +95,7 @@ async function ensureLexiconLoaded(): Promise<{ wordClasses: Record<string, stri
  *  them directly. */
 async function ensureDifficultiesLoaded(): Promise<Record<string, number>> {
   if (difficulties) return difficulties;
-  const table = await fetchJson<{ words: Record<string, number> }>("/content/difficulty.json");
+  const table = await fetchJson<{ words: Record<string, number> }>(contentUrl("difficulty.json"));
   difficulties = table.words;
   return difficulties;
 }

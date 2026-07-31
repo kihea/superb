@@ -4,10 +4,38 @@ on:
   push:
     branches: [main, dev]
     paths:
-      ["apps/site/**", "design/tokens.json", ".github/workflows/site.yml"]
+      # T10 job 1: this job assembles and (once credentials exist) publishes
+      # the reading app too (landing at "/", app at "/read/", one artifact)
+      # -- so anything that would make web.yml rebuild the app also has to
+      # make this workflow re-run, or a merged app change could sit
+      # unpublished until an unrelated site.yml-triggering change came
+      # along. Mirrors web.yml's own path list exactly.
+      [
+        "apps/site/**",
+        "apps/web/**",
+        "design/**",
+        "content/**",
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/site.yml",
+      ]
   pull_request:
     paths:
-      ["apps/site/**", "design/tokens.json", ".github/workflows/site.yml"]
+      [
+        "apps/site/**",
+        "apps/web/**",
+        "design/**",
+        "content/**",
+        "crates/superb-wasm/**",
+        "crates/superb-core/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/site.yml",
+      ]
 
 concurrency:
   group: site-${{ github.ref }}
@@ -17,14 +45,19 @@ defaults:
   run:
     working-directory: apps/site
 
+env:
+  # Kept in step with .github/workflows/web.yml's own pin -- see that
+  # file's comment on why the CLI and the crate version must match exactly.
+  WASM_BINDGEN_VERSION: "0.2.126"
+
 jobs:
   # The landing is Kihea's own designed page, served verbatim — there is no
   # generated markup to typecheck, no figure devices to count, no copy lint
-  # to run. The old T9 jobs checked a site that no longer exists, and they
-  # were failing for exactly that reason. What is left to check is that the
-  # page assembles.
+  # to run; the old T9 jobs checked a site that no longer exists. What is
+  # left to check is that the page assembles with the reading app at /read/
+  # and that both surfaces work in a real browser.
   check:
-    name: build
+    name: build and assembled smoke check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,19 +66,49 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: apps/site/package-lock.json
+          cache-dependency-path: |
+            apps/site/package-lock.json
+            apps/web/package-lock.json
 
       - name: Install
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Install a browser for the assembled smoke check
+        run: npx playwright install --with-deps chromium
+
+      # T10 job 1: the wasm toolchain apps/web needs to build itself, reused
+      # verbatim from web.yml rather than invented a second time here.
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+
+      - name: Add wasm32 target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Install wasm-bindgen-cli (pinned to the crate version)
+        run: cargo install wasm-bindgen-cli --version "$WASM_BINDGEN_VERSION" --locked
+
+      - name: Install apps/web's own dependencies
+        working-directory: apps/web
+        run: npm ci
+
+      # T10 job 1 + job 4: builds the landing into dist/ and apps/web into
+      # dist/read/, then proves the two surfaces work together in a real
+      # browser. Watched red once (T10 PR body carries the transcript) by
+      # building apps/web with its base left at "/" instead of "/read/":
+      # every asset under /read/ 404'd and the passage selector never
+      # appeared.
+      - name: Assemble the deployable (landing at /, app at /read/)
+        run: npm run assemble
+
+      - name: Prove the two surfaces together (smoke check)
+        run: npm run smoke
 
   # The publishing step (issue #91). Kihea set superb.works up on Cloudflare;
-  # this uploads the built page to Cloudflare Pages. Pushes to main publish
-  # the live site; pushes to dev publish a preview URL. It needs two
-  # repository secrets — CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID —
-  # and until they exist it says so and skips rather than failing.
+  # this uploads the assembled artifact (landing at "/", reading app at
+  # "/read/") to Cloudflare Pages. Pushes to main publish the live site;
+  # pushes to dev publish a preview URL. It needs two repository secrets —
+  # CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID — and until they exist it
+  # says so and skips rather than failing.
   deploy:
     name: publish to Cloudflare Pages
     needs: check
@@ -58,13 +121,28 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: apps/site/package-lock.json
+          cache-dependency-path: |
+            apps/site/package-lock.json
+            apps/web/package-lock.json
 
       - name: Install
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+
+      - name: Add wasm32 target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Install wasm-bindgen-cli (pinned to the crate version)
+        run: cargo install wasm-bindgen-cli --version "$WASM_BINDGEN_VERSION" --locked
+
+      - name: Install apps/web's own dependencies
+        working-directory: apps/web
+        run: npm ci
+
+      - name: Assemble the deployable (landing at /, app at /read/)
+        run: npm run assemble
 
       - name: Check for Cloudflare credentials
         id: creds
