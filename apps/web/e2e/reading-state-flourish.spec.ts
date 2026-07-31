@@ -111,6 +111,10 @@ test("the Keep flourish never occludes the passage text", async ({ page }) => {
       overlapsText: boolean;
       /** Stricter than the box: actual word elements under the flourish. */
       wordsUnder: string[];
+      /** Decision 5's own bound: the control that emitted it, not the card. */
+      escapesControl: string[];
+      /** The whole rationale below rests on this, so it is measured. */
+      cardSurface: string;
     }[] = [];
 
     const deadline = performance.now() + 3000;
@@ -123,12 +127,38 @@ test("the Keep flourish never occludes the passage text", async ({ page }) => {
       const card = document.querySelector(".gloss-card");
       const settled = !card || !card.getAnimations().some((a) => a.playState === "running");
 
+      // The control that emitted it. Bounding the flourish to the *card*
+      // would be the looser of the two bounds Decision 5 names, and the one
+      // it names in order to reject -- a scatter spread across the whole
+      // 640px card would pass that and break the clause.
+      const control = scatter.closest(".gloss-keep-button")?.getBoundingClientRect() ?? cells;
+      const escapes: string[] = [];
+      if (cells.left < control.left - 1) escapes.push(`left by ${Math.round(control.left - cells.left)}px`);
+      if (cells.top < control.top - 1) escapes.push(`top by ${Math.round(control.top - cells.top)}px`);
+      if (cells.right > control.right + 1) escapes.push(`right by ${Math.round(cells.right - control.right)}px`);
+      if (cells.bottom > control.bottom + 1) {
+        escapes.push(`bottom by ${Math.round(cells.bottom - control.bottom)}px`);
+      }
+
+      // Opaque, or the reasoning collapses: the card is what stands between
+      // the flourish and any words beneath it. Recorded as a string so a
+      // failure says what the surface actually was.
+      const style = card ? getComputedStyle(card) : null;
+      const alpha = Number(
+        (style?.backgroundColor.match(/[\d.]+/g) ?? ["0", "0", "0", "0"])[3] ?? 1,
+      );
+      const opaque = Boolean(style) && alpha === 1 && style!.backdropFilter === "none";
+
       samples.push({
         settled,
         overlapsText: intersects(cells, text),
         wordsUnder: [...document.querySelectorAll(".passage-word")]
           .filter((word) => intersects(cells, word.getBoundingClientRect()))
           .map((word) => word.textContent ?? ""),
+        escapesControl: escapes,
+        cardSurface: opaque
+          ? "opaque"
+          : `${style?.backgroundColor ?? "no card"} / backdrop-filter: ${style?.backdropFilter ?? "-"}`,
       });
 
       await new Promise((resolve) => requestAnimationFrame(() => resolve(null)));
@@ -144,6 +174,25 @@ test("the Keep flourish never occludes the passage text", async ({ page }) => {
   const after = frames.filter((f) => f.settled);
   expect(during.filter((f) => f.overlapsText || f.wordsUnder.length > 0)).toEqual([]);
   expect(after.filter((f) => f.overlapsText || f.wordsUnder.length > 0)).toEqual([]);
+
+  // Decision 5 verbatim: "extent bounded to the control that emitted it
+  // rather than to the card". An earlier draft of this test bounded it to
+  // the card -- the looser of the two, and the one the clause names in
+  // order to reject -- while citing this clause as its authority. The
+  // control's box is viewport-independent, which also retires the whole
+  // question of what the geometry does at 390 versus 1280.
+  expect(
+    frames.filter((f) => f.escapesControl.length > 0),
+    "the flourish reached past the control that emitted it",
+  ).toEqual([]);
+
+  // And the clause above only protects a reader while the card is solid.
+  // If it ever regains the glass ADR-019 once specified, this goes red
+  // rather than staying green over legible text.
+  expect(
+    [...new Set(frames.map((f) => f.cardSurface))],
+    "the gloss card is not an opaque surface",
+  ).toEqual(["opaque"]);
 });
 
 test("the pixel break fires from Keep reading, bounded to the button, and the passage advances only once it ends", async ({
