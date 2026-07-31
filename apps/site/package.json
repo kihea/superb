@@ -9,10 +9,12 @@
     "check": "node scripts/check-devices.mjs",
     "lint": "node scripts/lint.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "npm run typecheck && npm run build && npm run check && npm run lint"
+    "test": "npm run typecheck && npm run build && npm run check && npm run lint",
+    "check:phone": "node scripts/check-phone.mjs"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
+    "playwright": "^1.62.1",
     "typescript": "^7.0.2"
   }
 }

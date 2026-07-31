@@ -9,18 +9,25 @@ still may not.
 Static output, zero runtime dependencies, its own `package.json` — nothing
 here can drag `apps/web`'s toolchain into a deploy.
 
-It deploys to `https://superb.works`. Registering and pointing that domain is
-Kihea's own action, not this repo's — there is no CNAME file, DNS config, or
-hosting-provider setup here, and none should be added on the assumption that
-one is missing.
+It deploys to `https://superb.works`, on Cloudflare Pages — Kihea chose the
+host and set the domain up himself (issue #91), which is why hosting setup
+exists here now when this paragraph used to forbid adding any on assumption.
+CI publishes `dist/` (`.github/workflows/site.yml`): pushes to `main` go
+live, pushes to `dev` get a preview URL. The publish step skips, saying so,
+until the two repository secrets it names exist — `CLOUDFLARE_API_TOKEN` and
+`CLOUDFLARE_ACCOUNT_ID`. Adding those is Kihea's action, and registering or
+pointing the domain still is too.
 
 ## Running it
 
 ```sh
-npm run build   # writes dist/
-npm run check   # fails if a rendered device disagrees with its cited figure
-npm run lint    # fails if a retired phrase reappears, or a citation goes missing
-npm run test    # typecheck, then all three, in order
+npm run build        # writes dist/
+npm run check        # fails if a rendered device disagrees with its cited figure
+npm run lint         # fails if a retired phrase reappears, or a citation goes missing
+npm run test         # typecheck, then all three, in order
+npm run check:phone  # opens the built page at 320/390/1280 in a real browser;
+                     # fails if the nav clips or the page scrolls sideways (#93).
+                     # Needs `npx playwright install chromium` once; CI runs it always.
 ```
 
 One page, `dist/index.html`. This used to build two candidate pages plus a

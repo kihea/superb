@@ -52,3 +52,55 @@ jobs:
       # T9 DONE #4: the three retired phrases never come back.
       - name: Lint (banned phrases, citation presence)
         run: npm run lint
+
+      # Issue #93: the nav ran off the right edge of a phone, and the review
+      # that approved this page had only looked at desktop width. Phone width
+      # is a gate now, not a habit — the built page is opened in a real
+      # browser at 320 and 390 before the comfortable width.
+      - name: Install a browser for the phone-width check
+        run: npx playwright install --with-deps chromium
+
+      - name: Phone-width check
+        run: npm run check:phone
+
+  # The publishing step (issue #91). Kihea set superb.works up on Cloudflare;
+  # this uploads the built page to Cloudflare Pages. Pushes to main publish
+  # the live site; pushes to dev publish a preview URL. It needs two
+  # repository secrets — CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID —
+  # and until they exist it says so and skips rather than failing.
+  deploy:
+    name: publish to Cloudflare Pages
+    needs: check
+    if: github.event_name == 'push' && github.repository == 'kihea/superb'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: apps/site/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Check for Cloudflare credentials
+        id: creds
+        run: echo "have=${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish
+        if: steps.creds.outputs.have == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: apps/site
+          command: pages deploy dist --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT || 'superb-works' }} --branch=${{ github.ref_name }}
+
+      - name: Say so when the publish is skipped
+        if: steps.creds.outputs.have != 'true'
+        run: echo "No Cloudflare credentials in this repository yet — build succeeded, publish skipped. Issue #91 says exactly what to add."

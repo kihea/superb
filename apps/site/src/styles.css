@@ -55,6 +55,21 @@ a:hover { color: var(--site-accent); }
 }
 .site-header nav a.accent { color: var(--site-accent); }
 
+/* Phone widths (#93): the desktop header is one non-wrapping row with wide
+   gaps, which runs off the right edge below ~640px. Tighten the gaps and let
+   the nav drop to its own row when it no longer fits beside the wordmark —
+   right-aligned, so the wrapped row keeps the header's shape. */
+@media (max-width: 640px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: var(--site-space-4);
+  }
+  .site-header nav {
+    gap: var(--site-space-5);
+    font-size: 13px;
+  }
+}
+
 /* hero */
 .hero {
   position: relative;
