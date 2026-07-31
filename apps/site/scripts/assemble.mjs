@@ -17,7 +17,7 @@
 // lives; nothing else needs to know.
 
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, rmSync } from 'node:fs';
+import { cpSync, existsSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -56,6 +56,19 @@ function main() {
   const target = path.join(SITE_DIST, 'read');
   if (existsSync(target)) rmSync(target, { recursive: true, force: true });
   cpSync(WEB_DIST, target, { recursive: true });
+
+  // apps/web ships its own _redirects for when it stands alone at "/";
+  // Cloudflare Pages only reads the file at the artifact's root, so the
+  // copy under read/ is dead there. The live rule is written at the root:
+  // every /read/ route is the app's one document (a 200 rewrite, so the
+  // address bar keeps the deep path). The landing's own files are real and
+  // need no rule.
+  rmSync(path.join(target, '_redirects'), { force: true });
+  writeFileSync(
+    path.join(SITE_DIST, '_redirects'),
+    `${APP_BASE}*    ${APP_BASE}index.html    200
+`,
+  );
 
   console.log(`assembled -> ${SITE_DIST} (landing at /, app at ${APP_BASE})`);
 }

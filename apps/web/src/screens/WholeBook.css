@@ -1,0 +1,62 @@
+/* Frame 1e. */
+
+.whole-book {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-7);
+  flex: 1;
+}
+
+/* Verse and speech keep the author's line breaks. The hanging indent is
+   1e's own 22px: a line too long for the column wraps *inwards*, so it can
+   never be mistaken for a line the author wrote. */
+.whole-book__verse {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  font: var(--type-passage);
+  color: var(--text-1);
+  max-width: var(--measure);
+}
+
+.whole-book__line {
+  padding-left: 22px;
+  text-indent: -22px;
+}
+
+.whole-book__speech {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.whole-book__speaker {
+  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--brand);
+}
+
+.whole-book__foot {
+  display: flex;
+  justify-content: center;
+  padding: var(--sp-6) 0 var(--sp-8);
+}
+
+/* The pull-stroke: the one thing at the bottom of a page of reading. */
+.whole-book__pull {
+  width: 38px;
+  height: 3px;
+  min-height: 3px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: var(--border-2);
+  cursor: pointer;
+  /* The stroke is 3px; the thing you press is 44. */
+  box-shadow: 0 0 0 20px transparent;
+}
+
+.whole-book__pull:hover {
+  background: var(--brand);
+}

@@ -43,6 +43,9 @@ function KeepButton({ onKept }: { onKept: () => void }) {
       aria-pressed={kept}
       aria-label="Keep"
     >
+      {/* 3a: bookmark outline morphs to a filled check, and the word beside
+          it changes with it. Both faces are always in the markup and only
+          their visibility swaps -- nothing here reads `word`. */}
       <span className="gloss-keep-button__icon" aria-hidden="true">
         <span className={`gloss-keep-button__face${kept ? "" : " gloss-keep-button__face--visible"}`}>
           ⌂
@@ -50,6 +53,9 @@ function KeepButton({ onKept }: { onKept: () => void }) {
         <span className={`gloss-keep-button__face${kept ? " gloss-keep-button__face--visible" : ""}`}>
           ✓
         </span>
+      </span>
+      <span className="gloss-keep-button__label" aria-hidden="true">
+        {kept ? "Kept" : "Keep"}
       </span>
       <PixelScatter
         active={burst}
@@ -87,14 +93,18 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
     <div className="gloss-backdrop" onClick={onDismiss}>
       <div
         ref={cardRef}
-        className="gloss-card metal"
+        className="gloss-card"
         role="dialog"
         aria-label={word}
         onClick={(e) => e.stopPropagation()}
       >
-        <p className="gloss-word">{word}</p>
-        <p className="gloss-definition">{entry.definition}</p>
-        <p className="gloss-elsewhere">{entry.elsewhere}</p>
+        {/* 3a puts the word and its one line side by side with the Keep,
+            rather than stacked above a sheet -- hence the wrapper. */}
+        <div className="gloss-card__text">
+          <p className="gloss-word">{word}</p>
+          <p className="gloss-definition">{entry.definition}</p>
+          <p className="gloss-elsewhere">{entry.elsewhere}</p>
+        </div>
         {/* "Keep" is how the reader closes this card -- there is no reject
            gesture (docs/seams.md's GlossTap already fired at open time and
            the engine's event set is frozen; this track adds no new engine

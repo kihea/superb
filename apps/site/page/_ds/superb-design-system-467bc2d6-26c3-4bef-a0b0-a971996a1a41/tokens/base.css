@@ -1,0 +1,13 @@
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surface-page);color:var(--text-1);font:var(--type-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;font-family:var(--font-display);font-weight:var(--fw-bold);letter-spacing:var(--ls-display);line-height:var(--lh-heading)}
+p{margin:0}
+a{color:var(--brand);text-decoration-color:color-mix(in oklab,var(--brand) 40%,transparent);text-underline-offset:2px;transition:color var(--dur-1) var(--ease-out)}
+a:hover{color:var(--brand-hover);text-decoration-color:currentColor}
+a:active{color:var(--brand-press)}
+:focus-visible{outline:none;box-shadow:var(--ring-focus)}
+::selection{background:var(--highlight);color:var(--text-1)}
+button,input,select,textarea{font:inherit;color:inherit}
+.sb-passage{font:var(--type-passage);max-width:var(--measure);text-wrap:pretty}
+.sb-eyebrow{font:var(--type-eyebrow);letter-spacing:var(--ls-eyebrow);text-transform:uppercase;color:var(--text-3)}

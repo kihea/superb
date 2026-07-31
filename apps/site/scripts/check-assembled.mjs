@@ -6,9 +6,10 @@
 // both "/" and "/read/" in a real browser.
 //
 // Fails if:
-//   - the landing is missing its header nav, or that nav still has a link
-//     pointing at "#" (job 2 -- a dead link would mean the assembly, not
-//     just the copy, regressed).
+//   - the landing renders an empty body, or any asset Kihea's page
+//     references fails to arrive from the assembled artifact (the page
+//     itself is served verbatim and its markup is his -- nothing here
+//     asserts against its structure).
 //   - the app at "/read/" never reaches its first painted reading surface
 //     (an <article class="passage-page">, PassagePage.tsx's own selector)
 //     within a generous timeout, which is what "the subpath is wired
@@ -72,22 +73,25 @@ const browser = await chromium.launch();
 let failed = false;
 const problems = [];
 
-// --- "/" : the landing keeps its nav, and nothing in it points at "#".
+// --- "/" : the landing arrives whole from the assembled artifact.
 {
+  // The landing is Kihea's own page served verbatim, so nothing here
+  // asserts against its markup -- its structure is his to change without a
+  // check going red. What the assembly owes it is that the page and every
+  // asset it references actually arrive from the assembled artifact.
   const page = await browser.newPage();
+  const failedRequests = [];
+  page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
+  page.on('response', (res) => {
+    if (res.status() >= 400) failedRequests.push(`${res.url()} -> ${res.status()}`);
+  });
   await page.goto(`${origin}/`);
   await page.waitForLoadState('networkidle').catch(() => {});
-  const r = await page.evaluate(() => {
-    const nav = document.querySelector('.site-header nav');
-    if (!nav) return { navFound: false, deadLinks: [] };
-    const deadLinks = [...nav.querySelectorAll('a')]
-      .filter((a) => (a.getAttribute('href') ?? '') === '#')
-      .map((a) => a.textContent ?? '');
-    return { navFound: true, deadLinks };
-  });
+  const hasContent = await page.evaluate(() => (document.body?.textContent ?? '').trim().length > 0);
   await page.close();
-  if (!r.navFound) problems.push('/ : no .site-header nav on the landing page');
-  for (const text of r.deadLinks) problems.push(`/ : nav link "${text.trim()}" still points at "#"`);
+  if (!hasContent) problems.push('/ : the landing rendered an empty body');
+  if (failedRequests.length > 0)
+    problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
 }
 
 // --- "/read/" : the app reaches its first painted reading surface.
@@ -125,7 +129,7 @@ if (problems.length > 0) {
   console.error('check-assembled: FAILED');
   for (const p of problems) console.error(`  ✗ ${p}`);
 } else {
-  console.log('check-assembled: landing at / has its nav with no dead links, and /read/ reaches a painted passage.');
+  console.log('check-assembled: landing at / arrives whole, and /read/ reaches a painted passage.');
 }
 
 process.exit(failed ? 1 : 0);

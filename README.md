@@ -64,6 +64,7 @@ More arrives as the milestones do.
 
 ## Licensing
 
+<!-- LICENCE-CLAIMS:START -->
 **Code is source-available: MIT + Commons Clause. Content is CC0 where we wrote
 it, and carries its own terms where we didn't.**
 
@@ -107,6 +108,7 @@ No GPL enters the dependency tree. Every dataset has a row in
 fails without one. SWOW-EN and the USF association norms are permanently
 excluded: they are not licence-compatible with a product that has a paid tier,
 and no amount of convenience changes that.
+<!-- LICENCE-CLAIMS:END -->
 
 ## Thanks to Standard Ebooks
 

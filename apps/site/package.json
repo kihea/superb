@@ -3,19 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "The public landing page (T9). Static output, no framework, no dependency on apps/web's toolchain — its own package.json and its own build.",
+  "description": "The public landing page — Kihea's designed page, served verbatim. Static output, no framework, nothing from apps/web's toolchain.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check-devices.mjs",
-    "lint": "node scripts/lint.mjs",
-    "typecheck": "tsc --noEmit",
-    "test": "npm run typecheck && npm run build && npm run check && npm run lint",
+    "test": "npm run build",
     "assemble": "node scripts/assemble.mjs",
     "smoke": "node scripts/check-assembled.mjs"
   },
   "devDependencies": {
-    "@types/node": "^26.1.2",
-    "playwright": "^1.62.1",
-    "typescript": "^7.0.2"
+    "playwright": "^1.62.1"
   }
 }

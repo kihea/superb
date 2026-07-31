@@ -1,0 +1,132 @@
+/* Frame 1u. */
+
+.settings-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+.settings-papers {
+  display: flex;
+  gap: var(--sp-5);
+}
+
+.settings-swatch {
+  flex: 1;
+  height: 60px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--border-2);
+  display: flex;
+  align-items: flex-end;
+  padding: var(--sp-4);
+  cursor: pointer;
+  font: var(--fs-100) var(--font-ui);
+}
+
+.settings-swatch--on {
+  border: 2px solid var(--brand);
+}
+
+.settings-swatch--oxblood {
+  background: var(--ox-paper);
+  color: var(--ox-ink);
+}
+
+.settings-swatch--lilac {
+  background: var(--li-paper);
+  color: var(--li-ink);
+}
+
+.settings-swatch--glacier {
+  background: var(--gl-paper);
+  color: var(--gl-ink);
+}
+
+.settings-swatch--night {
+  background: var(--ox-ink-deep);
+  color: var(--ox-cream);
+}
+
+.settings-size {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+}
+
+.settings-size input {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--brand);
+}
+
+.settings-size__small {
+  font: var(--fw-regular) 13px var(--font-read);
+  color: var(--text-3);
+}
+
+.settings-size__large {
+  font: var(--fw-regular) 22px var(--font-read);
+  color: var(--text-1);
+}
+
+.settings-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  padding: var(--sp-6) 0;
+  border-bottom: 1px solid var(--border-1);
+  min-height: var(--tap-min);
+  color: var(--text-1);
+  text-decoration: none;
+}
+
+.settings-row--link:hover .settings-row__name {
+  color: var(--brand);
+}
+
+.settings-row__names {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.settings-row__name {
+  font: var(--type-body-sm);
+  color: var(--text-1);
+}
+
+/* The one switch in the app. Knob, not a checkbox. */
+.settings-switch {
+  width: 44px;
+  height: 26px;
+  flex: none;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--border-2);
+  background: var(--surface-sunken);
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  transition: background var(--dur-2) var(--ease-out);
+}
+
+.settings-switch--on {
+  background: var(--brand);
+  border-color: var(--brand);
+  justify-content: flex-end;
+}
+
+.settings-switch__knob {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--r-pill);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-1);
+  transition: transform var(--dur-2) var(--ease-spring);
+}

@@ -1,0 +1,117 @@
+/* Frame 2g. */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.library-search__field {
+  width: 100%;
+  min-height: var(--tap-min);
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-pill);
+  box-shadow: var(--shadow-1);
+  padding: 0 var(--sp-7);
+  font: var(--type-body-sm);
+  color: var(--text-1);
+}
+
+.library-search__field::placeholder {
+  color: var(--text-3);
+}
+
+.library-moods {
+  display: flex;
+  gap: var(--sp-4);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.library-moods::-webkit-scrollbar {
+  display: none;
+}
+
+.library-mood {
+  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  padding: var(--sp-4) var(--sp-5);
+  min-height: var(--sp-9);
+  border-radius: var(--r-pill);
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  color: var(--text-2);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.library-mood--on {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--text-on-brand);
+}
+
+.library-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+.library-book {
+  display: flex;
+  gap: var(--sp-6);
+  width: 100%;
+  text-align: left;
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-1);
+  padding: var(--sp-6);
+  cursor: pointer;
+  color: var(--text-1);
+  transition:
+    box-shadow var(--dur-2) var(--ease-out),
+    transform var(--dur-2) var(--ease-out);
+}
+
+.library-book:hover {
+  box-shadow: var(--shadow-2);
+  transform: translateY(var(--lift));
+}
+
+.library-book__side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  min-width: 0;
+  padding: var(--sp-1) 0;
+}
+
+.library-book__names {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.library-book__title {
+  font: var(--fw-semibold) var(--fs-400) / 1.2 var(--font-ui);
+  color: var(--text-1);
+}
+
+.library-book__blurb {
+  font: var(--type-caption);
+  color: var(--text-2);
+}
+
+@media (min-width: 45rem) {
+  .library-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

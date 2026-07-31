@@ -12,16 +12,29 @@
 // chrome dimmed back) were disposable by construction and are deleted
 // rather than kept behind a flag -- the screenshots and that ADR entry are
 // the record that they existed.
+//
+// T15 restyled this screen to frame 3a: the room around the passage is now
+// paper rather than dark glass, and the page carries a way back to the
+// Shelf and the voice orb, as his frame draws them. The passage's own ink
+// and paper (--page-*) are untouched -- only the room changed. That
+// contradicts ADR-019's dark room, which is not a builder's call:
+// DECISION PENDING: https://github.com/kihea/superb/issues/100
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { MarginMark } from "./doodle/MarginMark";
 import { PixelBreak } from "./chrome/PixelBreak";
+import { VoiceOrb } from "./voice/VoiceOrb";
+import type { OrbState } from "./voice/VoiceOrb";
+import { Link } from "../router/router";
 import { useState } from "react";
 
 export function ReadingScreen() {
   const session = useEngineSession();
   const [breaking, setBreaking] = useState(false);
+  // 2b: asking to be read to gives you two words, not a player. Still until
+  // the reader touches it -- see VoiceOrb's own header.
+  const [voice, setVoice] = useState<OrbState>("still");
 
   // ADR-036's B4 lives here, not inside PassagePage's own "Keep reading"
   // button: that button unmounts the instant `session.finish` swaps the
@@ -50,7 +63,33 @@ export function ReadingScreen() {
          height, static, in the room rather than on the page. Desktop only --
          there is no room for it beside the card on a phone. */}
       <MarginMark side="left" />
-      <div className="reading-page metal">
+      {/* 3a's top row: one word out, one thing to press. Nothing else. */}
+      <header className="reading-top">
+        <Link to="/shelf" className="reading-top__out">
+          Shelf
+        </Link>
+        <button
+          type="button"
+          className="voice-orb-button"
+          data-listening={voice === "listening"}
+          data-speaking={voice === "speaking"}
+          aria-label={voice === "still" ? "Read this to me" : "Stop"}
+          onClick={() => setVoice((state) => (state === "still" ? "listening" : "still"))}
+        >
+          <VoiceOrb state={voice} size={voice === "still" ? 22 : 26} />
+        </button>
+      </header>
+      {voice === "listening" && (
+        <div className="reading-voice sb-fade">
+          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
+            from here
+          </button>
+          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
+            from the chapter
+          </button>
+        </div>
+      )}
+      <div className="reading-page">
         {session.status === "loading" && (
           <p className="reading-status" data-text="Finding something to read.">
             Finding something to read.
