@@ -7,7 +7,10 @@ it. This surface may say plainly what Superb is (ADR-038); the reading app
 still may not.
 
 Static output, zero runtime dependencies, its own `package.json` — nothing
-here can drag `apps/web`'s toolchain into a deploy.
+here can drag `apps/web`'s toolchain into `npm run build`, `check`, `lint` or
+`test`. `npm run assemble` is the one exception (T10 job 1): it builds
+`apps/web` too, on purpose, because the two apps ship as one deployable —
+see "The assembled deployable" below.
 
 It deploys to `https://superb.works`. Registering and pointing that domain is
 Kihea's own action, not this repo's — there is no CNAME file, DNS config, or
@@ -17,10 +20,13 @@ one is missing.
 ## Running it
 
 ```sh
-npm run build   # writes dist/
+npm run build   # writes dist/ -- this page alone, at "/"
 npm run check   # fails if a rendered device disagrees with its cited figure
 npm run lint    # fails if a retired phrase reappears, or a citation goes missing
 npm run test    # typecheck, then all three, in order
+
+npm run assemble  # builds this page into dist/, apps/web into dist/read/
+npm run smoke     # serves dist/ and opens both / and /read/ in a real browser
 ```
 
 One page, `dist/index.html`. This used to build two candidate pages plus a
@@ -28,6 +34,28 @@ compare view while the opening statistic in "the case" section was still
 Kihea's open call (issue #89); he settled it on the criterion of "true and
 accurate," so there is one page now, and this build no longer knows what a
 variant is.
+
+## The assembled deployable
+
+T10 job 1: `superb.works` carries "everything web related" from one Cloudflare
+Pages project, not two — the landing at `/`, the reading app at `/read/`.
+`scripts/assemble.mjs` builds each app with its own toolchain (this page never
+learns `apps/web`'s), then copies `apps/web/dist` into `dist/read/`. The
+subpath is one constant: `apps/web/vite.config.ts`'s `BASE`, set to `/read/`
+via the `VITE_BASE` env var when `assemble.mjs` calls `apps/web`'s own build,
+and left at `/` for `apps/web`'s own standalone dev, build and CI. Change
+where the app lives by changing that one constant; nothing else needs to
+know, including `apps/web/src/content/store.ts`'s content fetches, which read
+the same value back at runtime via `import.meta.env.BASE_URL`.
+
+`scripts/check-assembled.mjs` (`npm run smoke`) is the check T10 job 4 asks
+for: it serves the *assembled* `dist/` over http and opens both `/` and
+`/read/` in a real browser, failing if the landing's nav is missing or has a
+dead link, or if the app at `/read/` never reaches its first painted reading
+surface (`article.passage-page`). `.github/workflows/site.yml`'s `check` job
+runs `assemble` then `smoke` on every push and PR; `deploy` runs `assemble`
+again before publishing, so what ships is always what the smoke check just
+proved works.
 
 ## Where the numbers come from
 

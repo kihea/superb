@@ -28,6 +28,13 @@ function head(title) {
 }
 
 function header() {
+  // T10 job 2: "Sign in" is gone -- accounts do not exist, and ADR-038
+  // treats a link to an unbuilt feature the same as an uncited number. The
+  // accent style moves to "Open the app" instead of leaving the row at
+  // three items: it names something that is actually live (the reading app
+  // itself), it is the one link every other CTA on this page already routes
+  // to, and it keeps the nav's fourth slot doing the same job the old one
+  // did -- get a visitor into the product -- without promising an account.
   return `<header class="site-header">
   <a href="/" class="wordmark">
     <span class="slash">///</span>
@@ -37,7 +44,7 @@ function header() {
     <a href="#the-case">The case</a>
     <a href="#library">Library</a>
     <a href="#pricing">Pricing</a>
-    <a href="#" class="accent">Sign in</a>
+    <a href="/read/" class="accent">Open the app</a>
   </nav>
 </header>`;
 }
@@ -54,7 +61,7 @@ function hero() {
     <h1>You probably don’t read enough.</h1>
     <p class="lede">Superb hands you something worth finishing, then keeps every word that trips you up. Tap it once — it comes back until it’s yours.</p>
     <div class="cta-row">
-      <a href="#" class="btn btn--primary">Start with six minutes</a>
+      <a href="/read/" class="btn btn--primary">Start with six minutes</a>
       <a href="#library" class="btn btn--secondary">See a passage</a>
     </div>
     <span class="fine-print">The reading is free — no account, fully usable offline. Cloud voice and hosted AI will be the paid part, once they ship; a local-model option will keep that free too.</span>
@@ -86,17 +93,21 @@ function statCard(figure, { secondary = false, deviceOpts } = {}) {
 }
 
 function library() {
-  // The library is real (614 books today) but that count changes as more
-  // titles are added and is not the kind of fact worth pinning to a build —
-  // the shape of the thing (public-domain books, ready now, no waitlist) is
-  // what's true regardless of the exact count on any given day.
+  // T10 job 3: the interface has no library screen -- there is nothing to
+  // browse or pick from yet -- so this can no longer say "start any of
+  // them." What's actually true tonight: every passage handed to a reader
+  // is lifted whole from a real, cited public-domain book, and there are
+  // more books behind it than any one passage shows. The catalogue's own
+  // book count grows every time a book is ingested and is not the kind of
+  // fact worth pinning to this build -- ADR-038 prefers no number here to
+  // a number that goes stale the next time the catalogue moves.
   return `<section id="library" class="pricing">
   <div class="shell" style="padding-top: clamp(56px,6vw,88px); padding-bottom: clamp(56px,6vw,88px)">
     <div class="facts-head">
       <span class="eyebrow">Library</span>
       <h2>Real books, not vocabulary drills.</h2>
     </div>
-    <p class="lede" style="max-width:60ch; margin-top: var(--site-space-6)">A public-domain library, ready tonight — no waitlist, nothing to unlock. Start any of them; Superb keeps track of the words that trip you up as you go.</p>
+    <p class="lede" style="max-width:60ch; margin-top: var(--site-space-6)">Every passage you're handed tonight is lifted whole from a real, public-domain book — cited at the source, never rewritten to make it easier or harder to read. That shelf keeps growing behind it; whole books, readable start to finish inside the app, are what's coming next.</p>
   </div>
 </section>`;
 }
@@ -116,7 +127,7 @@ function facts(openingFigure) {
     </div>
     <div class="facts-footnote">
       <span>Every number above is cited at its source, or is a fact about this product — nothing here is measured on anyone who has used it.</span>
-      <a href="#pricing" class="btn btn--primary">Read something tonight</a>
+      <a href="/read/" class="btn btn--primary">Read something tonight</a>
     </div>
   </div>
 </section>`;

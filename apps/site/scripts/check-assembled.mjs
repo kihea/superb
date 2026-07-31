@@ -1,0 +1,131 @@
+#!/usr/bin/env node
+// T10 job 4: prove the two surfaces together. Serves the *assembled*
+// artifact (npm run assemble must have run first -- this reads dist/ as it
+// is, it does not build anything) over http, exactly the way check-phone.mjs
+// already proves the landing works over http rather than file://, and opens
+// both "/" and "/read/" in a real browser.
+//
+// Fails if:
+//   - the landing is missing its header nav, or that nav still has a link
+//     pointing at "#" (job 2 -- a dead link would mean the assembly, not
+//     just the copy, regressed).
+//   - the app at "/read/" never reaches its first painted reading surface
+//     (an <article class="passage-page">, PassagePage.tsx's own selector)
+//     within a generous timeout, which is what "the subpath is wired
+//     correctly end to end" cashes out to -- assets, the wasm engine, the
+//     content fetch and the PWA registration all have to have worked for
+//     that element to exist at all.
+//
+// Watched red (T10 PR body carries the transcript): pointed the browser at
+// "/read/" while apps/web/vite.config.ts's BASE still defaulted to "/" --
+// every asset 404'd against the assembled artifact's real "/read/" prefix
+// and the passage selector never appeared.
+
+import { createServer } from 'node:http';
+import { readFileSync, existsSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { chromium } from 'playwright';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DIST = path.resolve(__dirname, '..', 'dist');
+
+if (!existsSync(path.join(DIST, 'index.html'))) {
+  console.error('check-assembled: dist/index.html missing -- run `npm run assemble` first.');
+  process.exit(1);
+}
+if (!existsSync(path.join(DIST, 'read', 'index.html'))) {
+  console.error('check-assembled: dist/read/index.html missing -- run `npm run assemble` first.');
+  process.exit(1);
+}
+
+const TYPES = {
+  '.html': 'text/html',
+  '.css': 'text/css',
+  '.js': 'text/javascript',
+  '.json': 'application/json',
+  '.svg': 'image/svg+xml',
+  '.woff2': 'font/woff2',
+  '.wasm': 'application/wasm',
+  '.webmanifest': 'application/manifest+json',
+  '.ico': 'image/x-icon',
+  '.png': 'image/png',
+};
+
+const server = createServer((req, res) => {
+  const p = (req.url ?? '/').split('?')[0];
+  const filePath = p.endsWith('/') ? `${p}index.html` : p;
+  try {
+    const body = readFileSync(path.join(DIST, filePath));
+    res.writeHead(200, { 'content-type': TYPES[path.extname(filePath)] ?? 'application/octet-stream' });
+    res.end(body);
+  } catch {
+    res.writeHead(404);
+    res.end('not found');
+  }
+});
+await new Promise((resolve) => server.listen(0, '127.0.0.1', () => resolve(undefined)));
+const address = /** @type {import('node:net').AddressInfo} */ (server.address());
+const origin = `http://127.0.0.1:${address.port}`;
+
+const browser = await chromium.launch();
+let failed = false;
+const problems = [];
+
+// --- "/" : the landing keeps its nav, and nothing in it points at "#".
+{
+  const page = await browser.newPage();
+  await page.goto(`${origin}/`);
+  await page.waitForLoadState('networkidle').catch(() => {});
+  const r = await page.evaluate(() => {
+    const nav = document.querySelector('.site-header nav');
+    if (!nav) return { navFound: false, deadLinks: [] };
+    const deadLinks = [...nav.querySelectorAll('a')]
+      .filter((a) => (a.getAttribute('href') ?? '') === '#')
+      .map((a) => a.textContent ?? '');
+    return { navFound: true, deadLinks };
+  });
+  await page.close();
+  if (!r.navFound) problems.push('/ : no .site-header nav on the landing page');
+  for (const text of r.deadLinks) problems.push(`/ : nav link "${text.trim()}" still points at "#"`);
+}
+
+// --- "/read/" : the app reaches its first painted reading surface.
+{
+  const page = await browser.newPage();
+  const consoleErrors = [];
+  page.on('console', (msg) => {
+    if (msg.type() === 'error') consoleErrors.push(msg.text());
+  });
+  const failedRequests = [];
+  page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
+  page.on('response', (res) => {
+    if (res.status() >= 400) failedRequests.push(`${res.url()} -> ${res.status()}`);
+  });
+
+  await page.goto(`${origin}/read/`);
+  const reached = await page
+    .waitForSelector('article.passage-page', { timeout: 20_000 })
+    .then(() => true)
+    .catch(() => false);
+  await page.close();
+
+  if (!reached) problems.push('/read/ : article.passage-page never appeared (first painted reading surface)');
+  if (failedRequests.length > 0)
+    problems.push(`/read/ : failed network requests --\n    ${failedRequests.join('\n    ')}`);
+  if (consoleErrors.length > 0)
+    problems.push(`/read/ : console errors --\n    ${consoleErrors.join('\n    ')}`);
+}
+
+await browser.close();
+server.close();
+
+if (problems.length > 0) {
+  failed = true;
+  console.error('check-assembled: FAILED');
+  for (const p of problems) console.error(`  ✗ ${p}`);
+} else {
+  console.log('check-assembled: landing at / has its nav with no dead links, and /read/ reaches a painted passage.');
+}
+
+process.exit(failed ? 1 : 0);
