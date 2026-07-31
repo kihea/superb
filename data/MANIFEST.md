@@ -28,8 +28,18 @@ table covers only the reference datasets `data/pipeline/` builds from.
 
 ## Content licence
 
-The passage library (`content/passages/`), the slot classes
-(`content/classes/`), and any rewritten glosses that ship are released
-**CC0** — the project owns the infrastructure that serves this content, not
-the content itself (ADR-008 amendment). Attribution is welcomed and never
-required.
+The passage library (`content/passages/`) and the slot classes
+(`content/classes/`) are released **CC0** — the project owns the
+infrastructure that serves this content, not the content itself (ADR-008
+amendment). Attribution is welcomed and never required.
+
+Rewritten glosses are not CC0: they start from the Wiktionary row above, so
+they carry Wiktionary's credit and share-alike terms downstream, whenever a
+gloss reaches a build (Settings → About), exactly as that row already
+states. This paragraph previously listed "any rewritten glosses that ship"
+alongside the CC0 content — corrected while building the licence-claims
+gate (`data/pipeline/check_license_claims.py`), which found this section
+disagreeing with the Wiktionary row three lines above it. The wrong sentence
+never had a live reader-facing consequence, because `data/pipeline/glosses.py`
+has not shipped output yet, but it was already the wrong answer to a question
+this file exists to answer correctly.

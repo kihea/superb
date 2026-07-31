@@ -1,0 +1,59 @@
+name: docs
+
+# The gate workspace/tracks/T12-licence-claims-gate.md builds: the public
+# licence claims in README.md, CONTRIBUTING.md and LICENSE become checkable
+# against data/MANIFEST.md and data/NOTICE.md, the ledger they summarise.
+# data/pipeline/tests/test_check_license_claims.py proves
+# check_license_claims.py actually fails on each of four historical defects
+# (workspace/reviews/PR-85.md) before this job ever trusts it to pass on the
+# real tree — same discipline as data-license.yml's own licence gate.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "data/MANIFEST.md",
+        "data/NOTICE.md",
+        "content/schema/**",
+        "data/pipeline/check_license_claims.py",
+        "data/pipeline/tests/test_check_license_claims.py",
+        "data/pipeline/tests/fixtures/licence_claims/**",
+        ".github/workflows/docs.yml",
+      ]
+  pull_request:
+    paths:
+      [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "data/MANIFEST.md",
+        "data/NOTICE.md",
+        "content/schema/**",
+        "data/pipeline/check_license_claims.py",
+        "data/pipeline/tests/test_check_license_claims.py",
+        "data/pipeline/tests/fixtures/licence_claims/**",
+        ".github/workflows/docs.yml",
+      ]
+
+concurrency:
+  group: docs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  licence-claims:
+    name: public licence claims agree with the ledger
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Prove the licence-claims gate fails on four broken fixtures, then run it for real
+        run: python data/pipeline/tests/test_check_license_claims.py
