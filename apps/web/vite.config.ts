@@ -42,8 +42,13 @@ export default defineConfig({
         // shell and it is stable, unlike content/*.json, which keeps
         // growing and stays on runtime caching below.
         globPatterns: ["**/*.{js,css,html,woff2,wasm,svg,ico,png}"],
-        // The app has real routes now. Every one of them is served by the
-        // same document, offline included.
+        // Pinned, not fixed: vite-plugin-pwa already defaults to this, and
+        // the generated sw.js is byte-identical with the line removed. It
+        // is written down because the app has real routes now and this is
+        // what serves all of them from one document offline -- but nobody
+        // should count it as the change that made deep routes work. On a
+        // cold first visit, before any service worker exists, the thing
+        // that does that is public/_redirects.
         navigateFallback: "index.html",
         runtimeCaching: [
           {

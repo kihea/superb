@@ -160,6 +160,62 @@ test.describe("the walk", () => {
     await expect(page).toHaveURL(/\/sign-in$/);
   });
 
+  // The clause is reachability, and a route map is not a walk: screen 14
+  // was in ROUTES, rendered fine, passed its dark check, and no reader
+  // could get to it. This walks the only way in that frame 1v allows.
+  test("holding a sentence is the way to screen 14, and the only way", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+
+    // Nothing on the reading page advertises it before the hold.
+    await expect(page.locator(".hold-menu")).toHaveCount(0);
+    expect(await page.locator('a[href*="share"]').count()).toBe(0);
+
+    const sentence = page.locator(".passage-sentence").first();
+    const box = await sentence.boundingBox();
+    expect(box).not.toBeNull();
+    await page.mouse.move(box!.x + 20, box!.y + 6);
+    await page.mouse.down();
+    await page.waitForTimeout(700);
+    await page.mouse.up();
+
+    const menu = page.locator(".hold-menu");
+    await expect(menu).toBeVisible();
+    // A hold is not a tap: the word under the finger must not have opened.
+    await expect(page.locator(".gloss-card")).toHaveCount(0);
+
+    await menu.getByRole("menuitem", { name: "Send to someone" }).click();
+    await expect(page).toHaveURL(/\/share$/);
+    await expect(page.locator(".share-card")).toBeVisible();
+  });
+
+  test("no screen in the route map is reachable only by typing its address", async ({ page }) => {
+    // Every route except the two doors a reader arrives through (`/`, and
+    // `/welcome` on a first open) must be linked to from somewhere. This
+    // is the cheap general form of the check above -- it does not prove a
+    // path is walkable, but it does catch a screen nobody links to at all.
+    const linked = new Set<string>();
+    for (const route of ROUTES) {
+      await page.goto(route.example ?? route.path);
+      for (const href of await page.locator("a[href^='/']").evaluateAll((els) =>
+        els.map((el) => el.getAttribute("href") ?? ""),
+      )) {
+        linked.add(href);
+      }
+      // Controls that navigate without being links -- the hold menu's Send,
+      // the Shelf's covers -- are covered by the walks above; this sweep
+      // only reads anchors.
+    }
+
+    const orphans = ROUTES.filter((route) => route.path !== "/" && route.path !== "/welcome")
+      .filter((route) => !route.path.includes(":"))
+      .filter((route) => ![...linked].some((href) => href === route.path))
+      .map((route) => route.path);
+    // `/share` is deliberately absent from every anchor in the app: frame
+    // 1v says nothing advertises it. The walk above is what covers it.
+    expect(orphans).toEqual(["/share"]);
+  });
+
   test("the library reaches a book, and a book reaches its own pages", async ({ page }) => {
     await page.goto("/library");
     await page.getByRole("button", { name: /Meditations/ }).first().click();
@@ -167,6 +223,126 @@ test.describe("the walk", () => {
     await page.getByRole("button", { name: "Begin" }).click();
     await expect(page).toHaveURL(/\/book\/meditations\/read$/);
   });
+});
+
+// Two defects a screenshot found and no check could see. Both are about a
+// cover, and both are properties rather than pixels, so they can be checked.
+test.describe("covers", () => {
+  test.use({ viewport: PHONE });
+
+  test("no cover clips its own title", async ({ page }) => {
+    await page.goto("/library");
+    await expect(page.locator(".cover__title").first()).toBeVisible();
+
+    // The title element is not what overflows -- it sizes to its own text.
+    // The cover clips it, with `overflow: hidden`. So the question is
+    // whether the title's box still fits inside the cover's, which is the
+    // thing a reader sees go wrong. (Measuring the title's own
+    // scrollHeight, as the first draft did, sees nothing at all.)
+    const clipped = await page.locator(".sb-cover").evaluateAll((covers) =>
+      covers
+        .map((cover) => {
+          const title = cover.querySelector(".cover__title");
+          if (!title) return null;
+          const box = cover.getBoundingClientRect();
+          const inner = title.getBoundingClientRect();
+          const style = getComputedStyle(cover);
+          const room = {
+            bottom: box.bottom - parseFloat(style.paddingBottom),
+            right: box.right - parseFloat(style.paddingRight),
+          };
+          const over = Math.max(inner.bottom - room.bottom, inner.right - room.right);
+          return over > 1 ? `${title.textContent} overflows by ${Math.round(over)}px` : null;
+        })
+        .filter(Boolean),
+    );
+    expect(clipped, "covers cutting their titles off").toEqual([]);
+  });
+
+  // "Finished = frosted, not faded" (1h): still legible, no longer bright.
+  // Written as `opacity: 0.66` it did not do that -- on the night Shelf a
+  // finished book was the brightest object on the page, brighter than the
+  // one being read, because the sage cloth token is pale in the dark theme
+  // and fading barely touched it.
+  //
+  // The invariant, which holds whichever paper is on and whatever colour a
+  // cover's cloth happens to be: frosting must close at least half the
+  // distance between the cloth and the page behind it. Comparing finished
+  // covers to other covers cannot work -- cloth colours legitimately differ,
+  // and a pale live cover would fail an honest build. Comparing a cover to
+  // its own unfrosted self is the thing being claimed.
+  //
+  // Watched red both ways: with `opacity: 0.66; filter: saturate(0.2)` and
+  // no veil, the light Shelf closes 34% of the distance and the dark Shelf
+  // 37%, and both themes fail this test.
+  for (const scheme of ["light", "dark"] as const) {
+    test(`a finished book recedes rather than shouts: ${scheme}`, async ({ page }) => {
+      await page.emulateMedia({ colorScheme: scheme });
+      await page.goto("/shelf");
+      await expect(page.locator(".sb-cover--finished").first()).toBeVisible();
+
+      const brightness = await page.evaluate(() => {
+        // Two computed forms, and they are not on the same scale: `rgb()`
+        // gives 0-255, and a `color-mix()` result resolves to
+        // `color(srgb 0.96 0.93 0.89 / 0.68)`, 0-1. Reading the second as
+        // the first turns a pale veil into near-black, which is how the
+        // first draft of this check reported a frosted cover as further
+        // from the page than its own cloth.
+        const parse = (value: string) => {
+          const parts = (value.match(/[\d.]+/g) ?? ["0", "0", "0"]).map(Number);
+          const scale = value.startsWith("color(") ? 255 : 1;
+          return {
+            r: parts[0] * scale,
+            g: parts[1] * scale,
+            b: parts[2] * scale,
+            a: parts.length > 3 ? parts[3] : 1,
+          };
+        };
+        const luminance = (c: { r: number; g: number; b: number }) =>
+          0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
+
+        // What the reader actually sees, not what one declaration says: the
+        // cover's own cloth with its ::after veil composited over it. The
+        // veil is where the frost lives, and the element's own
+        // backgroundColor cannot see it.
+        const seen = (el: Element) => {
+          const cloth = parse(getComputedStyle(el).backgroundColor);
+          const veil = parse(getComputedStyle(el, "::after").backgroundColor);
+          const opacity = Number(getComputedStyle(el).opacity);
+          const over = {
+            r: veil.r * veil.a + cloth.r * (1 - veil.a),
+            g: veil.g * veil.a + cloth.g * (1 - veil.a),
+            b: veil.b * veil.a + cloth.b * (1 - veil.a),
+          };
+          // A cover drawn at less than full opacity is composited against
+          // the page behind it -- which is precisely how "faded" inverted.
+          const behind = parse(getComputedStyle(document.body).backgroundColor);
+          return luminance({
+            r: over.r * opacity + behind.r * (1 - opacity),
+            g: over.g * opacity + behind.g * (1 - opacity),
+            b: over.b * opacity + behind.b * (1 - opacity),
+          });
+        };
+
+        const pageLuminance = luminance(parse(getComputedStyle(document.body).backgroundColor));
+        return [...document.querySelectorAll(".sb-cover--finished")].map((el) => ({
+          title: el.textContent ?? "",
+          // Its own cloth, before anything is laid over it.
+          cloth: Math.abs(luminance(parse(getComputedStyle(el).backgroundColor)) - pageLuminance),
+          frosted: Math.abs(seen(el) - pageLuminance),
+        }));
+      });
+
+      expect(brightness.length).toBeGreaterThan(0);
+      for (const cover of brightness) {
+        const closed = 1 - cover.frosted / cover.cloth;
+        expect(
+          closed,
+          `${cover.title} closes only ${Math.round(closed * 100)}% of the way to the page in ${scheme}`,
+        ).toBeGreaterThanOrEqual(0.5);
+      }
+    });
+  }
 });
 
 // Law 3 does not stop at the reading screen. The challenge rooms may look
@@ -190,13 +366,30 @@ test.describe("the quiet screens stay quiet", () => {
     ".share-card__line",
   ].join(", ");
 
-  for (const path of ["/", "/shelf", "/library", "/book/meditations", "/book/up-from-slavery/read"]) {
+  // `/share` is here now: it is a reading surface, not a challenge room,
+  // and it was the one such surface the sweep did not cover. The challenge
+  // rooms stay out on purpose -- tiers and counts are licensed there.
+  for (const path of [
+    "/",
+    "/shelf",
+    "/library",
+    "/book/meditations",
+    "/book/up-from-slavery/read",
+    "/share",
+  ]) {
     test(`no pedagogy narrated on ${path}`, async ({ page }) => {
       await page.goto(path);
       if (path === "/") await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
       let text = await page.locator("body").innerText();
-      const quoted = await page.locator(QUOTED).allInnerTexts();
+      // `.filter(Boolean)` is load-bearing, not tidiness. An empty match
+      // makes `allInnerTexts()` return "", and `text.split("")` shatters
+      // the whole page into single characters, after which no
+      // `toContain(word)` can ever match again -- the sweep passes green
+      // on any screen at all. An empty `.sb-passage` is one bad v0mock row
+      // away. Watched: with an empty passage element on the Shelf and a
+      // narrated streak beside it, this test passed until this line.
+      const quoted = (await page.locator(QUOTED).allInnerTexts()).filter(Boolean);
       for (const passage of quoted) text = text.split(passage).join(" ");
       text = text.toLowerCase();
 

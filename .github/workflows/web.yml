@@ -90,6 +90,18 @@ jobs:
       - name: End-to-end tests
         run: npm run test:e2e
 
+      # Offline and installability were checked by two scripts that nothing
+      # ran, so when offline reading broke -- the engine's .wasm was not in
+      # the service worker's precache pattern -- no check said so. They run
+      # here now, against the same production build the e2e suite uses, and
+      # they exit non-zero when they fail.
+      - name: Offline and installability
+        run: |
+          npm run preview -- --port 4319 --strictPort &
+          node scripts/wait-for-preview.mjs
+          node scripts/check-offline.mjs
+          node scripts/check-installability.mjs
+
       - name: Upload Playwright report
         if: failure()
         uses: actions/upload-artifact@v4

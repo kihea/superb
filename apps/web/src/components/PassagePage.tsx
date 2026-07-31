@@ -6,10 +6,16 @@ import "./PassagePage.css";
 import { createPortal } from "react-dom";
 import type { Passage } from "../engine/port";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
-import { fillTemplate, tokenize } from "../content/render";
+import { fillTemplate, groupIntoSentences, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
+import { HoldMenu } from "./HoldMenu";
 import { BreakChain } from "./doodle/BreakChain";
 import { DoodleArrow } from "./doodle/DoodleArrow";
+import { useNavigate } from "../router/context";
+
+// Long enough that it cannot be mistaken for a tap on a word, short enough
+// that it does not feel like waiting.
+const HOLD_MS = 450;
 
 export interface PassagePageProps {
   record: ComposedPassage | SourceExcerpt;
@@ -22,9 +28,19 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   const [activeWord, setActiveWord] = useState<string | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
+  const navigate = useNavigate();
+
+  // Holding a sentence (frame 1v) -- the only entrance to screen 14.
+  const [held, setHeld] = useState<{ index: number; rect: DOMRect } | null>(null);
+  const holdTimer = useRef<number | undefined>(undefined);
+  // A hold ends with a pointerup over a word, which would otherwise open
+  // that word's gloss on top of the menu. One flag, cleared on the next
+  // press.
+  const holdFired = useRef(false);
 
   const text = record.pool === "composed" ? fillTemplate(record.text, passage.fills) : record.text;
   const tokens = tokenize(text);
+  const sentences = groupIntoSentences(tokens);
 
   useEffect(() => {
     const node = sentinelRef.current;
@@ -36,28 +52,59 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
     return () => observer.disconnect();
   }, [record.id]);
 
+  useEffect(() => () => window.clearTimeout(holdTimer.current), []);
+
   function handleTap(word: string, position: number) {
+    if (holdFired.current) return;
     setActiveWord((current) => (current === word ? null : word));
     onWordTap(word, position);
   }
 
+  function startHold(index: number, target: HTMLElement) {
+    holdFired.current = false;
+    window.clearTimeout(holdTimer.current);
+    holdTimer.current = window.setTimeout(() => {
+      holdFired.current = true;
+      setHeld({ index, rect: target.getBoundingClientRect() });
+    }, HOLD_MS);
+  }
+
+  function endHold() {
+    window.clearTimeout(holdTimer.current);
+  }
+
   return (
     <article className="passage-page" aria-label="Passage" data-passage-id={passage.id}>
-      <p className="passage-text">
-        {tokens.map((token, i) =>
-          token.type === "word" ? (
-            <button
-              key={i}
-              type="button"
-              className="passage-word"
-              onClick={() => handleTap(token.text, token.position)}
-            >
-              {token.text}
-            </button>
-          ) : (
-            <span key={i}>{token.text}</span>
-          ),
-        )}
+      <p className={`passage-text${held ? " passage-text--holding" : ""}`}>
+        {sentences.map((sentence, s) => (
+          // Every sentence is the same object with the same behaviour --
+          // holding any one of them does the same thing, so this grouping
+          // carries no information about which words the engine cared
+          // about (law 3), exactly as the word buttons do not.
+          <span
+            key={s}
+            className={`passage-sentence${held?.index === s ? " passage-sentence--held" : ""}`}
+            onPointerDown={(e) => startHold(s, e.currentTarget)}
+            onPointerUp={endHold}
+            onPointerCancel={endHold}
+            onPointerLeave={endHold}
+          >
+            {sentence.map((token, i) =>
+              token.type === "word" ? (
+                <button
+                  key={i}
+                  type="button"
+                  className="passage-word"
+                  onClick={() => handleTap(token.text, token.position)}
+                >
+                  {token.text}
+                </button>
+              ) : (
+                <span key={i}>{token.text}</span>
+              ),
+            )}
+          </span>
+        ))}
       </p>
 
       {/* Resolved: ADR-023 -- a publication year is a property of the text,
@@ -128,6 +175,19 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          every gloss gets its own entrance (GlossCard.css), not just the
          first one of a session. */}
       {activeWord && <GlossCard key={activeWord} word={activeWord} onDismiss={() => setActiveWord(null)} />}
+
+      {held && (
+        <HoldMenu
+          anchor={held.rect}
+          onKeep={() => setHeld(null)}
+          onHear={() => setHeld(null)}
+          onSend={() => {
+            setHeld(null);
+            navigate("/share");
+          }}
+          onDismiss={() => setHeld(null)}
+        />
+      )}
     </article>
   );
 }

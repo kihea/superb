@@ -10,12 +10,22 @@
 //     facts are real, and every book listed is out of copyright. They are
 //     hand-written rather than read from the catalogue because the
 //     catalogue is not in this repository yet.
-//   - Passage text under `elevatedPassages` is real, quoted from the named
-//     public-domain works.
-//   - Rhymes, categories, association links and definitions are small
+//   - Quoted literary text is real and out of copyright. It lives in four
+//     places, and nowhere else: `books[].opening`, `wholeBookParts`,
+//     `elevatedTiers[].passage` and `shareable`. Each carries the work it
+//     came from. Quote them exactly -- a paraphrase under an author's name
+//     is the one thing in this file that would be a lie rather than a
+//     placeholder, and nothing in the build checks it. (An earlier version
+//     of this header named `elevatedPassages`, which has never existed,
+//     and mentioned none of the other three. That is how a shortened
+//     Washington sentence sat under his name for a round.)
+//   - Rhymes, fields, tile relations and one-line meanings are small
 //     hand-written sets. They are NOT the engine's, and no schedule,
 //     difficulty or word-selection judgment in this file is the real one.
 //   - The voice does not exist. Nothing here synthesises audio.
+//   - One older source of invented data lives outside this file:
+//     `src/fixtures/glosses` still supplies the gloss card's definitions,
+//     and says so on screen.
 // ─────────────────────────────────────────────────────────────────────────
 
 export interface MockBook {
@@ -159,8 +169,19 @@ export function bookById(id: string): MockBook | undefined {
 }
 
 /** The shelf: one book being read, some waiting, some finished. */
+// One book, one place in it. `shelf.current.part` and the chapter that
+// `wholeBookParts` opens on used to disagree -- Chapter I on the Shelf,
+// Chapter II inside the book, same paragraphs -- so they are derived from
+// one string now rather than written twice.
+const WASHINGTON_CHAPTER = "Chapter II";
+
+// Quoted once, used twice: the book renders it and the share card sends it.
+// Two hand-typed copies is how they came to differ.
+const WASHINGTON_POTATO_HOLE =
+  "An impression of this potato-hole is very distinctly engraved upon my memory, because I recall that during the process of putting the potatoes in or taking them out I would often come into possession of one or two, which I roasted and thoroughly enjoyed.";
+
 export const shelf = {
-  current: { id: "up-from-slavery", part: "Chapter I", note: "the cabin, the cat-hole" },
+  current: { id: "up-from-slavery", part: WASHINGTON_CHAPTER, note: "the cabin, the cat-hole" },
   waiting: ["middlemarch", "meditations", "souls-of-black-folk"],
   read: ["jane-eyre", "the-odyssey"],
 };
@@ -185,14 +206,12 @@ export const wholeBookParts: Record<string, BookPart> = {
   "up-from-slavery": {
     shape: "prose",
     label: "II",
-    place: "Chapter II · Boyhood days",
+    place: `${WASHINGTON_CHAPTER} · Boyhood days`,
     blocks: [
       [
         "There was no wooden floor in our cabin, the naked earth being used as a floor. In the centre of the earthen floor there was a large, deep opening covered with boards, which was used as a place in which to store sweet potatoes during the winter.",
       ],
-      [
-        "An impression of this potato-hole is very distinctly engraved upon my memory, because I recall that during the process of putting the potatoes in or taking them out I would often come into possession of one or two, which I roasted and thoroughly enjoyed.",
-      ],
+      [WASHINGTON_POTATO_HOLE],
     ],
   },
   "dickinson-poems": {
@@ -266,110 +285,100 @@ export const rhymeRounds: RhymeRound[] = [
   },
 ];
 
-// ── Association, reading A: pick a field, find what belongs (2e) ─────────
+// ── Association: the puzzle board (screen 9, frame 3d) ──────────────────
+// Nine tiles to a field. An unsolved tile gives away its first letter and
+// its length and nothing else -- "the board tells you exactly how much you
+// don't know", in Kihea's note under the frame. A solved tile shows how the
+// word touches the field, and a word worth having gets one line of meaning
+// when it lands: the vocabulary payload the puzzle games never carry.
+//
+// The ninth word of each field is the rare one. Its tile stays dashed and
+// unlettered until it is solved -- a bonus, never a requirement.
+//
+// This replaces the two turn-2 association designs the track originally
+// named (2e's field list and 2f's recited chain). Both are still in the
+// canvas if either is ever wanted back.
+
+export interface AssociationWord {
+  word: string;
+  /** How it touches the field, in 3d's own two words. */
+  link: "involves" | "relates";
+  /** One line, shown when the word lands. Only where a reader would want it. */
+  meaning?: string;
+}
+
 export interface AssociationField {
   name: string;
   tier: Tier;
-  /** In the order a reader is likely to reach them. */
-  words: string[];
-  /** Words that belong, but at arm's length. */
-  looser: string[];
-  meanings: Record<string, string>;
+  /** Nine, in the order a reader is likely to reach them; the last is rare. */
+  words: AssociationWord[];
 }
 
 export const associationFields: AssociationField[] = [
   {
     name: "The forge",
     tier: "Uncommon",
-    words: ["anvil", "bellows", "quench", "slag", "forge", "tongs"],
-    looser: ["temper", "hammer", "smelt"],
-    meanings: {
-      quench: "to cool hot metal in water",
-      slag: "the waste that floats off molten metal",
-      temper: "to harden metal by heating and cooling it",
-    },
+    words: [
+      { word: "anvil", link: "involves" },
+      { word: "bellows", link: "involves", meaning: "a bag that blows air onto a fire" },
+      { word: "temper", link: "relates", meaning: "to harden metal by heating and cooling it" },
+      { word: "quench", link: "involves", meaning: "to cool hot metal in water" },
+      { word: "smelt", link: "relates", meaning: "to melt ore to get the metal out of it" },
+      { word: "forge", link: "involves" },
+      { word: "bloom", link: "relates", meaning: "a lump of iron fresh out of the furnace" },
+      { word: "tongs", link: "involves" },
+      { word: "slag", link: "relates", meaning: "the waste that floats off molten metal" },
+    ],
   },
   {
     name: "Weather at sea",
     tier: "Sharp",
-    words: ["squall", "swell", "gale", "doldrums", "spindrift"],
-    looser: ["leeward", "reef", "trough"],
-    meanings: {
-      spindrift: "spray blown off the tops of waves",
-      doldrums: "a belt of sea where the wind dies",
-    },
+    words: [
+      { word: "squall", link: "involves", meaning: "a short, violent burst of wind" },
+      { word: "swell", link: "involves" },
+      { word: "gale", link: "involves" },
+      { word: "trough", link: "relates", meaning: "the low water between two waves" },
+      { word: "leeward", link: "relates", meaning: "the side away from the wind" },
+      { word: "doldrums", link: "involves", meaning: "a belt of sea where the wind dies" },
+      { word: "reef", link: "relates", meaning: "to shorten a sail in heavy weather" },
+      { word: "spume", link: "involves", meaning: "froth on a rough sea" },
+      { word: "spindrift", link: "relates", meaning: "spray blown off the tops of waves" },
+    ],
   },
   {
     name: "Courts and law",
     tier: "Rare",
-    words: ["writ", "assize", "chattel", "recusal", "tort"],
-    looser: ["docket", "bench", "affidavit"],
-    meanings: {
-      assize: "a court session held periodically in a county",
-      chattel: "a piece of movable property",
-      recusal: "a judge standing down from a case",
-    },
+    words: [
+      { word: "writ", link: "involves", meaning: "a written order from a court" },
+      { word: "bench", link: "relates" },
+      { word: "docket", link: "involves", meaning: "the list of cases waiting to be heard" },
+      { word: "chattel", link: "relates", meaning: "a piece of movable property" },
+      { word: "tort", link: "involves", meaning: "a wrong you can be sued for" },
+      { word: "assize", link: "involves", meaning: "a court session held periodically in a county" },
+      { word: "affidavit", link: "relates", meaning: "a statement sworn to be true" },
+      { word: "recusal", link: "relates", meaning: "a judge standing down from a case" },
+      { word: "estoppel", link: "involves", meaning: "being held to what you earlier claimed" },
+    ],
   },
   {
     name: "Grief and mourning",
     tier: "Difficult",
-    words: ["elegy", "keening", "wake", "cortege", "shroud"],
-    looser: ["dirge", "requiem", "bereft"],
-    meanings: {
-      cortege: "a funeral procession",
-      keening: "wailing aloud for the dead",
-      dirge: "a slow song of mourning",
-    },
-  },
-];
-
-// ── Association, reading B: one word, recite what touches it (2f) ────────
-export interface AssociationSeed {
-  word: string;
-  tier: Tier;
-  /** word -> how it touches the seed, in the three plain words 2f uses. */
-  links: Record<string, "involves" | "relates" | "references">;
-  /** Pairs that link to each other, not only to the seed -- 2f's chain. */
-  chains: [string, string][];
-  meanings: Record<string, string>;
-}
-
-export const associationSeeds: AssociationSeed[] = [
-  {
-    word: "iron",
-    tier: "Uncommon",
-    links: {
-      anvil: "involves",
-      rust: "relates",
-      smelt: "involves",
-      ore: "involves",
-      "Iron Age": "references",
-      forge: "involves",
-      magnet: "relates",
-    },
-    chains: [
-      ["smelt", "ore"],
-      ["anvil", "forge"],
+    words: [
+      { word: "wake", link: "involves" },
+      { word: "elegy", link: "involves", meaning: "a poem written for someone who died" },
+      { word: "dirge", link: "relates", meaning: "a slow song of mourning" },
+      { word: "shroud", link: "involves", meaning: "the cloth a body is wrapped in" },
+      { word: "keening", link: "involves", meaning: "wailing aloud for the dead" },
+      { word: "requiem", link: "relates", meaning: "a mass sung for the dead" },
+      { word: "cortege", link: "involves", meaning: "a funeral procession" },
+      { word: "bereft", link: "relates", meaning: "left without someone" },
+      { word: "obsequies", link: "involves", meaning: "the rites at a funeral" },
     ],
-    meanings: { smelt: "to melt ore to get the metal out of it", ore: "rock with metal still in it" },
-  },
-  {
-    word: "harbour",
-    tier: "Sharp",
-    links: {
-      quay: "involves",
-      mooring: "involves",
-      tide: "relates",
-      customs: "relates",
-      breakwater: "involves",
-    },
-    chains: [["quay", "mooring"]],
-    meanings: {
-      quay: "a built landing place along the water",
-      breakwater: "a wall that takes the force out of waves",
-    },
   },
 ];
+
+/** The board is nine tiles; the ninth is the rare one. */
+export const RARE_TILE_INDEX = 8;
 
 // ── Elevated passages (screen 10) ────────────────────────────────────────
 // Two tiers written out in full, as the track asks. The text is real and
@@ -418,13 +427,15 @@ export const elevatedTiers: ElevatedTier[] = [
 ];
 
 // ── The sentence a reader passes on (screen 14) ──────────────────────────
+// Frame 2k draws this sentence shortened -- "I recall that" removed and the
+// closing clause dropped, with no ellipsis -- and the first pass copied the
+// frame. A design canvas may paraphrase; a card going to another person
+// under Booker T. Washington's name may not. This is the sentence as he
+// wrote it, and it is the same string the book itself renders.
 export const shareable = {
-  before: "There was no wooden floor in our cabin, the naked earth being used as a floor.",
-  sentence:
-    "An impression of this potato-hole is very distinctly engraved upon my memory, because during the process of putting the potatoes in or taking them out I would often come into possession of one or two.",
-  after: "There was no cooking-stove on our plantation.",
+  sentence: WASHINGTON_POTATO_HOLE,
   book: "Up from Slavery",
-  attribution: "Booker T. Washington · Chapter I",
+  attribution: `Booker T. Washington · ${WASHINGTON_CHAPTER}`,
 };
 
 // ── The voice (screen 7) ─────────────────────────────────────────────────

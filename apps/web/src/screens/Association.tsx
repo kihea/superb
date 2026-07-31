@@ -1,120 +1,157 @@
-// Screen 9. Two different games, both shipped, behind one switch -- 2e and
-// 2f are not two drawings of the same idea, and the track says both go in
-// v0 so Kihea can play them and decide which survives. The switch is
-// labelled in plain words rather than "A" and "B".
+// Screen 9, from frame 3d — the turn-3 design, and the latest: association
+// as a puzzle board. Nine tiles; an unsolved one gives away its first
+// letter and its length and nothing else. Type a word, press Add, and the
+// tile it belongs to lands. A word worth having brings one line of meaning
+// with it.
 //
-//   A field  (2e): pick a field, then find the words that belong to it.
-//   One word (2f): one word, and you recite anything that touches it.
+// Kihea's note under the frame is the whole design brief: "Wordle's
+// bargain, kept quiet: the board tells you exactly how much you don't know
+// (first letter, letter count), tiles flip as they land, and a solved word
+// gets one line of meaning — the vocabulary payload the puzzle games never
+// carry."
+//
+// This replaced the two turn-2 designs (2e's list and 2f's recital) that
+// the track file originally named. Both remain in the design canvas.
 import { useState } from "react";
 import { Screen } from "../shell/Screen";
-import { associationFields, associationSeeds } from "../v0mock";
-import type { AssociationField, AssociationSeed } from "../v0mock";
+import { RARE_TILE_INDEX, associationFields } from "../v0mock";
+import type { AssociationField, AssociationWord } from "../v0mock";
 import "./Challenge.css";
 
-type Mode = "field" | "seed";
-
 export function Association() {
-  const [mode, setMode] = useState<Mode>("field");
-
-  return (
-    <Screen title="Association" back={{ to: "/shelf", label: "Shelf" }} bare>
-      <div className="assoc-modes" role="group" aria-label="Which game">
-        <button
-          type="button"
-          className={`assoc-mode${mode === "field" ? " assoc-mode--on" : ""}`}
-          onClick={() => setMode("field")}
-        >
-          A field
-        </button>
-        <button
-          type="button"
-          className={`assoc-mode${mode === "seed" ? " assoc-mode--on" : ""}`}
-          onClick={() => setMode("seed")}
-        >
-          One word
-        </button>
-      </div>
-      {mode === "field" ? <FieldGame /> : <SeedGame />}
-    </Screen>
-  );
-}
-
-// ── 2e ───────────────────────────────────────────────────────────────────
-
-function FieldGame() {
-  const [field, setField] = useState<AssociationField | null>(null);
-  const [found, setFound] = useState<string[]>([]);
+  const [field, setField] = useState<AssociationField>(associationFields[0]);
+  const [choosing, setChoosing] = useState(false);
+  const [solved, setSolved] = useState<string[]>([]);
+  const [landed, setLanded] = useState<AssociationWord | null>(null);
   const [typed, setTyped] = useState("");
 
-  if (!field) {
+  function open(next: AssociationField) {
+    setField(next);
+    setSolved([]);
+    setLanded(null);
+    setTyped("");
+    setChoosing(false);
+  }
+
+  function add() {
+    const guess = typed.trim().toLowerCase();
+    setTyped("");
+    if (!guess) return;
+    const match = field.words.find((entry) => entry.word === guess && !solved.includes(entry.word));
+    if (!match) return;
+    setSolved((current) => [...current, match.word]);
+    setLanded(match);
+  }
+
+  function revealOne() {
+    const next = field.words.find((entry) => !solved.includes(entry.word));
+    if (!next) return;
+    setSolved((current) => [...current, next.word]);
+    setLanded(next);
+  }
+
+  if (choosing) {
     return (
-      <div className="assoc-body">
+      <Screen title="Association" back={{ to: "/shelf", label: "Shelf" }}>
         <h2 className="sb-heading sb-heading--sm">Pick a field.</h2>
         <div className="sb-list">
           {associationFields.map((one) => (
             <button
               key={one.name}
               type="button"
-              className="sb-list__row"
-              onClick={() => {
-                setField(one);
-                setFound([]);
-              }}
+              className={`sb-list__row${one.name === field.name ? " sb-list__row--chosen" : ""}`}
+              onClick={() => open(one)}
             >
               <span>{one.name}</span>
-              <span className="sb-list__aside">
-                {one.tier} · {one.words.length + one.looser.length} words
-              </span>
+              <span className="sb-list__aside">{one.tier} · nine words</span>
             </button>
           ))}
         </div>
         <span className="sb-caption">The tier comes with the field — harder fields, rarer words.</span>
-      </div>
+      </Screen>
     );
   }
 
-  const all = [...field.words, ...field.looser];
-
-  function add() {
-    const word = typed.trim().toLowerCase();
-    setTyped("");
-    if (!word || found.includes(word)) return;
-    if (all.includes(word)) setFound((current) => [...current, word]);
-  }
+  const done = solved.length === field.words.length;
 
   return (
-    <>
-      <div className="assoc-body">
-        <div className="assoc-head">
-          <span className="assoc-head__name">{field.name}</span>
-          <span className="assoc-head__count">
-            {found.length} of {all.length}
-          </span>
-        </div>
-
-        <div className="assoc-rows">
-          {all.map((word, i) => {
-            const landed = found.includes(word);
-            const last = found[found.length - 1] === word;
+    <Screen
+      title={field.name}
+      back={{ to: "/shelf", label: "Shelf" }}
+      trail={
+        <span className="board-count">
+          {solved.length}/{field.words.length}
+        </span>
+      }
+      bare
+    >
+      <div className="board">
+        <div className="board__grid">
+          {field.words.map((entry, i) => {
+            const isSolved = solved.includes(entry.word);
+            if (isSolved) {
+              return (
+                <div key={entry.word} className={`tile tile--${entry.link} sb-fade`}>
+                  <RelationMark link={entry.link} />
+                  <span className="tile__word">{entry.word}</span>
+                </div>
+              );
+            }
+            // The rare one keeps even its first letter to itself.
+            if (i === RARE_TILE_INDEX) {
+              return (
+                <div key={entry.word} className="tile tile--rare">
+                  <span className="tile__rare">rare</span>
+                </div>
+              );
+            }
             return (
-              <div key={word} className={`assoc-row${last ? " sb-fade" : ""}`}>
-                <span className="assoc-row__n">{i + 1}</span>
-                {landed ? (
-                  <>
-                    <span className={`assoc-row__word${last ? " assoc-row__word--landed" : ""}`}>{word}</span>
-                    {field.looser.includes(word) && <span className="assoc-row__aside">looser link</span>}
-                  </>
-                ) : (
-                  <span className="assoc-row__rule" />
-                )}
+              <div key={entry.word} className="tile tile--blank">
+                <span className="tile__letter">{entry.word[0]}</span>
+                <span className="tile__length" aria-label={`${entry.word.length} letters`}>
+                  {"· ".repeat(entry.word.length).trim()}
+                </span>
               </div>
             );
           })}
         </div>
 
-        <button type="button" className="sb-quiet" onClick={() => setField(null)}>
-          Another field
-        </button>
+        <div className="board__key">
+          <span className="board__legend">
+            <span className="board__swatch board__swatch--involves">
+              <RelationMark link="involves" />
+            </span>
+            involves
+          </span>
+          <span className="board__legend">
+            <span className="board__swatch board__swatch--relates">
+              <RelationMark link="relates" />
+            </span>
+            relates
+          </span>
+          <button type="button" className="sb-quiet board__reveal" onClick={revealOne} disabled={done}>
+            Reveal one
+          </button>
+        </div>
+
+        {landed && (
+          <div className="sb-card board__landed sb-fade">
+            <span className="sb-eyebrow">Just landed</span>
+            <div className="board__landed-row">
+              <span className="board__landed-word">{landed.word}</span>
+              {landed.meaning && <span className="sb-caption">{landed.meaning}</span>}
+            </div>
+          </div>
+        )}
+
+        {done && (
+          <div className="board__settled sb-fade">
+            <span className="board__settled-line">The board settles.</span>
+            <button type="button" className="sb-quiet" onClick={() => setChoosing(true)}>
+              Another field
+            </button>
+          </div>
+        )}
       </div>
 
       <form
@@ -135,84 +172,38 @@ function FieldGame() {
           Add
         </button>
       </form>
-    </>
+    </Screen>
   );
 }
 
-// ── 2f ───────────────────────────────────────────────────────────────────
-
-function SeedGame() {
-  const [seed] = useState<AssociationSeed>(associationSeeds[0]);
-  const [said, setSaid] = useState<string[]>([]);
-  const [typed, setTyped] = useState("");
-
-  // A chain is a pair that links to each other, not only to the seed. It is
-  // drawn as a bracket down the margin and counts twice.
-  const chained = new Set(
-    seed.chains.filter(([a, b]) => said.includes(a) && said.includes(b)).flat(),
-  );
-
-  function add() {
-    const word = typed.trim().toLowerCase();
-    setTyped("");
-    if (!word) return;
-    const match = Object.keys(seed.links).find((key) => key.toLowerCase() === word);
-    if (match && !said.includes(match)) setSaid((current) => [...current, match]);
-  }
-
-  const loose = said.filter((word) => !chained.has(word));
-  const inChain = said.filter((word) => chained.has(word));
-
-  return (
-    <>
-      <div className="assoc-seed">
-        <span className="sb-eyebrow">{seed.tier}</span>
-        <span className="challenge-seed">{seed.word}</span>
-      </div>
-
-      <div className="assoc-body">
-        {loose.map((word) => (
-          <div key={word} className="assoc-link">
-            <span className="assoc-row__word">{word}</span>
-            <span className="assoc-link__how">{seed.links[word]}</span>
-          </div>
-        ))}
-
-        {inChain.length > 0 && (
-          <div className="assoc-chain sb-fade">
-            <span className="assoc-chain__bracket" aria-hidden="true" />
-            <div className="assoc-chain__side">
-              {inChain.map((word) => (
-                <div key={word} className="assoc-link">
-                  <span className="assoc-row__word">{word}</span>
-                  <span className="assoc-link__how assoc-link__how--chain">chain · ×2</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        <span className="sb-caption">keep going — anything that touches it counts</span>
-      </div>
-
-      <form
-        className="sb-answer"
-        onSubmit={(e) => {
-          e.preventDefault();
-          add();
-        }}
-      >
-        <input
-          className="sb-answer__field"
-          value={typed}
-          onChange={(e) => setTyped(e.target.value)}
-          placeholder={`anything that touches ${seed.word}`}
-          aria-label={`anything that touches ${seed.word}`}
+/** Two marks, drawn rather than imported: a link for "involves", a branch
+ *  for "relates". The design system's own icon set is not in this repo. */
+function RelationMark({ link }: { link: AssociationWord["link"] }) {
+  if (link === "involves") {
+    return (
+      <svg className="relation-mark" viewBox="0 0 14 14" aria-hidden="true">
+        <path
+          d="M5.5 8.5 8.5 5.5M4.8 9.2a2.4 2.4 0 0 1 0-3.4l1.4-1.4a2.4 2.4 0 0 1 3.4 3.4M9.2 4.8a2.4 2.4 0 0 1 0 3.4l-1.4 1.4a2.4 2.4 0 0 1-3.4-3.4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.4"
+          strokeLinecap="round"
         />
-        <button type="submit" className="sb-button sb-button--sm">
-          Add
-        </button>
-      </form>
-    </>
+      </svg>
+    );
+  }
+  return (
+    <svg className="relation-mark" viewBox="0 0 14 14" aria-hidden="true">
+      <path
+        d="M4 2.5v9M4 6.5h3.5a2.5 2.5 0 0 1 2.5 2.5v2.5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle cx="4" cy="2.5" r="1.3" fill="currentColor" />
+      <circle cx="10" cy="11.5" r="1.3" fill="currentColor" />
+    </svg>
   );
 }

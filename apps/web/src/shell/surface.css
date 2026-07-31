@@ -406,11 +406,29 @@ a.sb-quiet {
   color: var(--text-1);
 }
 
-/* Finished: frosted rather than faded (1h's own note). */
+/* Finished: frosted rather than faded, which is 1h's own note and which the
+   first pass wrote as `opacity: 0.66` -- fading, in as many words. It also
+   inverted: lowering a dark cover's opacity over a dark ground lifts it
+   toward the background and *brightens* it, so on the night Shelf a
+   finished book was the brightest object on the page.
+   The frost is what his frame actually draws: a veil the colour of the
+   paper it sits on, laid over the cover. Toward the page in both themes,
+   which is the property "faded" could never have. */
 .sb-cover--finished {
-  filter: saturate(0.2);
-  opacity: 0.66;
+  position: relative;
+  filter: saturate(0.35);
   box-shadow: none;
+}
+
+.sb-cover--finished::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: color-mix(in srgb, var(--surface-page) 68%, transparent);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  pointer-events: none;
 }
 
 /* ── The tab bar ──────────────────────────────────────────────────────── */

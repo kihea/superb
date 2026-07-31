@@ -24,10 +24,13 @@ export function Cover({ book, size = "md", finished, onClick }: CoverProps) {
     .filter(Boolean)
     .join(" ");
 
+  // Frame 2g puts only the title on a library cover; the author belongs to
+  // the metadata line beside the card, where it already is. Putting both on
+  // a 70x100 cover is what cut eight of eleven titles mid-word.
   const inside = (
     <>
       <span className="cover__title">{book.title}</span>
-      <span className="sb-cover__author">{book.author}</span>
+      {size !== "sm" && <span className="sb-cover__author">{book.author}</span>}
     </>
   );
 

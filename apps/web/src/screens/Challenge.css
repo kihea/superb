@@ -1,6 +1,7 @@
-/* Shared by the two challenge rooms (2d, 2e/2f). These screens are allowed
-   to look like challenges -- tiers, counts, a scoreboard at the end -- and
-   none of it reaches the reading page or the Shelf. */
+/* Shared by the two challenge rooms: rhyme (2d) and association (3d).
+   These screens are allowed to look like challenges -- tiers, counts, a
+   scoreboard at the end -- and none of it reaches the reading page or the
+   Shelf. */
 
 .challenge-board {
   flex: 1;
@@ -62,154 +63,169 @@
   gap: var(--sp-2);
 }
 
-/* ── Association A: the field, as a numbered list (2e) ────────────────── */
+/* ── Association: the puzzle board (frame 3d) ─────────────────────────── */
 
-.assoc-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--sp-5);
-  padding-bottom: var(--sp-5);
-  border-bottom: 1px solid var(--border-1);
-}
-
-.assoc-head__name {
-  font: var(--fw-bold) var(--fs-700) / 1.1 var(--font-display);
-  color: var(--text-1);
-}
-
-.assoc-head__count {
-  font: var(--fw-semibold) var(--fs-300) / 1 var(--font-ui);
-  color: var(--text-2);
-}
-
-.assoc-rows {
-  flex: 1;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.assoc-row {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-5);
-  padding: var(--sp-6) 0;
-  border-bottom: 1px solid var(--border-1);
-  min-height: var(--tap-min);
-}
-
-.assoc-row__n {
-  font: var(--fw-semibold) var(--fs-300) / 1 var(--font-ui);
-  color: var(--text-3);
-  width: 14px;
-  flex: none;
-}
-
-.assoc-row__word {
-  font: var(--type-body);
-  color: var(--text-1);
-}
-
-.assoc-row__word--landed {
-  background: var(--highlight);
-  border-radius: var(--r-xs);
-  padding: 0 3px;
-}
-
-.assoc-row__aside {
-  font: var(--type-caption);
-  color: var(--support);
-}
-
-.assoc-row__rule {
-  flex: 1;
-  height: 1px;
-  background: var(--border-2);
-}
-
-/* ── Association B: the seed and what touches it (2f) ─────────────────── */
-
-.assoc-seed {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--sp-3);
-  padding: var(--sp-8) var(--sp-7) var(--sp-7);
-  border-bottom: 1px solid var(--border-1);
-}
-
-.assoc-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-5);
-  padding: var(--sp-6) 0;
-  border-bottom: 1px solid var(--border-1);
-}
-
-.assoc-link__how {
-  font: var(--type-caption);
-  color: var(--text-3);
-}
-
-.assoc-link__how--chain {
-  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
-  color: var(--brand);
-}
-
-/* A chain is drawn as a bracket down the margin, and counts twice. */
-.assoc-chain {
-  display: flex;
-  gap: var(--sp-5);
-}
-
-.assoc-chain__bracket {
-  width: 2px;
-  border-radius: 1px;
-  background: var(--brand);
-  margin: var(--sp-6) 0;
-  flex: none;
-}
-
-.assoc-chain__side {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-/* The switch between the two association games. Labelled plainly because
-   both ship and Kihea picks the survivor later. */
-.assoc-modes {
-  display: flex;
-  gap: var(--sp-4);
-  padding: var(--sp-5) var(--sp-7) 0;
-}
-
-.assoc-mode {
-  flex: 1;
-  min-height: var(--tap-min);
-  padding: var(--sp-4) var(--sp-5);
-  border: 1px solid var(--border-2);
-  border-radius: var(--r-sm);
-  background: transparent;
-  color: var(--text-2);
-  font: var(--type-label);
-  cursor: pointer;
-}
-
-.assoc-mode--on {
-  background: var(--brand-soft);
-  border-color: var(--brand);
-  color: var(--text-1);
-}
-
-.assoc-body {
+.board {
   flex: 1;
   min-height: 0;
   display: flex;
   flex-direction: column;
   gap: var(--sp-6);
   padding: var(--sp-6) var(--sp-7) 0;
+}
+
+.board-count {
+  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  color: var(--text-3);
+}
+
+.board__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-4);
+}
+
+.tile {
+  min-height: 74px;
+  border-radius: var(--r-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3);
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+/* A landed tile carries its relation and its word, and that is all the
+   difference there is between one solved tile and another. */
+.tile--involves {
+  background: var(--brand);
+  color: var(--ox-paper);
+}
+
+.tile--relates {
+  background: var(--surface-card);
+  border-color: var(--support);
+  color: var(--support);
+}
+
+.tile__word {
+  font: var(--fw-semibold) var(--fs-300) / 1.15 var(--font-ui);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.tile--involves .tile__word {
+  color: var(--ox-paper);
+}
+
+.tile--relates .tile__word {
+  color: var(--text-1);
+}
+
+.tile--involves .relation-mark {
+  opacity: 0.75;
+}
+
+/* An unsolved tile: first letter, and one dot per letter. Exactly how much
+   you don't know, and nothing more. */
+.tile--blank {
+  background: var(--surface-sunken);
+  border-color: var(--border-1);
+}
+
+.tile__letter {
+  font: var(--fw-bold) var(--fs-500) / 1 var(--font-display);
+  color: var(--text-2);
+}
+
+.tile__length {
+  font: var(--fs-100) var(--font-mono);
+  color: var(--text-3);
+  letter-spacing: 0.18em;
+  white-space: nowrap;
+}
+
+.tile--rare {
+  background: transparent;
+  border: 1px dashed var(--border-2);
+}
+
+.tile__rare {
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+.relation-mark {
+  width: 13px;
+  height: 13px;
+  display: block;
+}
+
+.board__key {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+  padding: 0 var(--sp-1);
+}
+
+.board__legend {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+.board__swatch--involves {
+  color: var(--brand);
+  display: flex;
+}
+
+.board__swatch--relates {
+  color: var(--support);
+  display: flex;
+}
+
+.board__reveal {
+  margin-left: auto;
+  color: var(--text-2);
+}
+
+.board__reveal:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.board__landed {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.board__landed-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  flex-wrap: wrap;
+}
+
+.board__landed-word {
+  font: var(--fw-bold) var(--fs-600) / 1.1 var(--font-display);
+  color: var(--text-1);
+}
+
+.board__settled {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-5);
+}
+
+.board__settled-line {
+  font: var(--fw-bold) var(--fs-600) / 1.2 var(--font-display);
+  color: var(--text-1);
 }
