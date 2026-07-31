@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-013",
   "pool": "sourced",
-  "text": "The poor fellow has enough to fight against without my putting more upon his track.” “If you had told us of your own free will it would have been a different thing,” said the baronet, “you only told us, or rather your wife only told us, when it was forced from you and you could not help yourself.” “I didn’t think you would have taken advantage of it, Sir Henry—indeed I didn’t.” “The man is a public danger. There are lonely houses scattered over the moor, and he is a fellow who would stick at nothing. You only want to get a glimpse of his face to see that. Look at Mr. Stapleton’s house, for example, with no one but himself to defend it. There’s no safety for anyone until he is under lock and key.” “He’ll break into no house, sir.",
+  "text": "“You see how it is with me, and you know just as much about the matter as I do. If you will come down to Baskerville Hall and see me through I’ll never forget it.” The promise of adventure had always a fascination for me, and I was complimented by the words of Holmes and by the eagerness with which the baronet hailed me as a companion. “I will come, with pleasure,” said I. “I do not know how I could employ my time better.” “And you will report very carefully to me,” said Holmes. “When a crisis comes, as it will do, I will direct how you shall act.",
   "words": [
     {
-      "word": "scattered",
+      "word": "fascination",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "moor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glimpse",
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

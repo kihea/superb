@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-014",
   "pool": "sourced",
-  "text": "I know you are not the heartless, icy being you pretend to be—you had a heart once, and gave it to your husband. When you found him utterly unworthy of the treasure, you reclaimed it; and you will not pretend that you loved that sensual, earthly-minded profligate so deeply, so devotedly, that you can never love another? I know that there are feelings in your nature that have never yet been called forth; I know, too, that in your present neglected lonely state you are and must be miserable. You have it in your power to raise two human beings from a state of actual suffering to such unspeakable beatitude as only generous, noble, self-forgetting love can give (for you can love me if you will); you may tell me that you scorn and detest me, but, since you have set me the example of plain speaking, I will answer that I do not believe you! But you will not do it!",
+  "text": "I have never seen him since dear mamma died, when I was a very little girl, and my aunt, at her request, offered to take charge of me, and took me away to Staningley, where I have remained ever since; and I don’t think he would object to anything for me that she thought proper to sanction.” “But would he sanction anything to which she thought proper to object?” “No, I don’t think he cares enough about me.” “He is very much to blame—but he doesn’t know what an angel he has for his daughter—which is all the better for me, as, if he did, he would not be willing to part with such a treasure.” “And Mr. Huntingdon,” said I, “I suppose you know I am not an heiress?” He protested he had never given it a thought, and begged I would not disturb his present enjoyment by the mention of such uninteresting subjects. I was glad of this proof of disinterested affection; for Annabella Wilmot is the probable heiress to all her uncle’s wealth, in addition to her late father’s property, which she has already in possession.",
   "words": [
     {
-      "word": "miserable",
+      "word": "treasure",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "generous",
+      "word": "enjoyment",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

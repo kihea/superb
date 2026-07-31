@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-villette-022",
+  "pool": "sourced",
+  "text": "“Fire!” was repeated, re-echoed, yelled forth: and then, and faster than pen can set it down, came panic, rushing, crushing—a blind, selfish, cruel chaos. And Dr. John? Reader, I see him yet, with his look of comely courage and cordial calm. “Lucy will sit still, I know,” said he, glancing down at me with the same serene goodness, the same repose of firmness that I have seen in him when sitting at his side amid the secure peace of his mother’s hearth. Yes, thus adjured, I think I would have sat still under a rocking crag: but, indeed, to sit still in actual circumstances was my instinct; and at the price of my very life, I would not have moved to give him trouble, thwart his will, or make demands on his attention.",
+  "words": [
+    {
+      "word": "serene",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

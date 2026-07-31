@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-029",
+  "pool": "sourced",
+  "text": "Wilfred Bohun made a limp gesture as if waving away all desire to know; but Father Brown, dusting off his sleeve some ashes blown from the furnace, spoke in his indifferent way. “You are like so many doctors,” he said; “your mental science is really suggestive. It is your physical science that is utterly impossible. I agree that the woman wants to kill the co-respondent much more than the petitioner does. And I agree that a woman will always pick up a small hammer instead of a big one.",
+  "words": [
+    {
+      "word": "limp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

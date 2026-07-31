@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-middlemarch-021",
+  "pool": "sourced",
+  "text": "“No, no; but it’s a fine thing to come to a man when he’s seen into the nature of business: to have the chance of getting a bit of the country into good fettle, as they say, and putting men into the right way with their farming, and getting a bit of good contriving and solid building done—that those who are living and those who come after will be the better for. I’d sooner have it than a fortune. I hold it the most honorable work that is.” Here Caleb laid down his letters, thrust his fingers between the buttons of his waistcoat, and sat upright, but presently proceeded with some awe in his voice and moving his head slowly aside—“It’s a great gift of God, Susan.” “That it is, Caleb,” said his wife, with answering fervor. “And it will be a blessing to your children to have had a father who did such work: a father whose good work remains though his name may be forgotten.” She could not say any more to him then about the pay.",
+  "words": [
+    {
+      "word": "farming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

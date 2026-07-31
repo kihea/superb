@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-robinson-crusoe-038",
+  "pool": "sourced",
+  "text": "“However, my old friend,” says he, “you shall not want a supply in your necessity; and as soon as my son returns you shall be fully satisfied.” Upon this he pulls out an old pouch, and gives me one hundred and sixty Portugal moidores in gold; and giving the writings of his title to the ship, which his son was gone to the Brazils in, of which he was quarter-part owner, and his son another, he puts them both into my hands for security of the rest. I was too much moved with the honesty and kindness of the poor man to be able to bear this; and remembering what he had done for me, how he had taken me up at sea, and how generously he had used me on all occasions, and particularly how sincere a friend he was now to me, I could hardly refrain weeping at what he had said to me; therefore I asked him if his circumstances admitted him to spare so much money at that time, and if it would not straiten him?",
+  "words": [
+    {
+      "word": "generously",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

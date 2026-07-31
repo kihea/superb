@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-028",
+  "pool": "sourced",
+  "text": "Ethan dragged himself wearily to his feet. “I’ll go out and take a look around,” he said, going toward the passage to get his lantern. As he reached the door he met Zeena coming back into the room, her lips twitching with anger, a flush of excitement on her sallow face. The shawl had slipped from her shoulders and was dragging at her down-trodden heels, and in her hands she carried the fragments of the red glass pickle-dish. “I’d like to know who done this,” she said, looking sternly from Ethan to Mattie.",
+  "words": [
+    {
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

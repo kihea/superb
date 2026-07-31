@@ -1,16 +1,10 @@
 {
   "id": "src-gen-david-copperfield-008",
   "pool": "sourced",
-  "text": "When I came home in the afternoon, and saw the bottles drawn up in a square on the pantry floor, they looked so numerous (though there were two missing, which made Mrs. Crupp very uncomfortable), that I was absolutely frightened at them. One of Steerforth’s friends was named Grainger, and the other Markham. They were both very gay and lively fellows; Grainger, something older than Steerforth; Markham, youthful-looking, and I should say not more than twenty. I observed that the latter always spoke of himself indefinitely, as ‘a man’, and seldom or never in the first person singular. ‘A man might get on very well here, Mr. Copperfield,’ said Markham--meaning himself.",
+  "text": "Get along with you, do!’ said my aunt. ‘I never heard anything like this person in my life!’ exclaimed Miss Murdstone. ‘And when you had made sure of the poor little fool,’ said my aunt--‘God forgive me that I should call her so, and she gone where YOU won’t go in a hurry--because you had not done wrong enough to her and hers, you must begin to train her, must you? begin to break her, like a poor caged bird, and wear her deluded life away, in teaching her to sing YOUR notes?’ ‘This is either insanity or intoxication,’ said Miss Murdstone, in a perfect agony at not being able to turn the current of my aunt’s address towards herself; ‘and my suspicion is that it’s intoxication.’ Miss Betsey, without taking the least notice of the interruption, continued to address herself to Mr. Murdstone as if there had been no such thing.",
   "words": [
     {
-      "word": "bottles",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "singular",
+      "word": "suspicion",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "source": "Project Gutenberg #766",
-    "url": "https://www.gutenberg.org/ebooks/766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

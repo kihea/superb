@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-awakening-025",
+  "pool": "sourced",
+  "text": "Is Mademoiselle Reisz not here? I never expected to see you.” “When did you come back?” asked Edna in an unsteady voice, wiping her face with her handkerchief. She seemed ill at ease on the piano stool, and he begged her to take the chair by the window. She did so, mechanically, while he seated himself on the stool. “I returned day before yesterday,” he answered, while he leaned his arm on the keys, bringing forth a crash of discordant sound.",
+  "words": [
+    {
+      "word": "handkerchief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

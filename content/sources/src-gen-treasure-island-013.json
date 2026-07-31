@@ -1,22 +1,16 @@
 {
   "id": "src-gen-treasure-island-013",
   "pool": "sourced",
-  "text": "XXIV The Cruise of the Coracle It was broad day when I awoke and found myself tossing at the south-west end of Treasure Island. The sun was up but was still hid from me behind the great bulk of the Spy-glass, which on this side descended almost to the sea in formidable cliffs. Haulbowline Head and Mizzenmast Hill were at my elbow, the hill bare and dark, the head bound with cliffs forty or fifty feet high and fringed with great masses of fallen rock. I was scarce a quarter of a mile to seaward, and it was my first thought to paddle in and land. That notion was soon given over.",
+  "text": "Kill me too, if you can. But I defies you.” And with that, this brave fellow turned his back directly on the cook and set off walking for the beach. But he was not destined to go far. With a cry John seized the branch of a tree, whipped the crutch out of his armpit, and sent that uncouth missile hurtling through the air. It struck poor Tom, point foremost, and with stunning violence, right between the shoulders in the middle of his back.",
   "words": [
     {
-      "word": "elbow",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "paddle",
+      "word": "missile",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "notion",
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

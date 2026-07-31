@@ -1,12 +1,12 @@
 {
   "id": "src-gen-the-jungle-book-013",
   "pool": "sourced",
-  "text": "Rikki-tikki knew better than to waste time in staring. He jumped up in the air as high as he could go, and just under him whizzed by the head of Nagaina, Nag’s wicked wife. She had crept up behind him as he was talking, to make an end of him. He heard her savage hiss as the stroke missed. He came down almost across her back, and if he had been an old mongoose he would have known that then was the time to break her back with one bite; but he was afraid of the terrible lashing return stroke of the cobra.",
+  "text": "Then the little children in the village made him very angry. Luckily, the Law of the Jungle had taught him to keep his temper, for in the jungle life and food depend on keeping your temper; but when they made fun of him because he would not play games or fly kites, or because he mispronounced some word, only the knowledge that it was unsportsmanlike to kill little naked cubs kept him from picking them up and breaking them in two. He did not know his own strength in the least. In the jungle he knew he was weak compared with the beasts, but in the village people said that he was as strong as a bull. And Mowgli had not the faintest idea of the difference that caste makes between man and man.",
   "words": [
     {
-      "word": "wicked",
+      "word": "luckily",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

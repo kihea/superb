@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-037",
+  "pool": "sourced",
+  "text": "How starry it is! Tremendous! That means a hard frost....” They all grew silent. The stars, as if knowing that no one was looking at them, began to disport themselves in the dark sky: now flaring up, now vanishing, now trembling, they were busy whispering something gladsome and mysterious to one another. The French army melted away at the uniform rate of a mathematical progression; and that crossing of the Berëzina about which so much has been written was only one intermediate stage in its destruction, and not at all the decisive episode of the campaign.",
+  "words": [
+    {
+      "word": "starry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "progression",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

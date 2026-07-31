@@ -1,10 +1,28 @@
 {
   "id": "src-gen-wuthering-heights-005",
   "pool": "sourced",
-  "text": "Don’t take on, and fret about it too much: it can’t be helped. And besides, you should have known better than to choose such a rush of a lass!’” “And what did the master answer?” I inquired. “I think he swore: but I didn’t mind him, I was straining to see the bairn,” and she began again to describe it rapturously. I, as zealous as herself, hurried eagerly home to admire, on my part; though I was very sad for Hindley’s sake. He had room in his heart only for two idols—his wife and himself: he doted on both, and adored one, and I couldn’t conceive how he would bear the loss.",
+  "text": "I had remarked on one side of the road, at intervals of six or seven yards, a line of upright stones, continued through the whole length of the barren: these were erected and daubed with lime on purpose to serve as guides in the dark, and also when a fall, like the present, confounded the deep swamps on either hand with the firmer path: but, excepting a dirty dot pointing up here and there, all traces of their existence had vanished: and my companion found it necessary to warn me frequently to steer to the right or left, when I imagined I was following, correctly, the windings of the road. We exchanged little conversation, and he halted at the entrance of Thrushcross Park, saying, I could make no error there. Our adieux were limited to a hasty bow, and then I pushed forward, trusting to my own resources; for the porter’s lodge is untenanted as yet.",
   "words": [
     {
-      "word": "swore",
+      "word": "barren",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hasty",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

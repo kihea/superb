@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-moonstone-008",
   "pool": "sourced",
-  "text": "Necessity, which spares our betters, has no pity on us. We learn to put our feelings back into ourselves, and to jog on with our duties as patiently as may be. I don’t complain of this—I only notice it. Penelope and I were ready for the Sergeant, as soon as the Sergeant was ready on his side. Asked if she knew what had led her fellow-servant to destroy herself, my daughter answered (as you will foresee) that it was for love of Mr. Franklin Blake.",
+  "text": "Miss Rachel was the next to say good-night. She shook hands first with Mr. Godfrey, who was standing at the other end of the hall, looking at a picture. Then she turned back to Mr. Franklin, still sitting weary and silent in a corner. What words passed between them I can’t say. But standing near the old oak frame which holds our large looking-glass, I saw her reflected in it, slyly slipping the locket which Mr. Franklin had given to her, out of the bosom of her dress, and showing it to him for a moment, with a smile which certainly meant something out of the common, before she tripped off to bed.",
   "words": [
     {
-      "word": "servant",
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slipping",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Wilkie Collins",
     "year": 1868,
     "source": "Project Gutenberg #155",
-    "url": "https://www.gutenberg.org/ebooks/155",
+    "url": "https://www.gutenberg.org/ebooks/155.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

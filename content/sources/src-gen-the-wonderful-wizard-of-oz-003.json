@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-003",
   "pool": "sourced",
-  "text": "At once the cap changed to a slate, on which was written in big, white chalk marks: “LET DOROTHY GO TO THE CITY OF EMERALDS” The little old woman took the slate from her nose, and having read the words on it, asked, “Is your name Dorothy, my dear?” “Yes,” answered the child, looking up and drying her tears. “Then you must go to the City of Emeralds. Perhaps Oz will help you.” “Where is this city?” asked Dorothy. “It is exactly in the center of the country, and is ruled by Oz, the Great Wizard I told you of.” “Is he a good man?” inquired the girl anxiously. “He is a good Wizard.",
+  "text": "The little girl gave a cry of amazement and looked about her, her eyes growing bigger and bigger at the wonderful sights she saw. The cyclone had set the house down very gently—for a cyclone—in the midst of a country of marvelous beauty. There were lovely patches of greensward all about, with stately trees bearing rich and luscious fruits. Banks of gorgeous flowers were on every hand, and birds with rare and brilliant plumage sang and fluttered in the trees and bushes. A little way off was a small brook, rushing and sparkling along between green banks, and murmuring in a voice very grateful to a little girl who had lived so long on the dry, gray prairies.",
   "words": [
     {
-      "word": "chalk",
+      "word": "marvelous",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

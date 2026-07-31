@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-007",
   "pool": "sourced",
-  "text": "Then she opened the door ajar, looked out into the corridor and, in a low voice, said: \"He must have gone up higher.\" Suddenly she exclaimed: \"He is coming down again!\" She tried to close the door, but Raoul prevented her; for he had seen, on the top step of the staircase that led to the floor above, A RED FOOT, followed by another ... and slowly, majestically, the whole scarlet dress of Red Death met his eyes. And he once more saw the death's head of Perros-Guirec. he exclaimed.",
+  "text": "Daae's father was a great musician, perhaps without knowing it. Not a fiddler throughout the length and breadth of Scandinavia played as he did. His reputation was widespread and he was always invited to set the couples dancing at weddings and other festivals. His wife died when Christine was entering upon her sixth year. Then the father, who cared only for his daughter and his music, sold his patch of ground and went to Upsala in search of fame and fortune.",
   "words": [
     {
-      "word": "scarlet",
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "widespread",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-adventures-of-sherlock-holmes-019",
   "pool": "sourced",
-  "text": "The dear fellow wanted to see if the missing piece were at the scene of the struggle. How cruelly I have misjudged him!” “When I arrived at the house,” continued Holmes, “I at once went very carefully round it to observe if there were any traces in the snow which might help me. I knew that none had fallen since the evening before, and also that there had been a strong frost to preserve impressions. I passed along the tradesmen’s path, but found it all trampled down and indistinguishable. Just beyond it, however, at the far side of the kitchen door, a woman had stood and talked with a man, whose round impressions on one side showed that he had a wooden leg.",
+  "text": "B.’ are legible upon the lining of this hat, but as there are some thousands of Bakers, and some hundreds of Henry Bakers in this city of ours, it is not easy to restore lost property to any one of them.” “What, then, did Peterson do?” “He brought round both hat and goose to me on Christmas morning, knowing that even the smallest problems are of interest to me. The goose we retained until this morning, when there were signs that, in spite of the slight frost, it would be well that it should be eaten without unnecessary delay. Its finder has carried it off, therefore, to fulfil the ultimate destiny of a goose, while I continue to retain the hat of the unknown gentleman who lost his Christmas dinner.” “Did he not advertise?” “No.” “Then, what clue could you have as to his identity?” “Only as much as we can deduce.” “From his hat?” “Precisely.” “But you are joking. What can you gather from this old battered felt?” “Here is my lens. You know my methods.",
   "words": [
     {
-      "word": "observe",
+      "word": "finder",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "impressions",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1892,
     "source": "Project Gutenberg #1661",
-    "url": "https://www.gutenberg.org/ebooks/1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

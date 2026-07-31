@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-022",
+  "pool": "sourced",
+  "text": "\"Not coming,\" said Mrs. Cratchit. \"Not coming!\" said Bob, with a sudden declension in his high spirits; for he had been Tim's blood horse all the way from church, and had come home rampant. \"Not coming upon Christmas Day!\" Martha didn't like to see him disappointed, if it were only in joke; so she came out prematurely from behind the closet door, and ran into his arms, while the two young Cratchits hustled Tiny Tim, and bore him off into the wash-house, that he might hear the pudding singing in the copper.",
+  "words": [
+    {
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

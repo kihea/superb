@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-024",
+  "pool": "sourced",
+  "text": "But he also knew that Dron, who had acquired property and was hated by the commune, must be hesitating between the two camps: the masters’ and the serfs’. He noticed this hesitation in Dron’s look and therefore frowned and moved closer up to him. “Now just listen, Drónushka,” said he. “Don’t talk nonsense to me. His excellency Prince Andrew himself gave me orders to move all the people away and not leave them with the enemy, and there is an order from the Tsar about it too.",
+  "words": [
+    {
+      "word": "commune",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hesitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

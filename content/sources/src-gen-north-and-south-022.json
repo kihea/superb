@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-north-and-south-022",
+  "pool": "sourced",
+  "text": "Margaret flew to adjust the pillows. Her mother seemed more than usually feeble. “What were you laughing at, Margaret?” asked she, as soon as she had recovered from the exertion of settling herself on the sofa. “A letter I have had this morning from Edith. Shall I read it to you, mamma?” She read it aloud, and for a time it seemed to interest her mother, who kept wondering what name Edith had given to her boy, and suggesting all probable names, and all possible reasons why each and all of these names should be given.",
+  "words": [
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

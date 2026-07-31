@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-002",
   "pool": "sourced",
-  "text": "Is it that you think she has no virtue?” “Assuredly not.” “Well, but you affirm that virtue is only elicited by temptation;—and you think that a woman cannot be too little exposed to temptation, or too little acquainted with vice, or anything connected therewith. It must be either that you think she is essentially so vicious, or so feeble-minded, that she cannot withstand temptation,—and though she may be pure and innocent as long as she is kept in ignorance and restraint, yet, being destitute of real virtue, to teach her how to sin is at once to make her a sinner, and the greater her knowledge, the wider her liberty, the deeper will be her depravity,—whereas, in the nobler sex, there is a natural tendency to goodness, guarded by a superior fortitude, which, the more it is exercised by trials and dangers, is only the further developed—” “Heaven forbid that I should think so!” I interrupted her at last.",
+  "text": "The fields, being rough and stony, and wholly unfit for the plough, were mostly devoted to the pasturing of sheep and cattle; the soil was thin and poor: bits of grey rock here and there peeped out from the grassy hillocks; bilberry-plants and heather—relics of more savage wildness—grew under the walls; and in many of the enclosures, ragweeds and rushes usurped supremacy over the scanty herbage; but these were not my property. Near the top of this hill, about two miles from Linden-Car, stood Wildfell Hall, a superannuated mansion of the Elizabethan era, built of dark grey stone, venerable and picturesque to look at, but doubtless, cold and gloomy enough to inhabit, with its thick stone mullions and little latticed panes, its time-eaten air-holes, and its too lonely, too unsheltered situation,—only shielded from the war of wind and weather by a group of Scotch firs, themselves half blighted with storms, and looking as stern and gloomy as the Hall itself.",
   "words": [
     {
-      "word": "virtue",
+      "word": "stony",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ignorance",
+      "word": "mansion",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

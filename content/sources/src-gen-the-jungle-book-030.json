@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-jungle-book-030",
+  "pool": "sourced",
+  "text": "But the really good time came when the driving out began, and the Keddah--that is, the stockade--looked like a picture of the end of the world, and men had to make signs to one another, because they could not hear themselves speak. Then Little Toomai would climb up to the top of one of the quivering stockade posts, his sun-bleached brown hair flying loose all over his shoulders, and he looking like a goblin in the torch-light. And as soon as there was a lull you could hear his high-pitched yells of encouragement to Kala Nag, above the trumpeting and crashing, and snapping of ropes, and groans of the tethered elephants. “Mael, mael, Kala Nag! (Go on, go on, Black Snake!)",
+  "words": [
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

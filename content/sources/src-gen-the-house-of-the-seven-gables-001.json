@@ -1,16 +1,76 @@
 {
   "id": "src-gen-the-house-of-the-seven-gables-001",
   "pool": "sourced",
-  "text": "be no tinge of superstition in what we figuratively express, by affirming that the ghost of a dead progenitor—perhaps as a portion of his own punishment—is often doomed to become the Evil Genius of his family. The Pyncheons, in brief, lived along, for the better part of two centuries, with perhaps less of outward vicissitude than has attended most other New England families during the same period of time. Possessing very distinctive traits of their own, they nevertheless took the general characteristics of the little community in which they dwelt; a town noted for its frugal, discreet, well-ordered, and home-loving inhabitants, as well as for the somewhat confined scope of its sympathies; but in which, be it said, there are odder individuals, and, now and then, stranger occurrences, than one meets with almost anywhere else. During the Revolution, the Pyncheon of that epoch, adopting the royal side, became a refugee; but repented, and made his reappearance, just at the point of time to preserve the House of the Seven Gables from confiscation.",
+  "text": "For the last seventy years the most noted event in the Pyncheon annals had been likewise the heaviest calamity that ever befell the race; no less than the violent death—for so it was adjudged—of one member of the family by the criminal act of another. Certain circumstances attending this fatal occurrence had brought the deed irresistibly home to a nephew of the deceased Pyncheon. The young man was tried and convicted of the crime; but either the circumstantial nature of the evidence, and possibly some lurking doubts in the breast of the executive, or, lastly—an argument of greater weight in a republic than it could have been under a monarchy,—the high respectability and political influence of the criminal’s connections, had availed to mitigate his doom from death to perpetual imprisonment. This sad affair had chanced about thirty years before the action of our story commences. Latterly, there were rumors (which few believed, and only one or two felt greatly interested in) that this long-buried man was likely, for some reason or other, to be summoned forth from his living tomb.",
   "words": [
     {
-      "word": "epoch",
+      "word": "annals",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "preserve",
+      "word": "calamity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occurrence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nephew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstantial",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lurking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lastly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perpetual",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "imprisonment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tomb",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +81,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1851,
     "source": "Project Gutenberg #77",
-    "url": "https://www.gutenberg.org/ebooks/77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

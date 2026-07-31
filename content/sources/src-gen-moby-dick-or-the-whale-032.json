@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-032",
+  "pool": "sourced",
+  "text": "Life folded Death; Death trellised Life; the grim god wived with youthful Life, and begat him curly-headed glories. Now, when with royal Tranquo I visited this wondrous whale, and saw the skull an altar, and the artificial smoke ascending from where the real jet had issued, I marvelled that the king should regard a chapel as an object of vertu. He laughed. But more I marvelled that the priests should swear that smoky jet of his was genuine. To and fro I paced before this skeleton—brushed the vines aside—broke through the ribs—and with a ball of Arsacidean twine, wandered, eddied long amid its many winding, shaded colonnades and arbours.",
+  "words": [
+    {
+      "word": "smoky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

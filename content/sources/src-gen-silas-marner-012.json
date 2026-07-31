@@ -1,10 +1,16 @@
 {
   "id": "src-gen-silas-marner-012",
   "pool": "sourced",
-  "text": "“Give the young uns fair-play. There’s my son Godfrey’ll be wanting to have a round with you if you run off with Miss Nancy. He’s bespoke her for the first dance, I’ll be bound. what do you say?” he continued, throwing himself backward, and looking at Godfrey. “Haven’t you asked Miss Nancy to open the dance with you?” Godfrey, sorely uncomfortable under this significant insistence about Nancy, and afraid to think where it would end by the time his father had set his usual hospitable example of drinking before and after supper, saw no course open but to turn to Nancy and say, with as little awkwardness as possible— “No; I’ve not asked her yet, but I hope she’ll consent—if somebody else hasn’t been before me.” “No, I’ve not engaged myself,” said Nancy, quietly, though blushingly.",
+  "text": "“For Mr. Drumlow—poor old gentleman, I was fond on him, though he’d got a bit confused in his head, what wi’ age and wi’ taking a drop o’ summat warm when the service come of a cold morning. And young Mr. Lammeter, he’d have no way but he must be married in Janiwary, which, to be sure, ’s a unreasonable time to be married in, for it isn’t like a christening or a burying, as you can’t help; and so Mr. Drumlow—poor old gentleman, I was fond on him—but when he come to put the questions, he put ’em by the rule o’ contrairy, like, and he says, ‘Wilt thou have this man to thy wedded wife?’says he, and then he says, ‘Wilt thou have this woman to thy wedded husband?’ says he. But the partic’larest thing of all is, as nobody took any notice on it but me, and they answered straight off ‘yes,’ like as if it had been me saying ‘Amen’ i’ the right place, without listening to what went before.” “But you knew what was going on well enough, didn’t you, Mr. Macey? You were live enough, eh?” said the butcher.",
   "words": [
     {
-      "word": "quietly",
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unreasonable",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

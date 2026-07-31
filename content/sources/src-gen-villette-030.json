@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-030",
+  "pool": "sourced",
+  "text": "While watching this girl, Mademoiselle Sauveur by name, and following the gleam of her bright silk robe (she was always richly dressed, for she was said to be wealthy) through the flowers and the glancing leaves of tender emerald, my eyes became dazzled—they closed; my lassitude, the warmth of the day, the hum of bees and birds, all lulled me, and at last I slept. Two hours stole over me. Ere I woke, the sun had declined out of sight behind the towering houses, the garden and the room were grey, bees had gone homeward, and the flowers were closing; the party of guests, too, had vanished; each alley was void. On waking, I felt much at ease—not chill, as I ought to have been after sitting so still for at least two hours; my cheek and arms were not benumbed by pressure against the hard desk. No wonder.",
+  "words": [
+    {
+      "word": "hum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vanished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

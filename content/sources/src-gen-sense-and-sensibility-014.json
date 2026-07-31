@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-014",
   "pool": "sourced",
-  "text": "\"Undoubtedly, if they had known your engagement,\" said she, \"nothing could be more flattering than their treatment of you;--but as that was not the case--\" \"I guessed you would say so,\" replied Lucy quickly--\"but there was no reason in the world why Mrs. Ferrars should seem to like me, if she did not, and her liking me is every thing. You shan't talk me out of my satisfaction. I am sure it will all end well, and there will be no difficulties at all, to what I used to think. Mrs. Ferrars is a charming woman, and so is your sister. They are both delightful women, indeed!--I wonder I should never hear you say how agreeable Mrs. Dashwood was!\"",
+  "text": "\"I confess,\" replied Elinor, \"that while I am at Barton Park, I never think of tame and quiet children with any abhorrence.\" A short pause succeeded this speech, which was first broken by Miss Steele, who seemed very much disposed for conversation, and who now said rather abruptly, \"And how do you like Devonshire, Miss Dashwood? I suppose you were very sorry to leave Sussex.\" In some surprise at the familiarity of this question, or at least of the manner in which it was spoken, Elinor replied that she was. \"Norland is a prodigious beautiful place, is not it?\"",
   "words": [
     {
-      "word": "delightful",
+      "word": "pause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abruptly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

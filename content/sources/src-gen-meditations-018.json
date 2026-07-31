@@ -1,12 +1,24 @@
 {
   "id": "src-gen-meditations-018",
   "pool": "sourced",
-  "text": "If it be not true, speak it not. Ever maintain thine own purpose and resolution free from all compulsion and necessity. Of everything that presents itself unto thee, to consider what the true nature of it is, and to unfold it, as it were, by dividing it into that which is formal: that which is material: the true use or end of it, and the just time that it is appointed to last. It is high time for thee, to understand that there is somewhat in thee, better and more divine than either thy passions, or thy sensual appetites and affections. What is now the object of my mind, is it fear, or suspicion, or lust, or any such thing?",
+  "text": "And that time also is at hand, when thou thyself shalt be forgotten by all. Whilst thou art, apply thyself to that especially which unto man as he is a mart, is most proper and agreeable, and that is, for a man even to love them that transgress against him. This shall be, if at the same time that any such thing doth happen, thou call to mind, that they are thy kinsmen; that it is through ignorance and against their wills that they sin; and that within a very short while after, both thou and he shall be no more. But above all things, that he hath not done thee any hurt; for that by him thy mind and understanding is not made worse or more vile than it was before.",
   "words": [
     {
-      "word": "passions",
+      "word": "thou",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mart",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "agreeable",
+      "signals": [
+        "definition-marker"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

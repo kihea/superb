@@ -1,10 +1,16 @@
 {
   "id": "src-gen-dracula-007",
   "pool": "sourced",
-  "text": "I saw that amongst them was his note-book, and was going to ask him to let me look at it--for I knew then that I might find some clue to his trouble--but I suppose he must have seen my wish in my eyes, for he sent me over to the window, saying he wanted to be quite alone for a moment. Then he called me back, and when I came he had his hand over the note-book, and he said to me very solemnly:-- “‘Wilhelmina’--I knew then that he was in deadly earnest, for he has never called me by that name since he asked me to marry him--‘you know, dear, my ideas of the trust between husband and wife: there should be no secret, no concealment. I have had a great shock, and when I try to think of what it is I feel my head spin round, and I do not know if it was all real or the dreaming of a madman. You know I have had brain fever, and that is to be mad. The secret is here, and I do not want to know it.",
+  "text": "I went whilst my courage was fresh straight to the window on the south side, and at once got outside on the narrow ledge of stone which runs around the building on this side. The stones are big and roughly cut, and the mortar has by process of time been washed away between them. I took off my boots, and ventured out on the desperate way. I looked down once, so as to make sure that a sudden glimpse of the awful depth would not overcome me, but after that kept my eyes away from it. I knew pretty well the direction and distance of the Count’s window, and made for it as well as I could, having regard to the opportunities available.",
   "words": [
     {
-      "word": "dreaming",
+      "word": "ledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mortar",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

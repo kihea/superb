@@ -1,10 +1,22 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-016",
   "pool": "sourced",
-  "text": "Several times ten or twelve united tried to crush the Nautilus by their weight. From the window we could see their enormous mouths, studded with tusks, and their formidable eyes. Ned Land could not contain himself; he threatened and swore at them. We could feel them clinging to our vessel like dogs worrying a wild boar in a copse. But the Nautilus, working its screw, carried them here and there, or to the upper levels of the ocean, without caring for their enormous weight, nor the powerful strain on the vessel.",
+  "text": "The Nautilus sank several yards below the waves, and the panels were opened. I hastened to the aperture, and under the crustations of coral, covered with fungi, syphonules, alcyons, madrepores, through myriads of charming fish—girelles, glyphisidri, pompherides, diacopes, and holocentres—I recognised certain debris that the drags had not been able to tear up—iron stirrups, anchors, cannons, bullets, capstan fittings, the stem of a ship, all objects clearly proving the wreck of some vessel, and now carpeted with living flowers. While I was looking on this desolate scene, Captain Nemo said, in a sad voice: “Commander La Perouse set out 7th December, 1785, with his vessels La Boussole and the Astrolabe. He first cast anchor at Botany Bay, visited the Friendly Isles, New Caledonia, then directed his course towards Santa Cruz, and put into Namouka, one of the Hapai group. Then his vessels struck on the unknown reefs of Vanikoro.",
   "words": [
     {
-      "word": "boar",
+      "word": "coral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fittings",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "anchor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

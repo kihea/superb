@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-song-of-the-lark-003",
   "pool": "sourced",
-  "text": "But there was nothing in the least boyish about Lily, and she sang all songs and played all parts alike. Lily’s simper was popular, but it seemed not quite the right thing for the heroic drummer boy. Upping, the trainer, talked to one and another: “Lily’s all right for girl parts,” he insisted, “but you’ve got to get a girl with some ginger in her for this. Thea’s got the voice, too. When she sings, ‘Just Before the Battle, Mother,’ she’ll bring down the house.” When all the members of the club had been privately consulted, they announced their decision to Tillie at the first regular meeting that was called to cast the parts.",
+  "text": "All the way there was much talk of the Forty-niners. The old rancher had been a teamster in a freight train that used to crawl back and forth across the plains between Omaha and Cherry Creek, as Denver was then called, and he had met many a wagon train bound for California. He told of Indians and buffalo, thirst and slaughter, wanderings in snowstorms, and lonely graves in the desert. The road they followed was a wild and beautiful one. It led up and up, by granite rocks and stunted pines, around deep ravines and echoing gorges.",
   "words": [
     {
-      "word": "sang",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "drummer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "trainer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sings",
+      "word": "granite",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

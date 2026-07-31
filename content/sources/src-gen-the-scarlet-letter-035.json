@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-scarlet-letter-035",
+  "pool": "sourced",
+  "text": "Wrestling matches, in the different fashions of Cornwall and Devonshire, were seen here and there about the market-place; in one corner, there was a friendly bout at quarterstaff; and—what attracted most interest of all—on the platform of the pillory, already so noted in our pages, two masters of defence were commencing an exhibition with the buckler and broadsword. But, much to the disappointment of the crowd, this latter business was broken off by the interposition of the town beadle, who had no idea of permitting the majesty of the law to be violated by such an abuse of one of its consecrated places. It may not be too much to affirm, on the whole, (the people being then in the first stages of joyless deportment, and the offspring of sires who had known how to be merry, in their day), that they would compare favourably, in point of holiday keeping, with their descendants, even at so long an interval as ourselves. Their immediate posterity, the generation next to the early emigrants, wore the blackest shade of Puritanism, and so darkened the national visage with it, that all the subsequent years have not sufficed to clear it up.",
+  "words": [
+    {
+      "word": "wrestling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "violated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

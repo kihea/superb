@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-025",
+  "pool": "sourced",
+  "text": "The change was right, just, natural; not a word could be said: but I loved my Rhine, my Nile; I had almost worshipped my Ganges, and I grieved that the grand tide should roll estranged, should vanish like a false mirage. Though stoical, I was not quite a stoic; drops streamed fast on my hands, on my desk: I wept one sultry shower, heavy and brief. But soon I said to myself, “The Hope I am bemoaning suffered and made me suffer much: it did not die till it was full time: following an agony so lingering, death ought to be welcome.” Welcome I endeavoured to make it. Indeed, long pain had made patience a habit. In the end I closed the eyes of my dead, covered its face, and composed its limbs with great calm.",
+  "words": [
+    {
+      "word": "estranged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stoic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agony",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

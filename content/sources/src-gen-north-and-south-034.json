@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-north-and-south-034",
+  "pool": "sourced",
+  "text": "Before that Wednesday—that mournful Wednesday, when Mr. Hale was to be interred, far away from either of the homes he had known in life, and far away from the wife who lay lonely among strangers (and this last was Margaret’s great trouble, for she thought that if she had not given way to that overwhelming stupor during the first sad days, she could have arranged things otherwise)—before that Wednesday, Margaret received a letter from Mr. Bell. “MY DEAR MARGARET:—I did mean to have returned to Milton on Thursday, but unluckily it turns out to be one of the rare occasions when we, Plymouth Fellows, are called upon to perform any kind of duty, and I must not be absent from my post. Captain Lennox and Mr. Thornton are here. The former seems a smart, well-meaning man; and has proposed to go over to Milton, and assist you in any search for the will; of course there is none, or you would have found it by this time, if you followed my directions.",
+  "words": [
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-island-of-doctor-moreau-026",
+  "pool": "sourced",
+  "text": "“This backbone has been bitten through.” He stood staring, with his face white and his lip pulled askew. “I don’t like this,” he said slowly. “I saw something of the same kind,” said I, “the first day I came here.” “The devil you did! What was it?” “A rabbit with its head twisted off.” “The day you came here?” “The day I came here. In the undergrowth at the back of the enclosure, when I went out in the evening.",
+  "words": [
+    {
+      "word": "backbone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rabbit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enclosure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Island of Doctor Moreau",
+    "author": "H. G. Wells",
+    "year": 1896,
+    "source": "Project Gutenberg #159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

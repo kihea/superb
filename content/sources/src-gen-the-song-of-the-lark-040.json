@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-song-of-the-lark-040",
+  "pool": "sourced",
+  "text": "Any account of the loyalty of young hearts to some exalted ideal, and the passion with which they strive, will always, in some of us, rekindle generous emotions. EPILOGUE Moonstone again, in the year 1909. The Methodists are giving an ice-cream sociable in the grove about the new court-house. It is a warm summer night of full moon. The paper lanterns which hang among the trees are foolish toys, only dimming, in little lurid circles, the great softness of the lunar light that floods the blue heavens and the high plateau.",
+  "words": [
+    {
+      "word": "lunar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "heavens",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "plateau",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

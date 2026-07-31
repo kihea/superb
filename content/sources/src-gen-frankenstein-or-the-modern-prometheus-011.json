@@ -1,16 +1,28 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-011",
   "pool": "sourced",
-  "text": "“The day for the execution of the Turk was fixed, but on the night previous to it he quitted his prison and before morning was distant many leagues from Paris. Felix had procured passports in the name of his father, sister, and himself. He had previously communicated his plan to the former, who aided the deceit by quitting his house, under the pretence of a journey and concealed himself, with his daughter, in an obscure part of Paris. “Felix conducted the fugitives through France to Lyons and across Mont Cenis to Leghorn, where the merchant had decided to wait a favourable opportunity of passing into some part of the Turkish dominions. “Safie resolved to remain with her father until the moment of his departure, before which time the Turk renewed his promise that she should be united to his deliverer; and Felix remained with them in expectation of that event; and in the meantime he enjoyed the society of the Arabian, who exhibited towards him the simplest and tenderest affection.",
+  "text": "The month of May had already commenced, and I expected the letter daily which was to fix the date of my departure, when Henry proposed a pedestrian tour in the environs of Ingolstadt, that I might bid a personal farewell to the country I had so long inhabited. I acceded with pleasure to this proposition: I was fond of exercise, and Clerval had always been my favourite companion in the ramble of this nature that I had taken among the scenes of my native country. We passed a fortnight in these perambulations: my health and spirits had long been restored, and they gained additional strength from the salubrious air I breathed, the natural incidents of our progress, and the conversation of my friend. Study had before secluded me from the intercourse of my fellow-creatures, and rendered me unsocial; but Clerval called forth the better feelings of my heart; he again taught me to love the aspect of nature, and the cheerful faces of children. Excellent friend!",
   "words": [
     {
-      "word": "expectation",
+      "word": "farewell",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "meantime",
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breathed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "intercourse",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

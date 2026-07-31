@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-031",
+  "pool": "sourced",
+  "text": "Both Injun Joe and the treasure sunk into secondary importance for a moment, and Becky took the chief place in the boy’s interest. He saw her and they had an exhausting good time playing “hispy” and “gully-keeper” with a crowd of their schoolmates. The day was completed and crowned in a peculiarly satisfactory way: Becky teased her mother to appoint the next day for the long-promised and long-delayed picnic, and she consented. The child’s delight was boundless; and Tom’s not more moderate. The invitations were sent out before sunset, and straightway the young folks of the village were thrown into a fever of preparation and pleasurable anticipation.",
+  "words": [
+    {
+      "word": "appoint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anticipation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

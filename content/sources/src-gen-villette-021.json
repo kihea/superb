@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-villette-021",
+  "pool": "sourced",
+  "text": "Your account was quite vague, do you know? You looked white as the wall; but you only spoke of ‘something,’ not defining what. Was it a man? Was it an animal? What was it?” “I never will tell exactly what I saw,” said I, “unless some one else sees it too, and then I will give corroborative testimony; but otherwise, I shall be discredited and accused of dreaming.” “Tell me,” said Dr. Bretton; “I will hear it in my professional character: I look on you now from a professional point of view, and I read, perhaps, all you would conceal—in your eye, which is curiously vivid and restless: in your cheek, which the blood has forsaken; in your hand, which you cannot steady.",
+  "words": [
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

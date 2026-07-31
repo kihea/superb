@@ -1,16 +1,10 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-007",
   "pool": "sourced",
-  "text": "“God knows,” she said, “how entirely I am innocent. But I do not pretend that my protestations should acquit me; I rest my innocence on a plain and simple explanation of the facts which have been adduced against me, and I hope the character I have always borne will incline my judges to a favourable interpretation where any circumstance appears doubtful or suspicious.” She then related that, by the permission of Elizabeth, she had passed the evening of the night on which the murder had been committed at the house of an aunt at Chêne, a village situated at about a league from Geneva. On her return, at about nine o’clock, she met a man who asked her if she had seen anything of the child who was lost. She was alarmed by this account and passed several hours in looking for him, when the gates of Geneva were shut, and she was forced to remain several hours of the night in a barn belonging to a cottage, being unwilling to call up the inhabitants, to whom she was well known.",
+  "text": "Partly from curiosity and partly from idleness, I went into the lecturing room, which M. Waldman entered shortly after. This professor was very unlike his colleague. He appeared about fifty years of age, but with an aspect expressive of the greatest benevolence; a few grey hairs covered his temples, but those at the back of his head were nearly black. His person was short but remarkably erect and his voice the sweetest I had ever heard. He began his lecture by a recapitulation of the history of chemistry and the various improvements made by different men of learning, pronouncing with fervour the names of the most distinguished discoverers.",
   "words": [
     {
-      "word": "circumstance",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cottage",
+      "word": "lecturing",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

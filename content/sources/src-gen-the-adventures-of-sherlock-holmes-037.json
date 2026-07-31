@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-037",
+  "pool": "sourced",
+  "text": "“It is an old maxim of mine that when you have excluded the impossible, whatever remains, however improbable, must be the truth. Now, I knew that it was not you who had brought it down, so there only remained your niece and the maids. But if it were the maids, why should your son allow himself to be accused in their place? There could be no possible reason. As he loved his cousin, however, there was an excellent explanation why he should retain her secret—the more so as the secret was a disgraceful one.",
+  "words": [
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

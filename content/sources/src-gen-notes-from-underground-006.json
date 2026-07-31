@@ -1,40 +1,10 @@
 {
   "id": "src-gen-notes-from-underground-006",
   "pool": "sourced",
-  "text": "Now the ants have quite a different taste. They have a marvellous edifice of that pattern which endures for ever—the ant-heap. With the ant-heap the respectable race of ants began and with the ant-heap they will probably end, which does the greatest credit to their perseverance and good sense. But man is a frivolous and incongruous creature, and perhaps, like a chess player, loves the process of the game, not the end of it. And who knows (there is no saying with certainty), perhaps the only goal on earth to which mankind is striving lies in this incessant process of attaining, in other words, in life itself, and not in the thing to be attained, which must always be expressed as a formula, as positive as twice two makes four, and such positiveness is not life, gentlemen, but is the beginning of death.",
+  "text": "The fact is, gentlemen, it seems there must really exist something that is dearer to almost every man than his greatest advantages, or (not to be illogical) there is a most advantageous advantage (the very one omitted of which we spoke just now) which is more important and more advantageous than all other advantages, for the sake of which a man if necessary is ready to act in opposition to all laws; that is, in opposition to reason, honour, peace, prosperity—in fact, in opposition to all those excellent and useful things if only he can attain that fundamental, most advantageous advantage which is dearer to him than all. “Yes, but it’s advantage all the same,” you will retort. But excuse me, I’ll make the point clear, and it is not a case of playing upon words. What matters is, that this advantage is remarkable from the very fact that it breaks down all our classifications, and continually shatters every system constructed by lovers of mankind for the benefit of mankind. In fact, it upsets everything.",
   "words": [
     {
-      "word": "frivolous",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chess",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mankind",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "striving",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "attaining",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "gentlemen",
+      "word": "advantageous",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Fyodor Dostoevsky",
     "year": 1864,
     "source": "Project Gutenberg #600",
-    "url": "https://www.gutenberg.org/ebooks/600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

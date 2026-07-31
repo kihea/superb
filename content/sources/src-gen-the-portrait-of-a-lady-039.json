@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-portrait-of-a-lady-039",
+  "pool": "sourced",
+  "text": "Oh, the very opposite of the Countess, a woman to whom the truth should be habitually sacred. Isabel was unable to estimate the number of times her visitor had, in half an hour, profaned it: the Countess indeed had given her an impression of rather silly sincerity. She had talked almost exclusively about herself; how much she should like to know Miss Archer; how thankful she should be for a real friend; how base the people in Florence were; how tired she was of the place; how much she should like to live somewhere else--in Paris, in London, in Washington; how impossible it was to get anything nice to wear in Italy except a little old lace; how dear the world was growing everywhere; what a life of suffering and privation she had led. Madame Merle listened with interest to Isabel’s account of this passage, but she had not needed it to feel exempt from anxiety. On the whole she was not afraid of the Countess, and she could afford to do what was altogether best--not to appear so.",
+  "words": [
+    {
+      "word": "visitor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Portrait of a Lady",
+    "author": "Henry James",
+    "year": 1881,
+    "source": "Project Gutenberg #2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

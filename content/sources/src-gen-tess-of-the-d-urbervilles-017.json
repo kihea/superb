@@ -1,12 +1,30 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-017",
   "pool": "sourced",
-  "text": "Tess, who had been quite unconscious of her action and mien, instantly withdrew the large dark gaze of her eyes, stammering with a flush, “I beg your pardon!” And there was revived in her the wretched sentiment which had often come to her before, that in inhabiting the fleshly tabernacle with which Nature had endowed her she was somehow doing wrong. Don’t beg my pardon. But since you wear a veil to hide your good looks, why don’t you keep it down?” She pulled down the veil, saying hastily, “It was mostly to keep off the wind.” “It may seem harsh of me to dictate like this,” he went on; “but it is better that I should not look too often on you. It might be dangerous.” “Ssh!” said Tess. “Well, women’s faces have had too much power over me already for me not to fear them!",
+  "text": "The incident of the day had fanned the flame that was burning the inside of their hearts out, and the torture was almost more than they could endure. The differences which distinguished them as individuals were abstracted by this passion, and each was but portion of one organism called sex. There was so much frankness and so little jealousy because there was no hope. Each one was a girl of fair common sense, and she did not delude herself with any vain conceits, or deny her love, or give herself airs, in the idea of outshining the others. The full recognition of the futility of their infatuation, from a social point of view; its purposeless beginning; its self-bounded outlook; its lack of everything to justify its existence in the eye of civilization (while lacking nothing in the eye of Nature); the one fact that it did exist, ecstasizing them to a killing joy—all this imparted to them a resignation, a dignity, which a practical and sordid expectation of winning him as a husband would have destroyed.",
   "words": [
     {
-      "word": "veil",
+      "word": "flame",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "airs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "civilization",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resignation",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-020",
   "pool": "sourced",
-  "text": "What do you demand of your captain? Are you, then, so easily turned from your design? Did you not call this a glorious expedition? “And wherefore was it glorious? Not because the way was smooth and placid as a southern sea, but because it was full of dangers and terror, because at every new incident your fortitude was to be called forth and your courage exhibited, because danger and death surrounded it, and these you were to brave and overcome.",
+  "text": "My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle ass whose intentions were affectionate, although his manners were rude, deserved better treatment than blows and execration. “The pleasant showers and genial warmth of spring greatly altered the aspect of the earth. Men who before this change seemed to have been hid in caves dispersed themselves and were employed in various arts of cultivation. The birds sang in more cheerful notes, and the leaves began to bud forth on the trees.",
   "words": [
     {
-      "word": "dangers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fortitude",
+      "word": "bud",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

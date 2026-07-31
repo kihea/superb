@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-026",
+  "pool": "sourced",
+  "text": "For the laborers as such, there is in these new captains of industry neither love nor hate, neither sympathy nor romance; it is a cold question of dollars and dividends. Under such a system all labor is bound to suffer. Even the white laborers are not yet intelligent, thrifty, and well trained enough to maintain themselves against the powerful inroads of organized capital. The results among them, even, are long hours of toil, low wages, child labor, and lack of protection against usury and cheating. But among the black laborers all this is aggravated, first, by a race prejudice which varies from a doubt and distrust among the best element of whites to a frenzied hatred among the worst; and, secondly, it is aggravated, as I have said before, by the wretched economic heritage of the freedmen from slavery.",
+  "words": [
+    {
+      "word": "distrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slavery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

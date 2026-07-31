@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-024",
+  "pool": "sourced",
+  "text": "For example, she not only determined to work at plain sewing, that she might contribute something toward the fund in the tin box, but she went, in the first instance, in her zeal of self-mortification, to ask for it at a linen shop in St Ogg’s, instead of getting it in a more quiet and indirect way; and could see nothing but what was entirely wrong and unkind, nay, persecuting, in Tom’s reproof of her for this unnecessary act. “I don’t like my sister to do such things,” said Tom, “I’ll take care that the debts are paid, without your lowering yourself in that way.” Surely there was some tenderness and bravery mingled with the worldliness and self-assertion of that little speech; but Maggie held it as dross, overlooking the grains of gold, and took Tom’s rebuke as one of her outward crosses. Tom was very hard to her, she used to think, in her long night-watchings,—to her who had always loved him so; and then she strove to be contented with that hardness, and to require nothing.",
+  "words": [
+    {
+      "word": "lowering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assertion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grains",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hardness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

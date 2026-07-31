@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-turn-of-the-screw-029",
+  "pool": "sourced",
+  "text": "I had perpetually to guard against the wonder of contemplation into which my initiated view betrayed me; to check the irrelevant gaze and discouraged sigh in which I constantly both attacked and renounced the enigma of what such a little gentleman could have done that deserved a penalty. Say that, by the dark prodigy I knew, the imagination of all evil had been opened up to him: all the justice within me ached for the proof that it could ever have flowered into an act. He had never, at any rate, been such a little gentleman as when, after our early dinner on this dreadful day, he came round to me and asked if I shouldn’t like him, for half an hour, to play to me. David playing to Saul could never have shown a finer sense of the occasion. It was literally a charming exhibition of tact, of magnanimity, and quite tantamount to his saying outright: “The true knights we love to read about never push an advantage too far.",
+  "words": [
+    {
+      "word": "perpetually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contemplation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "source": "Project Gutenberg #209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

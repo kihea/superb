@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-005",
   "pool": "sourced",
-  "text": "Every man for himself, is a good general rule. Every man for humanity, as George has it, and in his acceptation of the principle, would send us all to the alms-house pretty soon. The greatest good of the greatest number--that's my rule of action. There are plenty of good institutions for the distressed, and I'm willing to help support 'em, and do. But as for making a martyr of one's self, or tilting against the necessary evils of society, or turning philanthropist at large, or any quixotism of that sort, I don't believe in it.",
+  "text": "Gay little Netty! A dear and sweet little creature, to be sure, with a delicate and pleasant beauty of face and figure, it needed no costly silks to grace or heighten. There she stood. Not a word from her merry lips, but a smile which stole over all the solitary grimness of the library, and made everything better, and brighter, and fairer, in a minute. It floated down into the cavernous humor of Dr. Renton, and the gloom began to lighten directly--though he would not own it, nor relax a single feature.",
   "words": [
     {
-      "word": "martyr",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "philanthropist",
+      "word": "lighten",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

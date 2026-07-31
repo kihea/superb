@@ -1,10 +1,34 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-002",
   "pool": "sourced",
-  "text": "“I found a hat,” said Oak. “It is mine,” said she, and, from a sense of proportion, kept down to a small smile an inclination to laugh distinctly: “it flew away last night.” “One o’clock this morning?” “Well—it was.” She was surprised. “How did you know?” she said. “I was here.” “You are Farmer Oak, are you not?” “That or thereabouts. I’m lately come to this place.” “A large farm?” she inquired, casting her eyes round, and swinging back her hair, which was black in the shaded hollows of its mass; but it being now an hour past sunrise, the rays touched its prominent curves with a colour of their own.",
+  "text": "The hut stood on small wheels, which raised its floor about a foot from the ground. Such shepherds’ huts are dragged into the fields when the lambing season comes on, to shelter the shepherd in his enforced nightly attendance. It was only latterly that people had begun to call Gabriel “Farmer” Oak. During the twelvemonth preceding this time he had been enabled by sustained efforts of industry and chronic good spirits to lease the small sheep-farm of which Norcombe Hill was a portion, and stock it with two hundred sheep. Previously he had been a bailiff for a short time, and earlier still a shepherd only, having from his childhood assisted his father in tending the flocks of large proprietors, till old Gabriel sank to rest.",
   "words": [
     {
-      "word": "casting",
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preceding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chronic",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

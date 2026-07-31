@@ -1,10 +1,22 @@
 {
   "id": "src-gen-my-antonia-007",
   "pool": "sourced",
-  "text": "When grandmother and I went into the Shimerdas’ house, we found the womenfolk alone; Ambrosch and Marek were at the barn. Mrs. Shimerda sat crouching by the stove, Ántonia was washing dishes. When she saw me, she ran out of her dark corner and threw her arms around me. ‘Oh, Jimmy,’ she sobbed, ‘what you tink for my lovely papa!’ It seemed to me that I could feel her heart breaking as she clung to me. Mrs. Shimerda, sitting on the stump by the stove, kept looking over her shoulder toward the door while the neighbours were arriving.",
+  "text": "I admired the cheerful zest with which grandmother went about keeping us warm and comfortable and well-fed. She often reminded me, when she was preparing for the return of the hungry men, that this country was not like Virginia; and that here a cook had, as she said, ‘very little to do with.’ On Sundays she gave us as much chicken as we could eat, and on other days we had ham or bacon or sausage meat. She baked either pies or cake for us every day, unless, for a change, she made my favourite pudding, striped with currants and boiled in a bag. Next to getting warm and keeping warm, dinner and supper were the most interesting things we had to think about. Our lives centered around warmth and food and the return of the men at nightfall.",
   "words": [
     {
-      "word": "barn",
+      "word": "bacon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sausage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "warmth",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Willa Cather",
     "year": 1918,
     "source": "Project Gutenberg #242",
-    "url": "https://www.gutenberg.org/ebooks/242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

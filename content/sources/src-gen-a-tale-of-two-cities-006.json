@@ -1,22 +1,16 @@
 {
   "id": "src-gen-a-tale-of-two-cities-006",
   "pool": "sourced",
-  "text": "If a girl, doll or no doll, swoons within a yard or two of a man’s nose, he can see it without a perspective-glass. I pledge you, but I deny the beauty. And now I’ll have no more drink; I’ll get to bed.” When his host followed him out on the staircase with a candle, to light him down the stairs, the day was coldly looking in through its grimy windows. When he got out of the house, the air was cold and sad, the dull sky overcast, the river dark and dim, the whole scene like a lifeless desert. And wreaths of dust were spinning round and round before the morning blast, as if the desert-sand had risen far away, and the first spray of it in its advance had begun to overwhelm the city.",
+  "text": "Some minutes of silent work had passed: and the haggard eyes had looked up again: not with any interest or curiosity, but with a dull mechanical perception, beforehand, that the spot where the only visitor they were aware of had stood, was not yet empty. “I want,” said Defarge, who had not removed his gaze from the shoemaker, “to let in a little more light here. You can bear a little more?” The shoemaker stopped his work; looked with a vacant air of listening, at the floor on one side of him; then similarly, at the floor on the other side of him; then, upward at the speaker. “What did you say?” “You can bear a little more light?” “I must bear it, if you let it in.” (Laying the palest shadow of a stress upon the second word.) The opened half-door was opened a little further, and secured at that angle for the time.",
   "words": [
     {
-      "word": "staircase",
+      "word": "beforehand",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "candle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stairs",
+      "word": "vacant",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-emma-019",
   "pool": "sourced",
-  "text": "Even then, I was not such a fool as not to mean to be reconciled in time; but I was the injured person, injured by her coldness, and I went away determined that she should make the first advances.—I shall always congratulate myself that you were not of the Box Hill party. Had you witnessed my behaviour there, I can hardly suppose you would ever have thought well of me again. Its effect upon her appears in the immediate resolution it produced: as soon as she found I was really gone from Randalls, she closed with the offer of that officious Mrs. Elton; the whole system of whose treatment of her, by the bye, has ever filled me with indignation and hatred. I must not quarrel with a spirit of forbearance which has been so richly extended towards myself; but, otherwise, I should loudly protest against the share of it which that woman has known.—‘Jane,’ indeed!—You will observe that I have not yet indulged myself in calling her by that name, even to you.",
+  "text": "Harriet, tempted by every thing and swayed by half a word, was always very long at a purchase; and while she was still hanging over muslins and changing her mind, Emma went to the door for amusement.—Much could not be hoped from the traffic of even the busiest part of Highbury;—Mr. Perry walking hastily by, Mr. William Cox letting himself in at the office-door, Mr. Cole’s carriage-horses returning from exercise, or a stray letter-boy on an obstinate mule, were the liveliest objects she could presume to expect; and when her eyes fell only on the butcher with his tray, a tidy old woman travelling homewards from shop with her full basket, two curs quarrelling over a dirty bone, and a string of dawdling children round the baker’s little bow-window eyeing the gingerbread, she knew she had no reason to complain, and was amused enough; quite enough still to stand at the door. A mind lively and at ease, can do with seeing nothing, and can see nothing that does not answer. She looked down the Randalls road. The scene enlarged; two persons appeared; Mrs. Weston and her son-in-law; they were walking into Highbury;—to Hartfield of course.",
   "words": [
     {
-      "word": "congratulate",
+      "word": "tray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lively",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

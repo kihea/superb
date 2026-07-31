@@ -1,22 +1,10 @@
 {
   "id": "src-gen-walden-007",
   "pool": "sourced",
-  "text": "I could always tell if visitors had called in my absence, either by the bended twigs or grass, or the print of their shoes, and generally of what sex or age or quality they were by some slight trace left, as a flower dropped, or a bunch of grass plucked and thrown away, even as far off as the railroad, half a mile distant, or by the lingering odor of a cigar or pipe. Nay, I was frequently notified of the passage of a traveller along the highway sixty rods off by the scent of his pipe. There is commonly sufficient space about us. Our horizon is never quite at our elbows. The thick wood is not just at our door, nor the pond, but somewhat is always clearing, familiar and worn by us, appropriated and fenced in some way, and reclaimed from Nature.",
+  "text": "I would not subtract any thing from the praise that is due to philanthropy, but merely demand justice for all who by their lives and works are a blessing to mankind. I do not value chiefly a man’s uprightness and benevolence, which are, as it were, his stem and leaves. Those plants of whose greenness withered we make herb tea for the sick, serve but a humble use, and are most employed by quacks. I want the flower and fruit of a man; that some fragrance be wafted over from him to me, and some ripeness flavor our intercourse. His goodness must not be a partial and transitory act, but a constant superfluity, which costs him nothing and of which he is unconscious.",
   "words": [
     {
-      "word": "distant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "traveller",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pond",
+      "word": "herb",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

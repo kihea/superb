@@ -1,10 +1,22 @@
 {
   "id": "src-gen-white-fang-015",
   "pool": "sourced",
-  "text": "A cry of startled admiration went up. He had covered the distance and gone in more like a cat than a dog; and with the same cat-like swiftness he had slashed with his fangs and leaped clear. The bull-dog was bleeding back of one ear from a rip in his thick neck. He gave no sign, did not even snarl, but turned and followed after White Fang. The display on both sides, the quickness of the one and the steadiness of the other, had excited the partisan spirit of the crowd, and the men were making new bets and increasing original bets.",
+  "text": "The she-wolf flirted her head like the snap of a whip, breaking the weasel’s hold and flinging it high in the air. And, still in the air, the she-wolf’s jaws closed on the lean, yellow body, and the weasel knew death between the crunching teeth. The cub experienced another access of affection on the part of his mother. Her joy at finding him seemed even greater than his joy at being found. She nozzled him and caressed him and licked the cuts made in him by the weasel’s teeth.",
   "words": [
     {
-      "word": "admiration",
+      "word": "snap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weasel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cub",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

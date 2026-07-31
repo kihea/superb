@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-carmilla-027",
+  "pool": "sourced",
+  "text": "The grounds were thrown open, the trees hung with colored lamps. There was such a display of fireworks as Paris itself had never witnessed. And such music—music, you know, is my weakness—such ravishing music! The finest instrumental band, perhaps, in the world, and the finest singers who could be collected from all the great operas in Europe. As you wandered through these fantastically illuminated grounds, the moon-lighted chateau throwing a rosy light from its long rows of windows, you would suddenly hear these ravishing voices stealing from the silence of some grove, or rising from boats upon the lake.",
+  "words": [
+    {
+      "word": "fireworks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "instrumental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illuminated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

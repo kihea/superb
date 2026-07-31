@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-mysterious-island-016",
   "pool": "sourced",
-  "text": "The hull of the “Speedy” was just beginning to issue from the water. The brig was lying right over on her side, for her masts being broken, pressed down by the weight of the ballast displaced by the shock, the keel was visible along her whole length. She had been regularly turned over by the inexplicable but frightful submarine action, which had been at the same time manifested by an enormous water-spout. The settlers rowed round the hull, and in proportion as the tide went down, they could ascertain, if not the cause which had occasioned the catastrophe, at least the effect produced. Towards the bows, on both sides of the keel, seven or eight feet from the beginning of the stem, the sides of the brig were frightfully torn.",
+  "text": "In short, the colonists had reason to be extremely satisfied, for this chest contained tools, weapons, instruments, clothes, books; and this is the exact list of them as stated in Gideon Spilett’s note-book: --Tools:--3 knives with several blades, 2 woodmen’s axes, 2 carpenter’s hatchets, 3 planes, 2 adzes, 1 twibil or mattock, 6 chisels, 2 files, 3 hammers, 3 gimlets, 2 augers, 10 bags of nails and screws, 3 saws of different sizes, 2 boxes of needles. Weapons:--2 flint-lock guns, 2 for percussion caps, 2 breach-loader carbines, 5 boarding cutlasses, 4 sabers, 2 barrels of powder, each containing twenty-five pounds; 12 boxes of percussion caps. Instruments:--1 sextant, 1 double opera-glass, 1 telescope, 1 box of mathematical instruments, 1 mariner’s compass, 1 Fahrenheit thermometer, 1 aneroid barometer, 1 box containing a photographic apparatus, object-glass, plates, chemicals, etc. Clothes:--2 dozen shirts of a peculiar material resembling wool, but evidently of a vegetable origin; 3 dozen stockings of the same material. Utensils:--1 iron pot, 6 copper saucepans, 3 iron dishes, 10 metal plates, 2 kettles, 1 portable stove, 6 table-knives.",
   "words": [
     {
-      "word": "proportion",
+      "word": "flint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boarding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thermometer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stove",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

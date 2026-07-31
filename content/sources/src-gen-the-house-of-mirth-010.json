@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-house-of-mirth-010",
   "pool": "sourced",
-  "text": "If their house was shabby, it was exquisitely kept; if there were good books on the shelves there were also good dishes on the table. Selden senior had an eye for a picture, his wife an understanding of old lace; and both were so conscious of restraint and discrimination in buying that they never quite knew how it was that the bills mounted up. Though many of Selden’s friends would have called his parents poor, he had grown up in an atmosphere where restricted means were felt only as a check on aimless profusion: where the few possessions were so good that their rarity gave them a merited relief, and abstinence was combined with elegance in a way exemplified by Mrs. Selden’s knack of wearing her old velvet as if it were new. A man has the advantage of being delivered early from the home point of view, and before Selden left college he had learned that there are as many different ways of going without money as of spending it.",
+  "text": "“But isn’t it possible that, if I had the opportunities of these people, I might make a better use of them? Money stands for all kinds of things—its purchasing quality isn’t limited to diamonds and motor-cars.” “Not in the least: you might expiate your enjoyment of them by founding a hospital.” “But if you think they are what I should really enjoy, you must think my ambitions are good enough for me.” Selden met this appeal with a laugh. “Ah, my dear Miss Bart, I am not divine Providence, to guarantee your enjoying the things you are trying to get!” “Then the best you can say for me is, that after struggling to get them I probably shan’t like them?” She drew a deep breath. “What a miserable future you foresee for me!” “Well—have you never foreseen it for yourself?” The slow colour rose to her cheek, not a blush of excitement but drawn from the deep wells of feeling; it was as if the effort of her spirit had produced it. “Often and often,” she said.",
   "words": [
     {
-      "word": "shabby",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "velvet",
+      "word": "enjoyment",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

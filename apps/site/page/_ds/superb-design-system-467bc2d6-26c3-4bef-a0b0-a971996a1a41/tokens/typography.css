@@ -1,0 +1,36 @@
+/* Superb type: Shantell Sans (display, hand-drawn), Sono (UI + mono),
+   Literata (long-form reading passages only). */
+:root{
+  --font-display:'Shantell Sans','Comic Sans MS',cursive;
+  --font-ui:'Sono',ui-monospace,'SFMono-Regular',monospace;
+  --font-read:'Literata',Georgia,'Times New Roman',serif;
+  --font-mono:'Sono',ui-monospace,monospace;
+
+  /* size ramp (px) */
+  --fs-100:10px; --fs-200:11px; --fs-300:12px; --fs-400:13px; --fs-500:15px;
+  --fs-600:17px; --fs-700:20px; --fs-800:24px; --fs-900:30px;
+  --fs-1000:38px; --fs-1100:48px; --fs-1200:58px; --fs-1300:76px;
+
+  /* line height */
+  --lh-tight:.95; /* @kind font */ --lh-snug:1.15; /* @kind font */ --lh-heading:1.25; /* @kind font */ --lh-body:1.5; /* @kind font */ --lh-read:1.65; /* @kind font */
+
+  /* weight */
+  --fw-light:300; /* @kind font */ --fw-regular:400; /* @kind font */ --fw-medium:500; /* @kind font */ --fw-semibold:600; /* @kind font */ --fw-bold:700; /* @kind font */ --fw-black:800; /* @kind font */
+
+  /* tracking */
+  --ls-display:-.01em; /* @kind font */ --ls-normal:0; /* @kind font */ --ls-label:.1em; /* @kind font */ --ls-eyebrow:.14em; /* @kind font */
+
+  /* semantic roles */
+  --type-wordmark:var(--fw-bold) var(--fs-1200)/var(--lh-tight) var(--font-display);
+  --type-display:var(--fw-bold) var(--fs-1100)/var(--lh-tight) var(--font-display);
+  --type-title-1:var(--fw-bold) var(--fs-900)/var(--lh-snug) var(--font-display);
+  --type-title-2:var(--fw-bold) var(--fs-700)/var(--lh-heading) var(--font-display);
+  --type-title-3:var(--fw-semibold) var(--fs-600)/var(--lh-heading) var(--font-ui);
+  --type-body:var(--fw-regular) var(--fs-500)/var(--lh-body) var(--font-ui);
+  --type-body-sm:var(--fw-regular) var(--fs-400)/var(--lh-body) var(--font-ui);
+  --type-label:var(--fw-semibold) var(--fs-300)/1 var(--font-ui);
+  --type-eyebrow:var(--fw-semibold) var(--fs-200)/1 var(--font-ui);
+  --type-caption:var(--fw-regular) var(--fs-300)/1.4 var(--font-ui);
+  --type-passage:var(--fw-regular) var(--fs-600)/var(--lh-read) var(--font-read);
+  --type-passage-lg:var(--fw-regular) var(--fs-700)/var(--lh-read) var(--font-read);
+}

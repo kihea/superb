@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-024",
+  "pool": "sourced",
+  "text": "The next day a passenger with a half-stupefied eye, staggering gait, and disordered hair, was seen to emerge from the second cabin, and to totter to a seat on deck. It was Passepartout; and what had happened to him was as follows: Shortly after Fix left the opium den, two waiters had lifted the unconscious Passepartout, and had carried him to the bed reserved for the smokers. Three hours later, pursued even in his dreams by a fixed idea, the poor fellow awoke, and struggled against the stupefying influence of the narcotic. The thought of a duty unfulfilled shook off his torpor, and he hurried from the abode of drunkenness. Staggering and holding himself up by keeping against the walls, falling down and creeping up again, and irresistibly impelled by a kind of instinct, he kept crying out, “The ‘Carnatic!’ the ‘Carnatic!’” The steamer lay puffing alongside the quay, on the point of starting.",
+  "words": [
+    {
+      "word": "opium",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

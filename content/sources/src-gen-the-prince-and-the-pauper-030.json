@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-030",
+  "pool": "sourced",
+  "text": "“The power that can command one life-long friend to betray and disown another, and be obeyed, may well look to be obeyed in quarters where bread and life are on the stake and no cobweb ties of loyalty and honour are concerned.” A faint tinge appeared for a moment in the lady’s cheek, and she dropped her eyes to the floor; but her voice betrayed no emotion when she proceeded-- “I have warned you--I must still warn you--to go hence. This man will destroy you, else. He is a tyrant who knows no pity. I, who am his fettered slave, know this. Poor Miles, and Arthur, and my dear guardian, Sir Richard, are free of him, and at rest: better that you were with them than that you bide here in the clutches of this miscreant.",
+  "words": [
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tyrant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

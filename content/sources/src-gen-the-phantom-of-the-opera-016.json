@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-016",
   "pool": "sourced",
-  "text": "\"Where is the key?\" I asked, signing to M. de Chagny not to speak and to leave the business to me, for we had not a moment to lose. \"In the next room, near the organ, with another little bronze key, which he also forbade me to touch. They are both in a little leather bag which he calls the bag of life and death... Raoul! Everything is mysterious and terrible here, and Erik will soon have gone quite mad, and you are in the torture-chamber!",
+  "text": "On another day, she wandered with him, hand in, hand, along the deserted paths of a garden whose creepers had been cut out by a decorator's skilful hands. It was as though the real sky, the real flowers, the real earth were forbidden her for all time and she condemned to breathe no other air than that of the theater. An occasional fireman passed, watching over their melancholy idyll from afar. And she would drag him up above the clouds, in the magnificent disorder of the grid, where she loved to make him giddy by running in front of him along the frail bridges, among the thousands of ropes fastened to the pulleys, the windlasses, the rollers, in the midst of a regular forest of yards and masts. If he hesitated, she said, with an adorable pout of her lips: \"You, a sailor!\"",
   "words": [
     {
-      "word": "bronze",
+      "word": "occasional",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

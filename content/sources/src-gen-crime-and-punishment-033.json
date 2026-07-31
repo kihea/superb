@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-crime-and-punishment-033",
+  "pool": "sourced",
+  "text": "“I didn’t want to frighten Sofya Semyonovna, so I said ‘it seemed like it,’ but there isn’t a doubt of it. They say that in consumption the tubercles sometimes occur in the brain; it’s a pity I know nothing of medicine. I did try to persuade her, but she wouldn’t listen.” “Did you talk to her about the tubercles?” “Not precisely of the tubercles. Besides, she wouldn’t have understood! But what I say is, that if you convince a person logically that he has nothing to cry about, he’ll stop crying.",
+  "words": [
+    {
+      "word": "persuade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

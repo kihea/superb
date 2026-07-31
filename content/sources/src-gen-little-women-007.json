@@ -1,22 +1,10 @@
 {
   "id": "src-gen-little-women-007",
   "pool": "sourced",
-  "text": "Amy protested that she would not go, and Meg left her in despair to ask Hannah what should be done. Before she came back, Laurie walked into the parlor to find Amy sobbing, with her head in the sofa cushions. She told her story, expecting to be consoled, but Laurie only put his hands in his pockets and walked about the room, whistling softly, as he knit his brows in deep thought. Presently he sat down beside her, and said, in his most wheedlesome tone, “Now be a sensible little woman, and do as they say. No, don’t cry, but hear what a jolly plan I’ve got.",
+  "text": "“I don’t!” cried Jo decidedly. “Nor I,” echoed the others. “You think then, that it is better to have a few duties and live a little for others, do you?” “Lounging and larking doesn’t pay,” observed Jo, shaking her head. “I’m tired of it and mean to go to work at something right off.” “Suppose you learn plain cooking. That’s a useful accomplishment, which no woman should be without,” said Mrs. March, laughing inaudibly at the recollection of Jo’s dinner party, for she had met Miss Crocker and heard her account of it.",
   "words": [
     {
-      "word": "parlor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sobbing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "knit",
+      "word": "decidedly",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

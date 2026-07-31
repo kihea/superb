@@ -9,10 +9,14 @@ name: data-license
 
 on:
   push:
-    branches: [main]
-    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+    # dev, not just main: core.yml already carries this fix (M2 flagged the
+    # same gap there) — a merge commit landing on dev used to run no
+    # workflow at all, so a failing check could merge and sit red on dev
+    # unreported until the next PR into main happened to touch these paths.
+    branches: [main, dev]
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]
   pull_request:
-    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", ".github/workflows/data-license.yml"]
+    paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]
 
 concurrency:
   group: data-license-${{ github.ref }}
@@ -49,5 +53,24 @@ jobs:
       - name: Sources — structural checks and allow-listed provenance (1500+)
         run: python content/scripts/check_sources.py
 
+      # Issue #67, filed from PR #65's review of issue #58: nothing enforced
+      # that content/sources/_seed.py's table stayed in sync with the
+      # committed src-*.json files it authors, which is how #58 happened —
+      # a bulk fix landed on the JSON directly and the next run of the
+      # script would have silently reverted it. Runs the script for real, in
+      # a scratch copy of itself so the committed files are never touched,
+      # and fails if its output disagrees with what is committed.
+      - name: Seed script — content/sources/_seed.py matches what it authors
+        run: python content/scripts/check_seed_sync.py
+
       - name: Prove the licence gate fails on a broken fixture, then run it for real
         run: python data/pipeline/tests/test_check_license_gate.py
+
+      # ADR-029. The committed word-difficulty table is regenerated here and
+      # compared byte for byte, so a word added to a slot class without
+      # regenerating fails the build instead of shipping a word the app
+      # cannot rank. Also re-checks the mapping's measured claims: every word
+      # reachable inside the ability clamp, the ordering still the frequency
+      # ordering, and a fresh reader's band big enough to fill a passage.
+      - name: Difficulty table — regenerate, byte-diff, and re-check ADR-029's claims
+        run: python data/pipeline/tests/test_difficulty.py

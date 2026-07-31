@@ -1,10 +1,22 @@
 {
   "id": "src-gen-robinson-crusoe-005",
   "pool": "sourced",
-  "text": "Dec. 17.—From this day to the 20th I placed shelves, and knocked up nails on the posts, to hang everything up that could be hung up; and now I began to be in some order within doors. Dec. 20.—Now I carried everything into the cave, and began to furnish my house, and set up some pieces of boards like a dresser, to order my victuals upon; but boards began to be very scarce with me; also, I made me another table. Dec. 24.—Much rain all night and all day. No stirring out. Dec. 25.—Rain all day.",
+  "text": "And now I thought myself pretty well freighted, and began to think how I should get to shore with them, having neither sail, oar, nor rudder; and the least capful of wind would have overset all my navigation. I had three encouragements—1st, a smooth, calm sea; 2ndly, the tide rising, and setting in to the shore; 3rdly, what little wind there was blew me towards the land. And thus, having found two or three broken oars belonging to the boat—and, besides the tools which were in the chest, I found two saws, an axe, and a hammer; with this cargo I put to sea. For a mile or thereabouts my raft went very well, only that I found it drive a little distant from the place where I had landed before; by which I perceived that there was some indraft of the water, and consequently I hoped to find some creek or river there, which I might make use of as a port to get to land with my cargo. As I imagined, so it was.",
   "words": [
     {
-      "word": "dresser",
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "raft",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Daniel Defoe",
     "year": 1719,
     "source": "Project Gutenberg #521",
-    "url": "https://www.gutenberg.org/ebooks/521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

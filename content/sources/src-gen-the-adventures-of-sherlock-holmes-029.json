@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-029",
+  "pool": "sourced",
+  "text": "‘For the love of Heaven!’ she whispered, ‘get away from here before it is too late!’ “But I am somewhat headstrong by nature, and the more ready to engage in an affair when there is some obstacle in the way. I thought of my fifty-guinea fee, of my wearisome journey, and of the unpleasant night which seemed to be before me. Was it all to go for nothing? Why should I slink away without having carried out my commission, and without the payment which was my due? This woman might, for all I knew, be a monomaniac.",
+  "words": [
+    {
+      "word": "obstacle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,24 +1,24 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-006",
   "pool": "sourced",
-  "text": "yes,” returned the count, “I know who he is, gentlemen; will you return to the salon? you will find good cigars on the centre table. I will be with you directly.” The young men rose and returned into the salon, while the count, again apologizing, left by another door. Albert, who was a great smoker, and who had considered it no small sacrifice to be deprived of the cigars of the Café de Paris, approached the table, and uttered a cry of joy at perceiving some veritable puros. “Well,” asked Franz, “what think you of the Count of Monte Cristo?” “What do I think?” said Albert, evidently surprised at such a question from his companion; “I think he is a delightful fellow, who does the honors of his table admirably; who has travelled much, read much, is, like Brutus, of the Stoic school, and moreover,” added he, sending a volume of smoke up towards the ceiling, “that he has excellent cigars.” Such was Albert’s opinion of the count, and as Franz well knew that Albert professed never to form an opinion except upon long reflection, he made no attempt to change it.",
+  "text": "“As being the friends Edmond esteemed most faithful and devoted to him.” “I don’t call those friends who betray and ruin you,” murmured the wife in her turn, in a low, muttering voice. “Of course not!” rejoined Caderousse quickly; “no more do I, and that was what I was observing to this gentleman just now. I said I looked upon it as a sacrilegious profanation to reward treachery, perhaps crime.” “Remember,” answered the abbé calmly, as he replaced the jewel and its case in the pocket of his cassock, “it is your fault, not mine, that I do so. You will have the goodness to furnish me with the address of both Fernand and Danglars, in order that I may execute Edmond’s last wishes.” The agitation of Caderousse became extreme, and large drops of perspiration rolled from his heated brow. As he saw the abbé rise from his seat and go towards the door, as though to ascertain if his horse were sufficiently refreshed to continue his journey, Caderousse and his wife exchanged looks of deep meaning.",
   "words": [
     {
-      "word": "gentlemen",
+      "word": "betray",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "travelled",
+      "word": "execute",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "moreover",
+      "word": "exchanged",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -27,7 +27,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

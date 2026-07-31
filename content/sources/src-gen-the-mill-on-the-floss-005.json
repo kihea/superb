@@ -1,28 +1,34 @@
 {
   "id": "src-gen-the-mill-on-the-floss-005",
   "pool": "sourced",
-  "text": "Mrs Tulliver, foreseeing nothing but misbehaviour while the children remained indoors, took an early opportunity of suggesting that, now they were rested after their walk, they might go and play out of doors; and aunt Pullet gave permission, only enjoining them not to go off the paved walks in the garden, and if they wanted to see the poultry fed, to view them from a distance on the horse-block; a restriction which had been imposed ever since Tom had been found guilty of running after the peacock, with an illusory idea that fright would make one of its feathers drop off. Mrs Tulliver’s thoughts had been temporarily diverted from the quarrel with Mrs Glegg by millinery and maternal cares, but now the great theme of the bonnet was thrown into perspective, and the children were out of the way, yesterday’s anxieties recurred. “It weighs on my mind so as never was,” she said, by way of opening the subject, “sister Glegg’s leaving the house in that way. I’m sure I’d no wish t’ offend a sister.” “Ah,” said aunt Pullet, “there’s no accounting for what Jane ’ull do.",
+  "text": "I wonder you don’t take pattern by your sister Deane; she’s far more sensible. And here you’ve got two children to provide for, and your husband’s spent your fortin i’ going to law, and’s likely to spend his own too. A boiled joint, as you could make broth of for the kitchen,” Mrs Glegg added, in a tone of emphatic protest, “and a plain pudding, with a spoonful o’ sugar, and no spice, ’ud be far more becoming.” With sister Glegg in this humour, there was a cheerful prospect for the day. Mrs Tulliver never went the length of quarrelling with her, any more than a water-fowl that puts out its leg in a deprecating manner can be said to quarrel with a boy who throws stones. But this point of the dinner was a tender one, and not at all new, so that Mrs Tulliver could make the same answer she had often made before.",
   "words": [
     {
-      "word": "aunt",
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boiled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "broth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospect",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
       "word": "quarrel",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bonnet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "offend",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

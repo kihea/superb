@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-012",
   "pool": "sourced",
-  "text": "The big shoulders, black brows and black mousquetaire swagger of Flambeau were a great contrast. All these trivialities Brown heard and saw; but heard them as a tired man hears a tune in the railway wheels, or saw them as a sick man sees the pattern of his wall-paper. No one can calculate the turns of mood in convalescence: but Father Brown’s depression must have had a great deal to do with his mere unfamiliarity with the sea. For as the river mouth narrowed like the neck of a bottle, and the water grew calmer and the air warmer and more earthly, he seemed to wake up and take notice like a baby. They had reached that phase just after sunset when air and water both look bright, but earth and all its growing things look almost black by comparison.",
+  "text": "“If Parkinson did it with that pantomime spear,” said Butler, “he must have thrust from four yards away. How do you account for signs of struggle, like the dress dragged off the shoulder?” He had slipped into treating his mere witness as an expert; but no one noticed it now. “The poor lady’s dress was torn,” said the witness, “because it was caught in a panel that slid to just behind her. She struggled to free herself, and as she did so Parkinson came out of the prisoner’s room and lunged with the spear.” “A panel?” repeated the barrister in a curious voice. “It was a looking-glass on the other side,” explained Father Brown.",
   "words": [
     {
-      "word": "shoulders",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "narrowed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "earthly",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

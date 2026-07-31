@@ -1,22 +1,16 @@
 {
   "id": "src-gen-oliver-twist-009",
   "pool": "sourced",
-  "text": "“Nothing,” said Sikes, releasing his hold of Oliver. “Now!” In the short time he had had to collect his senses, the boy had firmly resolved that, whether he died in the attempt or not, he would make one effort to dart upstairs from the hall, and alarm the family. Filled with this idea, he advanced at once, but stealthily. “Come back!” suddenly cried Sikes aloud. back!” Scared by the sudden breaking of the dead stillness of the place, and by a loud cry which followed it, Oliver let his lantern fall, and knew not whether to advance or fly.",
+  "text": "Although I do not mean to assert that it is usually the practice of renowned and learned sages, to shorten the road to any great conclusion (their course indeed being rather to lengthen the distance, by various circumlocutions and discursive staggerings, like unto those in which drunken men under the pressure of a too mighty flow of ideas, are prone to indulge); still, I do mean to say, and do say distinctly, that it is the invariable practice of many mighty philosophers, in carrying out their theories, to evince great wisdom and foresight in providing against every possible contingency which can be supposed at all likely to affect themselves. Thus, to do a great right, you may do a little wrong; and you may take any means which the end to be attained, will justify; the amount of the right, or the amount of the wrong, or indeed the distinction between the two, being left entirely to the philosopher concerned, to be settled and determined by his clear, comprehensive, and impartial view of his own particular case.",
   "words": [
     {
-      "word": "senses",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "dart",
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "aloud",
+      "word": "philosopher",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

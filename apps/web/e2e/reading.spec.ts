@@ -161,8 +161,12 @@ test("the pull-up button is always page-toned, not chrome-toned", async ({ page 
     return { color: cs.color, background: cs.backgroundColor };
   });
   // rgb(33, 28, 21) / rgb(251, 248, 240) -- design/tokens.json's
-  // page.light.ink / page.light.cardGround. Same values regardless of dark
-  // mode is the point: this control never reads the chrome.
+  // page.light.ink / page.light.cardGround, read under this test's default
+  // (light) colour scheme. --page-* itself now darkens at night too (issue
+  // #100, ADR-039), so this exact pair is a light-mode reading rather than a
+  // constant -- what this asserts, and what matters here, is that the
+  // button reads --page-* at all, never --chrome-*, so it is legible
+  // against whatever the page currently is instead of a fixed room colour.
   expect(styles.color).toBe("rgb(33, 28, 21)");
   expect(styles.background).toBe("rgb(251, 248, 240)");
 });
@@ -452,7 +456,23 @@ async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
  *  travel with a moving aura and photograph it in its own frame, where it
  *  looks perfectly still -- the picture equivalent of the bug this whole test
  *  exists to close. The region is a fixed patch of screen; the question is
- *  whether what is painted in it changes. */
+ *  whether what is painted in it changes.
+ *
+ *  One exclusion: `.reading-top`, the row carrying the Shelf link and the
+ *  voice orb. Kihea decided on issue #99 that the orb may turn quietly the
+ *  whole time a passage is on screen -- the one thing on this screen
+ *  licensed to move, which is exactly what this photograph exists to catch
+ *  everywhere else. Painting over just the orb's own box was tried first
+ *  and rejected (see auraPixels' comment on `mask`); shrinking the
+ *  photographed region below the whole top row is the smallest change that
+ *  avoids it, at the cost of also giving up coverage of the Shelf link and
+ *  the rest of the row. That trade needed its own guard rather than a
+ *  comment claiming one existed that didn't (a review caught the claim,
+ *  not the gap it was covering for) -- see "nothing in the reading page's
+ *  top row moves except the orb itself", below, which watches everything
+ *  in `.reading-top` other than the orb for a running animation directly.
+ *  Everything below the row -- the room, the margin mark, the passage, the
+ *  pull-up bar -- is still photographed whole here, nothing painted over. */
 async function auraRegion(page: Page): Promise<{ x: number; y: number; width: number; height: number }> {
   const box = await page.locator(".reading-screen-aura").boundingBox();
   if (!box) throw new Error("the aura has no box to photograph");
@@ -460,12 +480,14 @@ async function auraRegion(page: Page): Promise<{ x: number; y: number; width: nu
   if (!viewport) throw new Error("no viewport");
   const x = Math.max(0, box.x);
   const y = Math.max(0, box.y);
-  return {
-    x,
-    y,
-    width: Math.min(box.width, viewport.width - x),
-    height: Math.min(box.height, viewport.height - y),
-  };
+  const width = Math.min(box.width, viewport.width - x);
+  const height = Math.min(box.height, viewport.height - y);
+
+  const topRow = await page.locator(".reading-top").boundingBox();
+  if (!topRow) return { x, y, width, height };
+  const rowBottom = topRow.y + topRow.height;
+  if (rowBottom <= y) return { x, y, width, height };
+  return { x, y: rowBottom, width, height: Math.max(0, height - (rowBottom - y)) };
 }
 
 /** A picture of that region -- all of it, nothing masked.
@@ -491,7 +513,15 @@ async function auraRegion(page: Page): Promise<{ x: number; y: number; width: nu
  *  evidence being looked for here. Two of these differing by a single byte is
  *  a pixel that changed with nothing happening on screen -- including motion
  *  no style tree can see, like a CSSOM-driven ancestor pseudo-element or an
- *  overlay drifting in from somewhere else in the document entirely. */
+ *  overlay drifting in from somewhere else in the document entirely.
+ *
+ *  Playwright's own `mask` option was tried and rejected here, not for the
+ *  usual reason (a selector whose box was never measured) but a structural
+ *  one: `mask` inserts and removes its own overlay element per screenshot,
+ *  which is a document mutation, and check 5 below watches the whole
+ *  document for exactly that -- masking the one licensed exception (see
+ *  auraRegion) would have failed the unrelated assertion it shares this
+ *  test with. See auraRegion for how the exception is actually taken. */
 async function auraPixels(
   page: Page,
   clip: { x: number; y: number; width: number; height: number },
@@ -604,8 +634,10 @@ async function stopWatchingDocument(page: Page): Promise<string[]> {
 //      and every ancestor up to <html>, each read together with both of its
 //      pseudo-elements, sampled twelve times at intervals drawn fresh each
 //      run;
-//   4. the pixels themselves, photographs of a fixed patch of viewport,
-//      nothing masked, compared byte for byte;
+//   4. the pixels themselves, photographs of a fixed patch of viewport
+//      (below .reading-top, whose voice orb issue #99 licensed to turn --
+//      see auraRegion), nothing masked within that patch, compared byte
+//      for byte;
 //   5. a MutationObserver watching the whole document for the entire window,
 //      which is not a sampler at all and so has no gaps between looks.
 //
@@ -735,4 +767,35 @@ test.describe(() => {
       });
     }
   }
+});
+
+// PR-104 review, Finding 4: auraRegion's own comment (above) used to claim
+// the row it excludes was "checked elsewhere" -- a grep of the suite found
+// no such check. This is that check, written rather than merely promised:
+// everything in `.reading-top` other than the orb (licensed to move by
+// issue #99) must carry no running animation. `document.getAnimations()` is
+// the seam test's own "layer 2" -- it sees a CSS animation or a scripted
+// Element.animate() wherever one runs, and would see the orb too if its
+// motion were ever reimplemented that way instead of the canvas loop it
+// uses today (which this method cannot see at all, by construction --
+// voice-orb-motion.spec.ts is what actually watches the orb itself).
+test("nothing in the reading page's top row moves except the orb itself", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+  await page.waitForTimeout(600);
+
+  const runningOutsideOrb = await page.evaluate(() => {
+    const row = document.querySelector(".reading-top");
+    if (!row) return ["no .reading-top found"];
+    return document
+      .getAnimations()
+      .filter((animation) => animation.playState === "running")
+      .map((animation) => (animation.effect as KeyframeEffect | null)?.target)
+      .filter(
+        (target): target is Element =>
+          !!target && row.contains(target) && !target.closest(".voice-orb-button"),
+      )
+      .map((target) => `${target.tagName}.${target.className}`);
+  });
+  expect(runningOutsideOrb, "something in the top row is animating besides the licensed orb").toEqual([]);
 });

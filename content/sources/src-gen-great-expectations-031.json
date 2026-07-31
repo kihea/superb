@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-031",
+  "pool": "sourced",
+  "text": "After watching it for what appeared in the silence and by the light of the slowly wasting candles to be a long time, she was roused by the collapse of some of the red coals, and looked towards me again—at first, vacantly—then, with a gradually concentrating attention. All this time Estella knitted on. When Miss Havisham had fixed her attention on me, she said, speaking as if there had been no lapse in our dialogue,— “What else?” “Estella,” said I, turning to her now, and trying to command my trembling voice, “you know I love you. You know that I have loved you long and dearly.” She raised her eyes to my face, on being thus addressed, and her fingers plied their work, and she looked at me with an unmoved countenance. I saw that Miss Havisham glanced from me to her, and from her to me.",
+  "words": [
+    {
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

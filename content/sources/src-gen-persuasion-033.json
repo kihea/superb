@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-persuasion-033",
+  "pool": "sourced",
+  "text": "Depend upon it, whatever esteem Mr Elliot may have for his own situation in life now, as a young man he had not the smallest value for it. His chance for the Kellynch estate was something, but all the honour of the family he held as cheap as dirt. I have often heard him declare, that if baronetcies were saleable, anybody should have his for fifty pounds, arms and motto, name and livery included; but I will not pretend to repeat half that I used to hear him say on that subject. It would not be fair; and yet you ought to have proof, for what is all this but assertion, and you shall have proof.” “Indeed, my dear Mrs Smith, I want none,” cried Anne. “You have asserted nothing contradictory to what Mr Elliot appeared to be some years ago.",
+  "words": [
+    {
+      "word": "depend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "asserted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contradictory",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

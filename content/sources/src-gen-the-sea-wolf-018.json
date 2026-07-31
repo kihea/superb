@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-sea-wolf-018",
   "pool": "sourced",
-  "text": "Not only had we resigned ourselves to the bitter winter, but we were prepared for it. The seals could depart on their mysterious journey into the south at any time, now, for all we cared; and the storms held no terror for us. Not only were we sure of being dry and warm and sheltered from the wind, but we had the softest and most luxurious mattresses that could be made from moss. This had been Maud’s idea, and she had herself jealously gathered all the moss. This was to be my first night on the mattress, and I knew I should sleep the sweeter because she had made it.",
+  "text": "An almost funereal gloom seemed to have descended upon the Ghost. Wolf Larsen had taken to his bunk with one of his strange, splitting headaches. Harrison stood listlessly at the wheel, half supporting himself by it, as though wearied by the weight of his flesh. The rest of the men were morose and silent. I came upon Kelly crouching to the lee of the forecastle scuttle, his head on his knees, his arms about his head, in an attitude of unutterable despondency.",
   "words": [
     {
-      "word": "moss",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mattress",
+      "word": "bunk",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-agnes-grey-020",
   "pool": "sourced",
-  "text": "“You can’t suppose I’m rich enough to come for my own pleasure.” “I heard you had left Horton.” “You didn’t hear, then, that I had got the living of F——?” F—— was a village about two miles distant from A——. “No,” said I; “we live so completely out of the world, even here, that news seldom reaches me through any quarter; except through the medium of the —— Gazette. But I hope you like your new parish; and that I may congratulate you on the acquisition?” “I expect to like my parish better a year or two hence, when I have worked certain reforms I have set my heart upon—or, at least, progressed some steps towards such an achievement.",
+  "text": "Hatfield was quite right in telling you to persevere in doing your duty; but in advising you to go to church and attend to the service, and so on, he didn’t mean that was the whole of a Christian’s duty: he only thought you might there learn what more was to be done, and be led to take delight in those exercises, instead of finding them a task and a burden. And if you had asked him to explain those words that trouble you so much, I think he would have told you, that if many shall seek to enter in at the strait gate and shall not be able, it is their own sins that hinder them; just as a man with a large sack on his back might wish to pass through a narrow doorway, and find it impossible to do so unless he would leave his sack behind him. But you, Nancy, I dare say, have no sins that you would not gladly throw aside, if you knew how?’ “‘Indeed, sir, you speak truth,’ said I.",
   "words": [
     {
-      "word": "congratulate",
+      "word": "strait",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sack",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

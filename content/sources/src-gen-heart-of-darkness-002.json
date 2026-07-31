@@ -1,10 +1,16 @@
 {
   "id": "src-gen-heart-of-darkness-002",
   "pool": "sourced",
-  "text": "Good heavens! and I was going to take charge of a two-penny-half-penny river-steamboat with a penny whistle attached! It appeared, however, I was also one of the Workers, with a capital—you know. Something like an emissary of light, something like a lower sort of apostle. There had been a lot of such rot let loose in print and talk just about that time, and the excellent woman, living right in the rush of all that humbug, got carried off her feet.",
+  "text": "In the tropics one must before everything keep calm.’... He lifted a warning forefinger.... ‘Du calme, du calme.’ “One thing more remained to do—say good-bye to my excellent aunt. I found her triumphant. I had a cup of tea—the last decent cup of tea for many days—and in a room that most soothingly looked just as you would expect a lady’s drawing-room to look, we had a long quiet chat by the fireside. In the course of these confidences it became quite plain to me I had been represented to the wife of the high dignitary, and goodness knows to how many more people besides, as an exceptional and gifted creature—a piece of good fortune for the Company—a man you don’t get hold of every day.",
   "words": [
     {
-      "word": "apostle",
+      "word": "aunt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "goodness",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

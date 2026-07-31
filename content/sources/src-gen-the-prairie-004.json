@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-prairie-004",
   "pool": "sourced",
-  "text": "I'm on them so much that by bedtime my ankles feel like a chocolat mousse that's been left out in the sun. Yet this isn't a whimper, Matilda Anne, for when I turn in I sleep like a child. No more counting and going to the medicine-chest for coal-tar pills. I abjure them. I, who used to have so many tricks to bring the starry-eyed goddess bending over my pillow, hereby announce myself as the noblest sleeper north of the Line!",
+  "text": "Then, feeling like Van Roon when Berlin declared war on France, I rooted out Dinky-Dunk, made him wash, and sat him down in his pajamas and his ragged old dressing-gown. \"I suppose,\" I said as I saw his eyes wander about the table, \"that you feel exactly like an oyster-man who's just chipped his Blue-Point and got his knife-edge in under the shell! And the next wrench is going to tell you exactly what sort of an oyster you've got!\" Dinky-Dunk grinned up at me as I buttered his toast, piping hot from the range. \"Well, Lady Bird, you're not the kind that'll need paprika, anyway!\"",
   "words": [
     {
-      "word": "bedtime",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pillow",
+      "word": "piping",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

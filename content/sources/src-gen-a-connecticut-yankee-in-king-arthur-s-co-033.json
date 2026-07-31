@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-033",
+  "pool": "sourced",
+  "text": "When we closed around this poor creature to shelter her, he saw his chance. He said, burn her here, or they shouldn't have her at all. Imagine that! They were willing. They fastened her to a post; they brought wood and piled it about her; they applied the torch while she shrieked and pleaded and strained her two young daughters to her breast; and our brute, with a heart solely for business, lashed us into position about the stake and warmed us into life and commercial value by the same fire which took away the innocent life of that poor harmless mother.",
+  "words": [
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-jungle-book-018",
   "pool": "sourced",
-  "text": "A camel had blundered into it, and wet and angry as I was, I could not help laughing. Then I ran on, because I did not know how many camels might have got loose, and before long I was out of sight of the camp, plowing my way through the mud. At last I fell over the tail-end of a gun, and by that knew I was somewhere near the artillery lines where the cannon were stacked at night. As I did not want to plowter about any more in the drizzle and the dark, I put my waterproof over the muzzle of one gun, and made a sort of wigwam with two or three rammers that I found, and lay along the tail of another gun, wondering where Vixen had got to, and where I might be. Just as I was getting ready to go to sleep I heard a jingle of harness and a grunt, and a mule passed me shaking his wet ears.",
+  "text": "“Now I will hunt alone in the jungle.” “And we will hunt with thee,” said the four cubs. So Mowgli went away and hunted with the four cubs in the jungle from that day on. But he was not always alone, because, years afterward, he became a man and married. But that is a story for grown-ups. Mowgli’s Song THAT HE SANG AT THE COUNCIL ROCK WHEN HE DANCED ON SHERE KHAN’S HIDE The Song of Mowgli—I, Mowgli, am singing.",
   "words": [
     {
-      "word": "harness",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "grunt",
+      "word": "hunted",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

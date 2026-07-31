@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-032",
+  "pool": "sourced",
+  "text": "My nets are closing upon him, even as his are upon Sir Henry, and with your help he is already almost at my mercy. There is but one danger which can threaten us. It is that he should strike before we are ready to do so. Another day—two at the most—and I have my case complete, but until then guard your charge as closely as ever a fond mother watched her ailing child. Your mission today has justified itself, and yet I could almost wish that you had not left his side.",
+  "words": [
+    {
+      "word": "nets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

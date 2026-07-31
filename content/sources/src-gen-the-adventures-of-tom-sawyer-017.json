@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-017",
   "pool": "sourced",
-  "text": "The old man promised secrecy once more, and said: “How did you come to follow these fellows, lad? Were they looking suspicious?” Huck was silent while he framed a duly cautious reply. Then he said: “Well, you see, I’m a kind of a hard lot,—least everybody says so, and I don’t see nothing agin it—and sometimes I can’t sleep much, on account of thinking about it and sort of trying to strike out a new way of doing. That was the way of it last night. I couldn’t sleep, and so I come along upstreet ’bout midnight, a-turning it all over, and when I got to that old shackly brick store by the Temperance Tavern, I backed up agin the wall to have another think.",
+  "text": "All gold and silver and di’monds,” said Joe, with enthusiasm. “Who?” said Huck. “Why, the pirates.” Huck scanned his own clothing forlornly. “I reckon I ain’t dressed fitten for a pirate,” said he, with a regretful pathos in his voice; “but I ain’t got none but these.” But the other boys told him the fine clothes would come fast enough, after they should have begun their adventures. They made him understand that his poor rags would do to begin with, though it was customary for wealthy pirates to start with a proper wardrobe.",
   "words": [
     {
-      "word": "lad",
+      "word": "pirate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

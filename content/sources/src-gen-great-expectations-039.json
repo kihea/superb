@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-039",
+  "pool": "sourced",
+  "text": "The whole scene starts out again in the vivid colours of the moment, down to the drops of April rain on the windows of the court, glittering in the rays of April sun. Penned in the dock, as I again stood outside it at the corner with his hand in mine, were the two-and-thirty men and women; some defiant, some stricken with terror, some sobbing and weeping, some covering their faces, some staring gloomily about. There had been shrieks from among the women convicts; but they had been stilled, and a hush had succeeded. The sheriffs with their great chains and nosegays, other civic gewgaws and monsters, criers, ushers, a great gallery full of people,—a large theatrical audience,—looked on, as the two-and-thirty and the Judge were solemnly confronted. Then the Judge addressed them.",
+  "words": [
+    {
+      "word": "sobbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

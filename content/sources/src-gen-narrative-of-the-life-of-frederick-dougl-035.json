@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-035",
+  "pool": "sourced",
+  "text": "Thank Heaven, I remained but a short time in this distressed situation. I was relieved from it by the humane hand of Mr. David Ruggles, whose vigilance, kindness, and perseverance, I shall never forget. I am glad of an opportunity to express, as far as words can, the love and gratitude I bear him. Mr. Ruggles is now afflicted with blindness, and is himself in need of the same kind offices which he was once so forward in the performance of toward others. I had been in New York but a few days, when Mr. Ruggles sought me out, and very kindly took me to his boarding-house at the corner of Church and Lespenard Streets.",
+  "words": [
+    {
+      "word": "kindness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kindly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

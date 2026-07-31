@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-little-princess-031",
+  "pool": "sourced",
+  "text": "\"There wouldn't be any use in trying. If I go to sleep, perhaps a dream will come and pretend for me.\" She suddenly felt so tired--perhaps through want of food--that she sat down on the edge of the bed quite weakly. \"Suppose there was a bright fire in the grate, with lots of little dancing flames,\" she murmured. \"Suppose there was a comfortable chair before it--and suppose there was a small table near, with a little hot--hot supper on it.",
+  "words": [
+    {
+      "word": "grate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

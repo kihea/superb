@@ -1,16 +1,22 @@
 {
   "id": "src-gen-cranford-011",
   "pool": "sourced",
-  "text": "Just at this moment he passed us on the stairs, making such a graceful bow! in reply to which I dropped a curtsey—all foreigners have such polite manners, one catches something of it. But when he had gone downstairs, I bethought me that I had dropped my glove in the Assembly Room (it was safe in my muff all the time, but I never found it till afterwards); so I went back, and, just as I was creeping up the passage left on one side of the great screen that goes nearly across the room, who should I see but the very same gentleman that had met me before, and passed me on the stairs, coming now forwards from the inner part of the room, to which there is no entrance—you remember, Miss Matty—and just repeating, in his pretty broken English, the inquiry if I had any business there—I don’t mean that he put it quite so bluntly, but he seemed very determined that I should not pass the screen—so, of course, I explained about my glove, which, curiously enough, I found at that very moment.” Miss Pole, then, had seen the conjuror—the real, live conjuror!",
+  "text": "Many friends had to be called upon and consulted before he could decide on any printer fit for so onerous a task; and at length it was arranged that J. and J. Rivingtons were to have the honourable responsibility. The worthy rector seemed to be strung up by the occasion to a high literary pitch, for he could hardly write a letter to his wife without cropping out into Latin. I remember the end of one of his letters ran thus: “I shall ever hold the virtuous qualities of my Molly in remembrance, dum memor ipse mei, dum spiritus regit artus,” which, considering that the English of his correspondent was sometimes at fault in grammar, and often in spelling, might be taken as a proof of how much he “idealised his Molly;” and, as Miss Jenkyns used to say, “People talk a great deal about idealising now-a-days, whatever that may mean.” But this was nothing to a fit of writing classical poetry which soon seized him, in which his Molly figured away as “Maria.” The letter containing the carmen was endorsed by her, “Hebrew verses sent me by my honoured husband.",
   "words": [
     {
-      "word": "glove",
+      "word": "printer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "forwards",
+      "word": "honourable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spelling",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

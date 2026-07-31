@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-030",
+  "pool": "sourced",
+  "text": "The grindstone had a double handle, and, turning at it madly were two men, whose faces, as their long hair flapped back when the whirlings of the grindstone brought their faces up, were more horrible and cruel than the visages of the wildest savages in their most barbarous disguise. False eyebrows and false moustaches were stuck upon them, and their hideous countenances were all bloody and sweaty, and all awry with howling, and all staring and glaring with beastly excitement and want of sleep. As these ruffians turned and turned, their matted locks now flung forward over their eyes, now flung backward over their necks, some women held wine to their mouths that they might drink; and what with dropping blood, and what with dropping wine, and what with the stream of sparks struck out of the stone, all their wicked atmosphere seemed gore and fire. The eye could not detect one creature in the group free from the smear of blood.",
+  "words": [
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "locks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

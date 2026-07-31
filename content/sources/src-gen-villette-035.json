@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-villette-035",
+  "pool": "sourced",
+  "text": "Hereupon I was put through a course of reading—that is, I just glanced at the books lent me; they were too little in my way to be thoroughly read, marked, learned, or inwardly digested. And besides, I had a book up-stairs, under my pillow, whereof certain chapters satisfied my needs in the article of spiritual lore, furnishing such precept and example as, to my heart’s core, I was convinced could not be improved on. Then Père Silas showed me the fair side of Rome, her good works; and bade me judge the tree by its fruits. In answer, I felt and I avowed that these works were not the fruits of Rome; they were but her abundant blossoming, but the fair promise she showed the world, that bloom when set, savoured not of charity; the apple full formed was ignorance, abasement, and bigotry. Out of men’s afflictions and affections were forged the rivets of their servitude.",
+  "words": [
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

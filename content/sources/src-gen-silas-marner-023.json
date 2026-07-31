@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-silas-marner-023",
+  "pool": "sourced",
+  "text": "Places of honour had been kept for the Miss Lammeters near the head of the principal tea-table in the wainscoted parlour, now looking fresh and pleasant with handsome branches of holly, yew, and laurel, from the abundant growths of the old garden; and Nancy felt an inward flutter, that no firmness of purpose could prevent, when she saw Mr. Godfrey Cass advancing to lead her to a seat between himself and Mr. Crackenthorp, while Priscilla was called to the opposite side between her father and the Squire. It certainly did make some difference to Nancy that the lover she had given up was the young man of quite the highest consequence in the parish—at home in a venerable and unique parlour, which was the extremity of grandeur in her experience, a parlour where she might one day have been mistress, with the consciousness that she was spoken of as “Madam Cass,” the Squire’s wife.",
+  "words": [
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-035",
+  "pool": "sourced",
+  "text": "The Amir had brought with him for a bodyguard eight hundred men and horses who had never seen a camp or a locomotive before in their lives--savage men and savage horses from somewhere at the back of Central Asia. Every night a mob of these horses would be sure to break their heel ropes and stampede up and down the camp through the mud in the dark, or the camels would break loose and run about and fall over the ropes of the tents, and you can imagine how pleasant that was for men trying to go to sleep. My tent lay far away from the camel lines, and I thought it was safe. But one night a man popped his head in and shouted, “Get out, quick! They’re coming!",
+  "words": [
+    {
+      "word": "mob",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stampede",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

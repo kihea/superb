@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-027",
+  "pool": "sourced",
+  "text": "The misty form of Davies as he sat with his right arm swinging rhythmically forward and back, was a clockwork figure as mad as myself, but didactic and gibbering in his madness. Then the boathook he wielded with a circular sweep began to take grotesque shapes in my heated fancy; now it was the antenna of a groping insect, now the crank of a cripple’s self-propelled perambulator, now the alpenstock of a lunatic mountaineer, who sits in his chair and climbs and climbs to some phantom “watershed”. At the back of such mind as was left me lodged two insistent thoughts: “we must hurry on,” “we are going wrong.” As to the latter, take a link-boy through a London fog and you will experience the same thing: he always goes the way you think is wrong. “We’re rowing back!” I remember shouting to Davies once, having become aware that it was now my left scull which splashed against obstructions. “Rubbish,” said Davies.",
+  "words": [
+    {
+      "word": "clockwork",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "madness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grotesque",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "antenna",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "watershed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

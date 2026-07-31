@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-023",
+  "pool": "sourced",
+  "text": "I didn't do it as well as the boy on Fifth Avenue, but I did it, and I staid on!” He and Wilkins and the pony were close friends after that. Scarcely a day passed in which the country people did not see them out together, cantering gayly on the highroad or through the green lanes. The children in the cottages would run to the door to look at the proud little brown pony with the gallant little figure sitting so straight in the saddle, and the young lord would snatch off his cap and swing it at them, and shout, “Hullo! Good-morning!” in a very unlordly manner, though with great heartiness. Sometimes he would stop and talk with the children, and once Wilkins came back to the castle with a story of how Fauntleroy had insisted on dismounting near the village school, so that a boy who was lame and tired might ride home on his pony.",
+  "words": [
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

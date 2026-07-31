@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-025",
+  "pool": "sourced",
+  "text": "“How much it is to belong to one person, and how beautiful!” “Do you know that some day it will all belong to you--that and a great deal more?” “To me!” exclaimed Fauntleroy in rather an awe-stricken voice. “When?” “When I am dead,” his grandfather answered. “Then I don't want it,” said Fauntleroy; “I want you to live always.” “That's kind,” answered the Earl in his dry way; “nevertheless, some day it will all be yours--some day you will be the Earl of Dorincourt.” Little Lord Fauntleroy sat very still in his saddle for a few moments. He looked over the broad moors, the green farms, the beautiful copses, the cottages in the lanes, the pretty village, and over the trees to where the turrets of the great castle rose, gray and stately. Then he gave a queer little sigh.",
+  "words": [
+    {
+      "word": "moors",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "farms",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "lanes",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

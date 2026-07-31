@@ -1,40 +1,34 @@
 {
   "id": "src-gen-gulliver-s-travels-016",
   "pool": "sourced",
-  "text": "But first they resolved to sell the goods in the ship, and then go to Madagascar for recruits, several among them having died since my confinement. They sailed many weeks, and traded with the Indians; but I knew not what course they took, being kept a close prisoner in my cabin, and expecting nothing less than to be murdered, as they often threatened me. Upon the 9th day of May, 1711, one James Welch came down to my cabin, and said, “he had orders from the captain to set me ashore.” I expostulated with him, but in vain; neither would he so much as tell me who their new captain was. They forced me into the long-boat, letting me put on my best suit of clothes, which were as good as new, and take a small bundle of linen, but no arms, except my hanger; and they were so civil as not to search my pockets, into which I conveyed what money I had, with some other little necessaries. They rowed about a league, and then set me down on a strand.",
+  "text": "Whereupon, the malicious rogue, watching his opportunity, when I was walking under one of them, shook it directly over my head, by which a dozen apples, each of them near as large as a Bristol barrel, came tumbling about my ears; one of them hit me on the back as I chanced to stoop, and knocked me down flat on my face; but I received no other hurt, and the dwarf was pardoned at my desire, because I had given the provocation. Another day, Glumdalclitch left me on a smooth grass-plot to divert myself, while she walked at some distance with her governess. In the meantime, there suddenly fell such a violent shower of hail, that I was immediately, by the force of it, struck to the ground: and when I was down, the hailstones gave me such cruel bangs all over the body, as if I had been pelted with tennis-balls; however, I made a shift to creep on all fours, and shelter myself, by lying flat on my face, on the lee-side of a border of lemon-thyme, but so bruised from head to foot, that I could not go abroad in ten days.",
   "words": [
     {
-      "word": "sailed",
+      "word": "barrel",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "traded",
+      "word": "stoop",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cabin",
+      "word": "meantime",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hanger",
+      "word": "hail",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pockets",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "conveyed",
+      "word": "creep",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +39,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

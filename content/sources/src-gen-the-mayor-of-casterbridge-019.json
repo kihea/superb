@@ -1,10 +1,34 @@
 {
   "id": "src-gen-the-mayor-of-casterbridge-019",
   "pool": "sourced",
-  "text": "The chief looming trouble in this engagement had not decreased. Both Farfrae and Elizabeth-Jane, unlike the rest of the people, must suppose Elizabeth to be his actual daughter, from his own assertion while he himself had the same belief; and though Farfrae must have so far forgiven him as to have no objection to own him as a father-in-law, intimate they could never be. Thus would the girl, who was his only friend, be withdrawn from him by degrees through her husband’s influence, and learn to despise him. Had she lost her heart to any other man in the world than the one he had rivalled, cursed, wrestled with for life in days before his spirit was broken, Henchard would have said, “I am content.” But content with the prospect as now depicted was hard to acquire. There is an outer chamber of the brain in which thoughts unowned, unsolicited, and of noxious kind, are sometimes allowed to wander for a moment prior to being sent off whence they came.",
+  "text": "Among the rest, at the corner of the pavement, stood an old shepherd, who attracted the eyes of Lucetta and Farfrae by his stillness. He was evidently a chastened man. The battle of life had been a sharp one with him, for, to begin with, he was a man of small frame. He was now so bowed by hard work and years that, approaching from behind, a person could hardly see his head. He had planted the stem of his crook in the gutter and was resting upon the bow, which was polished to silver brightness by the long friction of his hands.",
   "words": [
     {
-      "word": "prospect",
+      "word": "pavement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shepherd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bowed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "resting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "friction",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

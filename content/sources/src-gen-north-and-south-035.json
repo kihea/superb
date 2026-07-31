@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-north-and-south-035",
+  "pool": "sourced",
+  "text": "Thornton said—says he, a day or two ago, ‘Higgins, have yo’ seen Miss Hale?’ ‘No,’ says I; ‘there’s a pack o’ women who won’t let me at her. But I can bide my time, if she’s ill. She and I knows each other pretty well; and hoo’l not go doubting that I’m main sorry for th’ oud gentleman’s death, just because I can’t get at her and tell her so.’ And says he, ‘Yo’ll not have much time for to try and see her, my fine chap. She’s not for staying with us a day longer nor she can help. She’s got grand relations, and they’re carrying her off; and we shan’t see her no more.’ ‘Measter,’ said I, ‘if I dunnot see her afore hoo goes, I’ll strive to get up to Lunnon next Whitsuntide, that I will. I’ll not be baulked of saying her good-bye by any relations whatsomdever.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

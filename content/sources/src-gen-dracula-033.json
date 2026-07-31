@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-033",
+  "pool": "sourced",
+  "text": "We sat still; my own cigar burnt furiously, but Van Helsing’s went cold altogether. We waited patiently as we saw the workman come out and bring in his bag. Then he held the door partly open, steadying it with his knees, whilst he fitted a key to the lock. This he finally handed to Lord Godalming, who took out his purse and gave him something. The man touched his hat, took his bag, put on his coat and departed; not a soul took the slightest notice of the whole transaction.",
+  "words": [
+    {
+      "word": "purse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

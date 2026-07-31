@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-christmas-carol-021",
+  "pool": "sourced",
+  "text": "Scrooge promised that he would; and they went on, invisible, as they had been before, into the suburbs of the town. It was a remarkable quality of the Ghost (which Scrooge had observed at the baker's), that notwithstanding his gigantic size, he could accommodate himself to any place with ease; and that he stood beneath a low roof quite as gracefully and like a supernatural creature, as it was possible he could have done in any lofty hall. And perhaps it was the pleasure the good Spirit had in showing off this power of his, or else it was his own kind, generous, hearty nature, and his sympathy with all poor men, that led him straight to Scrooge's clerk's; for there he went, and took Scrooge with him, holding to his robe; and on the threshold of the door the Spirit smiled, and stopped to bless Bob Cratchit's dwelling with the sprinkling of his torch. Think of that! Bob had but fifteen \"Bob\" a-week himself; he pocketed on Saturdays but fifteen copies of his Christian name; and yet the Ghost of Christmas Present blessed his four-roomed house!",
+  "words": [
+    {
+      "word": "supernatural",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dwelling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

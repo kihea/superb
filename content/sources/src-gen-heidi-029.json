@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heidi-029",
+  "pool": "sourced",
+  "text": "\"Shall you be quite well then directly it turns warm again?\" \"Yes, God willing, or even before that, for I want to get back to my spinning; I thought perhaps I should do a little to-day, but to-morrow I am sure to be all right again.\" The old woman had detected that Heidi was frightened and was anxious to set her mind at ease. Her words comforted Heidi, who had in truth been greatly distressed, for she had never before seen the grandmother ill in bed. She now looked at the old woman seriously for a minute or two, and then said, \"In Frankfurt everybody puts on a shawl to go out walking; did you think it was to be worn in bed, grandmother?\"",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distressed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

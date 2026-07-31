@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-cranford-040",
+  "pool": "sourced",
+  "text": "Dear Jessie Brown had kept her old kind nature, although she had changed her name and station; and she wrote to say that she and Major Gordon expected to be in Cranford on the fourteenth, and she hoped and begged to be remembered to Mrs Jamieson (named first, as became her honourable station), Miss Pole and Miss Matty—could she ever forget their kindness to her poor father and sister?—Mrs Forrester, Mr Hoggins (and here again came in an allusion to kindness shown to the dead long ago), his new wife, who as such must allow Mrs Gordon to desire to make her acquaintance, and who was, moreover, an old Scotch friend of her husband’s. In short, every one was named, from the rector—who had been appointed to Cranford in the interim between Captain Brown’s death and Miss Jessie’s marriage, and was now associated with the latter event—down to Miss Betty Barker. All were asked to the luncheon; all except Mrs Fitz-Adam, who had come to live in Cranford since Miss Jessie Brown’s days, and whom I found rather moping on account of the omission.",
+  "words": [
+    {
+      "word": "kindness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

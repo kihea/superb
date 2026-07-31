@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-christmas-carol-027",
+  "pool": "sourced",
+  "text": "A light shone from the window of a hut, and swiftly they advanced towards it. Passing through the wall of mud and stone, they found a cheerful company assembled round a glowing fire. An old, old man and woman, with their children and their children's children, and another generation beyond that, all decked out gaily in their holiday attire. The old man, in a voice that seldom rose above the howling of the wind upon the barren waste, was singing them a Christmas song--it had been a very old song when he was a boy--and from time to time they all joined in the chorus. So surely as they raised their voices, the old man got quite blithe and loud; and so surely as they stopped, his vigour sank again.",
+  "words": [
+    {
+      "word": "barren",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chorus",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

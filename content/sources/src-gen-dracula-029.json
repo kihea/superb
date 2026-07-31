@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-dracula-029",
+  "pool": "sourced",
+  "text": "I thought I had best meet him on his own ground, so I said:-- “Your clients, sir, are happy in having so resolute a guardian of their confidence. I am myself a professional man.” Here I handed him my card. “In this instance I am not prompted by curiosity; I act on the part of Lord Godalming, who wishes to know something of the property which was, he understood, lately for sale.” These words put a different complexion on affairs. He said:-- “I would like to oblige you if I could, Mr. Harker, and especially would I like to oblige his lordship. We once carried out a small matter of renting some chambers for him when he was the Honourable Arthur Holmwood.",
+  "words": [
+    {
+      "word": "lordship",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "renting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

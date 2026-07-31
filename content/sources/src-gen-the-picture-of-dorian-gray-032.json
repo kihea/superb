@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-032",
+  "pool": "sourced",
+  "text": "Indeed, he was still devoted to the study of chemistry, and had a laboratory of his own in which he used to shut himself up all day long, greatly to the annoyance of his mother, who had set her heart on his standing for Parliament and had a vague idea that a chemist was a person who made up prescriptions. He was an excellent musician, however, as well, and played both the violin and the piano better than most amateurs. In fact, it was music that had first brought him and Dorian Gray together—music and that indefinable attraction that Dorian seemed to be able to exercise whenever he wished—and, indeed, exercised often without being conscious of it. They had met at Lady Berkshire’s the night that Rubinstein played there, and after that used to be always seen together at the opera and wherever good music was going on. For eighteen months their intimacy lasted.",
+  "words": [
+    {
+      "word": "chemist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "violin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exercised",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intimacy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

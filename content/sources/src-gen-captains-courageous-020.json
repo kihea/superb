@@ -1,40 +1,16 @@
 {
   "id": "src-gen-captains-courageous-020",
   "pool": "sourced",
-  "text": "And there were ministers of many creeds,--pastors of great, gilt-edged congregations, at the seaside for a rest, with shepherds of the regular work,--from the priests of the Church on the Hill to bush-bearded ex-sailor Lutherans, hail-fellow with the men of a score of boats. There were owners of lines of schooners, large contributors to the societies, and small men, their few craft pawned to the mastheads, with bankers and marine-insurance agents, captains of tugs and water-boats, riggers, fitters, lumpers, salters, boat-builders, and coopers, and all the mixed population of the water-front. They drifted along the line of seats made gay with the dresses of the summer boarders, and one of the town officials patrolled and perspired till he shone all over with pure civic pride. Cheyne had met him for five minutes a few days before, and between the two there was entire understanding. \"Well, Mr. Cheyne, and what d'you think of our city?--Yes, madam, you can sit anywhere you please.--You have this kind of thing out West, I presume?\"",
+  "text": "But seeing the size of the Virgin (it was one tiny dot), he wondered how even Disko with the hog-yoke and the lead could find her. He learned later that Disko was entirely equal to that and any other business and could even help others. A big four-by-five blackboard hung in the cabin, and Harvey never understood the need of it till, after some blinding thick days, they heard the unmelodious tooting of a foot-power fog-horn--a machine whose note is as that of a consumptive elephant. They were making a short berth, towing the anchor under their foot to save trouble. \"Square-rigger bellowin' fer his latitude,\" said Long Jack.",
   "words": [
     {
-      "word": "edged",
+      "word": "fog",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "priests",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sailor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "bankers",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "builders",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "civic",
+      "word": "berth",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1897,
     "source": "Project Gutenberg #2186",
-    "url": "https://www.gutenberg.org/ebooks/2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

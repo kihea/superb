@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-anna-karenina-037",
+  "pool": "sourced",
+  "text": "At one time she was jealous of those low women with whom he might so easily renew his old bachelor ties; then she was jealous of the society women he might meet; then she was jealous of the imaginary girl whom he might want to marry, for whose sake he would break with her. And this last form of jealousy tortured her most of all, especially as he had unwarily told her, in a moment of frankness, that his mother knew him so little that she had had the audacity to try and persuade him to marry the young Princess Sorokina. And being jealous of him, Anna was indignant against him and found grounds for indignation in everything. For everything that was difficult in her position she blamed him. The agonizing condition of suspense she had passed in Moscow, the tardiness and indecision of Alexey Alexandrovitch, her solitude—she put it all down to him.",
+  "words": [
+    {
+      "word": "renew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bachelor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jealousy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "audacity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

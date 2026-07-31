@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-011",
   "pool": "sourced",
-  "text": "But we nailed him in Antwerp—thanks to Mr. Poirot here.” As these friendly reminiscences were being indulged in, I drew nearer, and was introduced to Detective-Inspector Japp, who, in his turn, introduced us both to his companion, Superintendent Summerhaye. “I need hardly ask what you are doing here, gentlemen,” remarked Poirot. Japp closed one eye knowingly. “No, indeed. Pretty clear case I should say.” But Poirot answered gravely: “There I differ from you.” “Oh, come!” said Summerhaye, opening his lips for the first time.",
+  "text": "Now, will you send Annie to me here?” “Yes, sir. Thank you, sir.” “How did you know that Mrs. Inglethorp took sleeping powders?” I asked, in lively curiosity, as Dorcas left the room. “And about the lost key and the duplicate?” “One thing at a time. As to the sleeping powders, I knew by this.” He suddenly produced a small cardboard box, such as chemists use for powders. “Where did you find it?” “In the wash-stand drawer in Mrs. Inglethorp’s bedroom.",
   "words": [
     {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "knowingly",
+      "word": "drawer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

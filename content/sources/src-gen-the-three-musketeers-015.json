@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-three-musketeers-015",
   "pool": "sourced",
-  "text": "Athos then made him a sign to take up his basket and to walk on first. Grimaud obeyed. All that Grimaud gained by this momentary pantomime was to pass from the rear guard to the vanguard. Arrived at the bastion, the four friends turned round. More than three hundred soldiers of all kinds were assembled at the gate of the camp; and in a separate group might be distinguished M. de Busigny, the dragoon, the Swiss, and the fourth bettor.",
+  "text": "“A handsome young fellow like you does not obtain long leaves of absence from his mistress; and we were impatiently waited for at Paris, were we not?” “My faith!” said the young man, laughing, “I confess it, and so much more the readily, my dear Bonacieux, as I see there is no concealing anything from you. Yes, I was expected, and very impatiently, I acknowledge.” A slight shade passed over the brow of Bonacieux, but so slight that D’Artagnan did not perceive it. “And we are going to be recompensed for our diligence?” continued the mercer, with a trifling alteration in his voice—so trifling, indeed, that D’Artagnan did not perceive it any more than he had the momentary shade which, an instant before, had darkened the countenance of the worthy man. “Ah, may you be a true prophet!” said D’Artagnan, laughing. “No; what I say,” replied Bonacieux, “is only that I may know whether I am delaying you.” “Why that question, my dear host?” asked D’Artagnan.",
   "words": [
     {
-      "word": "basket",
+      "word": "perceive",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diligence",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

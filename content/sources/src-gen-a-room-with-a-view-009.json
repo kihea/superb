@@ -1,28 +1,22 @@
 {
   "id": "src-gen-a-room-with-a-view-009",
   "pool": "sourced",
-  "text": "To her tired eyes Charlotte throbbed and swelled like a ghostly figure in a dream. They began to sort their clothes for packing, for there was no time to lose, if they were to catch the train to Rome. Lucy, when admonished, began to move to and fro between the rooms, more conscious of the discomforts of packing by candlelight than of a subtler ill. Charlotte, who was practical without ability, knelt by the side of an empty trunk, vainly endeavouring to pave it with books of varying thickness and size. She gave two or three sighs, for the stooping posture hurt her back, and, for all her diplomacy, she felt that she was growing old. The girl heard her as she entered the room, and was seized with one of those emotional impulses to which she could never attribute a cause.",
+  "text": "Somewhere in their folds were concealed Miss Lavish and Miss Bartlett, who had chosen this afternoon to visit the Torre del Gallo. “What about music?” said Mr. Beebe. “Poor Charlotte will be sopped,” was Lucy’s reply. The expedition was typical of Miss Bartlett, who would return cold, tired, hungry, and angelic, with a ruined skirt, a pulpy Baedeker, and a tickling cough in her throat. On another day, when the whole world was singing and the air ran into the mouth, like wine, she would refuse to stir from the drawing-room, saying that she was an old thing, and no fit companion for a hearty girl.",
   "words": [
     {
-      "word": "packing",
+      "word": "skirt",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "cough",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "varying",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sighs",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "diplomacy",
+      "word": "hearty",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "E. M. Forster",
     "year": 1908,
     "source": "Project Gutenberg #2641",
-    "url": "https://www.gutenberg.org/ebooks/2641",
+    "url": "https://www.gutenberg.org/ebooks/2641.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

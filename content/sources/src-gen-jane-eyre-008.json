@@ -1,28 +1,22 @@
 {
   "id": "src-gen-jane-eyre-008",
   "pool": "sourced",
-  "text": "I had thought all the rooms at Thornfield beautifully clean and well arranged; but it appears I was mistaken. Three women were got to help; and such scrubbing, such brushing, such washing of paint and beating of carpets, such taking down and putting up of pictures, such polishing of mirrors and lustres, such lighting of fires in bedrooms, such airing of sheets and feather-beds on hearths, I never beheld, either before or since. Adèle ran quite wild in the midst of it: the preparations for company and the prospect of their arrival, seemed to throw her into ecstasies. She would have Sophie to look over all her “toilettes,” as she called frocks; to furbish up any that were “passées,” and to air and arrange the new. For herself, she did nothing but caper about in the front chambers, jump on and off the bedsteads, and lie on the mattresses and piled-up bolsters and pillows before the enormous fires roaring in the chimneys.",
+  "text": "When I awoke it was day: an unusual movement roused me; I looked up; I was in somebody’s arms; the nurse held me; she was carrying me through the passage back to the dormitory. I was not reprimanded for leaving my bed; people had something else to think about; no explanation was afforded then to my many questions; but a day or two afterwards I learned that Miss Temple, on returning to her own room at dawn, had found me laid in the little crib; my face against Helen Burns’s shoulder, my arms round her neck. I was asleep, and Helen was—dead. Her grave is in Brocklebridge churchyard: for fifteen years after her death it was only covered by a grassy mound; but now a grey marble tablet marks the spot, inscribed with her name, and the word “Resurgam.” Hitherto I have recorded in detail the events of my insignificant existence: to the first ten years of my life I have given almost as many chapters.",
   "words": [
     {
-      "word": "mistaken",
+      "word": "dormitory",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "washing",
+      "word": "crib",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mirrors",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chambers",
+      "word": "grassy",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "source": "Project Gutenberg #1260",
-    "url": "https://www.gutenberg.org/ebooks/1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

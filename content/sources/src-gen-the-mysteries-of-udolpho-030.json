@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-030",
+  "pool": "sourced",
+  "text": "The Countess, fatigued and discontented, received the politeness of the abbess with careless haughtiness, and had followed her, with indolent steps, to the parlour, over which the painted casements and wainscot of larch-wood threw, at all times, a melancholy shade, and where the gloom of evening now loured almost to darkness. While the lady abbess ordered refreshment, and conversed with the Countess, Blanche withdrew to a window, the lower panes of which, being without painting, allowed her to observe the progress of the storm over the Mediterranean, whose dark waves, that had so lately slept, now came boldly swelling, in long succession, to the shore, where they burst in white foam, and threw up a high spray over the rocks. A red sulphureous tint overspread the long line of clouds, that hung above the western horizon, beneath whose dark skirts the sun looking out, illumined the distant shores of Languedoc, as well as the tufted summits of the nearer woods, and shed a partial gleam on the western waves.",
+  "words": [
+    {
+      "word": "shade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gloom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "horizon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

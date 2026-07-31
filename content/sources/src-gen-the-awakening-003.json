@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-awakening-003",
   "pool": "sourced",
-  "text": "“Do you see Mrs. Pontellier starting back with the children? She will be in late to luncheon again. She never starts to get ready for luncheon till the last minute.” Clatter, clatter! “Where are you going?” “Where did you say the Goncourt was?” IX Every light in the hall was ablaze; every lamp turned as high as it could be without smoking the chimney or threatening explosion. The lamps were fixed at intervals against the wall, encircling the whole room.",
+  "text": "“I am not quite so exacting. I will let you off this time. It is really too hot to think, especially to think about thinking.” “But for the fun of it,” persisted Edna. “First of all, the sight of the water stretching so far away, those motionless sails against the blue sky, made a delicious picture that I just wanted to sit and look at. The hot wind beating in my face made me think—without any connection that I can trace of a summer day in Kentucky, of a meadow that seemed as big as the ocean to the very little girl walking through the grass, which was higher than her waist.",
   "words": [
     {
-      "word": "lamp",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lamps",
+      "word": "meadow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Kate Chopin",
     "year": 1899,
     "source": "Project Gutenberg #160",
-    "url": "https://www.gutenberg.org/ebooks/160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

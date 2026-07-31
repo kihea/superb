@@ -1,10 +1,16 @@
 {
   "id": "src-gen-two-years-before-the-mast-003",
   "pool": "sourced",
-  "text": "The latter are said to have been planted by Lord Anson. The soldiers were miserably clad, and asked with some interest whether we had any shoes to sell on board. I doubt very much if they had the means of buying them. They were very eager to get tobacco, for which they gave shells, fruits, etc. Knives also were in demand, but we were forbidden by the governor to let any one have them, as he told us that all the people there, except the soldiers and a few officers, were convicts sent from Valparaiso, and that it was necessary to keep all weapons from their hands.",
+  "text": "F---- went forward into the forecastle as a common sailor, and lost the handle to his name, while young fore-mast Jim became Mr. Hall, and took up his quarters in the land of knives and forks and tea-cups. Sunday, October 5th. It was our morning watch; when, soon after the day began to break, a man on the forecastle called out, \"Land ho!\" I had never heard the cry before, and did not know what it meant, (and few would suspect what the words were, when hearing the strange sound for the first time,) but I soon found, by the direction of all eyes, that there was land stretching along our weather beam. We immediately took in studding-sails and hauled our wind, running in for the land.",
   "words": [
     {
-      "word": "knives",
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mast",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

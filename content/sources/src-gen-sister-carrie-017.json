@@ -1,10 +1,22 @@
 {
   "id": "src-gen-sister-carrie-017",
   "pool": "sourced",
-  "text": "Carrie was ashamed to say that she was married. She had talked so much about getting more salary and confessed to so much anxiety about her future, that now, when the direct question of fact was waiting, she could not tell this girl. \"With some relatives,\" she answered. Miss Osborne took it for granted that, like herself, Carrie's time was her own. She invariably asked her to stay, proposing little outings and other things of that sort until Carrie began neglecting her dinner hours.",
+  "text": "Here was no illusion. Here was an open door to see all of that. She had come upon it as one who stumbles upon a secret passage, and, behold, she was in the chamber of diamonds and delight! As she dressed with a flutter, in her little stage room, hearing the voices outside, seeing Mr. Quincel hurrying here and there, noting Mrs. Morgan and Mrs. Hoagland at their nervous work of preparation, seeing all the twenty members of the cast moving about and worrying over what the result would be, she could not help thinking what a delight this would be if it would endure; how perfect a state, if she could only do well now, and then some time get a place as a real actress. The thought had taken a mighty hold upon her.",
   "words": [
     {
-      "word": "invariably",
+      "word": "illusion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "behold",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diamonds",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Theodore Dreiser",
     "year": 1900,
     "source": "Project Gutenberg #5267",
-    "url": "https://www.gutenberg.org/ebooks/5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

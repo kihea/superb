@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-walden-023",
+  "pool": "sourced",
+  "text": "Perhaps the facts most astounding and most real are never communicated by man to man. The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star-dust caught, a segment of the rainbow which I have clutched. Yet, for my part, I was never unusually squeamish; I could sometimes eat a fried rat with a good relish, if it were necessary. I am glad to have drunk water so long, for the same reason that I prefer the natural sky to an opium-eater’s heaven.",
+  "words": [
+    {
+      "word": "rainbow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rat",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

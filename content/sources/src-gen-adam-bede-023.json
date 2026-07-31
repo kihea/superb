@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-adam-bede-023",
+  "pool": "sourced",
+  "text": "“God bless her!” he said inwardly; “I’d make her life a happy ’un, if a strong arm to work for her, and a heart to love her, could do it.” And then there stole over him delicious thoughts of coming home from work, and drawing Hetty to his side, and feeling her cheek softly pressed against his, till he forgot where he was, and the music and the tread of feet might have been the falling of rain and the roaring of the wind, for what he knew. But now the third dance was ended, and he might go up to her and claim her hand. She was at the far end of the hall near the staircase, whispering with Molly, who had just given the sleeping Totty into her arms before running to fetch shawls and bonnets from the landing. Mrs. Poyser had taken the two boys away into the dining-room to give them some cake before they went home in the cart with Grandfather and Molly was to follow as fast as possible.",
+  "words": [
+    {
+      "word": "bless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stole",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "source": "Project Gutenberg #507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

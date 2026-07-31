@@ -1,18 +1,12 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-004",
   "pool": "sourced",
-  "text": "I am awfully obliged to you.” “That is entirely due to me,” broke in Lord Henry. “Isn’t it, Mr. Gray?” Dorian made no answer, but passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words.",
+  "text": "What the invention of oil-painting was to the Venetians, the face of Antinous was to late Greek sculpture, and the face of Dorian Gray will some day be to me. It is not merely that I paint from him, draw from him, sketch from him. Of course, I have done all that. But he is much more to me than a model or a sitter. I won’t tell you that I am dissatisfied with what I have done of him, or that his beauty is such that art cannot express it.",
   "words": [
     {
-      "word": "cheeks",
+      "word": "sculpture",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "catching",
-      "signals": [
-        "definition-marker"
       ]
     }
   ],
@@ -21,7 +15,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

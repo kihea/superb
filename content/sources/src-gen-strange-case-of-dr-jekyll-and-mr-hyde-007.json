@@ -1,10 +1,10 @@
 {
   "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-007",
   "pool": "sourced",
-  "text": "The fog still slept on the wing above the drowned city, where the lamps glimmered like carbuncles; and through the muffle and smother of these fallen clouds, the procession of the town’s life was still rolling in through the great arteries with a sound as of a mighty wind. But the room was gay with firelight. In the bottle the acids were long ago resolved; the imperial dye had softened with time, as the colour grows richer in stained windows; and the glow of hot autumn afternoons on hillside vineyards, was ready to be set free and to disperse the fogs of London. Insensibly the lawyer melted. There was no man from whom he kept fewer secrets than Mr.",
+  "text": "“It can make no change. You do not understand my position,” returned the doctor, with a certain incoherency of manner. “I am painfully situated, Utterson; my position is a very strange—a very strange one. It is one of those affairs that cannot be mended by talking.” “Jekyll,” said Utterson, “you know me: I am a man to be trusted. Make a clean breast of this in confidence; and I make no doubt I can get you out of it.” “My good Utterson,” said the doctor, “this is very good of you, this is downright good of you, and I cannot find words to thank you in.",
   "words": [
     {
-      "word": "mighty",
+      "word": "painfully",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

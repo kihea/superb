@@ -1,10 +1,16 @@
 {
   "id": "src-gen-walden-004",
   "pool": "sourced",
-  "text": "I never knew, and never shall know, a worse man than myself. I believe that what so saddens the reformer is not his sympathy with his fellows in distress, but, though he be the holiest son of God, is his private ail. Let this be righted, let the spring come to him, the morning rise over his couch, and he will forsake his generous companions without apology. My excuse for not lecturing against the use of tobacco is, that I never chewed it; that is a penalty which reformed tobacco-chewers have to pay; though there are things enough I have chewed, which I could lecture against. If you should ever be betrayed into any of these philanthropies, do not let your left hand know what your right hand does, for it is not worth knowing.",
+  "text": "I got out several cords of stumps in ploughing, which supplied me with fuel for a long time, and left small circles of virgin mould, easily distinguishable through the summer by the greater luxuriance of the beans there. The dead and for the most part unmerchantable wood behind my house, and the driftwood from the pond, have supplied the remainder of my fuel. I was obliged to hire a team and a man for the ploughing, though I held the plough myself. My farm outgoes for the first season were, for implements, seed, work, &c., $14.721⁄2. The seed corn was given me.",
   "words": [
     {
-      "word": "sympathy",
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remainder",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

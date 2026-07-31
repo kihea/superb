@@ -1,10 +1,28 @@
 {
   "id": "src-gen-what-katy-did-013",
   "pool": "sourced",
-  "text": "cried Cousin Helen from her sofa. So they came in, followed, before long, by Clover and Elsie. Such a merry morning as they had! Cousin Helen proved to possess a perfect genius for story-telling, and for suggesting games which could be played about her sofa, and did not make more noise than she could bear. Aunt Izzie, dropping in about eleven o'clock, found them having such a good time, that almost before she knew it, she was drawn into the game too.",
+  "text": "\"No,\" said John, decidedly, \"it must be black and out of a bottle, or it won't do any good.\" After thinking a moment, she trotted quietly across the passage into Aunt Izzie's room. Nobody was there, but John knew where the Elixir Pro was kept--in the closet on the third shelf. She pulled one of the drawers out a little, climbed up, and reached it down. The children were enchanted when she marched back, the bottle in one hand, the cork in the other, and proceeded to pour a liberal dose on to Pikery's wooden seat, which John called his lap.",
   "words": [
     {
-      "word": "o'clock",
+      "word": "decidedly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "closet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dose",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Susan Coolidge",
     "year": 1872,
     "source": "Project Gutenberg #8994",
-    "url": "https://www.gutenberg.org/ebooks/8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prairie-030",
+  "pool": "sourced",
+  "text": "For I knew that east wind would carry the line of fire crackling across the prairie floor to Dinky-Dunk's wheat, to the stables and out-buildings, to Casa Grande itself, and all our scheming and planning and toiling and moiling would go up in one yellow puff of smoke. And once under way, nothing could stop that widening river of flame. It was Dinky-Dunk who jumped to life as though he had indeed been cannonaded. In one bound he was at the buckboard and was snatching out the horse-blanket that lay folded up under the seat. Then he unsnapped the reins from Paddy's bridle, snapping them on the blanket, one to the buckle and the other to the strap-end.",
+  "words": [
+    {
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buckle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prairie",
+    "author": "James Fenimore Cooper",
+    "year": 1827,
+    "source": "Project Gutenberg #18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

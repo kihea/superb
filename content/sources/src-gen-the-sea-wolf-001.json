@@ -14,12 +14,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "tides",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -27,7 +21,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-a-study-in-scarlet-027",
+  "pool": "sourced",
+  "text": "Unfortunately the horns of one of the creatures, either by accident or design, came in violent contact with the flank of the mustang, and excited it to madness. In an instant it reared up upon its hind legs with a snort of rage, and pranced and tossed in a way that would have unseated any but a most skilful rider. The situation was full of peril. Every plunge of the excited horse brought it against the horns again, and goaded it to fresh madness. It was all that the girl could do to keep herself in the saddle, yet a slip would mean a terrible death under the hoofs of the unwieldy and terrified animals.",
+  "words": [
+    {
+      "word": "mustang",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peril",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": 1887,
+    "source": "Project Gutenberg #244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

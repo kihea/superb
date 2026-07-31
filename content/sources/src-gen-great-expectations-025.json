@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-great-expectations-025",
+  "pool": "sourced",
+  "text": "I have heerd that my son is a wonderful hand at his business, sir?” I nodded hard. “Yes; so they tell me. His business is the Law?” I nodded harder. “Which makes it more surprising in my son,” said the old man, “for he was not brought up to the Law, but to the Wine-Coopering.” Curious to know how the old gentleman stood informed concerning the reputation of Mr. Jaggers, I roared that name at him. He threw me into the greatest confusion by laughing heartily and replying in a very sprightly manner, “No, to be sure; you’re right.” And to this hour I have not the faintest notion what he meant, or what joke he thought I had made.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "notion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

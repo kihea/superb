@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prairie-010",
   "pool": "sourced",
-  "text": "Thursday the Twenty-ninth Percy (how I hate that name!) was here for dinner last night, and all things considered, we didn't fare so badly. We had tomato bisque and scalloped potatoes and prairie-chicken (they need to be well basted) and hot biscuits and stewed dried peaches with cream. Then we had coffee and the men smoked their pipes. We talked until a quarter to one in the morning, and my poor Dinky-Dunk, who has been working so hard and seeing nobody, really enjoyed that visit and really likes Percival Benson.",
+  "text": "and quoted the Latin phrase about mind controlling matter. The Dixons, he went on to explain, were of the \"slum\" type, only they didn't happen to live in a city. But tired and sleepy as I was that night, I got up to cold-cream my face and arms. And I'm going to write for almond-meal and glycerin from the mail-order house to-morrow. And a brassiere--for I saw what looked like the suspicion of a smile on Dinky-Dunk's unshaven lips as he watched me struggling into my corsets this morning.",
   "words": [
     {
-      "word": "biscuits",
+      "word": "slum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sleepy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-life-on-the-mississippi-016",
   "pool": "sourced",
-  "text": "I must preface it with some explanations, however. The letter is written by an ex-thief and ex-vagabond of the lowest origin and basest rearing, a man all stained with crime and steeped in ignorance; but, thank God, with a mine of pure gold hidden away in him, as you shall see. His letter is written to a burglar named Williams, who is serving a nine-year term in a certain State prison, for burglary. Williams was a particularly daring burglar, and plied that trade during a number of years; but he was caught at last and jailed, to await trial in a town where he had broken into a house at night, pistol in hand, and forced the owner to hand over to him $8,000 in government bonds. Williams was not a common sort of person, by any means; he was a graduate of Harvard College, and came of good New England stock.",
+  "text": "'I could if I had some other water to wash it with.' Here was a thing which had not changed; a score of years had not affected this water's mulatto complexion in the least; a score of centuries would succeed no better, perhaps. It comes out of the turbulent, bank-caving Missouri, and every tumblerful of it holds nearly an acre of land in solution. I got this fact from the bishop of the diocese. If you will let your glass stand half an hour, you can separate the land from the water as easy as Genesis; and then you will find them both good: the one good to eat, the other good to drink.",
   "words": [
     {
-      "word": "preface",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stained",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "burglar",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "burglary",
+      "word": "acre",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-war-and-peace-013",
   "pool": "sourced",
-  "text": "The foreigners were deported to Nízhni by boat, and Rostopchín had said to them in French: “Rentrez en vous-mêmes; entrez dans la barque, et n’en faites pas une barque de Charon.” * There was talk of all the government offices having been already removed from Moscow, and to this Shinshín’s witticism was added—that for that alone Moscow ought to be grateful to Napoleon. It was said that Mamónov’s regiment would cost him eight hundred thousand rubles, and that Bezúkhov had spent even more on his, but that the best thing about Bezúkhov’s action was that he himself was going to don a uniform and ride at the head of his regiment without charging anything for the show. * “Think it over; get into the barque, and take care not to make it a barque of Charon.” “You don’t spare anyone,” said Julie Drubetskáya as she collected and pressed together a bunch of raveled lint with her thin, beringed fingers. Julie was preparing to leave Moscow next day and was giving a farewell soiree. “Bezúkhov est ridicule, but he is so kind and good-natured.",
+  "text": "The steward promised to do all in his power to carry out the count’s wishes, seeing clearly that not only would the count never be able to find out whether all measures had been taken for the sale of the land and forests and to release them from the Land Bank, but would probably never even inquire and would never know that the newly erected buildings were standing empty and that the serfs continued to give in money and work all that other people’s serfs gave—that is to say, all that could be got out of them. Returning from his journey through South Russia in the happiest state of mind, Pierre carried out an intention he had long had of visiting his friend Bolkónski, whom he had not seen for two years. Boguchárovo lay in a flat uninteresting part of the country among fields and forests of fir and birch, which were partly cut down. The house lay behind a newly dug pond filled with water to the brink and with banks still bare of grass.",
   "words": [
     {
-      "word": "est",
+      "word": "dug",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ridicule",
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brink",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-invisible-man-010",
   "pool": "sourced",
-  "text": "Certain minor facts were added to the Iping story, notably the cutting of the village telegraph-wire. But there was nothing to throw light on the connexion between the Invisible Man and the Tramp; for Mr. Marvel had supplied no information about the three books, or the money with which he was lined. The incredulous tone had vanished and a shoal of reporters and inquirers were already at work elaborating the matter. Kemp read every scrap of the report and sent his housemaid out to get every one of the morning papers she could. These also he devoured.",
+  "text": "Everybody, it seemed, was being hit all at once, and Sandy Wadgers, knowing as ever and his wits sharpened by a frightful blow in the nose, reopened the door and led the rout. The others, following incontinently, were jammed for a moment in the corner by the doorway. The hitting continued. Phipps, the Unitarian, had a front tooth broken, and Henfrey was injured in the cartilage of his ear. Jaffers was struck under the jaw, and, turning, caught at something that intervened between him and Huxter in the mêlée, and prevented their coming together.",
   "words": [
     {
-      "word": "vanished",
+      "word": "doorway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cartilage",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

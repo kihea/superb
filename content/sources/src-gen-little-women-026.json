@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-little-women-026",
+  "pool": "sourced",
+  "text": "Soon the sun came out, and taking it as a good omen, I cleared up likewise and enjoyed my journey with all my heart. Mrs. Kirke welcomed me so kindly I felt at home at once, even in that big house full of strangers. She gave me a funny little sky parlor—all she had, but there is a stove in it, and a nice table in a sunny window, so I can sit here and write whenever I like. A fine view and a church tower opposite atone for the many stairs, and I took a fancy to my den on the spot. The nursery, where I am to teach and sew, is a pleasant room next Mrs. Kirke’s private parlor, and the two little girls are pretty children, rather spoiled, I fancy, but they took to me after telling them The Seven Bad Pigs, and I’ve no doubt I shall make a model governess.",
+  "words": [
+    {
+      "word": "omen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parlor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stove",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nursery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

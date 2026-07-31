@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-agnes-grey-028",
+  "pool": "sourced",
+  "text": "I could not deny the truth of his assertion, and so went with him to the carriage; he even offered me his hand on getting in: an unnecessary piece of civility, but I accepted that too, for fear of giving offence. One glance he gave, one little smile at parting—it was but for a moment; but therein I read, or thought I read, a meaning that kindled in my heart a brighter flame of hope than had ever yet arisen. “I would have sent the footman back for you, Miss Grey, if you’d waited a moment—you needn’t have taken Mr. Weston’s umbrella,” observed Rosalie, with a very unamiable cloud upon her pretty face. “I would have come without an umbrella, but Mr. Weston offered me the benefit of his, and I could not have refused it more than I did without offending him,” replied I, smiling placidly; for my inward happiness made that amusing, which would have wounded me at another time. The carriage was now in motion.",
+  "words": [
+    {
+      "word": "therein",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "offending",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

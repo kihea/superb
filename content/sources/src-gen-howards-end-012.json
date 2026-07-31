@@ -1,10 +1,16 @@
 {
   "id": "src-gen-howards-end-012",
   "pool": "sourced",
-  "text": "So tremendous is the City’s trail! But the cliffs of Freshwater it shall never touch, and the island will guard the Island’s purity till the end of time. Seen from the west, the Wight is beautiful beyond all laws of beauty. It is as if a fragment of England floated forward to greet the foreigner—chalk of our chalk, turf of our turf, epitome of what will follow. And behind the fragment lies Southampton, hostess to the nations, and Portsmouth, a latent fire, and all around it, with double and treble collision of tides, swirls the sea.",
+  "text": "At times they passed through a clot of grey. Mrs. Wilcox’s vitality was low that morning, and it was Margaret who decided on a horse for this little girl, a golliwog for that, for the rector’s wife a copper warming-tray. “We always give the servants money.” “Yes, do you, yes, much easier,” replied Margaret, but felt the grotesque impact of the unseen upon the seen, and saw issuing from a forgotten manger at Bethlehem this torrent of coins and toys. Vulgarity reigned. Public-houses, besides their usual exhortation against temperance reform, invited men to “Join our Christmas goose club”—one bottle of gin, etc., or two, according to subscription.",
   "words": [
     {
-      "word": "tides",
+      "word": "unseen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torrent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-heart-of-darkness-033",
+  "pool": "sourced",
+  "text": "And from right to left along the lighted shore moved a wild and gorgeous apparition of a woman. “She walked with measured steps, draped in striped and fringed cloths, treading the earth proudly, with a slight jingle and flash of barbarous ornaments. She carried her head high; her hair was done in the shape of a helmet; she had brass leggings to the knee, brass wire gauntlets to the elbow, a crimson spot on her tawny cheek, innumerable necklaces of glass beads on her neck; bizarre things, charms, gifts of witch-men, that hung about her, glittered and trembled at every step. She must have had the value of several elephant tusks upon her. She was savage and superb, wild-eyed and magnificent; there was something ominous and stately in her deliberate progress.",
+  "words": [
+    {
+      "word": "jingle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helmet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elbow",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "witch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "savage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deliberate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-035",
+  "pool": "sourced",
+  "text": "I will talk to the ‘Long Rifle’ of the Yengeese.” “Ah! had I that piece which furnished the name you use, I would obligate myself to cut the thong, and drop the gourd without breaking it!” returned Hawkeye, perfectly undisturbed by the other’s manner. “Fools, if you would find the bullet of a sharpshooter in these woods, you must look in the object, and not around it!” The Indian youths instantly comprehended his meaning—for this time he spoke in the Delaware tongue—and tearing the gourd from the tree, they held it on high with an exulting shout, displaying a hole in its bottom, which had been cut by the bullet, after passing through the usual orifice in the center of its upper side. At this unexpected exhibition, a loud and vehement expression of pleasure burst from the mouth of every warrior present. It decided the question, and effectually established Hawkeye in the possession of his dangerous reputation.",
+  "words": [
+    {
+      "word": "youths",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "shout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

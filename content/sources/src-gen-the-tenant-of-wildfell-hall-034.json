@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-034",
+  "pool": "sourced",
+  "text": "“No, Lawrence, with your leave we’ll continue it a while longer; and I’ll tell you something, now we’re about it, which you may believe or not as you choose—only please to remember that it is not my custom to speak falsely, and that in this case I can have no motive for misrepresenting the truth—” “Well, Markham, what now?” “Miss Wilson hates your sister. It may be natural enough that, in her ignorance of the relationship, she should feel some degree of enmity against her, but no good or amiable woman would be capable of evincing that bitter, cold-blooded, designing malice towards a fancied rival that I have observed in her.” “Markham!” “Yes—and it is my belief that Eliza Millward and she, if not the very originators of the slanderous reports that have been propagated, were designedly the encouragers and chief disseminators of them. She was not desirous to mix up your name in the matter, of course, but her delight was, and still is, to blacken your sister’s character to the utmost of her power, without risking too greatly the exposure of her own malevolence!” “I cannot believe it,” interrupted my companion, his face burning with indignation.",
+  "words": [
+    {
+      "word": "rival",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "risking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

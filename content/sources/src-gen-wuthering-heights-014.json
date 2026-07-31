@@ -1,16 +1,28 @@
 {
   "id": "src-gen-wuthering-heights-014",
   "pool": "sourced",
-  "text": "Linton, don’t you recall your cousin, that you used to tease us so with wishing to see?” “What, Linton!” cried Cathy, kindling into joyful surprise at the name. “Is that little Linton? He’s taller than I am! Are you Linton?” The youth stepped forward, and acknowledged himself: she kissed him fervently, and they gazed with wonder at the change time had wrought in the appearance of each. Catherine had reached her full height; her figure was both plump and slender, elastic as steel, and her whole aspect sparkling with health and spirits.",
+  "text": "“Half a dozen nephews shall erase her title, please heaven! Abstract your mind from the subject at present: you are too prone to covet your neighbour’s goods; remember this neighbour’s goods are mine.” “If they were mine, they would be none the less that,” said Heathcliff; “but though Isabella Linton may be silly, she is scarcely mad; and, in short, we’ll dismiss the matter, as you advise.” From their tongues they did dismiss it; and Catherine, probably, from her thoughts. The other, I felt certain, recalled it often in the course of the evening. I saw him smile to himself—grin rather—and lapse into ominous musing whenever Mrs. Linton had occasion to be absent from the apartment. I determined to watch his movements.",
   "words": [
     {
-      "word": "plump",
+      "word": "neighbour",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sparkling",
+      "word": "scarcely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absent",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-thirty-nine-steps-014",
   "pool": "sourced",
-  "text": "The place had been most cunningly chosen. For suppose anyone were watching an aeroplane descending here, he would think it had gone over the hill beyond the trees. As the place was on the top of a rise in the midst of a big amphitheatre, any observer from any direction would conclude it had passed out of view behind the hill. Only a man very close at hand would realize that the aeroplane had not gone over but had descended in the midst of the wood. An observer with a telescope on one of the higher hills might have discovered the truth, but only herds went there, and herds do not carry spy-glasses.",
+  "text": "Lend me the oldest tweed suit you’ve got. Anything will do, so long as the colour is the opposite of the clothes I destroyed this afternoon. Then show me a map of the neighbourhood and explain to me the lie of the land. Lastly, if the police come seeking me, just show them the car in the glen. If the other lot turn up, tell them I caught the south express after your meeting.” He did, or promised to do, all these things.",
   "words": [
     {
-      "word": "descending",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "midst",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "observer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "descended",
+      "word": "lend",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

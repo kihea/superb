@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-015",
   "pool": "sourced",
-  "text": "“That, of course, I cannot say, but—shall I tell you my own private opinion, Hastings?” “Yes.” “Well, it is this: that Mrs. Cavendish does not care, and never has cared one little jot about Dr. Bauerstein!” “Do you really think so?” I could not disguise my pleasure. “I am quite sure of it. And I will tell you why.” “Yes?” “Because she cares for someone else, mon ami.” “Oh!” What did he mean? In spite of myself, an agreeable warmth spread over me. I am not a vain man where women are concerned, but I remembered certain evidences, too lightly thought of at the time, perhaps, but which certainly seemed to indicate—— My pleasing thoughts were interrupted by the sudden entrance of Miss Howard.",
+  "text": "Probably any other of the doorkeys in this passage would fit it.” We stared at one another blankly. Poirot had walked over to the mantelpiece. He was outwardly calm, but I noticed his hands, which from long force of habit were mechanically straightening the spill vases on the mantelpiece, were shaking violently. “See here, it was like this,” he said at last. “There was something in that case—some piece of evidence, slight in itself perhaps, but still enough of a clue to connect the murderer with the crime.",
   "words": [
     {
-      "word": "disguise",
+      "word": "spill",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "spite",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vain",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pleasing",
+      "word": "clue",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

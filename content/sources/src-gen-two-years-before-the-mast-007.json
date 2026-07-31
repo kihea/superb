@@ -1,22 +1,10 @@
 {
   "id": "src-gen-two-years-before-the-mast-007",
   "pool": "sourced",
-  "text": "said he, with a singular expression to his face; \"I had a little daughter die the other day, and that's the custom of the country.\" Here I felt a little strangely, not knowing what to say, or whether to offer consolation or no, and was beginning to retire, when he opened a side door and told us to walk in. Here I was no less astonished; for I found a large room, filled with young girls, from three or four years of age up to fifteen and sixteen, dressed all in white, with wreaths of flowers on their heads, and bouquets in their hands. Following our conductor through all these girls, who were playing about in high spirits, we came to a table, at the end of the room, covered with a white cloth, on which lay a coffin, about three feet long, with the body of his child. The coffin was lined on the outside with white cloth, and on the inside with white satin, and was strewed with flowers.",
+  "text": "Our captain was anxious to get in before her, for it would be a great credit to us, on the coast, to beat the Ayacucho, which had been called the best sailer in the North Pacific, in which she had been known as a trader for six years or more. We had an advantage over her in light winds, from our royals and skysails which we carried both at the fore and main, and also in our studding-sails; for Captain Wilson carried nothing above top-gallant-sails, and always unbent his studding-sails when on the coast. As the wind was light and fair, we held our own, for some time, when we were both obliged to brace up and come upon a taut bowline, after rounding the point; and here he had us on fair ground, and walked away from us, as you would haul in a line. He afterwards said that we sailed well enough with the wind free, but that give him a taut bowline, and he would beat us, if we had all the canvas of the Royal George.",
   "words": [
     {
-      "word": "retire",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "coffin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "satin",
+      "word": "canvas",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

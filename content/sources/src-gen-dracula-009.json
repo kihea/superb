@@ -1,10 +1,17 @@
 {
   "id": "src-gen-dracula-009",
   "pool": "sourced",
-  "text": "Lucy’s heart beat a trifle more audibly to the stethoscope, and her lungs had a perceptible movement. Van Helsing’s face almost beamed, and as we lifted her from the bath and rolled her in a hot sheet to dry her he said to me:-- “The first gain is ours! Check to the King!” We took Lucy into another room, which had by now been prepared, and laid her in bed and forced a few drops of brandy down her throat. I noticed that Van Helsing tied a soft silk handkerchief round her throat. She was still unconscious, and was quite as bad as, if not worse than, we had ever seen her.",
+  "text": "* * * * * 19 July.--We are progressing. My friend has now a whole colony of sparrows, and his flies and spiders are almost obliterated. When I came in he ran to me and said he wanted to ask me a great favour--a very, very great favour; and as he spoke he fawned on me like a dog. I asked him what it was, and he said, with a sort of rapture in his voice and bearing:-- “A kitten, a nice little, sleek playful kitten, that I can play with, and teach, and feed--and feed--and feed!” I was not unprepared for this request, for I had noticed how his pets went on increasing in size and vivacity, but I did not care that his pretty family of tame sparrows should be wiped out in the same manner as the flies and the spiders; so I said I would see about it, and asked him if he would not rather have a cat than a kitten. His eagerness betrayed him as he answered:-- “Oh, yes, I would like a cat!",
   "words": [
     {
-      "word": "handkerchief",
+      "word": "kitten",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "playful",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +22,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

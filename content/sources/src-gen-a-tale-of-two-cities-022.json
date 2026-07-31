@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-022",
+  "pool": "sourced",
+  "text": "“I think,” he whispered to Miss Pross, after anxious consideration, “I think we had best not speak to him just now, or at all disturb him. I must look in at Tellson’s; so I will go there at once and come back presently. Then, we will take him a ride into the country, and dine there, and all will be well.” It was easier for Mr. Lorry to look in at Tellson’s, than to look out of Tellson’s. He was detained two hours. When he came back, he ascended the old staircase alone, having asked no question of the servant; going thus into the Doctor’s rooms, he was stopped by a low sound of knocking.",
+  "words": [
+    {
+      "word": "detained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

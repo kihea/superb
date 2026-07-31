@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-gulliver-s-travels-040",
+  "pool": "sourced",
+  "text": "But I forbear descanting further, and rather leave the judicious reader to his own remarks and application. I am not a little pleased that this work of mine can possibly meet with no censurers: for what objections can be made against a writer, who relates only plain facts, that happened in such distant countries, where we have not the least interest, with respect either to trade or negotiations? I have carefully avoided every fault with which common writers of travels are often too justly charged. Besides, I meddle not the least with any party, but write without passion, prejudice, or ill-will against any man, or number of men, whatsoever. I write for the noblest end, to inform and instruct mankind; over whom I may, without breach of modesty, pretend to some superiority, from the advantages I received by conversing so long among the most accomplished Houyhnhnms.",
+  "words": [
+    {
+      "word": "prejudice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inform",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breach",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

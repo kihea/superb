@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-027",
+  "pool": "sourced",
+  "text": "In September, quiet Grassdale was again alive with a party of ladies and gentlemen (so called), consisting of the same individuals as those invited the year before last, with the addition of two or three others, among whom were Mrs. Hargrave and her younger daughter. The gentlemen and Lady Lowborough were invited for the pleasure and convenience of the host; the other ladies, I suppose, for the sake of appearances, and to keep me in check, and make me discreet and civil in my demeanour. But the ladies stayed only three weeks; the gentlemen, with two exceptions, above two months: for their hospitable entertainer was loth to part with them and be left alone with his bright intellect, his stainless conscience, and his loved and loving wife. On the day of Lady Lowborough’s arrival, I followed her into her chamber, and plainly told her that, if I found reason to believe that she still continued her criminal connection with Mr. Huntingdon, I should think it my absolute duty to inform her husband of the circumstance—or awaken his suspicions at least—however painful it might be, or however dreadful the consequences.",
+  "words": [
+    {
+      "word": "discreet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "entertainer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,16 +1,16 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-016",
   "pool": "sourced",
-  "text": "“My good friends,” said I, “will you be so kind as to tell me the name of this town and inform me where I am?” “You will know that soon enough,” replied a man with a hoarse voice. “Maybe you are come to a place that will not prove much to your taste, but you will not be consulted as to your quarters, I promise you.” I was exceedingly surprised on receiving so rude an answer from a stranger, and I was also disconcerted on perceiving the frowning and angry countenances of his companions. “Why do you answer me so roughly?” I replied. “Surely it is not the custom of Englishmen to receive strangers so inhospitably.” “I do not know,” said the man, “what the custom of the English may be, but it is the custom of the Irish to hate villains.” While this strange dialogue continued, I perceived the crowd rapidly increase. Their faces expressed a mixture of curiosity and anger, which annoyed and in some degree alarmed me.",
+  "text": "Presently a breeze dissipated the cloud, and I descended upon the glacier. The surface is very uneven, rising like the waves of a troubled sea, descending low, and interspersed by rifts that sink deep. The field of ice is almost a league in width, but I spent nearly two hours in crossing it. The opposite mountain is a bare perpendicular rock. From the side where I now stood Montanvert was exactly opposite, at the distance of a league; and above it rose Mont Blanc, in awful majesty.",
   "words": [
     {
-      "word": "exceedingly",
+      "word": "glacier",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "annoyed",
+      "word": "uneven",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

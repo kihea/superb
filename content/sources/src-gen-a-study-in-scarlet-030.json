@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-study-in-scarlet-030",
+  "pool": "sourced",
+  "text": "One, with a long pale face, was leaning back in the rocking-chair, with his feet cocked up upon the stove. The other, a bull-necked youth with coarse bloated features, was standing in front of the window with his hands in his pocket, whistling a popular hymn. Both of them nodded to Ferrier as he entered, and the one in the rocking-chair commenced the conversation. “Maybe you don’t know us,” he said. “This here is the son of Elder Drebber, and I’m Joseph Stangerson, who travelled with you in the desert when the Lord stretched out His hand and gathered you into the true fold.” “As He will all the nations in His own good time,” said the other in a nasal voice; “He grindeth slowly but exceeding small.” John Ferrier bowed coldly.",
+  "words": [
+    {
+      "word": "rocking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hymn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": 1887,
+    "source": "Project Gutenberg #244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

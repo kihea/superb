@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-notes-from-underground-033",
+  "pool": "sourced",
+  "text": "I resolved on a desperate measure: to borrow fifteen roubles straight off from Anton Antonitch. As luck would have it he was in the best of humours that morning, and gave it to me at once, on the first asking. I was so delighted at this that, as I signed the IOU with a swaggering air, I told him casually that the night before “I had been keeping it up with some friends at the Hôtel de Paris; we were giving a farewell party to a comrade, in fact, I might say a friend of my childhood, and you know—a desperate rake, fearfully spoilt—of course, he belongs to a good family, and has considerable means, a brilliant career; he is witty, charming, a regular Lovelace, you understand; we drank an extra ‘half-dozen’ and ...” And it went off all right; all this was uttered very easily, unconstrainedly and complacently. On reaching home I promptly wrote to Simonov. To this hour I am lost in admiration when I recall the truly gentlemanly, good-humoured, candid tone of my letter.",
+  "words": [
+    {
+      "word": "charming",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864,
+    "source": "Project Gutenberg #600",
+    "url": "https://www.gutenberg.org/ebooks/600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

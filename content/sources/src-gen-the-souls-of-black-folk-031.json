@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-031",
+  "pool": "sourced",
+  "text": "In the great city churches the same tendency is noticeable and in many respects emphasized. A great church like the Bethel of Philadelphia has over eleven hundred members, an edifice seating fifteen hundred persons and valued at one hundred thousand dollars, an annual budget of five thousand dollars, and a government consisting of a pastor with several assisting local preachers, an executive and legislative board, financial boards and tax collectors; general church meetings for making laws; sub-divided groups led by class leaders, a company of militia, and twenty-four auxiliary societies. The activity of a church like this is immense and far-reaching, and the bishops who preside over these organizations throughout the land are among the most powerful Negro rulers in the world. Such churches are really governments of men, and consequently a little investigation reveals the curious fact that, in the South, at least, practically every American Negro is a church member. Some, to be sure, are not regularly enrolled, and a few do not habitually attend services; but, practically, a proscribed people must have a social centre, and that centre for this people is the Negro church.",
+  "words": [
+    {
+      "word": "seating",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preachers",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "militia",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "practically",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

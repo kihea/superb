@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-026",
+  "pool": "sourced",
+  "text": "A veil was beginning to be muffled about her, in which she could behold only him, and live only in his thoughts and emotions. His glance, as he fastened it on the young girl, grew involuntarily more concentrated; in his attitude there was the consciousness of power, investing his hardly mature figure with a dignity that did not belong to its physical manifestation. It was evident, that, with but one wave of his hand and a corresponding effort of his will, he could complete his mastery over Phœbe’s yet free and virgin spirit: he could establish an influence over this good, pure, and simple child, as dangerous, and perhaps as disastrous, as that which the carpenter of his legend had acquired and exercised over the ill-fated Alice. To a disposition like Holgrave’s, at once speculative and active, there is no temptation so great as the opportunity of acquiring empire over the human spirit; nor any idea more seductive to a young man than to become the arbiter of a young girl’s destiny.",
+  "words": [
+    {
+      "word": "evident",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "destiny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

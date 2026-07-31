@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-040",
+  "pool": "sourced",
+  "text": "Your brain may not be so large to look at as those of the Scarecrow, but you are really brighter than he is—when you are well polished—and I am sure you will rule the Winkies wisely and well.” Then the Witch looked at the big, shaggy Lion and asked, “When Dorothy has returned to her own home, what will become of you?” “Over the hill of the Hammer-Heads,” he answered, “lies a grand old forest, and all the beasts that live there have made me their King. If I could only get back to this forest, I would pass my life very happily there.” “My third command to the Winged Monkeys,” said Glinda, “shall be to carry you to your forest. Then, having used up the powers of the Golden Cap, I shall give it to the King of the Monkeys, that he and his band may thereafter be free for evermore.” The Scarecrow and the Tin Woodman and the Lion now thanked the Good Witch earnestly for her kindness; and Dorothy exclaimed: “You are certainly as good as you are beautiful!",
+  "words": [
+    {
+      "word": "polished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wisely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

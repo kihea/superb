@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-age-of-innocence-022",
+  "pool": "sourced",
+  "text": "And he understood for the first time the earnestness with which May, who was incapable of tying a ribbon in her hair to charm him, had gone through the solemn rite of selecting and ordering her extensive wardrobe. He had been right in expecting the party at Mrs. Carfry's to be a small one. Besides their hostess and her sister, they found, in the long chilly drawing-room, only another shawled lady, a genial Vicar who was her husband, a silent lad whom Mrs. Carfry named as her nephew, and a small dark gentleman with lively eyes whom she introduced as his tutor, pronouncing a French name as she did so. Into this dimly-lit and dim-featured group May Archer floated like a swan with the sunset on her: she seemed larger, fairer, more voluminously rustling than her husband had ever seen her; and he perceived that the rosiness and rustlingness were the tokens of an extreme and infantile shyness. \"What on earth will they expect me to talk about?\"",
+  "words": [
+    {
+      "word": "ribbon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nephew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tutor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "year": 1920,
+    "source": "Project Gutenberg #541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

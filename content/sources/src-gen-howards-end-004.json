@@ -1,10 +1,16 @@
 {
   "id": "src-gen-howards-end-004",
   "pool": "sourced",
-  "text": "“No, I agree with Aunt Juley,” said Margaret. “I’d rather mistrust people than lose my little Ricketts. There are limits.” Their brother, finding the incident commonplace, had stolen upstairs to see whether there were scones for tea. He warmed the teapot—almost too deftly—rejected the Orange Pekoe that the parlour-maid had provided, poured in five spoonfuls of a superior blend, filled up with really boiling water, and now called to the ladies to be quick or they would lose the aroma. “All right, Auntie Tibby,” called Helen, while Margaret, thoughtful again, said: “In a way, I wish we had a real boy in the house—the kind of boy who cares for men.",
+  "text": "“Considering she has only known your brother since Wednesday, and only met your father and mother at a stray hotel—” “Could you possibly lower your voice? The shopman will overhear.” “Esprit de classe”—if one may coin the phrase—was strong in Mrs. Munt. She sat quivering while a member of the lower orders deposited a metal funnel, a saucepan, and a garden squirt beside the roll of oilcloth. “Right behind?” “Yes, sir.” And the lower orders vanished in a cloud of dust. “I warn you: Paul hasn’t a penny; it’s useless.” “No need to warn us, Mr. Wilcox, I assure you.",
   "words": [
     {
-      "word": "warmed",
+      "word": "funnel",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "penny",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

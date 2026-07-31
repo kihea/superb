@@ -1,16 +1,10 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-019",
   "pool": "sourced",
-  "text": "“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.” “Then you may sit down,” the King replied. Here the other guinea-pig cheered, and was suppressed. “Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.” “I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers. “You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.",
+  "text": "Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause. The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear. “Please would you tell me,” said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first, “why your cat grins like that?” “It’s a Cheshire cat,” said the Duchess, “and that’s why. Pig!” She said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:— “I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats could grin.” “They all can,” said the Duchess; “and most of ’em do.” “I don’t know of any that do,” Alice said very politely, feeling quite pleased to have got into a conversation.",
   "words": [
     {
-      "word": "cheered",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "suppressed",
+      "word": "grinning",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

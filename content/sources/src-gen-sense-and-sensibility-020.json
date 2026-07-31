@@ -1,10 +1,10 @@
 {
   "id": "src-gen-sense-and-sensibility-020",
   "pool": "sourced",
-  "text": "Had my mother given me some active profession when I was removed at eighteen from the care of Mr. Pratt, I think, nay, I am sure, it would never have happened; for though I left Longstaple with what I thought, at the time, a most unconquerable preference for his niece, yet had I then had any pursuit, any object to engage my time and keep me at a distance from her for a few months, I should very soon have outgrown the fancied attachment, especially by mixing more with the world, as in such case I must have done. But instead of having any thing to do, instead of having any profession chosen for me, or being allowed to choose any myself, I returned home to be completely idle; and for the first twelvemonth afterwards I had not even the nominal employment, which belonging to the university would have given me; for I was not entered at Oxford till I was nineteen.",
+  "text": "Marianne, now looking dreadfully white, and unable to stand, sunk into her chair, and Elinor, expecting every moment to see her faint, tried to screen her from the observation of others, while reviving her with lavender water. \"Go to him, Elinor,\" she cried, as soon as she could speak, \"and force him to come to me. Tell him I must see him again--must speak to him instantly. I cannot rest--I shall not have a moment's peace till this is explained--some dreadful misapprehension or other. Oh, go to him this moment.\"",
   "words": [
     {
-      "word": "preference",
+      "word": "observation",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-crime-and-punishment-040",
+  "pool": "sourced",
+  "text": "Raskolnikov’s landlady bore witness, too, that when they had lived in another house at Five Corners, Raskolnikov had rescued two little children from a house on fire and was burnt in doing so. This was investigated and fairly well confirmed by many witnesses. These facts made an impression in his favour. And in the end the criminal was, in consideration of extenuating circumstances, condemned to penal servitude in the second class for a term of eight years only. At the very beginning of the trial Raskolnikov’s mother fell ill. Dounia and Razumihin found it possible to get her out of Petersburg during the trial.",
+  "words": [
+    {
+      "word": "burnt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

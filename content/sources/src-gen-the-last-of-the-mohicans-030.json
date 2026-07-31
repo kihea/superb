@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-030",
+  "pool": "sourced",
+  "text": "“Alice!” he answered, leaping carelessly among trunks, boxes, arms, and furniture, until he stood at her side. “I knew that you would never desert me,” she said, looking up with a momentary glow on her otherwise dejected countenance. “But you are alone! Grateful as it is to be thus remembered, I could wish to think you are not entirely alone.” Duncan, observing that she trembled in a manner which betrayed her inability to stand, gently induced her to be seated, while he recounted those leading incidents which it has been our task to accord. Alice listened with breathless interest; and though the young man touched lightly on the sorrows of the stricken father; taking care, however, not to wound the self-love of his auditor, the tears ran as freely down the cheeks of the daughter as though she had never wept before.",
+  "words": [
+    {
+      "word": "gently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lightly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

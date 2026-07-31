@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-030",
+  "pool": "sourced",
+  "text": "March 1st--our February 28th according to the International Date Line--the earthquake and storm had come. From Dunedin the Alert and her noisome crew had darted eagerly forth as if imperiously summoned, and on the other side of the earth poets and artists had begun to dream of a strange, dank Cyclopean city whilst a young sculptor had molded in his sleep the form of the dreaded Cthulhu. March 23rd the crew of the Emma landed on an unknown island and left six men dead; and on that date the dreams of sensitive men assumed a heightened vividness and darkened with dread of a giant monster's malign pursuit, whilst an architect had gone mad and a sculptor had lapsed suddenly into delirium! And what of this storm of April 2nd--the date on which all dreams of the dank city ceased, and Wilcox emerged unharmed from the bondage of strange fever? What of all this--and of those hints of old Castro about the sunken, star-born Old Ones and their coming reign; their faithful cult and their mastery of dreams?",
+  "words": [
+    {
+      "word": "dreaded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

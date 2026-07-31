@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-ghost-stories-of-an-antiquary-025",
+  "pool": "sourced",
+  "text": "Driven--by what? Driven from his house in horror, through street and lane, over half the city--driven--hunted in terror, and smitten by a shock here! Driven--driven! He could not rid his mind of the word, nor of the meaning it suggested. The pavements about him began to ring and echo with the tramp of many feet, and the cold, brittle air was shivered with the noisy voices that had roared and bawled applause and laughter at the National Theatre all the evening, and were now singing and howling homeward.",
+  "words": [
+    {
+      "word": "applause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "laughter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Ghost Stories of an Antiquary",
+    "author": "M. R. James",
+    "year": 1904,
+    "source": "Project Gutenberg #26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

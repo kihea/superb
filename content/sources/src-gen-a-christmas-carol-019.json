@@ -1,10 +1,28 @@
 {
   "id": "src-gen-a-christmas-carol-019",
   "pool": "sourced",
-  "text": "\"Let me see some tenderness connected with a death,\" said Scrooge; \"or that dark chamber, Spirit, which we left just now, will be for ever present to me.\" The Ghost conducted him through several streets familiar to his feet; and as they went along, Scrooge looked here and there to find himself, but nowhere was he to be seen. They entered poor Bob Cratchit's house; the dwelling he had visited before; and found the mother and the children seated round the fire. Very quiet. The noisy little Cratchits were as still as statues in one corner, and sat looking up at Peter, who had a book before him.",
+  "text": "The house fronts looked black enough, and the windows blacker, contrasting with the smooth white sheet of snow upon the roofs, and with the dirtier snow upon the ground; which last deposit had been ploughed up in deep furrows by the heavy wheels of carts and waggons; furrows that crossed and re-crossed each other hundreds of times where the great streets branched off; and made intricate channels, hard to trace in the thick yellow mud and icy water. The sky was gloomy, and the shortest streets were choked up with a dingy mist, half thawed, half frozen, whose heavier particles descended in a shower of sooty atoms, as if all the chimneys in Great Britain had, by one consent, caught fire, and were blazing away to their dear hearts' content. There was nothing very cheerful in the climate or the town, and yet was there an air of cheerfulness abroad that the clearest summer air and brightest summer sun might have endeavoured to diffuse in vain.",
   "words": [
     {
-      "word": "seated",
+      "word": "intricate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diffuse",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-christmas-carol-028",
+  "pool": "sourced",
+  "text": "Joining their horny hands over the rough table at which they sat, they wished each other Merry Christmas in their can of grog; and one of them: the elder, too, with his face all damaged and scarred with hard weather, as the figure-head of an old ship might be: struck up a sturdy song that was like a Gale in itself. Again the Ghost sped on, above the black and heaving sea --on, on--until, being far away, as he told Scrooge, from any shore, they lighted on a ship. They stood beside the helmsman at the wheel, the look-out in the bow, the officers who had the watch; dark, ghostly figures in their several stations; but every man among them hummed a Christmas tune, or had a Christmas thought, or spoke below his breath to his companion of some bygone Christmas Day, with homeward hopes belonging to it.",
+  "words": [
+    {
+      "word": "horny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "belonging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

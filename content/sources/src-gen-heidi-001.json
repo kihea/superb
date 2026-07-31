@@ -1,16 +1,34 @@
 {
   "id": "src-gen-heidi-001",
   "pool": "sourced",
-  "text": "er bowl again to the brim and set it before the child, who was now hungrily beginning her bread having first spread it with the cheese, which after being toasted was soft as butter; the two together tasted deliciously, and the child looked the picture of content as she sat eating, and at intervals taking further draughts of milk. The meal being over, the grandfather went outside to put the goat-shed in order, and Heidi watched with interest while he first swept it out, and then put fresh straw for the goats to sleep upon. Then he went to the little well- shed, and there he cut some long round sticks, and a small round board; in this he bored some holes and stuck the sticks into them, and there, as if made by magic, was a three-legged stool just like her grandfather's, only higher. Heidi stood and looked at it, speechless with astonishment. \"What do you think that is?\"",
+  "text": "asked her grandfather. \"It's my stool, I know, because it is such a high one; and it was made all of a minute,\" said the child, still lost in wonder and admiration. \"She understands what she sees, her eyes are in the right place,\" remarked the grandfather to himself, as he continued his way round the hut, knocking in a nail here and there, or making fast some part of the door, and so with hammer and nails and pieces of wood going from spot to spot, mending or clearing away wherever work of the kind was needed. Heidi followed him step by step, her eyes attentively taking in all that he did, and everything that she saw was a fresh source of pleasure to her. And so the time passed happily on till evening.",
   "words": [
     {
-      "word": "toasted",
+      "word": "stool",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sticks",
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clearing",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

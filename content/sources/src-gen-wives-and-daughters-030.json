@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-wives-and-daughters-030",
+  "pool": "sourced",
+  "text": "The autumn drifted away through all its seasons. The golden corn-harvest, the walks through the stubble-fields, and rambles into hazel-copses in search of nuts; the stripping of the apple-orchards of their ruddy fruit, amid the joyous cries and shouts of watching children; and the gorgeous tulip-like colouring of the later time had now come on with the shortening days. There was comparative silence in the land, excepting for the distant shots, and the whirr of the partridges as they rose up from the field. Ever since Miss Browning's unlucky conversation, things had been ajar in the Gibsons' house. Cynthia seemed to keep every one out at (mental) arms'-length; and particularly avoided any private talks with Molly.",
+  "words": [
+    {
+      "word": "harvest",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "hazel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stripping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wives and Daughters",
+    "author": "Elizabeth Gaskell",
+    "year": 1866,
+    "source": "Project Gutenberg #4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

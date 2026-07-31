@@ -1,12 +1,12 @@
 {
   "id": "src-gen-great-expectations-012",
   "pool": "sourced",
-  "text": "We have no choice, you and I, but to obey our instructions. We are not free to follow our own devices, you and I.” As she looked at me in giving me the purse, I hoped there was an inner meaning in her words. She said them slightingly, but not with displeasure. “A carriage will have to be sent for, Estella. Will you rest here a little?” “Yes, I am to rest here a little, and I am to drink some tea, and you are to take care of me the while.” She drew her arm through mine, as if it must be done, and I requested a waiter who had been staring at the coach like a man who had never seen such a thing in his life, to show us a private sitting-room.",
+  "text": "When we had passed the village and the church and the churchyard, and were out on the marshes and began to see the sails of the ships as they sailed on, I began to combine Miss Havisham and Estella with the prospect, in my usual way. When we came to the river-side and sat down on the bank, with the water rippling at our feet, making it all more quiet than it would have been without that sound, I resolved that it was a good time and place for the admission of Biddy into my inner confidence. “Biddy,” said I, after binding her to secrecy, “I want to be a gentleman.” “O, I wouldn’t, if I was you!” she returned. “I don’t think it would answer.” “Biddy,” said I, with some severity, “I have particular reasons for wanting to be a gentleman.” “You know best, Pip; but don’t you think you are happier as you are?” “Biddy,” I exclaimed, impatiently, “I am not at all happy as I am. I am disgusted with my calling and with my life.",
   "words": [
     {
-      "word": "purse",
+      "word": "prospect",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-the-wild-032",
+  "pool": "sourced",
+  "text": "But the path began nowhere and ended nowhere, and it remained mystery, as the man who made it and the reason he made it remained mystery. Another time they chanced upon the time-graven wreckage of a hunting lodge, and amid the shreds of rotted blankets John Thornton found a long-barrelled flint-lock. He knew it for a Hudson Bay Company gun of the young days in the Northwest, when such a gun was worth its height in beaver skins packed flat, And that was all—no hint as to the man who in an early day had reared the lodge and left the gun among the blankets. Spring came on once more, and at the end of all their wandering they found, not the Lost Cabin, but a shallow placer in a broad valley where the gold showed like yellow butter across the bottom of the washing-pan. They sought no farther.",
+  "words": [
+    {
+      "word": "lodge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "beaver",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

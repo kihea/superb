@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-038",
+  "pool": "sourced",
+  "text": "In this manner many appalling hours passed; several of my dogs died, and I myself was about to sink under the accumulation of distress when I saw your vessel riding at anchor and holding forth to me hopes of succour and life. I had no conception that vessels ever came so far north and was astounded at the sight. I quickly destroyed part of my sledge to construct oars, and by these means was enabled, with infinite fatigue, to move my ice raft in the direction of your ship. I had determined, if you were going southwards, still to trust myself to the mercy of the seas rather than abandon my purpose. I hoped to induce you to grant me a boat with which I could pursue my enemy.",
+  "words": [
+    {
+      "word": "sink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

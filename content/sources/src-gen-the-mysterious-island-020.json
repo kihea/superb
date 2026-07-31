@@ -1,34 +1,22 @@
 {
   "id": "src-gen-the-mysterious-island-020",
   "pool": "sourced",
-  "text": "“And we can’t put it out!” replied Herbert. “The volcano ought to be swept,” observed Neb, who spoke as if perfectly serious. “Well said, Neb!” cried Pencroft, with a shout of laughter; “and you’ll undertake the job, no doubt?” Cyrus Harding attentively observed the dense smoke emitted by Mount Franklin, and even listened, as if expecting to hear some distant muttering. Then, turning towards his companions, from whom he had gone somewhat apart, he said,-- “The truth is, my friends, we must not conceal from ourselves that an important change is going forward. The volcanic substances are no longer in a state of ebullition, they have caught fire, and we are undoubtedly menaced by an approaching eruption.” “Well, captain,” said Pencroft, “we shall witness the eruption; and if it is a good one, we’ll applaud it.",
+  "text": "As to powder, Cyrus Harding would have been able to make that also, for he had at his disposal saltpeter, sulphur, and coal; but this preparation requires extreme care, and without special tools it is difficult to produce it of a good quality. Harding preferred, therefore, to manufacture pyroxyle, that is to say gun-cotton, a substance in which cotton is not indispensable, as the elementary tissue of vegetables may be used, and this is found in an almost pure state, not only in cotton, but in the textile fiber of hemp and flax, in paper, the pith of the elder, etc. Now, the elder abounded in the island towards the mouth of Red Creek, and the colonists had already made coffee of the berries of these shrubs, which belong to the family of the caprifoliaceae. The only thing to be collected, therefore, was elder-pith, for as to the other substance necessary for the manufacture of pyroxyle, it was only fuming azotic acid. Now, Harding having sulphuric acid at his disposal, had already been easily able to produce azotic acid by attacking the saltpeter with which nature supplied him.",
   "words": [
     {
-      "word": "volcano",
+      "word": "manufacture",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "indispensable",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "companions",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "volcanic",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "undoubtedly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "eruption",
+      "word": "textile",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-o-pioneers-008",
   "pool": "sourced",
-  "text": "All we have ever managed to do is to pay our rent, the exorbitant rent that one has to pay for a few square feet of space near the heart of things. We have no house, no place, no people of our own. We live in the streets, in the parks, in the theatres. We sit in restaurants and concert halls and look about at the hundreds of our own kind and shudder.” Alexandra was silent. She sat looking at the silver spot the moon made on the surface of the pond down in the pasture.",
+  "text": "When he was satisfied with the edge of his blade, he slipped the whetstone into his hip pocket and began to swing his scythe, still whistling, but softly, out of respect to the quiet folk about him. Unconscious respect, probably, for he seemed intent upon his own thoughts, and, like the Gladiator’s, they were far away. He was a splendid figure of a boy, tall and straight as a young pine tree, with a handsome head, and stormy gray eyes, deeply set under a serious brow. The space between his two front teeth, which were unusually far apart, gave him the proficiency in whistling for which he was distinguished at college. (He also played the cornet in the University band.)",
   "words": [
     {
-      "word": "theatres",
+      "word": "unconscious",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pond",
+      "word": "pine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Willa Cather",
     "year": 1913,
     "source": "Project Gutenberg #24",
-    "url": "https://www.gutenberg.org/ebooks/24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

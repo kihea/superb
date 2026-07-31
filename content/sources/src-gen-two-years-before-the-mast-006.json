@@ -1,16 +1,34 @@
 {
   "id": "src-gen-two-years-before-the-mast-006",
   "pool": "sourced",
-  "text": "We drifted fairly into the Loriotte, her larboard bow into our starboard quarter, carrying away a part of our starboard quarter railing, and breaking off her larboard bumpkin, and one or two stanchions above the deck. We saw our handsome sailor, Jackson, on the forecastle, with the Sandwich Islanders, working away to get us clear. After paying out chain, we swung clear, but our anchors were no doubt afoul of hers. We manned the windlass, and hove, and hove away, but to no purpose. Sometimes we got a little upon the cable, but a good surge would take it all back again.",
+  "text": "As it was January when we arrived, and the middle of the south-easter season, we accordingly came to anchor at the distance of three miles from the shore, in eleven fathoms water, and bent a slip-rope and buoys to our cables, cast off the yard-arm gaskets from the sails, and stopped them all with rope-yarns. After we had done this, the boat went ashore with the captain, and returned with orders to the mate to send a boat ashore for him at sundown. I did not go in the first boat, and was glad to find that there was another going before night; for after so long a voyage as ours had been, a few hours is long to pass in sight and out of reach of land. We spent the day on board in the usual avocations; but as this was the first time we had been without the captain, we felt a little more freedom, and looked about us to see what sort of a country we had got into, and were to spend a year or two of our lives in.",
   "words": [
     {
-      "word": "starboard",
+      "word": "eleven",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sailor",
+      "word": "bent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ashore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "voyage",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

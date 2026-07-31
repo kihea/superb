@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-037",
+  "pool": "sourced",
+  "text": "A heavy-scented broom and many flowering shrubs had almost taken the place of grass. Thickets of green nutmeg-trees were dotted here and there with the red columns and the broad shadow of the pines; and the first mingled their spice with the aroma of the others. The air, besides, was fresh and stirring, and this, under the sheer sunbeams, was a wonderful refreshment to our senses. The party spread itself abroad, in a fan shape, shouting and leaping to and fro. About the centre, and a good way behind the rest, Silver and I followed--I tethered by my rope, he ploughing, with deep pants, among the sliding gravel.",
+  "words": [
+    {
+      "word": "scented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "columns",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

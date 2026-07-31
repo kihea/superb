@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-006",
   "pool": "sourced",
-  "text": "Whatever it was, the Thing either lacked the courage to attack me, or it was waiting to take me at some disadvantage. I kept studiously to the open. At times I would turn and listen; and presently I had half persuaded myself that my pursuer had abandoned the chase, or was a mere creation of my disordered imagination. Then I heard the sound of the sea. I quickened my footsteps almost into a run, and immediately there was a stumble in my rear.",
+  "text": "But it’s no use locking the door after the steed is stolen. It was that infernal stuff which led to my coming here,—that, and a foggy night. I thought myself in luck at the time, when Moreau offered to get me off. It’s queer—” “Montgomery,” said I, suddenly, as the outer door closed, “why has your man pointed ears?” “Damn!” he said, over his first mouthful of food. He stared at me for a moment, and then repeated, “Pointed ears?” “Little points to them,” said I, as calmly as possible, with a catch in my breath; “and a fine black fur at the edges?” He helped himself to whiskey and water with great deliberation.",
   "words": [
     {
-      "word": "presently",
+      "word": "locking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "edges",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

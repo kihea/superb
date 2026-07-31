@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-christmas-carol-031",
+  "pool": "sourced",
+  "text": "Of course there was. And I no more believe Topper was really blind than I believe he had eyes in his boots. My opinion is, that it was a done thing between him and Scrooge's nephew; and that the Ghost of Christmas Present knew it. The way he went after that plump sister in the lace tucker, was an outrage on the credulity of human nature. Knocking down the fire-irons, tumbling over the chairs, bumping against the piano, smothering himself among the curtains, wherever she went, there went he!",
+  "words": [
+    {
+      "word": "nephew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

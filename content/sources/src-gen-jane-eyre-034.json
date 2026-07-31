@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-034",
+  "pool": "sourced",
+  "text": "I knew his thoughts well, and could read his heart plainly; at the moment I felt calmer and cooler than he: I had then temporarily the advantage of him, and I conceived an inclination to do him some good, if I could. “With all his firmness and self-control,” thought I, “he tasks himself too far: locks every feeling and pang within—expresses, confesses, imparts nothing. I am sure it would benefit him to talk a little about this sweet Rosamond, whom he thinks he ought not to marry: I will make him talk.” I said first, “Take a chair, Mr. Rivers.” But he answered, as he always did, that he could not stay. “Very well,” I responded, mentally, “stand if you like; but you shall not go just yet, I am determined: solitude is at least as bad for you as it is for me. I’ll try if I cannot discover the secret spring of your confidence, and find an aperture in that marble breast through which I can shed one drop of the balm of sympathy.” “Is this portrait like?” I asked bluntly.",
+  "words": [
+    {
+      "word": "mentally",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

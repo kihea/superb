@@ -1,24 +1,12 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-019",
   "pool": "sourced",
-  "text": "The monster resumed his mask and collected his strength to leave the daroga. He told him that, when he felt his end to be very near at hand, he would send him, in gratitude for the kindness which the Persian had once shown him, that which he held dearest in the world: all Christine Daae's papers, which she had written for Raoul's benefit and left with Erik, together with a few objects belonging to her, such as a pair of gloves, a shoe-buckle and two pocket-handkerchiefs. In reply to the Persian's questions, Erik told him that the two young people, at soon as they found themselves free, had resolved to go and look for a priest in some lonely spot where they could hide their happiness and that, with this object in view, they had started from \"the northern railway station of the world.\" Lastly, Erik relied on the Persian, as soon as he received the promised relics and papers, to inform the young couple of his death and to advertise it in the EPOQUE. That was all.",
+  "text": "However extraordinary the adventure might be, I was now surrounded by mortal, visible, tangible things. The furniture, the hangings, the candles, the vases and the very flowers in their baskets, of which I could almost have told whence they came and what they cost, were bound to confine my imagination to the limits of a drawing-room quite as commonplace as any that, at least, had the excuse of not being in the cellars of the Opera. I had, no doubt, to do with a terrible, eccentric person, who, in some mysterious fashion, had succeeded in taking up his abode there, under the Opera house, five stories below the level of the ground. And the voice, the voice which I had recognized under the mask, was on its knees before me, WAS A MAN! And I began to cry...",
   "words": [
     {
-      "word": "gloves",
+      "word": "candles",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "buckle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "relics",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -27,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

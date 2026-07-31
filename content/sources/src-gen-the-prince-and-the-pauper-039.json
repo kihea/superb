@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-039",
+  "pool": "sourced",
+  "text": "As long as the King lived he was fond of telling the story of his adventures, all through, from the hour that the sentinel cuffed him away from the palace gate till the final midnight when he deftly mixed himself into a gang of hurrying workmen and so slipped into the Abbey and climbed up and hid himself in the Confessor’s tomb, and then slept so long, next day, that he came within one of missing the Coronation altogether. He said that the frequent rehearsing of the precious lesson kept him strong in his purpose to make its teachings yield benefits to his people; and so, whilst his life was spared he should continue to tell the story, and thus keep its sorrowful spectacles fresh in his memory and the springs of pity replenished in his heart. Miles Hendon and Tom Canty were favourites of the King, all through his brief reign, and his sincere mourners when he died.",
+  "words": [
+    {
+      "word": "tomb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

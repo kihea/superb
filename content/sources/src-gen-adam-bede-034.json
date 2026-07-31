@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adam-bede-034",
+  "pool": "sourced",
+  "text": "The Irwines should dine with him every week, and have their own carriage to come in, for in some very delicate way that Arthur would devise, the lay-impropriator of the Hayslope tithes would insist on paying a couple of hundreds more to the vicar; and his aunt should be as comfortable as possible, and go on living at the Chase, if she liked, in spite of her old-maidish ways—at least until he was married, and that event lay in the indistinct background, for Arthur had not yet seen the woman who would play the lady-wife to the first-rate country gentleman. These were Arthur’s chief thoughts, so far as a man’s thoughts through hours of travelling can be compressed into a few sentences, which are only like the list of names telling you what are the scenes in a long long panorama full of colour, of detail, and of life. The happy faces Arthur saw greeting him were not pale abstractions, but real ruddy faces, long familiar to him: Martin Poyser was there—the whole Poyser family. What—Hetty?",
+  "words": [
+    {
+      "word": "vicar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "source": "Project Gutenberg #507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-mill-on-the-floss-018",
   "pool": "sourced",
-  "text": "A woman’s arm touched the soul of a great sculptor two thousand years ago, so that he wrought an image of it for the Parthenon which moves us still as it clasps lovingly the timeworn marble of a headless trunk. Maggie’s was such an arm as that, and it had the warm tints of life. A mad impulse seized on Stephen; he darted toward the arm, and showered kisses on it, clasping the wrist. But the next moment Maggie snatched it from him, and glared at him like a wounded war-goddess, quivering with rage and humiliation. “How dare you?” She spoke in a deeply shaken, half-smothered voice.",
+  "text": "The shaking of hands was a melancholy and silent ceremony, till uncle Pullet observed, as Tom approached him: “Well, young sir, we’ve been talking as we should want your pen and ink; you can write rarely now, after all your schooling, I should think.” “Ay, ay,” said uncle Glegg, with admonition which he meant to be kind, “we must look to see the good of all this schooling, as your father’s sunk so much money in, now,— ‘When land is gone and money’s spent, Then learning is most excellent.’ Now’s the time, Tom, to let us see the good o’ your learning. Let us see whether you can do better than I can, as have made my fortin without it. But I began wi’ doing with little, you see; I could live on a basin o’ porridge and a crust o’ bread-and-cheese. But I doubt high living and high learning ’ull make it harder for you, young man, nor it was for me.” “But he must do it,” interposed aunt Glegg, energetically, “whether it’s hard or no.",
   "words": [
     {
-      "word": "wrist",
+      "word": "ay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crust",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

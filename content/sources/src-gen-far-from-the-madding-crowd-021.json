@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-021",
+  "pool": "sourced",
+  "text": "BLAME—FURY The next evening Bathsheba, with the idea of getting out of the way of Mr. Boldwood in the event of his returning to answer her note in person, proceeded to fulfil an engagement made with Liddy some few hours earlier. Bathsheba’s companion, as a gage of their reconciliation, had been granted a week’s holiday to visit her sister, who was married to a thriving hurdler and cattle-crib-maker living in a delightful labyrinth of hazel copse not far from Yalbury. The arrangement was that Miss Everdene should honour them by coming there for a day or two to inspect some ingenious contrivances which this man of the woods had introduced into his wares. Leaving her instructions with Gabriel and Maryann, that they were to see everything carefully locked up for the night, she went out of the house just at the close of a timely thunder-shower, which had refined the air, and daintily bathed the mere coat of the land, all beneath being dry as ever. Freshness was exhaled in an essence from the varied contours of bank and hollow, as if the earth breathed maiden breath, and the pleased birds were hymning to the scene.",
+  "words": [
+    {
+      "word": "inspect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ingenious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thunder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "essence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breathed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-019",
   "pool": "sourced",
-  "text": "Please do not think I mean that Boulnois could not be so wicked. Anybody can be wicked--as wicked as he chooses. We can direct our moral wills; but we can’t generally change our instinctive tastes and ways of doing things. Boulnois might commit a murder, but not this murder. He would not snatch Romeo’s sword from its romantic scabbard; or slay his foe on the sundial as on a kind of altar; or leave his body among the roses, or fling the sword away among the pines.",
+  "text": "Anyhow, I settled down at last, and had a quiet dinner alone (for it was against the rules to disturb Arthur when he was rearranging the museum), and, my thoughts, a little released, fled to Philip and lost themselves, I suppose. Anyhow, I was looking blankly, but rather pleasantly than otherwise, at another window, uncurtained, but by this time black as a slate with the final night-fall. It seemed to me that something like a snail was on the outside of the window-pane. But when I stared harder, it was more like a man’s thumb pressed on the pane; it had that curled look that a thumb has. With my fear and courage re-awakened together, I rushed at the window and then recoiled with a strangled scream that any man but Arthur must have heard.",
   "words": [
     {
-      "word": "wicked",
+      "word": "disturb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scream",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

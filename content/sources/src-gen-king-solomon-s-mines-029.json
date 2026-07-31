@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-029",
+  "pool": "sourced",
+  "text": "“The stubborn spearmen still made good The dark impenetrable wood, Each stepping where his comrade stood The instant that he fell,” as someone or other beautifully says. It was a splendid thing to see those brave battalions come on time after time over the barriers of their dead, sometimes lifting corpses before them to receive our spear-thrusts, only to leave their own corpses to swell the rising piles. It was a gallant sight to see that old warrior, Infadoos, as cool as though he were on parade, shouting out orders, taunts, and even jests, to keep up the spirit of his few remaining men, and then, as each charge rolled on, stepping forward to wherever the fighting was thickest, to bear his share in its repulse. And yet more gallant was the vision of Sir Henry, whose ostrich plumes had been shorn off by a spear thrust, so that his long yellow hair streamed out in the breeze behind him. There he stood, the great Dane, for he was nothing else, his hands, his axe, and his armour all red with blood, and none could live before his stroke.",
+  "words": [
+    {
+      "word": "spear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gallant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "axe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

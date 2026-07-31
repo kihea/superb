@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-peter-pan-033",
+  "pool": "sourced",
+  "text": "The crocodile passed him, but not another living thing, not a sound, not a movement; and yet he knew well that sudden death might be at the next tree, or stalking him from behind. He swore this terrible oath: “Hook or me this time.” Now he crawled forward like a snake, and again erect, he darted across a space on which the moonlight played, one finger on his lip and his dagger at the ready. He was frightfully happy. THE PIRATE SHIP One green light squinting over Kidd’s Creek, which is near the mouth of the pirate river, marked where the brig, the Jolly Roger, lay, low in the water; a rakish-looking craft foul to the hull, every beam in her detestable, like ground strewn with mangled feathers. She was the cannibal of the seas, and scarce needed that watchful eye, for she floated immune in the horror of her name.",
+  "words": [
+    {
+      "word": "oath",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brig",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

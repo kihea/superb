@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-028",
+  "pool": "sourced",
+  "text": "The fresh snow froze like this in the night sometimes, and this was an enjoyable time for Peter, for he would get through the window on to the hard, smooth, frozen ground, and his mother would hand him out the little sleigh, and he could then make his descent to Dorfli along any route he chose, for the whole mountain was nothing but one wide, unbroken sleigh road. Alm-Uncle had kept his word and was not spending the winter in his old home. As soon as the first snow began to fall, he had shut up the hut and the outside buildings and gone down to Dorfli with Heidi and the goats. Near the church was a straggling half-ruined building, which had once been the house of a person of consequence. A distinguished soldier had lived there at one time; he had taken service in Spain and had there performed many brave deeds and gathered much treasure.",
+  "words": [
+    {
+      "word": "unbroken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

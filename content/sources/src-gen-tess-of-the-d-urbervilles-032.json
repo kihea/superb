@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-tess-of-the-d-urbervilles-032",
+  "pool": "sourced",
+  "text": "A ranter preaches there between the services—an excellent, fiery, Christian man, they say. But, Lord, I don’t go to hear’n! What comes in the regular way over the pulpit is hot enough for I.” Tess soon went onward into the village, her footsteps echoing against the houses as though it were a place of the dead. Nearing the central part, her echoes were intruded on by other sounds; and seeing the barn not far off the road, she guessed these to be the utterances of the preacher. His voice became so distinct in the still clear air that she could soon catch his sentences, though she was on the closed side of the barn.",
+  "words": [
+    {
+      "word": "pulpit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "echoing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preacher",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "source": "Project Gutenberg #110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

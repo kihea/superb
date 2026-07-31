@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-anne-of-green-gables-038",
+  "pool": "sourced",
+  "text": "Anne will not meet with any objectionable persons under her roof. The table is good, and the house is near the Academy, in a quiet neighborhood.” All this might be quite true, and indeed, proved to be so, but it did not materially help Anne in the first agony of homesickness that seized upon her. She looked dismally about her narrow little room, with its dull-papered, pictureless walls, its small iron bedstead and empty bookcase; and a horrible choke came into her throat as she thought of her own white room at Green Gables, where she would have the pleasant consciousness of a great green still outdoors, of sweet peas growing in the garden, and moonlight falling on the orchard, of the brook below the slope and the spruce boughs tossing in the night wind beyond it, of a vast starry sky, and the light from Diana’s window shining out through the gap in the trees. Here there was nothing of this; Anne knew that outside of her window was a hard street, with a network of telephone wires shutting out the sky, the tramp of alien feet, and a thousand lights gleaming on stranger faces.",
+  "words": [
+    {
+      "word": "choke",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outdoors",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "orchard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spruce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tossing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

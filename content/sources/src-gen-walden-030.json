@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-walden-030",
+  "pool": "sourced",
+  "text": "One night in the beginning of winter, before the pond froze over, about nine o’clock, I was startled by the loud honking of a goose, and, stepping to the door, heard the sound of their wings like a tempest in the woods as they flew low over my house. They passed over the pond toward Fair Haven, seemingly deterred from settling by my light, their commodore honking all the while with a regular beat. Suddenly an unmistakable cat-owl from very near me, with the most harsh and tremendous voice I ever heard from any inhabitant of the woods, responded at regular intervals to the goose, as if determined to expose and disgrace this intruder from Hudson’s Bay by exhibiting a greater compass and volume of voice in a native, and boo-hoo him out of Concord horizon. What do you mean by alarming the citadel at this time of night consecrated to me? Do you think I am ever caught napping at such an hour, and that I have not got lungs and a larynx as well as yourself?",
+  "words": [
+    {
+      "word": "tempest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "settling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "expose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,28 +1,28 @@
 {
   "id": "src-gen-the-king-in-yellow-017",
   "pool": "sourced",
-  "text": "The sun hung, a purple globe, above the misty hills of Meudon. Long streamers of clouds touched with rose swept low on the western sky, and the dome of the distant Invalides burned like an opal through the haze. Behind the Palace the smoke from a high chimney mounted straight into the air, purple until it crossed the sun, where it changed to a bar of smouldering fire. High above the darkening foliage of the chestnuts the twin towers of St. Sulpice rose, an ever-deepening silhouette. A sleepy blackbird was carolling in some near thicket, and pigeons passed and repassed with the whisper of soft winds in their wings.",
+  "text": "Courtesy to the stranger, Pelagie, remember!” And a feeble voice came quavering from within the house, “Courtoisie.” I stripped, and rubbed myself from head to foot in the huge earthen basin of icy water which stood upon the stone floor at the foot of my bed. Then I looked about for my clothes. They were gone, but on a settle near the door lay a heap of garments which I inspected with astonishment. As my clothes had vanished, I was compelled to attire myself in the costume which had evidently been placed there for me to wear while my own clothes dried. Everything was there, cap, shoes, and hunting doublet of silvery grey homespun; but the close-fitting costume and seamless shoes belonged to another century, and I remembered the strange costumes of the three falconers in the courtyard.",
   "words": [
     {
-      "word": "hung",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "clouds",
+      "word": "vanished",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "opal",
+      "word": "attire",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "haze",
+      "word": "costume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dried",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +33,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

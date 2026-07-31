@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-call-of-the-wild-004",
   "pool": "sourced",
-  "text": "A great uproar was raised, but he was unsuspected; while Dub, an awkward blunderer who was always getting caught, was punished for Buck’s misdeed. This first theft marked Buck as fit to survive in the hostile Northland environment. It marked his adaptability, his capacity to adjust himself to changing conditions, the lack of which would have meant swift and terrible death. It marked, further, the decay or going to pieces of his moral nature, a vain thing and a handicap in the ruthless struggle for existence. It was all well enough in the Southland, under the law of love and fellowship, to respect private property and personal feelings; but in the Northland, under the law of club and fang, whoso took such things into account was a fool, and in so far as he observed them he would fail to prosper.",
+  "text": "The tent, illumined by a candle, glowed warmly in the midst of the white plain; and when he, as a matter of course, entered it, both Perrault and François bombarded him with curses and cooking utensils, till he recovered from his consternation and fled ignominiously into the outer cold. A chill wind was blowing that nipped him sharply and bit with especial venom into his wounded shoulder. He lay down on the snow and attempted to sleep, but the frost soon drove him shivering to his feet. Miserable and disconsolate, he wandered about among the many tents, only to find that one place was as cold as another. Here and there savage dogs rushed upon him, but he bristled his neck-hair and snarled (for he was learning fast), and they let him go his way unmolested.",
   "words": [
     {
-      "word": "theft",
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1903,
     "source": "Project Gutenberg #215",
-    "url": "https://www.gutenberg.org/ebooks/215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

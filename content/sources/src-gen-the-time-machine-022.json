@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-time-machine-022",
+  "pool": "sourced",
+  "text": "Probably my health was a little disordered. I was oppressed with perplexity and doubt. Once or twice I had a feeling of intense fear for which I could perceive no definite reason. I remember creeping noiselessly into the great hall where the little people were sleeping in the moonlight—that night Weena was among them—and feeling reassured by their presence. It occurred to me even then, that in the course of a few days the moon must pass through its last quarter, and the nights grow dark, when the appearances of these unpleasant creatures from below, these whitened Lemurs, this new vermin that had replaced the old, might be more abundant.",
+  "words": [
+    {
+      "word": "moonlight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "abundant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": 1895,
+    "source": "Project Gutenberg #35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

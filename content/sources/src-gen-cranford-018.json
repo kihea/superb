@@ -1,10 +1,16 @@
 {
   "id": "src-gen-cranford-018",
   "pool": "sourced",
-  "text": "Miss Matty and I sat assenting to accounts, and schemes, and reports, and documents, of which I do not believe we either of us understood a word; for my father was clear-headed and decisive, and a capital man of business, and if we made the slightest inquiry, or expressed the slightest want of comprehension, he had a sharp way of saying, “Eh? it’s as clear as daylight. What’s your objection?” And as we had not comprehended anything of what he had proposed, we found it rather difficult to shape our objections; in fact, we never were sure if we had any. So presently Miss Matty got into a nervously acquiescent state, and said “Yes,” and “Certainly,” at every pause, whether required or not; but when I once joined in as chorus to a “Decidedly,” pronounced by Miss Matty in a tremblingly dubious tone, my father fired round at me and asked me “What there was to decide?” And I am sure to this day I have never known.",
+  "text": "I daren’t even trust the washing of it to my maid” (the little charity school-girl I have named before, but who sounded well as “my maid”). “I always wash it myself. And once it had a narrow escape. Of course, your ladyship knows that such lace must never be starched or ironed. Some people wash it in sugar and water, and some in coffee, to make it the right yellow colour; but I myself have a very good receipt for washing it in milk, which stiffens it enough, and gives it a very good creamy colour.",
   "words": [
     {
-      "word": "daylight",
+      "word": "washing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "maid",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1853,
     "source": "Project Gutenberg #394",
-    "url": "https://www.gutenberg.org/ebooks/394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

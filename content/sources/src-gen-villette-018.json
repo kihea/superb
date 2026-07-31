@@ -1,16 +1,34 @@
 {
   "id": "src-gen-villette-018",
   "pool": "sourced",
-  "text": "My best friends point out danger, and whisper caution.” “You do right to listen to your friends. By all means be cautious.” “It is your religion—your strange, self-reliant, invulnerable creed, whose influence seems to clothe you in, I know not what, unblessed panoply. You are good—Père Silas calls you good, and loves you—but your terrible, proud, earnest Protestantism, there is the danger. It expresses itself by your eye at times; and again, it gives you certain tones and certain gestures that make my flesh creep. You are not demonstrative, and yet, just now—when you handled that tract—my God!",
+  "text": "How much of it lay in the atmosphere of friendship diffused about me, I know not: Dr. John and his mother were both in their finest mood, contending animatedly with each other the whole way, and as frankly kind to me as if I had been of their kin. Our way lay through some of the best streets of Villette, streets brightly lit, and far more lively now than at high noon. How brilliant seemed the shops! How glad, gay, and abundant flowed the tide of life along the broad pavement! While I looked, the thought of the Rue Fossette came across me—of the walled-in garden and school-house, and of the dark, vast “classes,” where, as at this very hour, it was my wont to wander all solitary, gazing at the stars through the high, blindless windows, and listening to the distant voice of the reader in the refectory, monotonously exercised upon the “lecture pieuse.” Thus must I soon again listen and wander; and this shadow of the future stole with timely sobriety across the radiant present.",
   "words": [
     {
-      "word": "caution",
+      "word": "frankly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cautious",
+      "word": "kin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lively",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wont",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

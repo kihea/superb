@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-walden-034",
+  "pool": "sourced",
+  "text": "As the weather grew warmer it was not sensibly worn away by the water, nor broken up and floated off as in rivers, but, though it was completely melted for half a rod in width about the shore, the middle was merely honey-combed and saturated with water, so that you could put your foot through it when six inches thick; but by the next day evening, perhaps, after a warm rain followed by fog, it would have wholly disappeared, all gone off with the fog, spirited away. One year I went across the middle only five days before it disappeared entirely. In 1845 Walden was first completely open on the 1st of April; in ’46, the 25th of March; in ’47, the 8th of April; in ’51, the 28th of March; in ’52, the 18th of April; in ’53, the 23d of March; in ’54, about the 7th of April. Every incident connected with the breaking up of the rivers and ponds and the settling of the weather is particularly interesting to us who live in a climate of so great extremes.",
+  "words": [
+    {
+      "word": "warmer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fog",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wholly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "settling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "src-gen-two-years-before-the-mast-029",
+  "pool": "sourced",
+  "text": "The rigging was then sent down and coiled away below, and everything was made snug aloft. There was not a sailor in the ship who was not rejoiced to see these sticks come down; for, so long as the yards were aloft, on the least sign of a lull, the top-gallant sails were loosed, and then we had to furl them again in a snow-squall, and shin up and down single ropes caked with ice, and send royal yards down in the teeth of a gale coming right from the south pole. It was an interesting sight, too, to see our noble ship, dismantled of all her top-hamper of long tapering masts and yards, and boom pointed with spear-head, which ornamented her in port; and all that canvas, which a few days before had covered her like a cloud, from the truck to the water's edge, spreading far out beyond her hull on either side, now gone; and she, stripped, like a wrestler for the fight. It corresponded, too, with the desolate character of her situation;--alone, as she was, battling with storms, wind, and ice, at this extremity of the globe, and in almost constant night. Friday, July 1st.",
+  "words": [
+    {
+      "word": "rigging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sails",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canvas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stripped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

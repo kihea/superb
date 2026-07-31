@@ -1,10 +1,16 @@
 {
   "id": "src-gen-middlemarch-005",
   "pool": "sourced",
-  "text": "Happily, there is a common language between women and men, and so the bears can get taught.” “Ah, there is Fred beginning to strum! I must go and hinder him from jarring all your nerves,” said Rosamond, moving to the other side of the room, where Fred having opened the piano, at his father’s desire, that Rosamond might give them some music, was parenthetically performing “Cherry Ripe!” with one hand. Able men who have passed their examinations will do these things sometimes, not less than the plucked Fred. “Fred, pray defer your practising till to-morrow; you will make Mr. Lydgate ill,” said Rosamond. “He has an ear.” Fred laughed, and went on with his tune to the end.",
+  "text": "“You must have misunderstood me very much,” she said, “if you think I should not enter into the value of your time—if you think that I should not willingly give up whatever interfered with your using it to the best purpose.” “That is very amiable in you, my dear Dorothea,” said Mr. Casaubon, not in the least noticing that she was hurt; “but if you had a lady as your companion, I could put you both under the care of a cicerone, and we could thus achieve two purposes in the same space of time.” “I beg you will not refer to this again,” said Dorothea, rather haughtily. But immediately she feared that she was wrong, and turning towards him she laid her hand on his, adding in a different tone, “Pray do not be anxious about me. I shall have so much to think of when I am alone. And Tantripp will be a sufficient companion, just to take care of me. I could not bear to have Celia: she would be miserable.” It was time to dress.",
   "words": [
     {
-      "word": "hinder",
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

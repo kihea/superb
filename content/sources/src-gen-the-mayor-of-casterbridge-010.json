@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-mayor-of-casterbridge-010",
   "pool": "sourced",
-  "text": "“You have quarreled more deeply than I know of.” Elizabeth, wishing to shield the man she believed to be her father from any charge of unnatural dislike, said “Yes.” “Then where you are is, of all places, the one he will avoid?” Elizabeth nodded sadly. Lucetta looked blank, twitched up her lovely eyebrows and lip, and burst into hysterical sobs. Here was a disaster—her ingenious scheme completely stultified. “O, my dear Miss Templeman—what’s the matter?” cried her companion. “I like your company much!” said Lucetta, as soon as she could speak.",
+  "text": "Besides, it was at her mother more particularly than at herself that he looked, to Elizabeth-Jane’s half-conscious, simple-minded, perhaps pardonable, disappointment. Thus she could not account for this interest by her own attractiveness, and she decided that it might be apparent only—a way of turning his eyes that Mr. Farfrae had. She did not divine the ample explanation of his manner, without personal vanity, that was afforded by the fact of Donald being the depositary of Henchard’s confidence in respect of his past treatment of the pale, chastened mother who walked by her side. Her conjectures on that past never went further than faint ones based on things casually heard and seen—mere guesses that Henchard and her mother might have been lovers in their younger days, who had quarrelled and parted. Casterbridge, as has been hinted, was a place deposited in the block upon a corn-field.",
   "words": [
     {
-      "word": "companion",
+      "word": "casually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

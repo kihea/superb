@@ -1,10 +1,22 @@
 {
   "id": "src-gen-howards-end-007",
   "pool": "sourced",
-  "text": "At lunch her brother, seeing her inclined for silence, insisted on talking. Tibby was not ill-natured, but from babyhood something drove him to do the unwelcome and the unexpected. Now he gave her a long account of the day-school that he sometimes patronized. The account was interesting, and she had often pressed him for it before, but she could not attend now, for her mind was focussed on the invisible. She discerned that Mrs. Wilcox, though a loving wife and mother, had only one passion in life—her house—and that the moment was solemn when she invited a friend to share this passion with her.",
+  "text": "Even at Queen Victoria’s dinner-party—if something had been just a little different—perhaps if she’d worn a clinging Liberty tea-gown instead of a magenta satin—” “With an Indian shawl over her shoulders—” “Fastened at the bosom with a Cairngorm-pin—” Bursts of disloyal laughter—you must remember that they are half German—greeted these suggestions, and Margaret said pensively, “How inconceivable it would be if the Royal Family cared about Art.” And the conversation drifted away and away, and Helen’s cigarette turned to a spot in the darkness, and the great flats opposite were sown with lighted windows, which vanished and were relit again, and vanished incessantly. Beyond them the thoroughfare roared gently—a tide that could never be quiet, while in the east, invisible behind the smokes of Wapping, the moon was rising. “That reminds me, Margaret. We might have taken that young man into the dining-room, at all events. Only the majolica plate—and that is so firmly set in the wall.",
   "words": [
     {
-      "word": "inclined",
+      "word": "shawl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dining",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

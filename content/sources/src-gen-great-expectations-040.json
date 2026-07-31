@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-040",
+  "pool": "sourced",
+  "text": "Now, you shall see me walk back by myself.” “Which do not overdo it, Pip,” said Joe; “but I shall be happy fur to see you able, sir.” The last word grated on me; but how could I remonstrate! I walked no further than the gate of the gardens, and then pretended to be weaker than I was, and asked Joe for his arm. Joe gave it me, but was thoughtful. I, for my part, was thoughtful too; for, how best to check this growing change in Joe was a great perplexity to my remorseful thoughts. That I was ashamed to tell him exactly how I was placed, and what I had come down to, I do not seek to conceal; but I hope my reluctance was not quite an unworthy one.",
+  "words": [
+    {
+      "word": "weaker",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

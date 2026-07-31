@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-030",
+  "pool": "sourced",
+  "text": "I had one morsel of bread yet: the remnant of a roll I had bought in a town we passed through at noon with a stray penny—my last coin. I saw ripe bilberries gleaming here and there, like jet beads in the heath: I gathered a handful and ate them with the bread. My hunger, sharp before, was, if not satisfied, appeased by this hermit’s meal. I said my evening prayers at its conclusion, and then chose my couch. I said my evening prayers Beside the crag the heath was very deep: when I lay down my feet were buried in it; rising high on each side, it left only a narrow space for the night-air to invade.",
+  "words": [
+    {
+      "word": "penny",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "couch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

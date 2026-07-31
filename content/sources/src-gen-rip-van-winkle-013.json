@@ -1,24 +1,12 @@
 {
   "id": "src-gen-rip-van-winkle-013",
   "pool": "sourced",
-  "text": "The strange man with a keg of liquor--the mountain ravine--the wild retreat among the rocks--the woebegone party at ninepins--the flagon--“Oh! that flagon! that wicked flagon!” thought Rip,--“what excuse shall I make to Dame Van Winkle?” He looked round for his gun, but in place of the clean, well-oiled fowling-piece, he found an old firelock lying by him, the barrel incrusted with rust, the lock falling off, and the stock worm-eaten. He now suspected that the grave roysterers of the mountains had put a trick upon him, and, having dosed him with liquor, had robbed him of his gun. Wolf, too, had disappeared, but he might have strayed away after a squirrel or partridge.",
+  "text": "On a level spot in the centre was a company of odd-looking personages playing at ninepins. They were dressed in a quaint, outlandish fashion; some wore short doublets, others jerkins, with long knives in their belts, and most of them had enormous breeches, of similar style with that of the guide’s. Their visages, too, were peculiar; one had a large beard, broad face, and small piggish eyes; the face of another seemed to consist entirely of nose, and was surmounted by a white sugar-loaf hat, set off with a little red cock’s tail. They all had beards, of various shapes and colours. There was one who seemed to be the commander.",
   "words": [
     {
-      "word": "wicked",
+      "word": "peculiar",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "barrel",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rust",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -27,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

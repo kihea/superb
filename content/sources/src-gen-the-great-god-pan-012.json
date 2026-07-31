@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-great-god-pan-012",
   "pool": "sourced",
-  "text": "On the third page was a design which made Villiers start and look up at Austin; he was gazing abstractedly out of the window. Villiers turned page after page, absorbed, in spite of himself, in the frightful Walpurgis Night of evil, strange monstrous evil, that the dead artist had set forth in hard black and white. The figures of Fauns and Satyrs and Ægipans danced before his eyes, the darkness of the thicket, the dance on the mountain-top, the scenes by lonely shores, in green vineyards, by rocks and desert places, passed before him: a world before which the human soul seemed to shrink back and shudder. Villiers whirled over the remaining pages; he had seen enough, but the picture on the last leaf caught his eye, as he almost closed the book. “Austin!” “Well, what is it?” “Do you know who that is?” It was a woman’s face, alone on the white page.",
+  "text": "Villiers, that woman, if I can call her woman, corrupted my soul. The night of the wedding I found myself sitting in her bedroom in the hotel, listening to her talk. She was sitting up in bed, and I listened to her as she spoke in her beautiful voice, spoke of things which even now I would not dare whisper in the blackest night, though I stood in the midst of a wilderness. You, Villiers, you may think you know life, and London, and what goes on day and night in this dreadful city; for all I can say you may have heard the talk of the vilest, but I tell you you can have no conception of what I know, not in your most fantastic, hideous dreams can you have imaged forth the faintest shadow of what I have heard—and seen.",
   "words": [
     {
-      "word": "monstrous",
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

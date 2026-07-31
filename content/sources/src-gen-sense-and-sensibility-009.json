@@ -1,16 +1,22 @@
 {
   "id": "src-gen-sense-and-sensibility-009",
   "pool": "sourced",
-  "text": "I had quite depended upon meeting you there. Anne and me are to go the latter end of January to some relations who have been wanting us to visit them these several years! But I only go for the sake of seeing Edward. He will be there in February, otherwise London would have no charms for me; I have not spirits for it.\" Elinor was soon called to the card-table by the conclusion of the first rubber, and the confidential discourse of the two ladies was therefore at an end, to which both of them submitted without any reluctance, for nothing had been said on either side to make them dislike each other less than they had done before; and Elinor sat down to the card table with the melancholy persuasion that Edward was not only without affection for the person who was to be his wife; but that he had not even the chance of being tolerably happy in marriage, which sincere affection on her side would have given, for self-interest alone could induce a woman to keep a man to an engagement, of which she seemed so thoroughly aware that he was weary.",
+  "text": "So wondered, so talked Mrs. Jennings. Her opinion varying with every fresh conjecture, and all seeming equally probable as they arose. Elinor, though she felt really interested in the welfare of Colonel Brandon, could not bestow all the wonder on his going so suddenly away, which Mrs. Jennings was desirous of her feeling; for besides that the circumstance did not in her opinion justify such lasting amazement or variety of speculation, her wonder was otherwise disposed of. It was engrossed by the extraordinary silence of her sister and Willoughby on the subject, which they must know to be peculiarly interesting to them all. As this silence continued, every day made it appear more strange and more incompatible with the disposition of both.",
   "words": [
     {
-      "word": "spirits",
+      "word": "wondered",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "induce",
+      "word": "speculation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disposition",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

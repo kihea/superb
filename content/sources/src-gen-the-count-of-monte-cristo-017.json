@@ -1,34 +1,28 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-017",
   "pool": "sourced",
-  "text": "You have hastened to me—can I have the happiness of being useful to you?” 40286m “Yes, I need your help: that is I thought like a madman that you could lend me your assistance in a case where God alone can succor me.” “Tell me what it is,” replied Monte Cristo. “Oh,” said Morrel, “I know not, indeed, if I may reveal this secret to mortal ears, but fatality impels me, necessity constrains me, count——” Morrel hesitated. “Do you think I love you?” said Monte Cristo, taking the young man’s hand affectionately in his. “Oh, you encourage me, and something tells me there,” placing his hand on his heart, “that I ought to have no secret from you.” “You are right, Morrel; God is speaking to your heart, and your heart speaks to you. Tell me what it says.” “Count, will you allow me to send Baptistin to inquire after someone you know?” “I am at your service, and still more my servants.” “Oh, I cannot live if she is not better.” “Shall I ring for Baptistin?” “No, I will go and speak to him myself.” Morrel went out, called Baptistin, and whispered a few words to him.",
+  "text": "Thus the count was halfway turned towards his visitor, having his back towards the window, his elbow resting on the geographical chart which furnished the theme of conversation for the moment,—a conversation which assumed, as in the case of the interviews with Danglars and Morcerf, a turn analogous to the persons, if not to the situation. “Ah, you philosophize,” replied Villefort, after a moment’s silence, during which, like a wrestler who encounters a powerful opponent, he took breath; “well, sir, really, if, like you, I had nothing else to do, I should seek a more amusing occupation.” “Why, in truth, sir,” was Monte Cristo’s reply, “man is but an ugly caterpillar for him who studies him through a solar microscope; but you said, I think, that I had nothing else to do. Now, really, let me ask, sir, have you?—do you believe you have anything to do? or to speak in plain terms, do you really think that what you do deserves being called anything?” Villefort’s astonishment redoubled at this second thrust so forcibly made by his strange adversary.",
   "words": [
     {
-      "word": "madman",
+      "word": "visitor",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lend",
+      "word": "analogous",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "fatality",
+      "word": "thrust",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "inquire",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "whispered",
+      "word": "adversary",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +33,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

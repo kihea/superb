@@ -20,6 +20,12 @@
       "signals": [
         "gloss-overlap"
       ]
+    },
+    {
+      "word": "preserves",
+      "signals": [
+        "gloss-overlap"
+      ]
     }
   ],
   "provenance": {
@@ -27,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

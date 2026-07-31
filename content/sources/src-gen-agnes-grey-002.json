@@ -1,16 +1,34 @@
 {
   "id": "src-gen-agnes-grey-002",
   "pool": "sourced",
-  "text": "To train the tender plants, and watch their buds unfolding day by day! Influenced by so many inducements, I determined still to persevere; though the fear of displeasing my mother, or distressing my father’s feelings, prevented me from resuming the subject for several days. At length, again, I mentioned it to my mother in private; and, with some difficulty, got her to promise to assist me with her endeavours. My father’s reluctant consent was next obtained, and then, though Mary still sighed her disapproval, my dear, kind mother began to look out for a situation for me. She wrote to my father’s relations, and consulted the newspaper advertisements—her own relations she had long dropped all communication with: a formal interchange of occasional letters was all she had ever had since her marriage, and she would not at any time have applied to them in a case of this nature.",
+  "text": "The useful pony phaeton was sold, together with the stout, well-fed pony—the old favourite that we had fully determined should end its days in peace, and never pass from our hands; the little coach-house and stable were let; the servant boy, and the more efficient (being the more expensive) of the two maid-servants, were dismissed. Our clothes were mended, turned, and darned to the utmost verge of decency; our food, always plain, was now simplified to an unprecedented degree—except my father’s favourite dishes; our coals and candles were painfully economized—the pair of candles reduced to one, and that most sparingly used; the coals carefully husbanded in the half-empty grate: especially when my father was out on his parish duties, or confined to bed through illness—then we sat with our feet on the fender, scraping the perishing embers together from time to time, and occasionally adding a slight scattering of the dust and fragments of coal, just to keep them alive. As for our carpets, they in time were worn threadbare, and patched and darned even to a greater extent than our garments.",
   "words": [
     {
-      "word": "distressing",
+      "word": "pony",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "occasional",
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "simplified",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unprecedented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fender",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Anne Bronte",
     "year": 1847,
     "source": "Project Gutenberg #767",
-    "url": "https://www.gutenberg.org/ebooks/767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

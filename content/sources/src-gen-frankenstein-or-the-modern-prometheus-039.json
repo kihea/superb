@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-039",
+  "pool": "sourced",
+  "text": "Heaven bless you and make you so! My unfortunate guest regards me with the tenderest compassion. He endeavours to fill me with hope and talks as if life were a possession which he valued. He reminds me how often the same accidents have happened to other navigators who have attempted this sea, and in spite of myself, he fills me with cheerful auguries. Even the sailors feel the power of his eloquence; when he speaks, they no longer despair; he rouses their energies, and while they hear his voice they believe these vast mountains of ice are mole-hills which will vanish before the resolutions of man.",
+  "words": [
+    {
+      "word": "bless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "despair",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

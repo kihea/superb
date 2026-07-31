@@ -4,12 +4,6 @@
   "text": "Although I am an old man, night is generally my time for walking. In the summer I often leave home early in the morning, and roam about fields and lanes all day, or even escape for days or weeks together; but, saving in the country, I seldom go out until after dark, though, Heaven be thanked, I love its light and feel the cheerfulness it sheds upon the earth, as much as any creature living. I have fallen insensibly into this habit, both because it favours my infirmity and because it affords me greater opportunity of speculating on the characters and occupations of those who fill the streets. The glare and hurry of broad noon are not adapted to idle pursuits like mine; a glimpse of passing faces caught by the light of a street-lamp or a shop window is often better for my purpose than their full revelation in the daylight; and, if I must add the truth, night is kinder in this respect than day, which too often destroys an air-built castle at the moment of its completion, without the least ceremony or remorse.",
   "words": [
     {
-      "word": "lanes",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "creature",
       "signals": [
         "gloss-overlap"
@@ -38,12 +32,6 @@
       "signals": [
         "gloss-overlap"
       ]
-    },
-    {
-      "word": "kinder",
-      "signals": [
-        "gloss-overlap"
-      ]
     }
   ],
   "provenance": {
@@ -51,7 +39,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-scarlet-letter-016",
   "pool": "sourced",
-  "text": "The ray quivered to and fro, making her figure dim or distinct—now like a real child, now like a child’s spirit—as the splendour went and came again. She heard her mother’s voice, and approached slowly through the forest. Pearl had not found the hour pass wearisomely while her mother sat talking with the clergyman. The great black forest—stern as it showed itself to those who brought the guilt and troubles of the world into its bosom—became the playmate of the lonely infant, as well as it knew how. Sombre as it was, it put on the kindest of its moods to welcome her.",
+  "text": "Care must be had nevertheless, to put the child to due and stated examination in the catechism, at thy hands or Master Dimmesdale’s. Moreover, at a proper season, the tithing-men must take heed that she go both to school and to meeting.” The young minister, on ceasing to speak had withdrawn a few steps from the group, and stood with his face partially concealed in the heavy folds of the window-curtain; while the shadow of his figure, which the sunlight cast upon the floor, was tremulous with the vehemence of his appeal. Pearl, that wild and flighty little elf stole softly towards him, and taking his hand in the grasp of both her own, laid her cheek against it; a caress so tender, and withal so unobtrusive, that her mother, who was looking on, asked herself—“Is that my Pearl?” Yet she knew that there was love in the child’s heart, although it mostly revealed itself in passion, and hardly twice in her lifetime had been softened by such gentleness as now.",
   "words": [
     {
-      "word": "pearl",
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

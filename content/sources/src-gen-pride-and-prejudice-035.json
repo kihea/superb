@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-pride-and-prejudice-035",
+  "pool": "sourced",
+  "text": "One ought not to repine; but, to be sure, it would have been such a thing for me! The quiet, the retirement of such a life, would have answered all my ideas of happiness! But it was not to be. Did you ever hear Darcy mention the circumstance when you were in Kent?” “I have heard from authority, which I thought as good, that it was left you conditionally only, and at the will of the present patron.” “You have! Yes, there was something in that; I told you so from the first, you may remember.” “I did hear, too, that there was a time when sermon-making was not so palatable to you as it seems to be at present; that you actually declared your resolution of never taking orders, and that the business had been compromised accordingly.” “You did!",
+  "words": [
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "patron",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

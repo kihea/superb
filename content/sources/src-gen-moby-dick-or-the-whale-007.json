@@ -1,28 +1,28 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-007",
   "pool": "sourced",
-  "text": "For however eagerly and impetuously the savage crew had hailed the announcement of his quest; yet all sailors of all sorts are more or less capricious and unreliable—they live in the varying outer weather, and they inhale its fickleness—and when retained for any object remote and blank in the pursuit, however promissory of life and passion in the end, it is above all things requisite that temporary interests and employments should intervene and hold them healthily suspended for the final dash. Nor was Ahab unmindful of another thing. In times of strong emotion mankind disdain all base considerations; but such times are evanescent. The permanent constitutional condition of the manufactured man, thought Ahab, is sordidness. Granting that the White Whale fully incites the hearts of this my savage crew, and playing round their savageness even breeds a certain generous knight-errantism in them, still, while for the love of it they give chase to Moby Dick, they must also have food for their more common, daily appetites.",
+  "text": "But were the coming narrative to reveal in any instance, the complete abasement of poor Starbuck’s fortitude, scarce might I have the heart to write it; for it is a thing most sorrowful, nay shocking, to expose the fall of valour in the soul. Men may seem detestable as joint stock-companies and nations; knaves, fools, and murderers there may be; men may have mean and meagre faces; but man, in the ideal, is so noble and so sparkling, such a grand and glowing creature, that over any ignominious blemish in him all his fellows should run to throw their costliest robes. That immaculate manliness we feel within ourselves, so far within us, that it remains intact though all the outer character seem gone; bleeds with keenest anguish at the undraped spectacle of a valor-ruined man. Nor can piety itself, at such a shameful sight, completely stifle her upbraidings against the permitting stars. But this august dignity I treat of, is not the dignity of kings and robes, but that abounding dignity which has no robed investiture.",
   "words": [
     {
-      "word": "retained",
+      "word": "expose",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "blank",
+      "word": "immaculate",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "considerations",
+      "word": "intact",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "granting",
+      "word": "dignity",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +33,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

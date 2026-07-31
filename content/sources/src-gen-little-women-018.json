@@ -1,12 +1,24 @@
 {
   "id": "src-gen-little-women-018",
   "pool": "sourced",
-  "text": "For an hour this new pair walked and talked, or rested on the wall, enjoying the sweet influences which gave such a charm to time and place, and when an unromantic dinner bell warned them away, Amy felt as if she left her burden of loneliness and sorrow behind her in the chateau garden. The moment Mrs. Carrol saw the girl’s altered face, she was illuminated with a new idea, and exclaimed to herself, “Now I understand it all—the child has been pining for young Laurence. Bless my heart, I never thought of such a thing!” With praiseworthy discretion, the good lady said nothing, and betrayed no sign of enlightenment, but cordially urged Laurie to stay and begged Amy to enjoy his society, for it would do her more good than so much solitude. Amy was a model of docility, and as her aunt was a good deal occupied with Flo, she was left to entertain her friend, and did it with more than her usual success. At Nice, Laurie had lounged and Amy had scolded.",
+  "text": "I had a young friend who set up housekeeping with six sheets, but she had finger bowls for company and that satisfied her,” said Mrs. March, patting the damask tablecloths, with a truly feminine appreciation of their fineness. “I haven’t a single finger bowl, but this is a setout that will last me all my days, Hannah says.” And Meg looked quite contented, as well she might. A tall, broad-shouldered young fellow, with a cropped head, a felt basin of a hat, and a flyaway coat, came tramping down the road at a great pace, walked over the low fence without stopping to open the gate, straight up to Mrs. March, with both hands out and a hearty... “Here I am, Mother! Yes, it’s all right.” The last words were in answer to the look the elder lady gave him, a kindly questioning look which the handsome eyes met so frankly that the little ceremony closed, as usual, with a motherly kiss. “For Mrs. John Brooke, with the maker’s congratulations and compliments.",
   "words": [
     {
-      "word": "discretion",
+      "word": "sheets",
       "signals": [
-        "apposition"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "frankly",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-002",
   "pool": "sourced",
-  "text": "A long frontage of lamp-lit quays was on our left, with here and there the vague hull of a steamer alongside. We passed the last of the lights and came out into a broader stretch of water, when a light breeze was blowing and dark hills could be seen on either shore. “I’m lying a little way down the fiord, you see,” said Davies. “I hate to be too near a town, and I found a carpenter handy here— There she is! I wonder how you’ll like her!” I roused myself.",
+  "text": "Flensburg recalled the Danish war of ’64, and by the time Carter’s researches had ended in success I had forgotten the task set him, and was wondering whether the prospect of seeing something of that lovely region of Schleswig-Holstein, as I knew from hearsay that it was, was at all to be set against such an uncomfortable way of seeing it, with the season so late, the company so unattractive, and all the other drawbacks which I counted and treasured as proofs of my desperate condition, if I were to go. It needed little to decide me, and I think K——’s arrival from Switzerland, offensively sunburnt, was the finishing touch. His greeting was “Hullo, Carruthers, you here? Thought you had got away long ago. Lucky devil, though, to be going now, just in time for the best driving and the early pheasants.",
   "words": [
     {
-      "word": "lamp",
+      "word": "prospect",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lit",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "breeze",
+      "word": "greeting",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-kidnapped-038",
+  "pool": "sourced",
+  "text": "However, that was not your father’s view; and the end of it was, that from concession to concession on your father’s part, and from one height to another of squalling, sentimental selfishness upon your uncle’s, they came at last to drive a sort of bargain, from whose ill results you have recently been smarting. The one man took the lady, the other the estate. Now, Mr. David, they talk a great deal of charity and generosity; but in this disputable state of life, I often think the happiest consequences seem to flow when a gentleman consults his lawyer, and takes all the law allows him. Anyhow, this piece of Quixotry on your father’s part, as it was unjust in itself, has brought forth a monstrous family of injustices. Your father and mother lived and died poor folk; you were poorly reared; and in the meanwhile, what a time it has been for the tenants on the estate of Shaws!",
+  "words": [
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generosity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "poorly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

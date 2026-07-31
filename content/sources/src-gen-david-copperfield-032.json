@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-david-copperfield-032",
+  "pool": "sourced",
+  "text": "But I will not digress. ‘Placed in a mental position of peculiar painfulness, beyond the assuaging reach even of Mrs. Micawber’s influence, though exercised in the tripartite character of woman, wife, and mother, it is my intention to fly from myself for a short period, and devote a respite of eight-and-forty hours to revisiting some metropolitan scenes of past enjoyment. Among other havens of domestic tranquillity and peace of mind, my feet will naturally tend towards the King’s Bench Prison. In stating that I shall be (D. V.) on the outside of the south wall of that place of incarceration on civil process, the day after tomorrow, at seven in the evening, precisely, my object in this epistolary communication is accomplished. ‘I do not feel warranted in soliciting my former friend Mr. Copperfield, or my former friend Mr. Thomas Traddles of the Inner Temple, if that gentleman is still existent and forthcoming, to condescend to meet me, and renew (so far as may be) our past relations of the olden time.",
+  "words": [
+    {
+      "word": "devote",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forthcoming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

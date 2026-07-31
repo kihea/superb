@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-023",
+  "pool": "sourced",
+  "text": "Old Baltus Van Tassel moved about among his guests with a face dilated with content and good humor, round and jolly as the harvest moon. His hospitable attentions were brief, but expressive, being confined to a shake of the hand, a slap on the shoulder, a loud laugh, and a pressing invitation to “fall to, and help themselves.” And now the sound of the music from the common room, or hall, summoned to the dance. The musician was an old gray-headed negro, who had been the itinerant orchestra of the neighborhood for more than half a century. His instrument was as old and battered as himself. The greater part of the time he scraped on two or three strings, accompanying every movement of the bow with a motion of the head; bowing almost to the ground, and stamping with his foot whenever a fresh couple were to start.",
+  "words": [
+    {
+      "word": "slap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "musician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "orchestra",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stamping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

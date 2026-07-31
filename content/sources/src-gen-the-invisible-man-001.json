@@ -10,12 +10,6 @@
       ]
     },
     {
-      "word": "stamped",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "bargain",
       "signals": [
         "gloss-overlap"
@@ -27,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

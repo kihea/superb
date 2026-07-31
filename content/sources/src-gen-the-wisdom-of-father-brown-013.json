@@ -1,41 +1,22 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-013",
   "pool": "sourced",
-  "text": "Under the bridge of the hat his eagle face looked eager, all the more because it was not only clean-shaven, but without eyebrows. It seemed almost as if all the hair had come off his face from his thrusting it through a throng of elements. His eyes were prominent and piercing. His colour was curiously attractive, while partly tropical; it reminded one vaguely of a blood-orange. That is, that while it was ruddy and sanguine, there was a yellow in it that was in no way sickly, but seemed rather to glow like gold apples of the Hesperides--Father Brown thought he had never seen a figure so expressive of all the romances about the countries of the Sun.",
+  "text": "Probably the same policy that made him change the clothes made him drop the gun; he began to repent the coat he had left behind him in the blood of his victim.” “Well, that is possible enough,” answered the priest. “And it’s hardly worth speculating on,” said Usher, turning to some other papers, “for we know it’s the man by this time.” His clerical friend asked faintly: “But how?” And Greywood Usher threw down the newspapers and took up the two press-cuttings again. “Well, since you are so obstinate,” he said, “let’s begin at the beginning. You will notice that these two cuttings have only one thing in common, which is the mention of Pilgrim’s Pond, the estate, as you know, of the millionaire Ireton Todd. You also know that he is a remarkable character; one of those that rose on stepping-stones--” “Of our dead selves to higher things,” assented his companion.",
   "words": [
     {
-      "word": "eyebrows",
+      "word": "repent",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tropical",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "reminded",
-      "signals": [
-        "definition-marker",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vaguely",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "glow",
+      "word": "millionaire",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "expressive",
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -46,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

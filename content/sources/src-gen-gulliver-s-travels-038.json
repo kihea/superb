@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-gulliver-s-travels-038",
+  "pool": "sourced",
+  "text": "I was forced to wait above an hour for the tide; and then observing the wind very fortunately bearing toward the island to which I intended to steer my course, I took a second leave of my master; but as I was going to prostrate myself to kiss his hoof, he did me the honour to raise it gently to my mouth. I am not ignorant how much I have been censured for mentioning this last particular. Detractors are pleased to think it improbable, that so illustrious a person should descend to give so great a mark of distinction to a creature so inferior as I. Neither have I forgotten how apt some travellers are to boast of extraordinary favours they have received. But, if these censurers were better acquainted with the noble and courteous disposition of the Houyhnhnms, they would soon change their opinion.",
+  "words": [
+    {
+      "word": "steer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mentioning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-rip-van-winkle-006",
   "pool": "sourced",
-  "text": "Times grew worse and worse with Rip Van Winkle as years of matrimony rolled on; a tart temper never mellows with age, and a sharp tongue is the only edged tool that grows keener with constant use. For a long while he used to console himself, when driven from home, by frequenting a kind of perpetual club of the sages, philosophers and other idle personages of the village, which held its sessions on a bench before a small inn, designated by a rubicund portrait of His Majesty George the Third. Here they used to sit in the shade through a long, lazy summer’s day, talking listlessly over village gossip, or telling endless, sleepy stories about nothing. But it would have been worth any statesman’s money to have heard the profound discussions that sometimes took place, when by chance an old newspaper fell into their hands from some passing traveller.",
+  "text": "How solemnly they would listen to the contents, as drawled out by Derrick Van Bummel, the schoolmaster, a dapper, learned little man, who was not to be daunted by the most gigantic word in the dictionary; and how sagely they would deliberate upon public events some months after they had taken place. The opinions of this junto were completely controlled by Nicholas Vedder, a patriarch of the village, and landlord of the inn, at the door of which he took his seat from morning till night, just moving sufficiently to avoid the sun and keep in the shade of a large tree; so that the neighbours could tell the hour by his movements as accurately as by a sun-dial. It is true he was rarely heard to speak, but smoked his pipe incessantly. His adherents, however (for every great man has his adherents), perfectly understood him, and knew how to gather his opinions.",
   "words": [
     {
-      "word": "tart",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "console",
+      "word": "gigantic",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

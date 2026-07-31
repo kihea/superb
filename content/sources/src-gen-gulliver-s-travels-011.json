@@ -1,10 +1,22 @@
 {
   "id": "src-gen-gulliver-s-travels-011",
   "pool": "sourced",
-  "text": "I was four hours under these circumstances, expecting, and indeed wishing, every moment to be my last. I have already told the reader that there were two strong staples fixed upon that side of my box which had no window, and into which the servant, who used to carry me on horseback, would put a leathern belt, and buckle it about his waist. Being in this disconsolate state, I heard, or at least thought I heard, some kind of grating noise on that side of my box where the staples were fixed; and soon after I began to fancy that the box was pulled or towed along the sea; for I now and then felt a sort of tugging, which made the waves rise near the tops of my windows, leaving me almost in the dark. This gave me some faint hopes of relief, although I was not able to imagine how it could be brought about.",
+  "text": "But he, being a man well experienced in the navigation of those seas, bid us all prepare against a storm, which accordingly happened the day following: for the southern wind, called the southern monsoon, began to set in. Finding it was likely to overblow, we took in our sprit-sail, and stood by to hand the fore-sail; but making foul weather, we looked the guns were all fast, and handed the mizen. The ship lay very broad off, so we thought it better spooning before the sea, than trying or hulling. We reefed the fore-sail and set him, and hauled aft the fore-sheet; the helm was hard a-weather. The ship wore bravely.",
   "words": [
     {
-      "word": "buckle",
+      "word": "navigation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helm",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

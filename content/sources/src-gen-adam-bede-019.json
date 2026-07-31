@@ -1,10 +1,16 @@
 {
   "id": "src-gen-adam-bede-019",
   "pool": "sourced",
-  "text": "Mr. Poyser thought she looked the prettier for it: it was a flush no deeper than the petal of a monthly rose. Perhaps it came because her uncle was looking at her so fixedly; but there is no knowing, for just then Adam was saying, with quiet surprise, “Why, I hoped Dinah was settled among us for life. I thought she’d given up the notion o’ going back to her old country.” “Thought! Yes,” said Mrs. Poyser, “and so would anybody else ha’ thought, as had got their right end up’ards. But I suppose you must be a Methodist to know what a Methodist ’ull do.",
+  "text": "However that might be, it is certain that shortly after the accident referred to, which was coincident with the arrival of an awakening Methodist preacher at Treddleston, a great change had been observed in the brickmaker; and though he was still known in the neighbourhood by his old sobriquet of “Brimstone,” there was nothing he held in so much horror as any further transactions with that evil-smelling element. He was a broad-chested fellow with a fervid temperament, which helped him better in imbibing religious ideas than in the dry process of acquiring the mere human knowledge of the alphabet. Indeed, he had been already a little shaken in his resolution by a brother Methodist, who assured him that the letter was a mere obstruction to the Spirit, and expressed a fear that Brimstone was too eager for the knowledge that puffeth up. The third beginner was a much more promising pupil. He was a tall but thin and wiry man, nearly as old as Brimstone, with a very pale face and hands stained a deep blue.",
   "words": [
     {
-      "word": "notion",
+      "word": "preacher",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

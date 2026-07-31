@@ -1,28 +1,34 @@
 {
   "id": "src-gen-villette-019",
   "pool": "sourced",
-  "text": "Yet I began to take some courage, some comfort; it seemed to me that I felt a pulse of his heart beating yet true to the whole throb of mine. I waited my champion. Apollyon came trailing his Hell behind him. I think if Eternity held torment, its form would not be fiery rack, nor its nature despair. I think that on a certain day amongst those days which never dawned, and will not set, an angel entered Hades—stood, shone, smiled, delivered a prophecy of conditional pardon, kindled a doubtful hope of bliss to come, not now, but at a day and hour unlooked for, revealed in his own glory and grandeur the height and compass of his promise: spoke thus—then towering, became a star, and vanished into his own Heaven.",
+  "text": "“Lucy,” he recommenced, “look well at my mother, and say, without fear or favour, in what light she now appears to you.” “As she always does—an English, middle-class gentlewoman; well, though gravely dressed, habitually independent of pretence, constitutionally composed and cheerful.” “So she seems to me—bless her! The merry may laugh with mamma, but the weak only will laugh at her. She shall not be ridiculed, with my consent, at least; nor without my—my scorn—my antipathy—my—” He stopped: and it was time—for he was getting excited—more it seemed than the occasion warranted. I did not then know that he had witnessed double cause for dissatisfaction with Miss Fanshawe. The glow of his complexion, the expansion of his nostril, the bold curve which disdain gave his well-cut under lip, showed him in a new and striking phase.",
   "words": [
     {
-      "word": "pulse",
+      "word": "scorn",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "trailing",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "despair",
+      "word": "complexion",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "curve",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "compass",
+      "word": "disdain",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

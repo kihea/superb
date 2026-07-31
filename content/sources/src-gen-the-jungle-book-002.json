@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-jungle-book-002",
   "pool": "sourced",
-  "text": "“I see that ye are dogs. I go from you to my own people--if they be my own people. The jungle is shut to me, and I must forget your talk and your companionship. But I will be more merciful than ye are. Because I was all but your brother in blood, I promise that when I am a man among men I will not betray ye to men as ye have betrayed me.” He kicked the fire with his foot, and the sparks flew up.",
+  "text": "Let the Lone Wolf show his strength. Room for the leader of the Pack! Spring, Akela!” The Lone Wolf must have sprung and missed his hold, for Mowgli heard the snap of his teeth and then a yelp as the Sambhur knocked him over with his forefoot. He did not wait for anything more, but dashed on; and the yells grew fainter behind him as he ran into the croplands where the villagers lived. “Bagheera spoke truth,” he panted, as he nestled down in some cattle fodder by the window of a hut.",
   "words": [
     {
-      "word": "sparks",
+      "word": "fodder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hut",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

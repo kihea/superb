@@ -1,10 +1,22 @@
 {
   "id": "src-gen-kidnapped-009",
   "pool": "sourced",
-  "text": "Hard work it was, and mortally slow; but in about an hour of kicking and splashing, I had got well in between the points of a sandy bay surrounded by low hills. The sea was here quite quiet; there was no sound of any surf; the moon shone clear; and I thought in my heart I had never seen a place so desert and desolate. But it was dry land; and when at last it grew so shallow that I could leave the yard and wade ashore upon my feet, I cannot tell if I was more tired or more grateful. Both, at least, I was: tired as I never was before that night; and grateful to God as I trust I have been often, though never with more cause. THE ISLET With my stepping ashore I began the most unhappy part of my adventures.",
+  "text": "“Now, sir, you see for yourself,” said the first: “a high fever, no appetite, no light, no meat: you see for yourself what that means.” “I am no conjurer, Mr. Riach,” said the captain. “Give me leave, sir,” said Riach; “you’ve a good head upon your shoulders, and a good Scotch tongue to ask with; but I will leave you no manner of excuse; I want that boy taken out of this hole and put in the forecastle.” “What ye may want, sir, is a matter of concern to nobody but yoursel’,” returned the captain; “but I can tell ye that which is to be. Here he is; here he shall bide.” “Admitting that you have been paid in a proportion,” said the other, “I will crave leave humbly to say that I have not. Paid I am, and none too much, to be the second officer of this old tub, and you ken very well if I do my best to earn it.",
   "words": [
     {
-      "word": "ashore",
+      "word": "crave",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "humbly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ken",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

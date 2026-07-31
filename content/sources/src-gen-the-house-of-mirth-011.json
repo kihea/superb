@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-house-of-mirth-011",
   "pool": "sourced",
-  "text": "“You were as kind as possible; but I have had to get a few things since——” “What kind of things? How much have you spent? Let me see the bill—I daresay the woman is swindling you.” “Oh, no, I think not: clothes have grown so frightfully expensive; and one needs so many different kinds, with country visits, and golf and skating, and Aiken and Tuxedo——” “Let me see the bill,” Mrs. Peniston repeated. Lily hesitated again. In the first place, Mme.",
+  "text": "“You don’t know how a fellow has to hustle to keep this kind of thing going.” He waved his whip in the direction of the Bellomont acres, which lay outspread before them in opulent undulations. “Judy has no idea of what she spends—not that there isn’t plenty to keep the thing going,” he interrupted himself, “but a man has got to keep his eyes open and pick up all the tips he can. My father and mother used to live like fighting-cocks on their income, and put by a good bit of it too—luckily for me—but at the pace we go now, I don’t know where I should be if it weren’t for taking a flyer now and then. The women all think—I mean Judy thinks—I’ve nothing to do but to go downtown once a month and cut off coupons, but the truth is it takes a devilish lot of hard work to keep the machinery running.",
   "words": [
     {
-      "word": "lily",
+      "word": "waved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "luckily",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

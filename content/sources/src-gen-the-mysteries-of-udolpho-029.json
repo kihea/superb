@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-029",
+  "pool": "sourced",
+  "text": "“And why sorry, madam?” “Because the place will ill repay your trouble; and were it even a paradise, it would be insufferable at such a distance from Paris.” The Count made no reply, but walked abruptly to a window. “There are windows, my lord, but they neither admit entertainment, nor light; they show only a scene of savage nature.” “I am at a loss, madam,” said the Count, “to conjecture what you mean by savage nature. Do those plains, or those woods, or that fine expanse of water, deserve the name?” “Those mountains certainly do, my lord,” rejoined the Countess, pointing to the Pyrenees, “and this château, though not a work of rude nature, is, to my taste, at least, one of savage art.” The Count coloured highly. “This place, madam, was the work of my ancestors,” said he, “and you must allow me to say, that your present conversation discovers neither good taste, nor good manners.” Blanche, now shocked at an altercation, which appeared to be increasing to a serious disagreement, rose to leave the room, when her mother’s woman entered it; and the Countess, immediately desiring to be shown to her own apartment, withdrew, attended by Mademoiselle Bearn.",
+  "words": [
+    {
+      "word": "madam",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paradise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-white-fang-019",
   "pool": "sourced",
-  "text": "The chickens he calmly ignored. So far as he was concerned they did not exist. At four o’clock he executed a running jump, gained the roof of the chicken-house and leaped to the ground outside, whence he sauntered gravely to the house. He had learned the law. And on the porch, before the delighted family, Judge Scott, face to face with White Fang, said slowly and solemnly, sixteen times, “White Fang, you are smarter than I thought.” But it was the multiplicity of laws that befuddled White Fang and often brought him into disgrace.",
+  "text": "But his curiosity was rampant, and several minutes later he was venturing forth on a new quest. He came upon one of the man-animals, Grey Beaver, who was squatting on his hams and doing something with sticks and dry moss spread before him on the ground. White Fang came near to him and watched. Grey Beaver made mouth-noises which White Fang interpreted as not hostile, so he came still nearer. Women and children were carrying more sticks and branches to Grey Beaver.",
   "words": [
     {
-      "word": "porch",
+      "word": "moss",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

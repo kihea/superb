@@ -1,12 +1,30 @@
 {
   "id": "src-gen-moby-dick-or-the-whale-012",
   "pool": "sourced",
-  "text": "*Quoin is not a Euclidean term. It belongs to the pure nautical mathematics. I know not that it has been defined before. A quoin is a solid which differs from a wedge in having its sharp end formed by the steep inclination of one side, instead of the mutual tapering of both sides. The lower subdivided part, called the junk, is one immense honeycomb of oil, formed by the crossing and recrossing, into ten thousand infiltrated cells, of tough elastic white fibres throughout its whole extent.",
+  "text": "Did you hear that noise, Cabaco?” It was the middle-watch: a fair moonlight; the seamen were standing in a cordon, extending from one of the fresh-water butts in the waist, to the scuttle-butt near the taffrail. In this manner, they passed the buckets to fill the scuttle-butt. Standing, for the most part, on the hallowed precincts of the quarter-deck, they were careful not to speak or rustle their feet. From hand to hand, the buckets went in the deepest silence, only broken by the occasional flap of a sail, and the steady hum of the unceasingly advancing keel. It was in the midst of this repose, that Archy, one of the cordon, whose post was near the after-hatches, whispered to his neighbor, a Cholo, the words above.",
   "words": [
     {
-      "word": "wedge",
+      "word": "waist",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "neighbor",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +33,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "source": "Project Gutenberg #2701",
-    "url": "https://www.gutenberg.org/ebooks/2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

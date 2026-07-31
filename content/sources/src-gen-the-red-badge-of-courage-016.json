@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-red-badge-of-courage-016",
   "pool": "sourced",
-  "text": "Many tightened their belts carefully and hitched at their trousers. A moment later the officers began to bustle among the men, pushing them into a more compact mass and into a better alignment. They chased those that straggled and fumed at a few men who seemed to show by their attitudes that they had decided to remain at that spot. They were like critical shepherds, struggling with sheep. Presently, the regiment seemed to draw itself up and heave a deep breath.",
+  "text": "“Why, Jim,” he said, in a dazed way, “what’s the matter with you?” The tall soldier turned and, lurching dangerously, went on. The youth and the tattered soldier followed, sneaking as if whipped, feeling unable to face the stricken man if he should again confront them. They began to have thoughts of a solemn ceremony. There was something rite-like in these movements of the doomed soldier. And there was a resemblance in him to a devotee of a mad religion, blood-sucking, muscle-wrenching, bone-crushing.",
   "words": [
     {
-      "word": "shepherds",
+      "word": "stricken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confront",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

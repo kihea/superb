@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-through-the-looking-glass-029",
+  "pool": "sourced",
+  "text": "Check!” and a Knight dressed in crimson armour came galloping down upon her, brandishing a great club. Just as he reached her, the horse stopped suddenly: “You’re my prisoner!” the Knight cried, as he tumbled off his horse. Startled as she was, Alice was more frightened for him than for herself at the moment, and watched him with some anxiety as he mounted again. As soon as he was comfortably in the saddle, he began once more “You’re my—” but here another voice broke in “Ahoy!",
+  "words": [
+    {
+      "word": "startled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

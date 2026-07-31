@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-hard-times-025",
+  "pool": "sourced",
+  "text": "Anything will do for Me.’ It soon appeared that if Mrs. Sparsit had a failing in her association with that domestic establishment, it was that she was so excessively regardless of herself and regardful of others, as to be a nuisance. On being shown her chamber, she was so dreadfully sensible of its comforts as to suggest the inference that she would have preferred to pass the night on the mangle in the laundry. True, the Powlers and the Scadgerses were accustomed to splendour, ‘but it is my duty to remember,’ Mrs. Sparsit was fond of observing with a lofty grace: particularly when any of the domestics were present, ‘that what I was, I am no longer. Indeed,’ said she, ‘if I could altogether cancel the remembrance that Mr. Sparsit was a Powler, or that I myself am related to the Scadgers family; or if I could even revoke the fact, and make myself a person of common descent and ordinary connexions; I would gladly do so.",
+  "words": [
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "accustomed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "revoke",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

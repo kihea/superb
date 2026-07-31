@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-great-god-pan-025",
+  "pool": "sourced",
+  "text": "All papers, letters, and so forth seemed in perfect order, and nothing was discovered which pointed in the most remote way to any scandal either great or small. Here the evidence ended; nothing more could be discovered. Several persons had been present at the dinner-party at which Lord Argentine had assisted, and to all these he seemed in his usual genial spirits. The valet, indeed, said he thought his master appeared a little excited when he came home, but confessed that the alteration in his manner was very slight, hardly noticeable, indeed. It seemed hopeless to seek for any clue, and the suggestion that Lord Argentine had been suddenly attacked by acute suicidal mania was generally accepted.",
+  "words": [
+    {
+      "word": "scandal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Great God Pan",
+    "author": "Arthur Machen",
+    "year": 1894,
+    "source": "Project Gutenberg #389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

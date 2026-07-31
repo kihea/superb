@@ -1,16 +1,34 @@
 {
   "id": "src-gen-black-beauty-008",
   "pool": "sourced",
-  "text": "In about half an hour John and Mr. York, who was to be our new coachman, came in to see us. “Now, Mr. Manly,” he said, after carefully looking at us both, “I can see no fault in these horses; but we all know that horses have their peculiarities as well as men, and that sometimes they need different treatment. I should like to know if there is anything particular in either of these that you would like to mention.” “Well,” said John, “I don't believe there is a better pair of horses in the country, and right grieved I am to part with them, but they are not alike. The black one is the most perfect temper I ever knew; I suppose he has never known a hard word or a blow since he was foaled, and all his pleasure seems to be to do what you wish; but the chestnut, I fancy, must have had bad treatment; we heard as much from the dealer.",
+  "text": "Many of the meadows were under water, and in one low part of the road the water was halfway up to my knees; the bottom was good, and master drove gently, so it was no matter. When we got to the town of course I had a good bait, but as the master's business engaged him a long time we did not start for home till rather late in the afternoon. The wind was then much higher, and I heard the master say to John that he had never been out in such a storm; and so I thought, as we went along the skirts of a wood, where the great branches were swaying about like twigs, and the rushing sound was terrible. “I wish we were well out of this wood,” said my master. “Yes, sir,” said John, “it would be rather awkward if one of these branches came down upon us.” The words were scarcely out of his mouth when there was a groan, and a crack, and a splitting sound, and tearing, crashing down among the other trees came an oak, torn up by the roots, and it fell right across the road just before us.",
   "words": [
     {
-      "word": "chestnut",
+      "word": "groan",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dealer",
+      "word": "tearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crashing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torn",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

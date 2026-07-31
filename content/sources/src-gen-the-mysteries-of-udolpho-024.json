@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-024",
+  "pool": "sourced",
+  "text": "Assisted, perhaps, by the mystery, which had then accompanied this strain, it had made so deep an impression on her memory, that she had never since entirely forgotten it; and the manner, in which it was now sung, convinced her, however unaccountable the circumstances appeared, that this was the same voice she had then heard. Surprise soon yielded to other emotions; a thought darted, like lightning, upon her mind, which discovered a train of hopes, that revived all her spirits. Yet these hopes were so new, so unexpected, so astonishing, that she did not dare to trust, though she could not resolve to discourage them. She sat down by the casement, breathless, and overcome with the alternate emotions of hope and fear; then rose again, leaned from the window, that she might catch a nearer sound, listened, now doubting and then believing, softly exclaimed the name of Valancourt, and then sunk again into the chair. Yes, it was possible, that Valancourt was near her, and she recollected circumstances, which induced her to believe it was his voice she had just heard.",
+  "words": [
+    {
+      "word": "discourage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "believing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "softly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

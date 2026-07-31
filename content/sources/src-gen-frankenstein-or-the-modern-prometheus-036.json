@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-036",
+  "pool": "sourced",
+  "text": "But I perceive your thoughts; you do not credit my narrative and do not intend to pursue my enemy with the punishment which is his desert.” As I spoke, rage sparkled in my eyes; the magistrate was intimidated. “You are mistaken,” said he. “I will exert myself, and if it is in my power to seize the monster, be assured that he shall suffer punishment proportionate to his crimes. But I fear, from what you have yourself described to be his properties, that this will prove impracticable; and thus, while every proper measure is pursued, you should make up your mind to disappointment.” “That cannot be; but all that I can say will be of little avail. My revenge is of no moment to you; yet, while I allow it to be a vice, I confess that it is the devouring and only passion of my soul.",
+  "words": [
+    {
+      "word": "intend",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exert",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confess",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

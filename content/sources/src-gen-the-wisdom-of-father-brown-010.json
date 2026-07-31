@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-010",
   "pool": "sourced",
-  "text": "Only two are needed as agents.” “What can you mean?” asked the other. “Why shouldn’t a blackmailer,” asked Brown, in a low voice, “threaten his victim with himself? Suppose a wife became a rigid teetotaller in order to frighten her husband into concealing his pub-frequenting, and then wrote him blackmailing letters in another hand, threatening to tell his wife! Why shouldn’t it work? Suppose a father forbade a son to gamble and then, following him in a good disguise, threatened the boy with his own sham paternal strictness!",
+  "text": "Father Brown seemed quite unconscious of this cloud of witnesses, but followed Parkinson with an idly attentive eye till he took himself and his absurd spear into the farther room of Bruno. Then he abandoned himself to such abstract meditations as always amused him--calculating the angles of the mirrors, the angles of each refraction, the angle at which each must fit into the wall...when he heard a strong but strangled cry. He sprang to his feet and stood rigidly listening. At the same instant Sir Wilson Seymour burst back into the room, white as ivory. “Who’s that man in the passage?” he cried.",
   "words": [
     {
-      "word": "disguise",
+      "word": "attentive",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "paternal",
+      "word": "mirrors",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ivory",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

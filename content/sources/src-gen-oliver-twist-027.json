@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-oliver-twist-027",
+  "pool": "sourced",
+  "text": "Now, Mrs. Corney that was, had tried the tears, because they were less troublesome than a manual assault; but, she was quite prepared to make trial of the latter mode of proceeding, as Mr. Bumble was not long in discovering. The first proof he experienced of the fact, was conveyed in a hollow sound, immediately succeeded by the sudden flying off of his hat to the opposite end of the room. This preliminary proceeding laying bare his head, the expert lady, clasping him tightly round the throat with one hand, inflicted a shower of blows (dealt with singular vigour and dexterity) upon it with the other. This done, she created a little variety by scratching his face, and tearing his hair; and, having, by this time, inflicted as much punishment as she deemed necessary for the offence, she pushed him over a chair, which was luckily well situated for the purpose: and defied him to talk about his prerogative again, if he dared. “Get up!” said Mrs. Bumble, in a voice of command.",
+  "words": [
+    {
+      "word": "proceeding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "singular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scratching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-little-women-024",
+  "pool": "sourced",
+  "text": "Amy is more docile, will make a good companion for Flo, and receive gratefully any help the trip may give her.” “Oh, my tongue, my abominable tongue! Why can’t I learn to keep it quiet?” groaned Jo, remembering words which had been her undoing. When she had heard the explanation of the quoted phrases, Mrs. March said sorrowfully... “I wish you could have gone, but there is no hope of it this time, so try to bear it cheerfully, and don’t sadden Amy’s pleasure by reproaches or regrets.” “I’ll try,” said Jo, winking hard as she knelt down to pick up the basket she had joyfully upset. “I’ll take a leaf out of her book, and try not only to seem glad, but to be so, and not grudge her one minute of happiness. But it won’t be easy, for it is a dreadful disappointment,” and poor Jo bedewed the little fat pincushion she held with several very bitter tears.",
+  "words": [
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grudge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

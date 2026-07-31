@@ -1,10 +1,22 @@
 {
   "id": "src-gen-black-beauty-018",
   "pool": "sourced",
-  "text": "Jerry was so thoughtful and kind--what horse would not do his best for such a master? Then he took out one of Polly's meat pies, and standing near me, he began to eat it. The streets were very full, and the cabs, with the candidates' colors on them, were dashing about through the crowd as if life and limb were of no consequence; we saw two people knocked down that day, and one was a woman. The horses were having a bad time of it, poor things! but the voters inside thought nothing of that; many of them were half-drunk, hurrahing out of the cab windows if their own party came by.",
+  "text": "We scarcely seemed to gain ground upon them at all. An old road-mender was standing near a heap of stones, his shovel dropped and his hands raised. As we came near he made a sign to speak. Blantyre drew the rein a little. “To the common, to the common, sir; she has turned off there.” I knew this common very well; it was for the most part very uneven ground, covered with heather and dark-green furze bushes, with here and there a scrubby old thorn-tree; there were also open spaces of fine short grass, with ant-hills and mole-turns everywhere; the worst place I ever knew for a headlong gallop.",
   "words": [
     {
-      "word": "thoughtful",
+      "word": "shovel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uneven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mole",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

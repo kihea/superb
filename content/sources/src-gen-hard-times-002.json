@@ -1,12 +1,12 @@
 {
   "id": "src-gen-hard-times-002",
   "pool": "sourced",
-  "text": "Then I became a young vagabond; and instead of one old woman knocking me about and starving me, everybody of all ages knocked me about and starved me. They were right; they had no business to do anything else. I was a nuisance, an incumbrance, and a pest. I know that very well.’ His pride in having at any time of his life achieved such a great social distinction as to be a nuisance, an incumbrance, and a pest, was only to be satisfied by three sonorous repetitions of the boast. ‘I was to pull through it, I suppose, Mrs. Gradgrind.",
+  "text": "You have nothing to do with it. You are not to have, in any object of use or ornament, what would be a contradiction in fact. You don’t walk upon flowers in fact; you cannot be allowed to walk upon flowers in carpets. You don’t find that foreign birds and butterflies come and perch upon your crockery; you cannot be permitted to paint foreign birds and butterflies upon your crockery. You never meet with quadrupeds going up and down walls; you must not have quadrupeds represented upon walls.",
   "words": [
     {
-      "word": "nuisance",
+      "word": "permitted",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1854,
     "source": "Project Gutenberg #786",
-    "url": "https://www.gutenberg.org/ebooks/786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

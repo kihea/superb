@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-023",
+  "pool": "sourced",
+  "text": "Then Father Brown, still keeping the paper in his hand, strode towards the conservatory, only to meet his medical friend coming back with a face of assurance and collapse. “He’s done it,” said Harris. They went together through the gorgeous unnatural beauty of cactus and azalea and found Leonard Quinton, poet and romancer, with his head hanging downward off his ottoman and his red curls sweeping the ground. Into his left side was thrust the queer dagger that they had picked up in the garden, and his limp hand still rested on the hilt. Outside the storm had come at one stride, like the night in Coleridge, and garden and glass roof were darkened with driving rain.",
+  "words": [
+    {
+      "word": "ottoman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curls",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "limp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

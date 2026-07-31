@@ -1,22 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-009",
   "pool": "sourced",
-  "text": "I should be sorry to think our friend mercenary.” “Pray, my dear aunt, what is the difference in matrimonial affairs, between the mercenary and the prudent motive? Where does discretion end, and avarice begin? Last Christmas you were afraid of his marrying me, because it would be imprudent; and now, because he is trying to get a girl with only ten thousand pounds, you want to find out that he is mercenary.” “If you will only tell me what sort of girl Miss King is, I shall know what to think.” “She is a very good kind of girl, I believe. I know no harm of her.” “But he paid her not the smallest attention till her grandfather’s death made her mistress of this fortune?” “No--why should he? If it were not allowable for him to gain my affections, because I had no money, what occasion could there be for making love to a girl whom he did not care about, and who was equally poor?” “But there seems indelicacy in directing his attentions towards her so soon after this event.” “A man in distressed circumstances has not time for all those elegant decorums which other people may observe.",
+  "text": "No aunt, no officers, no news could be sought after; the very shoe-roses for Netherfield were got by proxy. Even Elizabeth might have found some trial of her patience in weather which totally suspended the improvement of her acquaintance with Mr. Wickham; and nothing less than a dance on Tuesday could have made such a Friday, Saturday, Sunday, and Monday endurable to Kitty and Lydia. Till Elizabeth entered the drawing-room at Netherfield, and looked in vain for Mr. Wickham among the cluster of red coats there assembled, a doubt of his being present had never occurred to her. The certainty of meeting him had not been checked by any of those recollections that might not unreasonably have alarmed her. She had dressed with more than usual care, and prepared in the highest spirits for the conquest of all that remained unsubdued of his heart, trusting that it was not more than might be won in the course of the evening.",
   "words": [
     {
-      "word": "mercenary",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "motive",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "observe",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

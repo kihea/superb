@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-kidnapped-026",
+  "pool": "sourced",
+  "text": "“This is a place they’re bound to watch.” And with that he ran harder than ever down to the water-side, in a part where the river was split in two among three rocks. It went through with a horrid thundering that made my belly quake; and there hung over the lynn a little mist of spray. Alan looked neither to the right nor to the left, but jumped clean upon the middle rock and fell there on his hands and knees to check himself, for that rock was small and he might have pitched over on the far side. I had scarce time to measure the distance or to understand the peril before I had followed him, and he had caught and stopped me. So there we stood, side by side upon a small rock slippery with spray, a far broader leap in front of us, and the river dinning upon all sides.",
+  "words": [
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spray",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

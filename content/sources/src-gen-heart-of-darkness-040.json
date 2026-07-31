@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-heart-of-darkness-040",
+  "pool": "sourced",
+  "text": "I asked myself what I was doing there, with a sensation of panic in my heart as though I had blundered into a place of cruel and absurd mysteries not fit for a human being to behold. She motioned me to a chair. We sat down. I laid the packet gently on the little table, and she put her hand over it.... ‘You knew him well,’ she murmured, after a moment of mourning silence. “‘Intimacy grows quickly out there,’ I said.",
+  "words": [
+    {
+      "word": "packet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

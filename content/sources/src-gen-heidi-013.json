@@ -1,8 +1,14 @@
 {
   "id": "src-gen-heidi-013",
   "pool": "sourced",
-  "text": "And have you decided when I am to start?\" \"To-morrow morning--early if possible,\" replied Clara. \"Yes, she is right,\" put in Herr Sesemann; \"the sun is shining and the sky is blue, and there is no time to be lost; it is a pity to miss a single one of these days on the mountain.\" The doctor could not help laughing. \"You will be reproaching me next for not being there already; well, I must go and make arrangements for getting off.\"",
+  "text": "In the later afternoons Heidi always sat with Clara, and then she would give the latter many and long descriptions of the mountain and of her life upon it, and the burning longing to return would become so overpowering that she always finished with the words, \"Now I must go home! to-morrow I must really go!\" But Clara would try to quiet her, and tell Heidi that she must wait till her father returned, and then they would see what was to be done. And if Heidi gave in each time and seemed quickly to regain her good spirits, it was because of a secret delight she had in the thought that every day added two more white rolls to the number she was collecting for grandmother; for she always pocketed the roll placed beside her plate at dinner and supper, feeling that she could not bear to eat them, knowing that grandmother had no white bread and could hardly eat the black bread which was so hard.",
   "words": [
+    {
+      "word": "afternoons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
     {
       "word": "morrow",
       "signals": [
@@ -15,7 +21,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

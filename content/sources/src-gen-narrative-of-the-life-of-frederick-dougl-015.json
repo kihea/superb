@@ -1,16 +1,16 @@
 {
   "id": "src-gen-narrative-of-the-life-of-frederick-dougl-015",
   "pool": "sourced",
-  "text": "But I was not willing to cherish this determination alone. My fellow-slaves were dear to me. I was anxious to have them participate with me in this, my life-giving determination. I therefore, though with great prudence, commenced early to ascertain their views and feelings in regard to their condition, and to imbue their minds with thoughts of freedom. I bent myself to devising ways and means for our escape, and meanwhile strove, on all fitting occasions, to impress them with the gross fraud and inhumanity of slavery.",
+  "text": "A city slave is almost a freeman, compared with a slave on the plantation. He is much better fed and clothed, and enjoys privileges altogether unknown to the slave on the plantation. There is a vestige of decency, a sense of shame, that does much to curb and check those outbreaks of atrocious cruelty so commonly enacted upon the plantation. He is a desperate slaveholder, who will shock the humanity of his non-slaveholding neighbors with the cries of his lacerated slave. Few are willing to incur the odium attaching to the reputation of being a cruel master; and above all things, they would not be known as not giving a slave enough to eat.",
   "words": [
     {
-      "word": "slaves",
+      "word": "decency",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "bent",
+      "word": "atrocious",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Frederick Douglass",
     "year": 1845,
     "source": "Project Gutenberg #23",
-    "url": "https://www.gutenberg.org/ebooks/23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-034",
+  "pool": "sourced",
+  "text": "We have in view the whole of the great north transept--empty, and waiting for England’s privileged ones. We see also the ample area or platform, carpeted with rich stuffs, whereon the throne stands. The throne occupies the centre of the platform, and is raised above it upon an elevation of four steps. Within the seat of the throne is enclosed a rough flat rock--the stone of Scone--which many generations of Scottish kings sat on to be crowned, and so it in time became holy enough to answer a like purpose for English monarchs. Both the throne and its footstool are covered with cloth of gold.",
+  "words": [
+    {
+      "word": "ample",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "throne",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enclosed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

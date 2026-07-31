@@ -1,34 +1,16 @@
 {
   "id": "src-gen-gulliver-s-travels-010",
   "pool": "sourced",
-  "text": "because this appeared such an exalted strain of virtue and public spirit, that his majesty seemed to doubt it might possibly not be always sincere.” And he desired to know, “Whether such zealous gentlemen could have any views of refunding themselves for the charges and trouble they were at by sacrificing the public good to the designs of a weak and vicious prince, in conjunction with a corrupted ministry?” He multiplied his questions, and sifted me thoroughly upon every part of this head, proposing numberless inquiries and objections, which I think it not prudent or convenient to repeat. Upon what I said in relation to our courts of justice, his majesty desired to be satisfied in several points: and this I was the better able to do, having been formerly almost ruined by a long suit in chancery, which was decreed for me with costs. He asked, “What time was usually spent in determining between right and wrong, and what degree of expense? Whether advocates and orators had liberty to plead in causes manifestly known to be unjust, vexatious, or oppressive? Whether party, in religion or politics, were observed to be of any weight in the scale of justice?",
+  "text": "I rested two or three minutes, and then gave the boat another shove, and so on, till the sea was no higher than my arm-pits; and now, the most laborious part being over, I took out my other cables, which were stowed in one of the ships, and fastened them first to the boat, and then to nine of the vessels which attended me; the wind being favourable, the seamen towed, and I shoved, until we arrived within forty yards of the shore; and, waiting till the tide was out, I got dry to the boat, and by the assistance of two thousand men, with ropes and engines, I made a shift to turn it on its bottom, and found it was but little damaged. I shall not trouble the reader with the difficulties I was under, by the help of certain paddles, which cost me ten days making, to get my boat to the royal port of Blefuscu, where a mighty concourse of people appeared upon my arrival, full of wonder at the sight of so prodigious a vessel.",
   "words": [
     {
-      "word": "virtue",
+      "word": "favourable",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "multiplied",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "inquiries",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prudent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "unjust",
+      "word": "tide",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-mysterious-island-030",
+  "pool": "sourced",
+  "text": "Ayrton learned that chance alone had brought the “Speedy” in sight of Lincoln Island; Bob Harvey had never yet set foot on it; but, as Cyrus Harding had conjectured, finding this unknown land in his course, its position being marked on no chart, he had formed the project of visiting it, and, if he found it suitable, of making it the brig’s headquarters. As to the black flag hoisted at the “Speedy’s” peak, and the gun which had been fired, in imitation of men-of-war when they lower their colors, it was pure piratical bravado. It was in no way a signal, and no communication yet existed between the convicts and Lincoln Island. The settlers’ domain was now menaced with terrible danger. Evidently the island, with its water, its harbor, its resources of all kinds so increased in value by the colonists, and the concealment afforded by Granite House, could not but be convenient for the convicts; in their hands it would become an excellent place of refuge, and, being unknown, it would assure them, for a long time perhaps, impunity and security.",
+  "words": [
+    {
+      "word": "harbor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Island",
+    "author": "Jules Verne",
+    "year": 1874,
+    "source": "Project Gutenberg #1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

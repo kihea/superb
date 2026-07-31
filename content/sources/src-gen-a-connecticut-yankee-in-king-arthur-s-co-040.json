@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-040",
+  "pool": "sourced",
+  "text": "I crept to the top of it and lay there on the slant of the muck to watch. But it was too dark to see anything. As for sounds, there were none. The stillness was deathlike. True, there were the usual night-sounds of the country--the whir of night-birds, the buzzing of insects, the barking of distant dogs, the mellow lowing of far-off kine --but these didn't seem to break the stillness, they only intensified it, and added a grewsome melancholy to it into the bargain.",
+  "words": [
+    {
+      "word": "insects",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "distant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

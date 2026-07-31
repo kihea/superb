@@ -1,22 +1,22 @@
 {
   "id": "src-gen-the-mysterious-island-013",
   "pool": "sourced",
-  "text": "“That little creek, shut in by rocks, seems to me to be just the harbor we want.” “Is it not rather far?” “Pooh! it is not more than three miles from Granite House, and we have a fine straight road to take us there!” “Do it then, Pencroft, and take your ‘Bonadventure’ there,” replied the engineer, “and yet I would rather have her under our more immediate protection. When we have time, we must make a little harbor for her.” “Famous!” exclaimed Pencroft. “A harbor with a lighthouse, a pier, and dock! really with you, captain, everything becomes easy.” “Yes, my brave Pencroft,” answered the engineer, “but on condition, however, that you help me, for you do as much as three men in all our work.” Herbert and the sailor then re-embarked on board the “Bonadventure,” the anchor was weighed, the sail hoisted, and the wind drove her rapidly towards Claw Cape.",
+  "text": "However, Providence came directly to their aid, in an infinitesimal proportion it is true, but Cyrus Harding, with all his intelligence, all his ingenuity, would never have been able to produce that which, by the greatest chance, Herbert one day found in the lining of his waistcoat, which he was occupied in setting to rights. On this day, as it was raining in torrents, the settlers were assembled in the great hall in Granite House, when the lad cried out all at once,-- “Look here, captain--A grain of corn!” And he showed his companions a grain--a single grain--which from a hole in his pocket had got into the lining of his waistcoat. The presence of this grain was explained by the fact that Herbert, when at Richmond, used to feed some pigeons, of which Pencroft had made him a present. “A grain of corn?” said the engineer quickly. “Yes, captain; but one, only one!” “Well, my boy,” said Pencroft, laughing, “we’re getting on capitally, upon my word!",
   "words": [
     {
-      "word": "lighthouse",
+      "word": "lad",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "weighed",
+      "word": "grain",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     },
     {
-      "word": "sail",
+      "word": "corn",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

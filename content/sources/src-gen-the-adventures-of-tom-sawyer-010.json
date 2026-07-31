@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-010",
   "pool": "sourced",
-  "text": "“But as I was saying,” said Aunt Polly, “he warn’t bad, so to say—only mischeevous. Only just giddy, and harum-scarum, you know. He warn’t any more responsible than a colt. He never meant any harm, and he was the best-hearted boy that ever was”—and she began to cry. “It was just so with my Joe—always full of his devilment, and up to every kind of mischief, but he was just as unselfish and kind as he could be—and laws bless me, to think I went and whipped him for taking that cream, never once recollecting that I throwed it out myself because it was sour, and I never to see him again in this world, never, never, never, poor abused boy!” And Mrs. Harper sobbed as if her heart would break.",
+  "text": "Tom dodged hither and thither through lanes until he was well out of the track of returning scholars, and then fell into a moody jog. He crossed a small “branch” two or three times, because of a prevailing juvenile superstition that to cross water baffled pursuit. Half an hour later he was disappearing behind the Douglas mansion on the summit of Cardiff Hill, and the school-house was hardly distinguishable away off in the valley behind him. He entered a dense wood, picked his pathless way to the centre of it, and sat down on a mossy spot under a spreading oak. There was not even a zephyr stirring; the dead noonday heat had even stilled the songs of the birds; nature lay in a trance that was broken by no sound but the occasional far-off hammering of a wood-pecker, and this seemed to render the pervading silence and sense of loneliness the more profound.",
   "words": [
     {
-      "word": "abused",
+      "word": "mansion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "profound",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

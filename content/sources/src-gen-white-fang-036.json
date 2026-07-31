@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-white-fang-036",
+  "pool": "sourced",
+  "text": "At the end of fifteen minutes, the carriage swung in through a stone gateway and on between a double row of arched and interlacing walnut trees. On either side stretched lawns, their broad sweep broken here and there by great sturdy-limbed oaks. In the near distance, in contrast with the young-green of the tended grass, sunburnt hay-fields showed tan and gold; while beyond were the tawny hills and upland pastures. From the head of the lawn, on the first soft swell from the valley-level, looked down the deep-porched, many-windowed house. Little opportunity was given White Fang to see all this.",
+  "words": [
+    {
+      "word": "hay",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lawn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "source": "Project Gutenberg #910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-wuthering-heights-035",
+  "pool": "sourced",
+  "text": "In the evening I went to the churchyard. It blew bleak as winter—all round was solitary. I didn’t fear that her fool of a husband would wander up the glen so late; and no one else had business to bring them there. Being alone, and conscious two yards of loose earth was the sole barrier between us, I said to myself—‘I’ll have her in my arms again! If she be cold, I’ll think it is this north wind that chills me; and if she be motionless, it is sleep.’ I got a spade from the tool-house, and began to delve with all my might—it scraped the coffin; I fell to work with my hands; the wood commenced cracking about the screws; I was on the point of attaining my object, when it seemed that I heard a sigh from some one above, close at the edge of the grave, and bending down.",
+  "words": [
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chills",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

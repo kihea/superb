@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-invisible-man-017",
   "pool": "sourced",
-  "text": "Of restoring what I have done. When I choose. When I have done all I mean to do invisibly. And that is what I chiefly want to talk to you about now.” “You went straight to Iping?” “Yes. I had simply to get my three volumes of memoranda and my cheque-book, my luggage and underclothing, order a quantity of chemicals to work out this idea of mine—I will show you the calculations as soon as I get my books—and then I started.",
+  "text": "And his ill-shaped mouth fell apart, and a glairy foam lay on his lips, and his breath came hoarse and noisy. All he passed stopped and began staring up the road and down, and interrogating one another with an inkling of discomfort for the reason of his haste. And then presently, far up the hill, a dog playing in the road yelped and ran under a gate, and as they still wondered something—a wind—a pad, pad, pad,—a sound like a panting breathing, rushed by. People screamed. People sprang off the pavement: It passed in shouts, it passed by instinct down the hill.",
   "words": [
     {
-      "word": "volumes",
+      "word": "noisy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staring",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

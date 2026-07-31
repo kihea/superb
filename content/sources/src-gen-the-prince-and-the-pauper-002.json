@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-002",
   "pool": "sourced",
-  "text": "Is this man to live for ever? Am I to be baulked of my will? Is the prince to tarry uninstalled, because, forsooth, the realm lacketh an Earl Marshal free of treasonable taint to invest him with his honours? No, by the splendour of God! Warn my Parliament to bring me Norfolk’s doom before the sun rise again, else shall they answer for it grievously!” {1} Lord Hertford said-- “The King’s will is law;” and, rising, returned to his former place.",
+  "text": "Presently a splendid official came marching by these groups, making solemn proclamation-- “IN THE NAME OF THE KING! Let none list to this false and foolish matter, upon pain of death, nor discuss the same, nor carry it abroad. In the name of the King!” The whisperings ceased as suddenly as if the whisperers had been stricken dumb. Soon there was a general buzz along the corridors, of “The prince! See, the prince comes!” Poor Tom came slowly walking past the low-bowing groups, trying to bow in return, and meekly gazing upon his strange surroundings with bewildered and pathetic eyes.",
   "words": [
     {
-      "word": "realm",
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "buzz",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

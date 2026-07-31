@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-red-badge-of-courage-029",
+  "pool": "sourced",
+  "text": "The officer spoke of the regiment as if he referred to a broom. Some part of the woods needed sweeping, perhaps, and he merely indicated a broom in a tone properly indifferent to its fate. It was war, no doubt, but it appeared strange. As the two boys approached the line, the lieutenant perceived them and swelled with wrath. “Fleming—Wilson—how long does it take yeh to git water, anyhow—where yeh been to.” But his oration ceased as he saw their eyes, which were large with great tales.",
+  "words": [
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "broom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wrath",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Red Badge of Courage",
+    "author": "Stephen Crane",
+    "year": 1895,
+    "source": "Project Gutenberg #73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

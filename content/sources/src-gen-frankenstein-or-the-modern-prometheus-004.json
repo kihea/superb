@@ -1,16 +1,10 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-004",
   "pool": "sourced",
-  "text": "When I had arrived at this point and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conducive to my improvements, I thought of returning to my friends and my native town, when an incident happened that protracted my stay. One of the phenomena which had peculiarly attracted my attention was the structure of the human frame, and, indeed, any animal endued with life. Whence, I often asked myself, did the principle of life proceed? It was a bold question, and one which has ever been considered as a mystery; yet with how many things are we upon the brink of becoming acquainted, if cowardice or carelessness did not restrain our inquiries. I revolved these circumstances in my mind and determined thenceforth to apply myself more particularly to those branches of natural philosophy which relate to physiology.",
+  "text": "Were we among the tamer scenes of nature I might fear to encounter your unbelief, perhaps your ridicule; but many things will appear possible in these wild and mysterious regions which would provoke the laughter of those unacquainted with the ever-varied powers of nature; nor can I doubt but that my tale conveys in its series internal evidence of the truth of the events of which it is composed.” You may easily imagine that I was much gratified by the offered communication, yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity and partly from a strong desire to ameliorate his fate if it were in my power. I expressed these feelings in my answer. “I thank you,” he replied, “for your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace.",
   "words": [
     {
-      "word": "inquiries",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "physiology",
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

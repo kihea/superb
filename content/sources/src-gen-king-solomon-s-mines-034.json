@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-king-solomon-s-mines-034",
+  "pool": "sourced",
+  "text": "Only Gagool chuckled loud and long. It was a ghastly sight. There at the end of the long stone table, holding in his skeleton fingers a great white spear, sat Death himself, shaped in the form of a colossal human skeleton, fifteen feet or more in height. High above his head he held the spear, as though in the act to strike; one bony hand rested on the stone table before him, in the position a man assumes on rising from his seat, whilst his frame was bent forward so that the vertebræ of the neck and the grinning, gleaming skull projected towards us, and fixed its hollow eye-places upon us, the jaws a little open, as though it were about to speak. “Great heavens!” said I faintly, at last, “what can it be?” “And what are those things?” asked Good, pointing to the white company round the table.",
+  "words": [
+    {
+      "word": "spear",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "colossal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grinning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "skull",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

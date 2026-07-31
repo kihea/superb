@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-adam-bede-025",
+  "pool": "sourced",
+  "text": "The Next Morning Arthur did not pass a sleepless night; he slept long and well. For sleep comes to the perplexed—if the perplexed are only weary enough. But at seven he rang his bell and astonished Pym by declaring he was going to get up, and must have breakfast brought to him at eight. “And see that my mare is saddled at half-past eight, and tell my grandfather when he’s down that I’m better this morning and am gone for a ride.” He had been awake an hour, and could rest in bed no longer. In bed our yesterdays are too oppressive: if a man can only get up, though it be but to whistle or to smoke, he has a present which offers some resistance to the past—sensations which assert themselves against tyrannous memories.",
+  "words": [
+    {
+      "word": "sleepless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rang",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "source": "Project Gutenberg #507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

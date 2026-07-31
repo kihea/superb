@@ -1,10 +1,28 @@
 {
   "id": "src-gen-sense-and-sensibility-016",
   "pool": "sourced",
-  "text": "Colonel, I do not know what you and I shall do without the Miss Dashwoods;\"--was Mrs. Jennings's address to him when he first called on her, after their leaving her was settled--\"for they are quite resolved upon going home from the Palmers;--and how forlorn we shall be, when I come back!--Lord! we shall sit and gape at one another as dull as two cats.\" Perhaps Mrs. Jennings was in hopes, by this vigorous sketch of their future ennui, to provoke him to make that offer, which might give himself an escape from it; and if so, she had soon afterwards good reason to think her object gained; for, on Elinor's moving to the window to take more expeditiously the dimensions of a print, which she was going to copy for her friend, he followed her to it with a look of particular meaning, and conversed with her there for several minutes.",
+  "text": "From their counsel, or their conversation, she knew she could receive no assistance, their tenderness and sorrow must add to her distress, while her self-command would neither receive encouragement from their example nor from their praise. She was stronger alone, and her own good sense so well supported her, that her firmness was as unshaken, her appearance of cheerfulness as invariable, as with regrets so poignant and so fresh, it was possible for them to be. Much as she had suffered from her first conversation with Lucy on the subject, she soon felt an earnest wish of renewing it; and this for more reasons than one. She wanted to hear many particulars of their engagement repeated again, she wanted more clearly to understand what Lucy really felt for Edward, whether there were any sincerity in her declaration of tender regard for him, and she particularly wanted to convince Lucy, by her readiness to enter on the matter again, and her calmness in conversing on it, that she was no otherwise interested in it than as a friend, which she very much feared her involuntary agitation, in their morning discourse, must have left at least doubtful.",
   "words": [
     {
-      "word": "sketch",
+      "word": "tenderness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doubtful",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-time-machine-004",
   "pool": "sourced",
-  "text": "For a moment I felt that I had built the Time Machine in vain. “I nodded, pointed to the sun, and gave them such a vivid rendering of a thunderclap as startled them. They all withdrew a pace or so and bowed. Then came one laughing towards me, carrying a chain of beautiful flowers altogether new to me, and put it about my neck. The idea was received with melodious applause; and presently they were all running to and fro for flowers, and laughingly flinging them upon me until I was almost smothered with blossom.",
+  "text": "Even through the veil of my confusion the earth seemed very fair. And so my mind came round to the business of stopping. “The peculiar risk lay in the possibility of my finding some substance in the space which I, or the machine, occupied. So long as I travelled at a high velocity through time, this scarcely mattered: I was, so to speak, attenuated—was slipping like a vapour through the interstices of intervening substances! But to come to a stop involved the jamming of myself, molecule by molecule, into whatever lay in my way; meant bringing my atoms into such intimate contact with those of the obstacle that a profound chemical reaction—possibly a far-reaching explosion—would result, and blow myself and my apparatus out of all possible dimensions—into the Unknown.",
   "words": [
     {
-      "word": "blossom",
+      "word": "velocity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "molecule",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obstacle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "profound",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

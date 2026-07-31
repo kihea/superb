@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-cranford-026",
+  "pool": "sourced",
+  "text": "Nay, my dear” (and by a sudden blaze which sprang up from a fall of the unstirred coals, I saw that her eyes were full of tears—gazing intently on some vision of what might have been), “do you know I dream sometimes that I have a little child—always the same—a little girl of about two years old; she never grows older, though I have dreamt about her for many years. I don’t think I ever dream of any words or sound she makes; she is very noiseless and still, but she comes to me when she is very sorry or very glad, and I have wakened with the clasp of her dear little arms round my neck. Only last night—perhaps because I had gone to sleep thinking of this ball for Phœbe—my little darling came in my dream, and put up her mouth to be kissed, just as I have seen real babies do to real mothers before going to bed. But all this is nonsense, dear! only don’t be frightened by Miss Pole from being married.",
+  "words": [
+    {
+      "word": "dreamt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nonsense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

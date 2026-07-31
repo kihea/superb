@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-gulliver-s-travels-027",
+  "pool": "sourced",
+  "text": "I soon fell into some acquaintance, and was very hospitably received. A gentleman of distinction said to me, “that since the ships bound for Luggnagg could not be ready in less than a month, it might be no disagreeable amusement for me to take a trip to the little island of Glubbdubdrib, about five leagues off to the south-west.” He offered himself and a friend to accompany me, and that I should be provided with a small convenient bark for the voyage. Glubbdubdrib, as nearly as I can interpret the word, signifies the island of sorcerers or magicians. It is about one third as large as the Isle of Wight, and extremely fruitful: it is governed by the head of a certain tribe, who are all magicians. This tribe marries only among each other, and the eldest in succession is prince or governor.",
+  "words": [
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

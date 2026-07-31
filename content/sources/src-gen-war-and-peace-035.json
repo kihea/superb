@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-war-and-peace-035",
+  "pool": "sourced",
+  "text": "Denísov and Pétya rode up to him. From the spot where the peasant was standing they could see the French. Immediately beyond the forest, on a downward slope, lay a field of spring rye. To the right, beyond a steep ravine, was a small village and a landowner’s house with a broken roof. In the village, in the house, in the garden, by the well, by the pond, over all the rising ground, and all along the road uphill from the bridge leading to the village, not more than five hundred yards away, crowds of men could be seen through the shimmering mist.",
+  "words": [
+    {
+      "word": "peasant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "steep",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pond",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uphill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

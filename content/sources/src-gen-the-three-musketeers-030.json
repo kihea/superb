@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-030",
+  "pool": "sourced",
+  "text": "Now, you know nothing is more disagreeable than being disturbed when one is at breakfast. We request you, then, if you really have business here, to wait till we have finished our repast, or to come again a short time hence; unless, which would be far better, you form the salutary resolution to quit the side of the rebels, and come and drink with us to the health of the King of France.” “Take care, Athos!” cried D’Artagnan; “don’t you see they are aiming?” “Yes, yes,” said Athos; “but they are only civilians—very bad marksmen, who will be sure not to hit me.” In fact, at the same instant four shots were fired, and the balls were flattened against the wall around Athos, but not one touched him. Four shots replied to them almost instantaneously, but much better aimed than those of the aggressors; three soldiers fell dead, and one of the pioneers was wounded. “Grimaud,” said Athos, still on the breach, “another musket!” Grimaud immediately obeyed. On their part, the three friends had reloaded their arms; a second discharge followed the first.",
+  "words": [
+    {
+      "word": "aiming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "breach",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

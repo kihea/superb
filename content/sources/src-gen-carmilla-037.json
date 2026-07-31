@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-carmilla-037",
+  "pool": "sourced",
+  "text": "The voices died away. In this solitude, having just listened to so strange a story, connected, as it was, with the great and titled dead, whose monuments were moldering among the dust and ivy round us, and every incident of which bore so awfully upon my own mysterious case—in this haunted spot, darkened by the towering foliage that rose on every side, dense and high above its noiseless walls—a horror began to steal over me, and my heart sank as I thought that my friends were, after all, not about to enter and disturb this triste and ominous scene. The old General’s eyes were fixed on the ground, as he leaned with his hand upon the basement of a shattered monument. Under a narrow, arched doorway, surmounted by one of those demoniacal grotesques in which the cynical and ghastly fancy of old Gothic carving delights, I saw very gladly the beautiful face and figure of Carmilla enter the shadowy chapel. I was just about to rise and speak, and nodded smiling, in answer to her peculiarly engaging smile; when with a cry, the old man by my side caught up the woodman’s hatchet, and started forward.",
+  "words": [
+    {
+      "word": "towering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "basement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shadowy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "smiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

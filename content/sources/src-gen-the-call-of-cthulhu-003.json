@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-call-of-cthulhu-003",
   "pool": "sourced",
-  "text": "The reception of his request seems to have been varied; but he must, at the very least, have received more responses than any ordinary man could have handled without a secretary. This original correspondence was not preserved, but his notes formed a thorough and really significant digest. Average people in society and business--New England's traditional \"salt of the earth\"--gave an almost completely negative result, though scattered cases of uneasy but formless nocturnal impressions appear here and there, always between March 23rd and April 2nd--the period of young Wilcox's delirium. Scientific men were little more affected, though four cases of vague description suggest fugitive glimpses of strange landscapes, and in one case there is mentioned a dread of something abnormal. It was from the artists and poets that the pertinent answers came, and I know that panic would have broken loose had they been able to compare notes.",
+  "text": "On March 23rd, the manuscript continued, Wilcox failed to appear; and inquiries at his quarters revealed that he had been stricken with an obscure sort of fever and taken to the home of his family in Waterman Street. He had cried out in the night, arousing several other artists in the building, and had manifested since then only alternations of unconsciousness and delirium. My uncle at once telephoned the family, and from that time forward kept close watch of the case; calling often at the Thayer Street office of Dr. Tobey, whom he learned to be in charge. The youth's febrile mind, apparently, was dwelling on strange things; and the doctor shuddered now and then as he spoke of them. They included not only a repetition of what he had formerly dreamed, but touched wildly on a gigantic thing \"miles high\" which walked or lumbered about.",
   "words": [
     {
-      "word": "impressions",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glimpses",
+      "word": "dwelling",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

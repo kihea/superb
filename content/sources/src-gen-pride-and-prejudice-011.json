@@ -1,22 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-011",
   "pool": "sourced",
-  "text": "Nor am I ashamed of the feelings I related. They were natural and just. Could you expect me to rejoice in the inferiority of your connections?--to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own?” Elizabeth felt herself growing more angry every moment; yet she tried to the utmost to speak with composure when she said,-- “You are mistaken, Mr. Darcy, if you suppose that the mode of your declaration affected me in any other way than as it spared me the concern which I might have felt in refusing you, had you behaved in a more gentlemanlike manner.” She saw him start at this; but he said nothing, and she continued,-- “You could not have made me the offer of your hand in any possible way that would have tempted me to accept it.” Again his astonishment was obvious; and he looked at her with an expression of mingled incredulity and mortification.",
+  "text": "Collins, you must marry. A clergyman like you must marry. Choose properly, choose a gentlewoman for my sake, and for your own; let her be an active, useful sort of person, not brought up high, but able to make a small income go a good way. This is my advice. Find such a woman as soon as you can, bring her to Hunsford, and I will visit her.’ Allow me, by the way, to observe, my fair cousin, that I do not reckon the notice and kindness of Lady Catherine de Bourgh as among the least of the advantages in my power to offer.",
   "words": [
     {
-      "word": "congratulate",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "decidedly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "behaved",
+      "word": "observe",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

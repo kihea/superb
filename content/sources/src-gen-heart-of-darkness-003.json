@@ -1,10 +1,22 @@
 {
   "id": "src-gen-heart-of-darkness-003",
   "pool": "sourced",
-  "text": "The cliff was not in the way or anything; but this objectless blasting was all the work going on. “A slight clinking behind me made me turn my head. Six black men advanced in a file, toiling up the path. They walked erect and slow, balancing small baskets full of earth on their heads, and the clink kept time with their footsteps. Black rags were wound round their loins, and the short ends behind waggled to and fro like tails.",
+  "text": "I watched the coast. Watching a coast as it slips by the ship is like thinking about an enigma. There it is before you—smiling, frowning, inviting, grand, mean, insipid, or savage, and always mute with an air of whispering, ‘Come and find out.’ This one was almost featureless, as if still in the making, with an aspect of monotonous grimness. The edge of a colossal jungle, so dark-green as to be almost black, fringed with white surf, ran straight, like a ruled line, far, far away along a blue sea whose glitter was blurred by a creeping mist. The sun was fierce, the land seemed to glisten and drip with steam.",
   "words": [
     {
-      "word": "baskets",
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fierce",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drip",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

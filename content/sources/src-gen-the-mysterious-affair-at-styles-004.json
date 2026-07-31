@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-004",
   "pool": "sourced",
-  "text": "You are agitated; you are excited—it is but natural. Presently, when we are calmer, we will arrange the facts, neatly, each in his proper place. We will examine—and reject. Those of importance we will put on one side; those of no importance, pouf!”—he screwed up his cherub-like face, and puffed comically enough—“blow them away!” “That’s all very well,” I objected, “but how are you going to decide what is important, and what isn’t? That always seems the difficulty to me.” Poirot shook his head energetically.",
+  "text": "“Every single person who comes up here says that. We are really thinking of bestowing a prize on the first individual who does not say: ‘What a lot of bottles!’ And I know the next thing you’re going to say is: ‘How many people have you poisoned?’” I pleaded guilty with a laugh. “If you people only knew how fatally easy it is to poison someone by mistake, you wouldn’t joke about it. Come on, let’s have tea. We’ve got all sorts of secret stores in that cupboard.",
   "words": [
     {
-      "word": "arrange",
+      "word": "poisoned",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-carmilla-026",
+  "pool": "sourced",
+  "text": "“I hope you are thinking of claiming the title and estates?” My father said this gaily, but the General did not recollect the laugh, or even the smile, which courtesy exacts for a friend’s joke; on the contrary, he looked grave and even fierce, ruminating on a matter that stirred his anger and horror. “Something very different,” he said, gruffly. “I mean to unearth some of those fine people. I hope, by God’s blessing, to accomplish a pious sacrilege here, which will relieve our earth of certain monsters, and enable honest people to sleep in their beds without being assailed by murderers. I have strange things to tell you, my dear friend, such as I myself would have scouted as incredible a few months since.” My father looked at him again, but this time not with a glance of suspicion—with an eye, rather, of keen intelligence and alarm.",
+  "words": [
+    {
+      "word": "pious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspicion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

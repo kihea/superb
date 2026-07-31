@@ -1,10 +1,16 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-018",
   "pool": "sourced",
-  "text": "I was not allowed to go into these places when I was young. what’s that prancing? How they shout!” “Black Bess just started off, I suppose. Am I right in supposing you would like to see the performance, Mrs. Please excuse my mistake, if it is one; but if you would like to, I’ll get a seat for you with pleasure.” Perceiving that she hesitated, he added, “I myself shall not stay to see it: I’ve seen it before.” Now Bathsheba did care a little to see the show, and had only withheld her feet from the ladder because she feared to go in alone.",
+  "text": "Just now the first feeling was in the ascendant with Bathsheba, with a dash of the second. Moreover, by chance or by devilry, the ministrant was antecedently made interesting by being a handsome stranger who had evidently seen better days. So she could not clearly decide whether it was her opinion that he had insulted her or not. “Was ever anything so odd!” she at last exclaimed to herself, in her own room. “And was ever anything so meanly done as what I did—to skulk away like that from a man who was only civil and kind!” Clearly she did not think his bare-faced praise of her person an insult now.",
   "words": [
     {
-      "word": "withheld",
+      "word": "evidently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bare",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

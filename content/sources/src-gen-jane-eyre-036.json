@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-jane-eyre-036",
+  "pool": "sourced",
+  "text": "I comprehended how he should despise himself for the feverish influence it exercised over him; how he should wish to stifle and destroy it; how he should mistrust its ever conducting permanently to his happiness or hers. I saw he was of the material from which nature hews her heroes—Christian and Pagan—her lawgivers, her statesmen, her conquerors: a steadfast bulwark for great interests to rest upon; but, at the fireside, too often a cold cumbrous column, gloomy and out of place. “This parlour is not his sphere,” I reflected: “the Himalayan ridge or Caffre bush, even the plague-cursed Guinea Coast swamp would suit him better. Well may he eschew the calm of domestic life; it is not his element: there his faculties stagnate—they cannot develop or appear to advantage. It is in scenes of strife and danger—where courage is proved, and energy exercised, and fortitude tasked—that he will speak and move, the leader and superior.",
+  "words": [
+    {
+      "word": "swamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fortitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #1260",
+    "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

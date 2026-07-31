@@ -1,15 +1,70 @@
+/* Frame 3a: the room is paper now, the same paper the other thirteen
+   screens stand on. The passage's own ink and paper (--page-*) did not
+   move -- see ReadingScreen.tsx's header and issue #100. */
 .reading-screen {
   min-height: 100dvh;
-  background: var(--chrome-ground);
-  background-image: var(--chrome-ground-gradient);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-page);
+  color: var(--text-1);
   position: relative;
   isolation: isolate;
   overflow-x: hidden;
 }
 
-/* The aura (ADVISORY-008 §3): two very large, very diffuse radial lights,
-   one warm and one cool, low opacity. Static -- see the mount comment in
-   ReadingScreen.tsx for why nothing here drifts. */
+/* 3a's top row: the way back to the Shelf, and the orb. */
+.reading-top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  padding: var(--sp-5) var(--sp-7) 0;
+}
+
+.reading-top__out {
+  font: var(--type-label);
+  color: var(--text-3);
+  text-decoration: none;
+  padding: var(--sp-4) 0;
+  min-height: var(--tap-min);
+  display: inline-flex;
+  align-items: center;
+  transition: color var(--dur-1) var(--ease-out);
+}
+
+.reading-top__out:hover {
+  color: var(--brand);
+}
+
+/* 2b: asking to be read to gives you two words, not a player. */
+.reading-voice {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+  padding: var(--sp-4) var(--sp-7) 0;
+}
+
+.reading-voice__from {
+  border: none;
+  background: transparent;
+  font: var(--type-label);
+  color: var(--text-3);
+  padding: var(--sp-3) 0;
+  cursor: pointer;
+}
+
+.reading-voice__from:first-child {
+  color: var(--text-1);
+  border-bottom: 1px solid var(--brand);
+}
+
+/* The aura, kept but quietened: on paper it is a single very soft warmth
+   rather than two lights in a dark room. Static, and for the same reason as
+   before -- see the mount comment in ReadingScreen.tsx. */
 .reading-screen-aura {
   position: absolute;
   inset: -20% -10%;
@@ -30,7 +85,7 @@
   height: 56vw;
   left: 2%;
   top: -4%;
-  background: var(--chrome-glow-a);
+  background: color-mix(in srgb, var(--brand) 6%, transparent);
 }
 
 .reading-screen-aura::after {
@@ -38,12 +93,28 @@
   height: 48vw;
   right: 2%;
   bottom: -6%;
-  background: var(--chrome-glow-b);
+  background: color-mix(in srgb, var(--support) 5%, transparent);
 }
 
 .reading-page {
   position: relative;
   z-index: 1;
+}
+
+/* ADR-036's B4 -- see ReadingScreen.tsx's own comment for why this lives
+   here rather than inside PassagePage's "Keep reading" button. Same fixed
+   bottom-centre spot as .passage-continue (PassagePage.css), so the break
+   reads as coming from that button. A small, fixed box, not the whole
+   viewport -- the layering fix's bound holds by construction here too. */
+.reading-screen-break {
+  position: fixed;
+  left: 50%;
+  bottom: var(--space-4);
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3rem;
+  pointer-events: none;
+  z-index: 30;
 }
 
 /* The register decision, receipted 2026-07-27 (workspace/decisions/
@@ -61,34 +132,38 @@
   --doodle-arrow-weight: 4;
 }
 
-/* Even on a phone the room has to stay visible -- a full-bleed card would
-   quietly erase the material the moment someone picks up their phone,
-   which is most of the audience. The margin and radius only get more
-   generous at wider viewports, never appear from nothing. */
+/* 3a on a phone: no card, no rule, no header until it is reached for. The
+   passage sits directly on the paper. The background-color is still set
+   explicitly rather than inherited, because a contrast check reading
+   getComputedStyle().backgroundColor should find a real colour here. */
+/* No `overflow: hidden` here any more. It was harmless when this was a
+   rounded card whose height grew with its content; once the room became a
+   column flex container it also set this item's min-height to 0, which
+   clipped a long passage instead of letting the document scroll -- and the
+   pull-up bar's sentinel then never came into view, so "Keep reading" never
+   appeared. Nine tests caught it at once. */
 .reading-page {
-  --metal-fill: var(--page-ground);
-  /* Set explicitly, in addition to the metal treatment's background-image
-     (design/metal.css): a real fallback if that ever fails to paint, and
-     the truthful value anything reading getComputedStyle().backgroundColor
-     -- a contrast check, a test -- will see. Same colour either way. */
   background-color: var(--page-ground);
   color: var(--page-ink);
-  margin: var(--space-5) var(--space-3) var(--space-6);
-  border-radius: var(--radius-md);
-  box-shadow:
-    0 16px 40px var(--chrome-shadow),
-    0 1px 0 var(--chrome-metal-edge1) inset;
-  overflow: hidden;
 }
 
-@media (min-width: 45rem) {
+/* 3c, the wide view: the empty left column is gone. The passage sits left
+   at its own measure and the gutter beside it is where kept words go --
+   see GlossCard.css, which becomes a margin note at this width rather than
+   a card. */
+@media (min-width: 64rem) {
   .reading-page {
-    max-width: 52rem;
-    margin: var(--space-7) auto var(--space-8);
-    border-radius: var(--radius-slab);
-    box-shadow:
-      0 32px 80px var(--chrome-shadow),
-      0 1px 0 var(--chrome-metal-edge1) inset;
+    display: grid;
+    grid-template-columns: var(--type-passage-measure) 1fr;
+    gap: var(--sp-11);
+    padding: var(--sp-9) var(--page-pad-x-lg) 0;
+    max-width: var(--shell-max);
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .reading-page > .passage-page {
+    margin: 0;
   }
 }
 

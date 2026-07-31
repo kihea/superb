@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-tom-sawyer-037",
+  "pool": "sourced",
+  "text": "Will you go in there with me and help get it out?” “I bet I will! I will if it’s where we can blaze our way to it and not get lost.” “Huck, we can do that without the least little bit of trouble in the world.” “Good as wheat! What makes you think the money’s—” “Huck, you just wait till we get in there. If we don’t find it I’ll agree to give you my drum and every thing I’ve got in the world. I will, by jings.” “All right—it’s a whiz.",
+  "words": [
+    {
+      "word": "drum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "source": "Project Gutenberg #74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

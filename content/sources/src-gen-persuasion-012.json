@@ -1,16 +1,28 @@
 {
   "id": "src-gen-persuasion-012",
   "pool": "sourced",
-  "text": "yes, perhaps, it had been Mr Elliot. They did not know. It might be him, perhaps.” They could not listen to her description of him. They were describing him themselves; Sir Walter especially. He did justice to his very gentlemanlike appearance, his air of elegance and fashion, his good shaped face, his sensible eye; but, at the same time, “must lament his being very much under-hung, a defect which time seemed to have increased; nor could he pretend to say that ten years had not altered almost every feature for the worse.",
+  "text": "I have always been blessed with excellent health, and no climate disagrees with me. A little disordered always the first twenty-four hours of going to sea, but never knew what sickness was afterwards. The only time I ever really suffered in body or mind, the only time that I ever fancied myself unwell, or had any ideas of danger, was the winter that I passed by myself at Deal, when the Admiral (Captain Croft then) was in the North Seas. I lived in perpetual fright at that time, and had all manner of imaginary complaints from not knowing what to do with myself, or when I should hear from him next; but as long as we could be together, nothing ever ailed me, and I never met with the smallest inconvenience.” “Aye, to be sure. Yes, indeed, oh yes!",
   "words": [
     {
-      "word": "elegance",
+      "word": "fancied",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sensible",
+      "word": "unwell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perpetual",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fright",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

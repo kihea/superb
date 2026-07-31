@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-thirty-nine-steps-024",
+  "pool": "sourced",
+  "text": "I picked up one, and found it was in working order. With the torch to help me I investigated further. There were bottles and cases of queer-smelling stuffs, chemicals no doubt for experiments, and there were coils of fine copper wire and yanks and yanks of thin oiled silk. There was a box of detonators, and a lot of cord for fuses. Then away at the back of the shelf I found a stout brown cardboard box, and inside it a wooden case.",
+  "words": [
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "silk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "year": 1915,
+    "source": "Project Gutenberg #558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

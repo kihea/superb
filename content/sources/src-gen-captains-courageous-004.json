@@ -1,28 +1,10 @@
 {
   "id": "src-gen-captains-courageous-004",
   "pool": "sourced",
-  "text": "Bright's day. \"Jest when things happen, Dad says. Fine weather's good sleepin', an' 'fore you know, mebbe, you're cut in two by a liner, an' seventeen brass-bound officers, all gen'elmen, lift their hand to it that your lights was aout an' there was a thick fog. Harve, I've kinder took to you, but ef you nod onct more I'll lay into you with a rope's end.\" The moon, who sees many strange things on the Banks, looked down on a slim youth in knickerbockers and a red jersey, staggering around the cluttered decks of a seventy-ton schooner, while behind him, waving a knotted rope, walked, after the manner of an executioner, a boy who yawned and nodded between the blows he dealt.",
+  "text": "\"Lay a-holt o' that tackle, then. Behind ye!\" Harvey grabbed at a rope and long iron hook dangling from one of the stays of the mainmast, while Dan pulled down another that ran from something he called a \"topping-lift,\" as Manuel drew alongside in his loaded dory. The Portuguese smiled a brilliant smile that Harvey learned to know well later, and with a short-handled fork began to throw fish into the pen on deck. \"Two hundred and thirty-one,\" he shouted.",
   "words": [
     {
-      "word": "brass",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fog",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "decks",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rope",
+      "word": "tackle",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Rudyard Kipling",
     "year": 1897,
     "source": "Project Gutenberg #2186",
-    "url": "https://www.gutenberg.org/ebooks/2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

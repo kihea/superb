@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-woman-in-white-003",
   "pool": "sourced",
-  "text": "Our dairymaid here is the farmer’s second daughter. She goes backwards and forwards constantly between this house and her father’s farm, and she may have heard or seen something which it may be useful to us to know. Shall I ascertain, at once, if the girl is downstairs?” She rang the bell, and sent the servant with his message. He returned, and announced that the dairymaid was then at the farm. She had not been there for the last three days, and the housekeeper had given her leave to go home for an hour or two that evening.",
+  "text": "While I was speaking, my eyes rested on the last sentence of the letter: “Your mother’s daughter has a tender place in my heart—for your mother was my first, my best, my only friend.” Those words and the doubt which had just escaped me as to the sanity of the writer of the letter, acting together on my mind, suggested an idea, which I was literally afraid to express openly, or even to encourage secretly. I began to doubt whether my own faculties were not in danger of losing their balance. It seemed almost like a monomania to be tracing back everything strange that happened, everything unexpected that was said, always to the same hidden source and the same sinister influence. I resolved, this time, in defence of my own courage and my own sense, to come to no decision that plain fact did not warrant, and to turn my back resolutely on everything that tempted me in the shape of surmise. “If we have any chance of tracing the person who has written this,” I said, returning the letter to Miss Halcombe, “there can be no harm in seizing our opportunity the moment it offers.",
   "words": [
     {
-      "word": "farmer",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "forwards",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "housekeeper",
+      "word": "escaped",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

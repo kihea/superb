@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-sense-and-sensibility-033",
+  "pool": "sourced",
+  "text": "Prescriptions poured in from all quarters, and as usual, were all declined. Though heavy and feverish, with a pain in her limbs, and a cough, and a sore throat, a good night's rest was to cure her entirely; and it was with difficulty that Elinor prevailed on her, when she went to bed, to try one or two of the simplest of the remedies. Marianne got up the next morning at her usual time; to every inquiry replied that she was better, and tried to prove herself so, by engaging in her accustomary employments. But a day spent in sitting shivering over the fire with a book in her hand, which she was unable to read, or in lying, weary and languid, on a sofa, did not speak much in favour of her amendment; and when, at last, she went early to bed, more and more indisposed, Colonel Brandon was only astonished at her sister's composure, who, though attending and nursing her the whole day, against Marianne's inclination, and forcing proper medicines on her at night, trusted, like Marianne, to the certainty and efficacy of sleep, and felt no real alarm.",
+  "words": [
+    {
+      "word": "cough",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sore",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sofa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

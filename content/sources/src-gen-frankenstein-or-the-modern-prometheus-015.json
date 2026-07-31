@@ -1,40 +1,22 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-015",
   "pool": "sourced",
-  "text": "But I was in no mood to laugh and talk with strangers or enter into their feelings or plans with the good humour expected from a guest; and accordingly I told Clerval that I wished to make the tour of Scotland alone. “Do you,” said I, “enjoy yourself, and let this be our rendezvous. I may be absent a month or two; but do not interfere with my motions, I entreat you; leave me to peace and solitude for a short time; and when I return, I hope it will be with a lighter heart, more congenial to your own temper.” Henry wished to dissuade me, but seeing me bent on this plan, ceased to remonstrate. He entreated me to write often. “I had rather be with you,” he said, “in your solitary rambles, than with these Scotch people, whom I do not know; hasten, then, my dear friend, to return, that I may again feel myself somewhat at home, which I cannot do in your absence.” Having parted from my friend, I determined to visit some remote spot of Scotland and finish my work in solitude.",
+  "text": "My father’s health was deeply shaken by the horror of the recent events. Elizabeth was sad and desponding; she no longer took delight in her ordinary occupations; all pleasure seemed to her sacrilege toward the dead; eternal woe and tears she then thought was the just tribute she should pay to innocence so blasted and destroyed. She was no longer that happy creature who in earlier youth wandered with me on the banks of the lake and talked with ecstasy of our future prospects. The first of those sorrows which are sent to wean us from the earth had visited her, and its dimming influence quenched her dearest smiles. “When I reflect, my dear cousin,” said she, “on the miserable death of Justine Moritz, I no longer see the world and its works as they before appeared to me.",
   "words": [
     {
-      "word": "strangers",
+      "word": "delight",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "wished",
+      "word": "ecstasy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "motions",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solitude",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "temper",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solitary",
+      "word": "miserable",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +27,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

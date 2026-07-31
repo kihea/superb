@@ -1,10 +1,16 @@
 {
   "id": "src-gen-washington-square-014",
   "pool": "sourced",
-  "text": "“You have been very kind to him,” said Catherine. “He has written me that, often. I shall never forget that, Aunt Lavinia.” “I have done what I could; it has been very little. To let him come and talk to me, and give him his cup of tea—that was all. Your Aunt Almond thought it was too much, and used to scold me terribly; but she promised me, at least, not to betray me.” “To betray you?” “Not to tell your father.",
+  "text": "If my poor girl should marry your brother, everything—as regards her happiness—would depend on his being a good fellow. She is the best creature in the world, and she could never do him a grain of injury. He, on the other hand, if he should not be all that we desire, might make her very miserable. That is why I want you to throw some light upon his character, you know. Of course you are not bound to do it.",
   "words": [
     {
-      "word": "betray",
+      "word": "regards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miserable",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

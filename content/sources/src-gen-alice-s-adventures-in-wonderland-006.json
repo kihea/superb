@@ -1,10 +1,10 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-006",
   "pool": "sourced",
-  "text": "“Oh, do let me help to undo it!” “I shall do nothing of the sort,” said the Mouse, getting up and walking away. “You insult me by talking such nonsense!” “I didn’t mean it!” pleaded poor Alice. “But you’re so easily offended, you know!” The Mouse only growled in reply. “Please come back and finish your story!” Alice called after it; and the others all joined in chorus, “Yes, please do!” but the Mouse only shook its head impatiently, and walked a little quicker. “What a pity it wouldn’t stay!” sighed the Lory, as soon as it was quite out of sight; and an old Crab took the opportunity of saying to her daughter “Ah, my dear!",
+  "text": "Let me think: was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I’m not the same, the next question is, Who in the world am I? Ah, that’s the great puzzle!” And she began thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them. “I’m sure I’m not Ada,” she said, “for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh!",
   "words": [
     {
-      "word": "offended",
+      "word": "puzzle",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-036",
+  "pool": "sourced",
+  "text": "Johansen and his men landed at a sloping mud-bank on this monstrous Acropolis, and clambered slipperily up over titan oozy blocks which could have been no mortal staircase. The very sun of heaven seemed distorted when viewed through the polarizing miasma welling out from this sea-soaked perversion, and twisted menace and suspense lurked leeringly in those crazily elusive angles of carven rock where a second glance showed concavity after the first showed convexity. Something very like fright had come over all the explorers before anything more definite than rock and ooze and weed was seen. Each would have fled had he not feared the scorn of the others, and it was only half-heartedly that they searched--vainly, as it proved--for some portable souvenir to bear away. It was Rodriguez the Portuguese who climbed up the foot of the monolith and shouted of what he had found.",
+  "words": [
+    {
+      "word": "titan",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

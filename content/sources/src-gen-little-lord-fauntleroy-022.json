@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-lord-fauntleroy-022",
+  "pool": "sourced",
+  "text": "But he chose to think that Cedric's beauty and fearless spirit were the results of the Dorincourt blood and a credit to the Dorincourt rank. And then when he heard the lad talk, and saw what a well-bred little fellow he was, notwithstanding his boyish ignorance of all that his new position meant, the old Earl liked his grandson more, and actually began to find himself rather entertained. It had amused him to give into those childish hands the power to bestow a benefit on poor Higgins. My lord cared nothing for poor Higgins, but it pleased him a little to think that his grandson would be talked about by the country people and would begin to be popular with the tenantry, even in his childhood. Then it had gratified him to drive to church with Cedric and to see the excitement and interest caused by the arrival.",
+  "words": [
+    {
+      "word": "entertained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amused",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Lord Fauntleroy",
+    "author": "Frances Hodgson Burnett",
+    "year": 1886,
+    "source": "Project Gutenberg #479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

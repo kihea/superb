@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-study-in-scarlet-033",
+  "pool": "sourced",
+  "text": "Nor was the fear entirely an illusion, for the barren valley was thickly strewn with trees and boulders which had fallen in a similar manner. Even as they passed, a great rock came thundering down with a hoarse rattle which woke the echoes in the silent gorges, and startled the weary horses into a gallop. As the sun rose slowly above the eastern horizon, the caps of the great mountains lit up one after the other, like lamps at a festival, until they were all ruddy and glowing. The magnificent spectacle cheered the hearts of the three fugitives and gave them fresh energy. At a wild torrent which swept out of a ravine they called a halt and watered their horses, while they partook of a hasty breakfast.",
+  "words": [
+    {
+      "word": "horizon",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "ravine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": 1887,
+    "source": "Project Gutenberg #244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

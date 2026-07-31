@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-020",
   "pool": "sourced",
-  "text": "No, the only thing worth calling a difficulty is how he killed him. The skull seems broken as with some big weapon, but there’s no weapon at all lying about, and the murderer would have found it awkward to carry it away, unless the weapon was too small to be noticed.” “Perhaps the weapon was too big to be noticed,” said the priest, with an odd little giggle. Gilder looked round at this wild remark, and rather sternly asked Brown what he meant. “Silly way of putting it, I know,” said Father Brown apologetically. “Sounds like a fairy tale.",
+  "text": "Either he would vanish, a thief stealing a coin; or he would sneak back with it virtuously, a snob seeking a reward. In the middle of that night Lord Glengyle was knocked up out of his bed--for he lived alone--and forced to open the door to the deaf idiot. The idiot brought with him, not the sovereign, but exactly nineteen shillings and eleven-pence three-farthings in change. “Then the wild exactitude of this action took hold of the mad lord’s brain like fire. He swore he was Diogenes, that had long sought an honest man, and at last had found one.",
   "words": [
     {
-      "word": "fairy",
+      "word": "thief",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "coin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sneak",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

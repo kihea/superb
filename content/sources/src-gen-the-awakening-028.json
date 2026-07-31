@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-awakening-028",
+  "pool": "sourced",
+  "text": "“Something put into my head that you cared for me; and I lost my senses. I forgot everything but a wild dream of your some way becoming my wife.” “Your wife!” “Religion, loyalty, everything would give way if only you cared.” “Then you must have forgotten that I was Léonce Pontellier’s wife.” “Oh! I was demented, dreaming of wild, impossible things, recalling men who had set their wives free, we have heard of such things.” “Yes, we have heard of such things.” “I came back full of vague, mad intentions. And when I got here—” “When you got here you never came near me!” She was still caressing his cheek. “I realized what a cur I was to dream of such a thing, even if you had been willing.” She took his face between her hands and looked into it as if she would never withdraw her eyes more.",
+  "words": [
+    {
+      "word": "dreaming",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recalling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "withdraw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

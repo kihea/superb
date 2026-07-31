@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-treasure-island-030",
+  "pool": "sourced",
+  "text": "So near were we, indeed, that my head came against the coxswain’s foot with a crack that made my teeth rattle. Blow and all, I was the first afoot again, for Hands had got involved with the dead body. The sudden canting of the ship had made the deck no place for running on; I had to find some new way of escape, and that upon the instant, for my foe was almost touching me. Quick as thought, I sprang into the mizzen shrouds, rattled up hand over hand, and did not draw a breath till I was seated on the cross-trees. I had been saved by being prompt; the dirk had struck not half a foot below me as I pursued my upward flight; and there stood Israel Hands with his mouth open and his face upturned to mine, a perfect statue of surprise and disappointment.",
+  "words": [
+    {
+      "word": "prompt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

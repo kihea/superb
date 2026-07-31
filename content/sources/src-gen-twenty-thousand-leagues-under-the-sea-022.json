@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-022",
+  "pool": "sourced",
+  "text": "The solar rays pierced the curtain of clouds, piled up on the eastern horizon, and the radiant orb rose rapidly. I saw land distinctly, with a few trees scattered here and there. The boat neared Manaar Island, which was rounded to the south. Captain Nemo rose from his seat and watched the sea. At a sign from him the anchor was dropped, but the chain scarcely ran, for it was little more than a yard deep, and this spot was one of the highest points of the bank of pintadines.",
+  "words": [
+    {
+      "word": "orb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

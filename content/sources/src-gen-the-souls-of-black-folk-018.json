@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-souls-of-black-folk-018",
   "pool": "sourced",
-  "text": "But Alexander Crummell it gave back. Out of the temptation of Hate, and burned by the fire of Despair, triumphant over Doubt, and steeled by Sacrifice against Humiliation, he turned at last home across the waters, humble and strong, gentle and determined. He bent to all the gibes and prejudices, to all hatred and discrimination, with that rare courtesy which is the armor of pure souls. He fought among his own, the low, the grasping, and the wicked, with that unbending righteousness which is the sword of the just. He never faltered, he seldom complained; he simply worked, inspiring the young, rebuking the old, helping the weak, guiding the strong.",
+  "text": "Five miles below here is a town owned and controlled by one white New Englander. He owns almost a Rhode Island county, with thousands of acres and hundreds of black laborers. Their cabins look better than most, and the farm, with machinery and fertilizers, is much more business-like than any in the county, although the manager drives hard bargains in wages. When now we turn and look five miles above, there on the edge of town are five houses of prostitutes,—two of blacks and three of whites; and in one of the houses of the whites a worthless black boy was harbored too openly two years ago; so he was hanged for rape. And here, too, is the high whitewashed fence of the “stockade,” as the county prison is called; the white folks say it is ever full of black criminals,—the black folks say that only colored boys are sent to jail, and they not because they are guilty, but because the State needs criminals to eke out its income by their forced labor.",
   "words": [
     {
-      "word": "hatred",
+      "word": "whites",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fence",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "W. E. B. Du Bois",
     "year": 1903,
     "source": "Project Gutenberg #408",
-    "url": "https://www.gutenberg.org/ebooks/408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

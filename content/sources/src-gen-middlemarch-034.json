@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-middlemarch-034",
+  "pool": "sourced",
+  "text": "Lydgate had so many times boasted both to himself and others that he was totally independent of Bulstrode, to whose plans he had lent himself solely because they enabled him to carry out his own ideas of professional work and public benefit—he had so constantly in their personal intercourse had his pride sustained by the sense that he was making a good social use of this predominating banker, whose opinions he thought contemptible and whose motives often seemed to him an absurd mixture of contradictory impressions—that he had been creating for himself strong ideal obstacles to the proffering of any considerable request to him on his own account. Still, early in March his affairs were at that pass in which men begin to say that their oaths were delivered in ignorance, and to perceive that the act which they had called impossible to them is becoming manifestly possible.",
+  "words": [
+    {
+      "word": "enabled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absurd",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mixture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "source": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

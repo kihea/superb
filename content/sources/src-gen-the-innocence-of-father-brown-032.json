@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-032",
+  "pool": "sourced",
+  "text": "But, for all that, we can make some difference between a man who insults his quite clear conscience and a man with a conscience more or less clouded with sophistries. Now, do you really think that murder is wrong at all?” “Is this an accusation?” asked Kalon very quietly. “No,” answered Brown, equally gently, “it is the speech for the defence.” In the long and startled stillness of the room the prophet of Apollo slowly rose; and really it was like the rising of the sun. He filled that room with his light and life in such a manner that a man felt he could as easily have filled Salisbury Plain. His robed form seemed to hang the whole room with classic draperies; his epic gesture seemed to extend it into grander perspectives, till the little black figure of the modern cleric seemed to be a fault and an intrusion, a round, black blot upon some splendour of Hellas.",
+  "words": [
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gently",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intrusion",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

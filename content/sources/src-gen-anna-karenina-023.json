@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-anna-karenina-023",
+  "pool": "sourced",
+  "text": "what can I do in this fearful business,” he thought, “without help? Yes, it is help I want now.” When the deacon had finished the prayer for the Imperial family, the priest turned to the bridal pair with a book: “Eternal God, that joinest together in love them that were separate,” he read in a gentle, piping voice: “who hast ordained the union of holy wedlock that cannot be set asunder, Thou who didst bless Isaac and Rebecca and their descendants, according to Thy Holy Covenant; bless Thy servants, Konstantin and Ekaterina, leading them in the path of all good works. For gracious and merciful art Thou, our Lord, and glory be to Thee, the Father, the Son, and the Holy Ghost, now and ever shall be.” “Amen!” the unseen choir sent rolling again upon the air. “‘Joinest together in love them that were separate.’ What deep meaning in those words, and how they correspond with what one feels at this moment,” thought Levin. “Is she feeling the same as I?” And looking round, he met her eyes, and from their expression he concluded that she was understanding it just as he was.",
+  "words": [
+    {
+      "word": "piping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bless",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "choir",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "source": "Project Gutenberg #1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

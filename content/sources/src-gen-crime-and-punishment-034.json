@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-crime-and-punishment-034",
+  "pool": "sourced",
+  "text": "Would you believe it, all that scene of fighting and laughing with his companions on the stairs while the porter and the two witnesses were going up, he got up on purpose to disarm suspicion. The cunning, the presence of mind of the young dog! One can hardly credit it; but it’s his own explanation, he has confessed it all. And what a fool I was about it! Well, he’s simply a genius of hypocrisy and resourcefulness in disarming the suspicions of the lawyers--so there’s nothing much to wonder at, I suppose!",
+  "words": [
+    {
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "confessed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-black-beauty-039",
+  "pool": "sourced",
+  "text": "How I used to long for the nice bran mash with niter in it that Jerry used to give us on Saturday nights in hot weather, that used to cool us down and make us so comfortable. Then we had two nights and a whole day for unbroken rest, and on Monday morning we were as fresh as young horses again; but here there was no rest, and my driver was just as hard as his master. He had a cruel whip with something so sharp at the end that it sometimes drew blood, and he would even whip me under the belly, and flip the lash out at my head. Indignities like these took the heart out of me terribly, but still I did my best and never hung back; for, as poor Ginger said, it was no use; men are the strongest. My life was now so utterly wretched that I wished I might, like Ginger, drop down dead at my work and be out of my misery, and one day my wish very nearly came to pass.",
+  "words": [
+    {
+      "word": "unbroken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "belly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lash",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

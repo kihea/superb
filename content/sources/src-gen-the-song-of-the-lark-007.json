@@ -1,28 +1,16 @@
 {
   "id": "src-gen-the-song-of-the-lark-007",
   "pool": "sourced",
-  "text": "Dr. Evans said he could easily tell him who was the best piano teacher in Chicago, but that most students’ boarding-houses were “abominable places, where girls got poor food for body and mind.” He gave Dr. Archie several addresses, however, and the doctor went to look the places over. He left Thea in her room, for she seemed tired and was not at all like herself. His inspection of boardinghouses was not encouraging. The only place that seemed to him at all desirable was full, and the mistress of the house could not give Thea a room in which she could have a piano. She said Thea might use the piano in her parlor; but when Dr. Archie went to look at the parlor he found a girl talking to a young man on one of the corner sofas.",
+  "text": "After so much and such disillusioning experience with it, he still had a romantic feeling about the human body; a sense that finer things dwelt in it than could be explained by anatomy. He never jested about birth or death or marriage, and did not like to hear other doctors do it. He was a good nurse, and had a reverence for the bodies of women and children. When he was tending them, one saw him at his best. Then his constraint and self-consciousness fell away from him.",
   "words": [
     {
-      "word": "boarding",
+      "word": "finer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "encouraging",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mistress",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "parlor",
+      "word": "anatomy",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

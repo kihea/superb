@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-war-and-peace-033",
+  "pool": "sourced",
+  "text": "BOOK THIRTEEN: 1812 Man’s mind cannot grasp the causes of events in their completeness, but the desire to find those causes is implanted in man’s soul. And without considering the multiplicity and complexity of the conditions any one of which taken separately may seem to be the cause, he snatches at the first approximation to a cause that seems to him intelligible and says: “This is the cause!” In historical events (where the actions of men are the subject of observation) the first and most primitive approximation to present itself was the will of the gods and, after that, the will of those who stood in the most prominent position—the heroes of history. But we need only penetrate to the essence of any historic event—which lies in the activity of the general mass of men who take part in it—to be convinced that the will of the historic hero does not control the actions of the mass but is itself continually controlled.",
+  "words": [
+    {
+      "word": "grasp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

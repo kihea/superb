@@ -1,28 +1,34 @@
 {
   "id": "src-gen-through-the-looking-glass-019",
   "pool": "sourced",
-  "text": "“Your Majesty must excuse her,” the Red Queen said to Alice, taking one of the White Queen’s hands in her own, and gently stroking it: “she means well, but she can’t help saying foolish things, as a general rule.” The White Queen looked timidly at Alice, who felt she ought to say something kind, but really couldn’t think of anything at the moment. “She never was really well brought up,” the Red Queen went on: “but it’s amazing how good-tempered she is! Pat her on the head, and see how pleased she’ll be!” But this was more than Alice had courage to do. “A little kindness—and putting her hair in papers—would do wonders with her—” The White Queen gave a deep sigh, and laid her head on Alice’s shoulder. “I am so sleepy!” she moaned.",
+  "text": "“It isn’t my notion of the thing, at all.” Alice thought it would never do to have an argument at the very beginning of their conversation, so she smiled and said, “If your Majesty will only tell me the right way to begin, I’ll do it as well as I can.” “But I don’t want it done at all!” groaned the poor Queen. “I’ve been a-dressing myself for the last two hours.” It would have been all the better, as it seemed to Alice, if she had got some one else to dress her, she was so dreadfully untidy. “Every single thing’s crooked,” Alice thought to herself, “and she’s all over pins!—may I put your shawl straight for you?” she added aloud. “I don’t know what’s the matter with it!” the Queen said, in a melancholy voice. “It’s out of temper, I think.",
   "words": [
     {
-      "word": "foolish",
+      "word": "notion",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "tempered",
+      "word": "crooked",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "kindness",
+      "word": "aloud",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sigh",
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "temper",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

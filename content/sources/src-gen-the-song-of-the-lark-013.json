@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-song-of-the-lark-013",
   "pool": "sourced",
-  "text": "You’ve got the right idea. I remember once when we were having dinner somewhere you kept asking me about the Cliff-Dweller ruins. Do they still interest you?” “Of course they do. I’ve always wanted to go down there—long before I ever got in for this.” “I don’t think I told you, but my father owns a whole canyon full of Cliff-Dweller ruins. He has a big worthless ranch down in Arizona, near a Navajo reservation, and there’s a canyon on the place they call Panther Canyon, chock full of that sort of thing.",
+  "text": "Mr. Kronborg stood by, nervously rubbing his hands together and trying to think of something to say. Serious situations always embarrassed him and made him formal, even when he felt real sympathy. “In times like this, Ray,” he brought out at last, crumpling up his handkerchief in his long fingers,—“in times like this, we don’t want to forget the Friend that sticketh closer than a brother.” Ray looked up at him; a lonely, disconsolate smile played over his mouth and his square cheeks. “Never mind about all that, padre,” he said quietly. “Christ and me fell out long ago.” There was a moment of silence.",
   "words": [
     {
-      "word": "canyon",
+      "word": "rubbing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "handkerchief",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

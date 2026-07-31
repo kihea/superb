@@ -1,12 +1,18 @@
 {
   "id": "src-gen-sense-and-sensibility-008",
   "pool": "sourced",
-  "text": "I only wonder that I am alive after what I have suffered for Edward's sake these last four years. Every thing in such suspense and uncertainty; and seeing him so seldom--we can hardly meet above twice a-year. I am sure I wonder my heart is not quite broke.\" Here she took out her handkerchief; but Elinor did not feel very compassionate. \"Sometimes,\" continued Lucy, after wiping her eyes, \"I think whether it would not be better for us both to break off the matter entirely.\"",
+  "text": "Elinor thought it wisest to touch that point no more. She knew her sister's temper. Opposition on so tender a subject would only attach her the more to her own opinion. But by an appeal to her affection for her mother, by representing the inconveniences which that indulgent mother must draw on herself, if (as would probably be the case) she consented to this increase of establishment, Marianne was shortly subdued; and she promised not to tempt her mother to such imprudent kindness by mentioning the offer, and to tell Willoughby when she saw him next, that it must be declined. She was faithful to her word; and when Willoughby called at the cottage, the same day, Elinor heard her express her disappointment to him in a low voice, on being obliged to forego the acceptance of his present.",
   "words": [
     {
-      "word": "handkerchief",
+      "word": "tender",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cottage",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

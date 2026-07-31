@@ -1,10 +1,46 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-020",
   "pool": "sourced",
-  "text": "Could it have been aught but a shipwreck which had drawn it under the water? I knew not what to think, when near me in a slow voice I heard Captain Nemo say: “At one time this ship was called the Marseillais. It carried seventy-four guns, and was launched in 1762. In 1778, the 13th of August, commanded by La Poype-Vertrieux, it fought boldly against the Preston. In 1779, on the 4th of July, it was at the taking of Grenada, with the squadron of Admiral Estaing.",
+  "text": "To any one but myself, who had a great love for the sea, the hours would have seemed long and monotonous; but the daily walks on the platform, when I steeped myself in the reviving air of the ocean, the sight of the rich waters through the windows of the saloon, the books in the library, the compiling of my memoirs, took up all my time, and left me not a moment of ennui or weariness. For some days we saw a great number of aquatic birds, sea-mews or gulls. Some were cleverly killed and, prepared in a certain way, made very acceptable water-game. Amongst large-winged birds, carried a long distance from all lands and resting upon the waves from the fatigue of their flight, I saw some magnificent albatrosses, uttering discordant cries like the braying of an ass, and birds belonging to the family of the long-wings. As to the fish, they always provoked our admiration when we surprised the secrets of their aquatic life through the open panels.",
   "words": [
     {
-      "word": "squadron",
+      "word": "reviving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saloon",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "aquatic",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "winged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fatigue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "belonging",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +51,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-thirty-nine-steps-015",
   "pool": "sourced",
-  "text": "In the afternoon I got to Reading, and changed into a local train which journeyed into the deeps of Berkshire. Presently I was in a land of lush water-meadows and slow reedy streams. About eight o’clock in the evening, a weary and travel-stained being—a cross between a farm-labourer and a vet—with a checked black-and-white plaid over his arm (for I did not dare to wear it south of the Border), descended at the little station of Artinswell. There were several people on the platform, and I thought I had better wait to ask my way till I was clear of the place. The road led through a wood of great beeches and then into a shallow valley, with the green backs of downs peeping over the distant trees.",
+  "text": "In the meadows below the road half a mile back a cottage smoked, but it was the only sign of human life. Otherwise there was only the calling of plovers and the tinkling of little streams. It was now about seven o’clock, and as I waited I heard once again that ominous beat in the air. Then I realized that my vantage-ground might be in reality a trap. There was no cover for a tomtit in those bald green places.",
   "words": [
     {
-      "word": "meadows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "streams",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shallow",
+      "word": "bald",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

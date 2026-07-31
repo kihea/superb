@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heart-of-darkness-035",
+  "pool": "sourced",
+  "text": "‘I was on the threshold of great things,’ he pleaded, in a voice of longing, with a wistfulness of tone that made my blood run cold. ‘And now for this stupid scoundrel—’ ‘Your success in Europe is assured in any case,’ I affirmed steadily. I did not want to have the throttling of him, you understand—and indeed it would have been very little use for any practical purpose. I tried to break the spell—the heavy, mute spell of the wilderness—that seemed to draw him to its pitiless breast by the awakening of forgotten and brutal instincts, by the memory of gratified and monstrous passions. This alone, I was convinced, had driven him out to the edge of the forest, to the bush, towards the gleam of fires, the throb of drums, the drone of weird incantations; this alone had beguiled his unlawful soul beyond the bounds of permitted aspirations.",
+  "words": [
+    {
+      "word": "fires",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "unlawful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

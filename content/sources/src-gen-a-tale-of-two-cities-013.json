@@ -1,16 +1,10 @@
 {
   "id": "src-gen-a-tale-of-two-cities-013",
   "pool": "sourced",
-  "text": "The prison on the crag was not so dominant as of yore; there were soldiers to guard it, but not many; there were officers to guard the soldiers, but not one of them knew what his men would do--beyond this: that it would probably not be what he was ordered. Far and wide lay a ruined country, yielding nothing but desolation. Every green leaf, every blade of grass and blade of grain, was as shrivelled and poor as the miserable people. Everything was bowed down, dejected, oppressed, and broken. Habitations, fences, domesticated animals, men, women, children, and the soil that bore them--all worn out.",
+  "text": "Thirty horses stood in his stables, twenty-four male domestics sat in his halls, six body-women waited on his wife. As one who pretended to do nothing but plunder and forage where he could, the Farmer-General--howsoever his matrimonial relations conduced to social morality--was at least the greatest reality among the personages who attended at the hotel of Monseigneur that day. For, the rooms, though a beautiful scene to look at, and adorned with every device of decoration that the taste and skill of the time could achieve, were, in truth, not a sound business; considered with any reference to the scarecrows in the rags and nightcaps elsewhere (and not so far off, either, but that the watching towers of Notre Dame, almost equidistant from the two extremes, could see them both), they would have been an exceedingly uncomfortable business--if that could have been anybody’s business, at the house of Monseigneur.",
   "words": [
     {
-      "word": "grain",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "miserable",
+      "word": "forage",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

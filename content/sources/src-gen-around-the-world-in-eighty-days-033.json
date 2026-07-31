@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-033",
+  "pool": "sourced",
+  "text": "According to the signal-man, it was in a ruinous condition, several of the iron wires being broken; and it was impossible to risk the passage. He did not in any way exaggerate the condition of the bridge. It may be taken for granted that, rash as the Americans usually are, when they are prudent there is good reason for it. Passepartout, not daring to apprise his master of what he heard, listened with set teeth, immovable as a statue. “Hum!” cried Colonel Proctor; “but we are not going to stay here, I imagine, and take root in the snow?” “Colonel,” replied the conductor, “we have telegraphed to Omaha for a train, but it is not likely that it will reach Medicine Bow in less than six hours.” “Six hours!” cried Passepartout.",
+  "words": [
+    {
+      "word": "daring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "statue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

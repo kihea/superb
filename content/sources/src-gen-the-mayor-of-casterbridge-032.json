@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-032",
+  "pool": "sourced",
+  "text": "Royalty had not been seen in Casterbridge since the days of the third King George, and then only by candlelight for a few minutes, when that monarch, on a night-journey, had stopped to change horses at the King’s Arms. The inhabitants therefore decided to make a thorough fête carillonée of the unwonted occasion. Half-an-hour’s pause was not long, it is true; but much might be done in it by a judicious grouping of incidents, above all, if the weather were fine. The address was prepared on parchment by an artist who was handy at ornamental lettering, and was laid on with the best gold-leaf and colours that the sign-painter had in his shop. The Council had met on the Tuesday before the appointed day, to arrange the details of the procedure.",
+  "words": [
+    {
+      "word": "royalty",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ornamental",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "painter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

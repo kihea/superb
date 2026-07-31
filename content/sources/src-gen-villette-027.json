@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-027",
+  "pool": "sourced",
+  "text": "Nature and I opposed him. He did not at all guess what I felt: he did not read my eyes, or face, or gestures; though, I doubt not, all spoke. Leaning towards me coaxingly, he said, softly, “Do content me, Lucy.” And I would have contented, or, at least, I would clearly have enlightened him, and taught him well never again to expect of me the part of officious soubrette in a love drama; when, following his, soft, eager, murmur, meeting almost his pleading, mellow—“Do content me, Lucy!” a sharp hiss pierced my ear on the other side. “Petite chatte, doucerette, coquette!” sibillated the sudden boa-constrictor; “vous avez l’air bien triste, soumis, rêveur, mais vous ne l’êtes pas; c’est moi qui vous le dis: Sauvage! la flamme à l’âme, l’éclair aux yeux!” “Oui; j’ai la flamme à l’âme, et je dois l’avoir!” retorted I, turning in just wrath: but Professor Emanuel had hissed his insult and was gone.",
+  "words": [
+    {
+      "word": "softly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mellow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

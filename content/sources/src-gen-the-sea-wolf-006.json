@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-sea-wolf-006",
   "pool": "sourced",
-  "text": "The frivolity of the laughter-loving Latins is no part of him. When he laughs it is from a humour that is nothing else than ferocious. But he laughs rarely; he is too often sad. And it is a sadness as deep-reaching as the roots of the race. It is the race heritage, the sadness which has made the race sober-minded, clean-lived and fanatically moral, and which, in this latter connection, has culminated among the English in the Reformed Church and Mrs. Grundy.",
+  "text": "I looked for my purse. In addition to some small change (and I have a good memory for such things), it had contained one hundred and eighty-five dollars in gold and paper. The purse I found, but its contents, with the exception of the small silver, had been abstracted. I spoke to the cook about it, when I went on deck to take up my duties in the galley, and though I had looked forward to a surly answer, I had not expected the belligerent harangue that I received. “Look ’ere, ’Ump,” he began, a malicious light in his eyes and a snarl in his throat; “d’ye want yer nose punched?",
   "words": [
     {
-      "word": "laughs",
+      "word": "purse",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sadness",
+      "word": "contents",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

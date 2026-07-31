@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-yellow-wallpaper-006",
   "pool": "sourced",
-  "text": "I cry at nothing, and cry most of the time. Of course I don’t when John is here, or anybody else, but when I am alone. And I am alone a good deal just now. John is kept in town very often by serious cases, and Jennie is good and lets me alone when I want her to. So I walk a little in the garden or down that lovely lane, sit on the porch under the roses, and lie down up here a good deal.",
+  "text": "Half the time now I am awfully lazy, and lie down ever so much. John says I mustn’t lose my strength, and has me take cod-liver oil and lots of tonics and things, to say nothing of ale and wine and rare meat. Dear John! He loves me very dearly, and hates to have me sick. I tried to have a real earnest reasonable talk with him the other day, and tell him how I wish he would let me go and make a visit to Cousin Henry and Julia.",
   "words": [
     {
-      "word": "porch",
+      "word": "cod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dearly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charlotte Perkins Gilman",
     "year": 1892,
     "source": "Project Gutenberg #1952",
-    "url": "https://www.gutenberg.org/ebooks/1952",
+    "url": "https://www.gutenberg.org/ebooks/1952.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

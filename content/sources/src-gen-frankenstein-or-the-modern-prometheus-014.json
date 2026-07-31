@@ -1,22 +1,16 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-014",
   "pool": "sourced",
-  "text": "One paternal kind precaution he had taken to ensure my having a companion. Without previously communicating with me, he had, in concert with Elizabeth, arranged that Clerval should join me at Strasburgh. This interfered with the solitude I coveted for the prosecution of my task; yet at the commencement of my journey the presence of my friend could in no way be an impediment, and truly I rejoiced that thus I should be saved many hours of lonely, maddening reflection. Nay, Henry might stand between me and the intrusion of my foe. If I were alone, would he not at times force his abhorred presence on me to remind me of my task or to contemplate its progress?",
+  "text": "“Oh, Justine!” said she. “Why did you rob me of my last consolation? I relied on your innocence, and although I was then very wretched, I was not so miserable as I am now.” “And do you also believe that I am so very, very wicked? Do you also join with my enemies to crush me, to condemn me as a murderer?” Her voice was suffocated with sobs. “Rise, my poor girl,” said Elizabeth; “why do you kneel, if you are innocent?",
   "words": [
     {
-      "word": "precaution",
+      "word": "wretched",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "companion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "solitude",
+      "word": "miserable",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

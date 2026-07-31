@@ -1,10 +1,16 @@
 {
   "id": "src-gen-dracula-016",
   "pool": "sourced",
-  "text": "Van Helsing said gravely:-- “Go on, friend Arthur. We want here no more concealments. Our hope now is in knowing all. Tell freely!” So Art went on:-- “He had been there, and though it could only have been for a few seconds, he made rare hay of the place. All the manuscript had been burned, and the blue flames were flickering amongst the white ashes; the cylinders of your phonograph too were thrown on the fire, and the wax had helped the flames.” Here I interrupted.",
+  "text": "Interview with the Keeper in the Zoölogical Gardens. After many inquiries and almost as many refusals, and perpetually using the words “Pall Mall Gazette” as a sort of talisman, I managed to find the keeper of the section of the Zoölogical Gardens in which the wolf department is included. Thomas Bilder lives in one of the cottages in the enclosure behind the elephant-house, and was just sitting down to his tea when I found him. Thomas and his wife are hospitable folk, elderly, and without children, and if the specimen I enjoyed of their hospitality be of the average kind, their lives must be pretty comfortable. The keeper would not enter on what he called “business” until the supper was over, and we were all satisfied.",
   "words": [
     {
-      "word": "flames",
+      "word": "keeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elderly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

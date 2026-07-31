@@ -1,36 +1,18 @@
 {
   "id": "src-gen-the-war-of-the-worlds-005",
   "pool": "sourced",
-  "text": "I stopped short in the doorway. The thunderstorm had passed. The towers of the Oriental College and the pine trees about it had gone, and very far away, lit by a vivid red glare, the common about the sand-pits was visible. Across the light huge black shapes, grotesque and strange, moved busily to and fro. It seemed indeed as if the whole country in that direction was on fire—a broad hillside set with minute tongues of flame, swaying and writhing with the gusts of the dying storm, and throwing a red reflection upon the cloud scud above.",
+  "text": "Even within the five-mile circle the great majority of people were inert. I have already described the behaviour of the men and women to whom I spoke. All over the district people were dining and supping; working men were gardening after the labours of the day, children were being put to bed, young people were wandering through the lanes love-making, students sat over their books. Maybe there was a murmur in the village streets, a novel and dominant topic in the public-houses, and here and there a messenger, or even an eye-witness of the later occurrences, caused a whirl of excitement, a shouting, and a running to and fro; but for the most part the daily routine of working, eating, drinking, sleeping, went on as it had done for countless years—as though no planet Mars existed in the sky. Even at Woking station and Horsell and Chobham that was the case.",
   "words": [
     {
-      "word": "thunderstorm",
+      "word": "dining",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lit",
+      "word": "excitement",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glare",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "tongues",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flame",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -39,7 +21,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "source": "Project Gutenberg #36",
-    "url": "https://www.gutenberg.org/ebooks/36",
+    "url": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

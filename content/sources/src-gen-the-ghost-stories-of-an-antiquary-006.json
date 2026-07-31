@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-006",
   "pool": "sourced",
-  "text": "The doctor made no reply. \"My husband was unfortunate, sir, in not being able to get employment here,\" she resumed; \"his being out of work, in the autumn, threw us all back, and we've got nothing to depend on but his earnings. The family that he's in now, sir, don't give him very good pay--only twenty dollars a month, and his board--but it was the best chance he could get, and it was either go to Baltimore with them, or stay at home and starve, and so he went, sir. It's been a hard time with us, and one of the children is sick, now, with a fever, and we don't hardly know how to make out a living. And so, sir, I have come here this evening, leaving the children alone, to ask you if you wouldn't be kind enough to wait a little longer, and we'll hope to make it right with you in the end.\"",
+  "text": "I could have got him a place in the counting-house, but he would not take it; in fact, he wasn't fit for it. You can't harness Pegasus to the cart, you know. Besides, he despised mercantile life--without reason, of course; but he was always notional. His love of literature was one of the rocks he foundered on. He wasn't successful; his best compositions were too delicate--fanciful--to please the popular taste; and then he was full of the radical and fanatical notions which infected so many people at that time in New England, and infect them now, for that matter; and his sublimated, impracticable ideas and principles, which he kept till his dying day, and which, I confess, alienated me from him, always staved off his chances of success.",
   "words": [
     {
-      "word": "resumed",
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

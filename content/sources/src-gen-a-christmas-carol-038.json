@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-a-christmas-carol-038",
+  "pool": "sourced",
+  "text": "\"It's just as likely as not,\" said Bob, \"one of these days; though there's plenty of time for that, my dear. But however and whenever we part from one another, I am sure we shall none of us forget poor Tiny Tim--shall we--or this first parting that there was among us?\" \"Never, father!\" cried they all. \"And I know,\" said Bob, \"I know, my dears, that when we recollect how patient and how mild he was; although he was a little, little child; we shall not quarrel easily among ourselves, and forget poor Tiny Tim in doing it.\"",
+  "words": [
+    {
+      "word": "mild",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "source": "Project Gutenberg #46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-howards-end-020",
   "pool": "sourced",
-  "text": "Nor did purity mean peace. The use of the knife can become a habit as hard to shake off as passion itself, and Leonard continued to start with a cry out of dreams. He built up a situation that was far enough from the truth. It never occurred to him that Helen was to blame. He forgot the intensity of their talk, the charm that had been lent him by sincerity, the magic of Oniton under darkness and of the whispering river.",
+  "text": "But a commercial training was too strong for him. Nor could he say it was a bad thing, for this would be giving it away; nor yet that it was good, for this would be giving it away equally. He attempted to suggest that it was something between the two, with vast possibilities in either direction, but broke down under the gaze of four sincere eyes. As yet he scarcely distinguished between the two sisters. One was more beautiful and more lively, but “the Miss Schlegels” still remained a composite Indian god, whose waving arms and contradictory speeches were the product of a single mind.",
   "words": [
     {
-      "word": "charm",
+      "word": "sincere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waving",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contradictory",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "E. M. Forster",
     "year": 1910,
     "source": "Project Gutenberg #2891",
-    "url": "https://www.gutenberg.org/ebooks/2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

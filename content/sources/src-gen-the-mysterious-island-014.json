@@ -1,40 +1,10 @@
 {
   "id": "src-gen-the-mysterious-island-014",
   "pool": "sourced",
-  "text": "The fourth harvest had been admirable and it may be supposed that no one thought of counting whether the four hundred thousand millions of grains duly appeared in the crop. However, Pencroft had thought of doing so, but Cyrus Harding having told him that even if he managed to count three hundred grains a minute, or nine thousand an hour, it would take him nearly five thousand five-hundred years to finish his task, the honest sailor considered it best to give up the idea. The weather was splendid, the temperature very warm in the day time, but in the evening the sea-breezes tempered the heat of the atmosphere and procured cool nights for the inhabitants of Granite House. There were, however, a few storms, which, although they were not of long duration, swept over Lincoln Island with extraordinary fury. The lightning blazed and the thunder continued to roll for some hours.",
+  "text": "But these formidable carnivora did not exist in the island, or at any rate they had not yet shown themselves. In the meanwhile, Herbert, Pencroft, and the reporter occupied themselves with making traps on Prospect Heights and at the border of the forest. According to the sailor, any animal, whatever it was, would be a lawful prize, and the rodents or carnivora which might get into the new snares would be well received at Granite House. The traps were besides extremely simple; being pits dug in the ground, a platform of branches and grass above, which concealed the opening, and at the bottom some bait, the scent of which would attract animals. It must be mentioned also, that they had not been dug at random, but at certain places where numerous footprints showed that quadrupeds frequented the ground.",
   "words": [
     {
-      "word": "harvest",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sailor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "splendid",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "storms",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "duration",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "thunder",
+      "word": "bait",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +15,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

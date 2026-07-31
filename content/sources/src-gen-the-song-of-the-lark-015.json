@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-song-of-the-lark-015",
   "pool": "sourced",
-  "text": "I don’t want to overpersuade you. But I’d like mighty well to get you down to that jolly old city, where everything would please you, and give myself a chance. Then, if you thought you could have a better time with me than without me, I’d try to grab you before you changed your mind. You are not a sentimental person.” Thea drew her veil down over her face. “I think I am, a little; about you,” she said quietly.",
+  "text": "The literature of the piano was an undiscovered world to her. He wondered how she had been able to work so hard when she knew so little of what she was working toward. She had been taught according to the old Stuttgart method; stiff back, stiff elbows, a very formal position of the hands. The best thing about her preparation was that she had developed an unusual power of work. He noticed at once her way of charging at difficulties.",
   "words": [
     {
-      "word": "veil",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "quietly",
+      "word": "stiff",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-legend-of-sleepy-hollow-017",
   "pool": "sourced",
-  "text": "Ichabod, whose fears increased with the delay, jerked the reins on the other side, and kicked lustily with the contrary foot: it was all in vain; his steed started, it is true, but it was only to plunge to the opposite side of the road into a thicket of brambles and alder bushes. The schoolmaster now bestowed both whip and heel upon the starveling ribs of old Gunpowder, who dashed forward, snuffling and snorting, but came to a stand just by the bridge, with a suddenness that had nearly sent his rider sprawling over his head. Just at this moment a plashy tramp by the side of the bridge caught the sensitive ear of Ichabod. In the dark shadow of the grove, on the margin of the brook, he beheld something huge, misshapen and towering. It stirred not, but seemed gathered up in the gloom, like some gigantic monster ready to spring upon the traveller.",
+  "text": "Still he must have had fire and mettle in his day, if we may judge from the name he bore of Gunpowder. He had, in fact, been a favorite steed of his master’s, the choleric Van Ripper, who was a furious rider, and had infused, very probably, some of his own spirit into the animal; for, old and broken-down as he looked, there was more of the lurking devil in him than in any young filly in the country. Ichabod was a suitable figure for such a steed. He rode with short stirrups, which brought his knees nearly up to the pommel of the saddle; his sharp elbows stuck out like grasshoppers’; he carried his whip perpendicularly in his hand, like a sceptre, and as his horse jogged on, the motion of his arms was not unlike the flapping of a pair of wings. A small wool hat rested on the top of his nose, for so his scanty strip of forehead might be called, and the skirts of his black coat fluttered out almost to the horses tail.",
   "words": [
     {
-      "word": "contrary",
+      "word": "filly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bestowed",
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Washington Irving",
     "year": 1820,
     "source": "Project Gutenberg #41",
-    "url": "https://www.gutenberg.org/ebooks/41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

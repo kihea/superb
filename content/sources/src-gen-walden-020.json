@@ -1,23 +1,18 @@
 {
   "id": "src-gen-walden-020",
   "pool": "sourced",
-  "text": "Is there any enjoyment in it, if his opinion is that he is aggrieved? If you are cheated out of a single dollar by your neighbor, you do not rest satisfied with knowing you are cheated, or with saying that you are cheated, or even with petitioning him to pay you your due; but you take effectual steps at once to obtain the full amount, and see that you are never cheated again. Action from principle,—the perception and the performance of right,—changes things and relations; it is essentially revolutionary, and does not consist wholly with anything which was. It not only divided states and churches, it divides families; aye, it divides the individual, separating the diabolical in him from the divine. Unjust laws exist: shall we be content to obey them, or shall we endeavor to amend them, and obey them until we have succeeded, or shall we transgress them at once?",
+  "text": "Not a fish can leap or an insect fall on the pond but it is thus reported in circling dimples, in lines of beauty, as it were the constant welling up of its fountain, the gentle pulsing of its life, the heaving of its breast. The thrills of joy and thrills of pain are undistinguishable. How peaceful the phenomena of the lake! Again the works of man shine as in the spring. Ay, every leaf and twig and stone and cobweb sparkles now at mid-afternoon as when covered with dew in a spring morning.",
   "words": [
     {
-      "word": "enjoyment",
+      "word": "pond",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "neighbor",
+      "word": "fountain",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "unjust",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -27,7 +22,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

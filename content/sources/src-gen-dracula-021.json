@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-021",
+  "pool": "sourced",
+  "text": "“Do you mean to tell me that Lucy was bitten by such a bat; and that such a thing is here in London in the nineteenth century?” He waved his hand for silence, and went on:-- “Can you tell me why the tortoise lives more long than generations of men; why the elephant goes on and on till he have seen dynasties; and why the parrot never die only of bite of cat or dog or other complaint? Can you tell me why men believe in all ages and places that there are some few who live on always if they be permit; that there are men and women who cannot die? We all know--because science has vouched for the fact--that there have been toads shut up in rocks for thousands of years, shut in one so small hole that only hold him since the youth of the world.",
+  "words": [
+    {
+      "word": "bitten",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

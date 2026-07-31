@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-019",
   "pool": "sourced",
-  "text": "But she waited in vain. “Now, madame,” said Debray, “you have a splendid fortune, an income of about 60,000 livres a year, which is enormous for a woman who cannot keep an establishment here for a year, at least. You will be able to indulge all your fancies; besides, should you find your income insufficient, you can, for the sake of the past, madame, make use of mine; and I am ready to offer you all I possess, on loan.” “Thank you, sir—thank you,” replied the baroness; “you forget that what you have just paid me is much more than a poor woman requires, who intends for some time, at least, to retire from the world.” Debray was, for a moment, surprised, but immediately recovering himself, he bowed with an air which seemed to say, “As you please, madame.” Madame Danglars had until then, perhaps, hoped for something; but when she saw the careless bow of Debray, and the glance by which it was accompanied, together with his significant silence, she raised her head, and without passion or violence or even hesitation, ran downstairs, disdaining to address a last farewell to one who could thus part from her.",
+  "text": "The fact was, nobody had observed a horse entered by the name of Vampa, or that of a jockey styled Job, when, at the last moment, a splendid roan, mounted by a jockey about as big as your fist, presented themselves at the starting-post. They were obliged to stuff at least twenty pounds weight of shot in the small rider’s pockets, to make him weight; but with all that he outstripped Ariel and Barbare, against whom he ran, by at least three whole lengths.” “And was it not found out at last to whom the horse and jockey belonged?” “No.” “You say that the horse was entered under the name of Vampa?” “Exactly; that was the title.” “Then,” answered Albert, “I am better informed than you are, and know who the owner of that horse was.” “Shut up, there!” cried the pit in chorus. And this time the tone and manner in which the command was given, betokened such growing hostility that the two young men perceived, for the first time, that the mandate was addressed to them.",
   "words": [
     {
-      "word": "madame",
+      "word": "rider",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "possess",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "intends",
+      "word": "mandate",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

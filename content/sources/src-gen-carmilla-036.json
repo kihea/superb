@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-carmilla-036",
+  "pool": "sourced",
+  "text": "“Being myself wholly skeptical as to the existence of any such portent as the vampire, the supernatural theory of the good doctor furnished, in my opinion, but another instance of learning and intelligence oddly associated with some one hallucination. I was so miserable, however, that, rather than try nothing, I acted upon the instructions of the letter. “I concealed myself in the dark dressing room, that opened upon the poor patient’s room, in which a candle was burning, and watched there till she was fast asleep. I stood at the door, peeping through the small crevice, my sword laid on the table beside me, as my directions prescribed, until, a little after one, I saw a large black object, very ill-defined, crawl, as it seemed to me, over the foot of the bed, and swiftly spread itself up to the poor girl’s throat, where it swelled, in a moment, into a great, palpitating mass. “For a few moments I had stood petrified.",
+  "words": [
+    {
+      "word": "vampire",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "miserable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prescribed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Carmilla",
+    "author": "Sheridan Le Fanu",
+    "year": 1872,
+    "source": "Project Gutenberg #10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

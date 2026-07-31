@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-woman-in-white-027",
+  "pool": "sourced",
+  "text": "From these recollections (of which Lady Glyde was certain) it seems quite clear that Count Fosco did not take her to his own residence in the suburb of St. John’s Wood. They entered the house, and went upstairs to a back room, either on the first or second floor. The luggage was carefully brought in. A female servant opened the door, and a man with a dark beard, apparently a foreigner, met them in the hall, and with great politeness showed them the way upstairs. In answer to Lady Glyde’s inquiries, the Count assured her that Miss Halcombe was in the house, and that she should be immediately informed of her sister’s arrival.",
+  "words": [
+    {
+      "word": "upstairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquiries",
+      "signals": [
+        "apposition"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Woman in White",
+    "author": "Wilkie Collins",
+    "year": 1859,
+    "source": "Project Gutenberg #583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

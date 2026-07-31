@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-004",
   "pool": "sourced",
-  "text": "“No, it’s this poisonous atmosphere.” “I suppose it is pretty thick, now that you mention it.” “Thick! It is intolerable.” “Open the window, then! You have been at your club all day, I perceive.” “My dear Holmes!” “Am I right?” “Certainly, but how?” He laughed at my bewildered expression. “There is a delightful freshness about you, Watson, which makes it a pleasure to exercise any small powers which I possess at your expense. A gentleman goes forth on a showery and miry day.",
+  "text": "Sir Charles was a widower, and a man who may be said to have been in some ways of an eccentric habit of mind. In spite of his considerable wealth he was simple in his personal tastes, and his indoor servants at Baskerville Hall consisted of a married couple named Barrymore, the husband acting as butler and the wife as housekeeper. Their evidence, corroborated by that of several friends, tends to show that Sir Charles’s health has for some time been impaired, and points especially to some affection of the heart, manifesting itself in changes of colour, breathlessness, and acute attacks of nervous depression. Dr. James Mortimer, the friend and medical attendant of the deceased, has given evidence to the same effect. “The facts of the case are simple.",
   "words": [
     {
-      "word": "delightful",
+      "word": "housekeeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "affection",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

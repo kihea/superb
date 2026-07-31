@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-great-expectations-028",
+  "pool": "sourced",
+  "text": "But, sharpest and deepest pain of all,—it was for the convict, guilty of I knew not what crimes, and liable to be taken out of those rooms where I sat thinking, and hanged at the Old Bailey door, that I had deserted Joe. I would not have gone back to Joe now, I would not have gone back to Biddy now, for any consideration; simply, I suppose, because my sense of my own worthless conduct to them was greater than every consideration. No wisdom on earth could have given me the comfort that I should have derived from their simplicity and fidelity; but I could never, never, undo what I had done. In every rage of wind and rush of rain, I heard pursuers. Twice, I could have sworn there was a knocking and whispering at the outer door.",
+  "words": [
+    {
+      "word": "convict",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sworn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

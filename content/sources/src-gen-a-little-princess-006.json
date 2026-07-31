@@ -1,10 +1,28 @@
 {
   "id": "src-gen-a-little-princess-006",
   "pool": "sourced",
-  "text": "Even Lavinia and Jessie forgot that they were too elderly to care for dolls, and uttered exclamations of delight and caught up things to look at them. \"Suppose,\" Sara said, as she stood by the table, putting a large, black-velvet hat on the impassively smiling owner of all these splendors--\"suppose she understands human talk and feels proud of being admired.\" \"You are always supposing things,\" said Lavinia, and her air was very superior. \"I know I am,\" answered Sara, undisturbedly. There is nothing so nice as supposing.",
+  "text": "On this particular afternoon she had been taking her dancing lesson, and the afternoon on which the dancing master appeared was rather a grand occasion at the seminary, though it occurred every week. The pupils were attired in their prettiest frocks, and as Sara danced particularly well, she was very much brought forward, and Mariette was requested to make her as diaphanous and fine as possible. Today a frock the color of a rose had been put on her, and Mariette had bought some real buds and made her a wreath to wear on her black locks. She had been learning a new, delightful dance in which she had been skimming and flying about the room, like a large rose-colored butterfly, and the enjoyment and exercise had brought a brilliant, happy glow into her face. When she entered the room, she floated in with a few of the butterfly steps--and there sat Becky, nodding her cap sideways off her head.",
   "words": [
     {
-      "word": "understands",
+      "word": "locks",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delightful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "colored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "butterfly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

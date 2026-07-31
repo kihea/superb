@@ -1,16 +1,16 @@
 {
   "id": "src-gen-black-beauty-005",
   "pool": "sourced",
-  "text": "15 The Old Hostler After this it was decided by my master and mistress to pay a visit to some friends who lived about forty-six miles from our home, and James was to drive them. The first day we traveled thirty-two miles. There were some long, heavy hills, but James drove so carefully and thoughtfully that we were not at all harassed. He never forgot to put on the brake as we went downhill, nor to take it off at the right place. He kept our feet on the smoothest part of the road, and if the uphill was very long, he set the carriage wheels a little across the road, so as not to run back, and gave us a breathing.",
+  "text": "if people knew what a comfort to horses a light hand is, and how it keeps a good mouth and a good temper, they surely would not chuck, and drag, and pull at the rein as they often do. Our mouths are so tender that where they have not been spoiled or hardened with bad or ignorant treatment, they feel the slightest movement of the driver's hand, and we know in an instant what is required of us. My mouth has never been spoiled, and I believe that was why the mistress preferred me to Ginger, although her paces were certainly quite as good. She used often to envy me, and said it was all the fault of breaking in, and the gag bit in London, that her mouth was not so perfect as mine; and then old Sir Oliver would say, “There, there!",
   "words": [
     {
-      "word": "traveled",
+      "word": "rein",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "brake",
+      "word": "gag",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

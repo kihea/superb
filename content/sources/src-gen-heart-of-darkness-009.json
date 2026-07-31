@@ -1,22 +1,10 @@
 {
   "id": "src-gen-heart-of-darkness-009",
   "pool": "sourced",
-  "text": "I had to watch the steering, and circumvent those snags, and get the tin-pot along by hook or by crook. There was surface-truth enough in these things to save a wiser man. And between whiles I had to look after the savage who was fireman. He was an improved specimen; he could fire up a vertical boiler. He was there below me, and, upon my word, to look at him was as edifying as seeing a dog in a parody of breeches and a feather hat, walking on his hind-legs.",
+  "text": "And outside, the silent wilderness surrounding this cleared speck on the earth struck me as something great and invincible, like evil or truth, waiting patiently for the passing away of this fantastic invasion. “Oh, these months! Well, never mind. Various things happened. One evening a grass shed full of calico, cotton prints, beads, and I don’t know what else, burst into a blaze so suddenly that you would have thought the earth had opened to let an avenging fire consume all that trash.",
   "words": [
     {
-      "word": "circumvent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fireman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "vertical",
+      "word": "blaze",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,40 +1,40 @@
 {
   "id": "src-gen-walden-003",
   "pool": "sourced",
-  "text": "Leaven, which some deem the soul of bread, the spiritus which fills its cellular tissue, which is religiously preserved like the vestal fire,—some precious bottle-full, I suppose, first brought over in the Mayflower, did the business for America, and its influence is still rising, swelling, spreading, in cerealian billows over the land,—this seed I regularly and faithfully procured from the village, till at length one morning I forgot the rules, and scalded my yeast; by which accident I discovered that even this was not indispensable,—for my discoveries were not by the synthetic but analytic process,—and I have gladly omitted it since, though most housewives earnestly assured me that safe and wholesome bread without yeast might not be, and elderly people prophesied a speedy decay of the vital forces. Yet I find it not to be an essential ingredient, and after going without it for a year am still in the land of the living; and I am glad to escape the trivialness of carrying a bottle-full in my pocket, which would sometimes pop and discharge its contents to my discomfiture. It is simpler and more respectable to omit it.",
+  "text": "All very well perhaps from his point of view, but only a little better than the common dilettantism. A sentimental reformer in architecture, he began at the cornice, not at the foundation. It was only how to put a core of truth within the ornaments, that every sugar plum in fact might have an almond or caraway seed in it,—though I hold that almonds are most wholesome without the sugar,—and not how the inhabitant, the indweller, might build truly within and without, and let the ornaments take care of themselves. What reasonable man ever supposed that ornaments were something outward and in the skin merely,—that the tortoise got his spotted shell, or the shellfish its mother-o’-pearl tints, by such a contract as the inhabitants of Broadway their Trinity Church? But a man has no more to do with the style of architecture of his house than a tortoise with that of its shell: nor need the soldier be so idle as to try to paint the precise color of his virtue on his standard.",
   "words": [
     {
-      "word": "fills",
+      "word": "almond",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "yeast",
+      "word": "wholesome",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "indispensable",
+      "word": "tortoise",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "discoveries",
+      "word": "shellfish",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "gladly",
+      "word": "pearl",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ingredient",
+      "word": "virtue",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +45,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

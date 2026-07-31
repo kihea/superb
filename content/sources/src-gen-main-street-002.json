@@ -1,10 +1,16 @@
 {
   "id": "src-gen-main-street-002",
   "pool": "sourced",
-  "text": "In the aisle beside her is an extremely indignant parrakeet in a cage. Two facing seats, overflowing with a Slovene iron-miner's family, are littered with shoes, dolls, whisky bottles, bundles wrapped in newspapers, a sewing bag. The oldest boy takes a mouth-organ out of his coat pocket, wipes the tobacco crumbs off, and plays “Marching through Georgia” till every head in the car begins to ache. The news-butcher comes through selling chocolate bars and lemon drops. A girl-child ceaselessly trots down to the water-cooler and back to her seat.",
+  "text": "Keeps you out, and yet you have a chance to loaf in the office for a change.” “I don't mean that way. I mean--it's such an opportunity for sympathy.” Dr. Kennicott launched into a heavy, “Oh, these Dutch farmers don't want sympathy. All they need is a bath and a good dose of salts.” Carol must have flinched, for instantly he was urging, “What I mean is--I don't want you to think I'm one of these old salts-and-quinine peddlers, but I mean: so many of my patients are husky farmers that I suppose I get kind of case-hardened.” “It seems to me that a doctor could transform a whole community, if he wanted to--if he saw it. He's usually the only man in the neighborhood who has any scientific training, isn't he?” “Yes, that's so, but I guess most of us get rusty. We land in a rut of obstetrics and typhoid and busted legs.",
   "words": [
     {
-      "word": "cage",
+      "word": "dose",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transform",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Sinclair Lewis",
     "year": 1920,
     "source": "Project Gutenberg #543",
-    "url": "https://www.gutenberg.org/ebooks/543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

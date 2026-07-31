@@ -1,12 +1,24 @@
 {
   "id": "src-gen-the-mysterious-island-007",
   "pool": "sourced",
-  "text": "But the joiners had soon to be replaced by carpenters. In fact, the waterfall created by the explosion rendered the construction of two bridges necessary, one on Prospect Heights, the other on the shore. Now the plateau and the shore were transversely divided by a watercourse, which had to be crossed to reach the northern part of the island. To avoid it the colonists had been obliged to make a considerable detour, by climbing up to the source of the Red Creek. The simplest thing was to establish on the plateau, and on the shore, two bridges from twenty to five and twenty feet in length.",
+  "text": "Cyrus Harding reflected a few minutes; he attentively observed the perimeter of the island, taking into consideration the height at which he was placed; then,-- “My friends,” said he, “I do not think I am mistaken in giving to the shore of the island a circumference of more than a hundred miles.” “And consequently an area?” “That is difficult to estimate,” replied the engineer, “for it is so uneven.” If Cyrus Harding was not mistaken in his calculation, the island had almost the extent of Malta or Zante, in the Mediterranean, but it was at the same time much more irregular and less rich in capes, promontories, points, bays, or creeks. Its strange form caught the eye, and when Gideon Spilett, on the engineer’s advice, had drawn the outline, they found that it resembled some fantastic animal, a monstrous leviathan, which lay sleeping on the surface of the Pacific. This was in fact the exact shape of the island, which it is of consequence to know, and a tolerably correct map of it was immediately drawn by the reporter.",
   "words": [
     {
-      "word": "bridges",
+      "word": "consequently",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uneven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "calculation",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

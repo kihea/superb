@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-026",
+  "pool": "sourced",
+  "text": "Upon my word, Miss Anne Elliot, you have the most extraordinary taste! Everything that revolts other people, low company, paltry rooms, foul air, disgusting associations are inviting to you. But surely you may put off this old lady till to-morrow: she is not so near her end, I presume, but that she may hope to see another day. What is her age? Forty?” “No, sir, she is not one-and-thirty; but I do not think I can put off my engagement, because it is the only evening for some time which will at once suit her and myself.",
+  "words": [
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

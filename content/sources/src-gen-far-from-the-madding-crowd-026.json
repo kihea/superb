@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-026",
+  "pool": "sourced",
+  "text": "In the meantime one of the grisly forms had alighted upon the point of Gabriel’s rod, to run invisibly down it, down the chain, and into the earth. Gabriel was almost blinded, and he could feel Bathsheba’s warm arm tremble in his hand—a sensation novel and thrilling enough; but love, life, everything human, seemed small and trifling in such close juxtaposition with an infuriated universe. Oak had hardly time to gather up these impressions into a thought, and to see how strangely the red feather of her hat shone in this light, when the tall tree on the hill before-mentioned seemed on fire to a white heat, and a new one among these terrible voices mingled with the last crash of those preceding. It was a stupefying blast, harsh and pitiless, and it fell upon their ears in a dead, flat blow, without that reverberation which lends the tones of a drum to more distant thunder. By the lustre reflected from every part of the earth and from the wide domical scoop above it, he saw that the tree was sliced down the whole length of its tall, straight stem, a huge riband of bark being apparently flung off.",
+  "words": [
+    {
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oak",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preceding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drum",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

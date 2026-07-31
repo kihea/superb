@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-time-machine-020",
   "pool": "sourced",
-  "text": "I hesitated—I felt so sick and weak. Then I sniffed good wholesome meat, and opened the door on you. You know the rest. I washed, and dined, and now I am telling you the story. After the Story “I know,” he said, after a pause, “that all this will be absolutely incredible to you, but to me the one incredible thing is that I am here tonight in this old familiar room looking into your friendly faces and telling you these strange adventures.” He looked at the Medical Man.",
+  "text": "“Beneath my feet, then, the earth must be tunnelled enormously, and these tunnellings were the habitat of the New Race. The presence of ventilating shafts and wells along the hill slopes—everywhere, in fact, except along the river valley—showed how universal were its ramifications. What so natural, then, as to assume that it was in this artificial Underworld that such work as was necessary to the comfort of the daylight race was done? The notion was so plausible that I at once accepted it, and went on to assume the how of this splitting of the human species. I dare say you will anticipate the shape of my theory; though, for myself, I very soon felt that it fell far short of the truth.",
   "words": [
     {
-      "word": "wholesome",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pause",
+      "word": "daylight",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

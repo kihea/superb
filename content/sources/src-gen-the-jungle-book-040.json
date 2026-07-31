@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-040",
+  "pool": "sourced",
+  "text": "Last came the screw guns, and Billy the mule carried himself as though he commanded all the troops, and his harness was oiled and polished till it winked. I gave a cheer all by myself for Billy the mule, but he never looked right or left. The rain began to fall again, and for a while it was too misty to see what the troops were doing. They had made a big half circle across the plain, and were spreading out into a line. That line grew and grew and grew till it was three-quarters of a mile long from wing to wing--one solid wall of men, horses, and guns.",
+  "words": [
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "polished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

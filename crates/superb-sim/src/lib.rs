@@ -22,6 +22,7 @@ pub mod coverage;
 pub mod library;
 pub mod oracle;
 pub mod pseudoword_comparison;
+pub mod pseudoword_penalty_calibration;
 pub mod report;
 pub mod rng;
 pub mod simulation;

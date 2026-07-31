@@ -1,22 +1,10 @@
 {
   "id": "src-gen-wuthering-heights-010",
   "pool": "sourced",
-  "text": "Heathcliff guessed the meaning of her manœuvres, and said—“If you have got anything for Isabella (as no doubt you have, Nelly), give it to her. You needn’t make a secret of it: we have no secrets between us.” “Oh, I have nothing,” I replied, thinking it best to speak the truth at once. “My master bid me tell his sister that she must not expect either a letter or a visit from him at present. He sends his love, ma’am, and his wishes for your happiness, and his pardon for the grief you have occasioned; but he thinks that after this time his household and the household here should drop intercommunication, as nothing could come of keeping it up.” Mrs. Heathcliff’s lip quivered slightly, and she returned to her seat in the window. Her husband took his stand on the hearthstone, near me, and began to put questions concerning Catherine.",
+  "text": "What are you on the point of complaining about, Heathcliff?” “Nothing—only look at the almanack on that wall;” he pointed to a framed sheet hanging near the window, and continued, “The crosses are for the evenings you have spent with the Lintons, the dots for those spent with me. Do you see? I’ve marked every day.” “Yes—very foolish: as if I took notice!” replied Catherine, in a peevish tone. “And where is the sense of that?” “To show that I do take notice,” said Heathcliff. “And should I always be sitting with you?” she demanded, growing more irritated.",
   "words": [
     {
-      "word": "guessed",
-      "signals": [
-        "definition-marker"
-      ]
-    },
-    {
-      "word": "sends",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lip",
+      "word": "foolish",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

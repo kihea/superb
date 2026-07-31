@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-019",
   "pool": "sourced",
-  "text": "Magua paused, and for an anxious moment, it might be said, he doubted; then, casting his eyes on Cora, with an expression in which ferocity and admiration were strangely mingled, his purpose became fixed forever. He intimated his contempt of the offer with a backward motion of his head, and said, in a steady and settled voice: “Le Renard Subtil is a great chief; he has but one mind. Come,” he added, laying his hand too familiarly on the shoulder of his captive to urge her onward; “a Huron is no tattler; we will go.” The maiden drew back in lofty womanly reserve, and her dark eye kindled, while the rich blood shot, like the passing brightness of the sun, into her very temples, at the indignity. “I am your prisoner, and, at a fitting time shall be ready to follow, even to my death. But violence is unnecessary,” she coldly said; and immediately turning to Hawkeye, added: “Generous hunter!",
+  "text": "Then where to seek a proper protector for you against the confusion and chances of such a scene?” “None is necessary,” returned Cora; “who will dare to injure or insult the daughter of such a father, at a time like this?” “I would not leave you alone,” continued the youth, looking about him in a hurried manner, “for the command of the best regiment in the pay of the king. Remember, our Alice is not gifted with all your firmness, and God only knows the terror she might endure.” “You may be right,” Cora replied, smiling again, but far more sadly than before.",
   "words": [
     {
-      "word": "admiration",
+      "word": "regiment",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "captive",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lofty",
+      "word": "sadly",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

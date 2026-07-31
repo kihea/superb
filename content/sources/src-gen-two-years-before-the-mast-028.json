@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-two-years-before-the-mast-028",
+  "pool": "sourced",
+  "text": "Still, however, we had a fine, strong breeze, and kept on our way, under as much sail as our ship would bear. Toward the middle of the week, the wind hauled to the southward, which brought us upon a taut bowline, made the ship meet, nearly head on, the heavy swell which rolled from that direction; and there was something not at all encouraging in the manner in which she met it. Being so deep and heavy, she wanted the buoyancy which should have carried her over the seas, and she dropped heavily into them, the water washing over the decks; and every now and then, when an unusually large sea met her fairly upon the bows, she struck it with a sound as dead and heavy as that with which a sledge-hammer falls upon the pile, and took the whole of it in upon the forecastle, and rising, carried it aft in the scuppers, washing the rigging off the pins, and carrying along with it everything which was loose on deck.",
+  "words": [
+    {
+      "word": "breeze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unusually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hammer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

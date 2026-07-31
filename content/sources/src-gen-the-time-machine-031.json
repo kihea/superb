@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-time-machine-031",
+  "pool": "sourced",
+  "text": "In the Darkness “We emerged from the Palace while the sun was still in part above the horizon. I was determined to reach the White Sphinx early the next morning, and ere the dusk I purposed pushing through the woods that had stopped me on the previous journey. My plan was to go as far as possible that night, and then, building a fire, to sleep in the protection of its glare. Accordingly, as we went along I gathered any sticks or dried grass I saw, and presently had my arms full of such litter. Thus loaded, our progress was slower than I had anticipated, and besides Weena was tired.",
+  "words": [
+    {
+      "word": "dusk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "litter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": 1895,
+    "source": "Project Gutenberg #35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

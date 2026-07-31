@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-ethan-frome-031",
+  "pool": "sourced",
+  "text": "Zeena turned to Mattie. “That trunk of yours is too heavy for the sleigh, and Dan’l Byrne’ll be round to take it over to the Flats,” she said. “I’m much obliged to you, Zeena,” said Mattie. “I’d like to go over things with you first,” Zeena continued in an unperturbed voice. “I know there’s a huckabuck towel missing; and I can’t make out what you done with that match-safe ’t used to stand behind the stuffed owl in the parlour.” She went out, followed by Mattie, and when the men were alone Jotham said to his employer: “I guess I better let Dan’l come round, then.” Ethan finished his usual morning tasks about the house and barn; then he said to Jotham: “I’m going down to Starkfield.",
+  "words": [
+    {
+      "word": "towel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "barn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Ethan Frome",
+    "author": "Edith Wharton",
+    "year": 1911,
+    "source": "Project Gutenberg #4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

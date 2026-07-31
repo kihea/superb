@@ -1,18 +1,18 @@
 {
   "id": "src-gen-the-wisdom-of-father-brown-020",
   "pool": "sourced",
-  "text": "“But what about the brother who ratted? Hadn’t he anything to tell the Prince?” “He always asseverated that he did not know,” replied Flambeau; “that this was the one secret his brothers had not told him. It is only right to say that it received some support from fragmentary words--spoken by the great Ludwig in the hour of death, when he looked at Heinrich but pointed at Paul, and said, ‘You have not told him...’ and was soon afterwards incapable of speech. Anyhow, the deputation of distinguished geologists and mineralogists from Paris and Berlin were there in the most magnificent and appropriate dress, for there are no men who like wearing their decorations so much as the men of science--as anybody knows who has ever been to a soiree of the Royal Society. It was a brilliant gathering, but very late, and gradually the Chamberlain--you saw his portrait, too: a man with black eyebrows, serious eyes, and a meaningless sort of smile underneath--the Chamberlain, I say, discovered there was everything there except the Prince himself.",
+  "text": "Only two are needed as agents.” “What can you mean?” asked the other. “Why shouldn’t a blackmailer,” asked Brown, in a low voice, “threaten his victim with himself? Suppose a wife became a rigid teetotaller in order to frighten her husband into concealing his pub-frequenting, and then wrote him blackmailing letters in another hand, threatening to tell his wife! Why shouldn’t it work? Suppose a father forbade a son to gamble and then, following him in a good disguise, threatened the boy with his own sham paternal strictness!",
   "words": [
     {
-      "word": "geologists",
+      "word": "disguise",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "eyebrows",
+      "word": "paternal",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1914,
     "source": "Project Gutenberg #223",
-    "url": "https://www.gutenberg.org/ebooks/223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

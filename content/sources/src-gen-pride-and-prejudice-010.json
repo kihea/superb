@@ -1,16 +1,10 @@
 {
   "id": "src-gen-pride-and-prejudice-010",
   "pool": "sourced",
-  "text": "Elizabeth merely courtesied to him, without saying a word. Colonel Fitzwilliam entered into conversation directly, with the readiness and ease of a well-bred man, and talked very pleasantly; but his cousin, after having addressed a slight observation on the house and garden to Mrs. Collins, sat for some time without speaking to anybody. At length, however, his civility was so far awakened as to inquire of Elizabeth after the health of her family. She answered him in the usual way; and, after a moment’s pause, added,-- “My eldest sister has been in town these three months. Have you never happened to see her there?” She was perfectly sensible that he never had: but she wished to see whether he would betray any consciousness of what had passed between the Bingleys and Jane; and she thought he looked a little confused as he answered that he had never been so fortunate as to meet Miss Bennet.",
+  "text": "Mr. Collins listened to her with the determined air of following his own inclination, and when she ceased speaking, replied thus,-- “My dear Miss Elizabeth, I have the highest opinion in the world of your excellent judgment in all matters within the scope of your understanding, but permit me to say that there must be a wide difference between the established forms of ceremony amongst the laity and those which regulate the clergy; for, give me leave to observe that I consider the clerical office as equal in point of dignity with the highest rank in the kingdom--provided that a proper humility of behaviour is at the same time maintained. You must, therefore, allow me to follow the dictates of my conscience on this occasion, which lead me to perform what I look on as a point of duty.",
   "words": [
     {
-      "word": "observation",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "eldest",
+      "word": "conscience",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

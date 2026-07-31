@@ -1,10 +1,28 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-012",
   "pool": "sourced",
-  "text": "But she was grave, very grave, all the way home; till she thought, “We shall go away, a very long distance, hundreds of miles from these parts, and such as this can never happen again, and no ghost of the past reach there.” They parted tenderly that night on the landing, and Clare ascended to his attic. Tess sat up getting on with some little requisites, lest the few remaining days should not afford sufficient time. While she sat she heard a noise in Angel’s room overhead, a sound of thumping and struggling. Everybody else in the house was asleep, and in her anxiety lest Clare should be ill she ran up and knocked at his door, and asked him what was the matter. “Oh, nothing, dear,” he said from within.",
+  "text": "The enclosures numbered fifty acres instead of ten, the farmsteads were more extended, the groups of cattle formed tribes hereabout; there only families. These myriads of cows stretching under her eyes from the far east to the far west outnumbered any she had ever seen at one glance before. The green lea was speckled as thickly with them as a canvas by Van Alsloot or Sallaert with burghers. The ripe hue of the red and dun kine absorbed the evening sunlight, which the white-coated animals returned to the eye in rays almost dazzling, even at the distant elevation on which she stood. The bird’s-eye perspective before her was not so luxuriantly beautiful, perhaps, as that other one which she knew so well; yet it was more cheering.",
   "words": [
     {
-      "word": "attic",
+      "word": "cattle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dazzling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distant",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

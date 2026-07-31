@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-024",
+  "pool": "sourced",
+  "text": "Soothed by my exertions, my method, and Herbert’s compliments, I would sit with his symmetrical bundle and my own on the table before me among the stationery, and feel like a Bank of some sort, rather than a private individual. We shut our outer door on these solemn occasions, in order that we might not be interrupted. I had fallen into my serene state one evening, when we heard a letter dropped through the slit in the said door, and fall on the ground. “It’s for you, Handel,” said Herbert, going out and coming back with it, “and I hope there is nothing the matter.” This was in allusion to its heavy black seal and border. The letter was signed Trabb & Co., and its contents were simply, that I was an honoured sir, and that they begged to inform me that Mrs. J. Gargery had departed this life on Monday last at twenty minutes past six in the evening, and that my attendance was requested at the interment on Monday next at three o’clock in the afternoon.",
+  "words": [
+    {
+      "word": "attendance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

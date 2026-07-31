@@ -1,10 +1,16 @@
 {
   "id": "src-gen-ethan-frome-015",
   "pool": "sourced",
-  "text": "Ethan was fired by the thought. Why should he not leave with Mattie the next day, instead of letting her go alone? He would hide his valise under the seat of the sleigh, and Zeena would suspect nothing till she went upstairs for her afternoon nap and found a letter on the bed.... His impulses were still near the surface, and he sprang up, re-lit the lantern, and sat down at the table. He rummaged in the drawer for a sheet of paper, found one, and began to write. “Zeena, I’ve done all I could for you, and I don’t see as it’s been any use.",
+  "text": "Instead of her usual calico wrapper and knitted shawl she wore her best dress of brown merino, and above her thin strands of hair, which still preserved the tight undulations of the crimping-pins, rose a hard perpendicular bonnet, as to which Ethan’s clearest notion was that he had to pay five dollars for it at the Bettsbridge Emporium. On the floor beside her stood his old valise and a bandbox wrapped in newspapers. “Why, where are you going, Zeena?” he exclaimed. “I’ve got my shooting pains so bad that I’m going over to Bettsbridge to spend the night with Aunt Martha Pierce and see that new doctor,” she answered in a matter-of-fact tone, as if she had said she was going into the store-room to take a look at the preserves, or up to the attic to go over the blankets. In spite of her sedentary habits such abrupt decisions were not without precedent in Zeena’s history.",
   "words": [
     {
-      "word": "nap",
+      "word": "wrapper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sedentary",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

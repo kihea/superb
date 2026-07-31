@@ -1,22 +1,10 @@
 {
   "id": "src-gen-black-beauty-020",
   "pool": "sourced",
-  "text": "“Papa,” she said, “I am sure this poor horse cannot take us and all our luggage so far, he is so very weak and worn up. Do look at him.” “Oh! he's all right, miss,” said my driver, “he's strong enough.” The porter, who was pulling about some heavy boxes, suggested to the gentleman, as there was so much luggage, whether he would not take a second cab. “Can your horse do it, or can't he?” said the blustering man. he can do it all right, sir; send up the boxes, porter; he could take more than that;” and he helped to haul up a box so heavy that I could feel the springs go down.",
+  "text": "I could do nothing for him nor myself, but, oh! how I listened for the sound of horse, or wheels, or footsteps! The road was not much frequented, and at this time of the night we might stay for hours before help came to us. I stood watching and listening. It was a calm, sweet April night; there were no sounds but a few low notes of a nightingale, and nothing moved but the white clouds near the moon and a brown owl that flitted over the hedge.",
   "words": [
     {
-      "word": "porter",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gentleman",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "haul",
+      "word": "nightingale",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

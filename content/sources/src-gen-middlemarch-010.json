@@ -1,16 +1,22 @@
 {
   "id": "src-gen-middlemarch-010",
   "pool": "sourced",
-  "text": "But through certain sensibilities Dorothea was as quick as he, and seeing her face change, he added, immediately, “But it is quite true that the best minds have been sometimes overstrained in working out their ideas.” “You correct me,” said Dorothea. “I expressed myself ill. I should have said that those who have great thoughts get too much worn in working them out. I used to feel about that, even when I was a little girl; and it always seemed to me that the use I should like to make of my life would be to help some one who did great works, so that his burthen might be lighter.” Dorothea was led on to this bit of autobiography without any sense of making a revelation. But she had never before said anything to Will which threw so strong a light on her marriage.",
+  "text": "In short, he had weight, and might be expected to grapple with a disease and throw it; while Dr. Minchin might be better able to detect it lurking and to circumvent it. They enjoyed about equally the mysterious privilege of medical reputation, and concealed with much etiquette their contempt for each other’s skill. Regarding themselves as Middlemarch institutions, they were ready to combine against all innovators, and against non-professionals given to interference. On this ground they were both in their hearts equally averse to Mr. Bulstrode, though Dr. Minchin had never been in open hostility with him, and never differed from him without elaborate explanation to Mrs. Bulstrode, who had found that Dr. Minchin alone understood her constitution. A layman who pried into the professional conduct of medical men, and was always obtruding his reforms,—though he was less directly embarrassing to the two physicians than to the surgeon-apothecaries who attended paupers by contract, was nevertheless offensive to the professional nostril as such; and Dr. Minchin shared fully in the new pique against Bulstrode, excited by his apparent determination to patronize Lydgate.",
   "words": [
     {
-      "word": "lighter",
+      "word": "etiquette",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "autobiography",
+      "word": "contempt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "combine",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

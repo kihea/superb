@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-king-in-yellow-016",
   "pool": "sourced",
-  "text": "“Why are you not at Versailles?” she said, with an almost imperceptible acknowledgment of Hastings’ presence. “I—I’m going,” murmured Clifford. For a moment they faced each other, and then Clifford, very red, stammered, “With your permission I have the honour of presenting to you my friend, Monsieur Hastings.” Hastings bowed low. She smiled very sweetly, but there was something of malice in the quiet inclination of her small Parisienne head. “I could have wished,” she said, “that Monsieur Clifford might spare me more time when he brings with him so charming an American.” “Must—must I go, Valentine?” began Clifford.",
+  "text": "I don’t know whether I made her understand how profoundly grateful I felt, but she seemed pleased to listen, as we walked over the dewy heather. “Are you not very tired?” she asked. I had clean forgotten my fatigue in her presence, and I told her so. “Don’t you think your gallantry is a little old-fashioned?” she said; and when I looked confused and humbled, she added quietly, “Oh, I like it, I like everything old-fashioned, and it is delightful to hear you say such pretty things.” The moorland around us was very still now under its ghostly sheet of mist. The plovers had ceased their calling; the crickets and all the little creatures of the fields were silent as we passed, yet it seemed to me as if I could hear them beginning again far behind us.",
   "words": [
     {
-      "word": "wished",
+      "word": "humbled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

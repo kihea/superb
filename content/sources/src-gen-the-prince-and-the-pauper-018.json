@@ -1,28 +1,10 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-018",
   "pool": "sourced",
-  "text": "By this time the peeresses are flowing in in a glittering stream, and the satin-clad officials are flitting and glinting everywhere, seating them and making them comfortable. The scene is animated enough now. There is stir and life, and shifting colour everywhere. After a time, quiet reigns again; for the peeresses are all come and are all in their places, a solid acre or such a matter, of human flowers, resplendent in variegated colours, and frosted like a Milky Way with diamonds. There are all ages here: brown, wrinkled, white-haired dowagers who are able to go back, and still back, down the stream of time, and recall the crowning of Richard III.",
+  "text": "Let us privileged ones hurry to the great banqueting-room and have a glance at matters there whilst Tom is being made ready for the imposing occasion. It is a spacious apartment, with gilded pillars and pilasters, and pictured walls and ceilings. At the door stand tall guards, as rigid as statues, dressed in rich and picturesque costumes, and bearing halberds. In a high gallery which runs all around the place is a band of musicians and a packed company of citizens of both sexes, in brilliant attire. In the centre of the room, upon a raised platform, is Tom’s table.",
   "words": [
     {
-      "word": "flowing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "satin",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "acre",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "diamonds",
+      "word": "statues",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

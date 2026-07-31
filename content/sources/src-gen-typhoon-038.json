@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-typhoon-038",
+  "pool": "sourced",
+  "text": "Captain MacWhirr was trying to do up the top button of his oilskin coat with unwonted haste. The hurricane, with its power to madden the seas, to sink ships, to uproot trees, to overturn strong walls and dash the very birds of the air to the ground, had found this taciturn man in its path, and, doing its utmost, had managed to wring out a few words. Before the renewed wrath of winds swooped on his ship, Captain MacWhirr was moved to declare, in a tone of vexation, as it were: “I wouldn't like to lose her.” He was spared that annoyance. VI On A bright sunshiny day, with the breeze chasing her smoke far ahead, the Nan-Shan came into Fu-chau. Her arrival was at once noticed on shore, and the seamen in harbour said: “Look!",
+  "words": [
+    {
+      "word": "sink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,12 +1,12 @@
 {
   "id": "src-gen-the-thirty-nine-steps-016",
   "pool": "sourced",
-  "text": "“That’s all right. Don’t let that interfere with your appetite. We can talk about these things after dinner.” I never ate a meal with greater relish, for I had had nothing all day but railway sandwiches. Sir Walter did me proud, for we drank a good champagne and had some uncommon fine port afterwards. It made me almost hysterical to be sitting there, waited on by a footman and a sleek butler, and remember that I had been living for three weeks like a brigand, with every man’s hand against me.",
+  "text": "I saw the highroad for maybe ten miles, and far down it something that was moving, and that I took to be a motor-car. Beyond the ridge I looked on a rolling green moor, which fell away into wooded glens. Now my life on the veld has given me the eyes of a kite, and I can see things for which most men need a telescope.... Away down the slope, a couple of miles away, several men were advancing, like a row of beaters at a shoot. I dropped out of sight behind the sky-line. That way was shut to me, and I must try the bigger hills to the south beyond the highway.",
   "words": [
     {
-      "word": "champagne",
+      "word": "slope",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -15,7 +15,7 @@
     "author": "John Buchan",
     "year": 1915,
     "source": "Project Gutenberg #558",
-    "url": "https://www.gutenberg.org/ebooks/558",
+    "url": "https://www.gutenberg.org/ebooks/558.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

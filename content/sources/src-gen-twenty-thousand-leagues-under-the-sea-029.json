@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-029",
+  "pool": "sourced",
+  "text": "The darkness was so complete that I could not even see Captain Nemo; but, looking to the zenith, exactly above my head, I seemed to catch an undecided gleam, a kind of twilight filling a circular hole. At this instant the lantern was lit, and its vividness dispelled the faint light. I closed my dazzled eyes for an instant, and then looked again. The Nautilus was stationary, floating near a mountain which formed a sort of quay. The lake, then, supporting it was a lake imprisoned by a circle of walls, measuring two miles in diameter and six in circumference.",
+  "words": [
+    {
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "diameter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumference",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-025",
+  "pool": "sourced",
+  "text": "Monsieur Stangerson and myself would arrive by way of the back of the château.—He is ours!—He can no longer escape us! I was sure of that. “The plan I had formed seemed to me the best, the surest, and the most simple. It would, no doubt, have been simpler still, if we had been able to place some one directly behind the door of Mademoiselle’s boudoir, which opened out of her bedchamber, and, in that way, had been in a position to besiege the two doors of the room in which the man was. But we could not penetrate the boudoir except by way of the drawing-room, the door of which had been locked on the inside by Mademoiselle Stangerson.",
+  "words": [
+    {
+      "word": "monsieur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "simpler",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "penetrate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

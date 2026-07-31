@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-025",
+  "pool": "sourced",
+  "text": "Of course, I whet up now and then and flirt out a minor prophecy, but not often--hardly ever, in fact. You will remember that there was great talk, when you reached the Valley of Holiness, about my having prophesied your coming and the very hour of your arrival, two or three days beforehand.” “Indeed, yes, I mind it now.” “Well, I could have done it as much as forty times easier, and piled on a thousand times more detail into the bargain, if it had been five hundred years away instead of two or three days.” “How amazing that it should be so!” “Yes, a genuine expert can always foretell a thing that is five hundred years away easier than he can a thing that's only five hundred seconds off.” “And yet in reason it should clearly be the other way; it should be five hundred times as easy to foretell the last as the first, for, indeed, it is so close by that one uninspired might almost see it. In truth, the law of prophecy doth contradict the likelihoods, most strangely making the difficult easy, and the easy difficult.” It was a wise head.",
+  "words": [
+    {
+      "word": "prophecy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contradict",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

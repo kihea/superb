@@ -1,46 +1,16 @@
 {
   "id": "src-gen-adam-bede-011",
   "pool": "sourced",
-  "text": "The aged group, under care of sons or daughters, themselves worn and grey, passed on along the least-winding carriage-road towards the house, where a special table was prepared for them; while the Poyser party wisely struck across the grass under the shade of the great trees, but not out of view of the house-front, with its sloping lawn and flower-beds, or of the pretty striped marquee at the edge of the lawn, standing at right angles with two larger marquees on each side of the open green space where the games were to be played. The house would have been nothing but a plain square mansion of Queen Anne’s time, but for the remnant of an old abbey to which it was united at one end, in much the same way as one may sometimes see a new farmhouse rising high and prim at the end of older and lower farm-offices. The fine old remnant stood a little backward and under the shadow of tall beeches, but the sun was now on the taller and more advanced front, the blinds were all down, and the house seemed asleep in the hot midday.",
+  "text": "Old John’s wooden, deep-wrinkled face was the first object that met Arthur’s eyes as he entered the stable-yard, and it quite poisoned for him the bark of the two bloodhounds that kept watch there. He could never speak quite patiently to the old blockhead. “You must have Meg saddled for me and brought to the door at half-past eleven, and I shall want Rattler saddled for Pym at the same time. Do you hear?” “Yes, I hear, I hear, Cap’n,” said old John very deliberately, following the young master into the stable. John considered a young master as the natural enemy of an old servant, and young people in general as a poor contrivance for carrying on the world.",
   "words": [
     {
-      "word": "lawn",
+      "word": "bark",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "marquee",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "angles",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "mansion",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "remnant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "farmhouse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blinds",
+      "word": "eleven",
       "signals": [
         "gloss-overlap"
       ]
@@ -51,7 +21,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

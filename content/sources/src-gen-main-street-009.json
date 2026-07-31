@@ -1,10 +1,46 @@
 {
   "id": "src-gen-main-street-009",
   "pool": "sourced",
-  "text": "Sure; that's the idea; champagne taste and beer income; and make sure that we never will have more than a beer income, too!” “Are you by any chance implying that I am not economical?” “Well, I hadn't intended to, but since you bring it up yourself, I don't mind saying the grocery bills are about twice what they ought to be.” “Yes, they probably are. I'm not economical. Thanks to you!” “Where d' you get that 'thanks to you'?” “Please don't be quite so colloquial--or shall I say VULGAR?” “I'll be as damn colloquial as I want to. How do you get that 'thanks to you'? Here about a year ago you jump me for not remembering to give you money.",
+  "text": "Along the railroad the sections of snow fence, which had been stacked all summer in romantic wooden tents occupied by roving small boys, were set up to prevent drifts from covering the track. The farmers came into town in home-made sleighs, with bed-quilts and hay piled in the rough boxes. Fur coats, fur caps, fur mittens, overshoes buckling almost to the knees, gray knitted scarfs ten feet long, thick woolen socks, canvas jackets lined with fluffy yellow wool like the plumage of ducklings, moccasins, red flannel wristlets for the blazing chapped wrists of boys--these protections against winter were busily dug out of moth-ball-sprinkled drawers and tar-bags in closets, and all over town small boys were squealing, “Oh, there's my mittens!” or “Look at my shoe-packs!” There is so sharp a division between the panting summer and the stinging winter of the Northern plains that they rediscovered with surprise and a feeling of heroism this armor of an Artic explorer. Winter garments surpassed even personal gossip as the topic at parties. It was good form to ask, “Put on your heavies yet?” There were as many distinctions in wraps as in motor cars.",
   "words": [
     {
-      "word": "economical",
+      "word": "fur",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knitted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canvas",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flannel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gossip",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +51,7 @@
     "author": "Sinclair Lewis",
     "year": 1920,
     "source": "Project Gutenberg #543",
-    "url": "https://www.gutenberg.org/ebooks/543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

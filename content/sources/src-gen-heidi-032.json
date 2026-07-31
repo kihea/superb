@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-032",
+  "pool": "sourced",
+  "text": "Even the grandmamma, who had followed the children, was astonished at the sight of them. She hardly knew what to admire most in these ancient trees: the lofty tops rising in their full green splendor towards the sky, or the pillar-like stems, with their straight and gigantic boughs, that spoke of such antiquity of age, of such long years during which they had looked down upon the valley below, where men came and went, and all things were continually changing, while they stood undisturbed and changeless. Heidi had now wheeled Clara on to the goat shed, and had flung open the door, so that Clara might have a full view of all that was inside. There was not much to see just now as its indwellers were absent. Clara lamented to her grandmother that they would have to leave early before the goats came home.",
+  "words": [
+    {
+      "word": "admire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "antiquity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

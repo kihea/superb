@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-awakening-030",
+  "pool": "sourced",
+  "text": "The water was deep, but she lifted her white body and reached out with a long, sweeping stroke. The touch of the sea is sensuous, enfolding the body in its soft, close embrace. She went on and on. She remembered the night she swam far out, and recalled the terror that seized her at the fear of being unable to regain the shore. She did not look back now, but went on and on, thinking of the blue-grass meadow that she had traversed when a little child, believing that it had no beginning and no end.",
+  "words": [
+    {
+      "word": "regain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meadow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Awakening",
+    "author": "Kate Chopin",
+    "year": 1899,
+    "source": "Project Gutenberg #160",
+    "url": "https://www.gutenberg.org/ebooks/160.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

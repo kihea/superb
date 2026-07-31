@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-house-of-the-seven-gables-035",
+  "pool": "sourced",
+  "text": "And what worthier candidate,—more wise and learned, more noted for philanthropic liberality, truer to safe principles, tried oftener by public trusts, more spotless in private character, with a larger stake in the common welfare, and deeper grounded, by hereditary descent, in the faith and practice of the Puritans,—what man can be presented for the suffrage of the people, so eminently combining all these claims to the chief-rulership as Judge Pyncheon here before us? Make haste, then! Do your part! The meed for which you have toiled, and fought, and climbed, and crept, is ready for your grasp! Be present at this dinner!—drink a glass or two of that noble wine!—make your pledges in as low a whisper as you will!—and you rise up from table virtually governor of the glorious old State!",
+  "words": [
+    {
+      "word": "hereditary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851,
+    "source": "Project Gutenberg #77",
+    "url": "https://www.gutenberg.org/ebooks/77.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

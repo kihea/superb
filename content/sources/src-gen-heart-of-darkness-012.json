@@ -1,17 +1,12 @@
 {
   "id": "src-gen-heart-of-darkness-012",
   "pool": "sourced",
-  "text": "Above the bush the trees stood in serried ranks. The twigs overhung the current thickly, and from distance to distance a large limb of some tree projected rigidly over the stream. It was then well on in the afternoon, the face of the forest was gloomy, and a broad strip of shadow had already fallen on the water. In this shadow we steamed up—very slowly, as you may imagine. I sheered her well inshore—the water being deepest near the bank, as the sounding-pole informed me.",
+  "text": "You kicked a loose rivet at every second step in that station-yard on the hillside. Rivets had rolled into the grove of death. You could fill your pockets with rivets for the trouble of stooping down—and there wasn’t one rivet to be found where it was wanted. We had plates that would do, but nothing to fasten them with. And every week the messenger, a long negro, letter-bag on shoulder and staff in hand, left our station for the coast.",
   "words": [
     {
-      "word": "twigs",
+      "word": "messenger",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "steamed",
-      "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     }
@@ -21,7 +16,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

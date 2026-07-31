@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-howards-end-024",
+  "pool": "sourced",
+  "text": "England was alive, throbbing through all her estuaries, crying for joy through the mouths of all her gulls, and the north wind, with contrary motion, blew stronger against her rising seas. What did it mean? For what end are her fair complexities, her changes of soil, her sinuous coast? Does she belong to those who have moulded her and made her feared by other lands, or to those who have added nothing to her power, but have somehow seen her, seen the whole island at once, lying as a jewel in a silver sea, sailing as a ship of souls, with all the brave world’s fleet accompanying her towards eternity? Margaret had often wondered at the disturbance that takes place in the world’s waters, when Love, who seems so tiny a pebble, slips in.",
+  "words": [
+    {
+      "word": "sailing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eternity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Howards End",
+    "author": "E. M. Forster",
+    "year": 1910,
+    "source": "Project Gutenberg #2891",
+    "url": "https://www.gutenberg.org/ebooks/2891.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

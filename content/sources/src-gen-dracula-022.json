@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-dracula-022",
+  "pool": "sourced",
+  "text": "I was chilled and unnerved, and angry with the Professor for taking me on such an errand and with myself for coming. I was too cold and too sleepy to be keenly observant, and not sleepy enough to betray my trust so altogether I had a dreary, miserable time. Suddenly, as I turned round, I thought I saw something like a white streak, moving between two dark yew-trees at the side of the churchyard farthest from the tomb; at the same time a dark mass moved from the Professor’s side of the ground, and hurriedly went towards it. Then I too moved; but I had to go round headstones and railed-off tombs, and I stumbled over graves. The sky was overcast, and somewhere far off an early cock crew.",
+  "words": [
+    {
+      "word": "betray",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tomb",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

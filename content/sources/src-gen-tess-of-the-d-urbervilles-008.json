@@ -1,10 +1,16 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-008",
   "pool": "sourced",
-  "text": "Tess had never in her recent life been so happy as she was now, possibly never would be so happy again. She was, for one thing, physically and mentally suited among these new surroundings. The sapling which had rooted down to a poisonous stratum on the spot of its sowing had been transplanted to a deeper soil. Moreover she, and Clare also, stood as yet on the debatable land between predilection and love; where no profundities have been reached; no reflections have set in, awkwardly inquiring, “Whither does this new current tend to carry me? What does it mean to my future?",
+  "text": "Through this low-lit mistiness Tess walked leisurely along. She did not discover the coincidence of the market with the fair till she had reached the place, by which time it was close upon dusk. Her limited marketing was soon completed; and then as usual she began to look about for some of the Trantridge cottagers. At first she could not find them, and she was informed that most of them had gone to what they called a private little jig at the house of a hay-trusser and peat-dealer who had transactions with their farm. He lived in an out-of-the-way nook of the townlet, and in trying to find her course thither her eyes fell upon Mr d’Urberville standing at a street corner.",
   "words": [
     {
-      "word": "suited",
+      "word": "coincidence",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nook",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

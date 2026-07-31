@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-029",
+  "pool": "sourced",
+  "text": "With every day, and from both sides of my intelligence, the moral and the intellectual, I thus drew steadily nearer to that truth, by whose partial discovery I have been doomed to such a dreadful shipwreck: that man is not truly one, but truly two. I say two, because the state of my own knowledge does not pass beyond that point. Others will follow, others will outstrip me on the same lines; and I hazard the guess that man will be ultimately known for a mere polity of multifarious, incongruous and independent denizens. I, for my part, from the nature of my life, advanced infallibly in one direction and in one direction only.",
+  "words": [
+    {
+      "word": "partial",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

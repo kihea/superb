@@ -1,10 +1,22 @@
 {
   "id": "src-gen-little-women-019",
   "pool": "sourced",
-  "text": "“No, we haven’t, only the family. My sister and friends have just come home, and we are all very happy. Come in, and make one of us.” Though a very social man, I think Mr. Bhaer would have gone decorously away, and come again another day, but how could he, when Jo shut the door behind him, and bereft him of his hat? Perhaps her face had something to do with it, for she forgot to hide her joy at seeing him, and showed it with a frankness that proved irresistible to the solitary man, whose welcome far exceeded his boldest hopes. “If I shall not be Monsieur de Trop, I will so gladly see them all.",
+  "text": "“I wish you well, my dear, I heartily wish you well, but I think you’ll be sorry for it,” said Aunt March to Meg, adding to the bridegroom, as he led her to the carriage, “You’ve got a treasure, young man, see that you deserve it.” “That is the prettiest wedding I’ve been to for an age, Ned, and I don’t see why, for there wasn’t a bit of style about it,” observed Mrs. Moffat to her husband, as they drove away. “Laurie, my lad, if you ever want to indulge in this sort of thing, get one of those little girls to help you, and I shall be perfectly satisfied,” said Mr. Laurence, settling himself in his easy chair to rest after the excitement of the morning. “I’ll do my best to gratify you, Sir,” was Laurie’s unusually dutiful reply, as he carefully unpinned the posy Jo had put in his buttonhole. The little house was not far away, and the only bridal journey Meg had was the quiet walk with John from the old home to the new.",
   "words": [
     {
-      "word": "exceeded",
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "settling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bridal",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

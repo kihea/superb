@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-021",
+  "pool": "sourced",
+  "text": "“The words induced me to turn towards myself. I learned that the possessions most esteemed by your fellow creatures were high and unsullied descent united with riches. A man might be respected with only one of these advantages, but without either he was considered, except in very rare instances, as a vagabond and a slave, doomed to waste his powers for the profits of the chosen few! And what was I? Of my creation and creator I was absolutely ignorant, but I knew that I possessed no money, no friends, no kind of property.",
+  "words": [
+    {
+      "word": "esteemed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "riches",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

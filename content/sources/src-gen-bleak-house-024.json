@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-bleak-house-024",
+  "pool": "sourced",
+  "text": "I suppose he came to the decision that it was not to be borne, for he steadily refused to move until I gave the reins to Charley and got out and walked, when he followed me with a sturdy sort of good humour, putting his head under my arm and rubbing his ear against my sleeve. It was in vain for me to say, “Now, Stubbs, I feel quite sure from what I know of you that you will go on if I ride a little while,” for the moment I left him, he stood stock still again. Consequently I was obliged to lead the way, as before; and in this order we returned home, to the great delight of the village. Charley and I had reason to call it the most friendly of villages, I am sure, for in a week’s time the people were so glad to see us go by, though ever so frequently in the course of a day, that there were faces of greeting in every cottage. I had known many of the grown people before and almost all the children, but now the very steeple began to wear a familiar and affectionate look.",
+  "words": [
+    {
+      "word": "sleeve",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

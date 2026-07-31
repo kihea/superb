@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-035",
+  "pool": "sourced",
+  "text": "The Gilder. Penetrating further and further into the heart of the Japanese cruising ground, the Pequod was soon all astir in the fishery. Often, in mild, pleasant weather, for twelve, fifteen, eighteen, and twenty hours on the stretch, they were engaged in the boats, steadily pulling, or sailing, or paddling after the whales, or for an interlude of sixty or seventy minutes calmly awaiting their uprising; though with but small success for their pains. At such times, under an abated sun; afloat all day upon smooth, slow heaving swells; seated in his boat, light as a birch canoe; and so sociably mixing with the soft waves themselves, that like hearth-stone cats they purr against the gunwale; these are the times of dreamy quietude, when beholding the tranquil beauty and brilliancy of the ocean’s skin, one forgets the tiger heart that pants beneath it; and would not willingly remember, that this velvet paw but conceals a remorseless fang.",
+  "words": [
+    {
+      "word": "cruising",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "canoe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "willingly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "paw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

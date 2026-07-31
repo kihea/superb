@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-david-copperfield-021",
+  "pool": "sourced",
+  "text": "What has occurred to me, having now the money, is, that perhaps you wouldn’t object to ask that good nurse of yours to come with me to the shop--I can show it her from round the corner of the next street--and make the best bargain for them, as if they were for herself, that she can!’ The delight with which Traddles propounded this plan to me, and the sense he had of its uncommon artfulness, are among the freshest things in my remembrance. I told him that my old nurse would be delighted to assist him, and that we would all three take the field together, but on one condition. That condition was, that he should make a solemn resolution to grant no more loans of his name, or anything else, to Mr. Micawber. ‘My dear Copperfield,’ said Traddles, ‘I have already done so, because I begin to feel that I have not only been inconsiderate, but that I have been positively unjust to Sophy. My word being passed to myself, there is no longer any apprehension; but I pledge it to you, too, with the greatest readiness.",
+  "words": [
+    {
+      "word": "bargain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pledge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "source": "Project Gutenberg #766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

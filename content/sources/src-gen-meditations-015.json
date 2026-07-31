@@ -1,16 +1,22 @@
 {
   "id": "src-gen-meditations-015",
   "pool": "sourced",
-  "text": "For anywhere it thou wilt mayest thou quickly find and apply that to thyself; which Plato saith of his philosopher, in a place: as private and retired, saith he, as if he were shut up and enclosed about in some shepherd's lodge, on the top of a hill. There by thyself to put these questions to thyself or to enter in these considerations: What is my chief and principal part, which hath power over the rest? What is now the present estate of it, as I use it; and what is it, that I employ it about? Is it now void of reason ir no? Is it free, and separated; or so affixed, so congealed and grown together as it were with the flesh, that it is swayed by the motions and inclinations of it?",
+  "text": "I for my part will do what belongs unto me; as for other things, whether things unsensible or things irrational; or if rational, yet deceived and ignorant of the true way, they shall not trouble or distract me. For as for those creatures which are not endued with reason and all other things and-matters of the world whatsoever I freely, and generously, as one endued with reason, of things that have none, make use of them. And as for men, towards them as naturally partakers of the same reason, my care is to carry myself sociably. But whatsoever it is that thou art about, remember to call upon the Gods. And as for the time how long thou shalt live to do these things, let it be altogether indifferent unto thee, for even three such hours are sufficient.",
   "words": [
     {
-      "word": "lodge",
+      "word": "irrational",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "motions",
+      "word": "whatsoever",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "generously",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

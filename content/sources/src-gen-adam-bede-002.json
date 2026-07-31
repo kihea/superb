@@ -1,12 +1,18 @@
 {
   "id": "src-gen-adam-bede-002",
   "pool": "sourced",
-  "text": "So then, all the love that Jesus showed to the poor is the same love that God has for us. We can understand what Jesus felt, because he came in a body like ours and spoke words such as we speak to each other. We were afraid to think what God was before—the God who made the world and the sky and the thunder and lightning. We could never see him; we could only see the things he had made; and some of these things was very terrible, so as we might well tremble when we thought of him. But our blessed Saviour has showed us what God is in a way us poor ignorant people can understand; he has showed us what God’s heart is, what are his feelings towards us.",
+  "text": "I met as fine a young fellow as ever I saw in my life, about half an hour ago, before I came up the hill—a carpenter, a tall, broad-shouldered fellow with black hair and black eyes, marching along like a soldier. We want such fellows as he to lick the French.” “Aye, sir, that’s Adam Bede, that is, I’ll be bound—Thias Bede’s son everybody knows him hereabout. He’s an uncommon clever stiddy fellow, an’ wonderful strong. Lord bless you, sir—if you’ll hexcuse me for saying so—he can walk forty mile a-day, an’ lift a matter o’ sixty ston’. He’s an uncommon favourite wi’ the gentry, sir: Captain Donnithorne and Parson Irwine meks a fine fuss wi’ him.",
   "words": [
     {
-      "word": "thunder",
+      "word": "carpenter",
       "signals": [
-        "gloss-overlap"
+        "apposition"
+      ]
+    },
+    {
+      "word": "lick",
+      "signals": [
+        "definition-marker"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-what-katy-did-024",
+  "pool": "sourced",
+  "text": "Even Philly, who had backed away with his hands behind him, after staring hard for a minute or two, came up with a sort of rush to get his share of kissing. Still, Katy's first feeling was one of disappointment. Cousin Helen was not at all like \"Lucy,\" in Mrs. Sherwood's story. Her nose turned up the least bit in the world. She had brown hair, which didn't curl, a brown skin, and bright eyes, which danced when she laughed or spoke.",
+  "words": [
+    {
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curl",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "What Katy Did",
+    "author": "Susan Coolidge",
+    "year": 1872,
+    "source": "Project Gutenberg #8994",
+    "url": "https://www.gutenberg.org/ebooks/8994.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

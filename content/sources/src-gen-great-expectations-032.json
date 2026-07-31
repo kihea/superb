@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-032",
+  "pool": "sourced",
+  "text": "“And now, Mr. Pip,” said he, with his hands still in the sleeves, “I have probably done the most I can do; but if I can ever do more,—from a Walworth point of view, and in a strictly private and personal capacity,—I shall be glad to do it. Here’s the address. There can be no harm in your going here to-night, and seeing for yourself that all is well with Tom, Jack, or Richard, before you go home,—which is another reason for your not going home last night. But, after you have gone home, don’t go back here. You are very welcome, I am sure, Mr. Pip”; his hands were now out of his sleeves, and I was shaking them; “and let me finally impress one important point upon you.” He laid his hands upon my shoulders, and added in a solemn whisper: “Avail yourself of this evening to lay hold of his portable property.",
+  "words": [
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

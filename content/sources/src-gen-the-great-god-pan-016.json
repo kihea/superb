@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-great-god-pan-016",
   "pool": "sourced",
-  "text": "I went to the bottom. I have always been fond of diving into Queer Street for my amusement, and I found my knowledge of that locality and its inhabitants very useful. It is, perhaps, needless to say that my friends had never heard the name of Beaumont, and as I had never seen the lady, and was quite unable to describe her, I had to set to work in an indirect way. The people there know me; I have been able to do some of them a service now and again, so they made no difficulty about giving their information; they were aware I had no communication direct or indirect with Scotland Yard. I had to cast out a good many lines, though, before I got what I wanted, and when I landed the fish I did not for a moment suppose it was my fish.",
+  "text": "I have spoken to a man who saw her, and I assure you he positively shuddered as he tried to describe the woman, but he couldn’t tell why. She seems to have been a sort of enigma; and I expect if that one dead man could have told tales, he would have told some uncommonly queer ones. And there you are again in another puzzle; what could a respectable country gentleman like Mr. Blank (we’ll call him that if you don’t mind) want in such a very queer house as Number 20? It’s altogether a very odd case, isn’t it?” “It is indeed, Austin; an extraordinary case. I didn’t think, when I asked you about my old friend, I should strike on such strange metal.",
   "words": [
     {
-      "word": "indirect",
+      "word": "puzzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

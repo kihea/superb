@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-009",
   "pool": "sourced",
-  "text": "Following them into an inner room, Father Brown found that the allies had been seated at a long oak table, of which their end was covered with scribbled papers, flanked with whisky and cigars. Through the whole of its remaining length it was occupied by detached objects arranged at intervals; objects about as inexplicable as any objects could be. One looked like a small heap of glittering broken glass. Another looked like a high heap of brown dust. A third appeared to be a plain stick of wood.",
+  "text": "From this standpoint the drama may be said to have begun when the front doors of the house with the stable opened on the garden with the monkey tree, and a young girl came out with bread to feed the birds on the afternoon of Boxing Day. She had a pretty face, with brave brown eyes; but her figure was beyond conjecture, for she was so wrapped up in brown furs that it was hard to say which was hair and which was fur. But for the attractive face she might have been a small toddling bear. The winter afternoon was reddening towards evening, and already a ruby light was rolled over the bloomless beds, filling them, as it were, with the ghosts of the dead roses. On one side of the house stood the stable, on the other an alley or cloister of laurels led to the larger garden behind.",
   "words": [
     {
-      "word": "oak",
+      "word": "monkey",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alley",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

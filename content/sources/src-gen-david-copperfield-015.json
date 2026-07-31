@@ -1,34 +1,22 @@
 {
   "id": "src-gen-david-copperfield-015",
   "pool": "sourced",
-  "text": "Or, if she were in a very sedate and serious state of mind, she would sit down with the tablets, and a little basket of bills and other documents, which looked more like curl-papers than anything else, and endeavour to get some result out of them. After severely comparing one with another, and making entries on the tablets, and blotting them out, and counting all the fingers of her left hand over and over again, backwards and forwards, she would be so vexed and discouraged, and would look so unhappy, that it gave me pain to see her bright face clouded--and for me!--and I would go softly to her, and say: ‘What’s the matter, Dora?’ Dora would look up hopelessly, and reply, ‘They won’t come right. They make my head ache so. And they won’t do anything I want!’ Then I would say, ‘Now let us try together. Let me show you, Dora.’ Then I would commence a practical demonstration, to which Dora would pay profound attention, perhaps for five minutes; when she would begin to be dreadfully tired, and would lighten the subject by curling my hair, or trying the effect of my face with my shirt-collar turned down.",
+  "text": "Would I come and look at it? As I should not have been much the wiser if I HAD looked at it, I declined, and said, ‘Never mind fish.’ But Mrs. Crupp said, Don’t say that; oysters was in, why not them? So THAT was settled. Mrs. Crupp then said what she would recommend would be this. A pair of hot roast fowls--from the pastry-cook’s; a dish of stewed beef, with vegetables--from the pastry-cook’s; two little corner things, as a raised pie and a dish of kidneys--from the pastrycook’s; a tart, and (if I liked) a shape of jelly--from the pastrycook’s.",
   "words": [
     {
-      "word": "curl",
+      "word": "roast",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "comparing",
+      "word": "pastry",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "commence",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lighten",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "curling",
+      "word": "pie",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "source": "Project Gutenberg #766",
-    "url": "https://www.gutenberg.org/ebooks/766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

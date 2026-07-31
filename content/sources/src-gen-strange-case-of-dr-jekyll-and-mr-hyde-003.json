@@ -1,16 +1,10 @@
 {
   "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-003",
   "pool": "sourced",
-  "text": "But he made straight for the door, crossing the roadway to save time; and as he came, he drew a key from his pocket like one approaching home. Mr. Utterson stepped out and touched him on the shoulder as he passed. Hyde, I think?” Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough: “That is my name. What do you want?” “I see you are going in,” returned the lawyer.",
+  "text": "Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.” This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protégé of his—one Hyde?” he asked. “Hyde?” repeated Lanyon.",
   "words": [
     {
-      "word": "approaching",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "stepped",
+      "word": "estranged",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #43",
-    "url": "https://www.gutenberg.org/ebooks/43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,24 +1,12 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-015",
   "pool": "sourced",
-  "text": "Its level (the manometer showed) could only be the same as the outside level, for there must necessarily be a communication between the lake and the sea. The high partitions, leaning forward on their base, grew into a vaulted roof bearing the shape of an immense funnel turned upside down, the height being about five or six hundred yards. At the summit was a circular orifice, by which I had caught the slight gleam of light, evidently daylight. “Where are we?” I asked. “In the very heart of an extinct volcano, the interior of which has been invaded by the sea, after some great convulsion of the earth.",
+  "text": "While its reservoirs were filled, it kept at a depth of 1,000 yards, a region rarely visited in the ocean, and in which large fish were seldom seen. I was then reading a charming book by Jean Mace, The Slaves of the Stomach, and I was learning some valuable lessons from it, when Conseil interrupted me. “Will master come here a moment?” he said, in a curious voice. “What is the matter, Conseil?” “I want master to look.” I rose, went, and leaned on my elbows before the panes and watched. In a full electric light, an enormous black mass, quite immovable, was suspended in the midst of the waters.",
   "words": [
     {
-      "word": "daylight",
+      "word": "seldom",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "extinct",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "volcano",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -27,7 +15,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

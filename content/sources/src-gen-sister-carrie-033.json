@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sister-carrie-033",
+  "pool": "sourced",
+  "text": "\"The motormen and conductors and other employees of this company having abruptly left its service, an opportunity is now given to all loyal men who have struck against their will to be reinstated, providing they will make their applications by twelve o'clock noon on Wednesday, January 16th. Such men will be given employment (with guaranteed protection) in the order in which such applications are received, and runs and positions assigned them accordingly. Otherwise, they will be considered discharged, and every vacancy will be filled by a new man as soon as his services can be secured. \"(Signed) \"BENJAMIN NORTON, \"President.\" He also noted among the want ads.",
+  "words": [
+    {
+      "word": "o'clock",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sister Carrie",
+    "author": "Theodore Dreiser",
+    "year": 1900,
+    "source": "Project Gutenberg #5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

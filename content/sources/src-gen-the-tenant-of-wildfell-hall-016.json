@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-tenant-of-wildfell-hall-016",
   "pool": "sourced",
-  "text": "I can help to get the articles together, but I do not understand the art of stowing them into the boxes, so as to take up the smallest possible space; and there are her own things to do, as well as mine and Arthur’s. I can ill afford to leave anything behind, since I have no money, except a few guineas in my purse; and besides, as Rachel observed, whatever I left would most likely become the property of Miss Myers, and I should not relish that. But what trouble I have had throughout these two days, struggling to appear calm and collected, to meet him and her as usual, when I was obliged to meet them, and forcing myself to leave my little Arthur in her hands for hours together! But I trust these trials are over now: I have laid him in my bed for better security, and never more, I trust, shall his innocent lips be defiled by their contaminating kisses, or his young ears polluted by their words. But shall we escape in safety?",
+  "text": "The consequence of this imprudence was something like an apoplectic fit, followed by a rather severe brain fever—” “And what did you think of yourself, sir?” said I, quickly. “Of course, I was very penitent,” he replied. “I went to see him once or twice—nay, twice or thrice—or by’r lady, some four times—and when he got better, I tenderly brought him back to the fold.” “What do you mean?” “I mean, I restored him to the bosom of the club, and compassionating the feebleness of his health and extreme lowness of his spirits, I recommended him to ‘take a little wine for his stomach’s sake,’ and, when he was sufficiently re-established, to embrace the media-via, ni-jamais-ni-toujours plan—not to kill himself like a fool, and not to abstain like a ninny—in a word, to enjoy himself like a rational creature, and do as I did; for, don’t think, Helen, that I’m a tippler; I’m nothing at all of the kind, and never was, and never shall be. I value my comfort far too much.",
   "words": [
     {
-      "word": "purse",
+      "word": "consequence",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "kisses",
+      "word": "thrice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "restored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "embrace",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Anne Bronte",
     "year": 1848,
     "source": "Project Gutenberg #969",
-    "url": "https://www.gutenberg.org/ebooks/969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

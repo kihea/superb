@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sister-carrie-007",
   "pool": "sourced",
-  "text": "At her window, she thought it over, rocking to and fro, and gazing out across the lamp-lit park toward the lamp-lit houses on Warren and Ashland avenues. She was too wrought up to care to go down to eat, too pensive to do aught but rock and sing. Some old tunes crept to her lips, and, as she sang them, her heart sank. She longed and longed and longed. It was now for the old cottage room in Columbia City, now the mansion upon the Shore Drive, now the fine dress of some lady, now the elegance of some scene.",
+  "text": "Here come the moths, in endless procession, to bask in the light of the flame. Such conversation as one may hear would not warrant a commendation of the scene upon intellectual grounds. It seems plain that schemers would choose more sequestered quarters to arrange their plans, that politicians would not gather here in company to discuss anything save formalities, where the sharp-eared may hear, and it would scarcely be justified on the score of thirst, for the majority of those who frequent these more gorgeous places have no craving for liquor. Nevertheless, the fact that here men gather, here chatter, here love to pass and rub elbows, must be explained upon some grounds. It must be that a strange bundle of passions and vague desires give rise to such a curious social institution or it would not be.",
   "words": [
     {
-      "word": "avenues",
+      "word": "flame",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thirst",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Theodore Dreiser",
     "year": 1900,
     "source": "Project Gutenberg #5267",
-    "url": "https://www.gutenberg.org/ebooks/5267",
+    "url": "https://www.gutenberg.org/ebooks/5267.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

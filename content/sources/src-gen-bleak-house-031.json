@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-bleak-house-031",
+  "pool": "sourced",
+  "text": "“I do not quite understand you.” “Oh, yes you do, I think. I think you do. Come, come, Lady Dedlock, we must not fence and parry now. You know you like this girl.” “Well, sir?” “And you know—and I know—that you have not sent her away for the reasons you have assigned, but for the purpose of separating her as much as possible from—excuse my mentioning it as a matter of business—any reproach and exposure that impend over yourself.” “Well, sir?” “Well, Lady Dedlock,” returns the lawyer, crossing his legs and nursing the uppermost knee. “I object to that.",
+  "words": [
+    {
+      "word": "mentioning",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "source": "Project Gutenberg #1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

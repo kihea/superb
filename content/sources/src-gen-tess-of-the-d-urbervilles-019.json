@@ -1,16 +1,16 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-019",
   "pool": "sourced",
-  "text": "My—somebody was going to tell it me once, but didn’t.” “If you are a genuine d’Urberville I ought not to tell you either, I suppose. As for me, I’m a sham one, so it doesn’t matter. It is rather dismal. It is that this sound of a non-existent coach can only be heard by one of d’Urberville blood, and it is held to be of ill-omen to the one who hears it. It has to do with a murder, committed by one of the family, centuries ago.” “Now you have begun it, finish it.” “Very well.",
+  "text": "And accomplishments have their charm,” returned his mother, looking at him through her silver spectacles. “As to external accomplishments, what will be the use of them in the life I am going to lead?—while as to her reading, I can take that in hand. She’ll be apt pupil enough, as you would say if you knew her. She’s brim full of poetry—actualized poetry, if I may use the expression. She lives what paper-poets only write... And she is an unimpeachable Christian, I am sure; perhaps of the very tribe, genus, and species you desire to propagate.” “O Angel, you are mocking!” “Mother, I beg pardon.",
   "words": [
     {
-      "word": "existent",
+      "word": "tribe",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "omen",
+      "word": "genus",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

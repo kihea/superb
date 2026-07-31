@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-026",
+  "pool": "sourced",
+  "text": "Farfrae is master here?” “Yaas, Miss Henchet,” he said, “Mr. Farfrae have bought the concern and all of we work-folk with it; and ’tis better for us than ’twas—though I shouldn’t say that to you as a daughter-law. We work harder, but we bain’t made afeard now. It was fear made my few poor hairs so thin! No busting out, no slamming of doors, no meddling with yer eternal soul and all that; and though ’tis a shilling a week less I’m the richer man; for what’s all the world if yer mind is always in a larry, Miss Henchet?” The intelligence was in a general sense true; and Henchard’s stores, which had remained in a paralyzed condition during the settlement of his bankruptcy, were stirred into activity again when the new tenant had possession.",
+  "words": [
+    {
+      "word": "shilling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bankruptcy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

@@ -1,22 +1,10 @@
 {
   "id": "src-gen-rip-van-winkle-004",
   "pool": "sourced",
-  "text": "Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be obsequious and conciliating abroad, who are under the discipline of shrews at home. Their tempers, doubtless, are rendered pliant and malleable in the fiery furnace of domestic tribulation; and a curtain-lecture is worth all the sermons in the world for teaching the virtues of patience and long-suffering. A termagant wife may, therefore, in some respects, be considered a tolerable blessing; and if so, Rip Van Winkle was thrice blessed. Certain it is that he was a great favourite among all the good wives of the village, who, as usual with the amiable sex, took his part in all family squabbles; and never failed, whenever they talked those matters over in their evening gossipings, to lay all the blame on Dame Van Winkle. The children of the village, too, would shout with joy whenever he approached.",
+  "text": "Rip Van Winkle, however, was one of those happy mortals, of foolish, well-oiled dispositions, who take the world easy, eat white bread or brown, whichever can be got with least thought or trouble, and would rather starve on a penny than work for a pound. If left to himself, he would have whistled life away in perfect contentment; but his wife kept continually dinning in his ears about his idleness, his carelessness, and the ruin he was bringing on his family. Morning, noon, and night, her tongue was incessantly going, and everything he said or did was sure to produce a torrent of household eloquence. Rip had but one way of replying to all lectures of the kind, and that, by frequent use, had grown into a habit. He shrugged his shoulders, shook his head, cast up his eyes, but said nothing.",
   "words": [
     {
-      "word": "apt",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "virtues",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shout",
+      "word": "penny",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

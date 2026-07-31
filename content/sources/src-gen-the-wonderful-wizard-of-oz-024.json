@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-024",
+  "pool": "sourced",
+  "text": "Then they lifted him up and flew away with him to the Witch’s castle, where he was placed in a small yard with a high iron fence around it, so that he could not escape. But Dorothy they did not harm at all. She stood, with Toto in her arms, watching the sad fate of her comrades and thinking it would soon be her turn. The leader of the Winged Monkeys flew up to her, his long, hairy arms stretched out and his ugly face grinning terribly; but he saw the mark of the Good Witch’s kiss upon her forehead and stopped short, motioning the others not to touch her. “We dare not harm this little girl,” he said to them, “for she is protected by the Power of Good, and that is greater than the Power of Evil.",
+  "words": [
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

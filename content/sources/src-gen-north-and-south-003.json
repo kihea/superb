@@ -1,10 +1,28 @@
 {
   "id": "src-gen-north-and-south-003",
   "pool": "sourced",
-  "text": "Papa felt so acutely—you know you are not strong, and there must have been such terrible suspense to go through.” “When did he tell you, Margaret?” “Yesterday, only yesterday,” replied Margaret, detecting the jealousy which prompted the inquiry. “Poor papa!”—trying to divert her mother’s thoughts into compassionate sympathy for all her father had gone through. Mrs. Hale raised her head. “What does he mean by having doubts?” she asked. “Surely, he does not mean that he thinks differently—that he knows better than the Church.” Margaret shook her head, and the tears came into her eyes, as her mother touched the bare nerve of her own regret.",
+  "text": "“A regular London girl would understand the implied meaning of that speech,” thought Mr. Lennox. “She would be up to looking through every speech that a young man made her for the arrière-pensée of a compliment. But I don’t believe Margaret,—Stay!” exclaimed he, “Let me help you”; and he gathered for her some velvety cramoisy roses that were above her reach, and then dividing the spoil he placed two in his button-hole, and sent her in, pleased and happy, to arrange her flowers. The conversation at dinner flowed on quietly and agreeably. There were plenty of questions to be asked on both sides—the latest intelligence which each could give of Mrs. Shaw’s movements in Italy to be exchanged; and in the interest of what was said, the unpretending simplicity of the parsonage-ways—above all in the neighbourhood of Margaret, Mr. Lennox forgot the little feeling of disappointment with which he had at first perceived that she had spoken but the simple truth when she had described her father’s living as very small.",
   "words": [
     {
-      "word": "papa",
+      "word": "implied",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "simplicity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

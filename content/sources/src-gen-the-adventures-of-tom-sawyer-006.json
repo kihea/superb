@@ -1,22 +1,22 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-006",
   "pool": "sourced",
-  "text": "Tom’s whole structure of faith was shaken to its foundations. He had many a time heard of this thing succeeding but never of its failing before. It did not occur to him that he had tried it several times before, himself, but could never find the hiding-places afterward. He puzzled over the matter some time, and finally decided that some witch had interfered and broken the charm. He thought he would satisfy himself on that point; so he searched around till he found a small sandy spot with a little funnel-shaped depression in it.",
+  "text": "Mr. Walters was very earnest of mien, and very sincere and honest at heart; and he held sacred things and places in such reverence, and so separated them from worldly matters, that unconsciously to himself his Sunday-school voice had acquired a peculiar intonation which was wholly absent on week-days. He began after this fashion: “Now, children, I want you all to sit up just as straight and pretty as you can and give me all your attention for a minute or two. There—that is it. That is the way good little boys and girls should do. I see one little girl who is looking out of the window—I am afraid she thinks I am out there somewhere—perhaps up in one of the trees making a speech to the little birds.",
   "words": [
     {
-      "word": "afterward",
+      "word": "sincere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "puzzled",
+      "word": "reverence",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "searched",
+      "word": "worldly",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

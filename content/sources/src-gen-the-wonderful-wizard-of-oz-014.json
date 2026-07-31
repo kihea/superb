@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-014",
   "pool": "sourced",
-  "text": "To be sure, there were several patches on him, but the tinsmiths did a good job, and as the Woodman was not a vain man he did not mind the patches at all. When, at last, he walked into Dorothy’s room and thanked her for rescuing him, he was so pleased that he wept tears of joy, and Dorothy had to wipe every tear carefully from his face with her apron, so his joints would not be rusted. At the same time her own tears fell thick and fast at the joy of meeting her old friend again, and these tears did not need to be wiped away. As for the Lion, he wiped his eyes so often with the tip of his tail that it became quite wet, and he was obliged to go out into the courtyard and hold it in the sun till it dried. “If we only had the Scarecrow with us again,” said the Tin Woodman, when Dorothy had finished telling him everything that had happened, “I should be quite happy.” “We must try to find him,” said the girl.",
+  "text": "Then the Stork with her great claws grabbed the Scarecrow by the arm and carried him up into the air and back to the bank, where Dorothy and the Lion and the Tin Woodman and Toto were sitting. When the Scarecrow found himself among his friends again, he was so happy that he hugged them all, even the Lion and Toto; and as they walked along he sang “Tol-de-ri-de-oh!” at every step, he felt so gay. “I was afraid I should have to stay in the river forever,” he said, “but the kind Stork saved me, and if I ever get any brains I shall find the Stork again and do her some kindness in return.” “That’s all right,” said the Stork, who was flying along beside them. “I always like to help anyone in trouble. But I must go now, for my babies are waiting in the nest for me.",
   "words": [
     {
-      "word": "patches",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "wept",
+      "word": "kindness",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

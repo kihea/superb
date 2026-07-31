@@ -1,10 +1,16 @@
 {
   "id": "src-gen-main-street-018",
   "pool": "sourced",
-  "text": "I managed to keep him away while I drove--such a rickety buggy. I didn't feel like a girl; I felt like a scrubwoman--no, I guess I was too scared to have any feelings at all. It was terribly dark. I got home, somehow. But it was hard, the time I had to get out, and it was quite muddy, to read a sign-post--I lit matches that I took from Cy's coat pocket, and he followed me--he fell off the buggy step into the mud, and got up and tried to make love to me, and----I was scared.",
+  "text": "The parlor was kept for visitors. Carol suggested, “Let's sit in the kitchen. Please don't trouble to light the parlor stove.” “No trouble at all! My gracious, and you coming so seldom and all, and the kitchen is a perfect sight, I try to keep it clean, but Cy will track mud all over it, I've spoken to him about it a hundred times if I've spoken once, no, you sit right there, dearie, and I'll make a fire, no trouble at all, practically no trouble at all.” Mrs. Bogart groaned, rubbed her joints, and repeatedly dusted her hands while she made the fire, and when Carol tried to help she lamented, “Oh, it doesn't matter; guess I ain't good for much but toil and workin' anyway; seems as though that's what a lot of folks think.” The parlor was distinguished by an expanse of rag carpet from which, as they entered, Mrs. Bogart hastily picked one sad dead fly.",
   "words": [
     {
-      "word": "muddy",
+      "word": "practically",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "repeatedly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Sinclair Lewis",
     "year": 1920,
     "source": "Project Gutenberg #543",
-    "url": "https://www.gutenberg.org/ebooks/543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

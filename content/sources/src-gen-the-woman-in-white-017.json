@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-woman-in-white-017",
   "pool": "sourced",
-  "text": "“You expected to meet your master here?” “I was told to wait in the lane.” With that answer he retraced his steps. I looked back at the cottage and saw the clerk coming out, with the lantern lighted once more. I took the old man’s arm to help him on the more quickly. We hastened along the lane, and passed the person who had accosted me. As well as I could see by the light of the lantern, he was a servant out of livery.",
+  "text": "“Who’s there?” I repeated. An instant of silence followed, and then we heard the light fall of the footsteps again, fainter and fainter—sinking away into the darkness—sinking, sinking, sinking—till they were lost in the silence. We hurried out from the trees to the open lawn beyond, crossed it rapidly; and without another word passing between us, reached the house. In the light of the hall-lamp Laura looked at me, with white cheeks and startled eyes. “I am half dead with fear,” she said.",
   "words": [
     {
-      "word": "lantern",
+      "word": "lawn",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lighted",
+      "word": "lamp",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

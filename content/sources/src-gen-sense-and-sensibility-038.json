@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-sense-and-sensibility-038",
+  "pool": "sourced",
+  "text": "Marianne said not a word. She trembled, her eyes were fixed on the ground, and her lips became whiter than even sickness had left them. A thousand inquiries sprung up from her heart, but she dared not urge one. She caught every syllable with panting eagerness; her hand, unknowingly to herself, closely pressed her sister's, and tears covered her cheeks. Elinor, dreading her being tired, led her towards home; and till they reached the door of the cottage, easily conjecturing what her curiosity must be though no question was suffered to speak it, talked of nothing but Willoughby, and their conversation together; and was carefully minute in every particular of speech and look, where minuteness could be safely indulged.",
+  "words": [
+    {
+      "word": "syllable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "year": 1811,
+    "source": "Project Gutenberg #21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

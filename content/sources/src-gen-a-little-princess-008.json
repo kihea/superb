@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-little-princess-008",
   "pool": "sourced",
-  "text": "\"Well,\" said Ermengarde, \"I'm miserable--and no one need interfere.\" And she turned her plump back and took out her handkerchief and boldly hid her face in it. That night, when Sara went to her attic, she was later than usual. She had been kept at work until after the hour at which the pupils went to bed, and after that she had gone to her lessons in the lonely schoolroom. When she reached the top of the stairs, she was surprised to see a glimmer of light coming from under the attic door.",
+  "text": "\"And as if I want to hit back. I have to remember things quickly to keep from saying something ill-tempered.\" She had to remember things quickly when she laid her book on the window-seat and jumped down from her comfortable corner. Lottie had been sliding across the schoolroom floor, and, having first irritated Lavinia and Jessie by making a noise, had ended by falling down and hurting her fat knee. She was screaming and dancing up and down in the midst of a group of friends and enemies, who were alternately coaxing and scolding her.",
   "words": [
     {
-      "word": "handkerchief",
+      "word": "sliding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

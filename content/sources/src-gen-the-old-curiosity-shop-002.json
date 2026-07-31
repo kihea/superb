@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-old-curiosity-shop-002",
   "pool": "sourced",
-  "text": "All that I had heard and seen, and a great part of what he had said himself, led me to suppose that he was a wealthy man. I could form no comprehension of his character, unless he were one of those miserable wretches who, having made gain the sole end and object of their lives and having succeeded in amassing great riches, are constantly tortured by the dread of poverty, and beset by fears of loss and ruin. Many things he had said which I had been at a loss to understand, were quite reconcilable with the idea thus presented to me, and at length I concluded that beyond all doubt he was one of this unhappy race. The opinion was not the result of hasty consideration, for which indeed there was no opportunity at that time, as the child came directly, and soon occupied herself in preparations for giving Kit a writing lesson, of which it seemed he had a couple every week, and one regularly on that evening, to the great mirth and enjoyment both of himself and his instructress.",
+  "text": "‘Stay here of course,’ the child had said in answer to my question, ‘I always do!’ What could take him from home by night, and every night! I called up all the strange tales I had ever heard of dark and secret deeds committed in great towns and escaping detection for a long series of years; wild as many of these stories were, I could not find one adapted to this mystery, which only became the more impenetrable, in proportion as I sought to solve it. Occupied with such thoughts as these, and a crowd of others all tending to the same point, I continued to pace the street for two long hours; at length the rain began to descend heavily, and then over-powered by fatigue though no less interested than I had been at first, I engaged the nearest coach and so got home. A cheerful fire was blazing on the hearth, the lamp burnt brightly, my clock received me with its old familiar welcome; everything was quiet, warm and cheering, and in happy contrast to the gloom and darkness I had quitted.",
   "words": [
     {
-      "word": "hasty",
+      "word": "escaping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cheerful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "burnt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gloom",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

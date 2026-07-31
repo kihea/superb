@@ -1,52 +1,16 @@
 {
   "id": "src-gen-rip-van-winkle-011",
   "pool": "sourced",
-  "text": "As they ascended, Rip every now and then heard long, rolling peals, like distant thunder, that seemed to issue out of a deep ravine, or rather cleft, between lofty rocks, toward which their ragged path conducted. He paused for an instant, but supposing it to be the muttering of one of those transient thunder-showers which often take place in mountain heights, he proceeded. Passing through the ravine, they came to a hollow, like a small amphitheatre, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky and the bright evening cloud. During the whole time Rip and his companion had laboured on in silence; for though the former marvelled greatly what could be the object of carrying a keg of liquor up this wild mountain, yet there was something strange and incomprehensible about the unknown, that inspired awe and checked familiarity. On entering the amphitheatre, new objects of wonder presented themselves.",
+  "text": "On nearer approach he was still more surprised at the singularity of the stranger’s appearance. He was a short, square-built old fellow, with thick bushy hair, and a grizzled beard. His dress was of the antique Dutch fashion: a cloth jerkin strapped round the waist--several pair of breeches, the outer one of ample volume, decorated with rows of buttons down the sides, and bunches at the knees. He bore on his shoulder a stout keg, that seemed full of liquor, and made signs for Rip to approach and assist him with the load. Though rather shy and distrustful of his new acquaintance, Rip complied with his usual alacrity; and mutually relieving one another, they clambered up a narrow gully, apparently the dry bed of a mountain torrent.",
   "words": [
     {
-      "word": "paused",
+      "word": "beard",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "transient",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "heights",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hollow",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "perpendicular",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "glimpses",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "azure",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "companion",
+      "word": "cloth",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +21,7 @@
     "author": "Washington Irving",
     "year": 1819,
     "source": "Project Gutenberg #60976",
-    "url": "https://www.gutenberg.org/ebooks/60976",
+    "url": "https://www.gutenberg.org/ebooks/60976.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,28 @@
 {
   "id": "src-gen-black-beauty-017",
   "pool": "sourced",
-  "text": "“How is Sam?” inquired the governor. “He's gone,” said the man. “What, gone? You don't mean to say he's dead?” “Just snuffed out,” said the other; “he died at four o'clock this morning; all yesterday he was raving--raving about Skinner, and having no Sundays. 'I never had a Sunday's rest,' these were his last words.” No one spoke for a while, and then the governor said, “I'll tell you what, mates, this is a warning for us.” 40 Poor Ginger One day, while our cab and many others were waiting outside one of the parks where music was playing, a shabby old cab drove up beside ours.",
+  "text": "Before that, I never knew what it was to foam at the mouth, but now the action of the sharp bit on my tongue and jaw, and the constrained position of my head and throat, always caused me to froth at the mouth more or less. Some people think it very fine to see this, and say, “What fine spirited creatures!” But it is just as unnatural for horses as for men to foam at the mouth; it is a sure sign of some discomfort, and should be attended to. Besides this, there was a pressure on my windpipe, which often made my breathing very uncomfortable; when I returned from my work my neck and chest were strained and painful, my mouth and tongue tender, and I felt worn and depressed. In my old home I always knew that John and my master were my friends; but here, although in many ways I was well treated, I had no friend. York might have known, and very likely did know, how that rein harassed me; but I suppose he took it as a matter of course that it could not be helped; at any rate, nothing was done to relieve me.",
   "words": [
     {
-      "word": "shabby",
+      "word": "jaw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "uncomfortable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tender",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rein",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Anna Sewell",
     "year": 1877,
     "source": "Project Gutenberg #271",
-    "url": "https://www.gutenberg.org/ebooks/271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

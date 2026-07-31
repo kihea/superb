@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-three-musketeers-038",
+  "pool": "sourced",
+  "text": "“At least I hope so,” said the novice, with an expression of joy which she made no effort to disguise. “I think I learned you had suffered persecutions from the cardinal,” continued Milady; “that would have been another motive for sympathy between us.” “What I have heard, then, from our good mother is true; you have likewise been a victim of that wicked priest.” “Hush!” said Milady; “let us not, even here, speak thus of him. All my misfortunes arise from my having said nearly what you have said before a woman whom I thought my friend, and who betrayed me. Are you also the victim of a treachery?” “No,” said the novice, “but of my devotion—of a devotion to a woman I loved, for whom I would have laid down my life, for whom I would give it still.” “And who has abandoned you—is that it?” “I have been sufficiently unjust to believe so; but during the last two or three days I have obtained proof to the contrary, for which I thank God—for it would have cost me very dear to think she had forgotten me.",
+  "words": [
+    {
+      "word": "disguise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

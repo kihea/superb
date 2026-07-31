@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-north-and-south-028",
+  "pool": "sourced",
+  "text": "And in the country some get such stagnant habits of mind that they are almost fatalists.” “Yes; I acknowledge that. I suppose each mode of life produces its own trials and its own temptations. The dweller in towns must find it as difficult to be patient, as the country-bred man must find it to be active, and equal to unwonted emergencies. Both must find it hard to realise a future of any kind; the one because the present is so living and hurrying and close around him; the other because his life tempts him to revel in the mere sense of animal existence, not knowing of, and consequently not caring for any pungency of pleasure, for the attainment of which he can plan, and deny himself and look forward.” “And thus both the necessity for engrossment, and the stupid content in the present, produce the same effects. But this poor Mrs. Boucher!",
+  "words": [
+    {
+      "word": "stagnant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "caring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

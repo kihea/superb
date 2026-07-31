@@ -1,16 +1,10 @@
 {
   "id": "src-gen-dracula-002",
   "pool": "sourced",
-  "text": "Strange to say, there were hairs in the centre of the palm. The nails were long and fine, and cut to a sharp point. As the Count leaned over me and his hands touched me, I could not repress a shudder. It may have been that his breath was rank, but a horrible feeling of nausea came over me, which, do what I would, I could not conceal. The Count, evidently noticing it, drew back; and with a grim sort of smile, which showed more than he had yet done his protuberant teeth, sat himself down again on his own side of the fireplace.",
+  "text": "When it grew dark there seemed to be some excitement amongst the passengers, and they kept speaking to him, one after the other, as though urging him to further speed. He lashed the horses unmercifully with his long whip, and with wild cries of encouragement urged them on to further exertions. Then through the darkness I could see a sort of patch of grey light ahead of us, as though there were a cleft in the hills. The excitement of the passengers grew greater; the crazy coach rocked on its great leather springs, and swayed like a boat tossed on a stormy sea. I had to hold on.",
   "words": [
     {
-      "word": "nausea",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "evidently",
+      "word": "whip",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Bram Stoker",
     "year": 1897,
     "source": "Project Gutenberg #345",
-    "url": "https://www.gutenberg.org/ebooks/345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

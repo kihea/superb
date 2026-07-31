@@ -1,10 +1,16 @@
 {
   "id": "src-gen-little-lord-fauntleroy-017",
   "pool": "sourced",
-  "text": "“It was a pity to make a earl out of HIM. He would have SHONE in the grocery business--or dry goods either; he would have SHONE!” And he shook his head with deeper regret than ever. It proved that they had so much to say to each other that it was not possible to say it all at one time, and so it was agreed that the next night Dick should make a visit to the store and keep Mr. Hobbs company. The plan pleased Dick well enough. He had been a street waif nearly all his life, but he had never been a bad boy, and he had always had a private yearning for a more respectable kind of existence.",
+  "text": "And while he thought himself quite secure from the common herd, Thomas was telling Jane and the cook, and the butler, and the housemaids and the other footmen that it was his opinion that “the hold man was wuss than usual a-thinkin' hover the Capting's boy, an' hanticipatin' as he won't be no credit to the fambly. An' serve him right,” added Thomas; “hit's 'is hown fault. Wot can he iggspect from a child brought up in pore circumstances in that there low Hamerica?” And as the Reverend Mr. Mordaunt walked under the great trees, he remembered that this questionable little boy had arrived at the Castle only the evening before, and that there were nine chances to one that his lordship's worst fears were realized, and twenty-two chances to one that if the poor little fellow had disappointed him, the Earl was even now in a tearing rage, and ready to vent all his rancor on the first person who called--which it appeared probable would be his reverend self. Judge then of his amazement when, as Thomas opened the library door, his ears were greeted by a delighted ring of childish laughter.",
   "words": [
     {
-      "word": "earl",
+      "word": "tearing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "childish",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-wives-and-daughters-006",
   "pool": "sourced",
-  "text": "And sister was taking her forty winks; and I was sitting with my gown up above my knees and my feet on the fender, pulling out my grandmother's lace which I'd been washing. The worst has yet to be told. I'd taken off my cap, for I thought it was getting dusk and no one would come, and there was I in my black silk skull-cap, when Nancy put her head in, and whispered, 'There's a lady downstairs--a real grand one, by her talk;' and in there came my Lady Harriet, so sweet and pretty in her ways, it was some time before I remembered I had never a cap on. Sister never wakened; or never roused up, so to say.",
+  "text": "Very good plan, though, and quite right to make oneself fit for ladies' society. Does your father dress for dinner, Miss Gibson?\" He did not stay to wait for her answer, but hastened away to perform his toilette. They dined at a small table in a great large room. There were so few articles of furniture in it, and the apartment itself was so vast, that Molly longed for the snugness of the home dining-room; nay, it is to be feared that, before the stately dinner at Hamley Hall came to an end, she even regretted the crowded chairs and tables, the hurry of eating, the quick unformal manner in which everybody seemed to finish their meal as fast as possible, and to return to the work they had left.",
   "words": [
     {
-      "word": "dusk",
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1866,
     "source": "Project Gutenberg #4274",
-    "url": "https://www.gutenberg.org/ebooks/4274",
+    "url": "https://www.gutenberg.org/ebooks/4274.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

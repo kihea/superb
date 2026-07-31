@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-033",
+  "pool": "sourced",
+  "text": "If I should go out of this Palace my people would soon discover I am not a Wizard, and then they would be vexed with me for having deceived them. So I have to stay shut up in these rooms all day, and it gets tiresome. I’d much rather go back to Kansas with you and be in a circus again.” “I shall be glad to have your company,” said Dorothy. “Thank you,” he answered. “Now, if you will help me sew the silk together, we will begin to work on our balloon.” So Dorothy took a needle and thread, and as fast as Oz cut the strips of silk into proper shape the girl sewed them neatly together.",
+  "words": [
+    {
+      "word": "circus",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

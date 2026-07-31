@@ -1,10 +1,40 @@
 {
   "id": "src-gen-meditations-003",
   "pool": "sourced",
-  "text": "The life of such an one, death can never surprise as imperfect; as of an actor, that should die before he had ended, or the play itself were at an end, a man might speak. Use thine opinative faculty with all honour and respect, for in her indeed is all: that thy opinion do not beget in thy understanding anything contrary to either nature, or the proper constitution of a rational creature. The end and object of a rational constitution is, to do nothing rashly, to be kindly affected towards men, and in all things willingly to submit unto the gods. Casting therefore all other things aside, keep thyself to these few, and remember withal that no man properly can be said to live more than that which is now present, which is but a moment of time. Whatsoever is besides either is already past, or uncertain.",
+  "text": "Whatsoever I am, is either flesh, or life, or that which we commonly call the mistress and overruling part of man; reason. Away with thy books, suffer not thy mind any more to be distracted, and carried to and fro; for it will not be; but as even now ready to die, think little of thy flesh: blood, bones, and a skin; a pretty piece of knit and twisted work, consisting of nerves, veins and arteries; think no more of it, than so. And as for thy life, consider what it is; a wind; not one constant wind neither, but every moment of an hour let out, and sucked in again. The third, is thy ruling part; and here consider; Thou art an old man; suffer not that excellent part to be brought in subjection, and to become slavish: suffer it not to be drawn up and down with unreasonable and unsociable lusts and motions, as it were with wires and nerves; suffer it not any more, either to repine at anything now present, or to fear and fly anything to come, which the destiny hath appointed thee.",
   "words": [
     {
-      "word": "willingly",
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fro",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "knit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twisted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unreasonable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "destiny",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +45,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

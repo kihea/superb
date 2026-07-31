@@ -1,10 +1,28 @@
 {
   "id": "src-gen-kidnapped-002",
   "pool": "sourced",
-  "text": "Then I stood and waited. The house had fallen into a dead silence; a whole minute passed away, and nothing stirred but the bats overhead. I knocked again, and hearkened again. By this time my ears had grown so accustomed to the quiet, that I could hear the ticking of the clock inside as it slowly counted out the seconds; but whoever was in that house kept deadly still, and must have held his breath. I was in two minds whether to run away; but anger got the upper hand, and I began instead to rain kicks and buffets on the door, and to shout out aloud for Mr. Balfour.",
+  "text": "I COME TO MY JOURNEY’S END On the forenoon of the second day, coming to the top of a hill, I saw all the country fall away before me down to the sea; and in the midst of this descent, on a long ridge, the city of Edinburgh smoking like a kiln. There was a flag upon the castle, and ships moving or lying anchored in the firth; both of which, for as far away as they were, I could distinguish clearly; and both brought my country heart into my mouth. Presently after, I came by a house where a shepherd lived, and got a rough direction for the neighbourhood of Cramond; and so, from one to another, worked my way to the westward of the capital by Colinton, till I came out upon the Glasgow road. And there, to my great pleasure and wonder, I beheld a regiment marching to the fifes, every foot in time; an old red-faced general on a grey horse at the one end, and at the other the company of Grenadiers, with their Pope’s-hats.",
   "words": [
     {
-      "word": "shout",
+      "word": "descent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anchored",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "firth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "westward",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

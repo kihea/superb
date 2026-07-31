@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-red-badge-of-courage-025",
+  "pool": "sourced",
+  "text": "“Th’ reg’ment lost over half th’ men yestirday,” remarked the friend eventually. “I thought ’a course they was all dead, but, laws, they kep’ a-comin’ back last night until it seems, after all, we didn’t lose but a few. They’d been scattered all over, wanderin’ around in th’ woods, fightin’ with other reg’ments, an’ everything. Jest like you done.” “So?” said the youth. The regiment was standing at order arms at the side of a lane, waiting for the command to march, when suddenly the youth remembered the little packet enwrapped in a faded yellow envelope which the loud young soldier with lugubrious words had intrusted to him.",
+  "words": [
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "packet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "faded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Red Badge of Courage",
+    "author": "Stephen Crane",
+    "year": 1895,
+    "source": "Project Gutenberg #73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

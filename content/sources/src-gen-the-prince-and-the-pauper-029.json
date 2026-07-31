@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-029",
+  "pool": "sourced",
+  "text": "Scour and scan me to thy content, my good old Hugh--I am indeed thy old Miles, thy same old Miles, thy lost brother, is’t not so? Ah, ’tis a great day--I said ’twas a great day! Give me thy hand, give me thy cheek--lord, I am like to die of very joy!” He was about to throw himself upon his brother; but Hugh put up his hand in dissent, then dropped his chin mournfully upon his breast, saying with emotion-- “Ah, God of his mercy give me strength to bear this grievous disappointment!” Miles, amazed, could not speak for a moment; then he found his tongue, and cried out-- “What disappointment? Am I not thy brother?” Hugh shook his head sadly, and said-- “I pray heaven it may prove so, and that other eyes may find the resemblances that are hid from mine. Alack, I fear me the letter spoke but too truly.” “What letter?” “One that came from over sea, some six or seven years ago.",
+  "words": [
+    {
+      "word": "cheek",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "amazed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

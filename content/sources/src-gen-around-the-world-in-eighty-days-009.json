@@ -1,34 +1,16 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-009",
   "pool": "sourced",
-  "text": "the charms of Aouda failed to act, to Passepartout’s great surprise; and the disturbances, if they existed, would have been more difficult to calculate than those of Uranus which led to the discovery of Neptune. It was every day an increasing wonder to Passepartout, who read in Aouda’s eyes the depths of her gratitude to his master. Phileas Fogg, though brave and gallant, must be, he thought, quite heartless. As to the sentiment which this journey might have awakened in him, there was clearly no trace of such a thing; while poor Passepartout existed in perpetual reveries. One day he was leaning on the railing of the engine-room, and was observing the engine, when a sudden pitch of the steamer threw the screw out of the water.",
+  "text": "Passepartout would willingly have knocked the conductor down, and did not dare to look at his master. “Sir Francis,” said Mr. Fogg quietly, “we will, if you please, look about for some means of conveyance to Allahabad.” “Mr. Fogg, this is a delay greatly to your disadvantage.” “No, Sir Francis; it was foreseen.” “What! You knew that the way—” “Not at all; but I knew that some obstacle or other would sooner or later arise on my route. Nothing, therefore, is lost.",
   "words": [
     {
-      "word": "charms",
+      "word": "willingly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "disturbances",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gallant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sentiment",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "trace",
+      "word": "obstacle",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

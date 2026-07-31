@@ -1,22 +1,16 @@
 {
   "id": "src-gen-life-on-the-mississippi-003",
   "pool": "sourced",
-  "text": "I reflected deeply awhile, and then said--but not aloud--'Well, the finding of that plantation was the luckiest accident that ever happened; but it couldn't happen again in a hundred years.' And I fully believed it was an accident, too. By the time we had gone seven or eight hundred miles up the river, I had learned to be a tolerably plucky up-stream steersman, in daylight, and before we reached St. Louis I had made a trifle of progress in night-work, but only a trifle. I had a note-book that fairly bristled with the names of towns, 'points,' bars, islands, bends, reaches, etc. ; but the information was to be found only in the notebook--none of it was in my head.",
+  "text": "The man they called Ed said the muddy Mississippi water was wholesomer to drink than the clear water of the Ohio; he said if you let a pint of this yaller Mississippi water settle, you would have about a half to three-quarters of an inch of mud in the bottom, according to the stage of the river, and then it warn't no better than Ohio water--what you wanted to do was to keep it stirred up--and when the river was low, keep mud on hand to put in and thicken the water up the way it ought to be. The Child of Calamity said that was so; he said there was nutritiousness in the mud, and a man that drunk Mississippi water could grow corn in his stomach if he wanted to. He says-- 'You look at the graveyards; that tells the tale. Trees won't grow worth chucks in a Cincinnati graveyard, but in a Sent Louis graveyard they grow upwards of eight hundred foot high. It's all on account of the water the people drunk before they laid up.",
   "words": [
     {
-      "word": "reflected",
+      "word": "muddy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "awhile",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "notebook",
+      "word": "mud",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

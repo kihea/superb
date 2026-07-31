@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-riddle-of-the-sands-024",
+  "pool": "sourced",
+  "text": "While busied with the cocoa I heard her spelling out some titles, fingering leaves, and twitting Davies with the little care he took of his books. Suddenly there was a silence which made me look up, to see a startled and pitiful change in her. She was staring at Davies with wide eyes and parted lips, a burning flush mounting on her forehead, and such an expression on her face as a sleep-walker might wear, who wakes in fear he knows not where. Half her mind was far away, labouring to construe some hideous dream of the past; half was in the present, cringing before some sickening reality. She remained so for perhaps ten seconds, and then—plucky girl that she was—she mastered herself, looked deliberately round and up with a circular glance, strangely in the manner of Davies himself, and spoke.",
+  "words": [
+    {
+      "word": "cocoa",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flush",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "forehead",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strangely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "source": "Project Gutenberg #2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

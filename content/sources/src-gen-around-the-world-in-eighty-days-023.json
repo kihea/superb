@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-023",
+  "pool": "sourced",
+  "text": "a typhoon is coming up.” “Glad it’s a typhoon from the south, for it will carry us forward.” “Oh, if you take it that way,” said John Bunsby, “I’ve nothing more to say.” John Bunsby’s suspicions were confirmed. At a less advanced season of the year the typhoon, according to a famous meteorologist, would have passed away like a luminous cascade of electric flame; but in the winter equinox it was to be feared that it would burst upon them with great violence. The pilot took his precautions in advance. He reefed all sail, the pole-masts were dispensed with; all hands went forward to the bows. A single triangular sail, of strong canvas, was hoisted as a storm-jib, so as to hold the wind from behind.",
+  "words": [
+    {
+      "word": "typhoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "triangular",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

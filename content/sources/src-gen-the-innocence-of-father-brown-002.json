@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-002",
   "pool": "sourced",
-  "text": "Dr. Simon, you have examined it. Do you think that to cut a man’s throat like that would need great force? Or, perhaps, only a very sharp knife?” “I should say that it could not be done with a knife at all,” said the pale doctor. “Have you any thought,” resumed Valentin, “of a tool with which it could be done?” “Speaking within modern probabilities, I really haven’t,” said the doctor, arching his painful brows. “It’s not easy to hack a neck through even clumsily, and this was a very clean cut.",
+  "text": "Not long, however, did that salon merely stare at the celebrated American; his lateness had already become a domestic problem, and he was sent with all speed into the dining-room with Lady Galloway on his arm. Except on one point the Galloways were genial and casual enough. So long as Lady Margaret did not take the arm of that adventurer O’Brien, her father was quite satisfied; and she had not done so, she had decorously gone in with Dr. Simon. Nevertheless, old Lord Galloway was restless and almost rude. He was diplomatic enough during dinner, but when, over the cigars, three of the younger men--Simon the doctor, Brown the priest, and the detrimental O’Brien, the exile in a foreign uniform--all melted away to mix with the ladies or smoke in the conservatory, then the English diplomatist grew very undiplomatic indeed.",
   "words": [
     {
-      "word": "hack",
+      "word": "salon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "adventurer",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

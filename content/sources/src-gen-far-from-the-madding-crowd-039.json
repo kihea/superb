@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-far-from-the-madding-crowd-039",
+  "pool": "sourced",
+  "text": "The miles necessary to be traversed, and other hindrances incidental to the lateness of the hour and the darkness of the night, delayed the arrival of Mr. Granthead, the surgeon; and more than three hours passed between the time at which the shot was fired and that of his entering the house. Oak was additionally detained in Casterbridge through having to give notice to the authorities of what had happened; and he then found that Boldwood had also entered the town, and delivered himself up. In the meantime the surgeon, having hastened into the hall at Boldwood’s, found it in darkness and quite deserted. He went on to the back of the house, where he discovered in the kitchen an old man, of whom he made inquiries. “She’s had him took away to her own house, sir,” said his informant.",
+  "words": [
+    {
+      "word": "additionally",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "detained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "meantime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "year": 1874,
+    "source": "Project Gutenberg #27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

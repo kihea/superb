@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-037",
+  "pool": "sourced",
+  "text": "How did I cling to their dear forms, as sometimes they haunted even my waking hours, and persuade myself that they still lived! At such moments vengeance, that burned within me, died in my heart, and I pursued my path towards the destruction of the dæmon more as a task enjoined by heaven, as the mechanical impulse of some power of which I was unconscious, than as the ardent desire of my soul. What his feelings were whom I pursued I cannot know. Sometimes, indeed, he left marks in writing on the barks of the trees or cut in stone that guided me and instigated my fury. “My reign is not yet over”—these words were legible in one of these inscriptions—“you live, and my power is complete.",
+  "words": [
+    {
+      "word": "reign",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

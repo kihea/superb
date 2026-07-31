@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-030",
+  "pool": "sourced",
+  "text": "A man is occasionally grateful when he says ‘Thank you.’ It’s rather hard upon him that he must use the same words with which all the world declines a disagreeable invitation, don’t you think so, Miss Tulliver?” “No,” said Maggie, looking at him with her direct glance; “if we use common words on a great occasion, they are the more striking, because they are felt at once to have a particular meaning, like old banners, or everyday clothes, hung up in a sacred place.” “Then my compliment ought to be eloquent,” said Stephen, really not quite knowing what he said while Maggie looked at him, “seeing that the words were so far beneath the occasion.” “No compliment can be eloquent, except as an expression of indifference,” said Maggie, flushing a little. Lucy was rather alarmed; she thought Stephen and Maggie were not going to like each other. She had always feared lest Maggie should appear too old and clever to please that critical gentleman.",
+  "words": [
+    {
+      "word": "striking",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "compliment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feared",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

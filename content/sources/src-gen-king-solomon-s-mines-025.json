@@ -1,0 +1,42 @@
+{
+  "id": "src-gen-king-solomon-s-mines-025",
+  "pool": "sourced",
+  "text": "“What are Twala’s terms?” I asked from curiosity. “His terms are merciful, worthy of a great king. These are the words of Twala, the one-eyed, the mighty, the husband of a thousand wives, lord of the Kukuanas, keeper of the Great Road (Solomon’s Road), beloved of the Strange Ones who sit in silence at the mountains yonder (the Three Witches), Calf of the Black Cow, Elephant whose tread shakes the earth, Terror of the evil-doer, Ostrich whose feet devour the desert, huge One, black One, wise One, king from generation to generation! these are the words of Twala: ‘I will have mercy and be satisfied with a little blood.",
+  "words": [
+    {
+      "word": "merciful",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "eyed",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "mighty",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "keeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "King Solomon's Mines",
+    "author": "H. Rider Haggard",
+    "year": 1885,
+    "source": "Project Gutenberg #2166",
+    "url": "https://www.gutenberg.org/ebooks/2166.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

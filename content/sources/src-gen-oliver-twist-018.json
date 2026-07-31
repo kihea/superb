@@ -1,10 +1,22 @@
 {
   "id": "src-gen-oliver-twist-018",
   "pool": "sourced",
-  "text": "We shall see. Many people are singularly like each other. It may not be the same.” As he expressed himself to this effect, with assumed carelessness, he took a step or two nearer the concealed spy, as the latter could tell from the distinctness with which he heard him mutter, “It must be he!” “Now,” he said, returning: so it seemed by the sound: to the spot where he had stood before, “you have given us most valuable assistance, young woman, and I wish you to be the better for it. What can I do to serve you?” “Nothing,” replied Nancy. “You will not persist in saying that,” rejoined the gentleman, with a voice and emphasis of kindness that might have touched a much harder and more obdurate heart.",
+  "text": "Merely making a sign to a man at the bar, Fagin walked straight upstairs, and opening the door of a room, and softly insinuating himself into the chamber, looked anxiously about: shading his eyes with his hand, as if in search of some particular person. The room was illuminated by two gas-lights; the glare of which was prevented by the barred shutters, and closely-drawn curtains of faded red, from being visible outside. The ceiling was blackened, to prevent its colour from being injured by the flaring of the lamps; and the place was so full of dense tobacco smoke, that at first it was scarcely possible to discern anything more.",
   "words": [
     {
-      "word": "emphasis",
+      "word": "faded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "discern",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

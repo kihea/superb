@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-scarlet-letter-004",
   "pool": "sourced",
-  "text": "Very soon, however, his look became keen and penetrative. A writhing horror twisted itself across his features, like a snake gliding swiftly over them, and making one little pause, with all its wreathed intervolutions in open sight. His face darkened with some powerful emotion, which, nevertheless, he so instantaneously controlled by an effort of his will, that, save at a single moment, its expression might have passed for calmness. After a brief space, the convulsion grew almost imperceptible, and finally subsided into the depths of his nature. When he found the eyes of Hester Prynne fastened on his own, and saw that she appeared to recognize him, he slowly and calmly raised his finger, made a gesture with it in the air, and laid it on his lips.",
+  "text": "In my particular case the consolatory topics were close at hand, and, indeed, had suggested themselves to my meditations a considerable time before it was requisite to use them. In view of my previous weariness of office, and vague thoughts of resignation, my fortune somewhat resembled that of a person who should entertain an idea of committing suicide, and although beyond his hopes, meet with the good hap to be murdered. In the Custom-House, as before in the Old Manse, I had spent three years—a term long enough to rest a weary brain: long enough to break off old intellectual habits, and make room for new ones: long enough, and too long, to have lived in an unnatural state, doing what was really of no advantage nor delight to any human being, and withholding myself from toil that would, at least, have stilled an unquiet impulse in me.",
   "words": [
     {
-      "word": "pause",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gesture",
+      "word": "weary",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

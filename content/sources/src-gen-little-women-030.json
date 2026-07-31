@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-little-women-030",
+  "pool": "sourced",
+  "text": "“I think you are right, there. You could do nothing at home, and it is a great comfort to them to know that you are well and happy, and enjoying so much, my dear.” He drew a little nearer, and looked more like his old self as he said that, and the fear that sometimes weighed on Amy’s heart was lightened, for the look, the act, the brotherly ‘my dear’, seemed to assure her that if any trouble did come, she would not be alone in a strange land. Presently she laughed and showed him a small sketch of Jo in her scribbling suit, with the bow rampantly erect upon her cap, and issuing from her mouth the words, ‘Genius burns!’. Laurie smiled, took it, put it in his vest pocket ‘to keep it from blowing away’, and listened with interest to the lively letter Amy read him. “This will be a regularly merry Christmas to me, with presents in the morning, you and letters in the afternoon, and a party at night,” said Amy, as they alighted among the ruins of the old fort, and a flock of splendid peacocks came trooping about them, tamely waiting to be fed.",
+  "words": [
+    {
+      "word": "issuing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "merry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

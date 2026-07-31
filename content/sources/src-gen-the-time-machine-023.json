@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-time-machine-023",
+  "pool": "sourced",
+  "text": "Living, as they did, in what appeared to me impenetrable darkness, their eyes were abnormally large and sensitive, just as are the pupils of the abysmal fishes, and they reflected the light in the same way. I have no doubt they could see me in that rayless obscurity, and they did not seem to have any fear of me apart from the light. But, so soon as I struck a match in order to see them, they fled incontinently, vanishing into dark gutters and tunnels, from which their eyes glared at me in the strangest fashion. “I tried to call to them, but the language they had was apparently different from that of the Overworld people; so that I was needs left to my own unaided efforts, and the thought of flight before exploration was even then in my mind. But I said to myself, ‘You are in for it now,’ and, feeling my way along the tunnel, I found the noise of machinery grow louder.",
+  "words": [
+    {
+      "word": "reflected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "obscurity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Time Machine",
+    "author": "H. G. Wells",
+    "year": 1895,
+    "source": "Project Gutenberg #35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

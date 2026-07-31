@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-song-of-the-lark-028",
+  "pool": "sourced",
+  "text": "The voice of the stream at the bottom of the gorge was hollow and threatening, much louder and deeper than it ever was by day—another voice altogether. The sullenness of the place seemed to say that the world could get on very well without people, red or white; that under the human world there was a geological world, conducting its silent, immense operations which were indifferent to man. Thea had often seen the desert sunrise,—a lighthearted affair, where the sun springs out of bed and the world is golden in an instant. But this canyon seemed to waken like an old man, with rheum and stiffness of the joints, with heaviness, and a dull, malignant mind. She crouched against the wall while the stars faded, and thought what courage the early races must have had to endure so much for the little they got out of life.",
+  "words": [
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunrise",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Song of the Lark",
+    "author": "Willa Cather",
+    "year": 1915,
+    "source": "Project Gutenberg #44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

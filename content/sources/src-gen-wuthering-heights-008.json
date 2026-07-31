@@ -1,10 +1,23 @@
 {
   "id": "src-gen-wuthering-heights-008",
   "pool": "sourced",
-  "text": "Each has a bludgeon; and master will, very likely, be watching from the parlour-windows to see that they fulfil his orders.” The gardeners and coachman were there: but Linton was with them. They had already entered the court. Heathcliff, on the second thoughts, resolved to avoid a struggle against three underlings: he seized the poker, smashed the lock from the inner door, and made his escape as they tramped in. Mrs. Linton, who was very much excited, bade me accompany her upstairs. She did not know my share in contributing to the disturbance, and I was anxious to keep her in ignorance.",
+  "text": "Wish and learn to smooth away the surly wrinkles, to raise your lids frankly, and change the fiends to confident, innocent angels, suspecting and doubting nothing, and always seeing friends where they are not sure of foes. Don’t get the expression of a vicious cur that appears to know the kicks it gets are its desert, and yet hates all the world, as well as the kicker, for what it suffers.” “In other words, I must wish for Edgar Linton’s great blue eyes and even forehead,” he replied. “I do—and that won’t help me to them.” “A good heart will help you to a bonny face, my lad,” I continued, “if you were a regular black; and a bad one will turn the bonniest into something worse than ugly. And now that we’ve done washing, and combing, and sulking—tell me whether you don’t think yourself rather handsome? I’ll tell you, I do.",
   "words": [
     {
-      "word": "accompany",
+      "word": "kicker",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suffers",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "forehead",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +28,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

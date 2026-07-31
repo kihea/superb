@@ -1,16 +1,34 @@
 {
   "id": "src-gen-wuthering-heights-007",
   "pool": "sourced",
-  "text": "“On what occasion?” “In our walk along the moor: you told me to ramble where I pleased, while you sauntered on with Mr. Heathcliff!” “And that’s your notion of harshness?” said Catherine, laughing. “It was no hint that your company was superfluous; we didn’t care whether you kept with us or not; I merely thought Heathcliff’s talk would have nothing entertaining for your ears.” “Oh, no,” wept the young lady; “you wished me away, because you knew I liked to be there!” “Is she sane?” asked Mrs. Linton, appealing to me. “I’ll repeat our conversation, word for word, Isabella; and you point out any charm it could have had for you.” “I don’t mind the conversation,” she answered: “I wanted to be with—” “Well?” said Catherine, perceiving her hesitate to complete the sentence. “With him: and I won’t be always sent off!” she continued, kindling up. “You are a dog in the manger, Cathy, and desire no one to be loved but yourself!” “You are an impertinent little monkey!” exclaimed Mrs. Linton, in surprise.",
+  "text": "One Sunday evening, it chanced that they were banished from the sitting-room, for making a noise, or a light offence of the kind; and when I went to call them to supper, I could discover them nowhere. We searched the house, above and below, and the yard and stables; they were invisible: and, at last, Hindley in a passion told us to bolt the doors, and swore nobody should let them in that night. The household went to bed; and I, too anxious to lie down, opened my lattice and put my head out to hearken, though it rained: determined to admit them in spite of the prohibition, should they return. In a while, I distinguished steps coming up the road, and the light of a lantern glimmered through the gate. I threw a shawl over my head and ran to prevent them from waking Mr. Earnshaw by knocking.",
   "words": [
     {
-      "word": "notion",
+      "word": "supper",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "wished",
+      "word": "bolt",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lantern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shawl",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +39,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

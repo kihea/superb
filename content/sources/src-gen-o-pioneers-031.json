@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-o-pioneers-031",
+  "pool": "sourced",
+  "text": "Only good things could happen to a rich, energetic, handsome young man like Amédée, with a new baby in the cradle and a new header in the field. Emil stroked the black fuzz on Baptiste’s head. “I say, Angélique, one of ’Médée’s grandmothers, ’way back, must have been a squaw. This kid looks exactly like the Indian babies.” Angélique made a face at him, but old Mrs. Chevalier had been touched on a sore point, and she let out such a stream of fiery patois that Emil fled from the kitchen and mounted his mare. Opening the pasture gate from the saddle, Emil rode across the field to the clearing where the thresher stood, driven by a stationary engine and fed from the header boxes.",
+  "words": [
+    {
+      "word": "cradle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pasture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "saddle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rode",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

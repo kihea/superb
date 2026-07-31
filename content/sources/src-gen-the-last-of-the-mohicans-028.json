@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-028",
+  "pool": "sourced",
+  "text": "The squaw gave a loud and plaintive yell, dashed the torch to the earth, and buried everything in darkness. The whole shuddering group of spectators glided from the lodge like troubled sprites; and Duncan thought that he and the yet throbbing body of the victim of an Indian judgment had now become its only tenants. “Thus spoke the sage: the kings without delay Dissolve the council, and their chief obey.” —Pope’s Iliad A single moment served to convince the youth that he was mistaken. A hand was laid, with a powerful pressure, on his arm, and the low voice of Uncas muttered in his ear: “The Hurons are dogs. The sight of a coward’s blood can never make a warrior tremble.",
+  "words": [
+    {
+      "word": "yell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

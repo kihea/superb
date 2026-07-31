@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-silas-marner-035",
+  "pool": "sourced",
+  "text": "Oh, the pipe! won’t you have it lit again, father?” said Eppie, lifting that medicinal appliance from the ground. “Nay, child,” said Silas, “I’ve done enough for to-day. I think, mayhap, a little of it does me more good than so much at once.” While Silas and Eppie were seated on the bank discoursing in the fleckered shade of the ash tree, Miss Priscilla Lammeter was resisting her sister’s arguments, that it would be better to take tea at the Red House, and let her father have a long nap, than drive home to the Warrens so soon after dinner. The family party (of four only) were seated round the table in the dark wainscoted parlour, with the Sunday dessert before them, of fresh filberts, apples, and pears, duly ornamented with leaves by Nancy’s own hand before the bells had rung for church.",
+  "words": [
+    {
+      "word": "nap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rung",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Silas Marner",
+    "author": "George Eliot",
+    "year": 1861,
+    "source": "Project Gutenberg #550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

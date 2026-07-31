@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-027",
+  "pool": "sourced",
+  "text": "Then he had worn clean, suitable clothes, light and cheerful in hue; leggings yellow as marigolds, corduroys immaculate as new flax, and a neckerchief like a flower-garden. Now he wore the remains of an old blue cloth suit of his gentlemanly times, a rusty silk hat, and a once black satin stock, soiled and shabby. Clad thus he went to and fro, still comparatively an active man—for he was not much over forty—and saw with the other men in the yard Donald Farfrae going in and out the green door that led to the garden, and the big house, and Lucetta. At the beginning of the winter it was rumoured about Casterbridge that Mr. Farfrae, already in the Town Council, was to be proposed for Mayor in a year or two. “Yes, she was wise, she was wise in her generation!” said Henchard to himself when he heard of this one day on his way to Farfrae’s hay-barn.",
+  "words": [
+    {
+      "word": "immaculate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shabby",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

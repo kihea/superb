@@ -1,10 +1,34 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-006",
   "pool": "sourced",
-  "text": "The eldest of the comers, a girl who wore a triangular shawl, its corner draggling on the stubble, carried in her arms what at first sight seemed to be a doll, but proved to be an infant in long clothes. Another brought some lunch. The harvesters ceased working, took their provisions, and sat down against one of the shocks. Here they fell to, the men plying a stone jar freely, and passing round a cup. Tess Durbeyfield had been one of the last to suspend her labours.",
+  "text": "Had she perceived this meeting’s import she might have asked why she was doomed to be seen and coveted that day by the wrong man, and not by some other man, the right and desired one in all respects—as nearly as humanity can supply the right and desired; yet to him who amongst her acquaintance might have approximated to this kind, she was but a transient impression, half forgotten. In the ill-judged execution of the well-judged plan of things the call seldom produces the comer, the man to love rarely coincides with the hour for loving. Nature does not often say “See!” to her poor creature at a time when seeing can lead to happy doing; or reply “Here!” to a body’s cry of “Where?” till the hide-and-seek has become an irksome, outworn game. We may wonder whether at the acme and summit of the human progress these anachronisms will be corrected by a finer intuition, a closer interaction of the social machinery than that which now jolts us round and along; but such completeness is not to be prophesied, or even conceived as possible.",
   "words": [
     {
-      "word": "eldest",
+      "word": "respects",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seldom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "finer",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

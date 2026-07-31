@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-sea-wolf-017",
   "pool": "sourced",
-  "text": "I saw the glad light spring into her eyes and knew that I had lost. It was impossible to say no after that. The wind died down in the afternoon, and we were prepared to start the following morning. There was no way of penetrating the island from our cove, for the walls rose perpendicularly from the beach, and, on either side of the cove, rose from the deep water. Morning broke dull and grey, but calm, and I was awake early and had the boat in readiness.",
+  "text": "Wolf Larsen was quite considerate, the sailors helped me, and I was no longer in irritating contact with Thomas Mugridge. And I make free to say, as the days went by, that I found I was taking a certain secret pride in myself. Fantastic as the situation was,—a land-lubber second in command,—I was, nevertheless, carrying it off well; and during that brief time I was proud of myself, and I grew to love the heave and roll of the Ghost under my feet as she wallowed north and west through the tropic sea to the islet where we filled our water-casks. But my happiness was not unalloyed. It was comparative, a period of less misery slipped in between a past of great miseries and a future of great miseries.",
   "words": [
     {
-      "word": "penetrating",
+      "word": "considerate",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "misery",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

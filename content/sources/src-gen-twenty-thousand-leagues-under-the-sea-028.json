@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-twenty-thousand-leagues-under-the-sea-028",
+  "pool": "sourced",
+  "text": "Fishes got up under our feet like birds in the long grass. The massive rocks were rent with impenetrable fractures, deep grottos, and unfathomable holes, at the bottom of which formidable creatures might be heard moving. My blood curdled when I saw enormous antennae blocking my road, or some frightful claw closing with a noise in the shadow of some cavity. Millions of luminous spots shone brightly in the midst of the darkness. They were the eyes of giant crustacea crouched in their holes; giant lobsters setting themselves up like halberdiers, and moving their claws with the clicking sound of pincers; titanic crabs, pointed like a gun on its carriage; and frightful-looking poulps, interweaving their tentacles like a living nest of serpents.",
+  "words": [
+    {
+      "word": "claw",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "luminous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clicking",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "year": 1870,
+    "source": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

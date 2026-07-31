@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-038",
+  "pool": "sourced",
+  "text": "I yesterday engaged a servant, who had just left M. de Villefort—I intend sending him away tomorrow, for he eats so enormously, to make up for the fast imposed upon him by his terror in that house. Well, now listen.” “We are listening.” “It appears the dear child has obtained possession of a bottle containing some drug, which he every now and then uses against those who have displeased him. First, M. and Madame de Saint-Méran incurred his displeasure, so he poured out three drops of his elixir—three drops were sufficient; then followed Barrois, the old servant of M. Noirtier, who sometimes rebuffed this little wretch—he therefore received the same quantity of the elixir; the same happened to Valentine, of whom he was jealous; he gave her the same dose as the others, and all was over for her as well as the rest.” “Why, what nonsense are you telling us?” said Château-Renaud. “Yes, it is an extraordinary story,” said Beauchamp; “is it not?” “It is absurd,” said Debray. “Ah,” said Beauchamp, “you doubt me?",
+  "words": [
+    {
+      "word": "displeasure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-treasure-island-031",
+  "pool": "sourced",
+  "text": "The blood ran down the faster, to be sure, but I was my own master again and only tacked to the mast by my coat and shirt. These last I broke through with a sudden jerk, and then regained the deck by the starboard shrouds. For nothing in the world would I have again ventured, shaken as I was, upon the overhanging port shrouds from which Israel had so lately fallen. I went below and did what I could for my wound; it pained me a good deal and still bled freely, but it was neither deep nor dangerous, nor did it greatly gall me when I used my arm. Then I looked around me, and as the ship was now, in a sense, my own, I began to think of clearing it from its last passenger--the dead man, O’Brien.",
+  "words": [
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jerk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "source": "Project Gutenberg #120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,28 +1,16 @@
 {
   "id": "src-gen-villette-016",
   "pool": "sourced",
-  "text": "In his victrix he required all that was here visible—the imprint of high cultivation, the consecration of a careful and authoritative protection, the adjuncts that Fashion decrees, Wealth purchases, and Taste adjusts; for these conditions his spirit stipulated ere it surrendered: they were here to the utmost fulfilled; and now, proud, impassioned, yet fearing, he did homage to Paulina as his sovereign. As for her, the smile of feeling, rather than of conscious power, slept soft in her eyes. They parted. He passed me at speed, hardly feeling the earth he skimmed, and seeing nothing on either hand. He looked very handsome; mettle and purpose were roused in him fully.",
+  "text": "Perhaps the worthy man might, half unconsciously, have blent in this proceeding some little of the subtlety of his class: it might have been his resolve to learn the locality of your home—did you impart that in your confession?” “I did not: on the contrary, I carefully avoided the shadow of any indication: and as to my confession, Dr. John, I suppose you will think me mad for taking such a step, but I could not help it: I suppose it was all the fault of what you call my ‘nervous system.’ I cannot put the case into words, but my days and nights were grown intolerable: a cruel sense of desolation pained my mind: a feeling that would make its way, rush out, or kill me—like (and this you will understand, Dr. John) the current which passes through the heart, and which, if aneurism or any other morbid cause obstructs its natural channels, seeks abnormal outlet. I wanted companionship, I wanted friendship, I wanted counsel. I could find none of these in closet or chamber, so I went and sought them in church and confessional. As to what I said, it was no confidence, no narrative.",
   "words": [
     {
-      "word": "cultivation",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "surrendered",
+      "word": "resolve",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "fearing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sovereign",
+      "word": "abnormal",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

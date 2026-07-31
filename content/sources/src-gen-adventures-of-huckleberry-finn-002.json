@@ -1,34 +1,10 @@
 {
   "id": "src-gen-adventures-of-huckleberry-finn-002",
   "pool": "sourced",
-  "text": "But I couldn’t see no profit in it. One time Tom sent a boy to run about town with a blazing stick, which he called a slogan (which was the sign for the Gang to get together), and then he said he had got secret news by his spies that next day a whole parcel of Spanish merchants and rich A-rabs was going to camp in Cave Hollow with two hundred elephants, and six hundred camels, and over a thousand “sumter” mules, all loaded down with di’monds, and they didn’t have only a guard of four hundred soldiers, and so we would lay in ambuscade, as he called it, and kill the lot and scoop the things. He said we must slick up our swords and guns, and get ready. He never could go after even a turnip-cart but he must have the swords and guns all scoured up for it, though they was only lath and broomsticks, and you might scour at them till you rotted, and then they warn’t worth a mouthful of ashes more than what they was before.",
+  "text": "Jim always kept that five-center piece round his neck with a string, and said it was a charm the devil give to him with his own hands, and told him he could cure anybody with it and fetch witches whenever he wanted to just by saying something to it; but he never told what it was he said to it. Niggers would come from all around there and give Jim anything they had, just for a sight of that five-center piece; but they wouldn’t touch it, because the devil had had his hands on it. Jim was most ruined for a servant, because he got stuck up on account of having seen the devil and been rode by witches. Well, when Tom and me got to the edge of the hilltop we looked away down into the village and could see three or four lights twinkling, where there was sick folks, maybe; and the stars over us was sparkling ever so fine; and down by the village was the river, a whole mile broad, and awful still and grand.",
   "words": [
     {
-      "word": "blazing",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "merchants",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "slick",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "swords",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cart",
+      "word": "rode",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "source": "Project Gutenberg #76",
-    "url": "https://www.gutenberg.org/ebooks/76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

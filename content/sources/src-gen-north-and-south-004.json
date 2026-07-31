@@ -1,22 +1,16 @@
 {
   "id": "src-gen-north-and-south-004",
   "pool": "sourced",
-  "text": "Mr. Hale got into the habit of quoting his opinions so frequently, and with such regard, that it became a little domestic joke to wonder what time, during the hour appointed for instruction, could be given to absolute learning, so much of it appeared to have been spent in conversation. Margaret rather encouraged this light, merry way of viewing her father’s acquaintance with Mr. Thornton, because she felt that her mother was inclined to look upon this new friendship of her husband’s with jealous eyes. As long as his time had been solely occupied with his books and his parishioners, as at Helstone, she had appeared to care little whether she saw much of him or not; but now that he looked eagerly forward to each renewal of his intercourse with Mr. Thornton, she seemed hurt and annoyed, as if he were slighting her companionship for the first time. Mr. Hale’s over-praise had the usual effect of over-praise upon his auditors; they were a little inclined to rebel against Aristides being always called the Just.",
+  "text": "“Why there, papa?” asked she. “Because there I can earn bread for my family. Because I know no one there, and no one knows Helstone, or can ever talk to me about it.” “Bread for your family! I thought you and mamma had”—and then she stopped, checking her natural interest regarding their future life, as she saw the gathering gloom on her father’s brow. But he, with his quick intuitive sympathy, read in her face, as in a mirror, the reflections of his own moody depression, and turned it off with an effort.",
   "words": [
     {
-      "word": "acquaintance",
+      "word": "papa",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "inclined",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "intercourse",
+      "word": "intuitive",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

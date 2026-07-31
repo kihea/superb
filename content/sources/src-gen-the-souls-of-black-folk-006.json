@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-souls-of-black-folk-006",
   "pool": "sourced",
-  "text": "And last of all there trickles down that third and darker thought,—the thought of the things themselves, the confused, half-conscious mutter of men who are black and whitened, crying “Liberty, Freedom, Opportunity—vouchsafe to us, O boastful World, the chance of living men!” To be sure, behind the thought lurks the afterthought,—suppose, after all, the World is right and we are less than men? Suppose this mad impulse within is all wrong, some mock mirage from the untrue? So here we stand among thoughts of human unity, even through conquest and slavery; the inferiority of black men, even if forced by fraud; a shriek in the night for the freedom of men who themselves are not yet sure of their right to demand it. This is the tangle of thought and afterthought wherein we are called to solve the problem of training men for life. Behind all its curiousness, so attractive alike to sage and dilettante, lie its dim dangers, throwing across us shadows at once grotesque and awful.",
+  "text": "The education of youth according to ability. They acknowledge Mr. Washington’s invaluable service in counselling patience and courtesy in such demands; they do not ask that ignorant black men vote when ignorant whites are debarred, or that any reasonable restrictions in the suffrage should not be applied; they know that the low social level of the mass of the race is responsible for much discrimination against it, but they also know, and the nation knows, that relentless color-prejudice is more often a cause than a result of the Negro’s degradation; they seek the abatement of this relic of barbarism, and not its systematic encouragement and pampering by all agencies of social power from the Associated Press to the Church of Christ.",
   "words": [
     {
-      "word": "slavery",
+      "word": "suffrage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "systematic",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "W. E. B. Du Bois",
     "year": 1903,
     "source": "Project Gutenberg #408",
-    "url": "https://www.gutenberg.org/ebooks/408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

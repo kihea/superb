@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-031",
+  "pool": "sourced",
+  "text": "I inquired the way to the inn, but no one replied. I then moved forward, and a murmuring sound arose from the crowd as they followed and surrounded me, when an ill-looking man approaching tapped me on the shoulder and said, “Come, sir, you must follow me to Mr. Kirwin’s to give an account of yourself.” “Who is Mr. Kirwin? Why am I to give an account of myself? Is not this a free country?” “Ay, sir, free enough for honest folks. Mr. Kirwin is a magistrate, and you are to give an account of the death of a gentleman who was found murdered here last night.” This answer startled me, but I presently recovered myself.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

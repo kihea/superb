@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-025",
+  "pool": "sourced",
+  "text": "The world-old phenomenon of the contact of diverse races of men is to have new exemplification during the new century. Indeed, the characteristic of our age is the contact of European civilization with the world’s undeveloped peoples. Whatever we may say of the results of such contact in the past, it certainly forms a chapter in human action not pleasant to look back upon. War, murder, slavery, extermination, and debauchery,—this has again and again been the result of carrying civilization and the blessed gospel to the isles of the sea and the heathen without the law. Nor does it altogether satisfy the conscience of the modern world to be told complacently that all this has been right and proper, the fated triumph of strength over weakness, of righteousness over evil, of superiors over inferiors.",
+  "words": [
+    {
+      "word": "slavery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gospel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "altogether",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

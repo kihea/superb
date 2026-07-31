@@ -1,41 +1,10 @@
 {
   "id": "src-gen-the-king-in-yellow-009",
   "pool": "sourced",
-  "text": "Then the falcons on the circlet borne by the falconer ahead began to beat their wings and scream, and from somewhere out of sight the notes of a hunting-horn floated across the moor. The hounds sprang away before us and vanished in the twilight, the falcons flapped and squealed upon their perch, and the girl, taking up the song of the horn, began to hum. Clear and mellow her voice sounded in the night air. “Chasseur, chasseur, chassez encore, Quittez Rosette et Jeanneton, Tonton, tonton, tontaine, tonton, Ou, pour, rabattre, dès l’aurore, Que les Amours soient de planton, Tonton, tontaine, tonton.” As I listened to her lovely voice a grey mass which rapidly grew more distinct loomed up in front, and the horn rang out joyously through the tumult of the hounds and falcons. A torch glimmered at a gate, a light streamed through an opening door, and we stepped upon a wooden bridge which trembled under our feet and rose creaking and straining behind us as we passed over the moat and into a small stone court, walled on every side.",
+  "text": "Bending, with a breaking heart, I touched the marble drapery with my lips, then crept back into the silent house. A maid came and brought me a letter, and I sat down in the little conservatory to read it; but as I was about to break the seal, seeing the girl lingering, I asked her what she wanted. She stammered something about a white rabbit that had been caught in the house, and asked what should be done with it. I told her to let it loose in the walled garden behind the house, and opened my letter. It was from Jack, but so incoherent that I thought he must have lost his reason.",
   "words": [
     {
-      "word": "moor",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "hounds",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twilight",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pour",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "torch",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "streamed",
+      "word": "maid",
       "signals": [
         "gloss-overlap"
       ]
@@ -46,7 +15,7 @@
     "author": "Robert W. Chambers",
     "year": 1895,
     "source": "Project Gutenberg #8492",
-    "url": "https://www.gutenberg.org/ebooks/8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

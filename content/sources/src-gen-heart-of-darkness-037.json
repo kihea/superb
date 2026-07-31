@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heart-of-darkness-037",
+  "pool": "sourced",
+  "text": "I was fascinated. It was as though a veil had been rent. I saw on that ivory face the expression of sombre pride, of ruthless power, of craven terror—of an intense and hopeless despair. Did he live his life again in every detail of desire, temptation, and surrender during that supreme moment of complete knowledge? He cried in a whisper at some image, at some vision—he cried out twice, a cry that was no more than a breath: “‘The horror!",
+  "words": [
+    {
+      "word": "veil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "surrender",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-017",
   "pool": "sourced",
-  "text": "Mr. Fogg and his partners had resumed their game; no one—not even the dummy—complained of the length of the trip. Fix had begun by winning several guineas, which he seemed likely to lose; but he showed himself a not less eager whist-player than Mr. Fogg. During the morning, chance distinctly favoured that gentleman. Trumps and honours were showered upon his hands. Once, having resolved on a bold stroke, he was on the point of playing a spade, when a voice behind him said, “I should play a diamond.” Mr. Fogg, Aouda, and Fix raised their heads, and beheld Colonel Proctor.",
+  "text": "Phileas Fogg hoped to accomplish the journey in six days, so as to be in time for the steamer which would leave on the 6th of November for Yokohama, the principal Japanese port. The “Rangoon” had a large quota of passengers, many of whom disembarked at Singapore, among them a number of Indians, Ceylonese, Chinamen, Malays, and Portuguese, mostly second-class travellers. The weather, which had hitherto been fine, changed with the last quarter of the moon. The sea rolled heavily, and the wind at intervals rose almost to a storm, but happily blew from the south-west, and thus aided the steamer’s progress. The captain as often as possible put up his sails, and under the double action of steam and sail the vessel made rapid progress along the coasts of Anam and Cochin China.",
   "words": [
     {
-      "word": "guineas",
+      "word": "steamer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "trumps",
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

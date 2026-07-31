@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-004",
   "pool": "sourced",
-  "text": "Thy foolish reading hath wrought its woeful work at last, and ta’en thy wit away. why did’st thou cleave to it when I so warned thee ‘gainst it? Thou’st broke thy mother’s heart.” The Prince looked into her face, and said gently-- “Thy son is well, and hath not lost his wits, good dame. Comfort thee: let me to the palace where he is, and straightway will the King my father restore him to thee.” “The King thy father! Oh, my child!",
+  "text": "“I trow he cannot speak his own so that any but the swine that kennel in the styes may tell his meaning; and as for learning of any sort soever--” He looked up and encountered a solemn warning in my Lord St. John’s eyes. He stopped, blushed, then continued low and sadly: “Ah, my malady persecuteth me again, and my mind wandereth. I meant the King’s grace no irreverence.” “We know it, sir,” said the Princess Elizabeth, taking her ‘brother’s’ hand between her two palms, respectfully but caressingly; “trouble not thyself as to that. The fault is none of thine, but thy distemper’s.” “Thou’rt a gentle comforter, sweet lady,” said Tom, gratefully, “and my heart moveth me to thank thee for’t, an’ I may be so bold.” Once the giddy little Lady Jane fired a simple Greek phrase at Tom. The Princess Elizabeth’s quick eye saw by the serene blankness of the target’s front that the shaft was overshot; so she tranquilly delivered a return volley of sounding Greek on Tom’s behalf, and then straightway changed the talk to other matters.",
   "words": [
     {
-      "word": "foolish",
+      "word": "swine",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "kennel",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "volley",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

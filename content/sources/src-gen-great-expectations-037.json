@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-great-expectations-037",
+  "pool": "sourced",
+  "text": "About midnight I got out of bed and went to Herbert, with the conviction that I had been asleep for four-and-twenty hours, and that Wednesday was past. It was the last self-exhausting effort of my fretfulness, for after that I slept soundly. Wednesday morning was dawning when I looked out of window. The winking lights upon the bridges were already pale, the coming sun was like a marsh of fire on the horizon. The river, still dark and mysterious, was spanned by bridges that were turning coldly grey, with here and there at top a warm touch from the burning in the sky.",
+  "words": [
+    {
+      "word": "horizon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "source": "Project Gutenberg #1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

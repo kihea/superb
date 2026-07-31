@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-pride-and-prejudice-025",
+  "pool": "sourced",
+  "text": "Mrs. Bennet was restored to her usual querulous serenity; and by the middle of June Kitty was so much recovered as to be able to enter Meryton without tears,--an event of such happy promise as to make Elizabeth hope, that by the following Christmas she might be so tolerably reasonable as not to mention an officer above once a day, unless, by some cruel and malicious arrangement at the War Office, another regiment should be quartered in Meryton. The time fixed for the beginning of their northern tour was now fast approaching; and a fortnight only was wanting of it, when a letter arrived from Mrs. Gardiner, which at once delayed its commencement and curtailed its extent.",
+  "words": [
+    {
+      "word": "regiment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "delayed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "commencement",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

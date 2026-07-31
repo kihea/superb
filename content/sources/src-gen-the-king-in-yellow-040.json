@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-king-in-yellow-040",
+  "pool": "sourced",
+  "text": "Elliott stood up and bowed. Clifford removed his head-covering with an air so plaintive, so appealing, so utterly humble that Rue Barrée smiled. The smile was delicious and when Clifford, incapable of sustaining himself on his legs from sheer astonishment, toppled slightly, she smiled again in spite of herself. A few moments later she took a chair on the terrace and drawing a book from her music-roll, turned the pages, found the place, and then placing it open downwards in her lap, sighed a little, smiled a little, and looked out over the city. She had entirely forgotten Foxhall Clifford.",
+  "words": [
+    {
+      "word": "utterly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "terrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "downwards",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

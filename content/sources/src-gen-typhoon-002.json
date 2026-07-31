@@ -1,10 +1,16 @@
 {
   "id": "src-gen-typhoon-002",
   "pool": "sourced",
-  "text": "Nothing could be more simple; but to make sure he brought the book out on the bridge for the purpose of comparing the coloured drawing with the real thing at the flagstaff astern. When next Jukes, who was carrying on the duty that day with a sort of suppressed fierceness, happened on the bridge, his commander observed: “There's nothing amiss with that flag.” “Isn't there?” mumbled Jukes, falling on his knees before a deck-locker and jerking therefrom viciously a spare lead-line. I looked up the book. Length twice the breadth and the elephant exactly in the middle. I thought the people ashore would know how to make the local flag.",
+  "text": "A cross swell had set in from the direction of Formosa Channel about ten o'clock, without disturbing these passengers much, because the Nan-Shan, with her flat bottom, rolling chocks on bilges, and great breadth of beam, had the reputation of an exceptionally steady ship in a sea-way. Mr. Jukes, in moments of expansion on shore, would proclaim loudly that the “old girl was as good as she was pretty.” It would never have occurred to Captain MacWhirr to express his favourable opinion so loud or in terms so fanciful. She was a good ship, undoubtedly, and not old either. She had been built in Dumbarton less than three years before, to the order of a firm of merchants in Siam--Messrs. Sigg and Son. When she lay afloat, finished in every detail and ready to take up the work of her life, the builders contemplated her with pride.",
   "words": [
     {
-      "word": "knees",
+      "word": "loudly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "undoubtedly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

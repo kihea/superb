@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-custom-of-the-country-021",
+  "pool": "sourced",
+  "text": "Sometimes Ralph found Mrs. Heeny, ruddy and jovial, seated in the arm-chair opposite Mrs. Spragg, and regaling her with selections from a new batch of clippings. During Undine's illness of the previous winter Mrs. Heeny had become a familiar figure to Paul, who had learned to expect almost as much from her bag as from his grandmother's pockets; so that the intemperate Saturdays at the Malibran were usually followed by languid and abstemious Sundays in Washington Square. Mrs. Heeny, being unaware of this sequel to her bounties, formed the habit of appearing regularly on Saturdays, and while she chatted with his grandmother the little boy was encouraged to scatter the grimy carpet with face-creams and bunches of clippings in his thrilling quest for the sweets at the bottom of her bag. \"I declare, if he ain't in just as much of a hurry f'r everything as his mother!\" she exclaimed one day in her rich rolling voice; and stooping to pick up a long strip of newspaper which Paul had flung aside she added, as she smoothed it out: \"I guess 'f he was a little mite older he'd be better pleased with this 'n with the candy.",
+  "words": [
+    {
+      "word": "batch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sweets",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Custom of the Country",
+    "author": "Edith Wharton",
+    "year": 1913,
+    "source": "Project Gutenberg #11052",
+    "url": "https://www.gutenberg.org/ebooks/11052.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

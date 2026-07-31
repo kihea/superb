@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-mystery-of-the-yellow-room-012",
   "pool": "sourced",
-  "text": "We entered the gallery to the right. A narrow carpet, laid on the waxed oaken floor, which shone like glass, deadened the sound of our footsteps. Rouletabille asked me, in a low tone, to walk carefully, as we were passing the door of Mademoiselle Stangerson’s apartment. This consisted of a bed-room, an ante-room, a small bath-room, a boudoir, and a drawing-room. One could pass from one to another of these rooms without having to go by way of the gallery.",
+  "text": "“I am quite satisfied. I have discovered many things.” “Moral or material?” “Several moral,—one material. This, for example.” And rapidly he drew from his waistcoat pocket a piece of paper in which he had placed a light coloured hair from a woman’s head. The Examining Magistrate Questions Mademoiselle Stangerson Two minutes later, as Rouletabille was bending over the footprints discovered in the park, under the window of the vestibule, a man, evidently a servant at the château, came towards us rapidly and called out to Monsieur Darzac then coming out of the pavilion:— “Monsieur Robert, the magistrate, you know, is questioning Mademoiselle.” Monsieur Darzac uttered a muttered excuse to us and set off running towards the château, the man running after him. “If the corpse can speak,” I said, “it would be interesting to be there.” “We must know,” said my friend.",
   "words": [
     {
-      "word": "carpet",
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "questioning",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1907,
     "source": "Project Gutenberg #1685",
-    "url": "https://www.gutenberg.org/ebooks/1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

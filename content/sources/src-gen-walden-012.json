@@ -1,18 +1,24 @@
 {
   "id": "src-gen-walden-012",
   "pool": "sourced",
-  "text": "Of all ebriosity, who does not prefer to be intoxicated by the air he breathes? I have found it to be the most serious objection to coarse labors long continued, that they compelled me to eat and drink coarsely also. But to tell the truth, I find myself at present somewhat less particular in these respects. I carry less religion to the table, ask no blessing; not because I am wiser than I was, but, I am obliged to confess, because, however much it is to be regretted, with years I have grown more coarse and indifferent. Perhaps these questions are entertained only in youth, as most believe of poetry.",
+  "text": "Next rolls Thomaston lime, a prime lot, which will get far among the hills before it gets slacked. These rags in bales, of all hues and qualities, the lowest condition to which cotton and linen descend, the final result of dress,—of patterns which are now no longer cried up, unless it be in Milwaukie, as those splendid articles, English, French, or American prints, ginghams, muslins, &c., gathered from all quarters both of fashion and poverty, going to become paper of one color or a few shades only, on which forsooth will be written tales of real life, high and low, and founded on fact! This closed car smells of salt fish, the strong New England and commercial scent, reminding me of the Grand Banks and the fisheries. Who has not seen a salt fish, thoroughly cured for this world, so that nothing can spoil it, and putting the perseverance of the saints to the blush?",
   "words": [
     {
-      "word": "breathes",
+      "word": "lime",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "confess",
+      "word": "qualities",
       "signals": [
-        "gloss-overlap"
+        "apposition"
+      ]
+    },
+    {
+      "word": "descend",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -21,7 +27,7 @@
     "author": "Henry David Thoreau",
     "year": 1854,
     "source": "Project Gutenberg #205",
-    "url": "https://www.gutenberg.org/ebooks/205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

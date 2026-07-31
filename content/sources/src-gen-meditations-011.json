@@ -1,30 +1,18 @@
 {
   "id": "src-gen-meditations-011",
   "pool": "sourced",
-  "text": "I will; so the end of my action be to do good unto men. Doth anything by way of cross or adversity happen unto me? I accept it, with reference unto the Gods, and their providence; the fountain of all things, from which whatsoever comes to pass, doth hang and depend. By one action judge of the rest: this bathing which usually takes up so much of our time, what is it? Oil, sweat, filth; or the sordes of the body: an excrementitious viscosity, the excrements of oil and other ointments used about the body, and mixed with the sordes of the body: all base and loathsome.",
+  "text": "Such there be, who when they have done a good turn to any, are ready to set them on the score for it, and to require retaliation. Others there be, who though they stand not upon retaliation, to require any, yet they think with themselves nevertheless, that such a one is their debtor, and they know as their word is what they have done. Others again there be, who when they have done any such thing, do not so much as know what they have done; but are like unto the vine, which beareth her grapes, and when once she hath borne her own proper fruit, is contented and seeks for no further recompense. As a horse after a race, and a hunting dog when he hath hunted, and a bee when she hath made her honey, look not for applause and commendation; so neither doth that man that rightly doth understand his own nature when he hath done a good turn: but from one doth proceed to do another, even as the vine after she hath once borne fruit in her own proper season, is ready for another time.",
   "words": [
     {
-      "word": "providence",
+      "word": "bee",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "whatsoever",
+      "word": "applause",
       "signals": [
         "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sweat",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "viscosity",
-      "signals": [
-        "apposition"
       ]
     }
   ],
@@ -33,7 +21,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

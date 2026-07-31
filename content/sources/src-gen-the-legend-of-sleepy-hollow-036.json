@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-legend-of-sleepy-hollow-036",
+  "pool": "sourced",
+  "text": "“If I can but reach that bridge,” thought Ichabod, “I am safe.” Just then he heard the black steed panting and blowing close behind him; he even fancied that he felt his hot breath. Another convulsive kick in the ribs, and old Gunpowder sprang upon the bridge; he thundered over the resounding planks; he gained the opposite side; and now Ichabod cast a look behind to see if his pursuer should vanish, according to rule, in a flash of fire and brimstone. Just then he saw the goblin rising in his stirrups, and in the very act of hurling his head at him. Ichabod endeavored to dodge the horrible missile, but too late. It encountered his cranium with a tremendous crash,--he was tumbled headlong into the dust, and Gunpowder, the black steed, and the goblin rider, passed by like a whirlwind.",
+  "words": [
+    {
+      "word": "blowing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hurling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whirlwind",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "year": 1820,
+    "source": "Project Gutenberg #41",
+    "url": "https://www.gutenberg.org/ebooks/41.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

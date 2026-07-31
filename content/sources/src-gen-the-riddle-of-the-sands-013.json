@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-013",
   "pool": "sourced",
-  "text": "(You will remark that to blithely accept this limitation showed a very sanguine spirit in us.) The next question, how to find out what he was at, was a deal more thorny. If it had not been for the discovery of Dollmann’s identity, we should have found it as hard a nut to crack as ever. But this discovery was illuminating. It threw into relief two methods of action which hitherto we had been hazily seeking to combine, seesawing between one and the other, each of us influenced at different times by different motives.",
+  "text": "On the other hand, I spoke about my own life and interests, with an unsparing discernment, of which I should have been incapable a month ago, and in return I gained the key to his own character. It was devotion to the sea, wedded to a fire of pent-up patriotism struggling incessantly for an outlet in strenuous physical expression; a humanity, born of acute sensitiveness to his own limitations, only adding fuel to the flame. I learnt for the first time now that in early youth he had failed for the navy, the first of several failures in his career. “And I can’t settle down to anything else,” he said. “I read no end about it, and yet I am a useless outsider.",
   "words": [
     {
-      "word": "motives",
+      "word": "patriotism",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flame",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

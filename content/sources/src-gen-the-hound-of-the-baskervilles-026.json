@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-026",
+  "pool": "sourced",
+  "text": "I found the black tor upon which I had seen the solitary watcher, and from its craggy summit I looked out myself across the melancholy downs. Rain squalls drifted across their russet face, and the heavy, slate-coloured clouds hung low over the landscape, trailing in grey wreaths down the sides of the fantastic hills. In the distant hollow on the left, half hidden by the mist, the two thin towers of Baskerville Hall rose above the trees. They were the only signs of human life which I could see, save only those prehistoric huts which lay thickly upon the slopes of the hills. Nowhere was there any trace of that lonely man whom I had seen on the same spot two nights before.",
+  "words": [
+    {
+      "word": "tor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "melancholy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "slate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

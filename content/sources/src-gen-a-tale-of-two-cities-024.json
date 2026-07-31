@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-tale-of-two-cities-024",
+  "pool": "sourced",
+  "text": "Our customers over there, seem not to be able to confide their property to us fast enough. There is positively a mania among some of them for sending it to England.” “That has a bad look,” said Darnay-- “A bad look, you say, my dear Darnay? Yes, but we don’t know what reason there is in it. People are so unreasonable! Some of us at Tellson’s are getting old, and we really can’t be troubled out of the ordinary course without due occasion.” “Still,” said Darnay, “you know how gloomy and threatening the sky is.” “I know that, to be sure,” assented Mr. Lorry, trying to persuade himself that his sweet temper was soured, and that he grumbled, “but I am determined to be peevish after my long day’s botheration.",
+  "words": [
+    {
+      "word": "unreasonable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "source": "Project Gutenberg #98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

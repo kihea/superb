@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-great-god-pan-006",
   "pool": "sourced",
-  "text": "I played a little, certainly, but never for heavy stakes, and the few bets I made on races brought me in money—only a few pounds, you know, but enough to pay for cigars and such petty pleasures. It was in my second season that the tide turned. Of course you have heard of my marriage?” “No, I never heard anything about it.” “Yes, I married, Villiers. I met a girl, a girl of the most wonderful and most strange beauty, at the house of some people whom I knew. I cannot tell you her age; I never knew it, but, so far as I can guess, I should think she must have been about nineteen when I made her acquaintance.",
+  "text": "Some eleven years ago, Helen V. came to the village under rather peculiar circumstances. It is understood that she, being an orphan, was adopted in her infancy by a distant relative, who brought her up in his own house until she was twelve years old. Thinking, however, that it would be better for the child to have playmates of her own age, he advertised in several local papers for a good home in a comfortable farmhouse for a girl of twelve, and this advertisement was answered by Mr. R., a well-to-do farmer in the above-mentioned village. His references proving satisfactory, the gentleman sent his adopted daughter to Mr. R., with a letter, in which he stipulated that the girl should have a room to herself, and stated that her guardians need be at no trouble in the matter of education, as she was already sufficiently educated for the position in life which she would occupy. In fact, Mr. R. was given to understand that the girl be allowed to find her own occupations and to spend her time almost as she liked.",
   "words": [
     {
-      "word": "bets",
+      "word": "infancy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "petty",
+      "word": "farmhouse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Arthur Machen",
     "year": 1894,
     "source": "Project Gutenberg #389",
-    "url": "https://www.gutenberg.org/ebooks/389",
+    "url": "https://www.gutenberg.org/ebooks/389.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-phantom-of-the-opera-040",
+  "pool": "sourced",
+  "text": "\"Its novel conception, perfect fitness, and rare splendor of material, make the grand stairway unquestionably one of the most remarkable features of the building. It presents to the spectator, who has just passed through the subscribers' pavilion, a gorgeous picture. From this point he beholds the ceiling formed by the central landing; this and the columns sustaining it, built of Echaillon stone, are honeycombed with arabesques and heavy with ornaments; the steps are of white marble, and antique red marble balusters rest on green marble sockets and support a balustrade of onyx. To the right and to the left of this landing are stairways to the floor, on a plane with the first row of boxes. On this floor stand thirty monolith columns of Sarrancolin marble, with white marble bases and capitals.",
+  "words": [
+    {
+      "word": "stairway",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spectator",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "year": 1910,
+    "source": "Project Gutenberg #175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

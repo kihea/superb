@@ -1,22 +1,28 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-014",
   "pool": "sourced",
-  "text": "Well informed of the approach of every danger, while it is yet at a distance, the Indian generally rests secure under his knowledge of the signs of the forest, and the long and difficult paths that separate him from those he has most reason to dread. But the enemy who, by any lucky concurrence of accidents, has found means to elude the vigilance of the scouts, will seldom meet with sentinels nearer home to sound the alarm. In addition to this general usage, the tribes friendly to the French knew too well the weight of the blow that had just been struck, to apprehend any immediate danger from the hostile nations that were tributary to the crown of Britain. When Duncan and David, therefore, found themselves in the center of the children, who played the antics already mentioned, it was without the least previous intimation of their approach. But so soon as they were observed the whole of the juvenile pack raised, by common consent, a shrill and warning whoop; and then sank, as it were, by magic, from before the sight of their visitors.",
+  "text": "A strain of melancholy, however, blended with his triumph, rendering his voice, as usual, soft and musical. In the meantime, the sisters gladly dismounted, and prepared to enjoy their halt in the coolness of the evening, and in a security which they believed nothing but the beasts of the forest could invade. “Would not our resting-place have been more retired, my worthy friend,” demanded the more vigilant Duncan, perceiving that the scout had already finished his short survey, “had we chosen a spot less known, and one more rarely visited than this?” “Few live who know the blockhouse was ever raised,” was the slow and musing answer; “’tis not often that books are made, and narratives written of such a scrimmage as was here fou’t atween the Mohicans and the Mohawks, in a war of their own waging. I was then a younker, and went out with the Delawares, because I know’d they were a scandalized and wronged race. Forty days and forty nights did the imps crave our blood around this pile of logs, which I designed and partly reared, being, as you’ll remember, no Indian myself, but a man without a cross.",
   "words": [
     {
-      "word": "accidents",
+      "word": "strain",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "scouts",
+      "word": "melancholy",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "hostile",
+      "word": "meantime",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "scout",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

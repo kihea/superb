@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-red-badge-of-courage-011",
   "pool": "sourced",
-  "text": "The artillery booming, forward, rearward, and on the flanks made jumble of ideas of direction. Landmarks had vanished into the gathered gloom. The youth began to imagine that he had got into the center of the tremendous quarrel, and he could perceive no way out of it. From the mouths of the fleeing men came a thousand wild questions, but no one made answers. The youth, after rushing about and throwing interrogations at the heedless bands of retreating infantry, finally clutched a man by the arm.",
+  "text": "As he caught sight of them the youth was momentarily startled by a thought that perhaps his gun was not loaded. He stood trying to rally his faltering intellect so that he might recollect the moment when he had loaded, but he could not. A hatless general pulled his dripping horse to a stand near the colonel of the 304th. He shook his fist in the other’s face. “You’ve got to hold ’em back!” he shouted, savagely; “you’ve got to hold ’em back!” In his agitation the colonel began to stammer.",
   "words": [
     {
-      "word": "quarrel",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rushing",
+      "word": "momentarily",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Stephen Crane",
     "year": 1895,
     "source": "Project Gutenberg #73",
-    "url": "https://www.gutenberg.org/ebooks/73",
+    "url": "https://www.gutenberg.org/ebooks/73.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

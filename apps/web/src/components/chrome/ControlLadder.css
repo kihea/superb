@@ -1,0 +1,175 @@
+/* D1 -- the system's own quiet press. Local --control-press-scale rather
+   than a new global design token: DERIVATION-003 calls this "today's
+   system," not a new number, and Job 1's token list is closed. */
+.chrome-quiet-button {
+  --control-press-scale: 0.98;
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-base);
+  color: var(--chrome-ink);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer;
+  transition:
+    background-color var(--motion-duration-fast) var(--motion-easing-standard),
+    transform var(--motion-duration-instant) var(--motion-easing-standard);
+}
+
+.chrome-quiet-button:hover {
+  background-color: color-mix(in srgb, var(--chrome-ink) 8%, transparent);
+}
+
+.chrome-quiet-button:active {
+  transform: scale(var(--control-press-scale));
+}
+
+.chrome-quiet-button:focus-visible {
+  outline: 2px solid var(--chrome-accent);
+  outline-offset: 2px;
+}
+
+/* D3 -- the top of the ladder: the confirm on the one action a screen is
+   about. */
+.chrome-confirm-button {
+  --metal-fill: var(--chrome-ground);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-md);
+  font-weight: var(--type-ui-weight-medium);
+  color: var(--chrome-ink);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  box-shadow: var(--chrome-shadow-float);
+  transition: transform var(--motion-duration-fast) var(--motion-easing-spring-loud);
+}
+
+.chrome-confirm-button:active {
+  transform: scale(0.96);
+}
+
+.chrome-confirm-button:focus-visible {
+  outline: 2px solid var(--chrome-accent);
+  outline-offset: 2px;
+}
+
+.chrome-confirm-button__icon {
+  position: relative;
+  display: inline-grid;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.chrome-confirm-button__icon-face {
+  grid-area: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(-6px) scale(0.85);
+  transition:
+    opacity var(--motion-duration-fast) var(--motion-easing-spring-loud),
+    transform var(--motion-duration-fast) var(--motion-easing-spring-loud);
+}
+
+.chrome-confirm-button__icon-face--visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* D4 -- a switch with a sheen sweep. The knob keeps the system's own
+   spring; the sweep is the only new motion idea. */
+.chrome-sheen-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--chrome-ink);
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size-base);
+  padding: 0;
+}
+
+.chrome-sheen-switch__track {
+  position: relative;
+  width: 2.75rem;
+  height: 1.5rem;
+  border-radius: var(--radius-pill);
+  background-color: color-mix(in srgb, var(--chrome-ink) 18%, transparent);
+  overflow: hidden;
+  transition: background-color var(--motion-duration-base) var(--motion-easing-standard);
+  flex-shrink: 0;
+}
+
+.chrome-sheen-switch--on .chrome-sheen-switch__track {
+  background-color: var(--chrome-accent);
+}
+
+.chrome-sheen-switch__knob {
+  position: absolute;
+  top: 0.1875rem;
+  left: 0.1875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  background-color: var(--chrome-ground);
+  box-shadow: 0 1px 3px var(--chrome-shadow);
+  /* The one component the system reserves --motion-easing-spring for
+     (DERIVATION-003 D4) -- unchanged here, not the louder spring. */
+  transition: transform var(--motion-duration-base) var(--motion-easing-spring);
+}
+
+.chrome-sheen-switch--on .chrome-sheen-switch__knob {
+  transform: translateX(1.25rem);
+}
+
+/* A thin light sweep across the track on toggle -- a glass reflection, not
+   a loop: it runs once per toggle and rests. */
+.chrome-sheen-switch__sheen {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    transparent 30%,
+    var(--chrome-glass-highlight) 48%,
+    transparent 66%
+  );
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.chrome-sheen-switch--on .chrome-sheen-switch__sheen {
+  animation: chrome-sheen-sweep var(--motion-duration-chrome-transition) var(--motion-easing-decelerate);
+}
+
+@keyframes chrome-sheen-sweep {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome-quiet-button,
+  .chrome-confirm-button,
+  .chrome-confirm-button__icon-face,
+  .chrome-sheen-switch__track,
+  .chrome-sheen-switch__knob,
+  .chrome-sheen-switch__sheen {
+    transition: none;
+    animation: none;
+  }
+}

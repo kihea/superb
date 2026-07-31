@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-009",
   "pool": "sourced",
-  "text": "... That night, I went home in a desperate condition. I told Mamma Valerius, who said, 'Why, of course, the voice is jealous!' And that, dear, first revealed to me that I loved you.\" Christine stopped and laid her head on Raoul's shoulder. They sat like that for a moment, in silence, and they did not see, did not perceive the movement, at a few steps from them, of the creeping shadow of two great black wings, a shadow that came along the roof so near, so near them that it could have stifled them by closing over them.",
+  "text": "Moncharmin and Richard were the shipwrecked mariners amid this motionless turmoil of a calico sea. They made for the left boxes, plowing their way like sailors who leave their ship and try to struggle to the shore. The eight great polished columns stood up in the dusk like so many huge piles supporting the threatening, crumbling, big-bellied cliffs whose layers were represented by the circular, parallel, waving lines of the balconies of the grand, first and second tiers of boxes. At the top, right on top of the cliff, lost in M. Lenepveu's copper ceiling, figures grinned and grimaced, laughed and jeered at MM. Richard and Moncharmin's distress.",
   "words": [
     {
-      "word": "perceive",
+      "word": "turmoil",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "polished",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

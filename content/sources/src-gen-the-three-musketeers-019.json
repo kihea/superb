@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-three-musketeers-019",
   "pool": "sourced",
-  "text": "God will punish you hereafter, but I will punish you here!” “Ah, this is too much!” cried Buckingham, making a step toward the door. Felton barred his passage. “I ask it humbly of you, my Lord,” said he; “sign the order for the liberation of Milady de Winter. Remember that she is a woman whom you have dishonored.” “Withdraw, sir,” said Buckingham, “or I will call my attendant, and have you placed in irons.” “You shall not call,” said Felton, throwing himself between the duke and the bell placed on a stand encrusted with silver. “Beware, my Lord, you are in the hands of God!” “In the hands of the devil, you mean!” cried Buckingham, raising his voice so as to attract the notice of his people, without absolutely shouting.",
+  "text": "Monsieur your friend (pardon for not calling him by the honorable name which no doubt he bears, but we do not know that name), Monsieur your friend, having disabled two men with his pistols, retreated fighting with his sword, with which he disabled one of my men, and stunned me with a blow of the flat side of it.” “You villain, will you finish?” cried D’Artagnan, “Athos—what has become of Athos?” “While fighting and retreating, as I have told Monseigneur, he found the door of the cellar stairs behind him, and as the door was open, he took out the key, and barricaded himself inside. As we were sure of finding him there, we left him alone.” “Yes,” said D’Artagnan, “you did not really wish to kill; you only wished to imprison him.” “Good God! To imprison him, monseigneur? Why, he imprisoned himself, I swear to you he did. In the first place he had made rough work of it; one man was killed on the spot, and two others were severely wounded.",
   "words": [
     {
-      "word": "irons",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "attract",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shouting",
+      "word": "stairs",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

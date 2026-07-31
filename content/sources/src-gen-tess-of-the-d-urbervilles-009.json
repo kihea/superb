@@ -1,10 +1,16 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-009",
   "pool": "sourced",
-  "text": "“O Tessy!” he exclaimed. The girl’s cheeks burned to the breeze, and she could not look into his eyes for her emotion. It reminded Angel that he was somewhat unfairly taking advantage of an accidental position; and he went no further with it. No definite words of love had crossed their lips as yet, and suspension at this point was desirable now. However, he walked slowly, to make the remainder of the distance as long as possible; but at last they came to the bend, and the rest of their progress was in full view of the other three.",
+  "text": "Whether on this account, or from absent-mindedness, or from sleepiness, she did not perceive that they had long ago passed the point at which the lane to Trantridge branched from the highway, and that her conductor had not taken the Trantridge track. She was inexpressibly weary. She had risen at five o’clock every morning of that week, had been on foot the whole of each day, and on this evening had in addition walked the three miles to Chaseborough, waited three hours for her neighbours without eating or drinking, her impatience to start them preventing either; she had then walked a mile of the way home, and had undergone the excitement of the quarrel, till, with the slow progress of their steed, it was now nearly one o’clock. Only once, however, was she overcome by actual drowsiness. In that moment of oblivion her head sank gently against him.",
   "words": [
     {
-      "word": "cheeks",
+      "word": "conductor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quarrel",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

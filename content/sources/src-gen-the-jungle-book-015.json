@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-jungle-book-015",
   "pool": "sourced",
-  "text": "What Little Toomai liked was to scramble up bridle paths that only an elephant could take; the dip into the valley below; the glimpses of the wild elephants browsing miles away; the rush of the frightened pig and peacock under Kala Nag’s feet; the blinding warm rains, when all the hills and valleys smoked; the beautiful misty mornings when nobody knew where they would camp that night; the steady, cautious drive of the wild elephants, and the mad rush and blaze and hullabaloo of the last night’s drive, when the elephants poured into the stockade like boulders in a landslide, found that they could not get out, and flung themselves at the heavy posts only to be driven back by yells and flaring torches and volleys of blank cartridge. Even a little boy could be of use there, and Toomai was as useful as three boys. He would get his torch and wave it, and yell with the best.",
+  "text": "“I might have known that thou wouldst not forget me. We have a big work in hand. Cut the herd in two, Akela. Keep the cows and calves together, and the bulls and the plow buffaloes by themselves.” The two wolves ran, ladies’-chain fashion, in and out of the herd, which snorted and threw up its head, and separated into two clumps. In one, the cow-buffaloes stood with their calves in the center, and glared and pawed, ready, if a wolf would only stay still, to charge down and trample the life out of him.",
   "words": [
     {
-      "word": "paths",
+      "word": "herd",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "valleys",
+      "word": "cow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

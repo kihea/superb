@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heart-of-darkness-038",
+  "pool": "sourced",
+  "text": "I like to think my summing-up would not have been a word of careless contempt. Better his cry—much better. It was an affirmation, a moral victory paid for by innumerable defeats, by abominable terrors, by abominable satisfactions. But it was a victory! That is why I have remained loyal to Kurtz to the last, and even beyond, when a long time after I heard once more, not his own voice, but the echo of his magnificent eloquence thrown to me from a soul as translucently pure as a cliff of crystal.",
+  "words": [
+    {
+      "word": "affirmation",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "echo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-little-women-038",
+  "pool": "sourced",
+  "text": "Daisy and Demi had now arrived at years of discretion, for in this fast age babies of three or four assert their rights, and get them, too, which is more than many of their elders do. If there ever were a pair of twins in danger of being utterly spoiled by adoration, it was these prattling Brookes. Of course they were the most remarkable children ever born, as will be shown when I mention that they walked at eight months, talked fluently at twelve months, and at two years they took their places at table, and behaved with a propriety which charmed all beholders. At three, Daisy demanded a ‘needler’, and actually made a bag with four stitches in it. She likewise set up housekeeping in the sideboard, and managed a microscopic cooking stove with a skill that brought tears of pride to Hannah’s eyes, while Demi learned his letters with his grandfather, who invented a new mode of teaching the alphabet by forming letters with his arms and legs, thus uniting gymnastics for head and heels.",
+  "words": [
+    {
+      "word": "invented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "alphabet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "source": "Project Gutenberg #514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

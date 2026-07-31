@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-008",
   "pool": "sourced",
-  "text": "“One day, when Benedetto was about five or six, our neighbor Wasilio, who, according to the custom of the country, never locked up his purse or his valuables—for, as your excellency knows, there are no thieves in Corsica—complained that he had lost a louis out of his purse; we thought he must have made a mistake in counting his money, but he persisted in the accuracy of his statement. One day, Benedetto, who had been gone from the house since morning, to our great anxiety, did not return until late in the evening, dragging a monkey after him, which he said he had found chained to the foot of a tree. For more than a month past, the mischievous child, who knew not what to wish for, had taken it into his head to have a monkey. A boatman, who had passed by Rogliano, and who had several of these animals, whose tricks had greatly diverted him, had, doubtless, suggested this idea to him.",
+  "text": "Then I have my mode of dispensing justice, silent and sure, without respite or appeal, which condemns or pardons, and which no one sees. Ah, if you had tasted my life, you would not desire any other, and would never return to the world unless you had some great project to accomplish there.” “Revenge, for instance!” observed Franz. The unknown fixed on the young man one of those looks which penetrate into the depth of the heart and thoughts. “And why revenge?” he asked. “Because,” replied Franz, “you seem to me like a man who, persecuted by society, has a fearful account to settle with it.” “Ah!” responded Sinbad, laughing with his singular laugh, which displayed his white and sharp teeth.",
   "words": [
     {
-      "word": "purse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "thieves",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "chained",
+      "word": "singular",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

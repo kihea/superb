@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-025",
+  "pool": "sourced",
+  "text": "I remember that it was full of papers.” “There isn’t a cat in it, for example?” “No. What a strange idea!” “Well, look at this!” He took up a small saucer of milk which stood on the top of it. “No; we don’t keep a cat. But there is a cheetah and a baboon.” “Ah, yes, of course! Well, a cheetah is just a big cat, and yet a saucer of milk does not go very far in satisfying its wants, I daresay.",
+  "words": [
+    {
+      "word": "cheetah",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

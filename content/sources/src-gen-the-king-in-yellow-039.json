@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-king-in-yellow-039",
+  "pool": "sourced",
+  "text": "The little woman stood a moment pensive and then sighed. Joseph caressed his nose, a nose which for gaudiness could vie with any floral display. Then the gardener came in, hat in hand, and a few minutes later Selby stood in the middle of his room, his coat off, his shirt-sleeves rolled up. The chamber originally contained, besides the furniture, about two square feet of walking room, and now this was occupied by a cactus. The bed groaned under crates of pansies, lilies and heliotrope, the lounge was covered with hyacinths and tulips, and the washstand supported a species of young tree warranted to bear flowers at some time or other.",
+  "words": [
+    {
+      "word": "floral",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lounge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "year": 1895,
+    "source": "Project Gutenberg #8492",
+    "url": "https://www.gutenberg.org/ebooks/8492.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

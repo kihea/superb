@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-011",
   "pool": "sourced",
-  "text": "“I can’t reconcile myself to it either, and it’s not the state of things that ought to exist between us. If you’d only try to banish me from your mind for a few months we should be on good terms again.” “I see. If I should cease to think of you at all for a prescribed time, I should find I could keep it up indefinitely.” “Indefinitely is more than I ask. It’s more even than I should like.” “You know that what you ask is impossible,” said the young man, taking his adjective for granted in a manner she found irritating. “Aren’t you capable of making a calculated effort?” she demanded.",
+  "text": "I’ve a sort of sense that you’re always summing people up.” “You don’t of necessity lose by that.” “It’s very kind of you to say so; but, even if I gain, stern justice is not what I most love. Is Mrs. Touchett going to take you abroad?” “I hope so.” “Is England not good enough for you?” “That’s a very Machiavellian speech; it doesn’t deserve an answer. I want to see as many countries as I can.” “Then you’ll go on judging, I suppose.” “Enjoying, I hope, too.” “Yes, that’s what you enjoy most; I can’t make out what you’re up to,” said Lord Warburton. “You strike me as having mysterious purposes--vast designs.” “You’re so good as to have a theory about me which I don’t at all fill out. Is there anything mysterious in a purpose entertained and executed every year, in the most public manner, by fifty thousand of my fellow-countrymen--the purpose of improving one’s mind by foreign travel?” “You can’t improve your mind, Miss Archer,” her companion declared.",
   "words": [
     {
-      "word": "indefinitely",
+      "word": "stern",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "entertained",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

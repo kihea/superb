@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-song-of-the-lark-005",
   "pool": "sourced",
-  "text": "Ray was never so companionable and easy as when he sat chatting in the lookout of his little house on wheels. Good stories came to him, and interesting recollections. Thea had a great respect for the reports he had to write out, and for the telegrams that were handed to him at stations; for all the knowledge and experience it must take to run a freight train. Giddy, down in the car, in the pauses of his work, made himself agreeable to Mrs. Kronborg. “It’s a great rest to be where my family can’t get at me, Mr. Giddy,” she told him.",
+  "text": "Mrs. Kronborg watched her daughter thoughtfully. She found her more interesting than her other children, and she took her more seriously, without thinking much about why she did so. The other children had to be guided, directed, kept from conflicting with one another. Charley and Gus were likely to want the same thing, and to quarrel about it. Anna often demanded unreasonable service from her older brothers; that they should sit up until after midnight to bring her home from parties when she did not like the youth who had offered himself as her escort; or that they should drive twelve miles into the country, on a winter night, to take her to a ranch dance, after they had been working hard all day.",
   "words": [
     {
-      "word": "pauses",
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "unreasonable",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Willa Cather",
     "year": 1915,
     "source": "Project Gutenberg #44",
-    "url": "https://www.gutenberg.org/ebooks/44",
+    "url": "https://www.gutenberg.org/ebooks/44.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

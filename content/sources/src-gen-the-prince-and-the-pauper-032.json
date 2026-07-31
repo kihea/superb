@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-prince-and-the-pauper-032",
+  "pool": "sourced",
+  "text": "Whilst he mused, his appreciation of Hendon’s magnanimous conduct grew to greater and still greater dimensions in his mind, and so also did his gratefulness for it. Presently he said to himself, “Who saves his prince from wounds and possible death--and this he did for me--performs high service; but it is little--it is nothing--oh, less than nothing!--when ’tis weighed against the act of him who saves his prince from shame!” Hendon made no outcry under the scourge, but bore the heavy blows with soldierly fortitude. This, together with his redeeming the boy by taking his stripes for him, compelled the respect of even that forlorn and degraded mob that was gathered there; and its gibes and hootings died away, and no sound remained but the sound of the falling blows. The stillness that pervaded the place, when Hendon found himself once more in the stocks, was in strong contrast with the insulting clamour which had prevailed there so little a while before.",
+  "words": [
+    {
+      "word": "appreciation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scourge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "degraded",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Prince and the Pauper",
+    "author": "Mark Twain",
+    "year": 1881,
+    "source": "Project Gutenberg #1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

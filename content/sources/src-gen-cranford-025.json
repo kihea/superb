@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-cranford-025",
+  "pool": "sourced",
+  "text": "And Mrs Roberts had made answer that he was not like a gentleman, nor yet like a common person; if it had not been that he and his wife were such decent, quiet people, she could almost have thought he was a mountebank, or something of that kind, for they had a great box in the cart, full of she did not know what. She had helped to unpack it, and take out their linen and clothes, when the other man—his twin-brother, she believed he was—had gone off with the horse and cart. Miss Pole had begun to have her suspicions at this point, and expressed her idea that it was rather strange that the box and cart and horse and all should have disappeared; but good Mrs Roberts seemed to have become quite indignant at Miss Pole’s implied suggestion; in fact, Miss Pole said she was as angry as if Miss Pole had told her that she herself was a swindler.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "source": "Project Gutenberg #394",
+    "url": "https://www.gutenberg.org/ebooks/394.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

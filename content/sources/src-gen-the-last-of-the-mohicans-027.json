@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-027",
+  "pool": "sourced",
+  "text": "“Do the cunning men of the Canadas paint their skins?” the Huron coldly continued; “we have heard them boast that their faces were pale.” “When an Indian chief comes among his white fathers,” returned Duncan, with great steadiness, “he lays aside his buffalo robe, to carry the shirt that is offered him. My brothers have given me paint and I wear it.” A low murmur of applause announced that the compliment of the tribe was favorably received. The elderly chief made a gesture of commendation, which was answered by most of his companions, who each threw forth a hand and uttered a brief exclamation of pleasure. Duncan began to breathe more freely, believing that the weight of his examination was past; and, as he had already prepared a simple and probable tale to support his pretended occupation, his hopes of ultimate success grew brighter. After a silence of a few moments, as if adjusting his thoughts, in order to make a suitable answer to the declaration their guests had just given, another warrior arose, and placed himself in an attitude to speak.",
+  "words": [
+    {
+      "word": "applause",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gesture",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

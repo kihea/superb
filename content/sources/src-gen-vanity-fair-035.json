@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-vanity-fair-035",
+  "pool": "sourced",
+  "text": "\"Don't you remember me, Mrs. Clapp, and those good cakes you used to make for tea? Don't you recollect me, Clapp? I'm George's godfather, and just come back from India.\" A great shaking of hands ensued--Mrs. Clapp was greatly affected and delighted; she called upon heaven to interpose a vast many times in that passage. The landlord and landlady of the house led the worthy Major into the Sedleys' room (whereof he remembered every single article of furniture, from the old brass ornamented piano, once a natty little instrument, Stothard maker, to the screens and the alabaster miniature tombstone, in the midst of which ticked Mr. Sedley's gold watch), and there, as he sat down in the lodger's vacant arm-chair, the father, the mother, and the daughter, with a thousand ejaculatory breaks in the narrative, informed Major Dobbin of what we know already, but of particulars in Amelia's history of which he was not aware--namely of Mrs. Sedley's death, of George's reconcilement with his grandfather Osborne, of the way in which the widow took on at leaving him, and of other particulars of her life.",
+  "words": [
+    {
+      "word": "delighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "brass",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "miniature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "midst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "particulars",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,16 +1,10 @@
 {
   "id": "src-gen-life-on-the-mississippi-014",
   "pool": "sourced",
-  "text": "Then, with a confidential wink, a dropping of the voice, and an impressive laying of his hand on my arm; 'Look here; there's one thing in this world which isn't ever cheap. That's a coffin. There's one thing in this world which a person don't ever try to jew you down on. That's a coffin. There's one thing in this world which a person don't say--“I'll look around a little, and if I find I can't do better I'll come back and take it.” That's a coffin.",
+  "text": "I paused in the middle of the room, all fixed to make my bow, but Brown did not look around. I thought he took a furtive glance at me out of the corner of his eye, but as not even this notice was repeated, I judged I had been mistaken. By this time he was picking his way among some dangerous 'breaks' abreast the woodyards; therefore it would not be proper to interrupt him; so I stepped softly to the high bench and took a seat. There was silence for ten minutes; then my new boss turned and inspected me deliberately and painstakingly from head to heel for about--as it seemed to me--a quarter of an hour. After which he removed his countenance and I saw it no more for some seconds; then it came around once more, and this question greeted me-- 'Are you Horace Bigsby's cub?'",
   "words": [
     {
-      "word": "wink",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "coffin",
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

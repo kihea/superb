@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-riddle-of-the-sands-009",
   "pool": "sourced",
-  "text": "As for me, the sea has never been my element, and never will be; nevertheless, I hardened to the life, grew salt, tough, and tolerably alert. As a soldier learns more in a week of war than in years of parades and pipeclay, so, cut off from all distractions, moving from bivouac to precarious bivouac, and depending, to some extent, for my life on my muscles and wits, I rapidly learnt my work and gained a certain dexterity. I knew my ropes in the dark, could beat economically to windward through squalls, take bearings, and estimate the interaction of wind and tide. We were generally in solitude, but occasionally we met galliots like the Johannes tacking through the sands, and once or twice we found a fleet of such boats anchored in a gut, waiting for water. Their draught, loaded, was from six to seven feet, our own only four, without our centre-plate, but we took their mean draught as the standard of all our observations.",
+  "text": "With a fair wind and an early start it should be only one day’s sail of about sixty miles. “The plan only came to a head on the evening of the third day, on the 12th of September. “I told you, I think, that the weather had broken after a long spell of heat. That very day it had been blowing pretty hard from the west, and the glass was falling still. I said, of course, that I couldn’t go with him if the weather was too bad, but he prophesied a good day, said it was an easy sail, and altogether put me on my mettle.",
   "words": [
     {
-      "word": "tide",
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blowing",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Erskine Childers",
     "year": 1903,
     "source": "Project Gutenberg #2360",
-    "url": "https://www.gutenberg.org/ebooks/2360",
+    "url": "https://www.gutenberg.org/ebooks/2360.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

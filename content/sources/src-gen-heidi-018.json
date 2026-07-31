@@ -1,10 +1,16 @@
 {
   "id": "src-gen-heidi-018",
   "pool": "sourced",
-  "text": "The chair rolled swiftly forward and in another minute had disappeared. Peter now sped up the mountain as if on wings, not pausing till he was well in shelter of a large blackberry bush, for he had no wish to be seen by Uncle. But he was anxious to see what had become of the chair, and his bush was well placed for that. Himself hidden, he could watch what happened below and see what Uncle did without being discovered himself. So he looked, and there he saw his enemy running faster and faster down hill, then it turned head over heels several times, and finally, after one great bound, rolled over and over to its complete destruction.",
+  "text": "The threat did its work, for Heidi never cried aloud again whatever she might be reading, but she had often to struggle hard to keep back her tears, so that Clara would look at her and say, \"What faces you are making, Heidi, I never saw anything like it!\" But the faces made no noise and did not offend Fraulein Rottenmeier, and Heidi, having overcome her fit of despairing misery, would go quietly on for a while, and no one perceived her sorrow. But she lost all her appetite, and looked so pale and thin that Sebastian was quite unhappy when he looked at her, and could not bear to see her refusing all the nice dishes he handed her. He would whisper to her sometimes, in quite a kind, fatherly manner, \"Take a little; you don't know how nice it is! There, a good spoonful, now another.\"",
   "words": [
     {
-      "word": "rolled",
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Johanna Spyri",
     "year": 1881,
     "source": "Project Gutenberg #1448",
-    "url": "https://www.gutenberg.org/ebooks/1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

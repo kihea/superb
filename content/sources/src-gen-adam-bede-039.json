@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-adam-bede-039",
+  "pool": "sourced",
+  "text": "Surely all other leisure is hurry compared with a sunny walk through the fields from “afternoon church”—as such walks used to be in those old leisurely times, when the boat, gliding sleepily along the canal, was the newest locomotive wonder; when Sunday books had most of them old brown-leather covers, and opened with remarkable precision always in one place. Leisure is gone—gone where the spinning-wheels are gone, and the pack-horses, and the slow waggons, and the pedlars, who brought bargains to the door on sunny afternoons. Ingenious philosophers tell you, perhaps, that the great work of the steam-engine is to create leisure for mankind. Do not believe them: it only creates a vacuum for eager thought to rush in. Even idleness is eager now—eager for amusement; prone to excursion-trains, art museums, periodical literature, and exciting novels; prone even to scientific theorizing and cursory peeps through microscopes.",
+  "words": [
+    {
+      "word": "afternoons",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "source": "Project Gutenberg #507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "rural"
+}

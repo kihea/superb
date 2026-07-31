@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-daisy-miller-025",
+  "pool": "sourced",
+  "text": "But she only shook his hand, hardly looking at him, while Mr. Giovanelli bade him farewell with a too emphatic flourish of the hat. Winterbourne was not in the best possible humor as he took his seat in Mrs. Walker’s victoria. “That was not clever of you,” he said candidly, while the vehicle mingled again with the throng of carriages. “In such a case,” his companion answered, “I don’t wish to be clever; I wish to be EARNEST!” “Well, your earnestness has only offended her and put her off.” “It has happened very well,” said Mrs. Walker. “If she is so perfectly determined to compromise herself, the sooner one knows it the better; one can act accordingly.” “I suspect she meant no harm,” Winterbourne rejoined.",
+  "words": [
+    {
+      "word": "farewell",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flourish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "source": "Project Gutenberg #208",
+    "url": "https://www.gutenberg.org/ebooks/208.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

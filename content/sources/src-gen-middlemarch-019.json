@@ -1,10 +1,34 @@
 {
   "id": "src-gen-middlemarch-019",
   "pool": "sourced",
-  "text": "Thesiger has always countenanced him,” said Mrs. Hackbutt. “I think he must be sorry now.” “But he was never fond of him in his heart—that every one knows,” said Mrs. Tom Toller. Thesiger never goes into extremes. He keeps to the truth in what is evangelical. It is only clergymen like Mr. Tyke, who want to use Dissenting hymn-books and that low kind of religion, who ever found Bulstrode to their taste.” “I understand, Mr. Tyke is in great distress about him,” said Mrs. Hackbutt.",
+  "text": "The “Pioneer” had been secretly bought even before Will Ladislaw’s arrival, the expected opportunity having offered itself in the readiness of the proprietor to part with a valuable property which did not pay; and in the interval since Mr. Brooke had written his invitation, those germinal ideas of making his mind tell upon the world at large which had been present in him from his younger years, but had hitherto lain in some obstruction, had been sprouting under cover. The development was much furthered by a delight in his guest which proved greater even than he had anticipated. For it seemed that Will was not only at home in all those artistic and literary subjects which Mr. Brooke had gone into at one time, but that he was strikingly ready at seizing the points of the political situation, and dealing with them in that large spirit which, aided by adequate memory, lends itself to quotation and general effectiveness of treatment. “He seems to me a kind of Shelley, you know,” Mr. Brooke took an opportunity of saying, for the gratification of Mr. Casaubon.",
   "words": [
     {
-      "word": "hymn",
+      "word": "readiness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hitherto",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "anticipated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "effectiveness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "gratification",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

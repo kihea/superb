@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-033",
+  "pool": "sourced",
+  "text": "The prisoner, on the contrary, was at that time at a lonely spot called Marston’s Spinney, where he had been summoned by an anonymous note, couched in blackmailing terms, and threatening to reveal certain matters to his wife unless he complied with its demands. The prisoner had, accordingly, gone to the appointed spot, and after waiting there vainly for half an hour had returned home. Unfortunately, he had met with no one on the way there or back who could vouch for the truth of his story, but luckily he had kept the note, and it would be produced as evidence. As for the statement relating to the destruction of the will, the prisoner had formerly practised at the Bar, and was perfectly well aware that the will made in his favour a year before was automatically revoked by his stepmother’s remarriage. He would call evidence to show who did destroy the will, and it was possible that that might open up quite a new view of the case.",
+  "words": [
+    {
+      "word": "vouch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stepmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

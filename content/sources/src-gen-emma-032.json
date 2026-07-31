@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-emma-032",
+  "pool": "sourced",
+  "text": "The appearance of the servants looking out for them to give notice of the carriages was a joyful sight; and even the bustle of collecting and preparing to depart, and the solicitude of Mrs. Elton to have her carriage first, were gladly endured, in the prospect of the quiet drive home which was to close the very questionable enjoyments of this day of pleasure. Such another scheme, composed of so many ill-assorted people, she hoped never to be betrayed into again. While waiting for the carriage, she found Mr. Knightley by her side. He looked around, as if to see that no one were near, and then said, “Emma, I must once more speak to you as I have been used to do: a privilege rather endured than allowed, perhaps, but I must still use it. I cannot see you acting wrong, without a remonstrance.",
+  "words": [
+    {
+      "word": "carriages",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "assorted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

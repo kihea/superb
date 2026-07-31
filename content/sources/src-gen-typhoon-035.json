@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-typhoon-035",
+  "pool": "sourced",
+  "text": "The broken porcelain out of the chests was mostly responsible for the latter. Here and there a Chinaman, wild-eyed, with his tail unplaited, nursed a bleeding sole. They had been ranged closely, after having been shaken into submission, cuffed a little to allay excitement, addressed in gruff words of encouragement that sounded like promises of evil. They sat on the deck in ghastly, drooping rows, and at the end the carpenter, with two hands to help him, moved busily from place to place, setting taut and hitching the life-lines. The boatswain, with one leg and one arm embracing a stanchion, struggled with a lamp pressed to his breast, trying to get a light, and growling all the time like an industrious gorilla.",
+  "words": [
+    {
+      "word": "shaken",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": 1902,
+    "source": "Project Gutenberg #1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

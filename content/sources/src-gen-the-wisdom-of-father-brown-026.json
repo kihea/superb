@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-026",
+  "pool": "sourced",
+  "text": "Then through this larger forest gateway he came out into the evening light, with a chip of grey wood sticking to his sword-blade. He momentarily fulfilled all Fanshaw’s fable of an old piratical Admiral; though the details seemed afterwards to decompose into accidents. For instance, he wore a broad-brimmed hat as protection against the sun; but the front flap of it was turned up straight to the sky, and the two corners pulled down lower than the ears, so that it stood across his forehead in a crescent like the old cocked hat worn by Nelson. He wore an ordinary dark-blue jacket, with nothing special about the buttons, but the combination of it with white linen trousers somehow had a sailorish look. He was tall and loose, and walked with a sort of swagger, which was not a sailor’s roll, and yet somehow suggested it; and he held in his hand a short sabre which was like a navy cutlass, but about twice as big.",
+  "words": [
+    {
+      "word": "blade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flap",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

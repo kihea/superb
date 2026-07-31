@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-captains-courageous-024",
+  "pool": "sourced",
+  "text": "The packed mass ran from the cabin partition to the sliding door behind the foc'sle stove; and Disko showed how there is great art in stowing cargo so as to bring a schooner to her best draft. The crew were thus kept lively till they recovered their spirits; and Harvey was tickled with a rope's end by Long Jack for being, as the Galway man said, \"sorrowful as a sick cat over fwhat couldn't be helped.\" He did a great deal of thinking in those weary days, and told Dan what he thought, and Dan agreed with him--even to the extent of asking for fried pies instead of hooking them. But a week later the two nearly upset the Hattie S. in a wild attempt to stab a shark with an old bayonet tied to a stick. The grim brute rubbed alongside the dory begging for small fish, and between the three of them it was a mercy they all got off alive.",
+  "words": [
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shark",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bayonet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

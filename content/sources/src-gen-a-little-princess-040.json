@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-a-little-princess-040",
+  "pool": "sourced",
+  "text": "The Indian gentleman's carriage, with its tall horses, drew up before the door of the next house, and its owner and a little figure, warm with soft, rich furs, descended the steps to get into it. The little figure was a familiar one, and reminded Miss Minchin of days in the past. It was followed by another as familiar--the sight of which she found very irritating. It was Becky, who, in the character of delighted attendant, always accompanied her young mistress to her carriage, carrying wraps and belongings. Already Becky had a pink, round face.",
+  "words": [
+    {
+      "word": "carriage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attendant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mistress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905,
+    "source": "Project Gutenberg #146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-021",
+  "pool": "sourced",
+  "text": "“Come,” I said, “what are you waiting for? Is it possible you can answer up, right off, and tell what anybody on the other side of the earth is doing, and yet can't tell what a person is doing who isn't three yards from you? Persons behind me know what I am doing with my right hand--they will indorse you if you tell correctly.” He was still dumb. “Very well, I'll tell you why you don't speak up and tell; it is because you don't know. You a magician!",
+  "words": [
+    {
+      "word": "magician",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

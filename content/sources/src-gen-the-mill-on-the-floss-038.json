@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-038",
+  "pool": "sourced",
+  "text": "But he was silent, and would not allow his wife to ask him a question; would not present himself in the room, lest it should appear like intrusion and a wish to pry; having the same chivalry toward dark-eyed Maggie as in the days when he had bought her the memorable present of books. But after a day or two Mrs Tulliver was gone to the Mill again for a few hours to see to Tom’s household matters. Maggie had wished this; after the first violent outburst of feeling which came as soon as she had no longer any active purpose to fulfil, she was less in need of her mother’s presence; she even desired to be alone with her grief. But she had been solitary only a little while in the old sitting-room that looked on the river, when there came a tap at the door, and turning round her sad face as she said “Come in,” she saw Bob enter, with the baby in his arms and Mumps at his heels. “We’ll go back, if it disturbs you, Miss,” said Bob.",
+  "words": [
+    {
+      "word": "outburst",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "desired",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

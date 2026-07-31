@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-011",
   "pool": "sourced",
-  "text": "Flambeau spoke quietly to him in answer. “The Father sometimes gets this mystic’s cloud on him,” he said; “but I give you fair warning that I have never known him to have it except when there was some evil quite near.” “Oh, rats!” said the scientist. “Why, look at it,” cried Father Brown, holding out the crooked knife at arm’s length, as if it were some glittering snake. “Don’t you see it is the wrong shape? Don’t you see that it has no hearty and plain purpose?",
+  "text": "And as you--” “As I,” supplemented Father Brown, with a broad grin, “was sitting just behind him--” “Nothing of the sort shall be suggested,” said Colonel Adams, with a firm look at Fischer, which rather implied that some such thing had been suggested. “I only ask you to give me the assistance that any gentleman might give.” “Which is turning out his pockets,” said Father Brown, and proceeded to do so, displaying seven and sixpence, a return ticket, a small silver crucifix, a small breviary, and a stick of chocolate. The colonel looked at him long, and then said, “Do you know, I should like to see the inside of your head more than the inside of your pockets. My daughter is one of your people, I know; well, she has lately--” and he stopped. “She has lately,” cried out old Fischer, “opened her father’s house to a cut-throat Socialist, who says openly he would steal anything from a richer man.",
   "words": [
     {
-      "word": "rats",
+      "word": "implied",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "scientist",
+      "word": "gentleman",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

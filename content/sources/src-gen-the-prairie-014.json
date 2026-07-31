@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-prairie-014",
   "pool": "sourced",
-  "text": "The gophers aren't going to get ahead of me! Monday the Twelfth What would you say if you saw Brunhild drive up to your back door? What would you do if you discovered a Norse goddess placidly surveying you from a green wagon-seat? How would you act if you beheld a big blonde Valkyr suddenly introducing herself into your little earthly affairs? Well, can you wonder that I stared, all eyes, when Dinky-Dunk brought home a figure like this, in the shape of a Finn girl named Olga Sarristo?",
+  "text": "I could see the Golden Horse-Shoe and the geranium-red trimmings and the satiny white backs of the women, and smell that luxurious heavy smell of warm air and hothouse flowers and Paris perfumery and happy human bodies and hear the whisper of silk along the crimson stairways. I could see the lights go down, in a sort of sigh, before the overture began, and the scared-looking blotches of white on the musicians' scores and the other blotches made by their dress-shirt fronts, and the violins going up and down, up and down, as though they were one piece of machinery, and then the heavy curtain stealing up, and the thrill as that new heaven opened up to me, a gawky girl in her first low-cut dinner gown! I told Dinky-Dunk I'd sat in every corner of that old house, up in the sky-parlor with the Italian barbers, in press-seats in the second gallery with dear old Fanny-Rain-in-the-Face, and in the Westbury's box with the First Lady of the Land and a Spanish Princess with extremely dirty nails. It seemed so far away, another life and another world!",
   "words": [
     {
-      "word": "surveying",
+      "word": "crimson",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "parlor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "James Fenimore Cooper",
     "year": 1827,
     "source": "Project Gutenberg #18875",
-    "url": "https://www.gutenberg.org/ebooks/18875",
+    "url": "https://www.gutenberg.org/ebooks/18875.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

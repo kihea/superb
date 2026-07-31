@@ -1,22 +1,10 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-014",
   "pool": "sourced",
-  "text": "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about, and shouting “Off with his head!” or “Off with her head!” about once in a minute. Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute, “and then,” thought she, “what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!” She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin, and she said to herself “It’s the Cheshire Cat: now I shall have somebody to talk to.” “How are you getting on?” said the Cat, as soon as there was mouth enough for it to speak with.",
+  "text": "As soon as she was small enough to get through the door, she ran out of the house, and found quite a crowd of little animals and birds waiting outside. The poor little Lizard, Bill, was in the middle, being held up by two guinea-pigs, who were giving it something out of a bottle. They all made a rush at Alice the moment she appeared; but she ran off as hard as she could, and soon found herself safe in a thick wood. “The first thing I’ve got to do,” said Alice to herself, as she wandered about in the wood, “is to grow to my right size again; and the second thing is to find my way into that lovely garden. I think that will be the best plan.” It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry.",
   "words": [
     {
-      "word": "furious",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "shouting",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "puzzled",
+      "word": "bark",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

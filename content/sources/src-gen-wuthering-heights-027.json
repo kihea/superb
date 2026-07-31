@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-wuthering-heights-027",
+  "pool": "sourced",
+  "text": "The poor thing was finally got off, with several delusive assurances that his absence should be short: that Mr. Edgar and Cathy would visit him, and other promises, equally ill-founded, which I invented and reiterated at intervals throughout the way. The pure heather-scented air, the bright sunshine, and the gentle canter of Minny, relieved his despondency after a while. He began to put questions concerning his new home, and its inhabitants, with greater interest and liveliness. “Is Wuthering Heights as pleasant a place as Thrushcross Grange?” he inquired, turning to take a last glance into the valley, whence a light mist mounted and formed a fleecy cloud on the skirts of the blue. “It is not so buried in trees,” I replied, “and it is not quite so large, but you can see the country beautifully all round; and the air is healthier for you—fresher and drier.",
+  "words": [
+    {
+      "word": "scented",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sunshine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "source": "Project Gutenberg #768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

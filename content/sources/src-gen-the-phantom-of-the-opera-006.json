@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-phantom-of-the-opera-006",
   "pool": "sourced",
-  "text": "\"No, she did not ask for him; and, as we trust her, we took her word.\" Raoul left the building a prey to the gloomiest thoughts. He resolved, come what might, to go and inquire of Mamma Valerius. He remembered the strong phrases in Christine's letter, forbidding him to make any attempt to see her. But what he had seen at Perros, what he had heard behind the dressing-room door, his conversation with Christine at the edge of the moor made him suspect some machination which, devilish though it might be, was none the less human.",
+  "text": "\"Excuse me, my good woman,\" said Moncharmin, while Mme. Giry tossed the feathers in her dingy hat at this persistent familiarity, \"excuse me, how does the ghost manage to give you your two francs?\" \"Why, he leaves them on the little shelf in the box, of course. I find them with the program, which I always give him. Some evenings, I find flowers in the box, a rose that must have dropped from his lady's bodice ... for he brings a lady with him sometimes; one day, they left a fan behind them.\"",
   "words": [
     {
-      "word": "inquire",
+      "word": "persistent",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Gaston Leroux",
     "year": 1910,
     "source": "Project Gutenberg #175",
-    "url": "https://www.gutenberg.org/ebooks/175",
+    "url": "https://www.gutenberg.org/ebooks/175.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

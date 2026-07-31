@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-pride-and-prejudice-021",
+  "pool": "sourced",
+  "text": "My father supported him at school, and afterwards at Cambridge; most important assistance, as his own father, always poor from the extravagance of his wife, would have been unable to give him a gentleman’s education. My father was not only fond of this young man’s society, whose manners were always engaging, he had also the highest opinion of him, and hoping the church would be his profession, intended to provide for him in it. As for myself, it is many, many years since I first began to think of him in a very different manner. The vicious propensities, the want of principle, which he was careful to guard from the knowledge of his best friend, could not escape the observation of a young man of nearly the same age with himself, and who had opportunities of seeing him in unguarded moments, which Mr. Darcy could not have. Here again I shall give you pain--to what degree you only can tell.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

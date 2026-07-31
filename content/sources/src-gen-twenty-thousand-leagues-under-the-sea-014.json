@@ -1,10 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-014",
   "pool": "sourced",
-  "text": "But who knows if it would be well received? What gamblers usually regret above all is less the loss of their money than of their foolish hopes. After all, I pity them less than the thousands of unfortunates to whom so much riches well-distributed would have been profitable, whilst for them they will be for ever barren.” I had no sooner expressed this regret than I felt that it must have wounded Captain Nemo. “Barren!” he exclaimed, with animation. “Do you think then, sir, that these riches are lost because I gather them?",
+  "text": "At ten paces not an object was visible. I was groping my way, when I suddenly saw a brilliant white light. Captain Nemo had just put his electric apparatus into use; his companion did the same, and Conseil and I followed their example. By turning a screw I established a communication between the wire and the spiral glass, and the sea, lit by our four lanterns, was illuminated for a circle of thirty-six yards. Captain Nemo was still plunging into the dark depths of the forest, whose trees were getting scarcer at every step.",
   "words": [
     {
-      "word": "riches",
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "illuminated",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

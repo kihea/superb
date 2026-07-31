@@ -1,10 +1,16 @@
 {
   "id": "src-gen-carmilla-008",
   "pool": "sourced",
-  "text": "“Certainly, dear,” said he, smiling, “I’m very glad you think it so like. It must be prettier even than I thought it, if it is.” The young lady did not acknowledge this pretty speech, did not seem to hear it. She was leaning back in her seat, her fine eyes under their long lashes gazing on me in contemplation, and she smiled in a kind of rapture. “And now you can read quite plainly the name that is written in the corner. It is not Marcia; it looks as if it was done in gold.",
+  "text": "I was frightened, and slipped down upon the ground, and, it seemed to me, lost consciousness for a moment; and when I came to myself, I was again in my nursery at home. Your face I have never forgotten since. I could not be misled by mere resemblance. You are the lady whom I saw then.” It was now my turn to relate my corresponding vision, which I did, to the undisguised wonder of my new acquaintance. “I don’t know which should be most afraid of the other,” she said, again smiling—“If you were less pretty I think I should be very much afraid of you, but being as you are, and you and I both so young, I feel only that I have made your acquaintance twelve years ago, and have already a right to your intimacy; at all events it does seem as if we were destined, from our earliest childhood, to be friends.",
   "words": [
     {
-      "word": "contemplation",
+      "word": "frightened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Sheridan Le Fanu",
     "year": 1872,
     "source": "Project Gutenberg #10007",
-    "url": "https://www.gutenberg.org/ebooks/10007",
+    "url": "https://www.gutenberg.org/ebooks/10007.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-heidi-030",
+  "pool": "sourced",
+  "text": "The frost had gone and the snow was soft again, and moreover fresh snow continually fell, so that it was quite three weeks before Heidi could go to the grandmother again. So much the more eagerly did she pursue her teaching so that Peter might compensate for her absence by reading hymns to the old woman. One evening he walked in home after leaving Heidi, and as he entered he said, \"I can do it now.\" \"Do what, Peter?\" asked his mother.",
+  "words": [
+    {
+      "word": "moreover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "grandmother",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881,
+    "source": "Project Gutenberg #1448",
+    "url": "https://www.gutenberg.org/ebooks/1448.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-innocence-of-father-brown-040",
+  "pool": "sourced",
+  "text": "Near the centre of the floor lay a large revolver as if flung away; nearer to the left was rolled a whisky bottle, open but not quite empty. The cloth of the little table lay dragged and trampled, and a length of cord, like that found on the corpse, was cast wildly across the windowsill. Two vases were smashed on the mantelpiece and one on the carpet. “I was drunk,” said Royce; and this simplicity in the prematurely battered man somehow had the pathos of the first sin of a baby. “You all know about me,” he continued huskily; “everybody knows how my story began, and it may as well end like that too.",
+  "words": [
+    {
+      "word": "nearer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cord",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "carpet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Innocence of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1911,
+    "source": "Project Gutenberg #204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

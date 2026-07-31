@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-012",
   "pool": "sourced",
-  "text": "“Which is a very good, or a very bad explanation,” remarked Poirot. “It covers everything, and explains nothing. I shall keep my eye on our clever Dr. Bauerstein.” “Any more faults to find with the evidence?” I inquired satirically. “Mon ami,” replied Poirot gravely, “when you find that people are not telling you the truth—look out! Now, unless I am much mistaken, at the inquest to-day only one—at most, two persons were speaking the truth without reservation or subterfuge.” “Oh, come now, Poirot!",
+  "text": "I observed John. Already he was almost restored to his normal self. The shock of the events of the last night had upset him temporarily, but his equable poise soon swung back to the normal. He was a man of very little imagination, in sharp contrast with his brother, who had, perhaps, too much. Ever since the early hours of the morning, John had been hard at work, sending telegrams—one of the first had gone to Evelyn Howard—writing notices for the papers, and generally occupying himself with the melancholy duties that a death entails.",
   "words": [
     {
-      "word": "mistaken",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "inquest",
+      "word": "melancholy",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

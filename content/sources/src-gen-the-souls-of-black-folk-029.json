@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-souls-of-black-folk-029",
+  "pool": "sourced",
+  "text": "Nothing has come to replace that finer sympathy and love between some masters and house servants which the radical and more uncompromising drawing of the color-line in recent years has caused almost completely to disappear. In a world where it means so much to take a man by the hand and sit beside him, to look frankly into his eyes and feel his heart beating with red blood; in a world where a social cigar or a cup of tea together means more than legislative halls and magazine articles and speeches,—one can imagine the consequences of the almost utter absence of such social amenities between estranged races, whose separation extends even to parks and streetcars. Here there can be none of that social going down to the people,—the opening of heart and hand of the best to the worst, in generous acknowledgment of a common humanity and a common destiny. On the other hand, in matters of simple almsgiving, where there can be no question of social contact, and in the succor of the aged and sick, the South, as if stirred by a feeling of its unfortunate limitations, is generous to a fault.",
+  "words": [
+    {
+      "word": "finer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "estranged",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "year": 1903,
+    "source": "Project Gutenberg #408",
+    "url": "https://www.gutenberg.org/ebooks/408.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

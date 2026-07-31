@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-hound-of-the-baskervilles-036",
+  "pool": "sourced",
+  "text": "The servants had left the kitchen. There only remained the lamp in the dining-room where the two men, the murderous host and the unconscious guest, still chatted over their cigars. Every minute that white woolly plain which covered one-half of the moor was drifting closer and closer to the house. Already the first thin wisps of it were curling across the golden square of the lighted window. The farther wall of the orchard was already invisible, and the trees were standing out of a swirl of white vapour.",
+  "words": [
+    {
+      "word": "moor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "orchard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "source": "Project Gutenberg #2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

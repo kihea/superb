@@ -1,10 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-002",
   "pool": "sourced",
-  "text": "Mrs. Dashwood had been informed by her husband of the solemn promise on the part of his son in their favour, which gave comfort to his last earthly reflections. She doubted the sincerity of this assurance no more than he had doubted it himself, and she thought of it for her daughters' sake with satisfaction, though as for herself she was persuaded that a much smaller provision than 7000L would support her in affluence. For their brother's sake, too, for the sake of his own heart, she rejoiced; and she reproached herself for being unjust to his merit before, in believing him incapable of generosity. His attentive behaviour to herself and his sisters convinced her that their welfare was dear to him, and, for a long time, she firmly relied on the liberality of his intentions.",
+  "text": "Offered him one of Folly's puppies A very smart beau Introduced to Mrs. Jennings Mrs. Jennings assured him directly that she should not stand upon ceremony Mrs. Ferrars Drawing him a little aside In a whisper \"You have heard, I suppose\" Talking over the business \"She put in the feather last night\" Listening at the door Both gained considerable amusement \"Of one thing I may assure you\" Showing her child to the housekeeper The gardener's lamentations Opened a window-shutter \"I entreat you to stay\" \"I was formally dismissed\" \"I have entered many a shop to avoid your sight\" \"And see how the children go on\" \"I suppose you know, ma'am, that Mr. Ferrars is married\" It was Edward \"Everything in such respectable condition\" * * * * * The family of Dashwood had long been settled in Sussex. Their estate was large, and their residence was at Norland Park, in the centre of their property, where, for many generations, they had lived in so respectable a manner as to engage the general good opinion of their surrounding acquaintance.",
   "words": [
     {
-      "word": "generosity",
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "formally",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

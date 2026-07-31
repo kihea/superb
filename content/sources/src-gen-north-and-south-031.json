@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-north-and-south-031",
+  "pool": "sourced",
+  "text": "When I can, I shall bring my young man to stand side by side with your young woman, just as the genii in the Arabian Nights brought Prince Caralmazan to match with the fairy’s Princess Badoura.” “I beg you’ll do no such thing. Remember the misfortunes that ensued; and besides, I can’t spare Margaret.” “No; on second thoughts, we’ll have her to nurse us ten years hence, when we shall be two cross old invalids. Seriously, Hale! I wish you’d leave Milton; which is a most unsuitable place for you, though it was my recommendation in the first instance. If you would, I’d swallow my shadows of doubts, and take a college living; and you and Margaret should come and live at the parsonage—you to be a sort of lay curate, and take the unwashed off my hands; and she to be our housekeeper—the village Lady Bountiful—by day; and read us to sleep in the evenings.",
+  "words": [
+    {
+      "word": "swallow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "housekeeper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "source": "Project Gutenberg #4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

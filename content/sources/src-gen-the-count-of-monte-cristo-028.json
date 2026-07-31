@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-count-of-monte-cristo-028",
+  "pool": "sourced",
+  "text": "“Oh, how our hearts palpitated; for it did, indeed, seem to be a ring which was placed there. But was it my father’s ring? that was the question. Selim, still holding in his hand the lighted match, walked towards the opening in the cavern, and, aided by the faint light which streamed in through the mouth of the cave, picked up the token. “‘It is well,’ said he, kissing it; ‘it is my master’s ring!’ And throwing the match on the ground, he trampled on it and extinguished it.",
+  "words": [
+    {
+      "word": "lighted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "source": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

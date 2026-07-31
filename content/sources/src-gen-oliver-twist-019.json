@@ -1,16 +1,22 @@
 {
   "id": "src-gen-oliver-twist-019",
   "pool": "sourced",
-  "text": "I know how listlessly and wearily each of that wretched pair dragged on their heavy chain through a world that was poisoned to them both. I know how cold formalities were succeeded by open taunts; how indifference gave place to dislike, dislike to hate, and hate to loathing, until at last they wrenched the clanking bond asunder, and retiring a wide space apart, carried each a galling fragment, of which nothing but death could break the rivets, to hide it in new society beneath the gayest looks they could assume. Your mother succeeded; she forgot it soon. But it rusted and cankered at your father’s heart for years.” “Well, they were separated,” said Monks, “and what of that?” “When they had been separated for some time,” returned Mr. Brownlow, “and your mother, wholly given up to continental frivolities, had utterly forgotten the young husband ten good years her junior, who, with prospects blighted, lingered on at home, he fell among new friends. This circumstance, at least, you know already.” “Not I,” said Monks, turning away his eyes and beating his foot upon the ground, as a man who is determined to deny everything.",
+  "text": "And so the amiable couple parted. ATONES FOR THE UNPOLITENESS OF A FORMER CHAPTER; WHICH DESERTED A LADY, MOST UNCEREMONIOUSLY As it would be, by no means, seemly in a humble author to keep so mighty a personage as a beadle waiting, with his back to the fire, and the skirts of his coat gathered up under his arms, until such time as it might suit his pleasure to relieve him; and as it would still less become his station, or his gallantry to involve in the same neglect a lady on whom that beadle had looked with an eye of tenderness and affection, and in whose ear he had whispered sweet words, which, coming from such a quarter, might well thrill the bosom of maid or matron of whatsoever degree; the historian whose pen traces these words—trusting that he knows his place, and that he entertains a becoming reverence for those upon earth to whom high and important authority is delegated—hastens to pay them that respect which their position demands, and to treat them with all that duteous ceremony which their exalted rank, and (by consequence) great virtues, imperatively claim at his hands.",
   "words": [
     {
-      "word": "loathing",
+      "word": "mighty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "prospects",
+      "word": "thrill",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reverence",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

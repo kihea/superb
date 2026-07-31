@@ -1,36 +1,24 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-003",
   "pool": "sourced",
-  "text": "Clarence dropped in from time to time and said the public excitement was growing and growing all the time, and the whole country filling up with human masses as far as one could see from the battlements. At last the wind sprang up and a cloud appeared--in the right quarter, too, and just at nightfall. For a little while I watched that distant cloud spread and blacken, then I judged it was time for me to appear. I ordered the torch-baskets to be lit, and Merlin liberated and sent to me. A quarter of an hour later I ascended the parapet and there found the king and the court assembled and gazing off in the darkness toward Merlin's Tower.",
+  "text": "AN INSPIRATION I was so tired that even my fears were not able to keep me awake long. When I next came to myself, I seemed to have been asleep a very long time. My first thought was, “Well, what an astonishing dream I've had! I reckon I've waked only just in time to keep from being hanged or drowned or burned or something.... I'll nap again till the whistle blows, and then I'll go down to the arms factory and have it out with Hercules.” But just then I heard the harsh music of rusty chains and bolts, a light flashed in my eyes, and that butterfly, Clarence, stood before me!",
   "words": [
     {
-      "word": "distant",
+      "word": "awake",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "judged",
+      "word": "nap",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "torch",
+      "word": "bolts",
       "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "baskets",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lit",
-      "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -39,7 +27,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

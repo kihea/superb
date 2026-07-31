@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mill-on-the-floss-017",
   "pool": "sourced",
-  "text": "“Then we can at least be friends, Maggie? There is nothing to hinder that now?” “Will not your father object?” said Maggie, withdrawing her hand. “I should not give you up on any ground but your own wish, Maggie,” said Philip, colouring. “There are points on which I should always resist my father, as I used to tell you. That is one.” “Then there is nothing to hinder our being friends, Philip,—seeing each other and talking to each other while I am here; I shall soon go away again.",
+  "text": "But Mr Turnbull came now to meet her; a medical man is the good angel of the troubled house, and Maggie ran toward the kind old friend, whom she remembered as long as she could remember anything, with a trembling, questioning look. “Don’t alarm yourself too much, my dear,” he said, taking her hand. “Your father has had a sudden attack, and has not quite recovered his memory. But he has been asking for you, and it will do him good to see you. Keep as quiet as you can; take off your things, and come upstairs with me.” Maggie obeyed, with that terrible beating of the heart which makes existence seem simply a painful pulsation.",
   "words": [
     {
-      "word": "hinder",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "withdrawing",
+      "word": "questioning",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

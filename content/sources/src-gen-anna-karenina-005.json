@@ -1,16 +1,10 @@
 {
   "id": "src-gen-anna-karenina-005",
   "pool": "sourced",
-  "text": "“Oh, these farmers!” said Stepan Arkadyevitch playfully. “Your tone of contempt for us poor townsfolk!... But when it comes to business, we do it better than anyone. I assure you I have reckoned it all out,” he said, “and the forest is fetching a very good price—so much so that I’m afraid of this fellow’s crying off, in fact. You know it’s not ‘timber,’” said Stepan Arkadyevitch, hoping by this distinction to convince Levin completely of the unfairness of his doubts.",
+  "text": "All the long way to his brother’s, Levin vividly recalled all the facts familiar to him of his brother Nikolay’s life. He remembered how his brother, while at the university, and for a year afterwards, had, in spite of the jeers of his companions, lived like a monk, strictly observing all religious rites, services, and fasts, and avoiding every sort of pleasure, especially women. And afterwards, how he had all at once broken out: he had associated with the most horrible people, and rushed into the most senseless debauchery. He remembered later the scandal over a boy, whom he had taken from the country to bring up, and, in a fit of rage, had so violently beaten that proceedings were brought against him for unlawfully wounding. Then he recalled the scandal with a sharper, to whom he had lost money, and given a promissory note, and against whom he had himself lodged a complaint, asserting that he had cheated him.",
   "words": [
     {
-      "word": "timber",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "distinction",
+      "word": "monk",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-012",
   "pool": "sourced",
-  "text": "“No more I did,” said the doctor, rolling his eyes. “I only know that I loathed that yellow devil when I thought he was a sham wizard. And I shall loathe him more if I come to think he was a real one.” “Well, his having escaped is nothing,” said Flambeau. “For we could have proved nothing and done nothing against him. One hardly goes to the parish constable with a story of suicide imposed by witchcraft or auto-suggestion.” Meanwhile Father Brown had made his way into the house, and now went to break the news to the wife of the dead man.",
+  "text": "Entering at last, he walked through the confectioner’s shop to the back room, which was a sort of pastry-cook restaurant, merely raising his hat to the young lady who was serving there. She was a dark, elegant, alert girl in black, with a high colour and very quick, dark eyes; and after the ordinary interval she followed him into the inner room to take his order. His order was evidently a usual one. “I want, please,” he said with precision, “one halfpenny bun and a small cup of black coffee.” An instant before the girl could turn away he added, “Also, I want you to marry me.” The young lady of the shop stiffened suddenly and said, “Those are jokes I don’t allow.” The red-haired young man lifted grey eyes of an unexpected gravity. “Really and truly,” he said, “it’s as serious--as serious as the halfpenny bun.",
   "words": [
     {
-      "word": "sham",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "parish",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "constable",
+      "word": "pastry",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

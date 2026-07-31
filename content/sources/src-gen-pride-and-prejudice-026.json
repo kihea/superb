@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-pride-and-prejudice-026",
+  "pool": "sourced",
+  "text": "With these rooms I might have now been familiarly acquainted! Instead of viewing them as a stranger, I might have rejoiced in them as my own, and welcomed to them as visitors my uncle and aunt. But, no,” recollecting herself, “that could never be; my uncle and aunt would have been lost to me; I should not have been allowed to invite them.” This was a lucky recollection--it saved her from something like regret. She longed to inquire of the housekeeper whether her master were really absent, but had not courage for it. At length, however, the question was asked by her uncle; and she turned away with alarm, while Mrs. Reynolds replied, that he was; adding, “But we expect him to-morrow, with a large party of friends.” How rejoiced was Elizabeth that their own journey had not by any circumstance been delayed a day!",
+  "words": [
+    {
+      "word": "viewing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "recollection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "inquire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

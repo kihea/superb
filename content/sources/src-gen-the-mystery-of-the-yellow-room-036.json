@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mystery-of-the-yellow-room-036",
+  "pool": "sourced",
+  "text": "* * * * * On the stroke of half-past six Joseph Rouletabille was again brought in. It is impossible for me to picture the tense excitement which appeared on every face, as he made his way to the bar. Darzac rose to his feet, frightfully pale. The President, addressing Rouletabille, said gravely:— “I will not ask you to take the oath, because you have not been regularly summoned; but I trust there is no need to urge upon you the gravity of the statement you are about to make.” Rouletabille looked the President quite calmly and steadily in the face, and replied: “Yes, Monsieur.” “At your last appearance here,” said the President, “we had arrived at the point where you were to tell us how the murderer escaped, and also his name. Now, Monsieur Rouletabille, we await your explanation.” “Very well, Monsieur,” began my friend amidst a profound silence.",
+  "words": [
+    {
+      "word": "tense",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "addressing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oath",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mystery of the Yellow Room",
+    "author": "Gaston Leroux",
+    "year": 1907,
+    "source": "Project Gutenberg #1685",
+    "url": "https://www.gutenberg.org/ebooks/1685.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,10 +1,16 @@
 {
   "id": "src-gen-little-women-002",
   "pool": "sourced",
-  "text": "“You needn’t be so rude, it’s only a ‘lapse of lingy’, as Mr. Davis says,” retorted Amy, finishing Jo with her Latin. “I just wish I had a little of the money Laurie spends on that horse,” she added, as if to herself, yet hoping her sisters would hear. “Why?” asked Meg kindly, for Jo had gone off in another laugh at Amy’s second blunder. “I need it so much. I’m dreadfully in debt, and it won’t be my turn to have the rag money for a month.” “In debt, Amy?",
+  "text": "Mr. Brooke, my tutor, doesn’t stay here, you know, and I have no one to go about with me, so I just stop at home and get on as I can.” “That’s bad. You ought to make an effort and go visiting everywhere you are asked, then you’ll have plenty of friends, and pleasant places to go to. Never mind being bashful. It won’t last long if you keep going.” Laurie turned red again, but wasn’t offended at being accused of bashfulness, for there was so much good will in Jo it was impossible not to take her blunt speeches as kindly as they were meant. “Do you like your school?” asked the boy, changing the subject, after a little pause, during which he stared at the fire and Jo looked about her, well pleased.",
   "words": [
     {
-      "word": "spends",
+      "word": "tutor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pause",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Louisa May Alcott",
     "year": 1868,
     "source": "Project Gutenberg #514",
-    "url": "https://www.gutenberg.org/ebooks/514",
+    "url": "https://www.gutenberg.org/ebooks/514.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

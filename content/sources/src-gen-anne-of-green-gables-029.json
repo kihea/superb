@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-anne-of-green-gables-029",
+  "pool": "sourced",
+  "text": "I think the peddler had a very kind heart, for he said that, seeing it was me, he’d sell it for fifty cents and that was just giving it away. So I bought it, and as soon as he had gone I came up here and applied it with an old hairbrush as the directions said. I used up the whole bottle, and oh, Marilla, when I saw the dreadful color it turned my hair I repented of being wicked, I can tell you. And I’ve been repenting ever since.” “Well, I hope you’ll repent to good purpose,” said Marilla severely, “and that you’ve got your eyes opened to where your vanity has led you, Anne. Goodness knows what’s to be done.",
+  "words": [
+    {
+      "word": "repent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "goodness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "year": 1908,
+    "source": "Project Gutenberg #45",
+    "url": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,12 +1,30 @@
 {
   "id": "src-gen-the-woman-in-white-009",
   "pool": "sourced",
-  "text": "here are two of you come back,” he said, with a lowering face. “What is the meaning of the house being deserted in this way? Where is Lady Glyde?” I told him of the loss of the brooch, and said that Laura had gone into the plantation to look for it. “Brooch or no brooch,” he growled sulkily, “I recommend her not to forget her appointment in the library this afternoon. I shall expect to see her in half an hour.” I took my hand from the Count’s arm, and slowly ascended the steps.",
+  "text": "I can bear this no longer—I must and will end it.” There was too much colour in her cheeks, too much energy in her manner, too much firmness in her voice. The little book of Hartright’s drawings—the fatal book that she will dream over whenever she is alone—was in one of her hands. I began by gently and firmly taking it from her, and putting it out of sight on a side-table. “Tell me quietly, my darling, what you wish to do,” I said. “Has Mr. Gilmore been advising you?” She shook her head.",
   "words": [
     {
-      "word": "lowering",
+      "word": "gently",
       "signals": [
-        "definition-marker"
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "firmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quietly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "darling",
+      "signals": [
+        "gloss-overlap"
       ]
     }
   ],
@@ -15,7 +33,7 @@
     "author": "Wilkie Collins",
     "year": 1859,
     "source": "Project Gutenberg #583",
-    "url": "https://www.gutenberg.org/ebooks/583",
+    "url": "https://www.gutenberg.org/ebooks/583.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

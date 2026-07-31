@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-through-the-looking-glass-039",
+  "pool": "sourced",
+  "text": "‘Let it lie in a dish!’ That is easy, because it already is in it. ‘Bring it here! Let me sup!’ It is easy to set such a dish on the table. ‘Take the dish-cover up!’ Ah, that is so hard that I fear I’m unable! For it holds it like glue— Holds the lid to the dish, while it lies in the middle: Which is easiest to do, Un-dish-cover the fish, or dishcover the riddle?” “Take a minute to think about it, and then guess,” said the Red Queen.",
+  "words": [
+    {
+      "word": "dish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sup",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "year": 1871,
+    "source": "Project Gutenberg #12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

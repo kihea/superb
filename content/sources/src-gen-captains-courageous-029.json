@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-captains-courageous-029",
+  "pool": "sourced",
+  "text": "Dan and Harvey were out on twenty-fathom water in the Hattie S., and naturally rowed over to join the crowd. It was a long pull, and they stayed some little time while Dan bought the knife, which had a curious brass handle. When they dropped overside and pushed off into a drizzle of rain and a lop of sea, it occurred to them that they might get into trouble for neglecting the lines. \"Guess 'twon't hurt us any to be warmed up,\" said Dan, shivering under his oilskins, and they rowed on into the heart of a white fog, which, as usual, dropped on them without warning. \"There's too much blame tide hereabouts to trust to your instinks,\" he said.",
+  "words": [
+    {
+      "word": "fathom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "drizzle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tide",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

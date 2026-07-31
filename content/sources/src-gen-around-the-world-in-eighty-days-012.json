@@ -1,10 +1,16 @@
 {
   "id": "src-gen-around-the-world-in-eighty-days-012",
   "pool": "sourced",
-  "text": "“Fire!” said Mr. Fogg. And the booming of the little cannon resounded in the air. IN WHICH PASSEPARTOUT FINDS OUT THAT, EVEN AT THE ANTIPODES, IT IS CONVENIENT TO HAVE SOME MONEY IN ONE’S POCKET The “Carnatic,” setting sail from Hong Kong at half-past six on the 7th of November, directed her course at full steam towards Japan. She carried a large cargo and a well-filled cabin of passengers. Two state-rooms in the rear were, however, unoccupied—those which had been engaged by Phileas Fogg.",
+  "text": "Then no human intervention could save her. As soon as night fell, about six o’clock, they decided to make a reconnaissance around the pagoda. The cries of the fakirs were just ceasing; the Indians were in the act of plunging themselves into the drunkenness caused by liquid opium mingled with hemp, and it might be possible to slip between them to the temple itself. The Parsee, leading the others, noiselessly crept through the wood, and in ten minutes they found themselves on the banks of a small stream, whence, by the light of the rosin torches, they perceived a pyre of wood, on the top of which lay the embalmed body of the rajah, which was to be burned with his wife. The pagoda, whose minarets loomed above the trees in the deepening dusk, stood a hundred steps away.",
   "words": [
     {
-      "word": "cargo",
+      "word": "reconnaissance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "deepening",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "source": "Project Gutenberg #103",
-    "url": "https://www.gutenberg.org/ebooks/103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,28 +1,16 @@
 {
   "id": "src-gen-sense-and-sensibility-003",
   "pool": "sourced",
-  "text": "Conversation however was not wanted, for Sir John was very chatty, and Lady Middleton had taken the wise precaution of bringing with her their eldest child, a fine little boy about six years old, by which means there was one subject always to be recurred to by the ladies in case of extremity, for they had to enquire his name and age, admire his beauty, and ask him questions which his mother answered for him, while he hung about her and held down his head, to the great surprise of her ladyship, who wondered at his being so shy before company, as he could make noise enough at home. On every formal visit a child ought to be of the party, by way of provision for discourse. In the present case it took up ten minutes to determine whether the boy were most like his father or mother, and in what particular he resembled either, for of course every body differed, and every body was astonished at the opinion of the others.",
+  "text": "As it is, without any addition of mine, they will each have about three thousand pounds on their mother's death--a very comfortable fortune for any young woman.\" \"To be sure it is; and, indeed, it strikes me that they can want no addition at all. They will have ten thousand pounds divided amongst them. If they marry, they will be sure of doing well, and if they do not, they may all live very comfortably together on the interest of ten thousand pounds.\" \"That is very true, and, therefore, I do not know whether, upon the whole, it would not be more advisable to do something for their mother while she lives, rather than for them--something of the annuity kind I mean.",
   "words": [
     {
-      "word": "admire",
+      "word": "comfortably",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "wondered",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "discourse",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "resembled",
+      "word": "annuity",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1811,
     "source": "Project Gutenberg #21839",
-    "url": "https://www.gutenberg.org/ebooks/21839",
+    "url": "https://www.gutenberg.org/ebooks/21839.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

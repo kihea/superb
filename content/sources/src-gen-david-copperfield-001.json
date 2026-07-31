@@ -1,16 +1,28 @@
 {
   "id": "src-gen-david-copperfield-001",
   "pool": "sourced",
-  "text": "a young phenomenon. My unfortunate friend the waiter, who had quite recovered his spirits, did not appear to be disturbed by this, but joined in the general admiration without being at all confused. If I had any doubt of him, I suppose this half awakened it; but I am inclined to believe that with the simple confidence of a child, and the natural reliance of a child upon superior years (qualities I am very sorry any children should prematurely change for worldly wisdom), I had no serious mistrust of him on the whole, even then. I felt it rather hard, I must own, to be made, without deserving it, the subject of jokes between the coachman and guard as to the coach drawing heavy behind, on account of my sitting there, and as to the greater expediency of my travelling by waggon. The story of my supposed appetite getting wind among the outside passengers, they were merry upon it likewise; and asked me whether I was going to be paid for, at school, as two brothers or three, and whether I was contracted for, or went upon the regular terms; with other pleasant questions.",
+  "text": "But the worst of it was, that I knew I should be ashamed to eat anything, when an opportunity offered, and that, after a rather light dinner, I should remain hungry all night--for I had left my cakes behind, at the hotel, in my hurry. My apprehensions were realized. When we stopped for supper I couldn’t muster courage to take any, though I should have liked it very much, but sat by the fire and said I didn’t want anything. This did not save me from more jokes, either; for a husky-voiced gentleman with a rough face, who had been eating out of a sandwich-box nearly all the way, except when he had been drinking out of a bottle, said I was like a boa-constrictor who took enough at one meal to last him a long time; after which, he actually brought a rash out upon himself with boiled beef. We had started from Yarmouth at three o’clock in the afternoon, and we were due in London about eight next morning.",
   "words": [
     {
-      "word": "merry",
+      "word": "supper",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "contracted",
+      "word": "husky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sandwich",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boa",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "source": "Project Gutenberg #766",
-    "url": "https://www.gutenberg.org/ebooks/766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

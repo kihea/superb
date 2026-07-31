@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-040",
+  "pool": "sourced",
+  "text": "and all splintered to pieces, Stubb!—d’ye see it.—But even with a broken bone, old Ahab is untouched; and I account no living bone of mine one jot more me, than this dead one that’s lost. Nor white whale, nor man, nor fiend, can so much as graze old Ahab in his own proper and inaccessible being. Can any lead touch yonder floor, any mast scrape yonder roof?—Aloft there! which way?” “Dead to leeward, sir.” “Up helm, then; pile on the sail again, ship keepers! down the rest of the spare boats and rig them—Mr.",
+  "words": [
+    {
+      "word": "mast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "scrape",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helm",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sail",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rig",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

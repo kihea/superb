@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-038",
+  "pool": "sourced",
+  "text": "“‘Do you desire your name to be kept upon the books?’ she asked. “‘If you please, Miss Stoper.’ “‘Well, really, it seems rather useless, since you refuse the most excellent offers in this fashion,’ said she sharply. ‘You can hardly expect us to exert ourselves to find another such opening for you. Good-day to you, Miss Hunter.’ She struck a gong upon the table, and I was shown out by the page. “Well, Mr. Holmes, when I got back to my lodgings and found little enough in the cupboard, and two or three bills upon the table, I began to ask myself whether I had not done a very foolish thing.",
+  "words": [
+    {
+      "word": "gong",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cupboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

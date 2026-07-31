@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-jungle-book-005",
   "pool": "sourced",
-  "text": "“Stand still, Little Brother, for thy feet may do us harm.” Mowgli stood as quietly as he could, peering through the open work and listening to the furious din of the fight round the Black Panther--the yells and chatterings and scufflings, and Bagheera’s deep, hoarse cough as he backed and bucked and twisted and plunged under the heaps of his enemies. For the first time since he was born, Bagheera was fighting for his life. “Baloo must be at hand; Bagheera would not have come alone,” Mowgli thought. And then he called aloud: “To the tank, Bagheera. Roll to the water tanks.",
+  "text": "“Some day thou wilt remember me.” Then he turned aside to tell Bagheera how he had begged the Master Words from Hathi the Wild Elephant, who knows all about these things, and how Hathi had taken Mowgli down to a pool to get the Snake Word from a water-snake, because Baloo could not pronounce it, and how Mowgli was now reasonably safe against all accidents in the jungle, because neither snake, bird, nor beast would hurt him. “No one then is to be feared,” Baloo wound up, patting his big furry stomach with pride. “Except his own tribe,” said Bagheera, under his breath; and then aloud to Mowgli, “Have a care for my ribs, Little Brother! What is all this dancing up and down?” Mowgli had been trying to make himself heard by pulling at Bagheera’s shoulder fur and kicking hard. When the two listened to him he was shouting at the top of his voice, “And so I shall have a tribe of my own, and lead them through the branches all day long.” “What is this new folly, little dreamer of dreams?” said Bagheera.",
   "words": [
     {
-      "word": "quietly",
+      "word": "furry",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "din",
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dreamer",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Rudyard Kipling",
     "year": 1894,
     "source": "Project Gutenberg #236",
-    "url": "https://www.gutenberg.org/ebooks/236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

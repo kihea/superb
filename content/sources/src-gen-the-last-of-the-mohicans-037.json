@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-037",
+  "pool": "sourced",
+  "text": "During the momentous hour that succeeded, the encampment resembled a hive of troubled bees, who only awaited the appearance and example of their leader to take some distant and momentous flight. A young warrior at length issued from the lodge of Uncas; and, moving deliberately, with a sort of grave march, toward a dwarf pine that grew in the crevices of the rocky terrace, he tore the bark from its body, and then turned whence he came without speaking. He was soon followed by another, who stripped the sapling of its branches, leaving it a naked and blazed trunk. A third colored the post with stripes of a dark red paint; all which indications of a hostile design in the leaders of the nation were received by the men without in a gloomy and ominous silence. Finally, the Mohican himself reappeared, divested of all his attire, except his girdle and leggings, and with one-half of his fine features hid under a cloud of threatening black.",
+  "words": [
+    {
+      "word": "succeeded",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "dwarf",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "trunk",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

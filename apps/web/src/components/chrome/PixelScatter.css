@@ -1,0 +1,38 @@
+.chrome-pixel-scatter {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* Bounded to the control that emitted it (ADR-036 Decision 5 / D5's own
+     layering fix) -- overflow is never allowed to read as reaching past
+     the control's own box. */
+  overflow: visible;
+}
+
+.chrome-pixel-scatter__cell {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  margin: -1.5px 0 0 -1.5px;
+  background: var(--chrome-accent);
+  animation: chrome-pixel-scatter-fly var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+@keyframes chrome-pixel-scatter-fly {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), var(--dy)) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome-pixel-scatter__cell {
+    animation: none;
+    opacity: 0;
+  }
+}

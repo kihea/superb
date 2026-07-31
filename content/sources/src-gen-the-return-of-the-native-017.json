@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-return-of-the-native-017",
   "pool": "sourced",
-  "text": "Wildeve had resisted the impulse to clasp her, and stood without speaking. “Are you not ashamed of me, who used never to be a crying animal?” she asked in a weak whisper as she wiped her eyes. “Why didn’t you go away? I wish you had not seen quite all that; it reveals too much by half.” “You might have wished it, because it makes me as sad as you,” he said with emotion and deference. “As for revealing—the word is impossible between us two.” “I did not send for you—don’t forget it, Damon; I am in pain, but I did not send for you!",
+  "text": "“He is tender-hearted,” said Mrs. Yeobright to herself while she watched him; “otherwise it would matter little. How he’s going on!” He was, indeed, walking with a will over the furze, as straight as a line, as if his life depended upon it. His mother drew a long breath, and, abandoning the visit to Thomasin, turned back. The evening films began to make nebulous pictures of the valleys, but the high lands still were raked by the declining rays of the winter sun, which glanced on Clym as he walked forward, eyed by every rabbit and field-fare around, a long shadow advancing in front of him. On drawing near to the furze-covered bank and ditch which fortified the captain’s dwelling he could hear voices within, signifying that operations had been already begun.",
   "words": [
     {
-      "word": "whisper",
+      "word": "rabbit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fare",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "advancing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ditch",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Thomas Hardy",
     "year": 1878,
     "source": "Project Gutenberg #122",
-    "url": "https://www.gutenberg.org/ebooks/122",
+    "url": "https://www.gutenberg.org/ebooks/122.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

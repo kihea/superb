@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-robinson-crusoe-036",
+  "pool": "sourced",
+  "text": "We waited a great while, though very impatient for their removing; and were very uneasy when, after long consultation, we saw them all start up and march down towards the sea; it seems they had such dreadful apprehensions of the danger of the place that they resolved to go on board the ship again, give their companions over for lost, and so go on with their intended voyage with the ship. As soon as I perceived them go towards the shore, I imagined it to be as it really was that they had given over their search, and were going back again; and the captain, as soon as I told him my thoughts, was ready to sink at the apprehensions of it; but I presently thought of a stratagem to fetch them back again, and which answered my end to a tittle.",
+  "words": [
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "fetch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

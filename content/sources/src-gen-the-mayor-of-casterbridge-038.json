@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-mayor-of-casterbridge-038",
+  "pool": "sourced",
+  "text": "Though she did not know it Henchard formed at this moment much the same picture as he had presented when entering Casterbridge for the first time nearly a quarter of a century before; except, to be sure, that the serious addition to his years had considerably lessened the spring to his stride, that his state of hopelessness had weakened him, and imparted to his shoulders, as weighted by the basket, a perceptible bend. He went on till he came to the first milestone, which stood in the bank, half way up a steep hill. He rested his basket on the top of the stone, placed his elbows on it, and gave way to a convulsive twitch, which was worse than a sob, because it was so hard and so dry. “If I had only got her with me—if I only had!” he said. “Hard work would be nothing to me then!",
+  "words": [
+    {
+      "word": "basket",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "milestone",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "year": 1886,
+    "source": "Project Gutenberg #143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

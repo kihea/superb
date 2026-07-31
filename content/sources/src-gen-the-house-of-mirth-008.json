@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-house-of-mirth-008",
   "pool": "sourced",
-  "text": "The consequence is the dinner gets cold, and I have dyspepsia. That silly ass Silverton brings them to the house—he writes poetry, you know, and Bertha and he are getting tremendously thick. She could write better than any of ’em if she chose, and I don’t blame her for wanting clever fellows about; all I say is: ‘Don’t let me see ’em eat!’” The gist of this strange communication gave Lily a distinct thrill of pleasure. Under ordinary circumstances, there would have been nothing surprising in an invitation from Bertha Dorset; but since the Bellomont episode an unavowed hostility had kept the two women apart. Now, with a start of inner wonder, Lily felt that her thirst for retaliation had died out.",
+  "text": "Miss Corby’s role was jocularity: she always entered the conversation with a handspring. “And of course you’ll have Sim Rosedale as best man!” Lily heard her fling out as the climax of her prognostications; and Stepney responded, as if struck: “Jove, that’s an idea. What a thumping present I’d get out of him!” SIM ROSEDALE! The name, made more odious by its diminutive, obtruded itself on Lily’s thoughts like a leer. It stood for one of the many hated possibilities hovering on the edge of life.",
   "words": [
     {
-      "word": "thrill",
+      "word": "hated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hovering",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Edith Wharton",
     "year": 1905,
     "source": "Project Gutenberg #284",
-    "url": "https://www.gutenberg.org/ebooks/284",
+    "url": "https://www.gutenberg.org/ebooks/284.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

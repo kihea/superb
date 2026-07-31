@@ -1,22 +1,28 @@
 {
   "id": "src-gen-villette-003",
   "pool": "sourced",
-  "text": "But nobody seemed to think I was doing anything strange; one or two gentlemen glanced at me occasionally, but none stared obtrusively: I suppose if there was anything eccentric in the business, they accounted for it by this word “Anglaise!” Breakfast over, I must again move—in what direction? “Go to Villette,” said an inward voice; prompted doubtless by the recollection of this slight sentence uttered carelessly and at random by Miss Fanshawe, as she bid me good-by: “I wish you would come to Madame Beck’s; she has some marmots whom you might look after; she wants an English gouvernante, or was wanting one two months ago.” Who Madame Beck was, where she lived, I knew not; I had asked, but the question passed unheard: Miss Fanshawe, hurried away by her friends, left it unanswered. I presumed Villette to be her residence—to Villette I would go. The distance was forty miles. I knew I was catching at straws; but in the wide and weltering deep where I found myself, I would have caught at cobwebs.",
+  "text": "I had often heard of Miss Marchmont, and of her peculiarities (she had the character of being very eccentric), but till now had never seen her. I found her a furrowed, grey-haired woman, grave with solitude, stern with long affliction, irritable also, and perhaps exacting. It seemed that a maid, or rather companion, who had waited on her for some years, was about to be married; and she, hearing of my bereaved lot, had sent for me, with the idea that I might supply this person’s place. She made the proposal to me after tea, as she and I sat alone by her fireside. “It will not be an easy life;” said she candidly, “for I require a good deal of attention, and you will be much confined; yet, perhaps, contrasted with the existence you have lately led, it may appear tolerable.” I reflected.",
   "words": [
     {
-      "word": "stared",
+      "word": "haired",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "eccentric",
+      "word": "solitude",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "accounted",
+      "word": "maid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

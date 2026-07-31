@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-time-machine-003",
   "pool": "sourced",
-  "text": "At first I scarce thought of stopping, scarce thought of anything but these new sensations. But presently a fresh series of impressions grew up in my mind—a certain curiosity and therewith a certain dread—until at last they took complete possession of me. What strange developments of humanity, what wonderful advances upon our rudimentary civilisation, I thought, might not appear when I came to look nearly into the dim elusive world that raced and fluctuated before my eyes! I saw great and splendid architecture rising about me, more massive than any buildings of our own time, and yet, as it seemed, built of glimmer and mist. I saw a richer green flow up the hillside, and remain there, without any wintry intermission.",
+  "text": "Time Travelling “I told some of you last Thursday of the principles of the Time Machine, and showed you the actual thing itself, incomplete in the workshop. There it is now, a little travel-worn, truly; and one of the ivory bars is cracked, and a brass rail bent; but the rest of it’s sound enough. I expected to finish it on Friday; but on Friday, when the putting together was nearly done, I found that one of the nickel bars was exactly one inch too short, and this I had to get remade; so that the thing was not complete until this morning. It was at ten o’clock today that the first of all Time Machines began its career. I gave it a last tap, tried all the screws again, put one more drop of oil on the quartz rod, and sat myself in the saddle.",
   "words": [
     {
-      "word": "civilisation",
+      "word": "incomplete",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "raced",
+      "word": "workshop",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "quartz",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1895,
     "source": "Project Gutenberg #35",
-    "url": "https://www.gutenberg.org/ebooks/35",
+    "url": "https://www.gutenberg.org/ebooks/35.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

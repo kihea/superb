@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-agnes-grey-022",
+  "pool": "sourced",
+  "text": "“Take care of it,” said he, “and don’t let it go near the rabbit-warren, for the gamekeeper swears he’ll shoot it if he sees it there again: he would have done so to-day, if I had not been in time to stop him. I believe it is raining, Miss Grey,” added he, more quietly, observing that I had put aside my work, and was preparing to depart. “Don’t let me disturb you—I shan’t stay two minutes.” “You’ll both stay while this shower gets owered,” said Nancy, as she stirred the fire, and placed another chair beside it; “what! there’s room for all.” “I can see better here, thank you, Nancy,” replied I, taking my work to the window, where she had the goodness to suffer me to remain unmolested, while she got a brush to remove the cat’s hairs from Mr. Weston’s coat, carefully wiped the rain from his hat, and gave the cat its supper, busily talking all the time: now thanking her clerical friend for what he had done; now wondering how the cat had found out the warren; and now lamenting the probable consequences of such a discovery.",
+  "words": [
+    {
+      "word": "raining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clerical",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Agnes Grey",
+    "author": "Anne Bronte",
+    "year": 1847,
+    "source": "Project Gutenberg #767",
+    "url": "https://www.gutenberg.org/ebooks/767.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

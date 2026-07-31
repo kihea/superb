@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-persuasion-040",
+  "pool": "sourced",
+  "text": "With the Musgroves, there was the happy chat of perfect ease; with Captain Harville, the kind-hearted intercourse of brother and sister; with Lady Russell, attempts at conversation, which a delicious consciousness cut short; with Admiral and Mrs Croft, everything of peculiar cordiality and fervent interest, which the same consciousness sought to conceal; and with Captain Wentworth, some moments of communications continually occurring, and always the hope of more, and always the knowledge of his being there. It was in one of these short meetings, each apparently occupied in admiring a fine display of greenhouse plants, that she said— “I have been thinking over the past, and trying impartially to judge of the right and wrong, I mean with regard to myself; and I must believe that I was right, much as I suffered from it, that I was perfectly right in being guided by the friend whom you will love better than you do now. To me, she was in the place of a parent. Do not mistake me, however. I am not saying that she did not err in her advice.",
+  "words": [
+    {
+      "word": "hearted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intercourse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conceal",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "greenhouse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "err",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

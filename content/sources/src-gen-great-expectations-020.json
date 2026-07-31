@@ -1,16 +1,10 @@
 {
   "id": "src-gen-great-expectations-020",
   "pool": "sourced",
-  "text": "But he never justified himself by a hint tending that way, or tried to bend the past out of its eternal shape. It happened on two or three occasions in my presence, that his desperate reputation was alluded to by one or other of the people in attendance on him. A smile crossed his face then, and he turned his eyes on me with a trustful look, as if he were confident that I had seen some small redeeming touch in him, even so long ago as when I was a little child. As to all the rest, he was humble and contrite, and I never knew him complain. When the Sessions came round, Mr. Jaggers caused an application to be made for the postponement of his trial until the following Sessions.",
+  "text": "My little portmanteau was in the boot under my feet; I had but to turn a hinge to get it out; I threw it down before me, got down after it, and was left at the first lamp on the first stones of the town pavement. As to the convicts, they went their way with the coach, and I knew at what point they would be spirited off to the river. In my fancy, I saw the boat with its convict crew waiting for them at the slime-washed stairs,—again heard the gruff “Give way, you!” like an order to dogs,—again saw the wicked Noah’s Ark lying out on the black water. I could not have said what I was afraid of, for my fear was altogether undefined and vague, but there was great fear upon me. As I walked on to the hotel, I felt that a dread, much exceeding the mere apprehension of a painful or disagreeable recognition, made me tremble.",
   "words": [
     {
-      "word": "bend",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "attendance",
+      "word": "dread",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

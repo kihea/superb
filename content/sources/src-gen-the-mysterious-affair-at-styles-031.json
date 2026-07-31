@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysterious-affair-at-styles-031",
+  "pool": "sourced",
+  "text": "Should have remembered it if it was.” “Supposing a parcel arrived addressed to Mr. Lawrence Cavendish, and afterwards it disappeared, should you remark its absence?” “No, don’t think so. I should think someone had taken charge of it.” “I believe, Miss Howard, that it was you who found this sheet of brown paper?” He held up the same dusty piece which Poirot and I had examined in the morning-room at Styles. “Yes, I did.” “How did you come to look for it?” “The Belgian detective who was employed on the case asked me to search for it.” “Where did you eventually discover it?” “On the top of—of—a wardrobe.” “On top of the prisoner’s wardrobe?” “I—I believe so.” “Did you not find it yourself?” “Yes.” “Then you must know where you found it?” “Yes, it was on the prisoner’s wardrobe.” “That is better.” An assistant from Parkson’s, Theatrical Costumiers, testified that on June 29th, they had supplied a black beard to Mr. L. Cavendish, as requested. It was ordered by letter, and a postal order was enclosed. No, they had not kept the letter.",
+  "words": [
+    {
+      "word": "detective",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "enclosed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "source": "Project Gutenberg #863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-heart-of-darkness-007",
   "pool": "sourced",
-  "text": "‘They’ll come in three weeks,’ I said confidently. “But they didn’t. Instead of rivets there came an invasion, an infliction, a visitation. It came in sections during the next three weeks, each section headed by a donkey carrying a white man in new clothes and tan shoes, bowing from that elevation right and left to the impressed pilgrims. A quarrelsome band of footsore sulky niggers trod on the heels of the donkey; a lot of tents, camp-stools, tin boxes, white cases, brown bales would be shot down in the courtyard, and the air of mystery would deepen a little over the muddle of the station.",
+  "text": "I lived in a hut in the yard, but to be out of the chaos I would sometimes get into the accountant’s office. It was built of horizontal planks, and so badly put together that, as he bent over his high desk, he was barred from neck to heels with narrow strips of sunlight. There was no need to open the big shutter to see. It was hot there, too; big flies buzzed fiendishly, and did not sting, but stabbed. I sat generally on the floor, while, of faultless appearance (and even slightly scented), perching on a high stool, he wrote, he wrote.",
   "words": [
     {
-      "word": "tan",
+      "word": "hut",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "elevation",
+      "word": "heels",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flies",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

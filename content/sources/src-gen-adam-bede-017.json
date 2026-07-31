@@ -1,10 +1,28 @@
 {
   "id": "src-gen-adam-bede-017",
   "pool": "sourced",
-  "text": "But think of this: if you were to obey your passion—for it is passion, and you deceive yourself in calling it justice—it might be with you precisely as it has been with Arthur; nay, worse; your passion might lead you yourself into a horrible crime.” “No—not worse,” said Adam, bitterly; “I don’t believe it’s worse—I’d sooner do it—I’d sooner do a wickedness as I could suffer for by myself than ha’ brought her to do wickedness and then stand by and see ’em punish her while they let me alone; and all for a bit o’ pleasure, as, if he’d had a man’s heart in him, he’d ha’ cut his hand off sooner than he’d ha’ taken it. What if he didn’t foresee what’s happened? He foresaw enough; he’d no right to expect anything but harm and shame to her. And then he wanted to smooth it off wi’ lies. No—there’s plenty o’ things folks are hanged for not half so hateful as that.",
+  "text": "But it was Adam’s strength, not its correlative hardness, that influenced his meditations this morning. He had long made up his mind that it would be wrong as well as foolish for him to marry a blooming young girl, so long as he had no other prospect than that of growing poverty with a growing family. And his savings had been so constantly drawn upon (besides the terrible sweep of paying for Seth’s substitute in the militia) that he had not enough money beforehand to furnish even a small cottage, and keep something in reserve against a rainy day. He had good hope that he should be “firmer on his legs” by and by; but he could not be satisfied with a vague confidence in his arm and brain; he must have definite plans, and set about them at once.",
   "words": [
     {
-      "word": "punish",
+      "word": "foolish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "substitute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "militia",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cottage",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "George Eliot",
     "year": 1859,
     "source": "Project Gutenberg #507",
-    "url": "https://www.gutenberg.org/ebooks/507",
+    "url": "https://www.gutenberg.org/ebooks/507.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

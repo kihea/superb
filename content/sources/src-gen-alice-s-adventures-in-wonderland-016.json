@@ -1,28 +1,16 @@
 {
   "id": "src-gen-alice-s-adventures-in-wonderland-016",
   "pool": "sourced",
-  "text": "At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:— “You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!” “No, indeed,” said Alice. “What sort of a dance is it?” “Why,” said the Gryphon, “you first form into a line along the sea-shore—” “Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—” “That generally takes some time,” interrupted the Gryphon. “—you advance twice—” “Each with a lobster as a partner!” cried the Gryphon. “Of course,” the Mock Turtle said: “advance twice, set to partners—” “—change lobsters, and retire in same order,” continued the Gryphon.",
+  "text": "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question. However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand. “And now which is which?” she said to herself, and nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot! She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit. Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit.",
   "words": [
     {
-      "word": "cried",
+      "word": "chin",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "turtles",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "salmon",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "jelly",
+      "word": "swallow",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Lewis Carroll",
     "year": 1865,
     "source": "Project Gutenberg #11",
-    "url": "https://www.gutenberg.org/ebooks/11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

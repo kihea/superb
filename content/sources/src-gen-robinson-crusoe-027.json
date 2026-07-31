@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-robinson-crusoe-027",
+  "pool": "sourced",
+  "text": "But that did not altogether press me so much as the possibility that there might be yet some living creature on board, whose life I might not only save, but might, by saving that life, comfort my own to the last degree; and this thought clung so to my heart that I could not be quiet night or day, but I must venture out in my boat on board this wreck; and committing the rest to God’s providence, I thought the impression was so strong upon my mind that it could not be resisted—that it must come from some invisible direction, and that I should be wanting to myself if I did not go. Under the power of this impression, I hastened back to my castle, prepared everything for my voyage, took a quantity of bread, a great pot of fresh water, a compass to steer by, a bottle of rum (for I had still a great deal of that left), and a basket of raisins; and thus, loading myself with everything necessary.",
+  "words": [
+    {
+      "word": "creature",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

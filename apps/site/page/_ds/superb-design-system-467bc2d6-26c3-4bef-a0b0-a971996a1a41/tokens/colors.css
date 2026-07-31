@@ -1,0 +1,102 @@
+/* ── Superb palette ───────────────────────────────────────────────
+   Three themes from the saved identity: Oxblood (primary), Lilac Ink
+   (secondary), Glacier (tertiary). Each ships a light and a dark mode.
+   Base ramps are raw brand values; semantic aliases below are what
+   product code should use. Switch theme with [data-theme] on <html>. */
+:root{
+  /* Oxblood */
+  --ox-paper:#F6EFE4; --ox-paper-2:#E4D7C3; --ox-white:#FFFCF6;
+  --ox-red:#9B3B3B; --ox-red-hover:#883333; --ox-red-press:#752B2B; --ox-red-light:#D96A63; --ox-red-tint:#EBD9D0;
+  --ox-sage:#6F8367; --ox-sage-light:#9DB094; --ox-sage-tint:#E2E2D6;
+  --ox-ink:#2E231C; --ox-ink-deep:#201813; --ox-ink-70:#716058; --ox-ink-50:#928980; --ox-cream:#F2E9DC;
+
+  /* Lilac Ink */
+  --li-paper:#EEECF2; --li-paper-2:#D6D2E0; --li-white:#FBFAFD;
+  --li-violet:#7B52C9; --li-violet-hover:#6A43B4; --li-violet-press:#5B389C; --li-violet-light:#B193F5; --li-violet-tint:#E1DAEF;
+  --li-mint:#3FAE8B; --li-mint-light:#8FE0C0; --li-mint-tint:#DCE9E7;
+  --li-ink:#1D1A26; --li-ink-deep:#16131D; --li-ink-70:#5C5866; --li-ink-50:#858291; --li-cream:#EAE7F1;
+
+  /* Glacier */
+  --gl-paper:#E9EFF1; --gl-paper-2:#CCDADE; --gl-white:#F8FBFC;
+  --gl-teal:#0E8FA8; --gl-teal-hover:#0C7C92; --gl-teal-press:#0A6A7D; --gl-teal-light:#3FC4DD; --gl-teal-tint:#D3E5E9;
+  --gl-indigo:#7A6BD6; --gl-indigo-light:#9A8FE8; --gl-indigo-tint:#DCDDEE;
+  --gl-ink:#15222A; --gl-ink-deep:#0F1A20; --gl-ink-70:#536066; --gl-ink-50:#7F8A8F; --gl-cream:#E4EDF0;
+
+  /* Status — shared across themes, warmed to sit on paper */
+  --status-success:#5F8A5E; --status-warn:#C08A2E; --status-danger:#8E2F2F; --status-info:#0E8FA8;
+
+  /* ── Semantic aliases: Oxblood light (default) ── */
+  --surface-page:var(--ox-paper);
+  --surface-card:var(--ox-white);
+  --surface-raised:#FFFFFF;
+  --surface-sunken:var(--ox-paper-2);
+  --surface-inverse:var(--ox-ink);
+  --text-1:var(--ox-ink);
+  --text-2:var(--ox-ink-70);
+  --text-3:var(--ox-ink-50);
+  --text-inverse:var(--ox-cream);
+  --text-on-brand:var(--ox-paper);
+  --brand:var(--ox-red);
+  --brand-hover:var(--ox-red-hover);
+  --brand-press:var(--ox-red-press);
+  --brand-soft:var(--ox-red-tint);
+  --brand-contrast:var(--ox-red);
+  --support:var(--ox-sage);
+  --support-soft:var(--ox-sage-tint);
+  --border-1:rgba(46,35,28,.09);
+  --border-2:rgba(46,35,28,.16);
+  --border-strong:rgba(46,35,28,.42);
+  --focus:var(--ox-red);
+  --highlight:rgba(155,59,59,.16);
+  --shadow-rgb:46 35 28;
+}
+
+[data-theme="oxblood-dark"]{
+  --surface-page:var(--ox-ink-deep); --surface-card:#2A201A; --surface-raised:#33261E; --surface-sunken:#17110D;
+  --surface-inverse:var(--ox-cream);
+  --text-1:var(--ox-cream); --text-2:#C4B4A4; --text-3:#8E7F72; --text-inverse:var(--ox-ink-deep); --text-on-brand:var(--ox-ink-deep);
+  --brand:var(--ox-red-light); --brand-hover:#E37C74; --brand-press:#C55B55; --brand-soft:#3A2620; --brand-contrast:var(--ox-red-light);
+  --support:var(--ox-sage-light); --support-soft:#2A2E24;
+  --border-1:rgba(242,233,220,.10); --border-2:rgba(242,233,220,.18); --border-strong:rgba(242,233,220,.45);
+  --focus:var(--ox-red-light); --highlight:rgba(217,106,99,.22); --shadow-rgb:8 5 3;
+}
+
+[data-theme="lilac"]{
+  --surface-page:var(--li-paper); --surface-card:var(--li-white); --surface-raised:#FFFFFF; --surface-sunken:var(--li-paper-2);
+  --surface-inverse:var(--li-ink);
+  --text-1:var(--li-ink); --text-2:var(--li-ink-70); --text-3:var(--li-ink-50); --text-inverse:var(--li-cream); --text-on-brand:var(--li-paper);
+  --brand:var(--li-violet); --brand-hover:var(--li-violet-hover); --brand-press:var(--li-violet-press); --brand-soft:var(--li-violet-tint); --brand-contrast:var(--li-violet);
+  --support:var(--li-mint); --support-soft:var(--li-mint-tint);
+  --border-1:rgba(29,26,38,.09); --border-2:rgba(29,26,38,.16); --border-strong:rgba(29,26,38,.42);
+  --focus:var(--li-violet); --highlight:rgba(123,82,201,.16); --shadow-rgb:29 26 38;
+}
+
+[data-theme="lilac-dark"]{
+  --surface-page:var(--li-ink-deep); --surface-card:#211D2C; --surface-raised:#2A2537; --surface-sunken:#100E16;
+  --surface-inverse:var(--li-cream);
+  --text-1:var(--li-cream); --text-2:#B4AEC6; --text-3:#807A92; --text-inverse:var(--li-ink-deep); --text-on-brand:var(--li-ink-deep);
+  --brand:var(--li-violet-light); --brand-hover:#C0A8F8; --brand-press:#9C7DE4; --brand-soft:#251F33; --brand-contrast:var(--li-violet-light);
+  --support:var(--li-mint-light); --support-soft:#1B2A26;
+  --border-1:rgba(234,231,241,.10); --border-2:rgba(234,231,241,.18); --border-strong:rgba(234,231,241,.45);
+  --focus:var(--li-violet-light); --highlight:rgba(177,147,245,.22); --shadow-rgb:5 4 8;
+}
+
+[data-theme="glacier"]{
+  --surface-page:var(--gl-paper); --surface-card:var(--gl-white); --surface-raised:#FFFFFF; --surface-sunken:var(--gl-paper-2);
+  --surface-inverse:var(--gl-ink);
+  --text-1:var(--gl-ink); --text-2:var(--gl-ink-70); --text-3:var(--gl-ink-50); --text-inverse:var(--gl-cream); --text-on-brand:var(--gl-paper);
+  --brand:var(--gl-teal); --brand-hover:var(--gl-teal-hover); --brand-press:var(--gl-teal-press); --brand-soft:var(--gl-teal-tint); --brand-contrast:var(--gl-teal);
+  --support:var(--gl-indigo); --support-soft:var(--gl-indigo-tint);
+  --border-1:rgba(21,34,42,.09); --border-2:rgba(21,34,42,.16); --border-strong:rgba(21,34,42,.42);
+  --focus:var(--gl-teal); --highlight:rgba(14,143,168,.16); --shadow-rgb:21 34 42;
+}
+
+[data-theme="glacier-dark"]{
+  --surface-page:var(--gl-ink-deep); --surface-card:#17252C; --surface-raised:#1E2F37; --surface-sunken:#0A1317;
+  --surface-inverse:var(--gl-cream);
+  --text-1:var(--gl-cream); --text-2:#A9BAC0; --text-3:#75858B; --text-inverse:var(--gl-ink-deep); --text-on-brand:var(--gl-ink-deep);
+  --brand:var(--gl-teal-light); --brand-hover:#5FD4EA; --brand-press:#2FADC6; --brand-soft:#13303A; --brand-contrast:var(--gl-teal-light);
+  --support:var(--gl-indigo-light); --support-soft:#1F2338;
+  --border-1:rgba(228,237,240,.10); --border-2:rgba(228,237,240,.18); --border-strong:rgba(228,237,240,.45);
+  --focus:var(--gl-teal-light); --highlight:rgba(63,196,221,.22); --shadow-rgb:3 8 10;
+}

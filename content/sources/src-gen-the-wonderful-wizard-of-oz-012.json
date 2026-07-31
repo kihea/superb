@@ -1,18 +1,18 @@
 {
   "id": "src-gen-the-wonderful-wizard-of-oz-012",
   "pool": "sourced",
-  "text": "So they marched away until they came near to Dorothy. Then the Lion gave a great roar and sprang towards them, and the poor Winkies were so frightened that they ran back as fast as they could. When they returned to the castle the Wicked Witch beat them well with a strap, and sent them back to their work, after which she sat down to think what she should do next. She could not understand how all her plans to destroy these strangers had failed; but she was a powerful Witch, as well as a wicked one, and she soon made up her mind how to act. There was, in her cupboard, a Golden Cap, with a circle of diamonds and rubies running round it.",
+  "text": "“One would almost suspect you had brains in your head, instead of straw.” The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through. Then the Lion put his strong front legs against the tree and pushed with all his might, and slowly the big tree tipped and fell with a crash across the ditch, with its top branches on the other side. They had just started to cross this queer bridge when a sharp growl made them all look up, and to their horror they saw running toward them two great beasts with bodies like bears and heads like tigers. “They are the Kalidahs!” said the Cowardly Lion, beginning to tremble. “Quick!” cried the Scarecrow.",
   "words": [
     {
-      "word": "wicked",
+      "word": "axe",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cupboard",
+      "word": "growl",
       "signals": [
-        "apposition"
+        "gloss-overlap"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "L. Frank Baum",
     "year": 1900,
     "source": "Project Gutenberg #55",
-    "url": "https://www.gutenberg.org/ebooks/55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

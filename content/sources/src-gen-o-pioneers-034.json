@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-o-pioneers-034",
+  "pool": "sourced",
+  "text": "Everywhere the grain stood ripe and the hot afternoon was full of the smell of the ripe wheat, like the smell of bread baking in an oven. The breath of the wheat and the sweet clover passed him like pleasant things in a dream. He could feel nothing but the sense of diminishing distance. It seemed to him that his mare was flying, or running on wheels, like a railway train. The sunlight, flashing on the window-glass of the big red barns, drove him wild with joy.",
+  "words": [
+    {
+      "word": "grain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oven",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "clover",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "O Pioneers!",
+    "author": "Willa Cather",
+    "year": 1913,
+    "source": "Project Gutenberg #24",
+    "url": "https://www.gutenberg.org/ebooks/24.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

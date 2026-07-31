@@ -1,10 +1,34 @@
 {
   "id": "src-gen-villette-011",
   "pool": "sourced",
-  "text": "What was near me? Something in that vast solitary garret sounded strangely. Most surely and certainly I heard, as it seemed, a stealthy foot on that floor: a sort of gliding out from the direction of the black recess haunted by the malefactor cloaks. I turned: my light was dim; the room was long—but as I live! I saw in the middle of that ghostly chamber a figure all black and white; the skirts straight, narrow, black; the head bandaged, veiled, white.",
+  "text": "A clear white muslin dress, a blue sash (the Virgin’s colours), a pair of white, or straw-colour kid gloves—such was the gala uniform, to the assumption whereof that houseful of teachers and pupils devoted three mortal hours. But though simple, it must be allowed the array was perfect—perfect in fashion, fit, and freshness; every head being also dressed with exquisite nicety, and a certain compact taste—suiting the full, firm comeliness of Labassecourien contours, though too stiff for any more flowing and flexible style of beauty—the general effect was, on the whole, commendable. In beholding this diaphanous and snowy mass, I well remember feeling myself to be a mere shadowy spot on a field of light; the courage was not in me to put on a transparent white dress: something thin I must wear—the weather and rooms being too hot to give substantial fabrics sufferance, so I had sought through a dozen shops till I lit upon a crape-like material of purple-gray—the colour, in short, of dun mist, lying on a moor in bloom.",
   "words": [
     {
-      "word": "veiled",
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "transparent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dun",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "moor",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Charlotte Bronte",
     "year": 1853,
     "source": "Project Gutenberg #9182",
-    "url": "https://www.gutenberg.org/ebooks/9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

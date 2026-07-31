@@ -1,16 +1,10 @@
 {
   "id": "src-gen-bleak-house-013",
   "pool": "sourced",
-  "text": "“My dear Miss Summerson, here is our friend Richard,” said Mr. Skimpole, “full of the brightest visions of the future, which he evokes out of the darkness of Chancery. Now that’s delightful, that’s inspiriting, that’s full of poetry! In old times the woods and solitudes were made joyous to the shepherd by the imaginary piping and dancing of Pan and the nymphs. This present shepherd, our pastoral Richard, brightens the dull Inns of Court by making Fortune and her train sport through them to the melodious notes of a judgment from the bench. That’s very pleasant, you know!",
+  "text": "The courts are all shut up; the public offices lie in a hot sleep. Westminster Hall itself is a shady solitude where nightingales might sing, and a tenderer class of suitors than is usually found there, walk. The Temple, Chancery Lane, Serjeants’ Inn, and Lincoln’s Inn even unto the Fields are like tidal harbours at low water, where stranded proceedings, offices at anchor, idle clerks lounging on lop-sided stools that will not recover their perpendicular until the current of Term sets in, lie high and dry upon the ooze of the long vacation. Outer doors of chambers are shut up by the score, messages and parcels are to be left at the Porter’s Lodge by the bushel. A crop of grass would grow in the chinks of the stone pavement outside Lincoln’s Inn Hall, but that the ticket-porters, who have nothing to do beyond sitting in the shade there, with their white aprons over their heads to keep the flies off, grub it up and eat it thoughtfully.",
   "words": [
     {
-      "word": "delightful",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "joyous",
+      "word": "parcels",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1853,
     "source": "Project Gutenberg #1023",
-    "url": "https://www.gutenberg.org/ebooks/1023",
+    "url": "https://www.gutenberg.org/ebooks/1023.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

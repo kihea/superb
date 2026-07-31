@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-black-beauty-024",
+  "pool": "sourced",
+  "text": "I hate to be suspicious, and, thank heaven, I have no cause to be, for I can trust my men, present or absent; but there are mean scoundrels, wicked enough to rob a dumb beast of his food. You must look into it.” And turning to his man, who had come to take me, “Give this horse a right good feed of bruised oats, and don't stint him.” “Dumb beasts!” Yes, we are; but if I could have spoken I could have told my master where his oats went to. My groom used to come every morning about six o'clock, and with him a little boy, who always had a covered basket with him. He used to go with his father into the harness-room, where the corn was kept, and I could see them, when the door stood ajar, fill a little bag with oats out of the bin, and then he used to be off.",
+  "words": [
+    {
+      "word": "absent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "groom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "harness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Black Beauty",
+    "author": "Anna Sewell",
+    "year": 1877,
+    "source": "Project Gutenberg #271",
+    "url": "https://www.gutenberg.org/ebooks/271.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

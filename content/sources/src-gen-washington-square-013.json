@@ -1,22 +1,16 @@
 {
   "id": "src-gen-washington-square-013",
   "pool": "sourced",
-  "text": "But if she doesn’t get the money and he finds himself tied to her, Heaven have mercy on her! He will have none. He will hate her for his disappointment, and take his revenge; he will be pitiless and cruel. Woe betide poor Catherine! I recommend you to talk a little with his sister; it’s a pity Catherine can’t marry her!” Mrs. Penniman had no appetite whatever for conversation with Mrs. Montgomery, whose acquaintance she made no trouble to cultivate; and the effect of this alarming forecast of her niece’s destiny was to make her think it indeed a thousand pities that Mr. Townsend’s generous nature should be embittered.",
+  "text": "Mr. Townsend can have had no particular interest in bringing them together.” “If she is an exemplary woman, no. But we shall see to what extent she answers your description.” “I shall be curious to hear her description of you!” said Mrs. Almond, with a laugh. “And, meanwhile, how is Catherine taking it?” “As she takes everything—as a matter of course.” “Doesn’t she make a noise? Hasn’t she made a scene?” “She is not scenic.” “I thought a love-lorn maiden was always scenic.” “A fantastic widow is more so. Lavinia has made me a speech; she thinks me very arbitrary.” “She has a talent for being in the wrong,” said Mrs. Almond.",
   "words": [
     {
-      "word": "forecast",
+      "word": "maiden",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "niece",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "destiny",
+      "word": "arbitrary",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Henry James",
     "year": 1880,
     "source": "Project Gutenberg #2870",
-    "url": "https://www.gutenberg.org/ebooks/2870",
+    "url": "https://www.gutenberg.org/ebooks/2870.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

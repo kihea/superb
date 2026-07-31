@@ -1,0 +1,77 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-022",
+  "pool": "sourced",
+  "text": "I had had a blackboard prepared, and it was put up now, and the circus began. It was beautiful to hear the lad lay out the science of war, and wallow in details of battle and siege, of supply, transportation, mining and countermining, grand tactics, big strategy and little strategy, signal service, infantry, cavalry, artillery, and all about siege guns, field guns, gatling guns, rifled guns, smooth bores, musket practice, revolver practice--and not a solitary word of it all could these catfish make head or tail of, you understand--and it was handsome to see him chalk off mathematical nightmares on the blackboard that would stump the angels themselves, and do it like nothing, too--all about eclipses, and comets, and solstices, and constellations, and mean time, and sidereal time, and dinner time, and bedtime, and every other imaginable thing above the clouds or under them that you could harry or bullyrag an enemy with and make him wish he hadn't come--and when the boy made his military salute and stood aside at last, I was proud enough to hug him, and all those other people were so dazed they looked partly petrified, partly drunk, and wholly caught out and snowed under.",
+  "words": [
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "siege",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tactics",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "infantry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cavalry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "artillery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "catfish",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bedtime",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "salute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "hug",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

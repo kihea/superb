@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-dracula-027",
+  "pool": "sourced",
+  "text": "I will undertake that if you will satisfy even me--a stranger, without prejudice, and with the habit of keeping an open mind--Dr. Seward will give you, at his own risk and on his own responsibility, the privilege you seek.” He shook his head sadly, and with a look of poignant regret on his face. The Professor went on:-- “Come, sir, bethink yourself. You claim the privilege of reason in the highest degree, since you seek to impress us with your complete reasonableness. You do this, whose sanity we have reason to doubt, since you are not yet released from medical treatment for this very defect. If you will not help us in our effort to choose the wisest course, how can we perform the duty which you yourself put upon us?",
+  "words": [
+    {
+      "word": "prejudice",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "source": "Project Gutenberg #345",
+    "url": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

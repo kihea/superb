@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-023",
+  "pool": "sourced",
+  "text": "God, in pity, made man beautiful and alluring, after his own image; but my form is a filthy type of yours, more horrid even from the very resemblance. Satan had his companions, fellow devils, to admire and encourage him, but I am solitary and abhorred.’ “These were the reflections of my hours of despondency and solitude; but when I contemplated the virtues of the cottagers, their amiable and benevolent dispositions, I persuaded myself that when they should become acquainted with my admiration of their virtues they would compassionate me and overlook my personal deformity. Could they turn from their door one, however monstrous, who solicited their compassion and friendship? I resolved, at least, not to despair, but in every way to fit myself for an interview with them which would decide my fate. I postponed this attempt for some months longer, for the importance attached to its success inspired me with a dread lest I should fail.",
+  "words": [
+    {
+      "word": "solitary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "solitude",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "admiration",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "compassionate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

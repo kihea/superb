@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-hard-times-036",
+  "pool": "sourced",
+  "text": "Every sound of insects in the air, every stirring of the leaves, every whisper among these men, made Sissy tremble, for she thought it was a cry at the bottom of the pit. But the wind blew idly over it, and no sound arose to the surface, and they sat upon the grass, waiting and waiting. After they had waited some time, straggling people who had heard of the accident began to come up; then the real help of implements began to arrive. In the midst of this, Rachael returned; and with her party there was a surgeon, who brought some wine and medicines. But, the expectation among the people that the man would be found alive was very slight indeed.",
+  "words": [
+    {
+      "word": "whisper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "surgeon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

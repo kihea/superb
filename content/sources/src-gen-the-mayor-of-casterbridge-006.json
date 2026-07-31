@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-mayor-of-casterbridge-006",
   "pool": "sourced",
-  "text": "And yet the seed that was to lift the foundation of this friendship was at that moment taking root in a chink of its structure. It was about six o’clock; the men were dropping off homeward one by one. The last to leave was a round-shouldered, blinking young man of nineteen or twenty, whose mouth fell ajar on the slightest provocation, seemingly because there was no chin to support it. Henchard called aloud to him as he went out of the gate, “Here—Abel Whittle!” Whittle turned, and ran back a few steps. “Yes, sir,” he said, in breathless deprecation, as if he knew what was coming next.",
+  "text": "Hence, through the long, straight, entrance passages thus unclosed could be seen, as through tunnels, the mossy gardens at the back, glowing with nasturtiums, fuchsias, scarlet geraniums, “bloody warriors,” snapdragons, and dahlias, this floral blaze being backed by crusted grey stone-work remaining from a yet remoter Casterbridge than the venerable one visible in the street. The old-fashioned fronts of these houses, which had older than old-fashioned backs, rose sheer from the pavement, into which the bow windows protruded like bastions, necessitating a pleasing chassez-déchassez movement to the time-pressed pedestrian at every few yards. He was bound also to evolve other Terpsichorean figures in respect of door-steps, scrapers, cellar-hatches, church buttresses, and the overhanging angles of walls which, originally unobtrusive, had become bow-legged and knock-kneed. In addition to these fixed obstacles which spoke so cheerfully of individual unrestraint as to boundaries, movables occupied the path and roadway to a perplexing extent. First the vans of the carriers in and out of Casterbridge, who hailed from Mellstock, Weatherbury, The Hintocks, Sherton-Abbas, Kingsbere, Overcombe, and many other towns and villages round.",
   "words": [
     {
-      "word": "chin",
+      "word": "tunnels",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "venerable",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Thomas Hardy",
     "year": 1886,
     "source": "Project Gutenberg #143",
-    "url": "https://www.gutenberg.org/ebooks/143",
+    "url": "https://www.gutenberg.org/ebooks/143.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

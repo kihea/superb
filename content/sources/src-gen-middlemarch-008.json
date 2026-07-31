@@ -1,28 +1,34 @@
 {
   "id": "src-gen-middlemarch-008",
   "pool": "sourced",
-  "text": "Even drawing Dorothea into use in his study, according to his own intention before marriage, was an effort which he was always tempted to defer, and but for her pleading insistence it might never have begun. But she had succeeded in making it a matter of course that she should take her place at an early hour in the library and have work either of reading aloud or copying assigned her. The work had been easier to define because Mr. Casaubon had adopted an immediate intention: there was to be a new Parergon, a small monograph on some lately traced indications concerning the Egyptian mysteries whereby certain assertions of Warburton’s could be corrected. References were extensive even here, but not altogether shoreless; and sentences were actually to be written in the shape wherein they would be scanned by Brasenose and a less formidable posterity. These minor monumental productions were always exciting to Mr. Casaubon; digestion was made difficult by the interference of citations, or by the rivalry of dialectical phrases ringing against each other in his brain.",
+  "text": "Also, the high standard held up to the public mind by the College of Physicians, which gave its peculiar sanction to the expensive and highly rarefied medical instruction obtained by graduates of Oxford and Cambridge, did not hinder quackery from having an excellent time of it; for since professional practice chiefly consisted in giving a great many drugs, the public inferred that it might be better off with more drugs still, if they could only be got cheaply, and hence swallowed large cubic measures of physic prescribed by unscrupulous ignorance which had taken no degrees. Considering that statistics had not yet embraced a calculation as to the number of ignorant or canting doctors which absolutely must exist in the teeth of all changes, it seemed to Lydgate that a change in the units was the most direct mode of changing the numbers. He meant to be a unit who would make a certain amount of difference towards that spreading change which would one day tell appreciably upon the averages, and in the mean time have the pleasure of making an advantageous difference to the viscera of his own patients.",
   "words": [
     {
-      "word": "monograph",
+      "word": "sanction",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "productions",
+      "word": "hinder",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "phrases",
+      "word": "cubic",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "ringing",
+      "word": "prescribed",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ignorant",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +39,7 @@
     "author": "George Eliot",
     "year": 1871,
     "source": "Project Gutenberg #145",
-    "url": "https://www.gutenberg.org/ebooks/145",
+    "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-kidnapped-031",
+  "pool": "sourced",
+  "text": "Sometimes I was broad awake and understood what passed; sometimes I only heard voices, or men snoring, like the voice of a silly river; and the plaids upon the wall dwindled down and swelled out again, like firelight shadows on the roof. I must sometimes have spoken or cried out, for I remember I was now and then amazed at being answered; yet I was conscious of no particular nightmare, only of a general, black, abiding horror--a horror of the place I was in, and the bed I lay in, and the plaids on the wall, and the voices, and the fire, and myself. The barber-gillie, who was a doctor too, was called in to prescribe for me; but as he spoke in the Gaelic, I understood not a word of his opinion, and was too sick even to ask for a translation. I knew well enough I was ill, and that was all I cared about. I paid little heed while I lay in this poor pass.",
+  "words": [
+    {
+      "word": "awake",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "conscious",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prescribe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

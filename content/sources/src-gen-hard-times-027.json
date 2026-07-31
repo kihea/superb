@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-hard-times-027",
+  "pool": "sourced",
+  "text": "‘You know no good of the fellow?’ ‘No, certainly.’ ‘Nor of any other such person?’ ‘How can I,’ she returned, with more of her first manner on her than he had lately seen, ‘when I know nothing of them, men or women?’ ‘My dear Louisa, then consent to receive the submissive representation of your devoted friend, who knows something of several varieties of his excellent fellow-creatures—for excellent they are, I am quite ready to believe, in spite of such little foibles as always helping themselves to what they can get hold of. This fellow talks. Well; every fellow talks. He professes morality. Well; all sorts of humbugs profess morality.",
+  "words": [
+    {
+      "word": "morality",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "source": "Project Gutenberg #786",
+    "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

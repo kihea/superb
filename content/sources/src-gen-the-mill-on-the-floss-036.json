@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-the-mill-on-the-floss-036",
+  "pool": "sourced",
+  "text": "Borne Along by the Tide In less than a week Maggie was at St Ogg’s again,—outwardly in much the same position as when her visit there had just begun. It was easy for her to fill her mornings apart from Lucy without any obvious effort; for she had her promised visits to pay to her aunt Glegg, and it was natural that she should give her mother more than usual of her companionship in these last weeks, especially as there were preparations to be thought of for Tom’s housekeeping. But Lucy would hear of no pretext for her remaining away in the evenings; she must always come from aunt Glegg’s before dinner,—“else what shall I have of you?” said Lucy, with a tearful pout that could not be resisted. And Mr Stephen Guest had unaccountably taken to dining at Mr Deane’s as often as possible, instead of avoiding that, as he used to do. At first he began his mornings with a resolution that he would not dine there, not even go in the evening, till Maggie was away.",
+  "words": [
+    {
+      "word": "housekeeping",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "evenings",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dine",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mill on the Floss",
+    "author": "George Eliot",
+    "year": 1860,
+    "source": "Project Gutenberg #6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

@@ -1,16 +1,22 @@
 {
   "id": "src-gen-pride-and-prejudice-005",
   "pool": "sourced",
-  "text": "The world is blinded by his fortune and consequence, or frightened by his high and imposing manners, and sees him only as he chooses to be seen.” “I should take him, even on my slight acquaintance, to be an ill-tempered man.” Wickham only shook his head. “I wonder,” said he, at the next opportunity of speaking, “whether he is likely to be in this country much longer.” “I do not at all know; but I heard nothing of his going away when I was at Netherfield. I hope your plans in favour of the ----shire will not be affected by his being in the neighbourhood.” “Oh no--it is not for me to be driven away by Mr. Darcy. If he wishes to avoid seeing me he must go. We are not on friendly terms, and it always gives me pain to meet him, but I have no reason for avoiding him but what I might proclaim to all the world--a sense of very great ill-usage, and most painful regrets at his being what he is.",
+  "text": "But I am afraid you are giving it a turn which that gentleman did by no means intend; for he would certainly think the better of me if, under such a circumstance, I were to give a flat denial, and ride off as fast as I could.” “Would Mr. Darcy then consider the rashness of your original intention as atoned for by your obstinacy in adhering to it?” “Upon my word, I cannot exactly explain the matter--Darcy must speak for himself.” “You expect me to account for opinions which you choose to call mine, but which I have never acknowledged. Allowing the case, however, to stand according to your representation, you must remember, Miss Bennet, that the friend who is supposed to desire his return to the house, and the delay of his plan, has merely desired it, asked it without offering one argument in favour of its propriety.” “To yield readily--easily--to the persuasion of a friend is no merit with you.” “To yield without conviction is no compliment to the understanding of either.” “You appear to me, Mr. Darcy, to allow nothing for the influence of friendship and affection.",
   "words": [
     {
-      "word": "acquaintance",
+      "word": "yield",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "avoiding",
+      "word": "readily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "persuasion",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1813,
     "source": "Project Gutenberg #1342",
-    "url": "https://www.gutenberg.org/ebooks/1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

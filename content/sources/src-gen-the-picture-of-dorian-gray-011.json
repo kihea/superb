@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-picture-of-dorian-gray-011",
   "pool": "sourced",
-  "text": "You people who go in for being consistent have just as many moods as others have. The only difference is that your moods are rather meaningless. You can’t have forgotten that you assured me most solemnly that nothing in the world would induce you to send it to any exhibition. You told Harry exactly the same thing.” He stopped suddenly, and a gleam of light came into his eyes. He remembered that Lord Henry had said to him once, half seriously and half in jest, “If you want to have a strange quarter of an hour, get Basil to tell you why he won’t exhibit your picture.",
+  "text": "Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape. “We are talking about poor Dartmoor, Lord Henry,” cried the duchess, nodding pleasantly to him across the table. “Do you think he will really marry this fascinating young person?” “I believe she has made up her mind to propose to him, Duchess.” “How dreadful!” exclaimed Lady Agatha. “Really, some one should interfere.” “I am told, on excellent authority, that her father keeps an American dry-goods store,” said Sir Thomas Burdon, looking supercilious. “My uncle has already suggested pork-packing, Sir Thomas.” “Dry-goods!",
   "words": [
     {
-      "word": "exhibit",
+      "word": "fortunately",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "intensely",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nodding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pleasantly",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Oscar Wilde",
     "year": 1890,
     "source": "Project Gutenberg #174",
-    "url": "https://www.gutenberg.org/ebooks/174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

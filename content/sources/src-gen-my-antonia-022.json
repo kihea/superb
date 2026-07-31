@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-my-antonia-022",
+  "pool": "sourced",
+  "text": "The popcorn man wheeled his glass wagon under the big cottonwood by the door, and lounged in the sun, sure of a good trade when the dancing was over. Mr. Jensen, the Danish laundryman, used to bring a chair from his porch and sit out in the grass plot. Some ragged little boys from the depot sold pop and iced lemonade under a white umbrella at the corner, and made faces at the spruce youngsters who came to dance. That vacant lot soon became the most cheerful place in town. Even on the hottest afternoons the cottonwoods made a rustling shade, and the air smelled of popcorn and melted butter, and Bouncing Bets wilting in the sun.",
+  "words": [
+    {
+      "word": "popcorn",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wagon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "porch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "umbrella",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

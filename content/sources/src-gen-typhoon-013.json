@@ -1,16 +1,22 @@
 {
   "id": "src-gen-typhoon-013",
   "pool": "sourced",
-  "text": "What the devil did the coolies matter to anybody? And when he came out, the extremity of the ship made what went on inside of her appear of little moment. At first he thought he had left the alleyway in the very moment of her sinking. The bridge ladders had been washed away, but an enormous sea filling the after-deck floated him up. After that he had to lie on his stomach for some time, holding to a ring-bolt, getting his breath now and then, and swallowing salt water.",
+  "text": "And what afterwards? Steer four points over the other way, I suppose, to make the course good. What put it into your head that I would start to tack a steamer as if she were a sailing-ship?” “Jolly good thing she isn't,” threw in Jukes, with bitter readiness. “She would have rolled every blessed stick out of her this afternoon.” “Aye! And you just would have had to stand and see them go,” said Captain MacWhirr, showing a certain animation.",
   "words": [
     {
-      "word": "washed",
+      "word": "steer",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "swallowing",
+      "word": "tack",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailing",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Joseph Conrad",
     "year": 1902,
     "source": "Project Gutenberg #1142",
-    "url": "https://www.gutenberg.org/ebooks/1142",
+    "url": "https://www.gutenberg.org/ebooks/1142.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,46 @@
 {
   "id": "src-gen-the-portrait-of-a-lady-007",
   "pool": "sourced",
-  "text": "May I not come and see you for half an hour? This at present is the dearest wish of yours faithfully, CASPAR GOODWOOD. Isabel read this missive with such deep attention that she had not perceived an approaching tread on the soft grass. Looking up, however, as she mechanically folded it she saw Lord Warburton standing before her. She put the letter into her pocket and offered her visitor a smile of welcome, exhibiting no trace of discomposure and half surprised at her coolness.",
+  "text": "The girl had a certain nobleness of imagination which rendered her a good many services and played her a great many tricks. She spent half her time in thinking of beauty and bravery and magnanimity; she had a fixed determination to regard the world as a place of brightness, of free expansion, of irresistible action: she held it must be detestable to be afraid or ashamed. She had an infinite hope that she should never do anything wrong. She had resented so strongly, after discovering them, her mere errors of feeling (the discovery always made her tremble as if she had escaped from a trap which might have caught her and smothered her) that the chance of inflicting a sensible injury upon another person, presented only as a contingency, caused her at moments to hold her breath. That always struck her as the worst thing that could happen to her.",
   "words": [
     {
-      "word": "perceived",
+      "word": "ashamed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "approaching",
+      "word": "infinite",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "exhibiting",
+      "word": "discovering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mere",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "escaped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensible",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "contingency",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +51,7 @@
     "author": "Henry James",
     "year": 1881,
     "source": "Project Gutenberg #2833",
-    "url": "https://www.gutenberg.org/ebooks/2833",
+    "url": "https://www.gutenberg.org/ebooks/2833.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

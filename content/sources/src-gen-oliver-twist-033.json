@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-oliver-twist-033",
+  "pool": "sourced",
+  "text": "Persuaded, in part, by these representations, but overborne in a much greater degree by his fear of Fagin, Mr. Bolter at length consented, with a very bad grace, to undertake the expedition. By Fagin’s directions, he immediately substituted for his own attire, a waggoner’s frock, velveteen breeches, and leather leggings: all of which articles the Jew had at hand. He was likewise furnished with a felt hat well garnished with turnpike tickets; and a carter’s whip. Thus equipped, he was to saunter into the office, as some country fellow from Covent Garden market might be supposed to do for the gratification of his curiousity; and as he was as awkward, ungainly, and raw-boned a fellow as need be, Mr. Fagin had no fear but that he would look the part to perfection. These arrangements completed, he was informed of the necessary signs and tokens by which to recognise the Artful Dodger, and was conveyed by Master Bates through dark and winding ways to within a very short distance of Bow Street.",
+  "words": [
+    {
+      "word": "attire",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "furnished",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "perfection",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

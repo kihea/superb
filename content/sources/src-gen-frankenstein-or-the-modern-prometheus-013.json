@@ -1,10 +1,28 @@
 {
   "id": "src-gen-frankenstein-or-the-modern-prometheus-013",
   "pool": "sourced",
-  "text": "I only wonder that at that moment, instead of venting my sensations in exclamations and agony, I did not rush among mankind and perish in the attempt to destroy them. “While I was overcome by these feelings, I left the spot where I had committed the murder, and seeking a more secluded hiding-place, I entered a barn which had appeared to me to be empty. A woman was sleeping on some straw; she was young, not indeed so beautiful as her whose portrait I held, but of an agreeable aspect and blooming in the loveliness of youth and health. Here, I thought, is one of those whose joy-imparting smiles are bestowed on all but me. And then I bent over her and whispered, ‘Awake, fairest, thy lover is near—he who would give his life but to obtain one look of affection from thine eyes; my beloved, awake!’ “The sleeper stirred; a thrill of terror ran through me.",
+  "text": "Victor says that he knows who was the murderer of poor William.” “We do also, unfortunately,” replied my father, “for indeed I had rather have been for ever ignorant than have discovered so much depravity and ungratitude in one I valued so highly.” “My dear father, you are mistaken; Justine is innocent.” “If she is, God forbid that she should suffer as guilty. She is to be tried today, and I hope, I sincerely hope, that she will be acquitted.” This speech calmed me. I was firmly convinced in my own mind that Justine, and indeed every human being, was guiltless of this murder. I had no fear, therefore, that any circumstantial evidence could be brought forward strong enough to convict her. My tale was not one to announce publicly; its astounding horror would be looked upon as madness by the vulgar.",
   "words": [
     {
-      "word": "thrill",
+      "word": "murderer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquitted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "firmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "convict",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Mary Shelley",
     "year": 1818,
     "source": "Project Gutenberg #84",
-    "url": "https://www.gutenberg.org/ebooks/84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

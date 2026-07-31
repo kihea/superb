@@ -1,23 +1,10 @@
 {
   "id": "src-gen-heart-of-darkness-018",
   "pool": "sourced",
-  "text": "And yet I had only supported him, his bony arm clasped round my neck—and he was not much heavier than a child. “When next day we left at noon, the crowd, of whose presence behind the curtain of trees I had been acutely conscious all the time, flowed out of the woods again, filled the clearing, covered the slope with a mass of naked, breathing, quivering, bronze bodies. I steamed up a bit, then swung down stream, and two thousand eyes followed the evolutions of the splashing, thumping, fierce river-demon beating the water with its terrible tail and breathing black smoke into the air. In front of the first rank, along the river, three men, plastered with bright red earth from head to foot, strutted to and fro restlessly.",
+  "text": "The steamer toiled along slowly on the edge of a black and incomprehensible frenzy. The prehistoric man was cursing us, praying to us, welcoming us—who could tell? We were cut off from the comprehension of our surroundings; we glided past like phantoms, wondering and secretly appalled, as sane men would be before an enthusiastic outbreak in a madhouse. We could not understand because we were too far and could not remember because we were travelling in the night of first ages, of those ages that are gone, leaving hardly a sign—and no memories. “The earth seemed unearthly.",
   "words": [
     {
-      "word": "noon",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "flowed",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "steamed",
+      "word": "incomprehensible",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,7 +15,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "source": "Project Gutenberg #219",
-    "url": "https://www.gutenberg.org/ebooks/219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

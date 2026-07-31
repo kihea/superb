@@ -1,16 +1,10 @@
 {
   "id": "src-gen-tess-of-the-d-urbervilles-002",
   "pool": "sourced",
-  "text": "But what’s one among so many!” “Better than none. ’Tis melancholy work facing and footing it to one of your own sort, and no clipsing and colling at all. Now, pick and choose.” “’Ssh—don’t be so for’ard!” said a shyer girl. The young man, thus invited, glanced them over, and attempted some discrimination; but, as the group were all so new to him, he could not very well exercise it. He took almost the first that came to hand, which was not the speaker, as she had expected; nor did it happen to be Tess Durbeyfield.",
+  "text": "“Sir John d’Urberville—that’s who I am,” continued the prostrate man. “That is if knights were baronets—which they be. ’Tis recorded in history all about me. Dost know of such a place, lad, as Kingsbere-sub-Greenhill?” “Ees. I’ve been there to Greenhill Fair.” “Well, under the church of that city there lie—” “’Tisn’t a city, the place I mean; leastwise ’twaddn’ when I was there—’twas a little one-eyed, blinking sort o’ place.” “Never you mind the place, boy, that’s not the question before us.",
   "words": [
     {
-      "word": "melancholy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "footing",
+      "word": "lad",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Thomas Hardy",
     "year": 1891,
     "source": "Project Gutenberg #110",
-    "url": "https://www.gutenberg.org/ebooks/110",
+    "url": "https://www.gutenberg.org/ebooks/110.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

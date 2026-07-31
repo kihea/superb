@@ -1,10 +1,28 @@
 {
   "id": "src-gen-two-years-before-the-mast-018",
   "pool": "sourced",
-  "text": "A lad who had been at work at the royal mast-head, came down upon the deck, and took a turn round the long-boat; and looking very pale, said he was so sick that he could stay aloft no longer, but was ashamed to acknowledge it to the officer. He went up again, but soon gave out and came down, and leaned over the rail, \"as sick as a lady passenger.\" He had been to sea several years, and had, he said, never been sick before. He was made so by the irregular, pitching motion of the vessel, increased by the height to which he had been above the hull, which is like the fulcrum of the lever. An old sailor, who was at work on the top-gallant yard, said he felt disagreeably all the time, and was glad, when his job was done, to get down into the top, or upon the deck.",
+  "text": "A light whale-boat, handsomely painted, and fitted out with stern seats, yoke, tiller-ropes, etc., hung on the starboard quarter, and was used as the gig. The youngest lad in the ship, a Boston boy about thirteen years old, was coxswain of this boat, and had the entire charge of her, to keep her clean, and have her in readiness to go and come at any hour. Four light hands, of about the same size and age, of whom I was one, formed the crew. Each had his oar and seat numbered, and we were obliged to be in our places, have our oars scraped white, our tholepins in, and the fenders over the side. The bow-man had charge of the boat-hook and painter, and the coxswain of the rudder, yoke, and stern-sheets.",
   "words": [
     {
-      "word": "lever",
+      "word": "starboard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "youngest",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lad",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rudder",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

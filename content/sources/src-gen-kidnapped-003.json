@@ -1,10 +1,22 @@
 {
   "id": "src-gen-kidnapped-003",
   "pool": "sourced",
-  "text": "With this notion, all unacknowledged, but nevertheless getting firmly settled in my head, I now began to imitate his covert looks; so that we sat at table like a cat and a mouse, each stealthily observing the other. Not another word had he to say to me, black or white, but was busy turning something secretly over in his mind; and the longer we sat and the more I looked at him, the more certain I became that the something was unfriendly to myself. When he had cleared the platter, he got out a single pipeful of tobacco, just as in the morning, turned round a stool into the chimney corner, and sat awhile smoking, with his back to me. “Davie,” he said, at length, “I’ve been thinking;” then he paused, and said it again. “There’s a wee bit siller that I half promised ye before ye were born,” he continued; “promised it to your father.",
+  "text": "The nearer I got to that, the drearier it appeared. It seemed like the one wing of a house that had never been finished. What should have been the inner end stood open on the upper floors, and showed against the sky with steps and stairs of uncompleted masonry. Many of the windows were unglazed, and bats flew in and out like doves out of a dove-cote. The night had begun to fall as I got close; and in three of the lower windows, which were very high up and narrow, and well barred, the changing light of a little fire began to glimmer.",
   "words": [
     {
-      "word": "stool",
+      "word": "stairs",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "flew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dove",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1886,
     "source": "Project Gutenberg #421",
-    "url": "https://www.gutenberg.org/ebooks/421",
+    "url": "https://www.gutenberg.org/ebooks/421.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

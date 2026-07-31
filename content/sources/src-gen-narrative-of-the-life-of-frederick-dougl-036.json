@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-036",
+  "pool": "sourced",
+  "text": "In the afternoon of the day when I reached New Bedford, I visited the wharves, to take a view of the shipping. Here I found myself surrounded with the strongest proofs of wealth. Lying at the wharves, and riding in the stream, I saw many ships of the finest model, in the best order, and of the largest size. Upon the right and left, I was walled in by granite warehouses of the widest dimensions, stowed to their utmost capacity with the necessaries and comforts of life. Added to this, almost every body seemed to be at work, but noiselessly so, compared with what I had been accustomed to in Baltimore.",
+  "words": [
+    {
+      "word": "walled",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

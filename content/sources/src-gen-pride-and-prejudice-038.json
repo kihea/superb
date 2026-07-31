@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-pride-and-prejudice-038",
+  "pool": "sourced",
+  "text": "“You have no regard, then, for the honour and credit of my nephew! Unfeeling, selfish girl! Do you not consider that a connection with you must disgrace him in the eyes of everybody?” “Lady Catherine, I have nothing further to say. You know my sentiments.” “You are then resolved to have him?” “I have said no such thing. I am only resolved to act in that manner, which will, in my own opinion, constitute my happiness, without reference to you, or to any person so wholly unconnected with me.” “It is well.",
+  "words": [
+    {
+      "word": "disgrace",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "source": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

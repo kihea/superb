@@ -20,7 +20,7 @@ table covers only the reference datasets `data/pipeline/` builds from.
 
 | Dataset | Source | Licence | URL | Retrieved | Used for |
 |---|---|---|---|---|---|
-| wordfreq | Robyn Speer (Apache-2.0 code); blends Google Books Ngrams, Wikipedia, Leeds Internet Corpus, OpenSubtitles, and SUBTLEX-US | Apache-2.0 (code); SUBTLEX-US component cleared for any use by Marc Brysbaert's written permission to the author, credit required — see `data/NOTICE.md` | https://github.com/rspeer/wordfreq | 2026-07-25 | `data/pipeline/frequency.py` — the frequency table (`data/out/frequency.json`) that names the 5,000-25,000 teaching band; also the real-word filter in `data/pipeline/pseudowords.py` |
+| wordfreq | Robyn Speer (Apache-2.0 code); blends Google Books Ngrams, Wikipedia, Leeds Internet Corpus, OpenSubtitles, and SUBTLEX-US | Apache-2.0 (code); SUBTLEX-US component cleared for any use by Marc Brysbaert's written permission to the author, credit required — see `data/NOTICE.md` | https://github.com/rspeer/wordfreq | 2026-07-25 | `data/pipeline/frequency.py` — the frequency table (`data/out/frequency.json`) that names the 5,000-25,000 teaching band; also the real-word filter in `data/pipeline/pseudowords.py`; and `data/pipeline/difficulty.py` — the word-to-difficulty table (`content/difficulty.json`, ADR-029), which maps each slot-lexicon word onto the engine's ability scale so a new reader's first passage is drawn by difficulty rather than by filename order. That table ships in the app: it carries 388 rounded values derived from this same list, under the attribution `data/NOTICE.md` already records, and adds no licence surface this row did not already state |
 | WordNet 3.0 | Princeton University | Custom permissive (free use, copy, modify, distribute; must carry the WordNet copyright notice) | https://wordnet.princeton.edu/ | 2026-07-25 | `content/scripts/check_classes.py` — the slot-class substitution test (build/test tool, not shipped content) |
 | Wiktionary, via `wiktextract` | English Wiktionary contributors, extracted by Tatu Ylonen's `wiktextract` (MIT code), published by kaikki.org | CC BY-SA 4.0 or GFDL (reader's choice) — share-alike obligation deliberately accepted per ADR-008's amendment | https://kaikki.org/dictionary/English/ | 2026-07-25 | `data/pipeline/glosses.py` — raw dictionary glosses (`data/out/glosses.json`), rewritten and panel-reviewed downstream (ADR-012) before anything reaches a reader; attribution to Wiktionary is required wherever a gloss surfaces (Settings → About). Also consulted, read-only, by `data/pipeline/excerpts.py`'s "gloss-overlap" informativeness signal — the gloss text itself never ships from that path; it only helps decide whether an excerpt's own sentence already explains a word, so it carries no separate share-alike surface beyond the one this row already states |
 | Pseudoword generator | Original — an English syllable/phonotactics model written for this project; no external dataset | N/A (no third-party content; only `wordfreq`'s word list is consulted, to confirm a generated form is *not* a real word) | — | 2026-07-25 | `data/pipeline/pseudowords.py` — the calibration list (`data/out/pseudowords.json`) used to correct for guessing, per `docs/engine-contract.md` |
@@ -28,8 +28,18 @@ table covers only the reference datasets `data/pipeline/` builds from.
 
 ## Content licence
 
-The passage library (`content/passages/`), the slot classes
-(`content/classes/`), and any rewritten glosses that ship are released
-**CC0** — the project owns the infrastructure that serves this content, not
-the content itself (ADR-008 amendment). Attribution is welcomed and never
-required.
+The passage library (`content/passages/`) and the slot classes
+(`content/classes/`) are released **CC0** — the project owns the
+infrastructure that serves this content, not the content itself (ADR-008
+amendment). Attribution is welcomed and never required.
+
+Rewritten glosses are not CC0: they start from the Wiktionary row above, so
+they carry Wiktionary's credit and share-alike terms downstream, whenever a
+gloss reaches a build (Settings → About), exactly as that row already
+states. This paragraph previously listed "any rewritten glosses that ship"
+alongside the CC0 content — corrected while building the licence-claims
+gate (`data/pipeline/check_license_claims.py`), which found this section
+disagreeing with the Wiktionary row three lines above it. The wrong sentence
+never had a live reader-facing consequence, because `data/pipeline/glosses.py`
+has not shipped output yet, but it was already the wrong answer to a question
+this file exists to answer correctly.

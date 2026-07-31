@@ -1,22 +1,28 @@
 {
   "id": "src-gen-the-scarlet-letter-018",
   "pool": "sourced",
-  "text": "Children have always a sympathy in the agitations of those connected with them: always, especially, a sense of any trouble or impending revolution, of whatever kind, in domestic circumstances; and therefore Pearl, who was the gem on her mother’s unquiet bosom, betrayed, by the very dance of her spirits, the emotions which none could detect in the marble passiveness of Hester’s brow. This effervescence made her flit with a bird-like movement, rather than walk by her mother’s side. She broke continually into shouts of a wild, inarticulate, and sometimes piercing music. When they reached the market-place, she became still more restless, on perceiving the stir and bustle that enlivened the spot; for it was usually more like the broad and lonesome green before a village meeting-house, than the centre of a town’s business. “Why, what is this, mother?” cried she.",
+  "text": "Sometimes a light glimmered out of the physician’s eyes, burning blue and ominous, like the reflection of a furnace, or, let us say, like one of those gleams of ghastly fire that darted from Bunyan’s awful doorway in the hillside, and quivered on the pilgrim’s face. The soil where this dark miner was working had perchance shown indications that encouraged him. “This man,” said he, at one such moment, to himself, “pure as they deem him—all spiritual as he seems—hath inherited a strong animal nature from his father or his mother. Let us dig a little further in the direction of this vein!” Then after long search into the minister’s dim interior, and turning over many precious materials, in the shape of high aspirations for the welfare of his race, warm love of souls, pure sentiments, natural piety, strengthened by thought and study, and illuminated by revelation—all of which invaluable gold was perhaps no better than rubbish to the seeker—he would turn back, discouraged, and begin his quest towards another point.",
   "words": [
     {
-      "word": "gem",
+      "word": "pilgrim",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shouts",
+      "word": "vein",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cried",
+      "word": "illuminated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "seeker",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

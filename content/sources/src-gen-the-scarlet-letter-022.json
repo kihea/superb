@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-scarlet-letter-022",
+  "pool": "sourced",
+  "text": "The whole tribe of decorous personages, who had never heretofore been seen with a single hair of their heads awry, would start into public view with the disorder of a nightmare in their aspects. Old Governor Bellingham would come grimly forth, with his King James’ ruff fastened askew, and Mistress Hibbins, with some twigs of the forest clinging to her skirts, and looking sourer than ever, as having hardly got a wink of sleep after her night ride; and good Father Wilson too, after spending half the night at a death-bed, and liking ill to be disturbed, thus early, out of his dreams about the glorified saints. Hither, likewise, would come the elders and deacons of Mr. Dimmesdale’s church, and the young virgins who so idolized their minister, and had made a shrine for him in their white bosoms, which now, by the by, in their hurry and confusion, they would scantly have given themselves time to cover with their kerchiefs. All people, in a word, would come stumbling over their thresholds, and turning up their amazed and horror-stricken visages around the scaffold. Whom would they discern there, with the red eastern light upon his brow?",
+  "words": [
+    {
+      "word": "wink",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

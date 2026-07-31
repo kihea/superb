@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-frankenstein-or-the-modern-prometheus-026",
+  "pool": "sourced",
+  "text": "Shall I respect man when he condemns me? Let him live with me in the interchange of kindness, and instead of injury I would bestow every benefit upon him with tears of gratitude at his acceptance. But that cannot be; the human senses are insurmountable barriers to our union. Yet mine shall not be the submission of abject slavery. I will revenge my injuries; if I cannot inspire love, I will cause fear, and chiefly towards you my arch-enemy, because my creator, do I swear inextinguishable hatred.",
+  "words": [
+    {
+      "word": "slavery",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "source": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

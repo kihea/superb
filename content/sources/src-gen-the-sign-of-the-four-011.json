@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-sign-of-the-four-011",
   "pool": "sourced",
-  "text": "“I had thought of that. But you notice that he keeps on the pavement, whereas the barrel passed down the roadway. No, we are on the true scent now.” It tended down towards the river-side, running through Belmont Place and Prince’s Street. At the end of Broad Street it ran right down to the water’s edge, where there was a small wooden wharf. Toby led us to the very edge of this, and there stood whining, looking out on the dark current beyond.",
+  "text": "“You have done well, sir, from first to last,” said he. “It is possible that we may be able to make you some small return by throwing some light upon that which is still dark to you. But, as Miss Morstan remarked just now, it is late, and we had best put the matter through without delay.” Our new acquaintance very deliberately coiled up the tube of his hookah, and produced from behind a curtain a very long befrogged topcoat with Astrakhan collar and cuffs. This he buttoned tightly up, in spite of the extreme closeness of the night, and finished his attire by putting on a rabbit-skin cap with hanging lappets which covered the ears, so that no part of him was visible save his mobile and peaky face. “My health is somewhat fragile,” he remarked, as he led the way down the passage.",
   "words": [
     {
-      "word": "wharf",
+      "word": "acquaintance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "curtain",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rabbit",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1890,
     "source": "Project Gutenberg #2097",
-    "url": "https://www.gutenberg.org/ebooks/2097",
+    "url": "https://www.gutenberg.org/ebooks/2097.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

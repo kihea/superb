@@ -1,23 +1,10 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-015",
   "pool": "sourced",
-  "text": "“Come, sir, come!” cried Frankland, rushing upstairs. “You will see with your own eyes and judge for yourself.” The telescope, a formidable instrument mounted upon a tripod, stood upon the flat leads of the house. Frankland clapped his eye to it and gave a cry of satisfaction. “Quick, Dr. Watson, quick, before he passes over the hill!” There he was, sure enough, a small urchin with a little bundle upon his shoulder, toiling slowly up the hill. When he reached the crest I saw the ragged uncouth figure outlined for an instant against the cold blue sky.",
+  "text": "You see, it isn’t like any ordinary convict. This is a man that would stick at nothing.” “Who is he, then?” “It is Selden, the Notting Hill murderer.” I remembered the case well, for it was one in which Holmes had taken an interest on account of the peculiar ferocity of the crime and the wanton brutality which had marked all the actions of the assassin. The commutation of his death sentence had been due to some doubts as to his complete sanity, so atrocious was his conduct. Our wagonette had topped a rise and in front of us rose the huge expanse of the moor, mottled with gnarled and craggy cairns and tors. A cold wind swept down from it and set us shivering.",
   "words": [
     {
-      "word": "telescope",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "crest",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "outlined",
+      "word": "peculiar",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

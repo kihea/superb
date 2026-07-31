@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-031",
+  "pool": "sourced",
+  "text": "The government had just succeeded, with some difficulty, in reducing these independent fanatics to its rule. It had made itself master of Utah, and subjected that territory to the laws of the Union, after imprisoning Brigham Young on a charge of rebellion and polygamy. The disciples of the prophet had since redoubled their efforts, and resisted, by words at least, the authority of Congress. Elder Hitch, as is seen, was trying to make proselytes on the very railway trains. Then, emphasising his words with his loud voice and frequent gestures, he related the history of the Mormons from Biblical times: how that, in Israel, a Mormon prophet of the tribe of Joseph published the annals of the new religion, and bequeathed them to his son Mormon; how, many centuries later, a translation of this precious book, which was written in Egyptian, was made by Joseph Smith, junior, a Vermont farmer, who revealed himself as a mystical prophet in 1825; and how, in short, the celestial messenger appeared to him in an illuminated forest, and gave him the annals of the Lord.",
+  "words": [
+    {
+      "word": "rebellion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

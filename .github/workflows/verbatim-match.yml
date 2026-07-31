@@ -1,0 +1,54 @@
+name: verbatim-match
+
+# The standing instrument the fifth ADVISORY-015 addendum requires
+# (data/pipeline/tests/verbatim_match.py): every sourced excerpt is checked
+# against its own cited Project Gutenberg source, and the job fails if any
+# excerpt is not a contiguous span of that source without a marked omission.
+#
+# Not wired into data-license.yml's on-every-push gate: a full run touches
+# 127 distinct Gutenberg works, and data/cache/gutenberg/ (where the script
+# caches what it fetches) is gitignored, so a from-scratch run on every push
+# would mean 127 requests to an external server on every commit to content/.
+# Instead this runs on demand and weekly, with the cache persisted across
+# runs via actions/cache — the second and later runs fetch nothing at all,
+# and only a cache eviction or a genuinely new cited work costs a real fetch.
+# The instrument itself is fully runnable locally at any time with:
+#   python data/pipeline/tests/verbatim_match.py
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 6 * * 1" # Monday mornings — catches drift, not every commit
+
+jobs:
+  match:
+    name: every excerpt against its cited source
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pipeline tooling
+        run: pip install -r data/pipeline/requirements.txt
+
+      - name: Download nltk's punkt tokenizer
+        run: python -c "import nltk; nltk.download('punkt_tab', quiet=True)"
+
+      - name: Restore the fetched-sources cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache/gutenberg
+          # No content-derived key: the cache is the same 127 fetched books
+          # regardless of what content/sources/*.json says, so any run
+          # restores it and only a genuinely new cited work adds to it.
+          key: gutenberg-sources-v1
+          restore-keys: |
+            gutenberg-sources-
+
+      - name: Verbatim match every excerpt against its cited source
+        run: python data/pipeline/tests/verbatim_match.py

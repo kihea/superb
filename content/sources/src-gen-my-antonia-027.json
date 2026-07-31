@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-my-antonia-027",
+  "pool": "sourced",
+  "text": "I struck downstream and shouted, as the open spring wagon came into view on the middle span. They stopped the horse, and the two girls in the bottom of the cart stood up, steadying themselves by the shoulders of the two in front, so that they could see me better. They were charming up there, huddled together in the cart and peering down at me like curious deer when they come out of the thicket to drink. I found bottom near the bridge and stood up, waving to them. ‘How pretty you look!’ I called.",
+  "words": [
+    {
+      "word": "wagon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "span",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cart",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "source": "Project Gutenberg #242",
+    "url": "https://www.gutenberg.org/ebooks/242.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

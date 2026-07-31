@@ -1,7 +1,7 @@
 {
   "id": "src-gen-gulliver-s-travels-005",
   "pool": "sourced",
-  "text": "Some of your servants were to have private orders to strew a poisonous juice on your shirts and sheets, which would soon make you tear your own flesh, and die in the utmost torture. The general came into the same opinion; so that for a long time there was a majority against you; but his majesty resolving, if possible, to spare your life, at last brought off the chamberlain. “Upon this incident, Reldresal, principal secretary for private affairs, who always approved himself your true friend, was commanded by the emperor to deliver his opinion, which he accordingly did; and therein justified the good thoughts you have of him. He allowed your crimes to be great, but that still there was room for mercy, the most commendable virtue in a prince, and for which his majesty was so justly celebrated. He said, the friendship between you and him was so well known to the world, that perhaps the most honourable board might think him partial; however, in obedience to the command he had received, he would freely offer his sentiments.",
+  "text": "About two or three days before I was set at liberty, as I was entertaining the court with this kind of feat, there arrived an express to inform his majesty, that some of his subjects, riding near the place where I was first taken up, had seen a great black substance lying on the ground, very oddly shaped, extending its edges round, as wide as his majesty’s bedchamber, and rising up in the middle as high as a man; that it was no living creature, as they at first apprehended, for it lay on the grass without motion; and some of them had walked round it several times; that, by mounting upon each other’s shoulders, they had got to the top, which was flat and even, and, stamping upon it, they found that it was hollow within; that they humbly conceived it might be something belonging to the man-mountain; and if his majesty pleased, they would undertake to bring it with only five horses. I presently knew what they meant, and was glad at heart to receive this intelligence.",
   "words": [
     {
       "word": "majesty",
@@ -10,19 +10,31 @@
       ]
     },
     {
-      "word": "chamberlain",
+      "word": "edges",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "virtue",
+      "word": "creature",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "sentiments",
+      "word": "apprehended",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "mounting",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shoulders",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +45,7 @@
     "author": "Jonathan Swift",
     "year": 1726,
     "source": "Project Gutenberg #829",
-    "url": "https://www.gutenberg.org/ebooks/829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

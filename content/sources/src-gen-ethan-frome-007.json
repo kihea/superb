@@ -1,10 +1,28 @@
 {
   "id": "src-gen-ethan-frome-007",
   "pool": "sourced",
-  "text": "Unhappily Orin Silver, a man of far-reaching aims, had died too soon to prove that the end justifies the means. His accounts revealed merely what the means had been; and these were such that it was fortunate for his wife and daughter that his books were examined only after his impressive funeral. His wife died of the disclosure, and Mattie, at twenty, was left alone to make her way on the fifty dollars obtained from the sale of her piano. For this purpose her equipment, though varied, was inadequate. She could trim a hat, make molasses candy, recite “Curfew shall not ring to-night,” and play “The Lost Chord” and a pot-pourri from “Carmen.” When she tried to extend the field of her activities in the direction of stenography and book-keeping her health broke down, and six months on her feet behind the counter of a department store did not tend to restore it.",
+  "text": "Mattie Silver had lived under his roof for a year, and from early morning till they met at supper he had frequent chances of seeing her; but no moments in her company were comparable to those when, her arm in his, and her light step flying to keep time with his long stride, they walked back through the night to the farm. He had taken to the girl from the first day, when he had driven over to the Flats to meet her, and she had smiled and waved to him from the train, crying out, “You must be Ethan!” as she jumped down with her bundles, while he reflected, looking over her slight person: “She don’t look much on housework, but she ain’t a fretter, anyhow.” But it was not only that the coming to his house of a bit of hopeful young life was like the lighting of a fire on a cold hearth. The girl was more than the bright serviceable creature he had thought her.",
   "words": [
     {
-      "word": "inadequate",
+      "word": "supper",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "stride",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "waved",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "reflected",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Edith Wharton",
     "year": 1911,
     "source": "Project Gutenberg #4517",
-    "url": "https://www.gutenberg.org/ebooks/4517",
+    "url": "https://www.gutenberg.org/ebooks/4517.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

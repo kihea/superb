@@ -1,10 +1,16 @@
 {
   "id": "src-gen-wuthering-heights-006",
   "pool": "sourced",
-  "text": "“And the gate is open: he is somewhere out of hearing; for he would not reply, though I shouted at the top of the fold as loud as I could.” Joseph objected at first; she was too much in earnest, however, to suffer contradiction; and at last he placed his hat on his head, and walked grumbling forth. Meantime, Catherine paced up and down the floor, exclaiming—“I wonder where he is—I wonder where he can be! What did I say, Nelly? I’ve forgotten. Was he vexed at my bad humour this afternoon?",
+  "text": "Hindley and Cathy contented themselves with looking and listening till peace was restored: then, both began searching their father’s pockets for the presents he had promised them. The former was a boy of fourteen, but when he drew out what had been a fiddle, crushed to morsels in the great-coat, he blubbered aloud; and Cathy, when she learned the master had lost her whip in attending on the stranger, showed her humour by grinning and spitting at the stupid little thing; earning for her pains a sound blow from her father, to teach her cleaner manners. They entirely refused to have it in bed with them, or even in their room; and I had no more sense, so I put it on the landing of the stairs, hoping it might be gone on the morrow. By chance, or else attracted by hearing his voice, it crept to Mr. Earnshaw’s door, and there he found it on quitting his chamber. Inquiries were made as to how it got there; I was obliged to confess, and in recompense for my cowardice and inhumanity was sent out of the house.",
   "words": [
     {
-      "word": "shouted",
+      "word": "aloud",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "whip",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Emily Brontë",
     "year": 1847,
     "source": "Project Gutenberg #768",
-    "url": "https://www.gutenberg.org/ebooks/768",
+    "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

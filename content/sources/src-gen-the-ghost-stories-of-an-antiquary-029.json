@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-ghost-stories-of-an-antiquary-029",
+  "pool": "sourced",
+  "text": "and stand, still and dumb, gazing with a frightened look at his face, whiter than her own. Whereupon Mrs. Flanagan came bolting out again, with wild eyes and a sort of stupefied horror in her good, coarse, Irish features; and then, with some uncouth ejaculation, ran back, and was heard to tumble over something within, and tumble something else over in her fall, and gather herself up with a subdued howl, and subside. \"Mrs. Miller,\" began Dr. Renton, in a low, husky voice, glancing at her frightened face, \"I hope you'll be composed. I spoke to you very harshly and rudely to-night; but I really was not myself--I was in anger--and I ask your pardon. Please to overlook it all, and--but I will speak of this presently; now--I am a physician; will you let me look now at your sick child?\"",
+  "words": [
+    {
+      "word": "tumble",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "husky",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "overlook",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Ghost Stories of an Antiquary",
+    "author": "M. R. James",
+    "year": 1904,
+    "source": "Project Gutenberg #26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-crime-and-punishment-031",
+  "pool": "sourced",
+  "text": "“Listen to the owl!” Katerina Ivanovna whispered at once, her good-humour almost restored, “she meant to say he kept his hands in his pockets, but she said he put his hands in people’s pockets. (Cough-cough.) And have you noticed, Rodion Romanovitch, that all these Petersburg foreigners, the Germans especially, are all stupider than we! Can you fancy anyone of us telling how ‘Karl from the chemist’s’ ‘pierced his heart from fear’ and that the idiot, instead of punishing the cabman, ‘clasped his hands and wept, and much begged.’ Ah, the fool! And you know she fancies it’s very touching and does not suspect how stupid she is!",
+  "words": [
+    {
+      "word": "owl",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "foreigners",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "chemist",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "source": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/ebooks/2554.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

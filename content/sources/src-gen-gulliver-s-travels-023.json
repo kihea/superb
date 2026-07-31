@@ -1,0 +1,24 @@
+{
+  "id": "src-gen-gulliver-s-travels-023",
+  "pool": "sourced",
+  "text": "Then I took down the sentence in writing. He showed me also, in one of his books, the figures of the sun, moon, and stars, the zodiac, the tropics, and polar circles, together with the denominations of many planes and solids. He gave me the names and descriptions of all the musical instruments, and the general terms of art in playing on each of them. After he had left me, I placed all my words, with their interpretations, in alphabetical order. And thus, in a few days, by the help of a very faithful memory, I got some insight into their language.",
+  "words": [
+    {
+      "word": "zodiac",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": 1726,
+    "source": "Project Gutenberg #829",
+    "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

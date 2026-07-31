@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mill-on-the-floss-012",
   "pool": "sourced",
-  "text": "“It’s wicked to curse and bear malice.” “It isn’t wicked, I tell you,” said her father, fiercely. “It’s wicked as the raskills should prosper; it’s the Devil’s doing. Do as I tell you, Tom. Write.” “What am I to write?” said Tom, with gloomy submission. “Write as your father, Edward Tulliver, took service under John Wakem, the man as had helped to ruin him, because I’d promised my wife to make her what amends I could for her trouble, and because I wanted to die in th’ old place where I was born and my father was born.",
+  "text": "So, not to be at a deficiency, in case of his finding genial companions, he had taken care to carry with him a small box of percussion-caps; not that there was anything particular to be done with them, but they would serve to impress strange boys with a sense of his familiarity with guns. Thus poor Tom, though he saw very clearly through Maggie’s illusions, was not without illusions of his own, which were to be cruelly dissipated by his enlarged experience at King’s Lorton. He had not been there a fortnight before it was evident to him that life, complicated not only with the Latin grammar but with a new standard of English pronunciation, was a very difficult business, made all the more obscure by a thick mist of bashfulness. Tom, as you have observed, was never an exception among boys for ease of address; but the difficulty of enunciating a monosyllable in reply to Mr or Mrs Stelling was so great, that he even dreaded to be asked at table whether he would have more pudding.",
   "words": [
     {
-      "word": "prosper",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "amends",
+      "word": "pronunciation",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,29 +1,16 @@
 {
   "id": "src-gen-white-fang-009",
   "pool": "sourced",
-  "text": "When he was rolled on his side he ceased to growl, when the fingers pressed and prodded at the base of his ears the pleasurable sensation increased; and when, with a final rub and scratch, the man left him alone and went away, all fear had died out of White Fang. He was to know fear many times in his dealing with man; yet it was a token of the fearless companionship with man that was ultimately to be his. After a time, White Fang heard strange noises approaching. He was quick in his classification, for he knew them at once for man-animal noises. A few minutes later the remainder of the tribe, strung out as it was on the march, trailed in.",
+  "text": "The sapling remained bent above him. When he moved it moved, and he growled at it through his clenched jaws; when he remained still, it remained still, and he concluded it was safer to continue remaining still. Yet the warm blood of the rabbit tasted good in his mouth. It was his mate who relieved him from the quandary in which he found himself. She took the rabbit from him, and while the sapling swayed and teetered threateningly above her she calmly gnawed off the rabbit’s head.",
   "words": [
     {
-      "word": "growl",
+      "word": "jaws",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "scratch",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fearless",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "approaching",
+      "word": "swayed",
       "signals": [
         "gloss-overlap"
       ]
@@ -34,7 +21,7 @@
     "author": "Jack London",
     "year": 1906,
     "source": "Project Gutenberg #910",
-    "url": "https://www.gutenberg.org/ebooks/910",
+    "url": "https://www.gutenberg.org/ebooks/910.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

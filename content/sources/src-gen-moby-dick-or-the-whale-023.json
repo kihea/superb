@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-moby-dick-or-the-whale-023",
+  "pool": "sourced",
+  "text": "In some previous place I have described to you how the blubber wraps the body of the whale, as the rind wraps an orange. Just so with the head; but with this difference: about the head this envelope, though not so thick, is of a boneless toughness, inestimable by any man who has not handled it. The severest pointed harpoon, the sharpest lance darted by the strongest human arm, impotently rebounds from it. It is as though the forehead of the Sperm Whale were paved with horses’ hoofs. I do not think that any sensation lurks in it.",
+  "words": [
+    {
+      "word": "lance",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sensation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Moby-Dick; or, The Whale",
+    "author": "Herman Melville",
+    "year": 1851,
+    "source": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-034",
+  "pool": "sourced",
+  "text": "Tom he went to the soap-kettle and searched around, and fetched back the iron thing they lift the lid with; so he took it and prized out one of the staples. The chain fell down, and we opened the door and went in, and shut it, and struck a match, and see the shed was only built against a cabin and hadn’t no connection with it; and there warn’t no floor to the shed, nor nothing in it but some old rusty played-out hoes and spades and picks and a crippled plow. The match went out, and so did we, and shoved in the staple again, and the door was locked as good as ever. Tom was joyful. He says; “Now we’re all right.",
+  "words": [
+    {
+      "word": "kettle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spades",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staple",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

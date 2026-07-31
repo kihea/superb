@@ -1,22 +1,28 @@
 {
   "id": "src-gen-the-count-of-monte-cristo-013",
   "pool": "sourced",
-  "text": "Valentine found her grandmother in bed; silent caresses, heartwrung sobs, broken sighs, burning tears, were all that passed in this sad interview, while Madame de Villefort, leaning on her husband’s arm, maintained all outward forms of respect, at least towards the poor widow. She soon whispered to her husband: “I think it would be better for me to retire, with your permission, for the sight of me appears still to afflict your mother-in-law.” Madame de Saint-Méran heard her. “Yes, yes,” she said softly to Valentine, “let her leave; but do you stay.” Madame de Villefort left, and Valentine remained alone beside the bed, for the procureur, overcome with astonishment at the unexpected death, had followed his wife. Meanwhile, Barrois had returned for the first time to old Noirtier, who having heard the noise in the house, had, as we have said, sent his old servant to inquire the cause; on his return, his quick intelligent eye interrogated the messenger. “Alas, sir,” exclaimed Barrois, “a great misfortune has happened.",
+  "text": "I will send you to Constantinople.” “No, lest on the first demonstration I make in favor of Mehemet Ali, the Sultan send me the bowstring, and make my secretaries strangle me.” “You say very true,” responded Debray. “Yes,” said Albert, “but this has nothing to do with the existence of the Count of Monte Cristo.” “Pardieu! everyone exists.” “Doubtless, but not in the same way; everyone has not black slaves, a princely retinue, an arsenal of weapons that would do credit to an Arabian fortress, horses that cost six thousand francs apiece, and Greek mistresses.” “Have you seen the Greek mistress?” “I have both seen and heard her. I saw her at the theatre, and heard her one morning when I breakfasted with the count.” “He eats, then?” “Yes; but so little, it can hardly be called eating.” “He must be a vampire.” “Laugh, if you will; the Countess G——, who knew Lord Ruthven, declared that the count was a vampire.” “Ah, capital,” said Beauchamp.",
   "words": [
     {
-      "word": "grandmother",
+      "word": "slaves",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "apiece",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "outward",
+      "word": "mistress",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "retire",
+      "word": "vampire",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1184",
-    "url": "https://www.gutenberg.org/ebooks/1184",
+    "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

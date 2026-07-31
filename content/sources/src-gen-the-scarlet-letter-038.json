@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-scarlet-letter-038",
+  "pool": "sourced",
+  "text": "At that distance they accordingly stood, fixed there by the centrifugal force of the repugnance which the mystic symbol inspired. The whole gang of sailors, likewise, observing the press of spectators, and learning the purport of the scarlet letter, came and thrust their sunburnt and desperado-looking faces into the ring. Even the Indians were affected by a sort of cold shadow of the white man’s curiosity and, gliding through the crowd, fastened their snake-like black eyes on Hester’s bosom, conceiving, perhaps, that the wearer of this brilliantly embroidered badge must needs be a personage of high dignity among her people. Lastly, the inhabitants of the town (their own interest in this worn-out subject languidly reviving itself, by sympathy with what they saw others feel) lounged idly to the same quarter, and tormented Hester Prynne, perhaps more than all the rest, with their cool, well-acquainted gaze at her familiar shame. Hester saw and recognized the selfsame faces of that group of matrons, who had awaited her forthcoming from the prison-door seven years ago; all save one, the youngest and only compassionate among them, whose burial-robe she had since made.",
+  "words": [
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "badge",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "acquainted",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "source": "Project Gutenberg #33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mourning"
+}

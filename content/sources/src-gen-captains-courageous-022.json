@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-captains-courageous-022",
+  "pool": "sourced",
+  "text": "said Salters, wagging his head. \"All baound to make mistakes, an' I tell you two boys here thet after you've made a mistake--ye don't make fewer'n a hundred a day--the next best thing's to own up to it like men.\" Long Jack winked one tremendous wink that embraced all hands except Disko and Salters, and the incident was closed. Then they made berth after berth to the northward, the dories out almost every day, running along the east edge of the Grand Bank in thirty- to forty-fathom water, and fishing steadily. It was here Harvey first met the squid, who is one of the best cod-baits, but uncertain in his moods.",
+  "words": [
+    {
+      "word": "berth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "northward",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "fathom",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cod",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Captains Courageous",
+    "author": "Rudyard Kipling",
+    "year": 1897,
+    "source": "Project Gutenberg #2186",
+    "url": "https://www.gutenberg.org/ebooks/2186.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-persuasion-032",
+  "pool": "sourced",
+  "text": "I need not ask after her. She never misses, I know; and you must have seen her. She must have been in your own circle; for as you went with Lady Dalrymple, you were in the seats of grandeur, round the orchestra, of course.” “No, that was what I dreaded. It would have been very unpleasant to me in every respect. But happily Lady Dalrymple always chooses to be farther off; and we were exceedingly well placed, that is, for hearing; I must not say for seeing, because I appear to have seen very little.” “Oh!",
+  "words": [
+    {
+      "word": "farther",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "exceedingly",
+      "signals": [
+        "definition-marker"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

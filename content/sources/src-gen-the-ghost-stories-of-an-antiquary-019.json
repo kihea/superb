@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-019",
   "pool": "sourced",
-  "text": "Here comes Rollins in his shirt sleeves, with an apron on. Thick-set, muscular man--frizzled head, low forehead, sharp, black eyes, flabby face, with a false, greasy smile on it now, oiling over a curious, stealthy expression of mingled surprise and inquiry, as he sees his landlord here at this unusual hour. \"Come in here, Mr. Rollins; I want to speak to you.\" Jim\" (to the waiter), \"go and tend bar.\" They sat down in one of the booths, and lowered the curtain.",
+  "text": "Still it swelled, gathering and sounding on into yet mightier pathos, till all at once it darkened and spread wide in wild despair, and aspiring again into a pealing agony of supplication, quivered and died away in a low and funereal sigh. The tears streamed suddenly upon his face; his soul lightened and turned dark within him; and as one faints away, so consciousness swooned, and he fell suddenly down a precipice of sleep. The music rose again, a pensive and holy chant, and sounded on to its close, unaffected by the action of his brain, for he slept and heard it no more. He lay tranquilly, hardly seeming to breathe, in motionless repose. The room was dim and silent, and the furniture took uncouth shapes around him.",
   "words": [
     {
-      "word": "forehead",
+      "word": "sounding",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lowered",
+      "word": "darkened",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chant",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

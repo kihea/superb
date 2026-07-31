@@ -1,28 +1,22 @@
 {
   "id": "src-gen-anna-karenina-015",
   "pool": "sourced",
-  "text": "“Is ea id, ejus, ejus, ejus!” shouted Grisha, skipping along the avenue. “And someone else too! Papa, of course!” cried Levin, stopping at the entrance of the avenue. “Kitty, don’t come down the steep staircase, go round.” But Levin had been mistaken in taking the person sitting in the carriage for the old prince. As he got nearer to the carriage he saw beside Stepan Arkadyevitch not the prince but a handsome, stout young man in a Scotch cap, with long ends of ribbon behind.",
+  "text": "“In adopting this course, I am not casting off a guilty wife, but giving her a chance of amendment; and, indeed, difficult as the task will be to me, I shall devote part of my energies to her reformation and salvation.” Though Alexey Alexandrovitch was perfectly aware that he could not exert any moral influence over his wife, that such an attempt at reformation could lead to nothing but falsity; though in passing through these difficult moments he had not once thought of seeking guidance in religion, yet now, when his conclusion corresponded, as it seemed to him, with the requirements of religion, this religious sanction to his decision gave him complete satisfaction, and to some extent restored his peace of mind. He was pleased to think that, even in such an important crisis in life, no one would be able to say that he had not acted in accordance with the principles of that religion whose banner he had always held aloft amid the general coolness and indifference. As he pondered over subsequent developments, Alexey Alexandrovitch did not see, indeed, why his relations with his wife should not remain practically the same as before.",
   "words": [
     {
-      "word": "papa",
+      "word": "reformation",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mistaken",
+      "word": "sanction",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "beside",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ribbon",
+      "word": "practically",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "Leo Tolstoy",
     "year": 1877,
     "source": "Project Gutenberg #1399",
-    "url": "https://www.gutenberg.org/ebooks/1399",
+    "url": "https://www.gutenberg.org/ebooks/1399.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

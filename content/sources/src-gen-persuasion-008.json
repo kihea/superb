@@ -1,10 +1,22 @@
 {
   "id": "src-gen-persuasion-008",
   "pool": "sourced",
-  "text": "Let those who would be happy be firm. Here is a nut,” said he, catching one down from an upper bough, “to exemplify: a beautiful glossy nut, which, blessed with original strength, has outlived all the storms of autumn. Not a puncture, not a weak spot anywhere. This nut,” he continued, with playful solemnity, “while so many of his brethren have fallen and been trodden under foot, is still in possession of all the happiness that a hazel nut can be supposed capable of.” Then returning to his former earnest tone—“My first wish for all whom I am interested in, is that they should be firm. If Louisa Musgrove would be beautiful and happy in her November of life, she will cherish all her present powers of mind.” He had done, and was unanswered.",
+  "text": "how troublesome they are sometimes. I assure you, Miss Anne, it prevents my wishing to see them at our house so often as I otherwise should. I believe Mrs Charles is not quite pleased with my not inviting them oftener; but you know it is very bad to have children with one that one is obligated to be checking every moment; “don’t do this,” and “don’t do that;” or that one can only keep in tolerable order by more cake than is good for them.” She had this communication, moreover, from Mary. “Mrs Musgrove thinks all her servants so steady, that it would be high treason to call it in question; but I am sure, without exaggeration, that her upper house-maid and laundry-maid, instead of being in their business, are gadding about the village, all day long. I meet them wherever I go; and I declare, I never go twice into my nursery without seeing something of them.",
   "words": [
     {
-      "word": "storms",
+      "word": "assure",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "treason",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "nursery",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jane Austen",
     "year": 1817,
     "source": "Project Gutenberg #105",
-    "url": "https://www.gutenberg.org/ebooks/105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

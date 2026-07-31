@@ -1,22 +1,28 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-003",
   "pool": "sourced",
-  "text": "Be martial, sir, as when you stand in the ranks of the cadets on training-days! Steady, and stand the charge! He kept an inflexible front as she glided toward him, softly, slowly, with her bright eyes smiling into his, and doing dreadful execution. Then she put her white arms around his neck, laid her dear, fair head on his breast, and peered up archly into his stern visage. Spite of himself, he could not keep the fixed lines on his face from breaking confusedly into a faint smile.",
+  "text": "And the fire got into such a spasm of glowing indignation over the injury, that it lit a whole tier of black coals with a series of little explosions, before it could cool down, and sent a crimson gleam over the moody figure of its owner in the easy chair, and over the solemn furniture, and into the shadowy corner filled by the ghost. The spectre did not move when Dr. Renton arose and lit the chandelier. It stood there, still and gray, in the flood of mellow light. The curtains were drawn, and the twilight without had deepened into darkness. The fire was now burning in despite of itself, fanned by the wintry gusts, which found their way down the chimney.",
   "words": [
     {
-      "word": "cadets",
+      "word": "lit",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "smiling",
+      "word": "chandelier",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "spite",
+      "word": "twilight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "chimney",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

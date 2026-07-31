@@ -1,22 +1,16 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-012",
   "pool": "sourced",
-  "text": "We were dressed and barbered alike, and could pass for small farmers, or farm bailiffs, or shepherds, or carters; yes, or for village artisans, if we chose, our costume being in effect universal among the poor, because of its strength and cheapness. I don't mean that it was really cheap to a very poor person, but I do mean that it was the cheapest material there was for male attire--manufactured material, you understand. We slipped away an hour before dawn, and by broad sun-up had made eight or ten miles, and were in the midst of a sparsely settled country. I had a pretty heavy knapsack; it was laden with provisions--provisions for the king to taper down on, till he could take to the coarse fare of the country without damage. I found a comfortable seat for the king by the roadside, and then gave him a morsel or two to stay his stomach with.",
+  "text": "So I was pleased when I saw in the distance a horseman making the bottom turn of the road that wound down from this castle. As we approached each other, I saw that he wore a plumed helmet, and seemed to be otherwise clothed in steel, but bore a curious addition also--a stiff square garment like a herald's tabard. However, I had to smile at my own forgetfulness when I got nearer and read this sign on his tabard: “Persimmon's Soap -- All the Prime-Donna Use It.” That was a little idea of my own, and had several wholesome purposes in view toward the civilizing and uplifting of this nation. In the first place, it was a furtive, underhand blow at this nonsense of knight errantry, though nobody suspected that but me. I had started a number of these people out--the bravest knights I could get--each sandwiched between bulletin-boards bearing one device or another, and I judged that by and by when they got to be numerous enough they would begin to look ridiculous; and then, even the steel-clad ass that hadn't any board would himself begin to look ridiculous because he was out of the fashion.",
   "words": [
     {
-      "word": "alike",
+      "word": "bulletin",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "shepherds",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "costume",
+      "word": "clad",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-persuasion-031",
+  "pool": "sourced",
+  "text": "You can have been acquainted with it only since I came to Bath, excepting as you might hear me previously spoken of in my own family.” “I knew you by report long before you came to Bath. I had heard you described by those who knew you intimately. I have been acquainted with you by character many years. Your person, your disposition, accomplishments, manner; they were all present to me.” Mr Elliot was not disappointed in the interest he hoped to raise. No one can withstand the charm of such a mystery.",
+  "words": [
+    {
+      "word": "intimately",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

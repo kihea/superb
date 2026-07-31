@@ -1,18 +1,18 @@
 {
   "id": "src-gen-the-mill-on-the-floss-006",
   "pool": "sourced",
-  "text": "But older even than this old hall is perhaps the bit of wall now built into the belfry of the parish church, and said to be a remnant of the original chapel dedicated to St Ogg, the patron saint of this ancient town, of whose history I possess several manuscript versions. I incline to the briefest, since, if it should not be wholly true, it is at least likely to contain the least falsehood. “Ogg the son of Beorl,” says my private hagiographer, “was a boatman who gained a scanty living by ferrying passengers across the river Floss. And it came to pass, one evening when the winds were high, that there sat moaning by the brink of the river a woman with a child in her arms; and she was clad in rags, and had a worn and withered look, and she craved to be rowed across the river. And the men thereabout questioned her, and said, ‘Wherefore dost thou desire to cross the river?",
+  "text": "Is there any one who can recover the experience of his childhood, not merely with a memory of what he did and what happened to him, of what he liked and disliked when he was in frock and trousers, but with an intimate penetration, a revived consciousness of what he felt then, when it was so long from one Midsummer to another; what he felt when his school fellows shut him out of their game because he would pitch the ball wrong out of mere wilfulness; or on a rainy day in the holidays, when he didn’t know how to amuse himself, and fell from idleness into mischief, from mischief into defiance, and from defiance into sulkiness; or when his mother absolutely refused to let him have a tailed coat that “half,” although every other boy of his age had gone into tails already? Surely if we could recall that early bitterness, and the dim guesses, the strangely perspectiveless conception of life, that gave the bitterness its intensity, we should not pooh-pooh the griefs of our children. “Miss Maggie, you’re to come down this minute,” said Kezia, entering the room hurriedly.",
   "words": [
     {
-      "word": "chapel",
+      "word": "penetration",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     },
     {
-      "word": "patron",
+      "word": "guesses",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -21,7 +21,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

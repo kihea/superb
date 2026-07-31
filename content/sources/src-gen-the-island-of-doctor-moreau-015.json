@@ -1,28 +1,22 @@
 {
   "id": "src-gen-the-island-of-doctor-moreau-015",
   "pool": "sourced",
-  "text": "I had not thought before of the pain and trouble that came to these poor victims after they had passed from Moreau’s hands. I had shivered only at the days of actual torment in the enclosure. But now that seemed to me the lesser part. Before, they had been beasts, their instincts fitly adapted to their surroundings, and happy as living things may be. Now they stumbled in the shackles of humanity, lived in a fear that never died, fretted by a law they could not understand; their mock-human existence, begun in an agony, was one long internal struggle, one long dread of Moreau—and for what?",
+  "text": "“It is a man.” “It is a man,” gabbled my conductor, “a man, a man, a five-man, like me.” “Shut up!” said the voice from the dark, and grunted. I gnawed my cocoa-nut amid an impressive stillness. I peered hard into the blackness, but could distinguish nothing. “It is a man,” the voice repeated. “He comes to live with us?” It was a thick voice, with something in it—a kind of whistling overtone—that struck me as peculiar; but the English accent was strangely good.",
   "words": [
     {
-      "word": "lesser",
+      "word": "nut",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "mock",
+      "word": "distinguish",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "agony",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "dread",
+      "word": "accent",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1896,
     "source": "Project Gutenberg #159",
-    "url": "https://www.gutenberg.org/ebooks/159",
+    "url": "https://www.gutenberg.org/ebooks/159.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -10,7 +10,7 @@
       ]
     },
     {
-      "word": "planks",
+      "word": "rounded",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,25 +28,7 @@
       ]
     },
     {
-      "word": "clusters",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
       "word": "distant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "sails",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "spreading",
       "signals": [
         "gloss-overlap"
       ]
@@ -57,7 +39,7 @@
     "author": "George Eliot",
     "year": 1860,
     "source": "Project Gutenberg #6688",
-    "url": "https://www.gutenberg.org/ebooks/6688",
+    "url": "https://www.gutenberg.org/ebooks/6688.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

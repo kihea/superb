@@ -1,16 +1,10 @@
 {
   "id": "src-gen-the-mysterious-affair-at-styles-013",
   "pool": "sourced",
-  "text": "As she stood there, with her honest face upturned to mine, I thought what a fine specimen she was of the old-fashioned servant that is so fast dying out. I thought I might as well go down to the village at once, and look up Poirot; but I met him half-way, coming up to the house, and at once gave him Dorcas’s message. “Ah, the brave Dorcas! We will look at the chest, although—but no matter—we will examine it all the same.” We entered the house by one of the windows. There was no one in the hall, and we went straight up to the attic.",
+  "text": "One more question, Mr. Wells. You say ‘her last will.’ Had Mrs. Inglethorp, then, made several former wills?” “On an average, she made a new will at least once a year,” said Mr. Wells imperturbably. “She was given to changing her mind as to her testamentary dispositions, now benefiting one, now another member of her family.” “Suppose,” suggested Poirot, “that, unknown to you, she had made a new will in favour of someone who was not, in any sense of the word, a member of the family—we will say Miss Howard, for instance—would you be surprised?” “Not in the least.” “Ah!” Poirot seemed to have exhausted his questions. I drew close to him, while John and the lawyer were debating the question of going through Mrs. Inglethorp’s papers. “Do you think Mrs. Inglethorp made a will leaving all her money to Miss Howard?” I asked in a low voice, with some curiosity.",
   "words": [
     {
-      "word": "servant",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "attic",
+      "word": "curiosity",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Agatha Christie",
     "year": 1920,
     "source": "Project Gutenberg #863",
-    "url": "https://www.gutenberg.org/ebooks/863",
+    "url": "https://www.gutenberg.org/ebooks/863.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,24 +1,24 @@
 {
   "id": "src-gen-peter-pan-012",
   "pool": "sourced",
-  "text": "Presently he noticed as an odd thing that it was undoubtedly out upon the lagoon with some definite purpose, for it was fighting the tide, and sometimes winning; and when it won, Peter, always sympathetic to the weaker side, could not help clapping; it was such a gallant piece of paper. It was not really a piece of paper; it was the Never bird, making desperate efforts to reach Peter on the nest. By working her wings, in a way she had learned since the nest fell into the water, she was able to some extent to guide her strange craft, but by the time Peter recognised her she was very exhausted. She had come to save him, to give him her nest, though there were eggs in it. I rather wonder at the bird, for though he had been nice to her, he had also sometimes tormented her.",
+  "text": "Tink was not all bad; or, rather, she was all bad just now, but, on the other hand, sometimes she was all good. Fairies have to be one thing or the other, because being so small they unfortunately have room for one feeling only at a time. They are, however, allowed to change, only it must be a complete change. At present she was full of jealousy of Wendy. What she said in her lovely tinkle Wendy could not of course understand, and I believe some of it was bad words, but it sounded kind, and she flew back and forward, plainly meaning “Follow me, and all will be well.” What else could poor Wendy do?",
   "words": [
     {
-      "word": "lagoon",
+      "word": "sounded",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "nest",
+      "word": "flew",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     },
     {
-      "word": "recognised",
+      "word": "plainly",
       "signals": [
-        "gloss-overlap"
+        "definition-marker"
       ]
     }
   ],
@@ -27,7 +27,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-sea-wolf-010",
   "pool": "sourced",
-  "text": "But through it all I clung to the one idea—I must get the jib backed over to windward. I had no fear of death. I had no doubt but that I should come through somehow. And as this idea of fulfilling Wolf Larsen’s order persisted in my dazed consciousness, I seemed to see him standing at the wheel in the midst of the wild welter, pitting his will against the will of the storm and defying it. I brought up violently against what I took to be the rail, breathed, and breathed the sweet air again.",
+  "text": "A pair of beasts is what we were, penned together and showing our teeth. He was a coward, afraid to strike me because I had not quailed sufficiently in advance; so he chose a new way to intimidate me. There was only one galley knife that, as a knife, amounted to anything. This, through many years of service and wear, had acquired a long, lean blade. It was unusually cruel-looking, and at first I had shuddered every time I used it.",
   "words": [
     {
-      "word": "breathed",
+      "word": "intimidate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "galley",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blade",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Jack London",
     "year": 1904,
     "source": "Project Gutenberg #1074",
-    "url": "https://www.gutenberg.org/ebooks/1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

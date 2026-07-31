@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-vanity-fair-034",
+  "pool": "sourced",
+  "text": "The old gentleman had advanced Todd from being a clerk to be a junior partner in his establishment. Mr. Osborne was the godfather of young Master Todd (who in subsequent life wrote Mr. Osborne Todd on his cards and became a man of decided fashion), while Miss Osborne had accompanied Miss Maria Todd to the font, and gave her protegee a prayer-book, a collection of tracts, a volume of very low church poetry, or some such memento of her goodness every year. Miss O. drove the Todds out in her carriage now and then; when they were ill, her footman, in large plush smalls and waistcoat, brought jellies and delicacies from Russell Square to Coram Street. Coram Street trembled and looked up to Russell Square indeed, and Mrs. Todd, who had a pretty hand at cutting out paper trimmings for haunches of mutton, and could make flowers, ducks, &c., out of turnips and carrots in a very creditable manner, would go to \"the Square,\" as it was called, and assist in the preparations incident to a great dinner, without even so much as thinking of sitting down to the banquet.",
+  "words": [
+    {
+      "word": "gentleman",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "godfather",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "font",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tracts",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "banquet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

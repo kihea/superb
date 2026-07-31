@@ -1,10 +1,10 @@
 {
   "id": "src-gen-the-hound-of-the-baskervilles-014",
   "pool": "sourced",
-  "text": "“There is nothing in common between my father and me,” she said. “I owe him nothing, and his friends are not mine. If it were not for the late Sir Charles Baskerville and some other kind hearts I might have starved for all that my father cared.” “It was about the late Sir Charles Baskerville that I have come here to see you.” The freckles started out on the lady’s face. “What can I tell you about him?” she asked, and her fingers played nervously over the stops of her typewriter. “You knew him, did you not?” “I have already said that I owe a great deal to his kindness.",
+  "text": "Mr. Sherlock Holmes drove with me to the station and gave me his last parting injunctions and advice. “I will not bias your mind by suggesting theories or suspicions, Watson,” said he; “I wish you simply to report facts in the fullest possible manner to me, and you can leave me to do the theorizing.” “What sort of facts?” I asked. “Anything which may seem to have a bearing however indirect upon the case, and especially the relations between young Baskerville and his neighbours or any fresh particulars concerning the death of Sir Charles. I have made some inquiries myself in the last few days, but the results have, I fear, been negative. One thing only appears to be certain, and that is that Mr. James Desmond, who is the next heir, is an elderly gentleman of a very amiable disposition, so that this persecution does not arise from him.",
   "words": [
     {
-      "word": "kindness",
+      "word": "persecution",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1902,
     "source": "Project Gutenberg #2852",
-    "url": "https://www.gutenberg.org/ebooks/2852",
+    "url": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

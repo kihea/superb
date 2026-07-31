@@ -1,22 +1,16 @@
 {
   "id": "src-gen-narrative-of-the-life-of-frederick-dougl-020",
   "pool": "sourced",
-  "text": "We see the thief preaching against theft, and the adulterer against adultery. We have men sold to build churches, women sold to support the gospel, and babes sold to purchase Bibles for the Poor Heathen! All For The Glory Of God And The Good Of Souls! The slave auctioneer’s bell and the church-going bell chime in with each other, and the bitter cries of the heart-broken slave are drowned in the religious shouts of his pious master. Revivals of religion and revivals in the slave-trade go hand in hand together.",
+  "text": "I was ignorant of his temper and disposition; he was equally so of mine. A very short time, however, brought us into full acquaintance with each other. I was made acquainted with his wife not less than with himself. They were well matched, being equally mean and cruel. I was now, for the first time during a space of more than seven years, made to feel the painful gnawings of hunger—a something which I had not experienced before since I left Colonel Lloyd’s plantation.",
   "words": [
     {
-      "word": "thief",
+      "word": "disposition",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "adultery",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "pious",
+      "word": "acquaintance",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Frederick Douglass",
     "year": 1845,
     "source": "Project Gutenberg #23",
-    "url": "https://www.gutenberg.org/ebooks/23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

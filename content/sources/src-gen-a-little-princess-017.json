@@ -1,23 +1,10 @@
 {
   "id": "src-gen-a-little-princess-017",
   "pool": "sourced",
-  "text": "When she was scolded she stood still and listened politely with a grave face; when she was punished she performed her extra tasks or went without her meals, making no complaint or outward sign of rebellion. The very fact that she never made an impudent answer seemed to Miss Minchin a kind of impudence in itself. But after yesterday's deprivation of meals, the violent scene of last night, the prospect of hunger today, she must surely have broken down. It would be strange indeed if she did not come downstairs with pale cheeks and red eyes and an unhappy, humbled face. Miss Minchin saw her for the first time when she entered the schoolroom to hear the little French class recite its lessons and superintend its exercises.",
+  "text": "A happy, beautifully cared for little girl naturally attracts attention. Shabby, poorly dressed children are not rare enough and pretty enough to make people turn around to look at them and smile. No one looked at Sara in these days, and no one seemed to see her as she hurried along the crowded pavements. She had begun to grow very fast, and, as she was dressed only in such clothes as the plainer remnants of her wardrobe would supply, she knew she looked very queer, indeed. All her valuable garments had been disposed of, and such as had been left for her use she was expected to wear so long as she could put them on at all.",
   "words": [
     {
-      "word": "meals",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "prospect",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cheeks",
+      "word": "wardrobe",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,7 +15,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

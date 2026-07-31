@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-oliver-twist-030",
+  "pool": "sourced",
+  "text": "“That a young woman earnestly asks to speak to Miss Maylie alone,” said Nancy; “and that if the lady will only hear the first word she has to say, she will know whether to hear her business, or to have her turned out of doors as an impostor.” “I say,” said the man, “you’re coming it strong!” “You give the message,” said the girl firmly; “and let me hear the answer.” The man ran upstairs. Nancy remained, pale and almost breathless, listening with quivering lip to the very audible expressions of scorn, of which the chaste housemaids were very prolific; and of which they became still more so, when the man returned, and said the young woman was to walk upstairs. “It’s no good being proper in this world,” said the first housemaid. “Brass can do better than the gold what has stood the fire,” said the second. The third contented herself with wondering “what ladies was made of”; and the fourth took the first in a quartette of “Shameful!” with which the Dianas concluded.",
+  "words": [
+    {
+      "word": "firmly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prolific",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "source": "Project Gutenberg #730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "city"
+}

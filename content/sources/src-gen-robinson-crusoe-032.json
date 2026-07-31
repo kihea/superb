@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-robinson-crusoe-032",
+  "pool": "sourced",
+  "text": "When the settled season began to come in, as the thought of my design returned with the fair weather, I was preparing daily for the voyage. And the first thing I did was to lay by a certain quantity of provisions, being the stores for our voyage; and intended in a week or a fortnight’s time to open the dock, and launch out our boat. I was busy one morning upon something of this kind, when I called to Friday, and bid him to go to the sea-shore and see if he could find a turtle or a tortoise, a thing which we generally got once a week, for the sake of the eggs as well as the flesh. Friday had not been long gone when he came running back, and flew over my outer wall or fence, like one that felt not the ground or the steps he set his foot on; and before I had time to speak to him he cries out to me, “O master!",
+  "words": [
+    {
+      "word": "voyage",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "turtle",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tortoise",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "flew",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

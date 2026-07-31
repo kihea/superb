@@ -1,10 +1,28 @@
 {
   "id": "src-gen-silas-marner-014",
   "pool": "sourced",
-  "text": "In a few minutes he was on his rapid way to the Stone-pits by the side of Dolly, who, though feeling that she was entirely in her place in encountering cold and snow on an errand of mercy, was much concerned at a young gentleman’s getting his feet wet under a like impulse. “You’d a deal better go back, sir,” said Dolly, with respectful compassion. “You’ve no call to catch cold; and I’d ask you if you’d be so good as tell my husband to come, on your way back—he’s at the Rainbow, I doubt—if you found him anyway sober enough to be o’ use. Or else, there’s Mrs. Snell ’ud happen send the boy up to fetch and carry, for there may be things wanted from the doctor’s.” “No, I’ll stay, now I’m once out—I’ll stay outside here,” said Godfrey, when they came opposite Marner’s cottage. “You can come and tell me if I can do anything.” “Well, sir, you’re very good: you’ve a tender heart,” said Dolly, going to the door.",
+  "text": "The slight suspicion with which his hearers at first listened to him, gradually melted away before the convincing simplicity of his distress: it was impossible for the neighbours to doubt that Marner was telling the truth, not because they were capable of arguing at once from the nature of his statements to the absence of any motive for making them falsely, but because, as Mr. Macey observed, “Folks as had the devil to back ’em were not likely to be so mushed” as poor Silas was. Rather, from the strange fact that the robber had left no traces, and had happened to know the nick of time, utterly incalculable by mortal agents, when Silas would go away from home without locking his door, the more probable conclusion seemed to be, that his disreputable intimacy in that quarter, if it ever existed, had been broken up, and that, in consequence, this ill turn had been done to Marner by somebody it was quite in vain to set the constable after. Why this preternatural felon should be obliged to wait till the door was left unlocked, was a question which did not present itself.",
   "words": [
     {
-      "word": "gentleman",
+      "word": "gradually",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "distress",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "probable",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vain",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "George Eliot",
     "year": 1861,
     "source": "Project Gutenberg #550",
-    "url": "https://www.gutenberg.org/ebooks/550",
+    "url": "https://www.gutenberg.org/ebooks/550.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

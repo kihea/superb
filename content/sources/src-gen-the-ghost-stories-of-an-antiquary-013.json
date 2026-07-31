@@ -1,22 +1,16 @@
 {
   "id": "src-gen-the-ghost-stories-of-an-antiquary-013",
   "pool": "sourced",
-  "text": "Driven--by what? Driven from his house in horror, through street and lane, over half the city--driven--hunted in terror, and smitten by a shock here! Driven--driven! He could not rid his mind of the word, nor of the meaning it suggested. The pavements about him began to ring and echo with the tramp of many feet, and the cold, brittle air was shivered with the noisy voices that had roared and bawled applause and laughter at the National Theatre all the evening, and were now singing and howling homeward.",
+  "text": "In a moment he took up the faded sheets more reverently, but only to lay them down again. He had not been well that day, and he now felt worse than before. The pain in his head had given place to a strange sense of dilation, and there was a silent, confused riot in his fevered brain, which seemed to him like the incipience of insanity. Striving to divert his mind from what had passed, by reflection on other themes, he could not hold his thoughts; they came teeming but dim, and slipped and fell away; and only the one circumstance of his recent cruelty, mixed with remembrance of George Feval, recurred and clung with vivid persistence. This tortured him.",
   "words": [
     {
-      "word": "tramp",
+      "word": "striving",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "applause",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "laughter",
+      "word": "remembrance",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "M. R. James",
     "year": 1904,
     "source": "Project Gutenberg #26779",
-    "url": "https://www.gutenberg.org/ebooks/26779",
+    "url": "https://www.gutenberg.org/ebooks/26779.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

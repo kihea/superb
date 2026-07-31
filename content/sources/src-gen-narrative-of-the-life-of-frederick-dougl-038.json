@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-narrative-of-the-life-of-frederick-dougl-038",
+  "pool": "sourced",
+  "text": "Indeed, I can see no reason, but the most deceitful one, for calling the religion of this land Christianity. I look upon it as the climax of all misnomers, the boldest of all frauds, and the grossest of all libels. Never was there a clearer case of “stealing the livery of the court of heaven to serve the devil in.” I am filled with unutterable loathing when I contemplate the religious pomp and show, together with the horrible inconsistencies, which every where surround me. We have men-stealers for ministers, women-whippers for missionaries, and cradle-plunderers for church members. The man who wields the blood-clotted cowskin during the week fills the pulpit on Sunday, and claims to be a minister of the meek and lowly Jesus.",
+  "words": [
+    {
+      "word": "contemplate",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "pulpit",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "year": 1845,
+    "source": "Project Gutenberg #23",
+    "url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "society"
+}

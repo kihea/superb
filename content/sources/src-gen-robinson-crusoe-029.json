@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-robinson-crusoe-029",
+  "pool": "sourced",
+  "text": "The place was covered with human bones, the ground dyed with their blood, and great pieces of flesh left here and there, half-eaten, mangled, and scorched; and, in short, all the tokens of the triumphant feast they had been making there, after a victory over their enemies. I saw three skulls, five hands, and the bones of three or four legs and feet, and abundance of other parts of the bodies; and Friday, by his signs, made me understand that they brought over four prisoners to feast upon; that three of them were eaten up, and that he, pointing to himself, was the fourth; that there had been a great battle between them and their next king, of whose subjects, it seems, he had been one, and that they had taken a great number of prisoners; all which were carried to several places by those who had taken them in the fight, in order to feast upon them, as was done here by these wretches upon those they brought hither.",
+  "words": [
+    {
+      "word": "triumphant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "feast",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "source": "Project Gutenberg #521",
+    "url": "https://www.gutenberg.org/ebooks/521.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

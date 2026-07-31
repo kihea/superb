@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-peter-pan-035",
+  "pool": "sourced",
+  "text": "“What’s the matter with Bill Jukes, you dog?” hissed Hook, towering over him. “The matter wi’ him is he’s dead, stabbed,” replied Cecco in a hollow voice. “Bill Jukes dead!” cried the startled pirates. “The cabin’s as black as a pit,” Cecco said, almost gibbering, “but there is something terrible in there: the thing you heard crowing.” The exultation of the boys, the lowering looks of the pirates, both were seen by Hook. “Cecco,” he said in his most steely voice, “go back and fetch me out that doodle-doo.” Cecco, bravest of the brave, cowered before his captain, crying “No, no”; but Hook was purring to his claw.",
+  "words": [
+    {
+      "word": "lowering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "doo",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Peter Pan",
+    "author": "J. M. Barrie",
+    "year": 1911,
+    "source": "Project Gutenberg #16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

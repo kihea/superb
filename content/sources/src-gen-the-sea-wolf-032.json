@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-sea-wolf-032",
+  "pool": "sourced",
+  "text": "At a calculation of a two-mile drift per hour, during the seventy and odd hours of the storm, we had been driven at least one hundred and fifty miles to the north-east. But was such calculated drift correct? For all I knew, it might have been four miles per hour instead of two. In which case we were another hundred and fifty miles to the bad. Where we were I did not know, though there was quite a likelihood that we were in the vicinity of the Ghost.",
+  "words": [
+    {
+      "word": "calculated",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Sea-Wolf",
+    "author": "Jack London",
+    "year": 1904,
+    "source": "Project Gutenberg #1074",
+    "url": "https://www.gutenberg.org/ebooks/1074.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

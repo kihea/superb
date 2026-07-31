@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-prince-and-the-pauper-014",
   "pool": "sourced",
-  "text": "The short winter day was nearly ended. The streets were deserted, save for a few random stragglers, and these hurried straight along, with the intent look of people who were only anxious to accomplish their errands as quickly as possible, and then snugly house themselves from the rising wind and the gathering twilight. They looked neither to the right nor to the left; they paid no attention to our party, they did not even seem to see them. Edward the Sixth wondered if the spectacle of a king on his way to jail had ever encountered such marvellous indifference before. By-and-by the constable arrived at a deserted market-square, and proceeded to cross it.",
+  "text": "Tom sat up in bed and gazed out from the heavy silken curtains upon this fine company. The weighty business of dressing began, and one courtier after another knelt and paid his court and offered to the little King his condolences upon his heavy loss, whilst the dressing proceeded. In the beginning, a shirt was taken up by the Chief Equerry in Waiting, who passed it to the First Lord of the Buckhounds, who passed it to the Second Gentleman of the Bedchamber, who passed it to the Head Ranger of Windsor Forest, who passed it to the Third Groom of the Stole, who passed it to the Chancellor Royal of the Duchy of Lancaster, who passed it to the Master of the Wardrobe, who passed it to Norroy King-at-Arms, who passed it to the Constable of the Tower, who passed it to the Chief Steward of the Household, who passed it to the Hereditary Grand Diaperer, who passed it to the Lord High Admiral of England, who passed it to the Archbishop of Canterbury, who passed it to the First Lord of the Bedchamber, who took what was left of it and put it on Tom.",
   "words": [
     {
-      "word": "errands",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "twilight",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "constable",
+      "word": "condolences",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1881,
     "source": "Project Gutenberg #1837",
-    "url": "https://www.gutenberg.org/ebooks/1837",
+    "url": "https://www.gutenberg.org/ebooks/1837.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

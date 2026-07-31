@@ -1,5 +1,32 @@
 # The precision/coverage frontier table
 
+**Measured 2026-07-29, against `47aa0ae` (dev, after PR #64's corpus
+repair) — 5,096 excerpts, up from the 2,599 this table was last measured
+against.** Regenerating this run also surfaced two pre-existing bugs in
+`frontier_table.py`, unrelated to the corpus size and present since the
+file was first generated: `corpus_claims()` read each excerpt's `words`
+field as a bare string, when it has held `{"word": ..., "signals": [...]}`
+dicts since before this file's first commit (2b49451) — confirmed by
+running the unpatched script against that commit's own corpus and getting
+the identical crash; and `survives()` compared `is_informative`'s reason
+against the string `"gloss-overlap"`, when `is_informative` has returned a
+list of every fired signal since ADR-026, so the rank-floor sweep silently
+never filtered anything (every floor read identical to floor 0) until
+fixed. Both are now fixed in the script. Precision (the frozen hand-judged
+sample) is unaffected by either bug or by corpus size; the coverage and
+surviving-claims columns below are the corrected, freshly measured numbers.
+
+**Provenance of the previous, 2,599-excerpt table: settled, not just
+flagged.** Running the repaired script against 2b49451's own corpus
+reproduces every number that commit's version of this file reported,
+byte-for-byte (coverage and surviving-claims columns included). So the
+previous table was never wrong — it could only have been produced by a
+version of the script with these two fixes already applied locally, and
+that fix never landed in the committed file. The number that reader relied
+on was correct; the instrument that was supposed to be able to reproduce it
+on demand was not. As always, treat this table as pinned to the commit
+named above.
+
 ADVISORY-010 SS2's ruling on M2 item 5b: a bare precision floor "is a
 coverage decision wearing a precision costume" — stating one number
 silently picks how much of the teaching band gets discarded, and nobody had
@@ -31,24 +58,33 @@ specifically (96.2% of all claims), not the other two signals.
   95% Wilson intervals throughout, matching PRECISION-STANDARD.md's own
   convention.
 - **Band coverage** at ≥1 and ≥2 surviving excerpts, and **surviving
-  claims**, are a census over the full, current 2,599-excerpt corpus — no
+  claims**, are a census over the full, current 5,096-excerpt corpus — no
   sampling, no interval needed.
 
 ## The table
 
 Pooled hand-judged sample: n=100 (60 before-fix + 40 after-fix, PR #40).
-Corpus claim population: 5,704 (word, excerpt) pairs across 2,599 excerpt
+Corpus claim population: 9,833 (word, excerpt) pairs across 5,096 excerpt
 files. Teaching band (rank 5,000–25,000): 20,001 words.
 
 | rank floor | precision | n  | 95% CI          | ≥1 coverage | ≥2 coverage | surviving claims |
 |-----------:|----------:|---:|:-----------------|------------:|------------:|-----------------:|
-| 0          | 47.8%     | 92 | [37.9%, 57.9%]  | 14.1%       | 5.5%        | 5,610            |
-| 500        | 52.1%     | 48 | [38.3%, 65.5%]  | 8.5%        | 2.3%        | 2,615            |
-| 1,000      | 55.3%     | 38 | [39.7%, 69.9%]  | 6.7%        | 1.6%        | 1,896            |
-| 2,000      | 57.7%     | 26 | [38.9%, 74.5%]  | 4.9%        | 0.9%        | 1,288            |
-| 3,000      | 47.4%     | 19 | [27.3%, 68.3%]  | 3.6%        | 0.6%        | 908              |
-| 5,000      | 42.9%     | 14 | [21.4%, 67.4%]  | 2.5%        | 0.4%        | 602              |
-| 10,000     | 40.0%     | 10 | [16.8%, 68.7%]  | 1.7%        | 0.2%        | 374              |
+| 0          | 47.8%     | 92 | [37.9%, 57.9%]  | 14.4%       | 7.0%        | 7,904            |
+| 500        | 52.1%     | 48 | [38.3%, 65.5%]  | 10.0%       | 4.0%        | 4,026            |
+| 1,000      | 55.3%     | 38 | [39.7%, 69.9%]  | 8.5%        | 3.0%        | 3,025            |
+| 2,000      | 57.7%     | 26 | [38.9%, 74.5%]  | 6.8%        | 1.9%        | 2,124            |
+| 3,000      | 47.4%     | 19 | [27.3%, 68.3%]  | 5.5%        | 1.3%        | 1,569            |
+| 5,000      | 42.9%     | 14 | [21.4%, 67.4%]  | 4.4%        | 0.9%        | 1,148            |
+| 10,000     | 40.0%     | 10 | [16.8%, 68.7%]  | 3.2%        | 0.4%        | 760              |
+
+(Precision, n, and the 95% CIs are unchanged from the previous, 2,599-excerpt
+measurement of this table — the judged sample is frozen and does not move
+with corpus size. Coverage and surviving claims rose at every floor as the
+corpus roughly doubled, by somewhat more than double at most floors — e.g.
+floor 0's surviving claims went from 5,610 to 7,904 (1.4x) while the corpus
+went from 2,599 to 5,096 excerpts (2.0x) is the smallest ratio in the table;
+floor 10,000 rose from 374 to 760 (2.0x). This is a measurement, not a
+finding this file interprets further.)
 
 (Floor 0 is the unmodified, shipped heuristic. n at floor 0 is 92, not 100:
 8 of the pooled 100 claims no longer recompute as gloss-overlap-positive
@@ -97,17 +133,21 @@ under-powered.
 
 ## A gap this table does not cover: the hand-picked lane
 
-`content/sources/` holds 60 hand-authored excerpts (101 word claims, ADR-018's
-separate contribution lane) alongside the 2,539 pipeline-generated ones. This
-table's census reads every file's `words` uniformly, so those 101 claims sit
-inside the 5,704-claim population above. But `is_informative()` was built
+`content/sources/` now holds 54 hand-authored excerpts (93 word claims,
+ADR-018's separate contribution lane) alongside the 5,042 pipeline-generated
+ones — down from 60 excerpts/101 claims at the previous measurement; PR #64's
+corpus repair rebuilt the pipeline-generated lane from real character offsets
+and evidently touched some hand-authored files too, though this file does not
+trace which ones or why (that is real, separate work, not attempted here).
+This table's census reads every file's `words` uniformly, so those 93 claims
+sit inside the 9,833-claim population above. But `is_informative()` was built
 for, and only ever run against, the generated lane. Re-applied to the
-hand-authored 101: **only 7 register under any known signal (1 apposition, 6
-gloss-overlap); the other 94 score `none`** — consistent with ADR-026
-Amendment 1's own finding (accepted the same day this table was measured)
-that the algorithmic signals recognise almost nothing in that lane, and that
-a fourth signal class, `hand-picked`, has been accepted to represent it but
-has not yet migrated into the schema or this corpus.
+hand-authored 93: **only 6 register under any known signal (1 apposition, 5
+gloss-overlap); the other 87 score `none`** — consistent with ADR-026
+Amendment 1's own finding that the algorithmic signals recognise almost
+nothing in that lane, and that a fourth signal class, `hand-picked`, has been
+accepted to represent it but has not yet migrated into the schema or this
+corpus.
 
 This does not touch the precision numbers above — the pooled 100-claim
 sample contains zero hand-authored excerpt ids, checked directly rather than

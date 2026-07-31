@@ -1,16 +1,10 @@
 {
   "id": "src-gen-a-study-in-scarlet-013",
   "pool": "sourced",
-  "text": "Then she walked back into the house, the happiest girl in all Utah. Three weeks had passed since Jefferson Hope and his comrades had departed from Salt Lake City. John Ferrier’s heart was sore within him when he thought of the young man’s return, and of the impending loss of his adopted child. Yet her bright and happy face reconciled him to the arrangement more than any argument could have done. He had always determined, deep down in his resolute heart, that nothing would ever induce him to allow his daughter to wed a Mormon.",
+  "text": "“I’ve seen many a drunk chap in my time,” he said, “but never anyone so cryin’ drunk as that cove. He was at the gate when I came out, a-leanin’ up agin the railings, and a-singin’ at the pitch o’ his lungs about Columbine’s New-fangled Banner, or some such stuff. He couldn’t stand, far less help.” “What sort of a man was he?” asked Sherlock Holmes. John Rance appeared to be somewhat irritated at this digression. “He was an uncommon drunk sort o’ man,” he said.",
   "words": [
     {
-      "word": "reconciled",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "resolute",
+      "word": "chap",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1887,
     "source": "Project Gutenberg #244",
-    "url": "https://www.gutenberg.org/ebooks/244",
+    "url": "https://www.gutenberg.org/ebooks/244.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

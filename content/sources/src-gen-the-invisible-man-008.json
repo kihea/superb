@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-invisible-man-008",
   "pool": "sourced",
-  "text": "You’ll do it all right. You’re a fool and all that, but you’ll do—” “I tell you, sir, I’m not the man for it. Respectfully—but it is so—” “If you don’t shut up I shall twist your wrist again,” said the Invisible Man. “I want to think.” Presently two oblongs of yellow light appeared through the trees, and the square tower of a church loomed through the gloaming. “I shall keep my hand on your shoulder,” said the Voice, “all through the village.",
+  "text": "The place was empty. They refastened the back door, examined the kitchen, pantry, and scullery thoroughly, and at last went down into the cellar. There was not a soul to be found in the house, search as they would. Daylight found the vicar and his wife, a quaintly-costumed little couple, still marvelling about on their own ground floor by the unnecessary light of a guttering candle. THE FURNITURE THAT WENT MAD Now it happened that in the early hours of Whit Monday, before Millie was hunted out for the day, Mr. Hall and Mrs. Hall both rose and went noiselessly down into the cellar.",
   "words": [
     {
-      "word": "wrist",
+      "word": "pantry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "daylight",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "candle",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "H. G. Wells",
     "year": 1897,
     "source": "Project Gutenberg #5230",
-    "url": "https://www.gutenberg.org/ebooks/5230",
+    "url": "https://www.gutenberg.org/ebooks/5230.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

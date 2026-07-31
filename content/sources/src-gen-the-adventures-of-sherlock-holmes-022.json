@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-adventures-of-sherlock-holmes-022",
+  "pool": "sourced",
+  "text": "Now, when young ladies wander about the metropolis at this hour of the morning, and knock sleepy people up out of their beds, I presume that it is something very pressing which they have to communicate. Should it prove to be an interesting case, you would, I am sure, wish to follow it from the outset. I thought, at any rate, that I should call you and give you the chance.” “My dear fellow, I would not miss it for anything.” I had no keener pleasure than in following Holmes in his professional investigations, and in admiring the rapid deductions, as swift as intuitions, and yet always founded on a logical basis with which he unravelled the problems which were submitted to him. I rapidly threw on my clothes and was ready in a few minutes to accompany my friend down to the sitting-room. A lady dressed in black and heavily veiled, who had been sitting in the window, rose as we entered.",
+  "words": [
+    {
+      "word": "presume",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "outset",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swift",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "source": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

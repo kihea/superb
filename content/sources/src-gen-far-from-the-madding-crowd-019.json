@@ -1,10 +1,22 @@
 {
   "id": "src-gen-far-from-the-madding-crowd-019",
   "pool": "sourced",
-  "text": "Never had Boldwood been so fastidious, unreasonable about the fit, and generally difficult to please. The tailor walked round and round him, tugged at the waist, pulled the sleeve, pressed out the collar, and for the first time in his experience Boldwood was not bored. Times had been when the farmer had exclaimed against all such niceties as childish, but now no philosophic or hasty rebuke whatever was provoked by this man for attaching as much importance to a crease in the coat as to an earthquake in South America. Boldwood at last expressed himself nearly satisfied, and paid the bill, the tailor passing out of the door just as Oak came in to report progress for the day. “Oh, Oak,” said Boldwood.",
+  "text": "What is it like? I am interested in knowing.” “Put shortly, it is not being able to think, hear, or look in any direction except one without wretchedness, nor there without torture.” “Ah, sergeant, it won’t do—you are pretending,” she said, shaking her head dubiously. “Your words are too dashing to be true.” “I am not, upon the honour of a soldier.” “But why is it so?—Of course I ask for mere pastime.” “Because you are so distracting—and I am so distracted.” “You look like it.” “I am indeed.” “Why, you only saw me the other night!” “That makes no difference. The lightning works instantaneously. I loved you then, at once—as I do now.” Bathsheba surveyed him curiously, from the feet upward, as high as she liked to venture her glance, which was not quite so high as his eyes.",
   "words": [
     {
-      "word": "hasty",
+      "word": "dashing",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "upward",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "glance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Thomas Hardy",
     "year": 1874,
     "source": "Project Gutenberg #27",
-    "url": "https://www.gutenberg.org/ebooks/27",
+    "url": "https://www.gutenberg.org/ebooks/27.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-call-of-cthulhu-023",
+  "pool": "sourced",
+  "text": "Old Castro, unfortunately, had been dead for some years. What I now heard so graphically at first hand, though it was really no more than a detailed confirmation of what my uncle had written, excited me afresh; for I felt sure that I was on the track of a very real, very secret, and very ancient religion whose discovery would make me an anthropologist of note. My attitude was still one of absolute materialism, as I wish it still were, and I discounted with almost inexplicable perversity the coincidence of the dream notes and odd cuttings collected by Professor Angell. One thing which I began to suspect, and which I now fear I know, is that my uncle's death was far from natural. He fell on a narrow hill street leading up from an ancient waterfront swarming with foreign mongrels, after a careless push from a negro sailor.",
+  "words": [
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "year": 1928,
+    "source": "Project Gutenberg #68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

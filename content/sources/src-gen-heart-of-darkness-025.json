@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-heart-of-darkness-025",
+  "pool": "sourced",
+  "text": "The funnel projected through that roof, and in front of the funnel a small cabin built of light planks served for a pilot-house. It contained a couch, two camp-stools, a loaded Martini-Henry leaning in one corner, a tiny table, and the steering-wheel. It had a wide door in front and a broad shutter at each side. All these were always thrown open, of course. I spent my days perched up there on the extreme fore-end of that roof, before the door.",
+  "words": [
+    {
+      "word": "cabin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "couch",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shutter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "source": "Project Gutenberg #219",
+    "url": "https://www.gutenberg.org/ebooks/219.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

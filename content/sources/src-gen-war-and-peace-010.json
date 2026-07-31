@@ -1,10 +1,16 @@
 {
   "id": "src-gen-war-and-peace-010",
   "pool": "sourced",
-  "text": "The footman who had gone to announce them was stopped by another in the large hall and they whispered to one another. Then a maidservant ran into the hall and hurriedly said something, mentioning the princess. At last an old, cross looking footman came and announced to the Rostóvs that the prince was not receiving, but that the princess begged them to walk up. The first person who came to meet the visitors was Mademoiselle Bourienne. She greeted the father and daughter with special politeness and showed them to the princess’ room.",
+  "text": "Bagratión cast his large, expressionless, sleepy eyes round his suite, and the boyish face of Rostóv, breathless with excitement and hope, was the first to catch his eye. He sent him. “And if I should meet His Majesty before I meet the commander in chief, your excellency?” said Rostóv, with his hand to his cap. “You can give the message to His Majesty,” said Dolgorúkov, hurriedly interrupting Bagratión. On being relieved from picket duty Rostóv had managed to get a few hours’ sleep before morning and felt cheerful, bold, and resolute, with elasticity of movement, faith in his good fortune, and generally in that state of mind which makes everything seem possible, pleasant, and easy.",
   "words": [
     {
-      "word": "greeted",
+      "word": "sleepy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "excitement",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "source": "Project Gutenberg #2600",
-    "url": "https://www.gutenberg.org/ebooks/2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

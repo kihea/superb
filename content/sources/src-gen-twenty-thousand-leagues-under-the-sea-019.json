@@ -1,22 +1,16 @@
 {
   "id": "src-gen-twenty-thousand-leagues-under-the-sea-019",
   "pool": "sourced",
-  "text": "The next day, April 12th, the Nautilus approached the Dutch coast, near the mouth of the Maroni. There several groups of sea-cows herded together; they were manatees, that, like the dugong and the stellera, belong to the sirenian order. These beautiful animals, peaceable and inoffensive, from eighteen to twenty-one feet in length, weigh at least sixteen hundredweight. I told Ned Land and Conseil that provident nature had assigned an important role to these mammalia. Indeed, they, like the seals, are designed to graze on the submarine prairies, and thus destroy the accumulation of weed that obstructs the tropical rivers.",
+  "text": "During several hours the Nautilus floated in these brilliant waves, and our admiration increased as we watched the marine monsters disporting themselves like salamanders. I saw there in the midst of this fire that burns not the swift and elegant porpoise (the indefatigable clown of the ocean), and some swordfish ten feet long, those prophetic heralds of the hurricane whose formidable sword would now and then strike the glass of the saloon. Then appeared the smaller fish, the balista, the leaping mackerel, wolf-thorn-tails, and a hundred others which striped the luminous atmosphere as they swam. This dazzling spectacle was enchanting! Perhaps some atmospheric condition increased the intensity of this phenomenon.",
   "words": [
     {
-      "word": "approached",
+      "word": "thorn",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cows",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "submarine",
+      "word": "atmospheric",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Jules Verne",
     "year": 1870,
     "source": "Project Gutenberg #164",
-    "url": "https://www.gutenberg.org/ebooks/164",
+    "url": "https://www.gutenberg.org/ebooks/164.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

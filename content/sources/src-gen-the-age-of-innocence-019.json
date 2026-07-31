@@ -1,16 +1,28 @@
 {
   "id": "src-gen-the-age-of-innocence-019",
   "pool": "sourced",
-  "text": "Nothing, therefore, was to prevent his following her; and once he had taken the irrevocable step, and had proved to her that it was irrevocable, he believed she would not send him away. This confidence in the future had steadied him to play his part in the present. It had kept him from writing to her, or betraying, by any sign or act, his misery and mortification. It seemed to him that in the deadly silent game between them the trumps were still in his hands; and he waited. There had been, nevertheless, moments sufficiently difficult to pass; as when Mr. Letterblair, the day after Madame Olenska's departure, had sent for him to go over the details of the trust which Mrs. Manson Mingott wished to create for her granddaughter.",
+  "text": "Archer wondered how many flaws Lefferts's keen eyes would discover in the ritual of his divinity; then he suddenly recalled that he too had once thought such questions important. The things that had filled his days seemed now like a nursery parody of life, or like the wrangles of mediaeval schoolmen over metaphysical terms that nobody had ever understood. A stormy discussion as to whether the wedding presents should be \"shown\" had darkened the last hours before the wedding; and it seemed inconceivable to Archer that grown-up people should work themselves into a state of agitation over such trifles, and that the matter should have been decided (in the negative) by Mrs. Welland's saying, with indignant tears: \"I should as soon turn the reporters loose in my house.\" Yet there was a time when Archer had had definite and rather aggressive opinions on all such problems, and when everything concerning the manners and customs of his little tribe had seemed to him fraught with world-wide significance. \"And all the while, I suppose,\" he thought, \"real people were living somewhere, and real things happening to them ...\" \"There they come!\"",
   "words": [
     {
-      "word": "betraying",
+      "word": "divinity",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "trumps",
+      "word": "parody",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tribe",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +33,7 @@
     "author": "Edith Wharton",
     "year": 1920,
     "source": "Project Gutenberg #541",
-    "url": "https://www.gutenberg.org/ebooks/541",
+    "url": "https://www.gutenberg.org/ebooks/541.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

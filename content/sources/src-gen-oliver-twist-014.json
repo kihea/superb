@@ -1,22 +1,22 @@
 {
   "id": "src-gen-oliver-twist-014",
   "pool": "sourced",
-  "text": "The first proof he experienced of the fact, was conveyed in a hollow sound, immediately succeeded by the sudden flying off of his hat to the opposite end of the room. This preliminary proceeding laying bare his head, the expert lady, clasping him tightly round the throat with one hand, inflicted a shower of blows (dealt with singular vigour and dexterity) upon it with the other. This done, she created a little variety by scratching his face, and tearing his hair; and, having, by this time, inflicted as much punishment as she deemed necessary for the offence, she pushed him over a chair, which was luckily well situated for the purpose: and defied him to talk about his prerogative again, if he dared. “Get up!” said Mrs. Bumble, in a voice of command. “And take yourself away from here, unless you want me to do something desperate.” Mr. Bumble rose with a very rueful countenance: wondering much what something desperate might be.",
+  "text": "Here, he read of dreadful crimes that made the blood run cold; of secret murders that had been committed by the lonely wayside; of bodies hidden from the eye of man in deep pits and wells: which would not keep them down, deep as they were, but had yielded them up at last, after many years, and so maddened the murderers with the sight, that in their horror they had confessed their guilt, and yelled for the gibbet to end their agony. Here, too, he read of men who, lying in their beds at dead of night, had been tempted (so they said) and led on, by their own bad thoughts, to such dreadful bloodshed as it made the flesh creep, and the limbs quail, to think of. The terrible descriptions were so real and vivid, that the sallow pages seemed to turn red with gore; and the words upon them, to be sounded in his ears, as if they were whispered, in hollow murmurs, by the spirits of the dead. In a paroxysm of fear, the boy closed the book, and thrust it from him.",
   "words": [
     {
-      "word": "conveyed",
+      "word": "bloodshed",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "singular",
+      "word": "gore",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "dared",
+      "word": "thrust",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +27,7 @@
     "author": "Charles Dickens",
     "year": 1838,
     "source": "Project Gutenberg #730",
-    "url": "https://www.gutenberg.org/ebooks/730",
+    "url": "https://www.gutenberg.org/ebooks/730.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

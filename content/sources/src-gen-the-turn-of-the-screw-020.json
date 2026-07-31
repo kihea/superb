@@ -1,24 +1,24 @@
 {
   "id": "src-gen-the-turn-of-the-screw-020",
   "pool": "sourced",
-  "text": "“I have to see Luke.” I had not yet reduced him to quite so vulgar a lie, and I felt proportionately ashamed. But, horrible as it was, his lies made up my truth. I achieved thoughtfully a few loops of my knitting. “Well, then, go to Luke, and I’ll wait for what you promise. Only, in return for that, satisfy, before you leave me, one very much smaller request.” He looked as if he felt he had succeeded enough to be able still a little to bargain.",
+  "text": "Flights of fancy gave place, in her mind, to a steady fireside glow, and I had already begun to perceive how, with the development of the conviction that—as time went on without a public accident—our young things could, after all, look out for themselves, she addressed her greatest solicitude to the sad case presented by their instructress. That, for myself, was a sound simplification: I could engage that, to the world, my face should tell no tales, but it would have been, in the conditions, an immense added strain to find myself anxious about hers. At the hour I now speak of she had joined me, under pressure, on the terrace, where, with the lapse of the season, the afternoon sun was now agreeable; and we sat there together while, before us, at a distance, but within call if we wished, the children strolled to and fro in one of their most manageable moods. They moved slowly, in unison, below us, over the lawn, the boy, as they went, reading aloud from a storybook and passing his arm round his sister to keep her quite in touch.",
   "words": [
     {
-      "word": "knitting",
+      "word": "glow",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "satisfy",
+      "word": "unison",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bargain",
+      "word": "lawn",
       "signals": [
-        "gloss-overlap"
+        "apposition"
       ]
     }
   ],
@@ -27,7 +27,7 @@
     "author": "Henry James",
     "year": 1898,
     "source": "Project Gutenberg #209",
-    "url": "https://www.gutenberg.org/ebooks/209",
+    "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

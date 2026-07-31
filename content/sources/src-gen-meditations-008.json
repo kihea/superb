@@ -1,22 +1,16 @@
 {
   "id": "src-gen-meditations-008",
   "pool": "sourced",
-  "text": "How able to endure labour, how patient; able through his spare diet to continue from morning to evening without any necessity of withdrawing before his accustomed hours to the necessities of nature: his uniformity and constancy in matter of friendship. How he would bear with them that with all boldness and liberty opposed his opinions; and even rejoice if any man could better advise him: and lastly, how religious he was without superstition. All these things of him remember, that whensoever thy last hour shall come upon thee, it may find thee, as it did him, ready for it in the possession of a good conscience. Stir up thy mind, and recall thy wits again from thy natural dreams, and visions, and when thou art perfectly awoken, and canst perceive that they were but dreams that troubled thee, as one newly awakened out of another kind of sleep look upon these worldly things with the same mind as thou didst upon those, that thou sawest in thy sleep. I consist of body and soul.",
+  "text": "If so, then are we partners in some one commonweal. If so, then the world is as it were a city. For which other commonweal is it, that all men can be said to be members of? From this common city it is, that understanding, reason, and law is derived unto us, for from whence else? For as that which in me is earthly I have from some common earth; and that which is moist from some other element is imparted; as my breath and life hath its proper fountain; and that likewise which is dry and fiery in me: (for there is nothing which doth not proceed from something; as also there is nothing that can be reduced unto mere nothing:) so also is there some common beginning from whence my understanding hath proceeded.",
   "words": [
     {
-      "word": "endure",
+      "word": "earthly",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "lastly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "worldly",
+      "word": "moist",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +21,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

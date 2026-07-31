@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-old-curiosity-shop-018",
   "pool": "sourced",
-  "text": "Just over the way,’ repeats Mr Brass’s gentleman, with a glance at the court.--‘Alone, sir?’--‘I beg your pardon,’ says Mr Swiveller, who has not caught the question--‘Alone, sir?’ repeats Mr Brass’s gentleman in a voice of thunder, ‘did you dine alone? Did you treat anybody, sir? Come!’--‘Oh yes, to be sure--yes, I did,’ says Mr Swiveller with a smile.--‘Have the goodness to banish a levity, sir, which is very ill-suited to the place in which you stand (though perhaps you have reason to be thankful that it’s only that place),’ says Mr Brass’s gentleman, with a nod of the head, insinuating that the dock is Mr Swiveller’s legitimate sphere of action; ‘and attend to me. You were waiting about here, yesterday, in expectation that this trial was coming on. You dined over the way.",
+  "text": "‘That’ll inform you.’ And so saying Mrs Jarley produced another announcement, wherein it was stated, that, in consequence of numerous inquiries at the wax-work door, and in consequence of crowds having been disappointed in obtaining admission, the Exhibition would be continued for one week longer, and would re-open next day. ‘For now that the schools are gone, and the regular sight-seers exhausted,’ said Mrs Jarley, ‘we come to the General Public, and they want stimulating.’ Upon the following day at noon, Mrs Jarley established herself behind the highly-ornamented table, attended by the distinguished effigies before mentioned, and ordered the doors to be thrown open for the readmission of a discerning and enlightened public. But the first day’s operations were by no means of a successful character, inasmuch as the general public, though they manifested a lively interest in Mrs Jarley personally, and such of her waxen satellites as were to be seen for nothing, were not affected by any impulses moving them to the payment of sixpence a head.",
   "words": [
     {
-      "word": "nod",
+      "word": "admission",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "noon",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

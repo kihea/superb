@@ -1,0 +1,53 @@
+{
+  "id": "src-gen-the-picture-of-dorian-gray-027",
+  "pool": "sourced",
+  "text": "The morse bore a seraph’s head in gold-thread raised work. The orphreys were woven in a diaper of red and gold silk, and were starred with medallions of many saints and martyrs, among whom was St. Sebastian. He had chasubles, also, of amber-coloured silk, and blue silk and gold brocade, and yellow silk damask and cloth of gold, figured with representations of the Passion and Crucifixion of Christ, and embroidered with lions and peacocks and other emblems; dalmatics of white satin and pink silk damask, decorated with tulips and dolphins and fleurs-de-lis; altar frontals of crimson velvet and blue linen; and many corporals, chalice-veils, and sudaria. In the mystic offices to which such things were put, there was something that quickened his imagination. For these treasures, and everything that he collected in his lovely house, were to be to him means of forgetfulness, modes by which he could escape, for a season, from the fear that seemed to him at times to be almost too great to be borne.",
+  "words": [
+    {
+      "word": "cloth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "embroidered",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "satin",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crimson",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "velvet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "linen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "source": "Project Gutenberg #174",
+    "url": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

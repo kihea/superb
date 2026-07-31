@@ -1,0 +1,41 @@
+{
+  "id": "src-gen-vanity-fair-023",
+  "pool": "sourced",
+  "text": "Sometimes, when she was away, and Dolly his maid was making his bed, he came into his mother's room. It was as the abode of a fairy to him--a mystic chamber of splendour and delights. There in the wardrobe hung those wonderful robes--pink and blue and many-tinted. There was the jewel-case, silver-clasped, and the wondrous bronze hand on the dressing-table, glistening all over with a hundred rings. There was the cheval-glass, that miracle of art, in which he could just see his own wondering head and the reflection of Dolly (queerly distorted, and as if up in the ceiling), plumping and patting the pillows of the bed.",
+  "words": [
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wardrobe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "wondrous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": 1848,
+    "source": "Project Gutenberg #599",
+    "url": "https://www.gutenberg.org/ebooks/599.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-jungle-book-023",
+  "pool": "sourced",
+  "text": "One night they sank through the shiny water--sank like stones--and for the first time since he had known them began to swim quickly. Kotick followed, and the pace astonished him, for he never dreamed that Sea Cow was anything of a swimmer. They headed for a cliff by the shore--a cliff that ran down into deep water, and plunged into a dark hole at the foot of it, twenty fathoms under the sea. It was a long, long swim, and Kotick badly wanted fresh air before he was out of the dark tunnel they led him through. “My wig!” he said, when he rose, gasping and puffing, into open water at the farther end.",
+  "words": [
+    {
+      "word": "swim",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "swimmer",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "source": "Project Gutenberg #236",
+    "url": "https://www.gutenberg.org/ebooks/236.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

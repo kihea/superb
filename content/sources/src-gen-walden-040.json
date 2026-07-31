@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-walden-040",
+  "pool": "sourced",
+  "text": "I was put into a jail once on this account, for one night; and, as I stood considering the walls of solid stone, two or three feet thick, the door of wood and iron, a foot thick, and the iron grating which strained the light, I could not help being struck with the foolishness of that institution which treated me as if I were mere flesh and blood and bones, to be locked up. I wondered that it should have concluded at length that this was the best use it could put me to, and had never thought to avail itself of my services in some way. I saw that, if there was a wall of stone between me and my townsmen, there was a still more difficult one to climb or break through, before they could get to be as free as I was. I did nor for a moment feel confined, and the walls seemed a great waste of stone and mortar. I felt as if I alone of all my townsmen had paid my tax.",
+  "words": [
+    {
+      "word": "confined",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

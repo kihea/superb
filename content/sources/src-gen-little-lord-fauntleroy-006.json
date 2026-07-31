@@ -1,40 +1,28 @@
 {
   "id": "src-gen-little-lord-fauntleroy-006",
   "pool": "sourced",
-  "text": "“It's the most beautiful place I ever saw!” said Cedric, his round face flushing with pleasure. “It reminds any one of a king's palace. I saw a picture of one once in a fairy-book.” He saw the great entrance-door thrown open and many servants standing in two lines looking at him. He wondered why they were standing there, and admired their liveries very much. He did not know that they were there to do honor to the little boy to whom all this splendor would one day belong,--the beautiful castle like the fairy king's palace, the magnificent park, the grand old trees, the dells full of ferns and bluebells where the hares and rabbits played, the dappled, large-eyed deer couching in the deep grass.",
+  "text": "“We liked this little house, Dearest, didn't we?” he said. “We always will like it, won't we?” “Yes--yes,” she answered, in a low, sweet voice. “Yes, darling.” And then they went into the carriage and Cedric sat very close to her, and as she looked back out of the window, he looked at her and stroked her hand and held it close. And then, it seemed almost directly, they were on the steamer in the midst of the wildest bustle and confusion; carriages were driving down and leaving passengers; passengers were getting into a state of excitement about baggage which had not arrived and threatened to be too late; big trunks and cases were being bumped down and dragged about; sailors were uncoiling ropes and hurrying to and fro; officers were giving orders; ladies and gentlemen and children and nurses were coming on board,--some were laughing and looked gay, some were silent and sad, here and there two or three were crying and touching their eyes with their handkerchiefs.",
   "words": [
     {
-      "word": "flushing",
+      "word": "carriages",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "fairy",
+      "word": "excitement",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "servants",
+      "word": "baggage",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "magnificent",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "rabbits",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "deer",
+      "word": "fro",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +33,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1886,
     "source": "Project Gutenberg #479",
-    "url": "https://www.gutenberg.org/ebooks/479",
+    "url": "https://www.gutenberg.org/ebooks/479.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

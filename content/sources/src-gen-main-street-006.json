@@ -1,12 +1,18 @@
 {
   "id": "src-gen-main-street-006",
   "pool": "sourced",
-  "text": "And some of the merchants say you're too flip when you talk to them in the store and----” “Poor me, when I was trying to be friendly!” “----every housewife in town is doubtful about your being so chummy with your Bea. All right to be kind, but they say you act as though she were your cousin. There's plenty more.) And they think you were eccentric in furnishing this room--they think the broad couch and that Japanese dingus are absurd. I know they're silly.)",
+  "text": "When he showed her the birds she had no sensation of blood. These heaps of feathers were so soft and unbruised--there was about them no hint of death. She watched her conquering man tuck them into his inside pocket, and trudged with him back to the buggy. They found no more prairie chickens that morning. At noon they drove into her first farmyard, a private village, a white house with no porches save a low and quite dirty stoop at the back, a crimson barn with white trimmings, a glazed brick silo, an ex-carriage-shed, now the garage of a Ford, an unpainted cow-stable, a chicken-house, a pig-pen, a corn-crib, a granary, the galvanized-iron skeleton tower of a wind-mill.",
   "words": [
     {
-      "word": "absurd",
+      "word": "barn",
       "signals": [
         "gloss-overlap"
+      ]
+    },
+    {
+      "word": "crib",
+      "signals": [
+        "apposition"
       ]
     }
   ],
@@ -15,7 +21,7 @@
     "author": "Sinclair Lewis",
     "year": 1920,
     "source": "Project Gutenberg #543",
-    "url": "https://www.gutenberg.org/ebooks/543",
+    "url": "https://www.gutenberg.org/ebooks/543.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

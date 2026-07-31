@@ -1,34 +1,10 @@
 {
   "id": "src-gen-treasure-island-012",
   "pool": "sourced",
-  "text": "I have never seen the sea quiet round Treasure Island. The sun might blaze overhead, the air be without a breath, the surface smooth and blue, but still these great rollers would be running along all the external coast, thundering and thundering by day and night; and I scarce believe there is one spot in the island where a man would be out of earshot of their noise. I walked along beside the surf with great enjoyment, till, thinking I was now got far enough to the south, I took the cover of some thick bushes and crept warily up to the ridge of the spit. Behind me was the sea, in front the anchorage. The sea breeze, as though it had the sooner blown itself out by its unusual violence, was already at an end; it had been succeeded by light, variable airs from the south and south-east, carrying great banks of fog; and the anchorage, under lee of Skeleton Island, lay still and leaden as when first we entered it.",
+  "text": "A peculiar stagnant smell hung over the anchorage--a smell of sodden leaves and rotting tree trunks. I observed the doctor sniffing and sniffing, like someone tasting a bad egg. “I don’t know about treasure,” he said, “but I’ll stake my wig there’s fever here.” If the conduct of the men had been alarming in the boat, it became truly threatening when they had come aboard. They lay about the deck growling together in talk. The slightest order was received with a black look and grudgingly and carelessly obeyed.",
   "words": [
     {
-      "word": "blaze",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "overhead",
-      "signals": [
-        "apposition"
-      ]
-    },
-    {
-      "word": "breeze",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "blown",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "fog",
+      "word": "aboard",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +15,7 @@
     "author": "Robert Louis Stevenson",
     "year": 1883,
     "source": "Project Gutenberg #120",
-    "url": "https://www.gutenberg.org/ebooks/120",
+    "url": "https://www.gutenberg.org/ebooks/120.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,22 +1,28 @@
 {
   "id": "src-gen-a-tale-of-two-cities-008",
   "pool": "sourced",
-  "text": "All these trivial incidents belonged to the routine of life, and the return of morning. Surely, not so the ringing of the great bell of the chateau, nor the running up and down the stairs; nor the hurried figures on the terrace; nor the booting and tramping here and there and everywhere, nor the quick saddling of horses and riding away? What winds conveyed this hurry to the grizzled mender of roads, already at work on the hill-top beyond the village, with his day’s dinner (not much to carry) lying in a bundle that it was worth no crow’s while to peck at, on a heap of stones? Had the birds, carrying some grains of it to a distance, dropped one over him as they sow chance seeds? Whether or no, the mender of roads ran, on the sultry morning, as if for his life, down the hill, knee-high in dust, and never stopped till he got to the fountain.",
+  "text": "Here’s an early job to begin with!” Having thus given his parent God speed, young Jerry seated himself on the stool, entered on his reversionary interest in the straw his father had been chewing, and cogitated. “Al-ways rusty! His fingers is al-ways rusty!” muttered young Jerry. “Where does my father get all that iron rust from? He don’t get no iron rust here!” A Sight “You know the Old Bailey well, no doubt?” said one of the oldest of clerks to Jerry the messenger.",
   "words": [
     {
-      "word": "conveyed",
+      "word": "stool",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "heap",
+      "word": "rusty",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "grains",
+      "word": "rust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "messenger",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

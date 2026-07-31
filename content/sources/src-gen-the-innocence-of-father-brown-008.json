@@ -1,23 +1,10 @@
 {
   "id": "src-gen-the-innocence-of-father-brown-008",
   "pool": "sourced",
-  "text": "Flambeau, who was a friend of Angus, received him in a rococo artistic den behind his office, of which the ornaments were sabres, harquebuses, Eastern curiosities, flasks of Italian wine, savage cooking-pots, a plumy Persian cat, and a small dusty-looking Roman Catholic priest, who looked particularly out of place. “This is my friend Father Brown,” said Flambeau. “I’ve often wanted you to meet him. Splendid weather, this; a little cold for Southerners like me.” “Yes, I think it will keep clear,” said Angus, sitting down on a violet-striped Eastern ottoman. “No,” said the priest quietly, “it has begun to snow.” And, indeed, as he spoke, the first few flakes, foreseen by the man of chestnuts, began to drift across the darkening windowpane.",
+  "text": "“Well,” he said, smiling, “I mustn’t tell you anything of the man’s identity, or his own story, of course; but there’s no particular reason why I shouldn’t tell you of the mere outside facts which I found out for myself.” He hopped over the barrier with unexpected activity, and sat beside Colonel Pound, kicking his short legs like a little boy on a gate. He began to tell the story as easily as if he were telling it to an old friend by a Christmas fire. “You see, colonel,” he said, “I was shut up in that small room there doing some writing, when I heard a pair of feet in this passage doing a dance that was as queer as the dance of death. First came quick, funny little steps, like a man walking on tiptoe for a wager; then came slow, careless, creaking steps, as of a big man walking about with a cigar. But they were both made by the same feet, I swear, and they came in rotation; first the run and then the walk, and then the run again.",
   "words": [
     {
-      "word": "pots",
-      "signals": [
-        "apposition",
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "violet",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "quietly",
+      "word": "barrier",
       "signals": [
         "gloss-overlap"
       ]
@@ -28,7 +15,7 @@
     "author": "G. K. Chesterton",
     "year": 1911,
     "source": "Project Gutenberg #204",
-    "url": "https://www.gutenberg.org/ebooks/204",
+    "url": "https://www.gutenberg.org/ebooks/204.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

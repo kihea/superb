@@ -1,10 +1,16 @@
 {
   "id": "src-gen-david-copperfield-016",
   "pool": "sourced",
-  "text": "Go, and repent of it. Don’t add new injuries to the long, long list of injuries you have done me!’ ‘Aye!’ he returned. ‘It’s all very fine--Well! I must do the best I can, for the present, I suppose.’ In spite of himself, he appeared abashed by my aunt’s indignant tears, and came slouching out of the garden. Taking two or three quick steps, as if I had just come up, I met him at the gate, and went in as he came out.",
+  "text": "But, one way and another, so many things happen to me which I never could have expected, I am sure, in my umble station, that it seems to rain blessings on my ed. You have heard something, I des-say, of a change in my expectations, Master Copperfield,--I should say, Mister Copperfield?’ As he sat on my sofa, with his long knees drawn up under his coffee-cup, his hat and gloves upon the ground close to him, his spoon going softly round and round, his shadowless red eyes, which looked as if they had scorched their lashes off, turned towards me without looking at me, the disagreeable dints I have formerly described in his nostrils coming and going with his breath, and a snaky undulation pervading his frame from his chin to his boots, I decided in my own mind that I disliked him intensely. It made me very uncomfortable to have him for a guest, for I was young then, and unused to disguise what I so strongly felt. ‘You have heard something, I des-say, of a change in my expectations, Master Copperfield,--I should say, Mister Copperfield?’ observed Uriah. ‘Yes,’ said I, ‘something.’ ‘Ah!",
   "words": [
     {
-      "word": "repent",
+      "word": "spoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "disguise",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "source": "Project Gutenberg #766",
-    "url": "https://www.gutenberg.org/ebooks/766",
+    "url": "https://www.gutenberg.org/ebooks/766.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

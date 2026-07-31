@@ -1,16 +1,22 @@
 {
   "id": "src-gen-the-scarlet-letter-011",
   "pool": "sourced",
-  "text": "On that spot, in very truth, there was, and there had long been, the gnawing and poisonous tooth of bodily pain. Without any effort of his will, or power to restrain himself, he shrieked aloud: an outcry that went pealing through the night, and was beaten back from one house to another, and reverberated from the hills in the background; as if a company of devils, detecting so much misery and terror in it, had made a plaything of the sound, and were bandying it to and fro. “It is done!” muttered the minister, covering his face with his hands. “The whole town will awake and hurry forth, and find me here!” But it was not so. The shriek had perhaps sounded with a far greater power, to his own startled ears, than it actually possessed.",
+  "text": "Another peculiar torture was felt in the gaze of a new eye. When strangers looked curiously at the scarlet letter—and none ever failed to do so—they branded it afresh in Hester’s soul; so that, oftentimes, she could scarcely refrain, yet always did refrain, from covering the symbol with her hand. But then, again, an accustomed eye had likewise its own anguish to inflict. Its cool stare of familiarity was intolerable. From first to last, in short, Hester Prynne had always this dreadful agony in feeling a human eye upon the token; the spot never grew callous; it seemed, on the contrary, to grow more sensitive with daily torture.",
   "words": [
     {
-      "word": "detecting",
+      "word": "torture",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "misery",
+      "word": "gaze",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "agony",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Nathaniel Hawthorne",
     "year": 1850,
     "source": "Project Gutenberg #33",
-    "url": "https://www.gutenberg.org/ebooks/33",
+    "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

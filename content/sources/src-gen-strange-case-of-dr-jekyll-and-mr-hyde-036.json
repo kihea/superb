@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-036",
+  "pool": "sourced",
+  "text": "I made this choice perhaps with some unconscious reservation, for I neither gave up the house in Soho, nor destroyed the clothes of Edward Hyde, which still lay ready in my cabinet. For two months, however, I was true to my determination; for two months, I led a life of such severity as I had never before attained to, and enjoyed the compensations of an approving conscience. But time began at last to obliterate the freshness of my alarm; the praises of conscience began to grow into a thing of course; I began to be tortured with throes and longings, as of Hyde struggling after freedom; and at last, in an hour of moral weakness, I once again compounded and swallowed the transforming draught. I do not suppose that, when a drunkard reasons with himself upon his vice, he is once out of five hundred times affected by the dangers that he runs through his brutish, physical insensibility; neither had I, long as I had considered my position, made enough allowance for the complete moral insensibility and insensate readiness to evil, which were the leading characters of Edward Hyde. Yet it was by these that I was punished.",
+  "words": [
+    {
+      "word": "conscience",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "tortured",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "readiness",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

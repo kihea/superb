@@ -1,40 +1,28 @@
 {
   "id": "src-gen-two-years-before-the-mast-005",
   "pool": "sourced",
-  "text": "We had now got well settled down into our harbor duties, which, as they are a good deal different from those at sea, it may be well enough to describe. In the first place, all hands are called at daylight, or rather--especially if the days are short--before daylight, as soon as the first grey of the morning. The cook makes his fire in the galley; the steward goes about his work in the cabin; and the crew rig the head pump, and wash down the decks. The chief mate is always on deck, but takes no active part, all the duty coming upon the second mate, who has to roll up his trowsers and paddle about decks barefooted, like the rest of the crew. The washing, swabbing, squilgeeing, etc., lasts, or is made to last, until eight o'clock, when breakfast is ordered, fore and aft.",
+  "text": "Having filled our casks, we returned on board, and soon after, the governor, dressed in a uniform like that of an American militia officer, the Padre, in the dress of the grey friars, with hood and all complete, and the Capitan, with big whiskers and dirty regimentals, came on board to dine. While at dinner, a large ship appeared in the offing, and soon afterwards we saw a light whale-boat pulling into the harbor. The ship lay off and on, and a boat came alongside of us, and put on board the captain, a plain young Quaker, dressed all in brown. The ship was the Cortes, whaleman, of New Bedford, and had put in to see if there were any vessels from round the Horn, and to hear the latest news from America. They remained aboard a short time and had a little talk with the crew, when they left us and pulled off to their ship, which, having filled away, was soon out of sight.",
   "words": [
     {
-      "word": "harbor",
+      "word": "militia",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "daylight",
+      "word": "dine",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "cabin",
+      "word": "whale",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "paddle",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "lasts",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "aft",
+      "word": "aboard",
       "signals": [
         "gloss-overlap"
       ]
@@ -45,7 +33,7 @@
     "author": "Richard Henry Dana",
     "year": 1840,
     "source": "Project Gutenberg #2055",
-    "url": "https://www.gutenberg.org/ebooks/2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

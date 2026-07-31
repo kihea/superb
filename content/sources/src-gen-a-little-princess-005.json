@@ -1,10 +1,16 @@
 {
   "id": "src-gen-a-little-princess-005",
   "pool": "sourced",
-  "text": "To Becky it seemed the most appropriate thing in the world. The acquaintance begun on the foggy afternoon when she had jumped up terrified from her sleep in the comfortable chair, had ripened and grown, though it must be confessed that Miss Minchin and Miss Amelia knew very little about it. They were aware that Sara was \"kind\" to the scullery maid, but they knew nothing of certain delightful moments snatched perilously when, the upstairs rooms being set in order with lightning rapidity, Sara's sitting room was reached, and the heavy coal box set down with a sigh of joy. At such times stories were told by installments, things of a satisfying nature were either produced and eaten or hastily tucked into pockets to be disposed of at night, when Becky went upstairs to her attic to bed. \"But I has to eat 'em careful, miss,\" she said once; \"'cos if I leaves crumbs the rats come out to get 'em.\"",
+  "text": "I feel as if I were all the people in the story--one after the other. It is queer.\" She had been at Miss Minchin's school about two years when, one foggy winter's afternoon, as she was getting out of her carriage, comfortably wrapped up in her warmest velvets and furs and looking very much grander than she knew, she caught sight, as she crossed the pavement, of a dingy little figure standing on the area steps, and stretching its neck so that its wide-open eyes might peer at her through the railings. Something in the eagerness and timidity of the smudgy face made her look at it, and when she looked she smiled because it was her way to smile at people. But the owner of the smudgy face and the wide-open eyes evidently was afraid that she ought not to have been caught looking at pupils of importance.",
   "words": [
     {
-      "word": "disposed",
+      "word": "stretching",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "peer",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

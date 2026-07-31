@@ -1,10 +1,34 @@
 {
   "id": "src-gen-a-christmas-carol-018",
   "pool": "sourced",
-  "text": "Come into the parlour. Come into the parlour.\" The parlour was the space behind the screen of rags. The old man raked the fire together with an old stair-rod, and having trimmed his smoky lamp (for it was night), with the stem of his pipe, put it in his mouth again. While he did this, the woman who had already spoken threw her bundle on the floor, and sat down in a flaunting manner on a stool; crossing her elbows on her knees, and looking with a bold defiance at the other two.",
+  "text": "Heaped up on the floor, to form a kind of throne, were turkeys, geese, game, poultry, brawn, great joints of meat, sucking-pigs, long wreaths of sausages, mince-pies, plum-puddings, barrels of oysters, red-hot chestnuts, cherry-cheeked apples, juicy oranges, luscious pears, immense twelfth-cakes, and seething bowls of punch, that made the chamber dim with their delicious steam. In easy state upon this couch, there sat a jolly Giant, glorious to see; who bore a glowing torch, in shape not unlike Plenty's horn, and held it up, high up, to shed its light on Scrooge, as he came peeping round the door.",
   "words": [
     {
-      "word": "bundle",
+      "word": "poultry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "cherry",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "twelfth",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "jolly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "torch",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +39,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

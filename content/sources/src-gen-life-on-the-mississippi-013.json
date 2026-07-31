@@ -1,16 +1,10 @@
 {
   "id": "src-gen-life-on-the-mississippi-013",
   "pool": "sourced",
-  "text": "Two years later, the same stockholders increased their capital to $225,000; added a third story to the mill, increased its length to 317 feet; added machinery to increase the capacity to 10,300 spindles and 304 looms. The company now employ 250 operatives, many of whom are citizens of Natchez. 'The mill works 5,000 bales of cotton annually and manufactures the best standard quality of brown shirtings and sheetings and drills, turning out 5,000,000 yards of these goods per year. '{footnote } A close corporation--stock held at $5,000 per share, but none in the market. The changes in the Mississippi River are great and strange, yet were to be expected; but I was not expecting to live to see Natchez and these other river towns become manufacturing strongholds and railway centers.",
+  "text": "One must not keep a rudder dragging across a boat's stem if he wants to get up the river fast. There is a great difference in boats, of course. For a long time I was on a boat that was so slow we used to forget what year it was we left port in. But of course this was at rare intervals. Ferryboats used to lose valuable trips because their passengers grew old and died, waiting for us to get by.",
   "words": [
     {
-      "word": "annually",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "manufactures",
+      "word": "rudder",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1883,
     "source": "Project Gutenberg #245",
-    "url": "https://www.gutenberg.org/ebooks/245",
+    "url": "https://www.gutenberg.org/ebooks/245.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

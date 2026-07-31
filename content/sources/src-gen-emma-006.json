@@ -1,28 +1,16 @@
 {
   "id": "src-gen-emma-006",
   "pool": "sourced",
-  "text": "you forget yourself—you take me for my friend—any message to Miss Smith I shall be happy to deliver; but no more of this to me, if you please.” “Miss Smith!—message to Miss Smith!—What could she possibly mean!”—And he repeated her words with such assurance of accent, such boastful pretence of amazement, that she could not help replying with quickness, “Mr. Elton, this is the most extraordinary conduct! and I can account for it only in one way; you are not yourself, or you could not speak either to me, or of Harriet, in such a manner. Command yourself enough to say no more, and I will endeavour to forget it.” But Mr. Elton had only drunk wine enough to elevate his spirits, not at all to confuse his intellects. He perfectly knew his own meaning; and having warmly protested against her suspicion as most injurious, and slightly touched upon his respect for Miss Smith as her friend,—but acknowledging his wonder that Miss Smith should be mentioned at all,—he resumed the subject of his own passion, and was very urgent for a favourable answer.",
+  "text": "The couplet does not cease to be, nor does its meaning change. But take it away, and all appropriation ceases, and a very pretty gallant charade remains, fit for any collection. Depend upon it, he would not like to have his charade slighted, much better than his passion. A poet in love must be encouraged in both capacities, or neither. Give me the book, I will write it down, and then there can be no possible reflection on you.” Harriet submitted, though her mind could hardly separate the parts, so as to feel quite sure that her friend were not writing down a declaration of love.",
   "words": [
     {
-      "word": "replying",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "confuse",
+      "word": "cease",
       "signals": [
         "definition-marker"
       ]
     },
     {
-      "word": "warmly",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "resumed",
+      "word": "declaration",
       "signals": [
         "gloss-overlap"
       ]
@@ -33,7 +21,7 @@
     "author": "Jane Austen",
     "year": 1815,
     "source": "Project Gutenberg #158",
-    "url": "https://www.gutenberg.org/ebooks/158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

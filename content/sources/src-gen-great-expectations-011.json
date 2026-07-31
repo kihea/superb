@@ -1,10 +1,16 @@
 {
   "id": "src-gen-great-expectations-011",
   "pool": "sourced",
-  "text": "We walked round the ruined garden twice or thrice more, and it was all in bloom for me. If the green and yellow growth of weed in the chinks of the old wall had been the most precious flowers that ever blew, it could not have been more cherished in my remembrance. There was no discrepancy of years between us to remove her far from me; we were of nearly the same age, though of course the age told for more in her case than in mine; but the air of inaccessibility which her beauty and her manner gave her, tormented me in the midst of my delight, and at the height of the assurance I felt that our patroness had chosen us for one another. Wretched boy! At last we went back into the house, and there I heard, with surprise, that my guardian had come down to see Miss Havisham on business, and would come back to dinner.",
+  "text": "When Barnwell began to go wrong, I declare that I felt positively apologetic, Pumblechook’s indignant stare so taxed me with it. Wopsle, too, took pains to present me in the worst light. At once ferocious and maudlin, I was made to murder my uncle with no extenuating circumstances whatever; Millwood put me down in argument, on every occasion; it became sheer monomania in my master’s daughter to care a button for me; and all I can say for my gasping and procrastinating conduct on the fatal morning, is, that it was worthy of the general feebleness of my character. Even after I was happily hanged and Wopsle had closed the book, Pumblechook sat staring at me, and shaking his head, and saying, “Take warning, boy, take warning!” as if it were a well-known fact that I contemplated murdering a near relation, provided I could only induce one to have the weakness to become my benefactor. It was a very dark night when it was all over, and when I set out with Mr. Wopsle on the walk home.",
   "words": [
     {
-      "word": "blew",
+      "word": "staring",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "murdering",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Charles Dickens",
     "year": 1861,
     "source": "Project Gutenberg #1400",
-    "url": "https://www.gutenberg.org/ebooks/1400",
+    "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

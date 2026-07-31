@@ -1,10 +1,16 @@
 {
   "id": "src-gen-meditations-009",
   "pool": "sourced",
-  "text": "Induce her not to any such opinion or persuasion. The understanding is of itself sufficient unto itself, and needs not (if itself doth not bring itself to need) any other thing besides itself, and by consequent as it needs nothing, so neither can it be troubled or hindered by anything, if itself doth not trouble and hinder itself. What is εὐδαιμονία, or happiness: but ἀγαθὸς δαίμων, or, a good dæmon, or spirit? What then dost thou do here, O opinion? By the Gods I adjure thee, that thou get thee gone, as thou earnest: for I need thee not.",
+  "text": "But especially thou must call to mind them, whom thou thyself in thy lifetime hast known much distracted about vain things, and in the meantime neglecting to do that, and closely and unseparably (as fully satisfied with it) to adhere unto it, which their own proper constitution did require. And here thou must remember, that thy carriage in every business must be according to the worth and due proportion of it, for so shalt thou not easily be tired out and vexed, if thou shalt not dwell upon small matters longer than is fitting.",
   "words": [
     {
-      "word": "induce",
+      "word": "thou",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "vain",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "Marcus Aurelius",
     "year": 180,
     "source": "Project Gutenberg #2680",
-    "url": "https://www.gutenberg.org/ebooks/2680",
+    "url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

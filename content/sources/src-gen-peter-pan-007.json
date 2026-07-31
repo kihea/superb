@@ -1,22 +1,10 @@
 {
   "id": "src-gen-peter-pan-007",
   "pool": "sourced",
-  "text": "As dogs this terrible man treated and addressed them, and as dogs they obeyed him. In person he was cadaverous and blackavized, and his hair was dressed in long curls, which at a little distance looked like black candles, and gave a singularly threatening expression to his handsome countenance. His eyes were of the blue of the forget-me-not, and of a profound melancholy, save when he was plunging his hook into you, at which time two red spots appeared in them and lit them up horribly. In manner, something of the grand seigneur still clung to him, so that he even ripped you up with an air, and I have been told that he was a raconteur of repute. He was never more sinister than when he was most polite, which is probably the truest test of breeding; and the elegance of his diction, even when he was swearing, no less than the distinction of his demeanour, showed him one of a different cast from his crew.",
+  "text": "Wendy had lived such a home life that to know fairies struck her as quite delightful. She poured out questions about them, to his surprise, for they were rather a nuisance to him, getting in his way and so on, and indeed he sometimes had to give them a hiding. Still, he liked them on the whole, and he told her about the beginning of fairies. “You see, Wendy, when the first baby laughed for the first time, its laugh broke into a thousand pieces, and they all went skipping about, and that was the beginning of fairies.” Tedious talk this, but being a stay-at-home she liked it. “And so,” he went on good-naturedly, “there ought to be one fairy for every boy and girl.” “Ought to be?",
   "words": [
     {
-      "word": "curls",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "melancholy",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "ripped",
+      "word": "fairy",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "J. M. Barrie",
     "year": 1911,
     "source": "Project Gutenberg #16",
-    "url": "https://www.gutenberg.org/ebooks/16",
+    "url": "https://www.gutenberg.org/ebooks/16.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

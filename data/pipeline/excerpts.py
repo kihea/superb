@@ -157,6 +157,36 @@ def fetch_book(gutenberg_id: int) -> str:
     return text
 
 
+# Gutenberg's plain-text convention marks italics/emphasis with underscores
+# (_casa_, _haute noblesse_). Left in, they survive as literal underscores in
+# what is supposed to be clean reading prose — content/scripts/check_sources.py's
+# own word-boundary check caught this indirectly (an underscore is a \w
+# character, so `_casa_` never satisfies \bcasa\b). `strip_italic_markup`
+# keeps the text, drops the markup, and matches across newlines (the
+# emphasised span can itself be line-wrapped: "_haute\n\nnoblesse_").
+#
+# Two different caps, because the risk they guard against is different at
+# each call site. Book-wide (`strip_boilerplate`), an unpaired stray
+# underscore could otherwise swallow everything up to the next one, possibly
+# an entire chapter — 200 characters is deliberately tight there. A finished
+# window (`process_book`) is already bounded to 80-200 words by construction
+# (`MAX_WORDS`), so the same runaway-match risk does not exist: the whole
+# window is at most a few hundred words, meaning a legitimately-paired
+# italic span can be nearly the length of the window itself. The tight
+# book-wide cap alone was found to let a genuinely-paired ~300-character
+# italic span survive uncut into a shipped excerpt
+# (src-gen-the-mysterious-affair-at-styles-037, PR #64 review) — the second,
+# looser pass at the window level is what actually guarantees no underscore
+# markup reaches reader-facing text, regardless of how long the span was in
+# the source.
+ITALIC_SPAN_MAX_BODY = 200
+ITALIC_SPAN_MAX_WINDOW = 2_000  # comfortably above any 80-200 word window
+
+
+def strip_italic_markup(text: str, max_span: int) -> str:
+    return re.sub(rf"_([^_]{{1,{max_span}}})_", r"\1", text)
+
+
 def strip_boilerplate(raw: str) -> str:
     """Cut Gutenberg's licence header/footer, leaving the book itself."""
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
@@ -171,17 +201,7 @@ def strip_boilerplate(raw: str) -> str:
     # rather than risk it surviving into a window's text.
     body = re.sub(r"\[[^\]]{0,120}\]", " ", body)
     body = re.sub(r"[\[\]]", " ", body)
-    # Gutenberg's plain-text convention marks italics/emphasis with
-    # underscores (_casa_, _haute noblesse_). Left in, they survive as
-    # literal underscores in what is supposed to be clean reading prose —
-    # content/scripts/check_sources.py's own word-boundary check caught
-    # this indirectly (an underscore is a \w character, so `_casa_` never
-    # satisfies \bcasa\b). Keep the text, drop the markup. The emphasised
-    # span can itself be line-wrapped ("_haute\n\nnoblesse_"), so this
-    # matches across newlines too — capped at 200 chars so an unpaired
-    # stray underscore later in the same chapter can't swallow everything
-    # between it and the next one.
-    body = re.sub(r"_([^_]{1,200})_", r"\1", body)
+    body = strip_italic_markup(body, ITALIC_SPAN_MAX_BODY)
     return body
 
 
@@ -213,35 +233,55 @@ def clean_sentence_text(raw: str) -> str:
     return text.strip()
 
 
-def windows_from_book(body: str) -> list[str]:
-    """Non-overlapping 2-5 sentence windows sized toward 80-200 words.
+def _is_noise_sentence(s: str) -> bool:
+    """Stray running heads, captions, and formatting noise: anything that is
+    all-caps (a heading nltk mis-split from its neighbour) or that has too
+    little alphabetic content to be real prose.
+
+    This used to be a filter applied to the whole sentence list before
+    windowing, which meant the survivors on either side of a dropped
+    sentence were joined and presented as continuous prose even when the
+    source held real text between them — short dialogue like `"Come in!"`,
+    `"I have."`, `"Ha!"` has fewer than 8 letters and was caught by this same
+    rule, so 27 excerpts shipped broken mid-sentence (VERBATIM-MATCH.md).
+    The rule itself is right (it does catch running heads like "VIII. THE");
+    what was wrong is joining across what it drops. `windows_from_book` now
+    treats every sentence this flags as a hard break instead — see there.
+    """
+    return bool(
+        s
+        and (s.isupper() or len(re.findall(r"[A-Za-z]", s)) < max(8, len(s) // 4))
+    )
+
+
+def _windows_from_spans(body: str, spans: list[tuple[int, int]]) -> list[str]:
+    """Non-overlapping 2-5 sentence windows sized toward 80-200 words, drawn
+    from a single contiguous run of sentence spans (see `windows_from_book`).
+
+    A window's text is `body[spans[i][0]:spans[j][1]]` — the exact slice of
+    the source between the first and last sentence, not a `" ".join()` of
+    the individual cleaned sentences. Joining with a fixed space silently
+    inserted a character the source did not have whenever nltk split two
+    "sentences" without inter-sentence whitespace (`sisters."--She paused.`
+    tokenizes as `sisters."` and `--She paused.`, with no space between
+    them in the source) — a one-character non-contiguity the corpus's own
+    verbatim-match instrument caught after the noise-join fix above shipped.
+    Slicing the source directly cannot reproduce that class of bug.
 
     A window that opens on a bare pronoun is dropped — self-containment,
     the rule the track names — rather than repaired, because repairing it
     would mean guessing at an antecedent this script has no way to check.
     """
-    sentences = [clean_sentence_text(s) for s in sent_tokenize(body)]
-    # Drop stray running heads, captions, and formatting noise: anything
-    # that is all-caps (a heading nltk mis-split from its neighbour) or that
-    # has too little alphabetic content to be real prose.
-    sentences = [
-        s
-        for s in sentences
-        if s
-        and not s.isupper()
-        and len(re.findall(r"[A-Za-z]", s)) >= max(8, len(s) // 4)
-    ]
-
     windows: list[str] = []
     i = 0
-    n = len(sentences)
+    n = len(spans)
     while i < n:
         best: str | None = None
         best_span = 0
         for span in range(MIN_SENTENCES, MAX_SENTENCES + 1):
             if i + span > n:
                 break
-            candidate = " ".join(sentences[i : i + span])
+            candidate = clean_sentence_text(body[spans[i][0] : spans[i + span - 1][1]])
             wc = len(candidate.split())
             if MIN_WORDS <= wc <= MAX_WORDS:
                 best = candidate  # keep extending while still in range
@@ -254,6 +294,45 @@ def windows_from_book(body: str) -> list[str]:
             i += best_span
         else:
             i += 1
+    return windows
+
+
+def windows_from_book(body: str) -> list[str]:
+    """Non-overlapping 2-5 sentence windows sized toward 80-200 words.
+
+    Each raw sentence nltk finds is located back in `body` (verbatim — the
+    tokenizer only splits, never rewrites), so every window is built from
+    real character offsets into the source rather than reassembled text.
+    A noise sentence (`_is_noise_sentence`) is never joined across: it
+    splits the sentence stream into segments first, and each segment is
+    windowed on its own (`_windows_from_spans`). This is what makes a
+    window's text a genuinely contiguous span of the source rather than two
+    real spans stitched together around whatever was dropped in between —
+    contiguity is preferred over reconstructing the join with an ellipsis,
+    per the ruling.
+    """
+    raw_sentences = sent_tokenize(body)
+    spans: list[tuple[int, int]] = []
+    cursor = 0
+    for s in raw_sentences:
+        start = body.find(s, cursor)
+        if start < 0:
+            start = cursor  # should not happen: nltk's spans are verbatim and in order
+        end = start + len(s)
+        spans.append((start, end))
+        cursor = end
+
+    segments: list[list[tuple[int, int]]] = [[]]
+    for s, span in zip(raw_sentences, spans):
+        if _is_noise_sentence(clean_sentence_text(s)):
+            if segments[-1]:
+                segments.append([])
+            continue
+        segments[-1].append(span)
+
+    windows: list[str] = []
+    for segment in segments:
+        windows.extend(_windows_from_spans(body, segment))
     return windows
 
 
@@ -483,7 +562,13 @@ def slugify(text: str, max_len: int = 40) -> str:
 
 
 def gutenberg_source_name(gutenberg_id: int) -> tuple[str, str]:
-    return f"Project Gutenberg #{gutenberg_id}", f"https://www.gutenberg.org/ebooks/{gutenberg_id}"
+    """The citation pins the plain-text artifact the pipeline actually cut
+    from (`gutenberg_text_url`), not the ebooks landing page — a stranger
+    following the cited URL used to land on a page of download options with
+    no searchable text (VERBATIM-MATCH.md, "One more thing the ruling
+    assumes"); now the URL is the one thing that was actually searched.
+    """
+    return f"Project Gutenberg #{gutenberg_id}", gutenberg_text_url(gutenberg_id)
 
 
 # 127 public-domain works spanning 15 topic clusters: the 47 works the
@@ -661,6 +746,10 @@ def process_book(
     start = find_body_start(body)
     body = strip_chapter_headings(body[start:])
     windows = windows_from_book(body)
+    # A second, looser italic-markup pass per finished window — see
+    # `strip_italic_markup`'s docstring comment for why the book-wide cap in
+    # `strip_boilerplate` is not enough on its own.
+    windows = [strip_italic_markup(w, ITALIC_SPAN_MAX_WINDOW) for w in windows]
 
     # Collect every surviving window first, then — if there are more than
     # the cap — take an evenly spaced sample across the whole book rather

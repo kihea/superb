@@ -1,16 +1,22 @@
 {
   "id": "src-gen-through-the-looking-glass-004",
   "pool": "sourced",
-  "text": "“That’s right!” said the Tiger-lily. “The daisies are worst of all. When one speaks, they all begin together, and it’s enough to make one wither to hear the way they go on!” “How is it you can all talk so nicely?” Alice said, hoping to get it into a better temper by a compliment. “I’ve been in many gardens before, but none of the flowers could talk.” “Put your hand down, and feel the ground,” said the Tiger-lily. “Then you’ll know why.” Alice did so.",
+  "text": "“They don’t keep this room so tidy as the other,” Alice thought to herself, as she noticed several of the chessmen down in the hearth among the cinders: but in another moment, with a little “Oh!” of surprise, she was down on her hands and knees watching them. The chessmen were walking about, two and two! “Here are the Red King and the Red Queen,” Alice said (in a whisper, for fear of frightening them), “and there are the White King and the White Queen sitting on the edge of the shovel—and here are two castles walking arm in arm—I don’t think they can hear me,” she went on, as she put her head closer down, “and I’m nearly sure they can’t see me. I feel somehow as if I were invisible—” Here something began squeaking on the table behind Alice, and made her turn her head just in time to see one of the White Pawns roll over and begin kicking: she watched it with great curiosity to see what would happen next.",
   "words": [
     {
-      "word": "lily",
+      "word": "frightening",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "temper",
+      "word": "shovel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "kicking",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Lewis Carroll",
     "year": 1871,
     "source": "Project Gutenberg #12",
-    "url": "https://www.gutenberg.org/ebooks/12",
+    "url": "https://www.gutenberg.org/ebooks/12.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

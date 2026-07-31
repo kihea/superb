@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-the-mysteries-of-udolpho-031",
+  "pool": "sourced",
+  "text": "Dorothée mused, and then replied, “Why, madam, it may make people curious, if it is known I am so much in your apartment, and that I should be sorry for; so I will come when I am least likely to be observed. I have little leisure in the day, and I shall have a good deal to say; so, if you please, ma’am, I will come, when the family are all in bed.” “That will suit me very well,” replied Emily: “Remember, then, tonight—” “Aye, that is well remembered,” said Dorothée, “I fear I cannot come tonight, madam, for there will be the dance of the vintage, and it will be late, before the servants go to rest; for, when they once set in to dance, they will keep it up, in the cool of the air, till morning; at least, it used to be so in my time.” “Ah! is it the dance of the vintage?” said Emily, with a deep sigh, remembering, that it was on the evening of this festival, in the preceding year, that St. Aubert and herself had arrived in the neighbourhood of Château-le-Blanc.",
+  "words": [
+    {
+      "word": "sigh",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "remembering",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "preceding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Mysteries of Udolpho",
+    "author": "Ann Radcliffe",
+    "year": 1794,
+    "source": "Project Gutenberg #3268",
+    "url": "https://www.gutenberg.org/ebooks/3268.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "supernatural"
+}

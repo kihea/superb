@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-the-call-of-the-wild-022",
+  "pool": "sourced",
+  "text": "Mercedes ceased weeping over the dogs, being too occupied with weeping over herself and with quarrelling with her husband and brother. To quarrel was the one thing they were never too weary to do. Their irritability arose out of their misery, increased with it, doubled upon it, outdistanced it. The wonderful patience of the trail which comes to men who toil hard and suffer sore, and remain sweet of speech and kindly, did not come to these two men and the woman. They had no inkling of such a patience.",
+  "words": [
+    {
+      "word": "quarrel",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "weary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "source": "Project Gutenberg #215",
+    "url": "https://www.gutenberg.org/ebooks/215.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

@@ -1,34 +1,23 @@
 {
   "id": "src-gen-the-old-curiosity-shop-004",
   "pool": "sourced",
-  "text": "Yet, in all the hurry and crowding of such a time, the child was more alone than she had ever been before; alone in spirit, alone in her devotion to him who was wasting away upon his burning bed; alone in her unfeigned sorrow, and her unpurchased sympathy. Day after day, and night after night, found her still by the pillow of the unconscious sufferer, still anticipating his every want, still listening to those repetitions of her name and those anxieties and cares for her, which were ever uppermost among his feverish wanderings. The house was no longer theirs. Even the sick chamber seemed to be retained, on the uncertain tenure of Mr Quilp’s favour. The old man’s illness had not lasted many days when he took formal possession of the premises and all upon them, in virtue of certain legal powers to that effect, which few understood and none presumed to call in question.",
+  "text": "Be a good girl, Nelly, a very good girl, and see if one of these days you don’t come to be Mrs Quilp of Tower Hill.’ So far from being sustained and stimulated by this delightful prospect, the child shrank from him in great agitation, and trembled violently. Mr Quilp, either because frightening anybody afforded him a constitutional delight, or because it was pleasant to contemplate the death of Mrs Quilp number one, and the elevation of Mrs Quilp number two to her post and title, or because he was determined from purposes of his own to be agreeable and good-humoured at that particular time, only laughed and feigned to take no heed of her alarm. ‘You shall come with me to Tower Hill and see Mrs Quilp that is, directly,’ said the dwarf. ‘She’s very fond of you, Nell, though not so fond as I am. You shall come home with me.’ ‘I must go back indeed,’ said the child.",
   "words": [
     {
-      "word": "sympathy",
+      "word": "delightful",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "pillow",
+      "word": "prospect",
       "signals": [
+        "apposition",
         "gloss-overlap"
       ]
     },
     {
-      "word": "anxieties",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "uncertain",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "virtue",
+      "word": "elevation",
       "signals": [
         "gloss-overlap"
       ]
@@ -39,7 +28,7 @@
     "author": "Charles Dickens",
     "year": 1841,
     "source": "Project Gutenberg #700",
-    "url": "https://www.gutenberg.org/ebooks/700",
+    "url": "https://www.gutenberg.org/ebooks/700.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

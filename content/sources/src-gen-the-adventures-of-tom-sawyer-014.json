@@ -1,22 +1,10 @@
 {
   "id": "src-gen-the-adventures-of-tom-sawyer-014",
   "pool": "sourced",
-  "text": "Poor Huck was in the same state of wretchedness and terror, for Tom had told the whole story to the lawyer the night before the great day of the trial, and Huck was sore afraid that his share in the business might leak out, yet, notwithstanding Injun Joe’s flight had saved him the suffering of testifying in court. The poor fellow had got the attorney to promise secrecy, but what of that? Since Tom’s harassed conscience had managed to drive him to the lawyer’s house by night and wring a dread tale from lips that had been sealed with the dismalest and most formidable of oaths, Huck’s confidence in the human race was wellnigh obliterated. Daily Muff Potter’s gratitude made Tom glad he had spoken; but nightly he wished he had sealed up his tongue. Half the time Tom was afraid Injun Joe would never be captured; the other half he was afraid he would be.",
+  "text": "After breakfast his aunt took him aside, and Tom almost brightened in the hope that he was going to be flogged; but it was not so. His aunt wept over him and asked him how he could go and break her old heart so; and finally told him to go on, and ruin himself and bring her gray hairs with sorrow to the grave, for it was no use for her to try any more. This was worse than a thousand whippings, and Tom’s heart was sorer now than his body. He cried, he pleaded for forgiveness, promised to reform over and over again, and then received his dismissal, feeling that he had won but an imperfect forgiveness and established but a feeble confidence. He left the presence too miserable to even feel revengeful toward Sid; and so the latter’s prompt retreat through the back gate was unnecessary.",
   "words": [
     {
-      "word": "formidable",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "gratitude",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "nightly",
+      "word": "retreat",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Mark Twain",
     "year": 1876,
     "source": "Project Gutenberg #74",
-    "url": "https://www.gutenberg.org/ebooks/74",
+    "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

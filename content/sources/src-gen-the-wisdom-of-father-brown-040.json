@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wisdom-of-father-brown-040",
+  "pool": "sourced",
+  "text": "“You mean he committed suicide?” “I didn’t say by his own wish,” replied Father Brown. “I said by his own orders.” “Well, anyhow, what is your theory?” Father Brown laughed. “I am only on my holiday,” he said. “I haven’t got any theories. Only this place reminds me of fairy stories, and, if you like, I’ll tell you a story.” The little pink clouds, that looked rather like sweet-stuff, had floated up to crown the turrets of the gilt gingerbread castle, and the pink baby fingers of the budding trees seemed spreading and stretching to reach them; the blue sky began to take a bright violet of evening, when Father Brown suddenly spoke again: “It was on a dismal night, with rain still dropping from the trees and dew already clustering, that Prince Otto of Grossenmark stepped hurriedly out of a side door of the castle and walked swiftly into the wood.",
+  "words": [
+    {
+      "word": "fairy",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wisdom of Father Brown",
+    "author": "G. K. Chesterton",
+    "year": 1914,
+    "source": "Project Gutenberg #223",
+    "url": "https://www.gutenberg.org/ebooks/223.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "mystery"
+}

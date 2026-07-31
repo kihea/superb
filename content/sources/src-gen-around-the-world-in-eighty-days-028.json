@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-around-the-world-in-eighty-days-028",
+  "pool": "sourced",
+  "text": "The lofty tower of its City Hall overlooked the whole panorama of the streets and avenues, which cut each other at right-angles, and in the midst of which appeared pleasant, verdant squares, while beyond appeared the Chinese quarter, seemingly imported from the Celestial Empire in a toy-box. Sombreros and red shirts and plumed Indians were rarely to be seen; but there were silk hats and black coats everywhere worn by a multitude of nervously active, gentlemanly-looking men. Some of the streets—especially Montgomery Street, which is to San Francisco what Regent Street is to London, the Boulevard des Italiens to Paris, and Broadway to New York—were lined with splendid and spacious stores, which exposed in their windows the products of the entire world. When Passepartout reached the International Hotel, it did not seem to him as if he had left England at all. The ground floor of the hotel was occupied by a large bar, a sort of restaurant freely open to all passers-by, who might partake of dried beef, oyster soup, biscuits, and cheese, without taking out their purses.",
+  "words": [
+    {
+      "word": "panorama",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "dried",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "oyster",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "source": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/ebooks/103.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

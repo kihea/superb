@@ -1,22 +1,10 @@
 {
   "id": "src-gen-a-christmas-carol-002",
   "pool": "sourced",
-  "text": "Marley's face. It was not in impenetrable shadow as the other objects in the yard were, but had a dismal light about it, like a bad lobster in a dark cellar. It was not angry or ferocious, but looked at Scrooge as Marley used to look: with ghostly spectacles turned up on its ghostly forehead. The hair was curiously stirred, as if by breath or hot air; and, though the eyes were wide open, they were perfectly motionless. That, and its livid colour, made it horrible; but its horror seemed to be in spite of the face and beyond its control, rather than a part of its own expression.",
+  "text": "said Scrooge, buttoning his great-coat to the chin. \"But I suppose you must have the whole day. Be here all the earlier next morning.\" The clerk promised that he would; and Scrooge walked out with a growl. The office was closed in a twinkling, and the clerk, with the long ends of his white comforter dangling below his waist (for he boasted no great-coat), went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve, and then ran home to Camden Town as hard as he could pelt, to play at blindman's-buff.",
   "words": [
     {
-      "word": "lobster",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "cellar",
-      "signals": [
-        "gloss-overlap"
-      ]
-    },
-    {
-      "word": "forehead",
+      "word": "clerk",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +15,7 @@
     "author": "Charles Dickens",
     "year": 1843,
     "source": "Project Gutenberg #46",
-    "url": "https://www.gutenberg.org/ebooks/46",
+    "url": "https://www.gutenberg.org/ebooks/46.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

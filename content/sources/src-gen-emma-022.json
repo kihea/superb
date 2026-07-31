@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-emma-022",
+  "pool": "sourced",
+  "text": "Compliments, charades, and horrible blunders; and it was not to be supposed that poor Harriet should not be recollecting too; but she behaved very well, and was only rather pale and silent. The visit was of course short; and there was so much embarrassment and occupation of mind to shorten it, that Emma would not allow herself entirely to form an opinion of the lady, and on no account to give one, beyond the nothing-meaning terms of being “elegantly dressed, and very pleasing.” She did not really like her. She would not be in a hurry to find fault, but she suspected that there was no elegance;—ease, but not elegance.— She was almost sure that for a young woman, a stranger, a bride, there was too much ease. Her person was rather good; her face not unpretty; but neither feature, nor air, nor voice, nor manner, were elegant. Emma thought at least it would turn out so.",
+  "words": [
+    {
+      "word": "compliments",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occupation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "suspected",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bride",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "elegant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Emma",
+    "author": "Jane Austen",
+    "year": 1815,
+    "source": "Project Gutenberg #158",
+    "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "household"
+}

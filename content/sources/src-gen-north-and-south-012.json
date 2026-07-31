@@ -1,16 +1,22 @@
 {
   "id": "src-gen-north-and-south-012",
   "pool": "sourced",
-  "text": "Martha was gone. Dixon sat with Mrs. Hale while she slept. The house was very still and quiet, and darkness came on, without any movement to procure candles. Margaret sat at the window, looking out at the lamps and the street, but seeing nothing,—only alive to her father’s heavy sighs. She did not like to go down for lights, lest the tacit restraint of her presence being withdrawn, he might give way to more violent emotion, without her being at hand to comfort him.",
+  "text": "At least, that is my opinion.” This last clause she gave out with “the pride that apes humility.” “But, surely, if the mind is too long directed to one object only, it will get stiff and rigid, and unable to take in many interests,” said Margaret. “I do not quite understand what you mean by a mind getting stiff and rigid. Nor do I admire those whirligig characters that are full of this thing to-day, to be utterly forgetful of it in their new interest to-morrow. Having many interests does not suit the life of a Milton manufacturer. It is or ought to be enough for him to have one great desire, and to bring all the purposes of his life to bear on the fulfilment of that.” “And that is—?” asked Mr. Hale.",
   "words": [
     {
-      "word": "sighs",
+      "word": "stiff",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "emotion",
+      "word": "rigid",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "morrow",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +27,7 @@
     "author": "Elizabeth Gaskell",
     "year": 1855,
     "source": "Project Gutenberg #4276",
-    "url": "https://www.gutenberg.org/ebooks/4276",
+    "url": "https://www.gutenberg.org/ebooks/4276.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

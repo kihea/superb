@@ -1,0 +1,35 @@
+{
+  "id": "src-gen-villette-026",
+  "pool": "sourced",
+  "text": "After the ceremony of presentation, an oration, or “discours,” was to follow from one of the professors. Several of M. de Bassompierre’s friends—the savants—being more or less connected with the Athénée, they were expected to attend on this occasion; together with the worshipful municipality of Villette, M. le Chevalier Staas, the burgomaster, and the parents and kinsfolk of the Athenians in general. M. de Bassompierre was engaged by his friends to accompany them; his fair daughter would, of course, be of the party, and she wrote a little note to Ginevra and myself, bidding us come early that we might join her. As Miss Fanshawe and I were dressing in the dormitory of the Rue Fossette, she (Miss F.) suddenly burst into a laugh. “What now?” I asked; for she had suspended the operation of arranging her attire, and was gazing at me.",
+  "words": [
+    {
+      "word": "accompany",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bidding",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "attire",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Villette",
+    "author": "Charlotte Bronte",
+    "year": 1853,
+    "source": "Project Gutenberg #9182",
+    "url": "https://www.gutenberg.org/ebooks/9182.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

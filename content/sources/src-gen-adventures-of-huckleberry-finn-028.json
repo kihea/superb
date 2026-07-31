@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-adventures-of-huckleberry-finn-028",
+  "pool": "sourced",
+  "text": "So I judged they had our gang in a pretty tight place right at the outstart. But the king he only looked sorrowful, and says: “Gentlemen, I wish the money was there, for I ain’t got no disposition to throw anything in the way of a fair, open, out-and-out investigation o’ this misable business; but, alas, the money ain’t there; you k’n send and see, if you want to.” “Where is it, then?” “Well, when my niece give it to me to keep for her I took and hid it inside o’ the straw tick o’ my bed, not wishin’ to bank it for the few days we’d be here, and considerin’ the bed a safe place, we not bein’ used to niggers, and suppos’n’ ’em honest, like servants in England. The niggers stole it the very next mornin’ after I had went down stairs; and when I sold ’em I hadn’t missed the money yit, so they got clean away with it. My servant here k’n tell you ’bout it, gentlemen.” The doctor and several said “Shucks!” and I see nobody didn’t altogether believe him. One man asked me if I see the niggers steal it.",
+  "words": [
+    {
+      "word": "disposition",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "niece",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bein",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "servant",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "bout",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "source": "Project Gutenberg #76",
+    "url": "https://www.gutenberg.org/ebooks/76.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

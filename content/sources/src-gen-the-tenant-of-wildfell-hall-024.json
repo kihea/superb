@@ -1,0 +1,60 @@
+{
+  "id": "src-gen-the-tenant-of-wildfell-hall-024",
+  "pool": "sourced",
+  "text": "Then, while I lifted up my soul in speechless, earnest supplication, some heavenly influence seemed to strengthen me within: I breathed more freely; my vision cleared; I saw distinctly the pure moon shining on, and the light clouds skimming the clear, dark sky; and then I saw the eternal stars twinkling down upon me; I knew their God was mine, and He was strong to save and swift to hear. “I will never leave thee, nor forsake thee,” seemed whispered from above their myriad orbs. No, no; I felt He would not leave me comfortless: in spite of earth and hell I should have strength for all my trials, and win a glorious rest at last! Refreshed, invigorated, if not composed, I rose and returned to the house. Much of my new-born strength and courage forsook me, I confess, as I entered it, and shut out the fresh wind and the glorious sky: everything I saw and heard seemed to sicken my heart—the hall, the lamp, the staircase, the doors of the different apartments, the social sound of talk and laughter from the drawing-room.",
+  "words": [
+    {
+      "word": "heavenly",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "strengthen",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "shining",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "spite",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "lamp",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "staircase",
+      "signals": [
+        "apposition"
+      ]
+    },
+    {
+      "word": "laughter",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Tenant of Wildfell Hall",
+    "author": "Anne Bronte",
+    "year": 1848,
+    "source": "Project Gutenberg #969",
+    "url": "https://www.gutenberg.org/ebooks/969.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

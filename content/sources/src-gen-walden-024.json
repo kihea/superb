@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-walden-024",
+  "pool": "sourced",
+  "text": "John Farmer sat at his door one September evening, after a hard day’s work, his mind still running on his labor more or less. Having bathed, he sat down to re-create his intellectual man. It was a rather cool evening, and some of his neighbors were apprehending a frost. He had not attended to the train of his thoughts long when he heard some one playing on a flute, and that sound harmonized with his mood. Still he thought of his work; but the burden of his thought was, that though this kept running in his head, and he found himself planning and contriving it against his will, yet it concerned him very little.",
+  "words": [
+    {
+      "word": "flute",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "source": "Project Gutenberg #205",
+    "url": "https://www.gutenberg.org/ebooks/205.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "reflection"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "src-gen-two-years-before-the-mast-030",
+  "pool": "sourced",
+  "text": "What is the captain about? was asked by every one; and from questions, it soon grew into complaints and murmurings. When the daylight was so short, it was too bad to lose it, and a fair wind, too, which every one had been praying for. As hour followed hour, and the captain showed no sign of making sail, the crew became impatient, and there was a good deal of talking and consultation together, on the forecastle. They had been beaten out with the exposure and hardship, and impatient to get out of it, and this unaccountable delay was more than they could bear in quietness, in their excited and restless state.",
+  "words": [
+    {
+      "word": "sail",
+      "signals": [
+        "apposition",
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "impatient",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Two Years Before the Mast",
+    "author": "Richard Henry Dana",
+    "year": 1840,
+    "source": "Project Gutenberg #2055",
+    "url": "https://www.gutenberg.org/ebooks/2055.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "sea"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-the-wonderful-wizard-of-oz-036",
+  "pool": "sourced",
+  "text": "“I believe I will try it myself,” said the Woodman, and shouldering his axe, he marched up to the first tree that had handled the Scarecrow so roughly. When a big branch bent down to seize him the Woodman chopped at it so fiercely that he cut it in two. At once the tree began shaking all its branches as if in pain, and the Tin Woodman passed safely under it. “Come on!” he shouted to the others. “Be quick!” They all ran forward and passed under the tree without injury, except Toto, who was caught by a small branch and shaken until he howled.",
+  "words": [
+    {
+      "word": "chopped",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "source": "Project Gutenberg #55",
+    "url": "https://www.gutenberg.org/ebooks/55.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

@@ -1,10 +1,28 @@
 {
   "id": "src-gen-a-tale-of-two-cities-016",
   "pool": "sourced",
-  "text": "On a lightly-snowing afternoon she arrived at the usual corner. It was a day of some wild rejoicing, and a festival. She had seen the houses, as she came along, decorated with little pikes, and with little red caps stuck upon them; also, with tricoloured ribbons; also, with the standard inscription (tricoloured letters were the favourite), Republic One and Indivisible. Liberty, Equality, Fraternity, or Death! The miserable shop of the wood-sawyer was so small, that its whole surface furnished very indifferent space for this legend.",
+  "text": "Like you, a voluntary exile from France; like you, driven from it by its distractions, oppressions, and miseries; like you, striving to live away from it by my own exertions, and trusting in a happier future; I look only to sharing your fortunes, sharing your life and home, and being faithful to you to the death. Not to divide with Lucie her privilege as your child, companion, and friend; but to come in aid of it, and bind her closer to you, if such a thing can be.” His touch still lingered on her father’s hand. Answering the touch for a moment, but not coldly, her father rested his hands upon the arms of his chair, and looked up for the first time since the beginning of the conference. A struggle was evidently in his face; a struggle with that occasional look which had a tendency in it to dark doubt and dread. “You speak so feelingly and so manfully, Charles Darnay, that I thank you with all my heart, and will open all my heart--or nearly so.",
   "words": [
     {
-      "word": "sawyer",
+      "word": "voluntary",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "exile",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "companion",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "occasional",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Charles Dickens",
     "year": 1859,
     "source": "Project Gutenberg #98",
-    "url": "https://www.gutenberg.org/ebooks/98",
+    "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "src-gen-alice-s-adventures-in-wonderland-024",
+  "pool": "sourced",
+  "text": "“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.” “Not at first, perhaps,” said the Hatter: “but you could keep it to half-past one as long as you liked.” “Is that the way you manage?” Alice asked. The Hatter shook his head mournfully. “Not I!” he replied. “We quarrelled last March—just before he went mad, you know—” (pointing with his tea spoon at the March Hare,) “—it was at the great concert given by the Queen of Hearts, and I had to sing ‘Twinkle, twinkle, little bat! How I wonder what you’re at!’ You know the song, perhaps?” “I’ve heard something like it,” said Alice.",
+  "words": [
+    {
+      "word": "spoon",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "source": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "childhood"
+}

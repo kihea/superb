@@ -1,0 +1,36 @@
+{
+  "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-027",
+  "pool": "sourced",
+  "text": "The priests opposed both my fire and life insurance, on the ground that it was an insolent attempt to hinder the decrees of God; and if you pointed out that they did not hinder the decrees in the least, but only modified the hard consequences of them if you took out policies and had luck, they retorted that that was gambling against the decrees of God, and was just as bad. So they managed to damage those industries more or less, but I got even on my accident business. As a rule, a knight is a lummux, and some times even a labrick, and hence open to pretty poor arguments when they come glibly from a superstition-monger, but even he could see the practical side of a thing once in a while; and so of late you couldn't clean up a tournament and pile the result without finding one of my accident-tickets in every helmet. We stood there awhile, in the thick darkness and stillness, looking toward the red blur in the distance, and trying to make out the meaning of a far-away murmur that rose and fell fitfully on the night.",
+  "words": [
+    {
+      "word": "hinder",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "helmet",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "blur",
+      "signals": [
+        "definition-marker",
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "A Connecticut Yankee in King Arthur's Court",
+    "author": "Mark Twain",
+    "year": 1889,
+    "source": "Project Gutenberg #86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "travel"
+}

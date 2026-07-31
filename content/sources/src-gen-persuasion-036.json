@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-persuasion-036",
+  "pool": "sourced",
+  "text": "Not that he will value it as he ought,” he observed, “Charles is too cool about sporting. That’s the worst of him.” “I am extremely glad, indeed,” cried Anne, “particularly glad that this should happen; and that of two sisters, who both deserve equally well, and who have always been such good friends, the pleasant prospect of one should not be dimming those of the other—that they should be so equal in their prosperity and comfort. I hope your father and mother are quite happy with regard to both.” “Oh!",
+  "words": [
+    {
+      "word": "prospect",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "prosperity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "source": "Project Gutenberg #105",
+    "url": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "courtship"
+}

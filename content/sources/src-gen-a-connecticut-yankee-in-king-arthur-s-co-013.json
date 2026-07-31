@@ -1,10 +1,28 @@
 {
   "id": "src-gen-a-connecticut-yankee-in-king-arthur-s-co-013",
   "pool": "sourced",
-  "text": "We covered them with such rags as we could find, and started away, fastening the door behind us. Their home must be these people's grave, for they could not have Christian burial, or be admitted to consecrated ground. They were as dogs, wild beasts, lepers, and no soul that valued its hope of eternal life would throw it away by meddling in any sort with these rebuked and smitten outcasts. We had not moved four steps when I caught a sound as of footsteps upon gravel. My heart flew to my throat.",
+  "text": "The rows of chops opened and shut in vast unison, and the sound of it was like to the muffled burr of subterranean machinery. The havoc continued an hour and a half, and unimaginable was the destruction of substantials. Of the chief feature of the feast --the huge wild boar that lay stretched out so portly and imposing at the start--nothing was left but the semblance of a hoop-skirt; and he was but the type and symbol of what had happened to all the other dishes. With the pastries and so on, the heavy drinking began--and the talk. Gallon after gallon of wine and mead disappeared, and everybody got comfortable, then happy, then sparklingly joyous--both sexes, --and by and by pretty noisy.",
   "words": [
     {
-      "word": "beasts",
+      "word": "havoc",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "boar",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "joyous",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "noisy",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Mark Twain",
     "year": 1889,
     "source": "Project Gutenberg #86",
-    "url": "https://www.gutenberg.org/ebooks/86",
+    "url": "https://www.gutenberg.org/ebooks/86.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

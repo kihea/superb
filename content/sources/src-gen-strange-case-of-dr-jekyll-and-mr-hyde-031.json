@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-strange-case-of-dr-jekyll-and-mr-hyde-031",
+  "pool": "sourced",
+  "text": "Again, in the course of my life, which had been, after all, nine tenths a life of effort, virtue and control, it had been much less exercised and much less exhausted. And hence, as I think, it came about that Edward Hyde was so much smaller, slighter and younger than Henry Jekyll. Even as good shone upon the countenance of the one, evil was written broadly and plainly on the face of the other. Evil besides (which I must still believe to be the lethal side of man) had left on that body an imprint of deformity and decay. And yet when I looked upon that ugly idol in the glass, I was conscious of no repugnance, rather of a leap of welcome.",
+  "words": [
+    {
+      "word": "virtue",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "imprint",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "source": "Project Gutenberg #43",
+    "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "invention"
+}

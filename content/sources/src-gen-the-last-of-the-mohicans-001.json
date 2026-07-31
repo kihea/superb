@@ -1,10 +1,16 @@
 {
   "id": "src-gen-the-last-of-the-mohicans-001",
   "pool": "sourced",
-  "text": "INTRODUCTION It is believed that the scene of this tale, and most of the information necessary to understand its allusions, are rendered sufficiently obvious to the reader in the text itself, or in the accompanying notes. Still there is so much obscurity in the Indian traditions, and so much confusion in the Indian names, as to render some explanation useful. Few men exhibit greater diversity, or, if we may so express it, greater antithesis of character, than the native warrior of North America. In war, he is daring, boastful, cunning, ruthless, self-denying, and self-devoted; in peace, just, generous, hospitable, revengeful, superstitious, modest, and commonly chaste. These are qualities, it is true, which do not distinguish all alike; but they are so far the predominating traits of these remarkable people as to be characteristic.",
+  "text": "Whatever may be the truth, as respects the root and the genius of the Indian tongues, it is quite certain they are now so distinct in their words as to possess most of the disadvantages of strange languages; hence much of the embarrassment that has arisen in learning their histories, and most of the uncertainty which exists in their traditions. Like nations of higher pretensions, the American Indian gives a very different account of his own tribe or race from that which is given by other people. He is much addicted to overestimating his own perfections, and to undervaluing those of his rival or his enemy; a trait which may possibly be thought corroborative of the Mosaic account of the creation. The whites have assisted greatly in rendering the traditions of the Aborigines more obscure by their own manner of corrupting names. Thus, the term used in the title of this book has undergone the changes of Mahicanni, Mohicans, and Mohegans; the latter being the word commonly used by the whites.",
   "words": [
     {
-      "word": "traits",
+      "word": "tribe",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "rival",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +21,7 @@
     "author": "James Fenimore Cooper",
     "year": 1826,
     "source": "Project Gutenberg #940",
-    "url": "https://www.gutenberg.org/ebooks/940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

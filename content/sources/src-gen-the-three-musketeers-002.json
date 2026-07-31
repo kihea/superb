@@ -1,10 +1,22 @@
 {
   "id": "src-gen-the-three-musketeers-002",
   "pool": "sourced",
-  "text": "I will go straight to the Louvre; I will give in my resignation as captain of the king’s Musketeers to take a lieutenancy in the cardinal’s Guards, and if he refuses me, morbleu! I will turn abbé.” At these words, the murmur without became an explosion; nothing was to be heard but oaths and blasphemies. The morbleus, the sang Dieus, the morts touts les diables, crossed one another in the air. D’Artagnan looked for some tapestry behind which he might hide himself, and felt an immense inclination to crawl under the table. “Well, my Captain,” said Porthos, quite beside himself, “the truth is that we were six against six.",
+  "text": "Next he went to the Quai de Feraille to have a new blade put to his sword, and then returned toward the Louvre, inquiring of the first Musketeer he met for the situation of the hôtel of M. de Tréville, which proved to be in the Rue du Vieux-Colombier; that is to say, in the immediate vicinity of the chamber hired by D’Artagnan—a circumstance which appeared to furnish a happy augury for the success of his journey. After this, satisfied with the way in which he had conducted himself at Meung, without remorse for the past, confident in the present, and full of hope for the future, he retired to bed and slept the sleep of the brave. This sleep, provincial as it was, brought him to nine o’clock in the morning; at which hour he rose, in order to repair to the residence of M. de Tréville, the third personage in the kingdom, in the paternal estimation.",
   "words": [
     {
-      "word": "sang",
+      "word": "blade",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "du",
+      "signals": [
+        "definition-marker"
+      ]
+    },
+    {
+      "word": "circumstance",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +27,7 @@
     "author": "Alexandre Dumas",
     "year": 1844,
     "source": "Project Gutenberg #1257",
-    "url": "https://www.gutenberg.org/ebooks/1257",
+    "url": "https://www.gutenberg.org/ebooks/1257.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

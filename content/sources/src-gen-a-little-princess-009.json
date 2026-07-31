@@ -1,22 +1,28 @@
 {
   "id": "src-gen-a-little-princess-009",
   "pool": "sourced",
-  "text": "The rat shuffled a little nearer and ate a few more crumbs, then he stopped and sniffed delicately, giving a side glance at the occupant of the footstool; then he darted at the piece of bun with something very like the sudden boldness of the sparrow, and the instant he had possession of it fled back to the wall, slipped down a crack in the skirting board, and was gone. \"I knew he wanted it for his children,\" said Sara. \"I do believe I could make friends with him.\" A week or so afterward, on one of the rare nights when Ermengarde found it safe to steal up to the attic, when she tapped on the door with the tips of her fingers Sara did not come to her for two or three minutes. There was, indeed, such a silence in the room at first that Ermengarde wondered if she could have fallen asleep.",
+  "text": "In fact, the mere seeing of Miss Sara would have been enough without meat pies. If there was time only for a few words, they were always friendly, merry words that put heart into one; and if there was time for more, then there was an installment of a story to be told, or some other thing one remembered afterward and sometimes lay awake in one's bed in the attic to think over. Sara--who was only doing what she unconsciously liked better than anything else, Nature having made her for a giver--had not the least idea what she meant to poor Becky, and how wonderful a benefactor she seemed. If Nature has made you for a giver, your hands are born open, and so is your heart; and though there may be times when your hands are empty, your heart is always full, and you can give things out of that--warm things, kind things, sweet things--help and comfort and laughter--and sometimes gay, kind laughter is the best help of all. Becky had scarcely known what laughter was through all her poor, little hard-driven life.",
   "words": [
     {
-      "word": "crumbs",
+      "word": "mere",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "bun",
+      "word": "merry",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "slipped",
+      "word": "installment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "giver",
       "signals": [
         "gloss-overlap"
       ]
@@ -27,7 +33,7 @@
     "author": "Frances Hodgson Burnett",
     "year": 1905,
     "source": "Project Gutenberg #146",
-    "url": "https://www.gutenberg.org/ebooks/146",
+    "url": "https://www.gutenberg.org/ebooks/146.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

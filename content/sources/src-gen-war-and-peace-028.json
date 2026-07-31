@@ -1,0 +1,29 @@
+{
+  "id": "src-gen-war-and-peace-028",
+  "pool": "sourced",
+  "text": "Only someone’s orderly passed through the gateway, splashing through the mud, and talked to the innkeeper. Above Pierre’s head some pigeons, disturbed by the movement he had made in sitting up, fluttered under the dark roof of the penthouse. The whole courtyard was permeated by a strong peaceful smell of stable yards, delightful to Pierre at that moment. He could see the clear starry sky between the dark roofs of two penthouses. “Thank God, there is no more of that!” he thought, covering up his head again.",
+  "words": [
+    {
+      "word": "penthouse",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "courtyard",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "source": "Project Gutenberg #2600",
+    "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "war"
+}

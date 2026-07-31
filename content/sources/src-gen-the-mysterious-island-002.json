@@ -1,10 +1,28 @@
 {
   "id": "src-gen-the-mysterious-island-002",
   "pool": "sourced",
-  "text": "The enormous load of wood drifted down the current. The bank was very equal; there was no fear that the raft would run aground, and before two o’clock they arrived at the river’s mouth, a few paces from the Chimneys. Pencroft’s first care, after unloading the raft, was to render the cave habitable by stopping up all the holes which made it draughty. Sand, stones, twisted branches, wet clay, closed up the galleries open to the south winds. One narrow and winding opening at the side was kept, to lead out the smoke and to make the fire draw.",
+  "text": "What was their disappointment, when, after trudging nearly two miles, having reached an elevated point composed of slippery rocks, they found themselves again stopped by the sea. “We are on an islet,” said Pencroft, “and we have surveyed it from one extremity to the other.” The sailor was right; they had been thrown, not on a continent, not even on an island, but on an islet which was not more than two miles in length, with even a less breadth. Was this barren spot the desolate refuge of sea-birds, strewn with stones and destitute of vegetation, attached to a more important archipelago? It was impossible to say. When the voyagers from their car saw the land through the mist, they had not been able to reconnoiter it sufficiently.",
   "words": [
     {
-      "word": "unloading",
+      "word": "disappointment",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "sailor",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "continent",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "archipelago",
       "signals": [
         "gloss-overlap"
       ]
@@ -15,7 +33,7 @@
     "author": "Jules Verne",
     "year": 1874,
     "source": "Project Gutenberg #1268",
-    "url": "https://www.gutenberg.org/ebooks/1268",
+    "url": "https://www.gutenberg.org/ebooks/1268.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },

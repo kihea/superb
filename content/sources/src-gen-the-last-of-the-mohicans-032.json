@@ -1,0 +1,47 @@
+{
+  "id": "src-gen-the-last-of-the-mohicans-032",
+  "pool": "sourced",
+  "text": "The instant Hawkeye found himself under the observation of the Hurons, he drew up his tall form in the rigid manner of David, threw out his arm in the act of keeping time, and commenced what he intended for an imitation of his psalmody. Happily for the success of this delicate adventure, he had to deal with ears but little practised in the concord of sweet sounds, or the miserable effort would infallibly have been detected. It was necessary to pass within a dangerous proximity of the dark group of the savages, and the voice of the scout grew louder as they drew nigher. When at the nearest point the Huron who spoke the English thrust out an arm, and stopped the supposed singing-master. “The Delaware dog!” he said, leaning forward, and peering through the dim light to catch the expression of the other’s features; “is he afraid?",
+  "words": [
+    {
+      "word": "observation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "imitation",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "happily",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "proximity",
+      "signals": [
+        "gloss-overlap"
+      ]
+    },
+    {
+      "word": "thrust",
+      "signals": [
+        "gloss-overlap"
+      ]
+    }
+  ],
+  "provenance": {
+    "work": "The Last of the Mohicans",
+    "author": "James Fenimore Cooper",
+    "year": 1826,
+    "source": "Project Gutenberg #940",
+    "url": "https://www.gutenberg.org/ebooks/940.txt.utf-8",
+    "licence": "Public Domain (US: published before 1929)",
+    "retrieved": "2026-07-25"
+  },
+  "topic": "wilderness"
+}

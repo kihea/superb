@@ -1,16 +1,16 @@
 {
   "id": "src-gen-the-call-of-cthulhu-006",
   "pool": "sourced",
-  "text": "And as far as he could tell, it was a rough parallel in all essential features of the bestial thing now lying before the meeting. These data, received with suspense and astonishment by the assembled members, proved doubly exciting to Inspector Legrasse; and he began at once to ply his informant with questions. Having noted and copied an oral ritual among the swamp cult-worshipers his men had arrested, he besought the professor to remember as best he might the syllables taken down amongst the diabolist Eskimos. There then followed an exhaustive comparison of details, and a moment of really awed silence when both detective and scientist agreed on the virtual identity of the phrase common to two hellish rituals so many worlds of distance apart. What, in substance, both the Eskimo wizards and the Louisiana swamp-priests had chanted to their kindred idols was something very like this--the word-divisions being guessed at from traditional breaks in the phrase as chanted aloud: \"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.\"",
+  "text": "A dispatch from California describes a theosophist colony as donning white robes en masse for some \"glorious fulfilment\" which never arrives, whilst items from India speak guardedly of serious native unrest toward the end of March. Voodoo orgies multiply in Haiti, and African outposts report ominous mutterings. American officers in the Philippines find certain tribes bothersome about this time, and New York policemen are mobbed by hysterical Levantines on the night of March 22-23. The west of Ireland, too, is full of wild rumor and legendry, and a fantastic painter named Ardois-Bonnot hangs a blasphemous Dream Landscape in the Paris spring salon of 1926. And so numerous are the recorded troubles in insane asylums that only a miracle can have stopped the medical fraternity from noting strange parallelisms and drawing mystified conclusions.",
   "words": [
     {
-      "word": "swamp",
+      "word": "unrest",
       "signals": [
         "gloss-overlap"
       ]
     },
     {
-      "word": "scientist",
+      "word": "voodoo",
       "signals": [
         "gloss-overlap"
       ]
@@ -21,7 +21,7 @@
     "author": "H. P. Lovecraft",
     "year": 1928,
     "source": "Project Gutenberg #68283",
-    "url": "https://www.gutenberg.org/ebooks/68283",
+    "url": "https://www.gutenberg.org/ebooks/68283.txt.utf-8",
     "licence": "Public Domain (US: published before 1929)",
     "retrieved": "2026-07-25"
   },
