@@ -100,6 +100,20 @@
   gap: var(--sp-4);
 }
 
+/* PR-104 review, Finding 3: splitting the row's one link into a preview
+   button plus this bare `<Link className="sb-list__aside">` left "Change"
+   at its own text's line box -- about 44.6 x 16.8px at phone width, well
+   under --tap-min. `.sb-list__aside` is also a plain, non-interactive
+   trailing label elsewhere in this screen (Account, Credits and licences),
+   so the fix is scoped to this one interactive instance rather than the
+   shared class. */
+.settings-row__voice-actions .sb-list__aside {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-min);
+  padding: 0 0 0 var(--sp-2);
+}
+
 .settings-row__names {
   display: flex;
   flex-direction: column;

@@ -35,3 +35,30 @@ test("the voice orb is frozen when the motion switch is off, from the very first
   const second = await orb.screenshot();
   expect(second.equals(first), "the orb painted a different frame with the motion switch off").toBe(true);
 });
+
+// PR-104 review, Finding 5: prefers-reduced-motion used to be read once
+// inside the paint effect, so a reader who changed that OS-level
+// preference mid-session -- no reload -- went unheard until something
+// else happened to re-render the orb. This proves the fix without a
+// reload: the orb starts turning under the ordinary media query, is caught
+// animating, then the preference flips live and the orb is caught frozen
+// on the very next sample -- the same page, the same mount.
+test("the orb hears a live change in prefers-reduced-motion without a reload", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+
+  const orb = page.locator(".voice-orb-button .voice-orb");
+  await expect(orb).toBeVisible();
+
+  const beforeA = await orb.screenshot();
+  await page.waitForTimeout(600);
+  const beforeB = await orb.screenshot();
+  expect(beforeB.equals(beforeA), "the orb should be turning before the preference changes").toBe(false);
+
+  await page.emulateMedia({ reducedMotion: "reduce" });
+
+  const afterA = await orb.screenshot();
+  await page.waitForTimeout(600);
+  const afterB = await orb.screenshot();
+  expect(afterB.equals(afterA), "the orb kept turning after reduced-motion was requested live").toBe(true);
+});

@@ -148,28 +148,78 @@ test("the held sentence's new-word count is the only number facing the reader", 
   await expect(menu).toBeVisible();
   await expect(page.locator(".hold-menu__count")).toHaveText(new RegExp(`^\\s*·\\s*${expectedCount}\\s*new$`));
 
-  // Every other digit-bearing text node in the document: the passage's own
-  // prose is excluded, the same way reading.spec.ts's topic-affinity test
-  // excludes the passage's own topic word -- content a book or a composed
-  // template legitimately carries is not a measurement of the reader, and
-  // is not what law 3 is about. The citation year (ADR-023) is the other
-  // named legitimate case. Anything left over is unexplained.
+  // Every other digit anywhere near the reader: the passage's own prose is
+  // excluded, the same way reading.spec.ts's topic-affinity test excludes
+  // the passage's own topic word -- content a book or a composed template
+  // legitimately carries is not a measurement of the reader, and is not
+  // what law 3 is about. The citation year (ADR-023) is the other named
+  // legitimate case. Anything left over is unexplained.
+  //
+  // A review attacked the first version of this sweep and won three ways,
+  // all reproduced and closed here:
+  //
+  //   1. The exclusions were substring class checks (`.includes(...)`), so
+  //      an unrelated class merely *containing* "passage-citation" or
+  //      "hold-menu__count" escaped. `classList.contains` is exact per
+  //      class token instead.
+  //   2. "Passage prose" was any DOM descendant of `.passage-text`, which a
+  //      `position: fixed` badge nested inside the paragraph satisfies
+  //      while rendering nowhere near the actual text. Prose now also has
+  //      to be geometrically inside the passage's own rendered box -- a
+  //      fixed-position escape fails that regardless of where it sits in
+  //      the DOM.
+  //   3. `::before`/`::after` generated content is invisible to a DOM text
+  //      walker by construction. There is no legitimate reason for a
+  //      pseudo-element to carry a digit on this surface at all, so this
+  //      now scans computed pseudo-element content too and treats any
+  //      digit found there as unexplained, unconditionally.
+  //
+  // The lesson that produced this list: watching the sweep go red proves
+  // the mechanism fires, not that the exclusions are the right shape --
+  // each carve-out has to be attacked on its own before it can be trusted.
   const digitNodes = await page.evaluate(() => {
-    const out: { className: string; text: string }[] = [];
+    const out: { selector: string; text: string }[] = [];
+
+    const passageText = document.querySelector(".passage-text");
+    const passageRect = passageText?.getBoundingClientRect();
+    const isPassageProse = (el: Element): boolean => {
+      if (!passageText || !passageRect || !passageText.contains(el)) return false;
+      const range = document.createRange();
+      range.selectNodeContents(el);
+      const r = range.getBoundingClientRect();
+      const pad = 1; // sub-pixel rounding, not a loophole width.
+      return (
+        r.left >= passageRect.left - pad &&
+        r.right <= passageRect.right + pad &&
+        r.top >= passageRect.top - pad &&
+        r.bottom <= passageRect.bottom + pad
+      );
+    };
+    const describe = (el: Element): string =>
+      `${el.tagName.toLowerCase()}${el.classList.length ? "." + [...el.classList].join(".") : ""}`;
+
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     for (let node = walker.nextNode(); node; node = walker.nextNode()) {
       const text = (node.textContent ?? "").trim();
       if (!text || !/\d/.test(text)) continue;
       const el = node.parentElement;
-      if (el?.closest(".passage-text")) continue;
-      out.push({ className: typeof el?.className === "string" ? el.className : "", text });
+      if (!el) continue;
+      if (isPassageProse(el)) continue;
+      if (el.classList.contains("hold-menu__count") || el.classList.contains("passage-citation")) continue;
+      out.push({ selector: describe(el), text });
     }
+
+    for (const el of document.querySelectorAll("*")) {
+      for (const pseudo of ["::before", "::after"] as const) {
+        const content = getComputedStyle(el, pseudo).content;
+        const text = content.replace(/^"|"$/g, "");
+        if (/\d/.test(text)) out.push({ selector: `${describe(el)}${pseudo}`, text });
+      }
+    }
+
     return out;
   });
-  const unexplained = digitNodes.filter(
-    ({ className }) => !className.includes("hold-menu__count") && !className.includes("passage-citation"),
-  );
-  expect(unexplained, "a number faced the reader outside the one sanctioned exception").toEqual([]);
+  expect(digitNodes, "a number faced the reader outside the one sanctioned exception").toEqual([]);
 });
 
 // The seam audit (ADVISORY-008 §5 item 4): none of the three drawn motifs
