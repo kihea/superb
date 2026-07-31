@@ -91,6 +91,4 @@ for (const width of WIDTHS) {
   }
 }
 
-await browser.close();
-server.close();
-process.exit(failed ? 1 : 0);
+
