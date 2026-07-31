@@ -1,0 +1,6 @@
+# Every route is the same document. Without this, opening /shelf directly --
+# a bookmark, a shared link, a reload -- is a 404 on a static host, because
+# there is no /shelf file to serve. Cloudflare Pages reads this file from
+# the build output; the 200 is what makes it a rewrite rather than a
+# redirect, so the address bar still says /shelf.
+/*    /index.html   200
