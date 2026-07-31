@@ -21,6 +21,17 @@ failure naming the defect it reproduces, before it ever asserts the same
 script passes on the real tree — the same discipline
 `test_check_license_gate.py` already uses for the content-licence gate.
 
+A fifth fixture, `defect-3-renamed/`, is the PR #96 review's own attack,
+made permanent: defect 3's shape, reintroduced with the attributed
+dataset's row renamed and the word "Wiktionary" stripped from its "used
+for" cell (keeping the share-alike licence and the attribution language).
+The gate's gloss-attribution fact used to be a hardcoded match on the
+literal string "wiktionary" and went silently green on exactly this
+fixture; it is derived generically now (from the row's own "used for"
+text, the same way every other fact in this file is), and this fixture is
+what keeps it that way — if this fact is ever re-hardcoded to a name, this
+is the fixture that catches it.
+
 Run: python data/pipeline/tests/test_check_license_claims.py
 """
 
@@ -46,6 +57,7 @@ DEFECTS = {
     "defect-2": "defect 1/2 shape",
     "defect-3": "defect 3",
     "defect-4": "defect 4",
+    "defect-3-renamed": "defect 3",
 }
 
 
@@ -87,8 +99,9 @@ def main() -> int:
         return 1
 
     print(
-        "check_license_claims.py fails on all four historical defects (each naming "
-        "the right one) and passes on the real tree."
+        f"check_license_claims.py fails on all {len(DEFECTS)} fixtures (the four "
+        "historical defects and the PR #96 rename attack, each naming the right "
+        "defect) and passes on the real tree."
     )
     return 0
 

@@ -10,7 +10,11 @@ name: docs
 
 on:
   push:
-    branches: [main]
+    # dev too, same reason data-license.yml's own fix states: a merge
+    # commit landing only on dev used to run no workflow at all. This
+    # workflow is new in this same PR, so it gets the fix from the start
+    # rather than waiting for its own gap to be found separately.
+    branches: [main, dev]
     paths:
       [
         "README.md",

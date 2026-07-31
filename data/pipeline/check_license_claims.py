@@ -114,6 +114,17 @@ def parse_manifest_rows(manifest_text: str) -> list[dict[str, str]]:
 
 ATTRIBUTION_HINT = re.compile(r"\bcredit\b|\battribution\b", re.IGNORECASE)
 ARTIFACT_PATH = re.compile(r"`?(content/[\w./-]+\.(?:json|md))`?")
+
+# Content categories checked against an attributed row's own "used for"
+# text — not against the row's dataset name, and not against any specific
+# source's name (see the comment at attributed_content_categories). "gloss"
+# is the only category this gate currently needs, because it is the only
+# content type PR #85 found misclassified as CC0 while its source data was
+# attribution-encumbered (defect 3). A future content type gets a line
+# here, keyed to what the row says it produces, when it needs one.
+CONTENT_CATEGORY_HINTS = {
+    "gloss": re.compile(r"\bgloss", re.IGNORECASE),
+}
 # \s+ rather than literal spaces: MANIFEST.md's own prose wraps this
 # sentence across a line break, so a literal " " between words does not
 # match the real file even though the sentence itself is unchanged.
@@ -138,7 +149,18 @@ class LedgerFacts:
         name_key = next((k for k in (self.rows[0].keys() if self.rows else []) if k in ("dataset", "name")), None)
 
         self.attributed_artifacts: dict[str, str] = {}
-        self.gloss_requires_attribution = False
+        # Content categories an attributed row's own "used for" text says it
+        # touches (category -> the row that said so). Built the same way
+        # attributed_artifacts is: by reading what the row's text actually
+        # says it produces, never by matching the row's own name or a
+        # specific source's name. A row is free to be renamed, or a new
+        # attributed source could arrive tomorrow, and this still finds the
+        # fact from what the row says rather than from who said it — which
+        # is exactly what the prior version of this file did not do (it
+        # matched the literal substring "wiktionary", and went silently
+        # green the moment a review renamed that row and reworded its
+        # "used for" cell around the same word).
+        self.attributed_content_categories: dict[str, str] = {}
         for row in self.rows:
             used_for = row.get(used_for_key, "") if used_for_key else ""
             licence = row.get(licence_key, "") if licence_key else ""
@@ -148,8 +170,10 @@ class LedgerFacts:
                 continue
             for artifact in ARTIFACT_PATH.findall(used_for):
                 self.attributed_artifacts[artifact] = dataset_name
-            if "wiktionary" in dataset_name.lower() or "wiktionary" in used_for.lower():
-                self.gloss_requires_attribution = True
+            for category, pattern in CONTENT_CATEGORY_HINTS.items():
+                if pattern.search(used_for) and category not in self.attributed_content_categories:
+                    self.attributed_content_categories[category] = dataset_name
+        self.gloss_requires_attribution = "gloss" in self.attributed_content_categories
 
         # Whether the ledger's own text says sourced excerpts are recorded as
         # rows in data/MANIFEST.md. If the disclaiming sentence can no longer
