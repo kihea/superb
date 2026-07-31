@@ -7,13 +7,35 @@
 // and "Renews 12 August · £4.99 a month" describe a subscription that does
 // not exist in this build; a real-looking bill is a different kind of thing
 // from mocked sample data, so the voice row says what is true instead.
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
 import { Link } from "../router/router";
 import { useTheme } from "../theme/theme";
 import type { Paper } from "../theme/theme";
+import { useMotion } from "../theme/motion";
+import { VoiceOrb } from "../components/voice/VoiceOrb";
+import type { OrbState } from "../components/voice/VoiceOrb";
 import { books } from "../v0mock";
 import "./Settings.css";
+
+// Issue #99's other half: "a voice control/preview." The orb on the reading
+// page is the control; this is the preview -- a one-line sample of the
+// phone's own built-in voice, so choosing it in Settings is not a guess.
+// Feature-detected and silently absent where the browser has no
+// speechSynthesis, same as anything else here that depends on what the
+// device can do.
+//
+// ADR-039: "voice does not exist yet" as a working feature in this build --
+// the reading page's own orb does not actually speak (ReadingScreen.tsx:
+// "two words, not a player"). So the line this speaks names the phone's
+// voice itself, never what reading in the app will sound like -- this
+// previews a real, honest capability of the device, not a promise about
+// a feature that is not wired up anywhere else yet.
+const PREVIEW_LINE = "This is your phone's own voice.";
+
+function speechSynthesisSupported(): boolean {
+  return typeof window !== "undefined" && "speechSynthesis" in window;
+}
 
 const PAPERS: { id: Paper; label: string; swatch: string }[] = [
   { id: "oxblood", label: "Oxblood", swatch: "settings-swatch--oxblood" },
@@ -22,22 +44,36 @@ const PAPERS: { id: Paper; label: string; swatch: string }[] = [
 ];
 
 const SCALE_KEY = "superb.readerScale";
-const MOTION_KEY = "superb.motion";
 
 export function Settings() {
   const { paper, night, setPaper, setNight } = useTheme();
   const [scale, setScale] = useState(() => Number(localStorage.getItem(SCALE_KEY) ?? 1) || 1);
-  const [motion, setMotion] = useState(() => localStorage.getItem(MOTION_KEY) !== "off");
+  const { motion, setMotion } = useMotion();
+  const [voiceState, setVoiceState] = useState<OrbState>("still");
+  const voiceSupported = useRef(speechSynthesisSupported()).current;
+
+  useEffect(() => {
+    // Leaving the screen mid-sample should not leave the phone talking to an
+    // empty room.
+    return () => {
+      if (voiceSupported) window.speechSynthesis.cancel();
+    };
+  }, [voiceSupported]);
+
+  function playVoicePreview() {
+    if (!voiceSupported || voiceState === "speaking") return;
+    const utterance = new SpeechSynthesisUtterance(PREVIEW_LINE);
+    utterance.onend = () => setVoiceState("still");
+    utterance.onerror = () => setVoiceState("still");
+    setVoiceState("speaking");
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  }
 
   useEffect(() => {
     document.documentElement.style.setProperty("--reader-scale", String(scale));
     localStorage.setItem(SCALE_KEY, String(scale));
   }, [scale]);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-motion", motion ? "on" : "off");
-    localStorage.setItem(MOTION_KEY, motion ? "on" : "off");
-  }, [motion]);
 
   return (
     <Screen title="Settings" back={{ to: "/shelf", label: "Shelf" }}>
@@ -91,7 +127,7 @@ export function Settings() {
         <div className="settings-row">
           <span className="settings-row__names">
             <span className="settings-row__name">Motion</span>
-            <span className="sb-caption">sheets rise; nothing else moves</span>
+            <span className="sb-caption">sheets rise; the voice orb turns; nothing else moves</span>
           </span>
           <button
             type="button"
@@ -105,13 +141,32 @@ export function Settings() {
           </button>
         </div>
 
-        <Link to="/voice" className="settings-row settings-row--link">
+        <div className="settings-row">
           <span className="settings-row__names">
             <span className="settings-row__name">Voice</span>
             <span className="sb-caption">your phone's own</span>
           </span>
-          <span className="sb-list__aside">Change</span>
-        </Link>
+          <span className="settings-row__voice-actions">
+            {voiceSupported && (
+              <button
+                type="button"
+                className="voice-orb-button"
+                data-speaking={voiceState === "speaking"}
+                aria-label="Hear a sample of this voice"
+                onClick={playVoicePreview}
+              >
+                <VoiceOrb state={voiceState} size={22} />
+              </button>
+            )}
+            {/* Its own accessible name (rather than the visible "Change")
+                so a screen reader still hears what this goes to, now that
+                the row itself is no longer one single link (the orb button
+                beside it needs its own tap target). */}
+            <Link to="/voice" className="sb-list__aside" aria-label="Voice">
+              Change
+            </Link>
+          </span>
+        </div>
 
         <Link to="/sign-in" className="settings-row settings-row--link">
           <span className="settings-row__name">Account</span>

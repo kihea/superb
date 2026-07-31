@@ -15,6 +15,10 @@ import "./HoldMenu.css";
 export interface HoldMenuProps {
   /** Where the held sentence sits on screen, so the caret points into it. */
   anchor: DOMRect;
+  /** How many of the sentence's words are the engine's own first contact
+      (Passage.seeded) rather than a scheduled review -- see PassagePage's
+      call site. Zero is common and says nothing beside "Keep the words". */
+  newCount: number;
   onKeep: () => void;
   onHear: () => void;
   onSend: () => void;
@@ -24,7 +28,7 @@ export interface HoldMenuProps {
 const CARD_WIDTH_MAX = 420;
 const EDGE = 18;
 
-export function HoldMenu({ anchor, onKeep, onHear, onSend, onDismiss }: HoldMenuProps) {
+export function HoldMenu({ anchor, newCount, onKeep, onHear, onSend, onDismiss }: HoldMenuProps) {
   const [viewport, setViewport] = useState({ w: window.innerWidth, h: window.innerHeight });
 
   useEffect(() => {
@@ -62,12 +66,15 @@ export function HoldMenu({ anchor, onKeep, onHear, onSend, onDismiss }: HoldMenu
       >
         <span className="hold-menu__caret" style={{ left: caretLeft }} aria-hidden="true" />
         <button type="button" className="hold-menu__item" role="menuitem" onClick={onKeep}>
-          <span>Keep the words</span>
-          {/* Frame 2k draws "· 3 new" beside this, and law 3 forbids a
-              number facing the reader on a reading surface. That is Kihea's
-              call rather than a builder's, so it ships without the count
-              until he answers -- one line to restore.
-              DECISION PENDING: https://github.com/kihea/superb/issues/102 */}
+          <span>
+            Keep the words
+            {/* Frame 2k draws "· 3 new" beside this, and law 3 forbids a
+                number facing the reader on a reading surface -- Kihea's own
+                exception, decided on issue #102 ("the count is fine man"),
+                not a builder's call to make. This is the one place in the
+                reading state a number is allowed to face the reader. */}
+            {newCount > 0 && <span className="hold-menu__count"> · {newCount} new</span>}
+          </span>
         </button>
         <span className="hold-menu__rule" />
         <button type="button" className="hold-menu__item" role="menuitem" onClick={onHear}>

@@ -6,6 +6,7 @@ import "./PassagePage.css";
 import { createPortal } from "react-dom";
 import type { Passage } from "../engine/port";
 import type { ComposedPassage, SourceExcerpt } from "../content/types";
+import type { PassageToken } from "../content/render";
 import { fillTemplate, groupIntoSentences, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
 import { HoldMenu } from "./HoldMenu";
@@ -41,6 +42,22 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   const text = record.pool === "composed" ? fillTemplate(record.text, passage.fills) : record.text;
   const tokens = tokenize(text);
   const sentences = groupIntoSentences(tokens);
+
+  // Frame 2k's "· 3 new": how many of the held sentence's words are the
+  // engine's own first contact (Passage.seeded) rather than a scheduled
+  // review (Passage.targets) -- issue #102, Kihea's own exception to law 3.
+  // Counted here, off the same passage the engine actually composed, rather
+  // than guessed from anything visible in the text.
+  const seededWords = new Set(passage.seeded.map((word) => word.toLowerCase()));
+  function countNew(sentence: PassageToken[]): number {
+    const found = new Set<string>();
+    for (const token of sentence) {
+      if (token.type === "word" && seededWords.has(token.text.toLowerCase())) {
+        found.add(token.text.toLowerCase());
+      }
+    }
+    return found.size;
+  }
 
   useEffect(() => {
     const node = sentinelRef.current;
@@ -179,6 +196,7 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
       {held && (
         <HoldMenu
           anchor={held.rect}
+          newCount={countNew(sentences[held.index])}
           onKeep={() => setHeld(null)}
           onHear={() => setHeld(null)}
           onSend={() => {

@@ -44,7 +44,9 @@ button {
 }
 
 /* Settings' motion switch, and the system preference it defers to. "Sheets
-   rise; nothing else moves" is the on state; off means nothing moves. */
+   rise; the voice orb turns; nothing else moves" is the on state; off means
+   nothing moves, including the orb (VoiceOrb.tsx reads the same switch
+   directly, since a canvas loop is not something a CSS rule can stop). */
 [data-motion="off"] *,
 [data-motion="off"] *::before,
 [data-motion="off"] *::after {

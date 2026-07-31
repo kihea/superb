@@ -1,8 +1,6 @@
 // The screen itself. One material now (ADVISORY-008 §1 -- the picker that
 // asked glass-or-paper was re-deriving a settled question; ADR-019 settled
-// it 2026-07-25). The room the passage floats in is dark-first glass and
-// metal; the passage card itself stays ink-and-paper regardless (ADR-019
-// Decision 1) -- see design/tokens.json.
+// it 2026-07-25).
 //
 // The register itself -- how much of Kihea's own hand shows against that
 // chrome -- was item 7, and it is now decided: "the register decision,
@@ -14,11 +12,13 @@
 // the record that they existed.
 //
 // T15 restyled this screen to frame 3a: the room around the passage is now
-// paper rather than dark glass, and the page carries a way back to the
-// Shelf and the voice orb, as his frame draws them. The passage's own ink
-// and paper (--page-*) are untouched -- only the room changed. That
-// contradicts ADR-019's dark room, which is not a builder's call:
-// DECISION PENDING: https://github.com/kihea/superb/issues/100
+// paper rather than dark glass. That still left the passage's own ink and
+// paper (--page-*) fixed to page.light regardless of the theme, which
+// contradicted the fourteen new screens and, once asked (issue #100),
+// Kihea's own answer: "the whole screen goes dark? its dark mode" -- ADR-039.
+// So --page-* now darkens with the room too (apps/web/scripts/
+// tokens-to-css.mjs); nothing in this component changed, since it already
+// read --page-* rather than a hard-coded light value.
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";

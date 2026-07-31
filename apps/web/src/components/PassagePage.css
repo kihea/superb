@@ -12,8 +12,9 @@
    buys the one thing a reader would otherwise lose, which is being able to
    scroll the end of a passage out from under the card. With 3rem here it
    could not be done at all. Whether the card should cover words while you
-   are reading them is a question for Kihea, not a rule being broken:
-   https://github.com/kihea/superb/issues/103 */
+   are reading them was a question for Kihea, not a rule being broken, and
+   he answered it on issue #103: "over the words is fine" -- this stays as
+   built. */
 .passage-page {
   --gloss-card-clearance: 9rem;
   max-width: var(--type-passage-measure);

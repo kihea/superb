@@ -84,6 +84,13 @@
   color: var(--text-3);
 }
 
+/* Frame 2k's "· 3 new" -- muted the way .hold-menu__aside is, but inline
+   with the label rather than pushed to the row's far end, matching the
+   frame's single continuous line. */
+.hold-menu__count {
+  color: var(--text-3);
+}
+
 .hold-menu__orb {
   color: var(--text-3);
   display: flex;
