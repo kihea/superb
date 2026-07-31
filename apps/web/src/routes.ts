@@ -29,7 +29,7 @@ export const ROUTES: RouteEntry[] = [
   },
   { path: "/voice", name: "The better voice", screen: 7, frame: "2c (orb itself: 2b)" },
   { path: "/rhyme", name: "Rhyme", screen: 8, frame: "2d" },
-  { path: "/association", name: "Association", screen: 9, frame: "2e and 2f" },
+  { path: "/association", name: "Association", screen: 9, frame: "3d" },
   { path: "/elevated", name: "Elevated passages", screen: 10, frame: "1r" },
   { path: "/sign-in", name: "Sign in", screen: 12, frame: "3b" },
   { path: "/settings", name: "Settings", screen: 13, frame: "1u" },

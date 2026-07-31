@@ -15,8 +15,10 @@ export function Voice() {
   return (
     <Screen>
       <div className="voice-behind" aria-hidden="true">
-        <p className="sb-passage">{voice.afterSpoken}</p>
         <p className="sb-passage">{voice.spokenParagraph}</p>
+        <p className="sb-passage">{voice.afterSpoken}</p>
+        {/* Quoted text carries its source, even dimmed behind a sheet. */}
+        <p className="sb-caption">{voice.attribution}</p>
       </div>
 
       <div className="voice-sheet sb-rise">

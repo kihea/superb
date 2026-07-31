@@ -10,9 +10,13 @@
 //     facts are real, and every book listed is out of copyright. They are
 //     hand-written rather than read from the catalogue because the
 //     catalogue is not in this repository yet.
-//   - Quoted literary text is real and out of copyright. It lives in four
+//   - Quoted literary text is real and out of copyright. It lives in five
 //     places, and nowhere else: `books[].opening`, `wholeBookParts`,
-//     `elevatedTiers[].passage` and `shareable`. Each carries the work it
+//     `elevatedTiers[].passage`, `shareable` and `voice`. (The first
+//     version of this list said four and left `voice` out, which is three
+//     lines of Washington rendered on /voice -- so read the sentence below
+//     as being about this list too, and count the fields rather than
+//     trusting it.) Each carries the work it
 //     came from. Quote them exactly -- a paraphrase under an author's name
 //     is the one thing in this file that would be a lie rather than a
 //     placeholder, and nothing in the build checks it. (An earlier version
@@ -169,11 +173,15 @@ export function bookById(id: string): MockBook | undefined {
 }
 
 /** The shelf: one book being read, some waiting, some finished. */
-// One book, one place in it. `shelf.current.part` and the chapter that
-// `wholeBookParts` opens on used to disagree -- Chapter I on the Shelf,
-// Chapter II inside the book, same paragraphs -- so they are derived from
-// one string now rather than written twice.
-const WASHINGTON_CHAPTER = "Chapter II";
+// One book, one place in it. The Shelf and the share card used to say
+// Chapter I while the book itself said Chapter II, so they are derived from
+// one string now rather than written twice. The first attempt at that
+// unified them on the wrong value: both of Kihea's frames say Chapter I
+// (1h's Shelf line, 1v's share card), and the cabin, the cat-hole and the
+// potato-hole are chapter one's, so "Boyhood days" -- which is genuinely
+// Washington's chapter two -- was a heading over the wrong text.
+const WASHINGTON_CHAPTER = "Chapter I";
+const WASHINGTON_CHAPTER_TITLE = "A Slave Among Slaves";
 
 // Quoted once, used twice: the book renders it and the share card sends it.
 // Two hand-typed copies is how they came to differ.
@@ -205,8 +213,8 @@ export interface BookPart {
 export const wholeBookParts: Record<string, BookPart> = {
   "up-from-slavery": {
     shape: "prose",
-    label: "II",
-    place: `${WASHINGTON_CHAPTER} · Boyhood days`,
+    label: "I",
+    place: `${WASHINGTON_CHAPTER} · ${WASHINGTON_CHAPTER_TITLE}`,
     blocks: [
       [
         "There was no wooden floor in our cabin, the naked earth being used as a floor. In the centre of the earthen floor there was a large, deep opening covered with boards, which was used as a place in which to store sweet potatoes during the winter.",
@@ -441,11 +449,19 @@ export const shareable = {
 // ── The voice (screen 7) ─────────────────────────────────────────────────
 // No audio is produced. These are the states the orb can be put into so the
 // shape of asking to be read to can be walked.
+// These three lines are quoted text and were missing from the enumeration
+// at the top of this file, in the same round that added the enumeration.
+// `afterSpoken` was also the potato-hole sentence cut at "memory." and shown
+// as a whole paragraph, which is the truncation the header warns about, one
+// field away from where it warns about it. It reads the full sentence now,
+// and the screen carries the attribution the passage behind a sheet still
+// deserves.
 export const voice = {
   paidName: "Wren",
   /** The paragraph the reader asked to have read, in 2b's speaking state. */
   spokenParagraph:
     "In the centre of the earthen floor there was a large, deep opening covered with boards, which was used as a place in which to store sweet potatoes during the winter.",
   beforeSpoken: "There was no wooden floor in our cabin, the naked earth being used as a floor.",
-  afterSpoken: "An impression of this potato-hole is very distinctly engraved upon my memory.",
+  afterSpoken: WASHINGTON_POTATO_HOLE,
+  attribution: `Booker T. Washington, Up from Slavery · ${WASHINGTON_CHAPTER}`,
 };

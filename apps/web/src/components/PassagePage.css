@@ -1,12 +1,24 @@
 /* 3a sets the passage 20px below the top row rather than a screen-height
-   away from it -- the frame has no header to clear. The old 6rem top and
-   bottom were sized for a card floating in a dark room; with the room gone
-   they only pushed the end of the passage past the fold, which is also
-   what stopped the pull-up bar's sentinel ever coming into view. */
+   away from it -- the frame has no header to clear. The old 6rem top was
+   sized for a card floating in a dark room; with the room gone it only
+   pushed the end of the passage past the fold, which is also what stopped
+   the pull-up bar's sentinel ever coming into view.
+   The bottom clearance is for the gloss card, which floats 20px up from
+   the bottom edge now (3a) rather than sitting flush as a sheet. It does
+   NOT stop the card overlapping the text -- nothing here can, because a
+   card that floats over the page is what the frame draws, and measured on
+   a 720px viewport the card's Keep button sits 8px above where the last
+   line ends. What it does buy is the thing a reader would otherwise lose:
+   with only 3rem here, the end of a passage can never be scrolled out
+   from under the card at all. Named rather than tuned, and the conflict
+   between a floating card and ADR-036 Decision 5's "text is never
+   occluded" is filed, not resolved here:
+   DECISION PENDING: https://github.com/kihea/superb/issues/103 */
 .passage-page {
+  --gloss-card-clearance: 9rem;
   max-width: var(--type-passage-measure);
   margin: 0 auto;
-  padding: var(--space-5) var(--space-4) var(--space-7);
+  padding: var(--space-5) var(--space-4) var(--gloss-card-clearance);
 }
 
 /* Literata, the reading face in Kihea's design system, replacing Source
