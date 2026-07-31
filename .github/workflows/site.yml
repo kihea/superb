@@ -159,4 +159,4 @@ jobs:
 
       - name: Say so when the publish is skipped
         if: steps.creds.outputs.have != 'true'
-        run: echo "No Cloudflare credentials in this repository yet — build succeeded, publish skipped. Issue #91 says exactly what to add."
+        run: echo "No Cloudflare credentials in this repository yet — build succeeded, publish skipped. Issue 91 (#91) has the exact two secrets to add."
