@@ -18,8 +18,13 @@ defaults:
     working-directory: apps/site
 
 jobs:
+  # The landing is Kihea's own designed page, served verbatim — there is no
+  # generated markup to typecheck, no figure devices to count, no copy lint
+  # to run. The old T9 jobs checked a site that no longer exists, and they
+  # were failing for exactly that reason. What is left to check is that the
+  # page assembles.
   check:
-    name: typecheck, build, device check, lint
+    name: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,25 +35,50 @@ jobs:
           cache: npm
           cache-dependency-path: apps/site/package-lock.json
 
-      # typescript + @types/node are devDependencies used only to typecheck
-      # the JSDoc-annotated .mjs sources (tsconfig.json's checkJs) — nothing
-      # here is a runtime dependency, and this install never touches
-      # apps/web's own toolchain (T9 job 1).
       - name: Install
         run: npm ci
-
-      - name: Typecheck
-        run: npm run typecheck
 
       - name: Build
         run: npm run build
 
-      # T9 job 4: every visual device is generated from the figure it
-      # illustrates; this is the check that fails when a rendered count and
-      # the cited figure disagree.
-      - name: Device count check
-        run: npm run check
+  # The publishing step (issue #91). Kihea set superb.works up on Cloudflare;
+  # this uploads the built page to Cloudflare Pages. Pushes to main publish
+  # the live site; pushes to dev publish a preview URL. It needs two
+  # repository secrets — CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID —
+  # and until they exist it says so and skips rather than failing.
+  deploy:
+    name: publish to Cloudflare Pages
+    needs: check
+    if: github.event_name == 'push' && github.repository == 'kihea/superb'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-      # T9 DONE #4: the three retired phrases never come back.
-      - name: Lint (banned phrases, citation presence)
-        run: npm run lint
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: apps/site/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Check for Cloudflare credentials
+        id: creds
+        run: echo "have=${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish
+        if: steps.creds.outputs.have == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: apps/site
+          command: pages deploy dist --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT || 'superb-works' }} --branch=${{ github.ref_name }}
+
+      - name: Say so when the publish is skipped
+        if: steps.creds.outputs.have != 'true'
+        run: echo "No Cloudflare credentials in this repository yet — build succeeded, publish skipped. Issue #91 says exactly what to add."
