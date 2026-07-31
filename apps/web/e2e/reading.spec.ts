@@ -161,8 +161,12 @@ test("the pull-up button is always page-toned, not chrome-toned", async ({ page 
     return { color: cs.color, background: cs.backgroundColor };
   });
   // rgb(33, 28, 21) / rgb(251, 248, 240) -- design/tokens.json's
-  // page.light.ink / page.light.cardGround. Same values regardless of dark
-  // mode is the point: this control never reads the chrome.
+  // page.light.ink / page.light.cardGround, read under this test's default
+  // (light) colour scheme. --page-* itself now darkens at night too (issue
+  // #100, ADR-039), so this exact pair is a light-mode reading rather than a
+  // constant -- what this asserts, and what matters here, is that the
+  // button reads --page-* at all, never --chrome-*, so it is legible
+  // against whatever the page currently is instead of a fixed room colour.
   expect(styles.color).toBe("rgb(33, 28, 21)");
   expect(styles.background).toBe("rgb(251, 248, 240)");
 });
@@ -452,7 +456,20 @@ async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
  *  travel with a moving aura and photograph it in its own frame, where it
  *  looks perfectly still -- the picture equivalent of the bug this whole test
  *  exists to close. The region is a fixed patch of screen; the question is
- *  whether what is painted in it changes. */
+ *  whether what is painted in it changes.
+ *
+ *  One exclusion: `.reading-top`, the row carrying the Shelf link and the
+ *  voice orb. Kihea decided on issue #99 that the orb may turn quietly the
+ *  whole time a passage is on screen -- the one thing on this screen
+ *  licensed to move, which is exactly what this photograph exists to catch
+ *  everywhere else. Painting over just the orb's own box was tried first
+ *  and rejected (see auraPixels' comment on `mask`); shrinking the
+ *  photographed region below the whole top row is the smallest change that
+ *  avoids it, at the cost of also giving up coverage of the Shelf link,
+ *  which is static text checked elsewhere (walkable-v0.spec.ts, register.
+ *  spec.ts) and not the reason this test exists. Everything below it --
+ *  the room, the margin mark, the passage, the pull-up bar -- is still
+ *  photographed whole, nothing painted over. */
 async function auraRegion(page: Page): Promise<{ x: number; y: number; width: number; height: number }> {
   const box = await page.locator(".reading-screen-aura").boundingBox();
   if (!box) throw new Error("the aura has no box to photograph");
@@ -460,12 +477,14 @@ async function auraRegion(page: Page): Promise<{ x: number; y: number; width: nu
   if (!viewport) throw new Error("no viewport");
   const x = Math.max(0, box.x);
   const y = Math.max(0, box.y);
-  return {
-    x,
-    y,
-    width: Math.min(box.width, viewport.width - x),
-    height: Math.min(box.height, viewport.height - y),
-  };
+  const width = Math.min(box.width, viewport.width - x);
+  const height = Math.min(box.height, viewport.height - y);
+
+  const topRow = await page.locator(".reading-top").boundingBox();
+  if (!topRow) return { x, y, width, height };
+  const rowBottom = topRow.y + topRow.height;
+  if (rowBottom <= y) return { x, y, width, height };
+  return { x, y: rowBottom, width, height: Math.max(0, height - (rowBottom - y)) };
 }
 
 /** A picture of that region -- all of it, nothing masked.
@@ -491,7 +510,15 @@ async function auraRegion(page: Page): Promise<{ x: number; y: number; width: nu
  *  evidence being looked for here. Two of these differing by a single byte is
  *  a pixel that changed with nothing happening on screen -- including motion
  *  no style tree can see, like a CSSOM-driven ancestor pseudo-element or an
- *  overlay drifting in from somewhere else in the document entirely. */
+ *  overlay drifting in from somewhere else in the document entirely.
+ *
+ *  Playwright's own `mask` option was tried and rejected here, not for the
+ *  usual reason (a selector whose box was never measured) but a structural
+ *  one: `mask` inserts and removes its own overlay element per screenshot,
+ *  which is a document mutation, and check 5 below watches the whole
+ *  document for exactly that -- masking the one licensed exception (see
+ *  auraRegion) would have failed the unrelated assertion it shares this
+ *  test with. See auraRegion for how the exception is actually taken. */
 async function auraPixels(
   page: Page,
   clip: { x: number; y: number; width: number; height: number },
@@ -604,8 +631,10 @@ async function stopWatchingDocument(page: Page): Promise<string[]> {
 //      and every ancestor up to <html>, each read together with both of its
 //      pseudo-elements, sampled twelve times at intervals drawn fresh each
 //      run;
-//   4. the pixels themselves, photographs of a fixed patch of viewport,
-//      nothing masked, compared byte for byte;
+//   4. the pixels themselves, photographs of a fixed patch of viewport
+//      (below .reading-top, whose voice orb issue #99 licensed to turn --
+//      see auraRegion), nothing masked within that patch, compared byte
+//      for byte;
 //   5. a MutationObserver watching the whole document for the entire window,
 //      which is not a sampler at all and so has no gaps between looks.
 //

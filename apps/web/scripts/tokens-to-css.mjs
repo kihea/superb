@@ -8,11 +8,16 @@
 // actually read. There is one register now (ADVISORY-008 §1 corrected the
 // picker that asked a settled question), so unlike the generator's first
 // draft there is no [data-register] attribute anywhere below -- --chrome-*
-// simply answers the system's colour-scheme preference, dark-first, and
-// --page-* is a fixed alias to page.light: the reading card is always a lit
-// page, dark mode changes the room around it, not the page itself
-// (superb-craft/reading-surface.md, "the layout does not change; the lamp
-// does").
+// simply answers the system's colour-scheme preference, dark-first.
+//
+// --page-* used to be a fixed alias to page.light regardless of theme: the
+// reading card stayed a lit page while only the room around it darkened.
+// Kihea overruled that on issue #100 ("the whole screen goes dark? its dark
+// mode") -- ADR-039 -- so --page-* now answers the same night switch as
+// everything else in apps/web/src/design/ox.css: [data-night="on"] (an
+// explicit Settings choice) or prefers-color-scheme: dark when the reader
+// has not chosen (:root:not([data-night="off"])). Same shape as ox.css's
+// own dark rules, on purpose -- one switch, not two.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -76,7 +81,7 @@ lines.push(rawBlock("page-dark", tokens.page.dark));
 lines.push(rawBlock("chrome-dark", tokens.chrome.dark));
 lines.push(rawBlock("chrome-light", tokens.chrome.light));
 lines.push("");
-lines.push("  /* The reading card is always a lit page -- see the file header. */");
+lines.push("  /* The reading card's default paper -- overridden below when the night switch is on. */");
 lines.push(aliasBlock("page", "page-light", tokens.page.light));
 lines.push("");
 lines.push("  /* Dark-first: the room the page floats in, until the system says otherwise. */");
@@ -87,6 +92,20 @@ lines.push("");
 lines.push("@media (prefers-color-scheme: light) {");
 lines.push("  :root {");
 lines.push(aliasBlock("chrome", "chrome-light", tokens.chrome.light, "    "));
+lines.push("  }");
+lines.push("}");
+lines.push("");
+
+lines.push("/* Night: the page darkens with the room, same switch as ox.css's own");
+lines.push('   [data-night="on"] and prefers-color-scheme rules -- see the file header. */');
+lines.push('[data-night="on"] {');
+lines.push(aliasBlock("page", "page-dark", tokens.page.dark));
+lines.push("}");
+lines.push("");
+
+lines.push("@media (prefers-color-scheme: dark) {");
+lines.push('  :root:not([data-night="off"]) {');
+lines.push(aliasBlock("page", "page-dark", tokens.page.dark, "    "));
 lines.push("  }");
 lines.push("}");
 lines.push("");

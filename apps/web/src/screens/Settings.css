@@ -90,6 +90,16 @@
   color: var(--brand);
 }
 
+/* The Voice row's own right side: the preview orb (its own tap target,
+   VoiceOrb.css's .voice-orb-button) beside the link to the paid-voice
+   screen -- two separate controls now, not one row-length link, so the
+   preview can be pressed without navigating. */
+.settings-row__voice-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
 .settings-row__names {
   display: flex;
   flex-direction: column;
