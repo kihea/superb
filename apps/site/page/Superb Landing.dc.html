@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/colors.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/typography.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/radius.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/elevation.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/motion.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/base.css">
+<link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=Geist+Mono:wght@300;400;500&amp;family=Geist+Pixel&amp;display=swap">
+<script src="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/_ds_bundle.js"></script>
+<script src="scene.js"></script>
+<style>
+html,body{margin:0;padding:0;background:#140D09}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--brand)}
+@keyframes reveal{from{width:0}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important}}
+</style>
+</helmet>
+<div data-theme="oxblood-dark" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; background:#140D09; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
+
+  <header data-screen-label="Header" style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:var(--sp-8); padding:var(--sp-7) clamp(20px,3.4vw,48px); pointer-events:none">
+    <a href="#" style="display:flex; align-items:baseline; gap:11px; pointer-events:auto; text-shadow:0 2px 12px rgba(10,6,3,.9)">
+      <span style="font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; font-size:19px; color:var(--brand); letter-spacing:-.06em; transform:skewX(-14deg); display:inline-block">///</span>
+      <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:19px; color:#F6EEE2">superb</span>
+    </a>
+    <nav style="display:flex; gap:var(--sp-8); margin-left:auto; align-items:center; font-size:13.5px; font-weight:450; color:rgba(246,238,226,.8); pointer-events:auto; white-space:nowrap; text-shadow:0 2px 12px rgba(10,6,3,.95)">
+      <a href="#facts">The case</a>
+      <a href="#">Library</a>
+      <a href="#">How it works</a>
+      <a href="#">Pricing</a>
+      <a href="#" style="color:var(--brand)">Sign in</a>
+    </nav>
+  </header>
+
+  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#140D09; height:100svh; min-height:600px; display:flex; align-items:center">
+    <div ref="{{ wrapRef }}" style="position:absolute; inset:0; font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; white-space:pre; overflow:hidden"></div>
+    <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(16,10,6,.58) 0%, rgba(16,10,6,.34) 26%, rgba(16,10,6,.10) 50%, rgba(16,10,6,0) 70%)"></div>
+    <div style="position:absolute; left:0; right:0; top:0; height:20%; background:linear-gradient(to bottom, rgba(16,10,6,.56), rgba(20,13,9,0))"></div>
+    <div style="position:absolute; left:0; right:0; bottom:0; height:30%; background:linear-gradient(to bottom, rgba(20,13,9,0), #140D09 97%)"></div>
+
+    <div style="position:relative; z-index:3; width:100%; max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px)">
+      <div style="display:flex; flex-direction:column; align-items:flex-start; gap:var(--sp-7); max-width:620px; margin-left:-28px; padding:26px 28px; border-radius:10px; border:1px solid rgba(246,238,226,0); transition:border-color 140ms cubic-bezier(.2,.8,.25,1); animation:rise .8s cubic-bezier(.2,.8,.25,1) both; opacity:0.66">
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--brand); text-shadow:0 2px 14px rgba(10,6,3,.95)">Vocabulary, through reading</span>
+        <h1 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(34px,4.7vw,66px); line-height:1.1; color:#FCF6EC; text-wrap:balance; text-shadow:0 4px 30px rgba(10,6,3,.95), 0 1px 5px rgba(10,6,3,.85)">You probably don’t <span style="background:rgba(217,106,99,.26); border-radius:4px; padding:0 .1em; box-decoration-break:clone">read</span> enough.</h1>
+        <p style="margin: 0; max-width: 42ch; font-size: clamp(15px,1.2vw,17.5px); line-height: 1.62; color: #F6EEE2FD; text-wrap: pretty; text-shadow: 0 2px 18px rgba(10,6,3,.98)">Superb hands you something worth finishing, then keeps every word that trips you up. Tap it once — it comes back until it’s yours.</p>
+        <div style="display:flex; gap:var(--sp-5); align-items:center; flex-wrap:wrap; white-space:nowrap; margin-top:var(--sp-2)">
+          <a href="#" ref="{{ btn0Ref }}" style="display:inline-flex; align-items:center; gap:10px; padding:15px 24px; color:#FBEDE3; font-family:'Geist Mono', ui-monospace, monospace; font-size:13.5px; font-weight:500; letter-spacing:.02em; white-space:nowrap; flex:0 0 auto; text-decoration:none; transition:color 120ms, transform 180ms cubic-bezier(.2,.8,.25,1)" style-hover="color:#FFF3EC" style-active="transform:scale(.98)">
+            <x-import component-from-global-scope="SuperbDesignSystem_467bc2.Icon" name="book-open" size="{{ 20 }}" hint-size="20px,20px"></x-import>
+            Start with six minutes
+          </a>
+          <a href="#" ref="{{ btn1Ref }}" style="display:inline-flex; align-items:center; gap:10px; padding:15px 22px; color:#F6EEE2; font-family:'Geist Mono', ui-monospace, monospace; font-size:13.5px; font-weight:500; letter-spacing:.02em; white-space:nowrap; flex:0 0 auto; text-decoration:none; transition:color 120ms, transform 180ms cubic-bezier(.2,.8,.25,1)" style-hover="color:#FFFDF8" style-active="transform:scale(.98)">
+            See a passage
+            <x-import component-from-global-scope="SuperbDesignSystem_467bc2.Icon" name="arrow-right" size="{{ 18 }}" hint-size="18px,18px"></x-import>
+          </a>
+        </div>
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:12px; line-height:1.5; color:rgba(246,238,226,.52); text-shadow:0 2px 14px rgba(10,6,3,.98)">Free while you’re building the habit. No streak guilt, no leaderboards.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts" data-screen-label="Facts" style="position:relative; background:#140D09">
+    <div style="max-width:var(--shell-max); margin:0 auto; padding:clamp(64px,7vw,104px) clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(44px,5vw,76px)">
+      <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:26ch">
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">The case</span>
+        <h2 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(24px,3vw,40px); line-height:1.2; color:#FCF6EC; text-wrap:balance">The literacy crisis isn’t a vocabulary problem. It’s a <span style="color:var(--brand)">reading</span> problem.</h2>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(28px,3.4vw,56px); align-items:stretch">
+
+        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--brand)">
+          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">54%</span>
+          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .5s steps(20) both .05s">████████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .5s steps(20) both .55s">████████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:70%; color:var(--brand); animation:reveal .35s steps(14) both 1.05s">████████████████████</div></div>
+            <div style="color:rgba(246,238,226,.14)">████████████████████</div>
+            <div style="color:rgba(246,238,226,.14)">████████████████████</div>
+          </div>
+          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">of US adults read below a sixth-grade level — 54 squares in 100</span>
+        </div>
+
+        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--support)">
+          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">6 min</span>
+          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:50%; color:var(--support); animation:reveal .6s steps(6) both .2s">████████████</div></div>
+            <div style="color:rgba(246,238,226,.14)">████████████</div>
+            <div style="color:rgba(246,238,226,.14)">████████████</div>
+            <div style="color:rgba(246,238,226,.14)">████████████</div>
+            <div style="color:rgba(246,238,226,.14)">████████████</div>
+          </div>
+          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">a day is where the habit sticks — 6 minutes of the 60 you’ll spend scrolling</span>
+        </div>
+
+        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid #B193F5">
+          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">1,284</span>
+          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; color:#B193F5; align-self:start; white-space:pre">
+            <div style="animation:rise .45s ease-out both 1.0s">                    █ █ █</div>
+            <div style="animation:rise .45s ease-out both .85s">            █ █ █ █ █ █ █ █</div>
+            <div style="animation:rise .45s ease-out both .7s">        █ █ █ █ █ █ █ █ █ █</div>
+            <div style="animation:rise .45s ease-out both .55s">    █ █ █ █ █ █ █ █ █ █ █ █</div>
+            <div style="animation:rise .45s ease-out both .4s">█ █ █ █ █ █ █ █ █ █ █ █</div>
+          </div>
+          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">words kept in a year — twelve months, and the habit compounds</span>
+        </div>
+
+      </div>
+
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:var(--sp-8); flex-wrap:wrap; padding-top:var(--sp-7); border-top:1px solid rgba(246,238,226,.09)">
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:12px; line-height:1.5; color:rgba(246,238,226,.34); max-width:52ch">Figures are placeholders for the kit — swap in cited sources before publishing.</span>
+        <x-import component-from-global-scope="SuperbDesignSystem_467bc2.Button" variant="primary" size="md" icon-end="arrow-right" hint-size="200px,40px">Read something tonight</x-import>
+      </div>
+    </div>
+  </section>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;asciiTint&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;scene&quot;,&quot;brand&quot;,&quot;ink&quot;],&quot;default&quot;:&quot;scene&quot;,&quot;tsType&quot;:&quot;'scene'|'brand'|'ink'&quot;,&quot;section&quot;:&quot;ASCII scene&quot;},&quot;contrast&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:1,&quot;max&quot;:3,&quot;step&quot;:0.1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;ASCII scene&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;ASCII scene&quot;}}">
+/* ASCII renderer.
+   Characters are chosen by matching the cell's 2x3 lightness field against the
+   measured ink coverage of every candidate glyph in the real render font —
+   density first, then shape (Alex Harri's shape-vector idea, weighted so a
+   photographic scene keeps its tonality).
+   Nothing on screen ever translates: animation re-picks characters in place and
+   rewrites only the rows that changed. */
+const CHARS = " .,:;'`^\"-~=+<>()/\\rtfjxnuvcoz*#%&8BW@$".split('');
+const A64 = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/';
+const FONT = '500 {S}px "Geist Mono", ui-monospace, monospace';
+// one hard-coded ASCII treatment per CTA, resting and hovered
+const BTN0 = {
+  off: { line: 'rgba(217,106,99,.72)', bar: '-', side: '|', corner: '+', fill: 'rgba(176,154,132,.22)', fillCh: null },
+  on:  { line: '#F2A79E', bar: '#', side: '#', corner: '*', fill: 'rgba(233,149,141,.46)', fillCh: null, inner: '-' }
+};
+const BTN1 = {
+  off: { line: 'rgba(246,238,226,.34)', bar: '-', side: '|', corner: '+', fill: 'rgba(176,154,132,.22)', fillCh: null },
+  on:  { line: 'rgba(255,253,248,.9)', bar: ':', side: '|', corner: '+', fill: 'rgba(226,216,200,.34)', fillCh: null, chev: true }
+};
+const esc = c => c === '&' ? '&amp;' : c === '<' ? '&lt;' : c === '>' ? '&gt;' : c;
+
+class Component extends DCLogic {
+  wrapRef = React.createRef();
+  btn0Ref = React.createRef();
+  btn1Ref = React.createRef();
+  hover = -1;
+
+  componentDidMount() {
+    this._boot = setInterval(() => {
+      if (window.SCENE && this.wrapRef.current) {
+        clearInterval(this._boot);
+        const go = () => { this.prepare(); this.build(); };
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(go); else go();
+      }
+    }, 60);
+    this._onResize = () => { clearTimeout(this._rt); this._rt = setTimeout(() => this.S && this.build(), 200); };
+    window.addEventListener('resize', this._onResize);
+  }
+
+  componentDidUpdate(prev) {
+    if (!this.S) return;
+    if (prev.contrast !== this.props.contrast) { this.cache = new Map(); this.build(); }
+    else if (prev.asciiTint !== this.props.asciiTint) this.build();
+    else if (prev.motion !== this.props.motion) this.build();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this._boot); clearInterval(this._tick);
+    clearTimeout(this._rt); window.removeEventListener('resize', this._onResize);
+  }
+
+  prepare() {
+    const S = window.SCENE;
+    const dec = b => { const s = atob(b), u = new Uint8Array(s.length); for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i); return u; };
+    this.S = Object.assign({}, S, { luma: dec(S.luma), skyLuma: dec(S.skyLuma) });
+    this.cache = new Map();
+    const g = document.createElement('canvas').getContext('2d');
+    g.font = FONT.replace('{S}', '100');
+    this.adv = (g.measureText('MMMMMMMMMM').width / 10 / 100) || 0.6;
+    this.table = this.buildTable();
+  }
+
+  // measure ink coverage of each glyph over the same 2x3 regions we sample the image with
+  buildTable() {
+    const SS = 6, cw = 10 * SS, ch = Math.round(10 * this.S.cellAspect) * SS;
+    const cv = document.createElement('canvas');
+    cv.width = cw; cv.height = ch;
+    const g = cv.getContext('2d', { willReadFrequently: true });
+    const fs = cw / this.adv, f = FONT.replace('{S}', fs);
+    g.font = f; g.textBaseline = 'alphabetic';
+    const m = g.measureText('Hxg');
+    const asc = m.fontBoundingBoxAscent || fs * 0.78, desc = m.fontBoundingBoxDescent || fs * 0.22;
+    const by = (ch - (asc + desc)) / 2 + asc, raw = [];
+    for (const c of CHARS) {
+      g.clearRect(0, 0, cw, ch); g.fillStyle = '#fff'; g.font = f; g.fillText(c, 0, by);
+      const d = g.getImageData(0, 0, cw, ch).data, v = [0, 0, 0, 0, 0, 0], n = [0, 0, 0, 0, 0, 0];
+      for (let y = 0; y < ch; y++) {
+        const ry = Math.min(2, (y * 3 / ch) | 0);
+        for (let x = 0; x < cw; x++) { const k = ry * 2 + Math.min(1, (x * 2 / cw) | 0); v[k] += d[(y * cw + x) * 4 + 3] / 255; n[k]++; }
+      }
+      raw.push(v.map((s, i) => s / n[i]));
+    }
+    const mean = raw.map(v => (v[0] + v[1] + v[2] + v[3] + v[4] + v[5]) / 6);
+    const mx = Math.max.apply(null, mean);
+    return raw.map((v, i) => ({
+      ch: CHARS[i], dens: mean[i] / mx,
+      prof: mean[i] > 0.001 ? v.map(x => x / mean[i]) : [1, 1, 1, 1, 1, 1]
+    }));
+  }
+
+  pick(v) {
+    const EXP = this.props.contrast != null ? +this.props.contrast : 1.7;
+    const L = (v[0] + v[1] + v[2] + v[3] + v[4] + v[5]) / 6;
+    let prof;
+    if (L > 0.02) {
+      prof = [v[0] / L, v[1] / L, v[2] / L, v[3] / L, v[4] / L, v[5] / L];
+      let m = 0; for (let i = 0; i < 6; i++) if (prof[i] > m) m = prof[i];
+      for (let i = 0; i < 6; i++) prof[i] = Math.pow(prof[i] / m, EXP) * m;
+    } else prof = [1, 1, 1, 1, 1, 1];
+    const D = Math.pow(L, 0.86);
+    let key = Math.min(63, (D * 64) | 0);
+    for (let i = 0; i < 6; i++) key = key * 16 + Math.min(15, (prof[i] * 5) | 0);
+    const hit = this.cache.get(key);
+    if (hit !== undefined) return hit;
+    const T = this.table;
+    let b = 0, bd = Infinity;
+    for (let i = 0; i < T.length; i++) {
+      const t = T[i], dd = t.dens - D;
+      let d = 18 * dd * dd;
+      for (let k = 0; k < 6; k++) { const q = t.prof[k] - prof[k]; d += q * q / 6; }
+      if (d < bd) { bd = d; b = i; }
+    }
+    this.cache.set(key, T[b].ch);
+    return T[b].ch;
+  }
+
+  vec(buf, W, cx, cy, dx) {
+    const v = [0, 0, 0, 0, 0, 0];
+    for (let sy = 0; sy < 3; sy++) {
+      const row = (cy * 3 + sy) * W;
+      for (let sx = 0; sx < 2; sx++) {
+        let px = cx * 2 + sx + (dx || 0);
+        if (px < 0) px = 0; else if (px > W - 1.001) px = W - 1.001;
+        const i0 = px | 0, f = px - i0;
+        const a = buf[row + i0], b = buf[row + i0 + 1 < W ? row + i0 + 1 : row + i0];
+        v[sy * 2 + sx] = (a + (b - a) * f) / 255;
+      }
+    }
+    return v;
+  }
+
+  paletteOf() {
+    const P = this.S.palette, mode = this.props.asciiTint || 'scene';
+    if (mode === 'scene') {
+      // glyph ink covers less area than a pixel, so the field reads darker than the
+      // painting — lift midtones and put back a little chroma
+      return P.map(h => {
+        const n = parseInt(h.slice(1), 16);
+        let v = [n >> 16 & 255, n >> 8 & 255, n & 255].map(c => 255 * Math.pow(c / 255, 0.68));
+        const m = (v[0] + v[1] + v[2]) / 3;
+        v = v.map(c => Math.max(0, Math.min(255, Math.round(m + (c - m) * 1.18))));
+        return '#' + v.map(c => c.toString(16).padStart(2, '0')).join('');
+      });
+    }
+    const lum = h => { const n = parseInt(h.slice(1), 16); return (0.2126 * (n >> 16 & 255) + 0.7152 * (n >> 8 & 255) + 0.0722 * (n & 255)) / 255; };
+    const mix = (a, b, t) => '#' + [16, 8, 0].map(s => {
+      const v = Math.round((a >> s & 255) + ((b >> s & 255) - (a >> s & 255)) * t);
+      return Math.max(0, Math.min(255, v)).toString(16).padStart(2, '0');
+    }).join('');
+    const st = mode === 'brand' ? [0x2b1a17, 0x9b3b3b, 0xd96a63, 0xf7e6cf] : [0x1e1712, 0x6b5f55, 0xb6a79a, 0xf6efe4];
+    return P.map(h => { const t = Math.pow(lum(h), 0.8) * 3, i = Math.min(2, Math.floor(t)); return mix(st[i], st[i + 1], t - i); });
+  }
+
+  build() {
+    const S = this.S, el = this.wrapRef.current;
+    if (!S || !el) return;
+    clearInterval(this._tick);
+    const W = el.clientWidth, H = el.clientHeight;
+    if (!W || !H) return;
+    const P = this.paletteOf(), LW = S.CF * 2;
+
+    let R = S.RF, C = Math.round(S.cellAspect * (W / H) * R);
+    if (C > S.CF) { C = S.CF; R = Math.max(8, Math.round(S.CF / (S.cellAspect * (W / H)))); }
+    const c0 = S.CF - C, r0 = S.RF - R;
+    const cellW = W / C, cellH = H / R;
+
+    const pi = {}; for (let i = 0; i < A64.length; i++) pi[A64[i]] = i;
+    const ch = [], co = [], baseCh = [], baseCo = [];
+    for (let y = 0; y < R; y++) {
+      const rc = new Array(C), rk = new Array(C);
+      for (let x = 0; x < C; x++) {
+        const sx = x + c0, sy = y + r0;
+        rc[x] = this.pick(this.vec(S.luma, LW, sx, sy, 0));
+        rk[x] = P[pi[S.color[sy * S.CF + sx]]];
+      }
+      ch.push(rc.slice()); co.push(rk.slice()); baseCh.push(rc.slice()); baseCo.push(rk.slice());
+    }
+
+    // sky plate, precomputed across the full width — drifting clouds are an index shift
+    const SR = S.skyEnd + 1;
+    const skyCh = new Array(S.CF * SR), skyCo = new Array(S.CF * SR);
+    for (let y = 0; y < SR; y++) for (let x = 0; x < S.CF; x++) {
+      skyCh[y * S.CF + x] = this.pick(this.vec(S.skyLuma, LW, x, y, 0));
+      skyCo[y * S.CF + x] = P[pi[S.skyColor[y * S.CF + x]]];
+    }
+
+    this.g = { C, R, c0, r0, LW, SR, ch, co, baseCh, baseCo, skyCh, skyCo };
+    this.leafCols = Array.from({ length: C }, () => []);
+    this.book = [];
+    for (let y = 0; y < R; y++) for (let x = 0; x < C; x++) {
+      const sx = x + c0, sy = y + r0, si = sy * S.CF + sx;
+      if (S.veg[si] === '1' && sy <= S.horizon && S.mask[si] === '2') this.leafCols[x].push({ x, y, sx, sy });
+      if (sx > S.CF * 0.735 && sx < S.CF * 0.775 && sy > S.RF * 0.565 && sy < S.RF * 0.625) this.book.push({ x, y, sx, sy });
+    }
+
+    // the glyph field is drawn to a canvas: at this density the DOM can't keep up,
+    // and a dirty row costs one clearRect plus a handful of fillText runs
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    el.innerHTML = '';
+    const cv = document.createElement('canvas');
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    cv.style.cssText = 'position:absolute;left:0;top:0;width:100%;height:100%';
+    el.appendChild(cv);
+    const cx = cv.getContext('2d');
+    cx.scale(dpr, dpr);
+    cx.textBaseline = 'middle';
+    cx.font = FONT.replace('{S}', cellW / this.adv);
+    this.cx = cx; this.cellW = cellW; this.cellH = cellH; this.pxW = W;
+    for (let y = 0; y < R; y++) this.paintRow(y);
+    this.applySky(0);
+    this.flushAll();
+    this.bindBtns();
+    this.overlay = this.buildOverlay();
+    for (let y = 0; y < R; y++) if (this.overlay[y]) this.mark(y);
+    this.flushAll();
+    // the copy stack rises on load; re-measure once it has settled
+    clearTimeout(this._ot);
+    this._ot = setTimeout(() => this.refreshOverlay(), 900);
+    this.tick();
+  }
+
+  paintRow(y) {
+    const g = this.g, cx = this.cx;
+    if (!cx) return;
+    let ch = g.ch[y], co = g.co[y];
+    const ov = this.overlay && this.overlay[y];
+    if (ov) {
+      ch = ch.slice(); co = co.slice();
+      ov.forEach((v, x) => { if (v[0] !== null) ch[x] = v[0]; co[x] = v[1]; });
+    }
+    const cw = this.cellW, top = y * this.cellH;
+    cx.clearRect(0, top, this.pxW, this.cellH + 0.5);
+    const by = top + this.cellH * 0.52;
+    let a = 0;
+    for (let x = 1; x <= g.C; x++) {
+      if (x < g.C && co[x] === co[a]) continue;
+      let s = ''; for (let k = a; k < x; k++) s += ch[k];
+      cx.fillStyle = co[a];
+      cx.fillText(s, a * cw, by);
+      a = x;
+    }
+  }
+
+  flush(budget) {
+    if (!this.dirty || !this.dirty.size) return;
+    let n = 0; const lim = budget || 40;
+    for (const y of Array.from(this.dirty)) {
+      this.paintRow(y); this.dirty.delete(y);
+      if (++n >= lim) break;
+    }
+  }
+  flushAll() { let n = 0; while (this.dirty && this.dirty.size && n++ < 400) this.flush(1e9); }
+  mark(y) { (this.dirty || (this.dirty = new Set())).add(y); }
+  markStruct(y) { this.mark(y); }
+
+  applySky(off) {
+    const S = this.S, g = this.g, CF = S.CF, per = 2 * CF;
+    for (let y = 0; y < g.R; y++) {
+      const sy = y + g.r0;
+      if (sy > S.skyEnd) break;
+      let tc = false, tk = false;
+      for (let x = 0; x < g.C; x++) {
+        const sx = x + g.c0;
+        if (S.mask[sy * CF + sx] === '2') continue;
+        let j = (sx + off) % per; if (j < 0) j += per;
+        if (j >= CF) j = per - 1 - j;
+        const c = g.skyCh[sy * CF + j], k = g.skyCo[sy * CF + j];
+        if (g.co[y][x] !== k) { g.co[y][x] = k; tk = true; }
+        if (g.ch[y][x] !== c) { g.ch[y][x] = c; tc = true; }
+      }
+      if (tk) this.markStruct(y); else if (tc) this.mark(y);
+    }
+  }
+
+  tick() {
+    clearInterval(this._tick);
+    if (!this.g || this.props.motion === false) return;
+    const S = this.S, g = this.g;
+    let f = 0, last = 1e9, gust = -40, prev = [];
+    this._tick = setInterval(() => {
+      f++;
+      try {
+      const d = -((f / 7) | 0);                       // clouds: one character every 560ms
+      if (d !== last) { last = d; this.applySky(d); }
+
+      gust += 2.4;                                     // a breeze crossing the canopy
+      if (gust > g.C + 30) gust = -30;
+      const nxt = [], t = f * 0.4;
+      for (let x = Math.max(0, (gust - 20) | 0); x <= Math.min(g.C - 1, (gust + 20) | 0); x++) {
+        const w = Math.exp(-Math.pow((x - gust) / 12, 2));
+        if (w < 0.06) continue;
+        const cells = this.leafCols[x];
+        for (let i = 0; i < cells.length; i++) {
+          const c = cells[i];
+          const dx = w * 1.6 * Math.sin(t - x * 0.2 + c.sy * 0.6);
+          const nc = this.pick(this.vec(S.luma, g.LW, c.sx, c.sy, dx));
+          if (g.ch[c.y][c.x] !== nc) { g.ch[c.y][c.x] = nc; this.mark(c.y); }
+          nxt.push(c);
+        }
+      }
+      prev.forEach(c => {
+        if (nxt.indexOf(c) < 0 && g.ch[c.y][c.x] !== g.baseCh[c.y][c.x]) { g.ch[c.y][c.x] = g.baseCh[c.y][c.x]; this.mark(c.y); }
+      });
+      prev = nxt;
+
+      const ph = f % 54;                               // the reader turns a page
+      if (ph < 5) {
+        const dx = [0, 1.2, 2, 1, 0][ph];
+        this.book.forEach(c => {
+          const nc = this.pick(this.vec(S.luma, g.LW, c.sx, c.sy, dx));
+          if (g.ch[c.y][c.x] !== nc) { g.ch[c.y][c.x] = nc; this.mark(c.y); }
+        });
+      }
+      this.flush();
+      } catch (e) { clearInterval(this._tick); }
+    }, 90);
+  }
+
+  // the two CTAs are drawn INTO the glyph field: an ASCII frame stamped over the
+  // scene cells the anchor occupies, the real label sitting on top of it
+  btnBoxes() {
+    const sec = this.wrapRef.current && this.wrapRef.current.parentElement, out = [];
+    if (!sec) return out;
+    [this.btn0Ref, this.btn1Ref].forEach((r, i) => {
+      const el = r.current;
+      if (!el) return;
+      let x = 0, y = 0, n = el;
+      while (n && n !== sec) { x += n.offsetLeft; y += n.offsetTop; n = n.offsetParent; }
+      out.push({ i: i, l: x, t: y, w: el.offsetWidth, h: el.offsetHeight });
+    });
+    return out;
+  }
+
+  buildOverlay() {
+    const g = this.g;
+    if (!g || !this.cellW) return [];
+    const rows = new Array(g.R);
+    this.btnBoxes().forEach(b => {
+      const on = this.hover === b.i;
+      const x0 = Math.max(0, Math.round(b.l / this.cellW)), x1 = Math.min(g.C - 1, Math.round((b.l + b.w) / this.cellW) - 1);
+      const y0 = Math.max(0, Math.round(b.t / this.cellH)), y1 = Math.min(g.R - 1, Math.round((b.t + b.h) / this.cellH) - 1);
+      if (x1 <= x0 || y1 <= y0) return;
+      const S = (b.i === 0 ? BTN0 : BTN1)[on ? 'on' : 'off'];
+      const put = (x, y, chr, col) => {
+        if (y < 0 || y > g.R - 1 || x < 0 || x > g.C - 1) return;
+        (rows[y] || (rows[y] = new Map())).set(x, [chr, col]);
+      };
+      for (let x = x0; x <= x1; x++) { put(x, y0, S.bar, S.line); put(x, y1, S.bar, S.line); }
+      for (let y = y0 + 1; y <= y1 - 1; y++) {
+        put(x0, y, S.side, S.line); put(x1, y, S.side, S.line);
+        for (let x = x0 + 1; x <= x1 - 1; x++) put(x, y, S.fillCh, S.fill);
+      }
+      if (S.inner) {                                  // primary: a second rule lights up inside
+        for (let x = x0 + 2; x <= x1 - 2; x++) { put(x, y0 + 1, S.inner, S.line); put(x, y1 - 1, S.inner, S.line); }
+      }
+      if (S.chev) {                                   // secondary: chevrons nudge forward
+        const my = Math.round((y0 + y1) / 2);
+        put(x0 + 2, my, '>', S.line); put(x1 - 2, my, '>', S.line);
+      }
+      for (const c of [[x0, y0], [x1, y0], [x0, y1], [x1, y1]]) put(c[0], c[1], S.corner, S.line);
+      b.rows = [y0, y1];
+    });
+    return rows;
+  }
+
+  bindBtns() {
+    [this.btn0Ref, this.btn1Ref].forEach((r, i) => {
+      const el = r.current;
+      if (!el || el.__bound) return;
+      el.__bound = 1;
+      el.addEventListener('mouseenter', () => { this.hover = i; this.refreshOverlay(); });
+      el.addEventListener('mouseleave', () => { if (this.hover === i) { this.hover = -1; this.refreshOverlay(); } });
+    });
+  }
+
+  refreshOverlay() {
+    if (!this.g) return;
+    const prev = this.overlay || [];
+    this.overlay = this.buildOverlay();
+    for (let y = 0; y < this.g.R; y++) if (prev[y] || this.overlay[y]) this.mark(y);
+    this.flushAll();
+  }
+
+  renderVals() {
+    return {
+      wrapRef: this.wrapRef, btn0Ref: this.btn0Ref, btn1Ref: this.btn1Ref
+    };
+  }
+}
+</script>
+</body>
+</html>
