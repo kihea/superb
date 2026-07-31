@@ -1,3 +1,6 @@
+/* Frame 3a: a card that floats above the passage rather than a sheet
+   anchored to the bottom edge, so the sentence the word came out of stays
+   visible under it. 18px in from each side, 20px up from the bottom. */
 .gloss-backdrop {
   position: fixed;
   inset: 0;
@@ -9,19 +12,28 @@
 }
 
 .gloss-card {
-  --metal-fill: var(--page-card-ground);
-  background-color: var(--page-card-ground);
+  background-color: var(--surface-card);
   position: relative;
   width: min(100%, 40rem);
-  margin: 0 var(--space-3) var(--space-3);
-  padding: var(--space-5) var(--space-5) var(--space-6);
-  border-radius: var(--radius-lg);
-  box-shadow:
-    0 -16px 48px var(--chrome-shadow),
-    0 1px 0 var(--chrome-metal-edge1) inset;
-  font-family: var(--font-serif);
-  color: var(--page-ink);
+  margin: 0 18px 20px;
+  padding: var(--sp-7) var(--sp-7) var(--sp-6);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-3);
+  color: var(--text-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-6);
   animation: gloss-rise var(--motion-duration-slow) var(--motion-easing-decelerate) both;
+}
+
+.gloss-card__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
 }
 
 @keyframes gloss-rise {
@@ -37,66 +49,69 @@
   }
 }
 
+/* The word itself in the display face, at 3a's size -- the one place on a
+   reading screen the hand-drawn face appears. */
 .gloss-word {
-  margin: 0 0 var(--space-2);
-  font-family: var(--font-sans);
-  font-size: var(--type-ui-size-sm);
-  font-weight: var(--type-ui-weight-medium);
-  letter-spacing: var(--type-ui-letter-spacing-wide);
-  text-transform: uppercase;
-  color: var(--page-ink-muted);
+  margin: 0;
+  font: var(--fw-bold) var(--fs-700) / 1.1 var(--font-display);
+  color: var(--text-1);
 }
 
 .gloss-definition {
-  margin: 0 0 var(--space-3);
-  font-size: var(--type-ui-size-xl);
-  line-height: 1.45;
+  margin: 0;
+  font: var(--type-body-sm);
+  color: var(--text-2);
   text-wrap: pretty;
 }
 
 .gloss-elsewhere {
   margin: 0;
-  font-size: var(--type-ui-size-md);
+  font: var(--type-caption);
   font-style: italic;
-  color: var(--page-ink-muted);
-  line-height: 1.5;
+  color: var(--text-3);
   text-wrap: pretty;
 }
 
 .gloss-keep-row {
   display: flex;
   justify-content: flex-end;
-  /* Clearance above the button so the scatter's cells (a small radius
-     around the button's own box) never reach up into gloss-elsewhere's
-     text -- ADR-036 Decision 5: text is never occluded. */
-  margin-top: var(--space-4);
+  flex: none;
 }
 
+/* 3a: an outlined pill that fills brand and says Kept, in one spring, as
+   the card leaves. The scatter still fires from inside it. */
 .gloss-keep-button {
   position: relative;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  border: 1px solid var(--page-card-border);
+  gap: var(--sp-4);
+  min-height: var(--tap-min);
+  padding: 0 var(--sp-6);
+  border-radius: var(--r-pill);
+  border: 1px solid var(--border-2);
   background: transparent;
-  color: var(--page-ink-muted);
+  color: var(--text-1);
+  font: var(--type-label);
   cursor: pointer;
   transition:
+    background var(--motion-duration-fast) var(--motion-easing-standard),
     color var(--motion-duration-fast) var(--motion-easing-standard),
     border-color var(--motion-duration-fast) var(--motion-easing-standard);
 }
 
-.gloss-keep-button:hover,
+.gloss-keep-button:hover {
+  background: var(--surface-sunken);
+  border-color: var(--border-strong);
+}
+
 .gloss-keep-button[aria-pressed="true"] {
-  color: var(--chrome-accent);
-  border-color: var(--chrome-accent);
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--text-on-brand);
 }
 
 .gloss-keep-button:focus-visible {
-  outline: 2px solid var(--chrome-accent);
+  outline: 2px solid var(--brand);
   outline-offset: 2px;
 }
 
@@ -152,9 +167,9 @@
     from var(--gloss-beam-angle, 0deg),
     transparent 0deg,
     transparent 300deg,
-    var(--chrome-accent) 340deg,
+    var(--brand) 340deg,
     var(--page-card-ground) 352deg,
-    var(--chrome-accent) 356deg,
+    var(--brand) 356deg,
     transparent 360deg
   );
   -webkit-mask:

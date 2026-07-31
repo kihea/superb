@@ -9,7 +9,11 @@ name: data-license
 
 on:
   push:
-    branches: [main]
+    # dev, not just main: core.yml already carries this fix (M2 flagged the
+    # same gap there) — a merge commit landing on dev used to run no
+    # workflow at all, so a failing check could merge and sit red on dev
+    # unreported until the next PR into main happened to touch these paths.
+    branches: [main, dev]
     paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]
   pull_request:
     paths: ["content/**", "data/MANIFEST.md", "data/pipeline/**", "crates/superb-core/tuning.toml", ".github/workflows/data-license.yml"]

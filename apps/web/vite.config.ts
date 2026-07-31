@@ -15,8 +15,10 @@ export default defineConfig({
         description: "A quiet place to read.",
         start_url: "/",
         display: "standalone",
-        background_color: "#0A0C10",
-        theme_color: "#0A0C10",
+        // The paper the app actually opens on now (design/ox.css's
+        // --ox-paper), not the dark room it used to.
+        background_color: "#F6EFE4",
+        theme_color: "#F6EFE4",
         icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" }],
       },
       workbox: {
@@ -29,7 +31,25 @@ export default defineConfig({
         // content/sources.json from a few KB into 2.79 MB). A precache
         // that has to be raised every time the corpus grows does not
         // scale with it; runtime caching does.
-        globPatterns: ["**/*.{js,css,html,woff2,svg,ico,png}"],
+        // `wasm` was missing from this list, and the engine is a .wasm file:
+        // offline, the shell painted and then said "Something went wrong
+        // loading this session", because the one request that failed was
+        // /assets/superb_wasm_bg-*.wasm. Found by repairing
+        // scripts/check-offline.mjs, whose URLs still pointed at a route
+        // that stopped existing when the register question was settled --
+        // so nobody had run it in a while. The engine belongs in the
+        // precache for the same reason the fonts do: it is part of the
+        // shell and it is stable, unlike content/*.json, which keeps
+        // growing and stays on runtime caching below.
+        globPatterns: ["**/*.{js,css,html,woff2,wasm,svg,ico,png}"],
+        // Pinned, not fixed: vite-plugin-pwa already defaults to this, and
+        // the generated sw.js is byte-identical with the line removed. It
+        // is written down because the app has real routes now and this is
+        // what serves all of them from one document offline -- but nobody
+        // should count it as the change that made deep routes work. On a
+        // cold first visit, before any service worker exists, the thing
+        // that does that is public/_redirects.
+        navigateFallback: "index.html",
         runtimeCaching: [
           {
             urlPattern: /\/content\/.*\.json$/,

@@ -1,0 +1,58 @@
+/* Frame 2c. */
+
+.voice-behind {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-7);
+  opacity: 0.5;
+}
+
+.voice-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-7);
+  margin: 0 calc(-1 * var(--sp-7)) calc(-1 * var(--sp-9));
+  padding: var(--sp-8) var(--sp-8) var(--sp-9);
+  background: var(--surface-card);
+  border-top: 1px solid var(--border-1);
+  border-radius: var(--r-lg) var(--r-lg) 0 0;
+  box-shadow: var(--shadow-3);
+}
+
+.voice-sheet__head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+}
+
+.voice-sheet__orb {
+  flex: none;
+  color: var(--brand);
+  display: flex;
+}
+
+.voice-sheet__words {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.voice-sheet__title {
+  font: var(--fw-bold) var(--fs-700) / 1.2 var(--font-display);
+  color: var(--text-1);
+}
+
+.voice-sheet__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+@media (min-width: 45rem) {
+  .voice-sheet {
+    margin: 0;
+    border-radius: var(--r-lg);
+    border: 1px solid var(--border-1);
+  }
+}

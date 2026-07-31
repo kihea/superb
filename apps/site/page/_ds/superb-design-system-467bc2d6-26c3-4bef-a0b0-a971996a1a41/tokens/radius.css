@@ -1,0 +1,11 @@
+:root{
+  --r-xs:4px;   /* chips, tags, inline highlights */
+  --r-sm:6px;   /* inputs, small buttons */
+  --r-md:10px;  /* cards, panels — the identity default */
+  --r-lg:14px;  /* sheets, small app tiles */
+  --r-xl:24px;  /* large app tiles, modals */
+  --r-2xl:32px; /* device / hero surfaces */
+  --r-pill:999px;
+  --r-icon-ratio:25%; /* @kind radius */ /* squircle app icons: radius = 25% of the square */
+  --bw-hairline:1px; --bw-strong:2px; --bw-mark:3.4px;
+}

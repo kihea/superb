@@ -1,0 +1,11 @@
+:root{
+  --shadow-0:none; /* @kind shadow */
+  --shadow-1:0 1px 2px rgb(var(--shadow-rgb) / .07);
+  --shadow-2:0 2px 4px rgb(var(--shadow-rgb) / .06), 0 8px 20px -10px rgb(var(--shadow-rgb) / .22);
+  --shadow-3:0 4px 8px rgb(var(--shadow-rgb) / .07), 0 18px 44px -14px rgb(var(--shadow-rgb) / .30);
+  --shadow-press:inset 0 1px 2px rgb(var(--shadow-rgb) / .18);
+  --ring-hairline:inset 0 0 0 1px var(--border-1);
+  --ring-focus:0 0 0 2px var(--surface-page), 0 0 0 4px var(--focus);
+  --scrim:rgb(var(--shadow-rgb) / .48);
+  --blur-sheet:blur(10px) saturate(1.1); /* @kind other */
+}

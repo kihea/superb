@@ -1,0 +1,17 @@
+:root{
+  --sp-0:0px; /* @kind spacing */ --sp-1:2px; --sp-2:4px; --sp-3:6px; --sp-4:8px; --sp-5:12px;
+  --sp-6:16px; --sp-7:20px; --sp-8:24px; --sp-9:32px; --sp-10:40px;
+  --sp-11:56px; --sp-12:80px; --sp-13:112px;
+
+  --gutter:var(--sp-6);
+  --page-pad-x:var(--sp-7);
+  --page-pad-x-lg:var(--sp-10);
+  --section-y:var(--sp-12);
+  --card-pad:var(--sp-7);
+  --card-pad-sm:var(--sp-5);
+  --control-h-sm:32px; --control-h:40px; --control-h-lg:48px;
+  --tap-min:44px;
+  --measure:66ch; /* @kind spacing */
+  --content-max:1080px;
+  --shell-max:1240px;
+}

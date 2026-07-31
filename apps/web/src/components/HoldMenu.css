@@ -1,0 +1,103 @@
+/* Frame 2k's paper card with a caret into the sentence it came out of.
+
+   2k draws a blurred scrim over the rest of the page. This build dims the
+   other sentences instead (PassagePage.css's .passage-text--holding) and
+   has no scrim: the held sentence lives inside the reading screen's own
+   stacking context and this card is portalled to the body, so a scrim
+   between the two cannot exist without duplicating the sentence into the
+   portal. Dimming reaches the same end -- the held sentence is the only
+   lit thing on the page -- without a copy of the passage in two places. */
+
+.hold-menu-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 25;
+}
+
+.hold-menu {
+  position: fixed;
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-3);
+  padding: var(--sp-3) 0;
+  animation: hold-menu-rise var(--dur-2) var(--ease-out) both;
+}
+
+@keyframes hold-menu-rise {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hold-menu__caret {
+  position: absolute;
+  top: -7px;
+  width: 13px;
+  height: 13px;
+  background: var(--surface-card);
+  border-left: 1px solid var(--border-1);
+  border-top: 1px solid var(--border-1);
+  transform: rotate(45deg);
+}
+
+.hold-menu--above .hold-menu__caret {
+  top: auto;
+  bottom: -7px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid var(--border-1);
+  border-bottom: 1px solid var(--border-1);
+}
+
+.hold-menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  width: 100%;
+  min-height: var(--tap-min);
+  border: none;
+  background: transparent;
+  padding: var(--sp-6) var(--sp-7);
+  cursor: pointer;
+  font: var(--type-body-sm);
+  color: var(--text-1);
+  text-align: left;
+}
+
+.hold-menu__item:hover {
+  background: var(--surface-sunken);
+}
+
+.hold-menu__item--brand {
+  color: var(--brand);
+}
+
+.hold-menu__aside {
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+.hold-menu__orb {
+  color: var(--text-3);
+  display: flex;
+}
+
+.hold-menu__rule {
+  display: block;
+  height: 1px;
+  background: var(--border-1);
+  margin: 0 var(--sp-7);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hold-menu {
+    animation: none;
+  }
+}

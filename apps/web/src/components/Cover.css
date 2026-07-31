@@ -1,0 +1,51 @@
+.cover {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cover__title {
+  display: block;
+  /* A single word wider than the cover -- "Middlemarch" is 83px in an 80px
+     content box -- has to break rather than have its last letters shaved
+     off by the cover's own `overflow: hidden`. */
+  overflow-wrap: anywhere;
+}
+
+/* Roughly what frame 2g draws, which is about twice what the first pass
+   used. At 70x100 with an author line under it, eight of the eleven
+   library titles were cut off mid-word. */
+/* `flex: none` is the half of this the eye missed: a library cover is a
+   flex item in the book row, so a declared width alone let it shrink to
+   63px, and the title then wrapped past the fixed height and was cut. The
+   size below is what frame 2g draws; this line is what makes the cover
+   actually that size. */
+.cover--sm {
+  width: 104px;
+  height: 148px;
+  flex: none;
+  font: var(--fw-bold) var(--fs-300) / 1.2 var(--font-display);
+  padding: var(--sp-5);
+}
+
+.cover--md {
+  height: 112px;
+  font: var(--fw-bold) var(--fs-300) / 1.15 var(--font-display);
+}
+
+.cover--lg {
+  width: 92px;
+  height: 132px;
+  flex: none;
+  font: var(--fw-bold) var(--fs-400) / 1.2 var(--font-display);
+  padding: var(--sp-5) var(--sp-5);
+}
+
+/* The one on a book's own page (2h) is heavier still and casts a shadow. */
+.cover--xl {
+  width: 118px;
+  height: 172px;
+  flex: none;
+  font: var(--fw-bold) var(--fs-500) / 1.15 var(--font-display);
+  padding: var(--sp-6) var(--sp-5);
+  box-shadow: var(--shadow-3);
+}

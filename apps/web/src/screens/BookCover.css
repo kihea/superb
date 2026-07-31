@@ -1,0 +1,61 @@
+/* Frame 2h. The wash is the soft brand panel his frame puts behind the top
+   300px; everything on this screen sits above it. */
+
+.book-wash {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 300px;
+  background: var(--brand-soft);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.book-head,
+.book-names,
+.book-opening,
+.book-actions,
+.sb-passage {
+  position: relative;
+  z-index: 1;
+}
+
+.book-head {
+  display: flex;
+  gap: var(--sp-7);
+  align-items: flex-end;
+}
+
+.book-head__facts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding-bottom: var(--sp-3);
+}
+
+.book-names {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.book-opening {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+.book-opening__line {
+  font: var(--fw-regular) var(--fs-500) / 1.6 var(--font-read);
+  color: var(--text-2);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.book-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-top: auto;
+}

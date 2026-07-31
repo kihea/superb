@@ -1,0 +1,54 @@
+/* Frame 1h. The current book sits on a raised paper panel; everything else
+   is a grid of covers on the sunken paper behind it. */
+
+.shelf-current {
+  display: flex;
+  gap: var(--sp-6);
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-2);
+  padding: var(--sp-6);
+}
+
+.shelf-current__side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--sp-6);
+  min-width: 0;
+  padding: var(--sp-1) 0;
+}
+
+.shelf-current__where {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.shelf-current__part {
+  font: var(--fw-semibold) var(--fs-400) / 1.2 var(--font-ui);
+  color: var(--text-1);
+}
+
+.shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-5);
+}
+
+.shelf-grid--read .sb-cover {
+  height: 86px;
+}
+
+.shelf-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+@media (min-width: 45rem) {
+  .shelf-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

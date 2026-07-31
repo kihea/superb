@@ -1,0 +1,396 @@
+/* Kihea's design system, brought into the app.
+ *
+ * Copied from the drop he made the 14 screens in -- workspace/prototypes/
+ * screens-drop/_ds/superb-design-system-.../tokens/*.css in the private
+ * root -- with the values unchanged. Two edits, both forced by the app
+ * rather than by taste: the font stacks name the self-hosted families
+ * (ox-fonts.css) instead of the CDN ones, and the dark theme is also
+ * selected by the system preference, not only by an explicit choice in
+ * Settings.
+ *
+ * This sits alongside design/tokens.css, which is generated from
+ * design/tokens.json and still owns the reading card's own paper
+ * (--page-*). The two do not overlap except on --font-mono, where this
+ * file wins because it is imported second and Sono is this system's mono.
+ */
+
+:root {
+  /* Oxblood */
+  --ox-paper: #f6efe4;
+  --ox-paper-2: #e4d7c3;
+  --ox-white: #fffcf6;
+  --ox-red: #9b3b3b;
+  --ox-red-hover: #883333;
+  --ox-red-press: #752b2b;
+  --ox-red-light: #d96a63;
+  --ox-red-tint: #ebd9d0;
+  --ox-sage: #6f8367;
+  --ox-sage-light: #9db094;
+  --ox-sage-tint: #e2e2d6;
+  --ox-ink: #2e231c;
+  --ox-ink-deep: #201813;
+  --ox-ink-70: #716058;
+  --ox-ink-50: #928980;
+  --ox-cream: #f2e9dc;
+
+  /* Lilac Ink */
+  --li-paper: #eeecf2;
+  --li-paper-2: #d6d2e0;
+  --li-white: #fbfafd;
+  --li-violet: #7b52c9;
+  --li-violet-hover: #6a43b4;
+  --li-violet-press: #5b389c;
+  --li-violet-light: #b193f5;
+  --li-violet-tint: #e1daef;
+  --li-mint: #3fae8b;
+  --li-mint-light: #8fe0c0;
+  --li-mint-tint: #dce9e7;
+  --li-ink: #1d1a26;
+  --li-ink-deep: #16131d;
+  --li-ink-70: #5c5866;
+  --li-ink-50: #858291;
+  --li-cream: #eae7f1;
+
+  /* Glacier */
+  --gl-paper: #e9eff1;
+  --gl-paper-2: #ccdade;
+  --gl-white: #f8fbfc;
+  --gl-teal: #0e8fa8;
+  --gl-teal-hover: #0c7c92;
+  --gl-teal-press: #0a6a7d;
+  --gl-teal-light: #3fc4dd;
+  --gl-teal-tint: #d3e5e9;
+  --gl-indigo: #7a6bd6;
+  --gl-indigo-light: #9a8fe8;
+  --gl-indigo-tint: #dcddee;
+  --gl-ink: #15222a;
+  --gl-ink-deep: #0f1a20;
+  --gl-ink-70: #536066;
+  --gl-ink-50: #7f8a8f;
+  --gl-cream: #e4edf0;
+
+  /* Semantic aliases: Oxblood light, the default paper. */
+  --surface-page: var(--ox-paper);
+  --surface-card: var(--ox-white);
+  --surface-raised: #ffffff;
+  --surface-sunken: var(--ox-paper-2);
+  --surface-inverse: var(--ox-ink);
+  --text-1: var(--ox-ink);
+  --text-2: var(--ox-ink-70);
+  --text-3: var(--ox-ink-50);
+  --text-inverse: var(--ox-cream);
+  --text-on-brand: var(--ox-paper);
+  --brand: var(--ox-red);
+  --brand-hover: var(--ox-red-hover);
+  --brand-press: var(--ox-red-press);
+  --brand-soft: var(--ox-red-tint);
+  --support: var(--ox-sage);
+  --support-soft: var(--ox-sage-tint);
+  --border-1: rgba(46, 35, 28, 0.09);
+  --border-2: rgba(46, 35, 28, 0.16);
+  --border-strong: rgba(46, 35, 28, 0.42);
+  --focus: var(--ox-red);
+  --highlight: rgba(155, 59, 59, 0.16);
+  --shadow-rgb: 46 35 28;
+
+  /* Type */
+  --font-display: "Shantell Sans Variable", "Comic Sans MS", cursive;
+  --font-ui: "Sono Variable", ui-monospace, "SFMono-Regular", monospace;
+  --font-read: "Literata Variable", Georgia, "Times New Roman", serif;
+  --font-mono: "Sono Variable", ui-monospace, monospace;
+
+  --fs-100: 10px;
+  --fs-200: 11px;
+  --fs-300: 12px;
+  --fs-400: 13px;
+  --fs-500: 15px;
+  --fs-600: 17px;
+  --fs-700: 20px;
+  --fs-800: 24px;
+  --fs-900: 30px;
+  --fs-1000: 38px;
+  --fs-1100: 48px;
+  --fs-1200: 58px;
+  --fs-1300: 76px;
+
+  --lh-tight: 0.95;
+  --lh-snug: 1.15;
+  --lh-heading: 1.25;
+  --lh-body: 1.5;
+  --lh-read: 1.65;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 800;
+
+  --ls-display: -0.01em;
+  --ls-normal: 0;
+  --ls-label: 0.1em;
+  --ls-eyebrow: 0.14em;
+
+  --type-wordmark: var(--fw-bold) var(--fs-1200) / var(--lh-tight) var(--font-display);
+  --type-display: var(--fw-bold) var(--fs-1100) / var(--lh-tight) var(--font-display);
+  --type-title-1: var(--fw-bold) var(--fs-900) / var(--lh-snug) var(--font-display);
+  --type-title-2: var(--fw-bold) var(--fs-700) / var(--lh-heading) var(--font-display);
+  --type-title-3: var(--fw-semibold) var(--fs-600) / var(--lh-heading) var(--font-ui);
+  --type-body: var(--fw-regular) var(--fs-500) / var(--lh-body) var(--font-ui);
+  --type-body-sm: var(--fw-regular) var(--fs-400) / var(--lh-body) var(--font-ui);
+  --type-label: var(--fw-semibold) var(--fs-300) / 1 var(--font-ui);
+  --type-eyebrow: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  --type-caption: var(--fw-regular) var(--fs-300) / 1.4 var(--font-ui);
+  --type-passage: var(--fw-regular) var(--fs-600) / var(--lh-read) var(--font-read);
+  --type-passage-lg: var(--fw-regular) var(--fs-700) / var(--lh-read) var(--font-read);
+
+  /* Space */
+  --sp-0: 0px;
+  --sp-1: 2px;
+  --sp-2: 4px;
+  --sp-3: 6px;
+  --sp-4: 8px;
+  --sp-5: 12px;
+  --sp-6: 16px;
+  --sp-7: 20px;
+  --sp-8: 24px;
+  --sp-9: 32px;
+  --sp-10: 40px;
+  --sp-11: 56px;
+  --sp-12: 80px;
+  --sp-13: 112px;
+  --gutter: var(--sp-6);
+  --page-pad-x: var(--sp-7);
+  --page-pad-x-lg: var(--sp-10);
+  --card-pad: var(--sp-7);
+  --card-pad-sm: var(--sp-5);
+  --control-h-sm: 32px;
+  --control-h: 40px;
+  --control-h-lg: 48px;
+  --tap-min: 44px;
+  --measure: 66ch;
+  --content-max: 1080px;
+  --shell-max: 1240px;
+
+  /* Radius */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 24px;
+  --r-2xl: 32px;
+  --r-pill: 999px;
+  --bw-hairline: 1px;
+  --bw-strong: 2px;
+  --bw-mark: 3.4px;
+
+  /* Elevation */
+  --shadow-1: 0 1px 2px rgb(var(--shadow-rgb) / 0.07);
+  --shadow-2: 0 2px 4px rgb(var(--shadow-rgb) / 0.06), 0 8px 20px -10px rgb(var(--shadow-rgb) / 0.22);
+  --shadow-3: 0 4px 8px rgb(var(--shadow-rgb) / 0.07), 0 18px 44px -14px rgb(var(--shadow-rgb) / 0.3);
+  --shadow-press: inset 0 1px 2px rgb(var(--shadow-rgb) / 0.18);
+  --ring-hairline: inset 0 0 0 1px var(--border-1);
+  --ring-focus: 0 0 0 2px var(--surface-page), 0 0 0 4px var(--focus);
+  --scrim: rgb(var(--shadow-rgb) / 0.48);
+  --blur-sheet: blur(10px) saturate(1.1);
+
+  /* Motion */
+  --dur-1: 120ms;
+  --dur-2: 180ms;
+  --dur-3: 280ms;
+  --dur-4: 420ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.25, 1);
+  --ease-in-out: cubic-bezier(0.6, 0, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --press-scale: 0.98;
+  --lift: -1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 0ms;
+    --dur-2: 0ms;
+    --dur-3: 0ms;
+    --dur-4: 0ms;
+    --press-scale: 1;
+  }
+}
+
+/* The dark papers. Each theme names its own unlit values under --dark-*;
+   the two rules at the bottom of this file are the only place they are
+   promoted to the live tokens, so "which paper" and "lit or unlit" stay two
+   independent choices rather than six themes. */
+:root {
+  --dark-surface-page: var(--ox-ink-deep);
+  --dark-surface-card: #2a201a;
+  --dark-surface-raised: #33261e;
+  --dark-surface-sunken: #17110d;
+  --dark-surface-inverse: var(--ox-cream);
+  --dark-text-1: var(--ox-cream);
+  --dark-text-2: #c4b4a4;
+  --dark-text-3: #8e7f72;
+  --dark-text-inverse: var(--ox-ink-deep);
+  --dark-text-on-brand: var(--ox-ink-deep);
+  --dark-brand: var(--ox-red-light);
+  --dark-brand-hover: #e37c74;
+  --dark-brand-press: #c55b55;
+  --dark-brand-soft: #3a2620;
+  --dark-support: var(--ox-sage-light);
+  --dark-support-soft: #2a2e24;
+  --dark-border-1: rgba(242, 233, 220, 0.1);
+  --dark-border-2: rgba(242, 233, 220, 0.18);
+  --dark-border-strong: rgba(242, 233, 220, 0.45);
+  --dark-focus: var(--ox-red-light);
+  --dark-highlight: rgba(217, 106, 99, 0.22);
+  --dark-shadow-rgb: 8 5 3;
+}
+
+[data-theme="lilac"] {
+  --surface-page: var(--li-paper);
+  --surface-card: var(--li-white);
+  --surface-sunken: var(--li-paper-2);
+  --surface-inverse: var(--li-ink);
+  --text-1: var(--li-ink);
+  --text-2: var(--li-ink-70);
+  --text-3: var(--li-ink-50);
+  --text-inverse: var(--li-cream);
+  --text-on-brand: var(--li-paper);
+  --brand: var(--li-violet);
+  --brand-hover: var(--li-violet-hover);
+  --brand-press: var(--li-violet-press);
+  --brand-soft: var(--li-violet-tint);
+  --support: var(--li-mint);
+  --support-soft: var(--li-mint-tint);
+  --border-1: rgba(29, 26, 38, 0.09);
+  --border-2: rgba(29, 26, 38, 0.16);
+  --border-strong: rgba(29, 26, 38, 0.42);
+  --focus: var(--li-violet);
+  --highlight: rgba(123, 82, 201, 0.16);
+  --shadow-rgb: 29 26 38;
+
+  --dark-surface-page: var(--li-ink-deep);
+  --dark-surface-card: #211d2c;
+  --dark-surface-raised: #2a2537;
+  --dark-surface-sunken: #100e16;
+  --dark-surface-inverse: var(--li-cream);
+  --dark-text-1: var(--li-cream);
+  --dark-text-2: #b4aec6;
+  --dark-text-3: #807a92;
+  --dark-text-inverse: var(--li-ink-deep);
+  --dark-text-on-brand: var(--li-ink-deep);
+  --dark-brand: var(--li-violet-light);
+  --dark-brand-hover: #c0a8f8;
+  --dark-brand-press: #9c7de4;
+  --dark-brand-soft: #251f33;
+  --dark-support: var(--li-mint-light);
+  --dark-support-soft: #1b2a26;
+  --dark-border-1: rgba(234, 231, 241, 0.1);
+  --dark-border-2: rgba(234, 231, 241, 0.18);
+  --dark-border-strong: rgba(234, 231, 241, 0.45);
+  --dark-focus: var(--li-violet-light);
+  --dark-highlight: rgba(177, 147, 245, 0.22);
+  --dark-shadow-rgb: 5 4 8;
+}
+
+[data-theme="glacier"] {
+  --surface-page: var(--gl-paper);
+  --surface-card: var(--gl-white);
+  --surface-sunken: var(--gl-paper-2);
+  --surface-inverse: var(--gl-ink);
+  --text-1: var(--gl-ink);
+  --text-2: var(--gl-ink-70);
+  --text-3: var(--gl-ink-50);
+  --text-inverse: var(--gl-cream);
+  --text-on-brand: var(--gl-paper);
+  --brand: var(--gl-teal);
+  --brand-hover: var(--gl-teal-hover);
+  --brand-press: var(--gl-teal-press);
+  --brand-soft: var(--gl-teal-tint);
+  --support: var(--gl-indigo);
+  --support-soft: var(--gl-indigo-tint);
+  --border-1: rgba(21, 34, 42, 0.09);
+  --border-2: rgba(21, 34, 42, 0.16);
+  --border-strong: rgba(21, 34, 42, 0.42);
+  --focus: var(--gl-teal);
+  --highlight: rgba(14, 143, 168, 0.16);
+  --shadow-rgb: 21 34 42;
+
+  --dark-surface-page: var(--gl-ink-deep);
+  --dark-surface-card: #17252c;
+  --dark-surface-raised: #1e2f37;
+  --dark-surface-sunken: #0a1317;
+  --dark-surface-inverse: var(--gl-cream);
+  --dark-text-1: var(--gl-cream);
+  --dark-text-2: #a9bac0;
+  --dark-text-3: #75858b;
+  --dark-text-inverse: var(--gl-ink-deep);
+  --dark-text-on-brand: var(--gl-ink-deep);
+  --dark-brand: var(--gl-teal-light);
+  --dark-brand-hover: #5fd4ea;
+  --dark-brand-press: #2fadc6;
+  --dark-brand-soft: #13303a;
+  --dark-support: var(--gl-indigo-light);
+  --dark-support-soft: #1f2338;
+  --dark-border-1: rgba(228, 237, 240, 0.1);
+  --dark-border-2: rgba(228, 237, 240, 0.18);
+  --dark-border-strong: rgba(228, 237, 240, 0.45);
+  --dark-focus: var(--gl-teal-light);
+  --dark-highlight: rgba(63, 196, 221, 0.22);
+  --dark-shadow-rgb: 3 8 10;
+}
+
+/* Night: whichever paper is chosen, unlit. `data-night` is set by the shell
+   when the reader picks Night in Settings; the media query does the same
+   for anyone who has not chosen, so the app answers the system the way the
+   rest of it already does. */
+[data-night="on"] {
+  --surface-page: var(--dark-surface-page);
+  --surface-card: var(--dark-surface-card);
+  --surface-raised: var(--dark-surface-raised);
+  --surface-sunken: var(--dark-surface-sunken);
+  --surface-inverse: var(--dark-surface-inverse);
+  --text-1: var(--dark-text-1);
+  --text-2: var(--dark-text-2);
+  --text-3: var(--dark-text-3);
+  --text-inverse: var(--dark-text-inverse);
+  --text-on-brand: var(--dark-text-on-brand);
+  --brand: var(--dark-brand);
+  --brand-hover: var(--dark-brand-hover);
+  --brand-press: var(--dark-brand-press);
+  --brand-soft: var(--dark-brand-soft);
+  --support: var(--dark-support);
+  --support-soft: var(--dark-support-soft);
+  --border-1: var(--dark-border-1);
+  --border-2: var(--dark-border-2);
+  --border-strong: var(--dark-border-strong);
+  --focus: var(--dark-focus);
+  --highlight: var(--dark-highlight);
+  --shadow-rgb: var(--dark-shadow-rgb);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-night="off"]) {
+    --surface-page: var(--dark-surface-page);
+    --surface-card: var(--dark-surface-card);
+    --surface-raised: var(--dark-surface-raised);
+    --surface-sunken: var(--dark-surface-sunken);
+    --surface-inverse: var(--dark-surface-inverse);
+    --text-1: var(--dark-text-1);
+    --text-2: var(--dark-text-2);
+    --text-3: var(--dark-text-3);
+    --text-inverse: var(--dark-text-inverse);
+    --text-on-brand: var(--dark-text-on-brand);
+    --brand: var(--dark-brand);
+    --brand-hover: var(--dark-brand-hover);
+    --brand-press: var(--dark-brand-press);
+    --brand-soft: var(--dark-brand-soft);
+    --support: var(--dark-support);
+    --support-soft: var(--dark-support-soft);
+    --border-1: var(--dark-border-1);
+    --border-2: var(--dark-border-2);
+    --border-strong: var(--dark-border-strong);
+    --focus: var(--dark-focus);
+    --highlight: var(--dark-highlight);
+    --shadow-rgb: var(--dark-shadow-rgb);
+  }
+}

@@ -61,6 +61,10 @@ FORBIDDEN_LICENCE_PATTERNS = [
 NO_MANIFEST_ROW_NEEDED = {
     "__init__.py",
     "check_license_gate.py",
+    # Reads README.md, CONTRIBUTING.md, LICENSE and data/MANIFEST.md itself
+    # and checks the first three against the last — no third-party dataset
+    # of its own, same reasoning as this file's own entry above.
+    "check_license_claims.py",
     # Reads content/sources/*.json and data/out/frequency.json, both already
     # covered elsewhere (per-excerpt provenance, and the wordfreq row) —
     # produces a derived index/report, not a new third-party dataset.
