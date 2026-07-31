@@ -1,0 +1,215 @@
+/* Shared by the two challenge rooms (2d, 2e/2f). These screens are allowed
+   to look like challenges -- tiers, counts, a scoreboard at the end -- and
+   none of it reaches the reading page or the Shelf. */
+
+.challenge-board {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-8);
+  padding: var(--sp-8) var(--sp-7);
+}
+
+.challenge-seed {
+  font: var(--fw-bold) var(--fs-1000) / 1 var(--font-display);
+  color: var(--text-1);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.challenge-key {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+}
+
+.challenge-key__item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+.challenge-key__swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.challenge-key__swatch--exact {
+  background: var(--brand);
+}
+
+.challenge-key__swatch--near {
+  border: 1px solid var(--support);
+}
+
+.challenge-end {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--sp-8);
+}
+
+.challenge-end__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+/* ── Association A: the field, as a numbered list (2e) ────────────────── */
+
+.assoc-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  padding-bottom: var(--sp-5);
+  border-bottom: 1px solid var(--border-1);
+}
+
+.assoc-head__name {
+  font: var(--fw-bold) var(--fs-700) / 1.1 var(--font-display);
+  color: var(--text-1);
+}
+
+.assoc-head__count {
+  font: var(--fw-semibold) var(--fs-300) / 1 var(--font-ui);
+  color: var(--text-2);
+}
+
+.assoc-rows {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.assoc-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+  padding: var(--sp-6) 0;
+  border-bottom: 1px solid var(--border-1);
+  min-height: var(--tap-min);
+}
+
+.assoc-row__n {
+  font: var(--fw-semibold) var(--fs-300) / 1 var(--font-ui);
+  color: var(--text-3);
+  width: 14px;
+  flex: none;
+}
+
+.assoc-row__word {
+  font: var(--type-body);
+  color: var(--text-1);
+}
+
+.assoc-row__word--landed {
+  background: var(--highlight);
+  border-radius: var(--r-xs);
+  padding: 0 3px;
+}
+
+.assoc-row__aside {
+  font: var(--type-caption);
+  color: var(--support);
+}
+
+.assoc-row__rule {
+  flex: 1;
+  height: 1px;
+  background: var(--border-2);
+}
+
+/* ── Association B: the seed and what touches it (2f) ─────────────────── */
+
+.assoc-seed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-8) var(--sp-7) var(--sp-7);
+  border-bottom: 1px solid var(--border-1);
+}
+
+.assoc-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  padding: var(--sp-6) 0;
+  border-bottom: 1px solid var(--border-1);
+}
+
+.assoc-link__how {
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+.assoc-link__how--chain {
+  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  color: var(--brand);
+}
+
+/* A chain is drawn as a bracket down the margin, and counts twice. */
+.assoc-chain {
+  display: flex;
+  gap: var(--sp-5);
+}
+
+.assoc-chain__bracket {
+  width: 2px;
+  border-radius: 1px;
+  background: var(--brand);
+  margin: var(--sp-6) 0;
+  flex: none;
+}
+
+.assoc-chain__side {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The switch between the two association games. Labelled plainly because
+   both ship and Kihea picks the survivor later. */
+.assoc-modes {
+  display: flex;
+  gap: var(--sp-4);
+  padding: var(--sp-5) var(--sp-7) 0;
+}
+
+.assoc-mode {
+  flex: 1;
+  min-height: var(--tap-min);
+  padding: var(--sp-4) var(--sp-5);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-sm);
+  background: transparent;
+  color: var(--text-2);
+  font: var(--type-label);
+  cursor: pointer;
+}
+
+.assoc-mode--on {
+  background: var(--brand-soft);
+  border-color: var(--brand);
+  color: var(--text-1);
+}
+
+.assoc-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+  padding: var(--sp-6) var(--sp-7) 0;
+}

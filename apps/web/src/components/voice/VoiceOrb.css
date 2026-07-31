@@ -1,0 +1,26 @@
+/* The orb takes the ink colour of whatever it sits in -- his note on 2b. */
+.voice-orb {
+  display: block;
+  color: inherit;
+}
+
+/* The tap target around it, so a 22px orb is still a 44px thing to press. */
+.voice-orb-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--tap-min);
+  min-height: var(--tap-min);
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text-3);
+  cursor: pointer;
+  transition: color var(--dur-1) var(--ease-out);
+}
+
+.voice-orb-button:hover,
+.voice-orb-button[data-listening="true"],
+.voice-orb-button[data-speaking="true"] {
+  color: var(--brand);
+}

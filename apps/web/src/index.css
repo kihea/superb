@@ -1,6 +1,10 @@
 @import "./design/tokens.css";
 @import "./design/fonts.css";
 @import "./design/metal.css";
+/* Kihea's own system, second so it wins where the two name the same token
+   (only --font-mono). See design/ox.css's header. */
+@import "./design/ox-fonts.css";
+@import "./design/ox.css";
 
 * {
   box-sizing: border-box;
@@ -14,11 +18,36 @@ body,
 
 body {
   margin: 0;
-  font-family: var(--font-sans);
+  background: var(--surface-page);
+  color: var(--text-1);
+  font: var(--type-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: var(--highlight);
+  color: var(--text-1);
+}
+
 button {
   font: inherit;
+}
+
+/* Settings' text size. One multiplier, applied wherever a passage is set,
+   so the control does something real rather than being a picture of a
+   control. */
+.passage-text,
+.sb-passage,
+.whole-book__verse {
+  font-size: calc(var(--type-passage-size) * var(--reader-scale, 1));
+}
+
+/* Settings' motion switch, and the system preference it defers to. "Sheets
+   rise; nothing else moves" is the on state; off means nothing moves. */
+[data-motion="off"] *,
+[data-motion="off"] *::before,
+[data-motion="off"] *::after {
+  animation: none !important;
+  transition: none !important;
 }

@@ -1,0 +1,38 @@
+.cover {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cover__title {
+  display: block;
+}
+
+.cover--sm {
+  width: 70px;
+  height: 100px;
+  font: var(--fw-bold) var(--fs-200) / 1.15 var(--font-display);
+  padding: var(--sp-5);
+}
+
+.cover--md {
+  height: 112px;
+  font: var(--fw-bold) var(--fs-300) / 1.15 var(--font-display);
+}
+
+.cover--lg {
+  width: 92px;
+  height: 132px;
+  flex: none;
+  font: var(--fw-bold) var(--fs-400) / 1.2 var(--font-display);
+  padding: var(--sp-5) var(--sp-5);
+}
+
+/* The one on a book's own page (2h) is heavier still and casts a shadow. */
+.cover--xl {
+  width: 118px;
+  height: 172px;
+  flex: none;
+  font: var(--fw-bold) var(--fs-500) / 1.15 var(--font-display);
+  padding: var(--sp-6) var(--sp-5);
+  box-shadow: var(--shadow-3);
+}

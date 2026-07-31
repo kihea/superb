@@ -4,9 +4,14 @@
   padding: var(--space-9) var(--space-4) var(--space-9);
 }
 
+/* Literata, the reading face in Kihea's design system, replacing Source
+   Serif here. The size still comes from design/tokens.json's own clamp
+   rather than the system's fixed 17px -- the clamp is what makes the
+   measure hold from a phone to a desktop, and his frames are drawn at one
+   width each. */
 .passage-text {
   margin: 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-read);
   font-size: var(--type-passage-size);
   line-height: var(--type-passage-line-height);
   letter-spacing: var(--type-passage-letter-spacing);
@@ -32,7 +37,7 @@
 
 .passage-citation {
   margin: var(--space-6) 0 0;
-  font-family: var(--font-sans);
+  font-family: var(--font-ui);
   font-size: var(--type-ui-size-sm);
   color: var(--page-ink-muted);
 }
@@ -64,24 +69,20 @@
    itself, not just the room beneath it. Chrome-toned text would read fine
    in the gap and go unreadable the moment it lands on the card -- which is
    exactly the defect a screenshot review caught once already. Always
-   page-toned, so it is readable wherever it actually lands; the metal edge
-   (--metal-fill below) is the only place chrome touches it, and only at the
-   rim. */
+   page-toned, so it is readable wherever it actually lands. */
 .passage-continue-button {
-  --metal-fill: var(--page-card-ground);
   background-color: var(--page-card-ground);
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
-  font-family: var(--font-sans);
+  font-family: var(--font-ui);
   font-size: var(--type-ui-size-md);
   font-weight: var(--type-ui-weight-medium);
   padding: var(--space-3) var(--space-5) var(--space-3) var(--space-6);
+  border: 1px solid var(--border-1);
   border-radius: var(--radius-pill);
   color: var(--page-ink);
-  box-shadow:
-    0 8px 32px var(--chrome-shadow),
-    0 1px 0 var(--chrome-metal-edge1) inset;
+  box-shadow: var(--shadow-2);
   cursor: pointer;
   transition:
     transform var(--motion-duration-fast) var(--motion-easing-standard),
@@ -95,9 +96,8 @@
 .passage-continue-button:hover {
   transform: translateY(-2px);
   box-shadow:
-    0 12px 36px var(--chrome-shadow),
-    0 0 0 3px color-mix(in srgb, var(--chrome-accent) 22%, transparent),
-    0 1px 0 var(--chrome-metal-edge1) inset;
+    var(--shadow-3),
+    0 0 0 3px var(--highlight);
 }
 
 .passage-continue-button:active {
@@ -106,7 +106,7 @@
 }
 
 .passage-continue-button:focus-visible {
-  outline: 2px solid var(--chrome-accent);
+  outline: 2px solid var(--brand);
   outline-offset: 2px;
 }
 
