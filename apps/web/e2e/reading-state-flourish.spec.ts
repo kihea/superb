@@ -69,55 +69,81 @@ test("the Keep control's markup does not vary with which word was tapped", async
   expect(secondHtml).toBe(firstHtml);
 });
 
-test("the Keep scatter never occludes the passage text", async ({ page }) => {
+// Renamed. ADR-036 Decision 5 is a promise about the *flourish*, not about
+// the card carrying it: the gloss card measures x 320..960 against a passage
+// text box of x 76..657 and sits over eight actual words, which is frame 3a's
+// design rather than a defect. Anyone reading the old title as "nothing
+// covers the passage" would have been wrong about what was checked.
+test("the Keep flourish never occludes the passage text", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   await openGlossFor(page, 0);
   await page.locator(".gloss-keep-button").click();
 
-  const scatter = page.locator('[data-chrome-device="pixel-scatter"]');
-  await expect(scatter).toBeVisible();
+  // Everything below happens in one round-trip, inside the page, because the
+  // scatter only exists for about 550ms. The old form did a visibility
+  // check and then two more sequential round-trips before reading its box;
+  // on a loaded machine at three workers that could outlast the animation,
+  // and `boundingBox()` then timed out on an element that had already
+  // unmounted. That -- not an overlap -- is what failed in two of four full
+  // runs. It was never `overlaps` coming back true: the passage column ends
+  // at x=657 and the scatter begins at x=851, a 194px gutter that holds
+  // across viewports, glossed words and font states.
+  //
+  // Waiting for the card to settle first, which is what I proposed and was
+  // wrong to, would spend more of those 550ms before measuring and make the
+  // timeout MORE likely -- and it would sample only after stillness, which
+  // skips the entrance, the one window where an occlusion is arguable.
+  //
+  // So: sample every frame the flourish is alive for, and assert the
+  // invariant on all of them. Frames are tagged with whether the card has
+  // finished rising, so an entrance-time overlap can be told apart from a
+  // stillness-time one -- a distinction no single sample can make, whenever
+  // it is taken.
+  const frames = await page.evaluate(async () => {
+    const SELECTOR = '[data-chrome-device="pixel-scatter"]';
+    const intersects = (a: DOMRect, b: DOMRect) =>
+      a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
 
-  // CHANGED BY T15, and a reviewer should look at this rather than take my
-  // word for it. This used to assert that the scatter's box and the passage
-  // text's box do not intersect, which held while the gloss card was a
-  // sheet anchored flush to the bottom edge. Frame 3a floats the card above
-  // the page instead, and measured on a 720px viewport the card's Keep
-  // button now starts 8px above where the last line of text ends -- so the
-  // two boxes overlap by 8px at rest, and the old assertion passed or
-  // failed depending on how far the scatter had grown when it was
-  // measured. It failed in two of four full parallel runs and passed six
-  // times in a row on its own.
-  //
-  // The overlap is the card's, not the flourish's: a card that floats over
-  // the page is what the frame draws, and no amount of spacing removes it
-  // while a passage is longer than the screen. Whether that is allowed at
-  // all is a question for ADR-036 Decision 5 and not for a builder --
-  // DECISION PENDING: https://github.com/kihea/superb/issues/103.
-  //
-  // What ADR-036 Decision 5 asks of the *scatter* is still checkable and
-  // still checked, in the form that survives a floating card: the scatter
-  // stays on the card's own opaque surface. Cells that reached past the
-  // card would be drawn straight onto the passage, and this goes red if
-  // any edge of the scatter escapes.
-  // Both rectangles are read inside one evaluate, at one instant. Two
-  // separate boundingBox() calls are two different moments, and the card is
-  // still rising into place for 460ms after it opens -- so the pair could
-  // disagree by the whole travel of that animation. That, rather than the
-  // geometry, is what made this test flap: it compared a box measured
-  // before the rise finished with one measured after.
-  const escapes = await page.evaluate(() => {
-    const card = document.querySelector(".gloss-card")!.getBoundingClientRect();
-    const cells = document.querySelector('[data-chrome-device="pixel-scatter"]')!.getBoundingClientRect();
-    const out: string[] = [];
-    if (cells.left < card.left - 1) out.push(`left by ${Math.round(card.left - cells.left)}px`);
-    if (cells.top < card.top - 1) out.push(`top by ${Math.round(card.top - cells.top)}px`);
-    if (cells.right > card.right + 1) out.push(`right by ${Math.round(cells.right - card.right)}px`);
-    if (cells.bottom > card.bottom + 1) out.push(`bottom by ${Math.round(cells.bottom - card.bottom)}px`);
-    return out;
+    const samples: {
+      settled: boolean;
+      overlapsText: boolean;
+      /** Stricter than the box: actual word elements under the flourish. */
+      wordsUnder: string[];
+    }[] = [];
+
+    const deadline = performance.now() + 3000;
+    for (;;) {
+      const scatter = document.querySelector(SELECTOR);
+      if (!scatter || performance.now() > deadline) break;
+
+      const cells = scatter.getBoundingClientRect();
+      const text = document.querySelector(".passage-text")!.getBoundingClientRect();
+      const card = document.querySelector(".gloss-card");
+      const settled = !card || !card.getAnimations().some((a) => a.playState === "running");
+
+      samples.push({
+        settled,
+        overlapsText: intersects(cells, text),
+        wordsUnder: [...document.querySelectorAll(".passage-word")]
+          .filter((word) => intersects(cells, word.getBoundingClientRect()))
+          .map((word) => word.textContent ?? ""),
+      });
+
+      await new Promise((resolve) => requestAnimationFrame(() => resolve(null)));
+    }
+    return samples;
   });
-  expect(escapes, "the scatter reached past the card and onto the page").toEqual([]);
+
+  // The flourish has to have been alive and watched, or this test proves
+  // nothing at all.
+  expect(frames.length, "the flourish was never sampled").toBeGreaterThan(5);
+
+  const during = frames.filter((f) => !f.settled);
+  const after = frames.filter((f) => f.settled);
+  expect(during.filter((f) => f.overlapsText || f.wordsUnder.length > 0)).toEqual([]);
+  expect(after.filter((f) => f.overlapsText || f.wordsUnder.length > 0)).toEqual([]);
 });
 
 test("the pixel break fires from Keep reading, bounded to the button, and the passage advances only once it ends", async ({
