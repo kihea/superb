@@ -19,7 +19,7 @@ defaults:
 
 jobs:
   check:
-    name: typecheck, build, device check, lint
+    name: typecheck, build, device check, lint, phone widths
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
