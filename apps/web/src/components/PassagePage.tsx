@@ -70,6 +70,16 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
         </p>
       )}
 
+      {/* The sentinel marks the end of the passage's *text*, which is what
+         "the reader has reached the end" actually means -- not the end of
+         the box's trailing padding, where it used to sit. With the room
+         restyled to 3a the padded box came to about one screen tall, and
+         the sentinel landed thirty pixels below the observer's threshold:
+         the pull-up bar then never appeared on a desktop viewport at all,
+         and eight tests said so. Anchoring it to the text rather than to
+         the layout takes the whole class of failure away. */}
+      <div ref={sentinelRef} aria-hidden="true" />
+
       {/* The passage-break chain (DERIVATION-001, superb-hand-break.svg),
          used here as the mark that a passage has ended -- a property of the
          whole passage, never of where a target word happens to sit within
@@ -83,8 +93,6 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          feels wrong -- not changed here, because the choice was made on
          the screen as built. */}
       <BreakChain />
-
-      <div ref={sentinelRef} aria-hidden="true" />
 
       {/* Portalled for the same reason GlossCard is: this article carries a
          lingering identity transform from its own entrance animation once

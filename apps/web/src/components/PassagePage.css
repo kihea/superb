@@ -1,7 +1,12 @@
+/* 3a sets the passage 20px below the top row rather than a screen-height
+   away from it -- the frame has no header to clear. The old 6rem top and
+   bottom were sized for a card floating in a dark room; with the room gone
+   they only pushed the end of the passage past the fold, which is also
+   what stopped the pull-up bar's sentinel ever coming into view. */
 .passage-page {
   max-width: var(--type-passage-measure);
   margin: 0 auto;
-  padding: var(--space-9) var(--space-4) var(--space-9);
+  padding: var(--space-5) var(--space-4) var(--space-7);
 }
 
 /* Literata, the reading face in Kihea's design system, replacing Source

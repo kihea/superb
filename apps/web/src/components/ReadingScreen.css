@@ -99,7 +99,6 @@
 .reading-page {
   position: relative;
   z-index: 1;
-  flex: 1;
 }
 
 /* ADR-036's B4 -- see ReadingScreen.tsx's own comment for why this lives
@@ -137,10 +136,15 @@
    passage sits directly on the paper. The background-color is still set
    explicitly rather than inherited, because a contrast check reading
    getComputedStyle().backgroundColor should find a real colour here. */
+/* No `overflow: hidden` here any more. It was harmless when this was a
+   rounded card whose height grew with its content; once the room became a
+   column flex container it also set this item's min-height to 0, which
+   clipped a long passage instead of letting the document scroll -- and the
+   pull-up bar's sentinel then never came into view, so "Keep reading" never
+   appeared. Nine tests caught it at once. */
 .reading-page {
   background-color: var(--page-ground);
   color: var(--page-ink);
-  overflow: hidden;
 }
 
 /* 3c, the wide view: the empty left column is gone. The passage sits left

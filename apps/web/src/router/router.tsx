@@ -42,17 +42,23 @@ export function Link({
   className,
   children,
   onClick,
+  "aria-label": ariaLabel,
 }: {
   to: string;
   className?: string;
   children: ReactNode;
   onClick?: () => void;
+  /** Forwarded explicitly. A link whose visible text is "···" needs one,
+      and dropping it silently is how the Settings link ended up with no
+      accessible name at all. */
+  "aria-label"?: string;
 }) {
   const navigate = useNavigate();
   return (
     <a
       href={to}
       className={className}
+      aria-label={ariaLabel}
       onClick={(e) => {
         // Let a modified click open a new tab, the way any link should.
         if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;

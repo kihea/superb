@@ -8,7 +8,7 @@ const browser = await chromium.launch();
 const context = await browser.newContext();
 const page = await context.newPage();
 
-await page.goto("http://localhost:4319/read?register=glass");
+await page.goto("http://localhost:4319/");
 await page.waitForSelector(".passage-page");
 
 // Give the service worker a moment to finish installing/activating and
@@ -40,7 +40,7 @@ await page.close();
 const page2 = await context.newPage();
 await context.setOffline(true);
 try {
-  await page2.goto("http://localhost:4319/read?register=paper", { timeout: 10000 });
+  await page2.goto("http://localhost:4319/", { timeout: 10000 });
   await page2.waitForSelector(".passage-page", { timeout: 10000 });
   console.log("OFFLINE FRESH NAV (paper): passage rendered OK");
 } catch (e) {
