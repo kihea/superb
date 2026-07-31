@@ -28,13 +28,14 @@ function head(title) {
 }
 
 function header() {
-  // T10 job 2: "Sign in" is gone -- accounts do not exist, and ADR-038
-  // treats a link to an unbuilt feature the same as an uncited number. The
-  // accent style moves to "Open the app" instead of leaving the row at
-  // three items: it names something that is actually live (the reading app
-  // itself), it is the one link every other CTA on this page already routes
-  // to, and it keeps the nav's fourth slot doing the same job the old one
-  // did -- get a visitor into the product -- without promising an account.
+  // T10 job 2, amended 2026-07-30 (Kihea, overruling the ADR-038 reading
+  // this used to follow): "Sign in" stays -- accounts don't exist yet, but
+  // it is where signing in will eventually live, for account syncing and
+  // the voice/hosted-AI features the pricing section already names as
+  // "when it ships." It used to point at "#"; that was the dead link, not
+  // the label. No sign-in surface, form or "coming soon" state exists
+  // behind it -- it goes to /read/ like every other CTA on this page,
+  // until there is somewhere truer to send it.
   return `<header class="site-header">
   <a href="/" class="wordmark">
     <span class="slash">///</span>
@@ -44,7 +45,7 @@ function header() {
     <a href="#the-case">The case</a>
     <a href="#library">Library</a>
     <a href="#pricing">Pricing</a>
-    <a href="/read/" class="accent">Open the app</a>
+    <a href="/read/" class="accent">Sign in</a>
   </nav>
 </header>`;
 }
