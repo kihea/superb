@@ -4,6 +4,7 @@
 import { Router } from "./router/router";
 import { matchRoute, usePath } from "./router/context";
 import { useTheme } from "./theme/theme";
+import { useMotion } from "./theme/motion";
 import { ReadingScreen } from "./components/ReadingScreen";
 import { FirstOpen } from "./screens/FirstOpen";
 import { Shelf } from "./screens/Shelf";
@@ -57,9 +58,12 @@ function Screens() {
 }
 
 export default function App() {
-  // Held at the root so the choice survives moving between screens; Settings
-  // reaches the same hook and writes to the same two keys.
+  // Held at the root so the choice survives moving between screens, and so
+  // it is restored before anything downstream (VoiceOrb's own canvas loop)
+  // paints its first frame -- Settings reaches the same hooks and writes to
+  // the same keys.
   useTheme();
+  useMotion();
   return (
     <Router>
       <Screens />

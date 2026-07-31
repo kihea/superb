@@ -12,6 +12,7 @@ import { Screen } from "../shell/Screen";
 import { Link } from "../router/router";
 import { useTheme } from "../theme/theme";
 import type { Paper } from "../theme/theme";
+import { useMotion } from "../theme/motion";
 import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
 import { books } from "../v0mock";
@@ -43,12 +44,11 @@ const PAPERS: { id: Paper; label: string; swatch: string }[] = [
 ];
 
 const SCALE_KEY = "superb.readerScale";
-const MOTION_KEY = "superb.motion";
 
 export function Settings() {
   const { paper, night, setPaper, setNight } = useTheme();
   const [scale, setScale] = useState(() => Number(localStorage.getItem(SCALE_KEY) ?? 1) || 1);
-  const [motion, setMotion] = useState(() => localStorage.getItem(MOTION_KEY) !== "off");
+  const { motion, setMotion } = useMotion();
   const [voiceState, setVoiceState] = useState<OrbState>("still");
   const voiceSupported = useRef(speechSynthesisSupported()).current;
 
@@ -74,11 +74,6 @@ export function Settings() {
     document.documentElement.style.setProperty("--reader-scale", String(scale));
     localStorage.setItem(SCALE_KEY, String(scale));
   }, [scale]);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-motion", motion ? "on" : "off");
-    localStorage.setItem(MOTION_KEY, motion ? "on" : "off");
-  }, [motion]);
 
   return (
     <Screen title="Settings" back={{ to: "/shelf", label: "Shelf" }}>
