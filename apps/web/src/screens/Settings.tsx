@@ -18,11 +18,19 @@ import { books } from "../v0mock";
 import "./Settings.css";
 
 // Issue #99's other half: "a voice control/preview." The orb on the reading
-// page is the control; this is the preview -- a one-line sample in the
-// phone's own voice, so choosing it in Settings is not a guess. Feature-
-// detected and silently absent where the browser has no speechSynthesis,
-// same as anything else here that depends on what the device can do.
-const PREVIEW_LINE = "This is what reading aloud sounds like.";
+// page is the control; this is the preview -- a one-line sample of the
+// phone's own built-in voice, so choosing it in Settings is not a guess.
+// Feature-detected and silently absent where the browser has no
+// speechSynthesis, same as anything else here that depends on what the
+// device can do.
+//
+// ADR-039: "voice does not exist yet" as a working feature in this build --
+// the reading page's own orb does not actually speak (ReadingScreen.tsx:
+// "two words, not a player"). So the line this speaks names the phone's
+// voice itself, never what reading in the app will sound like -- this
+// previews a real, honest capability of the device, not a promise about
+// a feature that is not wired up anywhere else yet.
+const PREVIEW_LINE = "This is your phone's own voice.";
 
 function speechSynthesisSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;

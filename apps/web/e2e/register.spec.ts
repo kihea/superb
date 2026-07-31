@@ -5,7 +5,29 @@
 // all three candidates while the choice was still open) now guard the one
 // that shipped: the margin mark, the passage-break chain with its dropped
 // tooth, and the hand-drawn nav icon on the pull-up button.
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
+
+/** The engine's own record of which words in the passage on screen are its
+ *  first contact (`Passage.seeded`), read straight out of IndexedDB the same
+ *  way reading.spec.ts's `readTopicTally` reads the tally -- not through the
+ *  app's own rendering, so the test cannot pass just because the app agrees
+ *  with itself about what it drew. */
+async function currentPassageSeeded(page: Page): Promise<string[]> {
+  return page.evaluate(async () => {
+    const db = await new Promise<IDBDatabase>((resolve, reject) => {
+      const req = indexedDB.open("superb-web", 1);
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+    const raw = await new Promise<{ seeded?: string[] } | undefined>((resolve, reject) => {
+      const tx = db.transaction("engine", "readonly");
+      const req = tx.objectStore("engine").get("currentPassage");
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+    return raw?.seeded ?? [];
+  });
+}
 
 test("renders the real passage, decorative motifs never become tap targets", async ({ page }) => {
   await page.goto("/");
@@ -81,6 +103,73 @@ test("the drawn register does not narrate its own pedagogy in rendered text", as
   for (const word of ["topic", "affinity", "streak", "score", "level", "review queue"]) {
     expect(bodyText).not.toContain(word);
   }
+});
+
+// ADR-039's bound on issue #102: the held sentence's own "· N new" is law
+// 3's first and only named exception -- the count of *that sentence's*
+// first-contact words, in the menu the reader's own hold raised, nothing
+// wider. This does not merely carry the exception in a comment; it asserts
+// the count is the *only* reader-facing number anywhere in the document
+// once a sentence is held, and that it is actually the right number (a
+// sweep that only watches for extras would still pass with the exception
+// quietly gutted to always read zero). Watched red both ways in review:
+// once with HoldMenu's count stripped back out, and once with an
+// unrelated digit added somewhere else on the reading screen.
+test("the held sentence's new-word count is the only number facing the reader", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+
+  const seeded = new Set((await currentPassageSeeded(page)).map((w) => w.toLowerCase()));
+
+  // Read the same token structure PassagePage itself renders from (one
+  // .passage-word per token, grouped under .passage-sentence) rather than
+  // re-deriving sentence text with a regex of our own -- this is the exact
+  // thing PassagePage.tsx's own `countNew` counts, not an approximation of
+  // it that could quietly drift from what the component actually does.
+  const sentenceWords = await page.evaluate(() =>
+    Array.from(document.querySelectorAll(".passage-sentence")).map((sentence) =>
+      Array.from(sentence.querySelectorAll(".passage-word")).map((word) => word.textContent ?? ""),
+    ),
+  );
+  const held = sentenceWords.findIndex((words) => words.some((word) => seeded.has(word.toLowerCase())));
+  expect(held, "no sentence in this passage held a first-contact word to hold against").toBeGreaterThanOrEqual(0);
+  const expectedCount = new Set(
+    sentenceWords[held].map((word) => word.toLowerCase()).filter((word) => seeded.has(word)),
+  ).size;
+
+  const box = await page.locator(".passage-sentence").nth(held).boundingBox();
+  expect(box).not.toBeNull();
+  await page.mouse.move(box!.x + 10, box!.y + 6);
+  await page.mouse.down();
+  await page.waitForTimeout(700);
+  await page.mouse.up();
+
+  const menu = page.locator(".hold-menu");
+  await expect(menu).toBeVisible();
+  await expect(page.locator(".hold-menu__count")).toHaveText(new RegExp(`^\\s*·\\s*${expectedCount}\\s*new$`));
+
+  // Every other digit-bearing text node in the document: the passage's own
+  // prose is excluded, the same way reading.spec.ts's topic-affinity test
+  // excludes the passage's own topic word -- content a book or a composed
+  // template legitimately carries is not a measurement of the reader, and
+  // is not what law 3 is about. The citation year (ADR-023) is the other
+  // named legitimate case. Anything left over is unexplained.
+  const digitNodes = await page.evaluate(() => {
+    const out: { className: string; text: string }[] = [];
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      const text = (node.textContent ?? "").trim();
+      if (!text || !/\d/.test(text)) continue;
+      const el = node.parentElement;
+      if (el?.closest(".passage-text")) continue;
+      out.push({ className: typeof el?.className === "string" ? el.className : "", text });
+    }
+    return out;
+  });
+  const unexplained = digitNodes.filter(
+    ({ className }) => !className.includes("hold-menu__count") && !className.includes("passage-citation"),
+  );
+  expect(unexplained, "a number faced the reader outside the one sanctioned exception").toEqual([]);
 });
 
 // The seam audit (ADVISORY-008 §5 item 4): none of the three drawn motifs

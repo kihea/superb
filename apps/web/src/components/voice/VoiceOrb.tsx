@@ -19,6 +19,14 @@
 // and the containment sweep in e2e/chrome-containment.spec.ts is about that
 // kit. This orb is a different object, drawn by Kihea for exactly this place
 // on exactly this screen (frame 2b: "the page stays the interface").
+//
+// ADR-039's bound on #99: the reader may turn this switch off, but this
+// component never turns *itself* off based on anything the engine knows.
+// Its only inputs are `state`/`size` (props, chosen by the caller) and the
+// two ambient settings above -- never a passage's position, a word's
+// state, theta, or session history. Motion here is either "the reader
+// asked" (state) or "the reader allows ambient motion at all" (the switch
+// and the media query), never "the engine decided this word matters."
 import { useEffect, useRef, useState } from "react";
 import "./VoiceOrb.css";
 
