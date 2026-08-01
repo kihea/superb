@@ -1,12 +1,11 @@
 # Superb
 
-A vocabulary app that never admits it's teaching.
+A reading app that quietly builds vocabulary.
 
-You open it and read. Words you don't know acquire meaning through informative
-context and quiet resurfacing, until reading them produces automatic
-understanding. Adaptive assessment, spaced repetition, and retrieval practice
-run continuously underneath, and none of it is ever on screen. There is no
-review queue, no streak, no level, no score.
+You open it and read. Words you do not know acquire meaning through informative
+context and quiet resurfacing. Adaptive assessment, spaced repetition, and
+retrieval practice run underneath the page without turning reading into a
+dashboard. There is no review queue, streak, level, or score.
 
 **The design law:** the schedule is the pedagogy; the surface is the
 experience. Any feature that requires explaining itself to the user is wrong
@@ -14,53 +13,70 @@ by definition.
 
 ## Status
 
-Early, and moving. The engine — word state, scheduler, ability estimate,
-passage composer — is built and proven by simulation before any interface
-uses it, which is deliberate: the scheduling behaviour is the product, and it
-is provable without a screen. A first reading screen now exists on the web,
-wired directly to the real, compiled engine. Nothing you see there yet is a
-finished product screen.
+Superb is in active development. The web reading loop uses the real Rust engine
+through WebAssembly, stores learner state in IndexedDB, and works offline after
+its first load. The repository also contains a broad fourteen-screen product
+prototype. Its library, whole-book reader, challenges, and Shelf still use the
+invented data isolated in `apps/web/src/v0mock/`; the voice screen does not
+produce audio. Those screens are useful for walking the intended product, but
+they are not finished capabilities.
 
-## Shape
+The next product step is one real catalogue book from search through reading,
+word lookup, saved place, and resume. Until that lands, this repository should
+be read as a working alpha rather than a complete reading library.
 
-One pure Rust engine, three thin shells, no server.
+## Repository
 
-- `crates/superb-core` — the engine. Word state machine, scheduler, ability
-  estimator, passage composer. Pure: no clock, no RNG, no I/O. `now` and seeds
-  are parameters. This is the primary artifact, built as one library so all
-  three shells can eventually run from the same decisions rather than three
-  reimplementations of them. It compiles to WebAssembly for the web app,
-  which exists today; Android and iOS binding to it is intended, not built
-  yet.
-- `crates/superb-sim` — headless simulator. Synthetic learners with known
-  vocabularies, run over many sessions to prove the schedule converges.
-- `apps/web` — React + Vite PWA. First platform, and the only one with code
-  in the repository so far.
-- `apps/android` — Jetpack Compose. Second.
-- `apps/ios` — SwiftUI. Third.
-- `data/` + `content/` — reference corpora, the composed passage library, and
-  cited excerpts from public-domain literature. Every file is licence-audited
-  by CI; every excerpt carries a complete citation.
+- `crates/superb-core` is the pure engine: word state, scheduling, ability
+  estimation, signal ranking, and passage composition. It has no clock, RNG,
+  or I/O; callers supply time and seeds.
+- `crates/superb-wasm` exposes the engine to the web app.
+- `crates/superb-sim` runs synthetic readers through long behavioral checks.
+- `apps/web` is the React and Vite PWA served at `/read/` in the assembled
+  site.
+- `apps/site` builds the public landing page and assembles the deployable site.
+- `data`, `content`, and `design` hold build-time data, cited or authored
+  reading material, and design tokens. CI checks every shipped dataset and
+  cited excerpt against its licence and provenance record.
 
 A shell may render, gesture, persist, and time. It may not decide. Anything
-that decides lives in the core, so all three platforms behave identically by
+that decides lives in the core, so every shell behaves consistently by
 construction rather than by discipline.
 
-Everything runs on-device and offline. Nothing leaves the device. Account sync,
-when it arrives, will be free and optional — the paid tier is cloud voice and
-hosted AI, never the ability to own two devices.
+The current app runs on-device and keeps reader state local. It has no account,
+sync, payment, or cloud-voice service.
 
-## Building
+## Run it locally
+
+You need Rust 1.96, Node 24, Python 3.12, and `tar`. The checked-in Rust
+toolchain file installs the right compiler; the web build also needs the
+`wasm32-unknown-unknown` target and `wasm-bindgen-cli` 0.2.126.
 
 ```sh
-cargo test -p superb-core     # the engine and its property tests
+rustup target add wasm32-unknown-unknown
+cargo install wasm-bindgen-cli --version 0.2.126 --locked
+cd apps/web
+npm ci
+npm run dev
 ```
+
+For the engine alone:
 
 ```sh
-cd apps/web && npm install && npm run dev     # the web reading screen
+cargo test -p superb-core --all-features --locked
 ```
 
-More arrives as the milestones do.
+The repository-level release check installs build dependencies, runs the fast
+Python and Rust gates, builds and tests the web app, checks offline/PWA behavior,
+assembles the site, seals it, restores the exact archive, and smoke-tests the
+restored bytes:
+
+```sh
+python scripts/release.py
+```
+
+Use `python scripts/release.py --list` to inspect the steps. The scheduled
+deep simulator and report checks are intentionally separate from this command.
 
 ## Licensing
 
@@ -142,9 +158,10 @@ on every commit.
 
 ## Contributing
 
-Open. See `CONTRIBUTING.md` for setup, tests, and conventions; bug reports
-and feature requests use the issue forms. The well-bounded lanes are passage
-and slot authoring, sourcing and citing public-domain excerpts, gloss
+Open. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests, and conventions;
+participation is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). Bug
+reports and feature requests use the issue forms. The well-bounded lanes are
+passage and slot authoring, sourcing and citing public-domain excerpts, gloss
 rewrites, example-sentence curation, and phonetics edge cases.
 
 A contributed excerpt needs a complete, checkable citation and has to use its

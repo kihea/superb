@@ -51,11 +51,10 @@ env:
   WASM_BINDGEN_VERSION: "0.2.126"
 
 jobs:
-  # The landing is Kihea's own designed page, served verbatim — there is no
-  # generated markup to typecheck, no figure devices to count, no copy lint
-  # to run; the old T9 jobs checked a site that no longer exists. What is
-  # left to check is that the page assembles with the reading app at /read/
-  # and that both surfaces work in a real browser.
+  # The landing keeps Kihea's visual source, with a small shipping contract:
+  # links work, public copy is honest, and the header fits a phone. The same
+  # browser check also proves that the assembled reading app reaches its first
+  # painted passage at /read/.
   check:
     name: build and assembled smoke check
     runs-on: ubuntu-latest

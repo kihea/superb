@@ -96,6 +96,19 @@ def main() -> int:
     contract_command = "python data/pipeline/tests/test_ci_contract.py"
     if contract_command not in contract:
         fail("ci-contract.yml does not execute the lane contract directly", problems)
+    pull_request_trigger = re.search(r"(?m)^  pull_request:\s*$", contract)
+    if pull_request_trigger is None:
+        fail("ci-contract workflow must run for pull requests", problems)
+    else:
+        remaining = contract[pull_request_trigger.end() :]
+        next_trigger = re.search(r"(?m)^  [a-z_]+:\s*$", remaining)
+        pull_request_block = remaining[: next_trigger.start()] if next_trigger else remaining
+        if re.search(r"(?m)^    paths(?:-ignore)?\s*:", pull_request_block):
+            fail(
+                "ci-contract workflow must run on every pull request without path filters "
+                "so branch protection cannot wait forever",
+                problems,
+            )
     governed_paths = [
         ".gitignore",
         ".github/workflows/ci-contract.yml",
@@ -112,8 +125,8 @@ def main() -> int:
         "scripts/release.py",
     ]
     for governed in governed_paths:
-        if contract.count(f'"{governed}"') < 2:
-            fail(f"ci-contract workflow path filters do not own {governed}", problems)
+        if contract.count(f'"{governed}"') < 1:
+            fail(f"ci-contract push path filters do not own {governed}", problems)
 
     aggregate = "python data/pipeline/tests/run_all.py"
     if aggregate not in data:

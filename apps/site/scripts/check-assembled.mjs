@@ -1,15 +1,13 @@
 #!/usr/bin/env node
 // T10 job 4: prove the two surfaces together. Serves the *assembled*
 // artifact (npm run assemble must have run first -- this reads dist/ as it
-// is, it does not build anything) over http, exactly the way check-phone.mjs
-// already proves the landing works over http rather than file://, and opens
-// both "/" and "/read/" in a real browser.
+// is, it does not build anything) over http and opens both "/" and "/read/"
+// in a real browser.
 //
 // Fails if:
-//   - the landing renders an empty body, or any asset Kihea's page
-//     references fails to arrive from the assembled artifact (the page
-//     itself is served verbatim and its markup is his -- nothing here
-//     asserts against its structure).
+//   - the landing renders an empty body, clips a link at phone width, exposes
+//     a dead link, lacks a route to /read/, or loses an asset from the assembled
+//     artifact.
 //   - the app at "/read/" never reaches its first painted reading surface
 //     (an <article class="passage-page">, PassagePage.tsx's own selector)
 //     within a generous timeout, which is what "the subpath is wired
@@ -75,11 +73,9 @@ const problems = [];
 
 // --- "/" : the landing arrives whole from the assembled artifact.
 {
-  // The landing is Kihea's own page served verbatim, so nothing here
-  // asserts against its markup -- its structure is his to change without a
-  // check going red. What the assembly owes it is that the page and every
-  // asset it references actually arrive from the assembled artifact.
-  const page = await browser.newPage();
+  // Keep the visual source flexible while pinning the few properties a
+  // publishable landing page owes readers.
+  const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const failedRequests = [];
   page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
   page.on('response', (res) => {
@@ -87,9 +83,32 @@ const problems = [];
   });
   await page.goto(`${origin}/`);
   await page.waitForLoadState('networkidle').catch(() => {});
-  const hasContent = await page.evaluate(() => (document.body?.textContent ?? '').trim().length > 0);
+  const landing = await page.evaluate(() => ({
+    hasContent: (document.body?.textContent ?? '').trim().length > 0,
+    viewportWidth: document.documentElement.clientWidth,
+    contentWidth: document.documentElement.scrollWidth,
+    links: Array.from(document.querySelectorAll('a')).map((link) => {
+      const rect = link.getBoundingClientRect();
+      return {
+        text: (link.textContent ?? '').trim().replace(/\s+/g, ' '),
+        href: link.getAttribute('href'),
+        left: rect.left,
+        right: rect.right,
+      };
+    }),
+  }));
   await page.close();
-  if (!hasContent) problems.push('/ : the landing rendered an empty body');
+  if (!landing.hasContent) problems.push('/ : the landing rendered an empty body');
+  if (landing.contentWidth > landing.viewportWidth)
+    problems.push(`/ : landing overflows a 390px phone viewport (${landing.contentWidth}px content in ${landing.viewportWidth}px)`);
+  const deadLinks = landing.links.filter(({ href }) => href == null || href.trim() === '' || href.trim() === '#');
+  if (deadLinks.length > 0)
+    problems.push(`/ : landing contains dead links -- ${deadLinks.map(({ text }) => JSON.stringify(text)).join(', ')}`);
+  const clippedLinks = landing.links.filter(({ left, right }) => left < 0 || right > landing.viewportWidth);
+  if (clippedLinks.length > 0)
+    problems.push(`/ : landing clips links at phone width -- ${clippedLinks.map(({ text }) => JSON.stringify(text)).join(', ')}`);
+  if (!landing.links.some(({ href }) => href === '/read/'))
+    problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
 }
@@ -129,7 +148,7 @@ if (problems.length > 0) {
   console.error('check-assembled: FAILED');
   for (const p of problems) console.error(`  ✗ ${p}`);
 } else {
-  console.log('check-assembled: landing at / arrives whole, and /read/ reaches a painted passage.');
+  console.log('check-assembled: landing at / fits a phone with live links, and /read/ reaches a painted passage.');
 }
 
 process.exit(failed ? 1 : 0);
