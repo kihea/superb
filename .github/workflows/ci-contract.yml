@@ -5,6 +5,7 @@ on:
     branches: [main, dev]
     paths:
       [
+        ".gitignore",
         ".github/workflows/ci-contract.yml",
         ".github/workflows/core.yml",
         ".github/workflows/data-license.yml",
@@ -16,10 +17,12 @@ on:
         "apps/web/playwright.config.ts",
         "data/pipeline/tests/run_all.py",
         "data/pipeline/tests/test_ci_contract.py",
+        "scripts/release.py",
       ]
   pull_request:
     paths:
       [
+        ".gitignore",
         ".github/workflows/ci-contract.yml",
         ".github/workflows/core.yml",
         ".github/workflows/data-license.yml",
@@ -31,6 +34,7 @@ on:
         "apps/web/playwright.config.ts",
         "data/pipeline/tests/run_all.py",
         "data/pipeline/tests/test_ci_contract.py",
+        "scripts/release.py",
       ]
   workflow_dispatch:
 

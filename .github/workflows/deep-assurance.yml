@@ -3,7 +3,19 @@ name: deep assurance
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 4 * * 0"
+    - cron: "17 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      [
+        "crates/superb-core/**",
+        "crates/superb-sim/**",
+        "data/**",
+        "Cargo.toml",
+        "Cargo.lock",
+        "rust-toolchain.toml",
+        ".github/workflows/deep-assurance.yml",
+      ]
 
 concurrency:
   group: deep-assurance

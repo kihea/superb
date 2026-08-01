@@ -11,6 +11,8 @@ target/
 node_modules/
 dist/
 .vite/
+# local copy of the sealed site artifact retained by the root release gate
+apps/site/release-artifact/
 
 # android
 .gradle/

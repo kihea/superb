@@ -5,6 +5,7 @@ Run directly, or through run_all.py once that aggregate runner exists.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -44,8 +45,19 @@ def main() -> int:
             fail(f"deep-assurance.yml does not own {command}", problems)
         if command in core:
             fail(f"core.yml still invokes the slow simulator target {command}", problems)
-    if "schedule:" not in deep or "workflow_dispatch:" not in deep:
-        fail("deep assurance must be both scheduled and manually runnable", problems)
+    if re.search(r"(?m)^  workflow_dispatch:\s*$", deep) is None:
+        fail("deep assurance must be manually runnable", problems)
+    if re.search(r'(?m)^    - cron: "17 4 \* \* \*"\s*$', deep) is None:
+        fail("deep assurance must run nightly, not weekly", problems)
+    if (
+        re.search(r"(?m)^  push:\s*$", deep) is None
+        or re.search(r"(?m)^    branches: \[main\]\s*$", deep) is None
+    ):
+        fail("deep assurance must run after relevant changes land on main", problems)
+    for owned in ["crates/superb-core/**", "crates/superb-sim/**", "data/**"]:
+        escaped = re.escape(owned)
+        if re.search(rf'(?m)^\s{{8}}"{escaped}",?\s*$', deep) is None:
+            fail(f"deep assurance does not own relevant changes under {owned}", problems)
 
     web_scripts = package_scripts("apps/web")
     for script in ["ci:prepare", "ci:typecheck", "ci:test:unit", "ci:build", "test:e2e"]:
@@ -85,6 +97,7 @@ def main() -> int:
     if contract_command not in contract:
         fail("ci-contract.yml does not execute the lane contract directly", problems)
     governed_paths = [
+        ".gitignore",
         ".github/workflows/ci-contract.yml",
         ".github/workflows/core.yml",
         ".github/workflows/data-license.yml",
@@ -96,6 +109,7 @@ def main() -> int:
         "apps/web/playwright.config.ts",
         "data/pipeline/tests/run_all.py",
         "data/pipeline/tests/test_ci_contract.py",
+        "scripts/release.py",
     ]
     for governed in governed_paths:
         if contract.count(f'"{governed}"') < 2:
@@ -112,6 +126,36 @@ def main() -> int:
         for required in ["test_glosses.py", "test_excerpts.py", "test_excerpts_windowing.py", "test_ci_contract.py"]:
             if required not in runner_text:
                 fail(f"aggregate Python runner does not guarantee {required}", problems)
+
+    ignore_text = (ROOT / ".gitignore").read_text(encoding="utf-8")
+    if "apps/site/release-artifact/" not in ignore_text:
+        fail("root release command leaves its sealed local artifact visible to git", problems)
+
+    release_path = ROOT / "scripts" / "release.py"
+    if not release_path.exists():
+        fail("root release command is missing: python scripts/release.py", problems)
+    else:
+        release_text = release_path.read_text(encoding="utf-8")
+        for marker in [
+            "data/pipeline/tests/test_ci_contract.py",
+            "data/pipeline/tests/run_all.py",
+            "cargo fmt --all --check",
+            "cargo clippy --all-targets --all-features --locked -- -D warnings",
+            "npm run ci:prepare",
+            "npm run ci:test:unit",
+            "npm run ci:build",
+            "npm run test:e2e",
+            "scripts/check-offline.mjs",
+            "scripts/check-installability.mjs",
+            "npm run assemble",
+            "npm run smoke",
+        ]:
+            if marker not in release_text:
+                fail(f"root release command does not own {marker!r}", problems)
+        if release_text.count("tree_digest(SITE_DIST)") < 2:
+            fail("root release command does not compare the assembled tree with its restored tree", problems)
+        if "restored_tree_digest != source_tree_digest" not in release_text:
+            fail("root release command has no fail-closed restored-tree comparison", problems)
 
     # The assembled deployment owns every input that can change /read/.
     for owned in ["apps/site/**", "apps/web/**", "design/**", "content/**", "crates/superb-wasm/**", "crates/superb-core/**"]:
