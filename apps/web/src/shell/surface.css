@@ -425,9 +425,10 @@ a.sb-quiet {
   position: absolute;
   inset: 0;
   border-radius: inherit;
+  /* No backdrop-filter: it sits over this cover's own title and author, in
+     the same paint layer, and blurred them into the illegible smear frame
+     4e does not draw -- "frosted" is the veil's colour, not lost focus. */
   background: color-mix(in srgb, var(--surface-page) 68%, transparent);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
   pointer-events: none;
 }
 

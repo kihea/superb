@@ -168,7 +168,7 @@
     transparent 0deg,
     transparent 300deg,
     var(--brand) 340deg,
-    var(--page-card-ground) 352deg,
+    var(--surface-card) 352deg,
     var(--brand) 356deg,
     transparent 360deg
   );

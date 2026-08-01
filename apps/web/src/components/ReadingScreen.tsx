@@ -13,12 +13,16 @@
 //
 // T15 restyled this screen to frame 3a: the room around the passage is now
 // paper rather than dark glass. That still left the passage's own ink and
-// paper (--page-*) fixed to page.light regardless of the theme, which
-// contradicted the fourteen new screens and, once asked (issue #100),
-// Kihea's own answer: "the whole screen goes dark? its dark mode" -- ADR-039.
-// So --page-* now darkens with the room too (apps/web/scripts/
-// tokens-to-css.mjs); nothing in this component changed, since it already
-// read --page-* rather than a hard-coded light value.
+// paper on a separate --page-* register fixed to page.light regardless of
+// the theme, which contradicted the fourteen new screens and, once asked
+// (issue #100), Kihea's own answer: "the whole screen goes dark? its dark
+// mode" -- ADR-039. --page-* was made to darken with the room as a first
+// fix; now that his finalized design system (design/ox.css) is the one
+// surface every other screen already reads, the reading state's own CSS
+// (ReadingScreen.css, PassagePage.css, GlossCard.css) reads the same
+// --surface-*/--text-* tokens directly rather than a parallel register that
+// only happened to track the same light/dark state. Nothing in this
+// component changed either time -- it never held a colour of its own.
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";

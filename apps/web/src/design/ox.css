@@ -9,9 +9,19 @@
  * Settings.
  *
  * This sits alongside design/tokens.css, which is generated from
- * design/tokens.json and still owns the reading card's own paper
- * (--page-*). The two do not overlap except on --font-mono, where this
- * file wins because it is imported second and Sono is this system's mono.
+ * design/tokens.json and still owns spacing, type-scale and motion
+ * durations product code reads as --space-*/--type-ui-*/--motion-*. Colour
+ * is this file's alone now -- the reading state's own paper and ink
+ * (ReadingScreen.css, PassagePage.css, GlossCard.css) used to be a separate
+ * --page-* register from design/tokens.json; that duplicated this file's
+ * --surface-*/--text-* by a few hex digits and is retired in favour of
+ * reading everything else already reads (see ReadingScreen.tsx's header).
+ * design/tokens.json still carries the old page.*/chrome.* JSON for now --
+ * ADR-019 D4 wants one pipeline file, not two, and folding this file's
+ * three-theme system into that JSON (so Android/iOS read it too) is real
+ * follow-up work, tracked rather than done under this pass. The one
+ * remaining overlap is --font-mono, where this file wins because it is
+ * imported second and Sono is this system's mono.
  */
 
 :root {
