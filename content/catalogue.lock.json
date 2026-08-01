@@ -1,11 +1,12 @@
 {
   "schema_version": "0.1.0",
-  "tag": "catalogue-v0.1.0",
+  "status": "vendored-pre-release",
+  "artifact_version": "0.1.0",
+  "intended_release_tag": "catalogue-v0.1.0",
   "repository": "https://github.com/superb-catalogue/library",
   "commit": "abc20c636d251ecbbb0c53f12629de94ee961145",
   "url": null,
   "sha256": "7fa2c904c788042f08d7b36481ec403e6a4940121f891881198bdfc97d77bc23",
   "vendored_path": "content/catalogue/catalogue-v0.1.0.json",
-  "status": "vendored-stopgap",
-  "note": "No GitHub release exists yet for this tag on superb-catalogue/library -- superb-catalogue/library#6 adds the export script that produces this artifact and is not yet merged. `commit` is the immutable superb-catalogue/library commit the two source books/bram-stoker_dracula/{book,provenance}.json files were read from (already on that repository's main). The bytes at `vendored_path` were generated from that commit and are checked into this repository as a stopgap per the Slice 1A card; `url` stays null until a real release exists. Tracking issue: https://github.com/kihea/superb/issues/115"
+  "note": "This is a vendored pre-release artifact, pinned by commit and sha256 -- not a tag. No `catalogue-v0.1.0` tag or release exists yet on superb-catalogue/library (a lock file must not name a ref that does not resolve): superb-catalogue/library#6 adds the export script that produces this artifact and is not yet merged. `intended_release_tag` records what the eventual release will be called, once one exists; it is not a ref this build reads or trusts. `commit` is the immutable superb-catalogue/library commit the two source books/bram-stoker_dracula/{book,provenance}.json files were read from (already on that repository's main). The bytes at `vendored_path` were generated from that commit and are checked into this repository as a stopgap per the Slice 1A card; `url` stays null until a real release exists. Tracking issue: https://github.com/kihea/superb/issues/115"
 }
