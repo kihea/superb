@@ -130,21 +130,30 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
   const engineStateBeforeReading = await readEngineState(page);
 
   // Tap a known word and see a real gloss -- not the honest "no entry yet"
-  // fallback, and not the composed-passage mock's fixture text.
-  await words.first().click();
+  // fallback, and not the composed-passage mock's fixture text, and not
+  // merely "some nonempty text": the exact expected sense for a word this
+  // pipeline has no homograph ambiguity about. ("May", tried first, has
+  // exactly the ambiguity this assertion is meant to catch -- Wiktionary's
+  // first-substantive-sense rule resolves it to the modal-verb sense, "to
+  // have power (over)", which is real content but not a clean assertion
+  // target. "Vampire" has one sense and it is the right one for this book.)
+  const target = page.locator(".passage-word", { hasText: /^vampire$/ }).first();
+  await target.scrollIntoViewIfNeeded();
+  await target.click();
   const gloss = page.locator(".gloss-card");
   await expect(gloss).toBeVisible();
-  await expect(gloss.locator(".gloss-word")).toHaveText("May");
-  const definitionText = await gloss.locator(".gloss-definition").innerText();
-  expect(definitionText.length).toBeGreaterThan(0);
-  expect(definitionText).not.toContain("doesn't have a meaning saved yet");
-  expect(definitionText).not.toContain("not curated for this build");
+  await expect(gloss.locator(".gloss-word")).toHaveText("vampire");
+  await expect(gloss.locator(".gloss-definition")).toHaveText(
+    "A mythological creature (usually humanoid and undead) said to feed on the blood or life energy of the living.",
+  );
   await gloss.locator("..").click({ position: { x: 5, y: 5 } });
   await expect(gloss).not.toBeVisible();
 
   // The tap reached the persisted encounter record.
   const afterTap = await readBookStore(page);
-  expect(afterTap.encounters.some((e) => e.word === "May" && e.bookId === "bram-stoker_dracula")).toBe(true);
+  expect(afterTap.encounters.some((e) => e.word === "vampire" && e.bookId === "bram-stoker_dracula")).toBe(
+    true,
+  );
 
   // Read far enough to move the saved place: scroll to a paragraph well
   // into the chapter and let the place-tracking observer catch up.
@@ -161,16 +170,33 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
   const engineStateAfterReading = await readEngineState(page);
   expect(engineStateAfterReading).toBe(engineStateBeforeReading);
 
-  // Reload -- resumes at the same place, not the chapter's start.
+  // Reload -- resumes at the same place, not the chapter's start. Checked
+  // two ways on purpose: the stored index is necessary but not sufficient
+  // (WholeBook.tsx's own scrollIntoView call, around line 95-104, is what
+  // actually moves the reader there -- deleting that code would still leave
+  // the correct index in IndexedDB and this test would not notice unless it
+  // also asks where the page actually is).
   await page.reload();
   await expect(page.locator(".whole-book")).toHaveAttribute("data-part-index", "0", { timeout: 15_000 });
   await expect
     .poll(async () => (await readBookStore(page)).place?.blockIndex)
     .toBe(placeBeforeReload!.blockIndex);
+
+  const resumedParagraph = page.locator(
+    `.passage-text[data-block-index="${placeBeforeReload!.blockIndex}"]`,
+  );
+  await expect(resumedParagraph).toBeVisible();
+  await expect
+    .poll(async () => {
+      const box = await resumedParagraph.boundingBox();
+      return box ? Math.abs(box.y) : Number.POSITIVE_INFINITY;
+    })
+    .toBeLessThan(200);
+
   // The encounter survived the reload too, and the engine is still
   // untouched.
   const afterReload = await readBookStore(page);
-  expect(afterReload.encounters.some((e) => e.word === "May")).toBe(true);
+  expect(afterReload.encounters.some((e) => e.word === "vampire")).toBe(true);
   expect(await readEngineState(page)).toBe(engineStateBeforeReading);
 
   // Offline reopen: the book's own content was cached the moment it was
@@ -187,4 +213,75 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
   await expect(page.locator(".whole-book")).toBeVisible({ timeout: 10_000 });
   await expect(page.locator(".passage-word").first()).toBeVisible();
   await context.setOffline(false);
+});
+
+/** Seeds the book's saved place directly, the same way a real reader's
+ *  earlier session would have left it -- reading/bookState.ts's own shape,
+ *  written straight into IndexedDB rather than reached by scrolling, which
+ *  is how the "last chapter" case below reaches chapter 28 without 27
+ *  clicks. Requires a same-origin page already to be open (WholeBook.tsx's
+ *  own load() reads this back the next time it mounts). */
+async function seedPlace(page: Page, partIndex: number, blockIndex: number): Promise<void> {
+  await page.evaluate(
+    async ({ partIndex, blockIndex }) => {
+      const db = await new Promise<IDBDatabase>((resolve, reject) => {
+        const req = indexedDB.open("superb-web");
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => reject(req.error);
+      });
+      await new Promise<void>((resolve, reject) => {
+        const tx = db.transaction("book", "readwrite");
+        tx.objectStore("book").put(
+          { bookId: "bram-stoker_dracula", partIndex, blockIndex, updatedAt: Date.now() },
+          "place",
+        );
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+    },
+    { partIndex, blockIndex },
+  );
+}
+
+test("the pull control crosses a chapter boundary, and the last chapter returns to Library", async ({
+  page,
+}) => {
+  // The real chapter count, read from the same artifact the app serves --
+  // not a number this test invents and could drift from. Needs a same-
+  // origin document open first for `fetch` to resolve against; the book's
+  // own page is as good a place as any, and this is where the test starts
+  // anyway.
+  await page.goto("/book/bram-stoker_dracula/read");
+  const chapter = page.locator(".whole-book");
+  const lastPartIndex = await page.evaluate(async () => {
+    // A plain root-relative path, not import.meta.env.BASE_URL -- this
+    // function is serialized and run as-is in the browser (Playwright's
+    // page.evaluate, not a Vite-transformed module), and this suite's own
+    // playwright.config.ts never sets VITE_BASE, so BASE_URL is "/" here
+    // regardless.
+    const res = await fetch("/content/catalogue-v0.1.0.json");
+    const data = (await res.json()) as { books: { id: string; parts: unknown[] }[] };
+    const book = data.books.find((b) => b.id === "bram-stoker_dracula")!;
+    return book.parts.length - 1;
+  });
+  expect(lastPartIndex).toBeGreaterThan(1);
+
+  // Chapter one -> chapter two, a real transition: the part index advances
+  // and the text on screen actually changes.
+  await expect(chapter).toHaveAttribute("data-part-index", "0", { timeout: 15_000 });
+  const firstChapterOpening = await page.locator(".passage-text").first().innerText();
+
+  await page.getByRole("button", { name: "Next chapter" }).click();
+  await expect(chapter).toHaveAttribute("data-part-index", "1", { timeout: 15_000 });
+  await expect(page.locator(".passage-text").first()).not.toHaveText(firstChapterOpening);
+
+  // The last chapter's own "keep reading" -- reached by seeding place
+  // rather than clicking through every chapter -- goes to Library, a real
+  // screen, not the still-v0mock Shelf (WholeBook.tsx's own comment at
+  // this branch).
+  await seedPlace(page, lastPartIndex, 0);
+  await page.reload();
+  await expect(chapter).toHaveAttribute("data-part-index", String(lastPartIndex), { timeout: 15_000 });
+  await page.getByRole("button", { name: "Next chapter" }).click();
+  await expect(page).toHaveURL(/\/library$/);
 });
