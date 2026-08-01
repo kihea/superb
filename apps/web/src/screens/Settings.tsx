@@ -15,7 +15,6 @@ import type { Paper } from "../theme/theme";
 import { useMotion } from "../theme/motion";
 import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
-import { books } from "../v0mock";
 import "./Settings.css";
 
 // Issue #99's other half: "a voice control/preview." The orb on the reading
@@ -173,11 +172,21 @@ export function Settings() {
           <span className="sb-list__aside">signed out</span>
         </Link>
 
-        <div className="settings-row">
-          <span className="settings-row__name">Credits and licences</span>
-          <span className="sb-list__aside">{books.length} texts</span>
-        </div>
       </div>
+
+      {/* ADR-008: word meanings are rewritten from Wiktionary, which carries
+         a share-alike obligation -- the attribution has to reach a reader
+         somewhere, and this is the room for it (data/NOTICE.md's own
+         "About screen (a shell concern, not this track's)"). Not yet a
+         full credits list per book -- Slice 1A ships one book, and its own
+         page already names its publisher and licence. */}
+      <section className="settings-group">
+        <span className="sb-eyebrow">About</span>
+        <p className="sb-caption">
+          Word meanings include text from Wiktionary contributors, used under Creative Commons
+          Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
+        </p>
+      </section>
 
       <Link to="/welcome" className="sb-quiet sb-quiet--centred">
         See the first open again

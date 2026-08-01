@@ -19,13 +19,22 @@ export const ROUTES: RouteEntry[] = [
   { path: "/welcome", name: "First open", screen: 11, frame: "1s" },
   { path: "/shelf", name: "Shelf", screen: 3, frame: "1h" },
   { path: "/library", name: "Finding a book", screen: 4, frame: "2g" },
-  { path: "/book/:id", name: "One book, before you start", screen: 5, frame: "2h", example: "/book/meditations" },
+  {
+    path: "/book/:id",
+    name: "One book, before you start",
+    screen: 5,
+    frame: "2h",
+    // Slice 1A (PLAN.md §7): the only id the real catalogue artifact
+    // carries today (content/catalogue.lock.json). A v0mock id here would
+    // now 404 -- BookCover.tsx reads the real catalogue, not v0mock.
+    example: "/book/bram-stoker_dracula",
+  },
   {
     path: "/book/:id/read",
     name: "Inside a whole book",
     screen: 6,
     frame: "1e",
-    example: "/book/up-from-slavery/read",
+    example: "/book/bram-stoker_dracula/read",
   },
   { path: "/voice", name: "The better voice", screen: 7, frame: "2c (orb itself: 2b)" },
   { path: "/rhyme", name: "Rhyme", screen: 8, frame: "2d" },
