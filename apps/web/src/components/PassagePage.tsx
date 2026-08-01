@@ -10,7 +10,6 @@ import type { PassageToken } from "../content/render";
 import { fillTemplate, groupIntoSentences, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
 import { HoldMenu } from "./HoldMenu";
-import { BreakChain } from "./doodle/BreakChain";
 import { DoodleArrow } from "./doodle/DoodleArrow";
 import { useNavigate } from "../router/context";
 
@@ -144,19 +143,18 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          the layout takes the whole class of failure away. */}
       <div ref={sentinelRef} aria-hidden="true" />
 
-      {/* The passage-break chain (DERIVATION-001, superb-hand-break.svg),
-         used here as the mark that a passage has ended -- a property of the
-         whole passage, never of where a target word happens to sit within
-         it, so its position on screen carries no information about which
-         word the engine cared about (law 3). Kihea drew this mark for
-         "between two halves of a passage"; this screen has one continuous
-         passage, not two visible halves, so it was built as an end-of-
-         passage mark instead. That is a real deviation from what he drew,
-         it is on the record (workspace/decisions/README.md, the register
-         decision), and it is the first thing to revisit if the mark ever
-         feels wrong -- not changed here, because the choice was made on
-         the screen as built. */}
-      <BreakChain />
+      {/* The break chain used to sit here as the passage-end mark
+         (DERIVATION-001, superb-hand-break.svg) -- that comment's own words
+         were "the first thing to revisit if the mark ever feels wrong," and
+         issue #111 is Kihea revisiting it: "the wiggling lines under the
+         passage" should go. ADR-041 answers the same way independently (no
+         static ornament inside the text column, warmer surface or not), so
+         this is removed rather than restyled -- BreakChain.tsx/.css are
+         gone with it. The end of a passage is now just where the text
+         stops; nothing marks it until "Keep reading" appears below. The
+         private root's register decision this deviated from should get its
+         own update to match; flagged to the architect rather than edited
+         here, since that record lives outside this repo. */}
 
       {/* Portalled for the same reason GlossCard is: this article carries a
          lingering identity transform from its own entrance animation once

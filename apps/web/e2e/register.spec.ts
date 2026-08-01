@@ -1,10 +1,13 @@
 // The register decision, receipted 2026-07-27 (workspace/decisions/
 // README.md, private root): Kihea chose "a little of his own hand" from
-// three built candidates -- item 7 is discharged, and that choice is now
-// the only screen that exists. These checks (originally written across
-// all three candidates while the choice was still open) now guard the one
-// that shipped: the margin mark, the passage-break chain with its dropped
-// tooth, and the hand-drawn nav icon on the pull-up button.
+// three built candidates. Two of the three drawn motifs that choice shipped
+// -- the margin mark and the passage-break chain -- were removed by issue
+// #111 (his own review of the deployed desktop reading view: "the left
+// weird design," "the wiggling lines under the passage") and ADR-041's
+// independent rule against static ornament in the text column. What is
+// left of the register is the hand-drawn nav icon on the pull-up button;
+// these checks now guard that one, plus the law-3 sweeps that were never
+// motif-specific to begin with.
 import { test, expect, type Page } from "@playwright/test";
 
 /** The engine's own record of which words in the passage on screen are its
@@ -44,39 +47,23 @@ test("renders the real passage, decorative motifs never become tap targets", asy
   const classNames = await words.evaluateAll((els) => [...new Set(els.map((el) => el.className))]);
   expect(classNames).toEqual(["passage-word"]);
 
-  // The doodle motifs are marked aria-hidden and are not focusable or
-  // clickable -- a drawn register must not add a fourth interaction to a
+  // The doodle motif is marked aria-hidden and is not focusable or
+  // clickable -- a drawn register must not add a second interaction to a
   // screen law 3 says has exactly one kind of target. And -- the
-  // containment half, not just the interaction half -- none of them is
-  // ever inside .passage-text: a mark's *position* connecting to a
-  // particular word is exactly what law 3 forbids, independent of whether
-  // the mark is itself tappable. A verifier mutation test caught this gap
-  // for BreakChain specifically (moved it inside .passage-text, all tests
-  // still passed) -- DoodleArrow already had this assertion on its own
-  // (below); MarginMark and BreakChain did not, until now.
-  for (const selector of [".margin-mark", ".break-chain", ".doodle-arrow"]) {
+  // containment half, not just the interaction half -- it is never inside
+  // .passage-text: a mark's *position* connecting to a particular word is
+  // exactly what law 3 forbids, independent of whether the mark is itself
+  // tappable. A verifier mutation test once caught this gap for the
+  // (since-removed) break chain specifically, moved inside .passage-text
+  // with all tests still passing -- this assertion is why that class of
+  // gap cannot recur for whatever drawn motif remains.
+  for (const selector of [".doodle-arrow"]) {
     const nodes = page.locator(selector);
     await expect(nodes.first()).toHaveAttribute("aria-hidden", "true");
     const tabIndex = await nodes.first().evaluate((el) => el.getAttribute("tabindex"));
     expect(tabIndex).toBeNull();
     expect(await page.locator(`.passage-text ${selector}`).count()).toBe(0);
   }
-});
-
-// The dropped tooth is chosen once and fixed, not randomised per render
-// (DERIVATION-001) -- two independent loads must draw the identical number
-// of chain links.
-test("the break chain's dropped tooth is stable across reloads, not randomised", async ({ page }) => {
-  await page.goto("/");
-  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
-  const first = await page.locator(".break-chain-link").count();
-  expect(first).toBeGreaterThan(0);
-
-  await page.reload();
-  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
-  const second = await page.locator(".break-chain-link").count();
-
-  expect(first).toBe(second);
 });
 
 // The nav-icon boundary from Kihea's own direction (2026-07-27): a drawn
@@ -294,8 +281,8 @@ test("the held sentence's new-word count is the only number facing the reader", 
   expect(violations, "a number faced the reader outside the one sanctioned exception").toEqual([]);
 });
 
-// The seam audit (ADVISORY-008 §5 item 4): none of the three drawn motifs
-// may itself be an animation running behind the text, in either colour
+// The seam audit (ADVISORY-008 §5 item 4): the drawn motif that remains may
+// not itself be an animation running behind the text, in either colour
 // scheme. Printed still, per DERIVATION-001's own shape rule.
 for (const scheme of ["dark", "light"] as const) {
   test(`the doodle motifs are printed still, not animating: ${scheme}`, async ({ page }) => {
@@ -304,7 +291,7 @@ for (const scheme of ["dark", "light"] as const) {
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
     await page.waitForTimeout(600);
 
-    for (const selector of [".margin-mark-stroke", ".break-chain-link", ".doodle-arrow-stroke"]) {
+    for (const selector of [".doodle-arrow-stroke"]) {
       const animationName = await page
         .locator(selector)
         .first()

@@ -121,17 +121,14 @@
 }
 
 /* The register decision, receipted 2026-07-27 (workspace/decisions/
-   README.md): Kihea chose "a little of his own hand" -- these are the
-   values his choice picked, item 7's `drawn` candidate, now the only
-   values that exist. Root-scoped (read by MarginMark.css, BreakChain.css,
-   DoodleArrow.css) because the pull-up button carrying DoodleArrow is
-   portalled to document.body (see the portal comment in PassagePage.tsx),
-   outside `.reading-screen`'s own DOM subtree -- a class-scoped variable
-   would never reach it. */
+   README.md): Kihea chose "a little of his own hand" -- this is the one
+   surviving value from that choice, DoodleArrow's stroke weight (issue
+   #111 removed the margin mark and break chain; see PassagePage.tsx and
+   ReadingScreen.tsx). Root-scoped because the pull-up button carrying
+   DoodleArrow is portalled to document.body (see the portal comment in
+   PassagePage.tsx), outside `.reading-screen`'s own DOM subtree -- a
+   class-scoped variable would never reach it. */
 :root {
-  --margin-mark-opacity: 0.16;
-  --break-chain-opacity: 0.4;
-  --break-chain-height: 22px;
   --doodle-arrow-weight: 4;
 }
 
