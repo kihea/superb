@@ -21,7 +21,7 @@
     "pretest:unit": "npm run build-wasm",
     "test:unit": "vitest run",
     "test:e2e": "playwright test",
-    "test": "npm run typecheck && npm run lint && npm run test:unit && npm run build && npm run test:e2e",
+    "test": "npm run typecheck && npm run lint && npm run test:unit && npm run test:e2e",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -16,7 +16,7 @@ and is distributed under the repository's code licence.
 The original export included two byte-identical 2,527,364-byte PNGs,
 `ChatGPT Image Jul 30, 2026, 12_57_20 AM.png` and `hero-scene.png`, both with Git
 blob ID `0f4acba218c6f3f1302602999e930d28acd02858`. They were unused at runtime and
-were removed in PR #108. The encoded scene data above is the only derived visual
+were removed in PR #109. The encoded scene data above is the only derived visual
 asset that remains in the published tree.
 
 ## Network-loaded dependencies

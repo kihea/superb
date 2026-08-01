@@ -22,6 +22,9 @@ SITE = ROOT / "apps" / "site"
 ARTIFACT = SITE / "release-artifact"
 SITE_DIST = SITE / "dist"
 WASM_BINDGEN_VERSION = "0.2.126"
+CARGO_DENY_VERSION = "0.20.2"
+PLAYWRIGHT_INSTALL_FLAGS = ("--with-deps", "chromium") if sys.platform.startswith("linux") else ("chromium",)
+NLTK_DOWNLOAD = "import nltk; raise SystemExit(0 if nltk.download('punkt_tab', quiet=True) else 1)"
 
 
 @dataclass(frozen=True)
@@ -53,6 +56,11 @@ STEPS: tuple[Step, ...] = (
         (sys.executable, "data/pipeline/tests/test_ci_contract.py"),
     ),
     Step(
+        f'python -c "{NLTK_DOWNLOAD}"',
+        (sys.executable, "-c", NLTK_DOWNLOAD),
+        install=True,
+    ),
+    Step(
         "python data/pipeline/tests/run_all.py",
         (sys.executable, "data/pipeline/tests/run_all.py"),
     ),
@@ -60,6 +68,15 @@ STEPS: tuple[Step, ...] = (
     Step(
         "cargo clippy --all-targets --all-features --locked -- -D warnings",
         ("cargo", "clippy", "--all-targets", "--all-features", "--locked", "--", "-D", "warnings"),
+    ),
+    Step(
+        f"cargo install cargo-deny --locked --version {CARGO_DENY_VERSION}",
+        ("cargo", "install", "cargo-deny", "--locked", "--version", CARGO_DENY_VERSION),
+        install=True,
+    ),
+    Step(
+        "cargo deny --locked check licenses bans sources",
+        ("cargo", "deny", "--locked", "check", "licenses", "bans", "sources"),
     ),
     Step(
         "cargo test -p superb-core -p superb-wasm --all-features --locked",
@@ -80,7 +97,12 @@ STEPS: tuple[Step, ...] = (
     Step("npm run lint", ("npm", "run", "lint"), WEB),
     Step("npm run ci:test:unit", ("npm", "run", "ci:test:unit"), WEB),
     Step("npm run ci:build", ("npm", "run", "ci:build"), WEB),
-    Step("npx playwright install chromium", ("npx", "playwright", "install", "chromium"), WEB, install=True),
+    Step(
+        f"npx playwright install {' '.join(PLAYWRIGHT_INSTALL_FLAGS)}",
+        ("npx", "playwright", "install", *PLAYWRIGHT_INSTALL_FLAGS),
+        WEB,
+        install=True,
+    ),
     Step(
         "npm run test:e2e",
         ("npm", "run", "test:e2e"),
@@ -88,7 +110,12 @@ STEPS: tuple[Step, ...] = (
         {"PLAYWRIGHT_USE_EXISTING_BUILD": "1", "PLAYWRIGHT_PORT": "4437", "CI": "1"},
     ),
     Step("npm ci", ("npm", "ci"), SITE, install=True),
-    Step("npx playwright install chromium", ("npx", "playwright", "install", "chromium"), SITE, install=True),
+    Step(
+        f"npx playwright install {' '.join(PLAYWRIGHT_INSTALL_FLAGS)}",
+        ("npx", "playwright", "install", *PLAYWRIGHT_INSTALL_FLAGS),
+        SITE,
+        install=True,
+    ),
     Step("npm run assemble", ("npm", "run", "assemble"), SITE),
 )
 
@@ -117,7 +144,7 @@ def ensure_wasm_bindgen(skip_install: bool) -> None:
             capture_output=True,
             text=True,
         )
-        if result.stdout.strip().endswith(WASM_BINDGEN_VERSION):
+        if result.stdout.strip() == f"wasm-bindgen {WASM_BINDGEN_VERSION}":
             print(f"\n=== wasm-bindgen {WASM_BINDGEN_VERSION} already installed ===", flush=True)
             return
     if skip_install:
@@ -129,6 +156,22 @@ def ensure_wasm_bindgen(skip_install: bool) -> None:
             install=True,
         )
     )
+
+
+def ensure_cargo_deny(skip_install: bool) -> None:
+    if not skip_install:
+        return
+    executable = shutil.which("cargo-deny")
+    if executable is None:
+        raise RuntimeError(f"cargo-deny {CARGO_DENY_VERSION} is required when --skip-install is used")
+    result = subprocess.run(
+        [executable, "--version"],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    if result.stdout.strip() != f"cargo-deny {CARGO_DENY_VERSION}":
+        raise RuntimeError(f"cargo-deny {CARGO_DENY_VERSION} is required when --skip-install is used")
 
 
 def run_web_pwa_checks() -> None:
@@ -207,7 +250,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--skip-install",
         action="store_true",
-        help="skip dependency/tool installation steps; fail if the pinned wasm-bindgen is absent",
+        help="skip dependency/tool installation steps; fail unless pinned wasm-bindgen and cargo-deny are available",
     )
     return parser.parse_args()
 
@@ -228,6 +271,7 @@ def main() -> int:
         return 0
 
     ensure_wasm_bindgen(args.skip_install)
+    ensure_cargo_deny(args.skip_install)
     pwa_checked = False
     for step in STEPS:
         if step.cwd == SITE and not pwa_checked:

@@ -19,6 +19,8 @@ REQUIRED = {
     "test_excerpts.py",
     "test_excerpts_windowing.py",
     "test_glosses.py",
+    "test_ci_contract_mutations.py",
+    "test_repository_hygiene.py",
 }
 
 

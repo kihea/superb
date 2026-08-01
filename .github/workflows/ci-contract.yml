@@ -10,6 +10,7 @@ on:
         ".github/workflows/core.yml",
         ".github/workflows/data-license.yml",
         ".github/workflows/deep-assurance.yml",
+        ".github/workflows/docs.yml",
         ".github/workflows/site.yml",
         ".github/workflows/web.yml",
         "apps/site/package.json",
@@ -17,6 +18,8 @@ on:
         "apps/web/playwright.config.ts",
         "data/pipeline/tests/run_all.py",
         "data/pipeline/tests/test_ci_contract.py",
+        "data/pipeline/tests/test_ci_contract_mutations.py",
+        "data/pipeline/tests/test_repository_hygiene.py",
         "scripts/release.py",
       ]
   # This is the required branch-protection check. It must report on every pull
@@ -30,9 +33,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  check:
-    name: workflow commands and ownership
+  enforce:
+    name: execute workflow contract
     runs-on: ubuntu-latest
+    outputs:
+      verified: ${{ steps.contract.outputs.verified }}
     steps:
       - uses: actions/checkout@v4
 
@@ -40,5 +45,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Prove every release command has an owner
-        run: python data/pipeline/tests/test_ci_contract.py
+      - id: contract
+        name: Prove every release command has an owner
+        run: |
+          python -B data/pipeline/tests/test_ci_contract.py
+          python -B data/pipeline/tests/test_ci_contract_mutations.py
+          echo "verified=true" >> "$GITHUB_OUTPUT"
+
+  check:
+    name: workflow commands and ownership
+    needs: enforce
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require the contract job and both guards to succeed
+        env:
+          CONTRACT_RESULT: ${{ needs.enforce.result }}
+          CONTRACT_VERIFIED: ${{ needs.enforce.outputs.verified }}
+        run: |
+          test "$CONTRACT_RESULT" = success
+          test "$CONTRACT_VERIFIED" = true
