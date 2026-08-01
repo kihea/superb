@@ -168,15 +168,30 @@ export function Settings() {
 
       {/* ADR-008: word meanings are rewritten from Wiktionary, which carries
          a share-alike obligation -- the attribution has to reach a reader
-         somewhere, and this is the room for it (data/NOTICE.md's own
-         "About screen (a shell concern, not this track's)"). Not yet a
-         full credits list per book -- Slice 1A ships one book, and its own
-         page already names its publisher and licence. */}
+         somewhere, and this is the room for it (data/NOTICE.md:50-55's own
+         "the app's About screen ... must credit Wiktionary specifically
+         wherever a gloss is shown"). CC BY-SA 4.0's own attribution
+         requirements are source, licence, and a note that the work was
+         modified -- all three below, each linked rather than named only.
+         GFDL is Wiktionary's other permitted licence, but this build does
+         not carry GFDL's own licence text anywhere, and offering a choice
+         without the terms of one option is weaker than not offering it --
+         so only CC BY-SA is named here. Not yet a full credits list per
+         book -- Slice 1A ships one book, and its own page already names
+         its publisher and licence. */}
       <section className="settings-group">
         <span className="sb-eyebrow">About</span>
         <p className="sb-caption">
-          Word meanings include text from Wiktionary contributors, used under Creative Commons
-          Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
+          Word meanings include text from{" "}
+          <a href="https://www.wiktionary.org/" target="_blank" rel="noreferrer">
+            Wiktionary
+          </a>{" "}
+          contributors, used under{" "}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">
+            Creative Commons Attribution-ShareAlike 4.0
+          </a>
+          . Definitions have been modified: narrowed to one book's own words, and mechanically
+          reformatted for capitalization and closing punctuation.
         </p>
       </section>
     </Screen>
