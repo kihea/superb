@@ -462,21 +462,21 @@ async function auraSnapshot(page: Page): Promise<AuraSnapshot> {
  *  exists to close. The region is a fixed patch of screen; the question is
  *  whether what is painted in it changes.
  *
- *  One exclusion: `.reading-top`, the row carrying the Shelf link and the
- *  voice orb. Kihea decided on issue #99 that the orb may turn quietly the
- *  whole time a passage is on screen -- the one thing on this screen
- *  licensed to move, which is exactly what this photograph exists to catch
- *  everywhere else. Painting over just the orb's own box was tried first
- *  and rejected (see auraPixels' comment on `mask`); shrinking the
- *  photographed region below the whole top row is the smallest change that
- *  avoids it, at the cost of also giving up coverage of the Shelf link and
- *  the rest of the row. That trade needed its own guard rather than a
- *  comment claiming one existed that didn't (a review caught the claim,
- *  not the gap it was covering for) -- see "nothing in the reading page's
- *  top row moves except the orb itself", below, which watches everything
- *  in `.reading-top` other than the orb for a running animation directly.
- *  Everything below the row -- the room, the margin mark, the passage, the
- *  pull-up bar -- is still photographed whole here, nothing painted over. */
+ *  One exclusion: `.reading-top`. This used to carry a Shelf link and a
+ *  voice orb Kihea licensed to turn quietly the whole time a passage is on
+ *  screen (issue #99) -- the one thing on this screen allowed to move,
+ *  which is exactly what this photograph exists to catch everywhere else.
+ *  Painting over just the orb's own box was tried first and rejected (see
+ *  auraPixels' comment on `mask`); shrinking the photographed region below
+ *  the whole top row was the smallest change that avoided it. The orb is
+ *  gone now (the truthful-alpha checkpoint, PLAN.md §7, removed it outright
+ *  -- see reading.spec.ts's own "nothing in the reading page's top row
+ *  moves"), so this exclusion has nothing left to license; it stays because
+ *  narrowing the photographed region back to include the row is a real
+ *  change to this test's own geometry math and not something to do as a
+ *  side effect of an unrelated slice. Everything below the row -- the room,
+ *  the margin mark, the passage, the pull-up bar -- is still photographed
+ *  whole here, nothing painted over. */
 async function auraRegion(page: Page): Promise<{ x: number; y: number; width: number; height: number }> {
   const box = await page.locator(".reading-screen-aura").boundingBox();
   if (!box) throw new Error("the aura has no box to photograph");
@@ -775,31 +775,30 @@ test.describe(() => {
 
 // PR-104 review, Finding 4: auraRegion's own comment (above) used to claim
 // the row it excludes was "checked elsewhere" -- a grep of the suite found
-// no such check. This is that check, written rather than merely promised:
-// everything in `.reading-top` other than the orb (licensed to move by
-// issue #99) must carry no running animation. `document.getAnimations()` is
-// the seam test's own "layer 2" -- it sees a CSS animation or a scripted
-// Element.animate() wherever one runs, and would see the orb too if its
-// motion were ever reimplemented that way instead of the canvas loop it
-// uses today (which this method cannot see at all, by construction --
-// voice-orb-motion.spec.ts is what actually watches the orb itself).
-test("nothing in the reading page's top row moves except the orb itself", async ({ page }) => {
+// no such check. This is that check, written rather than merely promised.
+//
+// The row used to carry a voice orb licensed to move (issue #99) alongside
+// the Shelf link, so this test excluded the orb by name. The truthful-alpha
+// checkpoint (PLAN.md §7) removed that orb outright -- it entered fake
+// "listening"/"speaking" states with no audio behind them -- so `.reading-top`
+// today holds only a static "Library" link, and this test's claim is now the
+// plain one: nothing in the row runs any animation at all, no exception.
+// `document.getAnimations()` is the seam test's own "layer 2" -- it sees a
+// CSS animation or a scripted Element.animate() wherever one runs.
+test("nothing in the reading page's top row moves", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   await page.waitForTimeout(600);
 
-  const runningOutsideOrb = await page.evaluate(() => {
+  const running = await page.evaluate(() => {
     const row = document.querySelector(".reading-top");
     if (!row) return ["no .reading-top found"];
     return document
       .getAnimations()
       .filter((animation) => animation.playState === "running")
       .map((animation) => (animation.effect as KeyframeEffect | null)?.target)
-      .filter(
-        (target): target is Element =>
-          !!target && row.contains(target) && !target.closest(".voice-orb-button"),
-      )
+      .filter((target): target is Element => !!target && row.contains(target))
       .map((target) => `${target.tagName}.${target.className}`);
   });
-  expect(runningOutsideOrb, "something in the top row is animating besides the licensed orb").toEqual([]);
+  expect(running, "something in the top row is animating").toEqual([]);
 });

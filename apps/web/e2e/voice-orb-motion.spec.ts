@@ -4,8 +4,16 @@
 // reading-state seam while `still` and the switch is on. This closes that
 // gap directly, and does it through the real stored preference (I-1's fix)
 // rather than by flipping the switch mid-session -- a fresh tab, straight to
-// "/", with "off" already in storage, which is exactly the scenario I-1
+// Settings, with "off" already in storage, which is exactly the scenario I-1
 // broke and this now stands as the regression guard for.
+//
+// Truthful-alpha checkpoint (PLAN.md §7) moved this orb: it used to sit on
+// the reading page as a control that entered fake "listening"/"speaking"
+// states with no audio behind them, which the checkpoint removed outright.
+// The same `VoiceOrb`, in the same default `still` state issue #99 licensed
+// to turn, now lives only in Settings' real voice-preview row -- so these
+// tests visit `/settings` rather than `/`, and everything below them is
+// otherwise unchanged: same component, same motion contract.
 import { test, expect } from "@playwright/test";
 
 test("the voice orb is frozen when the motion switch is off, from the very first frame", async ({ page }) => {
@@ -15,8 +23,7 @@ test("the voice orb is frozen when the motion switch is off, from the very first
   await page.addInitScript(() => {
     window.localStorage.setItem("superb.motion", "off");
   });
-  await page.goto("/");
-  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+  await page.goto("/settings");
 
   // The boot restore itself (I-1): the attribute must already read "off" by
   // the time the page has settled, not merely once Settings happens to be
@@ -44,8 +51,7 @@ test("the voice orb is frozen when the motion switch is off, from the very first
 // animating, then the preference flips live and the orb is caught frozen
 // on the very next sample -- the same page, the same mount.
 test("the orb hears a live change in prefers-reduced-motion without a reload", async ({ page }) => {
-  await page.goto("/");
-  await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+  await page.goto("/settings");
 
   const orb = page.locator(".voice-orb-button .voice-orb");
   await expect(orb).toBeVisible();

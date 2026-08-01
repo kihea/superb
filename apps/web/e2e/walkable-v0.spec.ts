@@ -131,39 +131,69 @@ test.describe("the walk", () => {
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   });
 
-  test("reading leads to the Shelf, and the Shelf to every other room", async ({ page }) => {
+  // Truthful-alpha checkpoint (PLAN.md §7): the real journey is reading and
+  // one book. Shelf, Rhyme, Association, Elevated, Voice and Sign in are all
+  // still v0mock-backed and came out of production navigation (routes.ts's
+  // own `productionNav: false`) -- this walk covers what a stranger can
+  // actually click through now, not the larger route map ROUTES still lists.
+  test("reading leads to Library, and Library to a book and to Settings", async ({ page }) => {
     await page.goto("/");
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
-    await page.getByRole("link", { name: "Shelf" }).click();
-    await expect(page).toHaveURL(/\/shelf$/);
+    await page.getByRole("link", { name: "Library" }).click();
+    await expect(page).toHaveURL(/\/library$/);
 
-    for (const [label, url] of [
-      ["Library", /\/library$/],
-      ["Rhyme", /\/rhyme$/],
-      ["Assoc.", /\/association$/],
-      ["Elevated", /\/elevated$/],
-    ] as const) {
-      await page.goto("/shelf");
-      await page.getByRole("link", { name: label }).click();
-      await expect(page).toHaveURL(url);
-    }
-
-    // Settings, and the two screens only reachable through it.
-    await page.goto("/shelf");
     await page.getByRole("navigation", { name: "Rooms" }).getByRole("link", { name: "Settings" }).click();
     await expect(page).toHaveURL(/\/settings$/);
-    await page.getByRole("link", { name: /Voice/ }).click();
-    await expect(page).toHaveURL(/\/voice$/);
+    await page.getByRole("link", { name: "Reading" }).click();
+    await expect(page).toHaveURL(/\/$/);
 
-    await page.goto("/settings");
-    await page.getByRole("link", { name: /Account/ }).click();
-    await expect(page).toHaveURL(/\/sign-in$/);
+    // Library -> a real book -> its own chapter. book-reading-spine.spec.ts
+    // covers this path in full depth (gloss, encounter, resume, offline);
+    // this walk only needs reachability.
+    await page.goto("/library");
+    await page.getByRole("button", { name: /Dracula/ }).first().click();
+    await expect(page).toHaveURL(/\/book\/bram-stoker_dracula$/);
+    await page.getByRole("button", { name: "Begin" }).click();
+    await expect(page).toHaveURL(/\/book\/bram-stoker_dracula\/read$/);
   });
 
-  // The clause is reachability, and a route map is not a walk: screen 14
-  // was in ROUTES, rendered fine, passed its dark check, and no reader
-  // could get to it. This walks the only way in that frame 1v allows.
-  test("holding a sentence is the way to screen 14, and the only way", async ({ page }) => {
+  // The inverse of the walk above, made mechanical: every link and button
+  // reachable from the real journey's own screens must point only at other
+  // production-reachable places, never at a route routes.ts marks
+  // `productionNav: false`. This is PLAN.md §7's own acceptance test --
+  // "an acceptance test inventories production navigation and fails if a
+  // mock/no-op route or control becomes reachable" -- read literally: it
+  // reads the DOM's own hrefs rather than repeating the walk's hand-picked
+  // clicks, so a link added anywhere in the real journey has to pass this
+  // even if no test ever thinks to click it.
+  test("production navigation never reaches a route marked productionNav: false", async ({ page }) => {
+    const hiddenPaths = new Set(ROUTES.filter((r) => r.productionNav === false).map((r) => r.path));
+    const realScreens = ["/", "/library", "/book/bram-stoker_dracula", "/book/bram-stoker_dracula/read", "/settings"];
+
+    const found: string[] = [];
+    for (const path of realScreens) {
+      await page.goto(path);
+      if (path === "/") await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
+      const hrefs = await page
+        .locator("a[href]")
+        .evaluateAll((els) => els.map((el) => el.getAttribute("href") ?? ""));
+      for (const href of hrefs) {
+        // Same-origin relative paths only -- an external citation link
+        // (BookCover's provenance link, standardebooks.org) is not part of
+        // this app's own route map and is not what this test is about.
+        if (!href.startsWith("/")) continue;
+        if (hiddenPaths.has(href)) found.push(`${path} links to ${href}`);
+      }
+    }
+    expect(found, "a hidden route is linked from real production navigation").toEqual([]);
+  });
+
+  // Screen 14 (/share) used to be reachable through the hold menu's "Send to
+  // someone" item -- removed for the truthful-alpha checkpoint (PLAN.md §7):
+  // that screen showed an invented sentence regardless of what was actually
+  // held. This walks what the hold gesture still does (Keep, Hear) and
+  // confirms nothing on the reading page reaches /share any more.
+  test("holding a sentence offers Keep and Hear, and nothing reaches /share", async ({ page }) => {
     await page.goto("/");
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
@@ -184,16 +214,26 @@ test.describe("the walk", () => {
     // A hold is not a tap: the word under the finger must not have opened.
     await expect(page.locator(".gloss-card")).toHaveCount(0);
 
-    await menu.getByRole("menuitem", { name: "Send to someone" }).click();
-    await expect(page).toHaveURL(/\/share$/);
-    await expect(page.locator(".share-card")).toBeVisible();
+    await expect(menu.getByRole("menuitem")).toHaveCount(2);
+    await expect(menu.getByRole("menuitem", { name: "Keep the words" })).toBeVisible();
+    await expect(menu.getByRole("menuitem", { name: "Hear it" })).toBeVisible();
+    await expect(menu.getByRole("menuitem", { name: "Send to someone" })).toHaveCount(0);
+
+    await menu.getByRole("menuitem", { name: "Keep the words" }).click();
+    await expect(menu).toHaveCount(0);
   });
 
-  test("no screen in the route map is reachable only by typing its address", async ({ page }) => {
-    // Every route except the two doors a reader arrives through (`/`, and
-    // `/welcome` on a first open) must be linked to from somewhere. This
-    // is the cheap general form of the check above -- it does not prove a
-    // path is walkable, but it does catch a screen nobody links to at all.
+  test("no production-reachable screen is linked only by accident of being visited directly", async ({
+    page,
+  }) => {
+    // Every production-reachable route except `/` (the door a reader
+    // arrives through) must be linked to from somewhere in the app,
+    // including from a screen routes.ts marks `productionNav: false` --
+    // this only catches an accidental orphan among the real journey, not
+    // whether a *hidden* route is linked (that would defeat the point;
+    // the inventory test above already checks the thing that actually
+    // matters, which is that hidden routes are never linked *from the real
+    // journey*).
     const linked = new Set<string>();
     for (const route of ROUTES) {
       await page.goto(route.example ?? route.path);
@@ -202,18 +242,14 @@ test.describe("the walk", () => {
       )) {
         linked.add(href);
       }
-      // Controls that navigate without being links -- the hold menu's Send,
-      // the Shelf's covers -- are covered by the walks above; this sweep
-      // only reads anchors.
     }
 
-    const orphans = ROUTES.filter((route) => route.path !== "/" && route.path !== "/welcome")
+    const orphans = ROUTES.filter((route) => route.productionNav !== false)
+      .filter((route) => route.path !== "/")
       .filter((route) => !route.path.includes(":"))
       .filter((route) => ![...linked].some((href) => href === route.path))
       .map((route) => route.path);
-    // `/share` is deliberately absent from every anchor in the app: frame
-    // 1v says nothing advertises it. The walk above is what covers it.
-    expect(orphans).toEqual(["/share"]);
+    expect(orphans).toEqual([]);
   });
 
   test("the library reaches a book, and a book reaches its own pages", async ({ page }) => {

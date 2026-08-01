@@ -4,6 +4,18 @@
 //
 // `screen` is Kihea's own numbering from the design canvas; `frame` is the
 // iteration each route was built from.
+//
+// Truthful-alpha checkpoint (PLAN.md §7): `productionNav` marks whether a
+// route is meant to be reachable by clicking anything a real deployment
+// shows. `false` does not mean the route is deleted -- App.tsx still routes
+// it, and the code behind it still exists and still gets the same phone-
+// width/dark-mode/no-pedagogy sweep everything else does (walkable-v0.spec.ts
+// does not read this field). It means production navigation must not
+// contain a link to it: the route is still v0mock-backed (Shelf, Rhyme,
+// Association, Elevated, Voice, Sign in), still shows an invented sentence
+// regardless of context (Share), or is a first-run choice that does not yet
+// do anything (First open's three identical mood buttons). Each comes back
+// once the phase that makes it real lands.
 export interface RouteEntry {
   path: string;
   /** What the screen is, in the words a reader would use. */
@@ -12,12 +24,16 @@ export interface RouteEntry {
   frame: string;
   /** A concrete path for the smoke test, where `path` has a parameter. */
   example?: string;
+  /** Reachable from production navigation. Defaults to true; only listed
+   *  explicitly where it is false, so a new route is production-reachable
+   *  by default and has to opt out on purpose. */
+  productionNav?: false;
 }
 
 export const ROUTES: RouteEntry[] = [
   { path: "/", name: "Reading", screen: 1, frame: "3a (wide: 3c)" },
-  { path: "/welcome", name: "First open", screen: 11, frame: "1s" },
-  { path: "/shelf", name: "Shelf", screen: 3, frame: "1h" },
+  { path: "/welcome", name: "First open", screen: 11, frame: "1s", productionNav: false },
+  { path: "/shelf", name: "Shelf", screen: 3, frame: "1h", productionNav: false },
   { path: "/library", name: "Finding a book", screen: 4, frame: "2g" },
   {
     path: "/book/:id",
@@ -36,13 +52,19 @@ export const ROUTES: RouteEntry[] = [
     frame: "1e",
     example: "/book/bram-stoker_dracula/read",
   },
-  { path: "/voice", name: "The better voice", screen: 7, frame: "2c (orb itself: 2b)" },
-  { path: "/rhyme", name: "Rhyme", screen: 8, frame: "2d" },
-  { path: "/association", name: "Association", screen: 9, frame: "3d" },
-  { path: "/elevated", name: "Elevated passages", screen: 10, frame: "1r" },
-  { path: "/sign-in", name: "Sign in", screen: 12, frame: "3b" },
+  {
+    path: "/voice",
+    name: "The better voice",
+    screen: 7,
+    frame: "2c (orb itself: 2b)",
+    productionNav: false,
+  },
+  { path: "/rhyme", name: "Rhyme", screen: 8, frame: "2d", productionNav: false },
+  { path: "/association", name: "Association", screen: 9, frame: "3d", productionNav: false },
+  { path: "/elevated", name: "Elevated passages", screen: 10, frame: "1r", productionNav: false },
+  { path: "/sign-in", name: "Sign in", screen: 12, frame: "3b", productionNav: false },
   { path: "/settings", name: "Settings", screen: 13, frame: "1u" },
-  { path: "/share", name: "Passing a passage on", screen: 14, frame: "2k" },
+  { path: "/share", name: "Passing a passage on", screen: 14, frame: "2k", productionNav: false },
 ];
 
 // Screen 2 -- the gloss card -- is not a route. It is what a tapped word
