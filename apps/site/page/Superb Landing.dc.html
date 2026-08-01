@@ -28,6 +28,22 @@ a:hover{color:var(--brand)}
 @keyframes reveal{from{width:0}}
 @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important}}
+/* Issue #93: the header nav's five links, set nowrap with no width
+   constraint, ran off the right edge on a phone -- a flex item's default
+   min-width is auto, and nowrap text makes that auto equal to the whole
+   unbroken line, so the nav never shrank to the space actually available
+   no matter how narrow the viewport got. min-width:0 lets it shrink;
+   overflow-x:auto (same pattern the reading app's own library-moods row
+   already uses) keeps every link reachable by a scroll instead of cutting
+   any of them off. Nothing removed, nothing restyled -- only the sizing
+   that was missing for this to fit at all. */
+/* !important on margin-left is load-bearing: the element's own inline
+   style="margin-left:auto" (used to push the nav to the header's right
+   edge) always wins over a plain selector rule regardless of specificity,
+   and flex:1 1 0% below already does that same job through flex-grow, so
+   the auto margin has nothing left to do once this rule applies. */
+header nav{flex:1 1 0%;min-width:0;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-left:0 !important;justify-content:flex-end}
+header nav::-webkit-scrollbar{display:none}
 </style>
 </helmet>
 <div data-theme="oxblood-dark" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; background:#140D09; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
