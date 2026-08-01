@@ -3,4 +3,13 @@
 # there is no /shelf file to serve. Cloudflare Pages reads this file from
 # the build output; the 200 is what makes it a rewrite rather than a
 # redirect, so the address bar still says /shelf.
-/*    /index.html   200
+#
+# Issue #124: the destination is "/" (a directory), not "/index.html" (a
+# file) -- confirmed live, with a three-file marker deployment against the
+# real Cloudflare Pages project, that a 200-rewrite naming a file is
+# silently ignored and falls through to the platform's own automatic SPA
+# fallback instead. This file was never the one actually deployed (the
+# assembled artifact's own root _redirects, apps/site/scripts/assemble.mjs,
+# is -- and had the exact same bug, fixed there first), but it carried the
+# identical broken pattern for whenever apps/web ships standalone.
+/*    /   200

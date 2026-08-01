@@ -63,10 +63,21 @@ function main() {
   // every /read/ route is the app's one document (a 200 rewrite, so the
   // address bar keeps the deep path). The landing's own files are real and
   // need no rule.
+  //
+  // Issue #124: the destination MUST be the directory path (`/read/`), not
+  // the file (`/read/index.html`) -- confirmed live, on Cloudflare Pages
+  // itself, with a three-file marker deployment: Pages silently ignores a
+  // 200-rewrite whose destination names an .html file and falls through to
+  // its own automatic SPA fallback (the root index.html, the marketing
+  // landing, which is exactly the wrong document a deep /read/* link
+  // landed on). A destination ending in `/` is the form Pages actually
+  // honours. `check-assembled.mjs`'s own local emulation of this file is
+  // written to fail the same way live Cloudflare does if this destination
+  // ever regresses back to the file form -- see that script's own comment.
   rmSync(path.join(target, '_redirects'), { force: true });
   writeFileSync(
     path.join(SITE_DIST, '_redirects'),
-    `${APP_BASE}*    ${APP_BASE}index.html    200
+    `${APP_BASE}*    ${APP_BASE}    200
 `,
   );
 

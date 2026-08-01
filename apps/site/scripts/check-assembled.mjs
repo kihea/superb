@@ -36,6 +36,22 @@
 // rule Cloudflare's own docs describe, so the deep-route checks below are
 // exercising the artifact's own routing contract rather than this script's
 // prior guess at what "should" work.
+//
+// Root-caused live, not guessed: a three-file marker deployment to the real
+// Cloudflare Pages project proved a 200-rewrite whose destination names an
+// .html *file* (`/read/index.html`, the form this artifact used to write)
+// is silently ignored -- Pages falls through to its own automatic SPA
+// fallback instead, which serves the *root* index.html (the marketing
+// landing) with a 200. A destination naming a *directory* (`/read/`) is the
+// form Pages actually honours. So this server's own emulation has to match
+// that exactly, not merely "apply whatever _redirects says": a rule whose
+// destination is not directory-form is treated as not applying at all, and
+// the fallback for that case is the *root* document, in both cases with a
+// 200 -- the same wrong-but-not-broken-looking response the live bug
+// produced, which is what actually let it ship unnoticed. A check that
+// only distinguished 200 from 404 could not have caught this; the deep-
+// route tests below check *which* document arrived, not just whether one
+// did.
 
 import { createServer } from 'node:http';
 import { readFileSync, existsSync } from 'node:fs';
@@ -78,6 +94,11 @@ function parseRedirects(text) {
     });
 }
 
+/** Only a *matching* rule whose destination Cloudflare Pages actually
+ *  honours (directory-form, ending in "/") is usable -- everything else
+ *  (no rule matched, or one matched but names an .html file) gets `null`,
+ *  which the caller below turns into the same automatic-SPA-fallback
+ *  response Pages itself falls back to. */
 function matchRedirect(rules, pathname) {
   for (const rule of rules) {
     if (rule.source.endsWith('/*')) {
@@ -93,6 +114,23 @@ function matchRedirect(rules, pathname) {
 const redirectRules = parseRedirects(readFileSync(REDIRECTS_PATH, 'utf-8'));
 if (redirectRules.length === 0) {
   console.error('check-assembled: dist/_redirects parsed to zero rules -- the file exists but says nothing.');
+  process.exit(1);
+}
+
+// The explicit, named guard issue #124 asks for at minimum: every 200-
+// rewrite rule's destination must be directory-form, or this fails loudly
+// here rather than only showing up as a deep-route test failure further
+// down (a much less specific symptom to debug from).
+const fileFormRewrites = redirectRules.filter(
+  (rule) => rule.status === 200 && !rule.destination.endsWith('/'),
+);
+if (fileFormRewrites.length > 0) {
+  console.error(
+    'check-assembled: dist/_redirects has a 200-rewrite destination that names a file, not a ' +
+      'directory -- Cloudflare Pages silently ignores this and falls back to serving the root ' +
+      'landing page instead (issue #124, root-caused live): ' +
+      fileFormRewrites.map((r) => `"${r.source} ${r.destination} ${r.status}"`).join(', '),
+  );
   process.exit(1);
 }
 
@@ -118,9 +156,26 @@ const server = createServer((req, res) => {
   // `_redirects` only ever applies to a path with no matching asset.
   if (!existsSync(path.join(DIST, servedPath))) {
     const rule = matchRedirect(redirectRules, requested);
-    if (rule && rule.status === 200) servedPath = rule.destination;
+    if (rule && rule.status === 200) {
+      // Every 200-rewrite's destination is guaranteed directory-form by
+      // the guard above, so this always resolves the way Pages itself
+      // resolves it.
+      servedPath = `${rule.destination}index.html`;
+    } else {
+      // No rule matched -- Cloudflare Pages' own automatic SPA fallback
+      // for a project with no custom 404.html: the *root* document, with
+      // a 200, not a 404. Root-caused live (see this file's own header
+      // comment): this is exactly the response a made-up /read/* path
+      // got in production, which is why the deep-route checks below
+      // assert *which* document arrived rather than only its status.
+      servedPath = 'index.html';
+    }
   }
 
+  // Every branch above resolves to a path this script already confirmed
+  // exists (dist/index.html, dist/read/index.html, or a real asset on
+  // disk) -- this catch is a defensive net for a request shape none of
+  // that reasoning covers, not an expected path.
   try {
     const body = readFileSync(path.join(DIST, servedPath));
     res.writeHead(200, { 'content-type': TYPES[path.extname(servedPath)] ?? 'application/octet-stream' });
