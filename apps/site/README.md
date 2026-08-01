@@ -14,3 +14,13 @@ npm run build   # copies page/ into dist/, names the page index.html
 Static files, no framework, no dependencies. Deploys to
 `https://superb.works` (Cloudflare, Kihea's own setup — the publish
 workflow arrives with PR #94/#95's reconciliation).
+
+## Judge it at phone width first
+
+Issue #93: the header nav ran off the right edge on a phone and nobody
+caught it, because the previous review of this page took screenshots at
+desktop width only. Most opens of a landing page are on a phone. Look at
+`dist/index.html` narrow before wide — the reading app already treats phone
+width as the default rather than an afterthought (`e2e/walkable-v0.spec.ts`),
+and this page should get the same habit even though it has no equivalent
+automated sweep yet.
