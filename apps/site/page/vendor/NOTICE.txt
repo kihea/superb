@@ -1,0 +1,11 @@
+Vendored under issue #137: apps/site/page/support.js (the owner-supplied
+dc-runtime) loaded these three from unpkg.com at read time; every visit told
+unpkg the visitor's IP. Same pinned versions and bytes unpkg served --
+verified by sha384 against the SRI hashes already in support.js before
+vendoring, not assumed -- so support.js's own integrity check still holds.
+
+react.production.min.js       React 18.3.1, MIT License, (c) Meta Platforms, Inc.
+react-dom.production.min.js   ReactDOM 18.3.1, MIT License, (c) Meta Platforms, Inc.
+babel.min.js                  @babel/standalone 7.29.0, MIT License, (c) 2014-present Sebastian McKenzie and Babel contributors
+
+No GPL, commercial use permitted.

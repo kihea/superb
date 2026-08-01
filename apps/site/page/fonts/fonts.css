@@ -1,0 +1,38 @@
+/* Self-hosted, subset to Latin -- issue #137: the landing loaded these live
+   from fonts.googleapis.com/fonts.gstatic.com until now, which told Google
+   the visitor's IP on every page view (the same reasoning apps/web's own
+   ox-fonts.css already applies to the reading app; this file carries it to
+   the landing).
+
+   All three are SIL Open Font License 1.1, created by Vercel in
+   collaboration with Basement Studio (github.com/vercel/geist-font,
+   github.com/vercel/geist-pixel). Verified per family against Google
+   Fonts' own metadata ("license": "ofl") before vendoring, not assumed. No
+   GPL, commercial use permitted -- see LICENSE-OFL.txt beside these files.
+
+   Each is shipped as the one variable-weight file Google itself serves for
+   every static weight in this range (confirmed identical bytes across the
+   weight cuts requested below), rather than several static-weight copies. */
+@font-face {
+  font-family: "Geist";
+  src: url("geist-variable-latin.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("geist-mono-variable-latin.woff2") format("woff2");
+  font-weight: 300 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Pixel";
+  src: url("geist-pixel-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

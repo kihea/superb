@@ -31,12 +31,43 @@ import { APP_BASE } from './assemble.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
 const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
-const ALLOWED_LANDING_HOSTS = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
-// Hosts a landing file may *name* without ever loading from: the footer's
-// source link. Only the static text scan consults this; the runtime request
-// check below stays on ALLOWED_LANDING_HOSTS alone, so a script that actually
-// fetched from github.com would still fail the browser-side check.
-const ALLOWED_NAMED_HOSTS = new Set([...ALLOWED_LANDING_HOSTS, 'github.com']);
+// Issue #137: unpkg.com and the Google Fonts hosts are gone from this set --
+// React, ReactDOM, Babel standalone and every font the landing uses are
+// vendored into the artifact now (page/vendor/, page/fonts/), so the landing
+// makes no cross-origin request at all any more.
+const ALLOWED_LANDING_HOSTS = new Set();
+// Hosts a landing file may *name* without ever loading from. Only the static
+// text scan consults this; the runtime request check below stays on
+// ALLOWED_LANDING_HOSTS alone, so a script that actually fetched from any of
+// these would still fail the browser-side check. Each is named because it is
+// genuinely present in the assembled artifact, checked with this scan's own
+// regex against page/vendor/*.js after vendoring them (issue #137), not
+// copied from memory of what a CDN bundle "probably" contains:
+//   - github.com: the footer's source link, plus doc/licence links inside
+//     vendored babel.min.js's own error messages and header comment.
+//   - babeljs.io: doc links inside vendored babel.min.js's own compiler
+//     error messages -- read by a developer in devtools, never fetched.
+//   - foo.com: vendored babel.min.js's own `new URL(spec, "http://foo.com")`
+//     -- a dummy base used only to parse a relative import specifier with
+//     the URL constructor; never a real request.
+//   - www.w3.org: vendored react-dom.production.min.js's XML/SVG namespace
+//     URI constants, passed to `createElementNS` -- identifier strings the
+//     DOM spec requires, not addresses the browser ever requests.
+//   - reactjs.org: vendored react-dom.production.min.js's minified-error
+//     decoder link -- text inside a thrown Error's message for a developer
+//     to open by hand, never fetched by the code itself.
+//   - scripts.sil.org: named in fonts/LICENSE-OFL.txt itself, the licence
+//     text shipped beside the vendored Geist font files -- the OFL's own FAQ
+//     link, read by whoever opens the licence, never fetched by the site.
+const ALLOWED_NAMED_HOSTS = new Set([
+  ...ALLOWED_LANDING_HOSTS,
+  'github.com',
+  'babeljs.io',
+  'foo.com',
+  'www.w3.org',
+  'reactjs.org',
+  'scripts.sil.org',
+]);
 
 // Extensions skipped by the host scan below. This is a deny-list on purpose,
 // and the reason is the whole history of this check. It has now been defeated

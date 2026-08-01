@@ -141,21 +141,25 @@ function main() {
   // (`node audit-requests-tmp.mjs`, not kept -- see the PR body), not
   // copied from the file-scanner's own allow-list on faith.
   //
+  // Issue #137: script-src's `https://unpkg.com` and style-src/font-src's
+  // Google Fonts hosts are gone -- React, ReactDOM and Babel standalone are
+  // vendored under page/vendor/ (same pinned bytes, same SRI, checked by
+  // sha384 before vendoring rather than assumed), and Geist/Geist
+  // Mono/Geist Pixel are self-hosted under page/fonts/ (OFL, licence text
+  // beside the files). Neither page needs `connect-src`/`script-src`/
+  // `style-src`/`font-src` to reach any third host at all now.
+  //
   // `/read/*` needs `'wasm-unsafe-eval'` (CSP's own narrower permission for
   // WebAssembly.instantiate, not the general `eval()`/`Function()` grant
   // `'unsafe-eval'` gives) for the engine, and `'unsafe-inline'` in
   // style-src for React's own `style={{...}}` prop, which several
   // components use (a DOM style *attribute*, not a `<script>` -- a much
   // narrower, commonly-accepted allowance than inline script would be).
-  // Neither page needs `connect-src`/`script-src` to reach any third host
-  // beyond what is named below -- the reading app is fully self-contained
-  // (real content, the wasm engine, IndexedDB, the Cache API, no network
-  // calls off-origin at all).
   const LANDING_CSP = [
     "default-src 'self'",
-    "script-src 'self' 'unsafe-eval' https://unpkg.com",
-    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-    "font-src 'self' https://fonts.gstatic.com",
+    "script-src 'self' 'unsafe-eval'",
+    "style-src 'self' 'unsafe-inline'",
+    "font-src 'self'",
     "connect-src 'self'",
     "img-src 'self' data:",
     "object-src 'none'",
