@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Superb is a reading app that quietly builds vocabulary.">
-<link rel="icon" href="data:,">
+<link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
+<link rel="apple-touch-icon" href="brand/apple-touch-180.png">
 <title>Superb — vocabulary through reading</title>
 <script src="./support.js"></script>
 </head>
@@ -33,9 +35,16 @@ a:hover{color:var(--brand)}
 <div data-theme="oxblood-dark" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; background:#140D09; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
 
   <header data-screen-label="Header" style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:var(--sp-8); padding:var(--sp-7) clamp(20px,3.4vw,48px); pointer-events:none">
-    <a href="/" style="display:flex; align-items:baseline; gap:11px; pointer-events:auto; text-shadow:0 2px 12px rgba(10,6,3,.9)">
-      <span style="font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; font-size:19px; color:var(--brand); letter-spacing:-.06em; transform:skewX(-14deg); display:inline-block">///</span>
-      <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:19px; color:#F6EEE2">superb</span>
+    <a href="/" style="display:flex; align-items:center; pointer-events:auto">
+      <!-- The real lockup (brand/out/identity/lockup-night.png), not the
+           monospace "/// superb" approximation this replaces (issue #113:
+           "mockup logo used"). The source PNG's own ground was a flat
+           near-black rather than true alpha (file(1) reported PNG colour
+           type 2, RGB truecolor) -- scripts/make-transparent.mjs
+           chroma-keyed it to a real alpha channel once (not run at build
+           time; the output is what ships), so no plate shows against the
+           ASCII scene behind it regardless of the exact hue underneath. -->
+      <img src="brand/lockup-night.png" alt="Superb" style="height:28px; width:auto; filter:drop-shadow(0 2px 10px rgba(10,6,3,.9))">
     </a>
     <nav style="display:flex; gap:var(--sp-8); margin-left:auto; align-items:center; font-size:13.5px; font-weight:450; color:rgba(246,238,226,.8); pointer-events:auto; white-space:nowrap; text-shadow:0 2px 12px rgba(10,6,3,.95)">
       <a href="#facts">The case</a>
@@ -43,7 +52,12 @@ a:hover{color:var(--brand)}
     </nav>
   </header>
 
-  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#140D09; height:100svh; min-height:600px; display:flex; align-items:center">
+  <!-- Full-bleed at phone heights, where 100svh and the content are close to
+       the same size; capped on a tall desktop viewport rather than left to
+       grow with it, since the content block is a fixed size and centring it
+       in an unbounded height was the empty band above the Facts section
+       (issue #112, "too much blank space"). -->
+  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#140D09; height:min(100svh, 620px); min-height:560px; display:flex; align-items:center">
     <div ref="{{ wrapRef }}" style="position:absolute; inset:0; font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; white-space:pre; overflow:hidden"></div>
     <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(16,10,6,.58) 0%, rgba(16,10,6,.34) 26%, rgba(16,10,6,.10) 50%, rgba(16,10,6,0) 70%)"></div>
     <div style="position:absolute; left:0; right:0; top:0; height:20%; background:linear-gradient(to bottom, rgba(16,10,6,.56), rgba(20,13,9,0))"></div>
@@ -78,14 +92,24 @@ a:hover{color:var(--brand)}
 
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(28px,3.4vw,56px); align-items:stretch">
 
+        <!-- The three columns used three different figure treatments (a
+             filled block chart, a shorter and differently-proportioned one,
+             and an unrelated triangle of spaced dots) -- three different
+             attempts sitting side by side reads as unfinished rather than
+             restrained (issue #112, "figures are incoherent"). One shape now:
+             five bars of the same width, the same descending reveal, each
+             column's own accent colour -- a family, not three guesses. None
+             of the three claims is a number any more, so the bars are
+             honestly abstract texture, not a chart standing in for a stat
+             nobody cited. -->
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--brand)">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">On device</span>
           <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .5s steps(20) both .05s">████████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .5s steps(20) both .55s">████████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:70%; color:var(--brand); animation:reveal .35s steps(14) both 1.05s">████████████████████</div></div>
-            <div style="color:rgba(246,238,226,.14)">████████████████████</div>
-            <div style="color:rgba(246,238,226,.14)">████████████████████</div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .45s steps(16) both .05s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:var(--brand); animation:reveal .4s steps(14) both .3s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:var(--brand); animation:reveal .35s steps(10) both .55s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:var(--brand); animation:reveal .3s steps(5) both .8s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:var(--brand); animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
           </div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">The reading loop and vocabulary progress run in your browser, without an account.</span>
         </div>
@@ -93,23 +117,23 @@ a:hover{color:var(--brand)}
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--support)">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">No streaks</span>
           <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:50%; color:var(--support); animation:reveal .6s steps(6) both .2s">████████████</div></div>
-            <div style="color:rgba(246,238,226,.14)">████████████</div>
-            <div style="color:rgba(246,238,226,.14)">████████████</div>
-            <div style="color:rgba(246,238,226,.14)">████████████</div>
-            <div style="color:rgba(246,238,226,.14)">████████████</div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--support); animation:reveal .45s steps(16) both .05s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:var(--support); animation:reveal .4s steps(14) both .3s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:var(--support); animation:reveal .35s steps(10) both .55s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:var(--support); animation:reveal .3s steps(5) both .8s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:var(--support); animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
           </div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Read when you have time. Superb has no daily target, leaderboard, or review queue.</span>
         </div>
 
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid #B193F5">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">Private</span>
-          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; color:#B193F5; align-self:start; white-space:pre">
-            <div style="animation:rise .45s ease-out both 1.0s">                    █ █ █</div>
-            <div style="animation:rise .45s ease-out both .85s">            █ █ █ █ █ █ █ █</div>
-            <div style="animation:rise .45s ease-out both .7s">        █ █ █ █ █ █ █ █ █ █</div>
-            <div style="animation:rise .45s ease-out both .55s">    █ █ █ █ █ █ █ █ █ █ █ █</div>
-            <div style="animation:rise .45s ease-out both .4s">█ █ █ █ █ █ █ █ █ █ █ █</div>
+          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:#B193F5; animation:reveal .45s steps(16) both .05s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:#B193F5; animation:reveal .4s steps(14) both .3s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:#B193F5; animation:reveal .35s steps(10) both .55s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:#B193F5; animation:reveal .3s steps(5) both .8s">████████████████</div></div>
+            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:#B193F5; animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
           </div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">There is no account, sync, payment, or cloud voice service in the current build.</span>
         </div>
@@ -122,6 +146,19 @@ a:hover{color:var(--brand)}
       </div>
     </div>
   </section>
+
+  <!-- Minimal on purpose: this is the whole real footprint of the product
+       today (source, and the one path in) -- issue #114 asked for a
+       complete page, not a busier one. No sitemap of rooms that don't exist
+       yet (Library/Pricing were the dead nav links this same pass removed;
+       a footer full of the same promises would just move the problem down
+       the page). -->
+  <footer style="position:relative; background:#140D09; border-top:1px solid rgba(246,238,226,.09)">
+    <div style="max-width:var(--shell-max); margin:0 auto; padding:var(--sp-8) clamp(20px,3.4vw,48px); display:flex; align-items:center; justify-content:space-between; gap:var(--sp-6); flex-wrap:wrap; font-family:'Geist Mono', ui-monospace, monospace; font-size:12.5px; color:rgba(246,238,226,.4)">
+      <span>Superb. Source-available, MIT + Commons Clause.</span>
+      <a href="https://github.com/kihea/superb" style="color:rgba(246,238,226,.6)">GitHub</a>
+    </div>
+  </footer>
 </div>
 
 </x-dc>

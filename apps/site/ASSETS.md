@@ -19,6 +19,17 @@ blob ID `0f4acba218c6f3f1302602999e930d28acd02858`. They were unused at runtime 
 were removed in PR #109. The encoded scene data above is the only derived visual
 asset that remains in the published tree.
 
+- `page/brand/favicon-16.png`, `favicon-32.png`, and `apple-touch-180.png` are
+copied unmodified from the finalized brand identity kit's own `icons/` output
+(private root, `brand/out/identity/icons/`), owner-rendered, distributed under
+the repository's code licence.
+- `page/brand/lockup-night.png` is the identity kit's `lockup-night.png`
+(same source), processed once by `scripts/make-transparent.mjs` to add a real
+alpha channel -- the kit's own render is flat RGB, and the header sits over
+the animated ASCII scene rather than a solid ground. No pixel is otherwise
+changed; this replaces the header's earlier "/// superb" CSS approximation
+of the mark (issue #113) with the real rendered lockup.
+
 ## Network-loaded dependencies
 
 The generated runtime loads these version-pinned files with Subresource
