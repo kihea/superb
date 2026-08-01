@@ -21,20 +21,34 @@
 // and the passage selector never appeared.
 
 import { createServer } from 'node:http';
-import { readFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
+const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
 
 if (!existsSync(path.join(DIST, 'index.html'))) {
   console.error('check-assembled: dist/index.html missing -- run `npm run assemble` first.');
   process.exit(1);
 }
 if (!existsSync(path.join(DIST, 'read', 'index.html'))) {
-  console.error('check-assembled: dist/read/index.html missing -- run `npm run assemble` first.');
+  console.error('check-assembled: missing dist/read/index.html; run npm run assemble first');
+  process.exit(1);
+}
+const retiredBundle = readdirSync(DIST, { recursive: true }).find((entry) => {
+  const relative = String(entry);
+  const file = path.join(DIST, relative);
+  if (path.basename(relative) === '_ds_bundle.js') return true;
+  if (!statSync(file).isFile()) return false;
+  const digest = createHash('sha256').update(readFileSync(file)).digest('hex');
+  return digest === RETIRED_BUNDLE_SHA256;
+});
+if (retiredBundle) {
+  console.error(`check-assembled: retired design-system runtime bytes are still shipped: ${retiredBundle}`);
   process.exit(1);
 }
 
@@ -77,6 +91,8 @@ const problems = [];
   // publishable landing page owes readers.
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const failedRequests = [];
+  const requestedUrls = [];
+  page.on('request', (req) => requestedUrls.push(req.url()));
   page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
   page.on('response', (res) => {
     if (res.status() >= 400) failedRequests.push(`${res.url()} -> ${res.status()}`);
@@ -111,6 +127,14 @@ const problems = [];
     problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
+  const allowedExternalHosts = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+  const disallowedRequests = requestedUrls.filter((raw) => {
+    const url = new URL(raw);
+    return (url.hostname !== '127.0.0.1' && !allowedExternalHosts.has(url.hostname))
+      || url.pathname.endsWith('/_ds_bundle.js');
+  });
+  if (disallowedRequests.length > 0)
+    problems.push(`/ : landing loads an unapproved runtime or external host --\n    ${disallowedRequests.join('\n    ')}`);
 }
 
 // --- "/read/" : the app reaches its first painted reading surface.
