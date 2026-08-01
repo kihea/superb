@@ -32,6 +32,13 @@ interface SessionState {
 export interface EngineSession extends SessionState {
   tapWord: (word: string, position: number) => void;
   finish: () => void;
+  /** Re-runs the whole boot sequence from `status: "loading"` -- the "try
+   *  again" half of the calm retry/reset screen (issue #121). Also what a
+   *  "start over" action calls after clearing the engine's own IndexedDB
+   *  store (storage/db.ts's `clearEngineState`), since a fresh boot against
+   *  an empty store is exactly `engine.load(null)`, the documented
+   *  fresh-install path. */
+  retry: () => void;
 }
 
 async function fetchFrame(engine: EnginePort, request: Request, now: number, recent: string[]) {
@@ -76,6 +83,11 @@ export function useEngineSession(): EngineSession {
   const engineRef = useRef<EnginePort | null>(null);
   const recentRef = useRef<string[]>([]);
   const [state, setState] = useState<SessionState>({ status: "loading", passage: null, record: null });
+  // Invalidates an in-flight boot when a newer one starts (retry clicked
+  // twice, or clicked while the first attempt is still hung on a slow
+  // request) -- a stale boot's own `setState` calls are dropped rather than
+  // racing the newer attempt's.
+  const bootTokenRef = useRef(0);
 
   const run = useCallback(async (request: Request) => {
     const engine = engineRef.current;
@@ -100,43 +112,56 @@ export function useEngineSession(): EngineSession {
     }
   }, []);
 
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      let engine: EnginePort;
+  // Issue #121: this used to be an effect body with only one try/catch,
+  // around `createWasmEngine()` alone. A corrupted `state` document (or a
+  // storage read that rejects, or a content fetch inside `run()` that
+  // fails) threw past every catch that existed, which left `status` at its
+  // initial "loading" forever -- the reading screen stuck on "Finding
+  // something to read." with no way out (the verifier's own reproduction:
+  // corrupt the saved record, reload). Wrapping the whole sequence, and
+  // pulling it out of the effect so a retry/reset screen can call it again,
+  // is the fix; nothing about the boot logic itself changed.
+  const boot = useCallback(() => {
+    const token = ++bootTokenRef.current;
+    setState({ status: "loading", passage: null, record: null });
+    void (async () => {
       try {
-        engine = await createWasmEngine();
-      } catch {
-        if (!cancelled) setState({ status: "error", passage: null, record: null });
-        return;
-      }
-      engineRef.current = engine;
-      const [saved, recent, current] = await Promise.all([
-        loadState(),
-        loadRecentPassages(),
-        loadCurrentPassage<Passage>(),
-      ]);
-      recentRef.current = recent;
-      engine.load(saved);
-      if (cancelled) return;
+        const engine = await createWasmEngine();
+        if (token !== bootTokenRef.current) return;
+        engineRef.current = engine;
 
-      // A passage already in flight resumes exactly as it was -- rendered
-      // straight from the shell's own record of it, no engine call at all.
-      // superb-core's LearnerState carries no notion of "a passage on
-      // screen" (it only learns one happened once PassageFinished/
-      // PassageAbandoned arrives), so calling NextPassage here would compose
-      // a fresh one and silently drop whatever the reader had not finished.
-      if (current) {
-        const record = await resolve(current.id);
-        if (!cancelled) setState({ status: "ready", passage: current, record });
-        return;
+        const [saved, recent, current] = await Promise.all([
+          loadState(),
+          loadRecentPassages(),
+          loadCurrentPassage<Passage>(),
+        ]);
+        if (token !== bootTokenRef.current) return;
+        recentRef.current = recent;
+        engine.load(saved);
+
+        // A passage already in flight resumes exactly as it was -- rendered
+        // straight from the shell's own record of it, no engine call at
+        // all. superb-core's LearnerState carries no notion of "a passage
+        // on screen" (it only learns one happened once PassageFinished/
+        // PassageAbandoned arrives), so calling NextPassage here would
+        // compose a fresh one and silently drop whatever the reader had
+        // not finished.
+        if (current) {
+          const record = await resolve(current.id);
+          if (token === bootTokenRef.current) setState({ status: "ready", passage: current, record });
+          return;
+        }
+        await run({ kind: "NextPassage" });
+      } catch {
+        if (token === bootTokenRef.current) setState({ status: "error", passage: null, record: null });
       }
-      await run({ kind: "NextPassage" });
     })();
-    return () => {
-      cancelled = true;
-    };
-    // run is stable (useCallback, empty deps); this effect is boot-once.
+  }, [run]);
+
+  useEffect(() => {
+    boot();
+    // boot only changes identity if `run` does, and `run` never does (empty
+    // deps) -- this effect is boot-once, same as before the refactor.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -144,7 +169,9 @@ export function useEngineSession(): EngineSession {
     (word: string, position: number) => {
       const passageId = state.passage?.id;
       if (!passageId) return;
-      void run({ kind: "ProcessEvent", event: { kind: "GlossTap", word, passage: passageId, position } });
+      run({ kind: "ProcessEvent", event: { kind: "GlossTap", word, passage: passageId, position } }).catch(() =>
+        setState({ status: "error", passage: null, record: null }),
+      );
     },
     [run, state.passage?.id],
   );
@@ -153,13 +180,17 @@ export function useEngineSession(): EngineSession {
     const passage = state.passage;
     if (!passage) return;
     void (async () => {
-      await run({
-        kind: "ProcessEvent",
-        event: { kind: "PassageFinished", passage: passage.id, wordsSeen: [...passage.targets, ...passage.seeded] },
-      });
-      await run({ kind: "NextPassage" });
+      try {
+        await run({
+          kind: "ProcessEvent",
+          event: { kind: "PassageFinished", passage: passage.id, wordsSeen: [...passage.targets, ...passage.seeded] },
+        });
+        await run({ kind: "NextPassage" });
+      } catch {
+        setState({ status: "error", passage: null, record: null });
+      }
     })();
   }, [run, state.passage]);
 
-  return { ...state, tapWord, finish };
+  return { ...state, tapWord, finish, retry: boot };
 }

@@ -167,3 +167,22 @@ export async function clearBookState(): Promise<void> {
     tx.onerror = () => reject(tx.error);
   });
 }
+
+/** The same reset action for the engine's own store (issue #121): a
+ *  corrupted `state` document -- or a `recentPassages`/`currentPassage`
+ *  value that no longer parses against the current build -- left the
+ *  reading screen stuck on "Finding something to read." forever, with no
+ *  way out. Reader-initiated only, from ReadingScreen's own calm retry/
+ *  reset screen; never called automatically. Clears all three keys STORE
+ *  holds (state, recentPassages, currentPassage) rather than just `state`,
+ *  since a shell-owned key going stale is exactly as much "local state" as
+ *  the engine's own bytes are. */
+export async function clearEngineState(): Promise<void> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(STORE, "readwrite");
+    tx.objectStore(STORE).clear();
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}

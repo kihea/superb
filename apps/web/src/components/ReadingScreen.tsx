@@ -20,6 +20,11 @@
 // tokens-to-css.mjs); nothing in this component changed, since it already
 // read --page-* rather than a hard-coded light value.
 import { useEngineSession } from "../engine/useEngineSession";
+import { clearEngineState } from "../storage/db";
+// sb-button/sb-quiet, for the calm retry/reset below -- otherwise only
+// pulled in transitively (every Screen-wrapped screen imports this), which
+// is exactly the kind of accidental dependency a later refactor could break.
+import "../shell/surface.css";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { MarginMark } from "./doodle/MarginMark";
@@ -30,6 +35,22 @@ import { useState } from "react";
 export function ReadingScreen() {
   const session = useEngineSession();
   const [breaking, setBreaking] = useState(false);
+
+  // Issue #121: a corrupted saved record (or a storage/content failure
+  // anywhere in the boot sequence -- see useEngineSession.ts's own comment)
+  // used to leave this screen on "Finding something to read." forever, no
+  // way out. "Try again" re-runs the same boot; "start over" clears the
+  // engine's own IndexedDB store first (a corrupted document is exactly the
+  // case retrying alone cannot fix) and then does the same. Not a
+  // `RecoveryScreen` (that component assumes the `Screen` shell's own
+  // topbar/body wrapper, which this screen deliberately does not use --
+  // 3a has no header to clear) -- the same two actions, styled for the
+  // reading page itself.
+  function handleReset() {
+    clearEngineState()
+      .catch(() => {})
+      .then(() => session.retry());
+  }
 
   // ADR-036's B4 lives here, not inside PassagePage's own "Keep reading"
   // button: that button unmounts the instant `session.finish` swaps the
@@ -79,9 +100,17 @@ export function ReadingScreen() {
           </p>
         )}
         {session.status === "error" && (
-          <p className="reading-status" data-text="Something went wrong loading this session.">
-            Something went wrong loading this session.
-          </p>
+          <div className="reading-status-recovery">
+            <p className="reading-status" data-text="Something went wrong loading this session.">
+              Something went wrong loading this session.
+            </p>
+            <button type="button" className="sb-button" onClick={() => session.retry()}>
+              Try again
+            </button>
+            <button type="button" className="sb-quiet" onClick={handleReset}>
+              Start over
+            </button>
+          </div>
         )}
         {session.status === "ready" && session.record && session.passage && (
           <PassagePage

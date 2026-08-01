@@ -203,3 +203,17 @@
     content: none;
   }
 }
+
+/* Issue #121's calm retry/reset -- centred under the same shimmer text
+   the loading state uses, so an error reads as a continuation of the same
+   place rather than a different screen. */
+.reading-status-recovery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-4) var(--space-8);
+  max-width: var(--type-passage-measure);
+  margin: 0 auto;
+  text-align: center;
+}
