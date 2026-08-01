@@ -30,21 +30,47 @@ the animated ASCII scene rather than a solid ground. No pixel is otherwise
 changed; this replaces the header's earlier "/// superb" CSS approximation
 of the mark (issue #113) with the real rendered lockup.
 
-## Network-loaded dependencies
+## Vendored and self-hosted dependencies (issue #137)
 
-The generated runtime loads these version-pinned files with Subresource
-Integrity hashes:
+The generated runtime used to load React, React DOM, and Babel Standalone
+from `unpkg.com` at read time (pinned by Subresource Integrity), and the
+Geist family from Google Fonts (`fonts.googleapis.com`/`fonts.gstatic.com`).
+Both told those hosts every visitor's IP on every page view, which the
+landing's own copy plainly contradicted by claiming to be Private. Both are
+vendored into the artifact instead, and the landing now makes no request to
+any third-party host at all.
 
-- [React 18.3.1 and React DOM 18.3.1](https://github.com/facebook/react/blob/main/LICENSE) — MIT
-- [Babel Standalone 7.29.0](https://github.com/babel/babel/blob/main/LICENSE) — MIT
+- `page/vendor/react.production.min.js`, `react-dom.production.min.js`, and
+  `babel.min.js` are the same pinned versions (18.3.1, 18.3.1, 7.29.0) and the
+  same bytes unpkg served — verified by sha384 against the SRI hashes
+  `page/support.js` already carried, before vendoring rather than assumed, so
+  `support.js`'s own integrity check still passes against the local copies
+  unchanged. Licences (both MIT) are recorded in `page/vendor/NOTICE.txt`:
+  [React 18.3.1 and React DOM 18.3.1](https://github.com/facebook/react/blob/main/LICENSE),
+  [Babel Standalone 7.29.0](https://github.com/babel/babel/blob/main/LICENSE).
+- `page/fonts/geist-variable-latin.woff2`, `geist-mono-variable-latin.woff2`,
+  and `geist-pixel-latin.woff2` are Geist, Geist Mono, and Geist Pixel,
+  subset to the weights the page actually uses, one variable file per family.
+  Verified per family against Google Fonts' own metadata (`"license": "ofl"`)
+  before vendoring rather than assumed. `page/fonts/fonts.css` declares them;
+  `page/fonts/LICENSE-OFL.txt` is the real
+  [SIL Open Font License 1.1](https://github.com/vercel/geist-font/blob/main/OFL.txt)
+  text, from `vercel/geist-font` and `vercel/geist-pixel-font`.
 
-The page loads the Geist, Geist Mono, and Geist Pixel typefaces through Google
-Fonts. The family is distributed under the
-[SIL Open Font License 1.1](https://github.com/vercel/geist-font/blob/main/OFL.txt).
-
-The assembled browser check permits only `unpkg.com`, `fonts.googleapis.com`,
-and `fonts.gstatic.com` as external landing-page hosts. It rejects new hosts and
-the retired design-system JavaScript bundle.
+The assembled browser check's runtime allow-list for the landing
+(`ALLOWED_LANDING_HOSTS` in `scripts/check-assembled.mjs`) is now empty — a
+script that fetched from any external host at all would still fail it. Its
+static text-scan allow-list (`ALLOWED_LANDING_NAMED_HOSTS`) permits a small,
+named set of hosts that appear only as text *inside* the vendored files
+themselves (a documentation link inside a thrown error message, a DOM
+namespace URI constant, the OFL licence's own FAQ link) — never fetched,
+each with its own one-line reason in that file. A separate, separately named
+allow-list (`ALLOWED_READ_NAMED_HOSTS`) covers the reading app's own
+assembled output under `dist/read/` (issue #128) — the app's real source
+citations for each book and a handful of the same kind of developer-facing
+text, not new egress. The check also rejects the retired design-system
+JavaScript bundle, and (issue #127) decodes UTF-16 text correctly before
+scanning it, rather than reading every file as latin1.
 
 ## The boundary is the Content-Security-Policy, not the check (issue #126)
 
@@ -60,8 +86,10 @@ still does not open.
 
 `dist/_headers` (written by `scripts/assemble.mjs`, not committed as a static
 file) sets a `Content-Security-Policy` on both surfaces, restricting
-`script-src`/`connect-src`/`style-src`/`font-src` to `'self'` plus exactly the
-hosts named above. The browser enforces this at the moment a request is made,
+`script-src`/`connect-src`/`style-src`/`font-src` to `'self'` alone — since
+issue #137 vendored the last of the landing's third-party loads, neither
+surface's policy names an external host at all. The browser enforces this at
+the moment a request is made,
 regardless of what the requesting file was named, what MIME type it claimed,
 or how the address it used was assembled — the property the file-content check
 cannot have. `scripts/check-csp.mjs` proves it live: it reintroduces the
