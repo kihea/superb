@@ -8,7 +8,7 @@
     "build": "node scripts/build.mjs",
     "test": "npm run build",
     "assemble": "node scripts/assemble.mjs",
-    "smoke": "node scripts/check-assembled.mjs"
+    "smoke": "node scripts/check-assembled.mjs && node scripts/check-csp.mjs"
   },
   "devDependencies": {
     "playwright": "^1.62.1"

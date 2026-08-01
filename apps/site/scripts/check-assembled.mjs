@@ -25,6 +25,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { APP_BASE } from './assemble.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
@@ -44,6 +45,61 @@ if (retiredBundle) {
   process.exit(1);
 }
 
+// Issue #126: dist/_headers carries the Content-Security-Policy that is the
+// actual boundary now (assemble.mjs's own comment on why the file-content
+// scanner above cannot be one). A local server that never applies it would
+// let every check below pass against an artifact that, live, ships without
+// its own defence -- so this parses the real file (Cloudflare Pages' own
+// path-block format: an unindented path line, then one or more indented
+// "Header: value" lines) and sends the matching headers on every response,
+// the same way the checks two blocks down for "/" and "/read/" already
+// exercise the real dist/_redirects rather than assuming routing works.
+const HEADERS_PATH = path.join(DIST, '_headers');
+if (!existsSync(HEADERS_PATH)) {
+  console.error('check-assembled: dist/_headers missing -- assemble.mjs should always write one (issue #126).');
+  process.exit(1);
+}
+
+function parseHeadersFile(text) {
+  const blocks = [];
+  let current = null;
+  for (const rawLine of text.split('\n')) {
+    if (rawLine.trim() === '' || rawLine.trim().startsWith('#')) continue;
+    if (!/^\s/.test(rawLine)) {
+      current = { path: rawLine.trim(), headers: {} };
+      blocks.push(current);
+      continue;
+    }
+    if (!current) continue; // an indented line before any path header names -- not this format.
+    const colon = rawLine.indexOf(':');
+    if (colon === -1) continue;
+    current.headers[rawLine.slice(0, colon).trim()] = rawLine.slice(colon + 1).trim();
+  }
+  return blocks;
+}
+
+function headersFor(blocks, pathname) {
+  let matched = {};
+  for (const block of blocks) {
+    const isMatch = block.path.endsWith('/*')
+      ? pathname.startsWith(block.path.slice(0, -1))
+      : block.path === pathname;
+    if (isMatch) matched = { ...matched, ...block.headers };
+  }
+  return matched;
+}
+
+const headerBlocks = parseHeadersFile(readFileSync(HEADERS_PATH, 'utf-8'));
+const cspBlocks = headerBlocks.filter((b) => 'Content-Security-Policy' in b.headers);
+if (cspBlocks.length === 0) {
+  console.error('check-assembled: dist/_headers has no Content-Security-Policy rule at all (issue #126).');
+  process.exit(1);
+}
+if (!headerBlocks.some((b) => b.path === '/' && 'Content-Security-Policy' in b.headers))
+  console.error('check-assembled: warning -- no Content-Security-Policy rule for the exact landing path "/".');
+if (!headerBlocks.some((b) => b.path === `${APP_BASE}*` && 'Content-Security-Policy' in b.headers))
+  console.error(`check-assembled: warning -- no Content-Security-Policy rule for "${APP_BASE}*".`);
+
 const TYPES = {
   '.html': 'text/html',
   '.css': 'text/css',
@@ -60,12 +116,13 @@ const TYPES = {
 const server = createServer((req, res) => {
   const p = (req.url ?? '/').split('?')[0];
   const filePath = p.endsWith('/') ? `${p}index.html` : p;
+  const extraHeaders = headersFor(headerBlocks, p);
   try {
     const body = readFileSync(path.join(DIST, filePath));
-    res.writeHead(200, { 'content-type': TYPES[path.extname(filePath)] ?? 'application/octet-stream' });
+    res.writeHead(200, { 'content-type': TYPES[path.extname(filePath)] ?? 'application/octet-stream', ...extraHeaders });
     res.end(body);
   } catch {
-    res.writeHead(404);
+    res.writeHead(404, extraHeaders);
     res.end('not found');
   }
 });
