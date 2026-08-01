@@ -17,7 +17,7 @@
 // lives; nothing else needs to know.
 
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -67,15 +67,46 @@ function main() {
 
   // apps/web ships its own _redirects for when it stands alone at "/";
   // Cloudflare Pages only reads the file at the artifact's root, so the
-  // copy under read/ is dead there. The live rule is written at the root:
-  // every /read/ route is the app's one document (a 200 rewrite, so the
-  // address bar keeps the deep path). The landing's own files are real and
-  // need no rule.
+  // copy under read/ is dead there. The live rules are written at the root.
+  //
+  // Three Cloudflare Pages constraints shape these rules, each proven in
+  // `wrangler pages dev` against this artifact rather than read about:
+  //   1. A rule whose target matches its own source pattern
+  //      (`/read/*  /read/index.html  200`) is flagged "Infinite loop
+  //      detected" and IGNORED -- silently in production, where the old
+  //      catch-all left deep links falling through to the landing (#124).
+  //   2. Rules run before static assets, so a catch-all `/read/*` would
+  //      swallow every request under /read/assets/ and break the app.
+  //      Hence one rule per real app route, derived from the app's own
+  //      route table, never a catch-all.
+  //   3. An `.html` target is pretty-URL-normalized into a 308 redirect,
+  //      which loses the deep path from the address bar. The target is the
+  //      extensionless canonical `/read-app`, backed by read-app.html, an
+  //      exact copy of the app's document.
   rmSync(path.join(target, '_redirects'), { force: true });
+  const routesSource = readFileSync(path.join(WEB_ROOT, 'src', 'routes.ts'), 'utf-8');
+  const routePaths = [...routesSource.matchAll(/path:\s*"([^"]+)"/g)].map((m) => m[1]);
+  if (routePaths.length === 0) {
+    throw new Error('assemble: no route paths found in apps/web/src/routes.ts -- the _redirects rules would be empty and every deep link would fall through to the landing.');
+  }
+  const ruleSources = new Set();
+  for (const route of routePaths) {
+    if (route === '/') continue; // the directory index at /read/ is a real file and needs no rule
+    const paramAt = route.indexOf('/:');
+    ruleSources.add(
+      paramAt === -1 ? `${APP_BASE}${route.slice(1)}` : `${APP_BASE}${route.slice(1, paramAt)}/*`,
+    );
+  }
+  for (const source of ruleSources) {
+    const asAsset = source.slice(APP_BASE.length).replace(/\/\*$/, '');
+    if (existsSync(path.join(target, asAsset))) {
+      throw new Error(`assemble: redirect rule ${source} shadows a real path in the app artifact (rules run before assets); rename the route or the asset.`);
+    }
+  }
+  cpSync(path.join(target, 'index.html'), path.join(SITE_DIST, 'read-app.html'));
   writeFileSync(
     path.join(SITE_DIST, '_redirects'),
-    `${APP_BASE}*    ${APP_BASE}index.html    200
-`,
+    `${[...ruleSources].map((source) => `${source}    /read-app    200`).join('\n')}\n`,
   );
 
   // Issue #126: the file-content scanner that used to be the only line of
@@ -146,12 +177,19 @@ function main() {
   // of two Content-Security-Policy header values Cloudflare Pages would
   // send (per-directive merge across matching blocks is real but not
   // something a routing config should ever have to rely on getting right).
+  // `/read-app` carries the same policy as the app subtree: it *is* the
+  // app's document, reachable at its own path because the redirect rules
+  // above target it, and _headers matches on the request path (`/read/...`
+  // for rewritten deep links, `/read-app` only when loaded directly).
   writeFileSync(
     path.join(SITE_DIST, '_headers'),
     `/
   Content-Security-Policy: ${LANDING_CSP}
 
 ${APP_BASE}*
+  Content-Security-Policy: ${APP_CSP}
+
+/read-app
   Content-Security-Policy: ${APP_CSP}
 `,
   );

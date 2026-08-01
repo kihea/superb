@@ -13,16 +13,19 @@
 //
 // T15 restyled this screen to frame 3a: the room around the passage is now
 // paper rather than dark glass. That still left the passage's own ink and
-// paper (--page-*) fixed to page.light regardless of the theme, which
-// contradicted the fourteen new screens and, once asked (issue #100),
-// Kihea's own answer: "the whole screen goes dark? its dark mode" -- ADR-039.
-// So --page-* now darkens with the room too (apps/web/scripts/
-// tokens-to-css.mjs); nothing in this component changed, since it already
-// read --page-* rather than a hard-coded light value.
+// paper on a separate --page-* register fixed to page.light regardless of
+// the theme, which contradicted the fourteen new screens and, once asked
+// (issue #100), Kihea's own answer: "the whole screen goes dark? its dark
+// mode" -- ADR-039. --page-* was made to darken with the room as a first
+// fix; now that his finalized design system (design/ox.css) is the one
+// surface every other screen already reads, the reading state's own CSS
+// (ReadingScreen.css, PassagePage.css, GlossCard.css) reads the same
+// --surface-*/--text-* tokens directly rather than a parallel register that
+// only happened to track the same light/dark state. Nothing in this
+// component changed either time -- it never held a colour of its own.
 import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
-import { MarginMark } from "./doodle/MarginMark";
 import { PixelBreak } from "./chrome/PixelBreak";
 import { VoiceOrb } from "./voice/VoiceOrb";
 import type { OrbState } from "./voice/VoiceOrb";
@@ -59,10 +62,17 @@ export function ReadingScreen() {
          stop, and this build is the reading state end to end. A future
          non-reading surface may let these drift; this one does not. */}
       <div className="reading-screen-aura" aria-hidden="true" />
-      {/* The margin mark (DERIVATION-001, superb-hand-margin.svg): full-
-         height, static, in the room rather than on the page. Desktop only --
-         there is no room for it beside the card on a phone. */}
-      <MarginMark side="left" />
+      {/* The margin mark used to run here, full-height and desktop-only
+         (DERIVATION-001, superb-hand-margin.svg) -- the register decision
+         that added it predates the finalized design system, and Kihea's own
+         review of the deployed desktop reading view named it directly
+         ("the left weird design should be removed," issue #111). ADR-041
+         rules the same way independently: no ornament inside the text
+         column that is not text arriving and leaving, and a warmer surface
+         does not buy an exemption. Removed rather than restyled --
+         MarginMark.tsx/.css are gone with it. The room's own aura above
+         stays; it is a soft light, not a mark that could be read as
+         pointing at anything. */}
       {/* 3a's top row: one word out, one thing to press. Nothing else. */}
       <header className="reading-top">
         <Link to="/shelf" className="reading-top__out">

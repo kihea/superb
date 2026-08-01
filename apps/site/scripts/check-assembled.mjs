@@ -32,6 +32,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
 const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
 const ALLOWED_LANDING_HOSTS = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+// Hosts a landing file may *name* without ever loading from: the footer's
+// source link. Only the static text scan consults this; the runtime request
+// check below stays on ALLOWED_LANDING_HOSTS alone, so a script that actually
+// fetched from github.com would still fail the browser-side check.
+const ALLOWED_NAMED_HOSTS = new Set([...ALLOWED_LANDING_HOSTS, 'github.com']);
 
 // Extensions skipped by the host scan below. This is a deny-list on purpose,
 // and the reason is the whole history of this check. It has now been defeated
@@ -91,7 +96,10 @@ for (const entry of readdirSync(DIST, { recursive: true })) {
   const file = path.join(DIST, relative);
   if (!statSync(file).isFile() || BINARY_EXTENSIONS.has(path.extname(relative).toLowerCase())) continue;
   const text = readFileSync(file, 'latin1');
-  for (const match of text.matchAll(/https?:[\\/]*[^\s"'<>`)]+/gi)) {
+  // ';' ends the match: it is a legal WHATWG hostname code point, so the CSP
+  // value `https://unpkg.com;` in dist/_headers otherwise parses to the
+  // hostname "unpkg.com;" and misses the allowlist that approves unpkg.com.
+  for (const match of text.matchAll(/https?:[\\/]*[^\s"'<>`);]+/gi)) {
     // A URL-shaped substring in a comment or a minified string is not
     // necessarily a URL. `new URL` throws on those, and an uncaught throw here
     // takes the gate down with a raw stack trace instead of a named failure --
@@ -104,7 +112,7 @@ for (const entry of readdirSync(DIST, { recursive: true })) {
     } catch {
       continue;
     }
-    if (!ALLOWED_LANDING_HOSTS.has(hostname)) {
+    if (!ALLOWED_NAMED_HOSTS.has(hostname)) {
       disallowedStaticUrls.push(`${relative}: ${match[0]}`);
     }
   }
@@ -171,6 +179,34 @@ if (!headerBlocks.some((b) => b.path === '/' && 'Content-Security-Policy' in b.h
 if (!headerBlocks.some((b) => b.path === `${APP_BASE}*` && 'Content-Security-Policy' in b.headers))
   console.error(`check-assembled: warning -- no Content-Security-Policy rule for "${APP_BASE}*".`);
 
+// Issue #124: the deep-link rules in dist/_redirects are part of the artifact
+// under test, and the production incident that reopened the issue was a rule
+// Cloudflare accepted and silently ignored. This server applies the real file
+// with the semantics `wrangler pages dev` demonstrated: rules are evaluated
+// BEFORE static assets, `/*` sources match by prefix, and an extensionless
+// target resolves to its `.html` asset (the pretty-URL canonical form).
+const REDIRECTS_PATH = path.join(DIST, '_redirects');
+if (!existsSync(REDIRECTS_PATH)) {
+  console.error('check-assembled: dist/_redirects missing -- assemble.mjs should always write one (issue #124).');
+  process.exit(1);
+}
+const redirectRules = readFileSync(REDIRECTS_PATH, 'utf-8')
+  .split('\n')
+  .map((line) => line.trim())
+  .filter((line) => line !== '' && !line.startsWith('#'))
+  .map((line) => line.split(/\s+/))
+  .filter((parts) => parts.length >= 2)
+  .map(([source, target, status]) => ({ source, target, status: Number(status ?? '200') }));
+function redirectFor(pathname) {
+  for (const rule of redirectRules) {
+    const hit = rule.source.endsWith('/*')
+      ? pathname.startsWith(rule.source.slice(0, -1))
+      : rule.source === pathname;
+    if (hit) return rule;
+  }
+  return null;
+}
+
 const TYPES = {
   '.html': 'text/html',
   '.css': 'text/css',
@@ -186,7 +222,10 @@ const TYPES = {
 
 const server = createServer((req, res) => {
   const p = (req.url ?? '/').split('?')[0];
-  const filePath = p.endsWith('/') ? `${p}index.html` : p;
+  const rule = redirectFor(p);
+  const resolved = rule && rule.status === 200 ? rule.target : p;
+  let filePath = resolved.endsWith('/') ? `${resolved}index.html` : resolved;
+  if (!existsSync(path.join(DIST, filePath)) && path.extname(filePath) === '') filePath = `${filePath}.html`;
   const extraHeaders = headersFor(headerBlocks, p);
   try {
     const body = readFileSync(path.join(DIST, filePath));
@@ -281,6 +320,27 @@ const problems = [];
     problems.push(`/read/ : failed network requests --\n    ${failedRequests.join('\n    ')}`);
   if (consoleErrors.length > 0)
     problems.push(`/read/ : console errors --\n    ${consoleErrors.join('\n    ')}`);
+}
+
+// --- deep links (issue #124): the enumerated rules serve the app document,
+// with the app's own policy, without touching the address path. Exercised
+// through the same server that applies the real dist/_redirects above.
+{
+  const appDocument = readFileSync(path.join(DIST, 'read-app.html'));
+  const appIndex = readFileSync(path.join(DIST, 'read', 'index.html'));
+  if (!appDocument.equals(appIndex))
+    problems.push('read-app.html has drifted from read/index.html -- assemble.mjs writes it as an exact copy');
+  for (const deepPath of [`${APP_BASE}library`, `${APP_BASE}book/bram-stoker_dracula`, `${APP_BASE}book/bram-stoker_dracula/read`]) {
+    const res = await fetch(`${origin}${deepPath}`);
+    const body = Buffer.from(await res.arrayBuffer());
+    if (res.status !== 200 || !body.equals(appDocument)) {
+      problems.push(`${deepPath} : does not serve the app document through dist/_redirects (status ${res.status})`);
+      continue;
+    }
+    const csp = res.headers.get('content-security-policy') ?? '';
+    if (!csp.includes("default-src 'self'"))
+      problems.push(`${deepPath} : rewritten deep route arrives without a Content-Security-Policy`);
+  }
 }
 
 await browser.close();

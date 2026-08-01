@@ -11,11 +11,10 @@ import { useEffect, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
 import { Link } from "../router/router";
 import { useTheme } from "../theme/theme";
-import type { Paper } from "../theme/theme";
+import type { Night, Paper } from "../theme/theme";
 import { useMotion } from "../theme/motion";
 import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
-import { books } from "../v0mock";
 import "./Settings.css";
 
 // Issue #99's other half: "a voice control/preview." The orb on the reading
@@ -41,6 +40,15 @@ const PAPERS: { id: Paper; label: string; swatch: string }[] = [
   { id: "oxblood", label: "Oxblood", swatch: "settings-swatch--oxblood" },
   { id: "lilac", label: "Lilac", swatch: "settings-swatch--lilac" },
   { id: "glacier", label: "Glacier", swatch: "settings-swatch--glacier" },
+];
+
+// Frame 4o: light/dark is its own row, a three-way switch beside the paper
+// choice rather than a fourth swatch pretending to be a colour. "off"/"on"/
+// "system" are theme.ts's own words for the same three states.
+const NIGHT_MODES: { id: Night; label: string }[] = [
+  { id: "off", label: "Light" },
+  { id: "on", label: "Dark" },
+  { id: "system", label: "System" },
 ];
 
 const SCALE_KEY = "superb.readerScale";
@@ -84,30 +92,39 @@ export function Settings() {
             <button
               key={choice.id}
               type="button"
-              className={`settings-swatch ${choice.swatch}${
-                paper === choice.id && night !== "on" ? " settings-swatch--on" : ""
-              }`}
-              onClick={() => {
-                setPaper(choice.id);
-                setNight("off");
-              }}
+              className={`settings-swatch ${choice.swatch}${paper === choice.id ? " settings-swatch--on" : ""}`}
+              aria-pressed={paper === choice.id}
+              onClick={() => setPaper(choice.id)}
             >
               {choice.label}
             </button>
           ))}
-          <button
-            type="button"
-            className={`settings-swatch settings-swatch--night${night === "on" ? " settings-swatch--on" : ""}`}
-            onClick={() => setNight(night === "on" ? "system" : "on")}
-          >
-            Night
-          </button>
+        </div>
+        <div className="settings-mode" role="group" aria-label="Light or dark">
+          {NIGHT_MODES.map((mode) => (
+            <button
+              key={mode.id}
+              type="button"
+              className={`settings-mode__option${night === mode.id ? " settings-mode__option--on" : ""}`}
+              aria-pressed={night === mode.id}
+              onClick={() => setNight(mode.id)}
+            >
+              {mode.label}
+            </button>
+          ))}
         </div>
         {night === "system" && <span className="sb-caption">Following your phone, light or dark.</span>}
       </section>
 
       <section className="settings-group">
-        <span className="sb-eyebrow">Text size</span>
+        <div className="settings-size__heading">
+          <span className="sb-eyebrow">Text size</span>
+          {/* Settings is the one room a number is allowed to face the reader
+              (superb-craft's own law). 18px is --fs-600, the passage's own
+              base size, times this slider's multiplier, rounded -- a real
+              readout, not a picture of one. */}
+          <span className="settings-size__value">{Math.round(18 * scale)} pt</span>
+        </div>
         <div className="settings-size">
           <span className="settings-size__small">Aa</span>
           <input
@@ -173,11 +190,21 @@ export function Settings() {
           <span className="sb-list__aside">signed out</span>
         </Link>
 
-        <div className="settings-row">
-          <span className="settings-row__name">Credits and licences</span>
-          <span className="sb-list__aside">{books.length} texts</span>
-        </div>
       </div>
+
+      {/* ADR-008: word meanings are rewritten from Wiktionary, which carries
+         a share-alike obligation -- the attribution has to reach a reader
+         somewhere, and this is the room for it (data/NOTICE.md's own
+         "About screen (a shell concern, not this track's)"). Not yet a
+         full credits list per book -- Slice 1A ships one book, and its own
+         page already names its publisher and licence. */}
+      <section className="settings-group">
+        <span className="sb-eyebrow">About</span>
+        <p className="sb-caption">
+          Word meanings include text from Wiktionary contributors, used under Creative Commons
+          Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
+        </p>
+      </section>
 
       <Link to="/welcome" className="sb-quiet sb-quiet--centred">
         See the first open again

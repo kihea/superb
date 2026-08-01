@@ -380,19 +380,27 @@ a.sb-quiet {
   opacity: 0.85;
 }
 
+/* These three read raw --ox-* ramp values until ADR-041's audit: correct in
+   Oxblood, wrong in Lilac and Glacier, since a cover's cloth is themed but
+   its ink was not. Semantic aliases throughout now, so a cover picks up
+   whichever theme is active the same way everything else does. */
 .sb-cover--brand {
   background: var(--brand);
-  color: var(--ox-paper);
+  color: var(--text-on-brand);
 }
 
 .sb-cover--ink {
-  background: var(--ox-ink);
-  color: var(--ox-cream);
+  background: var(--surface-inverse);
+  color: var(--text-inverse);
 }
 
+/* No --text-on-support alias exists in the token bundle; --support sits at
+   roughly the same value range as --brand in every theme (sage/mint/indigo
+   beside oxblood-red/violet/teal), so the brand pairing is the closest
+   correct answer rather than a fourth raw ramp reference. */
 .sb-cover--support {
   background: var(--support);
-  color: var(--ox-paper);
+  color: var(--text-on-brand);
 }
 
 .sb-cover--soft {
@@ -425,9 +433,10 @@ a.sb-quiet {
   position: absolute;
   inset: 0;
   border-radius: inherit;
+  /* No backdrop-filter: it sits over this cover's own title and author, in
+     the same paint layer, and blurred them into the illegible smear frame
+     4e does not draw -- "frosted" is the veil's colour, not lost focus. */
   background: color-mix(in srgb, var(--surface-page) 68%, transparent);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
   pointer-events: none;
 }
 

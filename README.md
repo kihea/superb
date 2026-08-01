@@ -106,7 +106,8 @@ of ours does not make the result ours. Two live cases:
 `content/difficulty.json`, whose numbers come from Robyn Speer's `wordfreq` and
 which travels with the credit that list requires; and the rewritten glosses,
 which start from Wiktionary and so carry its credit and its
-pass-on-the-same-freedom terms.
+pass-on-the-same-freedom terms — `content/glosses/bram-stoker_dracula.json` is
+the first one that ships.
 
 **Not authored here at all** — the text inside cited excerpts, and the books in
 the [library](https://github.com/superb-catalogue/library). Each keeps whatever

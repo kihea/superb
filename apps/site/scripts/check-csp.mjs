@@ -147,6 +147,14 @@ const result = await page.evaluate(async (attackerOrigin) => {
   }
 }, attackerOrigin);
 
+// The violation report crosses the exposeFunction bridge asynchronously, so
+// closing the page the instant the fetch rejects can lose an event that did
+// fire. Wait briefly for it; a genuinely silent browser still fails below.
+const reportDeadline = Date.now() + 2000;
+while (violations.length === 0 && Date.now() < reportDeadline) {
+  await new Promise((resolve) => setTimeout(resolve, 50));
+}
+
 await page.close();
 await browser.close();
 targetServer.close();

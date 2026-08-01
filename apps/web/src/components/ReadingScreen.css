@@ -1,6 +1,9 @@
 /* Frame 3a: the room is paper now, the same paper the other thirteen
-   screens stand on. The passage's own ink and paper (--page-*) did not
-   move -- see ReadingScreen.tsx's header and issue #100. */
+   screens stand on. The passage's own ink and paper used to be a separate
+   --page-* register (ADR-019 Decision 1, protected through issue #100) --
+   superseded now that Kihea's finalized design system ships one surface
+   for the whole app, reading included. .reading-page below reads the same
+   --surface- and --text- tokens as everything else. */
 .reading-screen {
   min-height: 100dvh;
   display: flex;
@@ -118,17 +121,14 @@
 }
 
 /* The register decision, receipted 2026-07-27 (workspace/decisions/
-   README.md): Kihea chose "a little of his own hand" -- these are the
-   values his choice picked, item 7's `drawn` candidate, now the only
-   values that exist. Root-scoped (read by MarginMark.css, BreakChain.css,
-   DoodleArrow.css) because the pull-up button carrying DoodleArrow is
-   portalled to document.body (see the portal comment in PassagePage.tsx),
-   outside `.reading-screen`'s own DOM subtree -- a class-scoped variable
-   would never reach it. */
+   README.md): Kihea chose "a little of his own hand" -- this is the one
+   surviving value from that choice, DoodleArrow's stroke weight (issue
+   #111 removed the margin mark and break chain; see PassagePage.tsx and
+   ReadingScreen.tsx). Root-scoped because the pull-up button carrying
+   DoodleArrow is portalled to document.body (see the portal comment in
+   PassagePage.tsx), outside `.reading-screen`'s own DOM subtree -- a
+   class-scoped variable would never reach it. */
 :root {
-  --margin-mark-opacity: 0.16;
-  --break-chain-opacity: 0.4;
-  --break-chain-height: 22px;
   --doodle-arrow-weight: 4;
 }
 
@@ -143,8 +143,8 @@
    pull-up bar's sentinel then never came into view, so "Keep reading" never
    appeared. Nine tests caught it at once. */
 .reading-page {
-  background-color: var(--page-ground);
-  color: var(--page-ink);
+  background-color: var(--surface-page);
+  color: var(--text-1);
 }
 
 /* 3c, the wide view: the empty left column is gone. The passage sits left
@@ -167,20 +167,17 @@
   }
 }
 
-/* Rendered inside .reading-page -- the card -- so it takes the card's own
-   page.* tokens rather than the surrounding chrome.* ones. Found the same
-   way the pull-up button's bug was: chrome-ink-muted is a dark-ground
-   colour, and this text lives on a light surface. The rule going forward: a
-   register colours the ground and the chrome around the reading surface;
-   the reading surface (and everything drawn on it) takes the surface's own
-   inks. */
+/* Rendered inside .reading-page -- the card -- so it takes the same
+   --text-* tokens the reading surface reads everywhere else, not a
+   register-specific ink. Found the same way the pull-up button's bug was:
+   a dark-ground colour showing up on a light surface. */
 .reading-status {
   padding: var(--space-8) var(--space-4);
   max-width: var(--type-passage-measure);
   margin: 0 auto;
   font-family: var(--font-sans);
   font-size: var(--type-ui-size-md);
-  color: var(--page-ink-muted);
+  color: var(--text-2);
   position: relative;
   display: inline-block;
 }
@@ -197,7 +194,7 @@
   background-image: linear-gradient(
     90deg,
     transparent 0 40%,
-    var(--page-ink) 50%,
+    var(--text-1) 50%,
     transparent 60% 100%
   );
   background-size: 300% 100%;

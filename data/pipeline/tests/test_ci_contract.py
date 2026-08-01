@@ -299,7 +299,7 @@ def main() -> int:
     site_scripts = package_scripts("apps/site")
     expected_site_scripts = {
         "assemble": "node scripts/assemble.mjs",
-        "smoke": "node scripts/check-assembled.mjs",
+        "smoke": "node scripts/check-assembled.mjs && node scripts/check-csp.mjs",
     }
     for script, expected_command in expected_site_scripts.items():
         if site_scripts.get(script) != expected_command:

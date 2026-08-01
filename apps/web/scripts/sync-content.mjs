@@ -16,9 +16,10 @@
 // data/pipeline/difficulty.py and committed. It is what lets the content
 // store answer the engine's [bandLow, bandHigh] window with words that
 // actually sit inside it, instead of handing back the whole lexicon.
-import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const contentRoot = join(here, "..", "..", "..", "content");
@@ -48,4 +49,42 @@ writeFileSync(join(outDir, "difficulty.json"), JSON.stringify(difficulty));
 console.log(
   `synced ${passages.length} passages, ${sources.length} sources, ${classes.length} classes, ` +
     `${Object.keys(difficulty.words).length} word difficulties -> public/content/`,
+);
+
+// Slice 1A: the catalogue artifact (content/catalogue.lock.json,
+// superb-catalogue/library's scripts/export_catalogue.py) and its
+// book-scoped gloss table. Both are read byte-for-byte from content/ and
+// re-hashed here rather than trusted -- the lock file is the one place this
+// build states what it expects to ship, so a content/catalogue/ edit that
+// drifts from it fails the build instead of silently shipping the wrong
+// bytes (the same freshness-gate shape every other check in this script's
+// build already takes for granted, just not yet written down for this one).
+const lock = JSON.parse(readFileSync(join(contentRoot, "catalogue.lock.json"), "utf-8"));
+const cataloguePath = join(contentRoot, lock.vendored_path.replace(/^content\//, ""));
+if (!existsSync(cataloguePath)) {
+  throw new Error(`catalogue.lock.json names ${lock.vendored_path}, which does not exist`);
+}
+const catalogueBytes = readFileSync(cataloguePath);
+const catalogueDigest = createHash("sha256").update(catalogueBytes).digest("hex");
+if (catalogueDigest !== lock.sha256) {
+  throw new Error(
+    `content/catalogue.lock.json's sha256 (${lock.sha256}) does not match ${lock.vendored_path} (${catalogueDigest})`,
+  );
+}
+writeFileSync(join(outDir, "catalogue-v0.1.0.json"), catalogueBytes);
+
+const glossesDir = join(contentRoot, "glosses");
+let glossFileCount = 0;
+if (existsSync(glossesDir)) {
+  mkdirSync(join(outDir, "glosses"), { recursive: true });
+  for (const name of readdirSync(glossesDir)) {
+    if (!name.endsWith(".json")) continue;
+    writeFileSync(join(outDir, "glosses", name), readFileSync(join(glossesDir, name)));
+    glossFileCount += 1;
+  }
+}
+
+console.log(
+  `synced catalogue-v0.1.0.json (${catalogueBytes.length} bytes, checksum verified) and ` +
+    `${glossFileCount} book gloss table(s) -> public/content/`,
 );
