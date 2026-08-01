@@ -1,7 +1,9 @@
-// Screen 14's entry point, where frame 1v says it lives: "Nothing in the
-// reading screen advertises sharing. It appears only when you hold a
-// sentence, next to Keep and Hear it." So this is raised by holding a
-// sentence in the passage, and there is no other way to reach it.
+// Raised by holding a sentence in the passage: Keep the words, or hear it.
+// A third item, "Send to someone" (frame 1v's own entry into screen 14,
+// /share), was removed for the truthful-alpha checkpoint (PLAN.md §7) --
+// that screen showed an invented sentence regardless of what was actually
+// held, and production navigation may not reach a control that lies about
+// what it does. See PassagePage.tsx's own comment at this menu's call site.
 //
 // The card and its caret are frame 2k's. Portalled to document.body for the
 // same reason GlossCard is -- PassagePage's entrance animation leaves a
@@ -21,14 +23,13 @@ export interface HoldMenuProps {
   newCount: number;
   onKeep: () => void;
   onHear: () => void;
-  onSend: () => void;
   onDismiss: () => void;
 }
 
 const CARD_WIDTH_MAX = 420;
 const EDGE = 18;
 
-export function HoldMenu({ anchor, newCount, onKeep, onHear, onSend, onDismiss }: HoldMenuProps) {
+export function HoldMenu({ anchor, newCount, onKeep, onHear, onDismiss }: HoldMenuProps) {
   const [viewport, setViewport] = useState({ w: window.innerWidth, h: window.innerHeight });
 
   useEffect(() => {
@@ -82,16 +83,6 @@ export function HoldMenu({ anchor, newCount, onKeep, onHear, onSend, onDismiss }
           <span className="hold-menu__orb">
             <VoiceOrb size={18} />
           </span>
-        </button>
-        <span className="hold-menu__rule" />
-        <button
-          type="button"
-          className="hold-menu__item hold-menu__item--brand"
-          role="menuitem"
-          onClick={onSend}
-        >
-          <span>Send to someone</span>
-          <span className="hold-menu__aside">as a card</span>
         </button>
       </div>
     </div>,

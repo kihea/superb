@@ -12,7 +12,6 @@ import { GlossCard } from "./GlossCard";
 import { HoldMenu } from "./HoldMenu";
 import { BreakChain } from "./doodle/BreakChain";
 import { DoodleArrow } from "./doodle/DoodleArrow";
-import { useNavigate } from "../router/context";
 
 // Long enough that it cannot be mistaken for a tap on a word, short enough
 // that it does not feel like waiting.
@@ -29,9 +28,14 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   const [activeWord, setActiveWord] = useState<string | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
-  const navigate = useNavigate();
 
-  // Holding a sentence (frame 1v) -- the only entrance to screen 14.
+  // Holding a sentence (frame 1v) opens Keep/Hear. "Send to someone" used to
+  // be the third item here and the only entrance to screen 14 (/share) --
+  // removed for the truthful-alpha checkpoint (PLAN.md §7): that screen
+  // shows an invented sentence unrelated to whatever was actually held, and
+  // production navigation may not reach a control that lies about what it
+  // does. /share and HoldMenu's onSend prop are gone; Keep and Hear stay,
+  // ADR-036's licensed flourishes.
   const [held, setHeld] = useState<{ index: number; rect: DOMRect } | null>(null);
   const holdTimer = useRef<number | undefined>(undefined);
   // A hold ends with a pointerup over a word, which would otherwise open
@@ -199,10 +203,6 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
           newCount={countNew(sentences[held.index])}
           onKeep={() => setHeld(null)}
           onHear={() => setHeld(null)}
-          onSend={() => {
-            setHeld(null);
-            navigate("/share");
-          }}
           onDismiss={() => setHeld(null)}
         />
       )}
