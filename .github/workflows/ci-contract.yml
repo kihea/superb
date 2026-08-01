@@ -19,23 +19,10 @@ on:
         "data/pipeline/tests/test_ci_contract.py",
         "scripts/release.py",
       ]
+  # This is the required branch-protection check. It must report on every pull
+  # request; path-filtering a required workflow leaves unrelated PRs waiting
+  # forever for a check that GitHub never creates.
   pull_request:
-    paths:
-      [
-        ".gitignore",
-        ".github/workflows/ci-contract.yml",
-        ".github/workflows/core.yml",
-        ".github/workflows/data-license.yml",
-        ".github/workflows/deep-assurance.yml",
-        ".github/workflows/site.yml",
-        ".github/workflows/web.yml",
-        "apps/site/package.json",
-        "apps/web/package.json",
-        "apps/web/playwright.config.ts",
-        "data/pipeline/tests/run_all.py",
-        "data/pipeline/tests/test_ci_contract.py",
-        "scripts/release.py",
-      ]
   workflow_dispatch:
 
 concurrency:

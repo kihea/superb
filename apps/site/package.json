@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "The public landing page — Kihea's designed page, served verbatim. Static output, no framework, nothing from apps/web's toolchain.",
+  "description": "The public landing page and assembled release shell for the reading app.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "npm run build",

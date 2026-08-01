@@ -49,78 +49,38 @@ violations or harmful behavior to **kihea@icloud.com**.
 
 ## Overview
 
-This project is governed by the principles of education for all. Meaning, anything that doesn't
-cost to supply doesn't cost to the user. The architecture is outlined below:
-```
-superb/                      PRIVATE · the working root
-├─ CLAUDE.md                     project constitution — read first
-│
-└─ app/  ──────────▶  PUBLIC · source-available · github.com/kihea/superb
-   │                             a git submodule. everything a person needs to
-   │                             build and run Superb, and nothing else.
-   │
-   ├─ README.md · LICENSE · CONTRIBUTING.md
-   │
-   ├─ crates/
-   │  ├─ superb-core/            THE ENGINE. pure. no I/O, no clock, no RNG.
-   │  │  ├─ src/{state,scheduler,ability,signals,composer,tuning}.rs
-   │  │  ├─ tuning.toml          every tunable constant, in one file
-   │  │  └─ tests/{property,golden}/
-   │  ├─ superb-sim/             headless simulator: synthetic learners
-   │  ├─ superb-wasm/            wasm-bindgen surface for web
-   │  └─ superb-ffi/             UniFFI surface for Kotlin and Swift
-   │
-   ├─ data/
-   │  ├─ MANIFEST.md             every dataset row. CI gate. ADR-008.
-   │  ├─ pipeline/               python build scripts (build-time only)
-   │  └─ out/                    generated artifacts (gitignored)
-   │
-   ├─ content/
-   │  ├─ schema/                 passage · slot-class · provenance schemas
-   │  ├─ classes/                semantic / POS slot classes
-   │  ├─ passages/               composed: the authored slot library
-   │  └─ sources/                sourced: cited public-domain excerpts
-   │
-   ├─ apps/
-   │  ├─ web/                    React 19 + Vite + PWA
-   │  ├─ android/                Kotlin + Jetpack Compose
-   │  └─ ios/                    SwiftUI  (M8)
-   │
-   ├─ design/
-   │  └─ tokens.json             single source of truth, design tool ↔ code
-   │
-   └─ .github/workflows/         core · sim · data-license · web · android
-
+Superb is built on a simple rule: anything that costs nothing to supply costs
+nothing to use. This public repository contains the engine, web app, site,
+content, and build tooling needed to run the current product locally.
 
 ```
+superb/
+├─ crates/
+│  ├─ superb-core/        pure engine: no I/O, clock, or RNG
+│  ├─ superb-wasm/        WebAssembly boundary used by the web app
+│  └─ superb-sim/         synthetic-reader and long-running checks
+├─ apps/
+│  ├─ web/                React 19 + Vite PWA
+│  └─ site/               landing page and assembled deploy artifact
+├─ data/                  build-time datasets, manifest, and pipeline
+├─ content/               schemas, classes, passages, and cited sources
+├─ design/                shared design tokens
+└─ scripts/release.py     repository-level release candidate gate
 ```
-                      ┌──────────────────────────┐
-   data/pipeline ────▶ │  reference artifacts     │
-   (python, build-time)│  frequency · glosses ·   │
-                      │  sentences · pseudowords │
-                      └───────────┬──────────────┘
-                                  │ read-only, host-owned
-                                  ▼
-  ┌────────────┐    plan()   ┌─────────────────────┐
-  │            │────────────▶│                     │
-  │   shell    │             │   superb-core       │  pure · sync · no I/O
-  │  (web /    │◀────────────│   state machine     │  no clock · no RNG
-  │  android / │   decide()  │   scheduler         │
-  │   ios)     │────────────▶│   θ / IRT estimator │
-  │            │◀────────────│   signal ranking    │
-  └─────┬──────┘   effects   │   composer          │
-        │                    └─────────────────────┘
-        ▼
-  learner state (IndexedDB / Room / GRDB)  ── never leaves the device
-```
+
+The web shell may render, persist, and supply time. Scheduling and learner-state
+decisions stay inside `superb-core` and cross the WebAssembly boundary as typed
+plans and effects. The current web app stores learner state in IndexedDB.
+
 ---
 
 ## Vision
 
-It is woefully apparent that there is an ongoing literacy crisis among the working class. The gap between understanding english and to using it masterfully is widening fast especially among the generation eclipsed by the attention economy. This app hopes to lessen this gap in an engaging way.
-The app has 3 modes planned: learning mode, word association mode, and rhyming mode. Each targeting
-the bases of linguistic utilization. A daily user of this app should be eloquent and able to deploy
-the english language with advanced fluency.
+Superb exists to help people read with more range and confidence. It should feel
+like reading, not like managing a course. The engine quietly schedules useful
+encounters while the page stays free of scores, queues, levels, and teaching
+language. Optional association, rhyme, and elevated-language challenges may
+come later, but they do not set the shape of ordinary reading.
 
 ---
 
@@ -130,28 +90,25 @@ the english language with advanced fluency.
 
 | Tool | Version | Notes |
 |------|---------|-------|
-| Rust | 1.96.0 | Install via [rustup](https://rustup.rs/) |
+| Rust | 1.96.0 | Installed from `rust-toolchain.toml` via [rustup](https://rustup.rs/) |
+| Node.js | 24 | Matches the web and site workflows |
+| Python | 3.12 | Runs the data checks and root release command |
+| wasm-bindgen-cli | 0.2.126 | Must match the checked-in Wasm crate |
 
-Build using
+Install the WebAssembly target and binding tool once:
+
 ```sh
-cargo test -p superb-core     # the engine and its property tests
+rustup target add wasm32-unknown-unknown
+cargo install wasm-bindgen-cli --version 0.2.126 --locked
 ```
 
-One pure Rust engine, three thin shells, no server. Today, only
-`crates/superb-core` exists in this repository — the rest of the list below is
-the planned shape, not a directory you can clone and open yet.
+Then install and run the web app:
 
-- `crates/superb-core` — the engine. Word state machine, scheduler, ability
-  estimator, passage composer. Pure: no clock, no RNG, no I/O. `now` and seeds
-  are parameters. This is the primary artifact.
-- `crates/superb-sim` — headless simulator. Synthetic learners with known
-  vocabularies, run over many sessions to prove the schedule converges.
-- `apps/web` — React + Vite PWA. First platform.
-- `apps/android` — Jetpack Compose. Second.
-- `apps/ios` — SwiftUI. Third.
-- `data/` + `content/` — reference corpora, the composed passage library, and
-  cited excerpts from public-domain literature. Every file is licence-audited
-  by CI; every excerpt carries a complete citation.
+```sh
+cd apps/web
+npm ci
+npm run dev
+```
 
 ---
 
@@ -160,14 +117,22 @@ the planned shape, not a directory you can clone and open yet.
 Testing should be built into your contributions. A test lands in the same
 commit as the behaviour it covers.
 
-- `cargo test -p superb-core` — the engine and its property tests.
-- `cargo test --workspace --all-features --locked` — the full suite, exactly
-  as CI runs it; run this before opening a pull request.
+- `cargo test -p superb-core -p superb-wasm --all-features --locked` checks the
+  engine and its WebAssembly boundary.
+- `cargo test -p superb-sim --lib --test oracle_boundary --locked` runs the
+  simulator checks kept in the pull-request lane.
+- `python data/pipeline/tests/run_all.py` discovers and runs every executable
+  Python regression test.
+- `cd apps/web && npm test` runs type checking, lint, unit tests, the production
+  build, and Playwright. Install Chromium first with
+  `npx playwright install chromium`.
+- `python scripts/release.py` runs the repository-level release candidate gate,
+  including offline/installability checks and exact site-artifact restoration.
 
-Tests live in `crates/superb-core/tests/`. Behaviour there is pinned by
-property tests over a generated domain, not by a handful of hand-picked
-examples — see `crates/superb-core/tests/state_properties.rs` for what that
-looks like in practice.
+Long simulator sweeps and report regeneration run in the nightly deep-assurance
+workflow. They are not part of the normal edit loop. Before opening a pull
+request, run the focused commands for the files you changed; use the root
+release command for a release candidate.
 
 ---
 
@@ -251,18 +216,13 @@ citing it properly, and saying what those terms are.
 ## Proposing new features
 
 You can propose a feature by opening an issue and picking the feature request
-form, which tags it for you. You can also submit passages
-in `/passages`. Passages that use vocabulary masterfully (intentionally broad term) and in context
-are approved and added to the engine sourcing. The submission of passages is intended to highlight
-intentional, high level, or sophisticated human-written literature.
+form. A composed passage belongs in `content/passages/` and must validate
+against `content/schema/passage.schema.json`; its slot classes must already
+exist in `content/classes/`. Run `python content/scripts/validate_schema.py`
+and `python content/scripts/check_passages.py` before submitting it.
 
-A submitted passage lands in `passages/` as prose — the schema is not
-published yet, so it is not validated against a format. It may be judged by
-people or by automated reviewers, and it can be removed later by anyone —
-maintainer, reviewer, or contributor — with a one-line reason in the commit.
-Removal is deliberately cheap: a weak passage costs one commit to take back
-out, so the bar for accepting one can stay generous without the project being
-stuck with it.
+The former top-level `passages/` inbox predated the published schema and has
+been removed. New passage work uses the checked content path above.
 
 ### Sourced excerpts from existing literature
 
