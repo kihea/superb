@@ -27,31 +27,39 @@ const APPS_ROOT = path.resolve(SITE_ROOT, '..');
 const WEB_ROOT = path.join(APPS_ROOT, 'web');
 const SITE_DIST = path.join(SITE_ROOT, 'dist');
 const WEB_DIST = path.join(WEB_ROOT, 'dist');
+const NODE_BIN = path.dirname(process.execPath);
+const NPM_CLI_CANDIDATES = [
+  process.env.npm_execpath,
+  path.join(NODE_BIN, 'node_modules', 'npm', 'bin', 'npm-cli.js'),
+  path.resolve(NODE_BIN, '..', 'lib', 'node_modules', 'npm', 'bin', 'npm-cli.js'),
+].filter(Boolean);
+const NPM_CLI = NPM_CLI_CANDIDATES.find(existsSync);
 
 export const APP_BASE = '/read/';
 
-// Windows resolves `npm` through a .cmd shim, which execFileSync can only
-// launch through a shell -- `npm.cmd` directly is not reliably on PATH the
-// same way across every shell this runs in (verified: it 404s under Git
-// Bash here). shell:true is what makes that shim launch on every platform
-// CI and a contributor's machine actually use; the argv (fixed strings this
-// script owns, never user input) is safe to pass that way.
-function run(command, args, cwd, extraEnv) {
-  console.log(`$ (${path.relative(APPS_ROOT, cwd)}) ${command} ${args.join(' ')}`);
-  execFileSync(command, args, {
+// Invoke npm's JavaScript entry point through the current Node executable.
+// This works around Windows' non-executable npm.cmd shim without shell:true,
+// so argv remains an argv array rather than being concatenated into a shell
+// command. npm_execpath is supplied by `npm run`; the fallback covers direct
+// `node scripts/assemble.mjs` runs from standard Node installations.
+function runNpm(args, cwd, extraEnv) {
+  if (!NPM_CLI) {
+    throw new Error(`npm CLI is unavailable; checked:\n  ${NPM_CLI_CANDIDATES.join('\n  ')}`);
+  }
+  console.log(`$ (${path.relative(APPS_ROOT, cwd)}) npm ${args.join(' ')}`);
+  execFileSync(process.execPath, [NPM_CLI, ...args], {
     cwd,
     stdio: 'inherit',
     env: { ...process.env, ...extraEnv },
-    shell: true,
   });
 }
 
 function main() {
   // Landing first -- it owns dist/'s root and this rebuild wipes whatever
   // was there (scripts/build.mjs's own behaviour, unchanged).
-  run('npm', ['run', 'build'], SITE_ROOT);
+  runNpm(['run', 'build'], SITE_ROOT);
 
-  run('npm', ['run', 'build'], WEB_ROOT, { VITE_BASE: APP_BASE });
+  runNpm(['run', 'build'], WEB_ROOT, { VITE_BASE: APP_BASE });
 
   const target = path.join(SITE_DIST, 'read');
   if (existsSync(target)) rmSync(target, { recursive: true, force: true });

@@ -21,13 +21,47 @@
 // and the passage selector never appeared.
 
 import { createServer } from 'node:http';
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
+const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
+const ALLOWED_LANDING_HOSTS = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+
+// Extensions skipped by the host scan below. This is a deny-list on purpose,
+// and the reason is the whole history of this check. It has now been defeated
+// three times, each time the same way: the guard identified the danger by what
+// it was *called* -- first a basename, then a content hash, then an allow-list
+// of extensions to bother reading. A verifier saved a digest-shifted copy of
+// the retired bundle as `tracker.JS`, uppercase, and it passed both the hash pin
+// and the scan, because `path.extname` returns `.JS` and the allow-list held
+// `.js`. An allow-list of things to look at has to predict every disguise; a
+// deny-list of things that cannot carry a URL does not.
+//
+// Everything not listed here is read as latin1, which cannot throw on binary
+// input and simply finds nothing in it -- so adding an *unlisted* asset type
+// never silently removes it from the scan.
+//
+// WHAT THIS STILL DOES NOT CATCH, because a verifier proved it rather than
+// imagined it, and because the sentence above is easy to over-read. Files on
+// this deny-list are not opened at all, so a `.png` containing JavaScript text
+// is invisible here -- and the landing already ships `support.js`, whose
+// dc-runtime fetches a URL, transforms the response and evals it. One scanned
+// `.js` that fetches an unscanned `.png` and evals it reaches jsDelivr with
+// this check green. That was demonstrated end to end, not argued.
+//
+// So read this scan as a lint, not as a boundary. A content scanner cannot
+// decide what arbitrary bytes will do once something fetches and evaluates
+// them; only the browser can, and the mechanism for that is a
+// Content-Security-Policy pinning `script-src` and `connect-src` to the same
+// hosts this file allows. That is the real fix and it is filed, not done.
+// Until it exists, this check raises the cost of shipping the retired bundle
+// back and does not make it impossible.
+const BINARY_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.otf', '.wasm', '.mp4', '.webm', '.zip', '.pdf']);
 
 if (!existsSync(path.join(DIST, 'index.html'))) {
   console.error('check-assembled: dist/index.html missing -- run `npm run assemble` first.');
@@ -37,10 +71,47 @@ if (!existsSync(path.join(DIST, 'read', 'index.html'))) {
   console.error('check-assembled: missing dist/read/index.html; run npm run assemble first');
   process.exit(1);
 }
-const retiredBundle = readdirSync(DIST, { recursive: true })
-  .find((entry) => path.basename(String(entry)) === '_ds_bundle.js');
+const retiredBundle = readdirSync(DIST, { recursive: true }).find((entry) => {
+  const relative = String(entry);
+  const file = path.join(DIST, relative);
+  if (path.basename(relative) === '_ds_bundle.js') return true;
+  if (!statSync(file).isFile()) return false;
+  const digest = createHash('sha256').update(readFileSync(file)).digest('hex');
+  return digest === RETIRED_BUNDLE_SHA256;
+});
 if (retiredBundle) {
-  console.error(`check-assembled: retired design-system runtime is still shipped: ${retiredBundle}`);
+  console.error(`check-assembled: retired design-system runtime bytes are still shipped: ${retiredBundle}`);
+  process.exit(1);
+}
+const disallowedStaticUrls = [];
+for (const entry of readdirSync(DIST, { recursive: true })) {
+  const relative = String(entry);
+  if (relative.split(/[\\/]/)[0] === 'read') continue;
+  const file = path.join(DIST, relative);
+  if (!statSync(file).isFile() || BINARY_EXTENSIONS.has(path.extname(relative).toLowerCase())) continue;
+  const text = readFileSync(file, 'latin1');
+  for (const match of text.matchAll(/https?:[\\/]*[^\s"'<>`)]+/gi)) {
+    // A URL-shaped substring in a comment or a minified string is not
+    // necessarily a URL. `new URL` throws on those, and an uncaught throw here
+    // takes the gate down with a raw stack trace instead of a named failure --
+    // which fails closed, but a gate that crashes is a gate somebody eventually
+    // loosens to stop it crashing. Skip what does not parse; the hostname
+    // regex is what this check actually needs.
+    let hostname;
+    try {
+      hostname = new URL(match[0]).hostname;
+    } catch {
+      continue;
+    }
+    if (!ALLOWED_LANDING_HOSTS.has(hostname)) {
+      disallowedStaticUrls.push(`${relative}: ${match[0]}`);
+    }
+  }
+}
+if (disallowedStaticUrls.length > 0) {
+  console.error(
+    `check-assembled: landing artifact names unapproved external hosts:\n  ${disallowedStaticUrls.join('\n  ')}`,
+  );
   process.exit(1);
 }
 
@@ -119,10 +190,9 @@ const problems = [];
     problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
-  const allowedExternalHosts = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
   const disallowedRequests = requestedUrls.filter((raw) => {
     const url = new URL(raw);
-    return (url.hostname !== '127.0.0.1' && !allowedExternalHosts.has(url.hostname))
+    return (url.hostname !== '127.0.0.1' && !ALLOWED_LANDING_HOSTS.has(url.hostname))
       || url.pathname.endsWith('/_ds_bundle.js');
   });
   if (disallowedRequests.length > 0)
