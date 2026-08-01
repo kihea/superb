@@ -21,7 +21,7 @@
 // and the passage selector never appeared.
 
 import { createServer } from 'node:http';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -34,7 +34,13 @@ if (!existsSync(path.join(DIST, 'index.html'))) {
   process.exit(1);
 }
 if (!existsSync(path.join(DIST, 'read', 'index.html'))) {
-  console.error('check-assembled: dist/read/index.html missing -- run `npm run assemble` first.');
+  console.error('check-assembled: missing dist/read/index.html; run npm run assemble first');
+  process.exit(1);
+}
+const retiredBundle = readdirSync(DIST, { recursive: true })
+  .find((entry) => path.basename(String(entry)) === '_ds_bundle.js');
+if (retiredBundle) {
+  console.error(`check-assembled: retired design-system runtime is still shipped: ${retiredBundle}`);
   process.exit(1);
 }
 
@@ -77,6 +83,8 @@ const problems = [];
   // publishable landing page owes readers.
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const failedRequests = [];
+  const requestedUrls = [];
+  page.on('request', (req) => requestedUrls.push(req.url()));
   page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
   page.on('response', (res) => {
     if (res.status() >= 400) failedRequests.push(`${res.url()} -> ${res.status()}`);
@@ -111,6 +119,14 @@ const problems = [];
     problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
+  const allowedExternalHosts = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+  const disallowedRequests = requestedUrls.filter((raw) => {
+    const url = new URL(raw);
+    return (url.hostname !== '127.0.0.1' && !allowedExternalHosts.has(url.hostname))
+      || url.pathname.endsWith('/_ds_bundle.js');
+  });
+  if (disallowedRequests.length > 0)
+    problems.push(`/ : landing loads an unapproved runtime or external host --\n    ${disallowedRequests.join('\n    ')}`);
 }
 
 // --- "/read/" : the app reaches its first painted reading surface.

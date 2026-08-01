@@ -16,7 +16,9 @@ npm run smoke      # check the sealed layout in Chromium
 ```
 
 The smoke check opens the landing at a 390px viewport, rejects dead or clipped
-links, and verifies that `/read/` reaches a painted passage. The site workflow
-uploads the checked archive on every relevant build. It publishes to Cloudflare
-only when the repository has the required account and API-token secrets; a
-successful build does not by itself mean `superb.works` is live.
+links and unapproved runtime hosts, and verifies that `/read/` reaches a painted
+passage. [ASSETS.md](ASSETS.md) records the generated scene/runtime provenance
+and the licences of the permitted external dependencies. The site
+workflow uploads the checked archive on every relevant build. It publishes to
+Cloudflare only when the repository has the required account and API-token
+secrets; a successful build does not by itself mean `superb.works` is live.
