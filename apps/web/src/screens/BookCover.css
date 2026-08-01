@@ -27,13 +27,6 @@
   align-items: flex-end;
 }
 
-.book-head__facts {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-  padding-bottom: var(--sp-3);
-}
-
 .book-names {
   display: flex;
   flex-direction: column;

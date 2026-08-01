@@ -83,7 +83,11 @@ interface TopicTally {
 async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> {
   return page.evaluate(async () => {
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
-      const req = indexedDB.open("superb-web", 1);
+      // No version pinned: this only reads, and Slice 1A (PLAN.md §7)
+      // bumped the shell's own schema to version 2 (storage/db.ts's own
+      // BOOK_STORE) -- opening at a fixed version here would throw a
+      // VersionError once the app itself has upgraded the database past it.
+      const req = indexedDB.open("superb-web");
       req.onsuccess = () => resolve(req.result);
       req.onerror = () => reject(req.error);
     });
@@ -160,15 +164,15 @@ test("the pull-up button is always page-toned, not chrome-toned", async ({ page 
     const cs = getComputedStyle(el);
     return { color: cs.color, background: cs.backgroundColor };
   });
-  // rgb(33, 28, 21) / rgb(251, 248, 240) -- design/tokens.json's
-  // page.light.ink / page.light.cardGround, read under this test's default
-  // (light) colour scheme. --page-* itself now darkens at night too (issue
-  // #100, ADR-039), so this exact pair is a light-mode reading rather than a
-  // constant -- what this asserts, and what matters here, is that the
-  // button reads --page-* at all, never --chrome-*, so it is legible
-  // against whatever the page currently is instead of a fixed room colour.
-  expect(styles.color).toBe("rgb(33, 28, 21)");
-  expect(styles.background).toBe("rgb(251, 248, 240)");
+  // rgb(46, 35, 28) / rgb(255, 252, 246) -- design/ox.css's Oxblood light
+  // --text-1 / --surface-card, read under this test's default (light)
+  // colour scheme. These darken at night too (issue #100, ADR-039), so this
+  // exact pair is a light-mode reading rather than a constant -- what this
+  // asserts, and what matters here, is that the button reads the reading
+  // surface's own tokens, never the chrome ones, so it is legible against
+  // whatever the page currently is instead of a fixed room colour.
+  expect(styles.color).toBe("rgb(46, 35, 28)");
+  expect(styles.background).toBe("rgb(255, 252, 246)");
 });
 
 // The general form of the same bug: any chrome text left pointed at the
@@ -189,20 +193,20 @@ test("every chrome text on the reading surface meets WCAG AA contrast", async ({
     AA_BODY_TEXT,
   );
 
-  // .reading-status and .passage-citation both read --page-ink-muted and
-  // both live inside .reading-page; the pairing is asserted against
-  // .reading-page's real effective background rather than chasing
-  // .reading-status's own transient mount.
+  // .reading-status and .passage-citation both read --text-2 and both live
+  // inside .reading-page; the pairing is asserted against .reading-page's
+  // real effective background rather than chasing .reading-status's own
+  // transient mount.
   const readingPageBg = await effectiveBackground(page, ".reading-page");
-  const pageInkMutedRgb = await page.evaluate(() => {
+  const textMutedRgb = await page.evaluate(() => {
     const probe = document.createElement("div");
-    probe.style.color = "var(--page-ink-muted)";
+    probe.style.color = "var(--text-2)";
     document.body.appendChild(probe);
     const rgb = getComputedStyle(probe).color;
     probe.remove();
     return rgb;
   });
-  expect(contrastRatio(parseRgb(pageInkMutedRgb), parseRgb(readingPageBg))).toBeGreaterThanOrEqual(AA_BODY_TEXT);
+  expect(contrastRatio(parseRgb(textMutedRgb), parseRgb(readingPageBg))).toBeGreaterThanOrEqual(AA_BODY_TEXT);
 
   await page.locator(".passage-word").first().click();
   const glossContrast = await page.locator(".gloss-definition").evaluate((el) => {

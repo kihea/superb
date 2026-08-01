@@ -218,10 +218,14 @@ test.describe("the walk", () => {
 
   test("the library reaches a book, and a book reaches its own pages", async ({ page }) => {
     await page.goto("/library");
-    await page.getByRole("button", { name: /Meditations/ }).first().click();
-    await expect(page).toHaveURL(/\/book\/meditations$/);
+    // Slice 1A (PLAN.md §7): the real catalogue artifact, not v0mock --
+    // book-reading-spine.spec.ts covers this same path with the acceptance
+    // spine's own depth (gloss, encounter, resume, offline); this walk only
+    // needs reachability.
+    await page.getByRole("button", { name: /Dracula/ }).first().click();
+    await expect(page).toHaveURL(/\/book\/bram-stoker_dracula$/);
     await page.getByRole("button", { name: "Begin" }).click();
-    await expect(page).toHaveURL(/\/book\/meditations\/read$/);
+    await expect(page).toHaveURL(/\/book\/bram-stoker_dracula\/read$/);
   });
 });
 
@@ -373,8 +377,8 @@ test.describe("the quiet screens stay quiet", () => {
     "/",
     "/shelf",
     "/library",
-    "/book/meditations",
-    "/book/up-from-slavery/read",
+    "/book/bram-stoker_dracula",
+    "/book/bram-stoker_dracula/read",
     "/share",
   ]) {
     test(`no pedagogy narrated on ${path}`, async ({ page }) => {
