@@ -34,3 +34,39 @@ Fonts. The family is distributed under the
 The assembled browser check permits only `unpkg.com`, `fonts.googleapis.com`,
 and `fonts.gstatic.com` as external landing-page hosts. It rejects new hosts and
 the retired design-system JavaScript bundle.
+
+## The boundary is the Content-Security-Policy, not the check (issue #126)
+
+The check above reads files and text before anything ships; it is a fast early
+warning, not a guarantee. An independent review demonstrated why: the check
+skips binary files (images, fonts) because they normally cannot carry a web
+address, and a JavaScript file it *does* read can fetch such a file at runtime
+and execute whatever bytes come back — the check passes clean while the page
+genuinely reaches an outside server. Three earlier rounds of making the check
+read more (a filename, then exact file contents, then more file types) were
+each defeated the same way, by disguising the payload as something the check
+still does not open.
+
+`dist/_headers` (written by `scripts/assemble.mjs`, not committed as a static
+file) sets a `Content-Security-Policy` on both surfaces, restricting
+`script-src`/`connect-src`/`style-src`/`font-src` to `'self'` plus exactly the
+hosts named above. The browser enforces this at the moment a request is made,
+regardless of what the requesting file was named, what MIME type it claimed,
+or how the address it used was assembled — the property the file-content check
+cannot have. `scripts/check-csp.mjs` proves it live: it reintroduces the
+retired bundle's own bypass shape (a same-origin script fetching a payload
+from an outside origin and running it) against the real assembled artifact,
+with its real headers applied, and asserts the browser blocks the fetch,
+reports a `securitypolicyviolation`, and the payload never runs — not that a
+scanner would have caught it, that the browser actually stopped it.
+
+The landing page's own `script-src` includes `'unsafe-eval'`, audited rather
+than assumed necessary: `page/support.js` runs Babel-transformed JSX via
+`new Function(...)` at runtime, which CSP treats the same as `eval()`. This
+does not reopen the hole the policy exists to close — `'unsafe-eval'` governs
+*how* already-loaded, already-origin-restricted code may execute, never
+*which host* it may reach; `connect-src`'s host allow-list is what actually
+blocks the attack this issue describes, and that holds whether or not eval is
+permitted. The reading app (`/read/*`) needs no such allowance — its
+`script-src` carries `'wasm-unsafe-eval'` only, CSP's own narrower permission
+for `WebAssembly.instantiate`, and reaches no host beyond itself at all.
