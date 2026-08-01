@@ -146,6 +146,19 @@ a:hover{color:var(--brand)}
       </div>
     </div>
   </section>
+
+  <!-- Minimal on purpose: this is the whole real footprint of the product
+       today (source, and the one path in) -- issue #114 asked for a
+       complete page, not a busier one. No sitemap of rooms that don't exist
+       yet (Library/Pricing were the dead nav links this same pass removed;
+       a footer full of the same promises would just move the problem down
+       the page). -->
+  <footer style="position:relative; background:#140D09; border-top:1px solid rgba(246,238,226,.09)">
+    <div style="max-width:var(--shell-max); margin:0 auto; padding:var(--sp-8) clamp(20px,3.4vw,48px); display:flex; align-items:center; justify-content:space-between; gap:var(--sp-6); flex-wrap:wrap; font-family:'Geist Mono', ui-monospace, monospace; font-size:12.5px; color:rgba(246,238,226,.4)">
+      <span>Superb. Source-available, MIT + Commons Clause.</span>
+      <a href="https://github.com/kihea/superb" style="color:rgba(246,238,226,.6)">GitHub</a>
+    </div>
+  </footer>
 </div>
 
 </x-dc>
