@@ -12,7 +12,10 @@
   overflow-x: hidden;
 }
 
-/* 3a's top row: the way back to the Shelf, and the orb. */
+/* 3a's top row: the way to Library. Used to also carry the voice orb and a
+   second row (.reading-voice) for its fake "listening" state -- both
+   removed for the truthful-alpha checkpoint (PLAN.md §7; see
+   ReadingScreen.tsx's own comment at this row). */
 .reading-top {
   position: relative;
   z-index: 2;
@@ -36,30 +39,6 @@
 
 .reading-top__out:hover {
   color: var(--brand);
-}
-
-/* 2b: asking to be read to gives you two words, not a player. */
-.reading-voice {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-5);
-  padding: var(--sp-4) var(--sp-7) 0;
-}
-
-.reading-voice__from {
-  border: none;
-  background: transparent;
-  font: var(--type-label);
-  color: var(--text-3);
-  padding: var(--sp-3) 0;
-  cursor: pointer;
-}
-
-.reading-voice__from:first-child {
-  color: var(--text-1);
-  border-bottom: 1px solid var(--brand);
 }
 
 /* The aura, kept but quietened: on paper it is a single very soft warmth

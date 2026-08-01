@@ -24,17 +24,12 @@ import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { MarginMark } from "./doodle/MarginMark";
 import { PixelBreak } from "./chrome/PixelBreak";
-import { VoiceOrb } from "./voice/VoiceOrb";
-import type { OrbState } from "./voice/VoiceOrb";
 import { Link } from "../router/router";
 import { useState } from "react";
 
 export function ReadingScreen() {
   const session = useEngineSession();
   const [breaking, setBreaking] = useState(false);
-  // 2b: asking to be read to gives you two words, not a player. Still until
-  // the reader touches it -- see VoiceOrb's own header.
-  const [voice, setVoice] = useState<OrbState>("still");
 
   // ADR-036's B4 lives here, not inside PassagePage's own "Keep reading"
   // button: that button unmounts the instant `session.finish` swaps the
@@ -63,32 +58,20 @@ export function ReadingScreen() {
          height, static, in the room rather than on the page. Desktop only --
          there is no room for it beside the card on a phone. */}
       <MarginMark side="left" />
-      {/* 3a's top row: one word out, one thing to press. Nothing else. */}
+      {/* 3a's top row: one word out, nothing else. The truthful-alpha
+         checkpoint (PLAN.md §7) removed two things that used to live here:
+         a "Shelf" link (the Shelf screen is still v0mock-backed; Library is
+         the one real other room, so the outbound link now goes there
+         instead) and the voice orb button, which entered a "listening" /
+         "speaking" state and produced no audio -- exactly the kind of
+         control the product's own law forbids ("never implies an
+         unavailable capability"). The orb returns once Phase 2 wires it to
+         a real speech API; until then this row says one true thing. */}
       <header className="reading-top">
-        <Link to="/shelf" className="reading-top__out">
-          Shelf
+        <Link to="/library" className="reading-top__out">
+          Library
         </Link>
-        <button
-          type="button"
-          className="voice-orb-button"
-          data-listening={voice === "listening"}
-          data-speaking={voice === "speaking"}
-          aria-label={voice === "still" ? "Read this to me" : "Stop"}
-          onClick={() => setVoice((state) => (state === "still" ? "listening" : "still"))}
-        >
-          <VoiceOrb state={voice} size={voice === "still" ? 22 : 26} />
-        </button>
       </header>
-      {voice === "listening" && (
-        <div className="reading-voice sb-fade">
-          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
-            from here
-          </button>
-          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
-            from the chapter
-          </button>
-        </div>
-      )}
       <div className="reading-page">
         {session.status === "loading" && (
           <p className="reading-status" data-text="Finding something to read.">

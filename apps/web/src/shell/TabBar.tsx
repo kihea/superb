@@ -1,14 +1,18 @@
-// The row along the bottom of the Shelf (1h): the four other rooms, and a
-// quiet way into Settings. Plain words, no icons, no counts.
+// The row along the bottom of the Shelf (1h): the other rooms, and a quiet
+// way into Settings. Plain words, no icons, no counts.
+//
+// Truthful-alpha checkpoint (PLAN.md §7): Rhyme, Association and Elevated
+// are all v0mock-backed (a few hand-written rounds/fields/tiers, not the
+// engine's real band words or a licensed rhyme/association artifact), so
+// they came out of this row rather than sitting in production navigation
+// pointing at invented content. The screens and their routes still exist
+// (App.tsx) -- reachable by address, same as any other in-progress work --
+// they are just not linked to from anywhere a reader would find them. They
+// return here once Phase 3 makes them real.
 import { Link } from "../router/router";
 import { usePath } from "../router/context";
 
-const ROOMS = [
-  { to: "/library", label: "Library" },
-  { to: "/rhyme", label: "Rhyme" },
-  { to: "/association", label: "Assoc." },
-  { to: "/elevated", label: "Elevated" },
-];
+const ROOMS = [{ to: "/library", label: "Library" }];
 
 export function TabBar() {
   const path = usePath();
