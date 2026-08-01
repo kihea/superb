@@ -69,8 +69,14 @@ allow-list (`ALLOWED_READ_NAMED_HOSTS`) covers the reading app's own
 assembled output under `dist/read/` (issue #128) — the app's real source
 citations for each book and a handful of the same kind of developer-facing
 text, not new egress. The check also rejects the retired design-system
-JavaScript bundle, and (issue #127) decodes UTF-16 text correctly before
-scanning it, rather than reading every file as latin1.
+JavaScript bundle, and (issue #127) decodes UTF-16 text -- by byte-order
+mark where one is present, by a null-byte-density heuristic where one
+isn't -- before scanning it, rather than reading every file as latin1. The
+heuristic depends on the text being mostly Basic Latin; a non-Latin-script
+UTF-16 payload doesn't carry the same signal and can still go undetected
+by this scan (issue #143), though the Content-Security-Policy below remains
+the actual boundary regardless of what the static scan does or doesn't
+catch in a file's text.
 
 ## The boundary is the Content-Security-Policy, not the check (issue #126)
 

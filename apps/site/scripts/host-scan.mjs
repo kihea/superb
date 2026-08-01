@@ -37,7 +37,8 @@
 // scan is a lint on top of the CSP boundary (see check-assembled.mjs's own
 // comment), not the last word on arbitrary bytes, and a non-Latin UTF-16
 // payload is the one shape of this same bug that remains open after this
-// fix -- filed as a known residual gap, not claimed to be closed.
+// fix -- filed as a known residual gap (issue #143), not claimed to be
+// closed.
 function detectBomlessUtf16(buffer) {
   // Too short to sample meaningfully, and too short to matter -- a
   // same-origin script needs more than a couple of bytes to be a URL.
