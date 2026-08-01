@@ -6,6 +6,9 @@ import { defineConfig } from "@playwright/test";
 // PLAYWRIGHT_PORT to something private for your own edit-rebuild-retest
 // loop instead of hand-editing this file.
 const PORT = Number(process.env.PLAYWRIGHT_PORT) || 4319;
+const serverCommand = process.env.PLAYWRIGHT_USE_EXISTING_BUILD === "1"
+  ? `npm run preview -- --port ${PORT} --strictPort`
+  : `npm run build && npm run preview -- --port ${PORT} --strictPort`;
 
 export default defineConfig({
   testDir: "./e2e",
@@ -30,7 +33,7 @@ export default defineConfig({
   // own precache) quietly serving an old build against a fresh test run,
   // reading a broken build as green and a fixed one as red.
   webServer: {
-    command: `npm run build && npm run preview -- --port ${PORT} --strictPort`,
+    command: serverCommand,
     url: `http://localhost:${PORT}`,
     reuseExistingServer: false,
     timeout: 120_000,

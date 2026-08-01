@@ -64,7 +64,7 @@ jobs:
         run: python content/scripts/check_seed_sync.py
 
       - name: Prove the licence gate fails on a broken fixture, then run it for real
-        run: python data/pipeline/tests/test_check_license_gate.py
+        run: python data/pipeline/tests/run_all.py
 
       # ADR-029. The committed word-difficulty table is regenerated here and
       # compared byte for byte, so a word added to a slot class without
@@ -72,5 +72,6 @@ jobs:
       # cannot rank. Also re-checks the mapping's measured claims: every word
       # reachable inside the ability clamp, the ordering still the frequency
       # ordering, and a fresh reader's band big enough to fill a passage.
-      - name: Difficulty table — regenerate, byte-diff, and re-check ADR-029's claims
-        run: python data/pipeline/tests/test_difficulty.py
+      # test_difficulty.py and every gloss/excerpt regression are owned by the
+      # aggregate command above; keeping a second invocation here would only
+      # make one test look more important while silently duplicating work.

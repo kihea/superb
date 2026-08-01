@@ -100,8 +100,29 @@ jobs:
       - name: Assemble the deployable (landing at /, app at /read/)
         run: npm run assemble
 
-      - name: Prove the two surfaces together (smoke check)
+      # The archive is the release artifact. Re-extract it into an empty dist/
+      # before smoke testing so the browser exercises exactly the file set that
+      # the deploy job will later verify and publish.
+      - name: Seal the deployable, then restore it for acceptance
+        run: |
+          rm -rf release-artifact
+          mkdir release-artifact
+          tar -cf release-artifact/superb-pages.tar -C dist .
+          (cd release-artifact && sha256sum superb-pages.tar > superb-pages.tar.sha256)
+          rm -rf dist
+          mkdir dist
+          tar -xf release-artifact/superb-pages.tar -C dist
+
+      - name: Prove the sealed two-surface artifact (smoke check)
         run: npm run smoke
+
+      - name: Retain the checked Pages artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: superb-pages-${{ github.sha }}
+          path: apps/site/release-artifact
+          if-no-files-found: error
+          retention-days: 7
 
   # The publishing step (issue #91). Kihea set superb.works up on Cloudflare;
   # this uploads the assembled artifact (landing at "/", reading app at
@@ -115,34 +136,19 @@ jobs:
     if: github.event_name == 'push' && github.repository == 'kihea/superb'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Retrieve the artifact that passed the assembled smoke check
+        uses: actions/download-artifact@v4
         with:
-          node-version: 24
-          cache: npm
-          cache-dependency-path: |
-            apps/site/package-lock.json
-            apps/web/package-lock.json
+          name: superb-pages-${{ github.sha }}
+          path: apps/site/release-artifact
 
-      - name: Install
-        run: npm ci
-
-      - name: Cache Rust
-        uses: Swatinem/rust-cache@v2
-
-      - name: Add wasm32 target
-        run: rustup target add wasm32-unknown-unknown
-
-      - name: Install wasm-bindgen-cli (pinned to the crate version)
-        run: cargo install wasm-bindgen-cli --version "$WASM_BINDGEN_VERSION" --locked
-
-      - name: Install apps/web's own dependencies
-        working-directory: apps/web
-        run: npm ci
-
-      - name: Assemble the deployable (landing at /, app at /read/)
-        run: npm run assemble
+      - name: Verify and restore the promoted bytes
+        working-directory: apps/site/release-artifact
+        run: |
+          sha256sum -c superb-pages.tar.sha256
+          rm -rf ../dist
+          mkdir ../dist
+          tar -xf superb-pages.tar -C ../dist
 
       - name: Check for Cloudflare credentials
         id: creds

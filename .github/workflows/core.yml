@@ -23,7 +23,7 @@ env:
 
 jobs:
   check:
-    name: fmt, clippy, test
+    name: fmt, clippy, fast tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -37,8 +37,14 @@ jobs:
       - name: Clippy
         run: cargo clippy --all-targets --all-features --locked -- -D warnings
 
-      - name: Test
-        run: cargo test --workspace --all-features --locked
+      - name: Core and Wasm tests
+        run: cargo test -p superb-core -p superb-wasm --all-features --locked
+
+      # Long-running behavioural sweeps and report regeneration live in
+      # deep-assurance.yml. Library/unit coverage and the source-boundary test
+      # stay in the PR lane.
+      - name: Fast simulator tests
+        run: cargo test -p superb-sim --lib --test oracle_boundary --locked
 
   licenses:
     name: cargo deny
