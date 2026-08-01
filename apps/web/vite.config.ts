@@ -27,11 +27,32 @@ export default defineConfig({
         scope: BASE,
         display: "standalone",
         // The paper the app actually opens on now (design/ox.css's
-        // --ox-paper), not the dark room it used to. The icon keeps the
+        // --ox-paper), not the dark room it used to. Every icon keeps the
         // BASE prefix so it resolves when the app is assembled at /read/.
         background_color: "#F6EFE4",
         theme_color: "#F6EFE4",
-        icons: [{ src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" }],
+        // ADR-040 / issue #123: an SVG-only manifest makes Android install
+        // a "should" rather than a "does" -- Chrome on Android has never
+        // reliably accepted an SVG as an install icon, so without a raster
+        // entry the install prompt is either absent or falls back to a
+        // generic glyph, and the maskable variant Android's own adaptive-
+        // icon system expects is missing entirely. `icon-192.png` and
+        // `icon-512.png` (scripts/... none yet -- rendered once from
+        // icon.svg and committed as static assets, the same source art,
+        // no separate maskable drawing needed: icon.svg's own background
+        // already fills the canvas edge to edge and the glyph's farthest
+        // points sit inside the maskable safe zone, a circle of 40% radius
+        // centred on the icon -- verified by measuring the path's own
+        // corner coordinates before deciding one source could serve both
+        // purposes). `purpose: "any maskable"` on one icon entry is the
+        // Web App Manifest spec's own way of saying exactly that, rather
+        // than shipping duplicate files for two purposes one image
+        // already satisfies.
+        icons: [
+          { src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" },
+          { src: `${BASE}icon-192.png`, sizes: "192x192", type: "image/png", purpose: "any maskable" },
+          { src: `${BASE}icon-512.png`, sizes: "512x512", type: "image/png", purpose: "any maskable" },
+        ],
       },
       workbox: {
         // The app shell and self-hosted fonts are small and stable --
