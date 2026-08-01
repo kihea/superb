@@ -36,22 +36,29 @@ export default defineConfig({
         // reliably accepted an SVG as an install icon, so without a raster
         // entry the install prompt is either absent or falls back to a
         // generic glyph, and the maskable variant Android's own adaptive-
-        // icon system expects is missing entirely. `icon-192.png` and
-        // `icon-512.png` (scripts/... none yet -- rendered once from
-        // icon.svg and committed as static assets, the same source art,
-        // no separate maskable drawing needed: icon.svg's own background
-        // already fills the canvas edge to edge and the glyph's farthest
-        // points sit inside the maskable safe zone, a circle of 40% radius
-        // centred on the icon -- verified by measuring the path's own
-        // corner coordinates before deciding one source could serve both
-        // purposes). `purpose: "any maskable"` on one icon entry is the
-        // Web App Manifest spec's own way of saying exactly that, rather
-        // than shipping duplicate files for two purposes one image
-        // already satisfies.
+        // icon system expects is missing entirely.
+        //
+        // Every file here is the real brand mark (brand/out/identity/icons/,
+        // private root), not generated art -- `icon-192.png`/`icon-512.png`
+        // as shipped there, unmodified, for `any`. Those same two files are
+        // *not* safe for `maskable` as they ship: checking the PNG's own
+        // alpha channel found transparent corners (a rounded-rect cutout,
+        // not an edge-to-edge fill), which is exactly what a maskable icon
+        // must not have -- an OS mask of a different shape would show
+        // through the gaps. `icon-maskable-192.png`/`-512.png` are derived
+        // from the brand set's own `icon-1024.png`: the glyph's own
+        // farthest points already sit inside the maskable safe zone (a
+        // circle of 40% radius centred on the icon), so the only fix
+        // needed was filling those transparent corners with the icon's own
+        // average background tone, sampled from its own opaque pixels
+        // rather than guessed, so the result stays edge-to-edge opaque
+        // (verified: the derived file has no alpha channel at all) without
+        // redrawing anything.
         icons: [
-          { src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" },
-          { src: `${BASE}icon-192.png`, sizes: "192x192", type: "image/png", purpose: "any maskable" },
-          { src: `${BASE}icon-512.png`, sizes: "512x512", type: "image/png", purpose: "any maskable" },
+          { src: `${BASE}icon-192.png`, sizes: "192x192", type: "image/png", purpose: "any" },
+          { src: `${BASE}icon-512.png`, sizes: "512x512", type: "image/png", purpose: "any" },
+          { src: `${BASE}icon-maskable-192.png`, sizes: "192x192", type: "image/png", purpose: "maskable" },
+          { src: `${BASE}icon-maskable-512.png`, sizes: "512x512", type: "image/png", purpose: "maskable" },
         ],
       },
       workbox: {

@@ -2,10 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-    <link rel="apple-touch-icon" href="/icon.svg" />
+    <!-- The real brand mark (brand/out/identity/icons/, private root),
+         replacing a placeholder dark "wings" glyph this build carried
+         before it existed. -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-180.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0A0C10" />
+    <!-- #F6EFE4 matches the manifest's own theme_color below (vite.config.ts)
+         -- the paper the app actually opens on, not the dark room the old
+         placeholder icon's own background colour described. -->
+    <meta name="theme-color" content="#F6EFE4" />
     <title>Superb</title>
   </head>
   <body>
