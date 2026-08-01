@@ -1,0 +1,53 @@
+name: CI contract
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      [
+        ".github/workflows/ci-contract.yml",
+        ".github/workflows/core.yml",
+        ".github/workflows/data-license.yml",
+        ".github/workflows/deep-assurance.yml",
+        ".github/workflows/site.yml",
+        ".github/workflows/web.yml",
+        "apps/site/package.json",
+        "apps/web/package.json",
+        "apps/web/playwright.config.ts",
+        "data/pipeline/tests/run_all.py",
+        "data/pipeline/tests/test_ci_contract.py",
+      ]
+  pull_request:
+    paths:
+      [
+        ".github/workflows/ci-contract.yml",
+        ".github/workflows/core.yml",
+        ".github/workflows/data-license.yml",
+        ".github/workflows/deep-assurance.yml",
+        ".github/workflows/site.yml",
+        ".github/workflows/web.yml",
+        "apps/site/package.json",
+        "apps/web/package.json",
+        "apps/web/playwright.config.ts",
+        "data/pipeline/tests/run_all.py",
+        "data/pipeline/tests/test_ci_contract.py",
+      ]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-contract-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: workflow commands and ownership
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Prove every release command has an owner
+        run: python data/pipeline/tests/test_ci_contract.py

@@ -41,6 +41,9 @@ env:
   # Kept in step with .github/workflows/wasm.yml's own pin -- see that
   # file's comment on why the CLI and the crate version must match exactly.
   WASM_BINDGEN_VERSION: "0.2.126"
+  # The workflow builds once before Playwright. Its server must exercise that
+  # build rather than invoking the package's ordinary build lifecycle again.
+  PLAYWRIGHT_USE_EXISTING_BUILD: "1"
 
 jobs:
   check:
@@ -72,17 +75,20 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Prepare content, tokens, and Wasm once
+        run: npm run ci:prepare
+
       - name: Typecheck
-        run: npm run typecheck
+        run: npm run ci:typecheck
 
       - name: Lint
         run: npm run lint
 
       - name: Unit tests (engine persistence round-trip, candidate ranking)
-        run: npm run test:unit
+        run: npm run ci:test:unit
 
       - name: Build
-        run: npm run build
+        run: npm run ci:build
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium

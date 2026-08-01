@@ -1,0 +1,30 @@
+name: deep assurance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 0"
+
+concurrency:
+  group: deep-assurance
+  cancel-in-progress: false
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  simulation:
+    name: exhaustive deterministic simulation
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+
+      # These regenerate and byte-compare the committed coverage and
+      # pseudoword-calibration reports. They are deliberately absent from the
+      # routine PR lane: coverage alone has measured about 2,930 seconds.
+      - name: Long behavioural and calibration gates
+        run: cargo test -p superb-sim --test assertions --test recommender --test coverage_gate --test pseudoword_penalty_gate --locked
