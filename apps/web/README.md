@@ -55,7 +55,7 @@ the design tokens.
 | `npm run lint` | `oxlint` |
 | `npm run test:unit` | Runs the Vitest suite |
 | `npm run test:e2e` | Runs Playwright against a production build |
-| `npm test` | Runs type checking, lint, unit tests, a build, and Playwright |
+| `npm test` | Runs type checking, lint, unit tests, and Playwright; Playwright creates the production build once |
 | `npm run ci:prepare` | Generates content, tokens, and Wasm once for CI |
 | `npm run sync-content` | Regenerates `public/content/` from `../../content/` |
 | `npm run sync-tokens` | Regenerates `src/design/tokens.css` from `../../design/tokens.json` |

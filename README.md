@@ -75,8 +75,11 @@ restored bytes:
 python scripts/release.py
 ```
 
-Use `python scripts/release.py --list` to inspect the steps. The scheduled
-deep simulator and report checks are intentionally separate from this command.
+Use `python scripts/release.py --list` to inspect the steps. `--skip-install`
+is for an already-provisioned checkout: Python requirements and NLTK data,
+`wasm-bindgen-cli` 0.2.126, `cargo-deny` 0.20.2, npm dependencies, and Chromium
+must already be present. The scheduled deep simulator and report checks are
+intentionally separate from this command.
 
 ## Licensing
 
