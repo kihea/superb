@@ -11,6 +11,7 @@
 // percentage, no page count, no time left.
 import { useEffect, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
+import { useNavigate } from "../router/context";
 import "../components/PassagePage.css";
 import "./WholeBook.css";
 import { getBook } from "../content/catalogue";
@@ -34,6 +35,7 @@ const PLACE_ROOT_MARGIN = "0px 0px -75% 0px";
 type Status = "loading" | "ready" | "not-found" | "error";
 
 export function WholeBook({ id }: { id: string }) {
+  const navigate = useNavigate();
   const [status, setStatus] = useState<Status>("loading");
   const [book, setBook] = useState<CatalogueBook | null>(null);
   const [glosses, setGlosses] = useState<Record<string, BookGlossEntry>>({});
@@ -182,7 +184,10 @@ export function WholeBook({ id }: { id: string }) {
   function goNext() {
     const next = partIndex + 1;
     if (next >= book!.parts.length) {
-      window.location.assign(`${import.meta.env.BASE_URL}shelf`);
+      // The Shelf is still v0mock-backed, so the end of the book returns to
+      // Library rather than a screen showing invented shelf state
+      // (truthful-alpha checkpoint, PLAN.md §7).
+      navigate("/library");
       return;
     }
     resumeTarget.current = 0;

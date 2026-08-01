@@ -1,4 +1,4 @@
-// Nothing at this address. Says so plainly and offers the shelf.
+// Nothing at this address. Says so plainly and offers a way back.
 import { Screen } from "../shell/Screen";
 import { Link } from "../router/router";
 
@@ -7,8 +7,8 @@ export function NotFound() {
     <Screen>
       <div className="sb-body--centred">
         <h2 className="sb-heading">There's nothing here.</h2>
-        <Link to="/shelf" className="sb-quiet">
-          Back to the shelf
+        <Link to="/" className="sb-quiet">
+          Back to reading
         </Link>
       </div>
     </Screen>

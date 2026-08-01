@@ -7,9 +7,16 @@
 // and "Renews 12 August · £4.99 a month" describe a subscription that does
 // not exist in this build; a real-looking bill is a different kind of thing
 // from mocked sample data, so the voice row says what is true instead.
+//
+// Three more are gone as of the truthful-alpha checkpoint (PLAN.md §7): the
+// Voice row's "Change" link (went to /voice, a paid-upsell screen quoting
+// v0mock text), the Account row (went to /sign-in, whose own comment says
+// "there is no account system in this build"), and "See the first open
+// again" (went to /welcome, whose three mood buttons all do the same
+// nothing -- see FirstOpen.tsx). All three routes still exist; nothing in
+// production navigation points at them until they are real.
 import { useEffect, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
-import { Link } from "../router/router";
 import { useTheme } from "../theme/theme";
 import type { Paper } from "../theme/theme";
 import { useMotion } from "../theme/motion";
@@ -75,7 +82,7 @@ export function Settings() {
   }, [scale]);
 
   return (
-    <Screen title="Settings" back={{ to: "/shelf", label: "Shelf" }}>
+    <Screen title="Settings" back={{ to: "/", label: "Reading" }}>
       <section className="settings-group">
         <span className="sb-eyebrow">Paper</span>
         <div className="settings-papers">
@@ -145,33 +152,18 @@ export function Settings() {
             <span className="settings-row__name">Voice</span>
             <span className="sb-caption">your phone's own</span>
           </span>
-          <span className="settings-row__voice-actions">
-            {voiceSupported && (
-              <button
-                type="button"
-                className="voice-orb-button"
-                data-speaking={voiceState === "speaking"}
-                aria-label="Hear a sample of this voice"
-                onClick={playVoicePreview}
-              >
-                <VoiceOrb state={voiceState} size={22} />
-              </button>
-            )}
-            {/* Its own accessible name (rather than the visible "Change")
-                so a screen reader still hears what this goes to, now that
-                the row itself is no longer one single link (the orb button
-                beside it needs its own tap target). */}
-            <Link to="/voice" className="sb-list__aside" aria-label="Voice">
-              Change
-            </Link>
-          </span>
+          {voiceSupported && (
+            <button
+              type="button"
+              className="voice-orb-button"
+              data-speaking={voiceState === "speaking"}
+              aria-label="Hear a sample of this voice"
+              onClick={playVoicePreview}
+            >
+              <VoiceOrb state={voiceState} size={22} />
+            </button>
+          )}
         </div>
-
-        <Link to="/sign-in" className="settings-row settings-row--link">
-          <span className="settings-row__name">Account</span>
-          <span className="sb-list__aside">signed out</span>
-        </Link>
-
       </div>
 
       {/* ADR-008: word meanings are rewritten from Wiktionary, which carries
@@ -187,10 +179,6 @@ export function Settings() {
           Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
         </p>
       </section>
-
-      <Link to="/welcome" className="sb-quiet sb-quiet--centred">
-        See the first open again
-      </Link>
     </Screen>
   );
 }

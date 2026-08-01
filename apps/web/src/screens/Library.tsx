@@ -45,11 +45,11 @@ export function Library() {
   }, [query]);
 
   if (status === "error") {
-    return <RecoveryScreen back={{ to: "/shelf", label: "Shelf" }} onRetry={() => void load(query)} />;
+    return <RecoveryScreen back={{ to: "/", label: "Reading" }} onRetry={() => void load(query)} />;
   }
 
   return (
-    <Screen title="Library" back={{ to: "/shelf", label: "Shelf" }} sunken tabs>
+    <Screen title="Library" back={{ to: "/", label: "Reading" }} sunken tabs>
       <label className="library-search">
         <span className="sr-only">Title or author</span>
         <input
