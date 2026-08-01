@@ -11,40 +11,78 @@
   gap: var(--sp-5);
 }
 
+/* Frame 4o: a card the height of a small cover, not a colour chip -- each
+   one is what that paper actually looks like, ink included, so choosing is
+   seeing rather than reading a name. The 2px ring on the chosen one is the
+   swatch's own brand red/violet/teal (border-color set per swatch below),
+   not a fixed accent, so it reads against paper as light as Lilac's. */
 .settings-swatch {
   flex: 1;
-  height: 60px;
-  border-radius: var(--r-sm);
+  height: 92px;
+  border-radius: var(--r-md);
   border: 1px solid var(--border-2);
   display: flex;
   align-items: flex-end;
-  padding: var(--sp-4);
+  padding: var(--sp-5);
   cursor: pointer;
-  font: var(--fs-100) var(--font-ui);
+  font: var(--fw-medium) var(--fs-300) var(--font-ui);
+  transition: border-color var(--dur-1) var(--ease-out);
 }
 
 .settings-swatch--on {
-  border: 2px solid var(--brand);
+  border: 2px solid var(--settings-swatch-ring, var(--brand));
 }
 
 .settings-swatch--oxblood {
   background: var(--ox-paper);
   color: var(--ox-ink);
+  --settings-swatch-ring: var(--ox-red);
 }
 
 .settings-swatch--lilac {
   background: var(--li-paper);
   color: var(--li-ink);
+  --settings-swatch-ring: var(--li-violet);
 }
 
 .settings-swatch--glacier {
   background: var(--gl-paper);
   color: var(--gl-ink);
+  --settings-swatch-ring: var(--gl-teal);
 }
 
-.settings-swatch--night {
-  background: var(--ox-ink-deep);
-  color: var(--ox-cream);
+/* Frame 4o's own three-way switch: Light, Dark, System, beside the paper
+   rather than folded into it as a fourth swatch. One pill track, the chosen
+   third raised on the surface's own card colour. */
+.settings-mode {
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  background: var(--surface-sunken);
+  border: 1px solid var(--border-1);
+  border-radius: var(--r-md);
+}
+
+.settings-mode__option {
+  flex: 1;
+  min-height: var(--tap-min);
+  border: none;
+  border-radius: var(--r-sm);
+  background: transparent;
+  color: var(--text-2);
+  font: var(--type-body-sm);
+  cursor: pointer;
+  transition:
+    background var(--dur-2) var(--ease-out),
+    color var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.settings-mode__option--on {
+  background: var(--surface-card);
+  color: var(--text-1);
+  font-weight: var(--fw-semibold);
+  box-shadow: var(--shadow-1);
 }
 
 .settings-size {
@@ -67,6 +105,17 @@
 .settings-size__large {
   font: var(--fw-regular) 22px var(--font-read);
   color: var(--text-1);
+}
+
+.settings-size__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.settings-size__value {
+  font: var(--type-caption);
+  color: var(--text-3);
 }
 
 .settings-rows {
