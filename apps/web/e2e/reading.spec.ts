@@ -83,7 +83,11 @@ interface TopicTally {
 async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> {
   return page.evaluate(async () => {
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
-      const req = indexedDB.open("superb-web", 1);
+      // No version pinned: this only reads, and Slice 1A (PLAN.md §7)
+      // bumped the shell's own schema to version 2 (storage/db.ts's own
+      // BOOK_STORE) -- opening at a fixed version here would throw a
+      // VersionError once the app itself has upgraded the database past it.
+      const req = indexedDB.open("superb-web");
       req.onsuccess = () => resolve(req.result);
       req.onerror = () => reject(req.error);
     });
