@@ -72,6 +72,13 @@ jobs:
       - name: Install
         run: npm ci
 
+      # Issue #127's own regression fixture: a UTF-16 file carrying a real
+      # disallowed URL, proven to turn the host scan red and cleaned up
+      # after, not a permanently-failing fixture. Pure and dist/-free, so it
+      # runs before anything gets built.
+      - name: Prove the host scan catches UTF-16 (issue #127)
+        run: npm run test:host-scan
+
       - name: Install a browser for the assembled smoke check
         run: npx playwright install --with-deps chromium
 

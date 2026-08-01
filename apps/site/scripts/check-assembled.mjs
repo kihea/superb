@@ -27,16 +27,84 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { APP_BASE } from './assemble.mjs';
+import { decodeScannableText, findDisallowedHostUrls } from './host-scan.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
 const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
-const ALLOWED_LANDING_HOSTS = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
-// Hosts a landing file may *name* without ever loading from: the footer's
-// source link. Only the static text scan consults this; the runtime request
-// check below stays on ALLOWED_LANDING_HOSTS alone, so a script that actually
-// fetched from github.com would still fail the browser-side check.
-const ALLOWED_NAMED_HOSTS = new Set([...ALLOWED_LANDING_HOSTS, 'github.com']);
+// Issue #137: unpkg.com and the Google Fonts hosts are gone from this set --
+// React, ReactDOM, Babel standalone and every font the landing uses are
+// vendored into the artifact now (page/vendor/, page/fonts/), so the landing
+// makes no cross-origin request at all any more.
+const ALLOWED_LANDING_HOSTS = new Set();
+// Hosts a landing file may *name* without ever loading from. Only the static
+// text scan consults this; the runtime request check below stays on
+// ALLOWED_LANDING_HOSTS alone, so a script that actually fetched from any of
+// these would still fail the browser-side check. Each is named because it is
+// genuinely present in the assembled artifact, checked with this scan's own
+// regex against page/vendor/*.js after vendoring them (issue #137), not
+// copied from memory of what a CDN bundle "probably" contains:
+//   - github.com: the footer's source link, plus doc/licence links inside
+//     vendored babel.min.js's own error messages and header comment.
+//   - babeljs.io: doc links inside vendored babel.min.js's own compiler
+//     error messages -- read by a developer in devtools, never fetched.
+//   - foo.com: vendored babel.min.js's own `new URL(spec, "http://foo.com")`
+//     -- a dummy base used only to parse a relative import specifier with
+//     the URL constructor; never a real request.
+//   - www.w3.org: vendored react-dom.production.min.js's XML/SVG namespace
+//     URI constants, passed to `createElementNS` -- identifier strings the
+//     DOM spec requires, not addresses the browser ever requests.
+//   - reactjs.org: vendored react-dom.production.min.js's minified-error
+//     decoder link -- text inside a thrown Error's message for a developer
+//     to open by hand, never fetched by the code itself.
+//   - scripts.sil.org: named in fonts/LICENSE-OFL.txt itself, the licence
+//     text shipped beside the vendored Geist font files -- the OFL's own FAQ
+//     link, read by whoever opens the licence, never fetched by the site.
+const ALLOWED_LANDING_NAMED_HOSTS = new Set([
+  ...ALLOWED_LANDING_HOSTS,
+  'github.com',
+  'babeljs.io',
+  'foo.com',
+  'www.w3.org',
+  'reactjs.org',
+  'scripts.sil.org',
+]);
+
+// Issue #128: the static scan used to stop at dist/read -- the reading app's
+// own bundle, PWA service worker and synced content were never looked at, so
+// a payload landing there would have shipped invisibly. Named here, one line
+// each, because each is genuinely present -- checked with this scan's own
+// regex against a real `npm run assemble` output, not assumed from what a
+// React/Workbox bundle or the catalogue "probably" contains. None of these
+// are ever fetched by the app itself: the browser-enforced CSP on /read/*
+// already pins connect-src to 'self' (proved live by check-csp.mjs), so this
+// list is the early-warning lint on top, not the boundary.
+//   - react.dev: the app's bundled React's minified-error decoder link --
+//     text inside a thrown Error's message for a developer to open by hand.
+//   - www.w3.org: XML/SVG namespace URI constants passed to createElementNS
+//     by the app's bundled React -- identifier strings the DOM spec
+//     requires, not addresses the browser ever requests.
+//   - bit.ly: a console.warn doc link inside the generated Workbox service
+//     worker (vite-plugin-pwa's own precache warning text).
+//   - github.com: the synced catalogue's own "source.repository" field --
+//     where the catalogue data was built from, read as metadata, not
+//     fetched by the reading app.
+//   - standardebooks.org, archive.org, www.gutenberg.org: each book's source
+//     link in its citation/provenance record, and (gutenberg only) each
+//     excerpt's own citation in content/sources.json -- law #8's required
+//     attribution, meant to be read, never fetched.
+//   - creativecommons.org: the CC0 licence link the catalogue cites for its
+//     own public-domain dedication (ADR-025) -- citable text, not fetched.
+const ALLOWED_READ_NAMED_HOSTS = new Set([
+  'react.dev',
+  'www.w3.org',
+  'bit.ly',
+  'github.com',
+  'standardebooks.org',
+  'archive.org',
+  'www.gutenberg.org',
+  'creativecommons.org',
+]);
 
 // Extensions skipped by the host scan below. This is a deny-list on purpose,
 // and the reason is the whole history of this check. It has now been defeated
@@ -92,29 +160,20 @@ if (retiredBundle) {
 const disallowedStaticUrls = [];
 for (const entry of readdirSync(DIST, { recursive: true })) {
   const relative = String(entry);
-  if (relative.split(/[\\/]/)[0] === 'read') continue;
+  const inRead = relative.split(/[\\/]/)[0] === 'read';
   const file = path.join(DIST, relative);
   if (!statSync(file).isFile() || BINARY_EXTENSIONS.has(path.extname(relative).toLowerCase())) continue;
-  const text = readFileSync(file, 'latin1');
-  // ';' ends the match: it is a legal WHATWG hostname code point, so the CSP
-  // value `https://unpkg.com;` in dist/_headers otherwise parses to the
-  // hostname "unpkg.com;" and misses the allowlist that approves unpkg.com.
-  for (const match of text.matchAll(/https?:[\\/]*[^\s"'<>`);]+/gi)) {
-    // A URL-shaped substring in a comment or a minified string is not
-    // necessarily a URL. `new URL` throws on those, and an uncaught throw here
-    // takes the gate down with a raw stack trace instead of a named failure --
-    // which fails closed, but a gate that crashes is a gate somebody eventually
-    // loosens to stop it crashing. Skip what does not parse; the hostname
-    // regex is what this check actually needs.
-    let hostname;
-    try {
-      hostname = new URL(match[0]).hostname;
-    } catch {
-      continue;
-    }
-    if (!ALLOWED_NAMED_HOSTS.has(hostname)) {
-      disallowedStaticUrls.push(`${relative}: ${match[0]}`);
-    }
+  // Issue #127: read as bytes, not as latin1 text directly -- a UTF-16 file
+  // interleaves a zero byte with every ASCII character, so a latin1 decode of
+  // "h\0t\0t\0p\0s\0:..." never contains "https:" at all and the scan below
+  // would silently find nothing. decodeScannableText detects a byte-order
+  // mark and decodes accordingly, falling back to latin1 (unchanged
+  // behaviour for every ordinary text file, and still safe on arbitrary
+  // binary bytes) when there isn't one.
+  const text = decodeScannableText(readFileSync(file));
+  const allowedHosts = inRead ? ALLOWED_READ_NAMED_HOSTS : ALLOWED_LANDING_NAMED_HOSTS;
+  for (const match of findDisallowedHostUrls(text, allowedHosts)) {
+    disallowedStaticUrls.push(`${relative}: ${match}`);
   }
 }
 if (disallowedStaticUrls.length > 0) {
