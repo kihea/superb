@@ -69,6 +69,25 @@
 //! workspace, and adding an entry is a one-line, reviewable admission that a
 //! human looked and the derive is not what it appears to name.
 //!
+//! **Issue #75, found reviewing the tripwire above: a derive supplied as a
+//! macro parameter is invisible to it.** `macro_rules! make_wire_type {
+//! ($name:ident, $trait:path) => { #[derive($trait)] struct $name { .. } };
+//! }` — a call site (`make_wire_type!(Foo, serde::Serialize);`) genuinely
+//! expands to a derived wire type, but the *definition's own body* never
+//! contains the literal text "Serialize"; it contains `$trait`, a
+//! placeholder the tripwire's plain substring search cannot resolve without
+//! walking every call site (which would mean parsing macro invocations
+//! generically, not just `macro_rules!` definitions — a larger mechanism
+//! than this file's own cost/benefit line draws). This is arguably a more
+//! natural way to write a reusable derive-taking macro than hard-coding the
+//! trait, which is exactly why it is worth naming rather than assuming
+//! nobody would. `macro_rules_naming_a_tracked_derive` below also flags the
+//! textual shape `#[derive($` for this reason — cheap because it is the
+//! same substring search already running, and it catches the pattern even
+//! though it cannot say which tracked derive (if any) the call site
+//! supplies, which is why it is reported and allow-listed separately from a
+//! specific derive-name match.
+//!
 //! It reads `src/` in the repository, not the compiled artifact. The honest
 //! statement of the guarantee is **default-deny against declaration-position
 //! items in every workspace member's own source** — not default-deny in the
@@ -295,9 +314,16 @@ const MACRO_TRIPWIRE_ALLOWLIST: &[(&str, &str)] = &[];
 /// (recursing into `mod { .. }`, same as `walk_items`) whose own body text
 /// contains the word `derive` alongside one of `TRACKED_DERIVES` — a
 /// `#[derive(Serialize)]` written inside an expansion template reads exactly
-/// this way as source, whether or not the macro is ever invoked. Returns
-/// `(macro name, the matched derive name)` pairs, not yet filtered against
-/// the allow-list.
+/// this way as source, whether or not the macro is ever invoked — **or**
+/// whose body writes `derive($` — a derive list starting with a macro
+/// parameter (`#[derive($trait)]`), invisible to the specific-name search
+/// above because no tracked derive's name appears as text at the
+/// definition site at all (issue #75; this file's own module doc, "Issue
+/// #75..."). Returns `(macro name, what matched)` pairs, not yet filtered
+/// against the allow-list — the second kind carries the literal string
+/// `"derive($..)"` rather than a real derive name, since which trait (if
+/// any tracked one) a parameterized derive resolves to is exactly what
+/// this tripwire cannot see and a human has to check by hand.
 fn macro_rules_naming_a_tracked_derive(items: &[Item], found: &mut Vec<(String, String)>) {
     for item in items {
         match item {
@@ -314,12 +340,21 @@ fn macro_rules_naming_a_tracked_derive(items: &[Item], found: &mut Vec<(String, 
                     continue; // a macro_rules! invocation always names itself; absent is not this shape.
                 };
                 let body = item_macro.mac.tokens.to_string();
-                if !body.contains("derive") {
-                    continue;
+                // Whitespace-insensitive for the parameterized-derive check:
+                // proc_macro2's own token-stream stringification is not
+                // guaranteed to print `derive($trait)` with the exact
+                // spacing this source used, so matching the compacted text
+                // is what makes the pattern reliable rather than a
+                // coincidence of how syn happens to re-print tokens today.
+                let compact: String = body.chars().filter(|c| !c.is_whitespace()).collect();
+                if compact.contains("derive($") {
+                    found.push((name.to_string(), "derive($..)".to_string()));
                 }
-                for derive in TRACKED_DERIVES {
-                    if body.contains(derive) {
-                        found.push((name.to_string(), derive.to_string()));
+                if body.contains("derive") {
+                    for derive in TRACKED_DERIVES {
+                        if body.contains(derive) {
+                            found.push((name.to_string(), derive.to_string()));
+                        }
                     }
                 }
             }
@@ -361,9 +396,18 @@ fn no_macro_rules_body_names_a_tracked_derive_without_being_allow_listed() {
                 if MACRO_TRIPWIRE_ALLOWLIST.contains(&(crate_name.as_str(), macro_name.as_str())) {
                     continue;
                 }
+                let what = if derive == "derive($..)" {
+                    // Issue #75: the parameterized-derive pattern, not a
+                    // specific tracked name -- say so plainly rather than
+                    // quoting the sentinel value as though it were one.
+                    "writes a derive list starting with a macro parameter (\"#[derive($..)]\"), \
+                     whose resolved trait this tripwire cannot read"
+                        .to_string()
+                } else {
+                    format!("mentions \"derive\" beside {derive:?}")
+                };
                 violations.push(format!(
-                    "{crate_name}::{macro_name} (in {}) — body mentions \"derive\" beside \
-                     {derive:?}",
+                    "{crate_name}::{macro_name} (in {}) — {what}",
                     file.display()
                 ));
             }
@@ -595,5 +639,24 @@ fn superb_core_ships_no_runtime_dependency_beyond_serde_toml_and_serde_json() {
         "superb-core's normal (runtime) dependency closure has grown beyond what serde, toml \
          and serde_json require: {extra:?}. A new runtime dependency needs an ADR \
          (engine-contract §1, CLAUDE.md law 2), not a Cargo.toml edit."
+    );
+}
+
+/// Issue #75's own regression guard: a derive supplied as a macro parameter
+/// carries no tracked derive name as text, so `TRACKED_DERIVES` alone would
+/// never flag it -- this proves the `derive($` pattern this file's own
+/// module doc names ("Issue #75...") actually fires on the exact shape that
+/// motivated it, directly against `macro_rules_naming_a_tracked_derive`
+/// rather than through the slower workspace-scanning test above.
+#[test]
+fn a_derive_supplied_as_a_macro_parameter_is_still_flagged() {
+    let src = "macro_rules! make_wire_type { ($name:ident, $trait:path) => { \
+               #[derive($trait)] struct $name {} }; }";
+    let parsed = syn::parse_file(src).expect("scratch source parses");
+    let mut found = Vec::new();
+    macro_rules_naming_a_tracked_derive(&parsed.items, &mut found);
+    assert_eq!(
+        found,
+        vec![("make_wire_type".to_string(), "derive($..)".to_string())]
     );
 }
