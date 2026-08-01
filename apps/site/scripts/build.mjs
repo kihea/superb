@@ -8,6 +8,15 @@
 // This build copies page/ into dist/ and names the page index.html.
 // page/ is the drop from workspace/prototypes/landing-mockup on the
 // private root, unedited.
+//
+// DECISION PENDING: https://github.com/kihea/superb/issues/114#issuecomment-5149901889
+// The truthful-alpha checkpoint (PLAN.md §7) asks for the landing page's
+// primary CTA to point at /read/ and for dead href="#" navigation to be
+// removed. page/Superb Landing.dc.html has six such links today (the nav
+// and both hero buttons) and none of them go anywhere. Left untouched here
+// on purpose -- that would contradict "literally just copied over" above --
+// pending Kihea's call on whether this build step should patch just those
+// hrefs mechanically at assembly time, or something else.
 
 import { cpSync, rmSync, renameSync, existsSync } from 'node:fs';
 import path from 'node:path';
