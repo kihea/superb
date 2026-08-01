@@ -27,6 +27,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { APP_BASE } from './assemble.mjs';
+import { decodeScannableText, findDisallowedHostUrls } from './host-scan.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
@@ -126,26 +127,16 @@ for (const entry of readdirSync(DIST, { recursive: true })) {
   if (relative.split(/[\\/]/)[0] === 'read') continue;
   const file = path.join(DIST, relative);
   if (!statSync(file).isFile() || BINARY_EXTENSIONS.has(path.extname(relative).toLowerCase())) continue;
-  const text = readFileSync(file, 'latin1');
-  // ';' ends the match: it is a legal WHATWG hostname code point, so the CSP
-  // value `https://unpkg.com;` in dist/_headers otherwise parses to the
-  // hostname "unpkg.com;" and misses the allowlist that approves unpkg.com.
-  for (const match of text.matchAll(/https?:[\\/]*[^\s"'<>`);]+/gi)) {
-    // A URL-shaped substring in a comment or a minified string is not
-    // necessarily a URL. `new URL` throws on those, and an uncaught throw here
-    // takes the gate down with a raw stack trace instead of a named failure --
-    // which fails closed, but a gate that crashes is a gate somebody eventually
-    // loosens to stop it crashing. Skip what does not parse; the hostname
-    // regex is what this check actually needs.
-    let hostname;
-    try {
-      hostname = new URL(match[0]).hostname;
-    } catch {
-      continue;
-    }
-    if (!ALLOWED_NAMED_HOSTS.has(hostname)) {
-      disallowedStaticUrls.push(`${relative}: ${match[0]}`);
-    }
+  // Issue #127: read as bytes, not as latin1 text directly -- a UTF-16 file
+  // interleaves a zero byte with every ASCII character, so a latin1 decode of
+  // "h\0t\0t\0p\0s\0:..." never contains "https:" at all and the scan below
+  // would silently find nothing. decodeScannableText detects a byte-order
+  // mark and decodes accordingly, falling back to latin1 (unchanged
+  // behaviour for every ordinary text file, and still safe on arbitrary
+  // binary bytes) when there isn't one.
+  const text = decodeScannableText(readFileSync(file));
+  for (const match of findDisallowedHostUrls(text, ALLOWED_NAMED_HOSTS)) {
+    disallowedStaticUrls.push(`${relative}: ${match}`);
   }
 }
 if (disallowedStaticUrls.length > 0) {
