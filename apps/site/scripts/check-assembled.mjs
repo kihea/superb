@@ -52,6 +52,46 @@ if (retiredBundle) {
   process.exit(1);
 }
 
+// The check above pins one artifact: the exact bytes of the retired bundle, at
+// any name. That closes the rename, and a verifier had to be shown the rename
+// before it was closed -- the first version matched a basename, and copying the
+// same bytes back as `_ds_bundle_v2.js` walked straight past it.
+//
+// A hash still only knows the one file it was taken from. Change a byte and it
+// forgets. So this second check is keyed on the hazard instead of the artifact:
+// what made that bundle dangerous was fetching markup from a remote host and
+// inserting it into the page, so every shipped byte of the landing surface is
+// read and any external host it names is compared against the same allow-list
+// the runtime request check below uses. It catches the retired bundle after any
+// edit that leaves the fetch in, and it catches a new file nobody has hashed.
+//
+// The runtime check stays as well, for the case neither of these can see: a URL
+// assembled at runtime from pieces that never appear in the source as one
+// string. Three checks, three different things they are good at.
+//
+// `dist/read/` is excluded. That is the reading app's own build, gated by
+// web.yml, and its React bundle carries documentation URLs inside error strings
+// that are read by a human and fetched by nobody.
+const ALLOWED_EXTERNAL_HOSTS = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+
+const embeddedHosts = [];
+for (const entry of readdirSync(DIST, { recursive: true }).map(String)) {
+  if (entry.split(path.sep).includes('read')) continue;
+  const file = path.join(DIST, entry);
+  if (!statSync(file).isFile()) continue;
+  for (const [, host] of readFileSync(file, 'latin1').matchAll(/https?:\/\/([A-Za-z0-9.-]+)/g)) {
+    if (host === 'localhost' || host === '127.0.0.1') continue;
+    if (ALLOWED_EXTERNAL_HOSTS.has(host)) continue;
+    embeddedHosts.push(`${entry} -> ${host}`);
+  }
+}
+if (embeddedHosts.length > 0) {
+  console.error(
+    `check-assembled: the landing ships files naming external hosts that are not allowed --\n    ${[...new Set(embeddedHosts)].join('\n    ')}`,
+  );
+  process.exit(1);
+}
+
 const TYPES = {
   '.html': 'text/html',
   '.css': 'text/css',
@@ -127,10 +167,10 @@ const problems = [];
     problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
-  const allowedExternalHosts = new Set(['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com']);
+
   const disallowedRequests = requestedUrls.filter((raw) => {
     const url = new URL(raw);
-    return (url.hostname !== '127.0.0.1' && !allowedExternalHosts.has(url.hostname))
+    return (url.hostname !== '127.0.0.1' && !ALLOWED_EXTERNAL_HOSTS.has(url.hostname))
       || url.pathname.endsWith('/_ds_bundle.js');
   });
   if (disallowedRequests.length > 0)
