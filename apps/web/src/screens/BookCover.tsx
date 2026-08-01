@@ -66,12 +66,6 @@ export function BookCover({ id }: { id: string }) {
 
       <div className="book-head">
         <Cover book={{ title: book.title, author: book.author, cloth: "ink" }} size="xl" />
-        <div className="book-head__facts">
-          <span className="sb-eyebrow">
-            {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
-          </span>
-          {book.translator && <span className="sb-caption">translated by {book.translator}</span>}
-        </div>
       </div>
 
       <div className="book-names">
@@ -79,6 +73,14 @@ export function BookCover({ id }: { id: string }) {
         <span className="sb-said">
           {book.author}
           {book.translator ? ` · translated by ${book.translator}` : ""}
+        </span>
+        {/* ADR-042: a chapter count may ship here (the reader has not begun
+            the book yet) but rides with the byline in caption type, not as
+            its own stat block beside the cover -- so it lives in this group,
+            one line under the byline it belongs to, rather than in
+            book-head__facts. It never appears again once WholeBook opens. */}
+        <span className="sb-caption">
+          {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
         </span>
       </div>
 

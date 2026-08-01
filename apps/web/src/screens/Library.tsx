@@ -74,9 +74,15 @@ export function Library() {
               <span className="library-book__side">
                 <span className="library-book__names">
                   <span className="library-book__title">{book.title}</span>
+                  {/* ADR-042: a chapter count may ship in the library, riding
+                      with the byline in caption type -- already this row's
+                      own type, so the count just joins the same line rather
+                      than becoming a second, separate stat. */}
                   <span className="sb-caption">
                     {book.author}
                     {book.translator ? ` · translated by ${book.translator}` : ""}
+                    {" · "}
+                    {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
                   </span>
                 </span>
               </span>
