@@ -1,60 +1,71 @@
-# apps/web
+# Superb web app
 
-The reading surface. React 19 + TypeScript + Vite, installable as a PWA,
-no server (ADR-004). See `workspace/tracks/T4-surface.md` in the private
-root for what this track was asked to build and why.
+The current product shell is a React 19, TypeScript, and Vite PWA with no
+application server. It runs by itself at `/` during local development and web
+CI. The site assembler builds the same app with a `/read/` base path and places
+it beside the landing page.
 
-## Running it
+## What is real
+
+- The reading screen uses `superb-core` through the generated `superb-wasm`
+  binding. There is no mock engine or engine feature flag.
+- Passage and source content is generated from the repository's `content/`
+  files before each development build.
+- Learner state, including topic affinity, is persisted in IndexedDB and stays
+  off screen.
+- The production build is installable and caches the app shell, WebAssembly,
+  and visited content for offline use.
+
+## What is still a prototype
+
+The broader product shell has fourteen screens, but several are backed by the
+invented data in `src/v0mock/index.ts`: Library, Shelf, whole-book reading,
+rhyme, association, elevated passages, sharing, and the voice presentation.
+The voice route does not synthesize audio. Gloss definitions still come from
+`src/fixtures/glosses`.
+
+That boundary is deliberate and temporary. New product work must replace one
+mock-backed path with real data rather than adding another source of invented
+state.
+
+## Run it
+
+From the repository root, install `wasm-bindgen-cli` at the version used by the
+workspace and add Rust's WebAssembly target:
 
 ```sh
-npm install
+rustup target add wasm32-unknown-unknown
+cargo install wasm-bindgen-cli --version 0.2.126 --locked
+cd apps/web
+npm ci
 npm run dev
 ```
 
-Open `/read?register=glass` and `/read?register=paper` side by side --
-these are the two answers to the one open question this PR asks
-(`docs/decisions` ADR-019: does the page behind the words stay dark and
-atmospheric, or go quiet like paper while someone reads). `/` is a small
-comparison picker, not a product screen.
-
-## The mock engine
-
-`superb-wasm` (T2) has not landed yet. `src/engine/mockEngine.ts` stands in
-for it -- fixture logic against real content, never the real scheduler --
-behind the `VITE_MOCK_ENGINE` flag (on by default; set it to `"false"` to
-see the screen's actual inert-without-an-engine state). It is deleted
-whole the day the real binding exists; nothing in it should survive that
-day (`docs/seams.md` §Seam 1).
-
-## Topic affinity (ADR-022) is wired, and it is invisible on purpose
-
-The mock populates `Candidate.topics` and `Passage.topics`, and answers a
-`PassageTopics` need on every `PassageFinished`/`PassageAbandoned` so the
-tally in `mockEngine.ts`'s own state is real, not a stub -- a mock that
-left `topics` empty would silently make the real engine's scoring
-multiplier permanently neutral the day the binding replaces it, with every
-test still green (`docs/seams.md`'s second same-day amendment). `useEngineSession.ts`
-reads the resulting `TopicAffinityUpdated` effect only far enough to persist
-it and stops -- nothing renders it, and `e2e/reading.spec.ts` asserts both
-halves: the tally really lands in the persisted, opaque engine state, and
-the word "topic" never appears on screen.
+The development server prints the local URL. Its pre-run hook builds the Rust
+crate, creates browser and Node bindings, syncs content, and generates CSS from
+the design tokens.
 
 ## Scripts
 
 | Command | What it does |
 |---|---|
-| `npm run dev` / `npm run build` | Vite, with content and tokens synced first (see below) |
+| `npm run dev` | Syncs generated inputs, builds WebAssembly, then starts Vite |
+| `npm run build` | Syncs generated inputs, builds WebAssembly, then creates `dist/` |
 | `npm run typecheck` | `tsc -b`, no emit |
 | `npm run lint` | `oxlint` |
-| `npm run test:e2e` | Playwright, against a real production build (`playwright.config.ts` builds + serves `dist/`) |
-| `npm run sync-content` | Copies `../../content/passages` and `../../content/sources` (T3's, read-only) into `public/content/` as two arrays. Regenerated before every dev/build; never commit its output. |
-| `npm run sync-tokens` | Generates `src/design/tokens.css` from `../../design/tokens.json`. Same deal -- generated, gitignored, regenerated automatically. |
-| `node scripts/screenshot-registers.mjs <dir>` | Dev utility: screenshots both registers, light and dark, against a running preview on `:4319` |
-| `node scripts/check-installability.mjs` | Chrome's own `Page.getInstallabilityErrors`, against a running preview on `:4319` -- Lighthouse 11+ dropped the standalone `pwa` category |
-| `node scripts/check-offline.mjs` | Confirms a cold load works with the network off, against a running preview on `:4319` |
+| `npm run test:unit` | Runs the Vitest suite |
+| `npm run test:e2e` | Runs Playwright against a production build |
+| `npm test` | Runs type checking, lint, unit tests, a build, and Playwright |
+| `npm run ci:prepare` | Generates content, tokens, and Wasm once for CI |
+| `npm run sync-content` | Regenerates `public/content/` from `../../content/` |
+| `npm run sync-tokens` | Regenerates `src/design/tokens.css` from `../../design/tokens.json` |
 
-## What this app does not do yet
+Playwright needs Chromium once per machine:
 
-No probe screen, no deck, no Shelf, no onboarding, no orb -- the seam
-(`EnginePort`) declares their events so the types compile, but nothing in
-this build fires them. The reading screen, built twice, was the whole ask.
+```sh
+npx playwright install chromium
+```
+
+Generated content, token CSS, WebAssembly bindings, build output, Playwright
+output, and package installs are ignored by Git. A normal build or test run
+must leave tracked files unchanged.

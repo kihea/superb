@@ -1,16 +1,22 @@
 # apps/site
 
-The public landing page: Kihea's own designed page, served verbatim from
-`page/` (his drop, unedited — the same files as
-`workspace/prototypes/landing-mockup` on the private root). The previous
-rebuilt-from-figures page and its generator were retired on his direction
-(2026-07-31: "ensure it's literally just copied over"); they live in git
-history at this branch's base.
+The public landing page and the assembler that puts the reading app at
+`/read/` beside it.
+
+`page/Superb Landing.dc.html` retains Kihea's visual source. Shipping edits are
+kept small and explicit: links must lead somewhere, public copy must describe
+the build that exists, and the header must fit a phone. The previous generated
+landing implementation remains in Git history.
 
 ```sh
-npm run build   # copies page/ into dist/, names the page index.html
+npm ci
+npm run build      # copy the landing into dist/
+npm run assemble   # add the web app at dist/read/
+npm run smoke      # check the sealed layout in Chromium
 ```
 
-Static files, no framework, no dependencies. Deploys to
-`https://superb.works` (Cloudflare, Kihea's own setup — the publish
-workflow arrives with PR #94/#95's reconciliation).
+The smoke check opens the landing at a 390px viewport, rejects dead or clipped
+links, and verifies that `/read/` reaches a painted passage. The site workflow
+uploads the checked archive on every relevant build. It publishes to Cloudflare
+only when the repository has the required account and API-token secrets; a
+successful build does not by itself mean `superb.works` is live.

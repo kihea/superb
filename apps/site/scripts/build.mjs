@@ -1,13 +1,12 @@
 #!/usr/bin/env node
-// The landing page is Kihea's own designed page, served verbatim — his
-// direction of 2026-07-31: "ensure it's literally just copied over." The
-// previous build generated a rebuilt page from data/figures.json; that
-// machinery is retired with it (see git history at this branch's base for
-// the generator, its device checks, and its phrase lint).
+// The landing keeps Kihea's designed page as its visual source. The previous
+// build generated a second page from data/figures.json; that machinery remains
+// retired. Small shipping edits now live directly in page/: honest copy,
+// working links, and a phone-safe header.
 //
 // This build copies page/ into dist/ and names the page index.html.
-// page/ is the drop from workspace/prototypes/landing-mockup on the
-// private root, unedited.
+// page/ began as the drop from workspace/prototypes/landing-mockup on the
+// private root.
 
 import { cpSync, rmSync, renameSync, existsSync } from 'node:fs';
 import path from 'node:path';
@@ -27,4 +26,4 @@ if (!existsSync(dc)) {
   process.exit(1);
 }
 renameSync(dc, path.join(DIST, 'index.html'));
-console.log('built into ' + DIST + ' (Kihea’s page, copied verbatim)');
+console.log('built into ' + DIST + ' (Kihea’s visual source, shipping edits included)');
