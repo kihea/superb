@@ -178,7 +178,8 @@ work it came from. It splits three ways.
 - **What you build from somebody else's work** carries that work's terms, even
   though you did the building. A gloss rewritten from a Wiktionary entry is the
   case you are most likely to hit: it keeps Wiktionary's credit and its
-  pass-on-the-same-freedom terms. `content/difficulty.json` is the same shape —
+  pass-on-the-same-freedom terms — `content/glosses/bram-stoker_dracula.json`
+  is the first shipped one. `content/difficulty.json` is the same shape —
   our script builds it, and it travels with the credit its source list requires.
 - **The text you bring**, like the words inside an excerpt you cite or a book
   added to the library, keeps whatever terms it arrived under. Your

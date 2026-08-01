@@ -6,12 +6,23 @@
 const DB_NAME = "superb-web";
 const STORE = "engine";
 const KEY = "state";
+// Slice 1A: the book reader's own place/encounter log (bookState.ts) lives
+// in its own store rather than inside STORE above -- ADR-031's safety gate
+// is that a book encounter is recorded and consumes nothing, and giving it
+// a separate store makes "nothing here is ever read back into the engine"
+// true by construction (there is no code path from BOOK_STORE into
+// wasmEngine.load()) rather than a rule someone has to keep remembering
+// while STORE accumulates more shell-owned keys over time.
+const BOOK_STORE = "book";
+const DB_VERSION = 2;
 
 function open(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
-    const req = indexedDB.open(DB_NAME, 1);
-    req.onupgradeneeded = () => {
-      req.result.createObjectStore(STORE);
+    const req = indexedDB.open(DB_NAME, DB_VERSION);
+    req.onupgradeneeded = (event) => {
+      const db = req.result;
+      if (event.oldVersion < 1) db.createObjectStore(STORE);
+      if (event.oldVersion < 2) db.createObjectStore(BOOK_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -94,6 +105,64 @@ export async function saveCurrentPassage<T>(passage: T): Promise<void> {
   return new Promise((resolve, reject) => {
     const tx = db.transaction(STORE, "readwrite");
     tx.objectStore(STORE).put(passage, CURRENT_KEY);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+// ── The book reader's own state (BOOK_STORE, see its own comment above) ──
+const PLACE_KEY = "place";
+const ENCOUNTERS_KEY = "encounters";
+
+export async function loadBookPlace<T>(): Promise<T | null> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOK_STORE, "readonly");
+    const req = tx.objectStore(BOOK_STORE).get(PLACE_KEY);
+    req.onsuccess = () => resolve((req.result as T | undefined) ?? null);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+export async function saveBookPlace<T>(place: T): Promise<void> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOK_STORE, "readwrite");
+    tx.objectStore(BOOK_STORE).put(place, PLACE_KEY);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+export async function loadBookEncounters<T>(): Promise<T[]> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOK_STORE, "readonly");
+    const req = tx.objectStore(BOOK_STORE).get(ENCOUNTERS_KEY);
+    req.onsuccess = () => resolve((req.result as T[] | undefined) ?? []);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+export async function saveBookEncounters<T>(encounters: T[]): Promise<void> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOK_STORE, "readwrite");
+    tx.objectStore(BOOK_STORE).put(encounters, ENCOUNTERS_KEY);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+/** The reset half of "corrupt or unavailable local state produces a
+ *  recoverable screen and never silently discards data" (Slice 1A
+ *  acceptance): an explicit, reader-initiated action a retry screen calls,
+ *  never something the app does on the reader's behalf without asking. */
+export async function clearBookState(): Promise<void> {
+  const db = await open();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOK_STORE, "readwrite");
+    tx.objectStore(BOOK_STORE).clear();
     tx.oncomplete = () => resolve();
     tx.onerror = () => reject(tx.error);
   });

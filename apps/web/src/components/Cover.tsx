@@ -1,11 +1,19 @@
-// A book as an object you could pick up (1h). The cloth colour is a
-// property of the book in v0mock rather than anything derived, so a shelf
-// looks like a shelf and not like a chart.
-import type { MockBook } from "../v0mock";
+// A book as an object you could pick up (1h). The cloth colour was
+// originally a property of the book in v0mock rather than anything derived;
+// kept as a plain field here (rather than re-importing v0mock's MockBook)
+// so a real catalogue book can supply a cover without depending on the
+// mock's own type at all -- structural typing means every existing v0mock
+// caller (Shelf.tsx) still compiles unchanged.
 import "./Cover.css";
 
+export interface CoverBook {
+  title: string;
+  author: string;
+  cloth: "brand" | "ink" | "support" | "soft" | "paper";
+}
+
 export interface CoverProps {
-  book: MockBook;
+  book: CoverBook;
   /** `lg` is the current book on the Shelf, `xl` the one on a book's own page. */
   size?: "sm" | "md" | "lg" | "xl";
   /** Frosted, not faded -- 1h's own note. */

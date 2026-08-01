@@ -34,7 +34,7 @@
   line-height: var(--type-passage-line-height);
   letter-spacing: var(--type-passage-letter-spacing);
   text-wrap: pretty;
-  color: var(--page-ink);
+  color: var(--text-1);
 }
 
 /* Sentences exist so one can be held (frame 1v). They are otherwise
@@ -50,15 +50,15 @@
    only lit thing on the page. 2k draws a blurred scrim to the same end --
    see HoldMenu.css for why this build dims instead. */
 .passage-text--holding .passage-sentence {
-  color: var(--page-ink-muted);
+  color: var(--text-2);
   transition: color var(--motion-duration-fast) var(--motion-easing-standard);
 }
 
 .passage-text--holding .passage-sentence--held {
-  color: var(--page-ink);
-  background: var(--page-card-ground);
+  color: var(--text-1);
+  background: var(--surface-card);
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 4px var(--page-card-ground);
+  box-shadow: 0 0 0 4px var(--surface-card);
 }
 
 .passage-word {
@@ -69,11 +69,11 @@
 }
 
 .passage-word:hover {
-  background-color: color-mix(in srgb, var(--page-ink) 8%, transparent);
+  background-color: color-mix(in srgb, var(--text-1) 8%, transparent);
 }
 
 .passage-word:focus-visible {
-  outline: 2px solid var(--page-accent);
+  outline: 2px solid var(--brand);
   outline-offset: 2px;
 }
 
@@ -81,7 +81,7 @@
   margin: var(--space-6) 0 0;
   font-family: var(--font-ui);
   font-size: var(--type-ui-size-sm);
-  color: var(--page-ink-muted);
+  color: var(--text-2);
 }
 
 .passage-continue {
@@ -113,7 +113,7 @@
    exactly the defect a screenshot review caught once already. Always
    page-toned, so it is readable wherever it actually lands. */
 .passage-continue-button {
-  background-color: var(--page-card-ground);
+  background-color: var(--surface-card);
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
@@ -123,7 +123,7 @@
   padding: var(--space-3) var(--space-5) var(--space-3) var(--space-6);
   border: 1px solid var(--border-1);
   border-radius: var(--radius-pill);
-  color: var(--page-ink);
+  color: var(--text-1);
   box-shadow: var(--shadow-2);
   cursor: pointer;
   transition:
