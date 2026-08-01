@@ -23,9 +23,9 @@
 // Three screens are skipped by exact path rather than folded into the
 // exceptions above: SignIn.css, Share.css and Challenge.css hold raw
 // references today because those screens are still placeholders backed by
-// fake data and are due to be rewritten. An exception nobody has to remove
-// tends to outlive its reason, so these are named individually -- delete
-// each line the day its screen is rewritten for real, not before.
+// fake (v0mock) data and are due to be rewritten. An exception nobody has
+// to remove tends to outlive its reason, so these are named individually
+// -- delete each line the day its screen is rewritten for real, not before.
 
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -33,7 +33,11 @@ import { fileURLToPath } from "node:url";
 
 const SRC_ROOT = fileURLToPath(new URL("../src", import.meta.url));
 const SCANNED_EXTENSIONS = new Set([".css", ".ts", ".tsx"]);
-const RAW_TOKEN_PATTERN = /var\(--(?:ox|li|gl)-/;
+// Whitespace-tolerant and matched against the whole file (not per line):
+// `var( --ox-ink)` and a reference split across lines both resolve to the
+// same raw value as the contiguous form and are just as invisible to a
+// reader, so the pattern -- and the scan -- has to tolerate both.
+const RAW_TOKEN_PATTERN = /var\s*\(\s*--(?:ox|li|gl)-/g;
 
 const ALLOWED_PATHS = new Set([
   // Defines the raw values every other file is supposed to alias away from.
@@ -41,7 +45,8 @@ const ALLOWED_PATHS = new Set([
   // Theme-swatch previews must show Lilac/Glacier while another theme is
   // active; the semantic alias would resolve to the active theme instead.
   "screens/Settings.css",
-  // Placeholder screens awaiting a real rewrite -- see the file header.
+  // Placeholder screens, still backed by fake (v0mock) data, awaiting a
+  // real rewrite -- delete each line the day its screen is rewritten.
   "screens/SignIn.css",
   "screens/Share.css",
   "screens/Challenge.css",
@@ -70,12 +75,10 @@ for (const path of collectFiles(SRC_ROOT)) {
     continue;
   }
   const text = readFileSync(path, "utf-8");
-  const lines = text.split("\n");
-  for (let index = 0; index < lines.length; index += 1) {
-    const match = lines[index].match(RAW_TOKEN_PATTERN);
-    if (match) {
-      violations.push(`src/${relativePath}:${index + 1}: ${match[0]} -- use a semantic token instead`);
-    }
+  for (const match of text.matchAll(RAW_TOKEN_PATTERN)) {
+    const line = text.slice(0, match.index).split("\n").length;
+    const snippet = match[0].replace(/\s+/g, " ");
+    violations.push(`src/${relativePath}:${line}: ${snippet} -- use a semantic token instead`);
   }
 }
 
