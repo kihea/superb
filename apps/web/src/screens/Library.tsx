@@ -74,9 +74,15 @@ export function Library() {
               <span className="library-book__side">
                 <span className="library-book__names">
                   <span className="library-book__title">{book.title}</span>
+                  {/* ADR-042: a book's chapter count survives only here --
+                     caption type, beside the byline it already sits next
+                     to -- never as its own stat block and never on the
+                     book's own page (BookCover.tsx) or the Shelf. */}
                   <span className="sb-caption">
                     {book.author}
                     {book.translator ? ` · translated by ${book.translator}` : ""}
+                    {" · "}
+                    {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
                   </span>
                 </span>
               </span>

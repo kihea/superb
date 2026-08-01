@@ -64,14 +64,21 @@ export function BookCover({ id }: { id: string }) {
     <Screen back={{ to: "/library", label: "Library" }}>
       <div className="book-wash" aria-hidden="true" />
 
+      {/* ADR-042: a book's own chapter count survives only in the Library,
+         caption type beside the byline -- never as a standalone stat block,
+         and never inside the book's own page. Part numerals (a chapter's
+         own "I", "II", ...) are the text and stay wherever the book's own
+         table of contents or reading surface would show them; a count of
+         them is a measurement of the reader's task and belongs with the
+         other law-3-adjacent numbers this app keeps out of the reading
+         path. */}
       <div className="book-head">
         <Cover book={{ title: book.title, author: book.author, cloth: "ink" }} size="xl" />
-        <div className="book-head__facts">
-          <span className="sb-eyebrow">
-            {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
-          </span>
-          {book.translator && <span className="sb-caption">translated by {book.translator}</span>}
-        </div>
+        {book.translator && (
+          <div className="book-head__facts">
+            <span className="sb-caption">translated by {book.translator}</span>
+          </div>
+        )}
       </div>
 
       <div className="book-names">
