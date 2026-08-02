@@ -74,8 +74,23 @@ export function Shelf() {
 
   useEffect(() => {
     loadShelfData()
-      .then(setData)
+      .then((loaded) => {
+        // The very first open goes to the welcome instead of an empty
+        // room. After that, an empty shelf is just an empty shelf.
+        let welcomed = "1";
+        try {
+          welcomed = window.localStorage.getItem("superb.welcomed") ?? "";
+        } catch {
+          // Private browsing: skip the redirect rather than loop.
+        }
+        if (!welcomed && !loaded.current && loaded.waiting.length === 0 && loaded.read.length === 0) {
+          navigate("/welcome");
+          return;
+        }
+        setData(loaded);
+      })
       .catch(() => setData({ current: null, waiting: [], read: [] }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!data) {

@@ -17,20 +17,11 @@ import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
 import "./Settings.css";
 
-// Issue #99's other half: "a voice control/preview." The orb on the reading
-// page is the control; this is the preview -- a one-line sample of the
-// phone's own built-in voice, so choosing it in Settings is not a guess.
-// Feature-detected and silently absent where the browser has no
-// speechSynthesis, same as anything else here that depends on what the
-// device can do.
-//
-// ADR-039: "voice does not exist yet" as a working feature in this build --
-// the reading page's own orb does not actually speak (ReadingScreen.tsx:
-// "two words, not a player"). So the line this speaks names the phone's
-// voice itself, never what reading in the app will sound like -- this
-// previews a real, honest capability of the device, not a promise about
-// a feature that is not wired up anywhere else yet.
-const PREVIEW_LINE = "This is your phone's own voice.";
+// The orb on the reading page is the control; this is the preview -- a
+// one-line sample of the same voice the reader will hear, so choosing it
+// here is not a guess. Feature-detected and silently absent where the
+// browser has no speechSynthesis.
+const PREVIEW_LINE = "This is your phone's own voice, and it reads the books.";
 
 function speechSynthesisSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
@@ -180,17 +171,23 @@ export function Settings() {
 
       </div>
 
-      {/* ADR-008: word meanings are rewritten from Wiktionary, which carries
-         a share-alike obligation -- the attribution has to reach a reader
-         somewhere, and this is the room for it (data/NOTICE.md's own
-         "About screen (a shell concern, not this track's)"). Not yet a
-         full credits list per book -- Slice 1A ships one book, and its own
-         page already names its publisher and licence. */}
+      {/* Attribution the data carries with it -- Wiktionary's share-alike,
+         WordNet's copyright notice, CMUdict's licence. This is the one
+         room where the credits reach the reader. */}
       <section className="settings-group">
         <span className="sb-eyebrow">About</span>
         <p className="sb-caption">
+          The books are out-of-copyright editions from Standard Ebooks and Project Gutenberg, free
+          to read and pass on.
+        </p>
+        <p className="sb-caption">
           Word meanings include text from Wiktionary contributors, used under Creative Commons
           Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
+        </p>
+        <p className="sb-caption">
+          Word connections are built with WordNet 3.0, Copyright 2006 by Princeton University, used
+          with its permissive licence. Rhymes are judged with the CMU Pronouncing Dictionary,
+          Copyright Carnegie Mellon University.
         </p>
       </section>
 

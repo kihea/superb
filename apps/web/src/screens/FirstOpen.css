@@ -43,6 +43,50 @@
     box-shadow var(--dur-2) var(--ease-out);
 }
 
+.first-open__offer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-8);
+}
+
+.first-open__books {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+}
+
+.first-open__book {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  text-align: left;
+  padding: var(--sp-6) var(--sp-7);
+  background: var(--surface-card);
+  border: var(--bw-hairline) solid var(--border-1);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  transition:
+    transform var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.first-open__book:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+}
+
+.first-open__book-title {
+  font: var(--type-title-2);
+  color: var(--text-1);
+}
+
+.first-open__book-line {
+  font: var(--type-passage);
+  font-size: var(--fs-500);
+  color: var(--text-2);
+}
+
 .first-open__choice:hover {
   border-color: var(--brand);
   box-shadow: var(--shadow-2);
