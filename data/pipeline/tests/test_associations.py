@@ -50,6 +50,11 @@ def failures() -> list[str]:
         errors.append("forge does not connect to anvil, iron, metal or smithy")
     if not connects("queen", "king"):
         errors.append("queen does not answer king")
+    # The judge is wider than the reveal: crisis holds no direct WordNet
+    # edge to these, but a person would count every one of them.
+    for word in ("danger", "emergency", "panic", "disaster"):
+        if not connects(word, "crisis"):
+            errors.append(f"{word} does not answer crisis")
 
     # Tier structure.
     if sorted(tiers) != [str(n) for n in range(1, 8)]:

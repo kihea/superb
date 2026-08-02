@@ -24,10 +24,27 @@ Two clean sources, no external association norms:
 Each prompt carries up to 20 associates ranked by a blended score: the
 strongest WordNet relation, discounted for rarer senses, plus a bonus for
 corpus evidence. association-index.json is the judge's side of the same
-coin: for every word that connects to any prompt at all — through any
-WordNet relation above, or PMI at or above PMI_CONNECTED — it lists which
+coin: for every word that connects to any prompt at all, it lists which
 prompts it answers, so a typed answer far outside the top 20 is still
 honoured.
+
+The judge is deliberately wider than the reveal. A person playing "crisis"
+who answers "danger" is right, even though WordNet holds no direct edge
+between them. So beyond the direct relations and PMI_CONNECTED corpus
+pairs, the index also accepts:
+
+  - hypernyms and hyponyms two levels out, not just one;
+  - content words from the prompt's own definitions ("... of extreme
+    danger or difficulty" is why danger answers crisis);
+  - cousins — words whose senses share an ancestor with the prompt within
+    three levels on each side (panic and crisis meet under "condition").
+    Only the prompt's first few senses join this loosest tier, the shared
+    ancestor must sit well below the taxonomy's vacuous roots ("entity",
+    "act", "state" and kin prove nothing), and the cousin itself must be
+    a reasonably common word;
+  - corpus pairs at the looser PMI_JUDGE threshold.
+
+The reveal's top-20 lists stay strict; only the index is generous.
 
 Plain inflections of the prompt (call / called) are never associates; other
 same-root words (call / caller) are allowed and say so.
@@ -75,9 +92,44 @@ SENSE_DISCOUNT = 0.25
 WINDOW = 10
 MIN_PAIR_COUNT = 3
 MIN_TOKEN_COUNT = 3
-PMI_CONNECTED = 2.0  # enough to count as connected for the judge
+PMI_CONNECTED = 2.0  # counts as corpus-connected for ranking and flags
 PMI_LABELLED = 3.0   # enough to appear in the reveal on corpus evidence alone
 PMI_BONUS = 0.06     # per PMI bit, added to the blend for ranking
+PMI_JUDGE = 1.0      # the judge's looser bar for accepting an answer
+
+# Judge-widening knobs (index only; the reveal never uses these).
+JUDGE_LEVELS = 2         # hypernyms/hyponyms this many levels out
+COUSIN_SENSES = 3        # only a word's dominant senses join the cousin tier
+COUSIN_LEVELS = 3        # shared ancestor within this many levels each side
+COUSIN_MIN_DEPTH = 4     # ancestors nearer the taxonomy root prove nothing
+COUSIN_MIN_ZIPF = 2.7    # a cousin must be a word people actually use
+
+# Ancestors that connect everything to everything, whatever their depth.
+VACUOUS_ANCESTORS = {
+    "entity", "physical_entity", "abstraction", "object", "whole", "artifact",
+    "act", "action", "activity", "event", "state", "attribute", "quality",
+    "person", "causal_agent", "organism", "animal", "plant", "thing",
+    "matter", "substance", "relation", "communication", "measure", "group",
+    "cognition", "content", "psychological_feature",
+}
+
+# Words that appear in definitions as glue or boilerplate, not meaning:
+# "the act of...", "someone who...", "a state of being...".
+DEFINITION_STOPWORDS = {
+    "the", "and", "for", "that", "with", "from", "into", "onto", "which",
+    "who", "whom", "whose", "this", "these", "those", "are", "was", "were",
+    "been", "being", "has", "have", "had", "having", "not", "its", "his",
+    "her", "their", "your", "our", "one", "two", "some", "any", "all",
+    "other", "another", "such", "more", "most", "very", "than", "when",
+    "where", "while", "usually", "especially", "typically", "often",
+    "sometimes", "act", "state", "quality", "condition", "someone",
+    "something", "somebody", "anything", "person", "people", "make",
+    "makes", "making", "made", "used", "use", "uses", "using", "cause",
+    "causes", "caused", "causing", "become", "becomes", "becoming",
+    "characterized", "relating", "involving", "concerning", "regarded",
+    "considered", "manner", "way", "kind", "sort", "form", "given",
+    "marked", "etc",
+}
 
 LABELS = {
     "synonym": "means the same",
@@ -174,6 +226,71 @@ def related_by_wordnet(word: str) -> dict[str, tuple[str, float]]:
             for lemma in substance.lemmas():
                 offer(lemma.name(), "substance", index)
     return found
+
+
+def judge_connections(
+    word: str, pmi_related: dict[str, float], zipf
+) -> set[str]:
+    """Every answer the judge should accept for this prompt — the widened
+    net the module docstring describes. Index only; never the reveal."""
+    from nltk.corpus import wordnet
+
+    accepted: set[str] = set()
+    cousins: set[str] = set()
+
+    def offer(name: str, into: set[str]) -> None:
+        name = name.lower()
+        if "_" in name or not WORD_RE.match(name) or len(name) < 3:
+            return
+        if name == word or is_inflection_of(name, word) or is_inflection_of(word, name):
+            return
+        into.add(name)
+
+    # Everything the reveal could have shown is accepted, of course.
+    accepted.update(related_by_wordnet(word))
+
+    synsets = wordnet.synsets(word)[:MAX_SENSES]
+    for synset in synsets:
+        for token in TOKEN_RE.findall(synset.definition().lower()):
+            if token not in DEFINITION_STOPWORDS:
+                offer(token, accepted)
+        layer = {synset}
+        for _ in range(JUDGE_LEVELS):
+            layer = {h for s in layer for h in s.hypernyms() + s.instance_hypernyms()}
+            for s in layer:
+                for lemma in s.lemmas():
+                    offer(lemma.name(), accepted)
+        layer = {synset}
+        for _ in range(JUDGE_LEVELS):
+            layer = {h for s in layer for h in s.hyponyms()}
+            for s in layer:
+                for lemma in s.lemmas():
+                    offer(lemma.name(), accepted)
+
+    for synset in synsets[:COUSIN_SENSES]:
+        ancestors: set = set()
+        layer = {synset}
+        for _ in range(COUSIN_LEVELS):
+            layer = {h for s in layer for h in s.hypernyms() + s.instance_hypernyms()}
+            ancestors.update(layer)
+        for ancestor in ancestors:
+            if ancestor.min_depth() < COUSIN_MIN_DEPTH:
+                continue
+            if ancestor.name().split(".")[0] in VACUOUS_ANCESTORS:
+                continue
+            layer = {ancestor}
+            for _ in range(COUSIN_LEVELS):
+                layer = {h for s in layer for h in s.hyponyms()}
+                for s in layer:
+                    for lemma in s.lemmas():
+                        offer(lemma.name(), cousins)
+
+    for other, value in pmi_related.items():
+        if value >= PMI_JUDGE:
+            offer(other, accepted)
+
+    accepted.update(w for w in cousins if zipf(w) >= COUSIN_MIN_ZIPF)
+    return {w for w in accepted if zipf(w) >= 2.0}
 
 
 def corpus_texts() -> list[str]:
@@ -280,7 +397,6 @@ def build() -> tuple[dict, dict]:
 
     print(f"scoring {len(candidates)} candidate prompts ...", file=sys.stderr)
     prompt_associates: dict[str, list[dict]] = {}
-    connected: dict[str, set[str]] = {}
     for word in candidates:
         wn_related = related_by_wordnet(word)
         pmi_related = pmi.get(word, {})
@@ -314,12 +430,6 @@ def build() -> tuple[dict, dict]:
             {k: v for k, v in entry.items() if k != "_score"}
             for entry in scored[:TOP_ASSOCIATES]
         ]
-        # The judge accepts every WordNet relative and every PMI_CONNECTED
-        # neighbour, not just the reveal's top 20.
-        judged = set(wn_related) | {
-            w for w, value in pmi_related.items() if value >= PMI_CONNECTED
-        }
-        connected[word] = {w for w in judged if zipf(w) >= 2.0}
 
     # Skip prompts that are plain inflections of another qualifying prompt,
     # so a tier doesn't spend two slots on adventurer and adventurers.
@@ -369,6 +479,9 @@ def build() -> tuple[dict, dict]:
         ),
         "tiers": tiers,
     }
+
+    print("widening the judge's net for the chosen prompts ...", file=sys.stderr)
+    connected = {w: judge_connections(w, pmi.get(w, {}), zipf) for w in sorted(used)}
 
     prompt_list = sorted(used)
     prompt_index = {w: i for i, w in enumerate(prompt_list)}
