@@ -47,3 +47,4 @@ tests/wasm-node-pkg
 
 # Review-only screenshots for a PR body, never part of what ships (see PR #31).
 .pr-review/
+dev-dist/
