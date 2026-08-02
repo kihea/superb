@@ -11,10 +11,10 @@
 //
 // Two things this deliberately does NOT do. It does not start the preview
 // server -- the caller does, so a failure here is never a failure to boot.
-// And it waits for `.passage-page`, the real passage from the real engine,
-// rather than for the shell: the shell painting while the engine 404s is
-// exactly the failure that went unnoticed, and "the page loaded" would have
-// called it a pass.
+// And its offline assertion is the composed passage at /play/prose (the
+// real engine, through the door), not just the shell: the shell painting
+// while the engine's .wasm 404s is exactly the failure that went unnoticed
+// before, and "the page loaded" would have called it a pass.
 
 import { chromium } from "@playwright/test";
 
@@ -31,12 +31,24 @@ async function report(label, run) {
   }
 }
 
+// The prose game sits behind a door screen; a load lands on the door and
+// the passage exists only after it is opened. Walking through it is what
+// makes the engine (wasm and all) actually run.
+async function openProse(page, timeout) {
+  await page.getByRole("button", { name: "Open the passage" }).click({ timeout });
+  await page.waitForSelector(".passage-page", { timeout });
+}
+
 const browser = await chromium.launch();
 const context = await browser.newContext();
 const page = await context.newPage();
 
+// First open online: the welcome paints, then the engine's passage -- this
+// is also what populates the service worker's caches for everything below.
 await page.goto(ORIGIN);
-await page.waitForSelector(".passage-page");
+await page.waitForSelector(".first-open__wordmark");
+await page.goto(`${ORIGIN}/play/prose`);
+await openProse(page, 30000);
 
 // Give the service worker a moment to finish installing/activating and the
 // precache to populate.
@@ -51,9 +63,9 @@ console.log("service worker state:", swState);
 if (swState !== "activated") failures.push("service worker never activated");
 
 await context.setOffline(true);
-await report("offline reload renders a passage", async () => {
+await report("offline reload renders the engine's passage", async () => {
   await page.reload();
-  await page.waitForSelector(".passage-page", { timeout: 10000 });
+  await openProse(page, 10000);
 });
 if (failures.length > 0) {
   console.log("body:", (await page.locator("body").innerText()).slice(0, 300));
@@ -65,15 +77,15 @@ await page.close();
 
 const page2 = await context.newPage();
 await context.setOffline(true);
-await report("offline cold navigation renders a passage", async () => {
-  await page2.goto(ORIGIN, { timeout: 10000 });
-  await page2.waitForSelector(".passage-page", { timeout: 10000 });
+await report("offline cold navigation renders the engine's passage", async () => {
+  await page2.goto(`${ORIGIN}/play/prose`, { timeout: 10000 });
+  await openProse(page2, 10000);
 });
 
-// A deep route offline, which is new: the app has routes now, and the
-// service worker's navigateFallback is what makes them survive.
+// Another deep route offline -- the service worker's navigateFallback is
+// what makes any route survive a cold offline hit.
 await report("offline deep route renders", async () => {
-  await page2.goto(`${ORIGIN}/shelf`, { timeout: 10000 });
+  await page2.goto(`${ORIGIN}/words`, { timeout: 10000 });
   await page2.waitForSelector(".sb-screen", { timeout: 10000 });
 });
 
