@@ -1,71 +1,78 @@
 # Superb web app
 
-The current product shell is a React 19, TypeScript, and Vite PWA with no
-application server. It runs by itself at `/` during local development and web
-CI. The site assembler builds the same app with a `/read/` base path and places
-it beside the landing page.
+A reading app built with React 19, TypeScript, and Vite, installable as a
+PWA. There is no application server: everything is static files plus the
+reader's own browser storage.
 
-## What is real
+## The rooms
 
-- The reading screen uses `superb-core` through the generated `superb-wasm`
-  binding. There is no mock engine or engine feature flag.
-- Passage and source content is generated from the repository's `content/`
-  files before each development build.
-- Learner state, including topic affinity, is persisted in IndexedDB and stays
-  off screen.
-- The production build is installable and caches the app shell, WebAssembly,
-  and visited content for offline use.
+- **Shelf** (`/`) — the books you are reading, the one you are in largest.
+  The very first visit redirects to `/welcome`, a short three-tap opening
+  that ends with a book in your hands.
+- **Library** (`/library`) — 614 public-domain books, searchable by title
+  or author and browsable by kind.
+- **Book** (`/book/:id` and `/book/:id/read`) — a cover page, then the book
+  itself. While reading, words that have a saved meaning are tappable; a
+  tap opens a small card with the meaning and a Keep button. Your place in
+  each book is saved as you scroll and survives reloads. Ordinary reading
+  is private: it records nothing beyond your place and what you choose to
+  keep.
+- **Play** (`/play`) — three games. **Rhyme** and **Association** show a
+  word and judge what you offer back, with seven difficulty tiers.
+  **Prose** (`/play/prose`) shows a passage composed for you by the
+  learning engine — the engine (`superb-core`, compiled to WebAssembly) is
+  used only here, nowhere else in the app.
+- **Words** (`/words`) — every word and sentence you have kept, each with
+  its meaning and the sentence it was met in.
+- **Settings** (`/settings`) — theme, motion, and the like.
 
-## What is still a prototype
+The full route list lives in `src/routes.ts`.
 
-The broader product shell has fourteen screens, but several are backed by the
-invented data in `src/v0mock/index.ts`: Library, Shelf, whole-book reading,
-rhyme, association, elevated passages, sharing, and the voice presentation.
-The voice route does not synthesize audio. Gloss definitions still come from
-`src/fixtures/glosses`.
+## The data it fetches
 
-That boundary is deliberate and temporary. New product work must replace one
-mock-backed path with real data rather than adding another source of invented
-state.
+- `/content/catalogue-index.json` — one small row per book, for the
+  Library and cover pages.
+- Book text — fetched per book from the public library repository through
+  jsDelivr's CDN when a book is opened, then held in the Cache API so a
+  book once opened reads offline. One book (Dracula) is served locally
+  from the vendored `catalogue-v0.1.0.json`, which is what the tests read.
+- `/content/glosses/<book-id>.json` — each book's word meanings.
+- `/content/challenges/*.json` — rhyme prompts, pronunciations,
+  association prompts, and their answer indexes.
+
+Reader state (shelf, places, kept words and sentences, and the prose
+game's engine state) lives in IndexedDB under `superb-web`.
 
 ## Run it
 
-From the repository root, install `wasm-bindgen-cli` at the version used by the
-workspace and add Rust's WebAssembly target:
+From the repository root, once per machine:
 
 ```sh
 rustup target add wasm32-unknown-unknown
 cargo install wasm-bindgen-cli --version 0.2.126 --locked
+```
+
+Then:
+
+```sh
 cd apps/web
 npm ci
 npm run dev
 ```
 
-The development server prints the local URL. Its pre-run hook builds the Rust
-crate, creates browser and Node bindings, syncs content, and generates CSS from
-the design tokens.
+The dev server's pre-run hook builds the WebAssembly engine, syncs content,
+and generates CSS from the design tokens.
 
-## Scripts
-
-| Command | What it does |
-|---|---|
-| `npm run dev` | Syncs generated inputs, builds WebAssembly, then starts Vite |
-| `npm run build` | Syncs generated inputs, builds WebAssembly, then creates `dist/` |
-| `npm run typecheck` | `tsc -b`, no emit |
-| `npm run lint` | `oxlint` |
-| `npm run test:unit` | Runs the Vitest suite |
-| `npm run test:e2e` | Runs Playwright against a production build |
-| `npm test` | Runs type checking, lint, unit tests, and Playwright; Playwright creates the production build once |
-| `npm run ci:prepare` | Generates content, tokens, and Wasm once for CI |
-| `npm run sync-content` | Regenerates `public/content/` from `../../content/` |
-| `npm run sync-tokens` | Regenerates `src/design/tokens.css` from `../../design/tokens.json` |
-
-Playwright needs Chromium once per machine:
+## Tests
 
 ```sh
-npx playwright install chromium
+npm run test:unit   # Vitest
+npm run test:e2e    # Playwright, against a production build
+npm test            # typecheck + lint + unit + e2e
 ```
 
-Generated content, token CSS, WebAssembly bindings, build output, Playwright
-output, and package installs are ignored by Git. A normal build or test run
-must leave tracked files unchanged.
+Playwright needs Chromium once per machine: `npx playwright install chromium`.
+
+Generated content, token CSS, WebAssembly bindings, build output, and test
+output are ignored by Git; a normal build or test run leaves tracked files
+unchanged.

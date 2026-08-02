@@ -1,10 +1,11 @@
 // Proves the loop docs/seams.md names -- plan -> fetch -> decide -> save ->
 // render -- actually runs end to end, against a real production build
 // (playwright.config.ts builds and serves dist/, not the dev server).
-// One register now (ADVISORY-008 §1 corrected the picker that asked a
-// settled question -- ADR-019, Kihea 2026-07-25), so this no longer loops
-// over two: everything below runs once, against the app's only screen.
+// The engine-composed reading state now lives at /play/prose, behind the
+// prose game's door -- "/" is the Shelf. Everything below walks in through
+// that door (see prose.ts) and then audits the same surface it always did.
 import { test, expect, type Page } from "@playwright/test";
+import { openProse, reopenProse } from "./prose";
 
 async function currentPassageId(page: Page): Promise<string | null> {
   return page.locator(".passage-page").getAttribute("data-passage-id");
@@ -105,7 +106,7 @@ async function readTopicTally(page: Page): Promise<[string, TopicTally] | null> 
 }
 
 test("renders a real passage from content/", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   // The same class of infrastructure variance clickKeepReading() already
   // guards against (see its own comment below): six workers hitting one
   // preview server at once can starve the very first paint past the
@@ -132,7 +133,7 @@ test("fixed-position overlays anchor to the real viewport, not the card", async 
   const viewport = page.viewportSize();
   if (!viewport) throw new Error("no viewport");
 
-  await page.goto("/");
+  await openProse(page);
   await page.locator(".passage-continue-button").scrollIntoViewIfNeeded();
   await expect(page.locator(".passage-continue")).toHaveClass(/passage-continue--visible/, {
     timeout: 15_000,
@@ -159,7 +160,7 @@ test("fixed-position overlays anchor to the real viewport, not the card", async 
 // (design/metal.css) only ever touches the rim; background-color is set
 // explicitly alongside it for exactly this reason (PassagePage.css).
 test("the pull-up button is always page-toned, not chrome-toned", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   const styles = await page.locator(".passage-continue-button").evaluate((el) => {
     const cs = getComputedStyle(el);
     return { color: cs.color, background: cs.backgroundColor };
@@ -183,7 +184,7 @@ test("the pull-up button is always page-toned, not chrome-toned", async ({ page 
 // token-equality check, so it holds even if the token values themselves
 // change later), against every chrome-drawn text this build ships.
 test("every chrome text on the reading surface meets WCAG AA contrast", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
 
   const buttonContrast = await page.locator(".passage-continue-button").evaluate((el) => {
     const cs = getComputedStyle(el);
@@ -220,9 +221,14 @@ test("every chrome text on the reading surface meets WCAG AA contrast", async ({
 });
 
 test("gloss tap arrives and dismisses", async ({ page }) => {
-  await page.goto("/");
-  const firstWord = page.locator(".passage-word").first();
-  await firstWord.click();
+  await openProse(page);
+  // A curated word, not blindly the first one: the "elsewhere" example line
+  // exists only for curated entries (GlossCard.tsx's resolution order), and
+  // the first word of a passage is usually an article with no entry at all.
+  const word = page
+    .locator(".passage-word", { hasText: /^(grey|quietly|hush|weathered|steady|faintly)$/ })
+    .first();
+  await word.click();
 
   const card = page.locator(".gloss-card");
   await expect(card).toBeVisible();
@@ -239,19 +245,24 @@ test("gloss tap arrives and dismisses", async ({ page }) => {
 });
 
 test("finish -> next passage -> reload resumes the new one", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   const before = await currentPassageId(page);
 
   await clickKeepReading(page);
-  await expect(page.locator(".passage-page")).toBeVisible();
-
+  // The old passage stays mounted while the engine composes the next one
+  // (the pixel break runs over the swap), so wait for the id to actually
+  // change rather than reading it the instant the click lands -- the same
+  // poll reading-state-flourish.spec.ts uses on this exact transition.
+  await expect
+    .poll(async () => currentPassageId(page), { timeout: 10_000 })
+    .not.toBe(before);
   const after = await currentPassageId(page);
-  expect(after).not.toBe(before);
 
-  // State persists to IndexedDB (docs/seams.md) -- a reload must resume the
-  // passage just landed on, not start over or advance again.
+  // State persists to IndexedDB (docs/seams.md) -- a reload lands on the
+  // prose door again, and opening it must resume the passage just landed
+  // on, not start over or advance again.
   await page.reload();
-  await expect(page.locator(".passage-page")).toBeVisible();
+  await reopenProse(page);
   const afterReload = await currentPassageId(page);
   expect(afterReload).toBe(after);
 });
@@ -279,7 +290,7 @@ test("finish -> next passage -> reload resumes the new one", async ({ page }) =>
 // the words "topic"/"affinity" as the feature's own vocabulary, are things
 // a passage would never legitimately say.
 test("topic affinity tally never reaches any rendered surface", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await clickKeepReading(page);
   await expect(page.locator(".passage-page")).toBeVisible();
 
@@ -700,7 +711,7 @@ test.describe(() => {
         page,
       }) => {
         await page.emulateMedia({ colorScheme: scheme, reducedMotion });
-        await page.goto("/");
+        await openProse(page);
         // Same parallel-worker contention window as the first test in this
         // file -- see its comment.
         await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
@@ -784,7 +795,7 @@ test.describe(() => {
 // uses today (which this method cannot see at all, by construction --
 // voice-orb-motion.spec.ts is what actually watches the orb itself).
 test("nothing in the reading page's top row moves except the orb itself", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   await page.waitForTimeout(600);
 

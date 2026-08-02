@@ -9,6 +9,7 @@
 // these checks now guard that one, plus the law-3 sweeps that were never
 // motif-specific to begin with.
 import { test, expect, type Page } from "@playwright/test";
+import { openProse } from "./prose";
 
 /** The engine's own record of which words in the passage on screen are its
  *  first contact (`Passage.seeded`), read straight out of IndexedDB the same
@@ -37,7 +38,7 @@ async function currentPassageSeeded(page: Page): Promise<string[]> {
 }
 
 test("renders the real passage, decorative motifs never become tap targets", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   // Every word is still the same identical button -- no drawn motif is
@@ -72,7 +73,7 @@ test("renders the real passage, decorative motifs never become tap targets", asy
 // own -- the same law-3 line the passage-break chain's placement already
 // has to hold.
 test("the doodle nav icon decorates the pull-up button, never the passage text", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   expect(await page.locator(".passage-text .doodle-arrow").count()).toBe(0);
@@ -88,7 +89,7 @@ test("the doodle nav icon decorates the pull-up button, never the passage text",
 // affinity check: the drawn register must not be the thing that quietly
 // leaks the schedule.
 test("the drawn register does not narrate its own pedagogy in rendered text", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   const bodyText = (await page.locator("body").innerText()).toLowerCase();
   for (const word of ["topic", "affinity", "streak", "score", "level", "review queue"]) {
@@ -245,7 +246,7 @@ async function readerFacingNumberViolations(page: Page): Promise<{ route: string
 // sweep that only watches for extras would still pass with the exception
 // quietly gutted to always read zero).
 test("the held sentence's new-word count is the only number facing the reader", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   const seeded = new Set((await currentPassageSeeded(page)).map((w) => w.toLowerCase()));
@@ -287,7 +288,7 @@ test("the held sentence's new-word count is the only number facing the reader", 
 for (const scheme of ["dark", "light"] as const) {
   test(`the doodle motifs are printed still, not animating: ${scheme}`, async ({ page }) => {
     await page.emulateMedia({ colorScheme: scheme });
-    await page.goto("/");
+    await openProse(page);
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
     await page.waitForTimeout(600);
 

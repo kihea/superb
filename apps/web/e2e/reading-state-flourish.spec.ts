@@ -4,6 +4,7 @@
 // they are legal where every other chrome device (chrome-containment.
 // spec.ts) is forbidden.
 import { test, expect, type Page } from "@playwright/test";
+import { openProse } from "./prose";
 
 async function openGlossFor(page: Page, index: number) {
   const word = page.locator(".passage-word").nth(index);
@@ -12,7 +13,7 @@ async function openGlossFor(page: Page, index: number) {
 }
 
 test("the Keep scatter fires from the gloss card and the card returns to stillness", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   await openGlossFor(page, 0);
@@ -50,7 +51,7 @@ test("the Keep scatter fires from the gloss card and the card returns to stillne
 //
 // The PR body carries the full run output.
 test("the Keep control's markup does not vary with which word was tapped", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   const wordCount = await page.locator(".passage-word").count();
@@ -75,7 +76,7 @@ test("the Keep control's markup does not vary with which word was tapped", async
 // design rather than a defect. Anyone reading the old title as "nothing
 // covers the passage" would have been wrong about what was checked.
 test("the Keep flourish never occludes the passage text", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   await openGlossFor(page, 0);
@@ -198,7 +199,7 @@ test("the Keep flourish never occludes the passage text", async ({ page }) => {
 test("the pixel break fires from Keep reading, bounded to the button, and the passage advances only once it ends", async ({
   page,
 }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
   const firstPassageId = await page.locator(".passage-page").getAttribute("data-passage-id");
 
@@ -219,7 +220,7 @@ test("the pixel break fires from Keep reading, bounded to the button, and the pa
 for (const scheme of ["dark", "light"] as const) {
   test(`the Keep scatter collapses to nothing under prefers-reduced-motion: ${scheme}`, async ({ page }) => {
     await page.emulateMedia({ colorScheme: scheme, reducedMotion: "reduce" });
-    await page.goto("/");
+    await openProse(page);
     await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
     await openGlossFor(page, 0);

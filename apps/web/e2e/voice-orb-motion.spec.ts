@@ -3,10 +3,11 @@
 // freezes it (VoiceOrb's own header) and that it does not disturb the
 // reading-state seam while `still` and the switch is on. This closes that
 // gap directly, and does it through the real stored preference (I-1's fix)
-// rather than by flipping the switch mid-session -- a fresh tab, straight to
-// "/", with "off" already in storage, which is exactly the scenario I-1
-// broke and this now stands as the regression guard for.
+// rather than by flipping the switch mid-session -- a fresh tab, straight
+// into the prose passage, with "off" already in storage, which is exactly
+// the scenario I-1 broke and this now stands as the regression guard for.
 import { test, expect } from "@playwright/test";
+import { openProse } from "./prose";
 
 test("the voice orb is frozen when the motion switch is off, from the very first frame", async ({ page }) => {
   // Runs before any of the app's own scripts, so this reproduces a reader
@@ -15,7 +16,7 @@ test("the voice orb is frozen when the motion switch is off, from the very first
   await page.addInitScript(() => {
     window.localStorage.setItem("superb.motion", "off");
   });
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   // The boot restore itself (I-1): the attribute must already read "off" by
@@ -44,7 +45,7 @@ test("the voice orb is frozen when the motion switch is off, from the very first
 // animating, then the preference flips live and the orb is caught frozen
 // on the very next sample -- the same page, the same mount.
 test("the orb hears a live change in prefers-reduced-motion without a reload", async ({ page }) => {
-  await page.goto("/");
+  await openProse(page);
   await expect(page.locator(".passage-page")).toBeVisible({ timeout: 15_000 });
 
   const orb = page.locator(".voice-orb-button .voice-orb");
