@@ -1,50 +1,44 @@
 # Superb
 
-A reading app that quietly builds vocabulary.
+A reading app that makes you better with words.
 
-You open it and read. Words you do not know acquire meaning through informative
-context and quiet resurfacing. Adaptive assessment, spaced repetition, and
-retrieval practice run underneath the page without turning reading into a
-dashboard. There is no review queue, streak, level, or score.
+You open it and read — real books, 614 of them, all out of copyright. Any word
+you don't know gives up its meaning when you tap it, and you can keep the ones
+worth keeping. When you feel like practising, there are three games: rhyme,
+association, and prose composed for you by an engine that learns which words
+you're ready for. The device can read the books aloud. There is no review
+queue, streak, level, or score; reading stays reading.
 
-**The design law:** the schedule is the pedagogy; the surface is the
-experience. Any feature that requires explaining itself to the user is wrong
-by definition.
+## What's here
 
-## Status
-
-Superb is in active development. The web reading loop uses the real Rust engine
-through WebAssembly, stores learner state in IndexedDB, and works offline after
-its first load. The repository also contains a broad fourteen-screen product
-prototype. Its library, whole-book reader, challenges, and Shelf still use the
-invented data isolated in `apps/web/src/v0mock/`; the voice screen does not
-produce audio. Those screens are useful for walking the intended product, but
-they are not finished capabilities.
-
-The next product step is one real catalogue book from search through reading,
-word lookup, saved place, and resume. Until that lands, this repository should
-be read as a working alpha rather than a complete reading library.
-
-## Repository
-
-- `crates/superb-core` is the pure engine: word state, scheduling, ability
-  estimation, signal ranking, and passage composition. It has no clock, RNG,
-  or I/O; callers supply time and seeds.
-- `crates/superb-wasm` exposes the engine to the web app.
-- `crates/superb-sim` runs synthetic readers through long behavioral checks.
-- `apps/web` is the React and Vite PWA served at `/read/` in the assembled
-  site.
-- `apps/site` builds the public landing page and assembles the deployable site.
-- `data`, `content`, and `design` hold build-time data, cited or authored
-  reading material, and design tokens. CI checks every shipped dataset and
-  cited excerpt against its licence and provenance record.
+- **The reader.** The library, book pages, saved places, tap-a-word meanings,
+  kept words and sentences, and read-aloud. Book text comes from the
+  [library repository](https://github.com/superb-catalogue/library) and is
+  cached on device; everything the reader does stays on the device.
+- **The games.** Rhyme and association take anything you type or say and judge
+  it against real data — pronunciations from CMUdict, word connections from
+  WordNet and our own corpus — then show you what you could have said. Prose
+  is a passage composed for you; tapping the words you don't know is the whole
+  exercise, and it is the one place the learning engine listens.
+- **The engine** (`crates/superb-core`): word state, scheduling, ability
+  estimation, signal ranking, and passage composition. Pure — no clock, RNG,
+  or I/O; callers supply time and seeds. `crates/superb-wasm` exposes it to
+  the web app; `crates/superb-sim` runs synthetic readers through long checks.
+- **The shells.** `apps/web` is a React + Vite PWA, served at `/read/` on
+  [superb.works](https://superb.works) and installable offline. `apps/android`
+  is that app as an installable Android package (a Trusted Web Activity).
+  `apps/site` is the landing page.
+- **The data.** `content/` holds the composed passages, cited excerpts, word
+  meanings, and challenge data; `data/` holds the pipeline that builds it. CI
+  checks every shipped dataset and cited excerpt against its licence and
+  provenance record.
 
 A shell may render, gesture, persist, and time. It may not decide. Anything
 that decides lives in the core, so every shell behaves consistently by
 construction rather than by discipline.
 
-The current app runs on-device and keeps reader state local. It has no account,
-sync, payment, or cloud-voice service.
+The app runs on-device and keeps reader state local. It has no account, sync,
+or payment service.
 
 ## Run it locally
 
