@@ -56,6 +56,14 @@
   color: var(--text-on-brand);
 }
 
+.library-kinds {
+  display: flex;
+  gap: var(--sp-3);
+  overflow-x: auto;
+  padding-bottom: var(--sp-2);
+  scrollbar-width: none;
+}
+
 .library-list {
   display: flex;
   flex-direction: column;

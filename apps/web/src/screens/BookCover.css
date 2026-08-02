@@ -33,6 +33,10 @@
   gap: var(--sp-3);
 }
 
+.book-description {
+  max-width: 44ch;
+}
+
 .book-opening {
   display: flex;
   flex-direction: column;

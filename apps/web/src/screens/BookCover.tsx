@@ -1,41 +1,34 @@
-// Screen 5, from frame 2h: the cover sits on a paper panel with the brand
-// wash behind it, and the first line of the book is already on the page --
-// you can tell whether you want it before you begin. Slice 1A (PLAN.md §7)
-// sources this from the real catalogue artifact instead of v0mock.
+// One book, before you start: the cover on a paper panel, the first line
+// already on the page -- you can tell whether you want it before you
+// begin. Served from the catalogue index alone; the full text is only
+// fetched when the reader actually begins.
 import { useEffect, useState } from "react";
 import { Screen } from "../shell/Screen";
 import { useNavigate } from "../router/context";
-import { getBook } from "../content/catalogue";
-import type { CatalogueBook } from "../content/catalogueTypes";
+import { getIndexRow, type CatalogueIndexRow } from "../content/catalogue";
+import { addToShelf } from "../reading/bookState";
 import { Cover } from "../components/Cover";
+import { clothFor } from "./Shelf";
 import { RecoveryScreen } from "../components/RecoveryScreen";
 import { NotFound } from "./NotFound";
 import "./BookCover.css";
 
 type Status = "loading" | "ready" | "not-found" | "error";
 
-/** The book's own first line, as tappable prose already gives it -- the
- *  first block of its first part, whatever kind of block that is (a diary
- *  dateline, a letter's opening line; catalogueTypes.ts's own note on why
- *  Slice 1A does not distinguish them yet). */
-function openingLine(book: CatalogueBook): string {
-  return book.parts[0]?.blocks[0]?.text ?? "";
-}
-
 export function BookCover({ id }: { id: string }) {
   const navigate = useNavigate();
   const [status, setStatus] = useState<Status>("loading");
-  const [book, setBook] = useState<CatalogueBook | null>(null);
+  const [row, setRow] = useState<CatalogueIndexRow | null>(null);
 
   async function load() {
     setStatus("loading");
     try {
-      const found = await getBook(id);
+      const found = await getIndexRow(id);
       if (!found) {
         setStatus("not-found");
         return;
       }
-      setBook(found);
+      setRow(found);
       setStatus("ready");
     } catch {
       setStatus("error");
@@ -58,48 +51,54 @@ export function BookCover({ id }: { id: string }) {
   if (status === "error") {
     return <RecoveryScreen back={{ to: "/library", label: "Library" }} onRetry={() => void load()} />;
   }
-  if (!book) return <NotFound />;
+  if (!row) return <NotFound />;
+
+  function begin() {
+    void addToShelf(row!.id, Date.now()).catch(() => {});
+    navigate(`/book/${row!.id}/read`);
+  }
+
+  function addForLater() {
+    void addToShelf(row!.id, Date.now()).catch(() => {});
+    navigate("/");
+  }
 
   return (
     <Screen back={{ to: "/library", label: "Library" }}>
       <div className="book-wash" aria-hidden="true" />
 
       <div className="book-head">
-        <Cover book={{ title: book.title, author: book.author, cloth: "ink" }} size="xl" />
+        <Cover book={{ title: row.title, author: row.author, cloth: clothFor(row.id) }} size="xl" />
       </div>
 
       <div className="book-names">
-        <h2 className="sb-heading">{book.title}</h2>
+        <h2 className="sb-heading">{row.title}</h2>
         <span className="sb-said">
-          {book.author}
-          {book.translator ? ` · translated by ${book.translator}` : ""}
+          {row.author}
+          {row.translator ? ` · translated by ${row.translator}` : ""}
         </span>
-        {/* ADR-042: a chapter count may ship here (the reader has not begun
-            the book yet) but rides with the byline in caption type, not as
-            its own stat block beside the cover -- so it lives in this group,
-            one line under the byline it belongs to, rather than in
-            book-head__facts. It never appears again once WholeBook opens. */}
         <span className="sb-caption">
-          {book.parts.length} {book.parts.length === 1 ? "chapter" : "chapters"}
+          {row.chapterCount} {row.chapterCount === 1 ? "chapter" : "chapters"}
         </span>
       </div>
 
-      <div className="sb-card book-opening">
-        <span className="sb-eyebrow">It begins</span>
-        <p className="book-opening__line">“{openingLine(book)}”</p>
-      </div>
+      {row.description && <p className="sb-said book-description">{row.description}</p>}
 
-      <p className="sb-caption">
-        {book.provenance.publisher}, from{" "}
-        <a href={book.provenance.workPage} target="_blank" rel="noreferrer">
-          its own public page
-        </a>{" "}
-        · {book.provenance.licence}
-      </p>
+      {row.firstLine && (
+        <div className="sb-card book-opening">
+          <span className="sb-eyebrow">It begins</span>
+          <p className="book-opening__line">“{row.firstLine}”</p>
+        </div>
+      )}
+
+      <p className="sb-caption">Out of copyright — free to read, keep, and pass on.</p>
 
       <div className="book-actions">
-        <button type="button" className="sb-button sb-button--wide" onClick={() => navigate(`/book/${book.id}/read`)}>
+        <button type="button" className="sb-button sb-button--wide" onClick={begin}>
           Begin
+        </button>
+        <button type="button" className="sb-quiet sb-quiet--centred" onClick={addForLater}>
+          Add to shelf
         </button>
       </div>
     </Screen>
