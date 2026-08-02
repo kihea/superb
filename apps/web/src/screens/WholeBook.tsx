@@ -22,6 +22,8 @@ import { tokenize } from "../content/render";
 import { BookGlossCard } from "../components/BookGlossCard";
 import { RecoveryScreen } from "../components/RecoveryScreen";
 import { NotFound } from "./NotFound";
+import { useReadAloud } from "../voice/readAloud";
+import { ReadAloudOrb } from "../voice/ReadAloudOrb";
 
 const HOLD_MS = 450;
 const WHISPER_MS = 2400;
@@ -61,6 +63,15 @@ export function WholeBook({ id }: { id: string }) {
   const blockRefs = useRef<Map<number, HTMLElement>>(new Map());
   const resumeTarget = useRef<number | null>(null);
   const furthestBlock = useRef(0);
+
+  const voice = useReadAloud(book?.parts[partIndex]?.blocks.map((b) => b.text) ?? []);
+
+  // The page follows the voice, gently.
+  useEffect(() => {
+    if (voice.activeBlock === null) return;
+    const el = blockRefs.current.get(voice.activeBlock);
+    el?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [voice.activeBlock]);
 
   async function load() {
     setStatus("loading");
@@ -209,7 +220,11 @@ export function WholeBook({ id }: { id: string }) {
   const nextLabel = lastPart ? "The end" : (book.parts[partIndex + 1]?.label ?? "Next");
 
   return (
-    <Screen back={{ to: `/book/${book.id}`, label: book.title }} title={placeWhisper ? placeLabel : undefined}>
+    <Screen
+      back={{ to: `/book/${book.id}`, label: book.title }}
+      title={placeWhisper ? placeLabel : undefined}
+      trail={<ReadAloudOrb voice={voice} onStart={() => voice.start(furthestBlock.current)} />}
+    >
       <div
         className="whole-book"
         data-book-id={book.id}
@@ -233,7 +248,9 @@ export function WholeBook({ id }: { id: string }) {
           return (
             <p
               key={i}
-              className={`passage-text${verse ? " whole-book__verse-block" : ""}`}
+              className={`passage-text${verse ? " whole-book__verse-block" : ""}${
+                voice.activeBlock === i ? " whole-book__block--spoken" : ""
+              }`}
               data-block-index={i}
               ref={(el) => {
                 if (el) blockRefs.current.set(i, el);

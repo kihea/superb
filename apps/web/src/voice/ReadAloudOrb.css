@@ -1,0 +1,37 @@
+.read-orb {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-4);
+  min-height: var(--tap-min);
+  padding: var(--sp-2) var(--sp-3);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-3);
+}
+
+.read-orb__word {
+  font: var(--type-eyebrow);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateX(4px);
+  transition:
+    opacity var(--dur-3) var(--ease-out),
+    transform var(--dur-3) var(--ease-out);
+}
+
+.read-orb:hover .read-orb__word,
+.read-orb:focus-visible .read-orb__word,
+.read-orb[aria-label="Stop reading aloud"] .read-orb__word {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* No pointer to hover with -- the word stays quietly visible. */
+@media (hover: none) {
+  .read-orb__word {
+    opacity: 0.7;
+    transform: none;
+  }
+}
