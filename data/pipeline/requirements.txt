@@ -8,4 +8,11 @@ jsonschema==4.26.0
 # excerpts.py: sentence segmentation only (nltk's punkt tokenizer), same
 # dependency content/scripts/requirements.txt already carries for
 # check_classes.py's WordNet lookup — Apache-2.0, no new licence surface.
+# Also associations.py (WordNet relations, lemmatizer) and rhymes.py (the
+# WordNet check that keeps names and abbreviations out of prompts).
 nltk==3.9.1
+
+# rhymes.py takes CMUdict straight from the cmusphinx GitHub repository at a
+# pinned commit (BSD 2-clause, see data/MANIFEST.md). The pypi package named
+# `cmudict` is deliberately NOT listed here: its wrapper code is GPL-3.0,
+# which this project bans.
