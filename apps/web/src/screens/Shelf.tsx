@@ -20,6 +20,12 @@ export function clothFor(id: string): CoverBook["cloth"] {
   return CLOTHS[hash % CLOTHS.length];
 }
 
+/** "IV" and "12" become "Chapter IV" / "Chapter 12"; a label with its own
+ *  words ("Canto the First") stands as written. */
+function placeName(label: string): string {
+  return /^[IVXLC0-9]+$/i.test(label.trim()) ? `Chapter ${label}` : label;
+}
+
 interface ShelfBook {
   book: CatalogueBook;
   entry?: ShelfEntry;
@@ -109,7 +115,7 @@ export function Shelf() {
           <div className="shelf-current__side">
             <div className="shelf-current__where">
               <span className="shelf-current__part">
-                {currentPart ? `Chapter ${currentPart.label}` : "Not started"}
+                {currentPart ? placeName(currentPart.label) : "Just opened"}
               </span>
               <span className="sb-caption">{current.book.author}</span>
             </div>

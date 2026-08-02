@@ -85,6 +85,13 @@ export function WholeBook({ id }: { id: string }) {
       // blocking reading -- the text is the thing that must load.
       const table = await loadBookGlosses(found.id).catch(() => ({}) as Record<string, BookGlossEntry>);
       const savedPlace = await getPlace(found.id);
+      if (!savedPlace) {
+        // Opening a book is starting it -- the Shelf should say Chapter I,
+        // not "not started", the moment the first page is on screen.
+        void setPlace({ bookId: found.id, partIndex: 0, blockIndex: 0, updatedAt: Date.now() }).catch(
+          () => {},
+        );
+      }
 
       const startPart = Math.min(savedPlace?.partIndex ?? 0, found.parts.length - 1);
       resumeTarget.current = savedPlace?.partIndex === startPart ? (savedPlace?.blockIndex ?? 0) : 0;
