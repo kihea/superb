@@ -11,7 +11,8 @@ import { fillTemplate, groupIntoSentences, tokenize } from "../content/render";
 import { GlossCard } from "./GlossCard";
 import { HoldMenu } from "./HoldMenu";
 import { DoodleArrow } from "./doodle/DoodleArrow";
-import { useNavigate } from "../router/context";
+import { keepSentence } from "../reading/words";
+import { speakOnce } from "../voice/speak";
 
 // Long enough that it cannot be mistaken for a tap on a word, short enough
 // that it does not feel like waiting.
@@ -28,7 +29,6 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   const [activeWord, setActiveWord] = useState<string | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
-  const navigate = useNavigate();
 
   // Holding a sentence (frame 1v) -- the only entrance to screen 14.
   const [held, setHeld] = useState<{ index: number; rect: DOMRect } | null>(null);
@@ -48,6 +48,28 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
   // Counted here, off the same passage the engine actually composed, rather
   // than guessed from anything visible in the text.
   const seededWords = new Set(passage.seeded.map((word) => word.toLowerCase()));
+
+  function sentenceText(sentence: PassageToken[]): string {
+    return sentence
+      .map((token) => token.text)
+      .join("")
+      .trim();
+  }
+
+  async function shareSentence(text: string) {
+    // The device's own share sheet where there is one; the clipboard where
+    // there is not. Either way the sentence actually goes somewhere.
+    try {
+      if (navigator.share) {
+        await navigator.share({ text });
+        return;
+      }
+      await navigator.clipboard.writeText(text);
+    } catch {
+      // A dismissed share sheet is not an error worth surfacing.
+    }
+  }
+
   function countNew(sentence: PassageToken[]): number {
     const found = new Set<string>();
     for (const token of sentence) {
@@ -195,11 +217,20 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
         <HoldMenu
           anchor={held.rect}
           newCount={countNew(sentences[held.index])}
-          onKeep={() => setHeld(null)}
-          onHear={() => setHeld(null)}
-          onSend={() => {
+          onKeep={() => {
+            const text = sentenceText(sentences[held.index]);
             setHeld(null);
-            navigate("/share");
+            void keepSentence(text, "prose", Date.now()).catch(() => {});
+          }}
+          onHear={() => {
+            const text = sentenceText(sentences[held.index]);
+            setHeld(null);
+            speakOnce(text);
+          }}
+          onSend={() => {
+            const text = sentenceText(sentences[held.index]);
+            setHeld(null);
+            void shareSentence(text);
           }}
           onDismiss={() => setHeld(null)}
         />

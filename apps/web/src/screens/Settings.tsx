@@ -84,7 +84,7 @@ export function Settings() {
   }, [scale]);
 
   return (
-    <Screen title="Settings" back={{ to: "/shelf", label: "Shelf" }}>
+    <Screen title="Settings" back={{ to: "/", label: "Shelf" }}>
       <section className="settings-group">
         <span className="sb-eyebrow">Paper</span>
         <div className="settings-papers">
@@ -175,20 +175,8 @@ export function Settings() {
                 <VoiceOrb state={voiceState} size={22} />
               </button>
             )}
-            {/* Its own accessible name (rather than the visible "Change")
-                so a screen reader still hears what this goes to, now that
-                the row itself is no longer one single link (the orb button
-                beside it needs its own tap target). */}
-            <Link to="/voice" className="sb-list__aside" aria-label="Voice">
-              Change
-            </Link>
           </span>
         </div>
-
-        <Link to="/sign-in" className="settings-row settings-row--link">
-          <span className="settings-row__name">Account</span>
-          <span className="sb-list__aside">signed out</span>
-        </Link>
 
       </div>
 

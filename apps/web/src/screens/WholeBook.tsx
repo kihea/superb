@@ -1,22 +1,23 @@
-// Screen 6, from frame 1e: inside a whole book. Slice 1A (PLAN.md §7)
-// replaces the v0mock-backed version of this screen with the real reading
-// path for one catalogue book: real chapter text, tap-to-gloss from the
-// real gloss table, a place that survives reload, and a shell-owned
-// encounter log that never touches the engine (ADR-031 -- book encounters
-// are recorded and consume nothing; there is no import of ../engine
-// anywhere in this file).
+// Inside a book. Real chapter text, tap-to-gloss from the book's own gloss
+// table, a place that survives reload. Ordinary reading records nothing:
+// this file never imports the engine, and there is no encounter log.
 //
-// The whisper of place is the fourth state in his frame: hold a finger on
-// the page and the chapter name surfaces at the top, then goes. No
-// percentage, no page count, no time left.
+// Only words the gloss table knows are tappable -- a word with no meaning
+// saved is plain text, because a tap that answers "this word doesn't have a
+// meaning saved yet" is a tap wasted.
+//
+// The whisper of place: hold a finger on the page and the chapter name
+// surfaces at the top, then goes. No percentage, no page count, no time
+// left.
 import { useEffect, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
 import "../components/PassagePage.css";
 import "./WholeBook.css";
+import { useNavigate } from "../router/context";
 import { getBook } from "../content/catalogue";
 import type { CatalogueBook } from "../content/catalogueTypes";
-import { loadBookGlosses, glossFor, type BookGlossEntry } from "../content/glosses";
-import { getPlace, recordEncounter, resetBookReadingState, setPlace } from "../reading/bookState";
+import { loadBookGlosses, type BookGlossEntry } from "../content/glosses";
+import { getPlace, markFinished, resetBookReadingState, setPlace } from "../reading/bookState";
 import { tokenize } from "../content/render";
 import { BookGlossCard } from "../components/BookGlossCard";
 import { RecoveryScreen } from "../components/RecoveryScreen";
@@ -33,12 +34,26 @@ const PLACE_ROOT_MARGIN = "0px 0px -75% 0px";
 
 type Status = "loading" | "ready" | "not-found" | "error";
 
+interface TappedWord {
+  word: string;
+  entry: BookGlossEntry;
+  context: string;
+}
+
+/** The sentence around a word, for keeping alongside it. */
+function sentenceAround(text: string, word: string): string {
+  const sentences = text.split(/(?<=[.!?…”"])\s+/);
+  const hit = sentences.find((s) => s.toLowerCase().includes(word.toLowerCase()));
+  return (hit ?? text).slice(0, 240);
+}
+
 export function WholeBook({ id }: { id: string }) {
+  const navigate = useNavigate();
   const [status, setStatus] = useState<Status>("loading");
   const [book, setBook] = useState<CatalogueBook | null>(null);
   const [glosses, setGlosses] = useState<Record<string, BookGlossEntry>>({});
   const [partIndex, setPartIndex] = useState(0);
-  const [activeWord, setActiveWord] = useState<string | null>(null);
+  const [tapped, setTapped] = useState<TappedWord | null>(null);
   const [placeWhisper, setPlaceWhisper] = useState(false);
 
   const holdTimer = useRef<number | undefined>(undefined);
@@ -55,16 +70,9 @@ export function WholeBook({ id }: { id: string }) {
         setStatus("not-found");
         return;
       }
-      // A missing/unfetchable gloss table degrades to "no gloss yet" per
-      // word (glosses.ts's own fallback) rather than blocking reading --
-      // the text is the thing that must load for this screen to mean
-      // anything; the gloss table failing is recoverable one word at a time.
+      // A missing gloss table degrades to "no word is tappable" rather than
+      // blocking reading -- the text is the thing that must load.
       const table = await loadBookGlosses(found.id).catch(() => ({}) as Record<string, BookGlossEntry>);
-      // An actual storage error (IndexedDB unavailable/blocked) propagates
-      // out of getPlace and is treated the same as a content-fetch failure
-      // below; a merely-absent or malformed saved place resolves to null
-      // and this screen starts the book from its first page, which is
-      // never a data-loss situation (see bookState.ts's own comment).
       const savedPlace = await getPlace(found.id);
 
       const startPart = Math.min(savedPlace?.partIndex ?? 0, found.parts.length - 1);
@@ -103,8 +111,7 @@ export function WholeBook({ id }: { id: string }) {
     el?.scrollIntoView({ block: "start" });
   }, [status, part]);
 
-  // Tracks how far into the chapter the reader has scrolled and persists it
-  // -- the "location" half of Slice 1A's book/part/location identifier.
+  // Tracks how far into the chapter the reader has scrolled and persists it.
   // Monotonic within a chapter (only advances) so scrolling back up to
   // reread does not move the saved place backwards.
   useEffect(() => {
@@ -173,30 +180,36 @@ export function WholeBook({ id }: { id: string }) {
     window.clearTimeout(holdTimer.current);
   }
 
-  function handleTap(word: string, blockIndex: number, context: string) {
-    setActiveWord(word);
-    const now = Date.now();
-    void recordEncounter({ bookId: book!.id, partIndex, blockIndex, word, context }, now).catch(() => {});
+  function handleTap(word: string, blockText: string) {
+    const entry = glosses[word.toLowerCase()];
+    if (!entry) return;
+    setTapped({ word, entry, context: sentenceAround(blockText, word) });
   }
 
+  const lastPart = partIndex >= book.parts.length - 1;
+
   function goNext() {
-    const next = partIndex + 1;
-    if (next >= book!.parts.length) {
-      window.location.assign(`${import.meta.env.BASE_URL}shelf`);
+    if (lastPart) {
+      void markFinished(book!.id, Date.now()).catch(() => {});
+      navigate("/");
       return;
     }
+    const next = partIndex + 1;
     resumeTarget.current = 0;
     furthestBlock.current = 0;
     blockRefs.current = new Map();
     setPartIndex(next);
     window.scrollTo(0, 0);
-    void setPlace({ bookId: book!.id, partIndex: next, blockIndex: 0, updatedAt: Date.now() }).catch(() => {});
+    void setPlace({ bookId: book!.id, partIndex: next, blockIndex: 0, updatedAt: Date.now() }).catch(
+      () => {},
+    );
   }
 
   const placeLabel = `${book.title} · ${part.label}`;
+  const nextLabel = lastPart ? "The end" : (book.parts[partIndex + 1]?.label ?? "Next");
 
   return (
-    <Screen back={{ to: "/library", label: "Library" }} title={placeWhisper ? placeLabel : undefined}>
+    <Screen back={{ to: `/book/${book.id}`, label: book.title }} title={placeWhisper ? placeLabel : undefined}>
       <div
         className="whole-book"
         data-book-id={book.id}
@@ -206,13 +219,21 @@ export function WholeBook({ id }: { id: string }) {
         onPointerLeave={endHold}
       >
         <span className="sb-eyebrow">{part.label}</span>
+        {part.heading.length > 0 && (
+          <div className="whole-book__heading">
+            {part.heading.map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+          </div>
+        )}
 
         {part.blocks.map((block, i) => {
           const tokens = tokenize(block.text);
+          const verse = block.type.includes("verse") || block.type.includes("song");
           return (
             <p
               key={i}
-              className="passage-text"
+              className={`passage-text${verse ? " whole-book__verse-block" : ""}`}
               data-block-index={i}
               ref={(el) => {
                 if (el) blockRefs.current.set(i, el);
@@ -220,12 +241,12 @@ export function WholeBook({ id }: { id: string }) {
               }}
             >
               {tokens.map((token, j) =>
-                token.type === "word" ? (
+                token.type === "word" && glosses[token.text.toLowerCase()] ? (
                   <button
                     key={j}
                     type="button"
                     className="passage-word"
-                    onClick={() => handleTap(token.text, i, block.text)}
+                    onClick={() => handleTap(token.text, block.text)}
                   >
                     {token.text}
                   </button>
@@ -239,15 +260,20 @@ export function WholeBook({ id }: { id: string }) {
       </div>
 
       <div className="whole-book__foot">
-        <button type="button" className="whole-book__pull" aria-label="Next chapter" onClick={goNext} />
+        <button type="button" className="whole-book__next" onClick={goNext}>
+          <span className="whole-book__next-eyebrow">{lastPart ? "You read it all" : "Keep going"}</span>
+          <span className="whole-book__next-label">{nextLabel}</span>
+        </button>
       </div>
 
-      {activeWord && (
+      {tapped && (
         <BookGlossCard
-          key={activeWord}
-          word={activeWord}
-          entry={glossFor(glosses, activeWord)}
-          onDismiss={() => setActiveWord(null)}
+          key={tapped.word}
+          word={tapped.word}
+          entry={tapped.entry}
+          bookId={book.id}
+          context={tapped.context}
+          onDismiss={() => setTapped(null)}
         />
       )}
     </Screen>

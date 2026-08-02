@@ -37,7 +37,7 @@ export function Rhyme() {
   if (over) {
     const missed = missing[0];
     return (
-      <Screen title="Rhyme" back={{ to: "/shelf", label: "Shelf" }}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play" }}>
         <div className="challenge-end sb-fade">
           <h2 className="sb-heading">
             {found.length} of {all.length}.
@@ -64,7 +64,7 @@ export function Rhyme() {
   }
 
   return (
-    <Screen title="Rhyme" back={{ to: "/shelf", label: "Shelf" }} bare>
+    <Screen title="Rhyme" back={{ to: "/play", label: "Play" }} bare>
       <div className="sb-tiers">
         {tiers.map((name) => (
           <button

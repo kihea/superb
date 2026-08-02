@@ -1,14 +1,19 @@
-// The row along the bottom of the Shelf (1h): the four other rooms, and a
-// quiet way into Settings. Plain words, no icons, no counts.
+// The row along the bottom of the four rooms: Shelf, Library, Play, Words,
+// and a quiet way into Settings. Plain words, no icons, no counts.
 import { Link } from "../router/router";
 import { usePath } from "../router/context";
 
 const ROOMS = [
+  { to: "/", label: "Shelf" },
   { to: "/library", label: "Library" },
-  { to: "/rhyme", label: "Rhyme" },
-  { to: "/association", label: "Assoc." },
-  { to: "/elevated", label: "Elevated" },
+  { to: "/play", label: "Play" },
+  { to: "/words", label: "Words" },
 ];
+
+function isOn(path: string, to: string): boolean {
+  if (to === "/") return path === "/";
+  return path.startsWith(to);
+}
 
 export function TabBar() {
   const path = usePath();
@@ -18,7 +23,7 @@ export function TabBar() {
         <Link
           key={room.to}
           to={room.to}
-          className={`sb-tabbar__link${path.startsWith(room.to) ? " sb-tabbar__link--on" : ""}`}
+          className={`sb-tabbar__link${isOn(path, room.to) ? " sb-tabbar__link--on" : ""}`}
         >
           {room.label}
         </Link>

@@ -7,7 +7,7 @@ export function NotFound() {
     <Screen>
       <div className="sb-body--centred">
         <h2 className="sb-heading">There's nothing here.</h2>
-        <Link to="/shelf" className="sb-quiet">
+        <Link to="/" className="sb-quiet">
           Back to the shelf
         </Link>
       </div>

@@ -75,7 +75,7 @@ export function ReadingScreen() {
          pointing at anything. */}
       {/* 3a's top row: one word out, one thing to press. Nothing else. */}
       <header className="reading-top">
-        <Link to="/shelf" className="reading-top__out">
+        <Link to="/" className="reading-top__out">
           Shelf
         </Link>
         <button

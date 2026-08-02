@@ -52,7 +52,7 @@ export function Association() {
 
   if (choosing) {
     return (
-      <Screen title="Association" back={{ to: "/shelf", label: "Shelf" }}>
+      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
         <h2 className="sb-heading sb-heading--sm">Pick a field.</h2>
         <div className="sb-list">
           {associationFields.map((one) => (
@@ -77,7 +77,7 @@ export function Association() {
   return (
     <Screen
       title={field.name}
-      back={{ to: "/shelf", label: "Shelf" }}
+      back={{ to: "/play", label: "Play" }}
       trail={
         <span className="board-count">
           {solved.length}/{field.words.length}

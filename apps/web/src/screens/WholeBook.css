@@ -24,6 +24,26 @@
   text-indent: -22px;
 }
 
+/* The publisher's own chapter-heading lines, under the label. */
+.whole-book__heading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  font: var(--type-passage);
+  font-style: italic;
+  color: var(--text-2);
+  max-width: var(--measure);
+}
+
+.whole-book__heading p {
+  margin: 0;
+}
+
+/* Verse keeps the author's line breaks. */
+.whole-book__verse-block {
+  white-space: pre-line;
+}
+
 .whole-book__speech {
   display: flex;
   flex-direction: column;
@@ -40,23 +60,46 @@
 .whole-book__foot {
   display: flex;
   justify-content: center;
-  padding: var(--sp-6) 0 var(--sp-8);
+  padding: var(--sp-9) 0 var(--sp-10);
 }
 
-/* The pull-stroke: the one thing at the bottom of a page of reading. */
-.whole-book__pull {
-  width: 38px;
-  height: 3px;
-  min-height: 3px;
-  padding: 0;
-  border: none;
-  border-radius: 2px;
-  background: var(--border-2);
+/* The door to the next chapter: one generous, quiet object at the end of a
+   page of reading -- easy to press, easy to ignore. */
+.whole-book__next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  min-width: 220px;
+  padding: var(--sp-6) var(--sp-9);
+  background: var(--surface-card);
+  border: var(--bw-hairline) solid var(--border-1);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-1);
   cursor: pointer;
-  /* The stroke is 3px; the thing you press is 44. */
-  box-shadow: 0 0 0 20px transparent;
+  transition:
+    transform var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
 }
 
-.whole-book__pull:hover {
-  background: var(--brand);
+.whole-book__next:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+}
+
+.whole-book__next:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-press);
+}
+
+.whole-book__next-eyebrow {
+  font: var(--type-eyebrow);
+  letter-spacing: var(--ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.whole-book__next-label {
+  font: var(--type-title-2);
+  color: var(--text-1);
 }
