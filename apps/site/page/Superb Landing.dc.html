@@ -22,13 +22,82 @@
 <link rel="stylesheet" href="_ds/superb-design-system-467bc2d6-26c3-4bef-a0b0-a971996a1a41/tokens/base.css">
 <link rel="stylesheet" href="fonts/fonts.css">
 <script src="scene.js"></script>
+<script src="demos.js"></script>
 <style>
 html,body{margin:0;padding:0;background:#140D09}
 a{color:inherit;text-decoration:none}
 a:hover{color:var(--brand)}
 @keyframes reveal{from{width:0}}
 @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important;transition-duration:.001ms !important}}
+
+/* header nav collapses honestly on a phone: fewer links, never clipped ones */
+@media (max-width:640px){.sb-nav-wide{display:none}}
+
+/* ---- the working miniatures under the three figures ---- */
+.sb-demo{position:relative;min-height:150px;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;line-height:1.35}
+.sb-demo-shelf__field{margin:0;font:inherit;font-size:11.5px;line-height:1.05;letter-spacing:.04em;white-space:pre}
+.sb-demo-shelf__caption{margin-top:8px;font-size:12px;min-height:1.4em}
+.sb-demo-shelf__title{color:#FCF6EC}
+.sb-demo-shelf__author{color:rgba(246,238,226,.45)}
+.sb-demo-gloss__line{margin:0 0 10px;max-width:30ch;color:rgba(246,238,226,.6);font-size:12.5px;line-height:1.6}
+.sb-demo-gloss__word{color:#FCF6EC;border-bottom:1px dashed rgba(246,238,226,.4);cursor:default;transition:color .2s,border-color .2s,background .2s}
+.sb-demo-gloss__word--lit{color:var(--brand);border-color:var(--brand);background:rgba(217,106,99,.14);border-radius:3px}
+.sb-demo-gloss__card{display:flex;flex-direction:column;gap:4px;max-width:30ch;padding:10px 12px;border:1px solid rgba(246,238,226,.14);border-radius:8px;background:rgba(246,238,226,.045);opacity:0;transform:translateY(6px);transition:opacity .28s cubic-bezier(.2,.8,.25,1),transform .28s cubic-bezier(.2,.8,.25,1)}
+.sb-demo-gloss__card--open{opacity:1;transform:none}
+.sb-demo-gloss__card-word{color:#FCF6EC;font-size:12.5px}
+.sb-demo-gloss__card-def{color:rgba(246,238,226,.62);font-size:12px;line-height:1.5;min-height:2.9em}
+.sb-demo-gloss__keep{align-self:flex-start;margin-top:2px;padding:3px 10px;border:1px solid rgba(217,106,99,.5);border-radius:99px;color:var(--brand);font-size:11px;letter-spacing:.06em;transition:background .2s,color .2s}
+.sb-demo-gloss__keep--kept{background:rgba(217,106,99,.22);color:#F2A79E}
+.sb-demo-games__head{display:flex;align-items:baseline;gap:12px;margin-bottom:10px}
+.sb-demo-games__label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(246,238,226,.42)}
+.sb-demo-games__prompt{font-family:'Geist Pixel',Geist,sans-serif;font-size:22px;color:#FCF6EC}
+.sb-demo-games__chips{display:flex;flex-wrap:wrap;gap:6px;min-height:52px;align-content:flex-start}
+.sb-demo-games__chip{padding:4px 11px;border-radius:99px;border:1px solid rgba(246,238,226,.2);color:rgba(246,238,226,.75);font-size:12px}
+.sb-demo-games__chip--exact{border-color:rgba(177,147,245,.55);color:#CDb8F8;background:rgba(177,147,245,.12)}
+.sb-demo-games__chip--near{border-color:rgba(246,238,226,.25);color:rgba(246,238,226,.6)}
+.sb-demo-games__chip--typing{border-style:dashed}
+.sb-demo-games__also{margin-top:6px;font-size:11.5px;color:rgba(246,238,226,.4);min-height:1.5em}
+
+/* ---- the bento: the rooms of the app ---- */
+.sb-bento{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.sb-tile{position:relative;display:flex;flex-direction:column;gap:10px;padding:20px;border:1px solid rgba(246,238,226,.09);border-radius:12px;background:linear-gradient(160deg,rgba(246,238,226,.045),rgba(246,238,226,.015));overflow:hidden;opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.2,.8,.25,1),transform .6s cubic-bezier(.2,.8,.25,1),border-color .25s}
+.sb-tile:hover{border-color:rgba(217,106,99,.4)}
+.sb-tile--in{opacity:1;transform:none}
+.sb-tile--wide{grid-column:span 2}
+.sb-tile--tall{grid-column:span 2;grid-row:span 2}
+.sb-tile h3{margin:0;font-family:'Geist Pixel',Geist,sans-serif;font-weight:400;font-size:19px;color:#FCF6EC}
+.sb-tile p{margin:0;font-size:13.5px;line-height:1.55;color:rgba(246,238,226,.6);max-width:36ch}
+.sb-tile__mono{font-family:'Geist Mono',ui-monospace,monospace}
+.sb-tile__paper{flex:1;padding:16px 18px;border-radius:8px;background:rgba(246,238,226,.06);border:1px solid rgba(246,238,226,.07);font-size:13px;line-height:1.7;color:rgba(246,238,226,.72);font-family:Geist,system-ui,sans-serif}
+.sb-tile__paper em{font-style:normal;color:#FCF6EC;border-bottom:1px dashed rgba(217,106,99,.6)}
+.sb-tile__paper .sb-cite{display:block;margin-top:10px;font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:rgba(246,238,226,.38)}
+.sb-demo-search__field{display:flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgba(246,238,226,.14);border-radius:8px;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:#FCF6EC}
+.sb-demo-search__glyph{color:var(--brand)}
+.sb-demo-search__caret{width:7px;height:14px;background:rgba(246,238,226,.6);animation:sb-blink 1.1s steps(1) infinite}
+@keyframes sb-blink{50%{opacity:0}}
+.sb-demo-search__rows{margin-top:8px;display:flex;flex-direction:column;gap:4px;min-height:60px;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:rgba(246,238,226,.6)}
+.sb-demo-search__row{animation:rise .4s cubic-bezier(.2,.8,.25,1) both}
+.sb-demo-words__list{display:flex;flex-direction:column;gap:8px;min-height:96px}
+.sb-demo-words__row{display:flex;flex-direction:column;gap:1px;animation:rise .4s cubic-bezier(.2,.8,.25,1) both}
+.sb-demo-words__word{font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:#FCF6EC}
+.sb-demo-words__def{font-size:11.5px;line-height:1.45;color:rgba(246,238,226,.5)}
+.sb-orb-mount{display:flex;align-items:center;justify-content:center;flex:1;min-height:96px}
+.sb-tile__quiet{margin-top:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:rgba(246,238,226,.38)}
+.sb-phone{margin:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;line-height:1.25;color:rgba(246,238,226,.5);white-space:pre}
+@media (max-width:900px){.sb-bento{grid-template-columns:repeat(2,1fr)}.sb-tile--tall{grid-column:span 2;grid-row:auto}}
+@media (max-width:560px){.sb-bento{grid-template-columns:1fr}.sb-tile--wide,.sb-tile--tall{grid-column:auto}}
+
+/* ---- footer ---- */
+.sb-footer{position:relative;background:#140D09;border-top:1px solid rgba(246,238,226,.09)}
+.sb-footer__grid{max-width:var(--shell-max);margin:0 auto;padding:clamp(44px,5vw,72px) clamp(20px,3.4vw,48px) var(--sp-8);display:grid;grid-template-columns:2fr 1fr 1fr;gap:clamp(28px,4vw,64px)}
+.sb-footer__brand{display:flex;flex-direction:column;gap:14px}
+.sb-footer__brand p{margin:0;font-size:13px;line-height:1.6;color:rgba(246,238,226,.5);max-width:36ch}
+.sb-footer__col{display:flex;flex-direction:column;gap:10px}
+.sb-footer__head{font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(246,238,226,.38)}
+.sb-footer__col a{font-size:13.5px;color:rgba(246,238,226,.68);transition:color .15s}
+.sb-footer__base{max-width:var(--shell-max);margin:0 auto;padding:var(--sp-7) clamp(20px,3.4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:var(--sp-6);flex-wrap:wrap;border-top:1px solid rgba(246,238,226,.06);font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:rgba(246,238,226,.38)}
+@media (max-width:700px){.sb-footer__grid{grid-template-columns:1fr 1fr}.sb-footer__brand{grid-column:span 2}}
 </style>
 </helmet>
 <div data-theme="oxblood-dark" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; background:#140D09; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
@@ -46,7 +115,10 @@ a:hover{color:var(--brand)}
       <img src="brand/lockup-night.png" alt="Superb" style="height:28px; width:auto; filter:drop-shadow(0 2px 10px rgba(10,6,3,.9))">
     </a>
     <nav style="display:flex; gap:var(--sp-8); margin-left:auto; align-items:center; font-size:13.5px; font-weight:450; color:rgba(246,238,226,.8); pointer-events:auto; white-space:nowrap; text-shadow:0 2px 12px rgba(10,6,3,.95)">
-      <a href="#facts">The case</a>
+      <a href="#facts" class="sb-nav-wide">The case</a>
+      <a href="/library/">Library</a>
+      <a href="/about/">About</a>
+      <a href="/open-source/" class="sb-nav-wide">Open source</a>
       <a href="/read/" style="color:var(--brand)">Read</a>
     </nav>
   </header>
@@ -93,37 +165,19 @@ a:hover{color:var(--brand)}
 
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--brand)">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">614 books</span>
-          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--brand); animation:reveal .45s steps(16) both .05s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:var(--brand); animation:reveal .4s steps(14) both .3s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:var(--brand); animation:reveal .35s steps(10) both .55s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:var(--brand); animation:reveal .3s steps(5) both .8s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:var(--brand); animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
-          </div>
+          <div id="demo-shelf" class="sb-demo" aria-hidden="true"></div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Real books, carefully typeset — Austen to Du Bois — all out of copyright, all free.</span>
         </div>
 
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--support)">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">Tap a word</span>
-          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:var(--support); animation:reveal .45s steps(16) both .05s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:var(--support); animation:reveal .4s steps(14) both .3s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:var(--support); animation:reveal .35s steps(10) both .55s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:var(--support); animation:reveal .3s steps(5) both .8s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:var(--support); animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
-          </div>
+          <div id="demo-gloss" class="sb-demo" aria-hidden="true"></div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Any word you don’t know gives up its meaning right on the page. Keep the good ones; they wait for you.</span>
         </div>
 
         <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid #B193F5">
           <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">Three games</span>
-          <div style="font-family:'Geist Mono', ui-monospace, monospace; font-size:13px; line-height:1.34; letter-spacing:.07em; align-self:start">
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:100%; color:#B193F5; animation:reveal .45s steps(16) both .05s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:85%; color:#B193F5; animation:reveal .4s steps(14) both .3s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:60%; color:#B193F5; animation:reveal .35s steps(10) both .55s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:30%; color:#B193F5; animation:reveal .3s steps(5) both .8s">████████████████</div></div>
-            <div style="position:relative"><div style="color:rgba(246,238,226,.14)">████████████████</div><div style="position:absolute; top:0; left:0; overflow:hidden; white-space:pre; width:15%; color:#B193F5; animation:reveal .25s steps(3) both 1.0s">████████████████</div></div>
-          </div>
+          <div id="demo-games" class="sb-demo" aria-hidden="true"></div>
           <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Rhyme, association, and prose composed for you. Type or say your answers, then see what you could have said.</span>
         </div>
 
@@ -136,16 +190,78 @@ a:hover{color:var(--brand)}
     </div>
   </section>
 
-  <!-- Minimal on purpose: this is the whole real footprint of the product
-       today (source, and the one path in) -- issue #114 asked for a
-       complete page, not a busier one. No sitemap of rooms that don't exist
-       yet (Library/Pricing were the dead nav links this same pass removed;
-       a footer full of the same promises would just move the problem down
-       the page). -->
-  <footer style="position:relative; background:#140D09; border-top:1px solid rgba(246,238,226,.09)">
-    <div style="max-width:var(--shell-max); margin:0 auto; padding:var(--sp-8) clamp(20px,3.4vw,48px); display:flex; align-items:center; justify-content:space-between; gap:var(--sp-6); flex-wrap:wrap; font-family:'Geist Mono', ui-monospace, monospace; font-size:12.5px; color:rgba(246,238,226,.4)">
+  <!-- The rooms of the app, shown working. Every tile is something that
+       exists behind /read/ today -- no promised rooms, no roadmap tiles.
+       The miniatures are driven by demos.js from shipped content. -->
+  <section id="inside" data-screen-label="Inside" style="position:relative; background:#140D09">
+    <div style="max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(36px,4vw,56px)">
+      <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:30ch">
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">Inside the app</span>
+        <h2 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(24px,3vw,40px); line-height:1.2; color:#FCF6EC; text-wrap:balance">A quiet place to read, and a satisfying place to <span style="color:#B193F5">play</span>.</h2>
+      </div>
+
+      <div class="sb-bento">
+        <div class="sb-tile sb-tile--tall">
+          <h3>Reading comes first</h3>
+          <div class="sb-tile__paper">“I am all in a sea of wonders. I doubt; I fear; I think strange things, which I dare not confess to my own soul.”<span class="sb-cite">Dracula — Bram Stoker, chapter II</span></div>
+          <p>Your place is saved as you scroll. Ordinary reading records nothing beyond that and the words you choose to keep.</p>
+        </div>
+        <div class="sb-tile">
+          <h3>Find a book</h3>
+          <div id="demo-search" aria-hidden="true"></div>
+          <p>Search all 614 by title or author, or browse by kind.</p>
+        </div>
+        <div class="sb-tile">
+          <h3>Your words</h3>
+          <div id="demo-words" aria-hidden="true"></div>
+          <p>Every kept word waits with its meaning and the sentence it was met in.</p>
+        </div>
+        <div class="sb-tile">
+          <h3>Read aloud</h3>
+          <div id="demo-orb" class="sb-orb-mount" aria-hidden="true"></div>
+          <p>An orb reads to you in your device’s own voice.</p>
+        </div>
+        <div class="sb-tile">
+          <h3>Take it offline</h3>
+          <div class="sb-phone" aria-hidden="true">┌──────┐
+│ ▓▓▓▓ │
+│ ▓▓▓▓ │
+│  ──  │
+└──────┘</div>
+          <p>Install it from the browser menu. A book once opened reads with no connection at all.</p>
+        </div>
+        <div class="sb-tile sb-tile--wide">
+          <h3>Nothing leaves this device</h3>
+          <p>No account, no tracking, no analytics. Your shelf, your places, and your kept words live in your own browser’s storage — the only thing the app ever fetches is the book you asked for.</p>
+          <span class="sb-tile__quiet sb-tile__mono">connect-src 'self' + the book library. That’s the whole policy.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="sb-footer">
+    <div class="sb-footer__grid">
+      <div class="sb-footer__brand">
+        <img src="brand/lockup-night.png" alt="Superb" style="height:24px; width:auto; align-self:flex-start">
+        <p>A reading app that quietly builds vocabulary. Free, open, and yours — no account, no streaks, nothing leaving your device.</p>
+      </div>
+      <div class="sb-footer__col">
+        <span class="sb-footer__head">Product</span>
+        <a href="/read/">Start reading</a>
+        <a href="/library/">The library</a>
+        <a href="/about/">What Superb is for</a>
+      </div>
+      <div class="sb-footer__col">
+        <span class="sb-footer__head">Project</span>
+        <a href="/open-source/">Open source</a>
+        <a href="https://github.com/kihea/superb">GitHub</a>
+        <a href="https://github.com/kihea/superb/issues">Issues</a>
+        <a href="https://github.com/superb-catalogue/library">Book catalogue</a>
+      </div>
+    </div>
+    <div class="sb-footer__base">
       <span>Superb. Source-available, MIT + Commons Clause.</span>
-      <a href="https://github.com/kihea/superb" style="color:rgba(246,238,226,.6)">GitHub</a>
+      <span>Every book is public domain and carries its own provenance record.</span>
     </div>
   </footer>
 </div>

@@ -1,0 +1,102 @@
+/* Shared shell for the static pages (about, open source, library). The
+   landing keeps its own inline-styled dc source; these pages reuse the same
+   tokens, fonts and register so the site reads as one thing. */
+
+html, body { margin: 0; padding: 0; background: #140D09; }
+body {
+  color: var(--text-1, #F6EEE2);
+  font-family: Geist, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--brand); }
+
+.pg-header {
+  display: flex; align-items: center; gap: 32px;
+  max-width: var(--shell-max, 1160px); margin: 0 auto;
+  padding: 28px clamp(20px, 3.4vw, 48px);
+}
+.pg-header img { height: 26px; width: auto; }
+.pg-header nav {
+  display: flex; gap: 28px; margin-left: auto; align-items: center;
+  font-size: 13.5px; color: rgba(246,238,226,.8); white-space: nowrap;
+}
+.pg-header nav a[aria-current] { color: var(--brand); }
+@media (max-width: 640px) { .pg-nav-wide { display: none; } }
+
+.pg-main {
+  max-width: var(--shell-max, 1160px); margin: 0 auto;
+  padding: clamp(36px, 5vw, 72px) clamp(20px, 3.4vw, 48px) clamp(80px, 9vw, 120px);
+  display: flex; flex-direction: column; gap: clamp(36px, 4vw, 56px);
+}
+.pg-eyebrow {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 11px; font-weight: 500; letter-spacing: .16em;
+  text-transform: uppercase; color: rgba(246,238,226,.42);
+}
+.pg-title {
+  margin: 12px 0 0;
+  font-family: 'Geist Pixel', Geist, sans-serif; font-weight: 400;
+  font-size: clamp(28px, 4vw, 52px); line-height: 1.15;
+  color: #FCF6EC; text-wrap: balance; max-width: 24ch;
+}
+.pg-lede { margin: 18px 0 0; max-width: 52ch; font-size: 16.5px; line-height: 1.65; color: rgba(246,238,226,.72); }
+
+.pg-prose { display: flex; flex-direction: column; gap: 14px; max-width: 62ch; }
+.pg-prose h2 {
+  margin: 28px 0 0;
+  font-family: 'Geist Pixel', Geist, sans-serif; font-weight: 400;
+  font-size: clamp(20px, 2.4vw, 30px); line-height: 1.25; color: #FCF6EC;
+}
+.pg-prose p { margin: 0; font-size: 15px; line-height: 1.7; color: rgba(246,238,226,.66); }
+.pg-prose a { color: rgba(246,238,226,.9); border-bottom: 1px solid rgba(217,106,99,.5); }
+.pg-prose code {
+  font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px;
+  padding: 1px 6px; border-radius: 4px; background: rgba(246,238,226,.07);
+}
+.pg-rule { border: none; border-top: 1px solid rgba(246,238,226,.09); margin: 8px 0; }
+
+.pg-footer { background: #140D09; border-top: 1px solid rgba(246,238,226,.09); }
+.pg-footer__base {
+  max-width: var(--shell-max, 1160px); margin: 0 auto;
+  padding: 28px clamp(20px, 3.4vw, 48px);
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12px; color: rgba(246,238,226,.38);
+}
+.pg-footer__base a { color: rgba(246,238,226,.6); }
+
+/* library page */
+.lib-search {
+  display: flex; align-items: center; gap: 10px;
+  max-width: 420px; padding: 12px 16px;
+  border: 1px solid rgba(246,238,226,.16); border-radius: 10px;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+.lib-search span { color: var(--brand); }
+.lib-search input {
+  flex: 1; border: none; outline: none; background: none;
+  color: #FCF6EC; font: inherit; font-size: 14px;
+}
+.lib-search input::placeholder { color: rgba(246,238,226,.35); }
+.lib-count { font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; color: rgba(246,238,226,.4); }
+.lib-group h2 {
+  margin: 0 0 16px;
+  font-family: 'Geist Pixel', Geist, sans-serif; font-weight: 400;
+  font-size: clamp(19px, 2.2vw, 26px); color: #FCF6EC;
+}
+.lib-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px 28px;
+}
+.lib-book {
+  display: flex; flex-direction: column; gap: 1px;
+  padding: 9px 12px; border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border-color .15s, background .15s;
+}
+.lib-book:hover { border-color: rgba(217,106,99,.35); background: rgba(246,238,226,.03); color: inherit; }
+.lib-book b { font-weight: 500; font-size: 14px; color: #FCF6EC; line-height: 1.35; }
+.lib-book i { font-style: normal; font-size: 12.5px; color: rgba(246,238,226,.45); }
+.lib-none { display: none; font-size: 14px; color: rgba(246,238,226,.5); }

@@ -182,6 +182,20 @@ function main() {
     "base-uri 'self'",
     "frame-ancestors 'none'",
   ].join('; ');
+  // The static pages (about, open source, the printed library) run no dc
+  // runtime and no eval; script-src stays plain 'self'. style-src needs
+  // 'unsafe-inline' for the same reason the app does: style *attributes*
+  // on a few elements, never inline <script>.
+  const STATIC_CSP = [
+    "default-src 'self'",
+    "script-src 'self'",
+    "style-src 'self' 'unsafe-inline'",
+    "connect-src 'self'",
+    "img-src 'self' data:",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "frame-ancestors 'none'",
+  ].join('; ');
   // Exact-path `/` and prefix `/read/*` deliberately never overlap -- each
   // request matches exactly one rule, so there is never a question of which
   // of two Content-Security-Policy header values Cloudflare Pages would
@@ -201,6 +215,15 @@ ${APP_BASE}*
 
 /read-app
   Content-Security-Policy: ${APP_CSP}
+
+/library/*
+  Content-Security-Policy: ${STATIC_CSP}
+
+/about/*
+  Content-Security-Policy: ${STATIC_CSP}
+
+/open-source/*
+  Content-Security-Policy: ${STATIC_CSP}
 `,
   );
 
