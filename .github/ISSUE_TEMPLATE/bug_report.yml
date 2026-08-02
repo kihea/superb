@@ -21,10 +21,10 @@ body:
     attributes:
       label: Where it happened
       options:
-        - Web app
-        - Android app
-        - iOS app
-        - The engine itself (crates/, cargo test)
+        - Web reading app
+        - Landing site
+        - Rust engine
+        - Content/data tooling
         - Something else / not sure
     validations:
       required: true

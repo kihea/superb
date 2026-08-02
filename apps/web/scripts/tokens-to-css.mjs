@@ -18,6 +18,17 @@
 // explicit Settings choice) or prefers-color-scheme: dark when the reader
 // has not chosen (:root:not([data-night="off"])). Same shape as ox.css's
 // own dark rules, on purpose -- one switch, not two.
+//
+// theme.* (issue #129): Kihea's three-theme system, folded in from
+// design/ox.css rather than generated fresh -- see tokens.json's
+// theme._comment for the shape. Emitted with the exact same selectors,
+// specificity and source order ox.css used ([data-theme="lilac"/"glacier"]
+// have equal specificity to :root, so which one is later in the file is
+// what decides, same as it always was) so the cascade resolves identically.
+// The raw --ox-*/--li-*/--gl-* ramps stay unconditional at :root, not
+// gated behind the matching [data-theme] -- Settings' three swatches and
+// SignIn's gradient read another theme's raw ramp while a different one is
+// active, so all three ramps have to exist regardless of which is chosen.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -31,6 +42,17 @@ const tokens = JSON.parse(readFileSync(tokensPath, "utf-8"));
 function kebab(name) {
   return name.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 }
+
+// theme.* field names carry embedded digits ox.css's own vars do too
+// (--ox-paper-2, --ox-ink-70, --ox-ink-50) that plain kebab() does not
+// split -- "paper2" has no letter-to-uppercase transition to catch. This is
+// kebab() plus one more split, letter-to-digit, used only for theme.* so it
+// cannot change how any other section of tokens.json is emitted.
+function themeKebab(name) {
+  return kebab(name).replace(/([a-zA-Z])(\d)/g, "$1-$2");
+}
+
+const THEME_PREFIX = { oxblood: "ox", lilac: "li", glacier: "gl" };
 
 function rawBlock(prefix, obj) {
   return Object.entries(obj)
@@ -106,6 +128,66 @@ lines.push("");
 lines.push("@media (prefers-color-scheme: dark) {");
 lines.push('  :root:not([data-night="off"]) {');
 lines.push(aliasBlock("page", "page-dark", tokens.page.dark, "    "));
+lines.push("  }");
+lines.push("}");
+lines.push("");
+
+// theme.* (issue #129) -- see this file's header and tokens.json's
+// theme._comment for why the shape below is what it is.
+lines.push("/* Kihea's three-theme system (Oxblood/Lilac Ink/Glacier), folded in from");
+lines.push("   design/ox.css -- issue #129. Selector shape, specificity and source");
+lines.push("   order match ox.css's own exactly; see this file's header. */");
+lines.push(":root {");
+for (const [themeName, prefix] of Object.entries(THEME_PREFIX)) {
+  const Name = themeName[0].toUpperCase() + themeName.slice(1);
+  lines.push(`  /* ${Name}'s raw ramp -- unconditional, not gated behind [data-theme] (see this file's header). */`);
+  for (const [k, v] of Object.entries(tokens.theme.palette[themeName])) {
+    lines.push(`  --${prefix}-${themeKebab(k)}: ${v};`);
+  }
+}
+lines.push("");
+lines.push("  /* Oxblood light: the default paper. */");
+for (const [k, v] of Object.entries(tokens.theme.light.oxblood)) {
+  lines.push(`  --${themeKebab(k)}: ${v};`);
+}
+lines.push("");
+lines.push('  /* Oxblood dark -- promoted under [data-night="on"] / prefers-color-scheme: dark below. */');
+for (const [k, v] of Object.entries(tokens.theme.dark.oxblood)) {
+  lines.push(`  --dark-${themeKebab(k)}: ${v};`);
+}
+lines.push("}");
+lines.push("");
+
+for (const themeName of ["lilac", "glacier"]) {
+  lines.push(`[data-theme="${themeName}"] {`);
+  for (const [k, v] of Object.entries(tokens.theme.light[themeName])) {
+    lines.push(`  --${themeKebab(k)}: ${v};`);
+  }
+  lines.push("");
+  for (const [k, v] of Object.entries(tokens.theme.dark[themeName])) {
+    lines.push(`  --dark-${themeKebab(k)}: ${v};`);
+  }
+  lines.push("}");
+  lines.push("");
+}
+
+// The night promotion itself does not vary by theme -- whichever theme is
+// active, [data-night="on"] (an explicit Settings choice) or the system
+// preference (when the reader has not chosen) promotes that theme's own
+// --dark-* set onto the live aliases. Same shape as ox.css's own rules.
+const nightKeys = Object.keys(tokens.theme.dark.oxblood);
+lines.push('[data-night="on"] {');
+for (const k of nightKeys) {
+  lines.push(`  --${themeKebab(k)}: var(--dark-${themeKebab(k)});`);
+}
+lines.push("}");
+lines.push("");
+
+lines.push("@media (prefers-color-scheme: dark) {");
+lines.push('  :root:not([data-night="off"]) {');
+for (const k of nightKeys) {
+  lines.push(`    --${themeKebab(k)}: var(--dark-${themeKebab(k)});`);
+}
 lines.push("  }");
 lines.push("}");
 lines.push("");

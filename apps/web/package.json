@@ -11,6 +11,7 @@
     "ci:typecheck": "tsc -b",
     "ci:test:unit": "vitest run",
     "ci:build": "tsc -b && vite build",
+    "check-theme-tokens": "node scripts/check-theme-tokens.mjs",
     "predev": "npm run sync-content && npm run sync-tokens && npm run build-wasm",
     "dev": "vite",
     "prebuild": "npm run sync-content && npm run sync-tokens && npm run build-wasm",
@@ -21,7 +22,7 @@
     "pretest:unit": "npm run build-wasm",
     "test:unit": "vitest run",
     "test:e2e": "playwright test",
-    "test": "npm run typecheck && npm run lint && npm run test:unit && npm run build && npm run test:e2e",
+    "test": "npm run typecheck && npm run lint && npm run test:unit && npm run test:e2e",
     "preview": "vite preview"
   },
   "dependencies": {

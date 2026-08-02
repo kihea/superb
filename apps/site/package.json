@@ -6,9 +6,10 @@
   "description": "The public landing page and assembled release shell for the reading app.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "npm run build",
+    "test": "npm run build && npm run test:host-scan",
+    "test:host-scan": "node scripts/host-scan.regression.mjs",
     "assemble": "node scripts/assemble.mjs",
-    "smoke": "node scripts/check-assembled.mjs"
+    "smoke": "node scripts/check-assembled.mjs && node scripts/check-csp.mjs"
   },
   "devDependencies": {
     "playwright": "^1.62.1"

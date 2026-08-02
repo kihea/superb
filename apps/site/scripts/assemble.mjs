@@ -17,9 +17,9 @@
 // lives; nothing else needs to know.
 
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_ROOT = path.resolve(__dirname, '..');
@@ -27,31 +27,39 @@ const APPS_ROOT = path.resolve(SITE_ROOT, '..');
 const WEB_ROOT = path.join(APPS_ROOT, 'web');
 const SITE_DIST = path.join(SITE_ROOT, 'dist');
 const WEB_DIST = path.join(WEB_ROOT, 'dist');
+const NODE_BIN = path.dirname(process.execPath);
+const NPM_CLI_CANDIDATES = [
+  process.env.npm_execpath,
+  path.join(NODE_BIN, 'node_modules', 'npm', 'bin', 'npm-cli.js'),
+  path.resolve(NODE_BIN, '..', 'lib', 'node_modules', 'npm', 'bin', 'npm-cli.js'),
+].filter(Boolean);
+const NPM_CLI = NPM_CLI_CANDIDATES.find(existsSync);
 
 export const APP_BASE = '/read/';
 
-// Windows resolves `npm` through a .cmd shim, which execFileSync can only
-// launch through a shell -- `npm.cmd` directly is not reliably on PATH the
-// same way across every shell this runs in (verified: it 404s under Git
-// Bash here). shell:true is what makes that shim launch on every platform
-// CI and a contributor's machine actually use; the argv (fixed strings this
-// script owns, never user input) is safe to pass that way.
-function run(command, args, cwd, extraEnv) {
-  console.log(`$ (${path.relative(APPS_ROOT, cwd)}) ${command} ${args.join(' ')}`);
-  execFileSync(command, args, {
+// Invoke npm's JavaScript entry point through the current Node executable.
+// This works around Windows' non-executable npm.cmd shim without shell:true,
+// so argv remains an argv array rather than being concatenated into a shell
+// command. npm_execpath is supplied by `npm run`; the fallback covers direct
+// `node scripts/assemble.mjs` runs from standard Node installations.
+function runNpm(args, cwd, extraEnv) {
+  if (!NPM_CLI) {
+    throw new Error(`npm CLI is unavailable; checked:\n  ${NPM_CLI_CANDIDATES.join('\n  ')}`);
+  }
+  console.log(`$ (${path.relative(APPS_ROOT, cwd)}) npm ${args.join(' ')}`);
+  execFileSync(process.execPath, [NPM_CLI, ...args], {
     cwd,
     stdio: 'inherit',
     env: { ...process.env, ...extraEnv },
-    shell: true,
   });
 }
 
 function main() {
   // Landing first -- it owns dist/'s root and this rebuild wipes whatever
   // was there (scripts/build.mjs's own behaviour, unchanged).
-  run('npm', ['run', 'build'], SITE_ROOT);
+  runNpm(['run', 'build'], SITE_ROOT);
 
-  run('npm', ['run', 'build'], WEB_ROOT, { VITE_BASE: APP_BASE });
+  runNpm(['run', 'build'], WEB_ROOT, { VITE_BASE: APP_BASE });
 
   const target = path.join(SITE_DIST, 'read');
   if (existsSync(target)) rmSync(target, { recursive: true, force: true });
@@ -59,18 +67,146 @@ function main() {
 
   // apps/web ships its own _redirects for when it stands alone at "/";
   // Cloudflare Pages only reads the file at the artifact's root, so the
-  // copy under read/ is dead there. The live rule is written at the root:
-  // every /read/ route is the app's one document (a 200 rewrite, so the
-  // address bar keeps the deep path). The landing's own files are real and
-  // need no rule.
+  // copy under read/ is dead there. The live rules are written at the root.
+  //
+  // Three Cloudflare Pages constraints shape these rules, each proven in
+  // `wrangler pages dev` against this artifact rather than read about:
+  //   1. A rule whose target matches its own source pattern
+  //      (`/read/*  /read/index.html  200`) is flagged "Infinite loop
+  //      detected" and IGNORED -- silently in production, where the old
+  //      catch-all left deep links falling through to the landing (#124).
+  //   2. Rules run before static assets, so a catch-all `/read/*` would
+  //      swallow every request under /read/assets/ and break the app.
+  //      Hence one rule per real app route, derived from the app's own
+  //      route table, never a catch-all.
+  //   3. An `.html` target is pretty-URL-normalized into a 308 redirect,
+  //      which loses the deep path from the address bar. The target is the
+  //      extensionless canonical `/read-app`, backed by read-app.html, an
+  //      exact copy of the app's document.
   rmSync(path.join(target, '_redirects'), { force: true });
+  const routesSource = readFileSync(path.join(WEB_ROOT, 'src', 'routes.ts'), 'utf-8');
+  const routePaths = [...routesSource.matchAll(/path:\s*"([^"]+)"/g)].map((m) => m[1]);
+  if (routePaths.length === 0) {
+    throw new Error('assemble: no route paths found in apps/web/src/routes.ts -- the _redirects rules would be empty and every deep link would fall through to the landing.');
+  }
+  const ruleSources = new Set();
+  for (const route of routePaths) {
+    if (route === '/') continue; // the directory index at /read/ is a real file and needs no rule
+    const paramAt = route.indexOf('/:');
+    ruleSources.add(
+      paramAt === -1 ? `${APP_BASE}${route.slice(1)}` : `${APP_BASE}${route.slice(1, paramAt)}/*`,
+    );
+  }
+  for (const source of ruleSources) {
+    const asAsset = source.slice(APP_BASE.length).replace(/\/\*$/, '');
+    if (existsSync(path.join(target, asAsset))) {
+      throw new Error(`assemble: redirect rule ${source} shadows a real path in the app artifact (rules run before assets); rename the route or the asset.`);
+    }
+  }
+  cpSync(path.join(target, 'index.html'), path.join(SITE_DIST, 'read-app.html'));
   writeFileSync(
     path.join(SITE_DIST, '_redirects'),
-    `${APP_BASE}*    ${APP_BASE}index.html    200
+    `${[...ruleSources].map((source) => `${source}    /read-app    200`).join('\n')}\n`,
+  );
+
+  // Issue #126: the file-content scanner that used to be the only line of
+  // defence here cannot see what a payload does once something fetches and
+  // runs it, only what a filename or a text-readable file's bytes claim to
+  // be -- three rounds of making it read more (a filename, then exact
+  // bytes, then more file types) were each defeated by disguising the
+  // payload as a type the scanner still does not read (an image can carry
+  // arbitrary bytes; nothing stops a script it does not suspect from
+  // fetching and running them). A Content-Security-Policy is the boundary
+  // that actually holds: the browser refuses the network request itself,
+  // at the moment it is made, regardless of what the requesting code was
+  // named, claimed to be, or how the address it used was assembled. Written
+  // here, not committed as a static file, for the same reason the
+  // apps/web-standalone case above isn't: this is the one place that knows
+  // both surfaces' real subpaths.
+  //
+  // Landing (`/`) needs `'unsafe-eval'` in script-src -- audited, not
+  // assumed: apps/site/page/support.js (the owner-supplied `dc-runtime`)
+  // runs Babel-transformed JSX via `new Function(...)` at runtime, which
+  // CSP treats identically to `eval()`. Removing that would mean rewriting
+  // the owner-authored runtime rather than fixing an egress hole, which is
+  // a different and much larger piece of work than this issue asks for.
+  // `'unsafe-eval'` does not reopen the hole this policy exists to close --
+  // it only permits *how* already-loaded, already-origin-restricted code
+  // may execute, never *which host* it may reach; connect-src/script-src's
+  // host allow-list is what actually blocks the attack this issue
+  // describes (a same-origin file loading a disguised payload that then
+  // reaches an outside server), and that restriction holds whether or not
+  // eval is permitted. Every host below was found by loading both pages in
+  // a real browser and recording every request actually made
+  // (`node audit-requests-tmp.mjs`, not kept -- see the PR body), not
+  // copied from the file-scanner's own allow-list on faith.
+  //
+  // Issue #137: script-src's `https://unpkg.com` and style-src/font-src's
+  // Google Fonts hosts are gone -- React, ReactDOM and Babel standalone are
+  // vendored under page/vendor/ (same pinned bytes, same SRI, checked by
+  // sha384 before vendoring rather than assumed), and Geist/Geist
+  // Mono/Geist Pixel are self-hosted under page/fonts/ (OFL, licence text
+  // beside the files). Neither page needs `connect-src`/`script-src`/
+  // `style-src`/`font-src` to reach any third host at all now.
+  //
+  // `/read/*` needs `'wasm-unsafe-eval'` (CSP's own narrower permission for
+  // WebAssembly.instantiate, not the general `eval()`/`Function()` grant
+  // `'unsafe-eval'` gives) for the engine, and `'unsafe-inline'` in
+  // style-src for React's own `style={{...}}` prop, which several
+  // components use (a DOM style *attribute*, not a `<script>` -- a much
+  // narrower, commonly-accepted allowance than inline script would be).
+  const LANDING_CSP = [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-eval'",
+    "style-src 'self' 'unsafe-inline'",
+    "font-src 'self'",
+    "connect-src 'self'",
+    "img-src 'self' data:",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "frame-ancestors 'none'",
+  ].join('; ');
+  const APP_CSP = [
+    "default-src 'self'",
+    "script-src 'self' 'wasm-unsafe-eval'",
+    "style-src 'self' 'unsafe-inline'",
+    "connect-src 'self'",
+    "img-src 'self' data:",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "frame-ancestors 'none'",
+  ].join('; ');
+  // Exact-path `/` and prefix `/read/*` deliberately never overlap -- each
+  // request matches exactly one rule, so there is never a question of which
+  // of two Content-Security-Policy header values Cloudflare Pages would
+  // send (per-directive merge across matching blocks is real but not
+  // something a routing config should ever have to rely on getting right).
+  // `/read-app` carries the same policy as the app subtree: it *is* the
+  // app's document, reachable at its own path because the redirect rules
+  // above target it, and _headers matches on the request path (`/read/...`
+  // for rewritten deep links, `/read-app` only when loaded directly).
+  writeFileSync(
+    path.join(SITE_DIST, '_headers'),
+    `/
+  Content-Security-Policy: ${LANDING_CSP}
+
+${APP_BASE}*
+  Content-Security-Policy: ${APP_CSP}
+
+/read-app
+  Content-Security-Policy: ${APP_CSP}
 `,
   );
 
   console.log(`assembled -> ${SITE_DIST} (landing at /, app at ${APP_BASE})`);
 }
 
-main();
+// Guarded, not a bare call: check-assembled.mjs imports this module for its
+// `APP_BASE` constant alone (so the two files cannot name the app's subpath
+// two different ways), and that import must never trigger a full rebuild --
+// this script's own contract is "reads dist/ as it is, does not build
+// anything". pathToFileURL, not a manual string join: a manual "file://" +
+// path join is wrong on Windows, where an absolute path already starts with
+// a drive letter and needs a third slash (file:///C:/...) that string
+// concatenation does not add.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main();

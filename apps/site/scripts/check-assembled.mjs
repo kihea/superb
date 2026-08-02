@@ -21,21 +21,249 @@
 // and the passage selector never appeared.
 
 import { createServer } from 'node:http';
-import { readFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { APP_BASE } from './assemble.mjs';
+import { decodeScannableText, findDisallowedHostUrls } from './host-scan.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
+const RETIRED_BUNDLE_SHA256 = 'db1f30f4c1fd99ed181bd26b820f1daf8f5aaa8324d4ea1b88a20ba1a1fc7c38';
+// Issue #137: unpkg.com and the Google Fonts hosts are gone from this set --
+// React, ReactDOM, Babel standalone and every font the landing uses are
+// vendored into the artifact now (page/vendor/, page/fonts/), so the landing
+// makes no cross-origin request at all any more.
+const ALLOWED_LANDING_HOSTS = new Set();
+// Hosts a landing file may *name* without ever loading from. Only the static
+// text scan consults this; the runtime request check below stays on
+// ALLOWED_LANDING_HOSTS alone, so a script that actually fetched from any of
+// these would still fail the browser-side check. Each is named because it is
+// genuinely present in the assembled artifact, checked with this scan's own
+// regex against page/vendor/*.js after vendoring them (issue #137), not
+// copied from memory of what a CDN bundle "probably" contains:
+//   - github.com: the footer's source link, plus doc/licence links inside
+//     vendored babel.min.js's own error messages and header comment.
+//   - babeljs.io: doc links inside vendored babel.min.js's own compiler
+//     error messages -- read by a developer in devtools, never fetched.
+//   - foo.com: vendored babel.min.js's own `new URL(spec, "http://foo.com")`
+//     -- a dummy base used only to parse a relative import specifier with
+//     the URL constructor; never a real request.
+//   - www.w3.org: vendored react-dom.production.min.js's XML/SVG namespace
+//     URI constants, passed to `createElementNS` -- identifier strings the
+//     DOM spec requires, not addresses the browser ever requests.
+//   - reactjs.org: vendored react-dom.production.min.js's minified-error
+//     decoder link -- text inside a thrown Error's message for a developer
+//     to open by hand, never fetched by the code itself.
+//   - scripts.sil.org: named in fonts/LICENSE-OFL.txt itself, the licence
+//     text shipped beside the vendored Geist font files -- the OFL's own FAQ
+//     link, read by whoever opens the licence, never fetched by the site.
+const ALLOWED_LANDING_NAMED_HOSTS = new Set([
+  ...ALLOWED_LANDING_HOSTS,
+  'github.com',
+  'babeljs.io',
+  'foo.com',
+  'www.w3.org',
+  'reactjs.org',
+  'scripts.sil.org',
+]);
+
+// Issue #128: the static scan used to stop at dist/read -- the reading app's
+// own bundle, PWA service worker and synced content were never looked at, so
+// a payload landing there would have shipped invisibly. Named here, one line
+// each, because each is genuinely present -- checked with this scan's own
+// regex against a real `npm run assemble` output, not assumed from what a
+// React/Workbox bundle or the catalogue "probably" contains. None of these
+// are ever fetched by the app itself: the browser-enforced CSP on /read/*
+// already pins connect-src to 'self' (proved live by check-csp.mjs), so this
+// list is the early-warning lint on top, not the boundary.
+//   - react.dev: the app's bundled React's minified-error decoder link --
+//     text inside a thrown Error's message for a developer to open by hand.
+//   - www.w3.org: XML/SVG namespace URI constants passed to createElementNS
+//     by the app's bundled React -- identifier strings the DOM spec
+//     requires, not addresses the browser ever requests.
+//   - bit.ly: a console.warn doc link inside the generated Workbox service
+//     worker (vite-plugin-pwa's own precache warning text).
+//   - github.com: the synced catalogue's own "source.repository" field --
+//     where the catalogue data was built from, read as metadata, not
+//     fetched by the reading app.
+//   - standardebooks.org, archive.org, www.gutenberg.org: each book's source
+//     link in its citation/provenance record, and (gutenberg only) each
+//     excerpt's own citation in content/sources.json -- law #8's required
+//     attribution, meant to be read, never fetched.
+//   - creativecommons.org: the CC0 licence link the catalogue cites for its
+//     own public-domain dedication (ADR-025) -- citable text, not fetched.
+const ALLOWED_READ_NAMED_HOSTS = new Set([
+  'react.dev',
+  'www.w3.org',
+  'bit.ly',
+  'github.com',
+  'standardebooks.org',
+  'archive.org',
+  'www.gutenberg.org',
+  'creativecommons.org',
+]);
+
+// Extensions skipped by the host scan below. This is a deny-list on purpose,
+// and the reason is the whole history of this check. It has now been defeated
+// three times, each time the same way: the guard identified the danger by what
+// it was *called* -- first a basename, then a content hash, then an allow-list
+// of extensions to bother reading. A verifier saved a digest-shifted copy of
+// the retired bundle as `tracker.JS`, uppercase, and it passed both the hash pin
+// and the scan, because `path.extname` returns `.JS` and the allow-list held
+// `.js`. An allow-list of things to look at has to predict every disguise; a
+// deny-list of things that cannot carry a URL does not.
+//
+// Everything not listed here is read as latin1, which cannot throw on binary
+// input and simply finds nothing in it -- so adding an *unlisted* asset type
+// never silently removes it from the scan.
+//
+// WHAT THIS STILL DOES NOT CATCH, because a verifier proved it rather than
+// imagined it, and because the sentence above is easy to over-read. Files on
+// this deny-list are not opened at all, so a `.png` containing JavaScript text
+// is invisible here -- and the landing already ships `support.js`, whose
+// dc-runtime fetches a URL, transforms the response and evals it. One scanned
+// `.js` that fetches an unscanned `.png` and evals it reaches jsDelivr with
+// this check green. That was demonstrated end to end, not argued.
+//
+// So read this scan as a lint, not as a boundary. A content scanner cannot
+// decide what arbitrary bytes will do once something fetches and evaluates
+// them; only the browser can, and the mechanism for that is a
+// Content-Security-Policy pinning `script-src` and `connect-src` to the same
+// hosts this file allows. That is the real fix and it is filed, not done.
+// Until it exists, this check raises the cost of shipping the retired bundle
+// back and does not make it impossible.
+const BINARY_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.otf', '.wasm', '.mp4', '.webm', '.zip', '.pdf']);
 
 if (!existsSync(path.join(DIST, 'index.html'))) {
   console.error('check-assembled: dist/index.html missing -- run `npm run assemble` first.');
   process.exit(1);
 }
 if (!existsSync(path.join(DIST, 'read', 'index.html'))) {
-  console.error('check-assembled: dist/read/index.html missing -- run `npm run assemble` first.');
+  console.error('check-assembled: missing dist/read/index.html; run npm run assemble first');
   process.exit(1);
+}
+const retiredBundle = readdirSync(DIST, { recursive: true }).find((entry) => {
+  const relative = String(entry);
+  const file = path.join(DIST, relative);
+  if (path.basename(relative) === '_ds_bundle.js') return true;
+  if (!statSync(file).isFile()) return false;
+  const digest = createHash('sha256').update(readFileSync(file)).digest('hex');
+  return digest === RETIRED_BUNDLE_SHA256;
+});
+if (retiredBundle) {
+  console.error(`check-assembled: retired design-system runtime bytes are still shipped: ${retiredBundle}`);
+  process.exit(1);
+}
+const disallowedStaticUrls = [];
+for (const entry of readdirSync(DIST, { recursive: true })) {
+  const relative = String(entry);
+  const inRead = relative.split(/[\\/]/)[0] === 'read';
+  const file = path.join(DIST, relative);
+  if (!statSync(file).isFile() || BINARY_EXTENSIONS.has(path.extname(relative).toLowerCase())) continue;
+  // Issue #127: read as bytes, not as latin1 text directly -- a UTF-16 file
+  // interleaves a zero byte with every ASCII character, so a latin1 decode of
+  // "h\0t\0t\0p\0s\0:..." never contains "https:" at all and the scan below
+  // would silently find nothing. decodeScannableText detects a byte-order
+  // mark and decodes accordingly, falling back to latin1 (unchanged
+  // behaviour for every ordinary text file, and still safe on arbitrary
+  // binary bytes) when there isn't one.
+  const text = decodeScannableText(readFileSync(file));
+  const allowedHosts = inRead ? ALLOWED_READ_NAMED_HOSTS : ALLOWED_LANDING_NAMED_HOSTS;
+  for (const match of findDisallowedHostUrls(text, allowedHosts)) {
+    disallowedStaticUrls.push(`${relative}: ${match}`);
+  }
+}
+if (disallowedStaticUrls.length > 0) {
+  console.error(
+    `check-assembled: landing artifact names unapproved external hosts:\n  ${disallowedStaticUrls.join('\n  ')}`,
+  );
+  process.exit(1);
+}
+
+// Issue #126: dist/_headers carries the Content-Security-Policy that is the
+// actual boundary now (assemble.mjs's own comment on why the file-content
+// scanner above cannot be one). A local server that never applies it would
+// let every check below pass against an artifact that, live, ships without
+// its own defence -- so this parses the real file (Cloudflare Pages' own
+// path-block format: an unindented path line, then one or more indented
+// "Header: value" lines) and sends the matching headers on every response,
+// the same way the checks two blocks down for "/" and "/read/" already
+// exercise the real dist/_redirects rather than assuming routing works.
+const HEADERS_PATH = path.join(DIST, '_headers');
+if (!existsSync(HEADERS_PATH)) {
+  console.error('check-assembled: dist/_headers missing -- assemble.mjs should always write one (issue #126).');
+  process.exit(1);
+}
+
+function parseHeadersFile(text) {
+  const blocks = [];
+  let current = null;
+  for (const rawLine of text.split('\n')) {
+    if (rawLine.trim() === '' || rawLine.trim().startsWith('#')) continue;
+    if (!/^\s/.test(rawLine)) {
+      current = { path: rawLine.trim(), headers: {} };
+      blocks.push(current);
+      continue;
+    }
+    if (!current) continue; // an indented line before any path header names -- not this format.
+    const colon = rawLine.indexOf(':');
+    if (colon === -1) continue;
+    current.headers[rawLine.slice(0, colon).trim()] = rawLine.slice(colon + 1).trim();
+  }
+  return blocks;
+}
+
+function headersFor(blocks, pathname) {
+  let matched = {};
+  for (const block of blocks) {
+    const isMatch = block.path.endsWith('/*')
+      ? pathname.startsWith(block.path.slice(0, -1))
+      : block.path === pathname;
+    if (isMatch) matched = { ...matched, ...block.headers };
+  }
+  return matched;
+}
+
+const headerBlocks = parseHeadersFile(readFileSync(HEADERS_PATH, 'utf-8'));
+const cspBlocks = headerBlocks.filter((b) => 'Content-Security-Policy' in b.headers);
+if (cspBlocks.length === 0) {
+  console.error('check-assembled: dist/_headers has no Content-Security-Policy rule at all (issue #126).');
+  process.exit(1);
+}
+if (!headerBlocks.some((b) => b.path === '/' && 'Content-Security-Policy' in b.headers))
+  console.error('check-assembled: warning -- no Content-Security-Policy rule for the exact landing path "/".');
+if (!headerBlocks.some((b) => b.path === `${APP_BASE}*` && 'Content-Security-Policy' in b.headers))
+  console.error(`check-assembled: warning -- no Content-Security-Policy rule for "${APP_BASE}*".`);
+
+// Issue #124: the deep-link rules in dist/_redirects are part of the artifact
+// under test, and the production incident that reopened the issue was a rule
+// Cloudflare accepted and silently ignored. This server applies the real file
+// with the semantics `wrangler pages dev` demonstrated: rules are evaluated
+// BEFORE static assets, `/*` sources match by prefix, and an extensionless
+// target resolves to its `.html` asset (the pretty-URL canonical form).
+const REDIRECTS_PATH = path.join(DIST, '_redirects');
+if (!existsSync(REDIRECTS_PATH)) {
+  console.error('check-assembled: dist/_redirects missing -- assemble.mjs should always write one (issue #124).');
+  process.exit(1);
+}
+const redirectRules = readFileSync(REDIRECTS_PATH, 'utf-8')
+  .split('\n')
+  .map((line) => line.trim())
+  .filter((line) => line !== '' && !line.startsWith('#'))
+  .map((line) => line.split(/\s+/))
+  .filter((parts) => parts.length >= 2)
+  .map(([source, target, status]) => ({ source, target, status: Number(status ?? '200') }));
+function redirectFor(pathname) {
+  for (const rule of redirectRules) {
+    const hit = rule.source.endsWith('/*')
+      ? pathname.startsWith(rule.source.slice(0, -1))
+      : rule.source === pathname;
+    if (hit) return rule;
+  }
+  return null;
 }
 
 const TYPES = {
@@ -53,13 +281,17 @@ const TYPES = {
 
 const server = createServer((req, res) => {
   const p = (req.url ?? '/').split('?')[0];
-  const filePath = p.endsWith('/') ? `${p}index.html` : p;
+  const rule = redirectFor(p);
+  const resolved = rule && rule.status === 200 ? rule.target : p;
+  let filePath = resolved.endsWith('/') ? `${resolved}index.html` : resolved;
+  if (!existsSync(path.join(DIST, filePath)) && path.extname(filePath) === '') filePath = `${filePath}.html`;
+  const extraHeaders = headersFor(headerBlocks, p);
   try {
     const body = readFileSync(path.join(DIST, filePath));
-    res.writeHead(200, { 'content-type': TYPES[path.extname(filePath)] ?? 'application/octet-stream' });
+    res.writeHead(200, { 'content-type': TYPES[path.extname(filePath)] ?? 'application/octet-stream', ...extraHeaders });
     res.end(body);
   } catch {
-    res.writeHead(404);
+    res.writeHead(404, extraHeaders);
     res.end('not found');
   }
 });
@@ -77,6 +309,8 @@ const problems = [];
   // publishable landing page owes readers.
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const failedRequests = [];
+  const requestedUrls = [];
+  page.on('request', (req) => requestedUrls.push(req.url()));
   page.on('requestfailed', (req) => failedRequests.push(`${req.url()} (${req.failure()?.errorText})`));
   page.on('response', (res) => {
     if (res.status() >= 400) failedRequests.push(`${res.url()} -> ${res.status()}`);
@@ -111,6 +345,13 @@ const problems = [];
     problems.push('/ : landing has no working link to the reading app at /read/');
   if (failedRequests.length > 0)
     problems.push(`/ : failed requests on the landing --\n    ${failedRequests.join('\n    ')}`);
+  const disallowedRequests = requestedUrls.filter((raw) => {
+    const url = new URL(raw);
+    return (url.hostname !== '127.0.0.1' && !ALLOWED_LANDING_HOSTS.has(url.hostname))
+      || url.pathname.endsWith('/_ds_bundle.js');
+  });
+  if (disallowedRequests.length > 0)
+    problems.push(`/ : landing loads an unapproved runtime or external host --\n    ${disallowedRequests.join('\n    ')}`);
 }
 
 // --- "/read/" : the app reaches its first painted reading surface.
@@ -138,6 +379,27 @@ const problems = [];
     problems.push(`/read/ : failed network requests --\n    ${failedRequests.join('\n    ')}`);
   if (consoleErrors.length > 0)
     problems.push(`/read/ : console errors --\n    ${consoleErrors.join('\n    ')}`);
+}
+
+// --- deep links (issue #124): the enumerated rules serve the app document,
+// with the app's own policy, without touching the address path. Exercised
+// through the same server that applies the real dist/_redirects above.
+{
+  const appDocument = readFileSync(path.join(DIST, 'read-app.html'));
+  const appIndex = readFileSync(path.join(DIST, 'read', 'index.html'));
+  if (!appDocument.equals(appIndex))
+    problems.push('read-app.html has drifted from read/index.html -- assemble.mjs writes it as an exact copy');
+  for (const deepPath of [`${APP_BASE}library`, `${APP_BASE}book/bram-stoker_dracula`, `${APP_BASE}book/bram-stoker_dracula/read`]) {
+    const res = await fetch(`${origin}${deepPath}`);
+    const body = Buffer.from(await res.arrayBuffer());
+    if (res.status !== 200 || !body.equals(appDocument)) {
+      problems.push(`${deepPath} : does not serve the app document through dist/_redirects (status ${res.status})`);
+      continue;
+    }
+    const csp = res.headers.get('content-security-policy') ?? '';
+    if (!csp.includes("default-src 'self'"))
+      problems.push(`${deepPath} : rewritten deep route arrives without a Content-Security-Policy`);
+  }
 }
 
 await browser.close();

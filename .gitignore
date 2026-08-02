@@ -32,5 +32,7 @@ __pycache__/
 data/pipeline/tests/.informativeness_hidden.json
 # same convention for draw_usage_coverage_sample.py's blind draw
 data/pipeline/tests/.usage_coverage_hidden.json
+# same convention for measure_informativeness.py's corpus-wide blind draw
+data/pipeline/tests/.corpus_precision_hidden.json
 # generated wasm-bindgen output (crates/superb-wasm) — rebuilt by the wasm CI job
 crates/superb-wasm/pkg/
