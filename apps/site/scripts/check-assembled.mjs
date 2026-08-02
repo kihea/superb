@@ -8,12 +8,14 @@
 //   - the landing renders an empty body, clips a link at phone width, exposes
 //     a dead link, lacks a route to /read/, or loses an asset from the assembled
 //     artifact.
-//   - the app at "/read/" never reaches its first painted reading surface
-//     (an <article class="passage-page">, PassagePage.tsx's own selector)
-//     within a generous timeout, which is what "the subpath is wired
-//     correctly end to end" cashes out to -- assets, the wasm engine, the
-//     content fetch and the PWA registration all have to have worked for
-//     that element to exist at all.
+//   - the app at "/read/" never reaches its first painted surface (the
+//     welcome's wordmark, FirstOpen.tsx's own selector -- a fresh browser
+//     context has nothing in storage, so "/" inside the app routes to
+//     /welcome) within a generous timeout, which is what "the subpath is
+//     wired correctly end to end" cashes out to -- the document, its
+//     assets and the app's routing all have to have worked for that
+//     element to exist at all, and the failed-request check below catches
+//     anything else the shell tried to load and missed.
 //
 // Watched red (T10 PR body carries the transcript): pointed the browser at
 // "/read/" while apps/web/vite.config.ts's BASE still defaulted to "/" --
@@ -60,6 +62,10 @@ const ALLOWED_LANDING_HOSTS = new Set();
 //   - scripts.sil.org: named in fonts/LICENSE-OFL.txt itself, the licence
 //     text shipped beside the vendored Geist font files -- the OFL's own FAQ
 //     link, read by whoever opens the licence, never fetched by the site.
+//   - cdn.jsdelivr.net: named in _headers at the artifact root -- the read
+//     surface's own connect-src spelling out the one host the reading app
+//     may fetch book text from. Policy text that restricts, not an address
+//     the landing ever loads; the landing's own connect-src stays 'self'.
 const ALLOWED_LANDING_NAMED_HOSTS = new Set([
   ...ALLOWED_LANDING_HOSTS,
   'github.com',
@@ -68,6 +74,7 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
   'www.w3.org',
   'reactjs.org',
   'scripts.sil.org',
+  'cdn.jsdelivr.net',
 ]);
 
 // Issue #128: the static scan used to stop at dist/read -- the reading app's
@@ -75,10 +82,16 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
 // a payload landing there would have shipped invisibly. Named here, one line
 // each, because each is genuinely present -- checked with this scan's own
 // regex against a real `npm run assemble` output, not assumed from what a
-// React/Workbox bundle or the catalogue "probably" contains. None of these
-// are ever fetched by the app itself: the browser-enforced CSP on /read/*
-// already pins connect-src to 'self' (proved live by check-csp.mjs), so this
-// list is the early-warning lint on top, not the boundary.
+// React/Workbox bundle or the catalogue "probably" contains. Except for
+// cdn.jsdelivr.net, none of these are ever fetched by the app itself: the
+// browser-enforced CSP on /read/* pins connect-src to 'self' plus that one
+// host (proved live by check-csp.mjs), so this list is the early-warning
+// lint on top, not the boundary.
+//   - cdn.jsdelivr.net: the one outside address the reading app actually
+//     talks to -- book text, fetched from the public library repository
+//     served raw through jsDelivr (apps/web/src/content/catalogue.ts's
+//     LIBRARY_BASE), and named in assemble.mjs's connect-src for the same
+//     reason.
 //   - react.dev: the app's bundled React's minified-error decoder link --
 //     text inside a thrown Error's message for a developer to open by hand.
 //   - www.w3.org: XML/SVG namespace URI constants passed to createElementNS
@@ -96,6 +109,7 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
 //   - creativecommons.org: the CC0 licence link the catalogue cites for its
 //     own public-domain dedication (ADR-025) -- citable text, not fetched.
 const ALLOWED_READ_NAMED_HOSTS = new Set([
+  'cdn.jsdelivr.net',
   'react.dev',
   'www.w3.org',
   'bit.ly',
@@ -354,7 +368,7 @@ const problems = [];
     problems.push(`/ : landing loads an unapproved runtime or external host --\n    ${disallowedRequests.join('\n    ')}`);
 }
 
-// --- "/read/" : the app reaches its first painted reading surface.
+// --- "/read/" : the app reaches its first painted surface, the welcome.
 {
   const page = await browser.newPage();
   const consoleErrors = [];
@@ -369,12 +383,12 @@ const problems = [];
 
   await page.goto(`${origin}/read/`);
   const reached = await page
-    .waitForSelector('article.passage-page', { timeout: 20_000 })
+    .waitForSelector('.first-open__wordmark', { timeout: 20_000 })
     .then(() => true)
     .catch(() => false);
   await page.close();
 
-  if (!reached) problems.push('/read/ : article.passage-page never appeared (first painted reading surface)');
+  if (!reached) problems.push('/read/ : the welcome wordmark never appeared (first painted surface)');
   if (failedRequests.length > 0)
     problems.push(`/read/ : failed network requests --\n    ${failedRequests.join('\n    ')}`);
   if (consoleErrors.length > 0)
@@ -410,7 +424,7 @@ if (problems.length > 0) {
   console.error('check-assembled: FAILED');
   for (const p of problems) console.error(`  ✗ ${p}`);
 } else {
-  console.log('check-assembled: landing at / fits a phone with live links, and /read/ reaches a painted passage.');
+  console.log('check-assembled: landing at / fits a phone with live links, and /read/ paints its welcome.');
 }
 
 process.exit(failed ? 1 : 0);
