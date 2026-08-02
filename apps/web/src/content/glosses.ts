@@ -62,6 +62,20 @@ export function resetBookGlosses(bookId: string): void {
   failures.delete(bookId);
 }
 
+/** The games' own gloss table -- every prompt, rhyme and associate word in
+ *  one file, so an end-of-round reveal can say what a word means and let
+ *  the reader keep it. */
+export async function loadChallengeGlosses(): Promise<Record<string, BookGlossEntry>> {
+  const key = "__challenges__";
+  const cached = tables.get(key);
+  if (cached) return cached;
+  const table = await fetchJson<Record<string, BookGlossEntry>>(
+    contentUrl("challenges/glosses.json"),
+  );
+  tables.set(key, table);
+  return table;
+}
+
 /** A word this table has no curated entry for is real and expected --
  *  `data/pipeline/glosses.py` only resolves the top 30,000 frequency band,
  *  so proper nouns (Harker, Transylvania) and the rarer end of Victorian

@@ -1,209 +1,279 @@
-// Screen 9, from frame 3d — the turn-3 design, and the latest: association
-// as a puzzle board. Nine tiles; an unsolved one gives away its first
-// letter and its length and nothing else. Type a word, press Add, and the
-// tile it belongs to lands. A word worth having brings one line of meaning
-// with it.
-//
-// Kihea's note under the frame is the whole design brief: "Wordle's
-// bargain, kept quiet: the board tells you exactly how much you don't know
-// (first letter, letter count), tiles flip as they land, and a solved word
-// gets one line of meaning — the vocabulary payload the puzzle games never
-// carry."
-//
-// This replaced the two turn-2 designs (2e's list and 2f's recital) that
-// the track file originally named. Both remain in the design canvas.
-import { useState } from "react";
+// Association. A word appears; the reader types or says what it brings to
+// mind, and every offer is judged against the word's own web -- WordNet
+// relations and the company words keep in our own library. A strong
+// connection fills, a looser one outlines, a stray stays quiet. The end of
+// a round shows how you answered next to how you could have, each with the
+// way it connects -- the nudge is the lesson.
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Screen } from "../shell/Screen";
-import { RARE_TILE_INDEX, associationFields } from "../v0mock";
-import type { AssociationField, AssociationWord } from "../v0mock";
+import { ThinkingOrb } from "thinking-orbs";
+import {
+  TIERS,
+  TIER_NAMES,
+  judgeAssociation,
+  loadAssociationIndex,
+  loadAssociations,
+  randomPrompt,
+  type AssociationIndex,
+  type AssociationPrompt,
+} from "../content/challenges";
+import { loadChallengeGlosses, type BookGlossEntry } from "../content/glosses";
+import { keepWord } from "../reading/words";
+import { useSpeechInput } from "../voice/useSpeechInput";
 import "./Challenge.css";
 
+type OfferKind = "strong" | "connected" | "stray";
+
+interface Offer {
+  word: string;
+  kind: OfferKind;
+  /** The plain-language label, when the word sits in the prompt's own top
+   *  list: "means the same", "opposite", "a kind of it", ... */
+  connection?: string;
+}
+
+type Status = "loading" | "ready" | "error";
+
 export function Association() {
-  const [field, setField] = useState<AssociationField>(associationFields[0]);
-  const [choosing, setChoosing] = useState(false);
-  const [solved, setSolved] = useState<string[]>([]);
-  const [landed, setLanded] = useState<AssociationWord | null>(null);
+  const [status, setStatus] = useState<Status>("loading");
+  const [tiers, setTiers] = useState<Record<string, AssociationPrompt[]>>({});
+  const [index, setIndex] = useState<AssociationIndex | null>(null);
+  const [glosses, setGlosses] = useState<Record<string, BookGlossEntry>>({});
+  const [tier, setTier] = useState<string>("3");
+  const [prompt, setPrompt] = useState<AssociationPrompt | null>(null);
+  const [offers, setOffers] = useState<Offer[]>([]);
   const [typed, setTyped] = useState("");
+  const [over, setOver] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  function open(next: AssociationField) {
-    setField(next);
-    setSolved([]);
-    setLanded(null);
+  useEffect(() => {
+    Promise.all([
+      loadAssociations(),
+      loadAssociationIndex(),
+      loadChallengeGlosses().catch(() => ({})),
+    ])
+      .then(([tierData, indexData, glossData]) => {
+        setTiers(tierData);
+        setIndex(indexData);
+        setGlosses(glossData);
+        setPrompt(randomPrompt(tierData["3"] ?? []));
+        setStatus("ready");
+      })
+      .catch(() => setStatus("error"));
+  }, []);
+
+  const offered = useMemo(() => new Set(offers.map((o) => o.word)), [offers]);
+
+  function offer(word: string) {
+    const clean = word.toLowerCase().trim();
+    if (!clean || !prompt || !index || offered.has(clean)) return;
+    const inTop = prompt.associates.find((a) => a.word === clean);
+    if (inTop) {
+      setOffers((current) => [...current, { word: clean, kind: "strong", connection: inTop.connection }]);
+      return;
+    }
+    const judgement = judgeAssociation(prompt.word, clean, index);
+    if (judgement === "same") return;
+    setOffers((current) => [
+      ...current,
+      { word: clean, kind: judgement === "connected" ? "connected" : "stray" },
+    ]);
+  }
+
+  const speech = useSpeechInput((words) => words.forEach(offer));
+
+  function newRound(nextTier: string) {
+    speech.stop();
+    setTier(nextTier);
+    setOffers([]);
     setTyped("");
-    setChoosing(false);
+    setOver(false);
+    setPrompt(randomPrompt(tiers[nextTier] ?? [], prompt ?? undefined));
   }
 
-  function add() {
-    const guess = typed.trim().toLowerCase();
-    setTyped("");
-    if (!guess) return;
-    const match = field.words.find((entry) => entry.word === guess && !solved.includes(entry.word));
-    if (!match) return;
-    setSolved((current) => [...current, match.word]);
-    setLanded(match);
-  }
-
-  function revealOne() {
-    const next = field.words.find((entry) => !solved.includes(entry.word));
-    if (!next) return;
-    setSolved((current) => [...current, next.word]);
-    setLanded(next);
-  }
-
-  if (choosing) {
+  if (status === "loading") {
     return (
       <Screen title="Association" back={{ to: "/play", label: "Play" }}>
-        <h2 className="sb-heading sb-heading--sm">Pick a field.</h2>
-        <div className="sb-list">
-          {associationFields.map((one) => (
-            <button
-              key={one.name}
-              type="button"
-              className={`sb-list__row${one.name === field.name ? " sb-list__row--chosen" : ""}`}
-              onClick={() => open(one)}
-            >
-              <span>{one.name}</span>
-              <span className="sb-list__aside">{one.tier} · nine words</span>
-            </button>
-          ))}
-        </div>
-        <span className="sb-caption">The tier comes with the field — harder fields, rarer words.</span>
+        {null}
+      </Screen>
+    );
+  }
+  if (status === "error" || !prompt) {
+    return (
+      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
+        <p className="sb-said">The words wouldn't load. Try again in a moment.</p>
       </Screen>
     );
   }
 
-  const done = solved.length === field.words.length;
+  const connectedCount = offers.filter((o) => o.kind !== "stray").length;
 
-  return (
-    <Screen
-      title={field.name}
-      back={{ to: "/play", label: "Play" }}
-      trail={
-        <span className="board-count">
-          {solved.length}/{field.words.length}
-        </span>
-      }
-      bare
-    >
-      <div className="board">
-        <div className="board__grid">
-          {field.words.map((entry, i) => {
-            const isSolved = solved.includes(entry.word);
-            if (isSolved) {
-              return (
-                <div key={entry.word} className={`tile tile--${entry.link} sb-fade`}>
-                  <RelationMark link={entry.link} />
-                  <span className="tile__word">{entry.word}</span>
+  if (over) {
+    const said = new Set(offers.map((o) => o.word));
+    const missed = prompt.associates.filter((a) => !said.has(a.word)).slice(0, 6);
+
+    return (
+      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
+        <div className="challenge-end sb-fade">
+          <h2 className="sb-heading">
+            {connectedCount === 0
+              ? `${prompt.word} stayed a stranger.`
+              : `${connectedCount} of yours connected.`}
+          </h2>
+
+          {offers.length > 0 && (
+            <div className="challenge-said">
+              {offers.map((o) => (
+                <div key={o.word} className="challenge-said__row">
+                  <span
+                    className={`sb-chip ${
+                      o.kind === "strong"
+                        ? "sb-chip--exact"
+                        : o.kind === "connected"
+                          ? "sb-chip--near"
+                          : "sb-chip--quiet"
+                    }`}
+                  >
+                    {o.word}
+                  </span>
+                  <span className="challenge-said__how">
+                    {o.kind === "strong" ? o.connection : o.kind === "connected" ? "connected" : "its own thing"}
+                  </span>
                 </div>
-              );
-            }
-            // The rare one keeps even its first letter to itself.
-            if (i === RARE_TILE_INDEX) {
-              return (
-                <div key={entry.word} className="tile tile--rare">
-                  <span className="tile__rare">rare</span>
-                </div>
-              );
-            }
-            return (
-              <div key={entry.word} className="tile tile--blank">
-                <span className="tile__letter">{entry.word[0]}</span>
-                <span className="tile__length" aria-label={`${entry.word.length} letters`}>
-                  {"· ".repeat(entry.word.length).trim()}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="board__key">
-          <span className="board__legend">
-            <span className="board__swatch board__swatch--involves">
-              <RelationMark link="involves" />
-            </span>
-            involves
-          </span>
-          <span className="board__legend">
-            <span className="board__swatch board__swatch--relates">
-              <RelationMark link="relates" />
-            </span>
-            relates
-          </span>
-          <button type="button" className="sb-quiet board__reveal" onClick={revealOne} disabled={done}>
-            Reveal one
-          </button>
-        </div>
-
-        {landed && (
-          <div className="sb-card board__landed sb-fade">
-            <span className="sb-eyebrow">Just landed</span>
-            <div className="board__landed-row">
-              <span className="board__landed-word">{landed.word}</span>
-              {landed.meaning && <span className="sb-caption">{landed.meaning}</span>}
+              ))}
             </div>
-          </div>
-        )}
+          )}
 
-        {done && (
-          <div className="board__settled sb-fade">
-            <span className="board__settled-line">The board settles.</span>
-            <button type="button" className="sb-quiet" onClick={() => setChoosing(true)}>
-              Another field
+          {missed.length > 0 && (
+            <div className="challenge-reveal">
+              <span className="sb-eyebrow">You could have said</span>
+              <ul className="challenge-reveal__list">
+                {missed.map((a) => {
+                  const meaning = glosses[a.word]?.definition;
+                  return (
+                    <li key={a.word} className="challenge-reveal__row">
+                      <span className="challenge-reveal__word">{a.word}</span>
+                      <span className="challenge-reveal__meaning">
+                        {a.connection}
+                        {meaning ? ` — ${meaning}` : ""}
+                      </span>
+                      {meaning && (
+                        <button
+                          type="button"
+                          className="sb-quiet challenge-reveal__keep"
+                          onClick={(e) => {
+                            (e.currentTarget as HTMLButtonElement).disabled = true;
+                            e.currentTarget.textContent = "kept";
+                            void keepWord(
+                              { word: a.word, definition: meaning, source: "association" },
+                              Date.now(),
+                            ).catch(() => {});
+                          }}
+                        >
+                          keep
+                        </button>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+
+          <div className="challenge-end__actions">
+            <button type="button" className="sb-button sb-button--wide" onClick={() => newRound(tier)}>
+              Another word
             </button>
           </div>
-        )}
+        </div>
+      </Screen>
+    );
+  }
+
+  return (
+    <Screen title="Association" back={{ to: "/play", label: "Play" }} bare>
+      <div className="sb-tiers">
+        {TIERS.map((t) => (
+          <button
+            key={t}
+            type="button"
+            className={`sb-tier${t === tier ? " sb-tier--on" : ""}`}
+            onClick={() => newRound(t)}
+          >
+            {TIER_NAMES[t]}
+          </button>
+        ))}
+      </div>
+
+      <div className="challenge-board">
+        <span className="challenge-seed">{prompt.word}</span>
+
+        <div className="sb-chips">
+          {offers.map((o) => (
+            <span
+              key={o.word}
+              className={`sb-chip ${
+                o.kind === "strong"
+                  ? "sb-chip--exact"
+                  : o.kind === "connected"
+                    ? "sb-chip--near"
+                    : "sb-chip--quiet"
+              } sb-fade`}
+            >
+              {o.word}
+            </span>
+          ))}
+        </div>
+
+        <div className="challenge-key">
+          <span className="challenge-key__item">
+            <span className="challenge-key__swatch challenge-key__swatch--exact" />
+            close
+          </span>
+          <span className="challenge-key__item">
+            <span className="challenge-key__swatch challenge-key__swatch--near" />
+            connected
+          </span>
+        </div>
       </div>
 
       <form
         className="sb-answer"
         onSubmit={(e) => {
           e.preventDefault();
-          add();
+          offer(typed);
+          setTyped("");
+          inputRef.current?.focus();
         }}
       >
+        {speech.supported && (
+          <button
+            type="button"
+            className="sb-answer__mic"
+            aria-label={speech.listening ? "Stop listening" : "Say your answers"}
+            data-listening={speech.listening}
+            onClick={() => (speech.listening ? speech.stop() : speech.start())}
+          >
+            <ThinkingOrb state="listening" size={20} paused={!speech.listening} />
+          </button>
+        )}
         <input
+          ref={inputRef}
           className="sb-answer__field"
           value={typed}
           onChange={(e) => setTyped(e.target.value)}
-          placeholder={`a word from ${field.name.toLowerCase()}`}
-          aria-label={`a word from ${field.name.toLowerCase()}`}
+          placeholder={`what ${prompt.word} brings to mind`}
+          aria-label={`a word connected to ${prompt.word}`}
+          autoCapitalize="none"
+          autoCorrect="off"
         />
         <button type="submit" className="sb-button sb-button--sm">
           Add
         </button>
+        <button type="button" className="sb-quiet" onClick={() => setOver(true)}>
+          Enough
+        </button>
       </form>
     </Screen>
-  );
-}
-
-/** Two marks, drawn rather than imported: a link for "involves", a branch
- *  for "relates". The design system's own icon set is not in this repo. */
-function RelationMark({ link }: { link: AssociationWord["link"] }) {
-  if (link === "involves") {
-    return (
-      <svg className="relation-mark" viewBox="0 0 14 14" aria-hidden="true">
-        <path
-          d="M5.5 8.5 8.5 5.5M4.8 9.2a2.4 2.4 0 0 1 0-3.4l1.4-1.4a2.4 2.4 0 0 1 3.4 3.4M9.2 4.8a2.4 2.4 0 0 1 0 3.4l-1.4 1.4a2.4 2.4 0 0 1-3.4-3.4"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.4"
-          strokeLinecap="round"
-        />
-      </svg>
-    );
-  }
-  return (
-    <svg className="relation-mark" viewBox="0 0 14 14" aria-hidden="true">
-      <path
-        d="M4 2.5v9M4 6.5h3.5a2.5 2.5 0 0 1 2.5 2.5v2.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <circle cx="4" cy="2.5" r="1.3" fill="currentColor" />
-      <circle cx="10" cy="11.5" r="1.3" fill="currentColor" />
-    </svg>
   );
 }

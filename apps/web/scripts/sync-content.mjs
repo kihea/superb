@@ -88,3 +88,24 @@ console.log(
   `synced catalogue-v0.1.0.json (${catalogueBytes.length} bytes, checksum verified) and ` +
     `${glossFileCount} book gloss table(s) -> public/content/`,
 );
+
+// The games' own data: rhyme prompts and pronunciations, association
+// prompts and the answer index. Copied whole, like the gloss tables.
+const challengesDir = join(contentRoot, "challenges");
+let challengeFileCount = 0;
+if (existsSync(challengesDir)) {
+  mkdirSync(join(outDir, "challenges"), { recursive: true });
+  for (const name of readdirSync(challengesDir)) {
+    if (!name.endsWith(".json")) continue;
+    writeFileSync(join(outDir, "challenges", name), readFileSync(join(challengesDir, name)));
+    challengeFileCount += 1;
+  }
+}
+
+// The full library index (one row per book), when it has been generated.
+const indexPath = join(contentRoot, "catalogue", "index-v1.json");
+if (existsSync(indexPath)) {
+  writeFileSync(join(outDir, "catalogue-index.json"), readFileSync(indexPath));
+}
+
+console.log(`synced ${challengeFileCount} challenge data file(s) -> public/content/`);

@@ -57,6 +57,103 @@
   gap: var(--sp-8);
 }
 
+/* An offer that neither rhymes nor connects: present, quiet, unjudged by
+   colour -- the absence of a fill is the whole verdict. */
+.sb-chip--quiet {
+  border: 1px dashed var(--border-2);
+  color: var(--text-3);
+  background: transparent;
+}
+
+/* The end-of-round reveal: how you could have answered. */
+.challenge-reveal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.challenge-reveal__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.challenge-reveal__row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-5);
+}
+
+.challenge-reveal__word {
+  font: var(--fw-bold) var(--fs-600) / 1.2 var(--font-display);
+  color: var(--text-1);
+  flex-shrink: 0;
+}
+
+.challenge-reveal__meaning {
+  font: var(--type-body-sm);
+  color: var(--text-2);
+}
+
+.challenge-reveal__keep {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* One line, two of your rhymes. */
+.challenge-bar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.challenge-bar__field {
+  resize: none;
+  width: 100%;
+}
+
+.challenge-bar__landed {
+  color: var(--support);
+}
+
+/* How each of your answers connected, one row per offer. */
+.challenge-said {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.challenge-said__row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+}
+
+.challenge-said__how {
+  font: var(--type-caption);
+  color: var(--text-3);
+}
+
+/* The microphone orb beside the answer field. */
+.sb-answer__mic {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--tap-min);
+  min-height: var(--tap-min);
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--r-pill);
+}
+
+.sb-answer__mic[data-listening="true"] {
+  background: var(--brand-soft);
+}
+
 .challenge-end__actions {
   display: flex;
   flex-direction: column;
