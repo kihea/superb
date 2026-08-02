@@ -86,21 +86,25 @@ describe("band words are filtered and ordered by difficulty", () => {
   });
 });
 
-describe("the band-word path does not schedule against a candidate record", () => {
-  // Item 5b's tripwire, held at the new consumer rather than only at
-  // rankCandidates (tests/candidates-ranking.test.ts holds that one). The
-  // guarantee here is structural and is worth stating as an assertion rather
-  // than as a comment: bandWordsFor's inputs are the slot lexicon and the
-  // difficulty table. Neither carries a sourced excerpt's `words`, so no
-  // corpus claim can reach a scheduling decision through this path.
-  test("the answer depends only on the lexicon and the table, so no corpus content can reach it", () => {
-    // Every word the real corpus claims to teach, offered as a population.
-    // If the band ever consulted a record, these would have to appear.
+describe("the corpus's own words can enter the band", () => {
+  // The reverse of the tripwire this test used to hold. For a long time the
+  // difficulty table only knew the slot lexicon, so the corpus's three and a
+  // half thousand target words could never be met for the first time. The
+  // table now covers them by design, and candidatesFor's population includes
+  // them -- so a corpus word inside the window belongs in the answer.
+  test("a corpus target word with a difficulty row inside the window is served", () => {
     const corpusClaims = ["ineffable", "inscrutable", "shook", "diamonds"];
-    const withCorpusWords = bandWordsFor([...allWords, ...corpusClaims], table, BAND_LOW, BAND_HIGH);
-    const withoutCorpusWords = bandWordsFor(allWords, table, BAND_LOW, BAND_HIGH);
-    // A corpus word only ever enters if the *table* knows it, and the table
-    // is keyed on the slot lexicon -- not on any excerpt's claims.
-    expect(withCorpusWords).toEqual(withoutCorpusWords);
+    const known = corpusClaims.filter((word) => table[word] !== undefined);
+    expect(known.length).toBeGreaterThan(0);
+    const hardest = Math.max(...Object.values(table));
+    const softest = Math.min(...Object.values(table));
+    const band = bandWordsFor([...allWords, ...corpusClaims], table, softest, hardest);
+    for (const word of known) expect(band).toContain(word);
+  });
+
+  test("offering the same word twice serves it once", () => {
+    const band = bandWordsFor([...allWords, "shook", "shook"], table, BAND_LOW, BAND_HIGH);
+    const counts = band.filter((word) => word === "shook").length;
+    expect(counts).toBeLessThanOrEqual(1);
   });
 });

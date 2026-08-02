@@ -133,7 +133,7 @@ export function bandWordsFor(
   bandLow: number,
   bandHigh: number,
 ): string[] {
-  return words
+  return [...new Set(words)]
     .filter((word) => {
       const difficulty = table[word];
       return difficulty !== undefined && difficulty >= bandLow && difficulty <= bandHigh;
@@ -289,9 +289,22 @@ export async function candidatesFor(
   ]);
   const ranked = rankCandidates([...map.values()], exclude);
 
+  // The band's population is everything the app can actually serve in
+  // context: the slot lexicon (composed passages can place these), plus
+  // every word the sourced corpus claims to teach (its own excerpts serve
+  // those). For a long time this list was the lexicon alone, which meant
+  // the corpus's three and a half thousand target words could never be
+  // met for the first time -- the difficulty table knew nothing about
+  // them, and neither did this population.
+  const population = new Set(words);
+  for (const record of map.values()) {
+    if (record.pool !== "sourced") continue;
+    for (const target of record.words) population.add(target.word);
+  }
+
   return {
     candidates: ranked.map(toCandidate),
     wordClasses,
-    bandWords: bandWordsFor(words, table, bandLow, bandHigh),
+    bandWords: bandWordsFor([...population], table, bandLow, bandHigh),
   };
 }
