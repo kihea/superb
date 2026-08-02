@@ -3,9 +3,14 @@
 // the grouping is lossless: the sentences put back together are the
 // passage, character for character. A splitter that swallows a comma is a
 // passage the reader cannot trust.
+import { readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { describe, expect, test } from "vitest";
 import { groupIntoSentences, tokenize } from "../src/content/render";
-import { wholeBookParts } from "../src/v0mock";
+
+const here = dirname(fileURLToPath(import.meta.url));
+const contentRoot = join(here, "..", "..", "..", "content");
 
 // The passage the app actually opens on, with its slots filled -- the exact
 // string a reader sees at `/`. It is here because the first version of this
@@ -51,7 +56,16 @@ describe("groupIntoSentences", () => {
   });
 
   test("is lossless on every block of real book text we render", () => {
-    const blocks = Object.values(wholeBookParts).flatMap((part) => part.blocks.flat());
+    // The vendored catalogue artifact: the same Dracula the reading room
+    // serves locally, every block of it, not a hand-picked excerpt.
+    const lock = JSON.parse(readFileSync(join(contentRoot, "catalogue.lock.json"), "utf-8"));
+    const artifact = JSON.parse(
+      readFileSync(join(contentRoot, lock.vendored_path.replace(/^content\//, "")), "utf-8"),
+    );
+    const dracula = artifact.books.find((b: { id: string }) => b.id === "bram-stoker_dracula");
+    const blocks: string[] = dracula.parts.flatMap((part: { blocks: { text: string }[] }) =>
+      part.blocks.map((block) => block.text),
+    );
     expect(blocks.length).toBeGreaterThan(5);
     for (const block of blocks) {
       expect(rejoin(block)).toBe(block);
