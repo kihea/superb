@@ -31,7 +31,13 @@ export default defineConfig({
         // BASE prefix so it resolves when the app is assembled at /read/.
         background_color: "#F6EFE4",
         theme_color: "#F6EFE4",
-        icons: [{ src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" }],
+        icons: [
+          { src: `${BASE}icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" },
+          { src: `${BASE}icon-192.png`, sizes: "192x192", type: "image/png", purpose: "any" },
+          // Android's installer and the Play build both want a raster 512.
+          { src: `${BASE}icon-512.png`, sizes: "512x512", type: "image/png", purpose: "any" },
+          { src: `${BASE}icon-512.png`, sizes: "512x512", type: "image/png", purpose: "maskable" },
+        ],
       },
       workbox: {
         // The app shell and self-hosted fonts are small and stable --

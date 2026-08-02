@@ -1,0 +1,33 @@
+// The Android app is the web app, installed: a Trusted Web Activity that
+// opens https://superb.works/read/ full screen, with the same offline
+// behaviour the installed web app already has. One dependency, no
+// duplicated product code.
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "works.superb.app"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "works.superb.app"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt")
+            // Signing is the owner's step: set a signingConfig here (or
+            // sign the bundle in CI) before a Play upload. See ../README.md.
+        }
+    }
+}
+
+dependencies {
+    implementation "com.google.androidbrowserhelper:androidbrowserhelper:2.5.0"
+}

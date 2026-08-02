@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Superb</string>
+    <!-- Points at the site's own statement that this app and that origin
+         belong to each other. The matching half lives at
+         https://superb.works/.well-known/assetlinks.json and carries the
+         release key's SHA-256 fingerprint. -->
+    <string name="asset_statements">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://superb.works\"
+            }
+        }]
+    </string>
+</resources>
