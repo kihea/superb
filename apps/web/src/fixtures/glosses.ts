@@ -1,11 +1,11 @@
-// Mock gloss content. Real dictionary entries -- plain-language definitions
-// rewritten from a source, panel-reviewed, and shipped -- are a data
-// pipeline job (data/pipeline/glosses.py, ADR-012's review gate) that has
-// not produced output yet. This file is hand-written coverage for the
-// words this mock's curated opening rotation and default candidate pool
-// actually use, so the gloss interaction can be judged on real prose
-// rather than "lorem definition". It is fixture data, not content --
-// deleted with the mock the day the real binding and real glossary land.
+// The prose game's curated glosses: hand-written, plain-language entries
+// for the words the composed passages most often steer through (the
+// curated opening rotation and the default candidate pool). The word card
+// prefers these over the mechanical dictionary cut in
+// content/glosses/prose.json -- a raw first-sense Wiktionary gloss can
+// land on the wrong reading of a word ("weathered" the verb's past, not
+// the noun "weather"), and these were written for the exact sense the
+// passages use. The table covers everything beyond this list.
 //
 // Each entry: a plain definition (gloss-interaction.md -- no genus-species
 // formality, no part-of-speech tags), then one sentence using the word in a
@@ -112,12 +112,8 @@ export const glosses: Record<string, GlossEntry> = {
   hapless: { definition: "Unlucky, especially in a way that invites pity.", elsewhere: "The hapless intern had to explain the error to the whole board." },
 };
 
-export function glossFor(word: string): GlossEntry {
-  const key = word.toLowerCase();
-  const found = glosses[key];
-  if (found) return found;
-  return {
-    definition: "A word from the passage (preview definition not curated for this build).",
-    elsewhere: "This mock does not have a second sentence for it yet.",
-  };
+/** The curated entry for a word, or undefined -- the caller decides what a
+ *  miss falls back to (the dictionary table, then honest words). */
+export function glossFor(word: string): GlossEntry | undefined {
+  return glosses[word.toLowerCase()];
 }

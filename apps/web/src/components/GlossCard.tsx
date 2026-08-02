@@ -1,12 +1,20 @@
-// The seam crossing (ADR-019): the one object that has to read as belonging
-// to the reading it arrived out of and to the register everything else in
-// the app speaks. Its content surface stays the passage's own paper --
-// definitions are read the same way the passage is -- and only its outer
-// edge answers to the register underneath it.
+// The word card inside the prose game: the one object that has to read as
+// belonging to the reading it arrived out of and to the room everything
+// else in the app speaks. Its content surface stays the passage's own
+// paper -- definitions are read the same way the passage is.
+//
+// Meanings resolve in order of care: the curated entries first
+// (fixtures/glosses.ts, hand-written for the exact sense the passages
+// use, and the only source of the "elsewhere" example line), then the
+// prose gloss table (the dictionary cut over the slot lexicon and the
+// corpus's target words), then an honest line saying the glossary does
+// not have this one. Only a curated or table meaning is worth keeping;
+// a miss keeps the word alone.
 import "./GlossCard.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { glossFor } from "../fixtures/glosses";
+import { loadProseGlosses, type BookGlossEntry } from "../content/glosses";
 import { KeepButton } from "./KeepButton";
 import { keepWord } from "../reading/words";
 
@@ -15,9 +23,31 @@ export interface GlossCardProps {
   onDismiss: () => void;
 }
 
+let proseTable: Record<string, BookGlossEntry> | null = null;
+
 export function GlossCard({ word, onDismiss }: GlossCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
-  const entry = glossFor(word);
+  const [table, setTable] = useState(proseTable);
+
+  useEffect(() => {
+    if (proseTable) return;
+    loadProseGlosses()
+      .then((loaded) => {
+        proseTable = loaded;
+        setTable(loaded);
+      })
+      .catch(() => {
+        // The curated entries below still answer.
+      });
+  }, []);
+
+  const curated = glossFor(word);
+  const fromTable = table?.[word.toLowerCase()];
+  const meaning = curated?.definition ?? fromTable?.definition;
+  // The same sentence content/glosses.ts's glossFor uses for a book-table
+  // miss -- one voice for "no entry" everywhere a card can say it.
+  const definition = meaning ?? "This word doesn't have a meaning saved yet.";
+  const elsewhere = curated?.elsewhere;
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -49,8 +79,8 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
             rather than stacked above a sheet -- hence the wrapper. */}
         <div className="gloss-card__text">
           <p className="gloss-word">{word}</p>
-          <p className="gloss-definition">{entry.definition}</p>
-          <p className="gloss-elsewhere">{entry.elsewhere}</p>
+          <p className="gloss-definition">{definition}</p>
+          {elsewhere && <p className="gloss-elsewhere">{elsewhere}</p>}
         </div>
         {/* "Keep" is how the reader closes this card -- there is no reject
            gesture. The scatter runs first and the card follows it into
@@ -59,7 +89,7 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
           <KeepButton
             onKeep={() => {
               void keepWord(
-                { word, definition: entry.definition, source: "prose" },
+                { word, definition: meaning ?? "", source: "prose" },
                 Date.now(),
               ).catch(() => {});
             }}

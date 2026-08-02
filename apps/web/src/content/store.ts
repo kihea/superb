@@ -177,11 +177,11 @@ export async function topicsFor(id: string): Promise<string[]> {
   return record ? topicsOf(record) : [];
 }
 
-// This mock's fixture glosses (src/fixtures/glosses.ts) were hand-written
-// for these ids first, so a fresh session sees fully-glossed content before
-// it ever reaches the long tail where a gloss tap falls back to a generic
-// line. This is a rotation preference, not invented content -- every id
-// below is a real, unaltered passage or excerpt already on disk.
+// The curated glosses (src/fixtures/glosses.ts) were hand-written for
+// these ids first, so a fresh session sees fully-curated content before
+// it ever reaches the long tail where a gloss tap falls back to the raw
+// dictionary table. This is a rotation preference, not invented content --
+// every id below is a real, unaltered passage or excerpt already on disk.
 const CURATED_FIRST = [
   "comp-harbour-dawn",
   "comp-harbour-departure",

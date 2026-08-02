@@ -8,9 +8,9 @@
 // table is meant to pass before it ships widely. Attribution lives in
 // Settings -> About (ADR-008).
 //
-// Deliberately not `content/store.ts`'s `glossFor` -- that one is
-// `fixtures/glosses.ts`, hand-written mock coverage for the composed-
-// passage reading loop, and this slice does not touch that loop at all
+// Deliberately not `fixtures/glosses.ts`'s `glossFor` -- that one is the
+// hand-written curated coverage for the composed-passage reading loop,
+// and this slice does not touch that loop at all
 // (ADR-031: book encounters are a separate, unscheduled path). Keeping this
 // a separate module means neither reading surface can accidentally read the
 // other's data by a stray import.
@@ -72,6 +72,17 @@ export async function loadChallengeGlosses(): Promise<Record<string, BookGlossEn
   const table = await fetchJson<Record<string, BookGlossEntry>>(
     contentUrl("challenges/glosses.json"),
   );
+  tables.set(key, table);
+  return table;
+}
+
+/** The composed-prose table: the slot lexicon and the corpus's target
+ *  words, for the word card inside the prose game. */
+export async function loadProseGlosses(): Promise<Record<string, BookGlossEntry>> {
+  const key = "__prose__";
+  const cached = tables.get(key);
+  if (cached) return cached;
+  const table = await fetchJson<Record<string, BookGlossEntry>>(contentUrl("glosses/prose.json"));
   tables.set(key, table);
   return table;
 }

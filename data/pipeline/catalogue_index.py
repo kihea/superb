@@ -280,6 +280,7 @@ def write(index: dict) -> Path:
     OUT_PATH.write_text(
         json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
+        newline="\n",
     )
     return OUT_PATH
 
