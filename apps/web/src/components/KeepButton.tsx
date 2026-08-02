@@ -4,7 +4,15 @@
 import { useState } from "react";
 import { PixelScatter } from "./chrome/PixelScatter";
 
-export function KeepButton({ onKept }: { onKept: () => void }) {
+export interface KeepButtonProps {
+  /** Fired at the moment of the click -- the write. Never made to wait for
+   *  an animation. */
+  onKeep: () => void;
+  /** Fired once the scatter settles -- the dismissal. */
+  onKept: () => void;
+}
+
+export function KeepButton({ onKeep, onKept }: KeepButtonProps) {
   const [kept, setKept] = useState(false);
   const [burst, setBurst] = useState(false);
 
@@ -12,6 +20,7 @@ export function KeepButton({ onKept }: { onKept: () => void }) {
     if (kept) return;
     setKept(true);
     setBurst(true);
+    onKeep();
   }
 
   return (

@@ -27,14 +27,13 @@ export function BookGlossCard({ word, entry, bookId, context, onDismiss }: BookG
     return () => window.removeEventListener("keydown", onKey);
   }, [onDismiss]);
 
-  function handleKept() {
+  function handleKeep() {
     void keepWord(
       { word, definition: entry.definition, source: bookId, context },
       Date.now(),
     ).catch(() => {
       // Storage failing must not trap the reader in the card.
     });
-    onDismiss();
   }
 
   // Portalled for the same reason GlossCard.tsx is (see its comment): an
@@ -48,7 +47,7 @@ export function BookGlossCard({ word, entry, bookId, context, onDismiss }: BookG
           <p className="gloss-definition">{entry.definition}</p>
         </div>
         <div className="gloss-keep-row">
-          <KeepButton onKept={handleKept} />
+          <KeepButton onKeep={handleKeep} onKept={onDismiss} />
         </div>
         <span className="gloss-beam" aria-hidden="true" />
       </div>

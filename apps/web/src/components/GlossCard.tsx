@@ -57,13 +57,13 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
            stillness once it finishes. */}
         <div className="gloss-keep-row">
           <KeepButton
-            onKept={() => {
+            onKeep={() => {
               void keepWord(
                 { word, definition: entry.definition, source: "prose" },
                 Date.now(),
               ).catch(() => {});
-              onDismiss();
             }}
+            onKept={onDismiss}
           />
         </div>
         {/* A one-shot light run around the edge as the card lands --
