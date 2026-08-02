@@ -1,0 +1,11 @@
+.prose-door {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+  margin-top: var(--sp-10);
+  max-width: 44ch;
+}
+
+.prose-door .sb-button {
+  margin-top: var(--sp-4);
+}

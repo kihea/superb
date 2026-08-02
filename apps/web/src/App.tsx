@@ -4,8 +4,8 @@ import { Router } from "./router/router";
 import { matchRoute, usePath } from "./router/context";
 import { useTheme } from "./theme/theme";
 import { useMotion } from "./theme/motion";
-import { ReadingScreen } from "./components/ReadingScreen";
 import { FirstOpen } from "./screens/FirstOpen";
+import { Prose } from "./screens/Prose";
 import { Shelf } from "./screens/Shelf";
 import { Library } from "./screens/Library";
 import { BookCover } from "./screens/BookCover";
@@ -36,7 +36,7 @@ function Screens() {
     case "/play":
       return <Play />;
     case "/play/prose":
-      return <ReadingScreen />;
+      return <Prose />;
     case "/play/rhyme":
       return <Rhyme />;
     case "/play/association":

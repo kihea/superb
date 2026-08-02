@@ -28,16 +28,25 @@ import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { PixelBreak } from "./chrome/PixelBreak";
 import { VoiceOrb } from "./voice/VoiceOrb";
-import type { OrbState } from "./voice/VoiceOrb";
 import { Link } from "../router/router";
 import { useState } from "react";
+import { useReadAloud } from "../voice/readAloud";
+import { fillTemplate } from "../content/render";
 
 export function ReadingScreen() {
   const session = useEngineSession();
   const [breaking, setBreaking] = useState(false);
-  // 2b: asking to be read to gives you two words, not a player. Still until
-  // the reader touches it -- see VoiceOrb's own header.
-  const [voice, setVoice] = useState<OrbState>("still");
+
+  // Asking to be read to gives you two words, not a player: the orb, and
+  // the passage read from the top by the device's own voice.
+  const passageText =
+    session.status === "ready" && session.record && session.passage
+      ? session.record.pool === "composed"
+        ? fillTemplate(session.record.text, session.passage.fills)
+        : session.record.text
+      : "";
+  const voice = useReadAloud(passageText ? [passageText] : []);
+  const speaking = voice.state === "speaking";
 
   // ADR-036's B4 lives here, not inside PassagePage's own "Keep reading"
   // button: that button unmounts the instant `session.finish` swaps the
@@ -75,30 +84,21 @@ export function ReadingScreen() {
          pointing at anything. */}
       {/* 3a's top row: one word out, one thing to press. Nothing else. */}
       <header className="reading-top">
-        <Link to="/" className="reading-top__out">
-          Shelf
+        <Link to="/play" className="reading-top__out">
+          Play
         </Link>
-        <button
-          type="button"
-          className="voice-orb-button"
-          data-listening={voice === "listening"}
-          data-speaking={voice === "speaking"}
-          aria-label={voice === "still" ? "Read this to me" : "Stop"}
-          onClick={() => setVoice((state) => (state === "still" ? "listening" : "still"))}
-        >
-          <VoiceOrb state={voice} size={voice === "still" ? 22 : 26} />
-        </button>
+        {voice.supported && (
+          <button
+            type="button"
+            className="voice-orb-button"
+            data-speaking={speaking}
+            aria-label={speaking ? "Stop" : "Read this to me"}
+            onClick={() => (speaking ? voice.stop() : voice.start(0))}
+          >
+            <VoiceOrb state={speaking ? "speaking" : "still"} size={speaking ? 26 : 22} />
+          </button>
+        )}
       </header>
-      {voice === "listening" && (
-        <div className="reading-voice sb-fade">
-          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
-            from here
-          </button>
-          <button type="button" className="reading-voice__from" onClick={() => setVoice("speaking")}>
-            from the chapter
-          </button>
-        </div>
-      )}
       <div className="reading-page">
         {session.status === "loading" && (
           <p className="reading-status" data-text="Finding something to read.">
