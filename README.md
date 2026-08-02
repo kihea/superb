@@ -98,10 +98,12 @@ claims the infrastructure that serves the content, not the content itself.
 ours, even though our scripts produced them — running a dataset through a script
 of ours does not make the result ours. Two live cases:
 `content/difficulty.json`, whose numbers come from Robyn Speer's `wordfreq` and
-which travels with the credit that list requires; and the rewritten glosses,
-which start from Wiktionary and so carry its credit and its
-pass-on-the-same-freedom terms — `content/glosses/bram-stoker_dracula.json` is
-the first one that ships.
+which travels with the credit that list requires; and the gloss tables, which
+start from Wiktionary and so carry its credit and its pass-on-the-same-freedom
+terms — the per-book tables under `content/glosses/`, the games' table
+`content/challenges/glosses.json`, and the composed-prose table
+`content/glosses/prose.json`. The rhyme and association data carry CMUdict's
+and WordNet's notices the same way.
 
 **Not authored here at all** — the text inside cited excerpts, and the books in
 the [library](https://github.com/superb-catalogue/library). Each keeps whatever

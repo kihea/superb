@@ -176,11 +176,13 @@ work it came from. It splits three ways.
 - **What you write from nothing** — a passage, a slot class — is CC0,
   dedicated to the public domain. Attribution is encouraged and never required.
 - **What you build from somebody else's work** carries that work's terms, even
-  though you did the building. A gloss rewritten from a Wiktionary entry is the
-  case you are most likely to hit: it keeps Wiktionary's credit and its
-  pass-on-the-same-freedom terms — `content/glosses/bram-stoker_dracula.json`
-  is the first shipped one. `content/difficulty.json` is the same shape —
-  our script builds it, and it travels with the credit its source list requires.
+  though you did the building. A gloss from a Wiktionary entry is the case you
+  are most likely to hit: it keeps Wiktionary's credit and its
+  pass-on-the-same-freedom terms — the per-book tables under
+  `content/glosses/`, the games' `content/challenges/glosses.json`, and the
+  composed-prose `content/glosses/prose.json` all ship that way.
+  `content/difficulty.json` is the same shape — our script builds it, and it
+  travels with the credit its source list requires.
 - **The text you bring**, like the words inside an excerpt you cite or a book
   added to the library, keeps whatever terms it arrived under. Your
   contribution is finding it, quoting it exactly, citing it so a stranger can
