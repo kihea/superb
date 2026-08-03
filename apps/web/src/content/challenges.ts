@@ -67,6 +67,32 @@ function sameStem(a: string, b: string): boolean {
   return sa === sb || sa.startsWith(sb) || sb.startsWith(sa);
 }
 
+// The rime key's own anatomy, for the near-rhyme rules rhymes.py documents
+// ("everything a client needs to judge is derivable from the rimeKey"):
+// the ending is the tail from the key's last vowel, the coda the consonants
+// after it. "AA-L-OW" ends on "OW" with an empty coda; "AA-F-T" ends on
+// "AA-F-T" with coda "F-T".
+const RIME_VOWELS = new Set([
+  "AA", "AE", "AH", "AO", "AW", "AY", "EH", "ER", "EY", "IH", "IY", "OW", "OY", "UH", "UW",
+]);
+
+function lastVowelIndex(parts: string[]): number {
+  for (let i = parts.length - 1; i >= 0; i -= 1) {
+    if (RIME_VOWELS.has(parts[i])) return i;
+  }
+  return 0;
+}
+
+function endingOf(rime: string): string {
+  const parts = rime.split("-");
+  return parts.slice(lastVowelIndex(parts)).join("-");
+}
+
+function codaOf(rime: string): string {
+  const parts = rime.split("-");
+  return parts.slice(lastVowelIndex(parts) + 1).join("-");
+}
+
 export function judgeRhyme(prompt: string, answer: string, prons: Pronunciations): RhymeJudgement {
   const word = answer.toLowerCase().trim();
   if (!word) return "unknown";
@@ -76,7 +102,12 @@ export function judgeRhyme(prompt: string, answer: string, prons: Pronunciations
   const a = prons[word];
   if (!p || !a) return "unknown";
   if (p[0] === a[0]) return "exact";
+  // The same near-rhyme net the reveal is built with (rhymes.py): same
+  // vowel, same ending from the last vowel, or same non-empty coda.
   if (p[1] === a[1]) return "near";
+  if (endingOf(p[0]) === endingOf(a[0])) return "near";
+  const coda = codaOf(p[0]);
+  if (coda && coda === codaOf(a[0])) return "near";
   return "none";
 }
 
@@ -102,11 +133,19 @@ export function describeRhyme(prompt: string, word: string, prons: Pronunciation
   const a = prons[word.toLowerCase()];
   if (!p || !a) return null;
   if (p[0] === a[0]) {
-    const sound = p[0].split(" ").map(soundOf).join("·");
+    const sound = p[0].split("-").map(soundOf).join("·");
     return `rings on “${sound}”`;
   }
   if (p[1] === a[1]) {
     return `shares the “${soundOf(p[1])}” sound, lands differently`;
+  }
+  if (endingOf(p[0]) === endingOf(a[0])) {
+    const sound = endingOf(p[0]).split("-").map(soundOf).join("·");
+    return `lands on “${sound}”, starts elsewhere`;
+  }
+  const coda = codaOf(p[0]);
+  if (coda && coda === codaOf(a[0])) {
+    return `ends on the same “${coda.split("-").map(soundOf).join("·")}”`;
   }
   return null;
 }

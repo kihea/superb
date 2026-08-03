@@ -49,8 +49,10 @@ function Spine({
 }
 
 /** "IV" and "12" become "Chapter IV" / "Chapter 12"; a label with its own
- *  words ("Canto the First") stands as written. */
-function placeName(label: string): string {
+ *  words ("Canto the First") stands as written; an edition that left the
+ *  chapter unlabelled gets a plain answer instead of a crash. */
+function placeName(label: string | null | undefined): string {
+  if (!label || !label.trim()) return "Where you left off";
   return /^[IVXLC0-9]+$/i.test(label.trim()) ? `Chapter ${label}` : label;
 }
 

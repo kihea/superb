@@ -458,13 +458,19 @@ a.sb-quiet {
 
 /* Fixed, not sticky: .sb-screen clips horizontal overflow, and any
    overflow on an ancestor quietly turns sticky into plain flow. The
-   screen reserves the bars' room with padding instead (below). */
+   screen reserves the bar's room with padding instead (below).
+
+   ONE bar shows at a time: the bottom row on a phone, where thumbs live,
+   and the top row on a wide screen, where a site header belongs. Both are
+   in the DOM so the switch is pure CSS; two bars at once was never the
+   point. */
 .sb-tabbar--top {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   border-bottom: 1px solid var(--border-1);
+  display: none;
 }
 
 .sb-tabbar--bottom {
@@ -476,10 +482,24 @@ a.sb-quiet {
   border-top: 1px solid var(--border-1);
 }
 
-/* The room the two fixed bars occupy. */
+/* The room the fixed bar occupies. */
 .sb-screen--nav {
-  padding-top: 53px;
   padding-bottom: calc(60px + env(safe-area-inset-bottom));
+}
+
+@media (min-width: 45rem) {
+  .sb-tabbar--top {
+    display: flex;
+  }
+
+  .sb-tabbar--bottom {
+    display: none;
+  }
+
+  .sb-screen--nav {
+    padding-top: 53px;
+    padding-bottom: 0;
+  }
 }
 
 .sb-tabbar--top[data-hidden] {

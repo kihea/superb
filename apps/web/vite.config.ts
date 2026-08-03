@@ -18,7 +18,13 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      devOptions: { enabled: true },
+      // No service worker in dev: it cached content/*.json across content
+      // regenerations, so the browser showed yesterday's gloss tables while
+      // the files on disk were already right — the exact kind of silent lie
+      // that makes "build locally, look at it, fix it" impossible to trust.
+      // Offline behaviour is a property of the BUILT app and is checked
+      // there (scripts/check-offline.mjs), not through a dev-mode stand-in.
+      devOptions: { enabled: false },
       manifest: {
         name: "Superb",
         short_name: "Superb",

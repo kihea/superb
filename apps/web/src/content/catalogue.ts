@@ -38,12 +38,20 @@ interface CatalogueIndexFile {
   books: CatalogueIndexRow[];
 }
 
-/** The library repository's own book.json shape. */
+/** The library repository's own book.json shape. Blocks nest: a poem is a
+ *  container whose stanzas and lines are children, a play's dialogue can
+ *  live in table rows. Text sits wherever the edition put it. */
+interface LibraryBlock {
+  type: string;
+  text?: string;
+  blocks?: LibraryBlock[];
+}
+
 interface LibraryBook {
   title: string;
   author: string;
   language: string;
-  chapters: { label: string; types: string[]; blocks: { type: string; text: string }[] }[];
+  chapters: { label: string; types: string[]; blocks: LibraryBlock[] }[];
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
@@ -114,13 +122,35 @@ async function loadArtifact(): Promise<CatalogueArtifact | null> {
   }
 }
 
+// Depth-first: every block that carries text is a reading block, wherever
+// the edition nested it. Keeping only the top level rendered dramas and
+// poetry collections as blank pages — Agamemnon's whole dialogue lives in
+// a table's rows, Bierce's poems inside poem/part containers — because
+// their text is all children. This mirrors the walk the gloss pipeline
+// already does (data/pipeline/book_glosses.py's iter_texts), so what the
+// reader sees and what the tables cover are the same text again.
+function flattenBlocks(blocks: LibraryBlock[], out: { type: string; text: string }[]): void {
+  for (const block of blocks) {
+    if (typeof block.text === "string" && block.text.length > 0) {
+      // A cell that is only a number is the edition's own line-numbering
+      // apparatus (verse dramas carry one every few lines), not reading.
+      if (!/^\d+$/.test(block.text.trim())) {
+        out.push({ type: block.type, text: block.text });
+      }
+    }
+    if (block.blocks && block.blocks.length > 0) flattenBlocks(block.blocks, out);
+  }
+}
+
 function partsFromLibrary(book: LibraryBook): CataloguePart[] {
-  return book.chapters.map((chapter, i) => ({
-    index: i,
-    label: chapter.label,
-    heading: [],
-    blocks: chapter.blocks.filter((b) => typeof b.text === "string" && b.text.length > 0),
-  }));
+  return book.chapters.map((chapter, i) => {
+    const blocks: { type: string; text: string }[] = [];
+    flattenBlocks(chapter.blocks, blocks);
+    // Some editions leave a chapter unlabelled (null in book.json); the
+    // type says string, so make it one here rather than letting the null
+    // surface as a crash in whatever screen prints the label.
+    return { index: i, label: chapter.label ?? "", heading: [], blocks };
+  });
 }
 
 /** The whole book, ready to read. */
