@@ -291,6 +291,14 @@ pub fn plan(learner: &LearnerState, request: &Request, now: Timestamp, tuning: &
         }) => Needs::ItemDifficulty {
             item_id: item_id.clone(),
         },
+        // A gloss tap moves θ too (the reading loop's grace-weighted
+        // negative evidence), and an observation needs the tapped word's
+        // place on the scale. A host that cannot answer — a word outside
+        // the difficulty table — answers Nothing, and the tap still does
+        // all its per-word scheduling work in `decide`.
+        Request::ProcessEvent(Event::GlossTap { word, .. }) => Needs::ItemDifficulty {
+            item_id: word.clone(),
+        },
         Request::ProcessEvent(
             Event::PassageFinished { passage, .. } | Event::PassageAbandoned { passage, .. },
         ) => Needs::PassageTopics {
@@ -384,6 +392,17 @@ pub fn decide(
             // also feed the progression thresholds `advance_progression`
             // reads (BRIEF-013 round 3).
             log_context(learner, &word, &passage, false, &mut effects);
+
+            // The tap also moves θ — grace-weighted (reading_tap_weight),
+            // and only when the host could say where the word sits on the
+            // scale. The grace is partly the weight and partly the response
+            // model itself: tapping a word far above the reader's ability
+            // was already expected (residual near zero), so it barely
+            // moves the estimate; tapping an easy word is real evidence
+            // the composition overshot, and moves it more.
+            if let Frame::ItemDifficulty { difficulty } = frame {
+                nudge_theta(learner, difficulty, false, tuning.reading_tap_weight, ctx, &mut effects);
+            }
         }
 
         Event::ProbeResult {
@@ -440,6 +459,23 @@ pub fn decide(
                 log_context(learner, word, &passage, true, &mut effects);
                 advance_progression(learner, word, tuning, &mut effects);
             }
+            // A passage read to the end also moves θ up, a little — one
+            // finish-weighted positive observation at the middle of the
+            // band the passage was composed in, which is the honest
+            // difficulty on record for the passage as a whole. This is the
+            // climb: keep finishing cleanly and the compositions reach
+            // further; tap, and the taps (each weighted heavier than one
+            // finish) pull the reach back.
+            let band_mid =
+                learner.theta(tuning) + (tuning.band_low + tuning.band_high) / 2.0;
+            nudge_theta(
+                learner,
+                band_mid,
+                true,
+                tuning.reading_finish_weight,
+                ctx,
+                &mut effects,
+            );
         }
 
         Event::PassageAbandoned {
@@ -686,6 +722,41 @@ fn maybe_probe_eligible(word: &str, tuning: &Tuning, effects: &mut Vec<Effect>) 
             word: word.to_string(),
         });
     }
+}
+
+/// One weighted real-word observation against θ — the reading loop's side
+/// door into the same recursion `decide_deck_swipe` runs, with the same
+/// raw-in, corrected-out discipline (`theta_raw` for the recursion, the
+/// corrected `theta` for the reported effect). The weight is a tuning
+/// constant already validated into (0, 1], and
+/// [`ability::update_theta_weighted`] clamps it again on principle.
+fn nudge_theta(
+    learner: &mut LearnerState,
+    difficulty: f64,
+    knew: bool,
+    weight: f64,
+    ctx: Ctx<'_>,
+    effects: &mut Vec<Effect>,
+) {
+    let update = ability::update_theta_weighted(
+        learner.theta_raw(),
+        learner.theta_information(),
+        difficulty,
+        knew,
+        false,
+        weight,
+        ctx.tuning,
+    );
+    learner
+        .set_theta_and_information(update.theta, update.theta_information, ctx.tuning)
+        .expect(
+            "update_theta_weighted always produces a theta and theta_information \
+             set_theta_and_information accepts",
+        );
+    effects.push(Effect::ThetaUpdated {
+        theta: learner.theta(ctx.tuning),
+        se: learner.theta_se(),
+    });
 }
 
 /// A `DeckSwipe`: first contact for a real word not yet in `learner.words`

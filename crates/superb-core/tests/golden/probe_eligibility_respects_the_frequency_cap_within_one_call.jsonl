@@ -14,3 +14,4 @@
 {"IntervalSet":{"word":"w4","due":1736121600000}}
 {"ContextFrameLogged":{"word":"w4","frame_id":"passage-quad"}}
 {"WordStateChanged":{"word":"w4","from":"LEARNING","to":"CONSOLIDATING"}}
+{"ThetaUpdated":{"theta":0.15354846244302162,"se":0.9648200362985887}}

@@ -105,6 +105,18 @@ pub struct Tuning {
     /// positive: this constant exists to buy a downward correction, and a
     /// non-positive value would buy nothing or the wrong sign.
     pub(crate) pseudoword_penalty: f64,
+    /// How much of a full observation a gloss tap mid-read counts for when
+    /// it moves θ — the grace: asking what a word means is honest evidence
+    /// the composition overshot, but it is one word in one sentence, so it
+    /// is weighted below a deliberate deck claim. In (0, 1].
+    pub(crate) reading_tap_weight: f64,
+    /// How much of a full observation a cleanly finished passage counts for
+    /// when it moves θ upward — the climb: a passage read to the end with
+    /// no taps is evidence the reader can carry this band, so the next one
+    /// may reach a little further. Strictly below `reading_tap_weight`:
+    /// finishing is common and tapping is an admission, so one tap must
+    /// outweigh one finish or difficulty only ever rises. In (0, 1].
+    pub(crate) reading_finish_weight: f64,
     /// How many due words waiting before the composer stops choosing for
     /// taste and starts choosing for coverage (ADR-015's backlog guard).
     pub(crate) backlog_override_due: u32,
@@ -382,6 +394,24 @@ impl Tuning {
             });
         }
 
+        // Both reading weights sit in (0, 1]: zero would silently disable
+        // the reading loop's whole contribution to θ, and above 1 a single
+        // mid-read signal would outweigh a deliberate deck claim. The tap
+        // must weigh strictly more than the finish (the doc comments on the
+        // fields say why: one admission outweighs one completion, or the
+        // climb never corrects).
+        let tap_weight_in_range = self.reading_tap_weight > 0.0 && self.reading_tap_weight <= 1.0;
+        let finish_weight_in_range =
+            self.reading_finish_weight > 0.0 && self.reading_finish_weight <= 1.0;
+        if !tap_weight_in_range || !finish_weight_in_range
+            || self.reading_finish_weight >= self.reading_tap_weight
+        {
+            return Err(TuningError::ReadingWeightsOutOfRange {
+                tap: self.reading_tap_weight,
+                finish: self.reading_finish_weight,
+            });
+        }
+
         if self.seed_slots_per_passage < 1 {
             return Err(TuningError::SeedSlotsPerPassageTooLow {
                 value: self.seed_slots_per_passage,
@@ -538,6 +568,9 @@ pub enum TuningError {
     /// `encounter_target_min` was greater than `encounter_target_max`,
     /// inverting the range `encounter_target` is checked against.
     EncounterTargetRangeInverted { min: u32, max: u32 },
+    /// One of the reading weights left (0, 1], or the finish weight was not
+    /// strictly below the tap weight.
+    ReadingWeightsOutOfRange { tap: f64, finish: f64 },
     /// `consolidating_threshold` was not strictly less than `encounter_target`.
     ConsolidatingThresholdNotBelowEncounterTarget {
         consolidating_threshold: u32,
@@ -611,6 +644,13 @@ impl fmt::Display for TuningError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             TuningError::Parse(message) => write!(f, "tuning.toml does not parse: {message}"),
+            TuningError::ReadingWeightsOutOfRange { tap, finish } => {
+                write!(
+                    f,
+                    "reading weights (tap {tap}, finish {finish}) must sit in (0, 1] with \
+                     finish strictly below tap"
+                )
+            }
             TuningError::EncounterTargetOutOfRange { target, min, max } => {
                 write!(f, "encounter_target {target} is outside [{min}, {max}]")
             }
@@ -756,6 +796,8 @@ mod tests {
         theta_max = 4.0
         theta_prior_information = 1.0
         pseudoword_penalty = 0.3
+        reading_tap_weight = 0.5
+        reading_finish_weight = 0.3
         backlog_override_due = 40
         backlog_override_age_days = 7
         dwell_anomaly_z = 2.0

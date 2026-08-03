@@ -105,6 +105,21 @@ theta_prior_information = 1.0
 # their estimate corrected downward instead of flattered.
 pseudoword_penalty = 0.3
 
+# --- Reading as evidence: prose difficulty follows the reader ---
+
+# How much of a full observation a gloss tap mid-read counts for when it
+# moves θ down. The grace: one tap is one word in one sentence, so it is
+# weighted below a deliberate deck claim — but it is still an admission,
+# and it must outweigh a finish (below) or difficulty only ever climbs.
+reading_tap_weight = 0.5
+
+# How much of a full observation a cleanly finished passage counts for when
+# it moves θ up. The climb: a passage read to the end is quiet evidence the
+# reader can carry this band, so the next passage may reach further. Kept
+# below reading_tap_weight so a session of honest taps still lowers the
+# reach — always opting to challenge, never refusing to listen.
+reading_finish_weight = 0.3
+
 # --- Backlog override (ADR-015): when coverage must beat taste ---
 
 # How many due words waiting before the composer stops choosing for taste

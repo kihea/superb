@@ -207,6 +207,32 @@ pub fn update_theta(
     is_pseudoword: bool,
     tuning: &Tuning,
 ) -> ThetaUpdate {
+    update_theta_weighted(theta, theta_information, difficulty, knew, is_pseudoword, 1.0, tuning)
+}
+
+/// [`update_theta`] with a fractional observation weight — the reading
+/// loop's evidence (a gloss tap, a finished passage) arrives through here.
+///
+/// A weighted Bernoulli observation is standard weighted likelihood: the
+/// score *and* the observation's Fisher information both scale by `weight`,
+/// so a half-weight observation moves θ less **and** claims less certainty
+/// — the two can never disagree about how much evidence arrived, which is
+/// the invariant this module was rebuilt around (BRIEF-014 round 3). At
+/// `weight = 1.0` this is exactly the unweighted update.
+///
+/// `weight` is clamped to [0, 1]: the callers pass tuning constants
+/// validation already bounds, and a corrupted value collapses to a bound
+/// rather than letting one observation outweigh a deliberate claim.
+pub fn update_theta_weighted(
+    theta: f64,
+    theta_information: f64,
+    difficulty: f64,
+    knew: bool,
+    is_pseudoword: bool,
+    weight: f64,
+    tuning: &Tuning,
+) -> ThetaUpdate {
+    let weight = if weight.is_finite() { weight.max(0.0).min(1.0) } else { 1.0 };
     let sanitized_information = if theta_information.is_finite() && theta_information > 0.0 {
         theta_information
     } else {
@@ -244,8 +270,8 @@ pub fn update_theta(
     } else {
         let claim = if knew { 1.0 } else { 0.0 };
         let expected = response_probability(theta, difficulty);
-        let score = claim - expected;
-        let information = (expected * (1.0 - expected)).max(0.0);
+        let score = weight * (claim - expected);
+        let information = weight * (expected * (1.0 - expected)).max(0.0);
         // Fisher scoring: the step is the score divided by the total
         // information the observation itself is about to bring the
         // estimate to — the same total `theta_se` below is derived from,
