@@ -26,7 +26,7 @@ export interface PassagePageProps {
 }
 
 export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePageProps) {
-  const [activeWord, setActiveWord] = useState<string | null>(null);
+  const [activeWord, setActiveWord] = useState<{ word: string; context: string } | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [nearEnd, setNearEnd] = useState(false);
 
@@ -92,9 +92,9 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
 
   useEffect(() => () => window.clearTimeout(holdTimer.current), []);
 
-  function handleTap(word: string, position: number) {
+  function handleTap(word: string, position: number, context: string) {
     if (holdFired.current) return;
-    setActiveWord((current) => (current === word ? null : word));
+    setActiveWord((current) => (current?.word === word ? null : { word, context }));
     onWordTap(word, position);
   }
 
@@ -133,7 +133,7 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
                   key={i}
                   type="button"
                   className="passage-word"
-                  onClick={() => handleTap(token.text, token.position)}
+                  onClick={() => handleTap(token.text, token.position, sentenceText(sentence))}
                 >
                   {token.text}
                 </button>
@@ -211,7 +211,14 @@ export function PassagePage({ record, passage, onWordTap, onFinish }: PassagePag
          fresh arrival rather than a prop update on the same instance --
          every gloss gets its own entrance (GlossCard.css), not just the
          first one of a session. */}
-      {activeWord && <GlossCard key={activeWord} word={activeWord} onDismiss={() => setActiveWord(null)} />}
+      {activeWord && (
+        <GlossCard
+          key={activeWord.word}
+          word={activeWord.word}
+          context={activeWord.context}
+          onDismiss={() => setActiveWord(null)}
+        />
+      )}
 
       {held && (
         <HoldMenu

@@ -18,8 +18,18 @@
 const CONTENT_CACHE = "superb-content-v1";
 const contentUrl = (name: string) => `${import.meta.env.BASE_URL}content/${name}`;
 
+/** One tagged sense: a content part of speech ("noun" | "verb" | "adj" |
+ *  "adv") and the definition that reading carries. */
+export interface GlossSense {
+  pos: string;
+  def: string;
+}
+
 export interface BookGlossEntry {
   definition: string;
+  /** Present only when the word genuinely reads more than one way; the
+   *  card picks against the sentence (content/senses.ts). */
+  senses?: GlossSense[];
 }
 
 const tables = new Map<string, Record<string, BookGlossEntry>>();
@@ -85,6 +95,26 @@ export async function loadProseGlosses(): Promise<Record<string, BookGlossEntry>
   const table = await fetchJson<Record<string, BookGlossEntry>>(contentUrl("glosses/prose.json"));
   tables.set(key, table);
   return table;
+}
+
+let sharedSenses: Record<string, GlossSense[]> | null = null;
+let sharedSensesFailed = false;
+
+/** The one shared sense table (content/glosses/senses.json): tagged sense
+ *  lists for every common word that genuinely reads more than one way.
+ *  Every word card reads it beside its own single-definition table, so a
+ *  book table stays small while "sounded" can still resolve against its
+ *  sentence. A failed fetch degrades to default definitions, once. */
+export async function loadSharedSenses(): Promise<Record<string, GlossSense[]>> {
+  if (sharedSenses) return sharedSenses;
+  if (sharedSensesFailed) return {};
+  try {
+    sharedSenses = await fetchJson<Record<string, GlossSense[]>>(contentUrl("glosses/senses.json"));
+    return sharedSenses;
+  } catch {
+    sharedSensesFailed = true;
+    return {};
+  }
 }
 
 /** A word this table has no curated entry for is real and expected --

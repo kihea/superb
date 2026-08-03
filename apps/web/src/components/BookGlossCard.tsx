@@ -5,6 +5,7 @@ import "./GlossCard.css";
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 import type { BookGlossEntry } from "../content/glosses";
+import { pickDefinition, useSharedSenses } from "../content/senses";
 import { KeepButton } from "./KeepButton";
 import { keepWord } from "../reading/words";
 
@@ -27,9 +28,14 @@ export function BookGlossCard({ word, entry, bookId, context, onDismiss }: BookG
     return () => window.removeEventListener("keydown", onKey);
   }, [onDismiss]);
 
+  // The sense the sentence uses, not merely the word's commonest one --
+  // "sounded" in a diving chapter reads as the whale's dive, not "healthy".
+  const shared = useSharedSenses();
+  const definition = pickDefinition(word, entry, context, shared);
+
   function handleKeep() {
     void keepWord(
-      { word, definition: entry.definition, source: bookId, context },
+      { word, definition, source: bookId, context },
       Date.now(),
     ).catch(() => {
       // Storage failing must not trap the reader in the card.
@@ -44,7 +50,7 @@ export function BookGlossCard({ word, entry, bookId, context, onDismiss }: BookG
       <div className="gloss-card" role="dialog" aria-label={word} onClick={(e) => e.stopPropagation()}>
         <div className="gloss-card__text">
           <p className="gloss-word">{word}</p>
-          <p className="gloss-definition">{entry.definition}</p>
+          <p className="gloss-definition">{definition}</p>
         </div>
         <div className="gloss-keep-row">
           <KeepButton onKeep={handleKeep} onKept={onDismiss} />

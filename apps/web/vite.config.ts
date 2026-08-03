@@ -71,10 +71,16 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: /\/content\/.*\.json$/,
-            handler: "CacheFirst",
+            // StaleWhileRevalidate, not CacheFirst: CacheFirst pinned every
+            // reader to whatever gloss and challenge tables their first
+            // visit happened to fetch, for thirty days — a corrected
+            // definition shipped and nobody saw it. Serving the cached copy
+            // while refreshing it in the background keeps the same instant
+            // reads and offline behaviour, and the next open is current.
+            handler: "StaleWhileRevalidate",
             options: {
               cacheName: "content",
-              expiration: { maxEntries: 8, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              expiration: { maxEntries: 40, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
         ],

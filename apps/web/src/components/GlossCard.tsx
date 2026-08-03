@@ -15,17 +15,21 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { glossFor } from "../fixtures/glosses";
 import { loadProseGlosses, type BookGlossEntry } from "../content/glosses";
+import { pickDefinition, useSharedSenses } from "../content/senses";
 import { KeepButton } from "./KeepButton";
 import { keepWord } from "../reading/words";
 
 export interface GlossCardProps {
   word: string;
+  /** The sentence the word was tapped inside — lets the card pick the
+   *  sense the sentence actually uses (content/senses.ts). */
+  context?: string;
   onDismiss: () => void;
 }
 
 let proseTable: Record<string, BookGlossEntry> | null = null;
 
-export function GlossCard({ word, onDismiss }: GlossCardProps) {
+export function GlossCard({ word, context, onDismiss }: GlossCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const [table, setTable] = useState(proseTable);
 
@@ -42,8 +46,13 @@ export function GlossCard({ word, onDismiss }: GlossCardProps) {
   }, []);
 
   const curated = glossFor(word);
+  const shared = useSharedSenses();
   const fromTable = table?.[word.toLowerCase()];
-  const meaning = curated?.definition ?? fromTable?.definition;
+  // Curated entries are hand-written for the exact sense the passages use;
+  // a table entry instead answers with the sense the sentence around the
+  // tap actually uses (content/senses.ts).
+  const meaning =
+    curated?.definition ?? (fromTable ? pickDefinition(word, fromTable, context, shared) : undefined);
   // The same sentence content/glosses.ts's glossFor uses for a book-table
   // miss -- one voice for "no entry" everywhere a card can say it.
   const definition = meaning ?? "This word doesn't have a meaning saved yet.";

@@ -78,6 +78,7 @@ import glosses as gl
 KAIKKI_DIR = Path("E:/se-work/kaikki")
 JSONL_PATH = KAIKKI_DIR / "kaikki-english.jsonl"
 DICT_PATH = KAIKKI_DIR / "dict.sqlite"
+SENSES_PATH = KAIKKI_DIR / "senses.sqlite"
 DEFAULT_LIBRARY = Path("E:/se-work/library")
 OUT_DIR = Path(__file__).resolve().parent.parent.parent / "content" / "glosses"
 
@@ -182,6 +183,64 @@ def load_dictionary() -> dict[str, str]:
     return table
 
 
+def load_senses() -> dict[str, str]:
+    """word -> the raw JSON list senses.py stored (parsed lazily — most
+    words are looked up once per table build). Absent file degrades to
+    single-definition tables rather than blocking a build."""
+    if not SENSES_PATH.exists():
+        print(f"  ({SENSES_PATH} not found — tables carry one definition each)", file=sys.stderr)
+        return {}
+    db = sqlite3.connect(SENSES_PATH)
+    table = dict(db.execute("SELECT word, senses FROM senses"))
+    db.close()
+    return table
+
+
+def find_senses(word: str, senses_raw: dict[str, str]) -> list[dict] | None:
+    """The sense list for a surface token, through the same normalization
+    chain find_definition walks. senses.py already lists most inflected
+    forms as their own headwords, so the stripping is a fallback."""
+    plain = word.replace("’", "'")
+    candidates = [plain]
+    if plain.endswith("'s"):
+        candidates.append(plain[:-2])
+    if "-" in plain:
+        candidates.append(plain.replace("-", ""))
+    candidates.extend(stripped_forms(plain.removesuffix("'s")))
+    for candidate in candidates:
+        raw = senses_raw.get(candidate)
+        if raw:
+            rows = json.loads(raw)
+            seen: set[str] = set()
+            out = []
+            for row in rows:
+                text = normalize_definition(row["def"])
+                if text not in seen:
+                    seen.add(text)
+                    out.append({"pos": row["pos"], "def": text})
+            return out or None
+    return None
+
+
+def build_entry(word: str, table: dict[str, str], senses_raw: dict[str, str]) -> dict | None:
+    """One reader-facing entry: a single default definition, taken from the
+    sense store's own ordering (WordNet part-of-speech weight, redirect
+    forms first within a POS) so an inflected form like "sounded" defaults
+    to its verb reading rather than whichever homograph the extract lists
+    first. The full tagged sense lists live in ONE shared table
+    (content/glosses/senses.json, the `senses` subcommand below) rather
+    than inline in every book — inline senses grew the 614 book tables to
+    1.8 GB, and the ambiguous words are overwhelmingly the common ones
+    every book shares anyway."""
+    senses = find_senses(word, senses_raw)
+    if senses:
+        return {"definition": senses[0]["def"]}
+    definition = find_definition(word, table)
+    if definition:
+        return {"definition": definition}
+    return None
+
+
 def iter_texts(blocks: list):
     for block in blocks:
         text = block.get("text")
@@ -265,14 +324,16 @@ def find_definition(word: str, table: dict[str, str]) -> str | None:
     return None
 
 
-def write_book_table(book_id: str, library: Path, table: dict[str, str]) -> tuple[int, int]:
+def write_book_table(
+    book_id: str, library: Path, table: dict[str, str], senses_raw: dict[str, str]
+) -> tuple[int, int]:
     book = json.loads((library / "books" / book_id / "book.json").read_text(encoding="utf-8"))
     words = book_words(book)
     entries = {}
     for word in sorted(words):
-        definition = find_definition(word, table)
-        if definition:
-            entries[word] = {"definition": definition}
+        entry = build_entry(word, table, senses_raw)
+        if entry:
+            entries[word] = entry
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OUT_DIR / f"{book_id}.json"
     with out_path.open("w", encoding="utf-8", newline="\n") as handle:
@@ -283,12 +344,13 @@ def write_book_table(book_id: str, library: Path, table: dict[str, str]) -> tupl
 
 def write_all_books(library: Path, only: list[str]) -> None:
     table = load_dictionary()
+    senses_raw = load_senses()
     books_dir = library / "books"
     book_ids = only or sorted(p.name for p in books_dir.iterdir() if p.is_dir())
     glossed_total = 0
     distinct_total = 0
     for n, book_id in enumerate(book_ids, 1):
-        glossed, distinct = write_book_table(book_id, library, table)
+        glossed, distinct = write_book_table(book_id, library, table, senses_raw)
         glossed_total += glossed
         distinct_total += distinct
         if n % 50 == 0 or n == len(book_ids):
@@ -319,6 +381,7 @@ def collect_words(node) -> set[str]:
 
 def write_challenge_table() -> None:
     table = load_dictionary()
+    senses_raw = load_senses()
     challenges_dir = OUT_DIR.parent / "challenges"
     words: set[str] = set()
     for name in ("rhyme-prompts.json", "association.json"):
@@ -326,9 +389,9 @@ def write_challenge_table() -> None:
         words |= collect_words(data)
     entries = {}
     for word in sorted(words):
-        definition = find_definition(word, table)
-        if definition:
-            entries[word] = {"definition": definition}
+        entry = build_entry(word, table, senses_raw)
+        if entry:
+            entries[word] = entry
     out_path = challenges_dir / "glosses.json"
     with out_path.open("w", encoding="utf-8", newline="\n") as handle:
         json.dump(entries, handle, ensure_ascii=False, separators=(",", ":"))
@@ -356,6 +419,7 @@ def inflected_headwords(word: str, table: dict[str, str]) -> list[str]:
 
 def write_prose_table() -> None:
     table = load_dictionary()
+    senses_raw = load_senses()
     root = OUT_DIR.parent
     words: set[str] = set()
     for path in sorted((root / "classes").glob("*.json")):
@@ -364,19 +428,78 @@ def write_prose_table() -> None:
     for path in sorted((root / "sources").glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         words.update(row["word"].lower() for row in data.get("words", []) if row.get("word"))
+        # Every word of the excerpt itself: the reader taps what is on the
+        # page, not only the words the engine is teaching.
+        words.update(token.lower() for token in WORD.findall(data.get("text", "")))
+    for path in sorted((root / "passages").glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        words.update(token.lower() for token in WORD.findall(data.get("text", "")))
     entries = {}
     for word in sorted(words):
-        definition = find_definition(word, table)
-        if definition:
-            entries[word] = {"definition": definition}
+        entry = build_entry(word, table, senses_raw)
+        if entry:
+            entries[word] = entry
         for form in inflected_headwords(word.replace("’", "'"), table):
-            entries.setdefault(form, {"definition": table[form]})
+            if form not in entries:
+                form_entry = build_entry(form, table, senses_raw)
+                if form_entry:
+                    entries[form] = form_entry
     out_path = OUT_DIR / "prose.json"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8", newline="\n") as handle:
         json.dump(dict(sorted(entries.items())), handle, ensure_ascii=False, separators=(",", ":"))
         handle.write("\n")
     print(f"wrote {out_path} ({len(entries)} entries from {len(words)} base words)")
+
+
+def write_senses_table() -> None:
+    """The ONE shared sense table the word cards read beside whichever
+    single-definition table they came from: every word in the top frequency
+    band, the prose table, or the challenge table that genuinely reads more
+    than one way, with its tagged senses (capped at four). Ambiguity lives
+    with common words, so one table covers every book without repeating
+    itself six hundred times."""
+    senses_raw = load_senses()
+    out_root = OUT_DIR.parent
+    words: set[str] = set()
+
+    freq_path = Path(__file__).resolve().parent.parent / "out" / "frequency.json"
+    if freq_path.exists():
+        freq = json.loads(freq_path.read_text(encoding="utf-8"))
+        words.update(row["word"] for row in freq[:20_000])
+    else:
+        print(f"  ({freq_path} not found — shared table covers prose and challenges only)", file=sys.stderr)
+
+    for rel in ("glosses/prose.json", "challenges/glosses.json"):
+        path = out_root / rel
+        if path.exists():
+            words.update(json.loads(path.read_text(encoding="utf-8")).keys())
+
+    entries: dict[str, list[dict]] = {}
+    for word in sorted(words):
+        senses = find_senses(word.lower(), senses_raw)
+        if not senses or len(senses) < 2:
+            continue
+        # Only genuinely cross-POS ambiguity earns a row — that is where a
+        # sentence can actually change the answer ("sound" the adjective
+        # against the noise; "know" the verb against the knoll). Same-POS
+        # shading rides on the default definition instead; carrying it for
+        # every polysemous word tripled the file.
+        kept = senses[:4]
+        if len({s["pos"] for s in kept}) < 2:
+            continue
+        for s in kept:
+            if len(s["def"]) > 160:
+                s["def"] = s["def"][:159].rsplit(" ", 1)[0] + "…"
+        entries[word.lower()] = kept
+
+    out_path = OUT_DIR / "senses.json"
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8", newline="\n") as handle:
+        json.dump(entries, handle, ensure_ascii=False, separators=(",", ":"))
+        handle.write("\n")
+    size = out_path.stat().st_size / 1_000_000
+    print(f"wrote {out_path} ({len(entries)} ambiguous words, {size:.1f} MB)")
 
 
 if __name__ == "__main__":
@@ -395,5 +518,9 @@ if __name__ == "__main__":
         write_challenge_table()
     elif command == "prose":
         write_prose_table()
+    elif command == "senses":
+        write_senses_table()
     else:
-        raise SystemExit("usage: book_glosses.py [--library PATH] dict | books [book-id ...] | challenges | prose")
+        raise SystemExit(
+            "usage: book_glosses.py [--library PATH] dict | books [book-id ...] | challenges | prose | senses"
+        )
