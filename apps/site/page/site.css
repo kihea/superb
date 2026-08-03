@@ -2,8 +2,15 @@
    landing keeps its own inline-styled dc source; these pages reuse the same
    tokens, fonts and register so the site reads as one thing. */
 
-html, body { margin: 0; padding: 0; background: #140D09; }
+/* The same ground the landing stands on: cool near-black with three quiet
+   lights — oxide, harbour blue, violet — in place of the old murky brown. */
+html, body { margin: 0; padding: 0; background: #0C1014; }
 body {
+  background:
+    radial-gradient(1100px 700px at 88% -4%, rgba(217, 106, 99, 0.14), transparent 62%),
+    radial-gradient(950px 720px at -8% 40%, rgba(63, 136, 209, 0.12), transparent 58%),
+    radial-gradient(1000px 800px at 72% 96%, rgba(177, 147, 245, 0.08), transparent 60%),
+    #0C1014;
   color: var(--text-1, #F6EEE2);
   font-family: Geist, system-ui, sans-serif;
   overflow-x: hidden;

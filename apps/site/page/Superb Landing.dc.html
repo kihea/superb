@@ -24,7 +24,18 @@
 <script src="scene.js"></script>
 <script src="demos.js"></script>
 <style>
-html,body{margin:0;padding:0;background:#140D09}
+/* Cool near-black in place of the old murky brown, with three quiet lights
+   breathing through it — oxide, harbour blue, and the games' violet. The
+   brand's cool-neutrals-plus-oxide palette, finally speaking on the page
+   ground itself. */
+html,body{margin:0;padding:0;background:#0C1014}
+.sb-ground{
+  background:
+    radial-gradient(1100px 700px at 88% 6%, rgba(217,106,99,.15), transparent 62%),
+    radial-gradient(950px 720px at -8% 34%, rgba(63,136,209,.13), transparent 58%),
+    radial-gradient(1000px 800px at 72% 78%, rgba(177,147,245,.09), transparent 60%),
+    #0C1014;
+}
 a{color:inherit;text-decoration:none}
 a:hover{color:var(--brand)}
 @keyframes reveal{from{width:0}}
@@ -37,7 +48,10 @@ a:hover{color:var(--brand)}
 /* ---- the working miniatures under the three figures ---- */
 .sb-demo{position:relative;min-height:150px;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;line-height:1.35}
 .sb-demo-shelf__field{margin:0;font:inherit;font-size:11.5px;line-height:1.05;letter-spacing:.04em;white-space:pre}
-.sb-demo-shelf__caption{margin-top:8px;font-size:12px;min-height:1.4em}
+/* Two reserved lines: the long captions ("The Souls of Black Folk — W. E. B.
+   Du Bois") wrap, and a caption that grows a line every 2.6s cycle was the
+   whole-page stutter of issue #146. */
+.sb-demo-shelf__caption{margin-top:8px;font-size:12px;min-height:2.8em}
 .sb-demo-shelf__title{color:#FCF6EC}
 .sb-demo-shelf__author{color:rgba(246,238,226,.45)}
 .sb-demo-gloss__line{margin:0 0 10px;max-width:30ch;color:rgba(246,238,226,.6);font-size:12.5px;line-height:1.6}
@@ -89,7 +103,7 @@ a:hover{color:var(--brand)}
 @media (max-width:560px){.sb-bento{grid-template-columns:1fr}.sb-tile--wide,.sb-tile--tall{grid-column:auto}}
 
 /* ---- footer ---- */
-.sb-footer{position:relative;background:#140D09;border-top:1px solid rgba(246,238,226,.09)}
+.sb-footer{position:relative;background:transparent;border-top:1px solid rgba(246,238,226,.09)}
 .sb-footer__grid{max-width:var(--shell-max);margin:0 auto;padding:clamp(44px,5vw,72px) clamp(20px,3.4vw,48px) var(--sp-8);display:grid;grid-template-columns:2fr 1fr 1fr;gap:clamp(28px,4vw,64px)}
 .sb-footer__brand{display:flex;flex-direction:column;gap:14px}
 .sb-footer__brand p{margin:0;font-size:13px;line-height:1.6;color:rgba(246,238,226,.5);max-width:36ch}
@@ -100,7 +114,7 @@ a:hover{color:var(--brand)}
 @media (max-width:700px){.sb-footer__grid{grid-template-columns:1fr 1fr}.sb-footer__brand{grid-column:span 2}}
 </style>
 </helmet>
-<div data-theme="oxblood-dark" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; background:#140D09; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
+<div data-theme="oxblood-dark" class="sb-ground" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
 
   <header data-screen-label="Header" style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:var(--sp-8); padding:var(--sp-7) clamp(20px,3.4vw,48px); pointer-events:none">
     <a href="/" style="display:flex; align-items:center; pointer-events:auto">
@@ -123,16 +137,15 @@ a:hover{color:var(--brand)}
     </nav>
   </header>
 
-  <!-- Full-bleed at phone heights, where 100svh and the content are close to
-       the same size; capped on a tall desktop viewport rather than left to
-       grow with it, since the content block is a fixed size and centring it
-       in an unbounded height was the empty band above the Facts section
-       (issue #112, "too much blank space"). -->
-  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#140D09; height:min(100svh, 620px); min-height:560px; display:flex; align-items:center">
+  <!-- Full screen height again: issue #145 ruled on the #112 cap directly —
+       "older versions had the image go the entire screen height, this
+       behavior should stay" — and asked for the bottom fade to take no more
+       than 5% of the screen rather than the 30% band it had grown to. -->
+  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#0C1014; height:100svh; min-height:560px; display:flex; align-items:center">
     <div ref="{{ wrapRef }}" style="position:absolute; inset:0; font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; white-space:pre; overflow:hidden"></div>
-    <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(16,10,6,.58) 0%, rgba(16,10,6,.34) 26%, rgba(16,10,6,.10) 50%, rgba(16,10,6,0) 70%)"></div>
-    <div style="position:absolute; left:0; right:0; top:0; height:20%; background:linear-gradient(to bottom, rgba(16,10,6,.56), rgba(20,13,9,0))"></div>
-    <div style="position:absolute; left:0; right:0; bottom:0; height:30%; background:linear-gradient(to bottom, rgba(20,13,9,0), #140D09 97%)"></div>
+    <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(10,12,16,.58) 0%, rgba(10,12,16,.34) 26%, rgba(10,12,16,.10) 50%, rgba(10,12,16,0) 70%)"></div>
+    <div style="position:absolute; left:0; right:0; top:0; height:12%; background:linear-gradient(to bottom, rgba(10,12,16,.56), rgba(12,16,20,0))"></div>
+    <div style="position:absolute; left:0; right:0; bottom:0; height:5%; background:linear-gradient(to bottom, rgba(12,16,20,0), #0C1014 97%)"></div>
 
     <div style="position:relative; z-index:3; width:100%; max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px)">
       <div style="display:flex; flex-direction:column; align-items:flex-start; gap:var(--sp-7); max-width:620px; margin-left:-28px; padding:26px 28px; border-radius:10px; border:1px solid rgba(246,238,226,0); transition:border-color 140ms cubic-bezier(.2,.8,.25,1); animation:rise .8s cubic-bezier(.2,.8,.25,1) both; opacity:0.66">
@@ -154,7 +167,7 @@ a:hover{color:var(--brand)}
     </div>
   </section>
 
-  <section id="facts" data-screen-label="Facts" style="position:relative; background:#140D09">
+  <section id="facts" data-screen-label="Facts" style="position:relative">
     <div style="max-width:var(--shell-max); margin:0 auto; padding:clamp(64px,7vw,104px) clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(44px,5vw,76px)">
       <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:26ch">
         <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">The case</span>
@@ -193,7 +206,7 @@ a:hover{color:var(--brand)}
   <!-- The rooms of the app, shown working. Every tile is something that
        exists behind /read/ today -- no promised rooms, no roadmap tiles.
        The miniatures are driven by demos.js from shipped content. -->
-  <section id="inside" data-screen-label="Inside" style="position:relative; background:#140D09">
+  <section id="inside" data-screen-label="Inside" style="position:relative">
     <div style="max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(36px,4vw,56px)">
       <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:30ch">
         <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">Inside the app</span>
