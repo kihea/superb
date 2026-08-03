@@ -31,24 +31,70 @@
   color: var(--text-1);
 }
 
-.shelf-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--sp-5);
-}
-
-.shelf-grid--read .sb-cover {
-  height: 86px;
-}
-
 .shelf-section {
   display: flex;
   flex-direction: column;
   gap: var(--sp-5);
 }
 
-@media (min-width: 45rem) {
-  .shelf-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
+/* ── The ledge: books standing spine-out, uneven, leaning a little ────── */
+
+.shelf-ledge {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  padding: var(--sp-4) var(--sp-4) 0;
+  border-bottom: 3px solid var(--border-2);
+}
+
+.shelf-spine {
+  width: 40px;
+  flex: none;
+  border: none;
+  border-radius: 3px 3px 0 0;
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  padding: var(--sp-4) 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  transform-origin: bottom center;
+  transition:
+    transform var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.shelf-spine:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: var(--shadow-2);
+}
+
+.shelf-spine:active {
+  transform: translateY(-2px) !important;
+}
+
+.shelf-spine__title {
+  writing-mode: vertical-rl;
+  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
+  letter-spacing: 0.04em;
+  max-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Finished books frost over, the same judgement the covers made. */
+.shelf-spine--read {
+  filter: saturate(0.35);
+  position: relative;
+}
+
+.shelf-spine--read::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--surface-page) 62%, transparent);
+  pointer-events: none;
 }

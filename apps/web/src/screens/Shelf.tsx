@@ -20,6 +20,34 @@ export function clothFor(id: string): CoverBook["cloth"] {
   return CLOTHS[hash % CLOTHS.length];
 }
 
+/** A book standing on the ledge, seen from its spine: cloth, a height and
+ *  a lean of its own, the title running down the cloth. The same book
+ *  always stands the same way. */
+function Spine({
+  book,
+  finished,
+  onClick,
+}: {
+  book: CatalogueBook;
+  finished?: boolean;
+  onClick: () => void;
+}) {
+  let hash = 0;
+  for (const ch of book.id) hash = (hash * 41 + ch.charCodeAt(0)) >>> 0;
+  const height = 128 + (hash % 44); // 128–171px: real shelves are uneven
+  const lean = ((hash >> 4) % 5) - 2; // −2°…2°: a few books rest tilted
+  return (
+    <button
+      type="button"
+      className={`shelf-spine sb-cover--${clothFor(book.id)}${finished ? " shelf-spine--read" : ""}`}
+      style={{ height: `${height}px`, transform: lean ? `rotate(${lean * 0.7}deg)` : undefined }}
+      onClick={onClick}
+    >
+      <span className="shelf-spine__title">{book.title}</span>
+    </button>
+  );
+}
+
 /** "IV" and "12" become "Chapter IV" / "Chapter 12"; a label with its own
  *  words ("Canto the First") stands as written. */
 function placeName(label: string): string {
@@ -94,14 +122,14 @@ export function Shelf() {
   }, []);
 
   if (!data) {
-    return <Screen title="Shelf" sunken tabs>{null}</Screen>;
+    return <Screen title="Shelf" sunken>{null}</Screen>;
   }
 
   const empty = !data.current && data.waiting.length === 0 && data.read.length === 0;
 
   if (empty) {
     return (
-      <Screen title="Shelf" sunken tabs>
+      <Screen title="Shelf" sunken>
         <div className="shelf-first sb-rise">
           <p className="sb-said">Your shelf is empty, which is the best kind of problem.</p>
           <button type="button" className="sb-button sb-button--wide" onClick={() => navigate("/library")}>
@@ -119,7 +147,7 @@ export function Shelf() {
   const currentPart = current?.place ? current.book.parts[current.place.partIndex] : undefined;
 
   return (
-    <Screen title="Shelf" sunken tabs>
+    <Screen title="Shelf" sunken>
       {current && (
         <div className="shelf-current sb-rise">
           <Cover
@@ -146,25 +174,27 @@ export function Shelf() {
       )}
 
       {data.waiting.length > 0 && (
-        <div className="shelf-grid">
-          {data.waiting.map(({ book }) => (
-            <Cover
-              key={book.id}
-              book={{ title: book.title, author: book.author, cloth: clothFor(book.id) }}
-              onClick={() => navigate(`/book/${book.id}`)}
-            />
-          ))}
+        <div className="shelf-section">
+          <span className="sb-eyebrow">Waiting</span>
+          {/* The waiting books stand on a ledge, spines out, each with its
+              own height and lean — a shelf, not a storefront. The library
+              is where books face outward; here they just live. */}
+          <div className="shelf-ledge">
+            {data.waiting.map(({ book }) => (
+              <Spine key={book.id} book={book} onClick={() => navigate(`/book/${book.id}`)} />
+            ))}
+          </div>
         </div>
       )}
 
       {data.read.length > 0 && (
         <div className="shelf-section">
           <span className="sb-eyebrow">Read</span>
-          <div className="shelf-grid shelf-grid--read">
+          <div className="shelf-ledge shelf-ledge--read">
             {data.read.map(({ book }) => (
-              <Cover
+              <Spine
                 key={book.id}
-                book={{ title: book.title, author: book.author, cloth: clothFor(book.id) }}
+                book={book}
                 finished
                 onClick={() => navigate(`/book/${book.id}`)}
               />

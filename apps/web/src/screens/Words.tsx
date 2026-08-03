@@ -36,7 +36,7 @@ export function Words() {
   }
 
   return (
-    <Screen title="Words" sunken tabs>
+    <Screen title="Words" sunken>
       {status === "error" && <p className="sb-said">Your words wouldn't open. Try again in a moment.</p>}
 
       {status === "ready" && words.length === 0 && sentences.length === 0 && (

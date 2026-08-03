@@ -80,14 +80,15 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
     window.localStorage.setItem("superb.welcomed", "1");
   });
 
-  // Search the real catalogue index for a known book.
+  // Search the real catalogue index for a known book. A result is a
+  // typeset jacket now: the styled title with the author beneath it.
   await page.goto("/library");
   await page.getByPlaceholder("Title or author").fill("Dracula");
-  const result = page.locator(".library-book", { hasText: "Dracula" });
+  const result = page.locator(".jacket", { hasText: "Dracula" });
   await expect(result).toBeVisible({ timeout: 15_000 });
   await expect(result).toContainText("Bram Stoker");
   // The index carries exactly one book by that name.
-  await expect(page.locator(".library-book")).toHaveCount(1);
+  await expect(page.locator(".jacket")).toHaveCount(1);
   await result.click();
 
   // The cover: real names, the first line, and one way in.

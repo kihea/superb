@@ -1,0 +1,185 @@
+/* Ten typographic jackets. Each is a way of setting a title, built from
+   the three families the app already speaks — Literata (the reading
+   serif), Sono (the working sans), Shantell (the hand) — varied by case,
+   weight, tracking, alignment and rule-work. The cloth classes reuse the
+   cover palette so a book keeps its identity between Shelf and Library. */
+
+.jacket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  width: 148px;
+  min-height: 196px;
+  flex: none;
+  border: none;
+  border-radius: var(--r-xs);
+  padding: var(--sp-5);
+  box-shadow: var(--shadow-1);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    transform var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) var(--ease-out);
+}
+
+.jacket:hover {
+  transform: translateY(-3px) rotate(-0.4deg);
+  box-shadow: var(--shadow-2, var(--shadow-1));
+}
+
+.jacket:active {
+  transform: translateY(0) scale(var(--press-scale));
+}
+
+/* In a wrapped grid the jackets flex to the column. */
+.library-grid .jacket {
+  width: 100%;
+}
+
+.jacket__title {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.jacket__line {
+  display: block;
+}
+
+.jacket__author {
+  font: var(--fw-regular) var(--fs-100) / 1.3 var(--font-ui);
+  opacity: 0.78;
+}
+
+/* ── The cloths, same palette as the covers ───────────────────────────── */
+
+.jacket--brand {
+  background: var(--brand);
+  color: var(--text-on-brand);
+}
+
+.jacket--ink {
+  background: var(--surface-inverse);
+  color: var(--text-inverse);
+}
+
+.jacket--support {
+  background: var(--support);
+  color: var(--text-on-brand);
+}
+
+.jacket--soft {
+  background: var(--brand-soft);
+  color: var(--text-1);
+}
+
+.jacket--paper {
+  background: var(--surface-card);
+  border: 1px solid var(--border-1);
+  color: var(--text-1);
+}
+
+/* ── The ten settings ─────────────────────────────────────────────────── */
+
+/* 0 · Canon: the reading serif, set plainly, a hairline over the title. */
+.jacket--s0 .jacket__title {
+  font: var(--fw-bold) var(--fs-500) / 1.18 var(--font-read);
+  border-top: 2px solid currentColor;
+  padding-top: var(--sp-4);
+}
+
+/* 1 · Caps: working sans, all caps, tracked wide, boxed. */
+.jacket--s1 {
+  text-align: center;
+}
+.jacket--s1 .jacket__title {
+  font: var(--fw-semibold) var(--fs-300) / 1.5 var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  border: 1px solid currentColor;
+  padding: var(--sp-5) var(--sp-3);
+  align-self: stretch;
+}
+.jacket--s1 .jacket__author {
+  text-align: center;
+}
+
+/* 2 · Italic: the serif leaning, larger, centred. */
+.jacket--s2 {
+  text-align: center;
+  justify-content: center;
+}
+.jacket--s2 .jacket__title {
+  font: italic var(--fw-medium, 500) var(--fs-600) / 1.2 var(--font-read);
+}
+.jacket--s2 .jacket__author {
+  text-align: center;
+}
+
+/* 3 · Stacked: the hand, one word a line, ragged left. */
+.jacket--s3 .jacket__title {
+  font: var(--fw-bold) var(--fs-500) / 1.12 var(--font-display);
+}
+
+/* 4 · Engraved: small caps, tracked, double-ruled. */
+.jacket--s4 .jacket__title {
+  font: var(--fw-semibold) var(--fs-400) / 1.4 var(--font-read);
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  border-top: 3px double currentColor;
+  border-bottom: 3px double currentColor;
+  padding: var(--sp-4) 0;
+}
+
+/* 5 · Poster: the sans heavy and huge, title as a block of shout. */
+.jacket--s5 .jacket__title {
+  font: var(--fw-bold) var(--fs-700) / 1.02 var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+/* 6 · Whisper: lowercase, light, tracked far apart, centred low. */
+.jacket--s6 {
+  text-align: center;
+  justify-content: flex-end;
+}
+.jacket--s6 .jacket__title {
+  font: var(--fw-regular) var(--fs-300) / 1.7 var(--font-ui);
+  text-transform: lowercase;
+  letter-spacing: 0.22em;
+  margin-bottom: var(--sp-5);
+}
+.jacket--s6 .jacket__author {
+  text-align: center;
+}
+
+/* 7 · Manuscript: the hand at a slight lean, underlined by hand-rule. */
+.jacket--s7 .jacket__title {
+  font: var(--fw-semibold) var(--fs-500) / 1.25 var(--font-display);
+  transform: rotate(-1.6deg);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+/* 8 · Versal: the serif with a dropped first letter. */
+.jacket--s8 .jacket__title {
+  font: var(--fw-bold) var(--fs-400) / 1.3 var(--font-read);
+}
+.jacket--s8 .jacket__title::first-letter {
+  font-size: 2.6em;
+  line-height: 0.9;
+  float: left;
+  padding-right: var(--sp-3);
+  font-family: var(--font-display);
+}
+
+/* 9 · Telegraph: the mono voice, caps, ruled beneath like a wire heading. */
+.jacket--s9 .jacket__title {
+  font: var(--fw-semibold) var(--fs-300) / 1.55 var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: var(--sp-4);
+}

@@ -29,7 +29,7 @@ const GAMES = [
 export function Play() {
   const navigate = useNavigate();
   return (
-    <Screen title="Play" sunken tabs>
+    <Screen title="Play" sunken>
       <div className="play-doors">
         {GAMES.map((game, i) => (
           <button
