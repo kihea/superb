@@ -15,7 +15,7 @@ export function Prose() {
   if (open) return <ReadingScreen />;
 
   return (
-    <Screen back={{ to: "/play", label: "Play" }}>
+    <Screen back={{ to: "/play", label: "Play", icon: true }} nav={false}>
       <div className="prose-door sb-rise">
         <span className="sb-eyebrow">Prose</span>
         <h2 className="sb-heading">A passage put together for you.</h2>

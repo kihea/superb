@@ -14,6 +14,7 @@ import { ThinkingOrb } from "thinking-orbs";
 import {
   TIERS,
   TIER_NAMES,
+  describeRhyme,
   judgeRhyme,
   loadPronunciations,
   loadRhymes,
@@ -25,6 +26,7 @@ import {
 import { loadChallengeGlosses, type BookGlossEntry } from "../content/glosses";
 import { keepWord } from "../reading/words";
 import { useSpeechInput } from "../voice/useSpeechInput";
+import { ROUND_SECONDS, useRoundTimer, useTimedPreference } from "./useRoundTimer";
 import "./Challenge.css";
 
 interface Offer {
@@ -46,6 +48,10 @@ export function Rhyme() {
   const [over, setOver] = useState(false);
   const [bar, setBar] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
+  const [timed, toggleTimed] = useTimedPreference();
+  const secondsLeft = useRoundTimer(timed && status === "ready" && !over, prompt?.word, () =>
+    setOver(true),
+  );
 
   useEffect(() => {
     Promise.all([loadRhymes(), loadPronunciations(), loadChallengeGlosses().catch(() => ({}))])
@@ -83,14 +89,14 @@ export function Rhyme() {
 
   if (status === "loading") {
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         {null}
       </Screen>
     );
   }
   if (status === "error" || !prompt) {
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         <p className="sb-said">The rhymes wouldn't load. Try again in a moment.</p>
       </Screen>
     );
@@ -112,7 +118,7 @@ export function Rhyme() {
     const barLands = barUses.length >= 2;
 
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         <div className="challenge-end sb-fade">
           <h2 className="sb-heading">
             {exactFound.length === 0 && nearFound.length === 0
@@ -145,10 +151,17 @@ export function Rhyme() {
               <ul className="challenge-reveal__list">
                 {[...missedExact, ...missedNear].map((r) => {
                   const meaning = glosses[r.word]?.definition;
+                  const ring = describeRhyme(prompt.word, r.word, prons);
                   return (
                     <li key={r.word} className="challenge-reveal__row">
                       <span className="challenge-reveal__word">{r.word}</span>
-                      {meaning && <span className="challenge-reveal__meaning">{meaning}</span>}
+                      {(ring || meaning) && (
+                        <span className="challenge-reveal__meaning">
+                          {ring}
+                          {ring && meaning ? " — " : ""}
+                          {meaning}
+                        </span>
+                      )}
                       {meaning && (
                         <button
                           type="button"
@@ -197,7 +210,7 @@ export function Rhyme() {
   }
 
   return (
-    <Screen title="Rhyme" back={{ to: "/play", label: "Play" }} bare>
+    <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false} bare>
       <div className="sb-tiers">
         {TIERS.map((t) => (
           <button
@@ -209,7 +222,25 @@ export function Rhyme() {
             {TIER_NAMES[t]}
           </button>
         ))}
+        <span className="sb-tiers__gap" />
+        <button
+          type="button"
+          className={`sb-tier challenge-timer${timed ? " sb-tier--on" : ""}`}
+          aria-pressed={timed}
+          onClick={toggleTimed}
+        >
+          {timed ? `0:${String(secondsLeft).padStart(2, "0")}` : "Timer"}
+        </button>
       </div>
+
+      {timed && (
+        <div className="challenge-timer-track" aria-hidden="true">
+          <span
+            className="challenge-timer-track__left"
+            style={{ width: `${(secondsLeft / ROUND_SECONDS) * 100}%` }}
+          />
+        </div>
+      )}
 
       <div className="challenge-board">
         <span className="challenge-seed">{prompt.word}</span>
@@ -260,7 +291,7 @@ export function Rhyme() {
             data-listening={speech.listening}
             onClick={() => (speech.listening ? speech.stop() : speech.start())}
           >
-            <ThinkingOrb state="listening" size={20} paused={!speech.listening} />
+            <ThinkingOrb state={speech.listening ? "solving" : "composing"} size={20} />
           </button>
         )}
         <input

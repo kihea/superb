@@ -80,6 +80,37 @@ export function judgeRhyme(prompt: string, answer: string, prons: Pronunciations
   return "none";
 }
 
+// The sounds a rime key is made of, spelled the way a reader would say
+// them: "AY1 K" becomes "eye·k". Not phonetics teaching — just enough to
+// say WHY two words ring together.
+const VOWEL_SOUNDS: Record<string, string> = {
+  AA: "ah", AE: "a", AH: "uh", AO: "aw", AW: "ow", AY: "eye",
+  EH: "eh", ER: "er", EY: "ay", IH: "ih", IY: "ee", OW: "oh",
+  OY: "oy", UH: "uu", UW: "oo",
+};
+
+function soundOf(phone: string): string {
+  const bare = phone.replace(/\d/g, "");
+  return VOWEL_SOUNDS[bare] ?? bare.toLowerCase();
+}
+
+/** How `word` rings with `prompt`, in plain words — "rings on “eye·k”" for
+ *  a full rhyme, "shares the “eye” sound" for a near one. Null when the
+ *  dictionary can't say. */
+export function describeRhyme(prompt: string, word: string, prons: Pronunciations): string | null {
+  const p = prons[prompt];
+  const a = prons[word.toLowerCase()];
+  if (!p || !a) return null;
+  if (p[0] === a[0]) {
+    const sound = p[0].split(" ").map(soundOf).join("·");
+    return `rings on “${sound}”`;
+  }
+  if (p[1] === a[1]) {
+    return `shares the “${soundOf(p[1])}” sound, lands differently`;
+  }
+  return null;
+}
+
 // ── Association ──
 
 export interface Associate {
@@ -123,6 +154,31 @@ export async function loadAssociationIndex(): Promise<AssociationIndex> {
 
 export type AssociationJudgement = "connected" | "unconnected" | "same" | "unknown";
 
+/** Plain inflection candidates for an answer, most specific first — the
+ *  judge's index holds base forms, and "punches" or "bowling"'s plural
+ *  kin should not miss for spelling alone. */
+function answerForms(word: string): string[] {
+  const forms = [word];
+  const add = (form: string) => {
+    if (form.length >= 2 && !forms.includes(form)) forms.push(form);
+  };
+  if (word.endsWith("ies") && word.length > 4) add(word.slice(0, -3) + "y");
+  if (word.endsWith("ied") && word.length > 4) add(word.slice(0, -3) + "y");
+  if (word.endsWith("ing") && word.length > 4) {
+    if (word.length > 5 && word[word.length - 4] === word[word.length - 5]) add(word.slice(0, -4));
+    add(word.slice(0, -3) + "e");
+    add(word.slice(0, -3));
+  }
+  if (word.endsWith("ed") && word.length > 3) {
+    if (word.length > 4 && word[word.length - 3] === word[word.length - 4]) add(word.slice(0, -3));
+    add(word.slice(0, -1));
+    add(word.slice(0, -2));
+  }
+  if (word.endsWith("es") && word.length > 3) add(word.slice(0, -2));
+  if (word.endsWith("s") && word.length > 2 && !word.endsWith("ss")) add(word.slice(0, -1));
+  return forms;
+}
+
 export function judgeAssociation(
   prompt: string,
   answer: string,
@@ -133,9 +189,14 @@ export function judgeAssociation(
   if (word === prompt || sameStem(word, prompt)) return "same";
   const promptIndex = index.prompts.indexOf(prompt);
   if (promptIndex === -1) return "unknown";
-  const prompts = index.answers[word];
-  if (!prompts) return "unknown";
-  return prompts.includes(promptIndex) ? "connected" : "unconnected";
+  let sawEntry = false;
+  for (const form of answerForms(word)) {
+    const prompts = index.answers[form];
+    if (!prompts) continue;
+    sawEntry = true;
+    if (prompts.includes(promptIndex)) return "connected";
+  }
+  return sawEntry ? "unconnected" : "unknown";
 }
 
 /** The seven tiers, in playing order. */

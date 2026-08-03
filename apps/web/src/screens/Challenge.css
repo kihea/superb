@@ -3,6 +3,34 @@
    scoreboard at the end -- and none of it reaches the reading page or the
    Shelf. */
 
+/* The optional clock: a chip at the end of the tier row, and a hairline
+   that drains under it while a round runs. */
+.sb-tiers__gap {
+  flex: 1;
+  min-width: var(--sp-4);
+}
+
+.challenge-timer {
+  font-variant-numeric: tabular-nums;
+  min-width: 52px;
+  text-align: center;
+}
+
+.challenge-timer-track {
+  height: 2px;
+  margin: var(--sp-3) var(--sp-7) 0;
+  background: var(--border-1);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.challenge-timer-track__left {
+  display: block;
+  height: 100%;
+  background: var(--brand);
+  transition: width 260ms linear;
+}
+
 .challenge-board {
   flex: 1;
   min-height: 0;

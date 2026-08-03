@@ -84,8 +84,10 @@ MIN_WN_ASSOCIATES = 6
 TOP_ASSOCIATES = 20
 
 # Only this many senses of a word feed relations; the discount below makes
-# a word's tenth sense count for less than its first anyway.
-MAX_SENSES = 6
+# a word's tenth sense count for less than its first anyway. Ten, up from
+# six: "strike" keeps its boxing, bowling and baseball lives well past its
+# sixth sense, and a reader who answers from one of them is right.
+MAX_SENSES = 10
 SENSE_DISCOUNT = 0.25
 
 # Corpus co-occurrence knobs.
@@ -99,7 +101,7 @@ PMI_JUDGE = 1.0      # the judge's looser bar for accepting an answer
 
 # Judge-widening knobs (index only; the reveal never uses these).
 JUDGE_LEVELS = 2         # hypernyms/hyponyms this many levels out
-COUSIN_SENSES = 3        # only a word's dominant senses join the cousin tier
+COUSIN_SENSES = 5        # only a word's dominant senses join the cousin tier
 COUSIN_LEVELS = 3        # shared ancestor within this many levels each side
 COUSIN_MIN_DEPTH = 4     # ancestors nearer the taxonomy root prove nothing
 COUSIN_MIN_ZIPF = 2.7    # a cousin must be a word people actually use
@@ -131,16 +133,44 @@ DEFINITION_STOPWORDS = {
     "marked", "etc",
 }
 
-LABELS = {
-    "synonym": "means the same",
-    "antonym": "opposite",
-    "hyponym": "a kind of it",
-    "hypernym": "it is a kind of",
-    "part": "part of it",
-    "substance": "made from it",
-    "root": "comes from the same root",
-    "corpus": "shows up beside it",
-}
+# How a connection explains itself. Each label is built with the actual
+# evidence — the defining line of the sense that makes the connection, the
+# shared root, the domain — so the reveal teaches the *how*, not just a
+# category ("a kind of it" told nobody anything they could keep).
+GLOSS_TRIM = 88
+
+
+def trim_gloss(text: str) -> str:
+    text = text.strip().rstrip(".")
+    if len(text) > GLOSS_TRIM:
+        text = text[: GLOSS_TRIM - 1].rsplit(" ", 1)[0] + "…"
+    return text
+
+
+def label_for(relation: str, prompt: str, gloss: str | None) -> str:
+    detail = f" — “{trim_gloss(gloss)}”" if gloss else ""
+    if relation == "synonym":
+        return f"means much the same{detail}"
+    if relation == "antonym":
+        return f"its opposite{detail}"
+    if relation == "hyponym":
+        return f"a kind of {prompt}{detail}"
+    if relation == "hypernym":
+        return f"{prompt} is a kind of this{detail}"
+    if relation == "part":
+        return f"part and whole{detail}"
+    if relation == "substance":
+        return f"what it's made of{detail}"
+    if relation == "domain":
+        return f"{prompt} has a whole sense that lives there{detail}"
+    if relation == "defined":
+        return f"defined through {prompt}{detail}"
+    if relation == "defines":
+        return f"inside {prompt}'s own meaning{detail}"
+    if relation == "root":
+        return gloss if gloss else "grown from the same root"
+    return "keeps its company in our books"
+
 
 # Relation strength before the sense discount; the order here is also the
 # tiebreak when one word connects several ways.
@@ -151,6 +181,9 @@ WEIGHTS = {
     "hypernym": 0.7,
     "part": 0.65,
     "substance": 0.65,
+    "domain": 0.6,
+    "defined": 0.55,
+    "defines": 0.55,
     "root": 0.5,
 }
 
@@ -185,13 +218,16 @@ def is_inflection_of(word: str, base: str) -> bool:
     return False
 
 
-def related_by_wordnet(word: str) -> dict[str, tuple[str, float]]:
-    """associate -> (relation name, strength), strongest occurrence kept."""
+def related_by_wordnet(word: str) -> dict[str, tuple[str, float, str | None]]:
+    """associate -> (relation name, strength, the defining line of the sense
+    that makes the connection), strongest occurrence kept. The gloss is what
+    lets the reveal say HOW two words connect rather than only that they
+    do."""
     from nltk.corpus import wordnet
 
-    found: dict[str, tuple[str, float]] = {}
+    found: dict[str, tuple[str, float, str | None]] = {}
 
-    def offer(other: str, relation: str, sense_index: int) -> None:
+    def offer(other: str, relation: str, sense_index: int, gloss: str | None) -> None:
         other = other.lower()
         if "_" in other or not WORD_RE.match(other):
             return
@@ -199,37 +235,120 @@ def related_by_wordnet(word: str) -> dict[str, tuple[str, float]]:
             return
         strength = WEIGHTS[relation] / (1 + SENSE_DISCOUNT * sense_index)
         if other not in found or strength > found[other][1]:
-            found[other] = (relation, strength)
+            found[other] = (relation, strength, gloss)
 
     for index, synset in enumerate(wordnet.synsets(word)[:MAX_SENSES]):
+        own_gloss = synset.definition()
         for lemma in synset.lemmas():
             if lemma.name().lower() != word:
-                offer(lemma.name(), "synonym", index)
+                # The shared sense IS the connection: both words can mean this.
+                offer(lemma.name(), "synonym", index, own_gloss)
                 continue
             for antonym in lemma.antonyms():
-                offer(antonym.name(), "antonym", index)
+                offer(antonym.name(), "antonym", index, antonym.synset().definition())
             for derived in lemma.derivationally_related_forms():
-                offer(derived.name(), "root", index)
+                offer(derived.name(), "root", index, None)
             for pertainym in lemma.pertainyms():
-                offer(pertainym.name(), "root", index)
+                offer(pertainym.name(), "root", index, None)
         for hyper in synset.hypernyms():
             for lemma in hyper.lemmas():
-                offer(lemma.name(), "hypernym", index)
+                offer(lemma.name(), "hypernym", index, hyper.definition())
         for hypo in synset.hyponyms():
             for lemma in hypo.lemmas():
-                offer(lemma.name(), "hyponym", index)
+                offer(lemma.name(), "hyponym", index, hypo.definition())
         for part in synset.part_meronyms() + synset.member_meronyms() \
                 + synset.part_holonyms() + synset.member_holonyms():
             for lemma in part.lemmas():
-                offer(lemma.name(), "part", index)
+                offer(lemma.name(), "part", index, part.definition())
         for substance in synset.substance_meronyms() + synset.substance_holonyms():
             for lemma in substance.lemmas():
-                offer(lemma.name(), "substance", index)
+                offer(lemma.name(), "substance", index, substance.definition())
+        # The world a sense lives in: strike's tenpin sense carries a
+        # bowling domain mark, and "bowling" is exactly what a player
+        # answers. The gloss shown is the domained sense's own — the
+        # thing the reader may not have known the word could mean.
+        for domain in synset.topic_domains():
+            for lemma in domain.lemmas():
+                offer(lemma.name(), "domain", index, own_gloss)
     return found
 
 
+SENSES_DB = Path("E:/se-work/kaikki/senses.sqlite")
+
+
+def load_definition_web(eligible: set[str]) -> tuple[dict[str, list[tuple[str, str]]], dict[str, list[str]], dict[str, list[tuple[str, str]]]]:
+    """Three read-side views of the dictionary itself (senses.py's store):
+
+      reverse:  token -> [(word, definition)] for every eligible word whose
+                definition uses the token — "punch: a hit or strike with
+                one's fist" files punch under strike. How the judge honours
+                an answer the taxonomy never drew an edge for.
+      forward:  word -> its own definitions' content tokens — the other
+                direction of the same handshake.
+      roots:    word -> [(language, root)] — shared origins, for the labels
+                that teach etymology.
+    """
+    import sqlite3
+
+    reverse: dict[str, list[tuple[str, str]]] = {}
+    forward: dict[str, list[str]] = {}
+    roots: dict[str, list[tuple[str, str]]] = {}
+    if not SENSES_DB.exists():
+        print(f"  ({SENSES_DB} not found — definition crossing disabled)", file=sys.stderr)
+        return reverse, forward, roots
+
+    db = sqlite3.connect(SENSES_DB)
+    for word, raw in db.execute("SELECT word, senses FROM senses"):
+        if word not in eligible:
+            continue
+        tokens_here: set[str] = set()
+        for sense in json.loads(raw):
+            definition = sense["def"]
+            if definition.startswith("Form of "):
+                continue
+            tokens = {
+                t
+                for t in TOKEN_RE.findall(definition.lower())
+                if len(t) >= 3 and t not in DEFINITION_STOPWORDS
+            }
+            tokens_here |= tokens
+            for token in tokens:
+                bucket = reverse.setdefault(token, [])
+                if len(bucket) < 400:  # "hit" is in thousands of definitions
+                    bucket.append((word, definition))
+        if tokens_here:
+            forward[word] = sorted(tokens_here)
+    for word, raw in db.execute("SELECT word, roots FROM roots"):
+        if word in eligible:
+            rows = [(lang, root) for lang, root in json.loads(raw) if len(root) >= 4]
+            if rows:
+                roots[word] = rows
+    db.close()
+    print(
+        f"  definition web: {len(reverse)} tokens, {len(forward)} defined words, "
+        f"{len(roots)} etymologies",
+        file=sys.stderr,
+    )
+    return reverse, forward, roots
+
+
+def shared_root(a: str, b: str, roots: dict[str, list[tuple[str, str]]]) -> tuple[str, str] | None:
+    """The (language, root) two words share, when their recorded origins
+    meet. Middle English restatements of the word itself prove nothing
+    ("sound" from Middle English "sound"), so a root spelled exactly like
+    either word is skipped."""
+    for lang_a, root_a in roots.get(a, []):
+        if root_a in (a, b):
+            continue
+        for lang_b, root_b in roots.get(b, []):
+            if root_a == root_b and lang_a == lang_b:
+                return (lang_a, root_a)
+    return None
+
+
 def judge_connections(
-    word: str, pmi_related: dict[str, float], zipf
+    word: str, pmi_related: dict[str, float], zipf,
+    reverse: dict[str, list[tuple[str, str]]] | None = None,
 ) -> set[str]:
     """Every answer the judge should accept for this prompt — the widened
     net the module docstring describes. Index only; never the reveal."""
@@ -288,6 +407,20 @@ def judge_connections(
     for other, value in pmi_related.items():
         if value >= PMI_JUDGE:
             offer(other, accepted)
+
+    # Definition crossing, the other direction: any word whose own
+    # dictionary line uses the prompt is answering from the meaning
+    # itself — "punch: a hit or strike with one's fist" makes punch a
+    # right answer to strike, whatever the taxonomy drew.
+    if reverse:
+        stems = {word}
+        for pos in ("n", "v", "a"):
+            base = wordnet.morphy(word, pos)
+            if base:
+                stems.add(base)
+        for stem in stems:
+            for other, _definition in reverse.get(stem, []):
+                offer(other, accepted)
 
     accepted.update(w for w in cousins if zipf(w) >= COUSIN_MIN_ZIPF)
     return {w for w in accepted if zipf(w) >= 2.0}
@@ -395,12 +528,48 @@ def build() -> tuple[dict, dict]:
         and is_base_form(w)
     ]
 
+    # The dictionary web: reverse and forward definition crossing, and
+    # etymology roots — restricted to words common enough to be answers.
+    eligible = {
+        w for w in top_n_list("en", 60_000, wordlist="best") if WORD_RE.match(w) and len(w) >= 3
+    }
+    print("loading the definition web ...", file=sys.stderr)
+    web_reverse, web_forward, web_roots = load_definition_web(eligible)
+
     print(f"scoring {len(candidates)} candidate prompts ...", file=sys.stderr)
     prompt_associates: dict[str, list[dict]] = {}
     for word in candidates:
         wn_related = related_by_wordnet(word)
         pmi_related = pmi.get(word, {})
-        all_words = set(wn_related) | {
+
+        # Definition crossing joins the reveal too, both directions: the
+        # commonest words defined *through* the prompt, and the content
+        # words inside the prompt's own definitions.
+        extra: dict[str, tuple[str, float, str | None]] = {}
+        defined = sorted(
+            (
+                (other, definition)
+                for other, definition in web_reverse.get(word, [])
+                if other not in wn_related and zipf(other) >= 3.0
+                and not is_inflection_of(other, word) and not is_inflection_of(word, other)
+            ),
+            key=lambda pair: (-zipf(pair[0]), pair[0]),
+        )
+        for other, definition in defined[:6]:
+            extra[other] = ("defined", WEIGHTS["defined"], definition)
+        defines = sorted(
+            (
+                t
+                for t in web_forward.get(word, [])
+                if t not in wn_related and t not in extra and zipf(t) >= 3.0
+                and not is_inflection_of(t, word) and not is_inflection_of(word, t)
+            ),
+            key=lambda t: (-zipf(t), t),
+        )
+        for t in defines[:4]:
+            extra[t] = ("defines", WEIGHTS["defines"], None)
+
+        all_words = set(wn_related) | set(extra) | {
             w
             for w, value in pmi_related.items()
             if value >= PMI_LABELLED and WORD_RE.match(w) and len(w) >= 3
@@ -413,13 +582,23 @@ def build() -> tuple[dict, dict]:
 
         scored = []
         for w in sorted(all_words):
-            relation, strength = wn_related.get(w, ("corpus", 0.0))
+            relation, strength, detail = (
+                wn_related.get(w) or extra.get(w) or ("corpus", 0.0, None)
+            )
             value = pmi_related.get(w, 0.0)
             score = strength + PMI_BONUS * min(value, 10.0)
+            # A shared origin upgrades the vaguer labels into a real
+            # lesson: "both grown from Latin fenestra" beats "grown from
+            # the same root" and beats "keeps its company" every time.
+            root = shared_root(word, w, web_roots)
+            if root and relation in ("root", "corpus", "defines"):
+                connection = f"both grown from {root[0]} {root[1]}"
+            else:
+                connection = label_for(relation, word, detail)
             scored.append(
                 {
                     "word": w,
-                    "connection": LABELS[relation],
+                    "connection": connection,
                     "wn": relation != "corpus",
                     "pmi": value >= PMI_CONNECTED,
                     "_score": score,
@@ -481,7 +660,9 @@ def build() -> tuple[dict, dict]:
     }
 
     print("widening the judge's net for the chosen prompts ...", file=sys.stderr)
-    connected = {w: judge_connections(w, pmi.get(w, {}), zipf) for w in sorted(used)}
+    connected = {
+        w: judge_connections(w, pmi.get(w, {}), zipf, web_reverse) for w in sorted(used)
+    }
 
     prompt_list = sorted(used)
     prompt_index = {w: i for i, w in enumerate(prompt_list)}

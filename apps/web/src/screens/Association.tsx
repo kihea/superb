@@ -20,6 +20,7 @@ import {
 import { loadChallengeGlosses, type BookGlossEntry } from "../content/glosses";
 import { keepWord } from "../reading/words";
 import { useSpeechInput } from "../voice/useSpeechInput";
+import { ROUND_SECONDS, useRoundTimer, useTimedPreference } from "./useRoundTimer";
 import "./Challenge.css";
 
 type OfferKind = "strong" | "connected" | "stray";
@@ -45,6 +46,10 @@ export function Association() {
   const [typed, setTyped] = useState("");
   const [over, setOver] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const [timed, toggleTimed] = useTimedPreference();
+  const secondsLeft = useRoundTimer(timed && status === "ready" && !over, prompt?.word, () =>
+    setOver(true),
+  );
 
   useEffect(() => {
     Promise.all([
@@ -93,14 +98,14 @@ export function Association() {
 
   if (status === "loading") {
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         {null}
       </Screen>
     );
   }
   if (status === "error" || !prompt) {
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         <p className="sb-said">The words wouldn't load. Try again in a moment.</p>
       </Screen>
     );
@@ -113,7 +118,7 @@ export function Association() {
     const missed = prompt.associates.filter((a) => !said.has(a.word)).slice(0, 6);
 
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play" }}>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
         <div className="challenge-end sb-fade">
           <h2 className="sb-heading">
             {connectedCount === 0
@@ -191,7 +196,7 @@ export function Association() {
   }
 
   return (
-    <Screen title="Association" back={{ to: "/play", label: "Play" }} bare>
+    <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false} bare>
       <div className="sb-tiers">
         {TIERS.map((t) => (
           <button
@@ -203,7 +208,25 @@ export function Association() {
             {TIER_NAMES[t]}
           </button>
         ))}
+        <span className="sb-tiers__gap" />
+        <button
+          type="button"
+          className={`sb-tier challenge-timer${timed ? " sb-tier--on" : ""}`}
+          aria-pressed={timed}
+          onClick={toggleTimed}
+        >
+          {timed ? `0:${String(secondsLeft).padStart(2, "0")}` : "Timer"}
+        </button>
       </div>
+
+      {timed && (
+        <div className="challenge-timer-track" aria-hidden="true">
+          <span
+            className="challenge-timer-track__left"
+            style={{ width: `${(secondsLeft / ROUND_SECONDS) * 100}%` }}
+          />
+        </div>
+      )}
 
       <div className="challenge-board">
         <span className="challenge-seed">{prompt.word}</span>
@@ -254,7 +277,7 @@ export function Association() {
             data-listening={speech.listening}
             onClick={() => (speech.listening ? speech.stop() : speech.start())}
           >
-            <ThinkingOrb state="listening" size={20} paused={!speech.listening} />
+            <ThinkingOrb state={speech.listening ? "solving" : "composing"} size={20} />
           </button>
         )}
         <input
