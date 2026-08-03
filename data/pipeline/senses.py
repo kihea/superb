@@ -43,11 +43,19 @@ OUT_PATH = KAIKKI_DIR / "senses.sqlite"
 CONTENT_POS = {"noun", "verb", "adj", "adv"}
 SKIP_TAGS = {"alt-of", "abbreviation", "form-of"}
 HEADWORD = re.compile(r"^[a-z]+(?:['-][a-z]+)*$")
+# Capitalized headwords too — "English", "Christmas", "March". Excluding
+# them wholesale was how tapping "English" in a book answered with the
+# billiards spin: the language's own senses live under the capital, the
+# lowercase homograph is the obscure one, and a book lowercases its lookup.
+# Proper NAMES stay out anyway: wiktextract tags them pos "name", which
+# CONTENT_POS already refuses. Senses from a capital headword carry
+# "cap": true so a card can weigh the tapped word's own case.
+CAP_HEADWORD = re.compile(r"^[A-Z][a-z]+(?:['-][A-Za-z][a-z]*)*$")
 
 # At most this many glosses kept per entry, per (word, pos), and per word.
 PER_ENTRY = 2
 PER_POS = 3
-PER_WORD = 9
+PER_WORD = 12
 GLOSS_CAP = 220
 
 # "from Latin struere", "from Old English cnāwan", "from Proto-Germanic
@@ -134,7 +142,7 @@ def build_pos_weights(senses: dict) -> dict[str, dict[str, int]]:
     wn_pos = {"noun": "n", "verb": "v", "adj": "a", "adv": "r"}
     weights: dict[str, dict[str, int]] = {}
     for word, rows in senses.items():
-        pos_here = {p for p, _ in rows}
+        pos_here = {p for p, _, _ in rows}
         if len(pos_here) < 2:
             continue
         table: dict[str, int] = {}
@@ -149,8 +157,8 @@ def build() -> None:
     if not JSONL_PATH.exists():
         raise SystemExit(f"{JSONL_PATH} not found")
 
-    # word -> list of (pos, gloss); word -> list of (pos, lemma, tags)
-    senses: dict[str, list[tuple[str, str]]] = {}
+    # word -> list of (pos, gloss, cap); word -> list of (pos, lemma, tags, cap)
+    senses: dict[str, list[tuple[str, str, bool]]] = {}
     redirects: dict[str, list[tuple[str, str, str]]] = {}
     roots: dict[str, list[tuple[str, str]]] = {}
     lines = 0
@@ -171,72 +179,79 @@ def build() -> None:
                 continue
             word = entry.get("word", "")
             pos = entry.get("pos")
-            if pos not in CONTENT_POS or not HEADWORD.match(word):
+            if pos not in CONTENT_POS:
                 continue
+            if HEADWORD.match(word):
+                cap = False
+            elif CAP_HEADWORD.match(word):
+                cap = True
+            else:
+                continue
+            key = word.lower()
 
             glosses, redirect = first_signal(entry)
             if redirect is not None:
                 lemma, tags = redirect
-                kept = redirects.setdefault(word, [])
-                if not any(p == pos for p, _, _ in kept):
+                kept = redirects.setdefault(key, [])
+                if not any(p == pos for p, _, _, _ in kept):
                     # The form relation, in the words wiktextract tags it
                     # with: "past", "participle", "plural", ...
                     note = " ".join(
                         t for t in tags if t not in ("form-of", "alt-of")
                     )
-                    kept.append((pos, lemma, note))
+                    kept.append((pos, lemma.lower(), note, cap))
             else:
-                kept_senses = senses.setdefault(word, [])
+                kept_senses = senses.setdefault(key, [])
                 for gloss in glosses:
+                    # Capital and lowercase entries each get their own
+                    # per-POS allowance — the language "English" must not
+                    # be squeezed out by the billiards "english".
                     if (
                         len(kept_senses) < PER_WORD
-                        and sum(1 for p, _ in kept_senses if p == pos) < PER_POS
+                        and sum(1 for p, _, c in kept_senses if p == pos and c == cap) < PER_POS
                     ):
-                        kept_senses.append((pos, gloss))
+                        kept_senses.append((pos, gloss, cap))
 
-            if word not in roots:
+            if key not in roots:
                 found = extract_roots(entry)
                 if found:
-                    roots[word] = found
+                    roots[key] = found
 
     print(f"resolving {len(redirects):,} redirected forms", file=sys.stderr)
     resolved = 0
     for surface, targets in redirects.items():
         rows = senses.setdefault(surface, [])
-        for pos, lemma, note in targets:
-            lemma_senses = [g for p, g in senses.get(lemma, []) if p == pos]
+        for pos, lemma, note, cap in targets:
+            lemma_senses = [g for p, g, _ in senses.get(lemma, []) if p == pos]
             if not lemma_senses:
                 # The lemma has no gloss at this POS — fall back to any of
                 # its senses rather than losing the form entirely.
-                lemma_senses = [g for _, g in senses.get(lemma, [])][:1]
+                lemma_senses = [g for _, g, _ in senses.get(lemma, [])][:1]
             for gloss in lemma_senses[:PER_POS]:
                 prefix = f"Form of {lemma}" + (f" ({note})" if note else "")
-                rows.append((pos, f"{prefix}: {gloss}"[:GLOSS_CAP]))
+                rows.append((pos, f"{prefix}: {gloss}"[:GLOSS_CAP], cap))
                 resolved += 1
             # A form inherits its lemma's roots when it has none.
             if surface not in roots and lemma in roots:
                 roots[surface] = roots[lemma]
-        # Redirected readings come first: for an inflected surface form
-        # they are close to certain to be the dominant reading (the same
-        # judgement glosses.py's redirect override makes).
-        rows.sort(key=lambda row: 0 if row[1].startswith("Form of ") else 1)
-
     # Which POS leads when nothing else decides: WordNet's own sense count
     # per POS is a fair stand-in for how a word is usually used — "know"
     # has eleven verb senses and no noun there, so the Scots hill never
-    # again leads its card. Redirect-form readings still sort first.
+    # again leads its card. Within a POS: the redirect (form) reading
+    # leads ("sounded" and "found" read as their verbs' pasts), then the
+    # lowercase senses, then the capital ones — a neutral default reads a
+    # word as its common-noun self; the card promotes the capital senses
+    # itself when the tapped word actually wears the capital, and a book
+    # table's default does the same when the book mostly prints it so.
     print("ordering senses by WordNet part-of-speech weight", file=sys.stderr)
     pos_weight = build_pos_weights(senses)
     for word, rows in senses.items():
         weights = pos_weight.get(word, {})
-        # POS weight first, so "know" leads with its eleven verb senses
-        # rather than the alt-of knoll; within one POS the redirect (form)
-        # reading leads, so "sounded" and "found" read as their verbs'
-        # pasts before anything rarer.
         rows.sort(
             key=lambda row, w=weights: (
                 -w.get(row[0], 0),
                 0 if row[1].startswith("Form of ") else 1,
+                1 if row[2] else 0,
             )
         )
 
@@ -249,7 +264,16 @@ def build() -> None:
     db.executemany(
         "INSERT INTO senses VALUES (?, ?)",
         (
-            (word, json.dumps([{"pos": p, "def": g} for p, g in rows], ensure_ascii=False))
+            (
+                word,
+                json.dumps(
+                    [
+                        {"pos": p, "def": g, "cap": True} if c else {"pos": p, "def": g}
+                        for p, g, c in rows
+                    ],
+                    ensure_ascii=False,
+                ),
+            )
             for word, rows in sorted(senses.items())
             if rows
         ),

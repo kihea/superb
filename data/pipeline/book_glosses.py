@@ -217,12 +217,20 @@ def find_senses(word: str, senses_raw: dict[str, str]) -> list[dict] | None:
                 text = normalize_definition(row["def"])
                 if text not in seen:
                     seen.add(text)
-                    out.append({"pos": row["pos"], "def": text})
+                    kept = {"pos": row["pos"], "def": text}
+                    # The cap flag must survive this rebuild — dropping it
+                    # here once made every case-aware default and the
+                    # card's own case check silently inert.
+                    if row.get("cap"):
+                        kept["cap"] = True
+                    out.append(kept)
             return out or None
     return None
 
 
-def build_entry(word: str, table: dict[str, str], senses_raw: dict[str, str]) -> dict | None:
+def build_entry(
+    word: str, table: dict[str, str], senses_raw: dict[str, str], prefer_cap: bool = False
+) -> dict | None:
     """One reader-facing entry: a single default definition, taken from the
     sense store's own ordering (WordNet part-of-speech weight, redirect
     forms first within a POS) so an inflected form like "sounded" defaults
@@ -234,7 +242,8 @@ def build_entry(word: str, table: dict[str, str], senses_raw: dict[str, str]) ->
     every book shares anyway."""
     senses = find_senses(word, senses_raw)
     if senses:
-        return {"definition": senses[0]["def"]}
+        wanted = [s for s in senses if bool(s.get("cap")) == prefer_cap]
+        return {"definition": (wanted[0] if wanted else senses[0])["def"]}
     definition = find_definition(word, table)
     if definition:
         return {"definition": definition}
@@ -251,18 +260,24 @@ def iter_texts(blocks: list):
             yield from iter_texts(children)
 
 
-def book_words(book: dict) -> set[str]:
-    """Every distinct word a reader could tap: the tokens themselves, plus
-    the parts of hyphenated tokens (each part is a word in its own right)."""
+def book_words(book: dict) -> tuple[set[str], set[str]]:
+    """Every distinct word a reader could tap (lowercased), plus the set of
+    words this book prints capitalized more often than not — "English" in a
+    novel set in England — so the table's default definition can honour the
+    book's own usage rather than the lowercase homograph's."""
     words: set[str] = set()
+    cap_counts: dict[str, list[int]] = {}
     for chapter in book.get("chapters", []):
         for text in iter_texts(chapter.get("blocks", [])):
             for token in WORD.findall(text):
-                token = token.lower()
-                words.add(token)
-                if "-" in token:
-                    words.update(part for part in token.split("-") if part)
-    return words
+                lower = token.lower()
+                words.add(lower)
+                counts = cap_counts.setdefault(lower, [0, 0])
+                counts[0 if token[0].isupper() else 1] += 1
+                if "-" in lower:
+                    words.update(part for part in lower.split("-") if part)
+    mostly_cap = {w for w, (cap, low) in cap_counts.items() if cap > low}
+    return words, mostly_cap
 
 
 def stripped_forms(word: str) -> list[str]:
@@ -328,10 +343,10 @@ def write_book_table(
     book_id: str, library: Path, table: dict[str, str], senses_raw: dict[str, str]
 ) -> tuple[int, int]:
     book = json.loads((library / "books" / book_id / "book.json").read_text(encoding="utf-8"))
-    words = book_words(book)
+    words, mostly_cap = book_words(book)
     entries = {}
     for word in sorted(words):
-        entry = build_entry(word, table, senses_raw)
+        entry = build_entry(word, table, senses_raw, prefer_cap=word in mostly_cap)
         if entry:
             entries[word] = entry
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -382,6 +397,7 @@ def collect_words(node) -> set[str]:
 def write_challenge_table() -> None:
     table = load_dictionary()
     senses_raw = load_senses()
+    mostly_cap = load_mostly_cap()
     challenges_dir = OUT_DIR.parent / "challenges"
     words: set[str] = set()
     for name in ("rhyme-prompts.json", "association.json"):
@@ -389,7 +405,7 @@ def write_challenge_table() -> None:
         words |= collect_words(data)
     entries = {}
     for word in sorted(words):
-        entry = build_entry(word, table, senses_raw)
+        entry = build_entry(word, table, senses_raw, prefer_cap=word in mostly_cap)
         if entry:
             entries[word] = entry
     out_path = challenges_dir / "glosses.json"
@@ -420,6 +436,7 @@ def inflected_headwords(word: str, table: dict[str, str]) -> list[str]:
 def write_prose_table() -> None:
     table = load_dictionary()
     senses_raw = load_senses()
+    mostly_cap = load_mostly_cap()
     root = OUT_DIR.parent
     words: set[str] = set()
     for path in sorted((root / "classes").glob("*.json")):
@@ -436,7 +453,7 @@ def write_prose_table() -> None:
         words.update(token.lower() for token in WORD.findall(data.get("text", "")))
     entries = {}
     for word in sorted(words):
-        entry = build_entry(word, table, senses_raw)
+        entry = build_entry(word, table, senses_raw, prefer_cap=word in mostly_cap)
         if entry:
             entries[word] = entry
         for form in inflected_headwords(word.replace("’", "'"), table):
@@ -452,6 +469,39 @@ def write_prose_table() -> None:
     print(f"wrote {out_path} ({len(entries)} entries from {len(words)} base words)")
 
 
+CASING_PATH = KAIKKI_DIR / "casing.json"
+
+
+def write_casing() -> None:
+    """How the library itself prints each word: counts of capitalized
+    against lowercase occurrences over all 614 books. The judge of which
+    reading of a case-split word ("English"/"english", "March"/"march")
+    is the common one — measured from the corpus rather than guessed."""
+    library = DEFAULT_LIBRARY
+    counts: dict[str, list[int]] = {}
+    books_dir = library / "books"
+    book_ids = sorted(p.name for p in books_dir.iterdir() if p.is_dir())
+    for n, book_id in enumerate(book_ids, 1):
+        book = json.loads((books_dir / book_id / "book.json").read_text(encoding="utf-8"))
+        for chapter in book.get("chapters", []):
+            for text in iter_texts(chapter.get("blocks", [])):
+                for token in WORD.findall(text):
+                    row = counts.setdefault(token.lower(), [0, 0])
+                    row[0 if token[0].isupper() else 1] += 1
+        if n % 100 == 0 or n == len(book_ids):
+            print(f"  {n}/{len(book_ids)} books", file=sys.stderr)
+    CASING_PATH.write_text(json.dumps(counts, ensure_ascii=False), encoding="utf-8")
+    print(f"wrote {CASING_PATH} ({len(counts):,} words)")
+
+
+def load_mostly_cap() -> set[str]:
+    if not CASING_PATH.exists():
+        print(f"  ({CASING_PATH} not found — run the casing subcommand for case-aware defaults)", file=sys.stderr)
+        return set()
+    counts = json.loads(CASING_PATH.read_text(encoding="utf-8"))
+    return {w for w, (cap, low) in counts.items() if cap > low}
+
+
 def write_senses_table() -> None:
     """The ONE shared sense table the word cards read beside whichever
     single-definition table they came from: every word in the top frequency
@@ -460,6 +510,7 @@ def write_senses_table() -> None:
     with common words, so one table covers every book without repeating
     itself six hundred times."""
     senses_raw = load_senses()
+    mostly_cap = load_mostly_cap()
     out_root = OUT_DIR.parent
     words: set[str] = set()
 
@@ -480,13 +531,19 @@ def write_senses_table() -> None:
         senses = find_senses(word.lower(), senses_raw)
         if not senses or len(senses) < 2:
             continue
-        # Only genuinely cross-POS ambiguity earns a row — that is where a
-        # sentence can actually change the answer ("sound" the adjective
-        # against the noise; "know" the verb against the knoll). Same-POS
-        # shading rides on the default definition instead; carrying it for
-        # every polysemous word tripled the file.
+        # Cross-POS ambiguity earns a row — that is where a sentence can
+        # change the answer ("sound" the adjective against the noise) — and
+        # so does cased ambiguity ("Mass" the service against "mass" the
+        # weight), where the tapped word's own capital decides. Same-POS,
+        # same-case shading rides on the default definition instead;
+        # carrying it for every polysemous word tripled the file.
+        # A word the library prints capitalized more often than not leads
+        # with its capital senses — "English" is the language first and the
+        # billiards spin after, because that is how the books use it.
+        if word.lower() in mostly_cap:
+            senses = sorted(senses, key=lambda s: 0 if s.get("cap") else 1)
         kept = senses[:4]
-        if len({s["pos"] for s in kept}) < 2:
+        if len({s["pos"] for s in kept}) < 2 and len({bool(s.get("cap")) for s in kept}) < 2:
             continue
         for s in kept:
             if len(s["def"]) > 160:
@@ -520,6 +577,8 @@ if __name__ == "__main__":
         write_prose_table()
     elif command == "senses":
         write_senses_table()
+    elif command == "casing":
+        write_casing()
     else:
         raise SystemExit(
             "usage: book_glosses.py [--library PATH] dict | books [book-id ...] | challenges | prose | senses"

@@ -19,10 +19,13 @@ const CONTENT_CACHE = "superb-content-v1";
 const contentUrl = (name: string) => `${import.meta.env.BASE_URL}content/${name}`;
 
 /** One tagged sense: a content part of speech ("noun" | "verb" | "adj" |
- *  "adv") and the definition that reading carries. */
+ *  "adv") and the definition that reading carries. `cap` marks a sense
+ *  that lives under the capitalized headword — "English" the language
+ *  against "english" the billiards spin. */
 export interface GlossSense {
   pos: string;
   def: string;
+  cap?: boolean;
 }
 
 export interface BookGlossEntry {

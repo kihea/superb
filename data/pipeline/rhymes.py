@@ -150,7 +150,13 @@ def is_vowel(phoneme: str) -> bool:
 
 
 def strip_stress(phoneme: str) -> str:
-    return phoneme[:-1] if is_vowel(phoneme) else phoneme
+    phoneme = phoneme[:-1] if is_vowel(phoneme) else phoneme
+    # The cot-caught merger, applied to the keys: CMUdict itself is split on
+    # this vowel — it gives "soft" AA but "loft" AO, so the two failed to
+    # rhyme on either rime or nucleus, which no English speaker would
+    # accept. Nearly all of the recording's own inconsistency and nearly
+    # every modern reader merge these, so the judge does too.
+    return "AA" if phoneme == "AO" else phoneme
 
 
 def analyze(phonemes: list[str]) -> tuple[str, str, int] | None:

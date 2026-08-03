@@ -16,8 +16,14 @@ const SOUND: BookGlossEntry = {
 };
 
 describe("inferPos", () => {
-  it("reads a determiner as a noun signal", () => {
+  it("reads a determiner whose phrase closes right after as a noun signal", () => {
     expect(inferPos("sound", "They heard a sound in the dark.")).toBe("noun");
+  });
+
+  it("reads a determiner-led word followed by more phrase as an adjective", () => {
+    // The Drood case: "an ancient English Cathedral" does not make
+    // ancient a noun — the determiner starts the phrase, ancient dresses it.
+    expect(inferPos("ancient", "an ancient English Cathedral town")).toBe("adj");
   });
 
   it("reads 'to' and -ed forms as verb signals", () => {
@@ -27,6 +33,29 @@ describe("inferPos", () => {
 
   it("reads intensifiers as adjective signals", () => {
     expect(inferPos("sound", "The advice was very sound indeed.")).toBe("adj");
+  });
+});
+
+describe("capital senses", () => {
+  const ENGLISH: BookGlossEntry = {
+    definition: "Spinning or rotary motion given to a ball around the vertical axis.",
+    senses: [
+      { pos: "noun", def: "Spinning or rotary motion given to a ball around the vertical axis." },
+      { pos: "noun", def: "The language of England, spoken widely around the world.", cap: true },
+      { pos: "adj", def: "Of or pertaining to England or its people.", cap: true },
+    ],
+  };
+
+  it("a mid-sentence capital picks the capital senses over the billiards spin", () => {
+    const picked = pickDefinition("English", ENGLISH, "an ancient English Cathedral town");
+    expect(picked).not.toBe(ENGLISH.definition);
+    expect(picked).toMatch(/England/);
+  });
+
+  it("a lowercase tap keeps the lowercase sense", () => {
+    expect(pickDefinition("english", ENGLISH, "he put some english on the cue ball")).toBe(
+      ENGLISH.definition,
+    );
   });
 });
 
