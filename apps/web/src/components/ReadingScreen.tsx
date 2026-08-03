@@ -27,7 +27,7 @@ import { useEngineSession } from "../engine/useEngineSession";
 import "./ReadingScreen.css";
 import { PassagePage } from "./PassagePage";
 import { PixelBreak } from "./chrome/PixelBreak";
-import { VoiceOrb } from "./voice/VoiceOrb";
+import { ThinkingOrb } from "thinking-orbs";
 import { Link } from "../router/router";
 import { useState } from "react";
 import { useReadAloud } from "../voice/readAloud";
@@ -85,6 +85,9 @@ export function ReadingScreen() {
       {/* 3a's top row: one word out, one thing to press. Nothing else. */}
       <header className="reading-top">
         <Link to="/play" className="reading-top__out">
+          <span className="sb-back-arrow" aria-hidden="true">
+            ←
+          </span>
           Play
         </Link>
         {voice.supported && (
@@ -95,7 +98,12 @@ export function ReadingScreen() {
             aria-label={speaking ? "Stop" : "Read this to me"}
             onClick={() => (speaking ? voice.stop() : voice.start(0))}
           >
-            <VoiceOrb state={speaking ? "speaking" : "still"} size={speaking ? 26 : 22} />
+            {/* working while the voice reads; searching, held still, while
+                quiet — the same pair every read-aloud orb wears now. The
+                games' mic orbs run solving/composing instead, so listening
+                and speaking never share a face. VoiceOrb (Kihea's canvas)
+                remains the fallback where the package cannot paint. */}
+            <ThinkingOrb state={speaking ? "working" : "searching"} size={20} paused={!speaking} />
           </button>
         )}
       </header>

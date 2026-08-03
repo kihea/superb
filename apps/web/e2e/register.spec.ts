@@ -191,7 +191,15 @@ async function readerFacingNumberViolations(page: Page): Promise<{ route: string
           violations.push({ route: `${label} list-item`, selector: describe(el), text: "(UA list marker)" });
         }
 
-        if (el.tagName === "CANVAS" && !el.classList.contains("voice-orb")) {
+        // The sanctioned orb is the thinking-orbs canvas inside the orb
+        // button now (Kihea's own .voice-orb canvas remains sanctioned as
+        // the fallback) — either way, exactly one small canvas that is the
+        // voice's mark, and nothing else may paint pixels here.
+        if (
+          el.tagName === "CANVAS" &&
+          !el.classList.contains("voice-orb") &&
+          !el.closest(".voice-orb-button")
+        ) {
           violations.push({ route: `${label} canvas`, selector: describe(el), text: "(unaudited canvas)" });
         }
 

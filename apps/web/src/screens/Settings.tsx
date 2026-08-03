@@ -15,6 +15,13 @@ import type { Night, Paper } from "../theme/theme";
 import { useMotion } from "../theme/motion";
 import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
+import {
+  chosenVoiceURI,
+  listVoices,
+  onVoicesReady,
+  pickVoice,
+  setChosenVoice,
+} from "../voice/speak";
 import "./Settings.css";
 
 // The orb on the reading page is the control; this is the preview -- a
@@ -50,6 +57,17 @@ export function Settings() {
   const { motion, setMotion } = useMotion();
   const [voiceState, setVoiceState] = useState<OrbState>("still");
   const voiceSupported = useRef(speechSynthesisSupported()).current;
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [voiceURI, setVoiceURI] = useState<string | null>(() => chosenVoiceURI());
+  const [voicesOpen, setVoicesOpen] = useState(false);
+
+  useEffect(() => {
+    // Chrome hands over its voice list (Google network voices included)
+    // only after voiceschanged; ask again once it has.
+    const unlisten = onVoicesReady(() => setVoices(listVoices()));
+    setVoices(listVoices());
+    return unlisten;
+  }, []);
 
   useEffect(() => {
     // Leaving the screen mid-sample should not leave the phone talking to an
@@ -59,15 +77,28 @@ export function Settings() {
     };
   }, [voiceSupported]);
 
-  function playVoicePreview() {
-    if (!voiceSupported || voiceState === "speaking") return;
+  function playVoicePreview(voice?: SpeechSynthesisVoice) {
+    if (!voiceSupported) return;
     const utterance = new SpeechSynthesisUtterance(PREVIEW_LINE);
+    const picked = voice ?? pickVoice();
+    if (picked) utterance.voice = picked;
     utterance.onend = () => setVoiceState("still");
     utterance.onerror = () => setVoiceState("still");
     setVoiceState("speaking");
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
   }
+
+  function chooseVoice(voice: SpeechSynthesisVoice) {
+    setChosenVoice(voice.voiceURI);
+    setVoiceURI(voice.voiceURI);
+    // Hearing the choice is the confirmation — no toast, no tick.
+    playVoicePreview(voice);
+  }
+
+  const currentVoice =
+    voices.find((v) => v.voiceURI === voiceURI) ??
+    (voiceSupported ? (pickVoice() ?? null) : null);
 
   useEffect(() => {
     document.documentElement.style.setProperty("--reader-scale", String(scale));
@@ -150,10 +181,19 @@ export function Settings() {
         </div>
 
         <div className="settings-row">
-          <span className="settings-row__names">
+          <button
+            type="button"
+            className="settings-row__names settings-row__names--button"
+            aria-expanded={voicesOpen}
+            onClick={() => setVoicesOpen((open) => !open)}
+          >
             <span className="settings-row__name">Voice</span>
-            <span className="sb-caption">your phone's own</span>
-          </span>
+            <span className="sb-caption">
+              {currentVoice
+                ? `${currentVoice.name}${voices.length > 1 ? " · tap to change" : ""}`
+                : "your phone's own"}
+            </span>
+          </button>
           <span className="settings-row__voice-actions">
             {voiceSupported && (
               <button
@@ -161,13 +201,37 @@ export function Settings() {
                 className="voice-orb-button"
                 data-speaking={voiceState === "speaking"}
                 aria-label="Hear a sample of this voice"
-                onClick={playVoicePreview}
+                onClick={() => playVoicePreview()}
               >
                 <VoiceOrb state={voiceState} size={22} />
               </button>
             )}
           </span>
         </div>
+
+        {voicesOpen && voices.length > 0 && (
+          <div className="settings-voices sb-fade" role="listbox" aria-label="Reading voice">
+            {voices.map((voice) => {
+              const on = currentVoice?.voiceURI === voice.voiceURI;
+              return (
+                <button
+                  key={voice.voiceURI}
+                  type="button"
+                  role="option"
+                  aria-selected={on}
+                  className={`sb-list__row${on ? " sb-list__row--chosen" : ""}`}
+                  onClick={() => chooseVoice(voice)}
+                >
+                  {voice.name.replace(/^(Microsoft|Google)\s+/, "")}
+                  <span className="sb-list__aside">
+                    {voice.localService ? "on this device" : "over the network"}
+                    {/^Google/.test(voice.name) ? " · Google" : ""}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        )}
 
       </div>
 

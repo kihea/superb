@@ -18,7 +18,10 @@ export function ReadAloudOrb({ voice, onStart }: { voice: ReadAloud; onStart: ()
       <span className="read-orb__word" aria-hidden="true">
         {speaking ? "quiet" : "read aloud"}
       </span>
-      <ThinkingOrb state={speaking ? "composing" : "listening"} size={20} paused={!speaking} />
+      {/* working = the voice is working through the text; searching, held
+          still, = quiet and ready. The mic orbs in the games run solving/
+          composing, so the two jobs never wear the same face. */}
+      <ThinkingOrb state={speaking ? "working" : "searching"} size={20} paused={!speaking} />
     </button>
   );
 }
