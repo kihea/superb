@@ -30,6 +30,6 @@ body:
     id: prior-art
     attributes:
       label: Anywhere you've seen this done well
-      description: Optional. Another app, a book, a screenshot — anything that shows what you mean.
+      description: Optional. Another app, a book, a screenshot, anything that shows what you mean.
     validations:
       required: false

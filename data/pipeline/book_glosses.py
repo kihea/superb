@@ -60,14 +60,31 @@ Lookups, in order, for a word the store does not hold directly:
     main path.
 
 The library checkout is read from E:/se-work/library (pass --library to
-point elsewhere). The app fetches the book text itself at runtime from
-https://cdn.jsdelivr.net/gh/superb-catalogue/library@main/books/<id>/book.json;
-these tables are the only per-book content this repository commits.
+point elsewhere), and the per-book tables are written back into it, beside
+the book each one belongs to. The app fetches both from the same CDN path
+and the same commit:
+
+    https://cdn.jsdelivr.net/gh/superb-catalogue/library@main/books/<id>/book.json
+    https://cdn.jsdelivr.net/gh/superb-catalogue/library@main/books/<id>/glosses.json
+
+They used to be committed here instead, under content/glosses/. At 614
+books that was 449 MB; at 1,478 it would have been about a gigabyte, in
+this repository and in every deploy of the site, for data the app only ever
+hands straight to the reader. A book and its word meanings are one thing,
+so they now travel together and neither is copied.
+
+What this repository still commits is the content it owns rather than
+mirrors: content/glosses/senses.json (the shared tagged sense lists),
+content/glosses/prose.json (the composed-passage table) and
+content/challenges/glosses.json (the games' table).
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
+import multiprocessing
+import os
 import re
 import sqlite3
 import sys
@@ -237,8 +254,8 @@ def build_entry(
     to its verb reading rather than whichever homograph the extract lists
     first. The full tagged sense lists live in ONE shared table
     (content/glosses/senses.json, the `senses` subcommand below) rather
-    than inline in every book — inline senses grew the 614 book tables to
-    1.8 GB, and the ambiguous words are overwhelmingly the common ones
+    than inline in every book: inline senses grew the per-book tables to
+    1.8 GB across 614 books, and the ambiguous words are overwhelmingly the common ones
     every book shares anyway."""
     senses = find_senses(word, senses_raw)
     if senses:
@@ -342,39 +359,139 @@ def find_definition(word: str, table: dict[str, str]) -> str | None:
 def write_book_table(
     book_id: str, library: Path, table: dict[str, str], senses_raw: dict[str, str]
 ) -> tuple[int, int]:
-    book = json.loads((library / "books" / book_id / "book.json").read_text(encoding="utf-8"))
+    """Writes the table beside the book it belongs to, inside the library
+    checkout, so the app fetches it from the same CDN path and the same
+    commit as the text: books/<id>/glosses.json next to books/<id>/book.json.
+    A book and its word meanings are one thing, and keeping them together
+    is what stops the app repository growing by a gigabyte of data it only
+    ever hands straight to the reader."""
+    book_dir = library / "books" / book_id
+    book = json.loads((book_dir / "book.json").read_text(encoding="utf-8"))
     words, mostly_cap = book_words(book)
     entries = {}
     for word in sorted(words):
         entry = build_entry(word, table, senses_raw, prefer_cap=word in mostly_cap)
         if entry:
             entries[word] = entry
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUT_DIR / f"{book_id}.json"
+    out_path = book_dir / "glosses.json"
     with out_path.open("w", encoding="utf-8", newline="\n") as handle:
         json.dump(entries, handle, ensure_ascii=False, separators=(",", ":"))
         handle.write("\n")
     return len(entries), len(words)
 
 
-def write_all_books(library: Path, only: list[str]) -> None:
-    table = load_dictionary()
-    senses_raw = load_senses()
+# What each book's table was built from, so a rerun can tell which books
+# actually changed. Keyed by book id, holding the SHA-256 of the book.json
+# the table was built against. One file rather than a stamp per book, and
+# deliberately not mtime: scripts/ingest.py rewrites every book.json on a
+# full run even where the bytes are identical, and mtimes would then say
+# all 1,478 books need glossing again when none of them do.
+STAMPS_NAME = ".gloss-stamps.json"
+
+
+def book_digest(books_dir: Path, book_id: str) -> str:
+    return hashlib.sha256((books_dir / book_id / "book.json").read_bytes()).hexdigest()
+
+
+def load_stamps(books_dir: Path) -> dict[str, str]:
+    path = books_dir / STAMPS_NAME
+    if not path.is_file():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        # A damaged stamp file must not silently mean "everything is
+        # current"; rebuilding is the safe reading.
+        return {}
+
+
+def save_stamps(books_dir: Path, stamps: dict[str, str]) -> None:
+    (books_dir / STAMPS_NAME).write_text(
+        json.dumps(dict(sorted(stamps.items())), indent=0) + "\n", encoding="utf-8"
+    )
+
+
+def needs_rebuild(books_dir: Path, book_id: str, stamps: dict[str, str]) -> bool:
+    """A book whose table was built from exactly this text does not need
+    building again. Adding one archive should cost one archive's work, not
+    the whole shelf's."""
+    if not (books_dir / book_id / "glosses.json").is_file():
+        return True
+    return stamps.get(book_id) != book_digest(books_dir, book_id)
+
+
+# One dictionary per worker process, loaded once on start. Windows has no
+# fork, so a worker cannot inherit the parent's tables; loading them in an
+# initializer costs each worker one read and then pays for itself over the
+# hundreds of books that worker handles.
+_WORKER: dict[str, object] = {}
+
+
+def _worker_init() -> None:
+    _WORKER["table"] = load_dictionary()
+    _WORKER["senses"] = load_senses()
+
+
+def _worker_book(args: tuple[str, str]) -> tuple[str, int, int]:
+    book_id, library = args
+    glossed, distinct = write_book_table(
+        book_id, Path(library), _WORKER["table"], _WORKER["senses"]  # type: ignore[arg-type]
+    )
+    return book_id, glossed, distinct
+
+
+def write_all_books(library: Path, only: list[str], jobs: int = 0, force: bool = False) -> None:
     books_dir = library / "books"
     book_ids = only or sorted(p.name for p in books_dir.iterdir() if p.is_dir())
+    total_asked = len(book_ids)
+    stamps = load_stamps(books_dir)
+    if not force:
+        book_ids = [b for b in book_ids if needs_rebuild(books_dir, b, stamps)]
+    skipped = total_asked - len(book_ids)
+    if skipped:
+        print(f"  {skipped} book(s) already current, skipping (--force rebuilds)", file=sys.stderr)
+    if not book_ids:
+        print("every gloss table is already current")
+        return
+
+    if jobs <= 0:
+        jobs = min(8, max(1, (os.cpu_count() or 2) - 2))
+    # One book is not worth a process pool, and neither is a handful.
+    jobs = 1 if len(book_ids) < 4 else min(jobs, len(book_ids))
+
     glossed_total = 0
     distinct_total = 0
-    for n, book_id in enumerate(book_ids, 1):
-        glossed, distinct = write_book_table(book_id, library, table, senses_raw)
-        glossed_total += glossed
-        distinct_total += distinct
-        if n % 50 == 0 or n == len(book_ids):
-            print(f"  {n}/{len(book_ids)} books", file=sys.stderr)
-    size = sum(f.stat().st_size for f in OUT_DIR.glob("*.json"))
+    done = 0
+    if jobs == 1:
+        table = load_dictionary()
+        senses_raw = load_senses()
+        for book_id in book_ids:
+            glossed, distinct = write_book_table(book_id, library, table, senses_raw)
+            glossed_total += glossed
+            distinct_total += distinct
+            done += 1
+            if done % 50 == 0 or done == len(book_ids):
+                print(f"  {done}/{len(book_ids)} books", file=sys.stderr)
+    else:
+        print(f"  {len(book_ids)} books across {jobs} workers", file=sys.stderr)
+        payload = [(b, str(library)) for b in book_ids]
+        with multiprocessing.Pool(jobs, initializer=_worker_init) as pool:
+            for _bid, glossed, distinct in pool.imap_unordered(_worker_book, payload, chunksize=8):
+                glossed_total += glossed
+                distinct_total += distinct
+                done += 1
+                if done % 50 == 0 or done == len(book_ids):
+                    print(f"  {done}/{len(book_ids)} books", file=sys.stderr)
+
+    for b in book_ids:
+        stamps[b] = book_digest(books_dir, b)
+    save_stamps(books_dir, stamps)
+
+    size = sum((books_dir / b / "glosses.json").stat().st_size for b in book_ids)
     coverage = 100 * glossed_total / distinct_total if distinct_total else 0
     print(
-        f"wrote {len(book_ids)} gloss tables to {OUT_DIR} "
-        f"({size / 1_000_000:.0f} MB total, {coverage:.0f}% of distinct words glossed)"
+        f"wrote {len(book_ids)} gloss tables into {books_dir} "
+        f"({size / 1_000_000:.0f} MB for this run, {coverage:.0f}% of distinct words glossed)"
     )
 
 
@@ -474,7 +591,7 @@ CASING_PATH = KAIKKI_DIR / "casing.json"
 
 def write_casing() -> None:
     """How the library itself prints each word: counts of capitalized
-    against lowercase occurrences over all 614 books. The judge of which
+    against lowercase occurrences over every book in the library. The judge of which
     reading of a case-split word ("English"/"english", "March"/"march")
     is the common one — measured from the corpus rather than guessed."""
     library = DEFAULT_LIBRARY
@@ -560,17 +677,39 @@ def write_senses_table() -> None:
 
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support()
     args = sys.argv[1:]
     library = DEFAULT_LIBRARY
     if "--library" in args:
         at = args.index("--library")
         library = Path(args[at + 1])
         del args[at : at + 2]
+    jobs = 0
+    if "--jobs" in args:
+        at = args.index("--jobs")
+        jobs = int(args[at + 1])
+        del args[at : at + 2]
+    force = "--force" in args
+    if force:
+        args.remove("--force")
     command = args[0] if args else ""
     if command == "dict":
         build_dictionary()
     elif command == "books":
-        write_all_books(library, args[1:])
+        write_all_books(library, args[1:], jobs=jobs, force=force)
+    elif command == "stamp":
+        # Record every existing table as current, without rebuilding it.
+        # For adopting the incremental check on a shelf that was glossed
+        # before the check existed.
+        bd = library / "books"
+        st = load_stamps(bd)
+        n = 0
+        for p in sorted(bd.iterdir()):
+            if p.is_dir() and (p / "glosses.json").is_file():
+                st[p.name] = book_digest(bd, p.name)
+                n += 1
+        save_stamps(bd, st)
+        print(f"stamped {n} existing gloss tables as current")
     elif command == "challenges":
         write_challenge_table()
     elif command == "prose":
@@ -581,5 +720,6 @@ if __name__ == "__main__":
         write_casing()
     else:
         raise SystemExit(
-            "usage: book_glosses.py [--library PATH] dict | books [book-id ...] | challenges | prose | senses"
+            "usage: book_glosses.py [--library PATH] [--jobs N] [--force] "
+            "dict | books [book-id ...] | stamp | challenges | prose | senses"
         )

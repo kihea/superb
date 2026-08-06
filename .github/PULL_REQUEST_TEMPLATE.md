@@ -10,7 +10,7 @@
 ## Before / After
 
 <!-- Show the change, don't only describe it: behaviour, command output, or
-     screenshots — whichever makes it obvious. Two short blocks are ideal.
+     screenshots, whichever makes it obvious. Two short blocks are ideal.
 
      Before:
      After:
@@ -32,7 +32,7 @@
 
      If you added or changed a passage or a sourced excerpt, confirm it meets
      what [CONTRIBUTING.md](https://github.com/kihea/superb/blob/dev/CONTRIBUTING.md)
-     asks for — a complete citation for anything quoted from an existing work.
+     asks for: a complete citation for anything quoted from an existing work.
      Don't repeat those rules here; just say you checked.
 
      Pull requests target `dev`, and commits are signed off with `git commit -s`. -->

@@ -120,6 +120,20 @@ export async function saveKeptWords<T>(words: T[]): Promise<void> {
   return putTo(BOOK_STORE, WORDS_KEY, words);
 }
 
+/** What a reader thought of a book: their own stars and review, and
+ *  whatever a Goodreads export brought in with them. Keyed by book id, in
+ *  BOOK_STORE with everything else the reader owns — the engine has no
+ *  business knowing which books someone liked. */
+const MARKS_KEY = "marks";
+
+export async function loadBookMarks<T>(): Promise<Record<string, T>> {
+  return (await getFrom<Record<string, T>>(BOOK_STORE, MARKS_KEY)) ?? {};
+}
+
+export async function saveBookMarks<T>(marks: Record<string, T>): Promise<void> {
+  return putTo(BOOK_STORE, MARKS_KEY, marks);
+}
+
 const SENTENCES_KEY = "sentences";
 
 export async function loadKeptSentences<T>(): Promise<T[]> {

@@ -1,46 +1,49 @@
-/* The shapes that repeat across Kihea's fourteen frames, lifted out of his
-   inline styles once so a screen file can be read as its own layout rather
-   than as a wall of declarations. Values are his; the names are ours.
-   Phone-first: every rule here is written for 390px and widened after. */
+/* The shared shapes the three game screens are built from, re-cut for the
+   night ground. The class names are the ones those screens already speak;
+   what changed underneath is everything: no cards, no shadows, no fills, and
+   no colour left carrying a meaning on its own.
+   design/night.css holds the vocabulary the rest of the app uses. */
 
 .sb-screen {
-  min-height: 100dvh;
+  flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  background: var(--surface-page);
-  color: var(--text-1);
-  font: var(--type-body);
-  overflow-x: hidden;
+  background: var(--ground);
+  color: var(--ink);
+  overflow: hidden;
 }
 
-.sb-screen--sunken {
-  background: var(--surface-sunken);
-}
-
-/* The top row: a way back on the left, the name of the room in the middle,
-   and at most one thing on the right. */
+/* The top row of a game inside the shell: a way back on the left, the name
+   of the practice on the right. Not centred — a centred title needs a
+   matching weight opposite it, and there isn't one. */
 .sb-topbar {
+  flex: none;
   display: flex;
   align-items: center;
-  gap: var(--sp-5);
-  padding: var(--sp-5) var(--sp-7) var(--sp-4);
-  min-height: var(--tap-min);
+  gap: 14px;
+  padding: 24px 22px 0;
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sb-topbar__title {
   flex: 1;
-  font: var(--type-title-3);
-  color: var(--text-1);
-  text-align: center;
   margin: 0;
+  font-family: var(--face-meta);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  text-align: right;
 }
 
-/* Balances the back link so a centred title is actually centred. */
 .sb-topbar__trail {
-  min-width: 34px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .sb-body {
@@ -48,82 +51,91 @@
   min-height: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-6);
-  padding: var(--sp-6) var(--sp-7) var(--sp-9);
+  gap: 18px;
+  padding: 18px 22px 32px;
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
 }
 
 .sb-body--centred {
   justify-content: center;
-  gap: var(--sp-8);
+  gap: 24px;
 }
 
 /* ── Type roles ────────────────────────────────────────────────────────── */
 
 .sb-eyebrow {
-  font: var(--type-eyebrow);
-  letter-spacing: var(--ls-eyebrow);
+  font-family: var(--face-meta);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--text-3);
+  color: var(--ink-3);
 }
 
 .sb-heading {
-  font: var(--type-title-1);
-  color: var(--text-1);
   margin: 0;
+  font-family: var(--face-mark);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.2;
   text-wrap: pretty;
 }
 
 .sb-heading--sm {
-  font: var(--type-title-2);
+  font-size: 19px;
 }
 
 .sb-caption {
-  font: var(--type-caption);
-  color: var(--text-3);
   margin: 0;
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  color: var(--ink-3);
 }
 
 .sb-said {
-  font: var(--type-body-sm);
-  color: var(--text-2);
   margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-2);
 }
 
 .sb-passage {
-  font: var(--type-passage);
-  color: var(--text-1);
   margin: 0;
+  max-width: 62ch;
+  font-family: var(--face-read);
+  font-size: 19px;
+  line-height: 1.75;
+  color: rgba(242, 238, 231, 0.92);
   text-wrap: pretty;
-  max-width: var(--measure);
 }
 
 /* ── Controls ─────────────────────────────────────────────────────────── */
 
 .sb-button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--sp-4);
-  min-height: var(--control-h-lg);
-  padding: 0 var(--sp-7);
-  border: none;
-  border-radius: var(--r-sm);
-  background: var(--brand);
-  color: var(--text-on-brand);
-  font: var(--type-label);
+  gap: 9px;
+  min-height: 44px;
+  padding: 0 22px;
+  border: 1px solid var(--rule-lit);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   transition:
-    background var(--dur-1) var(--ease-out),
-    transform var(--dur-2) var(--ease-out);
+    background var(--fast),
+    border-color var(--fast);
 }
 
 .sb-button:hover {
-  background: var(--brand-hover);
-}
-
-.sb-button:active {
-  background: var(--brand-press);
-  transform: scale(var(--press-scale));
+  background: var(--wash-2);
+  border-color: var(--ink-2);
 }
 
 .sb-button--wide {
@@ -131,48 +143,32 @@
 }
 
 .sb-button--secondary {
-  background: var(--surface-card);
-  color: var(--text-1);
-  border: 1px solid var(--border-2);
-}
-
-.sb-button--secondary:hover {
-  background: var(--surface-sunken);
-}
-
-.sb-button--secondary:active {
-  background: var(--surface-sunken);
-}
-
-.sb-button--dark {
-  background: var(--surface-inverse);
-  color: var(--text-inverse);
-}
-
-.sb-button--dark:hover {
-  background: var(--surface-inverse);
-  opacity: 0.9;
+  border-color: var(--rule-2);
+  color: var(--ink-2);
 }
 
 .sb-button--sm {
-  min-height: var(--control-h);
-  padding: 0 var(--sp-6);
+  min-height: 40px;
+  padding: 0 18px;
+  font-size: 12px;
 }
 
-/* A control that is only words -- back links, "Not now", "Add to shelf". */
+/* A control that is only words. */
 .sb-quiet {
   border: none;
   background: transparent;
-  padding: var(--sp-5) 0;
+  padding: 6px 0;
   cursor: pointer;
-  font: var(--type-label);
-  color: var(--text-3);
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  color: var(--ink-3);
   text-align: left;
-  transition: color var(--dur-1) var(--ease-out);
+  text-decoration: none;
+  transition: color var(--fast);
 }
 
 .sb-quiet:hover {
-  color: var(--brand);
+  color: var(--ink);
 }
 
 .sb-quiet--centred {
@@ -181,97 +177,44 @@
 
 a.sb-quiet {
   display: inline-block;
-  text-decoration: none;
+}
+
+.sb-back-arrow {
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform var(--base) var(--ease);
+}
+
+.sb-quiet:hover .sb-back-arrow {
+  transform: translateX(-3px);
 }
 
 .sb-field {
   width: 100%;
   min-height: 44px;
-  padding: 0 var(--sp-6);
-  border: 1px solid var(--border-2);
-  border-radius: var(--r-sm);
-  background: var(--surface-card);
-  color: var(--text-1);
-  font: var(--type-body-sm);
+  padding: 0 16px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--face-meta);
+  font-size: 13px;
 }
 
 .sb-field::placeholder {
-  color: var(--text-3);
+  color: var(--ink-4);
 }
 
-:focus-visible {
-  outline: none;
-  box-shadow: var(--ring-focus);
-}
-
-/* ── Surfaces ─────────────────────────────────────────────────────────── */
-
-.sb-card {
-  background: var(--surface-card);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-1);
-  padding: var(--sp-7);
-}
-
-/* A stack of rows that reads as one object: the field list in 2e, the
-   tier door in 1r, the settings rows in 1u. */
-.sb-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  background: var(--border-1);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-md);
-  overflow: hidden;
-}
-
-.sb-list__row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--sp-5);
-  width: 100%;
-  min-height: var(--tap-min);
-  padding: var(--sp-5) var(--sp-6);
-  border: none;
-  background: var(--surface-card);
-  color: var(--text-1);
-  font: var(--type-body-sm);
-  text-align: left;
-  cursor: pointer;
-}
-
-.sb-list__row:hover {
-  background: var(--surface-sunken);
-}
-
-.sb-list__row--chosen,
-.sb-list__row--chosen:hover {
-  background: var(--brand-soft);
-  font: var(--fw-semibold) var(--fs-500) / 1.2 var(--font-ui);
-}
-
-.sb-list__row--quiet {
-  opacity: 0.6;
-}
-
-.sb-list__row--quiet:hover {
-  opacity: 1;
-}
-
-.sb-list__aside {
-  font: var(--type-caption);
-  color: var(--text-3);
-  flex: none;
-}
-
-/* ── The tier row, as 2d presents it: seven, sideways, always visible ─── */
+/* ── The tier row ─────────────────────────────────────────────────────── */
 
 .sb-tiers {
+  flex: none;
   display: flex;
-  gap: var(--sp-3);
-  padding: var(--sp-5) var(--sp-7) 0;
+  gap: 5px;
+  padding: 14px 22px 0;
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -280,341 +223,222 @@ a.sb-quiet {
   display: none;
 }
 
+.sb-tiers__gap {
+  flex: 1;
+  min-width: 8px;
+}
+
 .sb-tier {
-  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
-  padding: var(--sp-4) var(--sp-5);
-  min-height: var(--sp-9);
-  border-radius: var(--r-pill);
+  flex: none;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
   background: transparent;
-  border: 1px solid var(--border-2);
-  color: var(--text-3);
+  color: var(--ink-3);
+  font-family: var(--face-meta);
+  font-size: 11px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   white-space: nowrap;
+  transition:
+    background var(--fast),
+    border-color var(--fast),
+    color var(--fast);
 }
 
+.sb-tier:hover {
+  border-color: var(--rule-2);
+}
+
+/* The chosen tier is the one that is lit, not the one that is filled — the
+   old row was seven identical red pills and the choice read as decoration. */
 .sb-tier--on {
-  background: var(--brand);
-  border-color: var(--brand);
-  color: var(--text-on-brand);
+  border-color: var(--rule-lit);
+  background: var(--wash-2);
+  color: var(--ink);
 }
 
-/* ── Word chips: rhyme answers, kept words ────────────────────────────── */
+/* ── Word chips ───────────────────────────────────────────────────────── */
 
 .sb-chips {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--sp-4);
+  gap: 7px;
   justify-content: center;
 }
 
+/* Every chip carries a mark as well as a colour: a filled dot for an exact
+   hit, a ring for a near one, nothing for a miss. "Red = right, outlined =
+   near" was the audit's own example of colour doing a job it cannot do
+   alone. */
 .sb-chip {
-  font: var(--fw-semibold) var(--fs-400) / 1 var(--font-ui);
-  border-radius: var(--r-pill);
-  padding: var(--sp-4) var(--sp-5);
-  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 13px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-3);
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+}
+
+.sb-chip::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: transparent;
 }
 
 .sb-chip--exact {
-  background: var(--brand);
-  color: var(--text-on-brand);
+  border-color: var(--accent-edge);
+  color: var(--ink);
+}
+
+.sb-chip--exact::before {
+  background: var(--accent);
 }
 
 .sb-chip--near {
-  color: var(--text-1);
-  border-color: var(--support);
+  border-color: var(--rule-lit);
+  color: var(--ink);
+}
+
+.sb-chip--near::before {
+  box-shadow: inset 0 0 0 1px rgba(242, 238, 231, 0.7);
+}
+
+.sb-chip--quiet {
+  opacity: 0.55;
 }
 
 .sb-chip--blank {
-  border: 1px dashed var(--border-2);
   min-width: 66px;
-  height: 34px;
+  height: 32px;
+  border-style: dashed;
 }
 
-/* ── The answer row at the bottom of a challenge ──────────────────────── */
+/* ── The answer row ───────────────────────────────────────────────────── */
 
 .sb-answer {
+  flex: none;
   display: flex;
   align-items: center;
-  gap: var(--sp-5);
-  border-top: 1px solid var(--border-1);
-  padding: var(--sp-6) var(--sp-7) var(--sp-8);
+  gap: 9px;
+  border-top: 1px solid var(--rule);
+  padding: 14px 22px 20px;
+  padding-bottom: max(20px, env(safe-area-inset-bottom));
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sb-answer__field {
   flex: 1;
   min-width: 0;
-  min-height: var(--tap-min);
-  border: 1px solid var(--border-2);
-  border-radius: var(--r-pill);
-  padding: 0 var(--sp-6);
-  background: var(--surface-card);
-  color: var(--text-1);
-  font: var(--type-body-sm);
+  min-height: 44px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+  padding: 0 14px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--face-meta);
+  font-size: 13px;
+}
+
+.sb-answer__field::placeholder {
+  color: var(--ink-4);
 }
 
 .sb-answer__field:focus {
-  border-color: var(--brand);
-  box-shadow: 0 0 0 3px var(--highlight);
+  border-color: var(--accent-edge);
   outline: none;
 }
 
-/* ── Covers ───────────────────────────────────────────────────────────── */
-
-.sb-cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: var(--sp-4);
-  border-radius: var(--r-xs);
-  padding: var(--sp-5);
-  box-shadow: var(--shadow-1);
-  overflow: hidden;
-  text-align: left;
-  border: none;
-  cursor: pointer;
-  font: var(--fw-bold) var(--fs-300) / 1.15 var(--font-display);
-}
-
-.sb-cover__author {
-  font: var(--fw-regular) var(--fs-100) / 1.2 var(--font-ui);
-  opacity: 0.85;
-}
-
-/* These three read raw --ox-* ramp values until ADR-041's audit: correct in
-   Oxblood, wrong in Lilac and Glacier, since a cover's cloth is themed but
-   its ink was not. Semantic aliases throughout now, so a cover picks up
-   whichever theme is active the same way everything else does. */
-.sb-cover--brand {
-  background: var(--brand);
-  color: var(--text-on-brand);
-}
-
-.sb-cover--ink {
-  background: var(--surface-inverse);
-  color: var(--text-inverse);
-}
-
-/* No --text-on-support alias exists in the token bundle; --support sits at
-   roughly the same value range as --brand in every theme (sage/mint/indigo
-   beside oxblood-red/violet/teal), so the brand pairing is the closest
-   correct answer rather than a fourth raw ramp reference. */
-.sb-cover--support {
-  background: var(--support);
-  color: var(--text-on-brand);
-}
-
-.sb-cover--soft {
-  background: var(--brand-soft);
-  color: var(--text-1);
-}
-
-.sb-cover--paper {
-  background: var(--surface-card);
-  border: 1px solid var(--border-1);
-  color: var(--text-1);
-}
-
-/* Finished: frosted rather than faded, which is 1h's own note and which the
-   first pass wrote as `opacity: 0.66` -- fading, in as many words. It also
-   inverted: lowering a dark cover's opacity over a dark ground lifts it
-   toward the background and *brightens* it, so on the night Shelf a
-   finished book was the brightest object on the page.
-   The frost is what his frame actually draws: a veil the colour of the
-   paper it sits on, laid over the cover. Toward the page in both themes,
-   which is the property "faded" could never have. */
-.sb-cover--finished {
-  position: relative;
-  filter: saturate(0.35);
-  box-shadow: none;
-}
-
-.sb-cover--finished::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  /* No backdrop-filter: it sits over this cover's own title and author, in
-     the same paint layer, and blurred them into the illegible smear frame
-     4e does not draw -- "frosted" is the veil's colour, not lost focus. */
-  background: color-mix(in srgb, var(--surface-page) 68%, transparent);
-  pointer-events: none;
-}
-
-/* ── The tab bar: both edges, glass, steps aside on scroll ────────────── */
-
-.sb-tabbar {
+.sb-answer__mic {
+  flex: none;
   display: flex;
   align-items: center;
-  gap: var(--sp-5);
-  padding: var(--sp-5) var(--sp-7);
-  background: color-mix(in srgb, var(--surface-card) 82%, transparent);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
-  z-index: 40;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
   transition:
-    transform var(--dur-3) var(--ease-out),
-    opacity var(--dur-3) var(--ease-out);
+    border-color var(--fast),
+    color var(--fast);
 }
 
-/* Fixed, not sticky: .sb-screen clips horizontal overflow, and any
-   overflow on an ancestor quietly turns sticky into plain flow. The
-   screen reserves the bar's room with padding instead (below).
-
-   ONE bar shows at a time: the bottom row on a phone, where thumbs live,
-   and the top row on a wide screen, where a site header belongs. Both are
-   in the DOM so the switch is pure CSS; two bars at once was never the
-   point. */
-.sb-tabbar--top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-bottom: 1px solid var(--border-1);
-  display: none;
+.sb-answer__mic[data-listening="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-.sb-tabbar--bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: max(var(--sp-6), env(safe-area-inset-bottom));
-  border-top: 1px solid var(--border-1);
+/* ── A stack of rows that reads as one object ─────────────────────────── */
+
+.sb-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-/* The room the fixed bar occupies. */
-.sb-screen--nav {
-  padding-bottom: calc(60px + env(safe-area-inset-bottom));
+.sb-list__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 16px;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink-2);
+  font-family: var(--face-meta);
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
 }
 
-@media (min-width: 45rem) {
-  .sb-tabbar--top {
-    display: flex;
-  }
-
-  .sb-tabbar--bottom {
-    display: none;
-  }
-
-  .sb-screen--nav {
-    padding-top: 53px;
-    padding-bottom: 0;
-  }
+.sb-list__row:last-child {
+  border-bottom: none;
 }
 
-.sb-tabbar--top[data-hidden] {
-  transform: translateY(-100%);
-  opacity: 0;
-  pointer-events: none;
+.sb-list__row:hover {
+  background: var(--wash);
+  color: var(--ink);
 }
 
-.sb-tabbar--bottom[data-hidden] {
-  transform: translateY(100%);
-  opacity: 0;
-  pointer-events: none;
+.sb-list__row--chosen {
+  color: var(--accent-lit);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .sb-tabbar {
-    transition: opacity var(--dur-1) var(--ease-out);
-  }
-  .sb-tabbar--top[data-hidden],
-  .sb-tabbar--bottom[data-hidden] {
-    transform: none;
-  }
+.sb-list__aside {
+  flex: none;
+  font-size: 10.5px;
+  color: var(--ink-4);
 }
 
-/* The little arrow an in-play back word wears. */
-.sb-back-arrow {
-  display: inline-block;
-  margin-right: var(--sp-3);
-  transition: transform var(--dur-2) var(--ease-out);
-}
-
-.sb-quiet:hover .sb-back-arrow {
-  transform: translateX(-3px);
-}
-
-.sb-tabbar__link {
-  font: var(--type-label);
-  color: var(--text-2);
-  padding: var(--sp-4) 0;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.sb-tabbar__link:hover {
-  color: var(--brand);
-}
-
-.sb-tabbar__link--on {
-  color: var(--brand);
-}
-
-.sb-tabbar__spacer {
-  flex: 1;
-}
-
-/* ── Motion, only where he drew it ────────────────────────────────────── */
-
-@keyframes sb-rise {
-  from {
-    transform: translateY(18px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes sb-fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* ── Motion ───────────────────────────────────────────────────────────── */
 
 .sb-rise {
-  animation: sb-rise var(--dur-3) var(--ease-out) both;
+  animation: sb-sheet 0.32s var(--ease) both;
 }
 
 .sb-fade {
-  animation: sb-fade var(--dur-3) var(--ease-out) both;
+  animation: sb-in 0.28s var(--ease) both;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .sb-rise,
   .sb-fade {
     animation: none;
-  }
-}
-
-/* ── Wide ─────────────────────────────────────────────────────────────── */
-
-@media (min-width: 45rem) {
-  .sb-body {
-    max-width: var(--content-max);
-    width: 100%;
-    margin: 0 auto;
-    padding: var(--sp-9) var(--page-pad-x-lg) var(--sp-11);
-  }
-
-  .sb-topbar {
-    max-width: var(--content-max);
-    width: 100%;
-    margin: 0 auto;
-    padding: var(--sp-7) var(--page-pad-x-lg) var(--sp-5);
-  }
-
-  .sb-tabbar {
-    justify-content: center;
-    gap: var(--sp-9);
-  }
-
-  .sb-tabbar__spacer {
-    flex: none;
   }
 }

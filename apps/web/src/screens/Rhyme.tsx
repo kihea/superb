@@ -89,15 +89,15 @@ export function Rhyme() {
 
   if (status === "loading") {
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }}>
         {null}
       </Screen>
     );
   }
   if (status === "error" || !prompt) {
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
-        <p className="sb-said">The rhymes wouldn't load. Try again in a moment.</p>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }}>
+        <p className="sb-said">The rhymes did not load. Try again in a moment.</p>
       </Screen>
     );
   }
@@ -118,7 +118,7 @@ export function Rhyme() {
     const barLands = barUses.length >= 2;
 
     return (
-      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
+      <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }}>
         <div className="challenge-end sb-fade">
           <h2 className="sb-heading">
             {exactFound.length === 0 && nearFound.length === 0
@@ -158,7 +158,7 @@ export function Rhyme() {
                       {(ring || meaning) && (
                         <span className="challenge-reveal__meaning">
                           {ring}
-                          {ring && meaning ? " — " : ""}
+                          {ring && meaning ? " · " : ""}
                           {meaning}
                         </span>
                       )}
@@ -195,7 +195,7 @@ export function Rhyme() {
                 onChange={(e) => setBar(e.target.value)}
                 placeholder={`something with ${own[0]} and ${own[1]}…`}
               />
-              {barLands && <p className="sb-caption challenge-bar__landed sb-fade">That one holds together.</p>}
+              {barLands && <p className="sb-caption challenge-bar__landed sb-fade">That line works.</p>}
             </div>
           )}
 
@@ -210,7 +210,7 @@ export function Rhyme() {
   }
 
   return (
-    <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} nav={false} bare>
+    <Screen title="Rhyme" back={{ to: "/play", label: "Play", icon: true }} bare>
       <div className="sb-tiers">
         {TIERS.map((t) => (
           <button

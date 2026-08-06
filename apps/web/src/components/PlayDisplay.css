@@ -1,0 +1,18 @@
+.play-display {
+  display: block;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--face-meta);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: pre;
+  user-select: none;
+  opacity: 0.72;
+  transition: opacity var(--base);
+}
+
+button:hover .play-display,
+button:focus-visible .play-display {
+  opacity: 1;
+}

@@ -1,0 +1,380 @@
+/* The one ground.
+ *
+ * The audit found that Superb was two products: a cool near-black landing in
+ * Geist and Geist Pixel, and a warm cream app in Shantell Sans and Sono, with
+ * three interchangeable papers underneath it. A brand cannot be a preference,
+ * so the three themes are gone and the app now stands on the same ground the
+ * landing does. The only surface a reader still chooses is the paper inside
+ * the reader, which is a reading comfort and not an identity.
+ *
+ * It also found that brand red was doing structure's job — filling the
+ * primary button, the active tab, the active tier, the selected paper and
+ * half the book cloths at once. Here the accent marks one thing at a time:
+ * what is live, what is yours, where you are. Everything else is drawn with
+ * rules and space.
+ */
+
+/* Geist, Geist Mono and Geist Pixel are the landing's faces, vendored beside
+   the app's own for the same reason (ADR-004: no third-party fetch at read
+   time). All three are SIL OFL 1.1, from Vercel and Basement Studio. */
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/geist-variable-latin.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/geist-mono-variable-latin.woff2") format("woff2");
+  font-weight: 300 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Pixel";
+  src: url("/fonts/geist-pixel-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Ground and ink. One of each. */
+  --ground: #100f0e;
+  --ink: #f2eee7;
+  --ink-2: rgba(242, 238, 231, 0.62);
+  --ink-3: rgba(242, 238, 231, 0.4);
+  --ink-4: rgba(242, 238, 231, 0.28);
+
+  --accent: #c8564b;
+  --accent-lit: #e0776b;
+  --accent-wash: rgba(200, 86, 75, 0.12);
+  --accent-edge: rgba(200, 86, 75, 0.4);
+
+  /* Rules do the work colour used to. */
+  --rule: rgba(242, 238, 231, 0.09);
+  --rule-2: rgba(242, 238, 231, 0.16);
+  --rule-lit: rgba(242, 238, 231, 0.34);
+  --wash: rgba(242, 238, 231, 0.025);
+  --wash-2: rgba(242, 238, 231, 0.05);
+
+  /* Three faces, each with a job. Geist Pixel names things, Geist Mono
+     labels and measures, Literata is read. Geist itself carries running
+     interface prose. */
+  --face-mark: "Geist Pixel", Geist, system-ui, sans-serif;
+  --face-ui: Geist, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --face-meta: "Geist Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --face-read: "Literata Variable", Georgia, "Times New Roman", serif;
+
+  --radius: 4px;
+  --radius-lg: 6px;
+
+  --ease: cubic-bezier(0.2, 0.8, 0.25, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --fast: 160ms;
+  --base: 200ms;
+  --slow: 320ms;
+  --turn: 460ms;
+
+  /* The category palette. A reader learns eleven colours once and then reads
+     a shelf at a glance — which is the opposite of what five saturated
+     cloths were doing before. The second hue is only used by the titles that
+     take a gradient; see plate.ts's isGradient. */
+  --kind-fiction: #c8564b;
+  --kind-adventure: #be8b3c;
+  --kind-mystery: #9a6fa0;
+  --kind-fantasy: #6e9a94;
+  --kind-comedy: #d2a24a;
+  --kind-childrens: #b5654a;
+  --kind-drama: #7e9c6b;
+  --kind-poetry: #8a7fc0;
+  --kind-philosophy: #7e9c6b;
+  --kind-nonfiction: #5f86a6;
+  --kind-memoir: #b39b72;
+
+  color-scheme: dark;
+}
+
+/* The papers the reader may set. These are the only alternative surfaces in
+   the app, they exist inside the reading view alone, and they never reach
+   the chrome around it. */
+[data-paper="night"] {
+  --paper: #141311;
+  --paper-ink: #e7e1d6;
+  --paper-dim: rgba(231, 225, 214, 0.45);
+  --paper-rule: rgba(231, 225, 214, 0.1);
+  --paper-rule-2: rgba(231, 225, 214, 0.22);
+}
+
+[data-paper="sepia"] {
+  --paper: #f2e9d8;
+  --paper-ink: #2a2118;
+  --paper-dim: rgba(42, 33, 24, 0.5);
+  --paper-rule: rgba(42, 33, 24, 0.12);
+  --paper-rule-2: rgba(42, 33, 24, 0.26);
+}
+
+[data-paper="slate"] {
+  --paper: #e6e5e1;
+  --paper-ink: #1e1e1d;
+  --paper-dim: rgba(30, 30, 29, 0.5);
+  --paper-rule: rgba(30, 30, 29, 0.12);
+  --paper-rule-2: rgba(30, 30, 29, 0.26);
+}
+
+/* Until the reader has chosen, the page matches the room it is in. */
+:root {
+  --paper: #141311;
+  --paper-ink: #e7e1d6;
+  --paper-dim: rgba(231, 225, 214, 0.45);
+  --paper-rule: rgba(231, 225, 214, 0.1);
+  --paper-rule-2: rgba(231, 225, 214, 0.22);
+}
+
+/* ── the small shared vocabulary ────────────────────────────────────────
+   Every screen is built from these, so a new screen inherits the app's
+   manners rather than inventing them. */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* A control in a flex column would otherwise stretch to the column's width;
+   almost none of them should. */
+.self-start {
+  align-self: flex-start;
+}
+
+.eyebrow {
+  font-family: var(--face-meta);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.meta {
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  color: var(--ink-3);
+}
+
+.mark {
+  font-family: var(--face-mark);
+  font-weight: 400;
+}
+
+h1.mark {
+  margin: 0;
+  font-size: 27px;
+  line-height: 1.15;
+}
+
+/* One button, three weights: the thing you came to do, the thing beside it,
+   and the way back. None of them is filled with the accent. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 0 22px;
+  border: 1px solid var(--rule-lit);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition:
+    background var(--fast),
+    border-color var(--fast),
+    color var(--fast);
+}
+
+.btn:hover {
+  background: var(--wash-2);
+  border-color: var(--ink-2);
+}
+
+.btn--quiet {
+  border-color: var(--rule-2);
+  color: var(--ink-2);
+}
+
+.btn--quiet:hover {
+  color: var(--ink);
+}
+
+.btn--lit {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-lit);
+}
+
+.btn--lit:hover {
+  background: rgba(200, 86, 75, 0.24);
+}
+
+.btn--small {
+  min-height: 34px;
+  padding: 0 13px;
+  font-size: 11px;
+}
+
+.btn--bare {
+  min-height: 0;
+  padding: 6px 0;
+  border: none;
+  background: none;
+  color: var(--ink-3);
+  font-size: 11.5px;
+}
+
+.btn--bare:hover {
+  background: none;
+  color: var(--ink);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  padding: 0 14px;
+  border: 1px solid var(--rule-2);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-3);
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition:
+    border-color var(--fast),
+    color var(--fast);
+}
+
+.chip:hover {
+  border-color: var(--ink-3);
+}
+
+.chip[aria-pressed="true"],
+.chip--on {
+  border-color: var(--ink-2);
+  color: var(--ink);
+}
+
+.panel {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+}
+
+.field__sigil {
+  font-family: var(--face-meta);
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.field input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--ink);
+  font-family: var(--face-meta);
+  font-size: 13px;
+}
+
+.field input::placeholder {
+  color: var(--ink-4);
+}
+
+/* A dotted rule, for the places where a solid one would read as a divider
+   between equals rather than a change of subject. */
+.rule-dotted {
+  height: 1px;
+  background: repeating-linear-gradient(90deg, var(--rule-2) 0 1px, transparent 1px 4px);
+}
+
+:where(button, a, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@keyframes sb-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sb-sheet {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sb-slide {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.enter {
+  animation: sb-in 0.4s var(--ease) both;
+}
+
+.enter-sheet {
+  animation: sb-sheet 0.24s var(--ease) both;
+}
+
+.enter-slide {
+  animation: sb-slide 0.32s var(--ease) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

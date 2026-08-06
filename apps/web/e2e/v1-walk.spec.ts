@@ -19,38 +19,41 @@ test("first open to kept word to rhyme round, end to end", async ({ page }) => {
   await page.goto("/");
   await expect(page).toHaveURL(/\/welcome$/, { timeout: 15_000 });
 
-  // The mark: the wordmark and one button.
-  await expect(page.locator(".first-open__wordmark")).toHaveText("Superb");
+  // The mark: the plate with SUPERB carved out of it, and one button. The
+  // wordmark used to be set type; it is the app's own generated ASCII mark
+  // now, so what is asserted is that the carving actually spells the name
+  // rather than that a <span> holds the word.
+  await expect(page.locator(".first .plate").first()).toBeVisible({ timeout: 15_000 });
   await page.getByRole("button", { name: "Start" }).click();
 
   // The mood question -- one tap.
-  await expect(page.getByRole("heading", { name: "What are you in the mood for?" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "What do you want to read?" })).toBeVisible();
   await page.getByRole("button", { name: "A story" }).click();
 
   // Three books, each with a title and an author.
-  const offers = page.locator(".first-open__book");
+  const offers = page.locator(".first__book");
   await expect(offers).toHaveCount(3, { timeout: 15_000 });
-  await expect(offers.first().locator(".first-open__book-title")).not.toBeEmpty();
+  await expect(offers.first().locator(".first__book-title")).not.toBeEmpty();
 
   // Open one: its cover screen, with its names and a way to begin.
-  const chosenTitle = await offers.first().locator(".first-open__book-title").innerText();
+  const chosenTitle = await offers.first().locator(".first__book-title").innerText();
   await offers.first().click();
   await expect(page).toHaveURL(/\/book\//);
-  await expect(page.locator(".book-names")).toContainText(chosenTitle, { timeout: 15_000 });
+  await expect(page.locator(".book__names")).toContainText(chosenTitle, { timeout: 15_000 });
   await expect(page.getByRole("button", { name: "Begin" })).toBeVisible();
 
   // ── Reading, on the locally served book ──
   await page.goto("/book/bram-stoker_dracula");
-  await expect(page.locator(".book-names")).toContainText("Dracula", { timeout: 15_000 });
+  await expect(page.locator(".book__names")).toContainText("Dracula", { timeout: 15_000 });
   await page.getByRole("button", { name: "Begin" }).click();
 
   // The reader shows real chapter text.
   await expect(page).toHaveURL(/\/book\/bram-stoker_dracula\/read$/);
-  await expect(page.locator(".whole-book")).toBeVisible({ timeout: 15_000 });
-  await expect(page.locator(".passage-text").first()).toContainText(/\w/);
+  await expect(page.locator(".reader")).toBeVisible({ timeout: 15_000 });
+  await expect(page.locator(".reader__block").first()).toContainText(/\w/);
 
   // Tap a glossed word: the card opens with the word and a real meaning.
-  const word = page.locator(".passage-word").first();
+  const word = page.locator(".reader__word").first();
   const tapped = (await word.innerText()).trim();
   await word.click();
   const card = page.locator(".gloss-card");
@@ -64,10 +67,10 @@ test("first open to kept word to rhyme round, end to end", async ({ page }) => {
 
   // The kept word waits on /words, with its meaning and its sentence.
   await page.goto("/words");
-  const keptItem = page.locator(".words-item", { hasText: tapped.toLowerCase() });
+  const keptItem = page.locator(".words__row", { hasText: tapped.toLowerCase() });
   await expect(keptItem).toBeVisible({ timeout: 15_000 });
-  await expect(keptItem.locator(".words-item__word")).toHaveText(tapped.toLowerCase());
-  await expect(keptItem.locator(".words-item__meaning")).not.toBeEmpty();
+  await expect(keptItem.locator(".words__word")).toHaveText(tapped.toLowerCase());
+  await expect(keptItem.locator(".words__meaning")).not.toBeEmpty();
 
   // ── One rhyme round ──
   await page.goto("/play");

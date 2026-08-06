@@ -1,59 +1,89 @@
-// Screen 13, from frame 1u: the one room where options may look like
-// options and a number may face the reader. Everything here does something
-// -- the paper swatches, the text size and the motion switch all take
-// effect immediately and survive a reload.
+// The one room where options may look like options.
 //
-// Two rows from his frame are not here. "Listening time 7 h 12 m of 10 h"
-// and "Renews 12 August · £4.99 a month" describe a subscription that does
-// not exist in this build; a real-looking bill is a different kind of thing
-// from mocked sample data, so the voice row says what is true instead.
+// The three interchangeable app themes have gone: a brand cannot be a
+// preference, and a stranger's first impression of Superb should not depend
+// on which swatch somebody happened to tap. What is left is the page itself,
+// shown as a live specimen so the controls change something a reader can see
+// while they are looking at it — and the doors in and out of Goodreads.
 import { useEffect, useRef, useState } from "react";
-import { Screen } from "../shell/Screen";
+import { Room } from "../shell/Shell";
 import { Link } from "../router/router";
-import { useTheme } from "../theme/theme";
-import type { Night, Paper } from "../theme/theme";
+import { LEADS, PAPERS, SIZES, usePageSettings, type Lead, type Paper, type Size } from "../reading/settings";
 import { useMotion } from "../theme/motion";
 import { VoiceOrb } from "../components/voice/VoiceOrb";
 import type { OrbState } from "../components/voice/VoiceOrb";
-import {
-  chosenVoiceURI,
-  listVoices,
-  onVoicesReady,
-  pickVoice,
-  setChosenVoice,
-} from "../voice/speak";
+import { GoodreadsPanel } from "../components/GoodreadsPanel";
+import { chosenVoiceURI, listVoices, onVoicesReady, pickVoice, setChosenVoice } from "../voice/speak";
 import "./Settings.css";
 
-// The orb on the reading page is the control; this is the preview -- a
+// The orb on the reading page is the control; this is the preview — a
 // one-line sample of the same voice the reader will hear, so choosing it
 // here is not a guess. Feature-detected and silently absent where the
 // browser has no speechSynthesis.
-const PREVIEW_LINE = "This is your phone's own voice, and it reads the books.";
+const PREVIEW_LINE = "This is your device's own voice. Superb uses it to read a page aloud.";
 
 function speechSynthesisSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-const PAPERS: { id: Paper; label: string; swatch: string }[] = [
-  { id: "oxblood", label: "Oxblood", swatch: "settings-swatch--oxblood" },
-  { id: "lilac", label: "Lilac", swatch: "settings-swatch--lilac" },
-  { id: "glacier", label: "Glacier", swatch: "settings-swatch--glacier" },
-];
+/** One segmented control, used for all three page choices. */
+function Segments<T extends string>({
+  label,
+  value,
+  options,
+  onPick,
+}: {
+  label: string;
+  value: T;
+  options: { id: T; label: string }[];
+  onPick: (id: T) => void;
+}) {
+  return (
+    <div className="settings__segments">
+      <span className="eyebrow">{label}</span>
+      <div className="settings__segment-row" role="group" aria-label={label}>
+        {options.map((option) => (
+          <button
+            key={option.id}
+            type="button"
+            className={`settings__segment${value === option.id ? " settings__segment--on" : ""}`}
+            aria-pressed={value === option.id}
+            onClick={() => onPick(option.id)}
+          >
+            {option.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
 
-// Frame 4o: light/dark is its own row, a three-way switch beside the paper
-// choice rather than a fourth swatch pretending to be a colour. "off"/"on"/
-// "system" are theme.ts's own words for the same three states.
-const NIGHT_MODES: { id: Night; label: string }[] = [
-  { id: "off", label: "Light" },
-  { id: "on", label: "Dark" },
-  { id: "system", label: "System" },
-];
-
-const SCALE_KEY = "superb.readerScale";
+function Switch({
+  name,
+  note,
+  on,
+  onFlip,
+}: {
+  name: string;
+  note: string;
+  on: boolean;
+  onFlip: () => void;
+}) {
+  return (
+    <button type="button" className="settings__switch-row" role="switch" aria-checked={on} onClick={onFlip}>
+      <span className="settings__switch-names">
+        <span className="settings__switch-name">{name}</span>
+        <span className="settings__switch-note">{note}</span>
+      </span>
+      <span className={`settings__switch${on ? " settings__switch--on" : ""}`} aria-hidden="true">
+        <span className="settings__knob" />
+      </span>
+    </button>
+  );
+}
 
 export function Settings() {
-  const { paper, night, setPaper, setNight } = useTheme();
-  const [scale, setScale] = useState(() => Number(localStorage.getItem(SCALE_KEY) ?? 1) || 1);
+  const { settings, set } = usePageSettings();
   const { motion, setMotion } = useMotion();
   const [voiceState, setVoiceState] = useState<OrbState>("still");
   const voiceSupported = useRef(speechSynthesisSupported()).current;
@@ -97,120 +127,109 @@ export function Settings() {
   }
 
   const currentVoice =
-    voices.find((v) => v.voiceURI === voiceURI) ??
-    (voiceSupported ? (pickVoice() ?? null) : null);
-
-  useEffect(() => {
-    document.documentElement.style.setProperty("--reader-scale", String(scale));
-    localStorage.setItem(SCALE_KEY, String(scale));
-  }, [scale]);
+    voices.find((v) => v.voiceURI === voiceURI) ?? (voiceSupported ? (pickVoice() ?? null) : null);
 
   return (
-    <Screen title="Settings" back={{ to: "/", label: "Shelf" }}>
-      <section className="settings-group">
-        <span className="sb-eyebrow">Paper</span>
-        <div className="settings-papers">
-          {PAPERS.map((choice) => (
-            <button
-              key={choice.id}
-              type="button"
-              className={`settings-swatch ${choice.swatch}${paper === choice.id ? " settings-swatch--on" : ""}`}
-              aria-pressed={paper === choice.id}
-              onClick={() => setPaper(choice.id)}
-            >
-              {choice.label}
-            </button>
-          ))}
-        </div>
-        <div className="settings-mode" role="group" aria-label="Light or dark">
-          {NIGHT_MODES.map((mode) => (
-            <button
-              key={mode.id}
-              type="button"
-              className={`settings-mode__option${night === mode.id ? " settings-mode__option--on" : ""}`}
-              aria-pressed={night === mode.id}
-              onClick={() => setNight(mode.id)}
-            >
-              {mode.label}
-            </button>
-          ))}
-        </div>
-        {night === "system" && <span className="sb-caption">Following your phone, light or dark.</span>}
-      </section>
+    <Room width="narrow">
+      <div className="room__head">
+        <h1 className="mark">Settings</h1>
+      </div>
 
-      <section className="settings-group">
-        <div className="settings-size__heading">
-          <span className="sb-eyebrow">Text size</span>
-          {/* Settings is the one room a number is allowed to face the reader
-              (superb-craft's own law). 18px is --fs-600, the passage's own
-              base size, times this slider's multiplier, rounded -- a real
-              readout, not a picture of one. */}
-          <span className="settings-size__value">{Math.round(18 * scale)} pt</span>
+      {/* The page, set the way the reader has set it. Every control below
+          changes this paragraph while they are looking at it. */}
+      <section className="settings__group">
+        <span className="eyebrow">The page</span>
+        <div
+          className="settings__specimen"
+          style={{
+            fontSize: `${SIZES[settings.size].px}px`,
+            lineHeight: LEADS[settings.lead].value,
+            textAlign: settings.justify ? "justify" : "left",
+          }}
+        >
+          <p>
+            The Count met me at the door with a courtesy so{" "}
+            <span className="settings__kept">obsequious</span> that it was itself a kind of insolence,
+            and led me through a great hall where a lamp burned with no visible means of being fed.
+          </p>
         </div>
-        <div className="settings-size">
-          <span className="settings-size__small">Aa</span>
-          <input
-            type="range"
-            min="0.85"
-            max="1.35"
-            step="0.05"
-            value={scale}
-            aria-label="Text size"
-            onChange={(e) => setScale(Number(e.target.value))}
+
+        <div className="settings__controls">
+          <Segments<Paper>
+            label="paper"
+            value={settings.paper}
+            options={PAPERS}
+            onPick={(id) => set("paper", id)}
           />
-          <span className="settings-size__large">Aa</span>
+          <Segments<Size>
+            label="text size"
+            value={settings.size}
+            options={(Object.keys(SIZES) as Size[]).map((id) => ({ id, label: SIZES[id].label }))}
+            onPick={(id) => set("size", id)}
+          />
+          <Segments<Lead>
+            label="line spacing"
+            value={settings.lead}
+            options={(Object.keys(LEADS) as Lead[]).map((id) => ({ id, label: LEADS[id].label }))}
+            onPick={(id) => set("lead", id)}
+          />
         </div>
       </section>
 
-      <div className="settings-rows">
-        <div className="settings-row">
-          <span className="settings-row__names">
-            <span className="settings-row__name">Motion</span>
-            <span className="sb-caption">sheets rise; the voice orb turns; nothing else moves</span>
-          </span>
-          <button
-            type="button"
-            role="switch"
-            aria-checked={motion}
-            aria-label="Motion"
-            className={`settings-switch${motion ? " settings-switch--on" : ""}`}
-            onClick={() => setMotion((on) => !on)}
-          >
-            <span className="settings-switch__knob" />
-          </button>
-        </div>
+      <div className="settings__switches">
+        <Switch
+          name="Justify the page"
+          note="hyphenate words and straighten the right edge"
+          on={settings.justify}
+          onFlip={() => set("justify", !settings.justify)}
+        />
+        <Switch
+          name="Dim what is ahead"
+          note="the page you read stays bright, the rest goes dim"
+          on={settings.focus}
+          onFlip={() => set("focus", !settings.focus)}
+        />
+        <Switch
+          name="Read aloud turns the page"
+          note="the page keeps up with the voice, so you do not have to scroll"
+          on={settings.followPage}
+          onFlip={() => set("followPage", !settings.followPage)}
+        />
+        <Switch
+          name="Motion"
+          note="animate page turns, book covers and the read-aloud button"
+          on={motion}
+          onFlip={() => setMotion((on) => !on)}
+        />
+      </div>
 
-        <div className="settings-row">
+      <section className="settings__group">
+        <span className="eyebrow">Voice</span>
+        <div className="settings__voice">
           <button
             type="button"
-            className="settings-row__names settings-row__names--button"
+            className="settings__voice-name"
             aria-expanded={voicesOpen}
             onClick={() => setVoicesOpen((open) => !open)}
           >
-            <span className="settings-row__name">Voice</span>
-            <span className="sb-caption">
-              {currentVoice
-                ? `${currentVoice.name}${voices.length > 1 ? " · tap to change" : ""}`
-                : "your phone's own"}
-            </span>
+            {currentVoice
+              ? `${currentVoice.name}${voices.length > 1 ? " · tap to change" : ""}`
+              : "your device's own"}
           </button>
-          <span className="settings-row__voice-actions">
-            {voiceSupported && (
-              <button
-                type="button"
-                className="voice-orb-button"
-                data-speaking={voiceState === "speaking"}
-                aria-label="Hear a sample of this voice"
-                onClick={() => playVoicePreview()}
-              >
-                <VoiceOrb state={voiceState} size={22} />
-              </button>
-            )}
-          </span>
+          {voiceSupported && (
+            <button
+              type="button"
+              className="settings__voice-orb"
+              data-speaking={voiceState === "speaking"}
+              aria-label="Hear a sample of this voice"
+              onClick={() => playVoicePreview()}
+            >
+              <VoiceOrb state={voiceState} size={22} />
+            </button>
+          )}
         </div>
-
         {voicesOpen && voices.length > 0 && (
-          <div className="settings-voices sb-fade" role="listbox" aria-label="Reading voice">
+          <div className="settings__voices enter" role="listbox" aria-label="Reading voice">
             {voices.map((voice) => {
               const on = currentVoice?.voiceURI === voice.voiceURI;
               return (
@@ -219,11 +238,11 @@ export function Settings() {
                   type="button"
                   role="option"
                   aria-selected={on}
-                  className={`sb-list__row${on ? " sb-list__row--chosen" : ""}`}
+                  className={`settings__voice-option${on ? " settings__voice-option--on" : ""}`}
                   onClick={() => chooseVoice(voice)}
                 >
                   {voice.name.replace(/^(Microsoft|Google)\s+/, "")}
-                  <span className="sb-list__aside">
+                  <span className="meta">
                     {voice.localService ? "on this device" : "over the network"}
                     {/^Google/.test(voice.name) ? " · Google" : ""}
                   </span>
@@ -232,32 +251,34 @@ export function Settings() {
             })}
           </div>
         )}
+      </section>
 
-      </div>
+      <GoodreadsPanel />
 
-      {/* Attribution the data carries with it -- Wiktionary's share-alike,
-         WordNet's copyright notice, CMUdict's licence. This is the one
-         room where the credits reach the reader. */}
-      <section className="settings-group">
-        <span className="sb-eyebrow">About</span>
-        <p className="sb-caption">
-          The books are out-of-copyright editions from Standard Ebooks and Project Gutenberg, free
-          to read and pass on.
+      {/* Attribution the data carries with it — Wiktionary's share-alike,
+          WordNet's copyright notice, CMUdict's licence. This is the one room
+          where the credits reach the reader. */}
+      <section className="settings__group">
+        <span className="eyebrow">Credits</span>
+        <p className="settings__credit">
+          The books are out-of-copyright editions from Standard Ebooks and Project Gutenberg, free to
+          read and pass on, and each book's description is Standard Ebooks' own, dedicated to the
+          public domain.
         </p>
-        <p className="sb-caption">
+        <p className="settings__credit">
           Word meanings include text from Wiktionary contributors, used under Creative Commons
           Attribution-ShareAlike 4.0 (or, at your choice, the GNU Free Documentation License).
         </p>
-        <p className="sb-caption">
+        <p className="settings__credit">
           Word connections are built with WordNet 3.0, Copyright 2006 by Princeton University, used
           with its permissive licence. Rhymes are judged with the CMU Pronouncing Dictionary,
           Copyright Carnegie Mellon University.
         </p>
       </section>
 
-      <Link to="/welcome" className="sb-quiet sb-quiet--centred">
-        See the first open again
+      <Link to="/welcome" className="btn btn--quiet settings__replay">
+        Show the welcome screen again
       </Link>
-    </Screen>
+    </Room>
   );
 }

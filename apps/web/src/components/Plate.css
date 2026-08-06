@@ -1,0 +1,35 @@
+/* Two layers, one grid. The mark sits exactly over the field, so the carved
+   letters land in the holes the field left for them. */
+.plate {
+  position: relative;
+  display: block;
+  flex: none;
+  line-height: 1;
+  font-family: var(--face-meta);
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+
+.plate pre {
+  margin: 0;
+  font: inherit;
+  line-height: 1;
+  white-space: pre;
+}
+
+.plate__field {
+  transition: color var(--base);
+}
+
+.plate__mark {
+  position: absolute;
+  inset: 0;
+}
+
+/* The card plate fills its tile: the character size is driven by the tile's
+   own height, so the art grows with the card rather than floating in it. */
+.plate--tile {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}

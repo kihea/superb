@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Superb is a reading app that quietly builds vocabulary.">
+<meta name="description" content="Superb is a reading app that builds your vocabulary.">
 <link rel="icon" type="image/png" sizes="16x16" href="brand/favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
 <link rel="apple-touch-icon" href="brand/apple-touch-180.png">
-<title>Superb — vocabulary through reading</title>
+<title>Superb: vocabulary through reading</title>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -23,27 +23,72 @@
 <link rel="stylesheet" href="fonts/fonts.css">
 <script src="scene.js"></script>
 <script src="demos.js"></script>
+<script src="decrypt.js"></script>
+<script src="rain.js"></script>
 <style>
 /* Cool near-black in place of the old murky brown, with three quiet lights
    breathing through it — oxide, harbour blue, and the games' violet. The
    brand's cool-neutrals-plus-oxide palette, finally speaking on the page
    ground itself. */
-html,body{margin:0;padding:0;background:#0C1014}
+html,body{margin:0;padding:0;background:#050609}
+/* the header floats over the page, so an anchor has to stop clear of it */
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+/* Darker than it was, and the three lights turned down with it. The cipher
+   and the rain are both drawn on this ground, and a ground much lighter than
+   the ASCII shows every card as a lit panel with glyphs on it rather than as
+   the same dark the hero is made of. */
 .sb-ground{
+  isolation:isolate;
   background:
-    radial-gradient(1100px 700px at 88% 6%, rgba(217,106,99,.15), transparent 62%),
-    radial-gradient(950px 720px at -8% 34%, rgba(63,136,209,.13), transparent 58%),
-    radial-gradient(1000px 800px at 72% 78%, rgba(177,147,245,.09), transparent 60%),
-    #0C1014;
+    radial-gradient(1100px 700px at 88% 6%, rgba(200,86,75,.10), transparent 62%),
+    radial-gradient(950px 720px at -8% 34%, rgba(63,136,209,.09), transparent 58%),
+    radial-gradient(1000px 800px at 72% 78%, rgba(150,124,214,.07), transparent 60%),
+    #050609;
+}
+/* behind every section, above the ground's own lights; the hero's opaque
+   ground covers it, which is why the scene up there stays untouched */
+.sb-rain{position:fixed; inset:0; z-index:-1; pointer-events:none}
+/* The reading app's own vocabulary, copied from apps/web/src/design/night.css
+   so the site and the app are one product rather than two. Rules and space do
+   the work colour used to: no gradient fills, no shadows, 4 and 6 pixel radii,
+   and the accent marks one thing at a time. */
+.sb-ground{
+  --ink:#F2EEE7;
+  --ink-2:rgba(242,238,231,.62);
+  --ink-3:rgba(242,238,231,.4);
+  --ink-4:rgba(242,238,231,.28);
+  --accent:#C8564B;
+  --accent-lit:#E0776B;
+  --accent-wash:rgba(200,86,75,.12);
+  --accent-edge:rgba(200,86,75,.4);
+  --rule:rgba(242,238,231,.09);
+  --rule-2:rgba(242,238,231,.16);
+  --rule-lit:rgba(242,238,231,.34);
+  --wash:rgba(242,238,231,.025);
+  --wash-2:rgba(242,238,231,.05);
+  --r:4px;
+  --r-lg:6px;
+  --face-mark:'Geist Pixel',Geist,system-ui,sans-serif;
+  --face-meta:'Geist Mono',ui-monospace,Consolas,monospace;
 }
 a{color:inherit;text-decoration:none}
-a:hover{color:var(--brand)}
+a:hover{color:var(--accent-lit)}
 @keyframes reveal{from{width:0}}
 @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important;transition-duration:.001ms !important}}
 
 /* header nav collapses honestly on a phone: fewer links, never clipped ones */
 @media (max-width:640px){.sb-nav-wide{display:none}}
+
+/* Past the hero the header has page under it rather than sky, and white text
+   on scrolling paragraphs is unreadable. It takes a ground on the way out of
+   the hero and gives it back on the way in. Scroll-driven animation where the
+   browser has it; elsewhere the header stays as it was. */
+.sb-header{border-bottom:1px solid transparent}
+@supports (animation-timeline:scroll()){
+  @keyframes sb-header-land{to{background:rgba(10,13,17,.74);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:var(--rule)}}
+  .sb-header{animation:sb-header-land linear both;animation-timeline:scroll();animation-range:60px 200px}
+}
 
 /* ---- the working miniatures under the three figures ---- */
 .sb-demo{position:relative;height:200px;overflow:hidden;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;line-height:1.35}
@@ -52,71 +97,168 @@ a:hover{color:var(--brand)}
    Du Bois") wrap, and a caption that grows a line every 2.6s cycle was the
    whole-page stutter of issue #146. */
 .sb-demo-shelf__caption{margin-top:8px;font-size:12px;height:2.8em;overflow:hidden}
-.sb-demo-shelf__title{color:#FCF6EC}
-.sb-demo-shelf__author{color:rgba(246,238,226,.45)}
-.sb-demo-gloss__line{margin:0 0 10px;max-width:30ch;color:rgba(246,238,226,.6);font-size:12.5px;line-height:1.6}
-.sb-demo-gloss__word{color:#FCF6EC;border-bottom:1px dashed rgba(246,238,226,.4);cursor:default;transition:color .2s,border-color .2s,background .2s}
-.sb-demo-gloss__word--lit{color:var(--brand);border-color:var(--brand);background:rgba(217,106,99,.14);border-radius:3px}
-.sb-demo-gloss__card{display:flex;flex-direction:column;gap:4px;max-width:30ch;padding:10px 12px;border:1px solid rgba(246,238,226,.14);border-radius:8px;background:rgba(246,238,226,.045);opacity:0;transform:translateY(6px);transition:opacity .28s cubic-bezier(.2,.8,.25,1),transform .28s cubic-bezier(.2,.8,.25,1)}
+.sb-demo-shelf__title{color:var(--ink)}
+.sb-demo-shelf__author{color:var(--ink-3)}
+.sb-demo-gloss__line{margin:0 0 10px;max-width:30ch;color:var(--ink-2);font-size:12.5px;line-height:1.6}
+.sb-demo-gloss__word{color:var(--ink);border-bottom:1px dashed var(--ink-3);cursor:default;transition:color .2s,border-color .2s,background .2s}
+.sb-demo-gloss__word--lit{color:var(--accent);border-color:var(--accent);background:var(--accent-wash);border-radius:3px}
+.sb-demo-gloss__card{display:flex;flex-direction:column;gap:4px;max-width:30ch;padding:10px 12px;border:1px solid var(--rule-2);border-radius:8px;background:var(--wash);opacity:0;transform:translateY(6px);transition:opacity .28s cubic-bezier(.2,.8,.25,1),transform .28s cubic-bezier(.2,.8,.25,1)}
 .sb-demo-gloss__card--open{opacity:1;transform:none}
-.sb-demo-gloss__card-word{color:#FCF6EC;font-size:12.5px}
-.sb-demo-gloss__card-def{color:rgba(246,238,226,.62);font-size:12px;line-height:1.5;height:3em;overflow:hidden}
-.sb-demo-gloss__keep{align-self:flex-start;margin-top:2px;padding:3px 10px;border:1px solid rgba(217,106,99,.5);border-radius:99px;color:var(--brand);font-size:11px;letter-spacing:.06em;transition:background .2s,color .2s}
-.sb-demo-gloss__keep--kept{background:rgba(217,106,99,.22);color:#F2A79E}
+.sb-demo-gloss__card-word{color:var(--ink);font-size:12.5px}
+.sb-demo-gloss__card-def{color:var(--ink-2);font-size:12px;line-height:1.5;height:3em;overflow:hidden}
+.sb-demo-gloss__keep{align-self:flex-start;margin-top:2px;padding:3px 10px;border:1px solid var(--accent-edge);border-radius:99px;color:var(--accent);font-size:11px;letter-spacing:.06em;transition:background .2s,color .2s}
+.sb-demo-gloss__keep--kept{background:var(--accent-wash);color:#F2A79E}
 .sb-demo-games__head{display:flex;align-items:baseline;gap:12px;margin-bottom:10px}
-.sb-demo-games__label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(246,238,226,.42)}
-.sb-demo-games__prompt{font-family:'Geist Pixel',Geist,sans-serif;font-size:22px;color:#FCF6EC}
+.sb-demo-games__label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.sb-demo-games__prompt{font-family:'Geist Pixel',Geist,sans-serif;font-size:22px;color:var(--ink)}
 .sb-demo-games__chips{display:flex;flex-wrap:wrap;gap:6px;min-height:52px;align-content:flex-start}
-.sb-demo-games__chip{padding:4px 11px;border-radius:99px;border:1px solid rgba(246,238,226,.2);color:rgba(246,238,226,.75);font-size:12px}
+.sb-demo-games__chip{padding:4px 11px;border-radius:99px;border:1px solid var(--rule-2);color:rgba(246,238,226,.75);font-size:12px}
 .sb-demo-games__chip--exact{border-color:rgba(177,147,245,.55);color:#CDb8F8;background:rgba(177,147,245,.12)}
-.sb-demo-games__chip--near{border-color:rgba(246,238,226,.25);color:rgba(246,238,226,.6)}
+.sb-demo-games__chip--near{border-color:var(--ink-4);color:var(--ink-2)}
 .sb-demo-games__chip--typing{border-style:dashed}
-.sb-demo-games__also{margin-top:6px;font-size:11.5px;line-height:1.4;color:rgba(246,238,226,.4);height:2.8em;overflow:hidden}
+.sb-demo-games__also{margin-top:6px;font-size:11.5px;line-height:1.4;color:var(--ink-3);height:2.8em;overflow:hidden}
+
+/* ---- the page's own furniture ---- */
+.sb-wrap{max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px)}
+.sb-sec{position:relative; padding:clamp(68px,7.6vw,124px) 0}
+.sb-sec--tight{padding-top:0}
+.sb-head{display:flex; flex-direction:column; gap:14px; max-width:58ch}
+.sb-head--mid{margin:0 auto; align-items:center; text-align:center}
+.sb-eyebrow{font-family:var(--face-meta); font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-3)}
+.sb-h2{margin:0; font-family:var(--face-mark); font-weight:400; font-size:clamp(26px,3.2vw,42px); line-height:1.18; color:var(--ink); text-wrap:balance}
+.sb-lede{margin:0; max-width:54ch; font-size:15.5px; line-height:1.66; color:var(--ink-2); text-wrap:pretty}
+/* the app's .btn, in its three weights */
+.sb-btn{display:inline-flex; align-items:center; justify-content:center; gap:9px; min-height:44px; padding:0 22px; border:1px solid var(--accent); border-radius:var(--r); background:var(--accent-wash); color:var(--accent-lit); font-family:var(--face-meta); font-size:12.5px; letter-spacing:.03em; transition:background var(--fast,160ms),border-color 160ms,color 160ms}
+.sb-btn:hover{background:rgba(200,86,75,.24); color:var(--accent-lit)}
+.sb-btn--ghost{border-color:var(--rule-lit); background:transparent; color:var(--ink)}
+.sb-btn--ghost:hover{background:var(--wash-2); border-color:var(--ink-2); color:var(--ink)}
+
+/* The cipher veil. It is painted over the card, never instead of it — the
+   real words stay in the DOM the whole time, selectable and readable to a
+   screen reader, with the canvas erased where the cursor has reached. */
+.sb-crypt{position:relative}
+/* sized to the border box, one pixel out on every side, so the card's own
+   rule is ciphered with the rest of it rather than staying crisp around a
+   block of ASCII */
+.sb-crypt__veil{position:absolute; inset:-1px; z-index:5; pointer-events:none; border-radius:inherit}
+
+/* ---- the proof strip under the hero ---- */
+.sb-proof{display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.sb-proof > div{display:flex; flex-direction:column; gap:7px; padding:clamp(20px,2.4vw,30px) clamp(14px,2vw,28px); border-left:1px solid var(--rule)}
+.sb-proof > div:first-child{border-left:none}
+.sb-proof b{font-family:var(--face-mark); font-weight:400; font-size:clamp(21px,2.4vw,30px); line-height:1; color:var(--ink)}
+.sb-proof span{font-family:var(--face-meta); font-size:11.5px; color:var(--ink-3)}
+@media (max-width:760px){
+  .sb-proof{grid-template-columns:1fr 1fr}
+  .sb-proof > div:nth-child(odd){border-left:none}
+  .sb-proof > div:nth-child(n+3){border-top:1px solid var(--rule)}
+}
+
+/* ---- the thesis ---- */
+.sb-thesis{display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center}
+.sb-thesis h2{margin:0; max-width:20ch; font-family:var(--face-mark); font-weight:400; font-size:clamp(28px,4.2vw,54px); line-height:1.14; color:var(--ink); text-wrap:balance}
+.sb-thesis p{margin:0; max-width:56ch; font-size:15.5px; line-height:1.68; color:var(--ink-2); text-wrap:pretty}
+
+/* ---- how it works: three steps, each showing the real thing ---- */
+.sb-steps{display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(14px,1.6vw,20px)}
+.sb-step{display:flex; flex-direction:column; gap:13px; padding:clamp(20px,2.2vw,26px); border:1px solid var(--rule); border-radius:var(--r-lg); transition:border-color 200ms cubic-bezier(.2,.8,.25,1)}
+.sb-step:hover{border-color:var(--rule-2)}
+.sb-step__n{font-family:var(--face-meta); font-size:10.5px; letter-spacing:.2em; color:var(--accent)}
+.sb-step h3{margin:0; font-family:var(--face-mark); font-weight:400; font-size:clamp(17px,1.8vw,21px); line-height:1.25; color:var(--ink)}
+.sb-step p{margin:0; font-size:13.5px; line-height:1.6; color:var(--ink-2)}
+/* the miniature sits behind its own rule, so the room a short demo leaves
+   under it reads as a screen with space in it rather than as a gap */
+.sb-step .sb-demo{margin-top:auto; height:auto; min-height:206px; padding:14px 15px; border:1px solid var(--rule); border-radius:var(--r)}
+@media (max-width:860px){.sb-steps{grid-template-columns:1fr}}
 
 /* ---- the bento: the rooms of the app ---- */
-.sb-bento{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.sb-tile{position:relative;display:flex;flex-direction:column;gap:10px;padding:20px;border:1px solid rgba(246,238,226,.09);border-radius:12px;background:linear-gradient(160deg,rgba(246,238,226,.045),rgba(246,238,226,.015));overflow:hidden;opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.2,.8,.25,1),transform .6s cubic-bezier(.2,.8,.25,1),border-color .25s}
-.sb-tile:hover{border-color:rgba(217,106,99,.4)}
+.sb-bento{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.2vw,16px)}
+.sb-tile{position:relative;display:flex;flex-direction:column;gap:10px;padding:clamp(18px,1.8vw,22px);border:1px solid var(--rule);border-radius:var(--r-lg);opacity:0;transform:translateY(10px);transition:opacity .5s cubic-bezier(.2,.8,.25,1),transform .45s cubic-bezier(.2,.8,.25,1),border-color .2s}
+.sb-tile:hover{border-color:var(--rule-2)}
 .sb-tile--in{opacity:1;transform:none}
 .sb-tile--wide{grid-column:span 2}
 .sb-tile--tall{grid-column:span 2;grid-row:span 2}
-.sb-tile h3{margin:0;font-family:'Geist Pixel',Geist,sans-serif;font-weight:400;font-size:19px;color:#FCF6EC}
-.sb-tile p{margin:0;font-size:13.5px;line-height:1.55;color:rgba(246,238,226,.6);max-width:36ch}
-.sb-tile__mono{font-family:'Geist Mono',ui-monospace,monospace}
-.sb-tile__paper{flex:1;padding:16px 18px;border-radius:8px;background:rgba(246,238,226,.06);border:1px solid rgba(246,238,226,.07);font-size:13px;line-height:1.7;color:rgba(246,238,226,.72);font-family:Geist,system-ui,sans-serif}
-.sb-tile__paper em{font-style:normal;color:#FCF6EC;border-bottom:1px dashed rgba(217,106,99,.6)}
-.sb-tile__paper .sb-cite{display:block;margin-top:10px;font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;color:rgba(246,238,226,.38)}
-.sb-demo-search__field{display:flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgba(246,238,226,.14);border-radius:8px;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:#FCF6EC}
-.sb-demo-search__glyph{color:var(--brand)}
-.sb-demo-search__caret{width:7px;height:14px;background:rgba(246,238,226,.6);animation:sb-blink 1.1s steps(1) infinite}
+.sb-tile h3{margin:0;font-family:var(--face-mark);font-weight:400;font-size:18px;color:var(--ink)}
+.sb-tile p{margin:0;font-size:13.5px;line-height:1.55;color:var(--ink-2);max-width:36ch}
+.sb-tile__mono{font-family:var(--face-meta)}
+/* the reading tile shows the reader's own paper, which is the one surface in
+   the app that is not this ground */
+/* The tall tile is two rows high, and the paper filled every pixel of it with
+   three lines of Dracula and a hand's depth of nothing under them. A page
+   that stops halfway is not a page, so the fix is more of the page: the
+   excerpt now runs long enough to fill what the tile actually is. */
+.sb-tile__paper{flex:1;display:flex;flex-direction:column;justify-content:flex-start;padding:20px 18px;border-radius:var(--r);background:#141311;border:1px solid rgba(231,225,214,.1);font-size:13px;line-height:1.7;color:#E7E1D6;font-family:'Literata Variable',Georgia,serif}
+.sb-tile__paper em{font-style:normal;color:var(--ink);border-bottom:1px dashed var(--accent-edge)}
+/* pushed to the foot of the page, where a book prints its running head —
+   which is also what closes the space a two-row tile leaves under the text */
+.sb-tile__paper .sb-cite{display:block;margin-top:auto;padding-top:14px;font-family:var(--face-meta);font-size:11px;color:rgba(231,225,214,.45)}
+.sb-demo-search__field{display:flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--rule-2);border-radius:8px;font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:var(--ink)}
+.sb-demo-search__glyph{color:var(--accent)}
+.sb-demo-search__caret{width:7px;height:14px;background:var(--ink-2);animation:sb-blink 1.1s steps(1) infinite}
 @keyframes sb-blink{50%{opacity:0}}
-.sb-demo-search__rows{margin-top:8px;display:flex;flex-direction:column;gap:4px;height:64px;overflow:hidden;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:rgba(246,238,226,.6)}
+.sb-demo-search__rows{margin-top:8px;display:flex;flex-direction:column;gap:4px;height:64px;overflow:hidden;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:var(--ink-2)}
 .sb-demo-search__row{animation:rise .4s cubic-bezier(.2,.8,.25,1) both;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sb-demo-words__list{display:flex;flex-direction:column;gap:8px;height:156px;overflow:hidden}
 .sb-demo-words__row{display:flex;flex-direction:column;gap:1px;animation:rise .4s cubic-bezier(.2,.8,.25,1) both}
-.sb-demo-words__word{font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:#FCF6EC}
-.sb-demo-words__def{font-size:11.5px;line-height:1.45;color:rgba(246,238,226,.5)}
+.sb-demo-words__word{font-family:'Geist Mono',ui-monospace,monospace;font-size:12.5px;color:var(--ink)}
+.sb-demo-words__def{font-size:11.5px;line-height:1.45;color:var(--ink-3)}
 .sb-orb-mount{display:flex;align-items:center;justify-content:center;flex:1;min-height:96px}
-.sb-tile__quiet{margin-top:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:rgba(246,238,226,.38)}
-.sb-phone{margin:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;line-height:1.25;color:rgba(246,238,226,.5);white-space:pre}
+.sb-tile__quiet{margin-top:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11.5px;color:var(--ink-3)}
+.sb-phone{margin:auto;font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;line-height:1.25;color:var(--ink-3);white-space:pre}
+/* the two tiles for what a book page now says, and what you can bring to it */
+.sb-tile__about{display:flex;flex-direction:column;gap:10px}
+.sb-tile__cats{display:flex;flex-wrap:wrap;gap:5px}
+.sb-tile__cats span{padding:3px 10px;border:1px solid var(--rule-2);border-radius:99px;font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;color:var(--ink-2)}
+.sb-tile__blurb{font-size:12.5px;line-height:1.6;color:var(--ink-3)}
+.sb-tile__stars{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;font-size:16px;letter-spacing:.06em}
+.sb-tile__on{color:var(--accent)}
+.sb-tile__off{color:var(--ink-4)}
+.sb-tile__from{font-size:11px;color:var(--ink-3)}
 @media (max-width:900px){.sb-bento{grid-template-columns:repeat(2,1fr)}.sb-tile--tall{grid-column:span 2;grid-row:auto}}
 @media (max-width:560px){.sb-bento{grid-template-columns:1fr}.sb-tile--wide,.sb-tile--tall{grid-column:auto}}
 
+/* ---- the privacy panel ---- */
+.sb-panel{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,4vw,64px);align-items:start;padding:clamp(26px,3.2vw,44px);border-radius:var(--r-lg);border:1px solid var(--rule)}
+.sb-panel__list{display:flex;flex-direction:column}
+.sb-panel__row{display:flex;flex-direction:column;gap:5px;padding:15px 0;border-top:1px solid var(--rule)}
+.sb-panel__row:first-child{border-top:none;padding-top:0}
+.sb-panel__row b{font-weight:500;font-size:14px;color:var(--ink)}
+.sb-panel__row span{font-size:13px;line-height:1.6;color:var(--ink-2)}
+.sb-code{display:inline-block;margin-top:6px;padding:10px 13px;border-radius:var(--r);border:1px solid var(--rule);font-family:var(--face-meta);font-size:11.5px;line-height:1.55;color:var(--ink-3)}
+@media (max-width:840px){.sb-panel{grid-template-columns:1fr}}
+
+/* ---- questions ---- */
+.sb-faq{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.sb-faq details{border-bottom:1px solid var(--rule)}
+.sb-faq summary{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:19px 2px;cursor:pointer;list-style:none;font-size:15.5px;line-height:1.4;color:var(--ink);transition:color 160ms}
+.sb-faq summary::-webkit-details-marker{display:none}
+.sb-faq summary:hover{color:var(--accent-lit)}
+.sb-faq summary::after{content:'+';flex:0 0 auto;font-family:var(--face-meta);font-size:16px;color:var(--ink-3);transition:transform 200ms cubic-bezier(.2,.8,.25,1),color 160ms}
+.sb-faq details[open] summary::after{transform:rotate(45deg);color:var(--accent)}
+.sb-faq p{margin:0 0 21px;max-width:66ch;font-size:14px;line-height:1.72;color:var(--ink-2)}
+.sb-faq p a{color:var(--ink);border-bottom:1px solid var(--accent-edge)}
+
+/* ---- the last word ---- */
+.sb-cta{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;padding:clamp(42px,5vw,76px) clamp(24px,4vw,56px);border-radius:var(--r-lg);border:1px solid var(--rule)}
+.sb-cta h2{margin:0;font-family:var(--face-mark);font-weight:400;font-size:clamp(26px,3.4vw,44px);line-height:1.16;color:var(--ink);text-wrap:balance;max-width:20ch}
+.sb-cta p{margin:0;max-width:46ch;font-size:15px;line-height:1.65;color:var(--ink-2)}
+.sb-cta__quiet{font-family:var(--face-meta);font-size:11.5px;color:var(--ink-3)}
+
 /* ---- footer ---- */
-.sb-footer{position:relative;background:transparent;border-top:1px solid rgba(246,238,226,.09)}
+.sb-footer{position:relative;background:transparent;border-top:1px solid var(--rule)}
 .sb-footer__grid{max-width:var(--shell-max);margin:0 auto;padding:clamp(44px,5vw,72px) clamp(20px,3.4vw,48px) var(--sp-8);display:grid;grid-template-columns:2fr 1fr 1fr;gap:clamp(28px,4vw,64px)}
 .sb-footer__brand{display:flex;flex-direction:column;gap:14px}
-.sb-footer__brand p{margin:0;font-size:13px;line-height:1.6;color:rgba(246,238,226,.5);max-width:36ch}
+.sb-footer__brand p{margin:0;font-size:13px;line-height:1.6;color:var(--ink-3);max-width:36ch}
 .sb-footer__col{display:flex;flex-direction:column;gap:10px}
-.sb-footer__head{font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(246,238,226,.38)}
-.sb-footer__col a{font-size:13.5px;color:rgba(246,238,226,.68);transition:color .15s}
-.sb-footer__base{max-width:var(--shell-max);margin:0 auto;padding:var(--sp-7) clamp(20px,3.4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:var(--sp-6);flex-wrap:wrap;border-top:1px solid rgba(246,238,226,.06);font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:rgba(246,238,226,.38)}
+.sb-footer__head{font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.sb-footer__col a{font-size:13.5px;color:var(--ink-2);transition:color .15s}
+.sb-footer__base{max-width:var(--shell-max);margin:0 auto;padding:var(--sp-7) clamp(20px,3.4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:var(--sp-6);flex-wrap:wrap;border-top:1px solid var(--rule);font-family:'Geist Mono',ui-monospace,monospace;font-size:12px;color:var(--ink-3)}
 @media (max-width:700px){.sb-footer__grid{grid-template-columns:1fr 1fr}.sb-footer__brand{grid-column:span 2}}
 </style>
 </helmet>
 <div data-theme="oxblood-dark" class="sb-ground" style="--font-ui:Geist, system-ui, sans-serif; --font-display:'Geist Pixel', Geist, system-ui, sans-serif; --font-mono:'Geist Mono', ui-monospace, monospace; color:var(--text-1); font-family:Geist, system-ui, sans-serif; overflow-x:hidden">
 
-  <header data-screen-label="Header" style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:var(--sp-8); padding:var(--sp-7) clamp(20px,3.4vw,48px); pointer-events:none">
+  <header class="sb-header" data-screen-label="Header" style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:var(--sp-8); padding:var(--sp-7) clamp(20px,3.4vw,48px); pointer-events:none">
     <a href="/" style="display:flex; align-items:center; pointer-events:auto">
       <!-- The real lockup (brand/out/identity/lockup-night.png), not the
            monospace "/// superb" approximation this replaces (issue #113:
@@ -129,8 +271,9 @@ a:hover{color:var(--brand)}
       <img src="brand/lockup-night.png" alt="Superb" style="height:28px; width:auto; filter:drop-shadow(0 2px 10px rgba(10,6,3,.9))">
     </a>
     <nav style="display:flex; gap:var(--sp-8); margin-left:auto; align-items:center; font-size:13.5px; font-weight:450; color:rgba(246,238,226,.8); pointer-events:auto; white-space:nowrap; text-shadow:0 2px 12px rgba(10,6,3,.95)">
-      <a href="#facts" class="sb-nav-wide">The case</a>
+      <a href="#how" class="sb-nav-wide">How it works</a>
       <a href="/library/">Library</a>
+      <a href="#faq" class="sb-nav-wide">FAQ</a>
       <a href="/about/">About</a>
       <a href="/open-source/" class="sb-nav-wide">Open source</a>
       <a href="/read/" style="color:var(--brand)">Read</a>
@@ -141,64 +284,87 @@ a:hover{color:var(--brand)}
        "older versions had the image go the entire screen height, this
        behavior should stay" — and asked for the bottom fade to take no more
        than 5% of the screen rather than the 30% band it had grown to. -->
-  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#0C1014; height:100svh; min-height:560px; display:flex; align-items:center">
+  <section data-screen-label="Hero" style="position:relative; overflow:hidden; background:#050609; height:100svh; min-height:560px; display:flex; align-items:center">
     <div ref="{{ wrapRef }}" style="position:absolute; inset:0; font-family:'Geist Mono', ui-monospace, monospace; font-weight:500; white-space:pre; overflow:hidden"></div>
-    <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(10,12,16,.58) 0%, rgba(10,12,16,.34) 26%, rgba(10,12,16,.10) 50%, rgba(10,12,16,0) 70%)"></div>
-    <div style="position:absolute; left:0; right:0; top:0; height:12%; background:linear-gradient(to bottom, rgba(10,12,16,.56), rgba(12,16,20,0))"></div>
-    <div style="position:absolute; left:0; right:0; bottom:0; height:5%; background:linear-gradient(to bottom, rgba(12,16,20,0), #0C1014 97%)"></div>
+    <div style="position:absolute; inset:0; background:linear-gradient(93deg, rgba(5,6,9,.58) 0%, rgba(5,6,9,.34) 26%, rgba(5,6,9,.10) 50%, rgba(5,6,9,0) 70%)"></div>
+    <div style="position:absolute; left:0; right:0; top:0; height:12%; background:linear-gradient(to bottom, rgba(5,6,9,.56), rgba(5,6,9,0))"></div>
+    <div style="position:absolute; left:0; right:0; bottom:0; height:5%; background:linear-gradient(to bottom, rgba(5,6,9,0), #050609 97%)"></div>
 
     <div style="position:relative; z-index:3; width:100%; max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px)">
       <div style="display:flex; flex-direction:column; align-items:flex-start; gap:var(--sp-7); max-width:620px; margin-left:-28px; padding:26px 28px; border-radius:10px; border:1px solid rgba(246,238,226,0); transition:border-color 140ms cubic-bezier(.2,.8,.25,1); animation:rise .8s cubic-bezier(.2,.8,.25,1) both; opacity:0.66">
         <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--brand); text-shadow:0 2px 14px rgba(10,6,3,.95)">Vocabulary, through reading</span>
-        <h1 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(34px,4.7vw,66px); line-height:1.1; color:#FCF6EC; text-wrap:balance; text-shadow:0 4px 30px rgba(10,6,3,.95), 0 1px 5px rgba(10,6,3,.85)">You probably don’t <span style="background:rgba(217,106,99,.26); border-radius:4px; padding:0 .1em; box-decoration-break:clone">read</span> enough.</h1>
-        <p style="margin: 0; max-width: 42ch; font-size: clamp(15px,1.2vw,17.5px); line-height: 1.62; color: #F6EEE2FD; text-wrap: pretty; text-shadow: 0 2px 18px rgba(10,6,3,.98)">Superb hands you something worth finishing, then keeps every word that trips you up. Tap it once — it comes back until it’s yours.</p>
+        <h1 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(34px,4.7vw,66px); line-height:1.1; color:#FCF6EC; text-wrap:balance; text-shadow:0 4px 30px rgba(10,6,3,.95), 0 1px 5px rgba(10,6,3,.85)">You probably do not <span style="background:rgba(217,106,99,.26); border-radius:4px; padding:0 .1em; box-decoration-break:clone">read</span> enough.</h1>
+        <p style="margin: 0; max-width: 42ch; font-size: clamp(15px,1.2vw,17.5px); line-height: 1.62; color: #F6EEE2FD; text-wrap: pretty; text-shadow: 0 2px 18px rgba(10,6,3,.98)">Superb gives you a book worth finishing, then keeps every word you do not know. Tap a word once and it comes back until you know it.</p>
         <div style="display:flex; gap:var(--sp-5); align-items:center; flex-wrap:wrap; white-space:nowrap; margin-top:var(--sp-2)">
           <a href="/read/" ref="{{ btn0Ref }}" style="display:inline-flex; align-items:center; gap:10px; padding:15px 24px; color:#FBEDE3; font-family:'Geist Mono', ui-monospace, monospace; font-size:13.5px; font-weight:500; letter-spacing:.02em; white-space:nowrap; flex:0 0 auto; text-decoration:none; transition:color 120ms, transform 180ms cubic-bezier(.2,.8,.25,1)" style-hover="color:#FFF3EC" style-active="transform:scale(.98)">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5c2.6-.7 5.2.1 8 2.2v11c-2.8-2.1-5.4-2.9-8-2.2z"></path><path d="M20 5.5c-2.6-.7-5.2.1-8 2.2v11c2.8-2.1 5.4-2.9 8-2.2z"></path></svg>
             Start reading
           </a>
-          <a href="#facts" ref="{{ btn1Ref }}" style="display:inline-flex; align-items:center; gap:10px; padding:15px 22px; color:#F6EEE2; font-family:'Geist Mono', ui-monospace, monospace; font-size:13.5px; font-weight:500; letter-spacing:.02em; white-space:nowrap; flex:0 0 auto; text-decoration:none; transition:color 120ms, transform 180ms cubic-bezier(.2,.8,.25,1)" style-hover="color:#FFFDF8" style-active="transform:scale(.98)">
+          <a href="#how" ref="{{ btn1Ref }}" style="display:inline-flex; align-items:center; gap:10px; padding:15px 22px; color:#F6EEE2; font-family:'Geist Mono', ui-monospace, monospace; font-size:13.5px; font-weight:500; letter-spacing:.02em; white-space:nowrap; flex:0 0 auto; text-decoration:none; transition:color 120ms, transform 180ms cubic-bezier(.2,.8,.25,1)" style-hover="color:#FFFDF8" style-active="transform:scale(.98)">
             See how it works
             <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
           </a>
         </div>
-        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:12px; line-height:1.5; color:rgba(246,238,226,.52); text-shadow:0 2px 14px rgba(10,6,3,.98)">No account. No streak guilt. Your reading state stays on this device.</span>
+        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:12px; line-height:1.5; color:rgba(246,238,226,.52); text-shadow:0 2px 14px rgba(10,6,3,.98)">No account. No streaks. Your reading stays on this device.</span>
       </div>
     </div>
   </section>
 
-  <section id="facts" data-screen-label="Facts" style="position:relative">
-    <div style="max-width:var(--shell-max); margin:0 auto; padding:clamp(64px,7vw,104px) clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(44px,5vw,76px)">
-      <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:26ch">
-        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">The case</span>
-        <h2 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(24px,3vw,40px); line-height:1.2; color:#FCF6EC; text-wrap:balance">The literacy crisis isn’t a vocabulary problem. It’s a <span style="color:var(--brand)">reading</span> problem.</h2>
+  <!-- The four numbers a visitor wants before anything else: how much there
+       is, what it costs them, and where it lives. -->
+  <section data-screen-label="Proof" style="position:relative">
+    <div class="sb-wrap">
+      <div class="sb-proof">
+        <div><b>1,478</b><span>whole books, free</span></div>
+        <div><b>3</b><span>ways to practise</span></div>
+        <div><b>0</b><span>accounts, ever</span></div>
+        <div><b>100%</b><span>on your own device</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sb-sec" data-screen-label="Thesis">
+    <div class="sb-wrap">
+      <div class="sb-thesis">
+        <span class="sb-eyebrow">The case</span>
+        <h2>The literacy crisis is not a vocabulary problem. It is a <span style="color:var(--accent)">reading</span> problem.</h2>
+        <p>Word lists do not work. A word only means something inside a sentence that someone wrote. Superb starts with the book, and the vocabulary comes off it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Three steps, each one showing the actual thing running rather than a
+       picture of it. The miniatures are driven by demos.js from shipped
+       content, and the cards decode out of cipher as the cursor reaches them. -->
+  <section id="how" class="sb-sec sb-sec--tight" data-screen-label="How it works">
+    <div class="sb-wrap" style="display:flex; flex-direction:column; gap:clamp(30px,3.4vw,50px)">
+      <div class="sb-head">
+        <span class="sb-eyebrow">How it works</span>
+        <h2 class="sb-h2">Read it. Tap it. Practise it.</h2>
+        <p class="sb-lede">Three steps, and none of them feel like homework. Every card below shows the real app.</p>
       </div>
 
-      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(28px,3.4vw,56px); align-items:stretch">
-
-        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--brand)">
-          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">614 books</span>
+      <div class="sb-steps">
+        <article class="sb-step sb-crypt">
+          <span class="sb-step__n">01</span>
+          <h3>Choose a book worth finishing</h3>
+          <p>Real books, carefully typeset, from Austen to Du Bois. All are out of copyright and free.</p>
           <div id="demo-shelf" class="sb-demo" aria-hidden="true"></div>
-          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Real books, carefully typeset — Austen to Du Bois — all out of copyright, all free.</span>
-        </div>
+        </article>
 
-        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid var(--support)">
-          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">Tap a word</span>
+        <article class="sb-step sb-crypt">
+          <span class="sb-step__n">02</span>
+          <h3>Tap the word that stopped you</h3>
+          <p>Its meaning opens on the page. Keep the words you want and Superb saves them.</p>
           <div id="demo-gloss" class="sb-demo" aria-hidden="true"></div>
-          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Any word you don’t know gives up its meaning right on the page. Keep the good ones; they wait for you.</span>
-        </div>
+        </article>
 
-        <div style="display:grid; grid-template-rows:auto auto auto; gap:var(--sp-7); padding-top:var(--sp-6); border-top:2px solid #B193F5">
-          <span style="font-family:'Geist Pixel', Geist, sans-serif; font-size:clamp(32px,3.4vw,46px); line-height:1; color:#FCF6EC">Three games</span>
+        <article class="sb-step sb-crypt">
+          <span class="sb-step__n">03</span>
+          <h3>Practise it until you know it</h3>
+          <p>Rhyme, association and prose, written for you. Answer by typing or out loud, then see what you missed.</p>
           <div id="demo-games" class="sb-demo" aria-hidden="true"></div>
-          <span style="font-size:14px; line-height:1.55; color:rgba(246,238,226,.66); max-width:28ch; align-self:start">Rhyme, association, and prose composed for you. Type or say your answers, then see what you could have said.</span>
-        </div>
-
-      </div>
-
-      <div style="display:flex; align-items:center; justify-content:space-between; gap:var(--sp-8); flex-wrap:wrap; padding-top:var(--sp-7); border-top:1px solid rgba(246,238,226,.09)">
-        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:12px; line-height:1.5; color:rgba(246,238,226,.34); max-width:52ch">Everything runs on your device. No account, no streaks, nothing leaves your browser. On a phone, install it from the browser menu and it reads offline.</span>
-        <a href="/read/" style="display:inline-flex; align-items:center; min-height:40px; padding:0 18px; border:1px solid var(--brand); border-radius:var(--radius-control); color:#FBEDE3; font-family:'Geist Mono', ui-monospace, monospace; font-size:13px">Read something tonight →</a>
+        </article>
       </div>
     </div>
   </section>
@@ -206,48 +372,131 @@ a:hover{color:var(--brand)}
   <!-- The rooms of the app, shown working. Every tile is something that
        exists behind /read/ today -- no promised rooms, no roadmap tiles.
        The miniatures are driven by demos.js from shipped content. -->
-  <section id="inside" data-screen-label="Inside" style="position:relative">
-    <div style="max-width:var(--shell-max); margin:0 auto; padding:0 clamp(20px,3.4vw,48px) clamp(80px,9vw,120px); display:flex; flex-direction:column; gap:clamp(36px,4vw,56px)">
-      <div style="display:flex; flex-direction:column; gap:var(--sp-7); max-width:30ch">
-        <span style="font-family:'Geist Mono', ui-monospace, monospace; font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(246,238,226,.42)">Inside the app</span>
-        <h2 style="margin:0; font-family:'Geist Pixel', Geist, sans-serif; font-weight:400; font-size:clamp(24px,3vw,40px); line-height:1.2; color:#FCF6EC; text-wrap:balance">A quiet place to read, and a satisfying place to <span style="color:#B193F5">play</span>.</h2>
+  <section id="inside" class="sb-sec sb-sec--tight" data-screen-label="Inside" style="position:relative">
+    <div class="sb-wrap" style="display:flex; flex-direction:column; gap:clamp(30px,3.4vw,50px)">
+      <div class="sb-head">
+        <span class="sb-eyebrow">Inside the app</span>
+        <h2 class="sb-h2">A quiet place to read, and a satisfying place to <span style="color:var(--accent)">play</span>.</h2>
+        <p class="sb-lede">Every room below works in <a href="/read/" style="color:var(--ink); border-bottom:1px solid var(--accent-edge)">/read</a> today. Nothing here is a promise.</p>
       </div>
 
       <div class="sb-bento">
-        <div class="sb-tile sb-tile--tall">
+        <div class="sb-tile sb-crypt sb-tile--tall">
           <h3>Reading comes first</h3>
-          <div class="sb-tile__paper">“I am all in a sea of wonders. I doubt; I fear; I think strange things, which I dare not confess to my own soul.”<span class="sb-cite">Dracula — Bram Stoker, chapter II</span></div>
-          <p>Your place is saved as you scroll. Ordinary reading records nothing beyond that and the words you choose to keep.</p>
+          <div class="sb-tile__paper">“I am all in a sea of wonders. I doubt; I fear; I think strange things, which I dare not confess to my own soul. God keep me, if only for the sake of those dear to me! … I must play my part, and take my chance, and be ready for whatever comes. When I have written I shall sleep, or try, and see if the day brings anything better than the night has done.”<span class="sb-cite">Bram Stoker, Dracula, chapter II</span></div>
+          <p>A real page that you turn, set the way you like it. Superb remembers where you stopped, and records nothing else except the words you keep.</p>
         </div>
-        <div class="sb-tile">
+        <div class="sb-tile sb-crypt">
           <h3>Find a book</h3>
           <div id="demo-search" aria-hidden="true"></div>
-          <p>Search all 614 by title or author, or browse by kind.</p>
+          <p>Search all 1,478 books by title or author, or browse by kind.</p>
         </div>
-        <div class="sb-tile">
+        <div class="sb-tile sb-crypt">
           <h3>Your words</h3>
           <div id="demo-words" aria-hidden="true"></div>
-          <p>Every kept word waits with its meaning and the sentence it was met in.</p>
+          <p>Every word you keep is listed here with its meaning and the sentence you found it in.</p>
         </div>
-        <div class="sb-tile">
+        <div class="sb-tile sb-crypt">
           <h3>Read aloud</h3>
           <div id="demo-orb" class="sb-orb-mount" aria-hidden="true"></div>
-          <p>An orb reads to you in your device’s own voice.</p>
+          <p>Superb reads the page aloud with your device’s own voice.</p>
         </div>
-        <div class="sb-tile">
+        <div class="sb-tile sb-crypt">
           <h3>Take it offline</h3>
           <div class="sb-phone" aria-hidden="true">┌──────┐
 │ ▓▓▓▓ │
 │ ▓▓▓▓ │
 │  ──  │
 └──────┘</div>
-          <p>Install it from the browser menu. A book once opened reads with no connection at all.</p>
+          <p>Install Superb from the browser menu. A book you opened once reads with no connection.</p>
         </div>
-        <div class="sb-tile sb-tile--wide">
-          <h3>Nothing leaves this device</h3>
-          <p>No account, no tracking, no analytics. Your shelf, your places, and your kept words live in your own browser’s storage — the only thing the app ever fetches is the book you asked for.</p>
-          <span class="sb-tile__quiet sb-tile__mono">connect-src 'self' + the book library. That’s the whole policy.</span>
+        <div class="sb-tile sb-crypt sb-tile--wide">
+          <h3>What each book is</h3>
+          <div class="sb-tile__about" aria-hidden="true">
+            <span class="sb-tile__cats"><span>Fiction</span><span>Mystery &amp; Horror</span><span>Haycraft-Queen Cornerstones</span></span>
+            <span class="sb-tile__blurb">A solicitor’s clerk travels to Transylvania on ordinary business and finds himself the guest, then the prisoner, of a host who casts no reflection.</span>
+          </div>
+          <p>Every one of the 1,478 books has a real description, its categories and its reading time.</p>
         </div>
+        <div class="sb-tile sb-crypt sb-tile--wide">
+          <h3>Bring your shelf with you</h3>
+          <div class="sb-tile__stars" aria-hidden="true">
+            <span class="sb-tile__on">★★★★</span><span class="sb-tile__off">☆</span>
+            <span class="sb-tile__mono sb-tile__from">imported from Goodreads</span>
+          </div>
+          <p>Import a Goodreads file and your ratings, reviews and shelves come with it. Export them again whenever you want. The file never leaves your browser.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The privacy claim, out of the bento and standing on its own: it is the
+       one thing about Superb that a visitor is entitled to check rather than
+       take on trust, so it gets the room to be specific. -->
+  <section id="private" class="sb-sec sb-sec--tight" data-screen-label="Private">
+    <div class="sb-wrap">
+      <div class="sb-panel">
+        <div class="sb-head">
+          <span class="sb-eyebrow">Yours, not ours</span>
+          <h2 class="sb-h2">Nothing leaves this device.</h2>
+          <p class="sb-lede">No account, no tracking, no analytics and no newsletter. Your shelf, your places and your kept words live in your own browser’s storage. Superb fetches one thing only: the book you asked for.</p>
+          <span class="sb-code">connect-src 'self' https://cdn.jsdelivr.net<br>That is the whole policy, and the browser enforces it.</span>
+        </div>
+        <div class="sb-panel__list">
+          <div class="sb-panel__row"><b>No sign-in</b><span>Open a book and read. There is no wall, and no field that asks for your email.</span></div>
+          <div class="sb-panel__row"><b>No streaks</b><span>Nothing counts down. You lose nothing if you put the app away for a month.</span></div>
+          <div class="sb-panel__row"><b>Yours to take</b><span>Import a Goodreads file, and export everything again whenever you want.</span></div>
+          <div class="sb-panel__row"><b>Open source</b><span>The code is public and the licence is MIT + Commons Clause. Every book carries its own provenance record.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="sb-sec sb-sec--tight" data-screen-label="Questions">
+    <div class="sb-wrap" style="display:flex; flex-direction:column; gap:clamp(26px,3vw,40px)">
+      <div class="sb-head">
+        <span class="sb-eyebrow">Questions</span>
+        <h2 class="sb-h2">The things people ask first.</h2>
+      </div>
+      <div class="sb-faq">
+        <details>
+          <summary>Is it free?</summary>
+          <p>Yes, all of it. The books are public domain, the dictionary is open data, and everything runs in your browser. There is nothing to bill you for, and no paid tier behind any feature.</p>
+        </details>
+        <details>
+          <summary>Which books do I get?</summary>
+          <p>1,478 of them, carefully typeset from Standard Ebooks editions: fiction, poetry, drama, philosophy and memoir. <a href="/library/">Browse the whole library</a> before you decide.</p>
+        </details>
+        <details>
+          <summary>What actually happens when I tap a word?</summary>
+          <p>A card opens on the page with the meaning that fits your sentence. It does not list every meaning the word has ever had. Keep the word and it comes back later in the practice you choose. Ordinary reading records nothing else.</p>
+        </details>
+        <details>
+          <summary>Do I have to play the games?</summary>
+          <p>No. Reading is the whole product on its own. The three games are there when you want them. They are the only part that teaches Superb anything about you.</p>
+        </details>
+        <details>
+          <summary>Is there an app I can install?</summary>
+          <p>Install it from your browser’s menu and it behaves like one. It gets its own icon and its own window, and a book you opened once reads with no connection. An Android build follows, then iOS.</p>
+        </details>
+        <details>
+          <summary>How do I ask for something, or report something broken?</summary>
+          <p>Open an issue on <a href="https://github.com/kihea/superb/issues">GitHub</a>. Superb is built in the open, and every change starts there.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sb-sec sb-sec--tight" data-screen-label="Start">
+    <div class="sb-wrap">
+      <div class="sb-cta">
+        <h2>Read something tonight.</h2>
+        <p>Choose a book, read a page and tap what stops you. That is the whole first session.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:4px">
+          <a class="sb-btn" href="/read/">Start reading</a>
+          <a class="sb-btn sb-btn--ghost" href="/library/">Browse the library</a>
+        </div>
+        <span class="sb-cta__quiet">No account. No download. Nothing to cancel.</span>
       </div>
     </div>
   </section>
@@ -256,7 +505,7 @@ a:hover{color:var(--brand)}
     <div class="sb-footer__grid">
       <div class="sb-footer__brand">
         <img src="brand/lockup-night.png" alt="Superb" style="height:24px; width:auto; align-self:flex-start">
-        <p>A reading app that quietly builds vocabulary. Free, open, and yours — no account, no streaks, nothing leaving your device.</p>
+        <p>A reading app that builds your vocabulary. Free, open and yours. No account, no streaks, and nothing leaves your device.</p>
       </div>
       <div class="sb-footer__col">
         <span class="sb-footer__head">Product</span>
@@ -296,6 +545,13 @@ const BTN0 = {
   off: { line: 'rgba(217,106,99,.72)', bar: '-', side: '|', corner: '+', fill: 'rgba(176,154,132,.22)', fillCh: null },
   on:  { line: '#F2A79E', bar: '#', side: '#', corner: '*', fill: 'rgba(233,149,141,.46)', fillCh: null, inner: '-' }
 };
+// A few birds cross the sky. Three cells of wingspan — a cell is only about four
+// pixels wide, so a two-cell bird reads as dust. Wings up, wings down, nothing in
+// between: a level frame is three tildes, which is a dash, not a bird.
+// The ink is warm and near-opaque, because the field is glyphs on a dark ground —
+// a dark silhouette would be a hole nobody sees, and a bright mark is the bird.
+const BIRD_FRAMES = [['\\', '_', '/'], ['/', '~', '\\']];
+const BIRD_INK = 'rgba(250,244,234,.86)';
 const BTN1 = {
   off: { line: 'rgba(246,238,226,.34)', bar: '-', side: '|', corner: '+', fill: 'rgba(176,154,132,.22)', fillCh: null },
   on:  { line: 'rgba(255,253,248,.9)', bar: ':', side: '|', corner: '+', fill: 'rgba(226,216,200,.34)', fillCh: null, chev: true }
@@ -475,6 +731,7 @@ class Component extends DCLogic {
       if (S.veg[si] === '1' && sy <= S.horizon && S.mask[si] === '2') this.leafCols[x].push({ x, y, sx, sy });
       if (sx > S.CF * 0.735 && sx < S.CF * 0.775 && sy > S.RF * 0.565 && sy < S.RF * 0.625) this.book.push({ x, y, sx, sy });
     }
+    this.seedBirds();
 
     // the glyph field is drawn to a canvas: at this density the DOM can't keep up,
     // and a dirty row costs one clearRect plus a handful of fillText runs
@@ -536,23 +793,79 @@ class Component extends DCLogic {
   mark(y) { (this.dirty || (this.dirty = new Set())).add(y); }
   markStruct(y) { this.mark(y); }
 
-  applySky(off) {
+  // what the drifting plate holds for one cell right now, or null where the
+  // foreground stands and the sky never shows through
+  skyUnder(x, y, off) {
     const S = this.S, g = this.g, CF = S.CF, per = 2 * CF;
+    const sx = x + g.c0, sy = y + g.r0;
+    if (sy > S.skyEnd || S.mask[sy * CF + sx] === '2') return null;
+    let j = (sx + off) % per; if (j < 0) j += per;
+    if (j >= CF) j = per - 1 - j;
+    return [g.skyCh[sy * CF + j], g.skyCo[sy * CF + j]];
+  }
+
+  applySky(off) {
+    const S = this.S, g = this.g;
     for (let y = 0; y < g.R; y++) {
-      const sy = y + g.r0;
-      if (sy > S.skyEnd) break;
+      if (y + g.r0 > S.skyEnd) break;
       let tc = false, tk = false;
       for (let x = 0; x < g.C; x++) {
-        const sx = x + g.c0;
-        if (S.mask[sy * CF + sx] === '2') continue;
-        let j = (sx + off) % per; if (j < 0) j += per;
-        if (j >= CF) j = per - 1 - j;
-        const c = g.skyCh[sy * CF + j], k = g.skyCo[sy * CF + j];
-        if (g.co[y][x] !== k) { g.co[y][x] = k; tk = true; }
-        if (g.ch[y][x] !== c) { g.ch[y][x] = c; tc = true; }
+        const u = this.skyUnder(x, y, off);
+        if (!u) continue;
+        if (g.co[y][x] !== u[1]) { g.co[y][x] = u[1]; tk = true; }
+        if (g.ch[y][x] !== u[0]) { g.ch[y][x] = u[0]; tc = true; }
       }
       if (tk) this.markStruct(y); else if (tc) this.mark(y);
     }
+  }
+
+  // birds live in the sky band only, and vanish behind the canopy rather than
+  // sliding over it
+  seedBirds() {
+    const S = this.S, g = this.g;
+    this.birdCells = [];
+    this.birds = [];
+    const top = 1, bot = Math.min(g.R - 2, S.skyEnd - g.r0 - 1);
+    if (bot - top < 4) return;
+    // Seeded across the open sky rather than off the left edge: they are part of
+    // the first look at the page, not something that arrives half a minute in.
+    // A loose flock, then one bird a long way behind it. Fractions of the width.
+    [[.24, .16, .30], [.17, .26, .28], [.13, .10, .26], [-.34, .40, .24]].forEach((b, i) => {
+      this.birds.push({
+        x: b[0] * g.C, y0: top + (bot - top) * b[1], sp: b[2],
+        f: i * 1.7, ph: i * 2.1
+      });
+    });
+  }
+
+  restoreCell(x, y, off) {
+    const g = this.g, u = this.skyUnder(x, y, off);
+    const c = u ? u[0] : g.baseCh[y][x], k = u ? u[1] : g.baseCo[y][x];
+    if (g.ch[y][x] !== c || g.co[y][x] !== k) { g.ch[y][x] = c; g.co[y][x] = k; this.mark(y); }
+  }
+
+  flyBirds(off) {
+    const S = this.S, g = this.g;
+    if (!this.birds || !this.birds.length) return;
+    this.birdCells.forEach(c => this.restoreCell(c[0], c[1], off));
+    this.birdCells = [];
+    const top = 1, bot = Math.min(g.R - 2, S.skyEnd - g.r0 - 1);
+    this.birds.forEach(b => {
+      b.x += b.sp;
+      b.f += 0.3;
+      if (b.x > g.C + 4) { b.x = -4 - Math.random() * 40; b.y0 = top + (bot - top) * (0.06 + Math.random() * 0.44); }
+      // a slow rise and fall, so they are not sliding along a rail
+      const by = Math.round(b.y0 + Math.sin(b.f * 0.07 + b.ph) * 1.6);
+      const fr = BIRD_FRAMES[(b.f | 0) % BIRD_FRAMES.length];
+      for (let i = 0; i < fr.length; i++) {
+        const x = Math.round(b.x) + i, y = by;
+        if (x < 0 || x > g.C - 1 || y < 0 || y > g.R - 1) continue;
+        if (!this.skyUnder(x, y, off)) continue;   // behind the tree
+        g.ch[y][x] = fr[i]; g.co[y][x] = BIRD_INK;
+        this.mark(y);
+        this.birdCells.push([x, y]);
+      }
+    });
   }
 
   tick() {
@@ -565,6 +878,7 @@ class Component extends DCLogic {
       try {
       const d = -((f / 7) | 0);                       // clouds: one character every 560ms
       if (d !== last) { last = d; this.applySky(d); }
+      this.flyBirds(d);
 
       gust += 2.4;                                     // a breeze crossing the canopy
       if (gust > g.C + 30) gust = -30;

@@ -1,135 +1,360 @@
-/* Frame 1e. */
+/* The reader takes the whole page: no rail, no tab bar, nothing but the book
+   and the four controls it needs. */
 
-.whole-book {
+.reader {
+  position: fixed;
+  inset: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-7);
-  flex: 1;
+  background: var(--paper);
+  color: var(--paper-ink);
+  transition:
+    background var(--slow) var(--ease),
+    color var(--slow);
 }
 
-/* Verse and speech keep the author's line breaks. The hanging indent is
-   1e's own 22px: a line too long for the column wraps *inwards*, so it can
-   never be mistaken for a line the author wrote. */
-.whole-book__verse {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-1);
-  font: var(--type-passage);
-  color: var(--text-1);
-  max-width: var(--measure);
-}
-
-.whole-book__line {
-  padding-left: 22px;
-  text-indent: -22px;
-}
-
-/* The publisher's own chapter-heading lines, under the label. */
-.whole-book__heading {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-2);
-  font: var(--type-passage);
-  font-style: italic;
-  color: var(--text-2);
-  max-width: var(--measure);
-}
-
-.whole-book__heading p {
-  margin: 0;
-}
-
-/* Verse keeps the author's line breaks. */
-.whole-book__verse-block {
-  white-space: pre-line;
-}
-
-/* The paragraph being read aloud: a soft rule in the margin, nothing on
-   the words themselves. */
-.whole-book__block--spoken {
-  position: relative;
-}
-
-.whole-book__block--spoken::before {
-  content: "";
-  position: absolute;
-  left: calc(-1 * var(--sp-5));
-  top: var(--sp-2);
-  bottom: var(--sp-2);
-  width: 2px;
-  border-radius: 1px;
-  background: var(--brand);
-  opacity: 0.5;
-  animation: spoken-rule-in var(--dur-3) var(--ease-out) both;
-}
-
-@keyframes spoken-rule-in {
-  from {
-    transform: scaleY(0.4);
-    opacity: 0;
-  }
-  to {
-    transform: scaleY(1);
-    opacity: 0.5;
-  }
-}
-
-.whole-book__speech {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-}
-
-.whole-book__speaker {
-  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
-  letter-spacing: var(--ls-label);
-  text-transform: uppercase;
-  color: var(--brand);
-}
-
-.whole-book__foot {
-  display: flex;
-  justify-content: center;
-  padding: var(--sp-9) 0 var(--sp-10);
-}
-
-/* The door to the next chapter: one generous, quiet object at the end of a
-   page of reading -- easy to press, easy to ignore. */
-.whole-book__next {
-  display: flex;
-  flex-direction: column;
+.reader--waiting {
   align-items: center;
-  gap: var(--sp-3);
-  min-width: 220px;
-  padding: var(--sp-6) var(--sp-9);
-  background: var(--surface-card);
-  border: var(--bw-hairline) solid var(--border-1);
-  border-radius: var(--r-xl);
-  box-shadow: var(--shadow-1);
+  justify-content: center;
+}
+
+/* ── the head ────────────────────────────────────────────────────────── */
+
+.reader__top {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 22px;
+  padding-top: max(14px, env(safe-area-inset-top));
+  border-bottom: 1px solid var(--paper-rule);
+}
+
+.reader__back,
+.reader__aa {
+  flex: none;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--paper-rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  color: inherit;
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  cursor: pointer;
+  transition: background var(--fast);
+}
+
+.reader__back {
+  border-color: transparent;
+  padding: 0 6px;
+  color: var(--paper-dim);
+}
+
+.reader__back:hover,
+.reader__aa:hover {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.reader__where {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.reader__book {
+  font-family: var(--face-meta);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader__chapter {
+  font-family: var(--face-meta);
+  font-size: 10px;
+  color: var(--paper-dim);
+}
+
+/* ── the page ────────────────────────────────────────────────────────── */
+
+.reader__stage {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.reader__viewport {
+  position: absolute;
+  inset: 22px 22px;
+  overflow: hidden;
+}
+
+@media (min-width: 47.5rem) {
+  .reader__viewport {
+    inset: 36px 44px;
+  }
+}
+
+/* The chapter, poured into columns the height of the window and moved
+   sideways a screenful at a time. column-fill: auto is what makes the
+   columns fill in order rather than balancing — without it every page would
+   try to be the same length as the whole chapter. */
+.reader__flow {
+  height: 100%;
+  column-fill: auto;
+  font-family: var(--face-read);
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  text-wrap: pretty;
+  hanging-punctuation: first last;
+  transition: transform var(--turn) var(--ease);
+  will-change: transform;
+}
+
+.reader__heading {
+  margin: 0 0 1.4em;
+}
+
+.reader__heading p {
+  margin: 0 0 0.3em;
+  font-family: var(--face-meta);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.reader__block {
+  margin: 0 0 1em;
+  text-indent: 1.4em;
+  transition: opacity var(--slow);
+}
+
+.reader__block--opening {
+  text-indent: 0;
+}
+
+/* The chapter's first letter, set in the app's own pixel face — the one
+   place the interface's voice is allowed onto the page. */
+.reader__block--opening::first-letter {
+  font-family: var(--face-mark);
+  font-size: 3.1em;
+  line-height: 0.82;
+  float: left;
+  padding: 0.06em 0.12em 0 0;
+}
+
+/* Verse keeps the author's line breaks, and a line too long for the column
+   wraps inwards so it can never be mistaken for a line the author wrote. */
+.reader__block--verse {
+  text-indent: 0;
+  padding-left: 22px;
+  white-space: pre-line;
+  text-align: left;
+}
+
+/* Dim what is ahead: the spread you are on stays lit, the rest recedes. */
+.reader__block--ahead {
+  opacity: 0.28;
+}
+
+/* Being read to: the paragraph the voice is on, marked without moving it. */
+.reader__block--spoken {
+  background: rgba(200, 86, 75, 0.14);
+  border-radius: 2px;
+}
+
+/* A word the book has a meaning for. No standing underline: it is plain text
+   that answers when you touch it. */
+.reader__word {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background var(--fast);
+}
+
+.reader__word:hover {
+  background: rgba(200, 86, 75, 0.12);
+}
+
+/* The ribbon: a bookmark down the edge, its length the way through the
+   chapter. The one piece of the app's own red inside the page. */
+.reader__ribbon {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 13px;
+  background: var(--accent);
+  opacity: 0.85;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 84%, 0 100%);
+  transition: height var(--turn) var(--ease);
+  pointer-events: none;
+}
+
+@media (min-width: 47.5rem) {
+  .reader__ribbon {
+    right: 64px;
+  }
+}
+
+/* ── the foot ────────────────────────────────────────────────────────── */
+
+.reader__foot {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 22px 16px;
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--paper-rule);
+}
+
+.reader__turn {
+  min-height: 34px;
+  padding: 0 15px;
+  border: 1px solid var(--paper-rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  color: inherit;
+  font-family: var(--face-meta);
+  font-size: 11.5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background var(--fast),
+    opacity var(--fast);
+}
+
+.reader__turn:hover {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.reader__turn[disabled] {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.reader__turn--onward {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.reader__ticks {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  min-width: 0;
+}
+
+.reader__tick {
+  flex: 1;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--paper-rule-2);
+  transition: background var(--base);
+}
+
+.reader__tick--past {
+  background: var(--accent);
+}
+
+.reader__count {
+  font-family: var(--face-meta);
+  font-size: 11px;
+  color: var(--paper-dim);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── the sheet ───────────────────────────────────────────────────────── */
+
+.reader__sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 22px 24px;
+  padding-bottom: max(24px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--paper-rule-2);
+  background: var(--paper);
+  z-index: 5;
+}
+
+.reader__sheet-inner {
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reader__sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reader__sheet-head .eyebrow {
+  color: var(--paper-dim);
+}
+
+.reader__sheet-close {
+  border: none;
+  background: none;
+  padding: 6px 0;
+  color: var(--paper-dim);
+  font-family: var(--face-meta);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.reader__row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.reader__row-label {
+  width: 78px;
+  flex: none;
+  font-family: var(--face-meta);
+  font-size: 11px;
+  color: var(--paper-dim);
+}
+
+.reader__row-choices {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+}
+
+.reader__choice {
+  flex: 1;
+  min-height: 34px;
+  border: 1px solid var(--paper-rule);
+  border-radius: var(--radius);
+  background: transparent;
+  color: inherit;
+  font-family: var(--face-meta);
+  font-size: 11.5px;
   cursor: pointer;
   transition:
-    transform var(--dur-2) var(--ease-out),
-    box-shadow var(--dur-2) var(--ease-out);
+    background var(--fast),
+    border-color var(--fast);
 }
 
-.whole-book__next:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-2);
-}
-
-.whole-book__next:active {
-  transform: translateY(0);
-  box-shadow: var(--shadow-press);
-}
-
-.whole-book__next-eyebrow {
-  font: var(--type-eyebrow);
-  letter-spacing: var(--ls-eyebrow);
-  text-transform: uppercase;
-  color: var(--text-3);
-}
-
-.whole-book__next-label {
-  font: var(--type-title-2);
-  color: var(--text-1);
+.reader__choice--on {
+  border-color: var(--paper-rule-2);
+  background: color-mix(in srgb, currentColor 10%, transparent);
 }

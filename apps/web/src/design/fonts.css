@@ -1,19 +1,19 @@
-/* Self-hosted, subset to Latin (docs/build-plan.md, ADR-004: no third-party
-   fetch at read time). Both are OFL, variable-weight single files -- one
-   file per family covers the whole weight axis instead of shipping a
-   handful of static cuts. */
+/* The face the books are set in.
+ *
+ * Self-hosted and subset to Latin (docs/build-plan.md, ADR-004: no
+ * third-party fetch at read time). Literata is SIL Open Font License 1.1, by
+ * TypeTogether. No GPL, commercial use permitted.
+ *
+ * Source Serif 4, Inter, Sono and Shantell Sans used to live here and beside
+ * this file. The redesign put the app on one set of faces — Geist, Geist Mono
+ * and Geist Pixel for the interface (design/night.css), Literata for reading
+ * — so the other four are gone, along with about 260 kB of woff2 nobody was
+ * going to see.
+ */
 @font-face {
-  font-family: "Source Serif 4 Variable";
-  src: url("/fonts/source-serif-4-variable-latin.woff2") format("woff2");
-  font-weight: 200 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter Variable";
-  src: url("/fonts/inter-variable-latin.woff2") format("woff2");
-  font-weight: 100 900;
+  font-family: "Literata Variable";
+  src: url("/fonts/literata-variable-latin.woff2") format("woff2");
+  font-weight: 300 700;
   font-style: normal;
   font-display: swap;
 }

@@ -1,16 +1,14 @@
 // Nothing at this address. Says so plainly and offers the shelf.
-import { Screen } from "../shell/Screen";
+import { Room } from "../shell/Shell";
 import { Link } from "../router/router";
 
 export function NotFound() {
   return (
-    <Screen>
-      <div className="sb-body--centred">
-        <h2 className="sb-heading">There's nothing here.</h2>
-        <Link to="/" className="sb-quiet">
-          Back to the shelf
-        </Link>
-      </div>
-    </Screen>
+    <Room width="narrow">
+      <h1 className="mark">There is nothing here.</h1>
+      <Link to="/" className="btn btn--quiet self-start">
+        Back to the shelf
+      </Link>
+    </Room>
   );
 }

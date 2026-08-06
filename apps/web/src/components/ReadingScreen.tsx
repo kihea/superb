@@ -95,7 +95,7 @@ export function ReadingScreen() {
             type="button"
             className="voice-orb-button"
             data-speaking={speaking}
-            aria-label={speaking ? "Stop" : "Read this to me"}
+            aria-label={speaking ? "Stop" : "Read aloud"}
             onClick={() => (speaking ? voice.stop() : voice.start(0))}
           >
             {/* working while the voice reads; searching, held still, while
@@ -114,7 +114,7 @@ export function ReadingScreen() {
           </p>
         )}
         {session.status === "error" && (
-          <p className="reading-status" data-text="Something went wrong loading this session.">
+          <p className="reading-status" data-text="Superb could not load this session.">
             Something went wrong loading this session.
           </p>
         )}

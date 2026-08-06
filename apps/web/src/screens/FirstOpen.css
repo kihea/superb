@@ -1,93 +1,131 @@
-/* Frame 1s. */
-
-.first-open__mark,
-.first-open__ask {
-  flex: 1;
+.first {
+  position: fixed;
+  inset: 0;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: var(--sp-8);
-  padding: 0 var(--sp-7) var(--sp-11);
+  padding: 40px 24px;
+  background: var(--ground);
+  color: var(--ink);
+  overflow-y: auto;
 }
 
-.first-open__mark {
+.first__stage {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 34px;
   text-align: center;
 }
 
-.first-open__wordmark {
-  font: var(--fw-bold) var(--fs-1000) / var(--lh-tight) var(--font-display);
-  letter-spacing: var(--ls-display);
-  color: var(--text-1);
-}
-
-.first-open__choices {
+.first__panel {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-5);
+  align-items: center;
+  gap: 20px;
+  width: 100%;
 }
 
-.first-open__choice {
+.first__line {
+  margin: 0;
+  max-width: 36ch;
+  font-size: 15.5px;
+  line-height: 1.62;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.first__ask {
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.15;
+}
+
+/* ── the moods ───────────────────────────────────────────────────────── */
+
+.first__moods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.first__mood {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 168px;
+  padding: 15px 17px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
   text-align: left;
-  background: var(--surface-card);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-1);
-  padding: var(--sp-7);
-  min-height: var(--tap-min);
-  cursor: pointer;
-  font: var(--type-body);
-  color: var(--text-1);
-  transition:
-    border-color var(--dur-1) var(--ease-out),
-    box-shadow var(--dur-2) var(--ease-out);
-}
-
-.first-open__offer {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-8);
-}
-
-.first-open__books {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-5);
-}
-
-.first-open__book {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-  text-align: left;
-  padding: var(--sp-6) var(--sp-7);
-  background: var(--surface-card);
-  border: var(--bw-hairline) solid var(--border-1);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-1);
   cursor: pointer;
   transition:
-    transform var(--dur-2) var(--ease-out),
-    box-shadow var(--dur-2) var(--ease-out);
+    border-color var(--base),
+    background var(--base);
 }
 
-.first-open__book:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-2);
+.first__mood:hover,
+.first__mood:focus-visible {
+  border-color: var(--rule-lit);
+  background: var(--wash);
 }
 
-.first-open__book-title {
-  font: var(--type-title-2);
-  color: var(--text-1);
+.first__mood-label {
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
 }
 
-.first-open__book-line {
-  font: var(--type-passage);
-  font-size: var(--fs-500);
-  color: var(--text-2);
+/* ── the three books ─────────────────────────────────────────────────── */
+
+.first__books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
 }
 
-.first-open__choice:hover {
-  border-color: var(--brand);
-  box-shadow: var(--shadow-2);
+.first__book {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 236px;
+  padding: 15px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color var(--base),
+    background var(--base);
+}
+
+.first__book:hover,
+.first__book:focus-visible {
+  border-color: var(--rule-lit);
+  background: var(--wash);
+}
+
+.first__book-title {
+  font-family: var(--face-mark);
+  font-size: 14px;
+  line-height: 1.24;
+}
+
+.first__book-line {
+  font-family: var(--face-read);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-3);
+  text-wrap: pretty;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

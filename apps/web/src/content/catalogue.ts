@@ -99,6 +99,31 @@ export async function getIndexRow(id: string): Promise<CatalogueIndexRow | undef
   return rows.find((row) => row.id === id);
 }
 
+interface DescriptionFile {
+  version: number;
+  source: string;
+  licence: string;
+  descriptions: Record<string, string[]>;
+}
+
+let descriptions: DescriptionFile | null = null;
+
+/** What the edition's publisher says the book is, in their words. Standard
+ *  Ebooks writes one for every edition and dedicates it to the public domain
+ *  under CC0; scripts/fetch-descriptions.mjs collected them once. Returns an
+ *  empty list rather than throwing — a book page without a description is
+ *  still a book page. */
+export async function getDescription(id: string): Promise<string[]> {
+  if (!descriptions) {
+    try {
+      descriptions = await fetchJson<DescriptionFile>(contentUrl("catalogue-descriptions.json"));
+    } catch {
+      return [];
+    }
+  }
+  return descriptions.descriptions[id] ?? [];
+}
+
 /** Title/author substring search, optionally narrowed to a category. */
 export async function searchBooks(query: string, category?: string): Promise<CatalogueIndexRow[]> {
   const rows = await loadIndex();

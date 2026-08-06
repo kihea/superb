@@ -84,12 +84,10 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      # Issue #132: a component that reaches past a semantic colour token to
-      # one theme's raw value (--ox-*, --li-*, --gl-*) silently pins that
-      # theme in the other two. Named exceptions live in the check's own
-      # source (scripts/check-theme-tokens.mjs).
-      - name: Theme token guard
-        run: npm run check-theme-tokens
+      # The theme token guard (issue #132) is gone with the themes it
+      # guarded: a component could pin one of three papers by reaching past a
+      # semantic token to --ox-*/--li-*/--gl-*, and there are no longer three
+      # papers to pin. design/night.css is the single ground now.
 
       - name: Unit tests (engine persistence round-trip, candidate ranking)
         run: npm run ci:test:unit

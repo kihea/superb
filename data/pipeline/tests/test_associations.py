@@ -18,16 +18,35 @@ import sys
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent.parent
 CHALLENGES = REPO_ROOT / "content" / "challenges"
 
-ALLOWED_LABELS = {
-    "means the same",
-    "opposite",
-    "a kind of it",
-    "it is a kind of",
-    "part of it",
-    "made from it",
-    "shows up beside it",
-    "comes from the same root",
+# A label is one of the closed set of heads in associations.py, with the
+# prompt substituted in, optionally followed by ": " and the quoted defining
+# line that makes the connection. A shared etymology instead produces
+# "both from <language> <root>", where the root is data rather than a fixed
+# phrase, so that one is matched by prefix.
+LABEL_HEADS = {
+    "means much the same",
+    "the opposite",
+    "a kind of {p}",
+    "{p} is a kind of it",
+    "one is part of the other",
+    "what it is made of",
+    "a field {p} has a meaning in",
+    "defined through {p}",
+    "used in the definition of {p}",
+    "from the same root",
+    "often appears near it in the books",
 }
+
+ROOT_LABEL_PREFIX = "both from "
+
+
+def label_is_allowed(label: str, prompt: str) -> bool:
+    """True when `label` is a known head for `prompt`, with or without its
+    trailing quoted definition."""
+    if label.startswith(ROOT_LABEL_PREFIX):
+        return len(label) > len(ROOT_LABEL_PREFIX)
+    head = label.split(": “", 1)[0]
+    return any(shape.format(p=prompt) == head for shape in LABEL_HEADS)
 
 
 def failures() -> list[str]:
@@ -83,17 +102,30 @@ def failures() -> list[str]:
             for associate in associates:
                 if associate["word"] == word:
                     errors.append(f"prompt {word!r} lists itself as an associate")
-                if associate["connection"] not in ALLOWED_LABELS:
+                if not label_is_allowed(associate["connection"], word):
                     errors.append(
                         f"prompt {word!r} associate {associate['word']!r} carries "
                         f"label {associate['connection']!r}, not in the fixed set"
+                    )
+                # These are read mid-game, so the project's own half of the
+                # label follows the same no-dash rule as the rest of the
+                # reader-facing copy. Only our half: the quoted defining
+                # line after the colon is somebody else's sentence, carried
+                # verbatim under a share-alike licence, and a dash inside it
+                # is either their punctuation or a real numeric range
+                # ("1804–1814"). Editing that would be misquoting the source.
+                head = associate["connection"].split(": “", 1)[0]
+                if "—" in head or "–" in head:
+                    errors.append(
+                        f"prompt {word!r} associate {associate['word']!r} carries "
+                        f"a dash in its label: {associate['connection']!r}"
                     )
                 if not (associate["wn"] or associate["pmi"]):
                     errors.append(
                         f"prompt {word!r} associate {associate['word']!r} has "
                         f"neither source flag set"
                     )
-                if associate["connection"] == "shows up beside it" and associate["wn"]:
+                if associate["connection"] == "often appears near it in the books" and associate["wn"]:
                     errors.append(
                         f"prompt {word!r} associate {associate['word']!r} is "
                         f"corpus-labelled but claims a WordNet source"

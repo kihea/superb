@@ -1,233 +1,254 @@
-/* Frame 1u. */
-
-.settings-group {
+.settings__group {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-5);
+  gap: 14px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
 }
 
-.settings-papers {
+.settings__group:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+/* The specimen: the reader's own page, at the size and leading and on the
+   paper they have chosen, sitting in the middle of the controls that change
+   it. Choosing is seeing rather than reading a name. */
+.settings__specimen {
+  padding: 22px 24px;
+  border: 1px solid var(--paper-rule-2);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  color: var(--paper-ink);
+  font-family: var(--face-read);
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  transition:
+    background var(--slow),
+    color var(--slow),
+    border-color var(--slow);
+}
+
+.settings__specimen p {
+  margin: 0;
+}
+
+.settings__kept {
+  background: rgba(200, 86, 75, 0.18);
+  padding: 0 0.12em;
+  border-radius: 2px;
+}
+
+.settings__controls {
   display: flex;
-  gap: var(--sp-5);
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-/* Frame 4o: a card the height of a small cover, not a colour chip -- each
-   one is what that paper actually looks like, ink included, so choosing is
-   seeing rather than reading a name. The 2px ring on the chosen one is the
-   swatch's own brand red/violet/teal (border-color set per swatch below),
-   not a fixed accent, so it reads against paper as light as Lilac's. */
-.settings-swatch {
+.settings__segments {
   flex: 1;
-  height: 92px;
-  border-radius: var(--r-md);
-  border: 1px solid var(--border-2);
+  min-width: 200px;
   display: flex;
-  align-items: flex-end;
-  padding: var(--sp-5);
-  cursor: pointer;
-  font: var(--fw-medium) var(--fs-300) var(--font-ui);
-  transition: border-color var(--dur-1) var(--ease-out);
+  flex-direction: column;
+  gap: 8px;
 }
 
-.settings-swatch--on {
-  border: 2px solid var(--settings-swatch-ring, var(--brand));
-}
-
-.settings-swatch--oxblood {
-  background: var(--ox-paper);
-  color: var(--ox-ink);
-  --settings-swatch-ring: var(--ox-red);
-}
-
-.settings-swatch--lilac {
-  background: var(--li-paper);
-  color: var(--li-ink);
-  --settings-swatch-ring: var(--li-violet);
-}
-
-.settings-swatch--glacier {
-  background: var(--gl-paper);
-  color: var(--gl-ink);
-  --settings-swatch-ring: var(--gl-teal);
-}
-
-/* Frame 4o's own three-way switch: Light, Dark, System, beside the paper
-   rather than folded into it as a fourth swatch. One pill track, the chosen
-   third raised on the surface's own card colour. */
-.settings-mode {
+.settings__segment-row {
   display: flex;
-  gap: 2px;
-  padding: 2px;
-  background: var(--surface-sunken);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-md);
+  gap: 5px;
 }
 
-.settings-mode__option {
+.settings__segment {
   flex: 1;
-  min-height: var(--tap-min);
-  border: none;
-  border-radius: var(--r-sm);
+  min-height: 36px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
   background: transparent;
-  color: var(--text-2);
-  font: var(--type-body-sm);
+  color: var(--ink-2);
+  font-family: var(--face-meta);
+  font-size: 11.5px;
   cursor: pointer;
   transition:
-    background var(--dur-2) var(--ease-out),
-    color var(--dur-2) var(--ease-out),
-    box-shadow var(--dur-2) var(--ease-out);
+    border-color var(--fast),
+    background var(--fast),
+    color var(--fast);
 }
 
-.settings-mode__option--on {
-  background: var(--surface-card);
-  color: var(--text-1);
-  font-weight: var(--fw-semibold);
-  box-shadow: var(--shadow-1);
+.settings__segment:hover {
+  border-color: var(--rule-lit);
 }
 
-.settings-size {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-5);
+.settings__segment--on {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-lit);
 }
 
-.settings-size input {
-  flex: 1;
-  min-width: 0;
-  accent-color: var(--brand);
-}
+/* ── switches ────────────────────────────────────────────────────────── */
 
-.settings-size__small {
-  font: var(--fw-regular) 13px var(--font-read);
-  color: var(--text-3);
-}
-
-.settings-size__large {
-  font: var(--fw-regular) 22px var(--font-read);
-  color: var(--text-1);
-}
-
-.settings-size__heading {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.settings-size__value {
-  font: var(--type-caption);
-  color: var(--text-3);
-}
-
-.settings-rows {
+.settings__switches {
   display: flex;
   flex-direction: column;
+  gap: 6px;
 }
 
-.settings-row {
+.settings__switch-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-5);
-  padding: var(--sp-6) 0;
-  border-bottom: 1px solid var(--border-1);
-  min-height: var(--tap-min);
-  color: var(--text-1);
-  text-decoration: none;
-}
-
-.settings-row--link:hover .settings-row__name {
-  color: var(--brand);
-}
-
-/* The Voice row's own right side: the preview orb (its own tap target,
-   VoiceOrb.css's .voice-orb-button) beside the link to the paid-voice
-   screen -- two separate controls now, not one row-length link, so the
-   preview can be pressed without navigating. */
-.settings-row__voice-actions {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-4);
-}
-
-/* PR-104 review, Finding 3: splitting the row's one link into a preview
-   button plus this bare `<Link className="sb-list__aside">` left "Change"
-   at its own text's line box -- about 44.6 x 16.8px at phone width, well
-   under --tap-min. `.sb-list__aside` is also a plain, non-interactive
-   trailing label elsewhere in this screen (Account, Credits and licences),
-   so the fix is scoped to this one interactive instance rather than the
-   shared class. */
-.settings-row__voice-actions .sb-list__aside {
-  display: inline-flex;
-  align-items: center;
-  min-height: var(--tap-min);
-  padding: 0 0 0 var(--sp-2);
-}
-
-.settings-row__names {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-1);
-}
-
-.settings-row__name {
-  font: var(--type-body-sm);
-  color: var(--text-1);
-}
-
-/* The Voice row's left side became a button that unfolds the voice list --
-   same look as the plain names block, plus a pointer. */
-.settings-row__names--button {
-  border: none;
+  gap: 18px;
+  padding: 15px 17px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
   background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color var(--fast),
+    background var(--fast);
+}
+
+.settings__switch-row:hover {
+  border-color: var(--rule-2);
+  background: var(--wash);
+}
+
+.settings__switch-names {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.settings__switch-name {
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+}
+
+.settings__switch-note {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+
+.settings__switch {
+  flex: none;
+  position: relative;
+  width: 42px;
+  height: 22px;
+  border: 1px solid var(--rule-2);
+  border-radius: 999px;
+  transition: border-color var(--base);
+}
+
+.settings__switch--on {
+  border-color: rgba(200, 86, 75, 0.8);
+}
+
+.settings__knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--ink-3);
+  transition:
+    left var(--base) var(--ease-spring),
+    background var(--base);
+}
+
+.settings__switch--on .settings__knob {
+  left: 23px;
+  background: var(--accent);
+}
+
+/* ── voice ───────────────────────────────────────────────────────────── */
+
+.settings__voice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.settings__voice-name {
+  flex: 1;
+  min-height: 40px;
+  border: none;
+  background: none;
   padding: 0;
+  text-align: left;
+  color: var(--ink-2);
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.settings__voice-name:hover {
+  color: var(--ink);
+}
+
+.settings__voice-orb {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+}
+
+.settings__voices {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  overflow: hidden auto;
+  max-height: 340px;
+}
+
+.settings__voice-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink-2);
+  font-family: var(--face-meta);
+  font-size: 12px;
   text-align: left;
   cursor: pointer;
 }
 
-.settings-row__names--button:hover .settings-row__name {
-  color: var(--brand);
+.settings__voice-option:last-child {
+  border-bottom: none;
 }
 
-/* The unfolded voice list: the same one-object row stack the rest of the
-   app reads (surface.css's .sb-list), scrollable past ten voices or so. */
-.settings-voices {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  background: var(--border-1);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-md);
-  overflow: hidden auto;
-  max-height: 340px;
-  margin: var(--sp-4) 0;
+.settings__voice-option:hover {
+  background: var(--wash);
+  color: var(--ink);
 }
 
-/* The one switch in the app. Knob, not a checkbox. */
-.settings-switch {
-  width: 44px;
-  height: 26px;
-  flex: none;
-  border-radius: var(--r-pill);
-  border: 1px solid var(--border-2);
-  background: var(--surface-sunken);
-  padding: 2px;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-  transition: background var(--dur-2) var(--ease-out);
+.settings__voice-option--on {
+  color: var(--accent-lit);
 }
 
-.settings-switch--on {
-  background: var(--brand);
-  border-color: var(--brand);
-  justify-content: flex-end;
+.settings__credit {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-3);
 }
 
-.settings-switch__knob {
-  width: 20px;
-  height: 20px;
-  border-radius: var(--r-pill);
-  background: var(--surface-card);
-  box-shadow: var(--shadow-1);
-  transition: transform var(--dur-2) var(--ease-spring);
+.settings__replay {
+  align-self: flex-start;
 }

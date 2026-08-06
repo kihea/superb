@@ -6,38 +6,44 @@ reader's own browser storage.
 
 ## The rooms
 
-- **Shelf** (`/`) — the books you are reading, the one you are in largest.
-  The very first visit redirects to `/welcome`, a short three-tap opening
-  that ends with a book in your hands.
-- **Library** (`/library`) — 614 public-domain books, searchable by title
-  or author and browsable by kind.
-- **Book** (`/book/:id` and `/book/:id/read`) — a cover page, then the book
+- **Shelf** (`/`) holds the books you are reading, with the current one
+  largest. The very first visit redirects to `/welcome`, a short three-tap
+  opening that ends with a book chosen.
+- **Library** (`/library`) lists 1,478 public-domain books, searchable by
+  title or author and browsable by kind.
+- **Book** (`/book/:id` and `/book/:id/read`) is a cover page, then the book
   itself. While reading, words that have a saved meaning are tappable; a
   tap opens a small card with the meaning and a Keep button. Your place in
   each book is saved as you scroll and survives reloads. Ordinary reading
   is private: it records nothing beyond your place and what you choose to
   keep.
-- **Play** (`/play`) — three games. **Rhyme** and **Association** show a
+- **Play** (`/play`) holds three games. **Rhyme** and **Association** show a
   word and judge what you offer back, with seven difficulty tiers.
   **Prose** (`/play/prose`) shows a passage composed for you by the
-  learning engine — the engine (`superb-core`, compiled to WebAssembly) is
+  learning engine. That engine (`superb-core`, compiled to WebAssembly) is
   used only here, nowhere else in the app.
-- **Words** (`/words`) — every word and sentence you have kept, each with
+- **Words** (`/words`) lists every word and sentence you have kept, each with
   its meaning and the sentence it was met in.
-- **Settings** (`/settings`) — theme, motion, and the like.
+- **Settings** (`/settings`) covers page layout, motion, the reading voice,
+  and Goodreads import and export.
 
 The full route list lives in `src/routes.ts`.
 
 ## The data it fetches
 
-- `/content/catalogue-index.json` — one small row per book, for the
+- `/content/catalogue-index.json` holds one small row per book, for the
   Library and cover pages.
-- Book text — fetched per book from the public library repository through
-  jsDelivr's CDN when a book is opened, then held in the Cache API so a
-  book once opened reads offline. One book (Dracula) is served locally
-  from the vendored `catalogue-v0.1.0.json`, which is what the tests read.
-- `/content/glosses/<book-id>.json` — each book's word meanings.
-- `/content/challenges/*.json` — rhyme prompts, pronunciations,
+- Book text and that book's word meanings are fetched together from the
+  public library repository through jsDelivr's CDN when a book is opened,
+  from `books/<id>/book.json` and `books/<id>/glosses.json`, then held in
+  the Cache API so a book once opened reads offline and still answers taps.
+  One book (Dracula) is served locally, from the vendored
+  `catalogue-v0.1.0.json` and `/content/glosses/bram-stoker_dracula.json`,
+  which is what the tests read and what the offline check walks.
+- `/content/glosses/senses.json` and `/content/glosses/prose.json` are the
+  shared sense lists and the composed-passage table, which belong to the
+  app rather than to any one book.
+- `/content/challenges/*.json` holds rhyme prompts, pronunciations,
   association prompts, and their answer indexes.
 
 Reader state (shelf, places, kept words and sentences, and the prose

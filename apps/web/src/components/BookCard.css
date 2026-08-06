@@ -1,0 +1,56 @@
+.book-card {
+  display: flex;
+  align-items: stretch;
+  gap: 14px;
+  padding: 13px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color var(--base),
+    background var(--base);
+}
+
+.book-card:hover,
+.book-card:focus-visible {
+  border-color: var(--rule-lit);
+  background: var(--wash);
+}
+
+/* The art runs the full height of the card and sizes to its own grid, so a
+   wall of cards lines up down its art edge however long the titles are —
+   every plate is the same number of characters across. */
+.book-card__art {
+  flex: none;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.book-card__side {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.book-card__title {
+  font-family: var(--face-mark);
+  font-size: 13px;
+  line-height: 1.32;
+  overflow-wrap: anywhere;
+}
+
+/* The author holds the bottom of the card whatever the title does above it. */
+.book-card__author {
+  margin-top: auto;
+  font-family: var(--face-meta);
+  font-size: 10.5px;
+  line-height: 1.35;
+  color: var(--ink-3);
+}

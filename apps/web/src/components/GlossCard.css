@@ -1,6 +1,13 @@
-/* Frame 3a: a card that floats above the passage rather than a sheet
+/* The word card: a sheet that rises over the page rather than a card
    anchored to the bottom edge, so the sentence the word came out of stays
-   visible under it. 18px in from each side, 20px up from the bottom. */
+   visible under it. 18px in from each side, 20px up from the bottom.
+
+   Re-cut for the night ground: the ground's own colour rather than a card
+   fill, a hairline rather than a shadow. It has to be genuinely opaque —
+   ADR-019 once specified glass here and the reading behind it was illegible
+   through the blur; an e2e test holds that line
+   (e2e/reading-state-flourish.spec.ts, "the gloss card is not an opaque
+   surface"). */
 .gloss-backdrop {
   position: fixed;
   inset: 0;
@@ -12,15 +19,14 @@
 }
 
 .gloss-card {
-  background-color: var(--surface-card);
+  background-color: var(--ground);
   position: relative;
   width: min(100%, 40rem);
   margin: 0 18px 20px;
   padding: var(--sp-7) var(--sp-7) var(--sp-6);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-3);
-  color: var(--text-1);
+  border: 1px solid var(--accent-edge);
+  border-radius: var(--radius-lg);
+  color: var(--ink);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,8 +59,8 @@
    reading screen the hand-drawn face appears. */
 .gloss-word {
   margin: 0;
-  font: var(--fw-bold) var(--fs-700) / 1.1 var(--font-display);
-  color: var(--text-1);
+  font: 400 21px/1.1 var(--face-mark);
+  color: var(--ink);
 }
 
 .gloss-definition {
@@ -100,14 +106,14 @@
 }
 
 .gloss-keep-button:hover {
-  background: var(--surface-sunken);
-  border-color: var(--border-strong);
+  background: var(--wash-2);
+  border-color: var(--rule-lit);
 }
 
 .gloss-keep-button[aria-pressed="true"] {
-  background: var(--brand);
-  border-color: var(--brand);
-  color: var(--text-on-brand);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--ground);
 }
 
 .gloss-keep-button:focus-visible {
@@ -168,7 +174,7 @@
     transparent 0deg,
     transparent 300deg,
     var(--brand) 340deg,
-    var(--surface-card) 352deg,
+    var(--ground) 352deg,
     var(--brand) 356deg,
     transparent 360deg
   );

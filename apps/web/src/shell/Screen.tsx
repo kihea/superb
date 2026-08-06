@@ -1,41 +1,31 @@
-// The frame every non-reading screen sits in: the rooms row at both edges,
-// a way back, the name of the room, and the room itself. Reading does not
-// use this; a passage gets the whole page (3a).
+// The frame a game sits in, inside the shell.
 //
-// The rooms row is on by default everywhere. The three in-play screens
-// (association, rhyme, prose) switch it off with `nav={false}` — a game in
-// progress keeps only its own back word, wearing a small arrow.
+// It used to draw the rooms row at the top *and* the bottom of every screen,
+// which is two of the same thing arguing about which one is the navigation.
+// The shell owns that now — the rail on a wide screen, the bar on a narrow
+// one — so this is only what a game round needs around it: a way back, the
+// name of the practice, and room for one thing opposite.
 import type { ReactNode } from "react";
 import "./surface.css";
 import { Link } from "../router/router";
-import { TabBar } from "./TabBar";
-import { useHideOnScroll } from "./useHideOnScroll";
 
 export interface ScreenProps {
-  /** Shown centred in the top row. Omit for screens with no title (1s, 3b). */
+  /** The practice's name, set small and quiet at the right. */
   title?: string;
-  /** Where the left-hand word goes, and what it says. `icon` puts a small
-   *  back arrow before the word (the in-play screens' request). */
+  /** Where the left-hand word goes, and what it says. */
   back?: { to: string; label: string; icon?: boolean };
-  /** Anything that sits opposite the back link -- an orb, a count. */
+  /** Anything that sits opposite the back link — an orb, a count. */
   trail?: ReactNode;
-  /** 2g and 1h stand on the sunken paper rather than the page paper. */
-  sunken?: boolean;
-  /** The rooms row at the screen's edges. Default on; the in-play screens
-   *  opt out. */
-  nav?: boolean;
   /** Screens that lay out their own body edge to edge (a challenge board
    *  with a fixed answer row) opt out of the padded column. */
   bare?: boolean;
   children: ReactNode;
 }
 
-export function Screen({ title, back, trail, sunken, nav = true, bare, children }: ScreenProps) {
+export function Screen({ title, back, trail, bare, children }: ScreenProps) {
   const hasTopBar = Boolean(title || back || trail);
-  const navHidden = useHideOnScroll();
   return (
-    <div className={`sb-screen${sunken ? " sb-screen--sunken" : ""}${nav ? " sb-screen--nav" : ""}`}>
-      {nav && <TabBar edge="top" hidden={navHidden} />}
+    <div className="sb-screen">
       {hasTopBar && (
         <header className="sb-topbar">
           {back ? (
@@ -48,14 +38,13 @@ export function Screen({ title, back, trail, sunken, nav = true, bare, children 
               {back.label}
             </Link>
           ) : (
-            <span className="sb-topbar__trail" />
+            <span />
           )}
           {title ? <h1 className="sb-topbar__title">{title}</h1> : <span style={{ flex: 1 }} />}
-          <span className="sb-topbar__trail">{trail}</span>
+          {trail && <span className="sb-topbar__trail">{trail}</span>}
         </header>
       )}
       {bare ? children : <div className="sb-body">{children}</div>}
-      {nav && <TabBar edge="bottom" hidden={navHidden} />}
     </div>
   );
 }

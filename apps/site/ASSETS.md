@@ -42,7 +42,7 @@ any third-party host at all.
 
 - `page/vendor/react.production.min.js`, `react-dom.production.min.js`, and
   `babel.min.js` are the same pinned versions (18.3.1, 18.3.1, 7.29.0) and the
-  same bytes unpkg served — verified by sha384 against the SRI hashes
+  same bytes unpkg served, verified by sha384 against the SRI hashes
   `page/support.js` already carried, before vendoring rather than assumed, so
   `support.js`'s own integrity check still passes against the local copies
   unchanged. Licences (both MIT) are recorded in `page/vendor/NOTICE.txt`:
@@ -58,20 +58,20 @@ any third-party host at all.
   text, from `vercel/geist-font` and `vercel/geist-pixel-font`.
 
 The assembled browser check's runtime allow-list for the landing
-(`ALLOWED_LANDING_HOSTS` in `scripts/check-assembled.mjs`) is now empty — a
+(`ALLOWED_LANDING_HOSTS` in `scripts/check-assembled.mjs`) is now empty, so a
 script that fetched from any external host at all would still fail it. Its
 static text-scan allow-list (`ALLOWED_LANDING_NAMED_HOSTS`) permits a small,
 named set of hosts that appear only as text *inside* the vendored files
 themselves (a documentation link inside a thrown error message, a DOM
-namespace URI constant, the OFL licence's own FAQ link) — never fetched,
-each with its own one-line reason in that file. A separate, separately named
-allow-list (`ALLOWED_READ_NAMED_HOSTS`) covers the reading app's own
-assembled output under `dist/read/` (issue #128) — the app's real source
-citations for each book and a handful of the same kind of developer-facing
-text, not new egress. The check also rejects the retired design-system
-JavaScript bundle, and (issue #127) decodes UTF-16 text -- by byte-order
-mark where one is present, by a null-byte-density heuristic where one
-isn't -- before scanning it, rather than reading every file as latin1. The
+namespace URI constant, the OFL licence's own FAQ link). None of them is ever
+fetched, and each carries its own one-line reason in that file. A separate,
+separately named allow-list (`ALLOWED_READ_NAMED_HOSTS`) covers the reading
+app's own assembled output under `dist/read/` (issue #128). Those entries are
+the app's real source citations for each book and a handful of the same kind of
+developer-facing text, not new egress. The check also rejects the retired
+design-system JavaScript bundle, and (issue #127) decodes UTF-16 text before
+scanning it, by byte-order mark where one is present and by a null-byte-density
+heuristic where one is not, rather than reading every file as latin1. The
 heuristic depends on the text being mostly Basic Latin; a non-Latin-script
 UTF-16 payload doesn't carry the same signal and can still go undetected
 by this scan (issue #143), though the Content-Security-Policy below remains
@@ -84,7 +84,7 @@ The check above reads files and text before anything ships; it is a fast early
 warning, not a guarantee. An independent review demonstrated why: the check
 skips binary files (images, fonts) because they normally cannot carry a web
 address, and a JavaScript file it *does* read can fetch such a file at runtime
-and execute whatever bytes come back — the check passes clean while the page
+and execute whatever bytes come back. The check passes clean while the page
 genuinely reaches an outside server. Three earlier rounds of making the check
 read more (a filename, then exact file contents, then more file types) were
 each defeated the same way, by disguising the payload as something the check
@@ -92,26 +92,27 @@ still does not open.
 
 `dist/_headers` (written by `scripts/assemble.mjs`, not committed as a static
 file) sets a `Content-Security-Policy` on both surfaces, restricting
-`script-src`/`connect-src`/`style-src`/`font-src` to `'self'` alone — since
+`script-src`/`connect-src`/`style-src`/`font-src` to `'self'` alone. Since
 issue #137 vendored the last of the landing's third-party loads, neither
 surface's policy names an external host at all. The browser enforces this at
 the moment a request is made,
 regardless of what the requesting file was named, what MIME type it claimed,
-or how the address it used was assembled — the property the file-content check
-cannot have. `scripts/check-csp.mjs` proves it live: it reintroduces the
+or how the address it used was assembled. That is the property the file-content
+check cannot have. `scripts/check-csp.mjs` proves it live: it reintroduces the
 retired bundle's own bypass shape (a same-origin script fetching a payload
 from an outside origin and running it) against the real assembled artifact,
 with its real headers applied, and asserts the browser blocks the fetch,
-reports a `securitypolicyviolation`, and the payload never runs — not that a
-scanner would have caught it, that the browser actually stopped it.
+reports a `securitypolicyviolation`, and the payload never runs. The claim is
+not that a scanner would have caught it, but that the browser actually
+stopped it.
 
 The landing page's own `script-src` includes `'unsafe-eval'`, audited rather
 than assumed necessary: `page/support.js` runs Babel-transformed JSX via
 `new Function(...)` at runtime, which CSP treats the same as `eval()`. This
-does not reopen the hole the policy exists to close — `'unsafe-eval'` governs
+does not reopen the hole the policy exists to close. `'unsafe-eval'` governs
 *how* already-loaded, already-origin-restricted code may execute, never
 *which host* it may reach; `connect-src`'s host allow-list is what actually
 blocks the attack this issue describes, and that holds whether or not eval is
-permitted. The reading app (`/read/*`) needs no such allowance — its
+permitted. The reading app (`/read/*`) needs no such allowance: its
 `script-src` carries `'wasm-unsafe-eval'` only, CSP's own narrower permission
 for `WebAssembly.instantiate`, and reaches no host beyond itself at all.

@@ -98,15 +98,15 @@ export function Association() {
 
   if (status === "loading") {
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }}>
         {null}
       </Screen>
     );
   }
   if (status === "error" || !prompt) {
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
-        <p className="sb-said">The words wouldn't load. Try again in a moment.</p>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }}>
+        <p className="sb-said">The words did not load. Try again in a moment.</p>
       </Screen>
     );
   }
@@ -118,7 +118,7 @@ export function Association() {
     const missed = prompt.associates.filter((a) => !said.has(a.word)).slice(0, 6);
 
     return (
-      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false}>
+      <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }}>
         <div className="challenge-end sb-fade">
           <h2 className="sb-heading">
             {connectedCount === 0
@@ -160,7 +160,7 @@ export function Association() {
                       <span className="challenge-reveal__word">{a.word}</span>
                       <span className="challenge-reveal__meaning">
                         {a.connection}
-                        {meaning ? ` — ${meaning}` : ""}
+                        {meaning ? ` · ${meaning}` : ""}
                       </span>
                       {meaning && (
                         <button
@@ -196,7 +196,7 @@ export function Association() {
   }
 
   return (
-    <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} nav={false} bare>
+    <Screen title="Association" back={{ to: "/play", label: "Play", icon: true }} bare>
       <div className="sb-tiers">
         {TIERS.map((t) => (
           <button

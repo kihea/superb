@@ -1,9 +1,9 @@
 ## Contributing to Superb
 
-Welcome, and thank you for your interest in contributing to Superb!
+Welcome, and thank you for your interest in contributing to Superb.
 
 **One thing before anything else: the person reading comes first, and you come
-second.** That is not politeness — it decides pull requests. Superb is a
+second.** That is not politeness. It decides pull requests. Superb is a
 vocabulary app that never admits it is teaching, so a change that makes the
 project nicer to work on but puts one number, one badge or one explanation in
 front of a reader is rejected, and a change that makes your life harder while
@@ -22,8 +22,8 @@ In practice that means a few things you would not guess from the code:
   quietly picking one. Most of the time they do not conflict, and the times
   they do are worth a sentence.
 
-Everything below — the setup, the conventions, the tests — exists to make that
-ordering cheap to hold rather than a thing you have to remember.
+Everything below, from the setup to the conventions to the tests, exists to
+make that ordering cheap to hold rather than a thing you have to remember.
 
 ---
 
@@ -139,7 +139,7 @@ release command for a release candidate.
 ## Conventions
 
 - Pull requests target `dev`, never `main`. Fill in the pull request template
-  rather than deleting it — it asks what changed, what it looks like before and
+  rather than deleting it. It asks what changed, what it looks like before and
   after, and what you ran to check.
 - `cargo fmt --all --check` and
   `cargo clippy --all-targets --all-features --locked -- -D warnings` must
@@ -148,7 +148,7 @@ release command for a release candidate.
   `deny.toml`.
 <!-- LICENCE-CLAIMS:BULLET:START -->
 - Code is MIT + Commons Clause. Content written here from nothing is CC0;
-  anything built from or brought in from elsewhere keeps its own terms —
+  anything built from or brought in from elsewhere keeps its own terms,
   including a gloss rewritten from a Wiktionary entry, which keeps Wiktionary's.
   Each obligation is recorded next to the thing it binds: a row in
   `data/MANIFEST.md` for a dataset, a provenance record beside each excerpt and
@@ -165,23 +165,24 @@ release command for a release candidate.
 <!-- LICENCE-CLAIMS:START -->
 Superb's code is **source-available, not open source**: MIT with the
 [Commons Clause](https://commonsclause.com/) on top. You may read it, run it,
-change it, and pass it on — including changed versions — as long as it is
-free. What you may not do is sell it, or sell a product or service whose value
+change it, and pass it on, changed versions included, as long as it is free.
+What you may not do is sell it, or sell a product or service whose value
 comes substantially from it. The full text is in `LICENSE`, and the reasoning
 is in the project's decision record.
 
-The **content** is different, and what decides is not who typed it — it is whose
-work it came from. It splits three ways.
+The **content** is different. What decides is not who typed it but whose work
+it came from. It splits three ways.
 
-- **What you write from nothing** — a passage, a slot class — is CC0,
+- **What you write from nothing**, such as a passage or a slot class, is CC0,
   dedicated to the public domain. Attribution is encouraged and never required.
 - **What you build from somebody else's work** carries that work's terms, even
   though you did the building. A gloss from a Wiktionary entry is the case you
   are most likely to hit: it keeps Wiktionary's credit and its
-  pass-on-the-same-freedom terms — the per-book tables under
-  `content/glosses/`, the games' `content/challenges/glosses.json`, and the
-  composed-prose `content/glosses/prose.json` all ship that way.
-  `content/difficulty.json` is the same shape — our script builds it, and it
+  pass-on-the-same-freedom terms. The games' `content/challenges/glosses.json`
+  and the composed-prose `content/glosses/prose.json` ship that way, and so
+  does each book's own table, which lives beside that book in the library
+  repository rather than here.
+  `content/difficulty.json` is the same shape: our script builds it, and it
   travels with the credit its source list requires.
 - **The text you bring**, like the words inside an excerpt you cite or a book
   added to the library, keeps whatever terms it arrived under. Your
@@ -205,12 +206,12 @@ git commit -s -m "your message"
 ```
 
 That adds a `Signed-off-by:` line, which is your assertion of the
-[Developer Certificate of Origin](https://developercertificate.org/) — that
+[Developer Certificate of Origin](https://developercertificate.org/): that
 you wrote the change, or have the right to submit it. There is no CLA to sign
 and no account to create.
 
 **What you write for the project is CC0** under the provenance rules above, not
-MIT — content and code are separate throughout this project. What you *bring*,
+MIT, because content and code are separate throughout this project. What you *bring*,
 like the text of a cited excerpt, keeps its own terms; your part is finding it,
 citing it properly, and saying what those terms are.
 
@@ -232,12 +233,12 @@ been removed. New passage work uses the checked content path above.
 A sourced excerpt is a different thing from an authored passage: it is
 existing text, not new writing, and it carries the one hard rule this section
 has. The source must be **Standard Ebooks**, **Project Gutenberg**, or
-**Wikisource** — Wikisource cited by revision permalink, not a live page that
-can change under the citation. Any other source is a change to this file,
-never a contributor's judgment call.
+**Wikisource**, with Wikisource cited by revision permalink rather than a live
+page that can change under the citation. Any other source is a change to this
+file, never a contributor's judgment call.
 
 A sourced excerpt exists to carry a word in a context that actually teaches
-it — the surrounding sentence should let a reader who has never seen the
+it. The surrounding sentence should let a reader who has never seen the
 word work out what it means, not just show the word used correctly. Only
 claim a word from the excerpt if the passage itself explains it; a word that
 merely appears in the excerpt, with nothing around it doing any teaching,
@@ -246,15 +247,15 @@ does not belong in the claim list.
 The citation must state:
 
 - the work and its author
-- **the year the work was first published** — not the year of the
-  Gutenberg/Standard Ebooks/Wikisource edition you retrieved it from. *Heart
+- **the year the work was first published**, not the year of the
+  Gutenberg, Standard Ebooks or Wikisource edition you retrieved it from. *Heart
   of Darkness* is cited as `1899`, the year Conrad published it, never the
   year its Project Gutenberg edition happened to be posted.
 - the edition or a stable URL
 - the public-domain basis
 - **the excerpt itself, quoted verbatim and as one continuous span from the
   source.** That quoted text is what makes the excerpt's boundaries
-  checkable — there is no separate field for them, because a stranger
+  checkable. There is no separate field for them, because a stranger
   verifies a citation by searching the source for the exact words you
   quoted. If you must leave part of a passage out, mark the gap rather than
   joining the remaining pieces silently; an unmarked cut is a misquotation,

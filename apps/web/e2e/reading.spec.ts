@@ -165,15 +165,14 @@ test("the pull-up button is always page-toned, not chrome-toned", async ({ page 
     const cs = getComputedStyle(el);
     return { color: cs.color, background: cs.backgroundColor };
   });
-  // rgb(46, 35, 28) / rgb(255, 252, 246) -- design/ox.css's Oxblood light
-  // --text-1 / --surface-card, read under this test's default (light)
-  // colour scheme. These darken at night too (issue #100, ADR-039), so this
-  // exact pair is a light-mode reading rather than a constant -- what this
-  // asserts, and what matters here, is that the button reads the reading
-  // surface's own tokens, never the chrome ones, so it is legible against
-  // whatever the page currently is instead of a fixed room colour.
-  expect(styles.color).toBe("rgb(46, 35, 28)");
-  expect(styles.background).toBe("rgb(255, 252, 246)");
+  // rgb(242, 238, 231) / rgb(16, 15, 14) -- design/night.css's --ink on
+  // --ground. The three interchangeable papers are gone, so this is now a
+  // constant rather than one scheme's reading of a pair that moved. What it
+  // asserts is unchanged and is the point: the button takes the reading
+  // surface's own tokens, never the chrome ones, so it stays legible
+  // against whatever the page is rather than against a fixed room colour.
+  expect(styles.color).toBe("rgb(242, 238, 231)");
+  expect(styles.background).toBe("rgb(16, 15, 14)");
 });
 
 // The general form of the same bug: any chrome text left pointed at the

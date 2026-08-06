@@ -112,8 +112,13 @@
    in the gap and go unreadable the moment it lands on the card -- which is
    exactly the defect a screenshot review caught once already. Always
    page-toned, so it is readable wherever it actually lands. */
+/* Opaque on purpose: it is a control that rides over the passage, and it has
+   to read against the page rather than let the text show through it. The
+   bridge maps --surface-card to `transparent`, because on the night ground
+   almost nothing is a filled card any more — this is one of the few things
+   that genuinely is, so it names the ground itself. */
 .passage-continue-button {
-  background-color: var(--surface-card);
+  background-color: var(--ground);
   display: inline-flex;
   align-items: center;
   gap: 0.5em;

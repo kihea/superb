@@ -1,81 +1,148 @@
-.words-empty {
+.words__title {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-4);
-  margin-top: var(--sp-10);
-  max-width: 34ch;
+  gap: 7px;
 }
 
-.words-list {
-  list-style: none;
-  margin: var(--sp-6) 0 0;
+.words__sorts {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.words__said {
+  margin: 0;
+  font-size: 15px;
+  color: var(--ink-2);
+}
+
+.words__note {
+  margin: 0;
+  max-width: 46ch;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-3);
+}
+
+.words__door {
+  align-self: flex-start;
+}
+
+.words__list {
+  margin: 0;
   padding: 0;
+  list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-5);
+  gap: 6px;
 }
 
-.words-item {
-  background: var(--surface-card);
-  border: var(--bw-hairline) solid var(--border-1);
-  border-radius: var(--r-lg);
-  padding: var(--sp-6) var(--sp-7);
-  box-shadow: var(--shadow-1);
+/* One word to a row, laid out as a ledger: the number, the word, what it
+   means, and where it was met. The sentence runs full width underneath so
+   the meaning and the memory of it are never competing for the same column. */
+.words__row {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  grid-template-areas:
+    "index word"
+    ". meaning"
+    ". where"
+    ". context";
+  gap: 6px 14px;
+  padding: 15px 17px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  transition:
+    border-color var(--base),
+    background var(--base);
 }
 
-.words-item__head {
+.words__row:hover {
+  border-color: var(--rule-2);
+  background: var(--wash);
+}
+
+.words__index {
+  grid-area: index;
+  font-family: var(--face-meta);
+  font-size: 10px;
+  color: var(--ink-4);
+  padding-top: 3px;
+}
+
+.words__word {
+  grid-area: word;
+  font-family: var(--face-mark);
+  font-size: 16px;
+}
+
+.words__meaning {
+  grid-area: meaning;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
+.words__where {
+  grid-area: where;
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: var(--sp-5);
+  gap: 14px;
 }
 
-.words-item__word {
-  font: var(--type-title-2);
-  color: var(--text-1);
-}
-
-.words-item__letgo {
-  font: var(--type-eyebrow);
-  letter-spacing: var(--ls-label);
-  text-transform: uppercase;
-  color: var(--text-3);
-  background: none;
-  border: none;
-  padding: var(--sp-2) var(--sp-3);
-  cursor: pointer;
+.words__letgo {
   opacity: 0;
-  transition: opacity var(--dur-2) var(--ease-out);
+  transition: opacity var(--fast);
 }
 
-.words-item:hover .words-item__letgo,
-.words-item__letgo:focus-visible {
+.words__row:hover .words__letgo,
+.words__letgo:focus-visible {
   opacity: 1;
 }
 
-/* No pointer to hover with -- the control stays quietly visible. */
-@media (hover: none) {
-  .words-item__letgo {
-    opacity: 0.6;
+.words__context {
+  grid-area: context;
+  font-family: var(--face-read);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-3);
+  text-wrap: pretty;
+}
+
+@media (min-width: 47.5rem) {
+  .words__row {
+    grid-template-columns: 22px 168px minmax(0, 1fr) auto;
+    grid-template-areas:
+      "index word meaning where"
+      ". context context context";
+    align-items: baseline;
+    gap: 10px 20px;
   }
 }
 
-.words-item__meaning {
-  margin: var(--sp-3) 0 0;
-  font: var(--type-body);
-  color: var(--text-2);
-}
-
-.words-section {
-  margin-top: var(--sp-9);
+.words__section {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-4);
+  gap: 12px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
 }
 
-.words-item__context {
-  margin: var(--sp-4) 0 0;
-  font: var(--type-passage);
-  font-size: var(--fs-500);
-  color: var(--text-3);
+.words__sentences {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.words__sentences li {
+  padding: 13px 16px;
+  border-left: 2px solid var(--accent-edge);
+  font-family: var(--face-read);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  text-wrap: pretty;
 }

@@ -1,5 +1,5 @@
 // The release acceptance spine for real books, rewritten for the
-// restructured app: search the 614-book library for Dracula, open its
+// restructured app: search the whole library for Dracula, open its
 // cover, begin, read real chapter text, tap a glossed word and see a real
 // meaning, read far enough to move the saved place, reload and resume,
 // then reopen offline.
@@ -7,7 +7,7 @@
 // Two things this now asserts that the old spine could not:
 //
 //   - Only words the book's own gloss table knows are tappable. A word
-//     with no meaning saved is plain text -- every `.passage-word` on the
+//     with no meaning saved is plain text -- every `.reader__word` on the
 //     page must be a key in the served gloss table.
 //   - Ordinary reading never touches the engine at all. WholeBook.tsx never
 //     imports it, so after a whole book-only session the engine store holds
@@ -84,28 +84,28 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
   // typeset jacket now: the styled title with the author beneath it.
   await page.goto("/library");
   await page.getByPlaceholder("Title or author").fill("Dracula");
-  const result = page.locator(".jacket", { hasText: "Dracula" });
+  const result = page.locator(".book-card", { hasText: "Dracula" });
   await expect(result).toBeVisible({ timeout: 15_000 });
   await expect(result).toContainText("Bram Stoker");
   // The index carries exactly one book by that name.
-  await expect(page.locator(".jacket")).toHaveCount(1);
+  await expect(page.locator(".book-card")).toHaveCount(1);
   await result.click();
 
   // The cover: real names, the first line, and one way in.
   await expect(page).toHaveURL(/\/book\/bram-stoker_dracula$/);
-  await expect(page.locator(".book-names")).toContainText("Dracula");
-  await expect(page.locator(".book-names")).toContainText("Bram Stoker");
-  await expect(page.locator(".book-opening")).toBeVisible();
+  await expect(page.locator(".book__names")).toContainText("Dracula");
+  await expect(page.locator(".book__names")).toContainText("Bram Stoker");
+  await expect(page.locator(".book__opening")).toBeVisible();
   await page.getByRole("button", { name: "Begin" }).click();
 
   // Chapter one, real text. Fifteen-second timeouts match the suite's
   // convention: tokenizing a chapter's worth of buttons is real work under
   // parallel-worker load.
   await expect(page).toHaveURL(/\/book\/bram-stoker_dracula\/read$/);
-  const chapter = page.locator(".whole-book");
+  const chapter = page.locator(".reader");
   await expect(chapter).toBeVisible({ timeout: 15_000 });
   await expect(chapter).toHaveAttribute("data-part-index", "0");
-  const words = page.locator(".passage-word");
+  const words = page.locator(".reader__word");
   await expect(words.first()).toBeVisible();
   expect(await words.count()).toBeGreaterThan(200);
 
@@ -139,10 +139,14 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
     .poll(async () => (await readPlace(page, "bram-stoker_dracula")) !== null, { timeout: 5_000 })
     .toBe(true);
 
-  // Read far enough to move the saved place: scroll to a paragraph well
-  // into the chapter and let the place-tracking observer catch up.
-  const laterParagraph = page.locator(".passage-text").nth(6);
-  await laterParagraph.scrollIntoViewIfNeeded();
+  // Read far enough to move the saved place. The chapter is a page that
+  // turns now rather than a column that scrolls, so reading on means
+  // turning: the place is the first paragraph on the page being read, and it
+  // only ever advances within a chapter.
+  for (let turn = 0; turn < 3; turn++) {
+    await page.keyboard.press("ArrowRight");
+    await page.waitForTimeout(200);
+  }
   await expect
     .poll(async () => (await readPlace(page, "bram-stoker_dracula"))?.blockIndex ?? 0, { timeout: 5_000 })
     .toBeGreaterThan(0);
@@ -155,7 +159,7 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
 
   // Reload -- resumes at the same place, not the chapter's start.
   await page.reload();
-  await expect(page.locator(".whole-book")).toHaveAttribute("data-part-index", "0", { timeout: 15_000 });
+  await expect(page.locator(".reader")).toHaveAttribute("data-part-index", "0", { timeout: 15_000 });
   await expect
     .poll(async () => (await readPlace(page, "bram-stoker_dracula"))?.blockIndex)
     .toBe(placeBeforeReload!.blockIndex);
@@ -169,7 +173,7 @@ test("one real book, end to end: find it, read it, tap a word, resume, work offl
   await page.waitForTimeout(1_000);
   await context.setOffline(true);
   await page.reload();
-  await expect(page.locator(".whole-book")).toBeVisible({ timeout: 10_000 });
-  await expect(page.locator(".passage-word").first()).toBeVisible();
+  await expect(page.locator(".reader")).toBeVisible({ timeout: 10_000 });
+  await expect(page.locator(".reader__word").first()).toBeVisible();
   await context.setOffline(false);
 });

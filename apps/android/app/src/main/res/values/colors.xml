@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- The paper the app opens on (design/ox.css --ox-paper). -->
-    <color name="paper">#F6EFE4</color>
+    <!-- The paper the app opens on. This has to match the web app's default
+         paper (`night` in apps/web/src/design/night.css), or the system bars
+         flash the wrong colour before the page paints. -->
+    <color name="paper">#141311</color>
 </resources>

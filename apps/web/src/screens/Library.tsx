@@ -1,26 +1,42 @@
 // The library: six hundred books as a bookshop rather than an inventory.
 // Shelves with real names — adventure, the mystery cornerstones, Verne's
-// voyages — each a sideways drift of typeset jackets; search and the four
-// kinds collapse everything into one wall of jackets. A book is its title
-// set in one of ten jacket styles with the author beneath: no chapter
-// counts, no translator lines, nothing a bookshop window wouldn't say.
+// voyages — each a sideways drift of book tiles; search and the categories
+// collapse everything into one wall.
+//
+// The old wall dressed each book in one of ten typographic jackets over one
+// of five cloths, which meant a row read as a paint chart and three saturated
+// fills carried most of it. Now every book wears its own generated plate,
+// coloured by the category it belongs to, so the wall has as many marks as it
+// has books and the colour means something a reader can learn.
 import { useEffect, useMemo, useState } from "react";
-import { Screen } from "../shell/Screen";
+import { Room } from "../shell/Shell";
 import { useNavigate } from "../router/context";
 import { loadIndex, type CatalogueIndexRow } from "../content/catalogue";
-import { Jacket, jacketFor } from "../components/Jacket";
-import { clothFor } from "./Shelf";
+import { BookCard } from "../components/BookCard";
 import { RecoveryScreen } from "../components/RecoveryScreen";
 import "./Library.css";
 
 type Status = "loading" | "ready" | "error";
 
-// The library's own top-level kinds, in reading order. Collections
-// ("Also in" lists) become shelves below instead of crowding the chips.
-const KINDS = ["Fiction", "Nonfiction", "Poetry", "Drama"] as const;
+// The eleven categories the library sorts on, in reading order. Set
+// memberships (prize lists, publisher canons) become shelves below rather
+// than crowding this row.
+const KINDS = [
+  "Fiction",
+  "Nonfiction",
+  "Adventure",
+  "Mystery & Horror",
+  "Poetry",
+  "Philosophy",
+  "Drama",
+  "Comedy & Satire",
+  "Fantasy & Science Fiction",
+  "Biography & Memoir",
+  "Children's",
+] as const;
 
 const PAGE = 60;
-const SHELF_PREVIEW = 12;
+const SHELF_PREVIEW = 10;
 
 // Shelves, in walking order: moods first, then the named collections.
 // Categories are matched loosely (case and punctuation set aside) because
@@ -37,9 +53,16 @@ const SHELVES: { match: string; name: string }[] = [
   { match: "biography memoir", name: "Lives, told" },
   { match: "sherlock holmes", name: "Sherlock Holmes" },
   { match: "voyages extraordinaires", name: "Jules Verne's voyages" },
-  { match: "the guardian s 100 greatest novels of all time 2003", name: "The Guardian's hundred" },
+  { match: "encyclop dia britannica s great books of the western world", name: "The great books" },
+  { match: "encyclop dia britannica s gateway to the great books", name: "Gateway to the great books" },
+  { match: "the bbc s 100 greatest british novels 2015", name: "The BBC's British hundred" },
+  { match: "the guardian s best 100 novels in english 2015", name: "The Guardian's hundred in English" },
+  { match: "the guardian s 100 best novels of all time 2026", name: "The Guardian's hundred, 2026" },
+  { match: "the guardian s 100 greatest novels of all time 2003", name: "The Guardian's hundred, 2003" },
   { match: "modern library s 100 best novels", name: "Modern Library's hundred" },
   { match: "harvard classics shelf of fiction", name: "The Harvard shelf" },
+  { match: "mystery writers of america top 100 mysteries of all time", name: "The American mysteries" },
+  { match: "the telegraph s greatest villains in literature", name: "Great villains" },
   { match: "pulitzer prize for fiction winners", name: "Pulitzer winners" },
 ];
 
@@ -106,36 +129,37 @@ export function Library() {
 
   const shelfName = shelf ? SHELVES.find((s) => s.match === shelf)?.name : null;
 
-  function jacketOf(row: CatalogueIndexRow) {
-    return (
-      <Jacket
-        key={row.id}
-        book={{ title: row.title, author: row.author, cloth: clothFor(row.id) }}
-        styleIndex={jacketFor(row.id)}
-        onClick={() => navigate(`/book/${row.id}`)}
-      />
-    );
-  }
+  const tile = (row: CatalogueIndexRow) => (
+    <BookCard key={row.id} book={row} onClick={() => navigate(`/book/${row.id}`)} />
+  );
 
   return (
-    <Screen title="Library" sunken>
-      <label className="library-search">
+    <Room>
+      <div className="room__head">
+        <h1 className="mark">The library</h1>
+      </div>
+
+      <label className="field">
+        <span className="field__sigil" aria-hidden="true">
+          /
+        </span>
         <span className="sr-only">Title or author</span>
         <input
-          className="library-search__field"
           type="search"
-          placeholder="Title or author"
+          placeholder="title or author"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
+        <span className="meta">{browsing ? `${rows.length} books` : `${wall.length}`}</span>
       </label>
 
-      <div className="library-kinds">
+      <div className="library__kinds">
         {KINDS.map((k) => (
           <button
             key={k}
             type="button"
-            className={`sb-tier${kind === k ? " sb-tier--on" : ""}`}
+            className="chip"
+            aria-pressed={kind === k}
             onClick={() => {
               setShelf(null);
               setAll(false);
@@ -148,33 +172,21 @@ export function Library() {
       </div>
 
       {status === "ready" && browsing && (
-        <div className="library-shelves">
+        <div className="library__shelves">
           {SHELVES.map(({ match, name }) => {
             const books = byCategory.get(match);
             if (!books || books.length === 0) return null;
             return (
-              <section key={match} className="library-shelf">
-                <button
-                  type="button"
-                  className="library-shelf__head"
-                  onClick={() => setShelf(match)}
-                >
-                  <span className="library-shelf__name">{name}</span>
-                  <span className="library-shelf__count">
-                    all {books.length} →
-                  </span>
+              <section key={match} className="library__shelf">
+                <button type="button" className="library__shelf-head" onClick={() => setShelf(match)}>
+                  <span className="library__shelf-name">{name}</span>
+                  <span className="meta">all {books.length} →</span>
                 </button>
-                <div className="library-shelf__row">
-                  {books.slice(0, SHELF_PREVIEW).map(jacketOf)}
-                </div>
+                <div className="library__row">{books.slice(0, SHELF_PREVIEW).map(tile)}</div>
               </section>
             );
           })}
-          <button
-            type="button"
-            className="sb-button sb-button--secondary"
-            onClick={() => setAll(true)}
-          >
+          <button type="button" className="btn btn--quiet library__everything" onClick={() => setAll(true)}>
             Every book, A to Z · {rows.length}
           </button>
         </div>
@@ -183,11 +195,11 @@ export function Library() {
       {status === "ready" && !browsing && (
         <>
           {(shelfName || all) && (
-            <div className="library-wall__head">
-              <span className="sb-eyebrow">{shelfName ?? "Every book"}</span>
+            <div className="library__wall-head">
+              <span className="eyebrow">{shelfName ?? "Every book"}</span>
               <button
                 type="button"
-                className="sb-quiet"
+                className="btn btn--bare"
                 onClick={() => {
                   setShelf(null);
                   setAll(false);
@@ -197,24 +209,20 @@ export function Library() {
               </button>
             </div>
           )}
-          <div className="library-grid">{wall.slice(0, shown).map(jacketOf)}</div>
-          {wall.length === 0 && <p className="sb-said">Nothing here by that name.</p>}
+          <div className="library__grid">{wall.slice(0, shown).map(tile)}</div>
+          {wall.length === 0 && <p className="library__empty">No book has that name.</p>}
           {shown < wall.length && (
-            <button
-              type="button"
-              className="sb-quiet sb-quiet--centred"
-              onClick={() => setShown((n) => n + PAGE)}
-            >
+            <button type="button" className="btn btn--quiet library__more" onClick={() => setShown((n) => n + PAGE)}>
               More
             </button>
           )}
-          <p className="sb-caption">
-            {wall.length > 0
-              ? `${wall.length} ${wall.length === 1 ? "book" : "books"}, all out of copyright.`
-              : " "}
-          </p>
+          {wall.length > 0 && (
+            <p className="meta library__foot">
+              {wall.length} {wall.length === 1 ? "book" : "books"}, all out of copyright.
+            </p>
+          )}
         </>
       )}
-    </Screen>
+    </Room>
   );
 }

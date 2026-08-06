@@ -15,17 +15,17 @@ export function Prose() {
   if (open) return <ReadingScreen />;
 
   return (
-    <Screen back={{ to: "/play", label: "Play", icon: true }} nav={false}>
+    <Screen back={{ to: "/play", label: "Play", icon: true }}>
       <div className="prose-door sb-rise">
         <span className="sb-eyebrow">Prose</span>
-        <h2 className="sb-heading">A passage put together for you.</h2>
+        <h2 className="sb-heading">A passage written for you.</h2>
         <p className="sb-said">
-          Rare words, long sentences, and nothing you've already worn out. Read it through and tap
-          the words you don't know — looking them up is the whole exercise.
+          Rare words and long sentences, and nothing you know already. Read it through and tap
+          every word you do not know. That is the whole exercise.
         </p>
         <p className="sb-caption">
-          It meets you where you are, and climbs as you do. Words you tap come back later in new
-          company.
+          Each passage is as hard as you can read now, and gets harder as you improve. The words you
+          tap come back later in new sentences.
         </p>
         <button type="button" className="sb-button sb-button--wide" onClick={() => setOpen(true)}>
           Open the passage

@@ -55,7 +55,7 @@ export function GlossCard({ word, context, onDismiss }: GlossCardProps) {
     curated?.definition ?? (fromTable ? pickDefinition(word, fromTable, context, shared) : undefined);
   // The same sentence content/glosses.ts's glossFor uses for a book-table
   // miss -- one voice for "no entry" everywhere a card can say it.
-  const definition = meaning ?? "This word doesn't have a meaning saved yet.";
+  const definition = meaning ?? "Superb does not have a meaning for this word yet.";
   const elsewhere = curated?.elsewhere;
 
   useEffect(() => {

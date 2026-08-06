@@ -1,51 +1,63 @@
-.play-doors {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-6);
-  margin-top: var(--sp-6);
+.play__lede {
+  margin: -12px 0 0;
+  max-width: 52ch;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
 }
 
-.play-door {
+.play__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+  gap: 10px;
+}
+
+.play__door {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-4);
-  padding: var(--sp-8) var(--sp-7);
+  gap: 14px;
+  padding: 0 0 20px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--ink);
   text-align: left;
-  background: var(--surface-card);
-  border: var(--bw-hairline) solid var(--border-1);
-  border-radius: var(--r-xl);
-  box-shadow: var(--shadow-1);
   cursor: pointer;
+  overflow: hidden;
   transition:
-    transform var(--dur-2) var(--ease-out),
-    box-shadow var(--dur-2) var(--ease-out);
+    border-color var(--base),
+    background var(--base);
 }
 
-.play-door:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-2);
+.play__door:hover,
+.play__door:focus-visible {
+  border-color: var(--rule-lit);
+  background: var(--wash);
 }
 
-.play-door:active {
-  transform: translateY(0);
-  box-shadow: var(--shadow-press);
-  transition-duration: var(--dur-1);
+/* Full width, across the top: the display is the lid of the tile, not a
+   decoration tucked inside its padding. */
+.play__display {
+  display: block;
+  padding: 16px 0 10px;
+  border-bottom: 1px solid var(--rule);
+  overflow: hidden;
 }
 
-.play-door__name {
-  font: var(--type-title-2);
-  color: var(--text-1);
+.play__name {
+  padding: 0 20px;
+  font-family: var(--face-mark);
+  font-size: 19px;
 }
 
-.play-door__line {
-  font: var(--type-passage);
-  font-size: var(--fs-500);
-  color: var(--text-2);
+.play__line {
+  padding: 0 20px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-2);
 }
 
-.play-door__hint {
-  font: var(--type-eyebrow);
-  letter-spacing: var(--ls-eyebrow);
-  text-transform: uppercase;
-  color: var(--text-3);
+.play__hint {
+  margin-top: auto;
+  padding: 0 20px;
 }

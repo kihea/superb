@@ -1,58 +1,209 @@
-/* Frame 2h. The wash is the soft brand panel his frame puts behind the top
-   300px; everything on this screen sits above it. */
-
-.book-wash {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 300px;
-  background: var(--brand-soft);
-  z-index: 0;
-  pointer-events: none;
+.book__back {
+  align-self: flex-start;
 }
 
-.book-head,
-.book-names,
-.book-opening,
-.book-actions,
-.sb-passage {
-  position: relative;
-  z-index: 1;
-}
-
-.book-head {
+.book__head {
   display: flex;
-  gap: var(--sp-7);
-  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: flex-start;
 }
 
-.book-names {
+.book__plate {
+  flex: none;
+}
+
+.book__names {
+  flex: 1;
+  min-width: 260px;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-3);
+  gap: 13px;
 }
 
-.book-description {
-  max-width: 44ch;
-}
-
-.book-opening {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-5);
-}
-
-.book-opening__line {
-  font: var(--fw-regular) var(--fs-500) / 1.6 var(--font-read);
-  color: var(--text-2);
+.book__title {
   margin: 0;
+  font-size: 30px;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.book__author {
+  font-family: var(--face-meta);
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+/* The four facts a reader actually weighs before starting something long,
+   ruled off above and below so they read as a row rather than a sentence. */
+.book__facts {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 13px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--face-meta);
+  font-size: 11px;
+  color: var(--ink-3);
+}
+
+.book__doors {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.book__doors .btn[disabled] {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.book__section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+}
+
+.book__sets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* A set is a fact, not a control: it looks like a chip but does not pretend
+   to be pressable, because there is nowhere for it to go yet. */
+.book__set {
+  cursor: default;
+}
+
+.book__set:hover {
+  border-color: var(--rule-2);
+}
+
+.book__description {
+  max-width: 62ch;
+}
+
+.book__description p {
+  margin: 0 0 0.9em;
+  font-size: 14.5px;
+  line-height: 1.68;
+  color: var(--ink-2);
   text-wrap: pretty;
 }
 
-.book-actions {
+.book__description p:last-child {
+  margin-bottom: 0;
+}
+
+.book__credit {
+  color: var(--ink-4);
+}
+
+.book__opening {
+  margin: 0;
+  max-width: 62ch;
+  font-family: var(--face-read);
+  font-size: 18px;
+  line-height: 1.62;
+  color: rgba(242, 238, 231, 0.86);
+  text-wrap: pretty;
+}
+
+/* ── what you made of it ─────────────────────────────────────────────── */
+
+.book__marks-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.book__rating,
+.book__elsewhere {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.book__review {
+  margin: 0;
+  padding: 15px 18px;
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--accent-edge);
+  border-radius: 0 5px 5px 0;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-2);
-  margin-top: auto;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.book__review p {
+  margin: 0;
+  font-family: var(--face-read);
+  font-size: 15px;
+  line-height: 1.62;
+  color: var(--ink-2);
+  text-wrap: pretty;
+  white-space: pre-wrap;
+}
+
+.book__write {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book__review-field {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--face-read);
+  font-size: 15px;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.book__review-field::placeholder {
+  color: var(--ink-4);
+}
+
+.book__review-field:focus {
+  outline: none;
+  border-color: var(--accent-edge);
+}
+
+.book__write-doors {
+  display: flex;
+  gap: 8px;
+}
+
+.book__write-open {
+  align-self: flex-start;
+}
+
+.book__bring,
+.book__licence {
+  margin: 0;
+  color: var(--ink-4);
+}
+
+.book__link {
+  color: var(--accent-lit);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-edge);
+}
+
+.book__licence {
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
 }

@@ -2,12 +2,12 @@
 
 A reading app that makes you better with words.
 
-You open it and read — real books, 614 of them, all out of copyright. Any word
-you don't know gives up its meaning when you tap it, and you can keep the ones
-worth keeping. When you feel like practising, there are three games: rhyme,
+You open it and read. The library holds 1,478 books, all out of copyright. Tap a
+word you do not know and its meaning opens on the page, and you can keep the
+ones worth keeping. When you want to practise, there are three games: rhyme,
 association, and prose composed for you by an engine that learns which words
-you're ready for. The device can read the books aloud. There is no review
-queue, streak, level, or score; reading stays reading.
+you are ready for. The device can read the books aloud. There is no review
+queue, streak, level or score.
 
 ## What's here
 
@@ -16,14 +16,16 @@ queue, streak, level, or score; reading stays reading.
   [library repository](https://github.com/superb-catalogue/library) and is
   cached on device; everything the reader does stays on the device.
 - **The games.** Rhyme and association take anything you type or say and judge
-  it against real data — pronunciations from CMUdict, word connections from
-  WordNet and our own corpus — then show you what you could have said. Prose
-  is a passage composed for you; tapping the words you don't know is the whole
-  exercise, and it is the one place the learning engine listens.
+  it against real data: pronunciations from CMUdict, and word connections from
+  WordNet and our own corpus. Each then shows you what you could have said.
+  Prose is a passage composed for you; tapping the words you don't know is the
+  whole exercise, and it is the only place the learning engine takes a reading
+  from.
 - **The engine** (`crates/superb-core`): word state, scheduling, ability
-  estimation, signal ranking, and passage composition. Pure — no clock, RNG,
-  or I/O; callers supply time and seeds. `crates/superb-wasm` exposes it to
-  the web app; `crates/superb-sim` runs synthetic readers through long checks.
+  estimation, signal ranking, and passage composition. It is pure, with no
+  clock, no random number generator and no I/O; callers supply time and seeds.
+  `crates/superb-wasm` exposes it to the web app; `crates/superb-sim` runs
+  synthetic readers through long checks.
 - **The shells.** `apps/web` is a React + Vite PWA, served at `/read/` on
   [superb.works](https://superb.works) and installable offline. `apps/android`
   is that app as an installable Android package (a Trusted Web Activity).
@@ -33,9 +35,9 @@ queue, streak, level, or score; reading stays reading.
   checks every shipped dataset and cited excerpt against its licence and
   provenance record.
 
-A shell may render, gesture, persist, and time. It may not decide. Anything
-that decides lives in the core, so every shell behaves consistently by
-construction rather than by discipline.
+A shell may render, gesture, persist and keep time. It may not decide. Every
+decision lives in the core, so the shells behave the same way without anyone
+having to keep them in step by hand.
 
 The app runs on-device and keeps reader state local. It has no account, sync,
 or payment service.
@@ -61,9 +63,9 @@ cargo test -p superb-core --all-features --locked
 ```
 
 The repository-level release check installs build dependencies, runs the fast
-Python and Rust gates, builds and tests the web app, checks offline/PWA behavior,
-assembles the site, seals it, restores the exact archive, and smoke-tests the
-restored bytes:
+Python and Rust gates, builds and tests the web app, checks offline and PWA
+behaviour, assembles the site, seals it, restores the exact archive, and
+smoke-tests the restored bytes:
 
 ```sh
 python scripts/release.py
@@ -81,35 +83,40 @@ intentionally separate from this command.
 **Code is source-available: MIT + Commons Clause. Content is CC0 where we wrote
 it, and carries its own terms where we didn't.**
 
-You may read the code, run it, change it, and pass it on — including changed
-versions — as long as it is free. You may not sell it, or sell a product or
+You may read the code, run it, change it, and pass it on, changed versions
+included, as long as it is free. You may not sell it, or sell a product or
 service whose value comes substantially from it. That one restriction is what
-makes this source-available rather than open source, and the project says so
-plainly rather than borrowing a word it is no longer entitled to.
+makes this source-available rather than open source, which is why the project
+does not describe itself as open source.
 
-Content is not all under one licence, and the thing that decides is not who
-typed it — it is whose work it came from. Three kinds:
+Content is not all under one licence. What decides is not who typed it but
+whose work it came from. There are three kinds:
 
-**Written here from nothing** — the passages, the slot library, the schemas.
-CC0 and unrestricted. Attribution is encouraged and never required; the project
-claims the infrastructure that serves the content, not the content itself.
+**Written here from nothing** are the passages, the slot library, and the
+schemas. These are CC0 and unrestricted. Attribution is welcome and never
+required; the project claims the infrastructure that serves the content, not
+the content itself.
 
 **Built here from somebody else's work.** These carry that work's terms, not
-ours, even though our scripts produced them — running a dataset through a script
-of ours does not make the result ours. Two live cases:
+ours, even though our scripts produced them: running a dataset through a script
+of ours does not make the result ours. There are two live cases. The first is
 `content/difficulty.json`, whose numbers come from Robyn Speer's `wordfreq` and
-which travels with the credit that list requires; and the gloss tables, which
-start from Wiktionary and so carry its credit and its pass-on-the-same-freedom
-terms — the per-book tables under `content/glosses/`, the games' table
-`content/challenges/glosses.json`, and the composed-prose table
-`content/glosses/prose.json`. The rhyme and association data carry CMUdict's
-and WordNet's notices the same way.
+which travels with the credit that list requires. The second is the gloss
+tables, which start from Wiktionary and so carry its credit and its
+pass-on-the-same-freedom terms: the games' table
+`content/challenges/glosses.json`, the composed-prose table
+`content/glosses/prose.json`, and the shared sense table
+`content/glosses/senses.json`. Each book's own gloss table carries the same
+terms, and lives beside that book in the
+[library](https://github.com/superb-catalogue/library) rather than here, so
+the app fetches a book's text and its word meanings from one place. The rhyme
+and association data carry CMUdict's and WordNet's notices the same way.
 
-**Not authored here at all** — the text inside cited excerpts, and the books in
-the [library](https://github.com/superb-catalogue/library). Each keeps whatever
-terms it arrived under: public domain and CC0 where possible, and licences
-asking for credit or for the same freedom to be passed on where that is what the
-good source carries.
+**Not authored here at all** is the text inside cited excerpts, and the books
+in the [library](https://github.com/superb-catalogue/library). Each keeps
+whatever terms it arrived under: public domain and CC0 where possible, and
+licences asking for credit or for the same freedom to be passed on where that
+is what the good source carries.
 
 Nothing non-commercial and nothing all-rights-reserved enters a build, ever.
 
@@ -132,11 +139,11 @@ The library of whole books Superb reads from is built on
 [Standard Ebooks](https://standardebooks.org) editions.
 
 They take public-domain books, proofread them properly, and typeset them with
-real care — and then they put the whole file in the public domain, their own
-editing work included. That last part is unusual. Most people who improve a
-free text keep something back for the improving; Standard Ebooks gives it away,
-which is why their editions are the ones worth building on and why anyone else
-can build on them too.
+real care. They then put the whole file in the public domain, their own editing
+work included. That last part is unusual. Most people who improve a free text
+keep something back for the improving; Standard Ebooks gives it away, which is
+why their editions are the ones worth building on and why anyone else can build
+on them too.
 
 The books live in a separate repository,
 [superb-catalogue/library](https://github.com/superb-catalogue/library), so that
@@ -152,9 +159,8 @@ them](https://standardebooks.org/donate).
 Superb is developed with substantial help from AI coding agents, working under
 a written decision record and reviewed against a fixed test suite before
 anything merges. Individual commits are not annotated with which model touched
-them — the record of what changed is the diff and the tests, the same as any
-other project. Saying it plainly once here seemed more useful than a trailer
-on every commit.
+them. The record of what changed is the diff and the tests, the same as any
+other project.
 
 ## Contributing
 
@@ -164,9 +170,9 @@ reports and feature requests use the issue forms. The well-bounded lanes are
 passage and slot authoring, sourcing and citing public-domain excerpts, gloss
 rewrites, example-sentence curation, and phonetics edge cases.
 
-A contributed excerpt needs a complete, checkable citation and has to use its
-target vocabulary in genuinely informative context — where meaning can be
-inferred from the writing itself. That is the whole bar; it is also a higher
+A contributed excerpt needs a complete, checkable citation, and has to use its
+target vocabulary in a context informative enough that a reader can work the
+meaning out from the writing itself. That is the whole bar, and it is a higher
 bar than it sounds.
 
 Contributions are DCO sign-off (`git commit -s`), not a CLA.

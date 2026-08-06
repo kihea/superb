@@ -3,23 +3,30 @@ and content/challenges/association-index.json.
 
 Two clean sources, no external association norms:
 
-1. WordNet 3.0 (Princeton, custom permissive licence — the copyright notice
+1. WordNet 3.0 (Princeton, custom permissive licence: the copyright notice
    this data must carry is in data/NOTICE.md, and the manifest row is in
-   data/MANIFEST.md). Relations used, with the plain label each one gets:
+   data/MANIFEST.md). Relations used, with the label each one gets:
 
-     synonyms                          "means the same"
-     antonyms                          "opposite"
-     hyponyms  (one level down)        "a kind of it"
-     hypernyms (one level up)          "it is a kind of"
-     part / member meronyms+holonyms   "part of it"
-     substance meronyms+holonyms       "made from it"
-     derivationally related, pertainym "comes from the same root"
+     synonyms                          "means much the same"
+     antonyms                          "the opposite"
+     hyponyms  (one level down)        "a kind of <prompt>"
+     hypernyms (one level up)          "<prompt> is a kind of it"
+     part / member meronyms+holonyms   "one is part of the other"
+     substance meronyms+holonyms       "what it is made of"
+     derivationally related, pertainym "from the same root"
 
-2. Co-occurrence over our own corpus: the sourced excerpts in
+   Definition crossing adds two more, both ways round: "defined through
+   <prompt>" for a word whose own definition leans on the prompt, and "used
+   in the definition of <prompt>" for a word the prompt's definition leans
+   on. A shared etymology overrides the vaguer labels with "both from
+   <language> <root>". Every label may carry the defining line that makes
+   the connection, after a colon.
+
+2. Co-occurrence over the project's corpus: the sourced excerpts in
    content/sources/*.json, all public domain. Windowed PMI (how much more
    often two words appear near each other than chance predicts), window of
    ten tokens, pairs seen at least three times. A word connected only this
-   way is labelled "shows up beside it".
+   way is labelled "often appears near it in the books".
 
 Each prompt carries up to 20 associates ranked by a blended score: the
 strongest WordNet relation, discounted for rarer senses, plus a bonus for
@@ -44,7 +51,9 @@ pairs, the index also accepts:
     a reasonably common word;
   - corpus pairs at the looser PMI_JUDGE threshold.
 
-The reveal's top-20 lists stay strict; only the index is generous.
+The reveal's top-20 lists stay strict; only the index is generous. The index
+is also a superset of the reveal by construction, so the game can never name
+a word in "You could have said" that it would have marked wrong.
 
 Plain inflections of the prompt (call / called) are never associates; other
 same-root words (call / caller) are allowed and say so.
@@ -133,11 +142,33 @@ DEFINITION_STOPWORDS = {
     "marked", "etc",
 }
 
-# How a connection explains itself. Each label is built with the actual
-# evidence — the defining line of the sense that makes the connection, the
-# shared root, the domain — so the reveal teaches the *how*, not just a
-# category ("a kind of it" told nobody anything they could keep).
+# How a connection explains itself. Each label carries the evidence for
+# itself: the defining line of the sense that makes the connection, the
+# shared root, or the field. That way the reveal shows the reader how two
+# words meet, rather than filing the pair under a category ("a kind of it"
+# told nobody anything they could keep).
+#
+# The labels are read by people mid-game, so they stay plain: no dashes, no
+# "we" or "our", and nothing that asks the reader to picture a dictionary
+# doing something. LABEL_HEADS below is the closed set of shapes, and
+# tests/test_associations.py checks the shipped data against it.
 GLOSS_TRIM = 88
+
+# Each head, with {p} standing in for the prompt. A label is a head on its
+# own, or a head followed by ": " and a quoted defining line.
+LABEL_HEADS = (
+    "means much the same",
+    "the opposite",
+    "a kind of {p}",
+    "{p} is a kind of it",
+    "one is part of the other",
+    "what it is made of",
+    "a field {p} has a meaning in",
+    "defined through {p}",
+    "used in the definition of {p}",
+    "from the same root",
+    "often appears near it in the books",
+)
 
 
 def trim_gloss(text: str) -> str:
@@ -148,28 +179,28 @@ def trim_gloss(text: str) -> str:
 
 
 def label_for(relation: str, prompt: str, gloss: str | None) -> str:
-    detail = f" — “{trim_gloss(gloss)}”" if gloss else ""
+    detail = f": “{trim_gloss(gloss)}”" if gloss else ""
     if relation == "synonym":
         return f"means much the same{detail}"
     if relation == "antonym":
-        return f"its opposite{detail}"
+        return f"the opposite{detail}"
     if relation == "hyponym":
         return f"a kind of {prompt}{detail}"
     if relation == "hypernym":
-        return f"{prompt} is a kind of this{detail}"
+        return f"{prompt} is a kind of it{detail}"
     if relation == "part":
-        return f"part and whole{detail}"
+        return f"one is part of the other{detail}"
     if relation == "substance":
-        return f"what it's made of{detail}"
+        return f"what it is made of{detail}"
     if relation == "domain":
-        return f"{prompt} has a whole sense that lives there{detail}"
+        return f"a field {prompt} has a meaning in{detail}"
     if relation == "defined":
         return f"defined through {prompt}{detail}"
     if relation == "defines":
-        return f"inside {prompt}'s own meaning{detail}"
+        return f"used in the definition of {prompt}{detail}"
     if relation == "root":
-        return gloss if gloss else "grown from the same root"
-    return "keeps its company in our books"
+        return gloss if gloss else "from the same root"
+    return "often appears near it in the books"
 
 
 # Relation strength before the sense discount; the order here is also the
@@ -576,6 +607,11 @@ def build() -> tuple[dict, dict]:
         }
         # An associate must be a word a reader could actually offer.
         all_words = {w for w in all_words if zipf(w) >= 2.0}
+        # A prompt is never its own answer. Both definition-crossing sources
+        # can hand the prompt back to itself (a word's own definitions and
+        # etymology mention the word), and the reveal then told a reader
+        # they could have said the word already on the screen.
+        all_words.discard(word)
         wn_count = sum(1 for w in all_words if w in wn_related)
         if len(all_words) < MIN_ASSOCIATES or wn_count < MIN_WN_ASSOCIATES:
             continue
@@ -588,11 +624,11 @@ def build() -> tuple[dict, dict]:
             value = pmi_related.get(w, 0.0)
             score = strength + PMI_BONUS * min(value, 10.0)
             # A shared origin upgrades the vaguer labels into a real
-            # lesson: "both grown from Latin fenestra" beats "grown from
-            # the same root" and beats "keeps its company" every time.
+            # lesson: "both from Latin fenestra" beats "from the same root"
+            # and beats "often appears near it" every time.
             root = shared_root(word, w, web_roots)
             if root and relation in ("root", "corpus", "defines"):
-                connection = f"both grown from {root[0]} {root[1]}"
+                connection = f"both from {root[0]} {root[1]}"
             else:
                 connection = label_for(relation, word, detail)
             scored.append(
@@ -663,6 +699,16 @@ def build() -> tuple[dict, dict]:
     connected = {
         w: judge_connections(w, pmi.get(w, {}), zipf, web_reverse) for w in sorted(used)
     }
+
+    # The judge is wider than the reveal, and that has to hold by
+    # construction rather than because two code paths happen to agree. They
+    # did not: the reveal also draws on the forward definition web and on
+    # PMI at the labelled threshold, neither of which judge_connections
+    # sees, so the game used to name words in "You could have said" that it
+    # would then have marked wrong. Whatever the reveal shows, the judge
+    # takes.
+    for w in sorted(used):
+        connected[w].update(a["word"] for a in prompt_associates[w])
 
     prompt_list = sorted(used)
     prompt_index = {w: i for i, w in enumerate(prompt_list)}

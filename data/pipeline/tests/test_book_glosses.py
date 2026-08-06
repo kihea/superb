@@ -1,13 +1,19 @@
-"""Behavioural checks on the committed per-book gloss tables.
+"""Behavioural checks on the per-book gloss tables.
 
-The tables (content/glosses/<book-id>.json, one per catalogue book, built
-by data/pipeline/book_glosses.py) are what the reader taps into: word ->
-{"definition": ...}. These checks hold what the app leans on: a table
-exists for every book in the catalogue index, every table parses into the
-expected shape, keys are the lowercased surface words the tokenizer
-produces, definitions carry the mechanical normalization (capitalized
-first letter, closing period), and the rare words a reader actually taps
-are present — "antebellum" in Up from Slavery being the canary.
+The tables (one per catalogue book, built by data/pipeline/book_glosses.py)
+are what the reader taps into: word -> {"definition": ...}. These checks
+hold what the app leans on: a table exists for every book in the catalogue
+index, every table parses into the expected shape, keys are the lowercased
+surface words the tokenizer produces, definitions carry the mechanical
+normalization (capitalized first letter, closing period), and the rare words
+a reader actually taps are present, with "antebellum" in Up from Slavery as
+the canary.
+
+A book's table lives beside that book in the library checkout, as
+books/<id>/glosses.json, and is fetched from the same CDN commit as its
+text. Only the app's own tables are committed in this repository, so this
+reads the library the way book_glosses.py writes it. Pass --library to point
+at a checkout somewhere other than E:/se-work/library.
 
 Run: python data/pipeline/tests/test_book_glosses.py
 """
@@ -22,7 +28,19 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent.parent
 INDEX_PATH = ROOT / "content" / "catalogue" / "index-v1.json"
+# The app's own tables (the shared senses, the composed-passage table) are
+# still committed here; only the per-book ones moved.
 GLOSSES_DIR = ROOT / "content" / "glosses"
+DEFAULT_LIBRARY = pathlib.Path("E:/se-work/library")
+LIBRARY = pathlib.Path(
+    sys.argv[sys.argv.index("--library") + 1]
+    if "--library" in sys.argv
+    else DEFAULT_LIBRARY
+)
+
+
+def gloss_path(book_id: str) -> pathlib.Path:
+    return LIBRARY / "books" / book_id / "glosses.json"
 
 TERMINAL = (".", "!", "?", ")", "”", '"', "’", "]", "…")
 
@@ -38,7 +56,7 @@ def main() -> int:
     index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
     book_ids = [row["id"] for row in index["books"]]
 
-    missing = [bid for bid in book_ids if not (GLOSSES_DIR / f"{bid}.json").is_file()]
+    missing = [bid for bid in book_ids if not gloss_path(bid).is_file()]
     check(
         "a gloss table exists for every book in the catalogue",
         not missing,
@@ -52,7 +70,7 @@ def main() -> int:
     rng = random.Random(1)
     empty = []
     for bid in book_ids:
-        path = GLOSSES_DIR / f"{bid}.json"
+        path = gloss_path(bid)
         if not path.is_file():
             continue
         table = json.loads(path.read_text(encoding="utf-8"))
@@ -105,7 +123,7 @@ def main() -> int:
         ("bram-stoker_dracula", "abandoned"),
     ]
     for bid, word in canaries:
-        path = GLOSSES_DIR / f"{bid}.json"
+        path = gloss_path(bid)
         if not path.is_file():
             continue
         table = json.loads(path.read_text(encoding="utf-8"))

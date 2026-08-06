@@ -6,7 +6,8 @@
 // "start over" only where a caller names a real reset action, because for a
 // content fetch failure retrying the same request is honest but wiping
 // local state would not fix anything and would discard it for nothing.
-import { Screen } from "../shell/Screen";
+import { Room } from "../shell/Shell";
+import { Link } from "../router/router";
 
 export interface RecoveryScreenProps {
   message?: string;
@@ -16,24 +17,29 @@ export interface RecoveryScreenProps {
 }
 
 export function RecoveryScreen({
-  message = "Something went wrong. Nothing has been lost.",
+  message = "Something failed. You have lost nothing.",
   onRetry,
   onReset,
   back,
 }: RecoveryScreenProps) {
   return (
-    <Screen back={back}>
-      <div className="sb-body--centred">
-        <h2 className="sb-heading">{message}</h2>
-        <button type="button" className="sb-button" onClick={onRetry}>
+    <Room width="narrow">
+      {back && (
+        <Link to={back.to} className="btn btn--bare self-start">
+          ← {back.label.toLowerCase()}
+        </Link>
+      )}
+      <h1 className="mark">{message}</h1>
+      <div style={{ display: "flex", gap: 9, flexWrap: "wrap" }}>
+        <button type="button" className="btn" onClick={onRetry}>
           Try again
         </button>
         {onReset && (
-          <button type="button" className="sb-quiet" onClick={onReset}>
-            Start this book over
+          <button type="button" className="btn btn--quiet" onClick={onReset}>
+            Start this book again
           </button>
         )}
       </div>
-    </Screen>
+    </Room>
   );
 }

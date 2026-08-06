@@ -1,0 +1,104 @@
+name: android
+
+on:
+  push:
+    branches: [main, dev]
+    paths: ["apps/android/**", ".github/workflows/android.yml"]
+  pull_request:
+    paths: ["apps/android/**", ".github/workflows/android.yml"]
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: assemble
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # AGP 8.13 needs JDK 17 and Gradle 8.13. The Android SDK is already on
+      # the ubuntu-latest image; only the platform for compileSdk has to be
+      # accepted and installed.
+      - name: JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.13"
+
+      - name: Debug build
+        working-directory: apps/android
+        run: gradle --no-daemon assembleDebug
+
+      # The release variant is built unsigned here. Signing is the owner's
+      # step and the keystore is deliberately not in this repository, so this
+      # proves the build and the shrinker configuration rather than producing
+      # something uploadable.
+      - name: Release build, unsigned
+        working-directory: apps/android
+        run: gradle --no-daemon assembleRelease
+
+      - name: Keep the APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: superb-apks
+          path: apps/android/app/build/outputs/apk/**/*.apk
+          if-no-files-found: error
+
+  assetlinks:
+    name: digital asset links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The Android app is a Trusted Web Activity, so the site half of the
+      # association has to stay valid JSON and keep naming the package the
+      # app actually ships under. An empty fingerprint list is allowed and
+      # means the association is not claimed yet; a mismatched package name
+      # is not, because it would claim an association for the wrong app.
+      - name: Site and app agree
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, sys
+
+          links = pathlib.Path("apps/site/page/.well-known/assetlinks.json")
+          gradle = pathlib.Path("apps/android/app/build.gradle").read_text()
+
+          applied = re.search(r'applicationId\s+"([^"]+)"', gradle)
+          if not applied:
+              sys.exit("apps/android/app/build.gradle: no applicationId found")
+          package = applied.group(1)
+
+          statements = json.loads(links.read_text())
+          targets = [
+              s["target"] for s in statements
+              if s.get("target", {}).get("namespace") == "android_app"
+          ]
+          if not targets:
+              sys.exit(f"{links}: no android_app statement")
+
+          names = {t.get("package_name") for t in targets}
+          if names != {package}:
+              sys.exit(
+                  f"{links}: names {sorted(names)}, but the app ships as {package!r}"
+              )
+
+          prints = targets[0].get("sha256_cert_fingerprints", [])
+          for f in prints:
+              if not re.fullmatch(r"(?:[0-9A-F]{2}:){31}[0-9A-F]{2}", f):
+                  sys.exit(f"{links}: {f!r} is not a SHA-256 fingerprint")
+
+          if prints:
+              print(f"assetlinks: {package} claimed with {len(prints)} fingerprint(s)")
+          else:
+              print(
+                  f"assetlinks: {package} declared, no fingerprint yet, so the "
+                  f"app will show the address bar until the release key is added"
+              )
+          PY

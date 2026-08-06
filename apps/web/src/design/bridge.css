@@ -1,0 +1,152 @@
+/* A bridge, and a list of what is still standing on it.
+ *
+ * The redesign replaced the whole colour and type system in one go: three
+ * interchangeable papers, five book cloths and a warm cream ground became the
+ * single night ground in design/night.css. Most of the app was re-cut onto it
+ * directly. These nine files were not, because they belong to the composed-
+ * prose reader and the word card — parts that work, that nobody complained
+ * about, and that would have been a second rewrite on top of an already large
+ * one:
+ *
+ *   components/PassagePage.css      components/ReadingScreen.css
+ *   components/HoldMenu.css
+ *   components/doodle/DoodleArrow.css
+ *   components/chrome/PixelBreak.css, PixelScatter.css
+ *   components/voice/VoiceOrb.css   voice/ReadAloudOrb.css
+ *   screens/Challenge.css           screens/Prose.css
+ *
+ * Rather than leave them painting a warm cream card onto a near-black page,
+ * every token they still name is defined here in terms of the new ground. The
+ * result is coherent, not merely non-broken — but it is a translation layer,
+ * and a translation layer nobody has to remove tends to outlive its reason.
+ * Each file above should be re-cut onto night.css's own vocabulary and its
+ * line struck from the list; when the list is empty, delete this file.
+ */
+
+:root {
+  /* Surfaces. There is one ground now, so the three surface names all
+     resolve to it and the difference between them is drawn with rules. */
+  --surface-page: var(--ground);
+  --surface-card: transparent;
+  --surface-raised: transparent;
+  --surface-sunken: var(--ground);
+  --surface-inverse: var(--ink);
+
+  --text-1: var(--ink);
+  --text-2: var(--ink-2);
+  --text-3: var(--ink-3);
+  --text-inverse: var(--ground);
+  --text-on-brand: var(--ground);
+
+  --brand: var(--accent);
+  --brand-hover: var(--accent-lit);
+  --brand-press: var(--accent);
+  --brand-soft: var(--accent-wash);
+  --support: var(--ink-2);
+  --support-soft: var(--wash-2);
+  --highlight: rgba(200, 86, 75, 0.22);
+  --chrome-accent: var(--accent);
+
+  --border-1: var(--rule);
+  --border-2: var(--rule-2);
+  --border-strong: var(--rule-lit);
+  --focus: var(--accent);
+  --shadow-1: none;
+  --shadow-2: none;
+  --shadow-3: none;
+  --shadow-press: none;
+  --ring-focus: 0 0 0 2px var(--accent);
+
+  /* Faces. Sono and Shantell Sans are gone; Literata stays, because it was
+     the one face the audit found nothing wrong with. */
+  --font-ui: var(--face-ui);
+  --font-sans: var(--face-ui);
+  --font-display: var(--face-mark);
+  --font-mono: var(--face-meta);
+  --font-read: var(--face-read);
+  --font-serif: var(--face-read);
+
+  --fs-100: 10.5px;
+  --fs-200: 11px;
+  --fs-300: 12.5px;
+  --fs-400: 13px;
+  --fs-500: 14.5px;
+  --fs-600: 16px;
+  --fs-700: 19px;
+  --fs-1000: 40px;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 500;
+  --fw-bold: 600;
+  --ls-label: 0.08em;
+  --ls-eyebrow: 0.16em;
+
+  --type-body: 400 14.5px/1.6 var(--face-ui);
+  --type-body-sm: 400 13px/1.55 var(--face-ui);
+  --type-label: 400 12.5px/1 var(--face-meta);
+  --type-caption: 400 11.5px/1.5 var(--face-meta);
+  --type-eyebrow: 400 10.5px/1 var(--face-meta);
+  --type-title-1: 400 23px/1.2 var(--face-mark);
+  --type-title-2: 400 19px/1.25 var(--face-mark);
+  --type-title-3: 400 16px/1.25 var(--face-mark);
+  --type-passage: 400 19px/1.75 var(--face-read);
+  --type-passage-size: 19px;
+  --type-passage-line-height: 1.75;
+  --type-passage-measure: 62ch;
+  --type-passage-letter-spacing: 0;
+  --type-ui-size-sm: 13px;
+  --type-ui-size-md: 14.5px;
+  --type-ui-weight-medium: 500;
+  --measure: 62ch;
+
+  /* Space. The old scale ran 1–11; these are the same steps. */
+  --sp-1: 2px;
+  --sp-2: 4px;
+  --sp-3: 6px;
+  --sp-4: 8px;
+  --sp-5: 12px;
+  --sp-6: 16px;
+  --sp-7: 20px;
+  --sp-8: 24px;
+  --sp-9: 32px;
+  --sp-10: 44px;
+  --sp-11: 60px;
+  --space-3: 6px;
+  --space-4: 8px;
+  --space-5: 12px;
+  --space-6: 16px;
+  --space-8: 24px;
+  --page-pad-x-lg: 24px;
+  --content-max: 1000px;
+  --shell-max: 840px;
+  --tap-min: 44px;
+  --control-h: 40px;
+  --control-h-lg: 44px;
+  --press-scale: 0.985;
+  --bw-hairline: 1px;
+
+  /* Corners. The redesign is square-ish: 4px, 6px, and pills where a pill
+     genuinely means "this is one of several". */
+  --r-xs: 3px;
+  --r-sm: var(--radius);
+  --r-md: var(--radius-lg);
+  --r-lg: var(--radius-lg);
+  --r-xl: var(--radius-lg);
+  --r-pill: 999px;
+  --radius-sm: var(--radius);
+  --radius-pill: 999px;
+
+  --dur-1: var(--fast);
+  --dur-2: var(--base);
+  --dur-3: var(--slow);
+  --ease-out: var(--ease);
+  --ease-spring: var(--ease-spring);
+  --motion-duration-instant: 80ms;
+  --motion-duration-fast: var(--fast);
+  --motion-duration-base: var(--base);
+  --motion-duration-slow: var(--slow);
+  --motion-duration-beam: 900ms;
+  --motion-easing-standard: var(--ease);
+  --motion-easing-decelerate: cubic-bezier(0, 0, 0, 1);
+  --motion-easing-spring-loud: cubic-bezier(0.5, 1.8, 0.4, 1);
+}

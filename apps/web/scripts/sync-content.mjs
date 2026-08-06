@@ -73,6 +73,11 @@ if (catalogueDigest !== lock.sha256) {
 }
 writeFileSync(join(outDir, "catalogue-v0.1.0.json"), catalogueBytes);
 
+// content/glosses holds what the app owns: the shared sense lists, the
+// composed-passage table, and the one vendored book's table. Every other
+// book's table lives beside that book in the library repository and is
+// fetched from the same CDN commit as its text, so neither this repository
+// nor a deploy carries a gigabyte of per-book data (src/content/glosses.ts).
 const glossesDir = join(contentRoot, "glosses");
 let glossFileCount = 0;
 if (existsSync(glossesDir)) {
@@ -106,6 +111,16 @@ if (existsSync(challengesDir)) {
 const indexPath = join(contentRoot, "catalogue", "index-v1.json");
 if (existsSync(indexPath)) {
   writeFileSync(join(outDir, "catalogue-index.json"), readFileSync(indexPath));
+}
+
+// Every book's description, as Standard Ebooks wrote it (scripts/
+// fetch-descriptions.mjs, run by hand and committed — a build never reaches
+// the network). Kept beside the index rather than inside it: it is roughly
+// as large again as the index itself, and only a book's own page needs it,
+// so the Library does not pay for it on every load.
+const descriptionsPath = join(contentRoot, "catalogue", "descriptions-v1.json");
+if (existsSync(descriptionsPath)) {
+  writeFileSync(join(outDir, "catalogue-descriptions.json"), readFileSync(descriptionsPath));
 }
 
 console.log(`synced ${challengeFileCount} challenge data file(s) -> public/content/`);

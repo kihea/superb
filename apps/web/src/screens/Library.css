@@ -1,146 +1,100 @@
-/* Frame 2g. */
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
-.library-search__field {
-  width: 100%;
-  min-height: var(--tap-min);
-  background: var(--surface-card);
-  border: 1px solid var(--border-1);
-  border-radius: var(--r-pill);
-  box-shadow: var(--shadow-1);
-  padding: 0 var(--sp-7);
-  font: var(--type-body-sm);
-  color: var(--text-1);
-}
-
-.library-search__field::placeholder {
-  color: var(--text-3);
-}
-
-.library-moods {
+/* The categories. Eleven of them, so the row wraps rather than scrolling
+   sideways past the edge of the screen — a chip a reader cannot see is a
+   category they do not know exists. */
+.library__kinds {
   display: flex;
-  gap: var(--sp-4);
-  overflow-x: auto;
-  scrollbar-width: none;
+  gap: 7px;
+  flex-wrap: wrap;
 }
 
-.library-moods::-webkit-scrollbar {
-  display: none;
-}
+/* ── The shelves: named rows of books that drift sideways ────────────── */
 
-.library-mood {
-  font: var(--fw-semibold) var(--fs-200) / 1 var(--font-ui);
-  padding: var(--sp-4) var(--sp-5);
-  min-height: var(--sp-9);
-  border-radius: var(--r-pill);
-  background: var(--surface-card);
-  border: 1px solid var(--border-1);
-  color: var(--text-2);
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.library-mood--on {
-  background: var(--brand);
-  border-color: var(--brand);
-  color: var(--text-on-brand);
-}
-
-.library-kinds {
-  display: flex;
-  gap: var(--sp-3);
-  overflow-x: auto;
-  padding-bottom: var(--sp-2);
-  scrollbar-width: none;
-}
-
-/* ── The shelves: named rows of jackets that drift sideways ───────────── */
-
-.library-shelves {
+.library__shelves {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-8);
+  gap: 34px;
 }
 
-.library-shelf {
+.library__shelf {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-4);
+  gap: 12px;
 }
 
-.library-shelf__head {
+.library__shelf-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: var(--sp-5);
+  gap: 16px;
   border: none;
   background: transparent;
   padding: 0;
+  color: var(--ink);
   cursor: pointer;
   text-align: left;
 }
 
-.library-shelf__name {
-  font: var(--fw-bold) var(--fs-600) / 1.2 var(--font-display);
-  color: var(--text-1);
+.library__shelf-name {
+  font-family: var(--face-mark);
+  font-size: 17px;
 }
 
-.library-shelf__head:hover .library-shelf__name {
-  color: var(--brand);
+.library__shelf-head:hover .library__shelf-name {
+  color: var(--accent-lit);
 }
 
-.library-shelf__count {
-  font: var(--type-caption);
-  color: var(--text-3);
-  white-space: nowrap;
-}
-
-.library-shelf__row {
+.library__row {
   display: flex;
-  gap: var(--sp-5);
+  gap: 10px;
   overflow-x: auto;
-  padding: var(--sp-2) var(--sp-2) var(--sp-5);
-  margin: 0 calc(-1 * var(--sp-2));
+  padding: 2px 2px 10px;
+  margin: 0 -2px;
   scrollbar-width: none;
-  /* Each jacket clicks into place as the row drifts. */
+  /* Each book clicks into place as the row drifts. */
   scroll-snap-type: x proximity;
 }
 
-.library-shelf__row::-webkit-scrollbar {
+.library__row::-webkit-scrollbar {
   display: none;
 }
 
-.library-shelf__row .jacket {
+.library__row .book-card {
+  flex: none;
+  width: 268px;
   scroll-snap-align: start;
 }
 
-/* ── The wall: search results, a kind, or one opened shelf ────────────── */
+.library__everything {
+  align-self: flex-start;
+}
 
-.library-wall__head {
+/* ── The wall: search results, a category, or one opened shelf ────────── */
+
+.library__wall-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: var(--sp-5);
+  gap: 16px;
 }
 
-.library-grid {
+.library__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--sp-5);
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
-@media (min-width: 45rem) {
-  .library-grid {
-    grid-template-columns: repeat(4, 1fr);
+.library__empty,
+.library__foot {
+  margin: 0;
+  color: var(--ink-3);
+}
+
+.library__more {
+  align-self: center;
+}
+
+@media (min-width: 30rem) {
+  .library__grid {
+    grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   }
 }

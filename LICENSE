@@ -49,7 +49,7 @@ A note on scope, for readers rather than for lawyers.
 
 The Commons Clause above removes one right from the MIT grant: you may not
 sell the Software, or sell a product or service whose value comes
-substantially from it. Everything else MIT allows, you may still do — read it,
+substantially from it. Everything else MIT allows, you may still do: read it,
 run it, change it, and pass it on, including changed versions, as long as it
 is free.
 
@@ -58,8 +58,8 @@ project says so plainly wherever it describes itself.
 
 <!-- LICENCE-CLAIMS:START -->
 Content is separate from code, and it is not all under one licence. Content
-written here from nothing — passages, slot classes, schemas — is dedicated to
-the public domain under CC0. Content built here from somebody else's work, and
+written here from nothing, meaning passages, slot classes and schemas, is
+dedicated to the public domain under CC0. Content built here from somebody else's work, and
 content this project did not author at all, carry the terms they came under
 instead. Each of those obligations is recorded next to the thing it binds:
 datasets have a row in `data/MANIFEST.md`, with the credits that must travel in
