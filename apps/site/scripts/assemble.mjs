@@ -156,11 +156,14 @@ function main() {
   // components use (a DOM style *attribute*, not a `<script>` -- a much
   // narrower, commonly-accepted allowance than inline script would be).
   //
-  // connect-src names one outside host: cdn.jsdelivr.net, the address the
-  // reading app fetches book text from (apps/web/src/content/catalogue.ts's
-  // LIBRARY_BASE -- the public library repository served raw through
-  // jsDelivr). Everything else the app loads is same-origin. The scheme and
-  // host are spelled in full so no other jsDelivr-shaped address rides in.
+  // connect-src names one host beyond 'self': https://superb.works, the
+  // address the reading app fetches book text and gloss tables from
+  // (apps/web/src/content/catalogue.ts's LIBRARY_BASE -- our own zone's
+  // /catalogue/* edge worker). On the live site that is same-origin and
+  // 'self' already covers it; the explicit spelling is for the *.pages.dev
+  // preview deployments, where the same artifact runs on a different origin
+  // and the fetch is cross-origin. The scheme and host are spelled in full
+  // so nothing else rides in.
   const LANDING_CSP = [
     "default-src 'self'",
     "script-src 'self' 'unsafe-eval'",
@@ -176,7 +179,7 @@ function main() {
     "default-src 'self'",
     "script-src 'self' 'wasm-unsafe-eval'",
     "style-src 'self' 'unsafe-inline'",
-    "connect-src 'self' https://cdn.jsdelivr.net",
+    "connect-src 'self' https://superb.works",
     "img-src 'self' data:",
     "object-src 'none'",
     "base-uri 'self'",
@@ -227,7 +230,13 @@ ${APP_BASE}*
 `,
   );
 
-  console.log(`assembled -> ${SITE_DIST} (landing at /, app at ${APP_BASE})`);
+  // The edge worker (worker/_worker.js): Cloudflare Pages runs a _worker.js
+  // found at the artifact root in front of every request. It serves
+  // /catalogue/* -- the book library from our own zone, with the AI-crawler
+  // 402 -- and hands everything else to the static assets unchanged.
+  cpSync(path.join(SITE_ROOT, 'worker', '_worker.js'), path.join(SITE_DIST, '_worker.js'));
+
+  console.log(`assembled -> ${SITE_DIST} (landing at /, app at ${APP_BASE}, catalogue worker at /catalogue/*)`);
 }
 
 // Guarded, not a bare call: check-assembled.mjs imports this module for its

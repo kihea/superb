@@ -12,10 +12,12 @@ import type { CatalogueBook, CataloguePart, CatalogueArtifact } from "./catalogu
 const CONTENT_CACHE = "superb-content-v1";
 const contentUrl = (name: string) => `${import.meta.env.BASE_URL}content/${name}`;
 
-// The library repository, served raw through jsDelivr's CDN. The books are
-// public domain and the repository is public; nothing here is a service of
-// ours that could go missing separately from the catalogue itself.
-const LIBRARY_BASE = "https://cdn.jsdelivr.net/gh/superb-catalogue/library@main/books";
+// The library, served from our own zone: superb.works/catalogue/* is the
+// site's edge worker proxying the public library repository, cached at the
+// edge. Our own address rather than a public CDN mirror so that crawler
+// policy (the AI-crawler 402, Cloudflare's zone controls) actually applies
+// to the serving of these books; a reader and this app pass through freely.
+const LIBRARY_BASE = "https://superb.works/catalogue/books";
 
 export interface CatalogueIndexRow {
   id: string;

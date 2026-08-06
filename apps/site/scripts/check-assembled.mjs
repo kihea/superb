@@ -62,10 +62,15 @@ const ALLOWED_LANDING_HOSTS = new Set();
 //   - scripts.sil.org: named in fonts/LICENSE-OFL.txt itself, the licence
 //     text shipped beside the vendored Geist font files -- the OFL's own FAQ
 //     link, read by whoever opens the licence, never fetched by the site.
-//   - cdn.jsdelivr.net: named in _headers at the artifact root -- the read
+//   - superb.works: named in _headers at the artifact root -- the read
 //     surface's own connect-src spelling out the one host the reading app
-//     may fetch book text from. Policy text that restricts, not an address
-//     the landing ever loads; the landing's own connect-src stays 'self'.
+//     may fetch book text from (our own zone). Policy text that restricts,
+//     not an address the landing ever loads; the landing's own connect-src
+//     stays 'self'.
+//   - raw.githubusercontent.com: named in _worker.js at the artifact root --
+//     the upstream the /catalogue/* edge worker proxies the library
+//     repository from. Fetched by the worker at the edge, never by any page
+//     the browser runs; no page's CSP names it.
 const ALLOWED_LANDING_NAMED_HOSTS = new Set([
   ...ALLOWED_LANDING_HOSTS,
   'github.com',
@@ -74,7 +79,8 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
   'www.w3.org',
   'reactjs.org',
   'scripts.sil.org',
-  'cdn.jsdelivr.net',
+  'superb.works',
+  'raw.githubusercontent.com',
 ]);
 
 // Issue #128: the static scan used to stop at dist/read -- the reading app's
@@ -87,11 +93,15 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
 // browser-enforced CSP on /read/* pins connect-src to 'self' plus that one
 // host (proved live by check-csp.mjs), so this list is the early-warning
 // lint on top, not the boundary.
-//   - cdn.jsdelivr.net: the one outside address the reading app actually
-//     talks to -- book text, fetched from the public library repository
-//     served raw through jsDelivr (apps/web/src/content/catalogue.ts's
+//   - superb.works: the one address beyond its own origin the reading app
+//     actually talks to -- book text and gloss tables from our own zone's
+//     /catalogue/* worker (apps/web/src/content/catalogue.ts's
 //     LIBRARY_BASE), and named in assemble.mjs's connect-src for the same
 //     reason.
+//   - patents.google.com, www.uspto.gov, patentimages.storage.googleapis.com:
+//     the patents' own source links and terms pages in their provenance
+//     records inside the synced catalogue -- rule 2's required citation,
+//     meant to be read, never fetched by the app.
 //   - react.dev: the app's bundled React's minified-error decoder link --
 //     text inside a thrown Error's message for a developer to open by hand.
 //   - www.w3.org: XML/SVG namespace URI constants passed to createElementNS
@@ -109,7 +119,7 @@ const ALLOWED_LANDING_NAMED_HOSTS = new Set([
 //   - creativecommons.org: the CC0 licence link the catalogue cites for its
 //     own public-domain dedication (ADR-025) -- citable text, not fetched.
 const ALLOWED_READ_NAMED_HOSTS = new Set([
-  'cdn.jsdelivr.net',
+  'superb.works',
   'react.dev',
   'www.w3.org',
   'bit.ly',
@@ -118,6 +128,9 @@ const ALLOWED_READ_NAMED_HOSTS = new Set([
   'archive.org',
   'www.gutenberg.org',
   'creativecommons.org',
+  'patents.google.com',
+  'www.uspto.gov',
+  'patentimages.storage.googleapis.com',
 ]);
 
 // Extensions skipped by the host scan below. This is a deny-list on purpose,
@@ -382,13 +395,17 @@ const problems = [];
   });
 
   await page.goto(`${origin}/read/`);
+  // The welcome's first painted panel (FirstOpen.tsx's own selector — the
+  // plate-and-Start step a fresh browser context always lands on). The old
+  // `.first-open__wordmark` died with the welcome's redesign ("The first
+  // open ends holding a book") and this check kept asserting it.
   const reached = await page
-    .waitForSelector('.first-open__wordmark', { timeout: 20_000 })
+    .waitForSelector('.first__panel', { timeout: 20_000 })
     .then(() => true)
     .catch(() => false);
   await page.close();
 
-  if (!reached) problems.push('/read/ : the welcome wordmark never appeared (first painted surface)');
+  if (!reached) problems.push('/read/ : the welcome panel never appeared (first painted surface)');
   if (failedRequests.length > 0)
     problems.push(`/read/ : failed network requests --\n    ${failedRequests.join('\n    ')}`);
   if (consoleErrors.length > 0)

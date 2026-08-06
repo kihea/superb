@@ -20,11 +20,12 @@ const CONTENT_CACHE = "superb-content-v1";
 const contentUrl = (name: string) => `${import.meta.env.BASE_URL}content/${name}`;
 
 // A book's own gloss table travels with the book, in the library
-// repository, and is fetched from the same jsDelivr path and the same
-// commit as its text (content/catalogue.ts's LIBRARY_BASE). Shipping every
-// table with the app meant a gigabyte of data in the repository and in
-// every deploy, for something the app only hands straight to the reader.
-const LIBRARY_BASE = "https://cdn.jsdelivr.net/gh/superb-catalogue/library@main/books";
+// repository, and is fetched from the same path as its text
+// (content/catalogue.ts's LIBRARY_BASE -- our own zone's /catalogue/*
+// worker). Shipping every table with the app meant a gigabyte of data in
+// the repository and in every deploy, for something the app only hands
+// straight to the reader.
+const LIBRARY_BASE = "https://superb.works/catalogue/books";
 
 /** One tagged sense: a content part of speech ("noun" | "verb" | "adj" |
  *  "adv") and the definition that reading carries. `cap` marks a sense

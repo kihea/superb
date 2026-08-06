@@ -52,7 +52,11 @@ const index = JSON.parse(readFileSync(CATALOGUE_INDEX, 'utf-8'));
 const groups = new Map([...KINDS, 'More'].map((k) => [k, []]));
 for (const row of index.books) groups.get(kindOf(row)).push(row);
 for (const rows of groups.values()) {
-  rows.sort((a, b) => a.author.localeCompare(b.author) || a.title.localeCompare(b.title));
+  // A book may honestly have no author on record (anonymous works); it
+  // sorts under empty rather than crashing the whole printed library.
+  rows.sort(
+    (a, b) => (a.author ?? '').localeCompare(b.author ?? '') || (a.title ?? '').localeCompare(b.title ?? ''),
+  );
 }
 
 const groupsHtml = [...groups.entries()]
