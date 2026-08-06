@@ -56,12 +56,30 @@
   background: color-mix(in srgb, currentColor 8%, transparent);
 }
 
+/* The title block is the door to the contents: tap it and the book opens to
+   its own contents page. */
 .reader__where {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 2px;
+  align-items: flex-start;
+  text-align: left;
+  border: none;
+  background: none;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.reader__caret {
+  display: inline-block;
+  transition: transform var(--fast);
+}
+
+.reader__where[aria-expanded="true"] .reader__caret {
+  transform: rotate(180deg);
 }
 
 .reader__book {
@@ -92,6 +110,8 @@
   position: absolute;
   inset: 22px 22px;
   overflow: hidden;
+  /* A sideways swipe turns the page; anything vertical stays the browser's. */
+  touch-action: pan-y;
 }
 
 @media (min-width: 47.5rem) {
@@ -249,12 +269,18 @@
   color: var(--accent);
 }
 
+/* The ticks double as a scrubber: the strip is grabbable, and dragging along
+   it riffles through the chapter. touch-action: none keeps the drag ours on a
+   phone rather than becoming a scroll. */
 .reader__ticks {
   flex: 1;
   display: flex;
   align-items: center;
   gap: 3px;
   min-width: 0;
+  padding: 14px 0;
+  cursor: pointer;
+  touch-action: none;
 }
 
 .reader__tick {
@@ -357,4 +383,79 @@
 .reader__choice--on {
   border-color: var(--paper-rule-2);
   background: color-mix(in srgb, currentColor 10%, transparent);
+}
+
+/* ── the contents ────────────────────────────────────────────────────── */
+
+/* Set like a printed contents page: the chapter's number, a dotted leader,
+   the chapter's own first heading line, and the ribbon's red marking the
+   chapter being read. */
+.reader__sheet--contents .reader__sheet-inner {
+  gap: 10px;
+}
+
+.reader__contents {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: min(52vh, 420px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.reader__contents-row {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 9px 4px;
+  border: none;
+  background: none;
+  color: inherit;
+  font-family: var(--face-meta);
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: background var(--fast);
+}
+
+.reader__contents-row:hover {
+  background: color-mix(in srgb, currentColor 6%, transparent);
+}
+
+.reader__contents-label {
+  flex: none;
+  letter-spacing: 0.05em;
+}
+
+.reader__contents-leader {
+  flex: 1;
+  min-width: 18px;
+  border-bottom: 1px dotted var(--paper-rule-2);
+  transform: translateY(-3px);
+}
+
+.reader__contents-heading {
+  flex: none;
+  max-width: 55%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--paper-dim);
+  font-size: 11px;
+}
+
+/* The bookmark, in miniature, beside the chapter being read. */
+.reader__contents-mark {
+  flex: none;
+  align-self: center;
+  width: 7px;
+  height: 14px;
+  background: var(--accent);
+  opacity: 0.85;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+}
+
+.reader__contents-row--here .reader__contents-label {
+  color: var(--accent);
 }

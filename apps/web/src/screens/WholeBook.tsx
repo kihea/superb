@@ -57,7 +57,7 @@ export function WholeBook({ id }: { id: string }) {
   const [glosses, setGlosses] = useState<Record<string, BookGlossEntry>>({});
   const [partIndex, setPartIndex] = useState(0);
   const [tapped, setTapped] = useState<TappedWord | null>(null);
-  const [sheet, setSheet] = useState<"none" | "type">("none");
+  const [sheet, setSheet] = useState<"none" | "type" | "contents">("none");
 
   const [page, setPage] = useState(0);
   const [pages, setPages] = useState(1);
@@ -65,6 +65,9 @@ export function WholeBook({ id }: { id: string }) {
 
   const viewportRef = useRef<HTMLDivElement>(null);
   const flowRef = useRef<HTMLDivElement>(null);
+  const ticksRef = useRef<HTMLDivElement>(null);
+  const scrubbing = useRef(false);
+  const swipeStart = useRef<{ x: number; y: number } | null>(null);
   const blockRefs = useRef<Map<number, HTMLElement>>(new Map());
   const resumeBlock = useRef<number | null>(null);
   const furthestBlock = useRef(0);
@@ -255,19 +258,33 @@ export function WholeBook({ id }: { id: string }) {
 
   const lastPart = partIndex >= book.parts.length - 1;
 
-  function goNextChapter() {
-    if (lastPart) {
-      void markFinished(book!.id, Date.now()).catch(() => {});
-      navigate("/");
-      return;
-    }
-    const next = partIndex + 1;
+  function goToPart(next: number) {
+    setSheet("none");
+    if (next === partIndex) return;
     resumeBlock.current = 0;
     furthestBlock.current = 0;
     blockRefs.current = new Map();
     setPartIndex(next);
     setPage(0);
     void setPlace({ bookId: book!.id, partIndex: next, blockIndex: 0, updatedAt: Date.now() }).catch(() => {});
+  }
+
+  function goNextChapter() {
+    if (lastPart) {
+      void markFinished(book!.id, Date.now()).catch(() => {});
+      navigate("/");
+      return;
+    }
+    goToPart(partIndex + 1);
+  }
+
+  /** Which page a point along the tick strip lands on. */
+  function pageAt(clientX: number): number {
+    const el = ticksRef.current;
+    if (!el) return page;
+    const rect = el.getBoundingClientRect();
+    const frac = Math.max(0, Math.min(1, (clientX - rect.left) / Math.max(1, rect.width)));
+    return Math.round(frac * (pages - 1));
   }
 
   const atEndOfChapter = page >= pages - 1;
@@ -284,10 +301,20 @@ export function WholeBook({ id }: { id: string }) {
         >
           ←
         </button>
-        <div className="reader__where">
+        <button
+          type="button"
+          className="reader__where"
+          aria-expanded={sheet === "contents"}
+          onClick={() => {
+            setTapped(null);
+            setSheet((s) => (s === "contents" ? "none" : "contents"));
+          }}
+        >
           <span className="reader__book">{book.title}</span>
-          <span className="reader__chapter">{part.label || "—"}</span>
-        </div>
+          <span className="reader__chapter">
+            {part.label || "—"} <span className="reader__caret" aria-hidden="true">⌄</span>
+          </span>
+        </button>
         <ReadAloudOrb voice={voice} onStart={() => voice.start(furthestBlock.current)} />
         <button
           type="button"
@@ -303,7 +330,21 @@ export function WholeBook({ id }: { id: string }) {
       </header>
 
       <div className="reader__stage">
-        <div className="reader__viewport" ref={viewportRef}>
+        <div
+          className="reader__viewport"
+          ref={viewportRef}
+          onPointerDown={(e) => {
+            swipeStart.current = { x: e.clientX, y: e.clientY };
+          }}
+          onPointerUp={(e) => {
+            const start = swipeStart.current;
+            swipeStart.current = null;
+            if (!start) return;
+            const dx = e.clientX - start.x;
+            const dy = e.clientY - start.y;
+            if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.5) turn(dx < 0 ? 1 : -1);
+          }}
+        >
           <div
             className={`reader__flow${settings.focus ? " reader__flow--focus" : ""}`}
             ref={flowRef}
@@ -374,7 +415,29 @@ export function WholeBook({ id }: { id: string }) {
         <button type="button" className="reader__turn" onClick={() => turn(-1)} disabled={page === 0}>
           ←
         </button>
-        <div className="reader__ticks" aria-hidden="true">
+        {/* The ticks are a scrubber: drag along them to riffle through the
+            chapter, tap to land on a page. */}
+        <div
+          className="reader__ticks"
+          ref={ticksRef}
+          role="slider"
+          tabIndex={0}
+          aria-label="Page"
+          aria-valuemin={1}
+          aria-valuemax={pages}
+          aria-valuenow={page + 1}
+          onPointerDown={(e) => {
+            scrubbing.current = true;
+            e.currentTarget.setPointerCapture(e.pointerId);
+            setPage(pageAt(e.clientX));
+          }}
+          onPointerMove={(e) => {
+            if (scrubbing.current) setPage(pageAt(e.clientX));
+          }}
+          onPointerUp={() => {
+            scrubbing.current = false;
+          }}
+        >
           {Array.from({ length: Math.min(pages, 40) }, (_, i) => (
             <span key={i} className={`reader__tick${i <= page ? " reader__tick--past" : ""}`} />
           ))}
@@ -392,6 +455,36 @@ export function WholeBook({ id }: { id: string }) {
           </button>
         )}
       </footer>
+
+      {sheet === "contents" && (
+        <div className="reader__sheet reader__sheet--contents enter-sheet">
+          <div className="reader__sheet-inner">
+            <div className="reader__sheet-head">
+              <span className="eyebrow">Contents</span>
+              <button type="button" className="reader__sheet-close" onClick={() => setSheet("none")}>
+                close
+              </button>
+            </div>
+            <ol className="reader__contents">
+              {book.parts.map((p) => (
+                <li key={p.index}>
+                  <button
+                    type="button"
+                    className={`reader__contents-row${p.index === partIndex ? " reader__contents-row--here" : ""}`}
+                    aria-current={p.index === partIndex ? "true" : undefined}
+                    onClick={() => goToPart(p.index)}
+                  >
+                    <span className="reader__contents-label">{p.label || String(p.index + 1)}</span>
+                    <span className="reader__contents-leader" aria-hidden="true" />
+                    {p.heading.length > 0 && <span className="reader__contents-heading">{p.heading[0]}</span>}
+                    {p.index === partIndex && <span className="reader__contents-mark" aria-hidden="true" />}
+                  </button>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      )}
 
       {sheet === "type" && (
         <div className="reader__sheet enter-sheet">
