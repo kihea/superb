@@ -79,8 +79,8 @@ plans and effects. The current web app stores learner state in IndexedDB.
 Superb exists to help people read with more range and confidence. It should feel
 like reading, not like managing a course. The engine quietly schedules useful
 encounters while the page stays free of scores, queues, levels, and teaching
-language. Optional association, rhyme, and elevated-language challenges may
-come later, but they do not set the shape of ordinary reading.
+language. The association, rhyme, and prose games are optional practice on the
+side; they do not set the shape of ordinary reading.
 
 ---
 

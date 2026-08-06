@@ -13,7 +13,7 @@ A book's table lives beside that book in the library checkout, as
 books/<id>/glosses.json, and is fetched from the same CDN commit as its
 text. Only the app's own tables are committed in this repository, so this
 reads the library the way book_glosses.py writes it. Pass --library to point
-at a checkout somewhere other than E:/se-work/library.
+at a checkout somewhere other than C:/se-work/library.
 
 Run: python data/pipeline/tests/test_book_glosses.py
 """
@@ -31,7 +31,7 @@ INDEX_PATH = ROOT / "content" / "catalogue" / "index-v1.json"
 # The app's own tables (the shared senses, the composed-passage table) are
 # still committed here; only the per-book ones moved.
 GLOSSES_DIR = ROOT / "content" / "glosses"
-DEFAULT_LIBRARY = pathlib.Path("E:/se-work/library")
+DEFAULT_LIBRARY = pathlib.Path("C:/se-work/library")
 LIBRARY = pathlib.Path(
     sys.argv[sys.argv.index("--library") + 1]
     if "--library" in sys.argv

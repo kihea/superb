@@ -2,19 +2,22 @@
 
 A reading app that makes you better with words.
 
-You open it and read. The library holds 1,478 books, all out of copyright. Tap a
-word you do not know and its meaning opens on the page, and you can keep the
-ones worth keeping. When you want to practise, there are three games: rhyme,
-association, and prose composed for you by an engine that learns which words
-you are ready for. The device can read the books aloud. There is no review
-queue, streak, level or score.
+You open it and read. The library holds 1,512 works, all free to share: 1,478
+books built on Standard Ebooks editions, 26 of Project Gutenberg's most-read
+titles retypeset by hand, and eight United States patents, from Bell's
+telephone to a method of exercising a cat. Tap a word you do not know and its
+meaning opens on the page, and you can keep the ones worth keeping. When you
+want to practise, there are three games: rhyme, association, and prose composed
+for you by an engine that learns which words you are ready for. The device can
+read the books aloud. There is no review queue, streak, level or score.
 
 ## What's here
 
 - **The reader.** The library, book pages, saved places, tap-a-word meanings,
-  kept words and sentences, and read-aloud. Book text comes from the
-  [library repository](https://github.com/superb-catalogue/library) and is
-  cached on device; everything the reader does stays on the device.
+  kept words and sentences, and read-aloud. Book text lives in the
+  [library repository](https://github.com/superb-catalogue/library), is served
+  from superb.works/catalogue/ on our own zone, and is cached on device;
+  everything the reader does stays on the device.
 - **The games.** Rhyme and association take anything you type or say and judge
   it against real data: pronunciations from CMUdict, and word connections from
   WordNet and our own corpus. Each then shows you what you could have said.

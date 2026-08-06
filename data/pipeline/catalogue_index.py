@@ -2,7 +2,7 @@
 
 Source: the local library checkout (one directory per book, each holding
 book.json and provenance.json, plus books/INDEX.json describing the shelf).
-The library lives at E:/se-work/library on the build machine; pass a
+The library lives at C:/se-work/library on the build machine; pass a
 different path as the first argument to read another checkout.
 
 The index is one row per book: enough for the shelf and the book cover
@@ -55,7 +55,7 @@ import re
 import sys
 from pathlib import Path
 
-DEFAULT_LIBRARY = Path("E:/se-work/library")
+DEFAULT_LIBRARY = Path("C:/se-work/library")
 OUT_PATH = Path(__file__).resolve().parent.parent.parent / "content" / "catalogue" / "index-v1.json"
 
 # Same shape as the reader's tokenizer (apps/web/src/content/render.ts):

@@ -5,15 +5,15 @@ Source: the same English-language Wiktionary extract glosses.py streams
 (wiktextract by Tatu Ylonen, code MIT; text CC BY-SA 4.0 / GFDL — see
 data/NOTICE.md and honour the attribution wherever a gloss reaches a
 reader). At this scale the extract is downloaded once to
-E:/se-work/kaikki/kaikki-english.jsonl (~3 GB) instead of being re-streamed
-per run; E:/se-work/kaikki/retrieved.txt records the download date
+C:/se-work/kaikki/kaikki-english.jsonl (~3 GB) instead of being re-streamed
+per run; C:/se-work/kaikki/retrieved.txt records the download date
 (2026-08-02 for the current build).
 
 Two stages, run as subcommands:
 
   python data/pipeline/book_glosses.py dict
       Read the local extract once and build a word -> definition store at
-      E:/se-work/kaikki/dict.sqlite. Same filtering rules as glosses.py —
+      C:/se-work/kaikki/dict.sqlite. Same filtering rules as glosses.py —
       content parts of speech only (noun/verb/adj/adv), form-of/alt-of
       senses redirect to their lemma and the first substantive gloss wins —
       but with NO frequency band: every lowercase alphabetic English entry
@@ -59,7 +59,7 @@ Lookups, in order, for a word the store does not hold directly:
     extract and redirect to their lemma, so this is a fallback, not the
     main path.
 
-The library checkout is read from E:/se-work/library (pass --library to
+The library checkout is read from C:/se-work/library (pass --library to
 point elsewhere), and the per-book tables are written back into it, beside
 the book each one belongs to. The app fetches both from the same CDN path
 and the same commit:
@@ -92,11 +92,11 @@ from pathlib import Path
 
 import glosses as gl
 
-KAIKKI_DIR = Path("E:/se-work/kaikki")
+KAIKKI_DIR = Path("C:/se-work/kaikki")
 JSONL_PATH = KAIKKI_DIR / "kaikki-english.jsonl"
 DICT_PATH = KAIKKI_DIR / "dict.sqlite"
 SENSES_PATH = KAIKKI_DIR / "senses.sqlite"
-DEFAULT_LIBRARY = Path("E:/se-work/library")
+DEFAULT_LIBRARY = Path("C:/se-work/library")
 OUT_DIR = Path(__file__).resolve().parent.parent.parent / "content" / "glosses"
 
 # Same shape as the reader's tokenizer (apps/web/src/content/render.ts).

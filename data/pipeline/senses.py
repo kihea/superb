@@ -1,7 +1,7 @@
-"""Multi-sense dictionary — writes E:/se-work/kaikki/senses.sqlite.
+"""Multi-sense dictionary — writes C:/se-work/kaikki/senses.sqlite.
 
 Source: the same local wiktextract extract book_glosses.py reads
-(E:/se-work/kaikki/kaikki-english.jsonl, ~3 GB; text CC BY-SA 4.0 / GFDL,
+(C:/se-work/kaikki/kaikki-english.jsonl, ~3 GB; text CC BY-SA 4.0 / GFDL,
 attribution in data/NOTICE.md). One pass, no network.
 
 Where glosses.py and book_glosses.py keep ONE definition per word, this
@@ -36,7 +36,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-KAIKKI_DIR = Path("E:/se-work/kaikki")
+KAIKKI_DIR = Path("C:/se-work/kaikki")
 JSONL_PATH = KAIKKI_DIR / "kaikki-english.jsonl"
 OUT_PATH = KAIKKI_DIR / "senses.sqlite"
 

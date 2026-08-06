@@ -6,7 +6,7 @@ hold the properties the app leans on: every row parses and is complete, ids
 are unique and resolve to real books on disk, and a handful of known books
 carry the right first line, shape, translator and categories.
 
-The on-disk checks need the library checkout (E:/se-work/library by
+The on-disk checks need the library checkout (C:/se-work/library by
 default; pass another path as the first argument). When it is absent the
 internal checks still run and the disk checks are skipped with a note.
 
@@ -21,7 +21,7 @@ import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 INDEX_PATH = HERE.parent.parent.parent / "content" / "catalogue" / "index-v1.json"
-DEFAULT_LIBRARY = pathlib.Path("E:/se-work/library")
+DEFAULT_LIBRARY = pathlib.Path("C:/se-work/library")
 
 
 def check(name: str, ok: bool, detail: str, problems: list[str]) -> None:

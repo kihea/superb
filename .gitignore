@@ -36,3 +36,6 @@ data/pipeline/tests/.usage_coverage_hidden.json
 data/pipeline/tests/.corpus_precision_hidden.json
 # generated wasm-bindgen output (crates/superb-wasm) — rebuilt by the wasm CI job
 crates/superb-wasm/pkg/
+
+# wrangler pages dev state
+apps/site/.wrangler/

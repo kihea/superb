@@ -304,7 +304,7 @@ def related_by_wordnet(word: str) -> dict[str, tuple[str, float, str | None]]:
     return found
 
 
-SENSES_DB = Path("E:/se-work/kaikki/senses.sqlite")
+SENSES_DB = Path("C:/se-work/kaikki/senses.sqlite")
 
 
 def load_definition_web(eligible: set[str]) -> tuple[dict[str, list[tuple[str, str]]], dict[str, list[str]], dict[str, list[tuple[str, str]]]]:
